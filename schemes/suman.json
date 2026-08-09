@@ -1,0 +1,521 @@
+{
+  "_id": "630224ffb6cde9e76fff2751",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Pregnant",
+        "Health"
+      ],
+      "schemeName": "Surakshit Matritva Aashwasan Yojana",
+      "schemeShortTitle": "SUMAN",
+      "level": {
+        "value": "central",
+        "label": "Central"
+      },
+      "schemeType": {
+        "value": "central-sector-scheme",
+        "label": "Central Sector Scheme"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce7a2d6d1a3bde46852b1",
+          "label": "Health & Wellness"
+        },
+        {
+          "value": "64f57d10ffb93104c7006c97",
+          "label": "Women and Child"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Financial assistance",
+          "label": "Financial assistance"
+        },
+        {
+          "value": "Pregnancy care",
+          "label": "Pregnancy care"
+        }
+      ],
+      "schemeOpenDate": "2019-10-10",
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "schemeFor": "Family",
+      "nodalMinistryName": {
+        "value": 489,
+        "label": "Ministry Of Health & Family Welfare"
+      },
+      "nodalDepartmentName": {
+        "value": 509,
+        "label": "Department of Health and Family Welfare"
+      }
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://nhm.gov.in/New_Updates_2018/NHM_Components/RMNCHA/MH/Guidelines/SUMAN%20Guideline%202020%20Web%20Version.pdf"
+        },
+        {
+          "title": "Official Website",
+          "url": "https://suman.mohfw.gov.in/#skip_con"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "Surakshit Matritva Aashwasan Yojana (SUMAN) is a maternity benefit initiative launched by the Ministry of Health and Family Welfare. The scheme aims to provide affordable, high-quality healthcare solutions to pregnant women and newborns. Under this scheme, ensuring assured, dignified, respectful, and quality healthcare services at zero cost for all pregnant women, mothers, and newborns visiting public health facilities.\n**Objectives of the SUMAN scheme:**\n\n- To achieve zero preventable maternal and newborn deaths.\n- To ensure assured, free, and quality healthcare services for every pregnant woman and newborn.\n- To provide dignified and respectful care, maintaining privacy and confidentiality.\n- To enforce zero tolerance for denial of services at public health facilities.\n- To ensure comprehensive maternal and newborn care, including antenatal, delivery, and postnatal services.\n\n<br>\n\n",
+      "benefits_md": "> **Under SUMAN, beneficiaries are entitled to the following free and cashless services at designated public health facilities:**\n\n**Maternal Health Services**\n\n- Minimum 4 Antenatal Care (ANC) check-ups, including one in the first trimester\n- At least one check-up under Pradhan Mantri Surakshit Matritva Abhiyan (PMSMA)\n- Free and cashless normal delivery and Caesarean section (C-section)\n- Management of pregnancy-related complications\n\n**Newborn &amp; Infant Care**\n\n- Free care for sick newborns and infants\n- Zero-dose vaccinations (as per the government schedule)\n- 6 Home-Based Newborn Care (HBNC) visits\n- Early initiation and support for breastfeeding\n\n**Transport &amp; Logistics**\n\n- Free transport from home to the health facility\n- Inter-facility referral transport\n- Drop-back facility after discharge\n\n**Other Entitlements**\n\n- Free drugs, diagnostics, and blood services\n- Postnatal care and counseling, including family planning\n- Respectful maternity care, ensuring dignity, privacy, and choice\n- Zero out-of-pocket expenditure for all entitled services\n\n<br>\n\n",
+      "briefDescription": "The scheme aims to provide assured, dignified, and completely free healthcare services to all pregnant women, mothers, and newborns at public health facilities. ",
+      "exclusions_md": "<br>\n\n",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Surakshit Matritva Aashwasan Yojana (SUMAN) is a maternity benefit initiative launched by the Ministry of Health and Family Welfare. The scheme aims to provide affordable, high-quality healthcare solutions to pregnant women and newborns. Under this scheme, ensuring assured, dignified, respectful, and quality healthcare services at zero cost for all pregnant women, mothers, and newborns visiting public health facilities."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Objectives of the SUMAN scheme:",
+              "bold": true,
+              "underline": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "To achieve zero preventable maternal and newborn deaths."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "To ensure assured, free, and quality healthcare services for every pregnant woman and newborn."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "To provide dignified and respectful care, maintaining privacy and confidentiality."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "To enforce zero tolerance for denial of services at public health facilities."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "To ensure comprehensive maternal and newborn care, including antenatal, delivery, and postnatal services."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "value": "in kind",
+        "label": "In Kind"
+      },
+      "benefits": [
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "Under SUMAN, beneficiaries are entitled to the following free and cashless services at designated public health facilities:",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Maternal Health Services",
+              "bold": true,
+              "underline": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Minimum 4 Antenatal Care (ANC) check-ups, including one in the first trimester"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "At least one check-up under Pradhan Mantri Surakshit Matritva Abhiyan (PMSMA)"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Free and cashless normal delivery and Caesarean section (C-section)"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Management of pregnancy-related complications"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Newborn & Infant Care",
+              "bold": true,
+              "underline": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Free care for sick newborns and infants"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Zero-dose vaccinations (as per the government schedule)"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "6 Home-Based Newborn Care (HBNC) visits"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Early initiation and support for breastfeeding"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Transport & Logistics",
+              "bold": true,
+              "underline": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Free transport from home to the health facility"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Inter-facility referral transport"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Drop-back facility after discharge"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Other Entitlements",
+              "bold": true,
+              "underline": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Free drugs, diagnostics, and blood services"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Postnatal care and counseling, including family planning"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Respectful maternity care, ensuring dignity, privacy, and choice"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Zero out-of-pocket expenditure for all entitled services"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ],
+      "exclusions": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "url": "",
+        "process": [
+          {
+            "type": "ol_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Individuals have to visit civil hospitals in their respective areas to register themselves for the PM SUMAN Yojana. Ideally, they have to fulfill the eligibility criteria and submit the mentioned documents to register for the scheme."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "The civil hospitals of all the districts abide by the rules mandated by the Health Ministry. However, if there are some discrepancies, individuals can log in to the SUMAN website and file a complaint. Individuals have to submit certain documents to prove their identity."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Grievance Redressal",
+                "bold": true,
+                "underline": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Access to grievance registration through:"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "104 toll-free helpline"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "SUMAN "
+              },
+              {
+                "type": "link",
+                "link": "https://suman.mohfw.gov.in/#skip_con",
+                "children": [
+                  {
+                    "text": "web portal"
+                  }
+                ]
+              },
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Facility-level helpdesks"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Time-bound resolution (within 21 days)"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          }
+        ],
+        "process_md": "\n1. Individuals have to visit civil hospitals in their respective areas to register themselves for the PM SUMAN Yojana. Ideally, they have to fulfill the eligibility criteria and submit the mentioned documents to register for the scheme.\n1. The civil hospitals of all the districts abide by the rules mandated by the Health Ministry. However, if there are some discrepancies, individuals can log in to the SUMAN website and file a complaint. Individuals have to submit certain documents to prove their identity.\n\n**Grievance Redressal**\nAccess to grievance registration through:\n104 toll-free helpline\nSUMAN [web portal](https://suman.mohfw.gov.in/#skip_con)\nFacility-level helpdesks\nTime-bound resolution (within 21 days)\n<br>\n\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n1. The applicant must be a pregnant woman. \n1. The applicant must be a mother (post-delivery) seeking services at a public health facility.\n1. Newborns aged 0 to 6 months old will be able to avail the benefits of this scheme.\n1. After delivery, lactating mothers up to 6 months from delivery are also eligible for this scheme.\n\n<br>\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must be a pregnant woman. "
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must be a mother (post-delivery) seeking services at a public health facility."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Newborns aged 0 to 6 months old will be able to avail the benefits of this scheme."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "After delivery, lactating mothers up to 6 months from delivery are also eligible for this scheme."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "suman"
+}

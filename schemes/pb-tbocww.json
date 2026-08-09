@@ -1,0 +1,234 @@
+{
+  "_id": "66b3876d0d7fcba78451f41b",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Financial Assistance",
+        "Pension",
+        "Senior Citizen",
+        "Social Welfare"
+      ],
+      "schemeName": "Pension Benefit (TBOCWW)",
+      "schemeShortTitle": "PB-TBOCWW",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce87cd6d1a3bde4685312",
+          "label": "Social welfare & Empowerment"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Pension",
+          "label": "Pension"
+        },
+        {
+          "value": "Financial assistance",
+          "label": "Financial assistance"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "state": {
+        "value": 16,
+        "label": "Tripura"
+      },
+      "nodalDepartmentName": {
+        "value": 16000031,
+        "label": "Labour Department "
+      },
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://tbocwwb.tripura.gov.in/scheme.php?id=6"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The &quot;Pension Benefit&quot; scheme was launched by the Tripura Building and Other Construction Workers Welfare Board, Labour Department Tripura. The scheme aims to provide financial assistance to the registered beneficiary who has retired due to old age attaining 60 years. The registered beneficiary will apply in the prescribed form through electronically.\n<br>\n\n",
+      "benefits_md": "\n- **A pension of ₹1,000/- per month is to be paid till the death of the pensioner.**\n\n",
+      "briefDescription": "The \"Pension Benefit\" scheme was launched by the Tripura Building and Other Construction Workers Welfare Board, Labour Department Tripura. The scheme aims to provide financial assistance to the registered beneficiary who has retired due to old age attaining 60 years.",
+      "exclusions_md": "",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The \"Pension Benefit\" scheme was launched by the Tripura Building and Other Construction Workers Welfare Board, Labour Department Tripura. The scheme aims to provide financial assistance to the registered beneficiary who has retired due to old age attaining 60 years. The registered beneficiary will apply in the prescribed form through electronically."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "A pension of ₹1,000/- per month is to be paid till the death of the pensioner.",
+                  "bold": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Online - via CSC",
+        "process": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 1:",
+                "bold": true
+              },
+              {
+                "text": " The applicant should gather copies of the necessary documents needed to apply for the concerned scheme."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2:",
+                "bold": true
+              },
+              {
+                "text": " The applicant should visit the nearest Common Service Center (CSC) and complete the Biometric Verification Process."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 3:",
+                "bold": true
+              },
+              {
+                "text": " The applicant should ensure that the CSC agent completes all mandatory fields in the application form and uploads copies of all required documents."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 4:",
+                "bold": true
+              },
+              {
+                "text": " Request a receipt or acknowledgment from the concerned authority to whom the application has been submitted. Ensure that the receipt contains essential details such as the date and time of submission, and a unique identification number (if applicable)."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "NOTE: ",
+                "bold": true
+              }
+            ]
+          },
+          {
+            "type": "ul_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "The application shall be submitted within 6 months after attaining the age of sixty years."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "The registered construction worker should surrender his beneficiary Identity Card with the application."
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "process_md": "**Step 1:** The applicant should gather copies of the necessary documents needed to apply for the concerned scheme.\n**Step 2:** The applicant should visit the nearest Common Service Center (CSC) and complete the Biometric Verification Process.\n**Step 3:** The applicant should ensure that the CSC agent completes all mandatory fields in the application form and uploads copies of all required documents.\n**Step 4:** Request a receipt or acknowledgment from the concerned authority to whom the application has been submitted. Ensure that the receipt contains essential details such as the date and time of submission, and a unique identification number (if applicable).\n<br>\n\n**NOTE:** \n\n- The application shall be submitted within 6 months after attaining the age of sixty years.\n- The registered construction worker should surrender his beneficiary Identity Card with the application.\n\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n1. The applicant should be registered under the Tripura Building and Other Construction Workers’ Welfare Board. \n1. The registered applicant should be working as a building worker for not less than 5 years.  \n1. The applicant&#39;s age should be 60 years or above.\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should be registered under the Tripura Building and Other Construction Workers’ Welfare Board. "
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The registered applicant should be working as a building worker for not less than 5 years.  "
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant's age should be 60 years or above."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "pb-tbocww"
+}

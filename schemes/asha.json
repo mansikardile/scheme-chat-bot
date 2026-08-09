@@ -1,0 +1,418 @@
+{
+  "_id": "651be84234b89517d0486f28",
+  "en": {
+    "basicDetails": {
+      "schemeOpenDate": null,
+      "schemeCloseDate": null,
+      "nodalMinistryName": null,
+      "nodalDepartmentName": {
+        "value": 32000022,
+        "label": "Industries and Commerce Department"
+      },
+      "otherMinistryName": null,
+      "otherDepartmentNames": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        },
+        {
+          "value": "business-entity",
+          "label": "Business Entity"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Setting up / start-up / entrepreneurship",
+          "label": "Setting up / start-up / entrepreneurship"
+        }
+      ],
+      "dbtScheme": false,
+      "implementingAgency": "Directorate Of Industries And Commerce, Government Of Kerala",
+      "tags": [
+        "Handicraft",
+        "Artisan",
+        "ASHA",
+        "Financial Assistance",
+        "Enterprise",
+        "Entrepreneur"
+      ],
+      "schemeName": "Assistance Scheme for Handicraft Artisans",
+      "schemeShortTitle": "ASHA",
+      "level": {
+        "value": "state",
+        "label": "State"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce733d6d1a3bde4685278",
+          "label": "Business & Entrepreneurship"
+        }
+      ],
+      "state": {
+        "value": 32,
+        "label": "Kerala"
+      },
+      "schemeFor": "Infra"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Official Website",
+          "url": "https://industry.kerala.gov.in/index.php/schemes-mainmenu/asha-schemes"
+        },
+        {
+          "title": "Guidelines",
+          "url": "https://industry.kerala.gov.in/images/pdf/ashaguidelines.pdf"
+        },
+        {
+          "title": "Application Portal",
+          "url": "https://schemes.industry.kerala.gov.in/public/index.php/schemes"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The Government of Kerala has initiated the scheme “Assistance Scheme for Handicraft Artisans (ASHA)” to provide financial assistance in the form of grants to the artisans in the handicrafts sector for setting up handicraft enterprises. The assistance is a one-time support to eligible artisans of the state as back-end assistance. The Scheme aims to replace the existing scheme and bring the artisans in the handicrafts sector under the ambit of a single scheme for availing financial assistance in the form of grant assistance for setting up handicraft enterprises.\n          For the purpose of this scheme, an artisan is a person who has been categorized as such by the office of the Development Commissioner (Handicrafts), Govt. of India or SURABHI, KSBC, KADCO, HDCK, KELPALM and has taken effective steps to set-up an enterprise in the handicrafts sector.\n> **Objectives:**\n\n\n- To provide extensive support to artisans in the handicrafts sector for setting up handicrafts-based micro-enterprises\n- To give one-time support(grant) to eligible artisans of the State as back-end assistance.\n\n",
+      "benefits_md": "\n   1. Provides assistance for the Fixed Capital Investment, i.e. construction of Work shed/Workshop, cost of tools, equipment, machinery and accessories, electrification, Technology support/product/Design development.\n   1. For General Category artisans, assistance is 40% of the Fixed Capital Investment limited to ₹2.00 lakh.\n   1. For Young (18 to 45 years), Women, and SC/ST artisans, the assistance is 50% limited to ₹3.00 lakh.\n\n**Note:** The assistance under the ‘ASHA’ shall be released to the eligible artisan in one installment.\n",
+      "exclusions_md": "<br>\n\n",
+      "briefDescription": "The Scheme intends to provide financial assistance in the form of grant to the artisans in the handicrafts sector for setting up handicraft enterprises. The assistance is a one time support to eligible artisans of the state as back end assistance.",
+      "detailedDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "The Government of Kerala has initiated the scheme “Assistance Scheme for Handicraft Artisans (ASHA)” to provide financial assistance in the form of grants to the artisans in the handicrafts sector for setting up handicraft enterprises. The assistance is a one-time support to eligible artisans of the state as back-end assistance. The Scheme aims to replace the existing scheme and bring the artisans in the handicrafts sector under the ambit of a single scheme for availing financial assistance in the form of grant assistance for setting up handicraft enterprises."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "          For the purpose of this scheme, an artisan is a person who has been categorized as such by the office of the Development Commissioner (Handicrafts), Govt. of India or SURABHI, KSBC, KADCO, HDCK, KELPALM and has taken effective steps to set-up an enterprise in the handicrafts sector."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "Objectives:",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "align_justify",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "To provide extensive support to artisans in the handicrafts sector for setting up handicrafts-based micro-enterprises"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "align_justify",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "To give one-time support(grant) to eligible artisans of the State as back-end assistance."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "ol_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Provides assistance for the Fixed Capital Investment, i.e. construction of Work shed/Workshop, cost of tools, equipment, machinery and accessories, electrification, Technology support/product/Design development."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "For General Category artisans, assistance is 40% of the Fixed Capital Investment limited to ₹2.00 lakh."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "For Young (18 to 45 years), Women, and SC/ST artisans, the assistance is 50% limited to ₹3.00 lakh."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "Note: ",
+                  "bold": true
+                },
+                {
+                  "text": "The assistance under the ‘ASHA’ shall be released to the eligible artisan in one installment."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "exclusions": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Online",
+        "process": [
+          {
+            "type": "align_justify",
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 01",
+                    "bold": true
+                  },
+                  {
+                    "text": ": Application can be submitted online through the Official website of the Directorate of Industries & Commerce, Government of Kerala. The applicant needs to visit the "
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://schemes.industry.kerala.gov.in/public/index.php/schemes",
+                    "children": [
+                      {
+                        "text": "official website"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 02:",
+                    "bold": true
+                  },
+                  {
+                    "text": " The applicant may select the scheme “Assistance Scheme for Handicraft Artisans” from the available Online Services listed on the home page and click on the “Apply Now” option. While clicking “Apply Now” redirected to the Login Page. If a new user uses the “New Registration” option and if already registered use the ‘Login’ option."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 03:",
+                    "bold": true
+                  },
+                  {
+                    "text": " A new user can register by filling in his/her details and after successful registration, the user can login."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 04:",
+                    "bold": true
+                  },
+                  {
+                    "text": " After successful login, the applicant reaches the “Applicant Home page” and clicks on “New Application” and then ‘Proceed’."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 05:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Fill out the application form completely and click on ‘Submit’."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": ""
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://schemes.industry.kerala.gov.in/public/usermanual/usermanual_applicant.pdf",
+                    "children": [
+                      {
+                        "text": "User Manual for Applicant’s Login"
+                      }
+                    ]
+                  },
+                  {
+                    "text": ""
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "process_md": "**Step 01**: Application can be submitted online through the Official website of the Directorate of Industries &amp;amp; Commerce, Government of Kerala. The applicant needs to visit the [official website](https://schemes.industry.kerala.gov.in/public/index.php/schemes).\n**Step 02:** The applicant may select the scheme “Assistance Scheme for Handicraft Artisans” from the available Online Services listed on the home page and click on the “Apply Now” option. While clicking “Apply Now” redirected to the Login Page. If a new user uses the “New Registration” option and if already registered use the ‘Login’ option.\n**Step 03:** A new user can register by filling in his/her details and after successful registration, the user can login.\n**Step 04:** After successful login, the applicant reaches the “Applicant Home page” and clicks on “New Application” and then ‘Proceed’.\n**Step 05:** Fill out the application form completely and click on ‘Submit’.\n[User Manual for Applicant’s Login](https://schemes.industry.kerala.gov.in/public/usermanual/usermanual_applicant.pdf)\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "1.\tAll Micro Enterprises engaged in the handicraft sector and set up in the State, which had filed Entrepreneurs Memorandum Part-II with the respective General Manager, District Industries Centre, or have taken Udyog Aadhaar shall be eligible for assistance under the Scheme.\n**Note:** Assistance to any unit which has already received any subsidy or grant earlier under any other schemes, from State or Central Government or Government Agencies shall be limited to the balance remaining eligible assistance payable under this scheme.\n&gt; **Obligations of the applicant artisans:**\n\n\n   1. The applicant shall provide all required details and declare such information as to be true.\n   1. The applicant shall provide clarifications or further details sought by the recommending/ sanctioning authority.\n   1. The applicant shall allow inspection or verification of any details mentioned in the application including tools, equipment &amp;amp; accessories, and all other assets if so required by the recommending/sanctioning authority.\n   1. The applicant shall produce originals of any important documents if so required by the recommending/sanctioning authority for verification.\n   1. The applicant shall execute the requisite legal agreement on paper as and when the proposal is approved for implementation.\n   1. The applicant shall utilize the amount received only in the manner agreed upon.\n   1. The applicant shall operate the unit as stipulated in the agreement in which the quantum of support received failing which the assistance shall be resumed by resorting to the provisions of the Kerala Revenue Recovery Act.\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "1.\tAll Micro Enterprises engaged in the handicraft sector and set up in the State, which had filed Entrepreneurs Memorandum Part-II with the respective General Manager, District Industries Centre, or have taken Udyog Aadhaar shall be eligible for assistance under the Scheme."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "Note: ",
+                  "bold": true
+                },
+                {
+                  "text": "Assistance to any unit which has already received any subsidy or grant earlier under any other schemes, from State or Central Government or Government Agencies shall be limited to the balance remaining eligible assistance payable under this scheme."
+                }
+              ]
+            },
+            {
+              "type": "block_quote",
+              "children": [
+                {
+                  "text": "Obligations of the applicant artisans:",
+                  "bold": true
+                }
+              ]
+            },
+            {
+              "type": "ol_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant shall provide all required details and declare such information as to be true."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant shall provide clarifications or further details sought by the recommending/ sanctioning authority."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant shall allow inspection or verification of any details mentioned in the application including tools, equipment & accessories, and all other assets if so required by the recommending/sanctioning authority."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant shall produce originals of any important documents if so required by the recommending/sanctioning authority for verification."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant shall execute the requisite legal agreement on paper as and when the proposal is approved for implementation."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant shall utilize the amount received only in the manner agreed upon."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant shall operate the unit as stipulated in the agreement in which the quantum of support received failing which the assistance shall be resumed by resorting to the provisions of the Kerala Revenue Recovery Act."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "asha"
+}

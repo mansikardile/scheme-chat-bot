@@ -1,0 +1,312 @@
+{
+  "_id": "649aa891380f8e123543f13f",
+  "en": {
+    "basicDetails": {
+      "schemeOpenDate": "2005-01-01",
+      "schemeCloseDate": null,
+      "state": {
+        "value": 8,
+        "label": "Rajasthan"
+      },
+      "nodalMinistryName": null,
+      "nodalDepartmentName": {
+        "value": 8000043,
+        "label": "Tribal Area Development Department"
+      },
+      "otherMinistryName": null,
+      "otherDepartmentNames": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Scholarships and student finance",
+          "label": "Scholarships and student finance"
+        }
+      ],
+      "dbtScheme": null,
+      "implementingAgency": null,
+      "tags": [
+        "Education",
+        "Student",
+        "Financial Assistane",
+        "Higher Education"
+      ],
+      "schemeName": "Incentive To Saharia Students For B.Ed",
+      "schemeShortTitle": "ISSFB",
+      "level": {
+        "value": "state",
+        "label": "State"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce76cd6d1a3bde4685292",
+          "label": "Education & Learning"
+        }
+      ],
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Details",
+          "url": "https://schemes.rajasthan.gov.in/scheme/detail/400"
+        },
+        {
+          "title": "Guidelines",
+          "url": "https://jankalyanfile.rajasthan.gov.in//Content/UploadFolder/Scheme/TAD/ISSFB/DOC_400_02224b31-65f4-49c7-9e84-70393f6ca87d.pdf"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The basic objective of the scheme is to provide financial assistance to the students of the Saharia region for B.Ed training so that the tribal students of the Saharia region can keep their participation in the government service. \nIn this scheme, hostel fees, scholarships (stipends), tuition fees, and stationery are given to these students. Provision has been made to give financial assistance in the form of The benefit of the scheme will be payable only for 10 months.\n",
+      "benefits_md": "Saharia tribe students who are taking regular B.Ed training are given Rs.30,000 in the first year and Rs.30,000 in the second year. \nDetails are given below :\n\n1. Rs. 26,000/- for college fees and purchase of books.\n1. Rs. 32,000/- for house rent and food.\n1. Rs. 2,000/- for clothes.\n\n<br>\n\n",
+      "exclusions_md": "<br>\n\n",
+      "briefDescription": "In Rajasthan, \"Incentive To Saharia Students For B.Ed\" scheme is run by the \"Tribal Area Development Department\" from 2004-05. ",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The basic objective of the scheme is to provide financial assistance to the students of the Saharia region for B.Ed training so that the tribal students of the Saharia region can keep their participation in the government service. "
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "In this scheme, hostel fees, scholarships (stipends), tuition fees, and stationery are given to these students. Provision has been made to give financial assistance in the form of The benefit of the scheme will be payable only for 10 months."
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Saharia tribe students who are taking regular B.Ed training are given Rs.30,000 in the first year and Rs.30,000 in the second year. "
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Details are given below :"
+            }
+          ]
+        },
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Rs. 26,000/- for college fees and purchase of books."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Rs. 32,000/- for house rent and food."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Rs. 2,000/- for clothes."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ],
+      "exclusions": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Online",
+        "url": "https://sjmsnew.rajasthan.gov.in/scholarship/",
+        "process": [
+          {
+            "type": "ol_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Applicant students have to visit the "
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://sjmsnew.rajasthan.gov.in/scholarship/",
+                    "children": [
+                      {
+                        "text": "official website."
+                      }
+                    ]
+                  },
+                  {
+                    "text": ""
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Now Select the Login option or Register Option. "
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Applicants will be redirected to the  Rajasthan "
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://sso.rajasthan.gov.in/signin",
+                    "children": [
+                      {
+                        "text": "SSO portal"
+                      }
+                    ]
+                  },
+                  {
+                    "text": ". "
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Now students can log in with their Jan-Aadhaar ID. "
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Fill out the application form."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Attach the required documents."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Submit."
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "process_md": "\n1. Applicant students have to visit the [official website.](https://sjmsnew.rajasthan.gov.in/scholarship/)1. Now Select the Login option or Register Option. \n1. Applicants will be redirected to the  Rajasthan [SSO portal](https://sso.rajasthan.gov.in/signin). 1. Now students can log in with their Jan-Aadhaar ID. \n1. Fill out the application form.\n1. Attach the required documents.\n1. Submit.\n\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n1. The student should be a native of Rajasthan.\n1. The student should belong to Saharia class, a tribe of the Baran district of Rajasthan.\n1. The student should be a regular trainee in the government / non-government BEd training institute.\n1. The student&#39;s mother/father/guardian/guardian should not be a taxpayer.\n1. The student who is studying while living in the hostel is run by the government. They will not be entitled to benefit under the said scheme.\n1. Students should have a Vaidya Bhamashah card and Aadhaar. \n\n",
+      "eligibilityDescription": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The student should be a native of Rajasthan."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The student should belong to Saharia class, a tribe of the Baran district of Rajasthan."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The student should be a regular trainee in the government / non-government BEd training institute."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The student's mother/father/guardian/guardian should not be a taxpayer."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The student who is studying while living in the hostel is run by the government. They will not be entitled to benefit under the said scheme."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Students should have a Vaidya Bhamashah card and Aadhaar. "
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "issfb"
+}

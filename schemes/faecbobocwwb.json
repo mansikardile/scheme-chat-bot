@@ -1,0 +1,958 @@
+{
+  "_id": "66acbe3cc5e4d2fe64b8ac4b",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Labour",
+        "Building Worker",
+        "Construction Worker",
+        "Education",
+        "Study",
+        "Scholarships"
+      ],
+      "schemeName": "Financial Assistance for the Education of Children of the Beneficiary (O.B.O.C.W.W.B)",
+      "schemeShortTitle": "FAECBOBOCWWB",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce76cd6d1a3bde4685292",
+          "label": "Education & Learning"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Scholarships and student finance",
+          "label": "Scholarships and student finance"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "state": {
+        "value": 21,
+        "label": "Odisha"
+      },
+      "nodalDepartmentName": {
+        "value": 2111130,
+        "label": "Labour and Employees State Insurance Department"
+      },
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://labdirodisha.gov.in/?q=node/15%27%3B"
+        },
+        {
+          "title": "Guidelines",
+          "url": "https://bocboard.labdirodisha.gov.in/Building/homecontent/Education/Resolution-new%20&%20upgradation%20of%20benefits.pdf"
+        },
+        {
+          "title": "Guidelines",
+          "url": "https://nirmanshramik.odisha.gov.in/website/schemes"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The “Financial Assistance for the Education of Children of the Beneficiary” scheme by the Building and Other Construction Workers Welfare Board, Labour Department, Odisha, is a welfare scheme for the registered workers of the board. Under this scheme, the Board shall provide financial assistance for education to the children of the registered member of the board for a period of one year or more. This assistance shall be entitled up to two children. In case both the spouses are registered beneficiaries, either of them will be eligible to get the benefit of educational assistance.\n&lt;br&gt;\n\n",
+      "benefits_md": "<br>\n\n**Class/ Level****Amount (Per Annum)**For class - 6th and 7th (Girl child)₹2,000/-For class - 8th (Children)₹2,000/-For class - 9th (Children)₹3,000/-For class - 10th (Children)₹4,000/-Onetime Cash award to the children of registered beneficiaries securing 90% or above in Class- 1Oth₹10,000/-For B. Ed., CT, Nursing Training and other Technical Education₹40,000/-<br>\n\n",
+      "briefDescription": "The “Financial Assistance for the Education of Children of the Beneficiary” scheme by the BOCW Welfare Board, Labour Department, Odisha, is a welfare scheme that provides financial assistance for education to the children of the registered member of the board for a period of one year or more.",
+      "exclusions_md": "",
+      "detailedDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "The “Financial Assistance for the Education of Children of the Beneficiary” scheme by the Building and Other Construction Workers Welfare Board, Labour Department, Odisha, is a welfare scheme for the registered workers of the board. Under this scheme, the Board shall provide financial assistance for education to the children of the registered member of the board for a period of one year or more. This assistance shall be entitled up to two children. In case both the spouses are registered beneficiaries, either of them will be eligible to get the benefit of educational assistance."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": ""
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "children": [
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Class/ Level",
+                      "bold": true
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Amount (Per Annum)",
+                      "bold": true
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "For class - 6th and 7th (Girl child)"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "₹2,000/-"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "For class - 8th (Children)"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "₹2,000/-"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "For class - 9th (Children)"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "₹3,000/-"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "For class - 10th (Children)"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "₹4,000/-"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Onetime Cash award to the children of registered beneficiaries securing 90% or above in Class- 1Oth"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "₹10,000/-"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "For B. Ed., CT, Nursing Training and other Technical Education"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "₹40,000/-"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Online",
+        "process": [
+          {
+            "type": "align_justify",
+            "children": [
+              {
+                "type": "block_quote",
+                "children": [
+                  {
+                    "text": "Registration Process as a Building/ Construction Worker:",
+                    "bold": true,
+                    "underline": true
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 1:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Visit the official "
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://nirmanshramik.odisha.gov.in/obocwwb/public/cwLogin",
+                    "children": [
+                      {
+                        "text": "website "
+                      }
+                    ]
+                  },
+                  {
+                    "text": "of the Odisha BOCWW Board."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 2:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Click on “One Time Registration” on the top right side of the page."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 3:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Click on the Declaration box and then on the “Proceed” button."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 4:",
+                    "bold": true
+                  },
+                  {
+                    "text": " In the next window fill in all the required details carefully and click on “Proceed”."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 5:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Enter the received OTP and click on “Submit”."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 6: ",
+                    "bold": true
+                  },
+                  {
+                    "text": "Your account will be successfully created and a Username will be displayed (Keep the Username for future references)."
+                  }
+                ]
+              },
+              {
+                "type": "block_quote",
+                "children": [
+                  {
+                    "text": "Application Process of the Welfare Scheme:",
+                    "bold": true,
+                    "underline": true
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 1: ",
+                    "bold": true
+                  },
+                  {
+                    "text": "Visit the Applicant "
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://nirmanshramik.odisha.gov.in/obocwwb/public/cwLogin",
+                    "children": [
+                      {
+                        "text": "Login page"
+                      }
+                    ]
+                  },
+                  {
+                    "text": " of the Odisha BOCWW Board."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 2: ",
+                    "bold": true
+                  },
+                  {
+                    "text": "Enter your Username, OTP and fill in the captcha then click on “Sign In”."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 3:",
+                    "bold": true
+                  },
+                  {
+                    "text": " In the next window, fill in your General Details, Address Details, Family & Nominee Details, Details of the establishment(s) where the applicant worked during the last one year, Bank Details etc. and then click on “Submit”."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 4: ",
+                    "bold": true
+                  },
+                  {
+                    "text": "Now in the Menu bar section, click on “Benefit”. From the list select the concerned benefit you want to apply."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 5: ",
+                    "bold": true
+                  },
+                  {
+                    "text": "Fill in all the mandatory details carefully and click on “Submit” to complete the application process."
+                  }
+                ]
+              },
+              {
+                "type": "block_quote",
+                "children": [
+                  {
+                    "text": "Check Your Application Status: ",
+                    "bold": true
+                  },
+                  {
+                    "text": "Registered workers can check their application status through visiting this "
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://nirmanshramik.odisha.gov.in/obocwwb/public/applicationTracking",
+                    "children": [
+                      {
+                        "text": "link "
+                      }
+                    ]
+                  },
+                  {
+                    "text": "upon entering their Application Tracking Number."
+                  }
+                ]
+              },
+              {
+                "type": "block_quote",
+                "children": [
+                  {
+                    "text": "Pay Annual Contribution:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Registered workers can pay the Annual Contribution through visiting this "
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://nirmanshramik.odisha.gov.in/obocwwb/public/payAnnuealContribution",
+                    "children": [
+                      {
+                        "text": "link "
+                      }
+                    ]
+                  },
+                  {
+                    "text": "upon entering their Registration Number."
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "process_md": "&gt; **Registration Process as a Building/ Construction Worker:**\n\n**Step 1:** Visit the official [website ](https://nirmanshramik.odisha.gov.in/obocwwb/public/cwLogin)of the Odisha BOCWW Board.\n**Step 2:** Click on “One Time Registration” on the top right side of the page.\n**Step 3:** Click on the Declaration box and then on the “Proceed” button.\n**Step 4:** In the next window fill in all the required details carefully and click on “Proceed”.\n**Step 5:** Enter the received OTP and click on “Submit”.\n**Step 6:** Your account will be successfully created and a Username will be displayed (Keep the Username for future references).\n&gt; **Application Process of the Welfare Scheme:**\n\n**Step 1:** Visit the Applicant [Login page](https://nirmanshramik.odisha.gov.in/obocwwb/public/cwLogin) of the Odisha BOCWW Board.\n**Step 2:** Enter your Username, OTP and fill in the captcha then click on “Sign In”.\n**Step 3:** In the next window, fill in your General Details, Address Details, Family &amp;amp; Nominee Details, Details of the establishment(s) where the applicant worked during the last one year, Bank Details etc. and then click on “Submit”.\n**Step 4:** Now in the Menu bar section, click on “Benefit”. From the list select the concerned benefit you want to apply.\n**Step 5:** Fill in all the mandatory details carefully and click on “Submit” to complete the application process.\n&gt; **Check Your Application Status:** Registered workers can check their application status through visiting this [link ](https://nirmanshramik.odisha.gov.in/obocwwb/public/applicationTracking)upon entering their Application Tracking Number.\n\n&gt; **Pay Annual Contribution:** Registered workers can pay the Annual Contribution through visiting this [link ](https://nirmanshramik.odisha.gov.in/obocwwb/public/payAnnuealContribution)upon entering their Registration Number.\n\n"
+      },
+      {
+        "mode": "Offline",
+        "process": [
+          {
+            "type": "align_justify",
+            "children": [
+              {
+                "type": "block_quote",
+                "children": [
+                  {
+                    "text": "Registration Process as a Building/ Construction Worker:",
+                    "bold": true,
+                    "underline": true
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 1: ",
+                    "bold": true
+                  },
+                  {
+                    "text": "To register as a beneficiary under the BOCW Welfare Board, an applicant worker should download "
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://bocboard.labdirodisha.gov.in/Building/homecontent/BeneficiaryForms/REGISTRATION%20FORM.pdf",
+                    "children": [
+                      {
+                        "text": "Form-XXVII"
+                      }
+                    ]
+                  },
+                  {
+                    "text": " and attach all the mandatory documents (self-attested, if required)."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 2:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Application shall be submitted to the District Labour Officers (D.L.O)/ Asst. Labour Officers/ Rural Labour Inspectors of your area."
+                  }
+                ]
+              },
+              {
+                "type": "block_quote",
+                "children": [
+                  {
+                    "text": "Application Process of the Welfare Scheme:",
+                    "bold": true,
+                    "underline": true
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 1: ",
+                    "bold": true
+                  },
+                  {
+                    "text": "A registered worker should download "
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://bocboard.labdirodisha.gov.in/Building/homecontent/BeneficiaryForms/EDUCATION%20FORM.pdf",
+                    "children": [
+                      {
+                        "text": "Form-XLII"
+                      }
+                    ]
+                  },
+                  {
+                    "text": " and attach all the mandatory documents (self-attested, if required)."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 2:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Application shall be submitted to the District Labour Officers (D.L.O)/ Asst. Labour Officers/ Rural Labour Inspectors of your area."
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "process_md": "&gt; **Registration Process as a Building/ Construction Worker:**\n\n**Step 1:** To register as a beneficiary under the BOCW Welfare Board, an applicant worker should download [Form-XXVII](https://bocboard.labdirodisha.gov.in/Building/homecontent/BeneficiaryForms/REGISTRATION%20FORM.pdf) and attach all the mandatory documents (self-attested, if required).\n**Step 2:** Application shall be submitted to the District Labour Officers (D.L.O)/ Asst. Labour Officers/ Rural Labour Inspectors of your area.\n&gt; **Application Process of the Welfare Scheme:**\n\n**Step 1:** A registered worker should download [Form-XLII](https://bocboard.labdirodisha.gov.in/Building/homecontent/BeneficiaryForms/EDUCATION%20FORM.pdf) and attach all the mandatory documents (self-attested, if required).\n**Step 2:** Application shall be submitted to the District Labour Officers (D.L.O)/ Asst. Labour Officers/ Rural Labour Inspectors of your area.\n"
+      }
+    ],
+    "schemeDefinitions": [
+      {
+        "name": "Building or other construction work",
+        "definition": [
+          {
+            "type": "align_justify",
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "\"Building or other construction work” means the construction, alteration, repairs, maintenance or demolition, of or, in relation to, buildings, streets, roads, railways, tramways, airfields, irrigation, drainage, embankment and navigation works, flood control works( including storm water drainage works), generation, transmission and distribution of power, water works (including channels for distribution of water),oil and gas installations, electric lines, wireless, radio, television, telephone, telegraph and overseas communications, dams, canals, reservoirs, watercourses, tunnels, bridges, viaducts, aqueducts, pipelines, towers, cooling towers, transmission towers and such other work as may be specified in this behalf by the appropriate Government, by notification but does not include any building or other construction work to which the provisions of the Factories Act, 1948 (63 of 1948), or the Mines Act, 1952 (35 of 1952), apply;"
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "In addition to the above, the Govt. of Odisha vide Notification dated.28.07.2014 also specified the following categories of works as building and other construction works."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "• Minor Port."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "• Cutting, breaking and crushing of stone."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "• Cutting and polishing of slabs or tiles."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "• Woodwork including painting and varnishing."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "• Sewerage and plumbing work."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "• Electrical works including wiring, distribution and panel fixing."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "• Installation and repair of fire fighting systems."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "• Installation and repair of cooling and heating system."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "• Installation of lifts and escalators."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "• Installation of security gates."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "• Fabrication and installation of iron or metal grills, windows and doors."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "• Construction of water harvesting structures."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "• Interior work including carpeting, false ceiling, lighting and plaster of paris."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "• Cutting, glazing and installation of glass panels."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "• Making of Bricks and roofing tiles not covered under the Factories Act, 1948."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "• Installation of energy efficient equipment like solar panels."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "• Installation of modular units for use in places such as kitchens."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "• Making and installation of pre-fabricated concrete modules."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "• Construction of sports or recreation facilities including swimming pools and golf courses."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "• Construction or erection of signage, road furniture, bus shelters or depots or stands and signalling systems."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "• Construction of rotaries and installation of fountains."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "• Construction of public parks, walking tracks and landscaping.\""
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "definitions_md": "&amp;quot;Building or other construction work” means the construction, alteration, repairs, maintenance or demolition, of or, in relation to, buildings, streets, roads, railways, tramways, airfields, irrigation, drainage, embankment and navigation works, flood control works( including storm water drainage works), generation, transmission and distribution of power, water works (including channels for distribution of water),oil and gas installations, electric lines, wireless, radio, television, telephone, telegraph and overseas communications, dams, canals, reservoirs, watercourses, tunnels, bridges, viaducts, aqueducts, pipelines, towers, cooling towers, transmission towers and such other work as may be specified in this behalf by the appropriate Government, by notification but does not include any building or other construction work to which the provisions of the Factories Act, 1948 (63 of 1948), or the Mines Act, 1952 (35 of 1952), apply;\nIn addition to the above, the Govt. of Odisha vide Notification dated.28.07.2014 also specified the following categories of works as building and other construction works.\n• Minor Port.\n• Cutting, breaking and crushing of stone.\n• Cutting and polishing of slabs or tiles.\n• Woodwork including painting and varnishing.\n• Sewerage and plumbing work.\n• Electrical works including wiring, distribution and panel fixing.\n• Installation and repair of fire fighting systems.\n• Installation and repair of cooling and heating system.\n• Installation of lifts and escalators.\n• Installation of security gates.\n• Fabrication and installation of iron or metal grills, windows and doors.\n• Construction of water harvesting structures.\n• Interior work including carpeting, false ceiling, lighting and plaster of paris.\n• Cutting, glazing and installation of glass panels.\n• Making of Bricks and roofing tiles not covered under the Factories Act, 1948.\n• Installation of energy efficient equipment like solar panels.\n• Installation of modular units for use in places such as kitchens.\n• Making and installation of pre-fabricated concrete modules.\n• Construction of sports or recreation facilities including swimming pools and golf courses.\n• Construction or erection of signage, road furniture, bus shelters or depots or stands and signalling systems.\n• Construction of rotaries and installation of fountains.\n• Construction of public parks, walking tracks and landscaping.&amp;quot;\n",
+        "source": "https://nirmanshramik.odisha.gov.in/obocwwb/public/downloadAct"
+      },
+      {
+        "name": "Building worker",
+        "definition": [
+          {
+            "type": "align_justify",
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "\"Building worker” means a person who is employed to do any skilled, semi-skilled or unskilled, manual, supervisory, technical or clerical work for hire or reward, whether the terms of employment be expressed or implied, in connection with any building or other construction work but does not include any such person,"
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "i. who is employed mainly in a managerial or administrative capacity."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "ii. who, being employed in a supervisory capacity, draws wages exceeding one thousand six hundred rupees per mensem of exercises, either by the nature of the duties attached to the officer or by reason of the powers vested in him, functions mainly of a managerial nature.\""
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "definitions_md": "&amp;quot;Building worker” means a person who is employed to do any skilled, semi-skilled or unskilled, manual, supervisory, technical or clerical work for hire or reward, whether the terms of employment be expressed or implied, in connection with any building or other construction work but does not include any such person,\ni. who is employed mainly in a managerial or administrative capacity.\nii. who, being employed in a supervisory capacity, draws wages exceeding one thousand six hundred rupees per mensem of exercises, either by the nature of the duties attached to the officer or by reason of the powers vested in him, functions mainly of a managerial nature.&amp;quot;\n",
+        "source": "https://nirmanshramik.odisha.gov.in/obocwwb/public/downloadAct"
+      }
+    ],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "&gt; **For Registration as a Building/ Construction Worker:**\n\n\n  - The applicant should be a resident of Odisha.\n  - The applicant should be a Building/ Construction Worker.\n  - The applicant should be between 18 and 60 years.\n  - The applicant should have engaged in building and construction work for at least 90 days in a given year.\n  - The applicant should not be a member of any other Welfare Fund established under any law.\n\n&gt; **For the Application of the Welfare Scheme:**\n\n\n  - The applicant should be a registered member of the Odisha Building and Other Construction Workers Welfare Board.\n  - The member should be registered for a period of one year or more under the board.\n  - The children should be studying in class VI and above.\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "block_quote",
+              "children": [
+                {
+                  "text": "For Registration as a Building/ Construction Worker:",
+                  "bold": true,
+                  "underline": true
+                }
+              ]
+            },
+            {
+              "type": "ul_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant should be a resident of Odisha."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant should be a Building/ Construction Worker."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant should be between 18 and 60 years."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant should have engaged in building and construction work for at least 90 days in a given year."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant should not be a member of any other Welfare Fund established under any law."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "block_quote",
+              "children": [
+                {
+                  "text": "For the Application of the Welfare Scheme:",
+                  "bold": true,
+                  "underline": true
+                }
+              ]
+            },
+            {
+              "type": "ul_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant should be a registered member of the Odisha Building and Other Construction Workers Welfare Board."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The member should be registered for a period of one year or more under the board."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The children should be studying in class VI and above."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "faecbobocwwb"
+}

@@ -1,0 +1,373 @@
+{
+  "_id": "68320f1377025b42c32d3dd7",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Reimbursement",
+        "Pilgrimage",
+        "Pilgrim",
+        "Sindhu"
+      ],
+      "schemeName": "Sindhu Darshan Pilgrimage Scheme - Rajasthan",
+      "schemeShortTitle": "SDPSR",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce94cd6d1a3bde468536f",
+          "label": "Travel & Tourism"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Tourism in India",
+          "label": "Tourism in India"
+        }
+      ],
+      "schemeOpenDate": "2016-04-01",
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "state": {
+        "value": 8,
+        "label": "Rajasthan"
+      },
+      "nodalDepartmentName": {
+        "value": 8000048,
+        "label": "Devasthan Department"
+      },
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://devasthan.rajasthan.gov.in/pdf/SindhuDarshan2101251230.pdf"
+        },
+        {
+          "title": "Official Website",
+          "url": "https://devasthan.rajasthan.gov.in/Schemes.asp"
+        },
+        {
+          "title": "Application Form",
+          "url": "https://devasthan.rajasthan.gov.in/Files/sindhu_darshan_2024.pdf"
+        },
+        {
+          "title": "Notification",
+          "url": "https://devasthan.rajasthan.gov.in/Files/SINDHU_DARSHAN_AAM_SUCHANA_2024.pdf"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The scheme &amp;quot;Sindhu Darshan Pilgrimage Scheme&amp;quot; was introduced by the Devasthan Department, Government of Rajasthan, on 1st April 2016. The objective of this scheme is to provide financial assistance to pilgrims undertaking a pilgrimage to the Sindhu River in the Ladakh region of India. Under this scheme, selected beneficiaries receive reimbursement of their travel expenses, up to a maximum of ₹10,000/- per pilgrim. \n> **Total Number of Beneficiaries**\n\nThe scheme is limited to 200 pilgrims per year. If there are more applicants than available slots, selection will be by lottery.\n",
+      "benefits_md": "\n- Reimbursement of 50% of actual travel expenses, up to a maximum of ₹10,000 per pilgrim.\n\n> **Note:**\n\nPayment is made via online bank transfer or through account payee cheque or demand draft, depending on departmental conditions.\n",
+      "briefDescription": "The objective of this scheme is to provide financial assistance to pilgrims undertaking a pilgrimage to the Sindhu River in the Ladakh region of India. Under this scheme, selected beneficiaries receive reimbursement of their travel expenses, up to a maximum of ₹10,000/- per pilgrim.",
+      "exclusions_md": "",
+      "detailedDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "The scheme \"Sindhu Darshan Pilgrimage Scheme\" was introduced by the Devasthan Department, Government of Rajasthan, on 1st April 2016. The objective of this scheme is to provide financial assistance to pilgrims undertaking a pilgrimage to the Sindhu River in the Ladakh region of India. Under this scheme, selected beneficiaries receive reimbursement of their travel expenses, up to a maximum of ₹10,000/- per pilgrim. "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "Total Number of Beneficiaries",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The scheme is limited to 200 pilgrims per year. If there are more applicants than available slots, selection will be by lottery."
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Reimbursement of 50% of actual travel expenses, up to a maximum of ₹10,000 per pilgrim."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "Note:",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Payment is made via online bank transfer or through account payee cheque or demand draft, depending on departmental conditions."
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "process": [
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "text": "Application Process",
+                "bold": true
+              }
+            ]
+          },
+          {
+            "type": "align_justify",
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "bold": true,
+                    "text": "Step 1: "
+                  },
+                  {
+                    "text": "The interested applicant downloads the "
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://devasthan.rajasthan.gov.in/Files/sindhu_darshan_2024.pdf",
+                    "children": [
+                      {
+                        "text": "application form"
+                      }
+                    ]
+                  },
+                  {
+                    "text": " from the official website. "
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 2:",
+                    "bold": true
+                  },
+                  {
+                    "text": " In the application form, fill in all the mandatory fields and attach copies of all the mandatory documents (self-attested, if required)."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 3:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Submit the duly filled and signed application form along with the documents to the Assistant Commissioner’s Office, Devasthan Department."
+                  }
+                ]
+              },
+              {
+                "type": "block_quote",
+                "children": [
+                  {
+                    "text": "Note:.",
+                    "bold": true
+                  }
+                ]
+              },
+              {
+                "type": "ul_list",
+                "children": [
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "text": "The application must be submitted within 2 months of pilgrimage completion."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "text": "The application submitted no later than December 31, 2024."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "block_quote",
+                "children": [
+                  {
+                    "text": "Selection & Approval Process",
+                    "bold": true
+                  }
+                ]
+              },
+              {
+                "type": "ul_list",
+                "children": [
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "text": "Only individuals selected by the Devasthan Department are eligible for the grant."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "text": "After completion of the pilgrimage, submit proof of expenses and certified documents to the Assistant Commissioner."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "text": "The Assistant Commissioner will verify and forward all valid applications to the Commissioner, Devasthan Office, Udaipur."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "text": "If applications exceed 200, a computerized lottery will be conducted."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "text": "In case of families applying together, only 3 members per family will be considered."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "process_md": "> **Application Process**\n\n**Step 1:** The interested applicant downloads the [application form](https://devasthan.rajasthan.gov.in/Files/sindhu_darshan_2024.pdf) from the official website. \n**Step 2:** In the application form, fill in all the mandatory fields and attach copies of all the mandatory documents (self-attested, if required).\n**Step 3:** Submit the duly filled and signed application form along with the documents to the Assistant Commissioner’s Office, Devasthan Department.\n&gt; **Note:.**\n\n\n  - The application must be submitted within 2 months of pilgrimage completion.\n  - The application submitted no later than December 31, 2024.\n\n&gt; **Selection &amp;amp; Approval Process**\n\n\n  - Only individuals selected by the Devasthan Department are eligible for the grant.\n  - After completion of the pilgrimage, submit proof of expenses and certified documents to the Assistant Commissioner.\n  - The Assistant Commissioner will verify and forward all valid applications to the Commissioner, Devasthan Office, Udaipur.\n  - If applications exceed 200, a computerized lottery will be conducted.\n  - In case of families applying together, only 3 members per family will be considered.\n\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n1. The applicant should be a native of Rajasthan.\n1. The applicant&#39;s age should be 21 years or above.\n1. The applicant should not be a person who subsists on alms.\n1. The applicant should not be an income tax payer.\n1. The applicant should not be a retired employee/officer of the Central Government/State Government/Central &amp; State Government Undertakings/Local Body.\n1. Only one-time assistance per lifetime is permitted.\n\n**Note:** Only the person selected by the Devasthan Department, Rajasthan is eligible to get the benefit of the scheme.\n",
+      "eligibilityDescription": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should be a native of Rajasthan."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant's age should be 21 years or above."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should not be a person who subsists on alms."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should not be an income tax payer."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should not be a retired employee/officer of the Central Government/State Government/Central & State Government Undertakings/Local Body."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Only one-time assistance per lifetime is permitted."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "Note: ",
+                  "bold": true
+                },
+                {
+                  "text": "Only the person selected by the Devasthan Department, Rajasthan is eligible to get the benefit of the scheme."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "sdpsr"
+}

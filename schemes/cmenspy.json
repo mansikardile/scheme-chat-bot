@@ -1,0 +1,266 @@
+{
+  "_id": "648b6113481f59106a699591",
+  "en": {
+    "basicDetails": {
+      "schemeOpenDate": "1974-06-01",
+      "schemeCloseDate": null,
+      "state": {
+        "value": 8,
+        "label": "Rajasthan"
+      },
+      "nodalMinistryName": null,
+      "nodalDepartmentName": {
+        "value": 8000035,
+        "label": "Social Justice and Empowerment Department"
+      },
+      "otherMinistryName": null,
+      "otherDepartmentNames": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "schemeSubCategory": null,
+      "dbtScheme": null,
+      "implementingAgency": null,
+      "tags": [
+        "Financial Assistance",
+        "Empowerment",
+        "Social Welfare"
+      ],
+      "schemeName": "Chief Minister Ekal Nari Samman Pension Yojana",
+      "schemeShortTitle": "CMENSPY",
+      "level": {
+        "value": "state",
+        "label": "State"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce87cd6d1a3bde4685312",
+          "label": "Social welfare & Empowerment"
+        },
+        {
+          "value": "64f57d10ffb93104c7006c97",
+          "label": "Women and Child"
+        }
+      ],
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guideline",
+          "url": "https://schemes.rajasthan.gov.in/scheme/detail/112"
+        },
+        {
+          "title": "Details",
+          "url": "https://jankalyanfile.rajasthan.gov.in//Content/UploadFolder/PhotoVideoGallery/2021/11606b68-0d87-4202-9db1-b515f2b2bec7.pdf"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "Under this scheme, a pension amount is given to all the divorced, widowed or abandoned women of Rajasthan so that they can easily bear the expenses of their house. The objective of the scheme is to provide financial help to women so that they do not face difficulties in leading a normal life.\n",
+      "benefits_md": "\n1. From 18 to 55 years old: Rs. 500/- per month.\n1. From 55 to 60 years: Rs. 750/- per month.\n1. From 60 to 75 years: 1000/- per month.\n1. Above the age of 75 years: 1500/- per month.\n\n",
+      "exclusions_md": "If the applicant himself or his son is serving in Central Government/Other State Government/State Government/State Undertaking or is a pensioner of Central Government/Other State Government/State Government/State Undertaking, then he/she is not eligible to receive a pension under these rules.\n",
+      "briefDescription": "The Rajasthan State government started the \"Chief Minister Ekal Nari Samman Pension Yojana\" scheme for women's support and empowerment. ",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Under this scheme, a pension amount is given to all the divorced, widowed or abandoned women of Rajasthan so that they can easily bear the expenses of their house. The objective of the scheme is to provide financial help to women so that they do not face difficulties in leading a normal life."
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "From 18 to 55 years old: Rs. 500/- per month."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "From 55 to 60 years: Rs. 750/- per month."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "From 60 to 75 years: 1000/- per month."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Above the age of 75 years: 1500/- per month."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "exclusions": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "If the applicant himself or his son is serving in Central Government/Other State Government/State Government/State Undertaking or is a pensioner of Central Government/Other State Government/State Government/State Undertaking, then he/she is not eligible to receive a pension under these rules."
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Online",
+        "url": "https://ssp.rajasthan.gov.in/",
+        "process": [
+          {
+            "type": "ol_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "The applicants have to visit on the "
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://ssp.rajasthan.gov.in/",
+                    "children": [
+                      {
+                        "text": "official portal"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "On the home page, click on apply."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "On the new page, the application form will open."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Now applicants need to enter the information asked in the application form."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "After entering all the information, upload the required documents."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Click on the Submit."
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "process_md": "\n1. The applicants have to visit on the [official portal](https://ssp.rajasthan.gov.in/).1. On the home page, click on apply.\n1. On the new page, the application form will open.\n1. Now applicants need to enter the information asked in the application form.\n1. After entering all the information, upload the required documents.\n1. Click on the Submit.\n\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n1. The applicant&#39;s age should be 18 years or more.\n1. A native of the Rajasthan state.\n1. A widow/abandoned/divorced woman who does not have any source of regular income of her own for subsistence. (or)\n1. Annual income from all sources should be less than Rs. 48,000/-.\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant's age should be 18 years or more."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "A native of the Rajasthan state."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "A widow/abandoned/divorced woman who does not have any source of regular income of her own for subsistence. (or)"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Annual income from all sources should be less than Rs. 48,000/-."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": ""
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "cmenspy"
+}

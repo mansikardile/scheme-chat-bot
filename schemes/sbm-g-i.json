@@ -1,0 +1,570 @@
+{
+  "_id": "628c7fd77da626042d6b3617",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": true,
+      "tags": [
+        "Sanitation",
+        "Toilet",
+        "Grameen",
+        "Swachh Bharat"
+      ],
+      "schemeName": "Swachh Bharat Mission – Grameen PHASE I",
+      "schemeShortTitle": "SBMGPI",
+      "level": {
+        "value": "central",
+        "label": "Central"
+      },
+      "schemeType": {
+        "value": "central-sector-scheme",
+        "label": "Central Sector Scheme"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce7a2d6d1a3bde46852b1",
+          "label": "Health & Wellness"
+        },
+        {
+          "value": "628ce97ad6d1a3bde468537d",
+          "label": "Utility & Sanitation"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Sanitation / Sewage",
+          "label": "Sanitation / Sewage"
+        }
+      ],
+      "schemeOpenDate": "2014-10-02",
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        },
+        {
+          "value": "family",
+          "label": "Family"
+        }
+      ],
+      "schemeFor": "Individual",
+      "nodalMinistryName": {
+        "value": 1559,
+        "label": "Ministry Of Jal Shakti"
+      },
+      "nodalDepartmentName": null
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Scheme Guidelines",
+          "url": "https://swachhbharatmission.gov.in/sbmcms/writereaddata/images/pdf/Guidelines/Complete-set-guidelines.pdf "
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "Launched in 2014, the scheme &amp;quot;Swachh Bharat Mission – Grameen (Phase I)&amp;quot; by the Department of Drinking Water and Sanitation, Ministry of Jal Shakti, Government of India, aims to eliminate open defecation in rural India through behavioral change and construction of household and community toilets. Through this scheme, financial assistance and awareness interventions for toilet construction were provided to poor, underprivileged, and marginalized households in rural areas.\n**Objectives:**\n\n   1. To bring about mass-scale behavior change regarding sanitation and hygiene\n   1. To ensure the construction and usage of household-owned and community-owned toilets\n   1. To establish an accountable mechanism for achieving ODF (Open Defecation Free) India\n   1. To promote Solid and Liquid Waste Management (SLWM)\n\n<br>\n\n",
+      "benefits_md": "\n1. ₹12,000 financial assistance per toilet to rural households for construction.\n1. Enhanced rural sanitation coverage through individual and community toilets.\n1. Significant reduction in open defecation practices across India.\n\n**Activities under the Scheme:**\n\n- Construction of Individual Household Latrines (IHHL)\n- Construction of Community Sanitary Complexes (CSCs)\n- Solid Liquid Waste Management (SLWM) activities\n- Information, Education and Communication (IEC) \n- Human Resource Development (HRD) activities\n\n<br>\n\n",
+      "exclusions_md": "\n- Households already possessing functional toilets were not eligible for the financial assistance.\n\n<br>\n\n",
+      "briefDescription": "The scheme aims to eliminate open defecation and improve rural sanitation by supporting toilet construction and promoting usage among poor and marginalized rural households.",
+      "detailedDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "Launched in 2014, the scheme \"Swachh Bharat Mission – Grameen (Phase I)\" by the Department of Drinking Water and Sanitation, Ministry of Jal Shakti, Government of India, aims to eliminate open defecation in rural India through behavioral change and construction of household and community toilets. Through this scheme, financial assistance and awareness interventions for toilet construction were provided to poor, underprivileged, and marginalized households in rural areas."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "Objectives:",
+                  "bold": true
+                }
+              ]
+            },
+            {
+              "type": "ol_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "To bring about mass-scale behavior change regarding sanitation and hygiene"
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "To ensure the construction and usage of household-owned and community-owned toilets"
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "To establish an accountable mechanism for achieving ODF (Open Defecation Free) India"
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "To promote Solid and Liquid Waste Management (SLWM)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "value": "composite",
+        "label": "Composite"
+      },
+      "benefits": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "₹12,000 financial assistance per toilet to rural households for construction."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Enhanced rural sanitation coverage through individual and community toilets."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Significant reduction in open defecation practices across India."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Activities under the Scheme:",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Construction of Individual Household Latrines (IHHL)"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Construction of Community Sanitary Complexes (CSCs)"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Solid Liquid Waste Management (SLWM) activities"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Information, Education and Communication (IEC) "
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Human Resource Development (HRD) activities"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ],
+      "exclusions": [
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Households already possessing functional toilets were not eligible for the financial assistance."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Online",
+        "url": "",
+        "process": [
+          {
+            "type": "heading_five",
+            "children": [
+              {
+                "text": "Step 1:",
+                "bold": true,
+                "italic": true,
+                "underline": true
+              },
+              {
+                "bold": true,
+                "italic": true,
+                "text": " "
+              },
+              {
+                "bold": true,
+                "italic": true,
+                "text": "Register on the UMANG Portal",
+                "underline": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "- Visit the "
+              },
+              {
+                "type": "link",
+                "link": "https://web.umang.gov.in/landing/",
+                "children": [
+                  {
+                    "text": "official website"
+                  }
+                ]
+              },
+              {
+                "text": " of UMANG. In the top right corner of the landing page, click \""
+              },
+              {
+                "type": "link",
+                "link": "https://web.umang.gov.in/web_new/register",
+                "children": [
+                  {
+                    "text": "Register"
+                  }
+                ]
+              },
+              {
+                "text": ".\" You will be taken to the Registration Page."
+              }
+            ]
+          },
+          {
+            "type": "heading_five",
+            "children": [
+              {
+                "text": "Step 2:",
+                "bold": true,
+                "italic": true,
+                "underline": true
+              },
+              {
+                "bold": true,
+                "italic": true,
+                "text": " "
+              },
+              {
+                "bold": true,
+                "italic": true,
+                "text": "Mobile Number Verification and MPIN Creation",
+                "underline": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "- You will be redirected to the mobile number verification page. Enter your mobile number and get it verified via OTP. Create an MPIN to complete the registration process. You will be taken to the UMANG homepage. "
+              },
+              {
+                "type": "link",
+                "link": "https://web.umang.gov.in/web_new/login",
+                "children": [
+                  {
+                    "text": "Login"
+                  }
+                ]
+              },
+              {
+                "text": " using your Mobile Number and MPIN."
+              }
+            ]
+          },
+          {
+            "type": "heading_five",
+            "children": [
+              {
+                "text": "Step 3:",
+                "bold": true,
+                "italic": true,
+                "underline": true
+              },
+              {
+                "bold": true,
+                "italic": true,
+                "text": " "
+              },
+              {
+                "bold": true,
+                "italic": true,
+                "text": "Accessing Services on UMANG",
+                "underline": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "- In the tabs provided at the bottom of the page, click on the \"All Services\" tab. From the list of departments, click on \"Department of Scientific and Industrial Research\"."
+              }
+            ]
+          },
+          {
+            "type": "heading_five",
+            "children": [
+              {
+                "text": "Step 4:",
+                "bold": true,
+                "italic": true,
+                "underline": true
+              },
+              {
+                "bold": true,
+                "italic": true,
+                "text": " "
+              },
+              {
+                "bold": true,
+                "italic": true,
+                "text": "Applying for a Specific Service",
+                "underline": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "- Under the selected department, choose the service you want to apply for. You will be taken to the Online Application Form."
+              }
+            ]
+          },
+          {
+            "type": "heading_five",
+            "children": [
+              {
+                "text": "Step 5:",
+                "bold": true,
+                "italic": true,
+                "underline": true
+              },
+              {
+                "bold": true,
+                "italic": true,
+                "text": " "
+              },
+              {
+                "bold": true,
+                "italic": true,
+                "text": "Completing the Application",
+                "underline": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "- In the application form, fill in all the mandatory fields and upload all the required documents in the specified format and size."
+              }
+            ]
+          },
+          {
+            "type": "heading_five",
+            "children": [
+              {
+                "text": "Step 6:",
+                "bold": true,
+                "italic": true,
+                "underline": true
+              },
+              {
+                "bold": true,
+                "italic": true,
+                "text": " "
+              },
+              {
+                "bold": true,
+                "italic": true,
+                "text": "Review and Confirmation",
+                "underline": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "- Carefully review all the information provided and the documents uploaded. Make any necessary corrections, if required. Acknowledge and agree to the terms and conditions, declaration, and privacy policy, if any."
+              }
+            ]
+          },
+          {
+            "type": "heading_five",
+            "children": [
+              {
+                "text": "Step 7:",
+                "bold": true,
+                "italic": true,
+                "underline": true
+              },
+              {
+                "bold": true,
+                "italic": true,
+                "text": " "
+              },
+              {
+                "bold": true,
+                "italic": true,
+                "text": "Submitting the Application",
+                "underline": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "- Click the \"Submit\" or \"Apply\" button to submit your application. You'll receive a confirmation message upon successful submission of the application."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          }
+        ],
+        "process_md": "##### ***Step 1:********* ***Register on the UMANG Portal***\n- Visit the [official website](https://web.umang.gov.in/landing/) of UMANG. In the top right corner of the landing page, click &quot;[Register](https://web.umang.gov.in/web_new/register).&quot; You will be taken to the Registration Page.\n##### ***Step 2:********* ***Mobile Number Verification and MPIN Creation***\n- You will be redirected to the mobile number verification page. Enter your mobile number and get it verified via OTP. Create an MPIN to complete the registration process. You will be taken to the UMANG homepage. [Login](https://web.umang.gov.in/web_new/login) using your Mobile Number and MPIN.\n##### ***Step 3:********* ***Accessing Services on UMANG***\n- In the tabs provided at the bottom of the page, click on the &quot;All Services&quot; tab. From the list of departments, click on &quot;Department of Scientific and Industrial Research&quot;.\n##### ***Step 4:********* ***Applying for a Specific Service***\n- Under the selected department, choose the service you want to apply for. You will be taken to the Online Application Form.\n##### ***Step 5:********* ***Completing the Application***\n- In the application form, fill in all the mandatory fields and upload all the required documents in the specified format and size.\n##### ***Step 6:********* ***Review and Confirmation***\n- Carefully review all the information provided and the documents uploaded. Make any necessary corrections, if required. Acknowledge and agree to the terms and conditions, declaration, and privacy policy, if any.\n##### ***Step 7:********* ***Submitting the Application***\n- Click the &quot;Submit&quot; or &quot;Apply&quot; button to submit your application. You&#39;ll receive a confirmation message upon successful submission of the application.\n<br>\n\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n- The applicant should be from a rural household that lacked a toilet before the scheme.\n- The applicant should belong to poor, underprivileged, or marginalized sections.\n\n> **Note:** Preference given to households led by women, elderly, disabled, or socio-economically weaker sections.\n\n<br>\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should be from a rural household that lacked a toilet before the scheme."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should belong to poor, underprivileged, or marginalized sections."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "Note: ",
+              "bold": true
+            },
+            {
+              "text": "Preference given to households led by women, elderly, disabled, or socio-economically weaker sections."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "sbm-g-i"
+}

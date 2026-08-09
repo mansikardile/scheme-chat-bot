@@ -1,0 +1,305 @@
+{
+  "_id": "65b893d4826dbceda0cc96d4",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Financial Support",
+        "Toilet Assistance",
+        "Construction Workers"
+      ],
+      "schemeName": "Shauchalaya Sahayata Yojana",
+      "schemeShortTitle": "SSYUP",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce87cd6d1a3bde4685312",
+          "label": "Social welfare & Empowerment"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Financial assistance",
+          "label": "Financial assistance"
+        }
+      ],
+      "schemeOpenDate": "2018-10-26",
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "state": {
+        "value": 9,
+        "label": "Uttar Pradesh"
+      },
+      "nodalDepartmentName": {
+        "value": 90000031,
+        "label": "Labour Department, Uttar Pradesh"
+      },
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://www.upbocw.in/pdf/adhisuchna/Shauchalay%20Sahayata%20Yojana.pdf?_x_tr_sl=en&_x_tr_tl=hi&_x_tr_hl=en&_x_tr_pto=wapp"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The Shauchalaya Sahayata Yojana is a scheme by the government of Uttar Pradesh, India, to provide financial assistance to registered construction workers to build toilets in their homes. The scheme was launched in 2017 as part of the Swachh Bharat Mission, a national campaign to eradicate open defecation in India.\n&lt;br&gt;\n\nAs part of the Swachh Bharat Mission, aiming to make both rural and urban areas of the state open defecation free is a commendable yet challenging task. This is particularly true for construction workers, who often come from underprivileged backgrounds and lack the financial resources to build toilets at home. The Shauchalaya Sahayata Yojana addresses this issue by providing financial assistance to registered construction workers engaged in building and related activities. This support empowers them to construct toilets in their homes, contributing to the state&amp;#39;s goal of eradicating open defecation.\n",
+      "benefits_md": "\n- The scheme provides a grant of ₹12,000/- to eligible construction workers. \n- The money is paid in two installments: ₹6,000/- before the toilet is built and ₹6,000/- after the toilet is built and is in use\n\n",
+      "briefDescription": "The \"Shauchalaya Sahayata Yojana\" is a scheme by the government of Uttar Pradesh, India, to provide financial assistance to registered construction workers to build toilets in their homes.",
+      "exclusions_md": "",
+      "detailedDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "The Shauchalaya Sahayata Yojana is a scheme by the government of Uttar Pradesh, India, to provide financial assistance to registered construction workers to build toilets in their homes. The scheme was launched in 2017 as part of the Swachh Bharat Mission, a national campaign to eradicate open defecation in India."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": ""
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "As part of the Swachh Bharat Mission, aiming to make both rural and urban areas of the state open defecation free is a commendable yet challenging task. This is particularly true for construction workers, who often come from underprivileged backgrounds and lack the financial resources to build toilets at home. The Shauchalaya Sahayata Yojana addresses this issue by providing financial assistance to registered construction workers engaged in building and related activities. This support empowers them to construct toilets in their homes, contributing to the state's goal of eradicating open defecation."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The scheme provides a grant of ₹12,000/- to eligible construction workers. "
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The money is paid in two installments: ₹6,000/- before the toilet is built and ₹6,000/- after the toilet is built and is in use"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "process": [
+          {
+            "type": "ol_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "District Panchayat Raj Officer provides list of registered construction workers."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Village Panchayat Secretary/Sanitation worker verifies list and prepares a list of toilet-less workers."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Labor department renews registrations of expired workers if needed."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Applications are obtained from eligible workers based on the prepared list."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Applicant can get the application from below sources: "
+                  }
+                ]
+              },
+              {
+                "type": "ul_list",
+                "children": [
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "text": "Nearest labor office."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "text": "Tehsildar of the concerned tehsil."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "text": "Block Development Officer of the concerned development block."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "text": "Download from "
+                      },
+                      {
+                        "type": "link",
+                        "link": "https://www.upbocw.in/pdf/adhisuchna/Shauchalay%20Sahayata%20Yojana.pdf",
+                        "children": [
+                          {
+                            "text": "here"
+                          }
+                        ]
+                      },
+                      {
+                        "text": ". "
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Get the application form and fill out the completely."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Attach required documents in the prescribed format."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Submit the application form in the same office."
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "process_md": "\n1. District Panchayat Raj Officer provides list of registered construction workers.\n1. Village Panchayat Secretary/Sanitation worker verifies list and prepares a list of toilet-less workers.\n1. Labor department renews registrations of expired workers if needed.\n1. Applications are obtained from eligible workers based on the prepared list.\n1. Applicant can get the application from below sources: \n\n  - Nearest labor office.\n  - Tehsildar of the concerned tehsil.\n  - Block Development Officer of the concerned development block.\n  - Download from [here](https://www.upbocw.in/pdf/adhisuchna/Shauchalay%20Sahayata%20Yojana.pdf). \n1. Get the application form and fill out the completely.\n1. Attach required documents in the prescribed format.\n1. Submit the application form in the same office.\n\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n1. Applicant must be registered with Uttar Pradesh Building and Other Construction Workers Welfare Board.\n1. Applicant must have their own homes, but not have toilets in it.\n1. Applicant must not have received similar benefits from any other government scheme.\n1. Applicant must be regularly depositing contributions.\n1. Applicant must have an Aadhaar card.\n1. Applicant must have a bank account in a CBS branch of a nationalized bank.\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Applicant must be registered with Uttar Pradesh Building and Other Construction Workers Welfare Board."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Applicant must have their own homes, but not have toilets in it."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Applicant must not have received similar benefits from any other government scheme."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Applicant must be regularly depositing contributions."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Applicant must have an Aadhaar card."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Applicant must have a bank account in a CBS branch of a nationalized bank."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "ssyup"
+}

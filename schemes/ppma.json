@@ -1,0 +1,664 @@
+{
+  "_id": "652e194a4c46bfe12b20c4d4",
+  "en": {
+    "basicDetails": {
+      "schemeOpenDate": "2014-02-26",
+      "schemeCloseDate": "2022-12-15",
+      "nodalMinistryName": {
+        "value": 521,
+        "label": "Ministry Of Minority Affairs"
+      },
+      "nodalDepartmentName": null,
+      "otherMinistryName": null,
+      "otherDepartmentNames": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "schemeSubCategory": null,
+      "dbtScheme": true,
+      "implementingAgency": null,
+      "tags": [
+        "Subsidy",
+        "Education Loan",
+        "Higher Education",
+        "Minority Students"
+      ],
+      "schemeName": "Padho Pardesh",
+      "schemeShortTitle": "PPMA",
+      "level": {
+        "value": "central",
+        "label": "Central"
+      },
+      "schemeType": {
+        "value": "central-sector-scheme",
+        "label": "Central Sector Scheme"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce76cd6d1a3bde4685292",
+          "label": "Education & Learning"
+        }
+      ],
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://www.minorityaffairs.gov.in/WriteReadData/RTF1984/8244568969.pdf"
+        },
+        {
+          "title": "FAQ",
+          "url": "https://www.minorityaffairs.gov.in/WriteReadData/RTF1984/2693689007.pdf"
+        },
+        {
+          "title": "Notification",
+          "url": "https://www.minorityaffairs.gov.in/WriteReadData/RTF1984/1675745978.pdf"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The Padho Pardesh scheme is a central government program that provides interest subsidies to minority students who are pursuing master&#39;s, M.Phil, or Ph.D. degrees abroad. The objective of the scheme is to award interest subsidy to meritorious students belonging to economically weaker sections of notified minority communities so as to provide them better opportunities for higher education abroad and enhance their employability.\n<br>\n\nThe subjects/ disciplines in which courses  (for Masters, M.Phil and Ph.D only) may be undertaken for the grant of interest subsidy are listed below:-\n\n1. Arts/ Humanities/ Social Sciences\n1. Commerce\n1. Pure Sciences\n1. Engineering\n1. Bio- technology/ Genetic Engineering\n1. Industrial Environmental Engineering\n1. Nano- technology\n1. Marine Engineering\n1. Petro-chemical Engineering\n1. Plastic Technology\n1.  Cryogenic Engineering\n1. Mechatronics\n1. Automation Robotics including artificial intelligence\n1. Laser Technology\n1. Low Temperature Thermal Dynamics\n1. Optometry\n1. Art Restoration Technology\n1. Dock and Harbour Engineering\n1. Imaging System Technology\n1. Composite Materials Engineering including Decentralized power Distribution (for Solar Heat) system, Energy Storage Engineering, Energy conservation, Energy Efficient Habitat\n1. Packaging Engineering/ Technology\n1. Nuclear Engineering\n1. Information Technology including Computer Engineering, Software, Software Quality assurance, Networking/ Connectivity Engineering, Communication system under Hazardous or Post-disaster conditions, Multi- media Communication\n1. Industrial Safety Engineering\n1. Agriculture &amp; Agro Technology\n1. Agronomy\n1. Medical\n1. Floriculture &amp; Landscaping\n1. Food Sciences &amp; Technology\n1. Forestry &amp; Natural Resources\n1. Horticulture\n1. Plant Pathology\n1. Energy Studies\n1. Farm Power &amp; Machinery\n1. Veterinary Sciences\n1. Soils &amp; Water Management\n1. Plant Breeding &amp; Genetics\n1. Small- scale Rural Technology\n1. Ocean &amp; Atmospheric Sciences\n1. M.B.A\n1. M.C.A\n\n",
+      "benefits_md": "\n1. **Financial assistance:** The scheme provides an interest subsidy on education loans, which can help to reduce the cost of overseas education for minority students.1. **Increased access to education:** The scheme makes overseas education more accessible to minority students from all backgrounds, regardless of their financial situation.1. **Improved employability:** Studying abroad can give students a competitive edge in the job market, and the Padho Pardesh scheme can help minority students to achieve their career goals.1. **Personal and professional development:** Studying abroad can be a transformative experience, and the Padho Pardesh scheme can help minority students to develop their skills and knowledge in a global context.\n",
+      "exclusions_md": "<br>\n\n",
+      "briefDescription": "Padho Pardesh is a scheme of interest subsidy on educational loans for overseas studies for the students belonging to the minority communities. The scheme was launched by the Ministry of Minority Affairs in 2006 under the Prime Minister's New 15 Point Programme for the Welfare of Minorities.",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The Padho Pardesh scheme is a central government program that provides interest subsidies to minority students who are pursuing master's, M.Phil, or Ph.D. degrees abroad. The objective of the scheme is to award interest subsidy to meritorious students belonging to economically weaker sections of notified minority communities so as to provide them better opportunities for higher education abroad and enhance their employability."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The subjects/ disciplines in which courses  (for Masters, M.Phil and Ph.D only) may be undertaken for the grant of interest subsidy are listed below:-"
+            }
+          ]
+        },
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Arts/ Humanities/ Social Sciences"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Commerce"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Pure Sciences"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Engineering"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Bio- technology/ Genetic Engineering"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Industrial Environmental Engineering"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Nano- technology"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Marine Engineering"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Petro-chemical Engineering"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Plastic Technology"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": " Cryogenic Engineering"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Mechatronics"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Automation Robotics including artificial intelligence"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Laser Technology"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Low Temperature Thermal Dynamics"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Optometry"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Art Restoration Technology"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Dock and Harbour Engineering"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Imaging System Technology"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Composite Materials Engineering including Decentralized power Distribution (for Solar Heat) system, Energy Storage Engineering, Energy conservation, Energy Efficient Habitat"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Packaging Engineering/ Technology"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Nuclear Engineering"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Information Technology including Computer Engineering, Software, Software Quality assurance, Networking/ Connectivity Engineering, Communication system under Hazardous or Post-disaster conditions, Multi- media Communication"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Industrial Safety Engineering"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Agriculture & Agro Technology"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Agronomy"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Medical"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Floriculture & Landscaping"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Food Sciences & Technology"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Forestry & Natural Resources"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Horticulture"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Plant Pathology"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Energy Studies"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Farm Power & Machinery"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Veterinary Sciences"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Soils & Water Management"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Plant Breeding & Genetics"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Small- scale Rural Technology"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Ocean & Atmospheric Sciences"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "M.B.A"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "M.C.A"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Financial assistance:",
+                  "bold": true
+                },
+                {
+                  "text": " The scheme provides an interest subsidy on education loans, which can help to reduce the cost of overseas education for minority students."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Increased access to education:",
+                  "bold": true
+                },
+                {
+                  "text": " The scheme makes overseas education more accessible to minority students from all backgrounds, regardless of their financial situation."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Improved employability:",
+                  "bold": true
+                },
+                {
+                  "text": " Studying abroad can give students a competitive edge in the job market, and the Padho Pardesh scheme can help minority students to achieve their career goals."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Personal and professional development: ",
+                  "bold": true
+                },
+                {
+                  "text": "Studying abroad can be a transformative experience, and the Padho Pardesh scheme can help minority students to develop their skills and knowledge in a global context."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "exclusions": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Online",
+        "process": [
+          {
+            "type": "ol_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Open the "
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://www.minorityaffairs.gov.in/show_content.php?lang=1&level=1&ls_id=739&lid=62",
+                    "children": [
+                      {
+                        "text": "official website."
+                      }
+                    ]
+                  },
+                  {
+                    "text": " "
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Click on the \""
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://canarabankcsis.in/Padho_STD_Portal/login.aspx",
+                    "children": [
+                      {
+                        "text": "Apply Now"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "\" option."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Fill the required details"
+                  }
+                ]
+              },
+              {
+                "type": "ol_list",
+                "children": [
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "text": "ISD Code, "
+                      }
+                    ]
+                  },
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "text": "Mobile number"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "text": "Email ID. "
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Submit the details."
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "process_md": "\n1. Open the [official website.](https://www.minorityaffairs.gov.in/show_content.php?lang=1&level=1&ls_id=739&lid=62) 1. Click on the &quot;[Apply Now](https://canarabankcsis.in/Padho_STD_Portal/login.aspx)&quot; option.1. Fill the required details\n\n   1. ISD Code, \n   1. Mobile number\n   1. Email ID. \n\n1. Submit the details.\n\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n1. Students must have been admitted to an approved master&#39;s, M.Phil, or Ph.D. program abroad.\n1. Students must have been admitted to a recognized university or institution abroad.\n1. Student&#39;s family income must not exceed ₹ 6,00,000 per annum.\n1. Students must have obtained an education loan from a scheduled bank under the Indian Banks Association (IBA) Education Loan Scheme.\n1. Students must apply for the scheme&#39;s benefits during their first year of study. Applications received in the second year or later will not be accepted.\n1. Priority will be given to applications from states and union territories with lower bank interest rates.\n1. Payment of financial benefits may be linked to the student&#39;s Aadhaar number.\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Students must have been admitted to an approved master's, M.Phil, or Ph.D. program abroad."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Students must have been admitted to a recognized university or institution abroad."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Student's family income must not exceed ₹ 6,00,000 per annum."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Students must have obtained an education loan from a scheduled bank under the Indian Banks Association (IBA) Education Loan Scheme."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Students must apply for the scheme's benefits during their first year of study. Applications received in the second year or later will not be accepted."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Priority will be given to applications from states and union territories with lower bank interest rates."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Payment of financial benefits may be linked to the student's Aadhaar number."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "ppma"
+}

@@ -1,0 +1,216 @@
+{
+  "_id": "671a21dd80ec82b742b8fee4",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Pension",
+        "Old Age",
+        "Below The Poverty Line",
+        "Senior Citizen",
+        "BPL"
+      ],
+      "schemeName": "Indira Gandhi National Old Age Pension Scheme (Maharashtra)",
+      "schemeShortTitle": "IGOAPSM",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce87cd6d1a3bde4685312",
+          "label": "Social welfare & Empowerment"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Pension",
+          "label": "Pension"
+        },
+        {
+          "value": "Financial assistance",
+          "label": "Financial assistance"
+        },
+        {
+          "value": "Citizen empowerment",
+          "label": "Citizen empowerment"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "state": {
+        "value": 27,
+        "label": "Maharashtra"
+      },
+      "nodalDepartmentName": {
+        "value": 27111139,
+        "label": "Social Justice and Special Assistance Department"
+      },
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://sjsa.maharashtra.gov.in/en/scheme-category/special-assistance"
+        },
+        {
+          "title": "Scheme Details",
+          "url": "https://pune.gov.in/scheme/indira-gandhi-national-old-age-pension-scheme/"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The scheme &amp;quot;Indira Gandhi National Old Age Pension&amp;quot; is a social welfare scheme by the Social Justice &amp;amp; Special Assistance Department, Government of Maharashtra. In this scheme, ₹600 per month is provided to elderly individuals aged 65 years and above from BPL families.\n",
+      "benefits_md": "A monthly financial assistance of ₹600/-.\n",
+      "briefDescription": "The scheme \"Indira Gandhi National Old Age Pension\" is a social welfare scheme by the Social Justice & Special Assistance Department, Government of Maharashtra. In this scheme, ₹600 per month is provided to elderly individuals aged 65 years and above from BPL families.",
+      "exclusions_md": "",
+      "detailedDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "The scheme \"Indira Gandhi National Old Age Pension\" is a social welfare scheme by the Social Justice & Special Assistance Department, Government of Maharashtra. In this scheme, ₹600 per month is provided to elderly individuals aged 65 years and above from BPL families."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "A monthly financial assistance of ₹600/-."
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "process": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 1: ",
+                "bold": true
+              },
+              {
+                "text": "The interested applicant should visit (during office hours) the Collector Office/Tahsildar/Talathi of your district, and request the hard copy of the prescribed format of the application form from the concerned authority."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2: ",
+                "bold": true
+              },
+              {
+                "text": "In the application form, fill in all the mandatory fields, paste the passport-sized photograph (signed across, if required), and attach copies of all the mandatory documents (self-attest, if required)."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 3: ",
+                "bold": true
+              },
+              {
+                "text": "Submit the duly filled and signed application form along with the documents, within the prescribed period (if any), to the concerned authority."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 4: ",
+                "bold": true
+              },
+              {
+                "text": "Request a receipt or acknowledgement from the concerned authority to whom the application has been submitted. Ensure that the receipt contains essential details such as the date and time of submission, and a unique identification number (if applicable)."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "NOTE: ",
+                "bold": true
+              },
+              {
+                "text": "Ensure that the application is submitted within the prescribed period, if any."
+              }
+            ]
+          }
+        ],
+        "process_md": "**Step 1:** The interested applicant should visit (during office hours) the Collector Office/Tahsildar/Talathi of your district, and request the hard copy of the prescribed format of the application form from the concerned authority.\n**Step 2:** In the application form, fill in all the mandatory fields, paste the passport-sized photograph (signed across, if required), and attach copies of all the mandatory documents (self-attest, if required).\n**Step 3:** Submit the duly filled and signed application form along with the documents, within the prescribed period (if any), to the concerned authority.\n**Step 4:** Request a receipt or acknowledgement from the concerned authority to whom the application has been submitted. Ensure that the receipt contains essential details such as the date and time of submission, and a unique identification number (if applicable).\n**NOTE:** Ensure that the application is submitted within the prescribed period, if any.\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n1. The applicant should be a resident of Maharashtra.\n1. The applicant should be 65 years of age or older.\n1. The applicant should be from a Below Poverty Line (BPL) family.\n1. The applicant should not be receiving pension benefits under any social security scheme.\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should be a resident of Maharashtra."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should be 65 years of age or older."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should be from a Below Poverty Line (BPL) family."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should not be receiving pension benefits under any social security scheme."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "igoapsm"
+}

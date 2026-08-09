@@ -1,0 +1,274 @@
+{
+  "_id": "645243a4eb02f71137eb1af8",
+  "en": {
+    "basicDetails": {
+      "schemeOpenDate": null,
+      "schemeCloseDate": null,
+      "state": {
+        "value": 27,
+        "label": "Maharashtra"
+      },
+      "nodalMinistryName": null,
+      "nodalDepartmentName": {
+        "value": 27111139,
+        "label": "Social Justice and Special Assistance Department"
+      },
+      "otherMinistryName": null,
+      "otherDepartmentNames": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Early childhood",
+          "label": "Early childhood"
+        },
+        {
+          "value": "Shelter",
+          "label": "Shelter"
+        },
+        {
+          "value": "Voctional education",
+          "label": "Voctional education"
+        },
+        {
+          "value": "Welfare measures",
+          "label": "Welfare measures"
+        }
+      ],
+      "dbtScheme": null,
+      "implementingAgency": "District Social Welfare Offices Of The Department Of Social Justice & Special Assistance, Govt. Of Maharashtra",
+      "tags": [
+        "Persons With Disability",
+        "Special School",
+        "Vocational Education",
+        "Student"
+      ],
+      "schemeName": "Non-Governmental Aided Organization (Special Schools And Vocational Training Centre) For Disabled",
+      "schemeShortTitle": "NGAO(SS&VT)D",
+      "level": {
+        "value": "state",
+        "label": "State"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce76cd6d1a3bde4685292",
+          "label": "Education & Learning"
+        },
+        {
+          "value": "628ce87cd6d1a3bde4685312",
+          "label": "Social welfare & Empowerment"
+        },
+        {
+          "value": "628ce85cd6d1a3bde4685304",
+          "label": "Skills & Employment"
+        }
+      ],
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://sjsa.maharashtra.gov.in/en/scheme-category/disability-welfare"
+        }
+      ],
+      "schemeImageUrl": "",
+      "briefDescription": "In this scheme, Special Education is provided to children with disability who are below the age of 18 years. The child should be enrolled in a special school run by a Non-Governmental Aided Organization. Vocational Training is given to special children above the age of 18 years.",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The \"Non-Governmental Aided Organization (Special Schools and Vocational Training Centre) for Disabled\" is a scheme by the Department of Social Justice & Special Assistance, Govt. of Maharashtra. In this scheme, Special Education is provided to children with disability who are below the age of 18 years. The child should be enrolled in a special school run by a Non-Governmental Aided Organization. Vocational Training is given to special children above the age of 18 years. Only citizens who are permanent residents of the state of Maharashtra are eligible to apply for this scheme. This scheme is 100% funded by the Govt. of Maharashtra."
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 3,
+        "value": "composite",
+        "label": "Composite"
+      },
+      "benefits": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Special Education is provided to children with disability who are below the age of 18 years."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Vocational Training is given to special children above the age of 18 years."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The children will have access to free education in an appropriate environment till he/she attains the age of eighteen years. "
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Also, free facilities of food, shelter, and education are provided in residential institutions."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "detailedDescription_md": "The &quot;Non-Governmental Aided Organization (Special Schools and Vocational Training Centre) for Disabled&quot; is a scheme by the Department of Social Justice &amp; Special Assistance, Govt. of Maharashtra. In this scheme, Special Education is provided to children with disability who are below the age of 18 years. The child should be enrolled in a special school run by a Non-Governmental Aided Organization. Vocational Training is given to special children above the age of 18 years. Only citizens who are permanent residents of the state of Maharashtra are eligible to apply for this scheme. This scheme is 100% funded by the Govt. of Maharashtra.\n"
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "url": "",
+        "process": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 1: ",
+                "bold": true
+              },
+              {
+                "text": "Visit the "
+              },
+              {
+                "type": "link",
+                "link": "https://sjsa.maharashtra.gov.in/en/contacts",
+                "children": [
+                  {
+                    "text": "District Social Welfare Office"
+                  }
+                ]
+              },
+              {
+                "text": ", and request a hard copy of the format of the application form for the scheme from the concerned authority."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2: ",
+                "bold": true
+              },
+              {
+                "text": "In the application form, fill in all the mandatory fields, paste the passport-sized photograph (signed across), and attach all the (self-attested) mandatory documents."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 3: ",
+                "bold": true
+              },
+              {
+                "text": "Submit the duly filled and signed application form along with the documents to the Assistant Commissioner, District Social Welfare Office."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 4: ",
+                "bold": true
+              },
+              {
+                "text": "Acquire the receipt/acknowledgment of the successful submission of the application form from the District Social Welfare Office."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n1. The applicant should be a citizen of India.\n1. The applicant should be a permanent resident of Maharashtra State.\n1. The applicant should be enrolled in a Non-Government Institution / Residential Institution.\n1. The applicant should be a Person with Disability (Visually Impaired, Hearing Impaired, Orthopedically Handicapped, etc).\n1. The percentage of disability should be 40% and above.\n1. For Special Education, the age of the applicant should be between 6 to 18 years.\n1. For Vocational Education, the age of the applicant should be 18 years and above.\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should be a citizen of India."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should be a permanent resident of Maharashtra State."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should be enrolled in a Non-Government Institution / Residential Institution."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should be a Person with Disability (Visually Impaired, Hearing Impaired, Orthopedically Handicapped, etc)."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The percentage of disability should be 40% and above."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "For Special Education, the age of the applicant should be between 6 to 18 years."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "For Vocational Education, the age of the applicant should be 18 years and above."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "ngaossandvtd"
+}

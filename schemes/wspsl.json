@@ -1,0 +1,365 @@
+{
+  "_id": "67e04135ebbfcbbbca11ce5c",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": true,
+      "tags": [
+        "Widow",
+        "Financial Assistance",
+        "Pension"
+      ],
+      "schemeName": "Union Territory of Lakshadweep Pension Scheme for Widows",
+      "schemeShortTitle": "UTLPSW",
+      "implementingAgency": "District Panchayat And Village (Dweep) Panchayats",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce87cd6d1a3bde4685312",
+          "label": "Social welfare & Empowerment"
+        },
+        {
+          "value": "64f57d10ffb93104c7006c97",
+          "label": "Women and Child"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Pension",
+          "label": "Pension"
+        },
+        {
+          "value": "Financial assistance",
+          "label": "Financial assistance"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "state": {
+        "value": 31,
+        "label": "Lakshadweep"
+      },
+      "nodalDepartmentName": {
+        "value": 31000024,
+        "label": "Social Welfare and Tribal Affairs Department, Lakshadweep"
+      },
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Official Website",
+          "url": "https://lakshadweep.gov.in/departments/social-welfare-and-tribal-affairs/"
+        },
+        {
+          "title": "Guideline",
+          "url": "https://cdn.s3waas.gov.in/s358238e9ae2dd305d79c2ebc8c1883422/uploads/2023/07/2023071388.pdf"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The scheme &amp;quot;Union Territory of Lakshadweep Pension Scheme for Widows&amp;quot; was introduced by the Social Welfare &amp;amp; Tribal Affairs Department, Union Territory of Lakshadweep, with the aim of providing monthly financial assistance to widows in the UT. The scheme covers widows who have not remarried and have no source of income. The District Panchayat and Village (Dweep) Panchayats (VDPs) of the Union Territory of Lakshadweep implement the scheme to ensure smooth processing and disbursement. The pension amount is directly transferred to the beneficiary’s bank account.\n",
+      "benefits_md": "**Financial Assistance:**\n\n- Eligible beneficiaries receive a pension of ₹1,500/- per month (₹18,000 per annum).\n\n**Mode of Disbursement:**\n\n- Direct Benefit Transfer (DBT) to the beneficiary&#39;s bank account.\n\n**Frequency of Disbursement:**\n\n- The pension is disbursed on a monthly basis.\n\n",
+      "exclusions_md": "\n1. The applicant is not eligible if she has remarried.\n\n",
+      "briefDescription": "The scheme aims to provide monthly financial assistance of ₹1,500/- to widows in the Union Territory of Lakshadweep. It covers widows who have not remarried and have no source of income.",
+      "detailedDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "The scheme \"Union Territory of Lakshadweep Pension Scheme for Widows\" was introduced by the Social Welfare & Tribal Affairs Department, Union Territory of Lakshadweep, with the aim of providing monthly financial assistance to widows in the UT. The scheme covers widows who have not remarried and have no source of income. The District Panchayat and Village (Dweep) Panchayats (VDPs) of the Union Territory of Lakshadweep implement the scheme to ensure smooth processing and disbursement. The pension amount is directly transferred to the beneficiary’s bank account."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Financial Assistance:",
+              "bold": true,
+              "underline": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Eligible beneficiaries receive a pension of ₹1,500/- per month (₹18,000 per annum)."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Mode of Disbursement:",
+              "bold": true,
+              "underline": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Direct Benefit Transfer (DBT) to the beneficiary's bank account."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Frequency of Disbursement:",
+              "bold": true,
+              "underline": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The pension is disbursed on a monthly basis."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "exclusions": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant is not eligible if she has remarried."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "process": [
+          {
+            "type": "align_justify",
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Application Process:",
+                    "bold": true,
+                    "underline": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "align_justify",
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 1:",
+                    "bold": true
+                  },
+                  {
+                    "text": " The eligible applicants may collect the application form from the nearest Village (Dweep) Panchayat office."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 2:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Carefully fill out the application form and attach all supporting documents."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 3:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Submit the completed application form along with the required documents to the Executive Officer at the Village (Dweep) Panchayat office."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Post-Application Process:",
+                    "bold": true,
+                    "underline": true
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 1: ",
+                    "bold": true
+                  },
+                  {
+                    "text": "The application is verified by the members of the Evaluation Committee of the respective Village (Dweep) Panchayat."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 2:",
+                    "bold": true
+                  },
+                  {
+                    "text": " After successful verification, the application is forwarded to the Chief Executive Officer, District Panchayat (HQ), Kavaratti, for further processing."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 3:",
+                    "bold": true
+                  },
+                  {
+                    "text": " The forwarded application undergoes re-verification by District Panchayat officials."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 4:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Upon successful re-verification at the District Panchayat level, the list of eligible pensioners is prepared through the Public Financial Management System (PFMS) and submitted to the Social Welfare & Tribal Affairs Department for payment processing."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 5: ",
+                    "bold": true
+                  },
+                  {
+                    "text": "Payments are made through the Direct Benefit Transfer (DBT) mode, money is paid through Aadhaar-linked bank accounts."
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "process_md": "**Application Process:**\n**Step 1:** The eligible applicants may collect the application form from the nearest Village (Dweep) Panchayat office.\n**Step 2:** Carefully fill out the application form and attach all supporting documents.\n**Step 3:** Submit the completed application form along with the required documents to the Executive Officer at the Village (Dweep) Panchayat office.\n**Post-Application Process:**\n**Step 1:** The application is verified by the members of the Evaluation Committee of the respective Village (Dweep) Panchayat.\n**Step 2:** After successful verification, the application is forwarded to the Chief Executive Officer, District Panchayat (HQ), Kavaratti, for further processing.\n**Step 3:** The forwarded application undergoes re-verification by District Panchayat officials.\n**Step 4:** Upon successful re-verification at the District Panchayat level, the list of eligible pensioners is prepared through the Public Financial Management System (PFMS) and submitted to the Social Welfare &amp;amp; Tribal Affairs Department for payment processing.\n**Step 5:** Payments are made through the Direct Benefit Transfer (DBT) mode, money is paid through Aadhaar-linked bank accounts.\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n1. The applicant should be a permanent resident of the Union Territory of Lakshadweep.\n1. The applicant should be a widow.\n1. The applicant should not have remarried.\n1. The applicant should have only nominal income, not exceeding ₹1,500/- per month (₹18,000/- per annum).\n1. The applicant should not be a beneficiary of any other similar pension scheme provided by the government.\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should be a permanent resident of the Union Territory of Lakshadweep."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should be a widow."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should not have remarried."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should have only nominal income, not exceeding ₹1,500/- per month (₹18,000/- per annum)."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should not be a beneficiary of any other similar pension scheme provided by the government."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "wspsl"
+}

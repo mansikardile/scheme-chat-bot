@@ -1,0 +1,738 @@
+{
+  "_id": "68c2f053468acd53b09e27d1",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Culture",
+        "Artist",
+        "Music",
+        "Competition",
+        "Heritage"
+      ],
+      "schemeName": "Promotion of Tiatr Related Activities",
+      "schemeShortTitle": "PTRA",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce8aad6d1a3bde4685320",
+          "label": "Sports & Culture"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Culture",
+          "label": "Culture"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "schemeFor": "Individual",
+      "state": {
+        "value": 30,
+        "label": "Goa"
+      },
+      "nodalDepartmentName": {
+        "value": 30000005,
+        "label": "Art, Culture and Museums Department"
+      }
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://www.goa.gov.in/wp-content/uploads/2021/06/Citizen-Charter-TAG.pdf"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The scheme &quot;Promotion of Tiatr Related Activities&quot; was launched by the Tiatr Academy under the Art, Culture and Museums Department, Government of Goa. The scheme aims to support cultural institutions and individuals in organizing various activities related to tiatr in their respective villages and towns to preserve and promote the traditional Konkani theatrical art form. The scheme provides financial support for organizing Konkani musical shows, singing competitions, acting competitions, one act plays, and programs celebrating the contribution of local tiatr artists both deceased and living but non-active, while ensuring these activities are made accessible to the public free of charge. The applicant must be a cultural institution or individual willing to organize tiatr-related activities and must submit applications within specified advance notice periods ranging from 8 to 30 days depending on the activity type. The scheme is implemented by Tiatr Academy of Goa and applications for this scheme are accepted offline through prescribed application forms available at the Tiatr Academy of Goa office.\n<br>\n\n",
+      "benefits_md": "##### ***Financial Support Categories***\n\n- ***Category A1*** ***- Konkani Musical Shows:*** Financial assistance for organizing shows with minimum 14 songs including duets, trios, quartets, choral songs, solos and at least 2 comedy skits.- ***Category A2*** ***- Singing Competitions:*** Financial assistance for organizing competitions with minimum 15 participants singing newly composed kantaram.- ***Category B1*** ***- Competitions:*** Financial assistance for acting competitions including monologue, dialogue, and one act play competitions.- ***Category B2*** ***- Celebrating Tiatr Artists:*** Financial assistance for organizing programs to remember and felicitate prominent tiatr artists.\n##### ***Conditions***\n\n- Programs must be staged free of charge to the public.\n- All promotional materials must acknowledge collaboration with Tiatr Academy of Goa.\n- Backdrop of minimum size 6 feet x 10 feet displaying Tiatr Academy of Goa logo is mandatory.\n- No adverse remarks against any governments, individuals, institutions, or content against caste, creed, and religion permitted.\n- Chief Guest and Guest of Honour must be decided in consultation with Tiatr Academy of Goa.\n- President or Vice President of Tiatr Academy of Goa will be the Chief Guest or Guest of Honour.\n\n<br>\n\n",
+      "briefDescription": "The scheme aims to support institutions and individuals to organize tiatr-related cultural activities in Goa. It provides financial assistance for Konkani musical shows, competitions, and programs celebrating tiatr artists.",
+      "exclusions_md": "",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The scheme \"Promotion of Tiatr Related Activities\" was launched by the Tiatr Academy under the Art, Culture and Museums Department, Government of Goa. The scheme aims to support cultural institutions and individuals in organizing various activities related to tiatr in their respective villages and towns to preserve and promote the traditional Konkani theatrical art form. The scheme provides financial support for organizing Konkani musical shows, singing competitions, acting competitions, one act plays, and programs celebrating the contribution of local tiatr artists both deceased and living but non-active, while ensuring these activities are made accessible to the public free of charge. The applicant must be a cultural institution or individual willing to organize tiatr-related activities and must submit applications within specified advance notice periods ranging from 8 to 30 days depending on the activity type. The scheme is implemented by Tiatr Academy of Goa and applications for this scheme are accepted offline through prescribed application forms available at the Tiatr Academy of Goa office."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "heading_five",
+          "children": [
+            {
+              "text": "Financial Support Categories",
+              "bold": true,
+              "underline": true,
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Category A1",
+                  "bold": true,
+                  "italic": true,
+                  "underline": true
+                },
+                {
+                  "bold": true,
+                  "italic": true,
+                  "text": " - Konkani Musical Shows: "
+                },
+                {
+                  "text": "Financial assistance for organizing shows with minimum 14 songs including duets, trios, quartets, choral songs, solos and at least 2 comedy skits."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Category A2",
+                  "bold": true,
+                  "italic": true,
+                  "underline": true
+                },
+                {
+                  "bold": true,
+                  "italic": true,
+                  "text": " - Singing Competitions: "
+                },
+                {
+                  "text": "Financial assistance for organizing competitions with minimum 15 participants singing newly composed kantaram."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Category B1",
+                  "bold": true,
+                  "italic": true,
+                  "underline": true
+                },
+                {
+                  "bold": true,
+                  "italic": true,
+                  "text": " - Competitions: "
+                },
+                {
+                  "text": "Financial assistance for acting competitions including monologue, dialogue, and one act play competitions."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Category B2",
+                  "bold": true,
+                  "italic": true,
+                  "underline": true
+                },
+                {
+                  "bold": true,
+                  "italic": true,
+                  "text": " - Celebrating Tiatr Artists: "
+                },
+                {
+                  "text": "Financial assistance for organizing programs to remember and felicitate prominent tiatr artists."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "heading_five",
+          "children": [
+            {
+              "text": "Conditions",
+              "bold": true,
+              "underline": true,
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Programs must be staged free of charge to the public."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "All promotional materials must acknowledge collaboration with Tiatr Academy of Goa."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Backdrop of minimum size 6 feet x 10 feet displaying Tiatr Academy of Goa logo is mandatory."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "No adverse remarks against any governments, individuals, institutions, or content against caste, creed, and religion permitted."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Chief Guest and Guest of Honour must be decided in consultation with Tiatr Academy of Goa."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "President or Vice President of Tiatr Academy of Goa will be the Chief Guest or Guest of Honour."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "process": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 1:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " The interested applicant should take a printout of the "
+              },
+              {
+                "type": "link",
+                "link": "https://www.goa.gov.in/wp-content/uploads/2021/06/Citizen-Charter-TAG.pdf",
+                "children": [
+                  {
+                    "text": "prescribed format"
+                  }
+                ]
+              },
+              {
+                "text": " of the application form."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " In the application form, fill in all the mandatory fields, attach copies of all the mandatory documents (self-attest, if required). Sign the application form and mention the date."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 3:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " Submit the duly filled and signed application form along with the documents to - "
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Tiatr Academy of Goa, AS-1 / AS-4, Block A, 2nd Floor, Campal Trade Centre, Opposite Kala Academy, Campal, Panaji, Goa, India – 403001",
+                "bold": true,
+                "italic": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "*Applicants are advised to save a copy of the submitted application form and any acknowledgment.",
+                "italic": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "italic": true,
+                "text": "*Applications are considered on a \"First come First Serve\" basis, subject to the availability of funds."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "heading_five",
+            "children": [
+              {
+                "text": "Application Deadline",
+                "bold": true,
+                "underline": true,
+                "italic": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Submit the completed application form along with all required documents to Tiatr Academy of Goa office within the specified timeframe: "
+              }
+            ]
+          },
+          {
+            "type": "ul_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "30 days in advance for Musical Shows and Competitions."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "15 days in advance for Celebrating Tiatr Artists."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "8 days in advance for submission of song lyrics in Singing Competitions."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "heading_five",
+            "children": [
+              {
+                "text": "Post-Application Processes",
+                "bold": true,
+                "underline": true,
+                "italic": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 1:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "bold": true,
+                "text": " Coordinate with Tiatr Academy of Goa"
+              }
+            ]
+          },
+          {
+            "type": "ul_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "After application acceptance, discuss and finalize the Chief Guest/Guest of Honour arrangements with Tiatr Academy of Goa, ensuring the President or Vice President of Tiatr Academy of Goa will serve in this capacity."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "bold": true,
+                "text": " Setup & Conduct the Event"
+              }
+            ]
+          },
+          {
+            "type": "ul_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Arrange for the mandatory backdrop of minimum size 6 feet x 10 feet displaying Tiatr Academy of Goa logo and collaboration statement. Ensure all promotional materials, advertisements, banners include the mandatory acknowledgment \"This programme is organized in collaboration with Tiatr Academy of Goa\"."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Execute the approved tiatr-related activity ensuring compliance with all scheme norms including free admission to public, appropriate content guidelines, and proper collaboration acknowledgments throughout the program."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 3:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "bold": true,
+                "text": " Financial Documentation & Payment Request"
+              }
+            ]
+          },
+          {
+            "type": "ul_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "After the event, prepare a comprehensive statement of expenditure supported by original bills and stamped receipts for any expenses exceeding ₹5,000/- as required for payment processing."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Submit the statement of expenditure along with all original bills and stamped receipts to Tiatr Academy of Goa for payment processing, ensuring all documentation is complete and accurate."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          }
+        ],
+        "process_md": "**Step 1:** The interested applicant should take a printout of the [prescribed format](https://www.goa.gov.in/wp-content/uploads/2021/06/Citizen-Charter-TAG.pdf) of the application form.\n**Step 2:** In the application form, fill in all the mandatory fields, attach copies of all the mandatory documents (self-attest, if required). Sign the application form and mention the date.\n**Step 3:** Submit the duly filled and signed application form along with the documents to - \n***Tiatr Academy of Goa, AS-1 / AS-4, Block A, 2nd Floor, Campal Trade Centre, Opposite Kala Academy, Campal, Panaji, Goa, India – 403001***\n_*Applicants are advised to save a copy of the submitted application form and any acknowledgment._\n_*Applications are considered on a &quot;First come First Serve&quot; basis, subject to the availability of funds._\n<br>\n\n##### ***Application Deadline***\nSubmit the completed application form along with all required documents to Tiatr Academy of Goa office within the specified timeframe: \n\n- 30 days in advance for Musical Shows and Competitions.\n- 15 days in advance for Celebrating Tiatr Artists.\n- 8 days in advance for submission of song lyrics in Singing Competitions.\n\n<br>\n\n##### ***Post-Application Processes***\n**Step 1:** **Coordinate with Tiatr Academy of Goa**\n\n- After application acceptance, discuss and finalize the Chief Guest/Guest of Honour arrangements with Tiatr Academy of Goa, ensuring the President or Vice President of Tiatr Academy of Goa will serve in this capacity.\n\n**Step 2:** **Setup &amp; Conduct the Event**\n\n- Arrange for the mandatory backdrop of minimum size 6 feet x 10 feet displaying Tiatr Academy of Goa logo and collaboration statement. Ensure all promotional materials, advertisements, banners include the mandatory acknowledgment &quot;This programme is organized in collaboration with Tiatr Academy of Goa&quot;.\n- Execute the approved tiatr-related activity ensuring compliance with all scheme norms including free admission to public, appropriate content guidelines, and proper collaboration acknowledgments throughout the program.\n\n**Step 3:** **Financial Documentation &amp; Payment Request**\n\n- After the event, prepare a comprehensive statement of expenditure supported by original bills and stamped receipts for any expenses exceeding ₹5,000/- as required for payment processing.\n- Submit the statement of expenditure along with all original bills and stamped receipts to Tiatr Academy of Goa for payment processing, ensuring all documentation is complete and accurate.\n\n<br>\n\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n- The applicant must be a cultural institution or individual organizing tiatr-related activities in Goa.\n- The applicant must organize activities in their respective villages or towns.\n- The applicant must ensure the program is staged free of charge to the public.\n- The applicant must agree to acknowledge Tiatr Academy of Goa collaboration in all promotional materials.\n- The applicant must ensure content does not contain adverse remarks against governments, individuals, institutions, or content against caste, creed, and religion.\n\n***For Konkani Musical Shows***\n\n- The applicant must ensure lyrics are newly composed and not recorded on any Audio/Video/Digital Versatile Disc Albums.\n- The applicant must arrange a band with minimum 5 instruments including drums, keyboard, guitar and 2 blowing instruments.\n- The applicant must organize minimum 14 songs including interactive duets, duos, trios, quartets/quintets, choral songs, solos and at least 2 comedy skits.\n- The applicant must submit typed lyrics and skit scripts at least 30 days in advance.\n\n***For Singing Competitions***\n\n- The applicant must ensure minimum 15 participants.\n- The applicant must ensure participants sing newly composed kantaram not recorded on any Audio/Video/Digital Versatile Disc Albums.\n- The applicant must arrange a band with minimum 5 instruments including drums, keyboard, guitar and 2 blowing instruments.\n- The applicant must provide competition rules to Tiatr Academy of Goa.\n- The applicant must submit typed song lyrics at least 8 days in advance.\n\n***For Other Competitions***\n\n- The applicant must submit application form at least 30 days in advance.\n\n***For Celebrating Tiatr Artists***\n\n- The applicant must focus on prominent tiatr artists such as actors, singers, writers.\n- The applicant must submit application form at least 15 days in advance.\n\n<br>\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must be a cultural institution or individual organizing tiatr-related activities in Goa."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must organize activities in their respective villages or towns."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must ensure the program is staged free of charge to the public."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must agree to acknowledge Tiatr Academy of Goa collaboration in all promotional materials."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must ensure content does not contain adverse remarks against governments, individuals, institutions, or content against caste, creed, and religion."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "For Konkani Musical Shows",
+              "italic": true,
+              "bold": true,
+              "underline": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must ensure lyrics are newly composed and not recorded on any Audio/Video/Digital Versatile Disc Albums."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must arrange a band with minimum 5 instruments including drums, keyboard, guitar and 2 blowing instruments."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must organize minimum 14 songs including interactive duets, duos, trios, quartets/quintets, choral songs, solos and at least 2 comedy skits."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must submit typed lyrics and skit scripts at least 30 days in advance."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "For Singing Competitions",
+              "italic": true,
+              "bold": true,
+              "underline": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must ensure minimum 15 participants."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must ensure participants sing newly composed kantaram not recorded on any Audio/Video/Digital Versatile Disc Albums."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must arrange a band with minimum 5 instruments including drums, keyboard, guitar and 2 blowing instruments."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must provide competition rules to Tiatr Academy of Goa."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must submit typed song lyrics at least 8 days in advance."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "For Other Competitions",
+              "italic": true,
+              "bold": true,
+              "underline": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must submit application form at least 30 days in advance."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "For Celebrating Tiatr Artists",
+              "italic": true,
+              "bold": true,
+              "underline": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must focus on prominent tiatr artists such as actors, singers, writers."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must submit application form at least 15 days in advance."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "ptra"
+}

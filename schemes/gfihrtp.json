@@ -1,0 +1,451 @@
+{
+  "_id": "67cda35b4f0bd5e698d5d9df",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Hotel",
+        "Resort",
+        "Tourism",
+        "Incentive",
+        "Heritage"
+      ],
+      "schemeName": "Grant of Financial Incentives for Hotels, Resorts, and Tourism Projects",
+      "schemeShortTitle": "GFIHRTP",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce94cd6d1a3bde468536f",
+          "label": "Travel & Tourism"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Embassies and consulates",
+          "label": "Embassies and consulates"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "business-entity",
+          "label": "Business Entity"
+        },
+        {
+          "value": "industries",
+          "label": "Industries"
+        }
+      ],
+      "state": {
+        "value": 34,
+        "label": "Puducherry"
+      },
+      "nodalDepartmentName": {
+        "value": 34000040,
+        "label": "Tourism Department, Puducherry"
+      },
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://styandptg.py.gov.in/2010/February/EXTRAORDINARYPART-II/1/005-PART-II%20No.%20005%20dated%201-2-2010.pdf"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "Launched in 2004, the scheme &quot;Grant of Financial Incentives for Hotels, Resorts, and Tourism Projects&quot; by the Department of Industrial Development (Tourism), Government of Puducherry, aims to encourage private entrepreneurs in the field of tourism by providing financial incentives for the development of hotels, resorts, heritage hotels, and other tourism-related projects. The scheme offers capital grants and subsidies to eligible projects, including star-classified hotels, heritage hotels, and tourism infrastructure like water theme parks, amusement parks, and convention centers. Eligible applicants include those who have financially invested in and developed tourism projects, with incentives ranging from ₹2,00,000/- per room for one-star hotels to 25% of the capital investment (up to ₹1,00,00,000/-) for higher-category projects. The scheme is implemented by the Department of Industrial Development (Tourism), Government of Puducherry.\n",
+      "benefits_md": "> **Capital Grant for Star-Classified Hotels**\n\n\n- ₹2,00,000/- per room, subject to a maximum of ₹30,00,000/- for one-star hotels.\n- ₹3,00,000/- per room, subject to a maximum of ₹75,00,000/- for two-star hotels.\n- ₹3,00,000/- per room, subject to a maximum of ₹1,00,00,000/- for three-star hotels.\n\n> **Capital Grant for Heritage Hotels**\n\n\n- ₹3,00,000/- per room, subject to a maximum of ₹75,00,000/-.\n- The building must be listed in the current list of heritage buildings in Puducherry and conform to architectural and conservation guidelines.\n\n> **Capital Subsidy for Higher-Category Projects**\n\n\n- 25% of the capital investment, subject to a maximum of ₹1,00,00,000/- for hotels/resorts with more than three-star classification and other tourism projects like water theme parks, amusement parks, yacht marinas, family entertainment centers, convention centers, and cruise tourism.\n\n> **Service Apartments**\n\n\n- ₹1,00,000/- per apartment, subject to a maximum of ₹6,00,000/- for &#39;Silver&#39; category.\n- ₹2,00,000/- per apartment, subject to a maximum of ₹12,00,000/- for &#39;Gold&#39; or higher category.\n\n> **Mode of Disbursement**\n\nThe incentive is directly released to the authorized/approved financial institutions if a loan was taken for the project. If no loan was taken, the amount is released directly to the applicant.\n> **Expected Time of Disbursement**\n\nPriority for disbursement is based on the date of star classification/heritage classification or the date of commercial operation for other tourism projects.\n",
+      "exclusions_md": "\n- Projects that have already availed capital subsidy/incentive from the Government of Puducherry or the Government of India are not eligible.\n- Demolishing a heritage building and reconstructing it as a heritage hotel is not considered eligible under the scheme.\n\n",
+      "briefDescription": "The scheme aims to promote tourism infrastructure by providing financial incentives to hotels, resorts, heritage hotels, and other tourism projects. The scheme offers capital grants and subsidies to eligible applicants who have invested in and developed tourism-related projects.",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Launched in 2004, the scheme \"Grant of Financial Incentives for Hotels, Resorts, and Tourism Projects\" by the Department of Industrial Development (Tourism), Government of Puducherry, aims to encourage private entrepreneurs in the field of tourism by providing financial incentives for the development of hotels, resorts, heritage hotels, and other tourism-related projects. The scheme offers capital grants and subsidies to eligible projects, including star-classified hotels, heritage hotels, and tourism infrastructure like water theme parks, amusement parks, and convention centers. Eligible applicants include those who have financially invested in and developed tourism projects, with incentives ranging from ₹2,00,000/- per room for one-star hotels to 25% of the capital investment (up to ₹1,00,00,000/-) for higher-category projects. The scheme is implemented by the Department of Industrial Development (Tourism), Government of Puducherry."
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "Capital Grant for Star-Classified Hotels",
+              "bold": true,
+              "underline": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "₹2,00,000/- per room, subject to a maximum of ₹30,00,000/- for one-star hotels."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "₹3,00,000/- per room, subject to a maximum of ₹75,00,000/- for two-star hotels."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "₹3,00,000/- per room, subject to a maximum of ₹1,00,00,000/- for three-star hotels."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "Capital Grant for Heritage Hotels",
+              "bold": true,
+              "underline": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "₹3,00,000/- per room, subject to a maximum of ₹75,00,000/-."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The building must be listed in the current list of heritage buildings in Puducherry and conform to architectural and conservation guidelines."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "Capital Subsidy for Higher-Category Projects",
+              "bold": true,
+              "underline": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "25% of the capital investment, subject to a maximum of ₹1,00,00,000/- for hotels/resorts with more than three-star classification and other tourism projects like water theme parks, amusement parks, yacht marinas, family entertainment centers, convention centers, and cruise tourism."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "Service Apartments",
+              "bold": true,
+              "underline": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "₹1,00,000/- per apartment, subject to a maximum of ₹6,00,000/- for 'Silver' category."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "₹2,00,000/- per apartment, subject to a maximum of ₹12,00,000/- for 'Gold' or higher category."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "Mode of Disbursement",
+              "bold": true,
+              "underline": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The incentive is directly released to the authorized/approved financial institutions if a loan was taken for the project. If no loan was taken, the amount is released directly to the applicant."
+            }
+          ]
+        },
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "Expected Time of Disbursement",
+              "bold": true,
+              "underline": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Priority for disbursement is based on the date of star classification/heritage classification or the date of commercial operation for other tourism projects."
+            }
+          ]
+        }
+      ],
+      "exclusions": [
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Projects that have already availed capital subsidy/incentive from the Government of Puducherry or the Government of India are not eligible."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Demolishing a heritage building and reconstructing it as a heritage hotel is not considered eligible under the scheme."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "process": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 1:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " Take a print of the "
+              },
+              {
+                "type": "link",
+                "link": "https://styandptg.py.gov.in/2010/February/EXTRAORDINARYPART-II/1/005-PART-II%20No.%20005%20dated%201-2-2010.pdf",
+                "children": [
+                  {
+                    "text": "prescribed format"
+                  }
+                ]
+              },
+              {
+                "text": " of the application form."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " In the application form, fill in all the mandatory fields and attach copies of all the mandatory documents."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 3:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " Submit the duly filled and signed application form and the documents, within the prescribed period (if any), to the Department of Industrial Development (Tourism), Government of Puducherry."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 4:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " Request a receipt or acknowledgement from the concerned authority to whom the application has been submitted. Ensure that the receipt contains essential details such as the date and time of submission, and a unique identification number (if applicable)."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "text": "Post-Application Processes",
+                "bold": true,
+                "underline": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 1:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " A committee consisting of the Secretary to Government (Tourism), Managing Director (PTDC), Member-Secretary (PPA), Commissioner (Puducherry Municipality), Representative of Finance Department, Architect (Representative of INTACH), and Director of Tourism will review the application to determine eligibility and the quantum of incentive."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " If approved, the incentive will be released directly to the authorized financial institution (if a loan was taken) or to the applicant (if no loan was taken). The incentive may be released in installments."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "*The applicant must provide an undertaking on ₹50/- stamp paper, stating that the project will continue in the same name and style for eight years from the date of release of the incentive.",
+                "italic": true
+              }
+            ]
+          }
+        ],
+        "process_md": "**Step 1:** Take a print of the [prescribed format](https://styandptg.py.gov.in/2010/February/EXTRAORDINARYPART-II/1/005-PART-II%20No.%20005%20dated%201-2-2010.pdf) of the application form.\n**Step 2:** In the application form, fill in all the mandatory fields and attach copies of all the mandatory documents.\n**Step 3:** Submit the duly filled and signed application form and the documents, within the prescribed period (if any), to the Department of Industrial Development (Tourism), Government of Puducherry.\n**Step 4:** Request a receipt or acknowledgement from the concerned authority to whom the application has been submitted. Ensure that the receipt contains essential details such as the date and time of submission, and a unique identification number (if applicable).\n<br>\n\n> **Post-Application Processes**\n\n**Step 1:** A committee consisting of the Secretary to Government (Tourism), Managing Director (PTDC), Member-Secretary (PPA), Commissioner (Puducherry Municipality), Representative of Finance Department, Architect (Representative of INTACH), and Director of Tourism will review the application to determine eligibility and the quantum of incentive.\n**Step 2:** If approved, the incentive will be released directly to the authorized financial institution (if a loan was taken) or to the applicant (if no loan was taken). The incentive may be released in installments.\n_*The applicant must provide an undertaking on ₹50/- stamp paper, stating that the project will continue in the same name and style for eight years from the date of release of the incentive._\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n- The scheme applies to star-classified hotels/resorts, heritage hotels, and other tourism projects completed and commissioned from 2005 onwards.\n- The project must be in continuous commercial operation.\n- The applicant must have financially invested in the property and developed the project.\n- The hotel/resort must have star classification or heritage classification approved by the Ministry of Tourism, Government of India.\n- The project must not have availed any other capital subsidy/incentive from the Government of Puducherry or the Government of India.\n- The project must continue in the same name and style for eight years from the date of release of the incentive.\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The scheme applies to star-classified hotels/resorts, heritage hotels, and other tourism projects completed and commissioned from 2005 onwards."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The project must be in continuous commercial operation."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must have financially invested in the property and developed the project."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The hotel/resort must have star classification or heritage classification approved by the Ministry of Tourism, Government of India."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The project must not have availed any other capital subsidy/incentive from the Government of Puducherry or the Government of India."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The project must continue in the same name and style for eight years from the date of release of the incentive."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "gfihrtp"
+}

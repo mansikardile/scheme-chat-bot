@@ -1,0 +1,563 @@
+{
+  "_id": "642a575ff1a4e351b5308331",
+  "en": {
+    "basicDetails": {
+      "schemeOpenDate": null,
+      "schemeCloseDate": null,
+      "state": {
+        "value": 14,
+        "label": "Manipur"
+      },
+      "nodalMinistryName": null,
+      "nodalDepartmentName": {
+        "value": 1444455,
+        "label": "Family Welfare Department"
+      },
+      "otherMinistryName": null,
+      "otherDepartmentNames": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Crisis/Disaster/Accident",
+          "label": "Crisis/Disaster/Accident"
+        },
+        {
+          "value": "Financial assistance",
+          "label": "Financial assistance"
+        }
+      ],
+      "dbtScheme": null,
+      "implementingAgency": "District Social Welfare Offices",
+      "tags": [
+        "Financial Asisstance",
+        "Social Welfare",
+        "COVID-19",
+        "Employment"
+      ],
+      "schemeName": "Chief Minister's COVID-19 Affected Livelihood Support Scheme",
+      "schemeShortTitle": "CMCALSS",
+      "level": {
+        "value": "state",
+        "label": "State"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce87cd6d1a3bde4685312",
+          "label": "Social welfare & Empowerment"
+        }
+      ],
+      "schemeFor": "Family"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://socialwelfare.mn.gov.in/media/filer_public/e5/c2/e5c27bf0-8ae4-4202-bd97-f7fb263684c5/cmcalss1.pdf"
+        },
+        {
+          "title": "Application Form",
+          "url": "https://socialwelfare.mn.gov.in/media/filer_public/51/fd/51fda9bf-5542-4796-ad45-0bcfa0bb6bda/application_form_-_10__final-cmcalss__1-merged.pdf"
+        },
+        {
+          "title": "FAQs",
+          "url": "https://socialwelfare.mn.gov.in/media/filer_public/9b/89/9b894ea8-09c5-4ed6-8179-211322634f7f/frequently_asked_questions-_cmcalss_10_1.pdf"
+        }
+      ],
+      "schemeImageUrl": "",
+      "briefDescription": "The guidelines of the \"Chief Minister's COVID-19 Affected Livelihood Support Scheme\" were approved by the Dept. of Social Welfare, Govt. of Manipur. The COVID-19 Pandemic and the resulting economic dislocations have severely affected the livelihood of a large percentage of the population.",
+      "detailedDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "The guidelines of the \"Chief Minister's COVID-19 Affected Livelihood Support Scheme\" were approved by the Dept. of Social Welfare, Govt. of Manipur on 6th July 2021. The COVID-19 Pandemic and the resulting economic dislocations have severely affected the livelihood of a large percentage of the population, especially vulnerable groups including daily wage earners, those without a regular source of income, and without sufficient savings to fall back upon. There is a need to have additional direct income support for these vulnerable groups. The beneficiary will be those domiciled in Manipur, whose livelihood has been adversely affected by the COVID-19 Pandemic leading to an inability to maintain a basic minimum standard of living. There can be only one beneficiary per family. This beneficiary must be the main bread earner and should be employed in the informal sector."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Direct Cash Transfer of ₹ 5,000/- in 2 (two) equal installments (₹ 2,500/- per installment) to every identified family."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "exclusions": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "(a)\tGovernment employee and his/ her dependents."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "(b)\tA person receiving a Government pension and his/her dependents."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "(c)\tAn Income tax/ GST/ professional tax payee."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "(d)\tAny person less than 18 years old."
+            }
+          ]
+        }
+      ],
+      "detailedDescription_md": "The guidelines of the &amp;quot;Chief Minister&amp;#39;s COVID-19 Affected Livelihood Support Scheme&amp;quot; were approved by the Dept. of Social Welfare, Govt. of Manipur on 6th July 2021. The COVID-19 Pandemic and the resulting economic dislocations have severely affected the livelihood of a large percentage of the population, especially vulnerable groups including daily wage earners, those without a regular source of income, and without sufficient savings to fall back upon. There is a need to have additional direct income support for these vulnerable groups. The beneficiary will be those domiciled in Manipur, whose livelihood has been adversely affected by the COVID-19 Pandemic leading to an inability to maintain a basic minimum standard of living. There can be only one beneficiary per family. This beneficiary must be the main bread earner and should be employed in the informal sector.\n"
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "url": "https://socialwelfare.mn.gov.in/media/filer_public/51/fd/51fda9bf-5542-4796-ad45-0bcfa0bb6bda/application_form_-_10__final-cmcalss__1-merged.pdf",
+        "process": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 1:",
+                "bold": true
+              },
+              {
+                "text": " The "
+              },
+              {
+                "type": "link",
+                "link": "https://socialwelfare.mn.gov.in/media/filer_public/51/fd/51fda9bf-5542-4796-ad45-0bcfa0bb6bda/application_form_-_10__final-cmcalss__1-merged.pdf",
+                "children": [
+                  {
+                    "text": "application form"
+                  }
+                ]
+              },
+              {
+                "text": " can be downloaded from the Department’s website www.socialwelfare.nic.in or collected from the District Social Welfare Offices, Office of CDPOs. The application forms are also available during MeeyamgiNumit at Chief Minister’s Darbar Hall."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2:",
+                "bold": true
+              },
+              {
+                "text": " Fill in the mandatory fields of the Application Form, and attach the supporting (self-attested) documents and the passport-sized photograph."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 3:",
+                "bold": true
+              },
+              {
+                "text": " Submit the form to the Office of the District Social Welfare Officer concerned."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 4: ",
+                "bold": true
+              },
+              {
+                "text": "The "
+              },
+              {
+                "text": "first level of verification",
+                "bold": true
+              },
+              {
+                "text": " will be done by the field official/ staff deputed for the particular area. The official/ staff will verify the eligibility of the applicant to receive the benefits under the scheme. "
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 5: ",
+                "bold": true
+              },
+              {
+                "text": "The "
+              },
+              {
+                "text": "second level of verification",
+                "bold": true
+              },
+              {
+                "text": " will be by the Sub-divisional Officer. The third and final verification will be done by the Deputy Commissioner. "
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 6: ",
+                "bold": true
+              },
+              {
+                "text": "Following the approvals, a draft beneficiary list for the district will be prepared."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 7: ",
+                "bold": true
+              },
+              {
+                "text": "The draft beneficiary list will be examined by the District Level Committee."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 8:",
+                "bold": true
+              },
+              {
+                "text": " The approved list will be the Verified Beneficiary List for the District, based on which cash transfers will be made. The name of the selected beneficiaries will be made available on the Department's website or displayed on the notice board of the Directorate, Social Welfare/ District Social Welfare Offices."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "NOTE 1:",
+                "bold": true
+              },
+              {
+                "text": " Helplines will be set up in every district to assist applicants and receive grievances and feedback."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n1. The applicant should be domiciled in the state of Manipur.\n1. The livelihood of the applicant should have been adversely affected by the COVID-19 pandemic, leading to an inability to maintain a basic minimum standard of living. \n1. The applicant should be the only applicant from the family.\n1. The applicant should be the main bread earner. \n1. The applicant should be employed in the informal sector. \n\n<br>\n\n<br>\n\nThe applicants will include, but not be limited, to the following occupations:\n(a)\tStreet Vendor.\n(b)\tFarmer (includes Agriculture, Fisheries, Horticulture, and Animal Husbandry).\n(c)\tDaily-Wage Worker and Labourer.\n(d)\tConstruction-Site Worker.\n(e)\tPublic Transport Driver (Auto, Winger, Bus, Rickshaw, etc).\n(f)\t    School Van Driver.\n(g)\tShop Assistant.\n(h)\tArtisan.\n(i)     Weaver.\n(j)     Performing Artist\n(k)    Home-Based Business etc.\n<br>\n\nInclusion Criteria (subject to exclusion criteria fulfillment):\n(a)\tRation Card Holder.\n(b)\tMGNREGA Card Holder.\n(c)\tPM-KISAN Beneficiary.\n(d)\tCMHT/ PMJAY Beneficiary.\n(e)\tPMUY Beneficiary.\n(f)\t    PM SVANidhi Beneficiary.\n(g)\tCMST/ CMAT Beneficiary.\n(h)\tPMAY (G) or PMAY (U) Beneficiary.\n(i)\t    SBM (G) or SBM (U) Beneficiary.\n(j)\t    Person in Vendor List of Municipalities or District Councils.\n(k)\tPerson with a permit for public transport/ school van in Municipalities or District Councils.\n",
+      "eligibilityDescription": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should be domiciled in the state of Manipur."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The livelihood of the applicant should have been adversely affected by the COVID-19 pandemic, leading to an inability to maintain a basic minimum standard of living. "
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should be the only applicant from the family."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should be the main bread earner. "
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should be employed in the informal sector. "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The applicants will include, but not be limited, to the following occupations:"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "(a)\tStreet Vendor."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "(b)\tFarmer (includes Agriculture, Fisheries, Horticulture, and Animal Husbandry)."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "(c)\tDaily-Wage Worker and Labourer."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "(d)\tConstruction-Site Worker."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "(e)\tPublic Transport Driver (Auto, Winger, Bus, Rickshaw, etc)."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "(f)\t    School Van Driver."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "(g)\tShop Assistant."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "(h)\tArtisan."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "(i)     Weaver."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "(j)     Performing Artist"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "(k)    Home-Based Business etc."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Inclusion Criteria (subject to exclusion criteria fulfillment):"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "(a)\tRation Card Holder."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "(b)\tMGNREGA Card Holder."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "(c)\tPM-KISAN Beneficiary."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "(d)\tCMHT/ PMJAY Beneficiary."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "(e)\tPMUY Beneficiary."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "(f)\t    PM SVANidhi Beneficiary."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "(g)\tCMST/ CMAT Beneficiary."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "(h)\tPMAY (G) or PMAY (U) Beneficiary."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "(i)\t    SBM (G) or SBM (U) Beneficiary."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "(j)\t    Person in Vendor List of Municipalities or District Councils."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "(k)\tPerson with a permit for public transport/ school van in Municipalities or District Councils."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "cmcalss"
+}

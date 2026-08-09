@@ -1,0 +1,290 @@
+{
+  "_id": "67a49328da50340fc8f0f0b8",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Baker",
+        "Tradition",
+        "Subsidy",
+        "Financial Assistance",
+        "Bread"
+      ],
+      "schemeName": "Goa Traditional Bakers (Poders) Subsidy Scheme",
+      "schemeShortTitle": "GTBPSS",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce87cd6d1a3bde4685312",
+          "label": "Social welfare & Empowerment"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Financial assistance",
+          "label": "Financial assistance"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "state": {
+        "value": 30,
+        "label": "Goa"
+      },
+      "nodalDepartmentName": {
+        "value": 30000027,
+        "label": "Labour and Employment Department"
+      },
+      "schemeFor": "Infra"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://dmg.goa.gov.in/PDFs/Notifications/Notification/OFFICIAL%20GAZETTE%20Recognize%20Person%20Notification%20May%202013.pdf"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "Launched in 2012, the scheme &quot;Goa Traditional Bakers (Poders) Subsidy Scheme&quot; by the Department of Industries, Government of Goa aims to provide financial assistance to traditional bakers (poders) in Goa to ensure the protection and growth of this traditional occupation. Through this scheme, subsidies for the purchase of maida (flour) are provided to traditional bakers who produce essential Goan breads like &quot;Pao,&quot; &quot;Undho,&quot; &quot;Poie,&quot; and &quot;Kakon.&quot; The scheme is implemented by the Goa Handicrafts, Rural &amp; Small Scale Industries Development Corporation Ltd. (GHRSSIDC). The objectives of the scheme include maintaining the price of 50gm &quot;Pao&quot; at ₹3 for the next 5 years and supporting bakers who have been in the business for at least 20 years.\n",
+      "benefits_md": "The subsidy will be provided for the purchase of maida required for the production of bread, depending on the category the bakers belong to.\n\n- **Category A:** Bakers who use less than or equal to 50 kgs. of maida in a day will get a cash subsidy of ₹4 per kg.- **Category B:** Bakers who use between 51 kgs. to 100 kgs. of maida in a day will get a cash subsidy of ₹4 per kg for the first 50 kgs. and ₹2 per kg for the remaining amount of maida.- **Category C:** Bakers who use between 101 kgs. to 150 kgs. of maida in a day will get a cash subsidy of ₹4 per kg for the first 50 kgs., ₹2 per kg for the next 50 kgs., and ₹1 per kg for the remaining amount of maida.\n****The subsidy will be disbursed every quarter.***\n****No subsidy for maida beyond the consumption of 150 kgs per day.***\n",
+      "briefDescription": "\"Goa Traditional Bakers (Poders) Subsidy Scheme\" aims to provide financial assistance to traditional bakers (poders) in Goa to ensure the protection and growth of this traditional occupation. Subsidies for the purchase of flour are provided to traditional bakers who produce essential Goan breads.",
+      "exclusions_md": "",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Launched in 2012, the scheme \"Goa Traditional Bakers (Poders) Subsidy Scheme\" by the Department of Industries, Government of Goa aims to provide financial assistance to traditional bakers (poders) in Goa to ensure the protection and growth of this traditional occupation. Through this scheme, subsidies for the purchase of maida (flour) are provided to traditional bakers who produce essential Goan breads like \"Pao,\" \"Undho,\" \"Poie,\" and \"Kakon.\" The scheme is implemented by the Goa Handicrafts, Rural & Small Scale Industries Development Corporation Ltd. (GHRSSIDC). The objectives of the scheme include maintaining the price of 50gm \"Pao\" at ₹3 for the next 5 years and supporting bakers who have been in the business for at least 20 years."
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The subsidy will be provided for the purchase of maida required for the production of bread, depending on the category the bakers belong to."
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Category A:",
+                  "bold": true,
+                  "underline": true
+                },
+                {
+                  "text": " Bakers who use less than or equal to 50 kgs. of maida in a day will get a cash subsidy of ₹4 per kg."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Category B:",
+                  "bold": true,
+                  "underline": true
+                },
+                {
+                  "text": " Bakers who use between 51 kgs. to 100 kgs. of maida in a day will get a cash subsidy of ₹4 per kg for the first 50 kgs. and ₹2 per kg for the remaining amount of maida."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Category C:",
+                  "bold": true,
+                  "underline": true
+                },
+                {
+                  "text": " Bakers who use between 101 kgs. to 150 kgs. of maida in a day will get a cash subsidy of ₹4 per kg for the first 50 kgs., ₹2 per kg for the next 50 kgs., and ₹1 per kg for the remaining amount of maida."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "*The subsidy will be disbursed every quarter.",
+              "bold": true,
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "*No subsidy for maida beyond the consumption of 150 kgs per day.",
+              "italic": true,
+              "bold": true
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "process": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 1:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " Complete the application form "
+              },
+              {
+                "type": "link",
+                "link": "https://dmg.goa.gov.in/PDFs/Notifications/Notification/OFFICIAL%20GAZETTE%20Recognize%20Person%20Notification%20May%202013.pdf",
+                "children": [
+                  {
+                    "text": "(Annexure I)"
+                  }
+                ]
+              },
+              {
+                "text": " and attach the required documents, including an affidavit declaring the contents of the application as true. "
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " Submit the application form along with the required documents to Goa Handicrafts, Rural & Small Scale Industries Development Corporation Ltd. (GHRSSIDC)."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "* For quarterly subsidy claims, submit bills of purchase of maida for the relevant quarter along with the application form ",
+                "italic": true
+              },
+              {
+                "type": "link",
+                "link": "https://dmg.goa.gov.in/PDFs/Notifications/Notification/OFFICIAL%20GAZETTE%20Recognize%20Person%20Notification%20May%202013.pdf",
+                "children": [
+                  {
+                    "italic": true,
+                    "text": "(Annexure II)"
+                  }
+                ]
+              },
+              {
+                "italic": true,
+                "text": " within 30 days of the end of the quarter."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Appraisal Committee Review",
+                "bold": true,
+                "underline": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "The Appraisal Committee, consisting of representatives from GHRSSIDC, All Goa Bakers Association, and the Directorate of Industries, Trade & Commerce, will review and sanction the subsidy."
+              }
+            ]
+          }
+        ],
+        "process_md": "**Step 1:** Complete the application form [(Annexure I)](https://dmg.goa.gov.in/PDFs/Notifications/Notification/OFFICIAL%20GAZETTE%20Recognize%20Person%20Notification%20May%202013.pdf) and attach the required documents, including an affidavit declaring the contents of the application as true. \n**Step 2:** Submit the application form along with the required documents to Goa Handicrafts, Rural &amp; Small Scale Industries Development Corporation Ltd. (GHRSSIDC).\n_* For quarterly subsidy claims, submit bills of purchase of maida for the relevant quarter along with the application form_ [_(Annexure II)_](https://dmg.goa.gov.in/PDFs/Notifications/Notification/OFFICIAL%20GAZETTE%20Recognize%20Person%20Notification%20May%202013.pdf) _within 30 days of the end of the quarter._\n**Appraisal Committee Review**\nThe Appraisal Committee, consisting of representatives from GHRSSIDC, All Goa Bakers Association, and the Directorate of Industries, Trade &amp; Commerce, will review and sanction the subsidy.\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n- The Traditional Goan bakers (poders) who are engaged in the production and selling of Pao, Undho, Poie, Kakon, and similar products will be eligible for availing financial assistance under the scheme as detailed below:\n- The existing traditional Bakers/Bakery which are registered with The All Goa Bakers Association registered under the Societies Registration Act, 1860.\n- The applicant/his or her family should be engaged in the business of making traditional Goan breads for the last 20 years.\n- The baker (poder) should be a Goan resident by birth.\n- The traditional baker/poder should be recommended by the All Goa Bakers Association.\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The Traditional Goan bakers (poders) who are engaged in the production and selling of Pao, Undho, Poie, Kakon, and similar products will be eligible for availing financial assistance under the scheme as detailed below:"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The existing traditional Bakers/Bakery which are registered with The All Goa Bakers Association registered under the Societies Registration Act, 1860."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant/his or her family should be engaged in the business of making traditional Goan breads for the last 20 years."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The baker (poder) should be a Goan resident by birth."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The traditional baker/poder should be recommended by the All Goa Bakers Association."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "gtbpss"
+}

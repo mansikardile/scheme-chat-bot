@@ -1,0 +1,335 @@
+{
+  "_id": "66d07a566a1178003d8531ea",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Loan",
+        "Self-employment",
+        "Subsidy",
+        "Minority"
+      ],
+      "schemeName": "Vrutti Protsaha Loan Scheme",
+      "schemeShortTitle": "VPLS",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce85cd6d1a3bde4685304",
+          "label": "Skills & Employment"
+        },
+        {
+          "value": "628ce87cd6d1a3bde4685312",
+          "label": "Social welfare & Empowerment"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Citizen empowerment",
+          "label": "Citizen empowerment"
+        },
+        {
+          "value": "Financial assistance",
+          "label": "Financial assistance"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "state": {
+        "value": 29,
+        "label": "Karnataka"
+      },
+      "nodalDepartmentName": {
+        "value": 3000027,
+        "label": "Minorities Welfare Department"
+      },
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://kmdconline.karnataka.gov.in/Portal/home"
+        },
+        {
+          "title": "Login & Apply",
+          "url": "https://kmdconline.karnataka.gov.in/Portal/login"
+        },
+        {
+          "title": "Track Application",
+          "url": "https://kmdconline.karnataka.gov.in/Portal/track"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The &quot;Vrutti Protsaha Loan Scheme&quot; was launched by the Minorities Welfare Department, Government of Karnataka, and implemented by the Karnataka Minorities Development Corporation. The scheme aims to promote self-employment and economic activities among minority communities and provides financial assistance to eligible individuals from minority communities to start or expand their economic activities, thereby fostering economic empowerment and self-sufficiency.\n",
+      "benefits_md": "Financial Assistance provided totals ₹1,00,000/- in two parts:\n\n- 50% Loan Amount\n- 50% Subsidy Amount\n\n",
+      "briefDescription": "The \"Vrutti Protsaha Loan Scheme\" is an initiative by the Karnataka Minority Development Corporation (KMDC) to promote self-employment and economic activities among minority communities. The scheme provides financial assistance to eligible individuals from minority communities. ",
+      "exclusions_md": "",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The \"Vrutti Protsaha Loan Scheme\" was launched by the Minorities Welfare Department, Government of Karnataka, and implemented by the Karnataka Minorities Development Corporation. The scheme aims to promote self-employment and economic activities among minority communities and provides financial assistance to eligible individuals from minority communities to start or expand their economic activities, thereby fostering economic empowerment and self-sufficiency."
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Financial Assistance provided totals ₹1,00,000/- in two parts:"
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "50% Loan Amount"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "50% Subsidy Amount"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Online",
+        "process": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step-01: ",
+                "bold": true
+              },
+              {
+                "text": "Applicant need to visits the Karnataka Minorities Development Corporation "
+              },
+              {
+                "type": "link",
+                "link": "https://kmdconline.karnataka.gov.in/Portal/home",
+                "children": [
+                  {
+                    "text": "official website"
+                  }
+                ]
+              },
+              {
+                "text": ".  "
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step-02: ",
+                "bold": true
+              },
+              {
+                "text": "Click \""
+              },
+              {
+                "type": "link",
+                "link": "https://kmdconline.karnataka.gov.in/Portal/login",
+                "children": [
+                  {
+                    "text": "Apply Online"
+                  }
+                ]
+              },
+              {
+                "text": "\" and Enter \"Mobile Number\" and \"Submit\".   "
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step-03: ",
+                "bold": true
+              },
+              {
+                "text": "Enter \"Aadhaar Number\" Fill in the \"Captcha\" and Select \"Next\"."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step-04: ",
+                "bold": true
+              },
+              {
+                "text": "Applicant will get OTP in his/her Aadhaar Linked Mobile Number."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step-05: ",
+                "bold": true
+              },
+              {
+                "text": "Enter \"OTP\" and select \"Continue\", After that Allow the official notice."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step-06: ",
+                "bold": true
+              },
+              {
+                "text": "After verifying the Aadhaar again fill in the \"OTP\" and Submit."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step-07: ",
+                "bold": true
+              },
+              {
+                "text": "Select the scheme \"Sikhligar’s Community Development Scheme\" and fill in the basic details father's name, gender, qualification detail"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step-08: ",
+                "bold": true
+              },
+              {
+                "text": "Select \"Next\" Fill in the address detail and again select \"Next\"."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step-09: ",
+                "bold": true
+              },
+              {
+                "text": "Upload the required document passport-size photo, educational document, income certificate, etc. "
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step-10: ",
+                "bold": true
+              },
+              {
+                "text": "Click \"Proceed\" and Select \"Submit Application\" and get an Application ID."
+              }
+            ]
+          }
+        ],
+        "process_md": "**Step-01:** Applicant need to visits the Karnataka Minorities Development Corporation [official website](https://kmdconline.karnataka.gov.in/Portal/home).  \n**Step-02:** Click &quot;[Apply Online](https://kmdconline.karnataka.gov.in/Portal/login)&quot; and Enter &quot;Mobile Number&quot; and &quot;Submit&quot;.   \n**Step-03:** Enter &quot;Aadhaar Number&quot; Fill in the &quot;Captcha&quot; and Select &quot;Next&quot;.\n**Step-04:** Applicant will get OTP in his/her Aadhaar Linked Mobile Number.\n**Step-05:** Enter &quot;OTP&quot; and select &quot;Continue&quot;, After that Allow the official notice.\n**Step-06:** After verifying the Aadhaar again fill in the &quot;OTP&quot; and Submit.\n**Step-07:** Select the scheme &quot;Sikhligar’s Community Development Scheme&quot; and fill in the basic details father&#39;s name, gender, qualification detail\n**Step-08:** Select &quot;Next&quot; Fill in the address detail and again select &quot;Next&quot;.\n**Step-09:** Upload the required document passport-size photo, educational document, income certificate, etc. \n**Step-10:** Click &quot;Proceed&quot; and Select &quot;Submit Application&quot; and get an Application ID.\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n1. The applicant should belong to a religious minority community as defined in the Government Order.\n1. The applicant should be a permanent resident of Karnataka.\n1. The age limit should be between 18 to 55 years.\n1. The annual income of the applicant&#39;s family from all sources should be less than ₹1,03,000/- in urban areas and less than ₹81,000/- in rural areas.\n1. No member of the applicant&#39;s family shall be an employee of the State/Central/ Government PSU.\n1. The applicant and family members should not have availed of benefits under any other scheme (Excluding the Arivu Scheme) of the KMDCL in the last 5 years.\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should belong to a religious minority community as defined in the Government Order."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should be a permanent resident of Karnataka."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The age limit should be between 18 to 55 years."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The annual income of the applicant's family from all sources should be less than ₹1,03,000/- in urban areas and less than ₹81,000/- in rural areas."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "No member of the applicant's family shall be an employee of the State/Central/ Government PSU."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant and family members should not have availed of benefits under any other scheme (Excluding the Arivu Scheme) of the KMDCL in the last 5 years."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "vpls"
+}

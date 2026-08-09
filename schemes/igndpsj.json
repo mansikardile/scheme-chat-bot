@@ -1,0 +1,337 @@
+{
+  "_id": "675ac3c69179d18db5f0cca9",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Pension",
+        "Financial Assistance",
+        "Person With Disability"
+      ],
+      "schemeName": "Indira Gandhi National Disability Pension Scheme - Jharkhand",
+      "schemeShortTitle": "IGNDPSJ",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce87cd6d1a3bde4685312",
+          "label": "Social welfare & Empowerment"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Pension",
+          "label": "Pension"
+        },
+        {
+          "value": "Financial assistance",
+          "label": "Financial assistance"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "state": {
+        "value": 20,
+        "label": "Jharkhand"
+      },
+      "nodalDepartmentName": {
+        "value": 2000025,
+        "label": "Women, Child Development & Social Security Department"
+      },
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://www.jharkhand.gov.in/PDepartment/ViewDoc?id=D031DO00628062023123755029"
+        },
+        {
+          "title": "Official Website",
+          "url": "https://www.jharkhand.gov.in/"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The scheme &quot;Indira Gandhi National Disability Pension Scheme&quot; is implemented by the Department of Women, Child Development &amp; Social Security, Government of Jharkhand. Under this scheme, financial assistance is provided to severely disabled and multi-disabled individuals aged 18 and above who are living below the poverty line (BPL) to support them in living a respectful life. \n",
+      "benefits_md": "\n- Under this scheme, eligible beneficiaries will receive a monthly pension of ₹1000/- (Central contribution- ₹300/-, State Contribution- ₹700/-). \n\n<br>\n\n",
+      "exclusions_md": "\n1. Households having motorised two-wheeler/three-wheeler/four-wheeler/fishing boat.\n1. Households owning machine operated three/four wheeled agricultural implements.\n1. Families holding Kisan Credit Card with standard limit of ₹50 thousand or more.\n1. Members of a family of a Government servant.\n1. Households engaged in non-agricultural industries registered with the Government.\n1. Any member of the family earning ₹10,000/- and above.\n1. Income tax paying families.\n1. Households paying service tax.\n1. Families having three or more rooms with concrete walls and roof in all the rooms. (Not applicable for PMAY &amp; IAY beneficiaries)\n1. Households having refrigerators.\n1. Households having landline phone.\n1. Families having 2.5 acres and above irrigated land with at least one irrigation device.\n1. Families holding 5 acres or more of irrigated land for two or more crop seasons.\n1. Families owning land of 7.5 acres and above with at least one irrigation equipment.\n\n",
+      "briefDescription": "Under this scheme, a monthly pension is provided to severely disabled and multi-disabled individuals aged 18 and above who are living below the poverty line (BPL) to support them in living a respectful life.",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The scheme \"Indira Gandhi National Disability Pension Scheme\" is implemented by the Department of Women, Child Development & Social Security, Government of Jharkhand. Under this scheme, financial assistance is provided to severely disabled and multi-disabled individuals aged 18 and above who are living below the poverty line (BPL) to support them in living a respectful life. "
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Under this scheme, eligible beneficiaries will receive a monthly pension of ₹1000/- (Central contribution- ₹300/-, State Contribution- ₹700/-). "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ],
+      "exclusions": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Households having motorised two-wheeler/three-wheeler/four-wheeler/fishing boat."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Households owning machine operated three/four wheeled agricultural implements."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Families holding Kisan Credit Card with standard limit of ₹50 thousand or more."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Members of a family of a Government servant."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Households engaged in non-agricultural industries registered with the Government."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Any member of the family earning ₹10,000/- and above."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Income tax paying families."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Households paying service tax."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Families having three or more rooms with concrete walls and roof in all the rooms. (Not applicable for PMAY & IAY beneficiaries)"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Households having refrigerators."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Households having landline phone."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Families having 2.5 acres and above irrigated land with at least one irrigation device."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Families holding 5 acres or more of irrigated land for two or more crop seasons."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Families owning land of 7.5 acres and above with at least one irrigation equipment."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "process": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 1:",
+                "bold": true
+              },
+              {
+                "text": " In the application form, fill in all the mandatory fields, and attach copies of all the mandatory documents (self-attest, if required)."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2:",
+                "bold": true
+              },
+              {
+                "text": " Submit the duly filled and signed application form along with the documents to the Block Development Officer in rural areas and the concerned Zonal Officer in urban areas. "
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          }
+        ],
+        "process_md": "**Step 1:** In the application form, fill in all the mandatory fields, and attach copies of all the mandatory documents (self-attest, if required).\n**Step 2:** Submit the duly filled and signed application form along with the documents to the Block Development Officer in rural areas and the concerned Zonal Officer in urban areas. \n<br>\n\n<br>\n\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n1. The age of the applicant should be 18 years or above.\n1. The applicant&#39;s name should be included in the list of families living Below Poverty Line.\n1. The applicant should be suffering from severe or multiple disabilities [(Rights of Persons with Disabilities Act, 2016 &amp; Section-2.](https://www.jharkhand.gov.in/PDepartment/ViewDoc?id=D031DO00628062023123755029)1. The applicant should not be receiving pension benefits from any other Central or State Government pension scheme (Chief Minister State Widow Honor Pension Scheme (formerly State Widow Honor Pension Scheme), Chief Minister State HIV/AIDS Affected Person Sahayataarth Pension Scheme (formerly State Security Pension Scheme for HIV/AIDS Affected Persons) and Swami Vivekanand Disabled Self-Reliance Promotion Scheme).\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The age of the applicant should be 18 years or above."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant's name should be included in the list of families living Below Poverty Line."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should be suffering from severe or multiple disabilities "
+                },
+                {
+                  "type": "link",
+                  "link": "https://www.jharkhand.gov.in/PDepartment/ViewDoc?id=D031DO00628062023123755029",
+                  "children": [
+                    {
+                      "text": "(Rights of Persons with Disabilities Act, 2016 & Section-2."
+                    }
+                  ]
+                },
+                {
+                  "text": ""
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should not be receiving pension benefits from any other Central or State Government pension scheme (Chief Minister State Widow Honor Pension Scheme (formerly State Widow Honor Pension Scheme), Chief Minister State HIV/AIDS Affected Person Sahayataarth Pension Scheme (formerly State Security Pension Scheme for HIV/AIDS Affected Persons) and Swami Vivekanand Disabled Self-Reliance Promotion Scheme)."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "igndpsj"
+}

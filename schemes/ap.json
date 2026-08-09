@@ -1,0 +1,472 @@
+{
+  "_id": "67b0292c64e707b6d581fe38",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Artisan",
+        "Exhibition",
+        "Stipend",
+        "Scheduled Caste",
+        "OBC",
+        "Minority",
+        "Safai Karamchari",
+        "Disability"
+      ],
+      "schemeName": "Artisan Promotion",
+      "schemeShortTitle": "AP",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce733d6d1a3bde4685278",
+          "label": "Business & Entrepreneurship"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Setting up / start-up / entrepreneurship",
+          "label": "Setting up / start-up / entrepreneurship"
+        },
+        {
+          "value": "Exhibitions/Trade fairs/Buyer-seller meet, market development",
+          "label": "Exhibitions/Trade fairs/Buyer-seller meet, market development"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "state": {
+        "value": 7,
+        "label": "Delhi"
+      },
+      "schemeType": null,
+      "nodalMinistryName": null,
+      "nodalDepartmentName": {
+        "value": 70000021,
+        "label": "Social Welfare Department"
+      },
+      "otherMinistryName": null,
+      "otherDepartmentNames": null,
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://dsfdc.delhi.gov.in/sites/default/files/artisan_promotion_scheme.pdf"
+        },
+        {
+          "title": "Application Form",
+          "url": "https://dsfdc.delhi.gov.in/sites/default/files/artisan_promotion_app_form.pdf"
+        }
+      ],
+      "schemeImageUrl": "",
+      "briefDescription": "The scheme \"Artisan Promotion\" by the DSFDC provides artisans with opportunities to participate in national fairs and exhibitions. It offers financial support for participation fees, lodging, boarding, and stipends, benefiting artisans from Scheduled Castes, Other Backward Classes, Minorities.",
+      "detailedDescription_md": "The scheme &quot;Artisan Promotion&quot; by the Delhi Scheduled Castes, Scheduled Tribes, Other Backward Classes, Minorities, and Safai Karamchari Finance and Development Corporation (DSFDC), Government of Delhi, aims to provide artisans with opportunities to showcase their talents by participating in various national fairs and exhibitions (Shilpotsav, IITF, East Himalaya Expo, International Surajkund Mela) organized by the different National Apex Corporations. The scheme offers financial support for participation fees, lodging, boarding, and stipends, enabling artisans to gain exposure, recognition, and financial benefits. The scheme is implemented by the DSFDC in collaboration with various National Apex Corporations.\n",
+      "benefits_md": "The Corporation provides opportunities for artisans to participate in fairs and melas organized by different National Apex Corporations.\n> **Stipend for Beneficiaries from Scheduled Castes Category**\n\n\n- Daily Allowance (DA) for Participant: ₹150/- per day\n- DA for Attendant/Spouse: ₹100/- per day\n- Travel Allowance (TA): Actual train fare by sleeper class or bus fare (on production of original tickets)\n- Hotel Accommodation: ₹200/- per day (Male), ₹300/- per day (Female)\n- Luggage/Transportation: ₹500/-\n\n> **Stipend for Beneficiaries from Minority Category**\n\n\n- DA for Participant: ₹1200/- per day (maximum for boarding &amp; lodging for one person only)\n- TA: Actual train fare by sleeper 2nd class or bus fare (on production of original tickets) one side.\n- Other Backward Class Category:\n- Reimbursement of to and fro 2nd Class journey by train/bus fare against the original tickets to participant and one helper.\n- ₹150/- per day as daily allowance to the participant.\n- Maximum ₹500/- towards freight charges for the luggage.\n\n> **Stipend for Beneficiaries from Safai Karamcharis Category**\n\n\n- To and Fro 2nd Class train ticket fare/bus for the shortest route &amp; reasonable coolie charges.\n- DA: ₹150/- per day per member.\n- Lodging facility will be provided by the NSKFDC or ₹250/- per day, per member.\n- Local conveyance: ₹100/- per day per member or transport provided by NSKFDC.\n\n> **Stipend for Beneficiaries from Persons with Disabilities (PwDs) Category**\n\n\n- ₹500/- per day (including attendant).\n- To &amp; Fro 2nd Class fare of Train or Bus and maximum ₹6000/-.\n- Boarding &amp; Lodging: ₹500/- per day.\n\n",
+      "exclusions_md": "",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The scheme \"Artisan Promotion\" by the Delhi Scheduled Castes, Scheduled Tribes, Other Backward Classes, Minorities, and Safai Karamchari Finance and Development Corporation (DSFDC), Government of Delhi, aims to provide artisans with opportunities to showcase their talents by participating in various national fairs and exhibitions (Shilpotsav, IITF, East Himalaya Expo, International Surajkund Mela) organized by the different National Apex Corporations. The scheme offers financial support for participation fees, lodging, boarding, and stipends, enabling artisans to gain exposure, recognition, and financial benefits. The scheme is implemented by the DSFDC in collaboration with various National Apex Corporations."
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The Corporation provides opportunities for artisans to participate in fairs and melas organized by different National Apex Corporations."
+            }
+          ]
+        },
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "Stipend for Beneficiaries from Scheduled Castes Category",
+              "bold": true,
+              "underline": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Daily Allowance (DA) for Participant: ₹150/- per day"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "DA for Attendant/Spouse: ₹100/- per day"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Travel Allowance (TA): Actual train fare by sleeper class or bus fare (on production of original tickets)"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Hotel Accommodation: ₹200/- per day (Male), ₹300/- per day (Female)"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Luggage/Transportation: ₹500/-"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "Stipend for Beneficiaries from Minority Category",
+              "bold": true,
+              "underline": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "DA for Participant: ₹1200/- per day (maximum for boarding & lodging for one person only)"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "TA: Actual train fare by sleeper 2nd class or bus fare (on production of original tickets) one side."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Other Backward Class Category:"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Reimbursement of to and fro 2nd Class journey by train/bus fare against the original tickets to participant and one helper."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "₹150/- per day as daily allowance to the participant."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Maximum ₹500/- towards freight charges for the luggage."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "Stipend for Beneficiaries from Safai Karamcharis Category",
+              "bold": true,
+              "underline": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "To and Fro 2nd Class train ticket fare/bus for the shortest route & reasonable coolie charges."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "DA: ₹150/- per day per member."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Lodging facility will be provided by the NSKFDC or ₹250/- per day, per member."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Local conveyance: ₹100/- per day per member or transport provided by NSKFDC."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "Stipend for Beneficiaries from Persons with Disabilities (PwDs) Category",
+              "bold": true,
+              "underline": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "₹500/- per day (including attendant)."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "To & Fro 2nd Class fare of Train or Bus and maximum ₹6000/-."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Boarding & Lodging: ₹500/- per day."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "process": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 1:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " The interested applicant should visit the designated office of the DSFDC, and request the hard copy of the prescribed format of the application form from the concerned staff."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Alternatively, the interested applicant can also "
+              },
+              {
+                "type": "link",
+                "link": "https://dsfdc.delhi.gov.in/sites/default/files/artisan_promotion_app_form.pdf",
+                "children": [
+                  {
+                    "text": "download the prescribed format"
+                  }
+                ]
+              },
+              {
+                "text": " of the application form and take a print of the same."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " In the application form, fill in all the mandatory fields, paste the passport-sized photograph, and attach copies of all the mandatory documents (self-attest, if required)."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 3:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " Submit the duly filled and signed application form along with the documents, to the Branch In-Charge / Section In-Charge of the DSFDC."
+              }
+            ]
+          },
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "text": "Post-Selection Procedure",
+                "bold": true,
+                "underline": true
+              }
+            ]
+          },
+          {
+            "type": "ul_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "After the selection of the candidate allotment letter is given to the selected candidate for participation in the scheduled fair/exhibition. "
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "As per the norms/guidelines of the National Apex Corporation concerned the selected candidate has to carry original ID proof along with 03 passport-size colour photographs. "
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "The selected candidate has to carry a bill book preferably a digital sale machine in the fair under the Minorities category."
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "process_md": "**Step 1:** The interested applicant should visit the designated office of the DSFDC, and request the hard copy of the prescribed format of the application form from the concerned staff.\nAlternatively, the interested applicant can also [download the prescribed format](https://dsfdc.delhi.gov.in/sites/default/files/artisan_promotion_app_form.pdf) of the application form and take a print of the same.\n**Step 2:** In the application form, fill in all the mandatory fields, paste the passport-sized photograph, and attach copies of all the mandatory documents (self-attest, if required).\n**Step 3:** Submit the duly filled and signed application form along with the documents, to the Branch In-Charge / Section In-Charge of the DSFDC.\n> **Post-Selection Procedure**\n\n\n- After the selection of the candidate allotment letter is given to the selected candidate for participation in the scheduled fair/exhibition. \n- As per the norms/guidelines of the National Apex Corporation concerned the selected candidate has to carry original ID proof along with 03 passport-size colour photographs. \n- The selected candidate has to carry a bill book preferably a digital sale machine in the fair under the Minorities category.\n\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n- The applicant should be an Artisan.\n- The applicant should be from one of the following target groups - Scheduled Castes, Other Backward Classes, Minority, Safai Karamchari, and Persons with Disabilities.\n- The applicant should be a beneficiary of the Delhi Scheduled Castes, Scheduled Tribes, Other Backward Classes, Minorities, and Safai Karamchari Finance and Development Corporation (DSFDC).\n- The applicant should have availed a loan from DSFDC.\n- The applicant should be a resident of Delhi.\n- The applicant should be registered online under Micro, Small, and Medium Enterprises (MSME) at the website www.udyogaadhar.gov.in.\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should be an Artisan."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should be from one of the following target groups - Scheduled Castes, Other Backward Classes, Minority, Safai Karamchari, and Persons with Disabilities."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should be a beneficiary of the Delhi Scheduled Castes, Scheduled Tribes, Other Backward Classes, Minorities, and Safai Karamchari Finance and Development Corporation (DSFDC)."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should have availed a loan from DSFDC."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should be a resident of Delhi."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should be registered online under Micro, Small, and Medium Enterprises (MSME) at the website www.udyogaadhar.gov.in."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "ap"
+}

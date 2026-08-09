@@ -1,0 +1,737 @@
+{
+  "_id": "6a0570fcf93a81a34ceff0b3",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Post Matric",
+        "Scholarship",
+        "Students",
+        "Disabilities",
+        "Grants",
+        "Tuition Fee"
+      ],
+      "schemeName": "Post Matric Scholarship for students with Disabilities - DNH & DD",
+      "schemeShortTitle": "POSTMSSD",
+      "implementingAgency": "Social Welfare",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeType": null,
+      "schemeCategory": [
+        {
+          "value": "628ce76cd6d1a3bde4685292",
+          "label": "Education & Learning"
+        },
+        {
+          "value": "628ce87cd6d1a3bde4685312",
+          "label": "Social welfare & Empowerment"
+        },
+        {
+          "value": "64f57d10ffb93104c7006c97",
+          "label": "Women and Child"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Scholarships and student finance",
+          "label": "Scholarships and student finance"
+        },
+        {
+          "value": "Financial assistance",
+          "label": "Financial assistance"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "schemeFor": "Individual",
+      "nodalMinistryName": null,
+      "nodalDepartmentName": {
+        "value": 38000060,
+        "label": "Social Welfare Department"
+      },
+      "otherMinistryName": null,
+      "state": {
+        "value": 38,
+        "label": "Dadra & Nagar Haveli and Daman & Diu"
+      },
+      "otherDepartmentNames": null
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "NSP Portal",
+          "url": "https://scholarships.gov.in/"
+        },
+        {
+          "title": "Guidelines",
+          "url": "https://cdnbbsr.s3waas.gov.in/s3e58aea67b01fa747687f038dfde066f6/uploads/2025/09/202509111852335844.pdf"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The scheme “Scholarships for Students with Disabilities” has been launched by the Department of Empowerment of Persons with Disabilities (Divyangjan), Ministry of Social Justice and Empowerment, Government of India, and aims to provide scholarship assistance and educational support to students with benchmark disabilities pursuing Post-Matric education. Through this scheme, financial assistance, tuition fee support, maintenance allowance, and related benefits are provided to eligible students with disabilities studying from Class 11 up to Post-Graduate Degree or Diploma level.\n<br>\n\n",
+      "benefits_md": "\n1. Scholarship support is available for studies from Class 11 up to Post-Graduate Degree or Diploma level.\n1. Eligible courses should be approved by recognised bodies such as:\n\n\n- University Grants Commission (UGC)\n- National Medical Commission (NMC)\n- Rehabilitation Council of India (RCI)\n- All India Council for Technical Education (AICTE)\n- State Government or Union Territory Government\n\n> **Benefits for Employed/Intern Students:**\n\n\n- Employed or intern students whose combined income with parents/guardians does not exceed the prescribed income ceiling are eligible for all components of the Post-Matric Scholarship.\n\n> **Tuition Fee/Coaching Fee:**\n\n\n- Tuition fee or coaching fee is released to the Implementing Agency through a Central Nodal Agency (CNA).\n\n> **Maintenance Allowance and Disability Allowance:**\n\n\n- Maintenance allowance and disability allowance are released through Direct Benefit Transfer (DBT) into the Aadhaar-enabled bank account of the candidate.\n- A minimum of 70% monthly attendance is required for eligibility for stipend, maintenance allowance, and disability allowance for a particular month.\n\n> **Book Allowance:**\n\n\n- Book allowance is released in advance to candidates meeting 50% attendance during the first 10 days.\n- Other eligible candidates receive the allowance with the first instalment of maintenance/disability allowance, provided they continue with the course.\n\n> **Mode of Disbursement:**\n\n\n- Tuition fee/coaching fee is released through the Central Nodal Agency (CNA) to the Implementing Agency.\n- Stipend and admissible allowances are released through Direct Benefit Transfer (DBT).\n\n> **Frequency of Disbursement**\n\n> **Tuition Fee/Coaching Fee:**\n\n\n- First instalment: 50% advance release based on candidates meeting 50% attendance during the first 10 days.\n- Second instalment: Released on completion of the course, considering candidates attending beyond the halfway mark.\n\n> **Book Allowance:**\n\n\n- Released in advance or with the first instalment of maintenance/disability allowance.\n\n> **Validity/Conditions:**\n\n\n- Minimum 70% monthly attendance is compulsory for stipend and allowance eligibility.\n- Aadhaar Number and Unique Disability ID (UDID) are mandatory.\n- Benefits are subject to scheme guidelines and verification procedures.\n\n<br>\n\n",
+      "exclusions_md": "<br>\n\n",
+      "briefDescription": "The scheme aims to provide scholarship assistance and educational support to students with benchmark disabilities. Through this scheme, financial assistance, tuition fee support, maintenance allowance, and related benefits are provided to eligible students with disabilities.",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The scheme “Scholarships for Students with Disabilities” has been launched by the Department of Empowerment of Persons with Disabilities (Divyangjan), Ministry of Social Justice and Empowerment, Government of India, and aims to provide scholarship assistance and educational support to students with benchmark disabilities pursuing Post-Matric education. Through this scheme, financial assistance, tuition fee support, maintenance allowance, and related benefits are provided to eligible students with disabilities studying from Class 11 up to Post-Graduate Degree or Diploma level."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Scholarship support is available for studies from Class 11 up to Post-Graduate Degree or Diploma level."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Eligible courses should be approved by recognised bodies such as:"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "University Grants Commission (UGC)"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "National Medical Commission (NMC)"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Rehabilitation Council of India (RCI)"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "All India Council for Technical Education (AICTE)"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "State Government or Union Territory Government"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "Benefits for Employed/Intern Students:",
+              "bold": true,
+              "underline": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Employed or intern students whose combined income with parents/guardians does not exceed the prescribed income ceiling are eligible for all components of the Post-Matric Scholarship."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "Tuition Fee/Coaching Fee:",
+              "bold": true,
+              "underline": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Tuition fee or coaching fee is released to the Implementing Agency through a Central Nodal Agency (CNA)."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "Maintenance Allowance and Disability Allowance:",
+              "bold": true,
+              "underline": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Maintenance allowance and disability allowance are released through Direct Benefit Transfer (DBT) into the Aadhaar-enabled bank account of the candidate."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "A minimum of 70% monthly attendance is required for eligibility for stipend, maintenance allowance, and disability allowance for a particular month."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "Book Allowance:",
+              "bold": true,
+              "underline": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Book allowance is released in advance to candidates meeting 50% attendance during the first 10 days."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Other eligible candidates receive the allowance with the first instalment of maintenance/disability allowance, provided they continue with the course."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "Mode of Disbursement:",
+              "underline": true,
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Tuition fee/coaching fee is released through the Central Nodal Agency (CNA) to the Implementing Agency."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Stipend and admissible allowances are released through Direct Benefit Transfer (DBT)."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "Frequency of Disbursement",
+              "bold": true,
+              "underline": true
+            }
+          ]
+        },
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "Tuition Fee/Coaching Fee:",
+              "bold": true,
+              "underline": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "First instalment: 50% advance release based on candidates meeting 50% attendance during the first 10 days."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Second instalment: Released on completion of the course, considering candidates attending beyond the halfway mark."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "Book Allowance:",
+              "bold": true,
+              "underline": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Released in advance or with the first instalment of maintenance/disability allowance."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "Validity/Conditions:",
+              "bold": true,
+              "underline": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Minimum 70% monthly attendance is compulsory for stipend and allowance eligibility."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Aadhaar Number and Unique Disability ID (UDID) are mandatory."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Benefits are subject to scheme guidelines and verification procedures."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ],
+      "exclusions": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Online",
+        "process": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 1:",
+                "bold": true
+              },
+              {
+                "text": "   Keep ready the soft copies of the required documents."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Go to http://www.scholarships.gov.in/. and click “New Registration”."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Guidelines for Registration will appear. Scroll to the bottom. "
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Read carefully the undertaking. Accept the Terms. Click “Continue”."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2:",
+                "bold": true
+              },
+              {
+                "text": "  A Registration Form will appear. (The fields marked as * are compulsory)"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Fill the details and click “Register”. "
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Your Application ID and password will be displayed."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "The same will also be sent as an SMS on your registered mobile number. "
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 3:",
+                "bold": true
+              },
+              {
+                "text": "  Go to https://scholarships.gov.in/fresh/newstdRegfrmInstruction "
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Click on “Login to Apply”. Enter your Application ID and password."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Type the Captcha and click “Login”."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "On the next screen, provide the OTP received on your registered mobile number. You will be directed to the Password Reset screen."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Create a new password and confirm."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Click “Submit”. You will be directed to the “Applicant’s Dashboard”."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": " Step 4:",
+                "bold": true
+              },
+              {
+                "text": "  On the left pane, click “Application Form”. The fields marked as * are compulsory. Fill the details and upload the documents."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "You can either click on “Save as Draft” to complete the application later."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Else, click “Final Submit” to submit the application."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          }
+        ],
+        "process_md": "**Step 1:**   Keep ready the soft copies of the required documents.\nGo to http://www.scholarships.gov.in/. and click “New Registration”.\nGuidelines for Registration will appear. Scroll to the bottom. \nRead carefully the undertaking. Accept the Terms. Click “Continue”.\n**Step 2:**  A Registration Form will appear. (The fields marked as * are compulsory)\nFill the details and click “Register”. \nYour Application ID and password will be displayed.\nThe same will also be sent as an SMS on your registered mobile number. \n**Step 3:**  Go to https://scholarships.gov.in/fresh/newstdRegfrmInstruction \nClick on “Login to Apply”. Enter your Application ID and password.\nType the Captcha and click “Login”.\nOn the next screen, provide the OTP received on your registered mobile number. You will be directed to the Password Reset screen.\nCreate a new password and confirm.\nClick “Submit”. You will be directed to the “Applicant’s Dashboard”.\n **Step 4:**  On the left pane, click “Application Form”. The fields marked as * are compulsory. Fill the details and upload the documents.\nYou can either click on “Save as Draft” to complete the application later.\nElse, click “Final Submit” to submit the application.\n<br>\n\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n1. The applicant should be a student with a benchmark disability of 40% or more as defined under the Rights of Persons with Disabilities Act, 2016.\n1. The applicant should possess a Unique Disability ID (UDID).\n1. The applicant should possess an Aadhaar Card.\n1. The applicant should pursue eligible Post-Matric educational courses covered under the scheme.\n1. The applicant should satisfy the prescribed income ceiling criteria.\n1. The applicant should study in Class 11 to Post-Graduate Degree or Diploma level.\n1. The applicant should pursue courses approved by recognized bodies such as:\n\n\n- University Grants Commission (UGC)\n- State Government or Union Territory Government\n- National Medical Commission (NMC)\n- Rehabilitation Council of India (RCI)\n- All India Council for Technical Education (AICTE)\n\n<br>\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should be a student with a benchmark disability of 40% or more as defined under the Rights of Persons with Disabilities Act, 2016."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should possess a Unique Disability ID (UDID)."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should possess an Aadhaar Card."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should pursue eligible Post-Matric educational courses covered under the scheme."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should satisfy the prescribed income ceiling criteria."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should study in Class 11 to Post-Graduate Degree or Diploma level."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should pursue courses approved by recognized bodies such as:"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "University Grants Commission (UGC)"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "State Government or Union Territory Government"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "National Medical Commission (NMC)"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Rehabilitation Council of India (RCI)"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "All India Council for Technical Education (AICTE)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "postmssd"
+}

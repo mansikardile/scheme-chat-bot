@@ -1,0 +1,567 @@
+{
+  "_id": "69c0cb5af84ce137a9a73682",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Award",
+        "Financial Assistance",
+        "Research Organization",
+        "Startup",
+        "Academic Institution"
+      ],
+      "schemeName": "National Awards for e-Governance",
+      "schemeShortTitle": "NAEG",
+      "level": {
+        "value": "central",
+        "label": "Central"
+      },
+      "schemeType": {
+        "value": "central-sector-scheme",
+        "label": "Central Sector Scheme"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce733d6d1a3bde4685278",
+          "label": "Business & Entrepreneurship"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Setting up / start-up / entrepreneurship",
+          "label": "Setting up / start-up / entrepreneurship"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "government-organisation",
+          "label": "Government Organisation"
+        },
+        {
+          "value": "business-entity",
+          "label": "Business Entity"
+        },
+        {
+          "value": "industries",
+          "label": "Industries"
+        },
+        {
+          "value": "institution",
+          "label": "University / Institution"
+        }
+      ],
+      "schemeFor": "Infra",
+      "nodalMinistryName": {
+        "value": 1578,
+        "label": "Ministry Of Personnel, Public Grievances And Pensions"
+      },
+      "nodalDepartmentName": {
+        "value": 15785557,
+        "label": "Department of Administrative Reforms and Public Grievances"
+      }
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://nceg.gov.in/assets/pdf/award_scheme_2026.pdf"
+        },
+        {
+          "title": "Official Website",
+          "url": "https://nceg.gov.in/national_awards"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The “National Awards for e-Governance (NAeG)” scheme has been implemented by the Department of Administrative Reforms and Public Grievances, Ministry of Personnel, Public Grievances and Pensions, Government of India. The scheme aims to recognize excellence in e-Governance initiatives and promote innovation, transparency, and efficiency in public service delivery. \n> **Objectives of the Scheme**\n\n\n- To recognize achievements in e-Governance implementation.\n- To disseminate knowledge on effective and sustainable digital governance practices.\n- To encourage innovation using technology in public service delivery.\n- To promote exchange of best practices and problem-solving approaches in governance.\n\n<br>\n\n",
+      "benefits_md": "**Award Components**\n**Gold Award:**\n\n- Trophy and certificate\n- ₹10,00,000 incentive to the organization\n- Certificates for up to 4 team members\n\n**Silver Award:**\n\n- Trophy and certificate\n- ₹5,00,000 incentive to the organization\n- Certificates for up to 4 team members\n\n**Additional Benefits**\n\n- National-level recognition for innovative projects.\n- Promotion of best practices and replication opportunities.\n- Encouragement for digital transformation and innovation.\n- Improved visibility and credibility of institutions.\n\n**Mode of Disbursement**\n\n- The incentive amount is released to the awarded organization for project implementation or public welfare improvements.\n- The award is non-recurring and provided once per award cycle.\n- The incentive is provided after final selection and award announcement.\n\n<br>\n\n",
+      "exclusions_md": "<br>\n\n",
+      "briefDescription": "The scheme aims to recognize excellence in e-governance. It provides awards and incentives up to ₹10,00,000 to outstanding initiatives.",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The “National Awards for e-Governance (NAeG)” scheme has been implemented by the Department of Administrative Reforms and Public Grievances, Ministry of Personnel, Public Grievances and Pensions, Government of India. The scheme aims to recognize excellence in e-Governance initiatives and promote innovation, transparency, and efficiency in public service delivery. "
+            }
+          ]
+        },
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "Objectives of the Scheme",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "To recognize achievements in e-Governance implementation."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "To disseminate knowledge on effective and sustainable digital governance practices."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "To encourage innovation using technology in public service delivery."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "To promote exchange of best practices and problem-solving approaches in governance."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 3,
+        "value": "composite",
+        "label": "Composite"
+      },
+      "benefits": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Award Components",
+              "bold": true,
+              "underline": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Gold Award:",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Trophy and certificate"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "₹10,00,000 incentive to the organization"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Certificates for up to 4 team members"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Silver Award:",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Trophy and certificate"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "₹5,00,000 incentive to the organization"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Certificates for up to 4 team members"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Additional Benefits",
+              "bold": true,
+              "underline": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "National-level recognition for innovative projects."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Promotion of best practices and replication opportunities."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Encouragement for digital transformation and innovation."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Improved visibility and credibility of institutions."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Mode of Disbursement",
+              "bold": true,
+              "underline": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The incentive amount is released to the awarded organization for project implementation or public welfare improvements."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The award is non-recurring and provided once per award cycle."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The incentive is provided after final selection and award announcement."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ],
+      "exclusions": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Online",
+        "process": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 01:",
+                "bold": true
+              },
+              {
+                "text": " The applicant should visit the official "
+              },
+              {
+                "type": "link",
+                "link": "https://nceg.gov.in/index",
+                "children": [
+                  {
+                    "text": "National e-Governance portal (NCEG portal)"
+                  }
+                ]
+              },
+              {
+                "text": "."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 02: ",
+                "bold": true
+              },
+              {
+                "text": "The applicant should "
+              },
+              {
+                "type": "link",
+                "link": "https://nceg.gov.in/register_detail",
+                "children": [
+                  {
+                    "text": "register"
+                  }
+                ]
+              },
+              {
+                "text": " the organization using valid credentials and email ID."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 03: ",
+                "bold": true
+              },
+              {
+                "text": "The applicant should log in using the registered username and password."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 04: ",
+                "bold": true
+              },
+              {
+                "text": "The applicant should select the appropriate award category."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 05: ",
+                "bold": true
+              },
+              {
+                "text": "The applicant should fill in the online application form with project details."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 06: ",
+                "bold": true
+              },
+              {
+                "text": "The applicant should upload required documents including the self-certification form."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 07: ",
+                "bold": true
+              },
+              {
+                "text": "The application undergoes screening, evaluation, spot verification, and jury presentation stages."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 08: ",
+                "bold": true
+              },
+              {
+                "text": "Final awards are announced after evaluation and approval by the competent authority."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "NOTE:",
+                "bold": true
+              },
+              {
+                "text": " The applicant should submit the application online before the deadline."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          }
+        ],
+        "process_md": "**Step 01:** The applicant should visit the official [National e-Governance portal (NCEG portal)](https://nceg.gov.in/index).\n**Step 02:** The applicant should [register](https://nceg.gov.in/register_detail) the organization using valid credentials and email ID.\n**Step 03:** The applicant should log in using the registered username and password.\n**Step 04:** The applicant should select the appropriate award category.\n**Step 05:** The applicant should fill in the online application form with project details.\n**Step 06:** The applicant should upload required documents including the self-certification form.\n**Step 07:** The application undergoes screening, evaluation, spot verification, and jury presentation stages.\n**Step 08:** Final awards are announced after evaluation and approval by the competent authority.\n**NOTE:** The applicant should submit the application online before the deadline.\n<br>\n\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n1. The applicant should be a central ministry or department, state or union territory government, district, or urban local body.\n1. The applicant should be an academic institution, research organization, or startup (as per the Department for Promotion of Industry and Internal Trade definition).\n1. The applicant should have implemented an e-governance project using information and communication technology.\n1. The applicant should ensure that the project was launched between 01.10.2023 and 30.09.2025.\n1. The applicant should ensure that the project is fully operational as on 01.12.2025.\n1. The applicant should submit only one project under one category.\n1. The applicant should ensure that the project demonstrates innovation, efficiency, transparency, and citizen-centric service delivery.\n\n<br>\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should be a central ministry or department, state or union territory government, district, or urban local body."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should be an academic institution, research organization, or startup (as per the Department for Promotion of Industry and Internal Trade definition)."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should have implemented an e-governance project using information and communication technology."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should ensure that the project was launched between 01.10.2023 and 30.09.2025."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should ensure that the project is fully operational as on 01.12.2025."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should submit only one project under one category."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should ensure that the project demonstrates innovation, efficiency, transparency, and citizen-centric service delivery."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "naeg"
+}

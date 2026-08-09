@@ -1,0 +1,241 @@
+{
+  "_id": "64b5f6d6b594314dec7ef220",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Student",
+        "Empowerment",
+        "Higher Education",
+        "Abandoned Women"
+      ],
+      "schemeName": "Widow B.Ed Scheme-Rajasthan",
+      "schemeShortTitle": "WBEDRJ",
+      "level": {
+        "value": "state",
+        "label": "State"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce76cd6d1a3bde4685292",
+          "label": "Education & Learning"
+        },
+        {
+          "value": "64f57d10ffb93104c7006c97",
+          "label": "Women and Child"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Scholarships and student finance",
+          "label": "Scholarships and student finance"
+        }
+      ],
+      "schemeOpenDate": "2016-01-01",
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "state": {
+        "value": 8,
+        "label": "Rajasthan"
+      },
+      "nodalDepartmentName": {
+        "value": 8000045,
+        "label": "Higher Education Department"
+      },
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://jankalyanfile.rajasthan.gov.in//Content/UploadFolder/Scheme/College_Education/widow/DOC_175_e0b64382-045a-4562-9c5a-437cf9e694d3.pdf"
+        },
+        {
+          "title": "Details",
+          "url": "https://schemes.rajasthan.gov.in/scheme/detail/175"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The state government of Rajasthan reimburses the course fees for B.Ed. in teacher training institutions for widows or abandoned women who enroll in the program, providing them with much-needed support.\n",
+      "benefits_md": "\n- Financial Assistance : ₹17,880 (Fee Reimbursement). \n\n",
+      "briefDescription": "In 2015-16, Rajasthan State started the \"Widow B.Ed Scheme\" for Widow/abandoned women. ",
+      "exclusions_md": "",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The state government of Rajasthan reimburses the course fees for B.Ed. in teacher training institutions for widows or abandoned women who enroll in the program, providing them with much-needed support."
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Financial Assistance : ₹17,880 (Fee Reimbursement). "
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Online",
+        "url": "https://hte.rajasthan.gov.in/scholarship.php",
+        "process": [
+          {
+            "type": "ol_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Applicants have to visit the "
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://hte.rajasthan.gov.in/scholarship.php",
+                    "children": [
+                      {
+                        "text": "official portal."
+                      }
+                    ]
+                  },
+                  {
+                    "text": ""
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "If applicants are not registered users, they need to click on register and complete the registration process."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "If Applicants are already registered users, they need to click on login with their SSOID & password."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Fill out the application form."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Provided the required documents."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Submit. "
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "process_md": "\n1. Applicants have to visit the [official portal.](https://hte.rajasthan.gov.in/scholarship.php)1. If applicants are not registered users, they need to click on register and complete the registration process.\n1. If Applicants are already registered users, they need to click on login with their SSOID &amp; password.\n1. Fill out the application form.\n1. Provided the required documents.\n1. Submit. \n\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n1. It is mandatory for the candidate to be of Rajasthan origin. \n1. Only women taking B.Ed training will be made beneficiaries.\n1. Applicants must be regular students of the B.Ed training program from any government and recognized private institute in Rajasthan.\n1. It is necessary for the beneficiary woman to be divorced and abandoned.\n1. Women who have obtained a B.Ed degree earlier by taking admission in B.Ed course will be ineligible.\n1. 75 percent attendance of women in the concerned institute will be mandatory.\n1. The female candidate should not be a beneficiary of any other scholarship or equivalent scheme of the Government.\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "It is mandatory for the candidate to be of Rajasthan origin. "
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Only women taking B.Ed training will be made beneficiaries."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Applicants must be regular students of the B.Ed training program from any government and recognized private institute in Rajasthan."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "It is necessary for the beneficiary woman to be divorced and abandoned."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Women who have obtained a B.Ed degree earlier by taking admission in B.Ed course will be ineligible."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "75 percent attendance of women in the concerned institute will be mandatory."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The female candidate should not be a beneficiary of any other scholarship or equivalent scheme of the Government."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "wbedrj"
+}

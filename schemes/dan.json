@@ -1,0 +1,252 @@
+{
+  "_id": "6585446da733b1d73267e78c",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Arogya",
+        "Nidhi",
+        "Health",
+        "Patient",
+        "Treatment"
+      ],
+      "schemeName": "Delhi Arogya Nidhi",
+      "schemeShortTitle": "DAN",
+      "implementingAgency": "Directorate General Of Health Services, Government NCT Of Delhi",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce7a2d6d1a3bde46852b1",
+          "label": "Health & Wellness"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Financial assistance",
+          "label": "Financial assistance"
+        },
+        {
+          "value": "Disease and conditions",
+          "label": "Disease and conditions"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "state": {
+        "value": 7,
+        "label": "Delhi"
+      },
+      "schemeType": null,
+      "nodalMinistryName": null,
+      "nodalDepartmentName": {
+        "value": 70000028,
+        "label": "Health & Family Welfare"
+      },
+      "otherMinistryName": null,
+      "otherDepartmentNames": null,
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Official Website",
+          "url": "https://dgehs.delhi.gov.in/dghs/delhi-arogya-nidhi"
+        },
+        {
+          "title": "Guidelines",
+          "url": "https://dgehs.delhi.gov.in/sites/default/files/inline-files/delhi_arogya_nidhi.pdf"
+        },
+        {
+          "title": "Application Form",
+          "url": "https://health.delhi.gov.in/sites/default/files/Health/generic_multiple_files/totalform.pdf"
+        }
+      ],
+      "schemeImageUrl": "",
+      "briefDescription": "Delhi Arogya Nidhi (DAN) is a scheme to provide financial assistance upto ₹1.5 lacs to needy patients who have National Food Security Cards for the treatment of diseases in Government hospitals only.",
+      "detailedDescription_md": "The &amp;quot;Delhi Arogya Nidhi (DAN)&amp;quot; is a scheme implemented by the Directorate General of Health Services to provide financial assistance of up to ₹1.5 lacs to needy patients who have National Food Security Cards for treatment of diseases in Government hospitals only.\n",
+      "benefits_md": "\n   1. Under the scheme, financial assistance of up to ₹1.5 lacs will be provided to needy patients who have National Food Security Cards for treatment of diseases in Government hospitals only.\n\n",
+      "exclusions_md": "",
+      "detailedDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "The \"Delhi Arogya Nidhi (DAN)\" is a scheme implemented by the Directorate General of Health Services to provide financial assistance of up to ₹1.5 lacs to needy patients who have National Food Security Cards for treatment of diseases in Government hospitals only."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 2,
+        "value": "in-kind",
+        "label": "In Kind"
+      },
+      "benefits": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "ol_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Under the scheme, financial assistance of up to ₹1.5 lacs will be provided to needy patients who have National Food Security Cards for treatment of diseases in Government hospitals only."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "process": [
+          {
+            "type": "align_justify",
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 01:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Visit the "
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://dgehs.delhi.gov.in/dghs/delhi-arogya-nidhi",
+                    "children": [
+                      {
+                        "text": "official website"
+                      }
+                    ]
+                  },
+                  {
+                    "text": " to download the "
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://health.delhi.gov.in/sites/default/files/Health/generic_multiple_files/totalform.pdf",
+                    "children": [
+                      {
+                        "text": "Application Form"
+                      }
+                    ]
+                  },
+                  {
+                    "text": " for Financial Aid."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 02:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Fill out the form with all requisites details."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 03:",
+                    "bold": true
+                  },
+                  {
+                    "text": " The photocopies of all documents are to be attached with the application and the original is to be brought at the time of submission of same for verification."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 04:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Applicant has to submit an undertaking for his signature verification as given in the application form."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 05:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Application to be submitted in Patient Welfare Cell, Directorate of Health Services, 6th Floor, F-17, Karkardooma, (Near Karkardooma Court), Delhi-110032."
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "process_md": "**Step 01:** Visit the [official website](https://dgehs.delhi.gov.in/dghs/delhi-arogya-nidhi) to download the [Application Form](https://health.delhi.gov.in/sites/default/files/Health/generic_multiple_files/totalform.pdf) for Financial Aid.\n**Step 02:** Fill out the form with all requisites details.\n**Step 03:** The photocopies of all documents are to be attached with the application and the original is to be brought at the time of submission of same for verification.\n**Step 04:** Applicant has to submit an undertaking for his signature verification as given in the application form.\n**Step 05:** Application to be submitted in Patient Welfare Cell, Directorate of Health Services, 6th Floor, F-17, Karkardooma, (Near Karkardooma Court), Delhi-110032.\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n1. Patients should have a National Food Security Card.\n1. The patient must be a resident of Delhi and has to furnish domicile proof of residing in Delhi continuously for the last 3 years (prior to the date of submission of the application).\n1. Treatment should be from the Government Hospital in Delhi.\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Patients should have a National Food Security Card."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The patient must be a resident of Delhi and has to furnish domicile proof of residing in Delhi continuously for the last 3 years (prior to the date of submission of the application)."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Treatment should be from the Government Hospital in Delhi."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "dan"
+}

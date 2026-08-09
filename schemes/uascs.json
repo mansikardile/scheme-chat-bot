@@ -1,0 +1,223 @@
+{
+  "_id": "6447ae10aca47f16a8710b90",
+  "en": {
+    "basicDetails": {
+      "schemeOpenDate": "2015-10-13",
+      "schemeCloseDate": null,
+      "state": {
+        "value": 24,
+        "label": "Gujarat"
+      },
+      "nodalMinistryName": null,
+      "nodalDepartmentName": {
+        "value": 2444464,
+        "label": "Social Justice and Empowerment Department"
+      },
+      "otherMinistryName": null,
+      "otherDepartmentNames": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Financial assistance",
+          "label": "Financial assistance"
+        }
+      ],
+      "dbtScheme": null,
+      "implementingAgency": "District Deputy Director(SCW) Office",
+      "tags": [
+        "Uniform Assistance",
+        "Scheduled Caste",
+        "Financial Assistance"
+      ],
+      "schemeName": "Uniform Assistance To SC Students",
+      "schemeShortTitle": "UASCS",
+      "level": {
+        "value": "state",
+        "label": "State"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce87cd6d1a3bde4685312",
+          "label": "Social welfare & Empowerment"
+        }
+      ],
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Details",
+          "url": "https://sje.gujarat.gov.in/dscw/schemes/1544?lang=English"
+        }
+      ],
+      "schemeImageUrl": "",
+      "briefDescription": "The Government of Gujarat launched a financial Assistance scheme for the student who comes under the scheduled caste.",
+      "detailedDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "Objective ",
+                  "bold": true
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Main Objective is to provide economic support and motivation for education. Under this scheme, assistance is given to Students studying in classes 1 to 8. "
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Through this scheme, the Gujarat government promotes primary education."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "list_item",
+          "children": [
+            {
+              "text": "Rs.900/- assistance for three pairs of uniforms."
+            }
+          ]
+        }
+      ],
+      "detailedDescription_md": "**Objective** \n- Main Objective is to provide economic support and motivation for education. Under this scheme, assistance is given to Students studying in classes 1 to 8. \n- Through this scheme, the Gujarat government promotes primary education.\n"
+    },
+    "applicationProcess": [
+      {
+        "mode": "Online",
+        "url": "https://www.digitalgujarat.gov.in",
+        "process": [
+          {
+            "type": "ol_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Applicants need to visit the official website "
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://www.digitalgujarat.gov.in",
+                    "children": [
+                      {
+                        "text": "https://www.digitalgujarat.gov.in"
+                      }
+                    ]
+                  },
+                  {
+                    "text": ""
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": ""
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://www.digitalgujarat.gov.in",
+                    "children": [
+                      {
+                        "text": ""
+                      }
+                    ]
+                  },
+                  {
+                    "text": "New applicants have to register his/her self first."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "At the time of registration, applicants have to provide their mobile number, email & set password."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Update their profile."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Applying for the scholarship."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n1. The student should be of Scheduled Caste.\n1. Students should be studying in classes 1 to 8.\n1. No Income Limit.\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The student should be of Scheduled Caste."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Students should be studying in classes 1 to 8."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "No Income Limit."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "uascs"
+}

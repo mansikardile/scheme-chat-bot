@@ -1,0 +1,654 @@
+{
+  "_id": "656ed68b53ed274f6a9173ea",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "NSIC",
+        "MSME",
+        "Raw Material",
+        "Credit Support"
+      ],
+      "schemeName": "Raw Material Assistance Scheme",
+      "schemeShortTitle": "RMAS",
+      "implementingAgency": "National Small Industries Corporation",
+      "level": {
+        "value": "central",
+        "label": "Central"
+      },
+      "schemeType": {
+        "value": "central-sector-scheme",
+        "label": "Central Sector Scheme"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce7f6d6d1a3bde46852d0",
+          "label": "Banking,Financial Services and Insurance"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Loan",
+          "label": "Loan"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "industries",
+          "label": "Industries"
+        }
+      ],
+      "schemeFor": "Infra",
+      "nodalMinistryName": {
+        "value": 497,
+        "label": "Ministry Of Micro, Small and Medium Enterprises"
+      },
+      "nodalDepartmentName": null
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Official Website",
+          "url": "https://www.nsic.co.in/Schemes/RawMaterialAgainstBG"
+        },
+        {
+          "title": "Application Form",
+          "url": "https://www.nsic.co.in/pdfs/forms/RMA-APP-14072023.PDF"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The scheme “Raw Material Assistance Scheme” was started by the National Small Industries Corporation (NSIC), Government of India Enterprise under the Ministry of Micro, Small and Medium Enterprises (MSME) to assist the Micro, Small and Medium Enterprises (MSMEs) in procuring the raw material(s). The Scheme aims to help MSMEs by way of financing the purchase of Raw Materials (Both indigenous &amp;amp; imported). This allows MSMEs to focus better on manufacturing quality products. \n",
+      "benefits_md": "1. Facilitating procurement of Raw Materials with credit support for up to 180 days.\n2. MSMEs helped to avail Economics of Purchases like bulk purchases, cash discounts, etc.\n3. Assistance against the security of Bank Guarantee-Rate of interest in respect of assistance availed on or after 01.02.2023:\n**Particulars****Effective Rate of Interest(% per Annum)****Effective Rate of Interest(% per Annum)****Normal Interest (Compounded on monthly rest) Upto 180 Days****Micro****Small &amp;amp;amp;amp; Medium**(i) Units having valid SME 1 rating*****8.759.25(ii) Units having valid SME 2 rating*****9.259.75(iii) Other units9.7510.25***Note:** The concessional rate of interest for the good-rated MSMEs, as mentioned at Sl. No. (i) and (ii) in the table above shall be applicable only to those cases, where the units make timely repayments of the Corporation’s dues. The units which have not re-paid its dues within the stipulated 180 days, shall not be eligible for the concessional rate of interest. Such units shall be charged the rate of interest mentioned at Sl. No. (iii) above.\n4. Additional rate of interest on delayed payment (beyond 180 days), over and above the normal rate of interest, would be as under:\nIn case any outstanding is more than 180 days1.25% per quarter> ***Processing Fee:***\n\n**Processing Fee****Micro****Small &amp;amp;amp;amp; Medium**On new sanctions1.0% per annum1.0% per annumOn Renewal0.5% per annum1.0% per annumNote: Security in the form of Bank Guarantee from Approved Banks.\n<br>\n\n",
+      "briefDescription": "Raw Material Assistance Scheme aims to help MSMEs by way of financing the purchase of Raw Material (Both indigenous & imported). This gives an opportunity to MSMEs to focus better on manufacturing quality products.",
+      "exclusions_md": "<br>\n\n",
+      "detailedDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "The scheme “Raw Material Assistance Scheme” was started by the National Small Industries Corporation (NSIC), Government of India Enterprise under the Ministry of Micro, Small and Medium Enterprises (MSME) to assist the Micro, Small and Medium Enterprises (MSMEs) in procuring the raw material(s). The Scheme aims to help MSMEs by way of financing the purchase of Raw Materials (Both indigenous & imported). This allows MSMEs to focus better on manufacturing quality products. "
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 2,
+        "value": "in-kind",
+        "label": "In Kind"
+      },
+      "benefits": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "1. Facilitating procurement of Raw Materials with credit support for up to 180 days."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "2. MSMEs helped to avail Economics of Purchases like bulk purchases, cash discounts, etc."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "3. Assistance against the security of Bank Guarantee-Rate of interest in respect of assistance availed on or after 01.02.2023:"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "children": [
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Particulars",
+                      "bold": true
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Effective Rate of Interest(% per Annum)",
+                      "bold": true
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Effective Rate of Interest(% per Annum)",
+                      "bold": true
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Normal Interest (Compounded on monthly rest) Upto 180 Days",
+                      "bold": true
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Micro",
+                      "bold": true
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Small & Medium",
+                      "bold": true
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "(i) Units having valid SME 1 rating"
+                    },
+                    {
+                      "text": "*",
+                      "bold": true
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "8.75"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "9.25"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "(ii) Units having valid SME 2 rating"
+                    },
+                    {
+                      "text": "*",
+                      "bold": true
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "9.25"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "9.75"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "(iii) Other units"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "9.75"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "10.25"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "*Note: ",
+                  "bold": true
+                },
+                {
+                  "text": "The concessional rate of interest for the good-rated MSMEs, as mentioned at Sl. No. (i) and (ii) in the table above shall be applicable only to those cases, where the units make timely repayments of the Corporation’s dues. The units which have not re-paid its dues within the stipulated 180 days, shall not be eligible for the concessional rate of interest. Such units shall be charged the rate of interest mentioned at Sl. No. (iii) above."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "4. Additional rate of interest on delayed payment (beyond 180 days), over and above the normal rate of interest, would be as under:"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "children": [
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "In case any outstanding is more than 180 days"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "1.25% per quarter"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "Processing Fee:",
+              "bold": true,
+              "underline": true,
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "children": [
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Processing Fee",
+                      "bold": true
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Micro",
+                      "bold": true
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Small & Medium",
+                      "bold": true
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "On new sanctions"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "1.0% per annum"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "1.0% per annum"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "On Renewal"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "0.5% per annum"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "1.0% per annum"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Note: Security in the form of Bank Guarantee from Approved Banks."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ],
+      "exclusions": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "process": [
+          {
+            "type": "align_justify",
+            "children": [
+              {
+                "type": "block_quote",
+                "children": [
+                  {
+                    "text": "Application Process:",
+                    "bold": true
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 01:",
+                    "bold": true
+                  },
+                  {
+                    "text": " The Entrepreneurs are required to apply for Raw Material Assistance only on the prescribed application forms."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 02:",
+                    "bold": true
+                  },
+                  {
+                    "text": " The applicants may download the "
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://www.nsic.co.in/pdfs/forms/RMA-APP-14072023.PDF",
+                    "children": [
+                      {
+                        "text": "application forms"
+                      }
+                    ]
+                  },
+                  {
+                    "text": " from the official website of "
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://www.nsic.co.in/Schemes/RawMaterialAgainstBG",
+                    "children": [
+                      {
+                        "text": "NSIC"
+                      }
+                    ]
+                  },
+                  {
+                    "text": ". Also, the blank forms are available free of charge from the Branch offices."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 03:",
+                    "bold": true
+                  },
+                  {
+                    "text": " The duly filled application form along with the Application is to be submitted to the nearest Branch Office. "
+                  }
+                ]
+              },
+              {
+                "type": "block_quote",
+                "children": [
+                  {
+                    "text": "Post-Application Process:",
+                    "bold": true
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 01:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Preliminary appraisal and Unit inspection is carried out by NSIC."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 02:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Sanction of Limit to the Unit."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 03:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Signing of agreement between NSIC and Unit."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 04:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Disbursement of assistance to the unit."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          }
+        ],
+        "process_md": "&gt; **Application Process:**\n\n**Step 01:** The Entrepreneurs are required to apply for Raw Material Assistance only on the prescribed application forms.\n**Step 02:** The applicants may download the [application forms](https://www.nsic.co.in/pdfs/forms/RMA-APP-14072023.PDF) from the official website of [NSIC](https://www.nsic.co.in/Schemes/RawMaterialAgainstBG). Also, the blank forms are available free of charge from the Branch offices.\n**Step 03:** The duly filled application form along with the Application is to be submitted to the nearest Branch Office. \n&gt; **Post-Application Process:**\n\n**Step 01:** Preliminary appraisal and Unit inspection is carried out by NSIC.\n**Step 02:** Sanction of Limit to the Unit.\n**Step 03:** Signing of agreement between NSIC and Unit.\n**Step 04:** Disbursement of assistance to the unit.\n<br>\n\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n   1. Any Manufacturing/Service MSME having a Udyam Registration Certificate can apply for assistance under the Scheme. \n\n**Note:** No trading activity is allowed under the scheme.\n",
+      "eligibilityDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "ol_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Any Manufacturing/Service MSME having a Udyam Registration Certificate can apply for assistance under the Scheme. "
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Note:",
+              "bold": true
+            },
+            {
+              "text": " No trading activity is allowed under the scheme."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "rmas"
+}

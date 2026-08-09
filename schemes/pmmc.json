@@ -1,0 +1,186 @@
+{
+  "_id": "690070670b4f3268f5358414",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Medical Certificate",
+        "Disability",
+        "PwD",
+        "Disabled Person",
+        "Divyang"
+      ],
+      "schemeName": "Procedure for Making Medical Certificate (for Certifying Disability)",
+      "schemeShortTitle": "PMMC",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce7a2d6d1a3bde46852b1",
+          "label": "Health & Wellness"
+        }
+      ],
+      "schemeSubCategory": null,
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "schemeFor": "Individual",
+      "state": {
+        "value": 5,
+        "label": "Uttarakhand"
+      },
+      "nodalDepartmentName": {
+        "value": 50000093,
+        "label": "Medical Health And Family Welfare Department"
+      }
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines (Page No. 127)",
+          "url": "https://uk.gov.in/department92/library_file/file-04-12-2023-06-02-23.pdf"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The “Procedure for Making Medical Certificate” is implemented by the Department of Medical Health and Family Welfare, Government of Uttarakhand. The scheme aims to ensure that persons with disabilities can easily obtain authentic medical certification required to avail benefits under various social welfare schemes.\n<br>\n\n",
+      "benefits_md": "This certificate is essential to verify a person’s disability and to enable them to avail the benefits of various social welfare schemes such as pensions, scholarships, and reservations in employment.\n<br>\n\n",
+      "briefDescription": "The certificate aims to ensure that persons with disabilities can easily obtain authentic medical certification required to avail benefits under various social welfare schemes, including disability pensions, scholarships, healthcare facilities, and employment reservations.",
+      "exclusions_md": "",
+      "detailedDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "The “Procedure for Making Medical Certificate” is implemented by the Department of Medical Health and Family Welfare, Government of Uttarakhand. The scheme aims to ensure that persons with disabilities can easily obtain authentic medical certification required to avail benefits under various social welfare schemes."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 2,
+        "value": "in-kind",
+        "label": "In Kind"
+      },
+      "benefits": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "This certificate is essential to verify a person’s disability and to enable them to avail the benefits of various social welfare schemes such as pensions, scholarships, and reservations in employment."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "process": [
+          {
+            "type": "align_justify",
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "To obtain a medical certificate, a person with disabilities must visit the district hospital on Wednesdays. They can collect a registration form there after paying a nominal fee. After registration, the individual is examined by the concerned doctors or specialists relevant to their type of disability. "
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "The applicant must carry their Aadhaar card, mobile number, and a passport-size photograph. The Chief Medical Officer (CMO) is generally present at the district hospital every Wednesday and, based on the medical examination reports, issues the disability certificate to the concerned individual. If the certificate is not available immediately, it can later be collected from the office of the Chief Medical Officer."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          }
+        ],
+        "process_md": "To obtain a medical certificate, a person with disabilities must visit the district hospital on Wednesdays. They can collect a registration form there after paying a nominal fee. After registration, the individual is examined by the concerned doctors or specialists relevant to their type of disability. \nThe applicant must carry their Aadhaar card, mobile number, and a passport-size photograph. The Chief Medical Officer (CMO) is generally present at the district hospital every Wednesday and, based on the medical examination reports, issues the disability certificate to the concerned individual. If the certificate is not available immediately, it can later be collected from the office of the Chief Medical Officer.\n<br>\n\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n   1. The applicant must be a resident of Uttarakhand.\n   1. The applicant must be a person with disabilities.\n\n<br>\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "ol_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant must be a resident of Uttarakhand."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant must be a person with disabilities."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "pmmc"
+}

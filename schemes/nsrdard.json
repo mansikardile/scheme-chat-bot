@@ -1,0 +1,491 @@
+{
+  "_id": "69d8a3a05c82a44cc2ae1b27",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Banking",
+        "National Savings",
+        "Loan",
+        "Deposit Account"
+      ],
+      "schemeName": "National Savings Recurring Deposit Account(RD)",
+      "schemeShortTitle": "NSRDARD",
+      "level": {
+        "value": "central",
+        "label": "Central"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce7f6d6d1a3bde46852d0",
+          "label": "Banking,Financial Services and Insurance"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Banking and money",
+          "label": "Banking and money"
+        },
+        {
+          "value": "Loan",
+          "label": "Loan"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "schemeFor": "Individual",
+      "state": null,
+      "schemeType": {
+        "value": "centrally-sponsored-scheme",
+        "label": "Centrally Sponsored Scheme"
+      },
+      "nodalMinistryName": {
+        "value": 1065,
+        "label": "Ministry Of Communication"
+      },
+      "nodalDepartmentName": {
+        "value": 1149,
+        "label": "Department of Posts"
+      },
+      "otherMinistryName": null,
+      "otherDepartmentNames": null
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://www.indiapost.gov.in/banking-services/savings"
+        }
+      ],
+      "schemeImageUrl": "",
+      "briefDescription": "The objective of the National Savings Recurring Deposit (RD) scheme is to encourage people to save small amounts regularly every month and build savings with safe returns at 6.7% per annum.",
+      "detailedDescription_md": "The National Savings Recurring Deposit Account (RD) is operated by the Department of Posts, Ministry of Communications, Government of India. It offers an interest rate of 6.7% per annum. The minimum deposit is ₹100 per month or any amount in multiples of ₹10, and there is no maximum limit on deposits.\n**Deposit**\n\n1. Minimum - ₹100 or any sum in multiple of ₹ 10.\n1. Maximum- No limit\n1. The first monthly deposit shall be made at the time of opening of the account and the amount of such deposit shall be the denomination of the account.\n1. Subsequent deposits equal to the first deposit shall be made up to the fifteenth day of each month, if account is opened before the sixteenth day of a calendar month; and up to the last working day of each month, if the account is opened between the sixteenth day and the last working day of a calendar month.\n\n**Advance deposit**\n[Please See Para 7](https://www.indiapost.gov.in/documents/offerings/schemesandservices/posb/NationalSavingsRecurringDepositScheme2019English.pdf)\n\n1. Individual can make advance deposit for any period up to 5 years.\n1. Rebate on advance deposit for an account of one hundred rupees denomination is as follows:\n1. If six or more deposits but not exceeding eleven deposits made in any calendar month: - ₹10/-\n1. o If twelve or more deposits made in any calendar month: - ₹ 40/- for every twelve deposits and ₹ 10/- for the balance, if any, of not less than six deposits\n\n<br>\n\n",
+      "benefits_md": "\n1. Encourages regular savings by allowing small monthly deposits starting from ₹100.\n1. Provides safe and guaranteed returns at 6.7% per annum with no maximum deposit limit.\n\n**Loan**\n[Please See Para 14](https://www.indiapost.gov.in/documents/offerings/schemesandservices/posb/NationalSavingsRecurringDepositScheme2019English.pdf)\n\n1. Depositor may avail loan facility up to 50% of the deposits made in the accounts after the account has been in operation for at least one year and twelve-monthly deposits have been made in the account\n1. Loan can be repaid in one lump-sum or in equal monthly instalments.\n1. Simple interest at the rate of 2% points over and above the interest rate applicable to the account of the loan shall be payable as per provisions given under the scheme rules.\n1. In case loan is not repaid till the closure of the account, outstanding amount due shall be recovered from the amount payable on closure of the account.\n\n<br>\n\n",
+      "exclusions_md": "<br>\n\n",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The National Savings Recurring Deposit Account (RD) is operated by the Department of Posts, Ministry of Communications, Government of India. It offers an interest rate of 6.7% per annum. The minimum deposit is ₹100 per month or any amount in multiples of ₹10, and there is no maximum limit on deposits."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Deposit",
+              "bold": true,
+              "underline": true
+            }
+          ]
+        },
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Minimum - ₹100 or any sum in multiple of ₹ 10."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Maximum- No limit"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The first monthly deposit shall be made at the time of opening of the account and the amount of such deposit shall be the denomination of the account."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Subsequent deposits equal to the first deposit shall be made up to the fifteenth day of each month, if account is opened before the sixteenth day of a calendar month; and up to the last working day of each month, if the account is opened between the sixteenth day and the last working day of a calendar month."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Advance deposit",
+              "bold": true,
+              "underline": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            },
+            {
+              "type": "link",
+              "link": "https://www.indiapost.gov.in/documents/offerings/schemesandservices/posb/NationalSavingsRecurringDepositScheme2019English.pdf",
+              "children": [
+                {
+                  "text": "Please See Para 7"
+                }
+              ]
+            },
+            {
+              "text": ""
+            }
+          ]
+        },
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Individual can make advance deposit for any period up to 5 years."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Rebate on advance deposit for an account of one hundred rupees denomination is as follows:"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "If six or more deposits but not exceeding eleven deposits made in any calendar month: - ₹10/-"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "o If twelve or more deposits made in any calendar month: - ₹ 40/- for every twelve deposits and ₹ 10/- for the balance, if any, of not less than six deposits"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Encourages regular savings by allowing small monthly deposits starting from ₹100."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Provides safe and guaranteed returns at 6.7% per annum with no maximum deposit limit."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "bold": true,
+              "underline": true,
+              "text": "Loan"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            },
+            {
+              "type": "link",
+              "link": "https://www.indiapost.gov.in/documents/offerings/schemesandservices/posb/NationalSavingsRecurringDepositScheme2019English.pdf",
+              "children": [
+                {
+                  "text": "Please See Para 14"
+                }
+              ]
+            },
+            {
+              "text": ""
+            }
+          ]
+        },
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Depositor may avail loan facility up to 50% of the deposits made in the accounts after the account has been in operation for at least one year and twelve-monthly deposits have been made in the account"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Loan can be repaid in one lump-sum or in equal monthly instalments."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Simple interest at the rate of 2% points over and above the interest rate applicable to the account of the loan shall be payable as per provisions given under the scheme rules."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "In case loan is not repaid till the closure of the account, outstanding amount due shall be recovered from the amount payable on closure of the account."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ],
+      "exclusions": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "process": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 1: Visit the nearest Post Office and collect the Account Opening Form and KYC Form."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2: Fill out the forms carefully and attach required documents (PAN, Aadhaar or valid ID proof, etc.)."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 3: Submit the completed forms along with documents at the Post Office counter."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 4: Deposit the minimum amount (₹500) through cheque."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 5: After verification, the account will be opened and details will be provided."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          }
+        ],
+        "process_md": "Step 1: Visit the nearest Post Office and collect the Account Opening Form and KYC Form.\nStep 2: Fill out the forms carefully and attach required documents (PAN, Aadhaar or valid ID proof, etc.).\nStep 3: Submit the completed forms along with documents at the Post Office counter.\nStep 4: Deposit the minimum amount (₹500) through cheque.\nStep 5: After verification, the account will be opened and details will be provided.\n<br>\n\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n1. The applicant must be a resident citizen of India.\n1. The applicant can be a single adult.\n1. The applicant can be a guardian on behalf of a person of unsound mind (Authorised Account).\n1. The applicant can be a minor who has attained the age of 10 years.\n1. The applicant can open any number of accounts individually or jointly.\n1. Joint Account (up to three adults) (Joint A or Joint B)\n\na. Joint ‘A’ type, to be operated by all the depositors or the surviving depositors jointly.\nb. Joint ‘B’ type, to be operated by any of the depositors or the surviving depositors separately\n**Note:** Upon reaching the age of 18 years, account holders must submit a new Account Opening Form (AOF) and fresh KYC documents at their Post Office to convert their minor account into to an adult account.\n**Note:** Accounts can also be opened through e-Banking or Mobile Banking facility. It is to be noted that Post Office Savings Account is a prerequisite for availing internet banking facility\n<br>\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must be a resident citizen of India."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant can be a single adult."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant can be a guardian on behalf of a person of unsound mind (Authorised Account)."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant can be a minor who has attained the age of 10 years."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant can open any number of accounts individually or jointly."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Joint Account (up to three adults) (Joint A or Joint B)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "a. Joint ‘A’ type, to be operated by all the depositors or the surviving depositors jointly."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "b. Joint ‘B’ type, to be operated by any of the depositors or the surviving depositors separately"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "bold": true,
+              "underline": true,
+              "text": "Note: "
+            },
+            {
+              "text": "Upon reaching the age of 18 years, account holders must submit a new Account Opening Form (AOF) and fresh KYC documents at their Post Office to convert their minor account into to an adult account."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "bold": true,
+              "underline": true,
+              "text": "Note: "
+            },
+            {
+              "text": "Accounts can also be opened through e-Banking or Mobile Banking facility. It is to be noted that Post Office Savings Account is a prerequisite for availing internet banking facility"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "nsrdard"
+}

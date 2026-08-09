@@ -1,0 +1,200 @@
+{
+  "_id": "68c65db116e6005766e8b77e",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": null,
+      "tags": [
+        "Pension",
+        "Police Line",
+        "Democracy Fighter",
+        "Emergency Period"
+      ],
+      "schemeName": "Loktantra Senani Samman Pension (Police Line Yojana) for the democracy fighters of the state imprisoned under MISA/DIR during the emergency period (from 25.06.1975 to 21.03.1977)",
+      "schemeShortTitle": "LSSPPLYDFSIMISADIREP",
+      "implementingAgency": "Police Department, Government Of Uttarakhand",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce87cd6d1a3bde4685312",
+          "label": "Social welfare & Empowerment"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Pension",
+          "label": "Pension"
+        }
+      ],
+      "schemeOpenDate": "2025-09-03",
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "schemeFor": "Individual",
+      "state": {
+        "value": 5,
+        "label": "Uttarakhand"
+      },
+      "nodalDepartmentName": {
+        "value": 50000052,
+        "label": "Department of Home"
+      }
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines (Page No. 65)",
+          "url": "https://uk.gov.in/department92/library_file/file-04-12-2023-06-02-23.pdf"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The scheme &amp;quot;Loktantra Senani Samman Pension (Police Line Yojana)&amp;quot; is implemented by the Police Department under the Department of Home, Government of Uttarakhand. The scheme aims to provide financial assistance in the form of a monthly pension to democracy fighters of the state who were imprisoned under MISA/DIR during the Emergency period (25.06.1975 to 21.03.1977).\n<br>\n\n",
+      "benefits_md": "**Pension Amount:** ₹20,000/- per month\n<br>\n\n",
+      "briefDescription": "The scheme provides financial assistance in the form of a monthly pension of ₹20,000/- to the democracy fighters of the state who were imprisoned under MISA/DIR during the Emergency period (from 25.06.1975 to 21.03.1977).",
+      "exclusions_md": "",
+      "detailedDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "The scheme \"Loktantra Senani Samman Pension (Police Line Yojana)\" is implemented by the Police Department under the Department of Home, Government of Uttarakhand. The scheme aims to provide financial assistance in the form of a monthly pension to democracy fighters of the state who were imprisoned under MISA/DIR during the Emergency period (25.06.1975 to 21.03.1977)."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "Pension Amount: ",
+                  "bold": true
+                },
+                {
+                  "text": "₹20,000/- per month"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "process": [
+          {
+            "type": "align_justify",
+            "children": [
+              {
+                "type": "ul_list",
+                "children": [
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "text": "The application must be submitted to the concerned District Magistrate."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "text": "Based on the report and recommendation of the District Magistrate, the pension will be sanctioned at the government level after obtaining approval from the Hon’ble Departmental Minister or the Hon’ble Chief Minister."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          }
+        ],
+        "process_md": "\n  - The application must be submitted to the concerned District Magistrate.\n  - Based on the report and recommendation of the District Magistrate, the pension will be sanctioned at the government level after obtaining approval from the Hon’ble Departmental Minister or the Hon’ble Chief Minister.\n\n<br>\n\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n- The applicant must be a resident of Uttarakhand.\n- The applicant must have been imprisoned under MISA/DIR during the emergency period (25 June 1975 to 21 March 1977).\n\n<br>\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "align_justify",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant must be a resident of Uttarakhand."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant must have been imprisoned under MISA/DIR during the emergency period (25 June 1975 to 21 March 1977)."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "lsspplydfsimisadirep"
+}

@@ -1,0 +1,222 @@
+{
+  "_id": "6645e49004a3424275d5f759",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Spectacles",
+        "Artist",
+        "Financial Assistance"
+      ],
+      "schemeName": "Assistance for Purchase of Spectacles - Folk Artists",
+      "schemeShortTitle": "APSFA",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce8aad6d1a3bde4685320",
+          "label": "Sports & Culture"
+        },
+        {
+          "value": "628ce87cd6d1a3bde4685312",
+          "label": "Social welfare & Empowerment"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Culture",
+          "label": "Culture"
+        },
+        {
+          "value": "Financial assistance",
+          "label": "Financial assistance"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "artists",
+          "label": "Artists"
+        }
+      ],
+      "state": {
+        "value": 33,
+        "label": "Tamil Nadu"
+      },
+      "nodalDepartmentName": {
+        "value": 3333367,
+        "label": "Art and Culture Department"
+      },
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://www.tn.gov.in/rti/proactive/inftour/handbook_folkartistboard.pdf"
+        },
+        {
+          "title": "Regional Department (32-33)",
+          "url": "https://www.tn.gov.in/rti/proactive/inftour/handbook_folkartistboard.pdf"
+        },
+        {
+          "title": "Application Form (XV)",
+          "url": "https://cms.tn.gov.in/sites/default/files/gos/tour-e-3-2008.pdf"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The &quot;Assistance for Purchase of Spectacles&quot; scheme was launched by the Art and Culture Department, Government of Tamil Nadu. Under this scheme, The Tamil Nadu Folk Artiste&#39;s Welfare Board provides assistance of ₹500/- for the purchase of spectacles to registered folk artists. The assistance shall be restricted to two thousand registered folk artists per year on “First come – First serve” basis.\n",
+      "benefits_md": "\n- Financial Assistance maximum of ₹500/-\n\n> **Note:** This assistance shall be given only once. \n\n",
+      "briefDescription": "The \"Assistance for Purchase of Spectacles\" scheme was launched by the Art and Culture Department, Government of Tamil Nadu. Under this scheme, the Tamil Nadu Folk Artiste's Welfare Board provides financial assistance for the purchase of spectacles to registered folk artists.",
+      "exclusions_md": "",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The \"Assistance for Purchase of Spectacles\" scheme was launched by the Art and Culture Department, Government of Tamil Nadu. Under this scheme, The Tamil Nadu Folk Artiste's Welfare Board provides assistance of ₹500/- for the purchase of spectacles to registered folk artists. The assistance shall be restricted to two thousand registered folk artists per year on “First come – First serve” basis."
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Financial Assistance maximum of ₹500/-"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "Note:",
+              "bold": true
+            },
+            {
+              "text": " This assistance shall be given only once. "
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "process": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "bold": true,
+                "text": "Step 1: "
+              },
+              {
+                "text": "The interested applicant should visit (during office hours) the "
+              },
+              {
+                "type": "link",
+                "link": "https://www.tn.gov.in/rti/proactive/inftour/handbook_folkartistboard.pdf",
+                "children": [
+                  {
+                    "text": "regional office"
+                  }
+                ]
+              },
+              {
+                "text": " and request the hard copy of the prescribed format of the application form XV from the staff exclusively entrusted to issue and collect filled-in applications."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2:",
+                "bold": true
+              },
+              {
+                "text": " In the application form, fill in all the mandatory fields, and attach copies of all the mandatory documents (self-attest, if required)."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 3: ",
+                "bold": true
+              },
+              {
+                "text": "Submit the duly filled and signed application form along with the documents to the Assistant Director/Deputy Director in the regional offices."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 4: ",
+                "bold": true
+              },
+              {
+                "text": "Request a receipt or acknowledgment from the Assistant Director/Deputy Director to whom the application has been submitted. Ensure that the receipt contains essential details such as the date and time of submission, and a unique identification number (if applicable)."
+              }
+            ]
+          }
+        ],
+        "process_md": "**Step 1:** The interested applicant should visit (during office hours) the [regional office](https://www.tn.gov.in/rti/proactive/inftour/handbook_folkartistboard.pdf) and request the hard copy of the prescribed format of the application form XV from the staff exclusively entrusted to issue and collect filled-in applications.\n**Step 2:** In the application form, fill in all the mandatory fields, and attach copies of all the mandatory documents (self-attest, if required).\n**Step 3:** Submit the duly filled and signed application form along with the documents to the Assistant Director/Deputy Director in the regional offices.\n**Step 4:** Request a receipt or acknowledgment from the Assistant Director/Deputy Director to whom the application has been submitted. Ensure that the receipt contains essential details such as the date and time of submission, and a unique identification number (if applicable).\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n1. The applicant must be a registered folk artist.\n1. The applicant should not have any dues payable to the board.\n1. The applicant must not have availed similar benefits from any other government scheme.\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must be a registered folk artist."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should not have any dues payable to the board."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must not have availed similar benefits from any other government scheme."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "apsfa"
+}

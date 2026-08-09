@@ -1,0 +1,269 @@
+{
+  "_id": "648ac9ad380f8e12353ef57e",
+  "en": {
+    "basicDetails": {
+      "schemeOpenDate": "2021-06-18",
+      "schemeCloseDate": null,
+      "state": {
+        "value": 8,
+        "label": "Rajasthan"
+      },
+      "nodalMinistryName": null,
+      "nodalDepartmentName": {
+        "value": 8000005,
+        "label": "College Education Department"
+      },
+      "otherMinistryName": null,
+      "otherDepartmentNames": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Resources for schools",
+          "label": "Resources for schools"
+        }
+      ],
+      "dbtScheme": null,
+      "implementingAgency": null,
+      "tags": [
+        "Financial Assistance",
+        "Resources For School",
+        "Education",
+        "Higher Education"
+      ],
+      "schemeName": "Devnarayan Scooty Distribution And Incentive Scheme",
+      "schemeShortTitle": "DSDAIS",
+      "level": {
+        "value": "state",
+        "label": "State"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce76cd6d1a3bde4685292",
+          "label": "Education & Learning"
+        },
+        {
+          "value": "64f57d10ffb93104c7006c97",
+          "label": "Women and Child"
+        }
+      ],
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Details",
+          "url": "https://schemes.rajasthan.gov.in/scheme/detail/339"
+        },
+        {
+          "title": "Registration",
+          "url": "https://sso.rajasthan.gov.in/register"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "To encourage girl students belonging to extremely backward classes to score maximum marks in class 12th examination conducted by the Rajasthan Board of Secondary Education/Central Board of Secondary Education and graduate/post graduate degree examinations conducted by the University, to develop the spirit of competition among them, to attract them for higher studies and Providing vehicle facility for higher education and providing financial support.\n",
+      "benefits_md": "\n1. 1500 scooties will be distributed free of cost every year according to the merit list of marks obtained in the 12th examination.\n1. Those are studying regularly in government colleges, state-funded universities, 12th (Senior Secondary) (girls who are not in the priority list of scooty acceptance) 10,000/- per annum in the first year, second year and third year.\n1. For Postgraduate first-year (P.G. degree) students, 20,000/- per annum in the admission year and Rs. 20,000/- per annum in the second year of post-graduation will be given as an incentive amount on obtaining 50% or more marks in the first year of post-graduation.\n\n",
+      "exclusions_md": "<br>\n\n",
+      "briefDescription": "The Government of Rajasthan has launched the Devnarayan Chatra Scooty Yojana Scheme for the year 2023 in order to encourage female students in the state to study and to address the state’s low female literacy rate.",
+      "detailedDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "To encourage girl students belonging to extremely backward classes to score maximum marks in class 12th examination conducted by the Rajasthan Board of Secondary Education/Central Board of Secondary Education and graduate/post graduate degree examinations conducted by the University, to develop the spirit of competition among them, to attract them for higher studies and Providing vehicle facility for higher education and providing financial support."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 3,
+        "value": "composite",
+        "label": "Composite"
+      },
+      "benefits": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "1500 scooties will be distributed free of cost every year according to the merit list of marks obtained in the 12th examination."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Those are studying regularly in government colleges, state-funded universities, 12th (Senior Secondary) (girls who are not in the priority list of scooty acceptance) 10,000/- per annum in the first year, second year and third year."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "For Postgraduate first-year (P.G. degree) students, 20,000/- per annum in the admission year and Rs. 20,000/- per annum in the second year of post-graduation will be given as an incentive amount on obtaining 50% or more marks in the first year of post-graduation."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "exclusions": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Online",
+        "url": "https://sso.rajasthan.gov.in/register",
+        "process": [
+          {
+            "type": "ol_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Applicants can apply online by visiting the "
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://sso.rajasthan.gov.in/signin",
+                    "children": [
+                      {
+                        "text": "official link"
+                      }
+                    ]
+                  },
+                  {
+                    "text": " portal."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Click on the registration and select citizen. "
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "And choose the Jan Aadhaar or other option to continue. "
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Now do register by providing the Jan Aadhaar Number and get the SSOID and password."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Login with SSOID, and select scheme."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Fill out the form and submit it. "
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "process_md": "\n1. Applicants can apply online by visiting the [official link](https://sso.rajasthan.gov.in/signin) portal.1. Click on the registration and select citizen. \n1. And choose the Jan Aadhaar or other option to continue. \n1. Now do register by providing the Jan Aadhaar Number and get the SSOID and password.\n1. Login with SSOID, and select scheme.\n1. Fill out the form and submit it. \n\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n1. Girl students should be from extremely backward classes of Rajasthan origin.\n1. Students have secured 50% or more marks in the 12th (C.S.) \n1. The examination should be conducted by the Rajasthan Board of Secondary Education / Central Board of Secondary Education and have been admitted to Government Colleges, State Funded Universities located in Rajasthan. \n1. Applicants should be studying regularly after being admitted in the first year of their bachelor&#39;s degree. \n1. The annual income of the student&#39;s parent/guardian/guardian/husband should be less than Rs.2.50 lakh.\n1. The benefit of the Devnarayan Higher Education Financial Assistance Scheme / other financial assistance scheme will not be payable to the student who gets the benefit in this scheme. \n\n",
+      "eligibilityDescription": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Girl students should be from extremely backward classes of Rajasthan origin."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Students have secured 50% or more marks in the 12th (C.S.) "
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The examination should be conducted by the Rajasthan Board of Secondary Education / Central Board of Secondary Education and have been admitted to Government Colleges, State Funded Universities located in Rajasthan. "
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Applicants should be studying regularly after being admitted in the first year of their bachelor's degree. "
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The annual income of the student's parent/guardian/guardian/husband should be less than Rs.2.50 lakh."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The benefit of the Devnarayan Higher Education Financial Assistance Scheme / other financial assistance scheme will not be payable to the student who gets the benefit in this scheme. "
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "dsdais"
+}

@@ -1,0 +1,658 @@
+{
+  "_id": "691d3cf9a1daa4220048f3a3",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Student",
+        "Scholarship",
+        "Stipend",
+        "Education",
+        "School",
+        "College"
+      ],
+      "schemeName": "Pre-Matric & Post-Matric Scholarship",
+      "schemeShortTitle": "PMPMS",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce76cd6d1a3bde4685292",
+          "label": "Education & Learning"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Scholarships and student finance",
+          "label": "Scholarships and student finance"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "schemeFor": "Individual",
+      "state": {
+        "value": 18,
+        "label": "Assam"
+      },
+      "nodalDepartmentName": {
+        "value": 1800062,
+        "label": "Tea Tribes and Adivasi Welfare Department"
+      }
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Scheme Guidelines",
+          "url": "https://ttwd.assam.gov.in/"
+        },
+        {
+          "title": "Online Application",
+          "url": "https://sirishassam.in/"
+        },
+        {
+          "title": "User Manual",
+          "url": "https://sirishassam.in/assets/how_to_apply_guide.pdf"
+        },
+        {
+          "title": "Contact Us",
+          "url": "https://sirishassam.in/home/contact_us"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The scheme &quot;Pre-Matric &amp; Post-Matric Scholarship&quot; was launched by the Tea Tribes Welfare Department, Government of Assam. The scheme aims to provide stipend to Pre-Matric and Post-Matric Scholarship to the students belonging to the Tea Tribes and Adivasi community for the benefit of poor students. The scheme is also intended to provide financial assistance to students of the Tea Tribes and Adivasi community pursuing their studies at the post-matriculation or post-secondary stage to enable them to complete their education. The applications for this scheme are accepted through the SIRISH-Online Application Portal.\n<br>\n\n",
+      "benefits_md": "\n- The benefits are to provide stipend to Pre-Matric and Post-Matric Scholarship to the students belonging to the Tea Tribes and Adivasi community for the benefit of poor students.\n- The scheme is to provide financial assistance to the students of the Tea Tribes and Adivasi community pursuing their studies at the post-matriculation or post-secondary stage to enable them to complete their education.\n\n##### ***Conditions for Availment/Continuation***\n\n- _The scholarship holder under this scheme shall not hold any other scholarship or stipend disbursed by any Government Department._\n- _Students who are also undergoing coaching in any of the pre-examination training centers with financial assistance from the Government will not be eligible._\n- _In case of detained students, he or she shall not be eligible to apply for scholarship for the same class twice._\n- _The applicant eligible for the &quot;Post-Matric Scholarship&quot; will not be eligible for other schemes, except for the scheme &quot;Simon Sing Horo (Special Post-Matric) Scholarship,&quot; if eligible, in the same year._\n\n<br>\n\n",
+      "exclusions_md": "\n- The scholarships are not available for identified Higher Studies courses and Vocational 3 (three) years Degree Courses or equivalent.\n- The scholarship holder shall not hold any other scholarship or stipend disbursed by any Government Department.\n- Students applying repeatedly from different Sub-Divisions shall in no case be considered for the scholarships.\n- Students who are undergoing coaching in any of the pre-examination training centers with financial assistance from the Government will not be eligible.\n- In case of detained students, he or she shall not be eligible to apply for scholarship for the same class twice.\n- The applicant eligible for the &quot;Post-Matric Scholarship&quot; will not be eligible for other schemes except for the scheme &quot;Simon Sing Horo (Special Post-Matric) Scholarship,&quot; if eligible, in the same year.\n\n<br>\n\n",
+      "briefDescription": "The scheme aims to provide stipend and financial assistance to students belonging to the Tea Tribes and Adivasi community. The benefits include financial assistance and stipends for poor students from Class 9th up to normal Three Years Degree Courses (e.g. Bachelor of Arts, Bachelor of Science, etc.",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The scheme \"Pre-Matric & Post-Matric Scholarship\" was launched by the Tea Tribes Welfare Department, Government of Assam. The scheme aims to provide stipend to Pre-Matric and Post-Matric Scholarship to the students belonging to the Tea Tribes and Adivasi community for the benefit of poor students. The scheme is also intended to provide financial assistance to students of the Tea Tribes and Adivasi community pursuing their studies at the post-matriculation or post-secondary stage to enable them to complete their education. The applications for this scheme are accepted through the SIRISH-Online Application Portal."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The benefits are to provide stipend to Pre-Matric and Post-Matric Scholarship to the students belonging to the Tea Tribes and Adivasi community for the benefit of poor students."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The scheme is to provide financial assistance to the students of the Tea Tribes and Adivasi community pursuing their studies at the post-matriculation or post-secondary stage to enable them to complete their education."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "heading_five",
+          "children": [
+            {
+              "text": "Conditions for Availment/Continuation",
+              "bold": true,
+              "underline": true,
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The scholarship holder under this scheme shall not hold any other scholarship or stipend disbursed by any Government Department.",
+                  "italic": true
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Students who are also undergoing coaching in any of the pre-examination training centers with financial assistance from the Government will not be eligible.",
+                  "italic": true
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "In case of detained students, he or she shall not be eligible to apply for scholarship for the same class twice.",
+                  "italic": true
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant eligible for the \"Post-Matric Scholarship\" will not be eligible for other schemes, except for the scheme \"Simon Sing Horo (Special Post-Matric) Scholarship,\" if eligible, in the same year.",
+                  "italic": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ],
+      "exclusions": [
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The scholarships are not available for identified Higher Studies courses and Vocational 3 (three) years Degree Courses or equivalent."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The scholarship holder shall not hold any other scholarship or stipend disbursed by any Government Department."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Students applying repeatedly from different Sub-Divisions shall in no case be considered for the scholarships."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Students who are undergoing coaching in any of the pre-examination training centers with financial assistance from the Government will not be eligible."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "In case of detained students, he or she shall not be eligible to apply for scholarship for the same class twice."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant eligible for the \"Post-Matric Scholarship\" will not be eligible for other schemes except for the scheme \"Simon Sing Horo (Special Post-Matric) Scholarship,\" if eligible, in the same year."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Online",
+        "process": [
+          {
+            "type": "heading_five",
+            "children": [
+              {
+                "text": "Step 1:",
+                "bold": true,
+                "italic": true,
+                "underline": true
+              },
+              {
+                "bold": true,
+                "italic": true,
+                "text": " Portal Access and Scheme Selection"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "A. Navigating to the Portal:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " The applicant must first open the official Tea Tribes Welfare Department URL, www.ttwd.assam.gov.in, and then click the \"Online Application\" link to be redirected to the "
+              },
+              {
+                "type": "link",
+                "link": "https://sirishassam.in/",
+                "children": [
+                  {
+                    "text": "SIRISH application portal"
+                  }
+                ]
+              },
+              {
+                "text": "."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "B. Initial Login or Registration:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " New users must register themselves on the online portal, while existing users will log in using the username and password created during prior registration."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "C. Selecting the Scheme:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " Once the applicant is logged into the Dashboard, they must select the appropriate scholarship scheme from the dropdown menu available under STEP 1: Select Scheme."
+              }
+            ]
+          },
+          {
+            "type": "heading_five",
+            "children": [
+              {
+                "text": "Step 2:",
+                "italic": true,
+                "bold": true,
+                "underline": true
+              },
+              {
+                "italic": true,
+                "bold": true,
+                "text": " "
+              },
+              {
+                "text": "Entering Personal Details",
+                "bold": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "A. Inputting Mandatory Data:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " The applicant proceeds to STEP 2: Enter Personal Details where all required information in the application form must be accurately provided."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "B. Specifying Location Details:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " Location data, including District, Assembly Constituency, and Sub-Division, must be selected, along with other essential address details like Village/Town."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "C. Saving Personal Information:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " After filling in all necessary fields in this step, the applicant must click on the \"Save Form Details\" button to proceed further with the application."
+              }
+            ]
+          },
+          {
+            "type": "heading_five",
+            "children": [
+              {
+                "text": "Step 3:",
+                "italic": true,
+                "bold": true,
+                "underline": true
+              },
+              {
+                "italic": true,
+                "bold": true,
+                "text": " "
+              },
+              {
+                "text": "Document Upload",
+                "bold": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "A. Uploading Required Files:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " Under the STEP 3: Upload Documents tab, the applicant must upload all required supporting documents in the specified image formats (e.g., JPG/JPEG)."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "B. Document Formatting Check:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " All uploaded documents must adhere to specified maximum file sizes (e.g., photo maximum 50 KB, other documents generally 100 KB) before they can be saved."
+              }
+            ]
+          },
+          {
+            "type": "heading_five",
+            "children": [
+              {
+                "text": "Step 4:",
+                "italic": true,
+                "bold": true,
+                "underline": true
+              },
+              {
+                "italic": true,
+                "bold": true,
+                "text": " "
+              },
+              {
+                "text": "Updating Bank Details",
+                "bold": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "A. Providing Account Information:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " The applicant must enter the Bank Account Number and the name of the bank under the STEP 4: Update Bank Details tab."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "B. Entering Branch Identification:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " Details essential for electronic transfer, specifically the Bank Branch Name and the corresponding IFSC Code, must be accurately provided."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "C. Securing Financial Data:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " Once all bank details have been correctly entered, the applicant must click on the \"Save Bank Details\" button to confirm the information."
+              }
+            ]
+          },
+          {
+            "type": "heading_five",
+            "children": [
+              {
+                "text": "Step 5:",
+                "italic": true,
+                "bold": true,
+                "underline": true
+              },
+              {
+                "italic": true,
+                "bold": true,
+                "text": " "
+              },
+              {
+                "text": "Preview and Final Submission",
+                "bold": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "A. Application Review:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " The final step, STEP 5: Preview Application and Final Submission, displays all details entered in the form for a thorough and final check."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "B. Final Confirmation:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " After cross-checking all information and uploaded documents for accuracy, the applicant must confirm the application by clicking the \"Proceed with Submit Application\" button."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "C. Tracking Status:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " Upon successful submission, an application number will be visible on the screen, allowing the applicant to view the status under the \"APPLICATION STATUS\" tab."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          }
+        ],
+        "process_md": "##### ***Step 1:*** ***Portal Access and Scheme Selection***\n**A. Navigating to the Portal:** The applicant must first open the official Tea Tribes Welfare Department URL, www.ttwd.assam.gov.in, and then click the &quot;Online Application&quot; link to be redirected to the [SIRISH application portal](https://sirishassam.in/).\n**B. Initial Login or Registration:** New users must register themselves on the online portal, while existing users will log in using the username and password created during prior registration.\n**C. Selecting the Scheme:** Once the applicant is logged into the Dashboard, they must select the appropriate scholarship scheme from the dropdown menu available under STEP 1: Select Scheme.\n##### ***Step 2:********* **Entering Personal Details**\n**A. Inputting Mandatory Data:** The applicant proceeds to STEP 2: Enter Personal Details where all required information in the application form must be accurately provided.\n**B. Specifying Location Details:** Location data, including District, Assembly Constituency, and Sub-Division, must be selected, along with other essential address details like Village/Town.\n**C. Saving Personal Information:** After filling in all necessary fields in this step, the applicant must click on the &quot;Save Form Details&quot; button to proceed further with the application.\n##### ***Step 3:********* **Document Upload**\n**A. Uploading Required Files:** Under the STEP 3: Upload Documents tab, the applicant must upload all required supporting documents in the specified image formats (e.g., JPG/JPEG).\n**B. Document Formatting Check:** All uploaded documents must adhere to specified maximum file sizes (e.g., photo maximum 50 KB, other documents generally 100 KB) before they can be saved.\n##### ***Step 4:********* **Updating Bank Details**\n**A. Providing Account Information:** The applicant must enter the Bank Account Number and the name of the bank under the STEP 4: Update Bank Details tab.\n**B. Entering Branch Identification:** Details essential for electronic transfer, specifically the Bank Branch Name and the corresponding IFSC Code, must be accurately provided.\n**C. Securing Financial Data:** Once all bank details have been correctly entered, the applicant must click on the &quot;Save Bank Details&quot; button to confirm the information.\n##### ***Step 5:********* **Preview and Final Submission**\n**A. Application Review:** The final step, STEP 5: Preview Application and Final Submission, displays all details entered in the form for a thorough and final check.\n**B. Final Confirmation:** After cross-checking all information and uploaded documents for accuracy, the applicant must confirm the application by clicking the &quot;Proceed with Submit Application&quot; button.\n**C. Tracking Status:** Upon successful submission, an application number will be visible on the screen, allowing the applicant to view the status under the &quot;APPLICATION STATUS&quot; tab.\n<br>\n\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n- The applicant must be a permanent resident of Assam.\n- The applicant must belong to the Tea Tribes and Adivasi Community.\n- The applicant must produce a valid Caste certificate which is duly certified or issued by the District Commissioner of the concerned district or his or her designated officer.\n- The applicant must submit an undertaking on the annual family income stating that it is not exceeding ₹5,00,000/- per annum.\n- The Pre-Matric Scholarship is awarded to students from Class 9th to Class 10th.\n- The Post-Matric Scholarship is awarded to students pursuing studies from Class 11th to normal Three Years Degree Courses (Bachelor of Arts, Bachelor of Business Administration, Bachelor of Commerce, Bachelor of Science, Integrated Graduate plus Post Graduate courses like integrated Master of Business Administration / Bachelor of Arts-Bachelor of Law / Bachelor of Arts-Bachelor of Education / Master of Social Work, etc.).\n- The scholarships are available for all recognized post-matriculation or post-secondary courses in recognized institutions.\n\n##### ***Special Provisions***\n\n- All children of the same parents or guardians are eligible.\n- Students studying through correspondence course are also eligible to apply.\n\n<br>\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must be a permanent resident of Assam."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must belong to the Tea Tribes and Adivasi Community."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must produce a valid Caste certificate which is duly certified or issued by the District Commissioner of the concerned district or his or her designated officer."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must submit an undertaking on the annual family income stating that it is not exceeding ₹5,00,000/- per annum."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The Pre-Matric Scholarship is awarded to students from Class 9th to Class 10th."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The Post-Matric Scholarship is awarded to students pursuing studies from Class 11th to normal Three Years Degree Courses (Bachelor of Arts, Bachelor of Business Administration, Bachelor of Commerce, Bachelor of Science, Integrated Graduate plus Post Graduate courses like integrated Master of Business Administration / Bachelor of Arts-Bachelor of Law / Bachelor of Arts-Bachelor of Education / Master of Social Work, etc.)."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The scholarships are available for all recognized post-matriculation or post-secondary courses in recognized institutions."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "heading_five",
+          "children": [
+            {
+              "text": "Special Provisions",
+              "bold": true,
+              "underline": true,
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "All children of the same parents or guardians are eligible."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Students studying through correspondence course are also eligible to apply."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "pmpms"
+}

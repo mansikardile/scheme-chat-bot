@@ -1,0 +1,365 @@
+{
+  "_id": "658eb377a733b1d7326efd15",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": true,
+      "tags": [
+        "Financial Assistance",
+        "Social Welfare",
+        "Widow Pension"
+      ],
+      "schemeName": "Widow Pension-West Bengal",
+      "schemeShortTitle": "WPWB",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce87cd6d1a3bde4685312",
+          "label": "Social welfare & Empowerment"
+        },
+        {
+          "value": "64f57d10ffb93104c7006c97",
+          "label": "Women and Child"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Pension",
+          "label": "Pension"
+        },
+        {
+          "value": "Financial assistance",
+          "label": "Financial assistance"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "schemeFor": "Individual",
+      "state": {
+        "value": 19,
+        "label": "West Bengal"
+      },
+      "nodalDepartmentName": {
+        "value": 19999951,
+        "label": "Women and Child Development and Social Welfare Department"
+      }
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://www.barrackpore.gov.in/sdobkp_socialwelfare_dept"
+        },
+        {
+          "title": "Guidelines (2021)",
+          "url": "https://cdn.s3waas.gov.in/s3fc3cf452d3da8402bebb765225ce8c0e/uploads/2021/07/2021072064.pdf"
+        },
+        {
+          "title": "Application Form",
+          "url": "https://www.barrackpore.gov.in/files/contents/forms/handicapped/sdo_bkp_widow_stipend_application_form_bengali.pdf"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "In 2010, the West Bengal state government, through the Women and Child Development and Social Welfare Department, launched a compassionate initiative called the &quot;Widow Pension&quot; scheme. This program aims to provide financial support to widows facing economic hardship within the state.\n<br>\n\n<br>\n\n",
+      "benefits_md": "\n- **Financial Assistance:** An amount of ₹1,000/- per Month through DBT mode to the beneficiaries.\n<br>\n\n",
+      "exclusions_md": "\n- An applicant who is already a recipient of a pension under another scheme, such as the Disability Pension, Old Age Pension, or Farmers’ Pension, is not eligible for the Widow Pension.\n\n",
+      "briefDescription": "The West Bengal government's Women and Child Development and Social Welfare Department launched the \"Widow Pension\" scheme in 2010. This program aims to support widows facing economic hardship within the state.",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "In 2010, the West Bengal state government, through the Women and Child Development and Social Welfare Department, launched a compassionate initiative called the \"Widow Pension\" scheme. This program aims to provide financial support to widows facing economic hardship within the state."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Financial Assistance: ",
+                  "bold": true
+                },
+                {
+                  "text": "An amount of ₹1,000/- per Month through DBT mode to the beneficiaries."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ],
+      "exclusions": [
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "An applicant who is already a recipient of a pension under another scheme, such as the Disability Pension, Old Age Pension, or Farmers’ Pension, is not eligible for the Widow Pension."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "process": [
+          {
+            "type": "align_justify",
+            "children": [
+              {
+                "type": "block_quote",
+                "children": [
+                  {
+                    "text": "Obtain the Application Form: ",
+                    "bold": true
+                  },
+                  {
+                    "text": "Collect the Pension Application Form free of cost from the appropriate office:"
+                  }
+                ]
+              },
+              {
+                "type": "ul_list",
+                "children": [
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "text": "Rural Areas:",
+                        "bold": true
+                      },
+                      {
+                        "text": " BDO Office or the concerned Panchayat Samity Office."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "text": "Municipal/Notified Areas (Outside KMC):",
+                        "bold": true
+                      },
+                      {
+                        "text": " SDO Office."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "text": "KMC Area: ",
+                        "bold": true
+                      },
+                      {
+                        "text": "Office of the Controller of Vagrancy, West Bengal."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "block_quote",
+                "children": [
+                  {
+                    "text": "Submit the Application: ",
+                    "bold": true
+                  },
+                  {
+                    "text": "Fill out the application form and submit it to the appropriate authority:"
+                  }
+                ]
+              },
+              {
+                "type": "ul_list",
+                "children": [
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "text": "Rural Areas: ",
+                        "bold": true
+                      },
+                      {
+                        "text": "Address it to the District Magistrate and submit it to the BDO or Panchayat Samity Office."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "text": "Municipal/Notified Areas (Outside KMC): ",
+                        "bold": true
+                      },
+                      {
+                        "text": "Address it to the District Magistrate and submit it to the SDO."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "text": "KMC Area:",
+                        "bold": true
+                      },
+                      {
+                        "text": " Address and submit it to the Controller of Vagrancy, West Bengal."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "text": "Track Applicant & View Payment Status: ",
+                "bold": true
+              },
+              {
+                "type": "link",
+                "link": "https://samarth.wb.gov.in/track-applicant-public",
+                "children": [
+                  {
+                    "text": "Click here"
+                  }
+                ]
+              },
+              {
+                "text": "."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          }
+        ],
+        "process_md": "&gt; **Obtain the Application Form:** Collect the Pension Application Form free of cost from the appropriate office:\n\n\n  - **Rural Areas:** BDO Office or the concerned Panchayat Samity Office.  - **Municipal/Notified Areas (Outside KMC):** SDO Office.  - **KMC Area:** Office of the Controller of Vagrancy, West Bengal.\n&gt; **Submit the Application:** Fill out the application form and submit it to the appropriate authority:\n\n\n  - **Rural Areas:** Address it to the District Magistrate and submit it to the BDO or Panchayat Samity Office.  - **Municipal/Notified Areas (Outside KMC):** Address it to the District Magistrate and submit it to the SDO.  - **KMC Area:** Address and submit it to the Controller of Vagrancy, West Bengal.\n> **Track Applicant &amp; View Payment Status:** [Click here](https://samarth.wb.gov.in/track-applicant-public).\n\n<br>\n\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n1. The beneficiary must be widow girl/woman.\n1. The beneficiary should attain the age of 60 years or more.\n1. The beneficiary must be a citizen of India and a resident of West Bengal.\n1. The beneficiary family income must not exceed ₹ 1,000/- per month.\n1. The beneficiary must not be maintained by any of her relative.\n1. The beneficiary must have been a resident of West Bengal for at least ten years on the date of making the application.\n1. Professional beggars and mendicants are not eligible for the pension.\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The beneficiary must be widow girl/woman."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The beneficiary should attain the age of 60 years or more."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The beneficiary must be a citizen of India and a resident of West Bengal."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The beneficiary family income must not exceed ₹ 1,000/- per month."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The beneficiary must not be maintained by any of her relative."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The beneficiary must have been a resident of West Bengal for at least ten years on the date of making the application."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Professional beggars and mendicants are not eligible for the pension."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "wpwb"
+}

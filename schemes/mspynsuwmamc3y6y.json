@@ -1,0 +1,495 @@
+{
+  "_id": "6950d66f1d8404ae808e14e7",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Nutrition",
+        "Severely Underweight",
+        "Moderately Acute Malnourished",
+        "Malnourished Children",
+        "Underweight Children",
+        "SUW",
+        "MAM"
+      ],
+      "schemeName": "Mukhyamantri Sampoorna Pushti Yojana: Nutrition for Severely Underweight and Moderately Acute Malnourished Children (3 years - 6 years)",
+      "schemeShortTitle": "MSPYNSUWMAMC3Y6Y",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce7a2d6d1a3bde46852b1",
+          "label": "Health & Wellness"
+        },
+        {
+          "value": "64f57d10ffb93104c7006c97",
+          "label": "Women and Child"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Children’s health and immunization",
+          "label": "Children’s health and immunization"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "schemeFor": "Individual",
+      "state": {
+        "value": 21,
+        "label": "Odisha"
+      },
+      "nodalDepartmentName": {
+        "value": 2111154,
+        "label": "Women and Child Development Department"
+      }
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Scheme Details",
+          "url": "https://wcd.odisha.gov.in/en/ICDS/mukhymantri-samproona-pushti-yojana-mspy"
+        },
+        {
+          "title": "Guidelines",
+          "url": "https://wcd.odisha.gov.in/sites/default/files/2024-06/SUW%20and%20MAM%20Guidelines-MSPY.pdf"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The “Nutrition for Severely Underweight and Moderately Acute Malnourished Children (3 years – 6 years)” scheme is a component under the &amp;quot;Mukhyamantri Sampoorna Pushti Yojana (MSPY)&amp;quot; scheme, introduced by the Department of Women &amp;amp; Child Development, Government of Odisha. The scheme aims to improve child nutrition outcomes, with a specific focus on providing nutritional support to Severely Underweight (SUW) and Moderately Acute Malnourished (MAM) children aged between 3 years and 6 years.\n<br>\n\n",
+      "benefits_md": "\n- **The monthly entitlements for SUW children in the 3 years to 6 years &amp; MAM children in the 6 months to 5 years category for a period of 75 days will be as follows:**\n\n**Sl. No.****Type of Take Home Ration (THR)****Quantity**1Hot Cooked Meals under regular SNP25 days2Besan-Atta Premix750 gram3Banana16 pieces4Eggs5 pieces\n  - **Date of delivery:** Hot cooked meals under regular SNP at Anganwadi Centres (AWCs), Besan Atta Premix to be delivered to the beneficiaries at the Anganwadi Centre (AWC) on the 1st of every month, Eggs and Banana to be given weekly by the Anganwadi Workers (AWW).  - After 75 days, if the child graduates to normal category, the child would will be continue getting Hot Cooked Meals as children under normal category under SNP programme.\n  - Regular growth monitoring and medical examination of all SUW &amp;amp; MAM children will be undertaken monthly during the VHSND by Auxiliary Nurse Midwife (ANM) and on the event of any medical complications child needs to be referred to the Community Health Centre (CHC).\n  - If the child has not graduated to normal category or cured even after 75 days of enrolment, the child may be referred to the nearest Community Health Centre and based on the suggestion from the doctor, the child can be again enrolled under MSPY for one more cycle only.\n\n<br>\n\n",
+      "exclusions_md": "<br>\n\n",
+      "briefDescription": "The scheme aims to improve child nutrition outcomes, with a specific focus on providing nutritional support to Severely Underweight (SUW) and Moderately Acute Malnourished (MAM) children aged between 3 years and 6 years.",
+      "detailedDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "The “Nutrition for Severely Underweight and Moderately Acute Malnourished Children (3 years – 6 years)” scheme is a component under the \"Mukhyamantri Sampoorna Pushti Yojana (MSPY)\" scheme, introduced by the Department of Women & Child Development, Government of Odisha. The scheme aims to improve child nutrition outcomes, with a specific focus on providing nutritional support to Severely Underweight (SUW) and Moderately Acute Malnourished (MAM) children aged between 3 years and 6 years."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 3,
+        "value": "composite",
+        "label": "Composite"
+      },
+      "benefits": [
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The monthly entitlements for SUW children in the 3 years to 6 years & MAM children in the 6 months to 5 years category for a period of 75 days will be as follows:",
+                  "bold": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "children": [
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Sl. No.",
+                      "bold": true
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Type of Take Home Ration (THR)",
+                      "bold": true
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Quantity",
+                      "bold": true
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "1"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Hot Cooked Meals under regular SNP"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "25 days"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "2"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Besan-Atta Premix"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "750 gram"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "3"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Banana"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "16 pieces"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "4"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Eggs"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "5 pieces"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "ul_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "bold": true,
+                      "text": "Date of delivery: "
+                    },
+                    {
+                      "text": "Hot cooked meals under regular SNP at Anganwadi Centres (AWCs), Besan Atta Premix to be delivered to the beneficiaries at the Anganwadi Centre (AWC) on the 1st of every month, Eggs and Banana to be given weekly by the Anganwadi Workers (AWW)."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "After 75 days, if the child graduates to normal category, the child would will be continue getting Hot Cooked Meals as children under normal category under SNP programme."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Regular growth monitoring and medical examination of all SUW & MAM children will be undertaken monthly during the VHSND by Auxiliary Nurse Midwife (ANM) and on the event of any medical complications child needs to be referred to the Community Health Centre (CHC)."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "If the child has not graduated to normal category or cured even after 75 days of enrolment, the child may be referred to the nearest Community Health Centre and based on the suggestion from the doctor, the child can be again enrolled under MSPY for one more cycle only."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ],
+      "exclusions": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "process": [
+          {
+            "type": "align_justify",
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 1: ",
+                    "bold": true
+                  },
+                  {
+                    "text": "The applicant’s parent or guardian must visit the nearest Anganwadi Centre (AWC)."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "bold": true,
+                    "text": "Step 2: "
+                  },
+                  {
+                    "text": "The Anganwadi Worker (AWW) will verify the child’s age and nutritional status."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "bold": true,
+                    "text": "Step 3: "
+                  },
+                  {
+                    "text": "On confirmation of SUW or MAM status, the child will be enrolled under MSPY for a duration of 75 days."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "bold": true,
+                    "text": "Step 4:"
+                  },
+                  {
+                    "text": " Distribution of Nutrition Support:"
+                  }
+                ]
+              },
+              {
+                "type": "ul_list",
+                "children": [
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "text": "The 75-day nutrition support after enrolment."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "text": "Hot Cooked Meals under SNP,"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "text": "Besan Atta Premix (monthly),"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "text": "Eggs and Bananas (weekly)."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 5: ",
+                    "bold": true
+                  },
+                  {
+                    "text": "Anganwadi Workers conduct regular home visits, provide counselling, and monitor progress at the Anganwadi Centre."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          }
+        ],
+        "process_md": "**Step 1:** The applicant’s parent or guardian must visit the nearest Anganwadi Centre (AWC).\n**Step 2:** The Anganwadi Worker (AWW) will verify the child’s age and nutritional status.\n**Step 3:** On confirmation of SUW or MAM status, the child will be enrolled under MSPY for a duration of 75 days.\n**Step 4:** Distribution of Nutrition Support:\n\n  - The 75-day nutrition support after enrolment.\n  - Hot Cooked Meals under SNP,\n  - Besan Atta Premix (monthly),\n  - Eggs and Bananas (weekly).\n\n**Step 5:** Anganwadi Workers conduct regular home visits, provide counselling, and monitor progress at the Anganwadi Centre.\n<br>\n\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n1. The beneficiary must be a resident of Odisha.\n1. The beneficiary must be a child aged between 3 years and 6 years.\n1. The child must be identified as Severely Underweight (SUW) or Moderately Acute Malnourished (MAM) by the Anganwadi Worker or ICDS functionary.\n\n<br>\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The beneficiary must be a resident of Odisha."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The beneficiary must be a child aged between 3 years and 6 years."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The child must be identified as Severely Underweight (SUW) or Moderately Acute Malnourished (MAM) by the Anganwadi Worker or ICDS functionary."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "mspynsuwmamc3y6y"
+}

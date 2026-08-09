@@ -1,0 +1,491 @@
+{
+  "_id": "6619111bd7abbe47ee297111",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Labour",
+        "Funeral Assistance",
+        "Construction Workers",
+        "Financial Assistance"
+      ],
+      "schemeName": "Funeral Assistance for the Construction Workers",
+      "schemeShortTitle": "FACW",
+      "implementingAgency": "Delhi Building And Other Construction Workers Welfare Board",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce87cd6d1a3bde4685312",
+          "label": "Social welfare & Empowerment"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Citizen empowerment",
+          "label": "Citizen empowerment"
+        },
+        {
+          "value": "Financial assistance",
+          "label": "Financial assistance"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "state": {
+        "value": 7,
+        "label": "Delhi"
+      },
+      "nodalDepartmentName": {
+        "value": 70000029,
+        "label": "Labour Department"
+      },
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://bocw.delhi.gov.in/bocw/welfare-schemes"
+        },
+        {
+          "title": "Latest Guidelines",
+          "url": "https://dbocwwb.delhi.gov.in/welfareschemedboc.html"
+        },
+        {
+          "title": "User Manual (Registration)",
+          "url": "https://drive.google.com/file/d/1nCDEvvl3saMAKnR__iYZNbc_MnuwQ0E1/view"
+        },
+        {
+          "title": "FAQs",
+          "url": "https://dbocwwb.delhi.gov.in/faqdboc.html#faqm2q1"
+        },
+        {
+          "title": "Amendments",
+          "url": "https://bocw.delhi.gov.in/sites/default/files/bocw/circulars-orders/delhi_gazette_notification_of_delhi_building_and_other_construction_workers_welfare_board_on_04-03-2016.pdf"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The &amp;quot;Funeral Assistance for the Construction Workers&amp;quot; by the Delhi Building and Other Construction Workers Welfare Board, Labour Department, Delhi, is a welfare scheme for the registered workers of the board. Through this scheme, funeral assistance of ₹10,000/- is provided to the nominees/dependents of the member in case of his/her death from the date of joining membership of the fund.\n",
+      "benefits_md": "\n- Assistance of ₹10,000/- is provided to the nominees/dependents of the member in case of his/her death from the date of joining membership of the fund.\n\n<br>\n\n",
+      "briefDescription": "The \"Funeral Assistance for the Construction Workers\" by the Delhi Building and Other Construction Workers Welfare Board, Labour Department, Delhi, is a welfare scheme that provides funeral assistance of ₹10,000/- in case of death of a member to their nominees/dependents.",
+      "exclusions_md": "",
+      "detailedDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "The \"Funeral Assistance for the Construction Workers\" by the Delhi Building and Other Construction Workers Welfare Board, Labour Department, Delhi, is a welfare scheme for the registered workers of the board. Through this scheme, funeral assistance of ₹10,000/- is provided to the nominees/dependents of the member in case of his/her death from the date of joining membership of the fund."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Assistance of ₹10,000/- is provided to the nominees/dependents of the member in case of his/her death from the date of joining membership of the fund."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Online",
+        "process": [
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "text": "Registration",
+                "bold": true,
+                "underline": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 1:",
+                "bold": true
+              },
+              {
+                "text": " Visit the DBoCWWB "
+              },
+              {
+                "type": "link",
+                "link": "https://dbocwwb.delhi.gov.in/cwapp/MyLoginPage",
+                "children": [
+                  {
+                    "text": "website "
+                  }
+                ]
+              },
+              {
+                "text": "and click “Register Now”."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2:",
+                "bold": true
+              },
+              {
+                "text": " Enter the following mandatory details: Aadhaar Card Number, Name as on Aadhar Card, Mobile Number, Date of Birth (as on Aadhar Card), Gender, etc. Create a password and confirm it. Click “Register”. You will be redirected to the registration page."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 3: ",
+                "bold": true
+              },
+              {
+                "text": "On the registration page, fill in the mandatory details (Father Name, Mother Name, Photograph, Applicant’s Video, etc) and upload the mandatory documents in the specified filetype and filesize. Click “Save & Next”."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 4: ",
+                "bold": true
+              },
+              {
+                "text": "On the next page, enter the mandatory details regarding your work/workplace (Previous/Current Employer Details, Proof of 90 Days Employment, etc) and upload the mandatory documents in the specified filetype and filesize. Click “Save & Next”."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 5: ",
+                "bold": true
+              },
+              {
+                "text": "Click on “Add Family Members” to avail the benefits of various schemes."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 6: ",
+                "bold": true
+              },
+              {
+                "text": "In the next window, add your Bank Account details."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 7: ",
+                "bold": true
+              },
+              {
+                "text": "In the next window, upload your Aadhaar Card, Address Proof, Birth Proof, Employment Proof, Bank Account details etc."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 8:",
+                "bold": true
+              },
+              {
+                "text": " In the next window, the \"Affidavit of the Applicant\" will be displayed. Verify all the details, and click on the checkbox."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 9:",
+                "bold": true
+              },
+              {
+                "text": " Proceed for the online registration fee of ₹25/- through a Debit Card/ Internet Banking/ UPI."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 10: ",
+                "bold": true
+              },
+              {
+                "text": "Enter the OTP received on your registered mobile number to apply. Note down the Application Number for future reference. Download the acknowledgement receipt."
+              }
+            ]
+          },
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "text": "Track Your Application",
+                "bold": true,
+                "underline": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Visit the "
+              },
+              {
+                "type": "link",
+                "link": "https://dbocwwb.delhi.gov.in/",
+                "children": [
+                  {
+                    "text": "homepage "
+                  }
+                ]
+              },
+              {
+                "text": "of the website regularly and click on \"Track Your Application\" to check the status of your application."
+              }
+            ]
+          },
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "text": "Application",
+                "bold": true,
+                "underline": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 1:",
+                "bold": true
+              },
+              {
+                "text": " Visit the DBoCWWB "
+              },
+              {
+                "type": "link",
+                "link": "https://dbocwwb.delhi.gov.in/cwapp/MyLoginPage",
+                "children": [
+                  {
+                    "text": "website"
+                  }
+                ]
+              },
+              {
+                "text": " and click “Apply for Scheme”."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2: ",
+                "bold": true
+              },
+              {
+                "text": "Log in through Aadhaar Number/ Registration Card/ OTP."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 3:",
+                "bold": true
+              },
+              {
+                "text": " Apply for the “Funeral Assistance” scheme."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "text": "Helpline Number (24x1) : 011-41236600",
+                "bold": true
+              }
+            ]
+          },
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "text": "DBOCWWB Department",
+                "bold": true
+              }
+            ]
+          },
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "text": "Number (office hours: 9:30AM - 6:00PM) : 011-23813846",
+                "bold": true
+              }
+            ]
+          }
+        ],
+        "process_md": "> **Registration**\n\n**Step 1:** Visit the DBoCWWB [website ](https://dbocwwb.delhi.gov.in/cwapp/MyLoginPage)and click “Register Now”.\n**Step 2:** Enter the following mandatory details: Aadhaar Card Number, Name as on Aadhar Card, Mobile Number, Date of Birth (as on Aadhar Card), Gender, etc. Create a password and confirm it. Click “Register”. You will be redirected to the registration page.\n**Step 3:** On the registration page, fill in the mandatory details (Father Name, Mother Name, Photograph, Applicant’s Video, etc) and upload the mandatory documents in the specified filetype and filesize. Click “Save &amp; Next”.\n**Step 4:** On the next page, enter the mandatory details regarding your work/workplace (Previous/Current Employer Details, Proof of 90 Days Employment, etc) and upload the mandatory documents in the specified filetype and filesize. Click “Save &amp; Next”.\n**Step 5:** Click on “Add Family Members” to avail the benefits of various schemes.\n**Step 6:** In the next window, add your Bank Account details.\n**Step 7:** In the next window, upload your Aadhaar Card, Address Proof, Birth Proof, Employment Proof, Bank Account details etc.\n**Step 8:** In the next window, the &quot;Affidavit of the Applicant&quot; will be displayed. Verify all the details, and click on the checkbox.\n**Step 9:** Proceed for the online registration fee of ₹25/- through a Debit Card/ Internet Banking/ UPI.\n**Step 10:** Enter the OTP received on your registered mobile number to apply. Note down the Application Number for future reference. Download the acknowledgement receipt.\n> **Track Your Application**\n\nVisit the [homepage ](https://dbocwwb.delhi.gov.in/)of the website regularly and click on &quot;Track Your Application&quot; to check the status of your application.\n> **Application**\n\n**Step 1:** Visit the DBoCWWB [website](https://dbocwwb.delhi.gov.in/cwapp/MyLoginPage) and click “Apply for Scheme”.\n**Step 2:** Log in through Aadhaar Number/ Registration Card/ OTP.\n**Step 3:** Apply for the “Funeral Assistance” scheme.\n<br>\n\n> **Helpline Number (24x1) : 011-41236600**\n\n> **DBOCWWB Department**\n\n> **Number (office hours: 9:30AM - 6:00PM) : 011-23813846**\n\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "> **For Registration**\n\n\n- The applicant should be a resident of Delhi.\n- The applicant should be a Building/Construction Worker.\n- The applicant should be between 18 and 60 years.\n- The applicant should have served the Board for at least 90 days in a given year.\n\n> **For Application**\n\n\n- The nominees/dependents who have lost any registered member/worker of the due to death.\n\n<br>\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "For Registration",
+              "bold": true,
+              "underline": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should be a resident of Delhi."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should be a Building/Construction Worker."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should be between 18 and 60 years."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should have served the Board for at least 90 days in a given year."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "For Application",
+              "bold": true,
+              "underline": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The nominees/dependents who have lost any registered member/worker of the due to death."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "facw"
+}

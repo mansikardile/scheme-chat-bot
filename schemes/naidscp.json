@@ -1,0 +1,186 @@
+{
+  "_id": "68ffb13f007cb8a8b8dd7ddf",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "AIDS",
+        "HIV",
+        "HIV Testing",
+        "Treatment"
+      ],
+      "schemeName": "National AIDS Control Programme - Uttarakhand",
+      "schemeShortTitle": "NAIDSCP",
+      "implementingAgency": "Uttarakhand State AIDS Control Society",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce7a2d6d1a3bde46852b1",
+          "label": "Health & Wellness"
+        }
+      ],
+      "schemeSubCategory": [],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "schemeFor": "Individual",
+      "state": {
+        "value": 5,
+        "label": "Uttarakhand"
+      },
+      "nodalDepartmentName": {
+        "value": 50000093,
+        "label": "Medical Health And Family Welfare Department"
+      }
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines (Page No. 92)",
+          "url": "https://uk.gov.in/department92/library_file/file-30-01-2025-04-25-16.pdf"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The “National AIDS Control Programme” is implemented by the Uttarakhand State AIDS Control Society under the Department of Medical Health and Family Welfare, Government of Uttarakhand. The programme aims to prevent and control the spread of HIV/AIDS through awareness, testing, and treatment, while providing care and support to affected individuals.\n<br>\n\n",
+      "benefits_md": "Raising public awareness about HIV/AIDS and providing free HIV testing, treatment, and medication.\n<br>\n\n",
+      "briefDescription": "The programme aims to prevent and control the spread of HIV/AIDS through awareness, testing, and treatment, while providing care and support to affected individuals.",
+      "exclusions_md": "",
+      "detailedDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "The “National AIDS Control Programme” is implemented by the Uttarakhand State AIDS Control Society under the Department of Medical Health and Family Welfare, Government of Uttarakhand. The programme aims to prevent and control the spread of HIV/AIDS through awareness, testing, and treatment, while providing care and support to affected individuals."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 2,
+        "value": "in-kind",
+        "label": "In Kind"
+      },
+      "benefits": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "Raising public awareness about HIV/AIDS and providing free HIV testing, treatment, and medication."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "process": [
+          {
+            "type": "align_justify",
+            "children": [
+              {
+                "type": "ul_list",
+                "children": [
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "text": "Under the National AIDS Control Programme, the general public is made aware about HIV/AIDS through various publicity campaigns, and complete information on prevention can be obtained by calling the toll-free helpline 1097."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "text": "HIV testing is provided free of cost at ICTCs established in government hospitals."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "text": "People living with HIV receive free anti-retroviral medication through designated Anti-Retroviral Therapy (ART) centres."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          }
+        ],
+        "process_md": "\n  - Under the National AIDS Control Programme, the general public is made aware about HIV/AIDS through various publicity campaigns, and complete information on prevention can be obtained by calling the toll-free helpline 1097.\n  - HIV testing is provided free of cost at ICTCs established in government hospitals.\n  - People living with HIV receive free anti-retroviral medication through designated Anti-Retroviral Therapy (ART) centres.\n\n<br>\n\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n1. The beneficiaries should be the general public and HIV-infected individuals residing in Uttarakhand.\n\n<br>\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The beneficiaries should be the general public and HIV-infected individuals residing in Uttarakhand."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "naidscp"
+}

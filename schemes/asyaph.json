@@ -1,0 +1,691 @@
+{
+  "_id": "6989b6778da282bbf4b41c21",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "AYUSH",
+        "Public Health Intervention",
+        "Community Health Care"
+      ],
+      "schemeName": "Ayurswasthya Yojana: AYUSH and Public Health",
+      "schemeShortTitle": "ASYAPH",
+      "level": {
+        "value": "central",
+        "label": "Central"
+      },
+      "schemeType": {
+        "value": "central-sector-scheme",
+        "label": "Central Sector Scheme"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce7a2d6d1a3bde46852b1",
+          "label": "Health & Wellness"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Health promotion",
+          "label": "Health promotion"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "government-organisation",
+          "label": "Government Organisation"
+        },
+        {
+          "value": "institution",
+          "label": "University / Institution"
+        },
+        {
+          "value": "ngo",
+          "label": "NGO"
+        }
+      ],
+      "schemeFor": "Infra",
+      "nodalMinistryName": {
+        "value": 1561,
+        "label": "Ministry Of Ayush"
+      },
+      "nodalDepartmentName": null
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://ayush.gov.in/resources/pdf/schemes/Ayurswasthya.pdf"
+        },
+        {
+          "title": "User Manual",
+          "url": "https://ngo.ayush.gov.in/uploads/assets/Frontend_User_Manual_v-1.2.pdf"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The scheme-component &amp;quot;AYUSH and Public Health&amp;quot; under the &amp;quot;Ayurswasthya Yojana&amp;quot; by the Ministry of Ayush, Government of India, aims to promote AYUSH interventions through funding healthcare projects for public health issues affecting communities. It also aims to support for implementing Sustainable Development Goal-2 (SDG2) and Sustainable Development Goal -3 (SDG 3) through integrating AYUSH system. \n<br>\n\n",
+      "benefits_md": "> **Financial Assistance:**\n\n\n  - Maximum grant of ₹1,50,00,000/- for a project duration of 3 years.\n  - Funds are released in installments of 40%, 40%, and 20%.\n\n> **Note:** The grant received under the scheme should be utilized as under:-\n\n\n  - Not more than 30% of the total grant should be spent on Establishment / Project Management.\n  - Not LESS than 50% of the total grant should be spent on Medicines, laboratory testing or other investigations.\n  - Remaining 20% of the total grant may be spent on AYUSH awareness, minor Equipment etc., for the project.\n\n<br>\n\n<br>\n\n",
+      "exclusions_md": "\n  - Any institution that has obtained funding from any other Central Government Ministry/ Department for the same purpose in the last five years shall not be eligible for funding under this scheme.\n\n<br>\n\n",
+      "briefDescription": "The scheme-component aims to promote AYUSH-based interventions to improve community health outcomes by supporting preventive, promotive, curative, and rehabilitative healthcare services.",
+      "detailedDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "The scheme-component \"AYUSH and Public Health\" under the \"Ayurswasthya Yojana\" by the Ministry of Ayush, Government of India, aims to promote AYUSH interventions through funding healthcare projects for public health issues affecting communities. It also aims to support for implementing Sustainable Development Goal-2 (SDG2) and Sustainable Development Goal -3 (SDG 3) through integrating AYUSH system. "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "Financial Assistance:",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "ul_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Maximum grant of ₹1,50,00,000/- for a project duration of 3 years."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Funds are released in installments of 40%, 40%, and 20%."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "Note:",
+              "bold": true
+            },
+            {
+              "text": " The grant received under the scheme should be utilized as under:-"
+            }
+          ]
+        },
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "ul_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Not more than 30% of the total grant should be spent on Establishment / Project Management."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Not LESS than 50% of the total grant should be spent on Medicines, laboratory testing or other investigations."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Remaining 20% of the total grant may be spent on AYUSH awareness, minor Equipment etc., for the project."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ],
+      "exclusions": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "ul_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Any institution that has obtained funding from any other Central Government Ministry/ Department for the same purpose in the last five years shall not be eligible for funding under this scheme."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Online",
+        "process": [
+          {
+            "type": "align_justify",
+            "children": [
+              {
+                "type": "block_quote",
+                "children": [
+                  {
+                    "text": "Registration Process:",
+                    "bold": true
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "bold": true,
+                    "text": "Step 1: "
+                  },
+                  {
+                    "text": "Visit the "
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://ngo.ayush.gov.in/register",
+                    "children": [
+                      {
+                        "text": "Ayush NGO Portal"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 2:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Fill in all the mandatory details and upload the relevant documents."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 3:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Verify the captcha and click on \"Register\". If required, click \"Cancel\" to discard changes."
+                  }
+                ]
+              },
+              {
+                "type": "block_quote",
+                "children": [
+                  {
+                    "text": "Login Process:",
+                    "bold": true
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 1:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Visit the "
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://ngo.ayush.gov.in/login",
+                    "children": [
+                      {
+                        "text": "Ayush NGO Portal"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 2:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Enter the registered email id, password. "
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 3: ",
+                    "bold": true
+                  },
+                  {
+                    "text": "Type the captcha and click on \"Login\"."
+                  }
+                ]
+              },
+              {
+                "type": "ul_list",
+                "children": [
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "text": "User Manual: "
+                      },
+                      {
+                        "type": "link",
+                        "link": "https://ngo.ayush.gov.in/uploads/assets/Frontend_User_Manual_v-1.2.pdf",
+                        "children": [
+                          {
+                            "text": "Click here"
+                          }
+                        ]
+                      },
+                      {
+                        "text": "."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "text": "Contact Us: "
+                      },
+                      {
+                        "type": "link",
+                        "link": "https://ngo.ayush.gov.in/contact-us",
+                        "children": [
+                          {
+                            "text": "Click here"
+                          }
+                        ]
+                      },
+                      {
+                        "text": "."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          }
+        ],
+        "process_md": "&gt; **Registration Process:**\n\n**Step 1:** Visit the [Ayush NGO Portal](https://ngo.ayush.gov.in/register).\n**Step 2:** Fill in all the mandatory details and upload the relevant documents.\n**Step 3:** Verify the captcha and click on &amp;quot;Register&amp;quot;. If required, click &amp;quot;Cancel&amp;quot; to discard changes.\n&gt; **Login Process:**\n\n**Step 1:** Visit the [Ayush NGO Portal](https://ngo.ayush.gov.in/login).\n**Step 2:** Enter the registered email id, password. \n**Step 3:** Type the captcha and click on &amp;quot;Login&amp;quot;.\n\n  - User Manual: [Click here](https://ngo.ayush.gov.in/uploads/assets/Frontend_User_Manual_v-1.2.pdf).  - Contact Us: [Click here](https://ngo.ayush.gov.in/contact-us).\n<br>\n\n"
+      },
+      {
+        "mode": "Offline",
+        "process": [
+          {
+            "type": "ul_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Eligible organizations should apply in the prescribed format ("
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://ayush.gov.in/resources/pdf/schemes/Ayurswasthya.pdf",
+                    "children": [
+                      {
+                        "text": "Annexure- A"
+                      }
+                    ]
+                  },
+                  {
+                    "text": ") along with a detailed proposal (two copies) to:"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "text": "Director (Schemes),",
+                "bold": true
+              }
+            ]
+          },
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "text": "Ministry of Ayurveda, Yoga & Naturopathy, Unani, Siddha and Homoeopathy,",
+                "bold": true
+              }
+            ]
+          },
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "text": "AYUSH Bhawan, B-Block, GPO Complex, INA, New Delhi - 110023.",
+                "bold": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          }
+        ],
+        "process_md": "\n- Eligible organizations should apply in the prescribed format ([Annexure- A](https://ayush.gov.in/resources/pdf/schemes/Ayurswasthya.pdf)) along with a detailed proposal (two copies) to:\n> **Director (Schemes),**\n\n> **Ministry of Ayurveda, Yoga &amp; Naturopathy, Unani, Siddha and Homoeopathy,**\n\n> **AYUSH Bhawan, B-Block, GPO Complex, INA, New Delhi - 110023.**\n\n<br>\n\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n  - The applicant organization must have credible project management expertise and core staff.\n  - Applicant / organization (Other than AYUSH teaching institute registered under [IMCC Act, 1970](https://www.indiacode.nic.in/bitstream/123456789/19303/1/a1970-48_0.pdf) and [HCC Act 1973](https://www.indiacode.nic.in/bitstream/123456789/19294/1/homoeopathy_central_council_act%2C_1973.pdf)) should have track record of minimum 5 years of working in the field of community health. The organization should furnish the necessary evidence for implementing such programmes in the past.  - Applicant / organization shall have to make information available regarding any assistance taken from any State/Central Agency in the last 5 years.\n  - The organizations (other than the AYUSH teaching institutes recognized under [IMCC Act, 1970](https://www.indiacode.nic.in/bitstream/123456789/19303/1/a1970-48_0.pdf) and [HCC Act, 1973](https://www.indiacode.nic.in/bitstream/123456789/19294/1/homoeopathy_central_council_act%2C_1973.pdf) and the Central/ State Govt. institutes) must submit their application in the Proforma given at Annexure – C, by the State Government officer of the respective State / UT concerned. Recommendations of the State / UT should clearly mention the following points:-\n\n   1. About the credibility of the organization and capability of applicant organization in\n   1. Implementing such public health initiatives project,\n   1. Past experience,\n   1. Relevance and usefulness of the project.\n\n\n  - The State Government has to forward the proposal in the prescribed Proforma within 60 days of submission of the proposal by the applicant organization to the State. In case, no response is received from State Government, it shall be presumed that State Government has no specific comments against the applicant organization and Ministry of AYUSH will consider the proposal accordingly.\n\n> **Eligible Organisation:**\n\n\n- Directorates of Health/AYUSH of States / UTs.\n- Government Institutes dealing with public health.\n- Non-profit/Voluntary organizations working in the area of public health for at least five years and having a proven track record and a capable team comprising of public health specialists.\n- Government aided Institutions/ Undertaking/ Universities/ Research Councils, Autonomous Organizations and Non – Profit Non-Governmental organizations engaged in one or more of the above fields listed in the introduction to the scheme.\n- Any reputed organization or stakeholders dealing with sports activities in India (only for proposals on AYUSH Sports medicine).\n- Collaboration of United Nations and International Organizations will be encouraged.\n\n<br>\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "ul_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant organization must have credible project management expertise and core staff."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Applicant / organization (Other than AYUSH teaching institute registered under "
+                    },
+                    {
+                      "type": "link",
+                      "link": "https://www.indiacode.nic.in/bitstream/123456789/19303/1/a1970-48_0.pdf",
+                      "children": [
+                        {
+                          "text": "IMCC Act, 1970"
+                        }
+                      ]
+                    },
+                    {
+                      "text": " and "
+                    },
+                    {
+                      "type": "link",
+                      "link": "https://www.indiacode.nic.in/bitstream/123456789/19294/1/homoeopathy_central_council_act%2C_1973.pdf",
+                      "children": [
+                        {
+                          "text": "HCC Act 1973"
+                        }
+                      ]
+                    },
+                    {
+                      "text": ") should have track record of minimum 5 years of working in the field of community health. The organization should furnish the necessary evidence for implementing such programmes in the past."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Applicant / organization shall have to make information available regarding any assistance taken from any State/Central Agency in the last 5 years."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The organizations (other than the AYUSH teaching institutes recognized under "
+                    },
+                    {
+                      "type": "link",
+                      "link": "https://www.indiacode.nic.in/bitstream/123456789/19303/1/a1970-48_0.pdf",
+                      "children": [
+                        {
+                          "text": "IMCC Act, 1970"
+                        }
+                      ]
+                    },
+                    {
+                      "text": " and "
+                    },
+                    {
+                      "type": "link",
+                      "link": "https://www.indiacode.nic.in/bitstream/123456789/19294/1/homoeopathy_central_council_act%2C_1973.pdf",
+                      "children": [
+                        {
+                          "text": "HCC Act, 1973"
+                        }
+                      ]
+                    },
+                    {
+                      "text": " and the Central/ State Govt. institutes) must submit their application in the Proforma given at Annexure – C, by the State Government officer of the respective State / UT concerned. Recommendations of the State / UT should clearly mention the following points:-"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "ol_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "About the credibility of the organization and capability of applicant organization in"
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Implementing such public health initiatives project,"
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Past experience,"
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Relevance and usefulness of the project."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "ul_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The State Government has to forward the proposal in the prescribed Proforma within 60 days of submission of the proposal by the applicant organization to the State. In case, no response is received from State Government, it shall be presumed that State Government has no specific comments against the applicant organization and Ministry of AYUSH will consider the proposal accordingly."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "Eligible Organisation:",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Directorates of Health/AYUSH of States / UTs."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Government Institutes dealing with public health."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Non-profit/Voluntary organizations working in the area of public health for at least five years and having a proven track record and a capable team comprising of public health specialists."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Government aided Institutions/ Undertaking/ Universities/ Research Councils, Autonomous Organizations and Non – Profit Non-Governmental organizations engaged in one or more of the above fields listed in the introduction to the scheme."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Any reputed organization or stakeholders dealing with sports activities in India (only for proposals on AYUSH Sports medicine)."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Collaboration of United Nations and International Organizations will be encouraged."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "asyaph"
+}

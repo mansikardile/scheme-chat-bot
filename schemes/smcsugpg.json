@@ -1,0 +1,722 @@
+{
+  "_id": "67b5bd78d6a94de2eee24d7a",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": true,
+      "tags": [
+        "Student",
+        "Post Graduation",
+        "Doctorate Course",
+        "Under Graduation",
+        "Scholarship",
+        "Merit"
+      ],
+      "schemeName": "Haryana State Merit Scholarship Scheme",
+      "schemeShortTitle": "HSMSS",
+      "implementingAgency": "Haryana Education Department",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce76cd6d1a3bde4685292",
+          "label": "Education & Learning"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Universities and higher education",
+          "label": "Universities and higher education"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "state": {
+        "value": 6,
+        "label": "Haryana"
+      },
+      "nodalDepartmentName": {
+        "value": 666685,
+        "label": "Higher Education Department"
+      },
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guideline",
+          "url": "https://harchhatravratti.highereduhry.ac.in/Notices/Haryana%20State%20Merit%20Scholarship%20Scheme.pdf"
+        },
+        {
+          "title": "Application Portal",
+          "url": "https://harchhatravratti.highereduhry.ac.in/"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The scheme &amp;quot;Haryana State Merit Scholarship Scheme&amp;quot; was launched by the Haryana Education Department, Government of Haryana, aims to provide financial assistance to meritorious students from economically weaker sections to pursue higher education. \nThe objective of this scheme is to award Merit-cum-Poverty Scholarships to talented students from economically backward classes pursuing General University Education for Degree, Post-Graduate, and Doctorate courses. Students who pass the specified Public Examination from Punjab University, Kurukshetra University, or any other examining body notified by the awarding authority are eligible to apply under this scheme. Additionally, the students whose parents/guardians are the citizens of India and are domiciled in the Haryana State are eligible to apply.\n",
+      "benefits_md": "**Name of the Examination based on which Scholarships are Awarded &amp; Scholarship Rates:**\n**Course Name****Rate of Scholarship****Duration**Metric₹150/-year in Prep/ Hr.Sec. II10+2₹300/-Minimum tenure is 3 academic years for B.A./B.Sc./B.Com./ B.Sc. Home Science Course (including Hon&amp;amp;amp;#39;s) School Course.Degree Level₹450/-Maximum tenure two academic years for M.A./M.Sc.Hons./M.Sc. /M. Com./ M.Sc./ Home Science Course. Maximum tenue one academic year for B.T./B.Ed. Course.B.Ed. / M.Phil / Ph.D.₹900/-One Scholarship is Tenable at Jawahar Lal Nehru University, New Delhi for full duration of M.Phil./Ph.D. Course Minimum three years.**Note:** For the students of integrated courses after 10+2 e.g. M.B.A./M.C.A./B.A.L.L.B./ B.Com. L.L.B./B.B.A.L.L.B./M.F.A. etc., the scholarship amount for initial three years will be amount fixed for UG course and for remaining period (i.e. 01,1 ½ , 2 years as the case may be) will be amount fixed for PG course.\n> **Note:** \n\n> **Conditions for Receiving Benefits:**\n\n> The applicant must maintain satisfactory academic performance.\n\n> The applicant must comply with the institution’s discipline and attendance requirements.\n\n> **Mode of Disbursement:**\n\n> Scholarships are directly transferred to the beneficiary’s bank account via Direct Benefit Transfer (DBT).\n\n> **Frequency of Disbursement:**\n\n> The scholarship is disbursed on a monthly basis for the entire academic year (12 months).\n\n> **Validity:**\n\n> The scholarship remains valid for the full duration of the academic program, provided the student meets the required academic and conduct standards.\n\n",
+      "exclusions_md": "\n1. Students receiving other merit or merit-cum-means scholarships from any other source are not eligible.\n1. Students who fail to pass their annual promotion examination in the first attempt will forfeit the scholarship.\n1. Students found involved in political activities, unlawful acts, or disciplinary misconduct will lose their eligibility.\n1. Students who migrate to another institution or course without prior approval will have their scholarships revoked.\n\n",
+      "briefDescription": "The scheme aims to support meritorious students from economically backward sections in pursuing higher education. Under this scheme, financial assistance is provided to students pursuing Degree, Post-Graduate, and Doctorate courses.",
+      "detailedDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "The scheme \"Haryana State Merit Scholarship Scheme\" was launched by the Haryana Education Department, Government of Haryana, aims to provide financial assistance to meritorious students from economically weaker sections to pursue higher education. "
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "The objective of this scheme is to award Merit-cum-Poverty Scholarships to talented students from economically backward classes pursuing General University Education for Degree, Post-Graduate, and Doctorate courses. Students who pass the specified Public Examination from Punjab University, Kurukshetra University, or any other examining body notified by the awarding authority are eligible to apply under this scheme. Additionally, the students whose parents/guardians are the citizens of India and are domiciled in the Haryana State are eligible to apply."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Name of the Examination based on which Scholarships are Awarded & Scholarship Rates:",
+              "bold": true,
+              "underline": true
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "children": [
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Course Name",
+                      "bold": true
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Rate of Scholarship",
+                      "bold": true
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Duration",
+                      "bold": true
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Metric"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "₹150/-"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "year in Prep/ Hr.Sec. II"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "10+2"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "₹300/-"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Minimum tenure is 3 academic years for B.A./B.Sc./B.Com./ B.Sc. Home Science Course (including Hon's) School Course."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Degree Level"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "₹450/-"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Maximum tenure two academic years for M.A./M.Sc.Hons./M.Sc. /M. Com./ M.Sc./ Home Science Course. Maximum tenue one academic year for B.T./B.Ed. Course."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "B.Ed. / M.Phil / Ph.D."
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "₹900/-"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "One Scholarship is Tenable at Jawahar Lal Nehru University, New Delhi for full duration of M.Phil./Ph.D. Course Minimum three years."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "Note:",
+                  "bold": true
+                },
+                {
+                  "text": " For the students of integrated courses after 10+2 e.g. M.B.A./M.C.A./B.A.L.L.B./ B.Com. L.L.B./B.B.A.L.L.B./M.F.A. etc., the scholarship amount for initial three years will be amount fixed for UG course and for remaining period (i.e. 01,1 ½ , 2 years as the case may be) will be amount fixed for PG course."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "Note: ",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "bold": true,
+              "underline": true,
+              "text": "Conditions for Receiving Benefits:"
+            }
+          ]
+        },
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "The applicant must maintain satisfactory academic performance."
+            }
+          ]
+        },
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "The applicant must comply with the institution’s discipline and attendance requirements."
+            }
+          ]
+        },
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "Mode of Disbursement:",
+              "bold": true,
+              "underline": true
+            }
+          ]
+        },
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "Scholarships are directly transferred to the beneficiary’s bank account via Direct Benefit Transfer (DBT)."
+            }
+          ]
+        },
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "Frequency of Disbursement:",
+              "bold": true,
+              "underline": true
+            }
+          ]
+        },
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "The scholarship is disbursed on a monthly basis for the entire academic year (12 months)."
+            }
+          ]
+        },
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "Validity:",
+              "bold": true,
+              "underline": true
+            }
+          ]
+        },
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "The scholarship remains valid for the full duration of the academic program, provided the student meets the required academic and conduct standards."
+            }
+          ]
+        }
+      ],
+      "exclusions": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Students receiving other merit or merit-cum-means scholarships from any other source are not eligible."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Students who fail to pass their annual promotion examination in the first attempt will forfeit the scholarship."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Students found involved in political activities, unlawful acts, or disciplinary misconduct will lose their eligibility."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Students who migrate to another institution or course without prior approval will have their scholarships revoked."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Online",
+        "process": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Registration Process:",
+                "bold": true,
+                "underline": true
+              }
+            ]
+          },
+          {
+            "type": "align_justify",
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 1:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Click the Registration link at the"
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://harchhatravratti.highereduhry.ac.in/",
+                    "children": [
+                      {
+                        "text": " Portal"
+                      }
+                    ]
+                  },
+                  {
+                    "text": ", if you are a new user. Existing users can click on the login button."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 2:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Enter the Parivar Pehchaan Patra (Family ID), and a List of members will be displayed, Select your Name and Click on the \"Generate OTP\" button."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 3:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Enter the OTP received on your registered Mobile Number and Click on the \"Verify OTP\" button."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 4:",
+                    "bold": true
+                  },
+                  {
+                    "text": " After OTP Verification, all the details get auto-filled in the Registration Form, and cross-check your information."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 5:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Select Your Department and College, create your Password, and click on the \"Register\" Button."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Application Process:",
+                "bold": true,
+                "underline": true
+              }
+            ]
+          },
+          {
+            "type": "align_justify",
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 1:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Click the login link at the "
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://harchhatravratti.highereduhry.ac.in/UserLogin",
+                    "children": [
+                      {
+                        "text": "Portal"
+                      }
+                    ]
+                  },
+                  {
+                    "text": " and enter your User ID and password to apply for the scholarship."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 2:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Check eligibility for the scholarship and select the scholarship scheme."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 3:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Click on the “Apply” button and provide all necessary details like Course, Roll No., Eligibility, etc."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 4:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Save your application and then submit the application form after careful verification."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Application Tracking:",
+                    "bold": true,
+                    "underline": true
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 1:",
+                    "bold": true
+                  },
+                  {
+                    "text": " The students can check their "
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://harchhatravratti.highereduhry.ac.in/ApplicationStatus",
+                    "children": [
+                      {
+                        "text": "Scholarship Application Status"
+                      }
+                    ]
+                  },
+                  {
+                    "text": " using their details like their Aadhaar Number, Academic Session, and scheme applied for. "
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://harchhatravratti.highereduhry.ac.in/ApplicationStatus",
+                    "children": [
+                      {
+                        "text": ""
+                      }
+                    ]
+                  },
+                  {
+                    "text": ""
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "process_md": "**Registration Process:**\n**Step 1:** Click the Registration link at the[ Portal](https://harchhatravratti.highereduhry.ac.in/), if you are a new user. Existing users can click on the login button.\n**Step 2:** Enter the Parivar Pehchaan Patra (Family ID), and a List of members will be displayed, Select your Name and Click on the &amp;quot;Generate OTP&amp;quot; button.\n**Step 3:** Enter the OTP received on your registered Mobile Number and Click on the &amp;quot;Verify OTP&amp;quot; button.\n**Step 4:** After OTP Verification, all the details get auto-filled in the Registration Form, and cross-check your information.\n**Step 5:** Select Your Department and College, create your Password, and click on the &amp;quot;Register&amp;quot; Button.\n**Application Process:**\n**Step 1:** Click the login link at the [Portal](https://harchhatravratti.highereduhry.ac.in/UserLogin) and enter your User ID and password to apply for the scholarship.\n**Step 2:** Check eligibility for the scholarship and select the scholarship scheme.\n**Step 3:** Click on the “Apply” button and provide all necessary details like Course, Roll No., Eligibility, etc.\n**Step 4:** Save your application and then submit the application form after careful verification.\n**Application Tracking:**\n**Step 1:** The students can check their [Scholarship Application Status](https://harchhatravratti.highereduhry.ac.in/ApplicationStatus) using their details like their Aadhaar Number, Academic Session, and scheme applied for. \n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n1. The applicant must be a citizen of India and a domiciled resident of Haryana.\n1. The applicant must have passed the qualifying examination from Punjab, Kurukshetra University, or any other recognized examining body.\n1. The applicant must be enrolled in a recognized course in a higher education institution in Haryana or Chandigarh.\n1. The applicant must have obtained at least a Second Division in the qualifying examination.\n1. For Rural Area Merit Scholarships, the applicant must have secured at least 40% marks in Matric/Higher Secondary (Final)/Pre-University Examinations.\n1. The applicant must not be receiving any other merit-based scholarship, except for need-based scholarships from specific welfare boards.\n\n> **Note:**\n\n> **Preference/Priority/Reservation/Relaxation:**\n\n\n1. One Ph.D./M.Phil. scholarship is exclusively tenable at Jawaharlal Nehru University, New Delhi.\n1. Rural Area Merit Scholarships are limited to students whose parents permanently reside and earn their livelihood in rural areas.\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must be a citizen of India and a domiciled resident of Haryana."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must have passed the qualifying examination from Punjab, Kurukshetra University, or any other recognized examining body."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must be enrolled in a recognized course in a higher education institution in Haryana or Chandigarh."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must have obtained at least a Second Division in the qualifying examination."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "For Rural Area Merit Scholarships, the applicant must have secured at least 40% marks in Matric/Higher Secondary (Final)/Pre-University Examinations."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must not be receiving any other merit-based scholarship, except for need-based scholarships from specific welfare boards."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "Note:",
+              "bold": true,
+              "underline": true
+            }
+          ]
+        },
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "Preference/Priority/Reservation/Relaxation:",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "One Ph.D./M.Phil. scholarship is exclusively tenable at Jawaharlal Nehru University, New Delhi."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Rural Area Merit Scholarships are limited to students whose parents permanently reside and earn their livelihood in rural areas."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "smcsugpg"
+}

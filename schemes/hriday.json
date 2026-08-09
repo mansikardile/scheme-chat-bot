@@ -1,0 +1,290 @@
+{
+  "_id": "661d40f7805a3f55552ce32a",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Implementation",
+        "Heritage",
+        "Infrastructure",
+        "Cultural",
+        "Tourism"
+      ],
+      "schemeName": "HRIDAY: Heritage City Development & Augmentation Yojana",
+      "schemeShortTitle": "HRIDAY",
+      "level": {
+        "value": "central",
+        "label": "Central"
+      },
+      "schemeType": {
+        "value": "central-sector-scheme",
+        "label": "Central Sector Scheme"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce924d6d1a3bde4685354",
+          "label": "Transport & Infrastructure"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Infrastructure",
+          "label": "Infrastructure"
+        }
+      ],
+      "schemeOpenDate": "2015-01-21",
+      "targetBeneficiaries": [
+        {
+          "value": "ngo",
+          "label": "NGO"
+        },
+        {
+          "value": "government-organisation",
+          "label": "Government Organisation"
+        },
+        {
+          "value": "state-government",
+          "label": "State Government"
+        }
+      ],
+      "nodalMinistryName": {
+        "value": 1582,
+        "label": "Ministry Of Tourism"
+      },
+      "nodalDepartmentName": null,
+      "otherMinistryName": null,
+      "schemeFor": "Infra"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://mohua.gov.in/upload/uploadfiles/files/GuidelinesHRIDAY.pdf"
+        },
+        {
+          "title": "Official Source",
+          "url": "https://mohua.gov.in/cms/hariday.php"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "Launched on 21st January 2015, the scheme &quot;National Heritage City Development and Augmentation Yojana&quot;, also known as &quot;HRIDAY&quot; is a central sector scheme by the Ministry of Tourism. The scheme was introduced to bring together urban planning, economic growth, and heritage conservation in an inclusive manner &amp; to preserve the heritage character of the city. The mission period of the scheme ended on 31st March 2019. The scheme supported the development of core heritage-linked civic infrastructure projects, which include the revitalization of urban infrastructure for areas around the heritage, religious, cultural, and tourism assets of the cities. These initiatives include the development of water supply, sanitation, drainage, waste management, approach roads, footpaths, street lights, tourist conveniences, electricity wiring, landscaping, and such citizen services.\n",
+      "benefits_md": "**For the Residents**\n\n- Improved quality of life through enhanced infrastructure, better sanitation facilities, and revitalized public spaces.\n- Preservation of cultural heritage fosters a sense of pride and identity among residents.\n- Economic opportunities are generated through tourism, cultural events, and heritage-related businesses.\n\n**For the Tourists**\n\n- Enriched cultural experiences through the restoration and promotion of heritage sites, monuments, and historic areas.\n- Enhanced amenities and facilities for tourists, including improved signage, interpretation centres, and guided tours.\n- Increased safety and accessibility, making heritage cities more attractive destinations for domestic and international visitors.\n\n**For the Businesses**\n\n- Expanded market opportunities resulting from increased tourism and foot traffic in heritage areas.\n- Investment incentives for heritage-related businesses, such as heritage hotels, handicrafts, cultural events, and eco-tourism ventures.\n- Preservation and promotion of traditional crafts and skills, supporting local artisans and craftsmen.\n\n**For the Local Authorities**\n\n- Strengthened governance and capacity-building for heritage conservation and urban planning.\n- Increased revenue generation through tourism-related taxes, entry fees, and commercial activities in heritage areas.\n- Enhanced collaboration and partnerships with government agencies, NGOs, and private stakeholders for sustainable development.\n\n",
+      "exclusions_md": "<br>\n\n",
+      "briefDescription": "Launched on 21st January 2015, the scheme \"National Heritage City Development and Augmentation Yojana\", also known as \"HRIDAY\" is a central sector scheme by the Ministry of Tourism. The scheme was introduced to bring together urban planning, economic growth, and heritage conservation.",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Launched on 21st January 2015, the scheme \"National Heritage City Development and Augmentation Yojana\", also known as \"HRIDAY\" is a central sector scheme by the Ministry of Tourism. The scheme was introduced to bring together urban planning, economic growth, and heritage conservation in an inclusive manner & to preserve the heritage character of the city. The mission period of the scheme ended on 31st March 2019. The scheme supported the development of core heritage-linked civic infrastructure projects, which include the revitalization of urban infrastructure for areas around the heritage, religious, cultural, and tourism assets of the cities. These initiatives include the development of water supply, sanitation, drainage, waste management, approach roads, footpaths, street lights, tourist conveniences, electricity wiring, landscaping, and such citizen services."
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 3,
+        "value": "composite",
+        "label": "Composite"
+      },
+      "benefits": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "bold": true,
+              "underline": true,
+              "text": "For the Residents"
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Improved quality of life through enhanced infrastructure, better sanitation facilities, and revitalized public spaces."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Preservation of cultural heritage fosters a sense of pride and identity among residents."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Economic opportunities are generated through tourism, cultural events, and heritage-related businesses."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "bold": true,
+              "underline": true,
+              "text": "For the Tourists"
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Enriched cultural experiences through the restoration and promotion of heritage sites, monuments, and historic areas."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Enhanced amenities and facilities for tourists, including improved signage, interpretation centres, and guided tours."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Increased safety and accessibility, making heritage cities more attractive destinations for domestic and international visitors."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "bold": true,
+              "underline": true,
+              "text": "For the Businesses"
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Expanded market opportunities resulting from increased tourism and foot traffic in heritage areas."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Investment incentives for heritage-related businesses, such as heritage hotels, handicrafts, cultural events, and eco-tourism ventures."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Preservation and promotion of traditional crafts and skills, supporting local artisans and craftsmen."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "bold": true,
+              "underline": true,
+              "text": "For the Local Authorities"
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Strengthened governance and capacity-building for heritage conservation and urban planning."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Increased revenue generation through tourism-related taxes, entry fees, and commercial activities in heritage areas."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Enhanced collaboration and partnerships with government agencies, NGOs, and private stakeholders for sustainable development."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "exclusions": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "process": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "The citizens need not apply to this scheme."
+              }
+            ]
+          }
+        ],
+        "process_md": "The citizens need not apply to this scheme.\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "There are no eligibility requirements to avail the benefits of this scheme.\n",
+      "eligibilityDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "There are no eligibility requirements to avail the benefits of this scheme."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "hriday"
+}

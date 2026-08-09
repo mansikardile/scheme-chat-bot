@@ -1,0 +1,430 @@
+{
+  "_id": "64204e4aaa7df9a8bf84aef6",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": null,
+      "tags": [
+        "EWS",
+        "Durable Housing",
+        "Support",
+        "Rural",
+        "Urban"
+      ],
+      "schemeName": "Chief Minister Housing Assistance Programme",
+      "schemeShortTitle": "CMHAP",
+      "level": {
+        "value": "state",
+        "label": "State"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce7d2d6d1a3bde46852c2",
+          "label": "Housing & Shelter"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Shelter, integrated support and assistance",
+          "label": "Shelter, integrated support and assistance"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "label": "All",
+          "value": "All"
+        }
+      ],
+      "schemeFor": "Family",
+      "state": {
+        "value": 17,
+        "label": "Meghalaya"
+      },
+      "nodalDepartmentName": {
+        "value": 1777794,
+        "label": "Housing Department"
+      }
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Official Link",
+          "url": "https://meghalaya.gov.in/schemes/content/37229"
+        },
+        {
+          "title": "Guidelines",
+          "url": "https://meghousing.gov.in/documents/CMHAP%20Scheme%20Guidelines.pdf"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The scheme &quot;Chief Minister’s Housing Assistance Programme&quot; by the Housing Department, Government of Meghalaya, aims to assist economically weaker and low-income families by providing durable housing support. Through this scheme, roofing materials or dwelling houses are provided to Economically Weaker Section (EWS) and Low Income Group (LIG) families residing in Meghalaya.\n<br>\n\n> **Objectives:**\n\n\n- To provide durable roofing materials to improve existing houses for the Economically Weaker Section (EWS) families.\n- To provide dwelling houses to the low-income group (LIG) families living in the State.\n\n<br>\n\n",
+      "benefits_md": "\n1. Three bundles of 9-foot-long GCI sheets (roofing material) for EWS households as an outright grant.\n1. Construction of a durable house with a carpet area of a minimum of 19.20 sqm (207 sq. ft) with at least 2 rooms for LIG households as a credit-linked subsidy.\n1. Financial assistance up to ₹75,000 under the Credit Linked Subsidy Scheme for LIG houses.\n1. Additional cost to be borne by beneficiary through own resources, MGNREGS, SRWP, or bank loan.\n1. Houses to be constructed as per government-approved model (Annexure-A).\n1. Land ownership and geo-tagging are mandatory for the beneficiary.\n\n> **Note:**\n\n> In case of Credit Linked Subsidy, funds are disbursed in installments through bank/post office account based on progress certified by the Housing Selection and Monitoring Committee.\n\n<br>\n\n",
+      "briefDescription": "The scheme \"Chief Minister’s Housing Assistance Programme\" by the Housing Department, Government of Meghalaya, aims to provide durable housing to EWS and LIG families. Through this scheme, roofing materials and dwelling houses are provided to eligible families in the State.",
+      "exclusions_md": "\n1. Households owning any pucca house in Meghalaya.\n1. Households that received a prior housing loan/advance from the government.\n\n<br>\n\n",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The scheme \"Chief Minister’s Housing Assistance Programme\" by the Housing Department, Government of Meghalaya, aims to assist economically weaker and low-income families by providing durable housing support. Through this scheme, roofing materials or dwelling houses are provided to Economically Weaker Section (EWS) and Low Income Group (LIG) families residing in Meghalaya."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "",
+              "bold": true,
+              "underline": true
+            }
+          ]
+        },
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "Objectives:",
+              "bold": true,
+              "underline": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "To provide durable roofing materials to improve existing houses for the Economically Weaker Section (EWS) families."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "To provide dwelling houses to the low-income group (LIG) families living in the State."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Three bundles of 9-foot-long GCI sheets (roofing material) for EWS households as an outright grant."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Construction of a durable house with a carpet area of a minimum of 19.20 sqm (207 sq. ft) with at least 2 rooms for LIG households as a credit-linked subsidy."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Financial assistance up to ₹75,000 under the Credit Linked Subsidy Scheme for LIG houses."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Additional cost to be borne by beneficiary through own resources, MGNREGS, SRWP, or bank loan."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Houses to be constructed as per government-approved model (Annexure-A)."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Land ownership and geo-tagging are mandatory for the beneficiary."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "Note:",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "In case of Credit Linked Subsidy, funds are disbursed in installments through bank/post office account based on progress certified by the Housing Selection and Monitoring Committee."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ],
+      "exclusions": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Households owning any pucca house in Meghalaya."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Households that received a prior housing loan/advance from the government."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "url": "",
+        "process": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 01: Visit the Block Development Officer (for rural areas) or District Housing Officer (for urban areas)."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 02: Obtain the prescribed printed application form issued by the Directorate of Housing."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 03: Fill in the form with all personal, income, and housing details."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 04: Attach required documents (EPIC, income certificate, land proof, etc.)."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 05: Submit the filled application to the same authority (BDO or DHO)."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 06: BDO/DHO prepares a list of beneficiaries and sends it to the Block/Urban Level Selection and Monitoring Committee."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 07: The committee screens and approves the list."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 08: The approved list is forwarded to the District Housing Committee."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 09: District Committee sends the final list to the Director of Housing."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 10: Approved beneficiaries collect roofing material or get a sanction order for subsidy."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          }
+        ],
+        "process_md": "Step 01: Visit the Block Development Officer (for rural areas) or District Housing Officer (for urban areas).\nStep 02: Obtain the prescribed printed application form issued by the Directorate of Housing.\nStep 03: Fill in the form with all personal, income, and housing details.\nStep 04: Attach required documents (EPIC, income certificate, land proof, etc.).\nStep 05: Submit the filled application to the same authority (BDO or DHO).\nStep 06: BDO/DHO prepares a list of beneficiaries and sends it to the Block/Urban Level Selection and Monitoring Committee.\nStep 07: The committee screens and approves the list.\nStep 08: The approved list is forwarded to the District Housing Committee.\nStep 09: District Committee sends the final list to the Director of Housing.\nStep 10: Approved beneficiaries collect roofing material or get a sanction order for subsidy.\n<br>\n\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n1. The applicant should be a bona fide resident of the State of Meghalaya.\n1. The applicant should belong to the Economically Weaker Section (annual income up to ₹1,00,000) or the Low Income Group (income between ₹1,00,001 and ₹2,00,000).\n1. The applicant should be 18 years of age or above.\n1. The applicant should not have any other member from the same family living under the same roof as a beneficiary under the same scheme.\n1. The applicant should not own a pucca house in their or any family member&#39;s name.\n1. The applicant should possess their own land (for construction in case of a dwelling house).\n1. The applicant should submit the EPIC (Electors&#39; Photo Identity Card) or any other valid document as proof of residence.\n1. The applicant should not have received any previous housing loan or financial aid from any other government source in their or their spouse’s name.\n1. The applicant should construct the house personally and not through a contractor.\n\n<br>\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should be a bona fide resident of the State of Meghalaya."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should belong to the Economically Weaker Section (annual income up to ₹1,00,000) or the Low Income Group (income between ₹1,00,001 and ₹2,00,000)."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should be 18 years of age or above."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should not have any other member from the same family living under the same roof as a beneficiary under the same scheme."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should not own a pucca house in their or any family member's name."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should possess their own land (for construction in case of a dwelling house)."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should submit the EPIC (Electors' Photo Identity Card) or any other valid document as proof of residence."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should not have received any previous housing loan or financial aid from any other government source in their or their spouse’s name."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should construct the house personally and not through a contractor."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "cmhap"
+}

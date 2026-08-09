@@ -1,0 +1,293 @@
+{
+  "_id": "645b3a6e4358152a4789f84d",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": true,
+      "tags": [
+        "Financial Assistance",
+        "Monthly Pension",
+        "Disability Relief Allowances"
+      ],
+      "schemeName": "Disability Relief Allowance Scheme",
+      "schemeShortTitle": "DRAS",
+      "level": {
+        "value": "state",
+        "label": "State"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce87cd6d1a3bde4685312",
+          "label": "Social welfare & Empowerment"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Pension",
+          "label": "Pension"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "state": {
+        "value": 2,
+        "label": "Himachal Pradesh"
+      },
+      "nodalDepartmentName": {
+        "value": 21111158,
+        "label": "Department of Social Justice and Empowerment"
+      },
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "http://esomsa.hp.gov.in/?q=hi/%E0%A4%B8%E0%A4%BE%E0%A4%AE%E0%A4%BE%E0%A4%9C%E0%A4%BF%E0%A4%95-%E0%A4%B8%E0%A5%81%E0%A4%B0%E0%A4%95%E0%A5%8D%E0%A4%B7%E0%A4%BE-%E0%A4%AA%E0%A5%88%E0%A4%82%E0%A4%B6%E0%A4%A8"
+        },
+        {
+          "title": "Notification",
+          "url": "http://esomsa.hp.gov.in/sites/default/files/Notification_SSP_0.pdf"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "**The Disability Relief Allowance Scheme** under the Department of Social Justice, Government of Himachal Pradesh provides financial assistance to individuals with disabilities to help them manage their living costs and improve their quality of life. \n**Features:**\n\n   1. **Monthly Allowance:** Eligible individuals receive a monthly financial allowance. The amount may vary based on the severity of the disability and other factors.   1. **Purpose:** The allowance is intended to help with day-to-day expenses and medical costs related to the disability.\nThe scheme is for Persons with Disabilities who have been issued a permanent disability certificate of 40% or more from a Medical Board constituted as per the Rights of Persons with Disabilities Act, 2016, do not have any adult children, and whose income does not exceed ₹35,000/- p.a from all sources. The Disability Percentage Certificate issued by the Medical Authority is valid for sanction of Disability Relief Allowance even if the multi-disability is certified at 40% or more as per the guidelines issued by the Ministry of Social Justice and Empowerment, Government of India for assessment and certification of various types of disabilities. Mentally retarded persons and persons with 70% or more disability are provided pensions without any income limit.\n",
+      "benefits_md": "Following is the assistance provided:\n\n   1. Pensioners with 40-69% disability ₹1150/- per month \n   1. Pensioners with 70% disability or more ₹1700/- per month \n   1. Pensioners with disability aged 70 years or more ₹1500/- per month\n\n",
+      "briefDescription": "The Disability Relief Allowance Scheme under the Department of Social Justice, Government of Himachal Pradesh provides financial assistance to individuals with disabilities to help them manage their living costs and improve their quality of life. ",
+      "exclusions_md": "<br>\n\n",
+      "detailedDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "The Disability Relief Allowance Scheme",
+                  "bold": true
+                },
+                {
+                  "text": " under the Department of Social Justice, Government of Himachal Pradesh provides financial assistance to individuals with disabilities to help them manage their living costs and improve their quality of life. "
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "Features:",
+                  "bold": true
+                }
+              ]
+            },
+            {
+              "type": "ol_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Monthly Allowance: ",
+                      "bold": true
+                    },
+                    {
+                      "text": "Eligible individuals receive a monthly financial allowance. The amount may vary based on the severity of the disability and other factors."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Purpose: ",
+                      "bold": true
+                    },
+                    {
+                      "text": "The allowance is intended to help with day-to-day expenses and medical costs related to the disability."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "The scheme is for Persons with Disabilities who have been issued a permanent disability certificate of 40% or more from a Medical Board constituted as per the Rights of Persons with Disabilities Act, 2016, do not have any adult children, and whose income does not exceed ₹35,000/- p.a from all sources. The Disability Percentage Certificate issued by the Medical Authority is valid for sanction of Disability Relief Allowance even if the multi-disability is certified at 40% or more as per the guidelines issued by the Ministry of Social Justice and Empowerment, Government of India for assessment and certification of various types of disabilities. Mentally retarded persons and persons with 70% or more disability are provided pensions without any income limit."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "Following is the assistance provided:"
+                }
+              ]
+            },
+            {
+              "type": "ol_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Pensioners with 40-69% disability ₹1150/- per month "
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Pensioners with 70% disability or more ₹1700/- per month "
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Pensioners with disability aged 70 years or more ₹1500/- per month"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "exclusions": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "url": "",
+        "process": [
+          {
+            "type": "align_justify",
+            "children": [
+              {
+                "type": "ol_list",
+                "children": [
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "text": "The eligible candidates with the filled "
+                      },
+                      {
+                        "type": "link",
+                        "link": "http://esomsa.hp.gov.in/sites/default/files/scan0001-44250128_0.pdf",
+                        "children": [
+                          {
+                            "text": "application form",
+                            "bold": true
+                          }
+                        ]
+                      },
+                      {
+                        "text": ", and documents enclosed can apply for the scheme by visiting the nearest block development office or district welfare office."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "text": "The applicant will receive a receipt after submitting the application form."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "text": "The department may review the application form and as per the guidelines issued by the department, the allowance may be released."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "process_md": "\n   1. The eligible candidates with the filled [**application form**](http://esomsa.hp.gov.in/sites/default/files/scan0001-44250128_0.pdf), and documents enclosed can apply for the scheme by visiting the nearest block development office or district welfare office.   1. The applicant will receive a receipt after submitting the application form.\n   1. The department may review the application form and as per the guidelines issued by the department, the allowance may be released.\n\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n   1. The applicant must be a resident of Himachal Pradesh.\n   1. The applicant must have a minimum of 40% disability.\n   1. The applicant must not receive any other pension or allowance from the state or central government.\n\n&lt;br&gt;\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "ol_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant must be a resident of Himachal Pradesh."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant must have a minimum of 40% disability."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant must not receive any other pension or allowance from the state or central government."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "sara"
+}

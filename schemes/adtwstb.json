@@ -1,0 +1,202 @@
+{
+  "_id": "66f68497c50f851fc66178fa",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Tribal Welfare",
+        "Adi Dravidar",
+        "Text Books",
+        "Education"
+      ],
+      "schemeName": "Adi Dravidar and Tribal Welfare Department: Stationary-Text Books",
+      "schemeShortTitle": "ADTWSTB",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce76cd6d1a3bde4685292",
+          "label": "Education & Learning"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Resources for schools",
+          "label": "Resources for schools"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "state": {
+        "value": 33,
+        "label": "Tamil Nadu"
+      },
+      "schemeType": null,
+      "nodalMinistryName": null,
+      "nodalDepartmentName": {
+        "value": 3333331,
+        "label": "Adi Dravidar and Tribal Welfare Department"
+      },
+      "otherMinistryName": null,
+      "otherDepartmentNames": null,
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://www.tn.gov.in/scheme/data_view/83086"
+        }
+      ],
+      "schemeImageUrl": "",
+      "briefDescription": "This scheme provides free textbooks to students from 1st to 12th standard in Adi Dravidar and Tribal welfare schools.\n",
+      "detailedDescription_md": "The scheme “Adi Dravidar and Tribal Welfare Department: Stationary-Text Books” by the Adi Dravidar and Tribal Welfare Department, Tamil Nadu, is designed to support students from 1st to 12th standard who are enrolled in Adi Dravidar and Tribal welfare schools by offering them free textbooks. This initiative aims to ensure that no student is deprived of education due to a lack of study materials.\n",
+      "benefits_md": "\n  - **Textbooks:** Free textbooks for students from 1st to 12th standard.\n&lt;br&gt;\n\n",
+      "exclusions_md": "<br>\n\n",
+      "detailedDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "The scheme “Adi Dravidar and Tribal Welfare Department: Stationary-Text Books” by the Adi Dravidar and Tribal Welfare Department, Tamil Nadu, is designed to support students from 1st to 12th standard who are enrolled in Adi Dravidar and Tribal welfare schools by offering them free textbooks. This initiative aims to ensure that no student is deprived of education due to a lack of study materials."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 2,
+        "value": "in-kind",
+        "label": "In Kind"
+      },
+      "benefits": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "ul_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Textbooks: ",
+                      "bold": true
+                    },
+                    {
+                      "text": "Free textbooks for students from 1st to 12th standard."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": ""
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "exclusions": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "process": [
+          {
+            "type": "align_justify",
+            "children": [
+              {
+                "type": "ul_list",
+                "children": [
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "text": "Students/ Guardians should contact the Headmaster of the School with all the required documents as directed by the authority."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "process_md": "\n  - Students/ Guardians should contact the Headmaster of the School with all the required documents as directed by the authority.\n\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n  - The beneficiary should be a Student.\n  - The beneficiary should be a resident of Tamil Nadu.\n  - The beneficiary should be enrolled in Adi Dravidar and Tribal welfare schools.\n  - The beneficiary must be studying in any class between 1st to 12th standard.\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "ul_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The beneficiary should be a Student."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The beneficiary should be a resident of Tamil Nadu."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The beneficiary should be enrolled in Adi Dravidar and Tribal welfare schools."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The beneficiary must be studying in any class between 1st to 12th standard."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "adtwstb"
+}

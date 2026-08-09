@@ -1,0 +1,198 @@
+{
+  "_id": "66ed56fda2ae583ad3e243b2",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Tribal Welfare",
+        "Adi Dravidar",
+        "Students",
+        "Hostels",
+        "Education",
+        "Accommodation"
+      ],
+      "schemeName": "Adi Dravidar and Tribal Welfare Department-Hostels: Special Guides",
+      "schemeShortTitle": "ADTHSG",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce76cd6d1a3bde4685292",
+          "label": "Education & Learning"
+        },
+        {
+          "value": "628ce7d2d6d1a3bde46852c2",
+          "label": "Housing & Shelter"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Hostel service",
+          "label": "Hostel service"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "state": {
+        "value": 33,
+        "label": "Tamil Nadu"
+      },
+      "schemeType": null,
+      "nodalMinistryName": null,
+      "nodalDepartmentName": {
+        "value": 3333331,
+        "label": "Adi Dravidar and Tribal Welfare Department"
+      },
+      "otherMinistryName": null,
+      "otherDepartmentNames": null,
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://www.tn.gov.in/scheme/data_view/83078"
+        }
+      ],
+      "schemeImageUrl": "",
+      "briefDescription": "The scheme provides hostel facilities to all boys and girls boarders studying up to XII Standard.\n",
+      "detailedDescription_md": "The scheme “Adi Dravidar and Tribal Welfare Department-Hostels: Special Guides” by the Adi Dravidar and Tribal Welfare Department, Tamil Nadu, aims to offer hostel accommodations to students belonging to the Adi Dravidar and Tribal communities. The initiative supports their education by ensuring a safe and structured environment for studying, addressing the housing needs of students from underprivileged backgrounds. The facilities are available for students up to the XII Standard.\n",
+      "benefits_md": "\n  - **Accommodation:** Hostel facility for all Boys/ Girls Boarders studying upto XII Standard.\n<br>\n\n",
+      "exclusions_md": "",
+      "detailedDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "The scheme “Adi Dravidar and Tribal Welfare Department-Hostels: Special Guides” by the Adi Dravidar and Tribal Welfare Department, Tamil Nadu, aims to offer hostel accommodations to students belonging to the Adi Dravidar and Tribal communities. The initiative supports their education by ensuring a safe and structured environment for studying, addressing the housing needs of students from underprivileged backgrounds. The facilities are available for students up to the XII Standard."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 2,
+        "value": "in-kind",
+        "label": "In Kind"
+      },
+      "benefits": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "ul_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Accommodation:",
+                      "bold": true
+                    },
+                    {
+                      "text": " Hostel facility for all Boys/ Girls Boarders studying upto XII Standard."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "process": [
+          {
+            "type": "align_justify",
+            "children": [
+              {
+                "type": "ul_list",
+                "children": [
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "text": "Students/ Guardians should contact the warden or matron of the hostel with all the required documents as directed by the authority."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "process_md": "\n  - Students/ Guardians should contact the warden or matron of the hostel with all the required documents as directed by the authority.\n\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n  - The beneficiary should be a Student.\n  - The beneficiary should be a resident of Tamil Nadu.\n  - The beneficiary should belong to the Adi Dravidar/ Tribal community.\n  - The beneficiary should be enrolled within XII Standard (Stn. XII or lower).\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "ul_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The beneficiary should be a Student."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The beneficiary should be a resident of Tamil Nadu."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The beneficiary should belong to the Adi Dravidar/ Tribal community."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The beneficiary should be enrolled within XII Standard (Stn. XII or lower)."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "adthsg"
+}

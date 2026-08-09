@@ -1,0 +1,422 @@
+{
+  "_id": "6777c11509be7bb7dfa16246",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Apprenticeship",
+        "Training",
+        "Skill Development",
+        "Youth",
+        "Employment"
+      ],
+      "schemeName": "Mukhyamantri Apprenticeship Yojana",
+      "schemeShortTitle": "MAYG",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce76cd6d1a3bde4685292",
+          "label": "Education & Learning"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Apprenticeships and training",
+          "label": "Apprenticeships and training"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "state": {
+        "value": 24,
+        "label": "Gujarat"
+      },
+      "nodalDepartmentName": {
+        "value": 2444454,
+        "label": "Labour and Employment Department"
+      },
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines 1",
+          "url": "https://talimrojgar.gujarat.gov.in/2014/Docs/06Mar2023042918PM.pdf"
+        },
+        {
+          "title": "Guidelines 2",
+          "url": "https://talimrojgar.gujarat.gov.in/2014/Docs/06Feb2021011030PM.pdf"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The &amp;quot;Mukhyamantri Apprenticeship Yojana (MAY)&amp;quot;, launched in 2018-19 by the Labour and Employment Department, Gujarat, seeks to create a robust ecosystem for skill development through &amp;quot;on-the-job&amp;quot; and &amp;quot;off-the-job&amp;quot; training. The scheme aligns with national initiatives like the &amp;quot;National Apprenticeship Promotion Scheme (NAPS)&amp;quot; and the &amp;quot;National Apprenticeship Training Scheme (NATS)&amp;quot;, targeting to engage 1 lakh youth in apprenticeships. The scheme provides additional incentives for employers beyond the benefits under NAPS and NATS.\n",
+      "benefits_md": "<br>\n\n**Categories of apprentices****Stipend**Trade apprentice (MSDE)₹1500/-Optional trade apprentice (MSDE)₹3000/- (Graduate ); ₹2000/- (Any Diploma); ₹1500/- (Others)Technician (Vocational) apprentices (MSDE)1500/-Technician apprentices (MOE) (Diploma in engineering or non-engineering stream and undergoing apprenticeship training in designated trades)2000/-Graduate apprentices (MOE) (Graduates in engineering or non-engineering stream and undergoing apprenticeship training in designated trades)3000/-<br>\n\n> **Duration of Training:** Duration of Apprenticeship (including basic training) is between 6-24 months for Optional Trade and 6-36 months for Designated Trade at the discretion of an establishment (Passed out trainees in the particular trade of NCVT pattern designated by D.G.T. as well as GCVT patterr desionated by D.F. T. is also allowed rebate in the duration of Anprenticeshin Training.)\n\n",
+      "exclusions_md": "<br>\n\n",
+      "briefDescription": "The scheme aims to enhance the employability of Gujarat's youth through apprenticeship training, offering financial incentives to employers, and promoting skill development across various industries.",
+      "detailedDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "The \"Mukhyamantri Apprenticeship Yojana (MAY)\", launched in 2018-19 by the Labour and Employment Department, Gujarat, seeks to create a robust ecosystem for skill development through \"on-the-job\" and \"off-the-job\" training. The scheme aligns with national initiatives like the \"National Apprenticeship Promotion Scheme (NAPS)\" and the \"National Apprenticeship Training Scheme (NATS)\", targeting to engage 1 lakh youth in apprenticeships. The scheme provides additional incentives for employers beyond the benefits under NAPS and NATS."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 3,
+        "value": "composite",
+        "label": "Composite"
+      },
+      "benefits": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "children": [
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Categories of apprentices",
+                      "bold": true
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Stipend",
+                      "bold": true
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Trade apprentice (MSDE)"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "₹1500/-"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Optional trade apprentice (MSDE)"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "₹3000/- (Graduate ); ₹2000/- (Any Diploma); ₹1500/- (Others)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Technician (Vocational) apprentices (MSDE)"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "1500/-"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Technician apprentices (MOE) (Diploma in engineering or non-engineering stream and undergoing apprenticeship training in designated trades)"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "2000/-"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Graduate apprentices (MOE) (Graduates in engineering or non-engineering stream and undergoing apprenticeship training in designated trades)"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "3000/-"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "bold": true,
+              "text": "Duration of Training: "
+            },
+            {
+              "text": "Duration of Apprenticeship (including basic training) is between 6-24 months for Optional Trade and 6-36 months for Designated Trade at the discretion of an establishment (Passed out trainees in the particular trade of NCVT pattern designated by D.G.T. as well as GCVT patterr desionated by D.F. T. is also allowed rebate in the duration of Anprenticeshin Training.)"
+            }
+          ]
+        }
+      ],
+      "exclusions": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Online",
+        "process": [
+          {
+            "type": "align_justify",
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step-1: ",
+                    "bold": true
+                  },
+                  {
+                    "text": "Register on the "
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://www.apprenticeshipindia.gov.in/candidate-login",
+                    "children": [
+                      {
+                        "text": "apprenticeship portal"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step-2: ",
+                    "bold": true
+                  },
+                  {
+                    "text": "Fill in the required personal, educational, and contact details."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step-3: ",
+                    "bold": true
+                  },
+                  {
+                    "text": "Upload the necessary documents."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step-4: ",
+                    "bold": true
+                  },
+                  {
+                    "text": "Choose the desired trade and employer from the portal."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step-5: ",
+                    "bold": true
+                  },
+                  {
+                    "text": "Submit the application for review."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step-6: ",
+                    "bold": true
+                  },
+                  {
+                    "text": "Once approved, sign the apprenticeship contract online."
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "process_md": "**Step-1:** Register on the [apprenticeship portal](https://www.apprenticeshipindia.gov.in/candidate-login).\n**Step-2:** Fill in the required personal, educational, and contact details.\n**Step-3:** Upload the necessary documents.\n**Step-4:** Choose the desired trade and employer from the portal.\n**Step-5:** Submit the application for review.\n**Step-6:** Once approved, sign the apprenticeship contract online.\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n   1. The applicant must be a resident of Gujarat.\n   1. The applicant must be at least 14 years old (18 years for hazardous trades).\n   1. The applicant must meet the minimum educational qualification specific to the trade.\n   1. The applicant must be a minimum 5th pass-out.\n   1. The applicant must satisfy the physical fitness standards prescribed for the trade.\n   1. The applicant must not have been engaged in any similar apprenticeship program previously.\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "ol_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant must be a resident of Gujarat."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant must be at least 14 years old (18 years for hazardous trades)."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant must meet the minimum educational qualification specific to the trade."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant must be a minimum 5th pass-out."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant must satisfy the physical fitness standards prescribed for the trade."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant must not have been engaged in any similar apprenticeship program previously."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "mayg"
+}

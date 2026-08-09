@@ -1,0 +1,271 @@
+{
+  "_id": "67cfe303777a17dd53ddf2a6",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Student",
+        "Scholarship",
+        "Education",
+        "College",
+        "Handloom"
+      ],
+      "schemeName": "Uchch Shiksha Puraskar Yojana",
+      "schemeShortTitle": "USPY",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce76cd6d1a3bde4685292",
+          "label": "Education & Learning"
+        }
+      ],
+      "schemeSubCategory": null,
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "state": {
+        "value": 22,
+        "label": "Chhattisgarh"
+      },
+      "schemeType": null,
+      "nodalMinistryName": null,
+      "nodalDepartmentName": {
+        "value": 2200004,
+        "label": "Commerce & Industries Department"
+      },
+      "otherMinistryName": null,
+      "otherDepartmentNames": null,
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://www.cgapexhandloom.org.in/sites/default/files/page-documents/Bunkar-Schlorship_high_edu_0.pdf"
+        }
+      ],
+      "schemeImageUrl": "",
+      "briefDescription": "\"Uchch Shiksha Puraskar Yojana\" aims to encourage and motivate students from weaver families to pursue higher education. ₹20,000/- is provided to talented students from weaver families who get admission in first year of Engineering/Medical/CA/MBA courses in any government college in Chhattisgarh.",
+      "detailedDescription_md": "Launched in 2012-13, the scheme &quot;Uchch Shiksha Puraskar Yojana&quot; by the Chhattisgarh State Handloom Development and Marketing Cooperative Union Limited, Raipur aims to encourage and motivate talented students from weaver families to pursue higher education. The scheme provides financial incentives to students from weaver families who secure admission to professional courses in government colleges. It specifically targets students who are children of members of Primary Weaver Cooperative Societies affiliated with the State Handloom Union. The scheme is implemented by the Chhattisgarh State Handloom Development and Marketing Cooperative Union Limited, Raipur to create awareness and competitive spirit among children of weavers engaged in handloom weaving industry mostly established in rural areas.\n",
+      "benefits_md": "\n- A financial incentive of ₹20,000/- is provided as an encouragement award to eligible students.\n- The financial assistance is provided only for the first year of the course.\n\n",
+      "exclusions_md": "",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Launched in 2012-13, the scheme \"Uchch Shiksha Puraskar Yojana\" by the Chhattisgarh State Handloom Development and Marketing Cooperative Union Limited, Raipur aims to encourage and motivate talented students from weaver families to pursue higher education. The scheme provides financial incentives to students from weaver families who secure admission to professional courses in government colleges. It specifically targets students who are children of members of Primary Weaver Cooperative Societies affiliated with the State Handloom Union. The scheme is implemented by the Chhattisgarh State Handloom Development and Marketing Cooperative Union Limited, Raipur to create awareness and competitive spirit among children of weavers engaged in handloom weaving industry mostly established in rural areas."
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "A financial incentive of ₹20,000/- is provided as an encouragement award to eligible students."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The financial assistance is provided only for the first year of the course."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "process": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 1:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " The interested applicant should take print of the "
+              },
+              {
+                "type": "link",
+                "link": "https://www.cgapexhandloom.org.in/sites/default/files/page-documents/Bunkar-Schlorship_high_edu_0.pdf",
+                "children": [
+                  {
+                    "text": "prescribed format"
+                  }
+                ]
+              },
+              {
+                "text": " of the application form."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " In the application form, fill in all the mandatory fields, paste the passport-sized photograph (signed across, if required), and attach copies of all the mandatory documents (self-attest, if required)."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 3:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " Submit the duly filled and signed application form along with the documents within the prescribed period (if any), to the Primary Weaver Cooperative Society."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 4:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " The Primary Weaver Cooperative Society will verify the details, complete their formalities, add their remarks, and forward the application to the concerned District Handloom Office. The District Handloom Office will compile all received applications."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 5:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " A selection committee consisting of the Deputy/Assistant Director of the District Handloom Office and a nominated President/Representative of a weaver society in the district will review the applications. The committee will organize a meeting to select eligible members and verify the applications."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 6:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " After verification, the selection committee will send their recommendations to the Managing Director, Chhattisgarh State Handloom Development and Marketing Cooperative Union Limited, Raipur."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 7:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " The Managing Director has the authority to take appropriate action if any information is found to be false. After final approval, the incentive amount will be disbursed to the selected students."
+              }
+            ]
+          }
+        ],
+        "process_md": "**Step 1:** The interested applicant should take print of the [prescribed format](https://www.cgapexhandloom.org.in/sites/default/files/page-documents/Bunkar-Schlorship_high_edu_0.pdf) of the application form.\n**Step 2:** In the application form, fill in all the mandatory fields, paste the passport-sized photograph (signed across, if required), and attach copies of all the mandatory documents (self-attest, if required).\n**Step 3:** Submit the duly filled and signed application form along with the documents within the prescribed period (if any), to the Primary Weaver Cooperative Society.\n**Step 4:** The Primary Weaver Cooperative Society will verify the details, complete their formalities, add their remarks, and forward the application to the concerned District Handloom Office. The District Handloom Office will compile all received applications.\n**Step 5:** A selection committee consisting of the Deputy/Assistant Director of the District Handloom Office and a nominated President/Representative of a weaver society in the district will review the applications. The committee will organize a meeting to select eligible members and verify the applications.\n**Step 6:** After verification, the selection committee will send their recommendations to the Managing Director, Chhattisgarh State Handloom Development and Marketing Cooperative Union Limited, Raipur.\n**Step 7:** The Managing Director has the authority to take appropriate action if any information is found to be false. After final approval, the incentive amount will be disbursed to the selected students.\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n- The student must be from a family of weavers who are members of Primary Weaver Cooperative Societies affiliated to the State Handloom Union, Raipur.\n- The student must be a resident of Chhattisgarh.\n- The student&#39;s mother/father must be a regular member of a weaver cooperative society.\n- The student must have secured admission in the first year of Engineering/Medical/CA/MBA course in any government college.\n- More than 50% of the parent&#39;s income should be from weaving.\n\n_*Weaver family refers to husband, wife, and their children._\n",
+      "eligibilityDescription": [
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The student must be from a family of weavers who are members of Primary Weaver Cooperative Societies affiliated to the State Handloom Union, Raipur."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The student must be a resident of Chhattisgarh."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The student's mother/father must be a regular member of a weaver cooperative society."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The student must have secured admission in the first year of Engineering/Medical/CA/MBA course in any government college."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "More than 50% of the parent's income should be from weaving."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "*Weaver family refers to husband, wife, and their children.",
+              "italic": true
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "uspy"
+}

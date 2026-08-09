@@ -1,0 +1,163 @@
+{
+  "_id": "667d50b2425fce9f47c2876a",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Goa",
+        "Dropout",
+        "Student",
+        "Children",
+        "Education",
+        "NGO"
+      ],
+      "schemeName": "Out of School Children scheme under Goa Sarva Shiksha Abhivan ",
+      "schemeShortTitle": "OOSCS",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce76cd6d1a3bde4685292",
+          "label": "Education & Learning"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Scholarships and student finance",
+          "label": "Scholarships and student finance"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "ngo",
+          "label": "NGO"
+        }
+      ],
+      "state": {
+        "value": 30,
+        "label": "Goa"
+      },
+      "nodalDepartmentName": {
+        "value": 30000013,
+        "label": "Education Department"
+      },
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://education.goa.gov.in/sites/default/files/2020-11/schemes-gssa.pdf"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The &quot;Out of School Children&quot; scheme under the Goa Sarva Shiksha Abhiyan (SSA) is designed to ensure that every child in the 6 to 14 age group receives a complete elementary education. The primary objective is to identify children who are out of school, whether they have never enrolled or have dropped out, and to reintegrate them into the educational system through specialized training programs.\n",
+      "benefits_md": "Sanctions are granted to the NGOs for providing special training in the centre as per the norms of Sarva Shiksha Abhiyan (SSA).\n",
+      "briefDescription": "The \"Out of School Children\" scheme is designed to ensure that every child in the 6-14 age group receives a complete elementary education. The primary objective is to identify children who are out of school and to reintegrate them into the educational system through specialized training programs.",
+      "exclusions_md": "",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The \"Out of School Children\" scheme under the Goa Sarva Shiksha Abhiyan (SSA) is designed to ensure that every child in the 6 to 14 age group receives a complete elementary education. The primary objective is to identify children who are out of school, whether they have never enrolled or have dropped out, and to reintegrate them into the educational system through specialized training programs."
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 3,
+        "value": "composite",
+        "label": "Composite"
+      },
+      "benefits": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Sanctions are granted to the NGOs for providing special training in the centre as per the norms of Sarva Shiksha Abhiyan (SSA)."
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "process": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 1:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " A survey is carried out through NGOs for identification of the OoSC."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " The State Project Office of SSA provides approval of the Special Training Centres."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 3:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " The grant is released to the Special Training Centres after signing the MOU."
+              }
+            ]
+          }
+        ],
+        "process_md": "**Step 1:** A survey is carried out through NGOs for identification of the OoSC.\n**Step 2:** The State Project Office of SSA provides approval of the Special Training Centres.\n**Step 3:** The grant is released to the Special Training Centres after signing the MOU.\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n- The child should not be enrolled in a school.\n- The child should be in the age group of 6 to 14 years.\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The child should not be enrolled in a school."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The child should be in the age group of 6 to 14 years."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "ooscs"
+}

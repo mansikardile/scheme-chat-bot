@@ -1,0 +1,228 @@
+{
+  "_id": "67ece076936574af7fb89a9c",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": true,
+      "tags": [
+        "Backward Classes",
+        "Extremely Backward Classes",
+        "Hostel Grant",
+        "Student Accommodation"
+      ],
+      "schemeName": "Chief Minister BC & EBC Chhatravas Anudan Yojana",
+      "schemeShortTitle": "CMBCCAY",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce76cd6d1a3bde4685292",
+          "label": "Education & Learning"
+        },
+        {
+          "value": "628ce87cd6d1a3bde4685312",
+          "label": "Social welfare & Empowerment"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Financial assistance",
+          "label": "Financial assistance"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "schemeFor": "Individual",
+      "state": {
+        "value": 10,
+        "label": "Bihar"
+      },
+      "nodalDepartmentName": {
+        "value": 10111113,
+        "label": "BC & EBC Welfare Department"
+      }
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://state.bihar.gov.in/bcebcwelfare/Content.html?links&page=Schemes"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The &amp;quot;Chief Minister BC &amp;amp; EBC Chhatravas Anudan Yojana&amp;quot;, implemented by the Backward Classes and Extremely Backward Classes Welfare Department, aims to support students belonging to Backward Classes (BC) and Extremely Backward Classes (EBC) residing in government hostels by providing them a financial grant to cover their essential needs.\n",
+      "benefits_md": "\n- **Financial Assistance:**  ₹1,000/- per month for students residing in government hostels.\n",
+      "briefDescription": "The \"Chief Minister BC & EBC Chhatravas Anudan Yojana\", implemented by the Backward Classes and Extremely Backward Classes Welfare Department, provides financial assistance to students from Backward Classes (BC) and Extremely Backward Classes (EBC) residing in government hostels.",
+      "exclusions_md": "<br>\n\n",
+      "detailedDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "The \"Chief Minister BC & EBC Chhatravas Anudan Yojana\", implemented by the Backward Classes and Extremely Backward Classes Welfare Department, aims to support students belonging to Backward Classes (BC) and Extremely Backward Classes (EBC) residing in government hostels by providing them a financial grant to cover their essential needs."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Financial Assistance: ",
+                  "bold": true
+                },
+                {
+                  "text": " ₹1,000/- per month for students residing in government hostels."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "exclusions": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Online",
+        "process": [
+          {
+            "type": "align_justify",
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 1: The applicant must first register on the "
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://bcebconline.bihar.gov.in/cay/Login.aspx?Id=7",
+                    "children": [
+                      {
+                        "text": "e-Kalyan portal"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "align_justify",
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 2: To complete the registration, the applicant must fill in the following details: Personal details & Contact details"
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 3: After registration, the applicant must log in using the provided User ID and Password."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 4: Once logged in, the applicant must carefully fill out the application form."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 5: All required documents must be uploaded to the portal."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 6: The application form, along with the uploaded documents, will be verified by the concerned authorities."
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "process_md": "Step 1: The applicant must first register on the [e-Kalyan portal](https://bcebconline.bihar.gov.in/cay/Login.aspx?Id=7).\nStep 2: To complete the registration, the applicant must fill in the following details: Personal details &amp;amp; Contact details\nStep 3: After registration, the applicant must log in using the provided User ID and Password.\nStep 4: Once logged in, the applicant must carefully fill out the application form.\nStep 5: All required documents must be uploaded to the portal.\nStep 6: The application form, along with the uploaded documents, will be verified by the concerned authorities.\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n1. The applicant must belong to the BC or EBC category.\n1. The annual family income should be less than ₹3,00,000/-.\n1. The student must be residing in a government hostel.\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must belong to the BC or EBC category."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The annual family income should be less than ₹3,00,000/-."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The student must be residing in a government hostel."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "cmbccay"
+}

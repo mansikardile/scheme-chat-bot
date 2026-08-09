@@ -1,0 +1,381 @@
+{
+  "_id": "69df7d02f5f31bfc894d8408",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Specially Abled",
+        "Divyang",
+        "Prosthetic Aid Scheme",
+        "Pension"
+      ],
+      "schemeName": "Welfare Services for Disabled Persons",
+      "schemeShortTitle": "WSFDP",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce87cd6d1a3bde4685312",
+          "label": "Social welfare & Empowerment"
+        },
+        {
+          "value": "628ce7a2d6d1a3bde46852b1",
+          "label": "Health & Wellness"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Shelter",
+          "label": "Shelter"
+        },
+        {
+          "value": "Rehabilitation",
+          "label": "Rehabilitation"
+        },
+        {
+          "value": "Medicine and health products",
+          "label": "Medicine and health products"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "schemeFor": "Individual",
+      "state": {
+        "value": 15,
+        "label": "Mizoram"
+      },
+      "schemeType": null,
+      "nodalMinistryName": null,
+      "nodalDepartmentName": {
+        "value": 1511147,
+        "label": "Social Welfare Department"
+      },
+      "otherMinistryName": null,
+      "otherDepartmentNames": null
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://socialwelfare.mizoram.gov.in/uploads/attachments/62da7efc0bb51062766aaf1aa4ed2211/pages-94-gia-rules.pdf"
+        }
+      ],
+      "schemeImageUrl": "",
+      "briefDescription": "The scheme aims to provide support, rehabilitation, and empowerment to persons with disabilities through financial assistance for healthcare, education, vocational training, and assistive devices.",
+      "detailedDescription_md": "The &amp;quot;Welfare Services for Disabled Persons&amp;quot; under the Mizoram Grant-in-Aid framework focuses on improving the quality of life of persons with disabilities by supporting voluntary organizations in delivering specialized services. Beneficiaries include persons with locomotor, visual, hearing, and mental disabilities, and multiple disabilities such as cerebral palsy and autism.\nThe scheme supports activities like vocational training, early detection, medical treatment, rehabilitation, and the provision of assistive devices. It also promotes awareness regarding the rights of disabled persons and supports the establishment of special schools and institutions.\n<br>\n\n",
+      "benefits_md": "> **Rehabilitation &amp; Training:**\n\n\n- Vocational training for self-employment.\n- Early detection and intervention services.\n\n> **Medical Support:**\n\n\n- Treatment and rehabilitation services.\n- HIV/AIDS care for disabled persons.\n\n> **Assistive Devices:**\n\n\n- Prosthetics, mobility aids, hearing aids, Braille equipment.\n- Education Support.\n- Special schools and vocational centres.\n\n> **Awareness:**\n\n\n- Awareness programmes on disability rights.\n\n<br>\n\n",
+      "exclusions_md": "<br>\n\n",
+      "detailedDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "The \"Welfare Services for Disabled Persons\" under the Mizoram Grant-in-Aid framework focuses on improving the quality of life of persons with disabilities by supporting voluntary organizations in delivering specialized services. Beneficiaries include persons with locomotor, visual, hearing, and mental disabilities, and multiple disabilities such as cerebral palsy and autism."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "The scheme supports activities like vocational training, early detection, medical treatment, rehabilitation, and the provision of assistive devices. It also promotes awareness regarding the rights of disabled persons and supports the establishment of special schools and institutions."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 3,
+        "value": "composite",
+        "label": "Composite"
+      },
+      "benefits": [
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "Rehabilitation & Training:",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Vocational training for self-employment."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Early detection and intervention services."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "Medical Support:",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Treatment and rehabilitation services."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "HIV/AIDS care for disabled persons."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "Assistive Devices:",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Prosthetics, mobility aids, hearing aids, Braille equipment."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Education Support."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Special schools and vocational centres."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "Awareness:",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Awareness programmes on disability rights."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ],
+      "exclusions": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "process": [
+          {
+            "type": "ul_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Apply through Social Welfare Department via NGOs"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          }
+        ],
+        "process_md": "\n- Apply through Social Welfare Department via NGOs\n\n<br>\n\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "> **For Individuals (Beneficiaries):**\n\n\n- The applicant must be a person with disability having at least 40% disability, duly certified by a competent medical authority.\n- The applicant must belong to any category such as locomotor, visual, hearing, mental, or multiple disabilities.\n- The applicant must require support for rehabilitation, medical treatment, education, or livelihood.\n\n> **For Organizations:**\n\n\n- The organization must be a registered voluntary organization/NGO/institution.\n- The organization must have experience in implementing disability welfare programmes.\n- The organization must have adequate infrastructure and trained personnel to provide services.\n- The organization must ensure that services are provided without discrimination.\n\n<br>\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "For Individuals (Beneficiaries):",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must be a person with disability having at least 40% disability, duly certified by a competent medical authority."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must belong to any category such as locomotor, visual, hearing, mental, or multiple disabilities."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must require support for rehabilitation, medical treatment, education, or livelihood."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "For Organizations:",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The organization must be a registered voluntary organization/NGO/institution."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The organization must have experience in implementing disability welfare programmes."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The organization must have adequate infrastructure and trained personnel to provide services."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The organization must ensure that services are provided without discrimination."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "wsfdp"
+}

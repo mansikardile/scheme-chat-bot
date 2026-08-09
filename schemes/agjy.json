@@ -1,0 +1,210 @@
+{
+  "_id": "672c655fcef677932c624067",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Energy Subsidy",
+        "Electricity",
+        "Bill Reduction",
+        "Domestic Consumers"
+      ],
+      "schemeName": "Atal Graha Jyoti Yojana",
+      "schemeShortTitle": "AGJY",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce97ad6d1a3bde468537d",
+          "label": "Utility & Sanitation"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Electricity",
+          "label": "Electricity"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "state": {
+        "value": 23,
+        "label": "Madhya Pradesh"
+      },
+      "nodalDepartmentName": {
+        "value": 2300010,
+        "label": "Energy Department"
+      },
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://dhar.nic.in/scheme/%E0%A4%87%E0%A4%82%E0%A4%A6%E0%A4%BF%E0%A4%B0%E0%A4%BE-%E0%A4%97%E0%A5%83%E0%A4%B9-%E0%A4%9C%E0%A5%8D%E0%A4%AF%E0%A5%8B%E0%A4%A4%E0%A4%BF-%E0%A4%AF%E0%A5%8B%E0%A4%9C%E0%A4%A8%E0%A4%BE/"
+        },
+        {
+          "title": "Guidelines (Name Change)",
+          "url": "https://energy.mp.gov.in/sites/default/files/Name%20change%20order.pdf"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The &amp;quot;Atal Graha Jyoti Yojana&amp;quot;, launched by the Energy Department, Government of Madhya Pradesh, aims to provide financial relief to domestic consumers with low energy consumption by subsidizing their electricity bills. The scheme benefits those whose monthly electricity consumption does not exceed 150 units. The subsidy is provided through the billing system, ensuring easy access for eligible consumers. The scheme was earlier known as &amp;quot;Indira Graha Jyoti Yojana&amp;quot;.\n",
+      "benefits_md": "\n  - **Reduced Electricity Bills:** Consumers with a monthly consumption of up to 150 units receive a subsidized bill, minimizing their energy expenses.\n&gt; **Note:** The benefit is automatically applied through the billing system for eligible consumers.\n\n",
+      "exclusions_md": "<br>\n\n",
+      "briefDescription": "The scheme provides subsidized electricity bills to domestic consumers with monthly consumption up to 150 units, promoting energy conservation and reducing electricity costs for eligible beneficiaries.\n\n",
+      "detailedDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "The \"Atal Graha Jyoti Yojana\", launched by the Energy Department, Government of Madhya Pradesh, aims to provide financial relief to domestic consumers with low energy consumption by subsidizing their electricity bills. The scheme benefits those whose monthly electricity consumption does not exceed 150 units. The subsidy is provided through the billing system, ensuring easy access for eligible consumers. The scheme was earlier known as \"Indira Graha Jyoti Yojana\"."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 2,
+        "value": "in-kind",
+        "label": "In Kind"
+      },
+      "benefits": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "ul_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Reduced Electricity Bills:",
+                      "bold": true
+                    },
+                    {
+                      "text": " Consumers with a monthly consumption of up to 150 units receive a subsidized bill, minimizing their energy expenses."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "block_quote",
+              "children": [
+                {
+                  "text": "Note:",
+                  "bold": true
+                },
+                {
+                  "text": " The benefit is automatically applied through the billing system for eligible consumers."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "exclusions": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Online",
+        "process": [
+          {
+            "type": "align_justify",
+            "children": [
+              {
+                "type": "ul_list",
+                "children": [
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "text": "Automatic Enrollment:",
+                        "bold": true
+                      },
+                      {
+                        "text": " The scheme benefits are automatically applied to eligible consumers through the billing system."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": ""
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "process_md": "\n  - **Automatic Enrollment:** The scheme benefits are automatically applied to eligible consumers through the billing system.\n&lt;br&gt;\n\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n  - The applicant must be a resident of Madhya Pradesh.\n  - The applicant must be a domestic consumer with a monthly electricity consumption of up to 150 units.\n  - The applicant must have an approved load of 1 kilowatt for their electricity connection.\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "ul_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant must be a resident of Madhya Pradesh."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant must be a domestic consumer with a monthly electricity consumption of up to 150 units."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant must have an approved load of 1 kilowatt for their electricity connection."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "agjy"
+}

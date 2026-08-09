@@ -1,0 +1,373 @@
+{
+  "_id": "6584223b6093f0fa3305d4af",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Education",
+        "Training",
+        "Loan",
+        "Skill"
+      ],
+      "schemeName": "Vocational Education and Training Loan Scheme",
+      "schemeShortTitle": "VETLS",
+      "level": {
+        "value": "central",
+        "label": "Central"
+      },
+      "schemeType": {
+        "value": "central-sector-scheme",
+        "label": "Central Sector Scheme"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce7f6d6d1a3bde46852d0",
+          "label": "Banking,Financial Services and Insurance"
+        },
+        {
+          "value": "628ce76cd6d1a3bde4685292",
+          "label": "Education & Learning"
+        },
+        {
+          "value": "628ce85cd6d1a3bde4685304",
+          "label": "Skills & Employment"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Loan",
+          "label": "Loan"
+        },
+        {
+          "value": "Voctional education",
+          "label": "Voctional education"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "family",
+          "label": "Family"
+        }
+      ],
+      "schemeFor": "Individual",
+      "nodalMinistryName": {
+        "value": 712,
+        "label": "Ministry Of Social Justice and Empowerment"
+      },
+      "nodalDepartmentName": null
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Official Website",
+          "url": "https://nskfdc.nic.in/en/content/vocational-education-and-training-loan-scheme"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The scheme &amp;quot;Vocational Education and Training Loan Scheme&amp;quot; implemented by the  National Safai Karamcharis Finance and Development Corporation under the Ministry of Social Justice and Empowerment, provides financial assistance to eligible youth of the target group of NSKFDC for pursuing vocational education and training courses. It aims to improve skills, employability, and self-reliance among beneficiaries. Financial support is available for courses run or supported by Government Ministries, Departments, NSDC, or State Skill Missions. The course duration should be from 6 months up to 2 years and may lead to a recognized certificate, diploma, or degree. Assistance is provided for up to 90% of the course expenses, subject to the prescribed loan limit.\n<br>\n\n",
+      "benefits_md": "**Quantum of loan**\t\n\n1. Need-based finance to meet up to 90% of expenses shall be considered subject to the following Ceilings:\n\n\n- For courses of duration  up to 2 years: up to Rs. 4,00,000/-\n\n> Note: In case of cost over-run, it shall be borne by the beneficiary.\n\n**Interest**\t\nNational Safai Karamcharis Finance &amp; Development Corporation (NSKFDC) shall charge interest @ 1% per annum from the Channelizing Agency, which, in turn, shall charge 4% per annum from the beneficiaries. In the case of women, an interest rebate of 0.5% shall be provided. ****   \n**Repayment:** Up to 7 years.\n<br>\n\n",
+      "exclusions_md": "<br>\n\n",
+      "briefDescription": "The Vocational Education and Training Loan Scheme provides financial assistance to youth of the target group to enhance their skills & employability.",
+      "detailedDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "The scheme \"Vocational Education and Training Loan Scheme\" implemented by the  National Safai Karamcharis Finance and Development Corporation under the Ministry of Social Justice and Empowerment, provides financial assistance to eligible youth of the target group of NSKFDC for pursuing vocational education and training courses. It aims to improve skills, employability, and self-reliance among beneficiaries. Financial support is available for courses run or supported by Government Ministries, Departments, NSDC, or State Skill Missions. The course duration should be from 6 months up to 2 years and may lead to a recognized certificate, diploma, or degree. Assistance is provided for up to 90% of the course expenses, subject to the prescribed loan limit."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Quantum of loan\t",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Need-based finance to meet up to 90% of expenses shall be considered subject to the following Ceilings:"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "For courses of duration  up to 2 years: up to Rs. 4,00,000/-"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "Note: In case of cost over-run, it shall be borne by the beneficiary."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Interest\t",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "National Safai Karamcharis Finance & Development Corporation (NSKFDC) shall charge interest @ 1% per annum from the Channelizing Agency, which, in turn, shall charge 4% per annum from the beneficiaries. In the case of women, an interest rebate of 0.5% shall be provided. "
+            },
+            {
+              "bold": true,
+              "text": "   "
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "bold": true,
+              "text": "Repayment: "
+            },
+            {
+              "text": "Up to 7 years."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ],
+      "exclusions": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Online",
+        "process": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 1: Visit the "
+              },
+              {
+                "type": "link",
+                "link": "https://nskfdc.nic.in/en/content/home/home",
+                "children": [
+                  {
+                    "text": "official website"
+                  }
+                ]
+              },
+              {
+                "text": "."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2: Click on "
+              },
+              {
+                "type": "link",
+                "link": "https://nskfdc.nic.in/en/content/home/home",
+                "children": [
+                  {
+                    "text": "How to Apply"
+                  }
+                ]
+              },
+              {
+                "text": ". Tap on the Loan application form."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 3: Click on "
+              },
+              {
+                "type": "link",
+                "link": "https://nskfdc.nic.in/en/content/how-apply/loan-application-form",
+                "children": [
+                  {
+                    "text": "Loan application form."
+                  }
+                ]
+              },
+              {
+                "text": ""
+              },
+              {
+                "type": "link",
+                "link": "https://nskfdc.nic.in/en/content/how-apply/loan-application-form",
+                "children": [
+                  {
+                    "text": ""
+                  }
+                ]
+              },
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 4: Fill in all the details and tap Save to save the application form."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          }
+        ],
+        "process_md": "Step 1: Visit the [official website](https://nskfdc.nic.in/en/content/home/home).\nStep 2: Click on [How to Apply](https://nskfdc.nic.in/en/content/home/home). Tap on the Loan application form.\nStep 3: Click on [Loan application form.](https://nskfdc.nic.in/en/content/how-apply/loan-application-form)\nStep 4: Fill in all the details and tap Save to save the application form.\n<br>\n\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "> **Eligibility Criteria:**\n\n\n1. The person should be from the target group of NSKFDC.\n1. The person should have secured admission in a course run or supported by a Ministry, Department, or Organization of the Government or a company, society, or organization supported by the National Skill Development Corporation or State Skill Missions/State Skill Corporations, preferably leading to a Certificate/Diploma/Degree etc. Issued by a Government Organization or an Organization recognized/authorized by the Government to do so.\n\n> **Course Eligibility:**\n\nVocational Education and training courses of the duration of a minimum 6 months and up to 2 years run or supported by a Ministry/Department/Organization of the Government or a Company/Society/Organization supported by a National Skill Development Corporation or State Skills/Mission/State Skill Corporations.\n> **Age Eligibility:**\n\nThe candidate should attain a minimum age of 18 years on completion of the course. The upper age limit is up to 50 years.\n<br>\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "Eligibility Criteria:",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The person should be from the target group of NSKFDC."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The person should have secured admission in a course run or supported by a Ministry, Department, or Organization of the Government or a company, society, or organization supported by the National Skill Development Corporation or State Skill Missions/State Skill Corporations, preferably leading to a Certificate/Diploma/Degree etc. Issued by a Government Organization or an Organization recognized/authorized by the Government to do so."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "Course Eligibility:",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Vocational Education and training courses of the duration of a minimum 6 months and up to 2 years run or supported by a Ministry/Department/Organization of the Government or a Company/Society/Organization supported by a National Skill Development Corporation or State Skills/Mission/State Skill Corporations."
+            }
+          ]
+        },
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "Age Eligibility:",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The candidate should attain a minimum age of 18 years on completion of the course. The upper age limit is up to 50 years."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "vetls"
+}

@@ -1,0 +1,187 @@
+{
+  "_id": "677e57fa5876a2e5d4b284ac",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "College",
+        "Student",
+        "Education",
+        "Financial Assistance"
+      ],
+      "schemeName": "Refund of Fees",
+      "schemeShortTitle": "ROF",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce76cd6d1a3bde4685292",
+          "label": "Education & Learning"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Scholarships and student finance",
+          "label": "Scholarships and student finance"
+        }
+      ],
+      "schemeOpenDate": "2012-01-12",
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "state": {
+        "value": 23,
+        "label": "Madhya Pradesh"
+      },
+      "nodalDepartmentName": {
+        "value": 2300017,
+        "label": "Higher Education Department"
+      },
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Scheme Details",
+          "url": "https://cmhelpline.mp.gov.in/KnowYourEntitleDetail.aspx?status=ByVibhag&pointvalue=2&Schemeid=52"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The &quot;Refund of Fees&quot; Scheme under the Higher Education Department, Madhya Pradesh, allows students to claim a refund of the remaining admission fee (including caution money) if they leave the college during the academic session after admission, are declared failed after provisional admission, or if their online admission is cancelled. The refund is processed after deducting an admission processing fee of ₹100.\n",
+      "benefits_md": "Refund of remaining fees (after deducting ₹100) if the student leaves\n",
+      "briefDescription": "Under the \"Refund of Fees\" Scheme, Higher Education Department, Madhya Pradesh, students can get a refund of the remaining fee (including caution money) after deducting ₹100 if they leave college, fail after provisional admission, or have their admission cancelled.",
+      "exclusions_md": "",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The \"Refund of Fees\" Scheme under the Higher Education Department, Madhya Pradesh, allows students to claim a refund of the remaining admission fee (including caution money) if they leave the college during the academic session after admission, are declared failed after provisional admission, or if their online admission is cancelled. The refund is processed after deducting an admission processing fee of ₹100."
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Refund of remaining fees (after deducting ₹100) if the student leaves"
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "process": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 1:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " The interested applicant should visit (during office hours) the college, and request the hard copy of the prescribed format of the application form from the concerned authority."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " In the application form, fill in all the mandatory fields, paste the passport-sized photograph (signed across, if required), and attach copies of all the mandatory documents (self-attest, if required)."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 3:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " Submit the duly filled and signed application form along with the documents, within the prescribed period (if any), to the authority."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 4:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " Request a receipt or acknowledgement from the concerned authority to whom the application has been submitted. Ensure that the receipt contains essential details such as the date and time of submission, and a unique identification number (if applicable)."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "NOTE:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " Ensure that the application is submitted within the prescribed period, if any."
+              }
+            ]
+          }
+        ],
+        "process_md": "**Step 1:** The interested applicant should visit (during office hours) the college, and request the hard copy of the prescribed format of the application form from the concerned authority.\n**Step 2:** In the application form, fill in all the mandatory fields, paste the passport-sized photograph (signed across, if required), and attach copies of all the mandatory documents (self-attest, if required).\n**Step 3:** Submit the duly filled and signed application form along with the documents, within the prescribed period (if any), to the authority.\n**Step 4:** Request a receipt or acknowledgement from the concerned authority to whom the application has been submitted. Ensure that the receipt contains essential details such as the date and time of submission, and a unique identification number (if applicable).\n**NOTE:** Ensure that the application is submitted within the prescribed period, if any.\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n1. The applicant should be admitted to a college.\n1. The applicant should be a native of Madhya Pradesh.\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should be admitted to a college."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should be a native of Madhya Pradesh."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "rof"
+}

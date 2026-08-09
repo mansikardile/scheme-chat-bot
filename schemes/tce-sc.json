@@ -1,0 +1,627 @@
+{
+  "_id": "6295e5d072acc0e5ffb2de09",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": true,
+      "tags": [
+        "Student",
+        "Scholarship",
+        "Education",
+        "Scheduled Caste",
+        "Tuition Fee"
+      ],
+      "schemeName": "Top Class Education For Scheduled Caste Students",
+      "schemeShortTitle": "TCE-SC",
+      "implementingAgency": "National Scholarship Portal",
+      "level": {
+        "value": "central",
+        "label": "Central"
+      },
+      "schemeType": {
+        "value": "centrally-sponsored-scheme",
+        "label": "Centrally Sponsored Scheme"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce76cd6d1a3bde4685292",
+          "label": "Education & Learning",
+          "subcategories": [
+            "Early childhood",
+            "Universities and higher education",
+            "International education",
+            "International students",
+            "Scholarships and student finance",
+            "Apprenticeships and training",
+            "Education and training grants, fellowship, stipend",
+            "Resources for schools",
+            "Coaching",
+            "Internship"
+          ]
+        },
+        {
+          "value": "628ce87cd6d1a3bde4685312",
+          "label": "Social welfare & Empowerment",
+          "subcategories": [
+            "Pension",
+            "Crisis/Disaster/Accident",
+            "Shelter",
+            "Rehabilitation",
+            "Loan",
+            "Insurance",
+            "Provident fund",
+            "Aids/Appliances",
+            "Micro finance",
+            "Marriage",
+            "Financial assistance",
+            "Citizen empowerment"
+          ]
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Universities and higher education",
+          "label": "Universities and higher education"
+        },
+        {
+          "value": "Scholarships and student finance",
+          "label": "Scholarships and student finance"
+        },
+        {
+          "value": "Financial assistance",
+          "label": "Financial assistance"
+        },
+        {
+          "value": "Citizen empowerment",
+          "label": "Citizen empowerment"
+        }
+      ],
+      "schemeOpenDate": "2007-01-01",
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "schemeFor": "Individual",
+      "nodalMinistryName": {
+        "value": 712,
+        "label": "Ministry Of Social Justice and Empowerment"
+      },
+      "nodalDepartmentName": null
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://socialjustice.gov.in/writereaddata/UploadFile/95131767944207.pdf"
+        }
+      ],
+      "schemeImageUrl": "https://uttara-s3-bucket.s3.ap-south-1.amazonaws.com/schemes/tce-sc/tce-sc.svg",
+      "detailedDescription_md": "The scheme &quot;Top Class Education for Scheduled Caste Students&quot; by the Department of Social Justice and Empowerment, Government of India aims to recognize and promote quality education among Scheduled Caste students by providing financial support for pursuing studies beyond Class 12. Through this scheme, scholarship assistance covering tuition fees, non-refundable charges, and academic allowance is provided to eligible Scheduled Caste students studying in notified institutions of excellence across the country. The scheme is implemented by the Ministry of Social Justice and Empowerment through the National Scholarship Portal. A total of 1,900 fresh scholarships are awarded annually on the basis of merit. Thirty percent of the scholarship slots are reserved for eligible Scheduled Caste girl students. The scholarship is available for the full duration of the approved course, subject to satisfactory academic progress and fulfillment of the scheme conditions. The scheme seeks to reduce financial barriers and enable students from Scheduled Caste communities to access high-quality higher education opportunities.\n<br>\n\n",
+      "benefits_md": "\n1. Full tuition fee and non-refundable charges shall be paid.\n1. For private sector institutions, the fee support is subject to a ceiling of ₹2,00,000 per annum per student.\n1. Academic Allowance:\n\n  - ₹86,000 in the first year.\n  - ₹41,000 in each subsequent year.\n\n1. Allowance covers living expenses, books and stationery, computer/laptop, UPS, printer, and any other academic requirements necessary for successful completion of the course.\n\n<br>\n\n",
+      "exclusions_md": "\n1. The applicant shall not be eligible if the annual family income exceeds ₹8,00,000.\n1. The applicant shall not be eligible for a fresh scholarship if he/she is already studying in the 2nd year or a higher year of the course.\n1. The applicant shall not be eligible if he/she is not studying in a notified institution covered under the scheme.\n1. The applicant shall not receive benefits under any other similar scholarship scheme of the Central Government or a State Government for the same course of study.\n1. More than 2 siblings from the same family shall not be eligible to receive benefits under the scheme.\n1. The scholarship shall be discontinued if the applicant changes the institution after selection under the scheme.\n1. The scholarship shall be stopped if the applicant fails to get promoted to the next academic year and shall be restored only after promotion to the next class/year.\n\n<br>\n\n",
+      "briefDescription": "The Scheme aims at recognising and promoting quality education amongst students belonging to SCs by providing financial support. The Scheme will cover SC students for pursuing studies beyond the 12th class.",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The scheme \"Top Class Education for Scheduled Caste Students\" by the Department of Social Justice and Empowerment, Government of India aims to recognize and promote quality education among Scheduled Caste students by providing financial support for pursuing studies beyond Class 12. Through this scheme, scholarship assistance covering tuition fees, non-refundable charges, and academic allowance is provided to eligible Scheduled Caste students studying in notified institutions of excellence across the country. The scheme is implemented by the Ministry of Social Justice and Empowerment through the National Scholarship Portal. A total of 1,900 fresh scholarships are awarded annually on the basis of merit. Thirty percent of the scholarship slots are reserved for eligible Scheduled Caste girl students. The scholarship is available for the full duration of the approved course, subject to satisfactory academic progress and fulfillment of the scheme conditions. The scheme seeks to reduce financial barriers and enable students from Scheduled Caste communities to access high-quality higher education opportunities."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "value": "Cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Full tuition fee and non-refundable charges shall be paid."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "For private sector institutions, the fee support is subject to a ceiling of ₹2,00,000 per annum per student."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Academic Allowance:"
+                }
+              ]
+            },
+            {
+              "type": "ul_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "₹86,000 in the first year."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "₹41,000 in each subsequent year."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Allowance covers living expenses, books and stationery, computer/laptop, UPS, printer, and any other academic requirements necessary for successful completion of the course."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ],
+      "exclusions": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant shall not be eligible if the annual family income exceeds ₹8,00,000."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant shall not be eligible for a fresh scholarship if he/she is already studying in the 2nd year or a higher year of the course."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant shall not be eligible if he/she is not studying in a notified institution covered under the scheme."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant shall not receive benefits under any other similar scholarship scheme of the Central Government or a State Government for the same course of study."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "More than 2 siblings from the same family shall not be eligible to receive benefits under the scheme."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The scholarship shall be discontinued if the applicant changes the institution after selection under the scheme."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The scholarship shall be stopped if the applicant fails to get promoted to the next academic year and shall be restored only after promotion to the next class/year."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Online",
+        "url": "http://www.scholarships.gov.in/",
+        "process": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 1: ",
+                "bold": true
+              },
+              {
+                "text": "Keep ready the soft copies of the required documents."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Go to "
+              },
+              {
+                "type": "link",
+                "link": "http://www.scholarships.gov.in/",
+                "children": [
+                  {
+                    "text": "http://www.scholarships.gov.in/"
+                  }
+                ]
+              },
+              {
+                "text": ". And click “New Registration”."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Guidelines for Registration will appear. Scroll to the bottom. "
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Read the undertaking carefully. Accept the Terms. Click “Continue”."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2: ",
+                "bold": true
+              },
+              {
+                "text": "A Registration Form will appear. (The fields marked as * are compulsory)"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Fill the details and click “Register”. "
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Your Application ID and password will be displayed."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "The same will also be sent as an SMS on your registered mobile number. "
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 3: ",
+                "bold": true
+              },
+              {
+                "text": "Go to "
+              },
+              {
+                "type": "link",
+                "link": "https://scholarships.gov.in/fresh/newstdRegfrmInstruction",
+                "children": [
+                  {
+                    "text": "https://scholarships.gov.in/fresh/newstdRegfrmInstruction"
+                  }
+                ]
+              },
+              {
+                "text": " "
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Click on “Login to Apply”. Enter your Application ID and password."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Type the Captcha and click “Login”."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "On the next screen, provide the OTP received on your registered mobile number. You will be directed to the Password Reset screen."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Create a new password and confirm."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Click “Submit”. You will be directed to the “Applicant’s Dashboard”."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 4: ",
+                "bold": true
+              },
+              {
+                "text": "On the left pane, click “Application Form”. The fields marked as * are compulsory. Fill in the details and upload the documents."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "You can either click on “Save as Draft” to complete the application later."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Else, click “Final Submit” to submit the application."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          }
+        ],
+        "process_md": "**Step 1:** Keep ready the soft copies of the required documents.\nGo to [http://www.scholarships.gov.in/](http://www.scholarships.gov.in/). And click “New Registration”.\nGuidelines for Registration will appear. Scroll to the bottom. \nRead the undertaking carefully. Accept the Terms. Click “Continue”.\n**Step 2:** A Registration Form will appear. (The fields marked as * are compulsory)\nFill the details and click “Register”. \nYour Application ID and password will be displayed.\nThe same will also be sent as an SMS on your registered mobile number. \n**Step 3:** Go to [https://scholarships.gov.in/fresh/newstdRegfrmInstruction](https://scholarships.gov.in/fresh/newstdRegfrmInstruction) \nClick on “Login to Apply”. Enter your Application ID and password.\nType the Captcha and click “Login”.\nOn the next screen, provide the OTP received on your registered mobile number. You will be directed to the Password Reset screen.\nCreate a new password and confirm.\nClick “Submit”. You will be directed to the “Applicant’s Dashboard”.\n**Step 4:** On the left pane, click “Application Form”. The fields marked as * are compulsory. Fill in the details and upload the documents.\nYou can either click on “Save as Draft” to complete the application later.\nElse, click “Final Submit” to submit the application.\n<br>\n\n"
+      }
+    ],
+    "schemeDefinitions": [
+      {
+        "name": "Notified Institutions",
+        "definition": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "The institutions notified by MoSJE for Financial Year 21-22 to 25-26, i.e."
+              }
+            ]
+          },
+          {
+            "type": "ol_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "An IIM / IIT / IIIT / IIHM / AIIMS / NIT /NIFT / NID / NLU."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "A Central Government Institution."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Accredited A++ or A+ by NAAC."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Ranked in Top 100 Institutions by NIRF."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Institution of National Importance as per MoE."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "An institute approved by Director General of Civil Aviation."
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "source": "https://scholarships.gov.in/public/schemeGuidelines/Top_Class_Education_Scheme_2018_FAQ.pdf",
+        "definitions_md": "The institutions notified by MoSJE for Financial Year 21-22 to 25-26, i.e.\n\n1. An IIM / IIT / IIIT / IIHM / AIIMS / NIT /NIFT / NID / NLU.\n1. A Central Government Institution.\n1. Accredited A++ or A+ by NAAC.\n1. Ranked in Top 100 Institutions by NIRF.\n1. Institution of National Importance as per MoE.\n1. An institute approved by Director General of Civil Aviation.\n\n"
+      }
+    ],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n1. The applicant should belong to the Scheduled Caste (SC) category.\n1. The applicant should have secured admission to a notified institution identified under the scheme.\n1. The applicant should be pursuing a course beyond Class 12 in a notified institution.\n1. The applicant&#39;s total annual family income from all sources should not exceed ₹8,00,000.\n1. The applicant should be admitted through the prescribed admission process and satisfy the merit requirements applicable to the institution/course.\n1. The applicant should be a first-year student of the approved course for consideration under the fresh scholarship category.\n\n> **Reservation:**\n\n\n- 30% of the scholarship slots are reserved for eligible Scheduled Caste girl students.\n- Unutilized slots reserved for girls may be transferred to eligible male students.\n\n<br>\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should belong to the Scheduled Caste (SC) category."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should have secured admission to a notified institution identified under the scheme."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should be pursuing a course beyond Class 12 in a notified institution."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant's total annual family income from all sources should not exceed ₹8,00,000."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should be admitted through the prescribed admission process and satisfy the merit requirements applicable to the institution/course."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should be a first-year student of the approved course for consideration under the fresh scholarship category."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "Reservation:",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "30% of the scholarship slots are reserved for eligible Scheduled Caste girl students."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Unutilized slots reserved for girls may be transferred to eligible male students."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "tce-sc"
+}

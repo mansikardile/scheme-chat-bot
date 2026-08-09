@@ -1,0 +1,312 @@
+{
+  "_id": "65e9eb34938a0b13cca906ba",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Accident",
+        "Death",
+        "Construction",
+        "Worker",
+        "Financial Assistance"
+      ],
+      "schemeName": "Accidental Death Benefit Scheme (PBAOCWWB)",
+      "schemeShortTitle": "ADBS-PBAOCWWB",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce87cd6d1a3bde4685312",
+          "label": "Social welfare & Empowerment"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Crisis/Disaster/Accident",
+          "label": "Crisis/Disaster/Accident"
+        },
+        {
+          "value": "Financial assistance",
+          "label": "Financial assistance"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "state": {
+        "value": 34,
+        "label": "Puducherry"
+      },
+      "schemeType": null,
+      "nodalMinistryName": null,
+      "nodalDepartmentName": {
+        "value": 34000024,
+        "label": "Labour Department, Puducherry"
+      },
+      "otherMinistryName": null,
+      "otherDepartmentNames": null,
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines (Page No. 69)",
+          "url": "https://labour.py.gov.in/sites/default/files/citizens-charter-2020.pdf"
+        },
+        {
+          "title": "Application Form (Page No. 87)",
+          "url": "https://labour.py.gov.in/sites/default/files/citizens-charter-2020.pdf"
+        },
+        {
+          "title": "Grievance Redressal (Page No. 131)",
+          "url": "https://labour.py.gov.in/sites/default/files/citizens-charter-2020.pdf"
+        },
+        {
+          "title": "Registration Process & Documents Required (Page No. 57)",
+          "url": "https://labour.py.gov.in/sites/default/files/citizens-charter-2020.pdf"
+        }
+      ],
+      "schemeImageUrl": "",
+      "briefDescription": "This scheme extends financial assistance of ₹2,25,000/- to the nominees/dependents of the deceased Construction Worker, apart from the ₹2,00,000/- extended through the Life Insurance Corporation (LIC). The amount is credited through DBT into the bank account of the nominee/dependent.",
+      "detailedDescription_md": "The &quot;Accidental Death Benefit Scheme&quot; is a Welfare Scheme by the Puducherry Building and Other Construction Workers Welfare Board, Labour Department, Union Territory of Puducherry. This scheme extends financial assistance of ₹2,25,000/- to the nominees/dependents of the deceased Construction Worker, apart from the ₹2,00,000/- extended through the Life Insurance Corporation (LIC). The amount is credited through Direct Benefit Transfer (DBT) into the bank account of the nominee/dependent. The applications are accepted offline.\n",
+      "benefits_md": "\n- **Financial Assistance:** ₹2,25,000/-.- **Time of Disbursal:** Within 15 days of the application.- **Mode of Disbursal:** Direct Benefit Transfer (DBT) into the bank account.\n",
+      "exclusions_md": "",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The \"Accidental Death Benefit Scheme\" is a Welfare Scheme by the Puducherry Building and Other Construction Workers Welfare Board, Labour Department, Union Territory of Puducherry. This scheme extends financial assistance of ₹2,25,000/- to the nominees/dependents of the deceased Construction Worker, apart from the ₹2,00,000/- extended through the Life Insurance Corporation (LIC). The amount is credited through Direct Benefit Transfer (DBT) into the bank account of the nominee/dependent. The applications are accepted offline."
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Financial Assistance: ",
+                  "bold": true
+                },
+                {
+                  "text": "₹2,25,000/-."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Time of Disbursal: ",
+                  "bold": true
+                },
+                {
+                  "text": "Within 15 days of the application."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Mode of Disbursal: ",
+                  "bold": true
+                },
+                {
+                  "text": "Direct Benefit Transfer (DBT) into the bank account."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "process": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 1: ",
+                "bold": true
+              },
+              {
+                "text": "The nominee of the deceased should visit the Office of the Puducherry Building and Other Construction Workers Welfare Board (Industrial Estate, Thattanchavady, Puducherry - 605 009) and obtain the prescribed format of the application form free of cost from the concerned authority exclusively entrusted to issue and collect filled-in applications."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "OR"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "The nominee of the deceased should take print of the prescribed format of the application form provided in the section \"Application for Welfare Benefits\" on "
+              },
+              {
+                "type": "link",
+                "link": "https://labour.py.gov.in/sites/default/files/citizens-charter-2020.pdf",
+                "children": [
+                  {
+                    "text": "Page No. 87"
+                  }
+                ]
+              },
+              {
+                "text": " of the Citizen's Charter."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2: ",
+                "bold": true
+              },
+              {
+                "text": "In the application form, fill in all the mandatory fields, paste the passport-sized photograph (signed across, if required), and attach copies of all the mandatory documents (self-attest, if required)."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 3: ",
+                "bold": true
+              },
+              {
+                "text": "The nominee of the deceased should submit the duly filled and signed application form and the documents to the concerned authority."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 4: ",
+                "bold": true
+              },
+              {
+                "text": "Request a receipt or acknowledgement from the concerned authority to whom the application form has been submitted. Ensure that the receipt contains essential details such as the date and time of submission, and a unique identification number (if applicable)."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "NOTE: ",
+                "bold": true
+              },
+              {
+                "text": "The application should be submitted within two months from the date of death of the Construction Worker."
+              }
+            ]
+          }
+        ],
+        "process_md": "**Step 1:** The nominee of the deceased should visit the Office of the Puducherry Building and Other Construction Workers Welfare Board (Industrial Estate, Thattanchavady, Puducherry - 605 009) and obtain the prescribed format of the application form free of cost from the concerned authority exclusively entrusted to issue and collect filled-in applications.\nOR\nThe nominee of the deceased should take print of the prescribed format of the application form provided in the section &quot;Application for Welfare Benefits&quot; on [Page No. 87](https://labour.py.gov.in/sites/default/files/citizens-charter-2020.pdf) of the Citizen&#39;s Charter.\n**Step 2:** In the application form, fill in all the mandatory fields, paste the passport-sized photograph (signed across, if required), and attach copies of all the mandatory documents (self-attest, if required).\n**Step 3:** The nominee of the deceased should submit the duly filled and signed application form and the documents to the concerned authority.\n**Step 4:** Request a receipt or acknowledgement from the concerned authority to whom the application form has been submitted. Ensure that the receipt contains essential details such as the date and time of submission, and a unique identification number (if applicable).\n**NOTE:** The application should be submitted within two months from the date of death of the Construction Worker.\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n- The applicant should be the nominee/dependent of the deceased Construction Worker.\n- The Construction Worker should have been a citizen of India.\n- The Construction Worker should have died in an accident caused due to the harness.\n- The deceased, in his/her lifetime, should have been registered as a Construction Worker with the Puducherry Building and Other Construction Workers Welfare Board.\n- The deceased, in his/her lifetime, should have completed the age of 18 years.\n- The deceased, in his/her lifetime, should not have completed the age of 60 years during the preceding 12 months in the construction work.\n- The deceased, in his/her lifetime, should have contributed regularly to the fund.\n- The deceased, in his/her lifetime, should not have defaulted in payment of contribution to the Board for a continuous period of more than one year.\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should be the nominee/dependent of the deceased Construction Worker."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The Construction Worker should have been a citizen of India."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The Construction Worker should have died in an accident caused due to the harness."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The deceased, in his/her lifetime, should have been registered as a Construction Worker with the Puducherry Building and Other Construction Workers Welfare Board."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The deceased, in his/her lifetime, should have completed the age of 18 years."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The deceased, in his/her lifetime, should not have completed the age of 60 years during the preceding 12 months in the construction work."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The deceased, in his/her lifetime, should have contributed regularly to the fund."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The deceased, in his/her lifetime, should not have defaulted in payment of contribution to the Board for a continuous period of more than one year."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "adbs-pbaocwwb"
+}

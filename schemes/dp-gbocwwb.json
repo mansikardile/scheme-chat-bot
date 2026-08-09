@@ -1,0 +1,260 @@
+{
+  "_id": "660a587dc90f6c80987f2528",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Disability",
+        "Pension",
+        "Accident",
+        "Labour",
+        "PwD"
+      ],
+      "schemeName": "Disability Pension (GBOCWWB)",
+      "schemeShortTitle": "DP-GBOCWWB",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce87cd6d1a3bde4685312",
+          "label": "Social welfare & Empowerment"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Pension",
+          "label": "Pension"
+        },
+        {
+          "value": "Crisis/Disaster/Accident",
+          "label": "Crisis/Disaster/Accident"
+        },
+        {
+          "value": "Financial assistance",
+          "label": "Financial assistance"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "state": {
+        "value": 30,
+        "label": "Goa"
+      },
+      "nodalDepartmentName": {
+        "value": 30000027,
+        "label": "Labour and Employment Department"
+      },
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://www.goa.gov.in/wp-content/uploads/2016/05/schemesofbocw-dated-08-09-2015.pdf"
+        },
+        {
+          "title": "Citizen's Charter",
+          "url": "https://www.goa.gov.in/wp-content/uploads/2016/05/Citizen-Charter-Labour-Depatment-DATED-16032016.pdf"
+        },
+        {
+          "title": "Application Form",
+          "url": "https://labour.goa.gov.in/wp-content/uploads/2020/07/Scheme-4-Disability-Pension.pdf"
+        },
+        {
+          "title": "Contact Us",
+          "url": "https://www.goa.gov.in/department/commissioner-labour-and-employment/"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "&quot;Disability Pension (GBOCWWB)&quot; is a Welfare Scheme by the Goa Building and Other Construction Workers Welfare Board of the Department of Labour and Employment, Government of Goa. Through this scheme, the worker who is permanently disabled due to Paralysis / Leprosy / Tuberculosis(TB) / Accident is provided with financial assistance of ₹300/- per month, and an ex-gratia payment of not more than ₹10,000/-, depending on the percentage of the disability.\n",
+      "benefits_md": "\n- Financial Assistance of ₹300/- per month.\n- An ex-gratia payment of not more than ₹10,000/-, depending on the percentage of the disability.\n\n",
+      "briefDescription": "Through the \"Disability Pension\" scheme, the worker who is permanently disabled due to Paralysis / Leprosy / Tuberculosis(TB) / Accident is provided with financial assistance of ₹300/- per month, and an ex-gratia payment of not more than ₹10,000/-, depending on the percentage of the disability.",
+      "exclusions_md": "",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "\"Disability Pension (GBOCWWB)\" is a Welfare Scheme by the Goa Building and Other Construction Workers Welfare Board of the Department of Labour and Employment, Government of Goa. Through this scheme, the worker who is permanently disabled due to Paralysis / Leprosy / Tuberculosis(TB) / Accident is provided with financial assistance of ₹300/- per month, and an ex-gratia payment of not more than ₹10,000/-, depending on the percentage of the disability."
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Financial Assistance of ₹300/- per month."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "An ex-gratia payment of not more than ₹10,000/-, depending on the percentage of the disability."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "process": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 1: ",
+                "bold": true
+              },
+              {
+                "text": "The interested applicant should take print of the "
+              },
+              {
+                "type": "link",
+                "link": "https://labour.goa.gov.in/wp-content/uploads/2020/07/Scheme-4-Disability-Pension.pdf",
+                "children": [
+                  {
+                    "text": "prescribed format"
+                  }
+                ]
+              },
+              {
+                "text": " of the application form for the scheme from the Official Website of the Department of Labour and Employment, Goa."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2:",
+                "bold": true
+              },
+              {
+                "text": " In the application form, fill in all the mandatory fields, paste the passport-sized photograph (signed across, if required), and attach copies of all the mandatory documents (self-attest, if required)."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 3: ",
+                "bold": true
+              },
+              {
+                "text": "The interested applicant should submit the duly filled and signed application form and the documents to the concerned authority at the "
+              },
+              {
+                "text": "Office of the Commissioner, Labour & Employment, 2nd Floor, Sharma Shakti Bhavan, Patto Plaza, Panaji-Goa (0832-2437081/82/83, com-labo.goa@nic.in)",
+                "italic": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 4: ",
+                "bold": true
+              },
+              {
+                "text": "A receipt of the application will be assigned to the applicant by the concerned authority."
+              }
+            ]
+          }
+        ],
+        "process_md": "**Step 1:** The interested applicant should take print of the [prescribed format](https://labour.goa.gov.in/wp-content/uploads/2020/07/Scheme-4-Disability-Pension.pdf) of the application form for the scheme from the Official Website of the Department of Labour and Employment, Goa.\n**Step 2:** In the application form, fill in all the mandatory fields, paste the passport-sized photograph (signed across, if required), and attach copies of all the mandatory documents (self-attest, if required).\n**Step 3:** The interested applicant should submit the duly filled and signed application form and the documents to the concerned authority at the _Office of the Commissioner, Labour &amp; Employment, 2nd Floor, Sharma Shakti Bhavan, Patto Plaza, Panaji-Goa (0832-2437081/82/83, com-labo.goa@nic.in)_\n**Step 4:** A receipt of the application will be assigned to the applicant by the concerned authority.\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n- The applicant should be a Worker.\n- The worker should be between 18 to 60 years of age.\n- The worker should have completed ninety days of service as a registered worker in the year.\n- The applicant should be registered with the Goa Building and Other Construction Workers Welfare Board.\n- The applicant should be permanently disabled.\n- The disability should have been caused by Paralysis / Leprosy / Tuberculosis(TB) / Accident.\n- The unregistered workers/ their dependents shall be eligible upon production of a certificate from the builder or Inspector of the area stating that he/she is a building worker.\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should be a Worker."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The worker should be between 18 to 60 years of age."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The worker should have completed ninety days of service as a registered worker in the year."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should be registered with the Goa Building and Other Construction Workers Welfare Board."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should be permanently disabled."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The disability should have been caused by Paralysis / Leprosy / Tuberculosis(TB) / Accident."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The unregistered workers/ their dependents shall be eligible upon production of a certificate from the builder or Inspector of the area stating that he/she is a building worker."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "dp-gbocwwb"
+}

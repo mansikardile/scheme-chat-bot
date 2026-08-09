@@ -1,0 +1,348 @@
+{
+  "_id": "66bb96970d7fcba7845a4e43",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": true,
+      "tags": [
+        "Pension",
+        "Senior Citizen",
+        "Widow",
+        "Abandoned Woman"
+      ],
+      "schemeName": "Chief Minister Pension Scheme",
+      "schemeShortTitle": "CMPS",
+      "implementingAgency": "Social Welfare Department, Government Of Chhattisgarh",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce87cd6d1a3bde4685312",
+          "label": "Social welfare & Empowerment"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Pension",
+          "label": "Pension"
+        }
+      ],
+      "schemeOpenDate": "2018-05-31",
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "state": {
+        "value": 22,
+        "label": "Chhattisgarh"
+      },
+      "nodalDepartmentName": {
+        "value": 2200033,
+        "label": "Social Welfare Department"
+      },
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://sw.cg.gov.in/sites/default/files/cm-pensan-yojana.pdf"
+        },
+        {
+          "title": "Official Website",
+          "url": "https://sw.cg.gov.in/en/chief-minister-pension-scheme"
+        },
+        {
+          "title": "Application Form (Page No. 12)",
+          "url": "https://sw.cg.gov.in/sites/default/files/cm-pensan-yojana.pdf"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The &amp;quot;Chief Minister Pension Scheme&amp;quot; was launched by the Social Welfare Department, Government of Chhattisgarh, in the financial year 2018-19. The scheme targets senior citizens, widows, and abandoned women listed on the basis of the survey list of Social, Economic and Caste Census 2011. This scheme will be an additional scheme of the current Central and State Pension Scheme.\n",
+      "benefits_md": "\n  - Under this scheme, eligible beneficiaries will receive a pension of ₹500/- per month.\n\n**Note:** The pension amount will be directly transferred to the applicant&amp;#39;s bank account and will be paid during the first week of each month.\n",
+      "briefDescription": "The scheme provides a monthly pension of ₹500/- to senior citizens, widows, and abandoned women listed on the basis of the survey list of Social, Economic and Caste Census 2011 in the state.",
+      "exclusions_md": "",
+      "detailedDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "The \"Chief Minister Pension Scheme\" was launched by the Social Welfare Department, Government of Chhattisgarh, in the financial year 2018-19. The scheme targets senior citizens, widows, and abandoned women listed on the basis of the survey list of Social, Economic and Caste Census 2011. This scheme will be an additional scheme of the current Central and State Pension Scheme."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "ul_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Under this scheme, eligible beneficiaries will receive a pension of ₹500/- per month."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "Note:",
+                  "bold": true
+                },
+                {
+                  "text": " The pension amount will be directly transferred to the applicant's bank account and will be paid during the first week of each month."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "process": [
+          {
+            "type": "align_justify",
+            "children": [
+              {
+                "type": "block_quote",
+                "children": [
+                  {
+                    "text": "In Rural Areas:",
+                    "bold": true,
+                    "underline": true
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 1: ",
+                    "bold": true
+                  },
+                  {
+                    "text": "The applicant, who fulfills the eligibility criteria, may visit the office of the Gram Panchayat and collect the "
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://sw.cg.gov.in/sites/default/files/cm-pensan-yojana.pdf",
+                    "children": [
+                      {
+                        "text": "application form"
+                      }
+                    ]
+                  },
+                  {
+                    "text": ", which is available free of cost."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 2:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Fill out the application form and submit it to the Gram Panchayat. You will receive an acknowledgment receipt from the Gram Panchayat."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 3:",
+                    "bold": true
+                  },
+                  {
+                    "text": " The Gram Panchayat will review and recommend the application, and then forward it to the District Panchayat within 7 days."
+                  }
+                ]
+              },
+              {
+                "type": "block_quote",
+                "children": [
+                  {
+                    "text": "In Urban Areas:",
+                    "bold": true,
+                    "underline": true
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 1:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Eligible applicants should visit the office of the concerned Municipal Corporation, Municipality, Nagar Panchayat, or Panchayat Raj institution to collect the"
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://sw.cg.gov.in/sites/default/files/cm-pensan-yojana.pdf",
+                    "children": [
+                      {
+                        "text": " application form"
+                      }
+                    ]
+                  },
+                  {
+                    "text": ", which is available free of cost."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 2:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Fill out the application form and submit it to the respective office. You will receive an acknowledgment receipt from the office."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Note 1:",
+                    "bold": true
+                  },
+                  {
+                    "text": " The concerned urban body/District Panchayat has the authority to approve or reject the applications."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Note 2:",
+                    "bold": true
+                  },
+                  {
+                    "text": " If a printed application form is not available, you may submit your application on plain paper."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Note 3:",
+                    "bold": true
+                  },
+                  {
+                    "text": " If the beneficiaries change their area within the state, they will not need to apply again at the new place, but for transferring the pension case, they will have to submit an application with proper reason to the approving district panchayat/urban body. On their application, the pension case can be transferred. It will be the binding responsibility of both the sector bodies to transfer the beneficiary and the other body to validate it."
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "process_md": "&gt; **In Rural Areas:**\n\n**Step 1:** The applicant, who fulfills the eligibility criteria, may visit the office of the Gram Panchayat and collect the [application form](https://sw.cg.gov.in/sites/default/files/cm-pensan-yojana.pdf), which is available free of cost.\n**Step 2:** Fill out the application form and submit it to the Gram Panchayat. You will receive an acknowledgment receipt from the Gram Panchayat.\n**Step 3:** The Gram Panchayat will review and recommend the application, and then forward it to the District Panchayat within 7 days.\n&gt; **In Urban Areas:**\n\n**Step 1:** Eligible applicants should visit the office of the concerned Municipal Corporation, Municipality, Nagar Panchayat, or Panchayat Raj institution to collect the[ application form](https://sw.cg.gov.in/sites/default/files/cm-pensan-yojana.pdf), which is available free of cost.\n**Step 2:** Fill out the application form and submit it to the respective office. You will receive an acknowledgment receipt from the office.\n**Note 1:** The concerned urban body/District Panchayat has the authority to approve or reject the applications.\n**Note 2:** If a printed application form is not available, you may submit your application on plain paper.\n**Note 3:** If the beneficiaries change their area within the state, they will not need to apply again at the new place, but for transferring the pension case, they will have to submit an application with proper reason to the approving district panchayat/urban body. On their application, the pension case can be transferred. It will be the binding responsibility of both the sector bodies to transfer the beneficiary and the other body to validate it.\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n   1. The applicant should be a native of Chhattisgarh.\n   1. The applicant should be a senior citizen, widow, or abandoned woman.\n   1. Senior citizens should be 60 years of age or older.\n   1. Widow or abandoned woman should be 18 years of age or older.\n   1. In urban areas, the name of the applicant should be listed in the survey list of Socio-Economic and Caste Census 2011.\n   1. In rural areas, the name of the applicant should be in the list of households having at least one deprivation index in the automatically included index or deprivation index of the survey list of Socio-Economic and Caste Census, 2011.\n   1. The applicant must not be receiving pension benefits from any other central or state government pension scheme.\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "ol_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant should be a native of Chhattisgarh."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant should be a senior citizen, widow, or abandoned woman."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Senior citizens should be 60 years of age or older."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Widow or abandoned woman should be 18 years of age or older."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "In urban areas, the name of the applicant should be listed in the survey list of Socio-Economic and Caste Census 2011."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "In rural areas, the name of the applicant should be in the list of households having at least one deprivation index in the automatically included index or deprivation index of the survey list of Socio-Economic and Caste Census, 2011."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant must not be receiving pension benefits from any other central or state government pension scheme."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "cmpsmp"
+}

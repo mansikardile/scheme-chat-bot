@@ -1,0 +1,183 @@
+{
+  "_id": "66162632ff0ffe4f91d3076a",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Financial Assistance",
+        "Disability",
+        "Leprosy",
+        "Social Welfare",
+        "Monthly Allowance"
+      ],
+      "schemeName": "Maintenance Allowance for Leprosy Affected Persons",
+      "schemeShortTitle": "MAFLAP",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce87cd6d1a3bde4685312",
+          "label": "Social welfare & Empowerment"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Financial assistance",
+          "label": "Financial assistance"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "state": {
+        "value": 33,
+        "label": "Tamil Nadu"
+      },
+      "nodalDepartmentName": {
+        "value": 3333363,
+        "label": "Welfare of Differently Abled Persons Department"
+      },
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Citizen's Charter (2022)",
+          "url": "https://cms.tn.gov.in/sites/default/files/documents/wda_e_cc_2022_23.pdf"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The Department for the Welfare of Differently Abled Persons, Government of Tamil Nadu, recognizes the enduring challenges faced by individuals affected by leprosy. In response, the government has established the Maintenance Allowance Scheme for Leprosy Affected Persons. This program aims to provide vital financial support to improve the well-being and standard of living for those living with the after-effects of leprosy.\n",
+      "benefits_md": "Financial Assistance of ₹2,000/- per month. \n> **NOTE:** The allowance is sent through ECS to their bank account directly from the Treasury.\n\n",
+      "briefDescription": "The 'Maintenance Allowance for Leprosy Affected Persons' scheme was launched by the Department for the Welfare of Differently Abled Persons, Government of Tamil Nadu. The scheme aims to provide a maintenance allowance to leprosy-affected persons.",
+      "exclusions_md": "",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The Department for the Welfare of Differently Abled Persons, Government of Tamil Nadu, recognizes the enduring challenges faced by individuals affected by leprosy. In response, the government has established the Maintenance Allowance Scheme for Leprosy Affected Persons. This program aims to provide vital financial support to improve the well-being and standard of living for those living with the after-effects of leprosy."
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Financial Assistance of ₹2,000/- per month. "
+            }
+          ]
+        },
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "NOTE: ",
+              "bold": true
+            },
+            {
+              "text": "The allowance is sent through ECS to their bank account directly from the Treasury."
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "process": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 1: ",
+                "bold": true
+              },
+              {
+                "text": "The interested applicant should visit (during office hours) the District Differently Abled Welfare Office and request a hard copy of the prescribed format of the application form from the staff exclusively entrusted to issue and collect filled-in applications."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2:",
+                "bold": true
+              },
+              {
+                "text": " In the application form, fill in all the mandatory fields, and attach copies of all the mandatory documents (self-attest, if required)."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 3:",
+                "bold": true
+              },
+              {
+                "text": " Submit the duly filled and signed application form along with the documents to the District Differently Abled Welfare Officer."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 4:",
+                "bold": true
+              },
+              {
+                "text": " Request a receipt or acknowledgment from the District Differently Abled Welfare Officer to whom the application has been submitted. Ensure that the receipt contains essential details such as the date and time of submission, and a unique identification number (if applicable)."
+              }
+            ]
+          }
+        ],
+        "process_md": "**Step 1:** The interested applicant should visit (during office hours) the District Differently Abled Welfare Office and request a hard copy of the prescribed format of the application form from the staff exclusively entrusted to issue and collect filled-in applications.\n**Step 2:** In the application form, fill in all the mandatory fields, and attach copies of all the mandatory documents (self-attest, if required).\n**Step 3:** Submit the duly filled and signed application form along with the documents to the District Differently Abled Welfare Officer.\n**Step 4:** Request a receipt or acknowledgment from the District Differently Abled Welfare Officer to whom the application has been submitted. Ensure that the receipt contains essential details such as the date and time of submission, and a unique identification number (if applicable).\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n1. The applicant should be leprosy affected with deformity of 40% and above.\n1. The beneficiaries should not receive any other pension benefit of Tamil Nadu.\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should be leprosy affected with deformity of 40% and above."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The beneficiaries should not receive any other pension benefit of Tamil Nadu."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "maflap"
+}

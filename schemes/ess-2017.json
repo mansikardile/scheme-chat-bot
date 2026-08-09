@@ -1,0 +1,460 @@
+{
+  "_id": "69209b6eb124ff0841198acc",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Industry",
+        "Tourism",
+        "Enterprise",
+        "Employee",
+        "Subsidy",
+        "Employment",
+        "Investment"
+      ],
+      "schemeName": "Employment Subsidy Scheme, 2017",
+      "schemeShortTitle": "ESS-2017",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce733d6d1a3bde4685278",
+          "label": "Business & Entrepreneurship"
+        },
+        {
+          "value": "628ce85cd6d1a3bde4685304",
+          "label": "Skills & Employment"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Setting up / start-up / entrepreneurship",
+          "label": "Setting up / start-up / entrepreneurship"
+        },
+        {
+          "value": "Employee management",
+          "label": "Employee management"
+        },
+        {
+          "value": "Employment services and jobs",
+          "label": "Employment services and jobs"
+        },
+        {
+          "value": "Entrepreneurship development",
+          "label": "Entrepreneurship development"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "business-entity",
+          "label": "Business Entity"
+        }
+      ],
+      "schemeFor": "Individual",
+      "state": {
+        "value": 30,
+        "label": "Goa"
+      },
+      "schemeType": null,
+      "nodalMinistryName": null,
+      "nodalDepartmentName": {
+        "value": 30000010,
+        "label": "Commercial Taxes Department"
+      },
+      "otherMinistryName": null,
+      "otherDepartmentNames": null
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines & Application Form",
+          "url": "https://www.goa.gov.in/wp-content/uploads/2019/10/employment_new.pdf"
+        }
+      ],
+      "schemeImageUrl": "",
+      "briefDescription": "The scheme aims to create an environment conducive for attracting investment in Goa, incentivise existing units, and boost local employment. It provides a subsidy based on the percentage of Goan employees hired, restricting reimbursement to ₹7,000/- per Goan employee per month.",
+      "detailedDescription_md": "The “Employment Subsidy Scheme, 2017” was launched by the Department of Industries, Government of Goa. The scheme aims to create an environment conducive for attracting investment in the State of Goa and to incentivise existing units to be competitive while giving boost to local employment. The scheme provides a proportional subsidy based on the percentage of Goan manpower employed, ranging from 60% to 100%. The applicant must be a Micro, Small, Medium, or Large manufacturing industry, or a Hinterland Eco tourism project, and must engage a minimum of 60% of Goan manpower on regular employment. The scheme is implemented by the Directorate of Industries, Trade and Commerce. The applications for this scheme are accepted by submitting the application for at least one claim to the Directorate of Industries, Trade and Commerce (DITC).\n<br>\n\n",
+      "benefits_md": "\n- Reimbursement shall be restricted to ₹7,000/- per Goan employee per month.\n- The total subsidy for Micro, Small, Medium enterprises and eco-tourism projects shall not exceed ₹25,00,000/- per annum, on a pro rata basis depending on the date of production.\n- The total subsidy for Large enterprises shall not exceed ₹50,00,000/- per annum, on a pro rata basis depending on the date of production.\n- Subsidy is calculated based on the ratio of percentage of Goan employment, which provides a proportional increase from 60% benefit for 60% Goan employees, up to 100% benefit for 80% and above Goan employees.\n\n##### ***Benefit Disbursal***\n\n- For Micro, Small, Medium enterprises and eco-tourism projects, the total wages paid to Goan employees shall be restricted to 50% before applying the reimbursement ratio.\n- For Large enterprises, the total wages paid to Goan employees shall be restricted to 25% before applying the reimbursement ratio.\n- The benefits under this scheme are subject to budgetary allocation.\n- The period of grant of subsidy shall not exceed seven years.\n\n##### ***Conditions***\n\n- _The enterprise must allow and/or grant free access to any official authorized by the Directorate of Industries, Trade and Commerce for conducting inspection/supervision of the unit or the registers or holding discussions with the employed employees for ensuring proper utilisation of the financial incentives/subsidies granted by the State Government._\n- _The enterprise must submit all necessary reports, information, and documents specified under the scheme or as required or directed by the Directorate of Industries, Trade and Commerce (DITC) from time to time or as and when required._\n\n<br>\n\n",
+      "exclusions_md": "<br>\n\n",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The “Employment Subsidy Scheme, 2017” was launched by the Department of Industries, Government of Goa. The scheme aims to create an environment conducive for attracting investment in the State of Goa and to incentivise existing units to be competitive while giving boost to local employment. The scheme provides a proportional subsidy based on the percentage of Goan manpower employed, ranging from 60% to 100%. The applicant must be a Micro, Small, Medium, or Large manufacturing industry, or a Hinterland Eco tourism project, and must engage a minimum of 60% of Goan manpower on regular employment. The scheme is implemented by the Directorate of Industries, Trade and Commerce. The applications for this scheme are accepted by submitting the application for at least one claim to the Directorate of Industries, Trade and Commerce (DITC)."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Reimbursement shall be restricted to ₹7,000/- per Goan employee per month."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The total subsidy for Micro, Small, Medium enterprises and eco-tourism projects shall not exceed ₹25,00,000/- per annum, on a pro rata basis depending on the date of production."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The total subsidy for Large enterprises shall not exceed ₹50,00,000/- per annum, on a pro rata basis depending on the date of production."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Subsidy is calculated based on the ratio of percentage of Goan employment, which provides a proportional increase from 60% benefit for 60% Goan employees, up to 100% benefit for 80% and above Goan employees."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "heading_five",
+          "children": [
+            {
+              "text": "Benefit Disbursal",
+              "bold": true,
+              "underline": true,
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "For Micro, Small, Medium enterprises and eco-tourism projects, the total wages paid to Goan employees shall be restricted to 50% before applying the reimbursement ratio."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "For Large enterprises, the total wages paid to Goan employees shall be restricted to 25% before applying the reimbursement ratio."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The benefits under this scheme are subject to budgetary allocation."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The period of grant of subsidy shall not exceed seven years."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "heading_five",
+          "children": [
+            {
+              "text": "Conditions",
+              "bold": true,
+              "underline": true,
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The enterprise must allow and/or grant free access to any official authorized by the Directorate of Industries, Trade and Commerce for conducting inspection/supervision of the unit or the registers or holding discussions with the employed employees for ensuring proper utilisation of the financial incentives/subsidies granted by the State Government.",
+                  "italic": true
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The enterprise must submit all necessary reports, information, and documents specified under the scheme or as required or directed by the Directorate of Industries, Trade and Commerce (DITC) from time to time or as and when required.",
+                  "italic": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ],
+      "exclusions": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "process": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 1:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " The interested applicant should take a printout of the "
+              },
+              {
+                "type": "link",
+                "link": "https://www.goa.gov.in/wp-content/uploads/2019/10/employment_new.pdf",
+                "children": [
+                  {
+                    "text": "prescribed format"
+                  }
+                ]
+              },
+              {
+                "text": " of the application form."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " In the application form, fill in all the mandatory fields, paste the passport-sized photograph (signed across, if required), and attach copies of all the mandatory documents (self-attest, if required)."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 3:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " Submit the duly filled and signed application form along with the documents, within the prescribed period (if any), to the "
+              },
+              {
+                "text": "Directorate of Industries, Trade and Commerce, Goa",
+                "bold": true
+              },
+              {
+                "text": "."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          }
+        ],
+        "process_md": "**Step 1:** The interested applicant should take a printout of the [prescribed format](https://www.goa.gov.in/wp-content/uploads/2019/10/employment_new.pdf) of the application form.\n**Step 2:** In the application form, fill in all the mandatory fields, paste the passport-sized photograph (signed across, if required), and attach copies of all the mandatory documents (self-attest, if required).\n**Step 3:** Submit the duly filled and signed application form along with the documents, within the prescribed period (if any), to the **Directorate of Industries, Trade and Commerce, Goa**.\n<br>\n\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n- The applicant must be classified as a Micro, Small, Medium, or Large manufacturing industry.\n- The applicant must be listed under the white category, green category, or orange category.\n- The applicant must engage a minimum of 60% of Goan manpower on regular employment.\n- The applicant must ensure the employees counted for the percentage calculation are employed on the enterprise’s payroll continuously during the claim year.\n- The applicant must ensure the Goan employees considered for subsidy calculation are up to 60 years of age.\n- The applicant must ensure the Goan employees considered for subsidy calculation are paid a gross salary of more than ₹8,000/- per month.\n- The applicant must ensure that the relations defined under section 56 of the Income Tax Act, 1961, are not counted as employees for the purpose of this scheme.\n- The applicant must not have availed of the Chief Minister’s Rojgar Yojana (CMRY) Scheme or any other employment generation scheme of the Government of India or the Government of Goa.\n- The applicant must not be taking or have taken any benefit under any policy of the Department of Information Technology, Government of Goa.\n- The applicant must not have claimed similar benefit under any other scheme/program of the Government of Goa.\n- The applicant must submit the application for at least one claim to the Directorate of Industries, Trade and Commerce (DITC) during the scheme&#39;s validity (up to September 30, 2022).\n\n##### ***Eligibility for Hinterland Eco-Tourism Projects***\n\n- The applicant must be a project of Hinterland Eco tourism in lesser developed talukas.\n- The applicant must be registered with/recognised by the Department of Tourism/Goa Investment Promotion Board (IPB)/Town &amp; Country Planning/Planning &amp; Development Authority (PDA)/Eco Sensitive Zone Authority.\n\n<br>\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must be classified as a Micro, Small, Medium, or Large manufacturing industry."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must be listed under the white category, green category, or orange category."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must engage a minimum of 60% of Goan manpower on regular employment."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must ensure the employees counted for the percentage calculation are employed on the enterprise’s payroll continuously during the claim year."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must ensure the Goan employees considered for subsidy calculation are up to 60 years of age."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must ensure the Goan employees considered for subsidy calculation are paid a gross salary of more than ₹8,000/- per month."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must ensure that the relations defined under section 56 of the Income Tax Act, 1961, are not counted as employees for the purpose of this scheme."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must not have availed of the Chief Minister’s Rojgar Yojana (CMRY) Scheme or any other employment generation scheme of the Government of India or the Government of Goa."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must not be taking or have taken any benefit under any policy of the Department of Information Technology, Government of Goa."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must not have claimed similar benefit under any other scheme/program of the Government of Goa."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must submit the application for at least one claim to the Directorate of Industries, Trade and Commerce (DITC) during the scheme's validity (up to September 30, 2022)."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "heading_five",
+          "children": [
+            {
+              "text": "Eligibility for Hinterland Eco-Tourism Projects",
+              "bold": true,
+              "underline": true,
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must be a project of Hinterland Eco tourism in lesser developed talukas."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must be registered with/recognised by the Department of Tourism/Goa Investment Promotion Board (IPB)/Town & Country Planning/Planning & Development Authority (PDA)/Eco Sensitive Zone Authority."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "ess-2017"
+}

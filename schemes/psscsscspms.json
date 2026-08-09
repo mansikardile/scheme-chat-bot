@@ -1,0 +1,391 @@
+{
+  "_id": "66050edbc90f6c809877c25b",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Student",
+        "Scholarship",
+        "Scheduled Caste",
+        "Pre-SSC"
+      ],
+      "schemeName": "Pre-SSC Scholarship for Scheduled Caste Students (Parixitlal Majmudar Scholarship)",
+      "schemeShortTitle": "PSSCSSCS(PMS)",
+      "implementingAgency": "District Deputy Director (SCW) Office, Gujarat",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce76cd6d1a3bde4685292",
+          "label": "Education & Learning"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Scholarships and student finance",
+          "label": "Scholarships and student finance"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "state": {
+        "value": 24,
+        "label": "Gujarat"
+      },
+      "schemeType": null,
+      "nodalMinistryName": null,
+      "nodalDepartmentName": {
+        "value": 2444464,
+        "label": "Social Justice and Empowerment Department"
+      },
+      "otherMinistryName": null,
+      "otherDepartmentNames": null,
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Official Website",
+          "url": "https://sje.gujarat.gov.in/Dscw/schemes/1555?lang=English"
+        },
+        {
+          "title": "Scheme Details (Page No. 82)",
+          "url": "https://sje.gujarat.gov.in/assets/downloads/SCSP_202021_09072021.pdf"
+        },
+        {
+          "title": "Notification -1",
+          "url": "https://sje.gujarat.gov.in/dscw/assets/downloads/tharav_dscw2_25082022.pdf"
+        },
+        {
+          "title": "Notification - 2",
+          "url": "https://sje.gujarat.gov.in/dscw/assets/downloads/tharav_dscw_25082022.pdf"
+        },
+        {
+          "title": "Scheme Details",
+          "url": "https://sje.gujarat.gov.in/dscw/downloads/outlay_phy_target_2015_16.pdf"
+        }
+      ],
+      "schemeImageUrl": "",
+      "briefDescription": "Under this scheme, scholarships are provided to Scheduled Caste students who are studying in Class 1 to 10 in Government/Grant-in-Aid Schools/Private Schools.",
+      "detailedDescription_md": "The “Pre-SSC Scholarship for Scheduled Caste Students” scheme is administered by the Director, Scheduled Caste Welfare, Government of Gujarat. Under this scheme, scholarships are provided to Scheduled Caste students who are studying in Class 1 to 10 in Government/Grant-in-Aid Schools/Private Schools.\n",
+      "benefits_md": "**Assistance Details:**\nSl. No.StandardBoys/GirlsScholarship Rate (Yearly)1Standard 1 to 5Both₹750/-2Standard 6 to 8Boys₹750/-3Standard 6 to 8Girls₹1000/-4Standard 9 to 10Both₹1000/-",
+      "exclusions_md": "",
+      "detailedDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "The “Pre-SSC Scholarship for Scheduled Caste Students” scheme is administered by the Director, Scheduled Caste Welfare, Government of Gujarat. Under this scheme, scholarships are provided to Scheduled Caste students who are studying in Class 1 to 10 in Government/Grant-in-Aid Schools/Private Schools."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Assistance Details:",
+              "bold": true,
+              "underline": true
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "children": [
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Sl. No."
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Standard"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Boys/Girls"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Scholarship Rate (Yearly)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "1"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Standard 1 to 5"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Both"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "₹750/-"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "2"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Standard 6 to 8"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Boys"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "₹750/-"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "3"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Standard 6 to 8"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Girls"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "₹1000/-"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "4"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Standard 9 to 10"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Both"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "₹1000/-"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "process": [
+          {
+            "type": "align_justify",
+            "children": [
+              {
+                "type": "ol_list",
+                "children": [
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "text": "To avail the benefits of the scheme, eligible students need to contact the principal of their school."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "text": "The Principal of concerned school has to submit the online proposal on the Digital Gujarat Portal (Portal: "
+                      },
+                      {
+                        "type": "link",
+                        "link": "https://www.digitalgujarat.gov.in/",
+                        "children": [
+                          {
+                            "text": "https://www.digitalgujarat.gov.in/"
+                          }
+                        ]
+                      },
+                      {
+                        "text": ")."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "process_md": "\n   1. To avail the benefits of the scheme, eligible students need to contact the principal of their school.\n   1. The Principal of concerned school has to submit the online proposal on the Digital Gujarat Portal (Portal: [https://www.digitalgujarat.gov.in/](https://www.digitalgujarat.gov.in/)).\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n   1. The student should belong to the Scheduled Caste Category of Gujarat.\n   1. The student should be enrolled in Standards 1 to 10.\n   1. There is no income limit for the scheme.\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "ol_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The student should belong to the Scheduled Caste Category of Gujarat."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The student should be enrolled in Standards 1 to 10."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "There is no income limit for the scheme."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "psscsscspms"
+}

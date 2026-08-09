@@ -1,0 +1,411 @@
+{
+  "_id": "668d0c26bb174a1a87069531",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Micro Credit",
+        "NSFDC",
+        "Loan",
+        "Self-employment",
+        "Scheduled Caste"
+      ],
+      "schemeName": "Micro Credit Finance (NSFDC)",
+      "schemeShortTitle": "MCFNSFDC",
+      "implementingAgency": "National Scheduled Castes Finance And Development Corporation",
+      "level": {
+        "value": "central",
+        "label": "Central"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce7f6d6d1a3bde46852d0",
+          "label": "Banking,Financial Services and Insurance"
+        },
+        {
+          "value": "628ce733d6d1a3bde4685278",
+          "label": "Business & Entrepreneurship"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Loan",
+          "label": "Loan"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        },
+        {
+          "value": "registered-societies",
+          "label": "Registered Societies"
+        },
+        {
+          "value": "joint-liability-groups",
+          "label": "Joint Liability Groups (JLGS)"
+        }
+      ],
+      "state": null,
+      "schemeType": {
+        "value": "centrally-sponsored-scheme",
+        "label": "Centrally Sponsored Scheme"
+      },
+      "nodalMinistryName": {
+        "value": 712,
+        "label": "Ministry Of Social Justice and Empowerment"
+      },
+      "nodalDepartmentName": {
+        "value": 11112,
+        "label": "Department of Social Justice & Empowerment"
+      },
+      "otherMinistryName": null,
+      "otherDepartmentNames": null,
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Official Website",
+          "url": "https://nsfdc.nic.in/en/micro-credit-finance"
+        },
+        {
+          "title": "Notification",
+          "url": "https://socialjustice.gov.in/writereaddata/UploadFile/19381713958575.pdf"
+        },
+        {
+          "title": "FAQs",
+          "url": "https://nsfdc.nic.in/en/faq"
+        },
+        {
+          "title": "Application Format",
+          "url": "https://nsfdc.nic.in/UploadedFiles/other/form/termloan-english.pdf"
+        }
+      ],
+      "schemeImageUrl": "",
+      "briefDescription": "The scheme is implemented by the National Scheduled Castes Finance & Development Corporation, Ministry of Social Justice & Empowerment, Govt. of India. Under this scheme, loans are provided to individuals from the SC community for units costing up to ₹1,40,000/- for income-generating activities.",
+      "detailedDescription_md": "The scheme &amp;quot;Micro Credit Finance&amp;quot; is implemented by the National Scheduled Castes Finance and Development Corporation (NSFDC) under the Ministry of Social Justice and Empowerment, Government of India. Under this scheme, loans are provided to individuals from the Scheduled Caste community for units costing up to ₹1,40,000/-. The loans support income-generating activities such as running a betel leaf shop, bakery, candle making, cycle repair, goat rearing, beauty parlour, vegetable vending, incense stick making, fish vending, milch animal rearing, papad manufacturing, pickle manufacturing, tea shop, and other similar viable activities.\n",
+      "benefits_md": "**Maximum Loan Limit:**\n\n  - NSFDC provides loans up to 90% of the Project Cost with the maximum amount of ₹1.25 lakhs.\n\n**Rate of Interest:**\n\n  - The NSFDC shall charge interest @ 2.5% from the SCAs/CAs, which in turn, shall charge 6.5% from the Beneficiaries.\n\n**Repayment Period:**\n\n  - The loan under the Scheme is to be repaid in quarterly instalments within a maximum period of three years from the date of disbursement including 3 months moratorium period.\n\n",
+      "exclusions_md": "",
+      "detailedDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "The scheme \"Micro Credit Finance\" is implemented by the National Scheduled Castes Finance and Development Corporation (NSFDC) under the Ministry of Social Justice and Empowerment, Government of India. Under this scheme, loans are provided to individuals from the Scheduled Caste community for units costing up to ₹1,40,000/-. The loans support income-generating activities such as running a betel leaf shop, bakery, candle making, cycle repair, goat rearing, beauty parlour, vegetable vending, incense stick making, fish vending, milch animal rearing, papad manufacturing, pickle manufacturing, tea shop, and other similar viable activities."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "Maximum Loan Limit:",
+                  "bold": true,
+                  "underline": true
+                }
+              ]
+            },
+            {
+              "type": "ul_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "NSFDC provides loans up to 90% of the Project Cost with the maximum amount of ₹1.25 lakhs."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "Rate of Interest:",
+                  "bold": true,
+                  "underline": true
+                }
+              ]
+            },
+            {
+              "type": "ul_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The NSFDC shall charge interest @ 2.5% from the SCAs/CAs, which in turn, shall charge 6.5% from the Beneficiaries."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "Repayment Period:",
+                  "bold": true,
+                  "underline": true
+                }
+              ]
+            },
+            {
+              "type": "ul_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The loan under the Scheme is to be repaid in quarterly instalments within a maximum period of three years from the date of disbursement including 3 months moratorium period."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "process": [
+          {
+            "type": "align_justify",
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 1: ",
+                    "bold": true
+                  },
+                  {
+                    "text": "The applicants should contact the District Office of State Channelizing Agencies (SCAs) if they wish to avail NSFDC Education loan."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 2:",
+                    "bold": true
+                  },
+                  {
+                    "text": " The applicants are required to submit the "
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://nsfdc.nic.in/UploadedFiles/other/form/termloan-english.pdf",
+                    "children": [
+                      {
+                        "text": "application in NSFDC's format"
+                      }
+                    ]
+                  },
+                  {
+                    "text": " with details of business and copies of caste, income, experience, etc. at the District Office of State Channelizing Agencies. Eligible applicant can also submit their loan application to other Channelizing Agencies of NSFDC such as Regional Rural Banks/ Public Sector Banks/ NBFC-MFIs etc. with whom NSFDC has signed Memorandum of Agreements."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 3:",
+                    "bold": true
+                  },
+                  {
+                    "text": " The District Offices of SCAs/CAs scrutinize the applications to ensure they meet the eligibility criteria."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 4:",
+                    "bold": true
+                  },
+                  {
+                    "text": " The District Offices forward the scrutinized applications to their respective Head Offices for further processing."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 5:",
+                    "bold": true
+                  },
+                  {
+                    "text": " The Head Offices of SCAs/CAs appraise the viability of the project proposals and viable project proposals are recommended for sanction and forwarded to NSFDC along with the SCAs' recommendations."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 6:",
+                    "bold": true
+                  },
+                  {
+                    "text": " The Project and Banking Desk at NSFDC appraises the loan proposals submitted by the SCAs/CAs. An appraisal report is prepared and submitted to the Project Clearance Committee (PCC) for concurrence."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 7:",
+                    "bold": true
+                  },
+                  {
+                    "text": " The PCC reviews the appraisal report and, if found in order, recommends the proposals for sanction. Sanction Letters, known as Letters of Intent (LOIs), along with Terms & Conditions, are issued to the SCAs/RRBs/Public Sector Banks/NBFC-MFIs for acceptance."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 8:",
+                    "bold": true
+                  },
+                  {
+                    "text": " After acceptance of the sanction terms and fulfillment of the Prudential Norms, funds are disbursed by NSFDC to the SCAs/RRBs/Public Sector Banks/NBFC-MFIs. The SCAs/RRBs/Public Sector Banks/NBFC-MFIs then disburse these funds to the beneficiaries."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 9:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Beneficiaries repay the loans as per the repayment schedule stipulated by the SCAs/CAs."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Note 1:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Applicants are required to apply for financial assistance from NSFDC through the concerned State Channelizing Agencies (SCAs)/Channelizing Agencies (CAs). Direct contact or correspondence by the Applicants/Beneficiaries shall not be entertained by NSFDC under any circumstances."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Note 2:",
+                    "bold": true
+                  },
+                  {
+                    "text": " NSFDC provides loans for income-generating activities to target groups through its Channelizing Agencies namely State Scheduled Castes Development Corporations (SCDCs), Public Sector Banks (PSBs), Regional Rural Banks (RRBs), and other Institutions."
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "process_md": "**Step 1:** The applicants should contact the District Office of State Channelizing Agencies (SCAs) if they wish to avail NSFDC Education loan.\n**Step 2:** The applicants are required to submit the [application in NSFDC&amp;#39;s format](https://nsfdc.nic.in/UploadedFiles/other/form/termloan-english.pdf) with details of business and copies of caste, income, experience, etc. at the District Office of State Channelizing Agencies. Eligible applicant can also submit their loan application to other Channelizing Agencies of NSFDC such as Regional Rural Banks/ Public Sector Banks/ NBFC-MFIs etc. with whom NSFDC has signed Memorandum of Agreements.\n**Step 3:** The District Offices of SCAs/CAs scrutinize the applications to ensure they meet the eligibility criteria.\n**Step 4:** The District Offices forward the scrutinized applications to their respective Head Offices for further processing.\n**Step 5:** The Head Offices of SCAs/CAs appraise the viability of the project proposals and viable project proposals are recommended for sanction and forwarded to NSFDC along with the SCAs&amp;#39; recommendations.\n**Step 6:** The Project and Banking Desk at NSFDC appraises the loan proposals submitted by the SCAs/CAs. An appraisal report is prepared and submitted to the Project Clearance Committee (PCC) for concurrence.\n**Step 7:** The PCC reviews the appraisal report and, if found in order, recommends the proposals for sanction. Sanction Letters, known as Letters of Intent (LOIs), along with Terms &amp;amp; Conditions, are issued to the SCAs/RRBs/Public Sector Banks/NBFC-MFIs for acceptance.\n**Step 8:** After acceptance of the sanction terms and fulfillment of the Prudential Norms, funds are disbursed by NSFDC to the SCAs/RRBs/Public Sector Banks/NBFC-MFIs. The SCAs/RRBs/Public Sector Banks/NBFC-MFIs then disburse these funds to the beneficiaries.\n**Step 9:** Beneficiaries repay the loans as per the repayment schedule stipulated by the SCAs/CAs.\n**Note 1:** Applicants are required to apply for financial assistance from NSFDC through the concerned State Channelizing Agencies (SCAs)/Channelizing Agencies (CAs). Direct contact or correspondence by the Applicants/Beneficiaries shall not be entertained by NSFDC under any circumstances.\n**Note 2:** NSFDC provides loans for income-generating activities to target groups through its Channelizing Agencies namely State Scheduled Castes Development Corporations (SCDCs), Public Sector Banks (PSBs), Regional Rural Banks (RRBs), and other Institutions.\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "1.\tThe Individual applicant should belong to a Scheduled Caste community.\n2.\tThe applicant&amp;#39;s annual family income should be less than ₹3,00,000/-, both in rural and urban areas w.e.f. 08.03.2018.\n3.\tThe Partnership Firms and Co-operative Societies are also eligible to apply under the scheme. However, proposals submitted by Partnership Firms and Co-operative Societies shall be considered subject to the following:\na) All the members of Partnership Firms/Co-operative Societies belong to Scheduled Caste community.\nb)\t Annual family income of each member/applicant should not exceed ₹3,00,000/-. \n**Note:** The verification of eligibility criteria shall be the sole responsibility of the State Channelizing Agencies (SCAs)/Channelizing Agencies (CAs). NSFDC shall, however, be entitled to re-verify the eligibility of the applicants, if it so desires.\n",
+      "eligibilityDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "1.\tThe Individual applicant should belong to a Scheduled Caste community."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "2.\tThe applicant's annual family income should be less than ₹3,00,000/-, both in rural and urban areas w.e.f. 08.03.2018."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "3.\tThe Partnership Firms and Co-operative Societies are also eligible to apply under the scheme. However, proposals submitted by Partnership Firms and Co-operative Societies shall be considered subject to the following:"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "a) All the members of Partnership Firms/Co-operative Societies belong to Scheduled Caste community."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "b)\t Annual family income of each member/applicant should not exceed ₹3,00,000/-. "
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "Note:",
+                  "bold": true
+                },
+                {
+                  "text": " The verification of eligibility criteria shall be the sole responsibility of the State Channelizing Agencies (SCAs)/Channelizing Agencies (CAs). NSFDC shall, however, be entitled to re-verify the eligibility of the applicants, if it so desires."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "mcfnsfdc"
+}

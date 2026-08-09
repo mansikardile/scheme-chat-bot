@@ -1,0 +1,346 @@
+{
+  "_id": "653ecea34c46bfe12b2b7040",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Raw Material",
+        "Jute",
+        "Operating Agencies",
+        "WSHGs",
+        "Small Units"
+      ],
+      "schemeName": "Jute Raw Material Bank Scheme",
+      "schemeShortTitle": "JRMBS",
+      "level": {
+        "value": "central",
+        "label": "Central"
+      },
+      "schemeType": {
+        "value": "central-sector-scheme",
+        "label": "Central Sector Scheme"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce7f6d6d1a3bde46852d0",
+          "label": "Banking,Financial Services and Insurance"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Banking and money",
+          "label": "Banking and money"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "business-entity",
+          "label": "Business Entity"
+        },
+        {
+          "value": "industries",
+          "label": "Industries"
+        }
+      ],
+      "schemeFor": "Infra",
+      "nodalMinistryName": {
+        "value": 504,
+        "label": "Ministry Of Textiles"
+      },
+      "nodalDepartmentName": null
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://jute.com/jute/njb/42"
+        },
+        {
+          "title": "Official Website",
+          "url": "https://jute.com/jute/home"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "Jute Raw Material Bank Scheme (JRMB) will be set up in the local clusters across the country in collaboration with bonafide Agencies who have adequate experience in similar activities and have the required storage, display, and selling infrastructure.  The JRMB will source the raw materials directly from the Jute Mills and Jute raw material manufacturers at economical rates.  These JRMB will provide backward linkages to the Jute Artisans, WSHGs, JDPs Micro &amp; Small Units and beneficiaries of JRCPC to help them provide jute raw material in their locality to manufacture JDPs.\nThe objectives of the JRMB are: \n\n- To set Up JRMBs in the jute-producing clusters/localities to help easy and uninterrupted supply and sale of jute raw materials to the beneficiaries of JRCPC, WSHGs, Jute Artisans, Micro and Small Jute manufacturers below mill gate prices to make their JDPs cost competitive. \n- To supply finer-count yarn, fabrics of 100% Jute / Union /Blended, laminated fabric, Technical Textiles and other braided, decorative yarns for diversified applications and value addition of Jute.  \n- To make jute raw materials available in the desired quantity and quality to the beneficiaries of JRCPC, WSHGs, Micro and Small Jute manufacturers for manufacturing Jute Diversified Products.\n\n",
+      "benefits_md": "\n- 30% Financial Support on Sales Value\n\n  - Up to ₹12,00,000/- per year per JRMB\n  - Includes:\n  - 5% direct discount to beneficiaries on mill-gate price\n  - 25% support for transportation and operational costs\n\n- Additional Freight Subsidy\n\n  - ₹1.50 per kg for JRMBs in hilly or high-transport-cost areas (e.g., J&amp;K, Himachal Pradesh, Uttarakhand, NER states)\n\n- 100% Reimbursement\n\n  - Financial support disbursed quarterly upon submission of valid documents (invoices, GST returns, certified bank statement)\n\n- Affordable Raw Jute Access\n\n  - Jute Artisans, Women Self-Help Groups (WSHGs), and small JDP units can purchase raw jute materials at subsidized rates\n\n- Reliable Supply Chain Support\n\n  - Ensures regular and cost-effective access to jute fabrics, yarns, and decorative materials from certified suppliers\n\n\n",
+      "exclusions_md": "<br>\n\n",
+      "briefDescription": "Jute Raw Material Bank Scheme (JRMB) will be set up in the local clusters across the country in collaboration with bonafide Agencies who have adequate experience in similar activities and have the required storage, display, and selling infrastructure.",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Jute Raw Material Bank Scheme (JRMB) will be set up in the local clusters across the country in collaboration with bonafide Agencies who have adequate experience in similar activities and have the required storage, display, and selling infrastructure.  The JRMB will source the raw materials directly from the Jute Mills and Jute raw material manufacturers at economical rates.  These JRMB will provide backward linkages to the Jute Artisans, WSHGs, JDPs Micro & Small Units and beneficiaries of JRCPC to help them provide jute raw material in their locality to manufacture JDPs."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The objectives of the JRMB are: "
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "To set Up JRMBs in the jute-producing clusters/localities to help easy and uninterrupted supply and sale of jute raw materials to the beneficiaries of JRCPC, WSHGs, Jute Artisans, Micro and Small Jute manufacturers below mill gate prices to make their JDPs cost competitive. "
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "To supply finer-count yarn, fabrics of 100% Jute / Union /Blended, laminated fabric, Technical Textiles and other braided, decorative yarns for diversified applications and value addition of Jute.  "
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "To make jute raw materials available in the desired quantity and quality to the beneficiaries of JRCPC, WSHGs, Micro and Small Jute manufacturers for manufacturing Jute Diversified Products."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 2,
+        "value": "in-kind",
+        "label": "In Kind"
+      },
+      "benefits": [
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "30% Financial Support on Sales Value"
+                }
+              ]
+            },
+            {
+              "type": "ul_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Up to ₹12,00,000/- per year per JRMB"
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Includes:"
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "5% direct discount to beneficiaries on mill-gate price"
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "25% support for transportation and operational costs"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Additional Freight Subsidy"
+                }
+              ]
+            },
+            {
+              "type": "ul_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "₹1.50 per kg for JRMBs in hilly or high-transport-cost areas (e.g., J&K, Himachal Pradesh, Uttarakhand, NER states)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "100% Reimbursement"
+                }
+              ]
+            },
+            {
+              "type": "ul_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Financial support disbursed quarterly upon submission of valid documents (invoices, GST returns, certified bank statement)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Affordable Raw Jute Access"
+                }
+              ]
+            },
+            {
+              "type": "ul_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Jute Artisans, Women Self-Help Groups (WSHGs), and small JDP units can purchase raw jute materials at subsidized rates"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Reliable Supply Chain Support"
+                }
+              ]
+            },
+            {
+              "type": "ul_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Ensures regular and cost-effective access to jute fabrics, yarns, and decorative materials from certified suppliers"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "exclusions": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "process": [
+          {
+            "type": "ol_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "The proposals are to be submitted in Hard copy of application form ("
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://jute.com/documents/10194/3012146/JRMB.pdf",
+                    "children": [
+                      {
+                        "text": "Annexure-1)"
+                      }
+                    ]
+                  },
+                  {
+                    "text": ",  in a sealed cover and all the documents should have the total number of pages indicated and signature of the authorized persons from the agency, in all  Pages. "
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "process_md": "\n1. The proposals are to be submitted in Hard copy of application form ([Annexure-1)](https://jute.com/documents/10194/3012146/JRMB.pdf),  in a sealed cover and all the documents should have the total number of pages indicated and signature of the authorized persons from the agency, in all  Pages. \n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n1.  The Agency and its functionaries should be bonafide Indian agencies and Indian Citizens. \n1. Reputed Registered Jute Entrepreneurs/ Manufacturers, Exporters, Merchant Traders, NGOs, Cooperative Societies, Federations, PSUs/ Organizations of the Central/ State Govt. and other firms / Agencies engaged in the Product identification and Marketing of Jute Diversified Products (JDPs) at least for the last three years.  \n1. Recognized agencies having at least three years of experience in Trading and promotion in the field of production and Marketing of Jute Diversified Products (JDPs) or similar schemes in the Handloom, Handicrafts, and Textiles sector will be preferred.\n1. The CA / OA should have its own office with telephone/ mobile connection, computer/ laptop with email facilities, etc. for running the Jute Raw Material Bank  (JRMB) and at least 200 sq. ft space for running the JRMB.\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": " The Agency and its functionaries should be bonafide Indian agencies and Indian Citizens. "
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Reputed Registered Jute Entrepreneurs/ Manufacturers, Exporters, Merchant Traders, NGOs, Cooperative Societies, Federations, PSUs/ Organizations of the Central/ State Govt. and other firms / Agencies engaged in the Product identification and Marketing of Jute Diversified Products (JDPs) at least for the last three years.  "
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Recognized agencies having at least three years of experience in Trading and promotion in the field of production and Marketing of Jute Diversified Products (JDPs) or similar schemes in the Handloom, Handicrafts, and Textiles sector will be preferred."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The CA / OA should have its own office with telephone/ mobile connection, computer/ laptop with email facilities, etc. for running the Jute Raw Material Bank  (JRMB) and at least 200 sq. ft space for running the JRMB."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "jrmbs"
+}

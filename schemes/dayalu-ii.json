@@ -1,0 +1,619 @@
+{
+  "_id": "67b36b5bd6a94de2eedf65be",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Financial Assistance",
+        "Accidental Death",
+        "Permanent Disability",
+        "Dog Bite",
+        "Stay Animals",
+        "DAYALU-II",
+        "Stray Cattle"
+      ],
+      "schemeName": "Deen Dayal Upadhyaya Antyodaya Parivar Suraksha Yojana (DAYALU-II)",
+      "schemeShortTitle": "DAYALU-II",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce87cd6d1a3bde4685312",
+          "label": "Social welfare & Empowerment"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Financial assistance",
+          "label": "Financial assistance"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        },
+        {
+          "value": "family",
+          "label": "Family"
+        }
+      ],
+      "state": {
+        "value": 6,
+        "label": "Haryana"
+      },
+      "nodalDepartmentName": {
+        "value": 666714,
+        "label": "Planning Department"
+      },
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Official Website",
+          "url": "https://dapsy.finhry.gov.in/publication"
+        },
+        {
+          "title": "Guideline",
+          "url": "https://dapsy.finhry.gov.in/document/Gazette_93-2023_Ext_16345.pdf"
+        },
+        {
+          "title": "Application Link",
+          "url": "https://dapsy.finhry.gov.in/get-family-id"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The scheme “Deen Dayal Upadhyaya Antyodaya Parivar Suraksha Yojana (DAYALU-II)” was launched by Planning Department, Haryana Government. The aim of this scheme is to provide financial assistance to residents of Haryana in case of accidental death or permanent disability occurred due to stray cattle/animal such as such as cow, bull, oxen, donkey, dog bite, mule, nilgai and buffalo that roam freely. This scheme will provide assistance which would vary depending on the age of the person at the time of accidental death/permanent disability. The implementing agency for this scheme will be Haryana Parivar Suraksha Nyas (HPSN).\n",
+      "benefits_md": "The scheme provides financial assistance based on the age of the beneficiary at the time of accidental death or permanent disability:\n**Sr. No.****Age****Assistance**1Upto 12 years₹ 1 Lakh2Above 12 years and upto 18 years₹ 2 Lakh3Above 18 years and upto 25 years₹ 3 Lakh4Above 25 years and upto 40 years₹ 5 Lakh5Above 40 years₹ 2 Lakh**Mode of Disbursement:**\nThe assistance amount will be directly transferred to the beneficiary&amp;#39;s bank account registered in the Parivar Pehchan Patra (PPP) database or Aadhaar-seeded bank account.\n",
+      "exclusions_md": "\n1. The applicant will not be eligible if the claim pertains to an incident before the scheme&#39;s notification date.\n1. No assistance will be paid if no family member is alive after the incident.\n1. If all surviving family members are below 18 years, the assistance will be paid only when a member turns 18.\n\n",
+      "briefDescription": "The aim of this scheme is to provide financial assistance to residents of Haryana in case of accidental death or permanent disability occurred due to stray cattle/animal such as such as cow, bull, oxen, donkey, dog bite, mule, nilgai and buffalo that roam freely.",
+      "detailedDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "The scheme “Deen Dayal Upadhyaya Antyodaya Parivar Suraksha Yojana (DAYALU-II)” was launched by Planning Department, Haryana Government. The aim of this scheme is to provide financial assistance to residents of Haryana in case of accidental death or permanent disability occurred due to stray cattle/animal such as such as cow, bull, oxen, donkey, dog bite, mule, nilgai and buffalo that roam freely. This scheme will provide assistance which would vary depending on the age of the person at the time of accidental death/permanent disability. The implementing agency for this scheme will be Haryana Parivar Suraksha Nyas (HPSN)."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The scheme provides financial assistance based on the age of the beneficiary at the time of accidental death or permanent disability:"
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "children": [
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Sr. No.",
+                      "bold": true
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Age",
+                      "bold": true
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Assistance",
+                      "bold": true
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "1"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Upto 12 years"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "₹ 1 Lakh"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "2"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Above 12 years and upto 18 years"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "₹ 2 Lakh"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "3"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Above 18 years and upto 25 years"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "₹ 3 Lakh"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "4"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Above 25 years and upto 40 years"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "₹ 5 Lakh"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "5"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Above 40 years"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "₹ 2 Lakh"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Mode of Disbursement:",
+              "bold": true,
+              "underline": true
+            }
+          ]
+        },
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "The assistance amount will be directly transferred to the beneficiary's bank account registered in the Parivar Pehchan Patra (PPP) database or Aadhaar-seeded bank account."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "exclusions": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant will not be eligible if the claim pertains to an incident before the scheme's notification date."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "No assistance will be paid if no family member is alive after the incident."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "If all surviving family members are below 18 years, the assistance will be paid only when a member turns 18."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Online",
+        "process": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 1:",
+                "bold": true
+              },
+              {
+                "text": " Visit the official "
+              },
+              {
+                "type": "link",
+                "link": "https://dapsy.finhry.gov.in/",
+                "children": [
+                  {
+                    "text": "DAYALU"
+                  }
+                ]
+              },
+              {
+                "text": " scheme portal."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2: ",
+                "bold": true
+              },
+              {
+                "text": "Select the Apply Option: Click on \"Apply Scheme\" to begin your application."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 3: ",
+                "bold": true
+              },
+              {
+                "text": "On the registration page, select the scheme DAYALU-ll and enter your Parivar Pehchan Patra (PPP) number. Register using the OTP sent to your registered mobile number."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 4:",
+                "bold": true
+              },
+              {
+                "text": " Select the family member who has passed away or is permanently disabled."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 5:",
+                "bold": true
+              },
+              {
+                "text": " Fill in the necessary information, including Date of Death (if applicable), Registration Number, and Issuing Authority and Attach the relevant death or disability certificate."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 6: ",
+                "bold": true
+              },
+              {
+                "text": "Click \"Apply Scheme\" to complete the application submission."
+              }
+            ]
+          },
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "text": "Note: Submit the claim within three months of the death or permanent disability. "
+              }
+            ]
+          }
+        ],
+        "process_md": "**Step 1:** Visit the official [DAYALU](https://dapsy.finhry.gov.in/) scheme portal.\n**Step 2:** Select the Apply Option: Click on &quot;Apply Scheme&quot; to begin your application.\n**Step 3:** On the registration page, select the scheme DAYALU-ll and enter your Parivar Pehchan Patra (PPP) number. Register using the OTP sent to your registered mobile number.\n**Step 4:** Select the family member who has passed away or is permanently disabled.\n**Step 5:** Fill in the necessary information, including Date of Death (if applicable), Registration Number, and Issuing Authority and Attach the relevant death or disability certificate.\n**Step 6:** Click &quot;Apply Scheme&quot; to complete the application submission.\n> Note: Submit the claim within three months of the death or permanent disability. \n\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "The benefits of assistance under the scheme shall be made available to the beneficiary if:\n1. The applicant should be a resident of Haryana.\n2. The applicant refers to either:\n•\tThe beneficiary (in case of permanent disability), or\n•\tAn eligible relative (in case of the beneficiary’s death) applying for financial assistance.\n3. The applicant should possess a Family ID/Parivar Pehchaan Patra (PPP) number.\n4. The applicant should have suffered accidental death or permanent disability (70% or above) due to a stray cattle/animal bite (such as cow, bull, oxen, donkey, dog bite, mule, nilgai and buffalo that roam freely.)\n5. The claim should be filed within three months of the accident.\n6. The scheme is effective from 24th May 2023, as per the official gazette notification. Claims for deaths or permanent disabilities occurring before this date will not be entertained.\n7. Financial assistance will be provided only for cases of death or permanent disability caused by stray cattle/animal/dog bites.\n> **In case of death, the assistance amount shall be paid**\n\n1. In case Member of family is deceased then assistance will be given\n•\tHead of the Family (HOF) below the age of 60 years\n•\tIn case HOF is above 60 years then eldest of the family member below the age of 60 years.\n•\tIn case no elder family member/HOF is below 60 years then the family member immediate above the age of 60 years.\n2. In case Head of Family is deceased then assistance will be given\n•\tEldest of the family below the age of 60 years.\n•\tIn case no elder family member is below the age of 60 years then the family member immediate above the age of 60 years.\n3. In case no family member is alive after the death in the family then no assistance will be paid.\n4. In case the alive family member are below the age of 18 years then the assistance will be paid only at the time of any member attaining the age above 18 years.\n5. In case assistance is sanctioned by suppressing true information or making wrong claim or on the basis of wrong information given by the claimant in the claim form then the assistance amount would be recovered alongwith interest @ 12% per annum.\n",
+      "eligibilityDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The benefits of assistance under the scheme shall be made available to the beneficiary if:"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "1. The applicant should be a resident of Haryana."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "2. The applicant refers to either:"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "•\tThe beneficiary (in case of permanent disability), or"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "•\tAn eligible relative (in case of the beneficiary’s death) applying for financial assistance."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "3. The applicant should possess a Family ID/Parivar Pehchaan Patra (PPP) number."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "4. The applicant should have suffered accidental death or permanent disability (70% or above) due to a stray cattle/animal bite (such as cow, bull, oxen, donkey, dog bite, mule, nilgai and buffalo that roam freely.)"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "5. The claim should be filed within three months of the accident."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "6. The scheme is effective from 24th May 2023, as per the official gazette notification. Claims for deaths or permanent disabilities occurring before this date will not be entertained."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "7. Financial assistance will be provided only for cases of death or permanent disability caused by stray cattle/animal/dog bites."
+            }
+          ]
+        },
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "In case of death, the assistance amount shall be paid",
+              "underline": true,
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "1. In case Member of family is deceased then assistance will be given"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "•\tHead of the Family (HOF) below the age of 60 years"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "•\tIn case HOF is above 60 years then eldest of the family member below the age of 60 years."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "•\tIn case no elder family member/HOF is below 60 years then the family member immediate above the age of 60 years."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "2. In case Head of Family is deceased then assistance will be given"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "•\tEldest of the family below the age of 60 years."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "•\tIn case no elder family member is below the age of 60 years then the family member immediate above the age of 60 years."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "3. In case no family member is alive after the death in the family then no assistance will be paid."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "4. In case the alive family member are below the age of 18 years then the assistance will be paid only at the time of any member attaining the age above 18 years."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "5. In case assistance is sanctioned by suppressing true information or making wrong claim or on the basis of wrong information given by the claimant in the claim form then the assistance amount would be recovered alongwith interest @ 12% per annum."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "dayalu-ii"
+}

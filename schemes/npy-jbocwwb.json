@@ -1,0 +1,388 @@
+{
+  "_id": "64363aba17ce12bc514c1f4c",
+  "en": {
+    "basicDetails": {
+      "schemeOpenDate": null,
+      "schemeCloseDate": null,
+      "state": {
+        "value": 20,
+        "label": "Jharkhand"
+      },
+      "nodalMinistryName": null,
+      "nodalDepartmentName": {
+        "value": 2000012,
+        "label": "Labour, Employment, Training and Skill Department"
+      },
+      "otherMinistryName": null,
+      "otherDepartmentNames": null,
+      "targetBeneficiaries": null,
+      "schemeSubCategory": [
+        {
+          "value": "Pension",
+          "label": "Pension"
+        },
+        {
+          "value": "Crisis/Disaster/Accident",
+          "label": "Crisis/Disaster/Accident"
+        }
+      ],
+      "dbtScheme": null,
+      "implementingAgency": null,
+      "tags": [
+        "Pension",
+        "Disability",
+        "Construction Worker",
+        "Social Welfare"
+      ],
+      "schemeName": "Nishaktata Pension Yojana (JBOCWWB)",
+      "schemeShortTitle": "NPY-JBOCWWB",
+      "level": {
+        "value": "state",
+        "label": "State"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce7f6d6d1a3bde46852d0",
+          "label": "Banking,Financial Services and Insurance"
+        },
+        {
+          "value": "628ce87cd6d1a3bde4685312",
+          "label": "Social welfare & Empowerment"
+        }
+      ],
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://shramadhan.jharkhand.gov.in/schemmeDetailsShow.action"
+        },
+        {
+          "title": "Application Process",
+          "url": "https://shramadhan.jharkhand.gov.in/ftp/WebAdmin/documents/BOC_SCHEME_BENEFIT_APPLICANT_SIDE.pdf"
+        },
+        {
+          "title": "District-Wise Contact Details Of Labour Offices",
+          "url": "https://shramadhan.jharkhand.gov.in/ftp/WebAdmin/documents/labourcontactdetails.pdf"
+        }
+      ],
+      "schemeImageUrl": "",
+      "briefDescription": "\"Nishaktata Pension Yojana (JBOCWWB)\" is a scheme by the Department of Labour, Employment, Training & Skill Development Govt of Jharkhand. The scheme provides a pension of ₹ 1,000/- per month to the registered beneficiary who is permanently disabled due to paralysis/leprosy/tuberculosis/accident.",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "\"Nishaktata Pension Yojana (JBOCWWB)\" is a scheme by the Department of Labour, Employment, Training & Skill Development Govt of Jharkhand. This is a 100% State Sponsored Scheme. Only the residents/domicile of the state of Jharkhand can apply to this scheme. Applications for this scheme are accepted online through the official website of the department. The scheme provides a pension of ₹ 1,000/- per month to the registered beneficiary who is permanently disabled due to paralysis/leprosy/tuberculosis/accident."
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Disability Pension of ₹ 1,000/- per month."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Payment of the grace amount (Anugraha Rashi) of ₹ 10,000/- in a lump sum."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "detailedDescription_md": "&quot;Nishaktata Pension Yojana (JBOCWWB)&quot; is a scheme by the Department of Labour, Employment, Training &amp; Skill Development Govt of Jharkhand. This is a 100% State Sponsored Scheme. Only the residents/domicile of the state of Jharkhand can apply to this scheme. Applications for this scheme are accepted online through the official website of the department. The scheme provides a pension of ₹ 1,000/- per month to the registered beneficiary who is permanently disabled due to paralysis/leprosy/tuberculosis/accident.\n"
+    },
+    "applicationProcess": [
+      {
+        "mode": "Online",
+        "url": "https://shramadhan.jharkhand.gov.in/home",
+        "process": [
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "text": "Registration:",
+                "bold": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 1: ",
+                "bold": true
+              },
+              {
+                "text": "Visit the "
+              },
+              {
+                "type": "link",
+                "link": "https://shramadhan.jharkhand.gov.in/home",
+                "children": [
+                  {
+                    "text": "Official website"
+                  }
+                ]
+              },
+              {
+                "text": " of Comprehensive Labour Management System for Factory Establishment / Worker Registration / Inspection / Management & Grievance Redressal; Department of Labour, Employment, Training & Skill Development; Govt. of Jharkhand."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2:",
+                "bold": true
+              },
+              {
+                "text": " At the top right corner, click \"Login\". On the pop-up screen, click \"Register Here\"."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 3:",
+                "bold": true
+              },
+              {
+                "text": " On the next page, a Registration Form will appear. Provide the following mandatory details: First Name, Last Name, Email, and Mobile. Create a Username and a Password. Confirm the Password. Fill in the Captcha Code. Click \"Register\". Your Mobile Number and Email ID will be verified via One Time Password (OTP). Upon successful verification of the OTP, your registration will be successful. The Login Credentials will be sent to your registered Email ID and Mobile Number."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "text": "Application:",
+                "bold": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 1:",
+                "bold": true
+              },
+              {
+                "text": " Visit the "
+              },
+              {
+                "type": "link",
+                "link": "https://shramadhan.jharkhand.gov.in/home",
+                "children": [
+                  {
+                    "text": "Official website"
+                  }
+                ]
+              },
+              {
+                "text": " of Comprehensive Labour Management System for Factory Establishment / Worker Registration / Inspection / Management & Grievance Redressal; Department of Labour, Employment, Training & Skill Development; Govt. of Jharkhand."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2:",
+                "bold": true
+              },
+              {
+                "text": " At the top right corner, click \"Login\". Fill in your Username and Password. Click \"Login\"."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 3:",
+                "bold": true
+              },
+              {
+                "text": " In the ribbon, click \"Services > BOC Scheme Benefit > Application Form. On the next page, the \"Scheme Benefit Form\" (Application Form) will open. "
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "a)   In the \"Basic Details\" section, fill in the mandatory fields (fields ending with a red asterisk mark): BOC Registration Number, Applicant's Name, Applicant's Father's Name / Husband's Name, Applicant's Date of Birth, Applicant's Aadhaar Number, District, Sex."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "b)   In the \"Select Scheme\" section, select the scheme from the list that you wish to apply for."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "c)   In the \"Upload Section\", upload the mandatory documents (those ending with a red asterisk mark) in the specified file size and file type."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 4:",
+                "bold": true
+              },
+              {
+                "text": " Finally, click on \"Submit Request\" to submit your application. On the next page, your \"Application ID\" will be displayed, confirming the successful submission of the application. Please note down this Application ID for future reference. The Application ID will also be sent to your registered Email ID."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "text": "Check Application Status: ",
+                "bold": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 1:",
+                "bold": true
+              },
+              {
+                "text": " Once submitted, the application goes for 3-level approval: Clerk > Labour Superintendent > DLC."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2:",
+                "bold": true
+              },
+              {
+                "text": " Go to Services > BOC Scheme Benefit > Application Status."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 3:",
+                "bold": true
+              },
+              {
+                "text": " On the next page, fill in your Application ID, and click \"Search\". The status of your application will be displayed in a tabular format: Application ID, Applicant Name, Scheme Applied, Application Status, Remarks, Date, and Time. "
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 4:",
+                "bold": true
+              },
+              {
+                "text": " Once the DLC approves the application, the \"Application Status\" changes to \"Approved\". The Applicant can take print of this page by clicking “PRINT” and submit the same at the Labour Office to avail of the scheme benefit."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n1. The applicant should be a domicile in the state of Jharkhand.\n1. The applicant should be between 18-60 years of age.\n1. The applicant should be a Registered Worker with the &#39;Jharkhand Building and Other Construction Worker Welfare Board (JBOCWW Board)&#39;.\n1. The applicant should be permanently disabled due to paralysis/leprosy/tuberculosis/accidents.\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should be a domicile in the state of Jharkhand."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should be between 18-60 years of age."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should be a Registered Worker with the 'Jharkhand Building and Other Construction Worker Welfare Board (JBOCWW Board)'."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should be permanently disabled due to paralysis/leprosy/tuberculosis/accidents."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "npy-jbocwwb"
+}

@@ -1,0 +1,675 @@
+{
+  "_id": "6881d2c469de8e4acc489dda",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": true,
+      "tags": [
+        "Expensive Medical Treatment",
+        "Tuberculosis",
+        "Cancer",
+        "Leprosy",
+        "HIV",
+        "Sickle Cell Anaemia",
+        "Thalassemia"
+      ],
+      "schemeName": "Free Medical Assistance (Gujarat)",
+      "schemeShortTitle": "FMAGUJ",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce7a2d6d1a3bde46852b1",
+          "label": "Health & Wellness"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Financial assistance",
+          "label": "Financial assistance"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "schemeFor": "Individual",
+      "state": {
+        "value": 24,
+        "label": "Gujarat"
+      },
+      "nodalDepartmentName": {
+        "value": 2444467,
+        "label": "Tribal Development Department"
+      }
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://mariyojana.gujarat.gov.in/Schemeatoz.aspx"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The scheme &quot;Free Medical Assistance&quot; by the Tribal Development Department, Government of Gujarat, aims to provide financial assistance for expensive medical treatments to people of Scheduled Tribes. Through this scheme, monetary aid is provided to Scheduled Tribe individuals suffering from diseases like tuberculosis, cancer, leprosy, HIV/AIDS, sickle cell anaemia, and thalassemia, as well as for serious maternity cases and anaemia in women.\n<br>\n\n",
+      "benefits_md": "Financial assistance is provided to Scheduled Tribe individuals for medical treatment. The revised rates, effective from April 1, 2024, are as follows:\n<br>\n\n**S. No.****Name Of Disease****Current rate of assistance****Proposed Rate of Assistance****A Type:**1In Serve Cases Of Labour₹500/- per case₹2,000/- per case2For Female Genital Mutilation₹150/- per case₹2,000/- per case3Decay₹500/- every month until the pain is gone₹2,000/- every month until the pain subsides4Leprosy₹800/- per month until the pain is gone₹2,000/- every month until the pain subsides**B Type:**1CancerUntil then, ₹1,000/- per month will cure the pain.₹2,500/- every month until the pain subsides2For AIDS₹1,000/- every month until the pain subsides₹2,500/- every month until the pain subsides3Sickle cell anaemia₹500/- every month until the pain is gone₹2,500/- every month until the pain subsides4Thalassemia₹500/- per patient every month until the pain is relieved.₹2,500/- per patient every month until the pain is relieved.> **Mode of Disbursement:** The financial assistance will be disbursed through Direct Benefit Transfer (DBT). For HIV/AIDS patients, the payment will be made by cheque.\n\n> **Frequency of Disbursement:** Monthly until the patient recovers from tuberculosis, cancer, leprosy, AIDS, sickle cell anaemia, and thalassemia. Per case for serious maternity cases and anaemia in women.\n\n> **Validity:** The assistance is provided until the patient recovers from specified diseases.\n\n<br>\n\n",
+      "briefDescription": "The scheme aims to provide financial assistance for expensive medical treatments to Scheduled Tribe individuals. Through this scheme, monetary aid is provided to Scheduled Tribe individuals suffering from various diseases and for serious maternity cases and anaemia in women.",
+      "exclusions_md": "<br>\n\n",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The scheme \"Free Medical Assistance\" by the Tribal Development Department, Government of Gujarat, aims to provide financial assistance for expensive medical treatments to people of Scheduled Tribes. Through this scheme, monetary aid is provided to Scheduled Tribe individuals suffering from diseases like tuberculosis, cancer, leprosy, HIV/AIDS, sickle cell anaemia, and thalassemia, as well as for serious maternity cases and anaemia in women."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Financial assistance is provided to Scheduled Tribe individuals for medical treatment. The revised rates, effective from April 1, 2024, are as follows:"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "children": [
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "S. No.",
+                      "bold": true
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Name Of Disease",
+                      "bold": true
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Current rate of assistance",
+                      "bold": true
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Proposed Rate of Assistance",
+                      "bold": true
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "A Type:",
+                      "bold": true,
+                      "underline": true
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "1"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "In Serve Cases Of Labour"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "₹500/- per case"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "₹2,000/- per case"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "2"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "For Female Genital Mutilation"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "₹150/- per case"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "₹2,000/- per case"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "3"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Decay"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "₹500/- every month until the pain is gone"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "₹2,000/- every month until the pain subsides"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "4"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Leprosy"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "₹800/- per month until the pain is gone"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "₹2,000/- every month until the pain subsides"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "B Type:",
+                      "bold": true,
+                      "underline": true
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "1"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Cancer"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Until then, ₹1,000/- per month will cure the pain."
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "₹2,500/- every month until the pain subsides"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "2"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "For AIDS"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "₹1,000/- every month until the pain subsides"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "₹2,500/- every month until the pain subsides"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "3"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Sickle cell anaemia"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "₹500/- every month until the pain is gone"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "₹2,500/- every month until the pain subsides"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "4"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Thalassemia"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "₹500/- per patient every month until the pain is relieved."
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "₹2,500/- per patient every month until the pain is relieved."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "Mode of Disbursement: ",
+              "bold": true
+            },
+            {
+              "text": "The financial assistance will be disbursed through Direct Benefit Transfer (DBT). For HIV/AIDS patients, the payment will be made by cheque."
+            }
+          ]
+        },
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "Frequency of Disbursement:",
+              "bold": true
+            },
+            {
+              "text": " Monthly until the patient recovers from tuberculosis, cancer, leprosy, AIDS, sickle cell anaemia, and thalassemia. Per case for serious maternity cases and anaemia in women."
+            }
+          ]
+        },
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "Validity:",
+              "bold": true
+            },
+            {
+              "text": " The assistance is provided until the patient recovers from specified diseases."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ],
+      "exclusions": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "process": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 1:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " The interested applicant should visit the Office of the "
+              },
+              {
+                "type": "link",
+                "link": "https://nhm.gujarat.gov.in/Images/pdf/1_CDHO.pdf",
+                "children": [
+                  {
+                    "text": "Chief District Health Officer"
+                  }
+                ]
+              },
+              {
+                "text": ", and request the hard copy of the prescribed format of the application form from the staff."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " In the application form, fill in all the mandatory fields, and attach copies of all the mandatory documents (self-attest, if required)."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 3:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " Submit the duly filled and signed application form along with the documents, within the prescribed period (if any), to the "
+              },
+              {
+                "type": "link",
+                "link": "https://nhm.gujarat.gov.in/Images/pdf/1_CDHO.pdf",
+                "children": [
+                  {
+                    "text": "Chief District Health Officer."
+                  }
+                ]
+              },
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          }
+        ],
+        "process_md": "**Step 1:** The interested applicant should visit the Office of the [Chief District Health Officer](https://nhm.gujarat.gov.in/Images/pdf/1_CDHO.pdf), and request the hard copy of the prescribed format of the application form from the staff.\n**Step 2:** In the application form, fill in all the mandatory fields, and attach copies of all the mandatory documents (self-attest, if required).\n**Step 3:** Submit the duly filled and signed application form along with the documents, within the prescribed period (if any), to the [Chief District Health Officer.](https://nhm.gujarat.gov.in/Images/pdf/1_CDHO.pdf)\n<br>\n\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n- The applicant should belong to Gujarat.\n- The applicant should belong to a Scheduled Tribe.\n- The applicant&#39;s family income must be less than or equal to ₹6,00,000/-.\n- For HIV/AIDS patients, the annual income limit is ₹27,000/- for rural areas and ₹35,000/- for urban areas.\n\n<br>\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should belong to Gujarat."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should belong to a Scheduled Tribe."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant's family income must be less than or equal to ₹6,00,000/-."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "For HIV/AIDS patients, the annual income limit is ₹27,000/- for rural areas and ₹35,000/- for urban areas."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "fmaguj"
+}

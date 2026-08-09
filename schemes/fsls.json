@@ -1,0 +1,455 @@
+{
+  "_id": "685a975fb891d3ecdabc5de2",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Unreserved Category",
+        "Higher Education Abroad",
+        "MBBS",
+        "Master",
+        "PG Diploma"
+      ],
+      "schemeName": "Foreign Study Loan Scheme (GUEEDC)",
+      "schemeShortTitle": "FSLS",
+      "implementingAgency": "Gujarat Unreserved Educational And Economical Development Corporation",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce76cd6d1a3bde4685292",
+          "label": "Education & Learning"
+        },
+        {
+          "value": "628ce87cd6d1a3bde4685312",
+          "label": "Social welfare & Empowerment"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "International education",
+          "label": "International education"
+        },
+        {
+          "value": "Loan",
+          "label": "Loan"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "state": {
+        "value": 24,
+        "label": "Gujarat"
+      },
+      "nodalDepartmentName": {
+        "value": 2444464,
+        "label": "Social Justice and Empowerment Department"
+      }
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guideline",
+          "url": "https://gueedc.gujarat.gov.in/foreign-education-scheme.html"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The scheme provides **financial loan assistance** to students from the **unreserved category** to pursue **higher education abroad.** Loans up to **₹15 lakh** are granted at simple interest of **4% per annum**, with flexible repayment options. Security and repayment conditions depend on the loan amount. This scheme aims to support meritorious, economically weaker students for global education opportunities.\n",
+      "benefits_md": "**Loan Amount:** Up to ₹15.00 lakh\n**Interest Rate:** Simple interest at 4% per annum\n**Collateral:**\n**Up to ₹7.50 lakh:** Property valued at 1.5 times the loan amount\n**Above ₹7.50 lakh:** Property equal to the loan amount\n**Loan Repayment:**\n**Up to ₹5 lakh:** repay in 5 years after 1-year moratorium\n**Above ₹5 lakh**: repay in 6 years after 1-year moratorium\n<br>\n\n**Borrower can pre-pay without penalty**\n",
+      "briefDescription": "Loan scheme offering up to ₹15 lakh at 4% simple interest to unreserved category students for MBBS, PG, or equivalent courses abroad with flexible collateral and repayment conditions.",
+      "exclusions_md": "<br>\n\n",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The scheme provides "
+            },
+            {
+              "text": "financial loan assistance",
+              "bold": true
+            },
+            {
+              "text": " to students from the "
+            },
+            {
+              "text": "unreserved category",
+              "bold": true
+            },
+            {
+              "text": " to pursue "
+            },
+            {
+              "text": "higher education abroad.",
+              "bold": true
+            },
+            {
+              "text": " Loans up to "
+            },
+            {
+              "text": "₹15 lakh",
+              "bold": true
+            },
+            {
+              "text": " are granted at simple interest of "
+            },
+            {
+              "text": "4% per annum",
+              "bold": true
+            },
+            {
+              "text": ", with flexible repayment options. Security and repayment conditions depend on the loan amount. This scheme aims to support meritorious, economically weaker students for global education opportunities."
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Loan Amount:",
+              "bold": true
+            },
+            {
+              "text": " Up to ₹15.00 lakh"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Interest Rate: ",
+              "bold": true
+            },
+            {
+              "text": "Simple interest at 4% per annum"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "bold": true,
+              "underline": true,
+              "text": "Collateral:"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Up to ₹7.50 lakh:",
+              "bold": true
+            },
+            {
+              "text": " Property valued at 1.5 times the loan amount"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Above ₹7.50 lakh:",
+              "bold": true
+            },
+            {
+              "text": " Property equal to the loan amount"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Loan Repayment:",
+              "bold": true,
+              "underline": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Up to ₹5 lakh: ",
+              "bold": true
+            },
+            {
+              "text": "repay in 5 years after 1-year moratorium"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Above ₹5 lakh",
+              "bold": true
+            },
+            {
+              "text": ": repay in 6 years after 1-year moratorium"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Borrower can pre-pay without penalty",
+              "bold": true
+            }
+          ]
+        }
+      ],
+      "exclusions": null
+    },
+    "applicationProcess": [
+      {
+        "mode": "Online",
+        "process": [
+          {
+            "type": "ol_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Visit the Official Website:"
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://gueedc.gujarat.gov.in",
+                    "children": [
+                      {
+                        "text": " https://gueedc.gujarat.gov.in",
+                        "bold": true
+                      }
+                    ]
+                  },
+                  {
+                    "text": ""
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Click on “"
+                  },
+                  {
+                    "text": "Register",
+                    "bold": true
+                  },
+                  {
+                    "text": "” and fill in your basic details such as name, email, mobile number, and create a password."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Login ",
+                    "bold": true
+                  },
+                  {
+                    "text": "to Your Account."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": " From the dashboard, select the “"
+                  },
+                  {
+                    "text": "Foreign Study Loan",
+                    "bold": true
+                  },
+                  {
+                    "text": "” scheme ."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Fill the Online Application Form."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Upload Required Documents."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Submit the Application."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": " Save or note down your "
+                  },
+                  {
+                    "text": "unique application ID",
+                    "bold": true
+                  },
+                  {
+                    "text": " for future reference."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Print the Application Form."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Submit the signed hard copy and original documents for verification "
+                  },
+                  {
+                    "text": "at the GUEEDC office or as directed",
+                    "bold": true
+                  },
+                  {
+                    "text": "."
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "process_md": "\n1. Visit the Official Website:[ **https://gueedc.gujarat.gov.in**](https://gueedc.gujarat.gov.in)1. Click on “**Register**” and fill in your basic details such as name, email, mobile number, and create a password.1. **Login** to Your Account.1.  From the dashboard, select the “**Foreign Study Loan**” scheme .1. Fill the Online Application Form.\n1. Upload Required Documents.\n1. Submit the Application.\n1.  Save or note down your **unique application ID** for future reference.1. Print the Application Form.\n1. Submit the signed hard copy and original documents for verification **at the GUEEDC office or as directed**.\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n1. The applicant must be a **citizen of India** and a **resident of Gujarat.**1. The applicant must belong to the **Unreserved category**.1. The applicant must have passed **Class 12 with 60% or more marks**.1. The applicant must be seeking admission to **MBBS, Master’s, PG Diploma, or equivalent programs abroad.**1. The applicant’s annual family income must be **₹6.00 lakh or less.**\n",
+      "eligibilityDescription": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must be a"
+                },
+                {
+                  "text": " citizen of India",
+                  "bold": true
+                },
+                {
+                  "text": " and a "
+                },
+                {
+                  "text": "resident of Gujarat.",
+                  "bold": true
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must belong to the "
+                },
+                {
+                  "text": "Unreserved category",
+                  "bold": true
+                },
+                {
+                  "text": "."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must have passed "
+                },
+                {
+                  "text": "Class 12 with 60% or more marks",
+                  "bold": true
+                },
+                {
+                  "text": "."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must be seeking admission to "
+                },
+                {
+                  "text": "MBBS, Master’s, PG Diploma, or equivalent programs abroad.",
+                  "bold": true
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant’s annual family income must be "
+                },
+                {
+                  "text": "₹6.00 lakh or less.",
+                  "bold": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "fsls"
+}

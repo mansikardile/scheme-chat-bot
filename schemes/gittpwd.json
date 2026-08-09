@@ -1,0 +1,167 @@
+{
+  "_id": "66c8378fbfeff774c3925d91",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Teaching",
+        "Training",
+        "PwD",
+        "Hostel Facilities"
+      ],
+      "schemeName": "Government Institutions for Teaching and Training of Persons with Disabilities",
+      "schemeShortTitle": "GITTPWD",
+      "implementingAgency": "Social Welfare Department, Government Of Chhattisgarh",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce87cd6d1a3bde4685312",
+          "label": "Social welfare & Empowerment"
+        }
+      ],
+      "schemeSubCategory": null,
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "state": {
+        "value": 22,
+        "label": "Chhattisgarh"
+      },
+      "nodalDepartmentName": {
+        "value": 2200033,
+        "label": "Social Welfare Department"
+      },
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Scheme Details",
+          "url": "https://sw.cg.gov.in/government-institutions-teaching-disabilities"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The scheme &amp;quot;Government Institutions for Teaching and Training of Persons with Disabilities&amp;quot; was implemented by the Social Welfare Department, Government of Chhattisgarh. The objective of the scheme is to arrange for the education and rehabilitation of children with disabilities by providing them free hostel, education-training, food, clothing, and residential facilities.\n",
+      "benefits_md": "\n  - Under the scheme, beneficiaries will receive education, pre-professional training, and free hostel facilities in the concerned government institutions.\n\n",
+      "briefDescription": "The objective of the scheme is to arrange for education and rehabilitation of children with disabilities by providing them free hostel, education-training, food, clothing and residential facilities.",
+      "exclusions_md": "",
+      "detailedDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "The scheme \"Government Institutions for Teaching and Training of Persons with Disabilities\" was implemented by the Social Welfare Department, Government of Chhattisgarh. The objective of the scheme is to arrange for the education and rehabilitation of children with disabilities by providing them free hostel, education-training, food, clothing, and residential facilities."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 2,
+        "value": "in-kind",
+        "label": "In Kind"
+      },
+      "benefits": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "ul_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Under the scheme, beneficiaries will receive education, pre-professional training, and free hostel facilities in the concerned government institutions."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "process": [
+          {
+            "type": "align_justify",
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "On receipt of application, admission will be given as per eligibility on the recommendation of the committee constituted in the concerned institution."
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "process_md": "On receipt of application, admission will be given as per eligibility on the recommendation of the committee constituted in the concerned institution.\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n   1. The applicant should be a resident of Chhattisgarh.\n   1. The applicant should have a disability of 40% or more.\n   1. The applicant&amp;#39;s age should be more than 6 years and less than 10 years.\n   1. The monthly income of the applicant&amp;#39;s parents/guardians should be less than ₹8,000/-.\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "ol_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant should be a resident of Chhattisgarh."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant should have a disability of 40% or more."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant's age should be more than 6 years and less than 10 years."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The monthly income of the applicant's parents/guardians should be less than ₹8,000/-."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "gittpwd"
+}

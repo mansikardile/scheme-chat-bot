@@ -1,0 +1,444 @@
+{
+  "_id": "66ddcd947ce453f79b6372fc",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Stipend",
+        "Student",
+        "Minority Community",
+        "Hostel"
+      ],
+      "schemeName": "Mukhyamantri Alpsankhyak Chhatravas Yojana",
+      "schemeShortTitle": "MMACY",
+      "implementingAgency": "Minority Welfare Department, Government Of Bihar",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce76cd6d1a3bde4685292",
+          "label": "Education & Learning"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Scholarships and student finance",
+          "label": "Scholarships and student finance"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "state": {
+        "value": 10,
+        "label": "Bihar"
+      },
+      "schemeType": null,
+      "nodalMinistryName": null,
+      "nodalDepartmentName": {
+        "value": 10111136,
+        "label": "Minority Welfare Department"
+      },
+      "otherMinistryName": null,
+      "otherDepartmentNames": null,
+      "schemeFor": "Infra"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Official Website",
+          "url": "https://state.bihar.gov.in/minoritywelfare/SectionInformation.html?editForm&rowId=3392"
+        },
+        {
+          "title": "Scheme Details (Page No. 4)",
+          "url": "https://bsmfc.org/wp-content/uploads/2020/01/Yojnadarpan.pdf"
+        },
+        {
+          "title": "Scheme Details",
+          "url": "https://saran.nic.in/minority-welfare/#1691211504468-40f15a1f-bd2c"
+        },
+        {
+          "title": "E-kalyan Portal (Online Application)",
+          "url": "https://ekalyan.bih.nic.in/MH_App/default.aspx"
+        },
+        {
+          "title": "User Manual (Application Process)",
+          "url": "https://ekalyan.bih.nic.in/MH_App/Downloads/DemoApplicationForm.pdf"
+        }
+      ],
+      "schemeImageUrl": "",
+      "briefDescription": "Under this scheme, students belonging to minority communities who are studying in a recognized institution, school, college, university, or technical institution in their respective districts and residing in minority hostels are provided a monthly stipend of ₹1,000/-. ",
+      "detailedDescription_md": "The &amp;quot;Mukhyamantri Alpsankhyak Chhatravas Yojana&amp;quot; is a scheme initiated by the Minority Welfare Department, Government of Bihar. Under this scheme, students belonging to minority communities who are studying in a recognized institution, school, college, university, or technical institution in their respective districts and residing in minority hostels are provided a monthly stipend of ₹1,000/-. Additionally, these students receive 9 kg of rice and 6 kg of wheat every month, while residing in hostels run by the Minority Welfare Department, Government of Bihar.\n",
+      "benefits_md": "Under this scheme, students from minority communities who are studying and residing in hostels run by the Minority Welfare Department, Government of Bihar, will receive the following benefits:\n\n  - A monthly stipend of ₹1,000/-.\n  - Provision of essential facilities such as cots, mattresses, bed sheets, tables, chairs for studying, as well as cooking utensils and kitchen facilities. \n  - Monthly distribution of 9 kg of rice and 6 kg of wheat to each student.\n\n",
+      "exclusions_md": "",
+      "detailedDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "The \"Mukhyamantri Alpsankhyak Chhatravas Yojana\" is a scheme initiated by the Minority Welfare Department, Government of Bihar. Under this scheme, students belonging to minority communities who are studying in a recognized institution, school, college, university, or technical institution in their respective districts and residing in minority hostels are provided a monthly stipend of ₹1,000/-. Additionally, these students receive 9 kg of rice and 6 kg of wheat every month, while residing in hostels run by the Minority Welfare Department, Government of Bihar."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 3,
+        "value": "composite",
+        "label": "Composite"
+      },
+      "benefits": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "Under this scheme, students from minority communities who are studying and residing in hostels run by the Minority Welfare Department, Government of Bihar, will receive the following benefits:"
+                }
+              ]
+            },
+            {
+              "type": "ul_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "A monthly stipend of ₹1,000/-."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Provision of essential facilities such as cots, mattresses, bed sheets, tables, chairs for studying, as well as cooking utensils and kitchen facilities. "
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Monthly distribution of 9 kg of rice and 6 kg of wheat to each student."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Online",
+        "process": [
+          {
+            "type": "align_justify",
+            "children": [
+              {
+                "type": "block_quote",
+                "children": [
+                  {
+                    "text": "Registration Process:",
+                    "bold": true,
+                    "underline": true
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 1:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Go to the "
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://ekalyan.bih.nic.in/MH_App/default.aspx",
+                    "children": [
+                      {
+                        "text": "E-kalyan Portal"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 2:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Review the guidelines and select \""
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://ekalyan.bih.nic.in/MH_App/Registration.aspx",
+                    "children": [
+                      {
+                        "text": "Create Account"
+                      }
+                    ]
+                  },
+                  {
+                    "text": ".\""
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 3: ",
+                    "bold": true
+                  },
+                  {
+                    "text": "Complete the registration form with all required details (marked with (*))."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 4:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Click \"Register\" to finalize the process."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 5:",
+                    "bold": true
+                  },
+                  {
+                    "text": " You will receive a confirmation message with your User ID and password displayed on the screen. "
+                  }
+                ]
+              },
+              {
+                "type": "block_quote",
+                "children": [
+                  {
+                    "text": "Apply for Scheme:",
+                    "bold": true,
+                    "underline": true
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 1: ",
+                    "bold": true
+                  },
+                  {
+                    "text": "Login to the "
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://ekalyan.bih.nic.in/MH_App/Login.aspx",
+                    "children": [
+                      {
+                        "text": "E-Kalyan Portal"
+                      }
+                    ]
+                  },
+                  {
+                    "text": " using your User ID and password from registration."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 2: ",
+                    "bold": true
+                  },
+                  {
+                    "text": "Enter your personal, academic, and other relevant details."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 3:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Choose the district(s) for which you are applying, noting that you can select multiple hostels within that district."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 4:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Click \"Save and Continue\" to proceed."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 5:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Complete the application by uploading all required documents and clicking \"Submit.\""
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Note 1:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Once submitted, the form cannot be modified."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Note 2:",
+                    "bold": true
+                  },
+                  {
+                    "text": " The Minority Welfare Department will seek the student list from the Principal of the minority hostel where the students stay."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              },
+              {
+                "type": "link",
+                "link": "https://ekalyan.bih.nic.in/MH_App/Downloads/DemoApplicationForm.pdf",
+                "children": [
+                  {
+                    "text": "User Manual "
+                  }
+                ]
+              },
+              {
+                "text": ""
+              }
+            ]
+          }
+        ],
+        "process_md": "&gt; **Registration Process:**\n\n**Step 1:** Go to the [E-kalyan Portal](https://ekalyan.bih.nic.in/MH_App/default.aspx).\n**Step 2:** Review the guidelines and select &amp;quot;[Create Account](https://ekalyan.bih.nic.in/MH_App/Registration.aspx).&amp;quot;\n**Step 3:** Complete the registration form with all required details (marked with (*)).\n**Step 4:** Click &amp;quot;Register&amp;quot; to finalize the process.\n**Step 5:** You will receive a confirmation message with your User ID and password displayed on the screen. \n&gt; **Apply for Scheme:**\n\n**Step 1:** Login to the [E-Kalyan Portal](https://ekalyan.bih.nic.in/MH_App/Login.aspx) using your User ID and password from registration.\n**Step 2:** Enter your personal, academic, and other relevant details.\n**Step 3:** Choose the district(s) for which you are applying, noting that you can select multiple hostels within that district.\n**Step 4:** Click &amp;quot;Save and Continue&amp;quot; to proceed.\n**Step 5:** Complete the application by uploading all required documents and clicking &amp;quot;Submit.&amp;quot;\n**Note 1:** Once submitted, the form cannot be modified.\n**Note 2:** The Minority Welfare Department will seek the student list from the Principal of the minority hostel where the students stay.\n[User Manual ](https://ekalyan.bih.nic.in/MH_App/Downloads/DemoApplicationForm.pdf)\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n   1. The applicant should be a native of Bihar.\n   1. The applicant should be a student.\n   1. The student should belong to a minority community.\n   1. The student should be enrolled in a recognized institution, school, college, university, or technical institution in their respective district.\n   1. The student should be pursuing a course that is recognized by the Government.\n   1. The student should reside in a hostel operated by the Minority Welfare Department, Government of Bihar, while pursuing their studies. \n\n",
+      "eligibilityDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "ol_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant should be a native of Bihar."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant should be a student."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The student should belong to a minority community."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The student should be enrolled in a recognized institution, school, college, university, or technical institution in their respective district."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The student should be pursuing a course that is recognized by the Government."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The student should reside in a hostel operated by the Minority Welfare Department, Government of Bihar, while pursuing their studies. "
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "mmacy"
+}

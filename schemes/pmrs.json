@@ -1,0 +1,286 @@
+{
+  "_id": "63d7be2d04d33927ca2a836e",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": true,
+      "tags": [
+        "Financial Assistance",
+        "Education",
+        "Student",
+        "Pre Matric",
+        "Scholarship"
+      ],
+      "schemeName": "Pre-Matric Scholarship",
+      "schemeShortTitle": "PMRS",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce76cd6d1a3bde4685292",
+          "label": "Education & Learning"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Scholarships and student finance",
+          "label": "Scholarships and student finance"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "schemeFor": "Individual",
+      "state": {
+        "value": 9,
+        "label": "Uttar Pradesh"
+      },
+      "nodalDepartmentName": {
+        "value": 90000052,
+        "label": "Backward Welfare Department"
+      }
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://www.backwardwelfareup.gov.in/en/page/pre-matric-scholarship-scheme"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The Pre-Matric Scholarship Scheme, implemented by the Department of Social Justice and Empowerment, Ministry of Social Justice and Empowerment, Government of India, aims to improve the educational status of students belonging to Other Backward Classes (OBCs). The scheme provides financial assistance to eligible students studying in government, aided, and recognized educational institutions, helping them continue their education and reducing the financial burden on their families. Through scholarship support, the scheme seeks to promote educational advancement, reduce dropout rates, and contribute to the social and economic upliftment of backward classes.\n<br>\n\n",
+      "benefits_md": "> ₹ 150/- per month for a maximum of 10 months and annual ad hoc grant  of ₹ 750/- in one go, maximum              ₹ 2250/- annually.\n\n<br>\n\n",
+      "exclusions_md": "<br>\n\n",
+      "briefDescription": "Under this scheme to improve the educational status of students belonging to Other Backward Classes (OBC) by providing fee reimbursement and financial assistance, thereby promoting access to education and supporting their social and economic upliftment.",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The Pre-Matric Scholarship Scheme, implemented by the Department of Social Justice and Empowerment, Ministry of Social Justice and Empowerment, Government of India, aims to improve the educational status of students belonging to Other Backward Classes (OBCs). The scheme provides financial assistance to eligible students studying in government, aided, and recognized educational institutions, helping them continue their education and reducing the financial burden on their families. Through scholarship support, the scheme seeks to promote educational advancement, reduce dropout rates, and contribute to the social and economic upliftment of backward classes."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "value": "Cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "₹ 150/- per month for a maximum of 10 months and annual ad hoc grant  of ₹ 750/- in one go, maximum              ₹ 2250/- annually."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ],
+      "exclusions": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Online",
+        "url": "https://scholarship.up.gov.in",
+        "process": [
+          {
+            "type": "ol_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "First of all, OBC students need to click on Option in the Student Section of  "
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://scholarship.up.gov.in",
+                    "children": [
+                      {
+                        "text": "website."
+                      }
+                    ]
+                  },
+                  {
+                    "text": ""
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Student Registration."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Fill out the application form."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Print out of application form."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Deposit the print out along with all the enclosures in the educational institute."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Verify and forward the application form by an educational institute."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Verify and forward the application by Education Officer."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Examine and match the data at state N.I.C. level."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Approve/disapprove by the District Approval Committee."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Lock the approved data with the digital signature by District Backward Class Welfare Officer."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Generate the demand by the Directorate based on the data available on N.I.C."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Depositing of the amount directly in the bank account of the student."
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "process_md": "\n1. First of all, OBC students need to click on Option in the Student Section of  [website.](https://scholarship.up.gov.in)1. Student Registration.\n1. Fill out the application form.\n1. Print out of application form.\n1. Deposit the print out along with all the enclosures in the educational institute.\n1. Verify and forward the application form by an educational institute.\n1. Verify and forward the application by Education Officer.\n1. Examine and match the data at state N.I.C. level.\n1. Approve/disapprove by the District Approval Committee.\n1. Lock the approved data with the digital signature by District Backward Class Welfare Officer.\n1. Generate the demand by the Directorate based on the data available on N.I.C.\n1. Depositing of the amount directly in the bank account of the student.\n\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n1. Native and studying in Uttar Pradesh. \n1. Annual income of the parents/guardians of the students upto ₹ 2 Lakh.\n1. Students studying in government schools, aided and recognized educational institutes (provided the availability of the budget). \n\n<br>\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Native and studying in Uttar Pradesh. "
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Annual income of the parents/guardians of the students upto ₹ 2 Lakh."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Students studying in government schools, aided and recognized educational institutes (provided the availability of the budget). "
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "pmrs"
+}

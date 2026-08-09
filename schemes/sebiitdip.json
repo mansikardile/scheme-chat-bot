@@ -1,0 +1,426 @@
+{
+  "_id": "64b50f9b481f59106a749d6d",
+  "en": {
+    "basicDetails": {
+      "schemeOpenDate": null,
+      "schemeCloseDate": null,
+      "state": null,
+      "nodalMinistryName": {
+        "value": 499,
+        "label": "Ministry Of Finance"
+      },
+      "nodalDepartmentName": {
+        "value": 1174,
+        "label": "Department of Financial Service"
+      },
+      "otherMinistryName": null,
+      "otherDepartmentNames": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Internship",
+          "label": "Internship"
+        }
+      ],
+      "dbtScheme": null,
+      "implementingAgency": "Securities And Exchange Board Of India",
+      "tags": [
+        "Internship",
+        "Student",
+        "FinTech",
+        "Business",
+        "Data Analytics"
+      ],
+      "schemeName": "SEBI ITD Internship Program",
+      "schemeShortTitle": "SEBIITDIP",
+      "level": {
+        "value": "central",
+        "label": "Central"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce76cd6d1a3bde4685292",
+          "label": "Education & Learning"
+        }
+      ],
+      "schemeType": {
+        "value": "central-sector-scheme",
+        "label": "Central Sector Scheme"
+      },
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://www.sebi.gov.in/sebi_data/careerfiles/dec-2019/1576758408220.pdf"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The SEBI ITD Internship Program provides hands-on training to the students of the institutes based in and around Mumbai. The program accepts up to 15 interns. The Interns accepted under this program would be given an opportunity to work on different Information Technology (IT) projects including Data Analytics (DA), regulatory business processes and reporting, and FinTech at SEBI. Such projects will provide an exceptional opportunity to the interns to apply their IT and DA skills while gaining valuable exposure to the functioning of the Indian capital markets.\n<br>\n\n> **Duration**\n\nThe internship program is proposed to be for a contiguous period of minimum 1 year which may comprise of either 2 semesters and 1 summer / winter internship or 3 trimesters and 1 summer / winter internship.\n<br>\n\n> **Schedule**\n\nAt least 3 days a week of internship at SEBI (excluding Saturdays, Sundays and Public Holidays).\n",
+      "benefits_md": "> **Stipend (₹)**\n\n\n1. For interns working 3 days in a week: 25,000\n1. For interns working 4 days in a week: 30,000\n\n<br>\n\n> **Leaves**\n\n\n1. For interns working 3 days in a week: 9\n1. For interns working 4 days in a week: 12\n\n<br>\n\n> **Accommodation**\n\nUnfurnished shared accommodation only for outstation candidates, subject to availability\n<br>\n\n> **Certificate**\n\nA certificate of completion of internship program by SEBI.\n<br>\n\n> **Other Perks**\n\n\n1. Public holidays as observed by SEBI.\n1. Lunch at SEBI office.\n\n",
+      "exclusions_md": "<br>\n\n",
+      "briefDescription": "The SEBI ITD Internship Program provides hands-on training to the students of the institutes based in and around Mumbai. The program accepts up to 15 interns. The Interns accepted under this program would be given an opportunity to work on different Information Technology (IT) projects.",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The SEBI ITD Internship Program provides hands-on training to the students of the institutes based in and around Mumbai. The program accepts up to 15 interns. The Interns accepted under this program would be given an opportunity to work on different Information Technology (IT) projects including Data Analytics (DA), regulatory business processes and reporting, and FinTech at SEBI. Such projects will provide an exceptional opportunity to the interns to apply their IT and DA skills while gaining valuable exposure to the functioning of the Indian capital markets."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        },
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "Duration",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The internship program is proposed to be for a contiguous period of minimum 1 year which may comprise of either 2 semesters and 1 summer / winter internship or 3 trimesters and 1 summer / winter internship."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        },
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "Schedule",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "At least 3 days a week of internship at SEBI (excluding Saturdays, Sundays and Public Holidays)."
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 3,
+        "value": "composite",
+        "label": "Composite"
+      },
+      "benefits": [
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "Stipend (₹)",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "For interns working 3 days in a week: 25,000"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "For interns working 4 days in a week: 30,000"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        },
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "Leaves",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "For interns working 3 days in a week: 9"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "For interns working 4 days in a week: 12"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        },
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "Accommodation",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Unfurnished shared accommodation only for outstation candidates, subject to availability"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        },
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "Certificate",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "A certificate of completion of internship program by SEBI."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        },
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "Other Perks",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Public holidays as observed by SEBI."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Lunch at SEBI office."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "exclusions": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "url": "",
+        "process": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "The eligible institutes may express their interest to participate in SEBI ITD Internship Program in the "
+              },
+              {
+                "type": "link",
+                "link": "https://www.sebi.gov.in/sebi_data/careerfiles/dec-2019/1576758408220.pdf",
+                "children": [
+                  {
+                    "text": "prescribed format "
+                  }
+                ]
+              },
+              {
+                "text": "Annexure-1) along with the relevant enclosures on or before January 20, 2020, including the profiles of the interested eligible candidates in the "
+              },
+              {
+                "type": "link",
+                "link": "https://www.sebi.gov.in/sebi_data/careerfiles/dec-2019/1576758408220.pdf",
+                "children": [
+                  {
+                    "text": "prescribed format "
+                  }
+                ]
+              },
+              {
+                "text": "(Annexure 2). The applications should be addressed to:"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Chief General Manager, Information Technology Department, SEB/ Bhavan, C4-A, G Block, Bandra Kurla Complex, Bandra (East), Mumbai, 400051, Maharashtra, India.",
+                "bold": true
+              }
+            ]
+          }
+        ],
+        "process_md": "The eligible institutes may express their interest to participate in SEBI ITD Internship Program in the [prescribed format ](https://www.sebi.gov.in/sebi_data/careerfiles/dec-2019/1576758408220.pdf)Annexure-1) along with the relevant enclosures on or before January 20, 2020, including the profiles of the interested eligible candidates in the [prescribed format ](https://www.sebi.gov.in/sebi_data/careerfiles/dec-2019/1576758408220.pdf)(Annexure 2). The applications should be addressed to:\n**Chief General Manager, Information Technology Department, SEB/ Bhavan, C4-A, G Block, Bandra Kurla Complex, Bandra (East), Mumbai, 400051, Maharashtra, India.**\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n1. The applicant should be a student pursuing a full-time MBA/MCA or equivalent degree or diploma of a duration of two years from an eligible institute.\n1. The applicant should hold a full-time graduate degree in engineering or a BCA degree.\n1. The applicant should have a strong aptitude for computer programming and data analytics. \n1. The applicant should have a minimum 60% aggregate marks at graduate level or equivalent CGPA\n1. The age of the applicant should not be more than 30 years as on 1st January of the respective year.\n1. The applicant should be an Indian citizen.\n\n**NOTE:** A basic understanding of financial markets is desirable but not mandatory.\n",
+      "eligibilityDescription": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should be a student pursuing a full-time MBA/MCA or equivalent degree or diploma of a duration of two years from an eligible institute."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should hold a full-time graduate degree in engineering or a BCA degree."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should have a strong aptitude for computer programming and data analytics. "
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should have a minimum 60% aggregate marks at graduate level or equivalent CGPA"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The age of the applicant should not be more than 30 years as on 1st January of the respective year."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should be an Indian citizen."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "NOTE: ",
+              "bold": true
+            },
+            {
+              "text": "A basic understanding of financial markets is desirable but not mandatory."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "sebiitdip"
+}

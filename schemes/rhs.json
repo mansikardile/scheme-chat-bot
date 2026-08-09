@@ -1,0 +1,575 @@
+{
+  "_id": "68cbacc789d250875d35d633",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Housing",
+        "Shelter",
+        "Accomodation",
+        "Flats",
+        "Construction"
+      ],
+      "schemeName": "Rental Housing Scheme",
+      "schemeShortTitle": "RHS",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce924d6d1a3bde4685354",
+          "label": "Transport & Infrastructure"
+        },
+        {
+          "value": "628ce87cd6d1a3bde4685312",
+          "label": "Social welfare & Empowerment"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Infrastructure",
+          "label": "Infrastructure"
+        },
+        {
+          "value": "Shelter",
+          "label": "Shelter"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        },
+        {
+          "value": "family",
+          "label": "Family"
+        }
+      ],
+      "schemeFor": "Family",
+      "state": {
+        "value": 18,
+        "label": "Assam"
+      },
+      "schemeType": null,
+      "nodalMinistryName": null,
+      "nodalDepartmentName": {
+        "value": 1800040,
+        "label": "Public Works Buildings & NH Department"
+      },
+      "otherMinistryName": null,
+      "otherDepartmentNames": null
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://ashb.assam.gov.in/portlets/state-plan-schemes"
+        },
+        {
+          "title": "Application Process",
+          "url": "https://ashb.assam.gov.in/how-to/how-to-apply-for-housing-accommodation"
+        }
+      ],
+      "schemeImageUrl": "",
+      "briefDescription": "The scheme aims to provide rental housing to individuals and families from lower and middle-income groups, address housing shortages, prevent unauthorized settlements, and promote orderly urban development. It benefits Grade Third and Grade Fourth employees and eligible non-government individuals.",
+      "detailedDescription_md": "The &quot;Rental Housing Scheme&quot; was launched by the Department of Housing and Urban Affairs, Government of Assam on 14th October 1977. The scheme aims to provide rental housing to individuals and families from lower and middle-income groups, address housing shortages, prevent unauthorized settlements, and promote orderly urban development in high-demand areas across Assam, with a significant presence in urban areas. The scheme provides rental housing particularly in urban and semi-urban areas and offers accommodation for Grade Third and Grade Fourth government or semi-government employees, while also benefiting eligible non-government individuals without property in the area.\n<br>\n\n",
+      "benefits_md": "\n- **Rental Housing Provision:** Provides rental housing to needy people, particularly in urban and semi-urban areas.- **Employment-based Accommodation:** Offers accommodation specifically for Grade Third and Grade Fourth government or semi-government employees.- **Non-government Eligibility:** Benefits eligible non-government individuals without property in the area.- **Urban Development:** Helps reduce unauthorized settlements by offering planned housing.- **Transparent Allocation:** Ensures transparent allotment through a draw-of-lots system as per Honourable Gauhati High Court directions.- **Geographic Coverage:** Supports urban and semi-urban housing needs across Assam with 2,322 rental flats constructed, of which 1,858 are located in greater Guwahati.- **Urban Planning Support:** Contributes to urban planning and stability by managing migration and housing demand.- **Housing Categories:** Housing types include Middle Income Group, Lower Income Group, and Economically Weaker Section categories.\n***Conditions***\n\n- Payment of rent and security deposit as per allotment order.\n- Compliance with all terms and conditions outlined under Section 15(1) of the Assam State Housing Board Rules, 1976.\n\n<br>\n\n",
+      "exclusions_md": "\n- The applicant who owns landed property in the same location is excluded from availing benefits under the scheme.\n- The applicant who fails to meet the conditions under Section 15 of Assam State Housing Board Rules, 1976 is excluded from availing benefits under the scheme.\n- The applicant whose age is less than 18 years or more than 60 years is excluded from the scheme.\n\n<br>\n\n",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The \"Rental Housing Scheme\" was launched by the Department of Housing and Urban Affairs, Government of Assam on 14th October 1977. The scheme aims to provide rental housing to individuals and families from lower and middle-income groups, address housing shortages, prevent unauthorized settlements, and promote orderly urban development in high-demand areas across Assam, with a significant presence in urban areas. The scheme provides rental housing particularly in urban and semi-urban areas and offers accommodation for Grade Third and Grade Fourth government or semi-government employees, while also benefiting eligible non-government individuals without property in the area."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 2,
+        "value": "in-kind",
+        "label": "In Kind"
+      },
+      "benefits": [
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Rental Housing Provision:",
+                  "bold": true,
+                  "underline": true
+                },
+                {
+                  "text": " Provides rental housing to needy people, particularly in urban and semi-urban areas."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Employment-based Accommodation:",
+                  "bold": true,
+                  "underline": true
+                },
+                {
+                  "text": " Offers accommodation specifically for Grade Third and Grade Fourth government or semi-government employees."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Non-government Eligibility:",
+                  "bold": true,
+                  "underline": true
+                },
+                {
+                  "text": " Benefits eligible non-government individuals without property in the area."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Urban Development:",
+                  "bold": true,
+                  "underline": true
+                },
+                {
+                  "text": " Helps reduce unauthorized settlements by offering planned housing."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Transparent Allocation:",
+                  "bold": true,
+                  "underline": true
+                },
+                {
+                  "text": " Ensures transparent allotment through a draw-of-lots system as per Honourable Gauhati High Court directions."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Geographic Coverage:",
+                  "bold": true,
+                  "underline": true
+                },
+                {
+                  "text": " Supports urban and semi-urban housing needs across Assam with 2,322 rental flats constructed, of which 1,858 are located in greater Guwahati."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Urban Planning Support:",
+                  "bold": true,
+                  "underline": true
+                },
+                {
+                  "text": " Contributes to urban planning and stability by managing migration and housing demand."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Housing Categories:",
+                  "bold": true,
+                  "underline": true
+                },
+                {
+                  "text": " Housing types include Middle Income Group, Lower Income Group, and Economically Weaker Section categories."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Conditions",
+              "bold": true,
+              "underline": true,
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Payment of rent and security deposit as per allotment order."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Compliance with all terms and conditions outlined under Section 15(1) of the Assam State Housing Board Rules, 1976."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ],
+      "exclusions": [
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant who owns landed property in the same location is excluded from availing benefits under the scheme."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant who fails to meet the conditions under Section 15 of Assam State Housing Board Rules, 1976 is excluded from availing benefits under the scheme."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant whose age is less than 18 years or more than 60 years is excluded from the scheme."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "process": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 1:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " Visit the "
+              },
+              {
+                "type": "link",
+                "link": "https://ashb.assam.gov.in/contact-us",
+                "children": [
+                  {
+                    "text": "Office of the Assam State Housing Board"
+                  }
+                ]
+              },
+              {
+                "text": ", R.G. Baruah Road, Guwahati-05, or the District Housing offices located in the respective districts of Assam."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " Obtain the prescribed application form from the designated staff by paying ₹500/-. The forms are available only during the notification period as announced by the board."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 3:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " Fill in all required personal details including employment or occupation information, income details, category selection, and other mandatory columns as specified in the form. Attach all required documents as listed in the documents section, ensuring they are properly organized and complete. Verify that all documents meet the specified requirements and are properly attested where necessary."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 4:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " Submit the completed application form along with all required documents in person at the Assam State Housing Board office or the respective District Housing office before the deadline as instructed in the notification."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 5:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " Receive a receipt or acknowledgment after successful submission of the application and documents. This acknowledgment serves as proof of application submission and should be retained for future reference."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "*Applications must be submitted before the deadline as instructed in the notification published by Assam State Housing Board.",
+                "italic": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "italic": true,
+                "text": "*Late submissions will not be accepted under any circumstances."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "italic": true,
+                "text": "*"
+              },
+              {
+                "text": "Notifications and updates are published on the official website "
+              },
+              {
+                "type": "link",
+                "link": "https://ashb.assam.gov.in/",
+                "children": [
+                  {
+                    "text": "https://ashb.assam.gov.in/"
+                  }
+                ]
+              },
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "heading_five",
+            "children": [
+              {
+                "text": "",
+                "bold": true,
+                "underline": true,
+                "italic": true
+              }
+            ]
+          },
+          {
+            "type": "heading_five",
+            "children": [
+              {
+                "bold": true,
+                "underline": true,
+                "italic": true,
+                "text": "Post-Application Processes"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 1:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " Rental Housing Scheme flats are allotted through a draw of lots as per Honourable Gauhati High Court directions. If the number of applicants exceeds the number of available flats, the final allotment will be made through this transparent process."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " Successful applicants must pay their rent and security deposit as per the allotment order issued by the board. Upon completion of payment formalities, occupancy can be taken as per the terms and conditions specified in the allotment order."
+              }
+            ]
+          },
+          {
+            "type": "heading_five",
+            "children": [
+              {
+                "text": "Grievance Redressal / Help & Support",
+                "bold": true,
+                "underline": true,
+                "italic": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Office Address:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " Office of the Commissioner, Assam State Housing Board, R.G. Baruah Road, Guwahati-781005"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Email:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " ashb@nic.in, housingboard2021@gmail.com"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          }
+        ],
+        "process_md": "**Step 1:** Visit the [Office of the Assam State Housing Board](https://ashb.assam.gov.in/contact-us), R.G. Baruah Road, Guwahati-05, or the District Housing offices located in the respective districts of Assam.\n**Step 2:** Obtain the prescribed application form from the designated staff by paying ₹500/-. The forms are available only during the notification period as announced by the board.\n**Step 3:** Fill in all required personal details including employment or occupation information, income details, category selection, and other mandatory columns as specified in the form. Attach all required documents as listed in the documents section, ensuring they are properly organized and complete. Verify that all documents meet the specified requirements and are properly attested where necessary.\n**Step 4:** Submit the completed application form along with all required documents in person at the Assam State Housing Board office or the respective District Housing office before the deadline as instructed in the notification.\n**Step 5:** Receive a receipt or acknowledgment after successful submission of the application and documents. This acknowledgment serves as proof of application submission and should be retained for future reference.\n_*Applications must be submitted before the deadline as instructed in the notification published by Assam State Housing Board._\n_*Late submissions will not be accepted under any circumstances._\n_*_Notifications and updates are published on the official website [https://ashb.assam.gov.in/](https://ashb.assam.gov.in/)\n##### ***Post-Application Processes***\n**Step 1:** Rental Housing Scheme flats are allotted through a draw of lots as per Honourable Gauhati High Court directions. If the number of applicants exceeds the number of available flats, the final allotment will be made through this transparent process.\n**Step 2:** Successful applicants must pay their rent and security deposit as per the allotment order issued by the board. Upon completion of payment formalities, occupancy can be taken as per the terms and conditions specified in the allotment order.\n##### ***Grievance Redressal / Help &amp; Support***\n**Office Address:** Office of the Commissioner, Assam State Housing Board, R.G. Baruah Road, Guwahati-781005\n**Email:** ashb@nic.in, housingboard2021@gmail.com\n<br>\n\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n- The applicant must be a Grade Third or Grade Fourth government or semi-government employee under Section 15(1) of Assam State Housing Board Rules, 1976.\n- The applicant must be a non-government individual meeting the conditions under Section 15(2) of Assam State Housing Board Rules, 1976.\n- The applicant must not own any landed property in the location where the rental housing is situated.\n- The applicant must fulfill all terms and conditions outlined under Section 15(1) of the Assam State Housing Board Rules, 1976.\n- The applicant must be between 18 years and 60 years of age.\n\n<br>\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must be a Grade Third or Grade Fourth government or semi-government employee under Section 15(1) of Assam State Housing Board Rules, 1976."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must be a non-government individual meeting the conditions under Section 15(2) of Assam State Housing Board Rules, 1976."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must not own any landed property in the location where the rental housing is situated."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must fulfill all terms and conditions outlined under Section 15(1) of the Assam State Housing Board Rules, 1976."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must be between 18 years and 60 years of age."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "rhs"
+}

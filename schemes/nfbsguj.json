@@ -1,0 +1,372 @@
+{
+  "_id": "687771b771dfad606a67e1ad",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": true,
+      "tags": [
+        "BPL",
+        "Social Security",
+        "Family",
+        "Household",
+        "Death"
+      ],
+      "schemeName": "National Family Benefit Scheme - Gujarat",
+      "schemeShortTitle": "NFBSG",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce87cd6d1a3bde4685312",
+          "label": "Social welfare & Empowerment"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Financial assistance",
+          "label": "Financial assistance"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "family",
+          "label": "Family"
+        }
+      ],
+      "schemeFor": "Family",
+      "state": {
+        "value": 24,
+        "label": "Gujarat"
+      },
+      "nodalDepartmentName": {
+        "value": 2444464,
+        "label": "Social Justice and Empowerment Department"
+      }
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Official Guidelines",
+          "url": "https://patan.nic.in/scheme/national-family-benefit-scheme-nfbs-sankatmochan/"
+        },
+        {
+          "title": "Guidelines",
+          "url": "https://sje.gujarat.gov.in/dsd/Schemes/2210?lang=english"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The “National Family Benefit Scheme” is a centrally sponsored scheme implemented in Gujarat by the Social Justice and Empowerment Department, Government of Gujarat. The scheme aims to provide social security to households living below the poverty line by offering financial assistance in the event of the death of the primary breadwinner. Under the scheme, a one-time lump sum assistance of ₹20,000 is provided to the widow or unmarried daughter of the deceased, if the primary breadwinner, aged between 18 and 59 years, passes away.\n<br>\n\n",
+      "benefits_md": "\n   1. A one-time assistance payment of ₹20,000/- is provided to the family of the deceased, whether the death was natural or accidental.\n\n***Notes:***\n\n  - The payment is intended for the family, specifically going to the widow or unmarried daughter.\n  - The assistance would be given to every case of death of breadwinner in a family.\n  - Payment of the assistance is made through Direct Benefit Transfer (DBT) into the beneficiary’s post or bank account.\n  - This is a one-time assistance payment.\n\n<br>\n\n",
+      "briefDescription": "The scheme aims to provide social security to Below Poverty Line (BPL) households. Under the scheme, a one-time lump sum assistance of ₹20,000 is provided to the widow or unmarried daughter of the deceased, if the primary breadwinner, aged between 18 and 59 years, passes away.",
+      "exclusions_md": "",
+      "detailedDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "The “National Family Benefit Scheme” is a centrally sponsored scheme implemented in Gujarat by the Social Justice and Empowerment Department, Government of Gujarat. The scheme aims to provide social security to households living below the poverty line by offering financial assistance in the event of the death of the primary breadwinner. Under the scheme, a one-time lump sum assistance of ₹20,000 is provided to the widow or unmarried daughter of the deceased, if the primary breadwinner, aged between 18 and 59 years, passes away."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "ol_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "A one-time assistance payment of ₹20,000/- is provided to the family of the deceased, whether the death was natural or accidental."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "Notes:",
+                  "bold": true,
+                  "italic": true
+                }
+              ]
+            },
+            {
+              "type": "ul_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The payment is intended for the family, specifically going to the widow or unmarried daughter."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The assistance would be given to every case of death of breadwinner in a family."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Payment of the assistance is made through Direct Benefit Transfer (DBT) into the beneficiary’s post or bank account."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "This is a one-time assistance payment."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Online - via CSC",
+        "process": [
+          {
+            "type": "align_justify",
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "The interested applicants for assistance can visit the nearest concerned Taluka Jan Seva Kendra- Mamlatdar office with all the mandatory documents."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          }
+        ],
+        "process_md": "The interested applicants for assistance can visit the nearest concerned Taluka Jan Seva Kendra- Mamlatdar office with all the mandatory documents.\n<br>\n\n"
+      },
+      {
+        "mode": "Offline",
+        "process": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 1: ",
+                "bold": true
+              },
+              {
+                "text": "The interested applicant should visit the Mamlatdar office or Gram Panchayat at the village level, request a hard copy of the prescribed format of the application form."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2: ",
+                "bold": true
+              },
+              {
+                "text": "In the application form, provide all the mandatory details, and attach copies of all the mandatory documents (self-attested, if required)."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 3: ",
+                "bold": true
+              },
+              {
+                "text": "Submit the duly filled and signed application form along with the supporting documents to the office of Gram Panchayat of their respective village."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Submission and Approval: ",
+                "bold": true,
+                "italic": true,
+                "underline": true
+              }
+            ]
+          },
+          {
+            "type": "ul_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "The Taluka Mamlatdars are authorized to approve or disapprove the assistance under this scheme."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Appeal Process: ",
+                "bold": true,
+                "underline": true,
+                "italic": true
+              }
+            ]
+          },
+          {
+            "type": "ul_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "In case an application is disapproved, an appeal can be made to the Prant Officer/Sub-Divisional Officer /SDO within 60 days of the disapproval."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          }
+        ],
+        "process_md": "**Step 1:** The interested applicant should visit the Mamlatdar office or Gram Panchayat at the village level, request a hard copy of the prescribed format of the application form.\n**Step 2:** In the application form, provide all the mandatory details, and attach copies of all the mandatory documents (self-attested, if required).\n**Step 3:** Submit the duly filled and signed application form along with the supporting documents to the office of Gram Panchayat of their respective village.\n***Submission and Approval:*** \n\n- The Taluka Mamlatdars are authorized to approve or disapprove the assistance under this scheme.\n\n***Appeal Process:*** \n\n- In case an application is disapproved, an appeal can be made to the Prant Officer/Sub-Divisional Officer /SDO within 60 days of the disapproval.\n\n<br>\n\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n1. The applicant should be a resident of Gujarat.\n1. The applicant should be a family member of the deceased.\n1. The family should be listed in the Below Poverty Line (BPL) list as determined by the Government of India.\n1. The deceased (male or female) should have been the primary income earner of the family.\n1. The death of the primary income earner should have occurred due to natural or accidental causes.\n1. The age of the deceased at the time of death should have been between 18 and 60 years.\n1. The application should be submitted within two years from the date of death to be eligible under the scheme.\n\n<br>\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should be a resident of Gujarat."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should be a family member of the deceased."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The family should be listed in the Below Poverty Line (BPL) list as determined by the Government of India."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The deceased (male or female) should have been the primary income earner of the family."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The death of the primary income earner should have occurred due to natural or accidental causes."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The age of the deceased at the time of death should have been between 18 and 60 years."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The application should be submitted within two years from the date of death to be eligible under the scheme."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "nfbsguj"
+}

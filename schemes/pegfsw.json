@@ -1,0 +1,387 @@
+{
+  "_id": "679b41e7e128bbaf340083fb",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Weaver",
+        "Death",
+        "Suicide",
+        "Ex-Gratia",
+        "Rehabilitation",
+        "Family"
+      ],
+      "schemeName": "Payment of Ex-Gratia to the Families of Suicidal Weavers",
+      "schemeShortTitle": "PEGFSW",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce87cd6d1a3bde4685312",
+          "label": "Social welfare & Empowerment"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Crisis/Disaster/Accident",
+          "label": "Crisis/Disaster/Accident"
+        },
+        {
+          "value": "Rehabilitation",
+          "label": "Rehabilitation"
+        },
+        {
+          "value": "Financial assistance",
+          "label": "Financial assistance"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "family",
+          "label": "Family"
+        }
+      ],
+      "state": {
+        "value": 28,
+        "label": "Andhra Pradesh"
+      },
+      "nodalDepartmentName": {
+        "value": 1102,
+        "label": "Department of Industries and Commerce"
+      },
+      "schemeFor": "Family"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://handlooms.ap.gov.in/documents/Suicidal_G.O._140.PDF"
+        },
+        {
+          "title": "Scheme Brief",
+          "url": "https://handlooms.ap.gov.in/stateschemes.html"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "Launched on 1st June 2004, the scheme &quot;Payment of Ex-Gratia to the Families of Suicidal Weavers&quot; by the Department of Handlooms &amp; Textiles, Government of Andhra Pradesh, provides ex-gratia of ₹ 1,50,000/- provided to the family / next of kin of the weavers who commit suicide due to weaving-related economic distress, such as Indebtedness, lack of employment in weaving/processing, harassment by fellow villagers related to handlooms or delivery of finished cloth, failure in providing livelihood to family members leading to despair.\n",
+      "benefits_md": "> **Financial Assistance**\n\n\n- An ex-gratia payment of ₹ 1,00,000/- to the family/next of kin of the deceased weaver.\n- Loan settlement up to a ceiling of ₹ 50,000/- to the creditors as a one-time settlement.\n- The ex-gratia amount will be deposited in a joint bank account of the Assistant Director (H&amp;T) of the concerned district and the legal heir, operated by the officer concerned.\n- The loan settlement will be paid under proper acknowledgement to the entitled person(s) identified by the committee, with no further liabilities on the deceased family.\n\n<br>\n\n> **Rehabilitation Package**\n\n\n- Admission of children in Social Welfare schools and hostels.\n- Allotment of houses under the Indira Awaas Yojana Scheme.\n- Economic support under government schemes.\n- Pensions and other social security measures.\n- Future weaving operations and marketing of cloth produced by the family will be decided by the territorial officer of the Handlooms and Textiles Department and the District Magistrate Officer, Andhra Pradesh State Handloom Weavers Cooperative.\n\n<br>\n\n> **Preventive Measures**\n\n\n- A helpline will be operational at every Collectorate to provide counselling and support to weavers in distress.\n- Preference will be given to such cases in extending benefits of ongoing government schemes related to weaving.\n\n",
+      "briefDescription": "Launched on 1st June 2004, the scheme \"Payment of Ex-Gratia to the Families of Suicidal Weavers\" by the Dept. of Handlooms & Textiles, Govt. of Andhra Pradesh, provides ex-gratia of ₹ 1,50,000/- provided to the family / next of kin of the weavers who commit suicide due to weaving-related distress.",
+      "exclusions_md": "",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Launched on 1st June 2004, the scheme \"Payment of Ex-Gratia to the Families of Suicidal Weavers\" by the Department of Handlooms & Textiles, Government of Andhra Pradesh, provides ex-gratia of ₹ 1,50,000/- provided to the family / next of kin of the weavers who commit suicide due to weaving-related economic distress, such as Indebtedness, lack of employment in weaving/processing, harassment by fellow villagers related to handlooms or delivery of finished cloth, failure in providing livelihood to family members leading to despair."
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 3,
+        "value": "composite",
+        "label": "Composite"
+      },
+      "benefits": [
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "Financial Assistance",
+              "bold": true,
+              "underline": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "An ex-gratia payment of ₹ 1,00,000/- to the family/next of kin of the deceased weaver."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Loan settlement up to a ceiling of ₹ 50,000/- to the creditors as a one-time settlement."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The ex-gratia amount will be deposited in a joint bank account of the Assistant Director (H&T) of the concerned district and the legal heir, operated by the officer concerned."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The loan settlement will be paid under proper acknowledgement to the entitled person(s) identified by the committee, with no further liabilities on the deceased family."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        },
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "Rehabilitation Package",
+              "bold": true,
+              "underline": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Admission of children in Social Welfare schools and hostels."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Allotment of houses under the Indira Awaas Yojana Scheme."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Economic support under government schemes."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Pensions and other social security measures."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Future weaving operations and marketing of cloth produced by the family will be decided by the territorial officer of the Handlooms and Textiles Department and the District Magistrate Officer, Andhra Pradesh State Handloom Weavers Cooperative."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        },
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "Preventive Measures",
+              "bold": true,
+              "underline": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "A helpline will be operational at every Collectorate to provide counselling and support to weavers in distress."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Preference will be given to such cases in extending benefits of ongoing government schemes related to weaving."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "process": [
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "text": "Submission of Application",
+                "bold": true,
+                "underline": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "The distressed family members of the deceased weaver must submit an application with full particulars to the Revenue Divisional Officer (RDO) having jurisdiction over the place of the deceased weaver."
+              }
+            ]
+          },
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "text": "Verification Process",
+                "bold": true,
+                "underline": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "The RDO will forward the application to the verification committee."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "The committee will verify the case, establish the cause of the suicide, and work out the one-time settlement package."
+              }
+            ]
+          },
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "text": "Approval and Disbursement",
+                "bold": true,
+                "underline": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Once the verification is complete, the ex-gratia amount and loan settlement will be processed."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "The ex-gratia amount will be deposited in a joint bank account, and the loan settlement will be paid to the creditors."
+              }
+            ]
+          }
+        ],
+        "process_md": "> **Submission of Application**\n\nThe distressed family members of the deceased weaver must submit an application with full particulars to the Revenue Divisional Officer (RDO) having jurisdiction over the place of the deceased weaver.\n> **Verification Process**\n\nThe RDO will forward the application to the verification committee.\nThe committee will verify the case, establish the cause of the suicide, and work out the one-time settlement package.\n> **Approval and Disbursement**\n\nOnce the verification is complete, the ex-gratia amount and loan settlement will be processed.\nThe ex-gratia amount will be deposited in a joint bank account, and the loan settlement will be paid to the creditors.\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "1.  The benefits apply to families of weavers who committed suicide due to weaving-related economic distress, such as:\n\n- Indebtedness.\n- Lack of employment in weaving/processing.\n- Harassment by fellow villagers related to handlooms or delivery of finished cloth.\n- Failure to provide livelihood to family members, leading to despair.\n\n2.  The suicide must have occurred on or after 1st April 1997.\n3.  The family should not have received any relief or family assistance earlier.\n",
+      "eligibilityDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "1.  The benefits apply to families of weavers who committed suicide due to weaving-related economic distress, such as:"
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Indebtedness."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Lack of employment in weaving/processing."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Harassment by fellow villagers related to handlooms or delivery of finished cloth."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Failure to provide livelihood to family members, leading to despair."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "2.  The suicide must have occurred on or after 1st April 1997."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "3.  The family should not have received any relief or family assistance earlier."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "pegfsw"
+}

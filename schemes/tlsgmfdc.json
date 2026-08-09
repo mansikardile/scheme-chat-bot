@@ -1,0 +1,668 @@
+{
+  "_id": "6878a2e092fe3670fa1401c8",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Minority",
+        "Self Employment",
+        "Business",
+        "Low Interest Loan"
+      ],
+      "schemeName": "Term Loan Scheme (GMFDC)",
+      "schemeShortTitle": "TLSGMFDC",
+      "implementingAgency": "Gujarat Minorities Finance And Development Corporation",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce87cd6d1a3bde4685312",
+          "label": "Social welfare & Empowerment"
+        },
+        {
+          "value": "628ce7f6d6d1a3bde46852d0",
+          "label": "Banking,Financial Services and Insurance"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Loan",
+          "label": "Loan"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "schemeFor": "Individual",
+      "state": {
+        "value": 24,
+        "label": "Gujarat"
+      },
+      "nodalDepartmentName": {
+        "value": 2444464,
+        "label": "Social Justice and Empowerment Department"
+      }
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Information Leaflet On Economic Upliftment Schemes Of Gujarat Minority Finance And Development Corporation",
+          "url": "https://sje.gujarat.gov.in/gmfdcl/assets/downloads/mahitipustika3011.pdf"
+        },
+        {
+          "title": "Official Website",
+          "url": "https://sje.gujarat.gov.in/gmfdcl/Economic-Prosperity"
+        },
+        {
+          "title": "Online Application",
+          "url": "https://gmfdconline.gujarat.gov.in/"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The scheme &amp;quot;Term Loan Scheme&amp;quot; is implemented by Gujarat Minorities Finance and Development Corporation (GMFDC) under the Social Justice and Empowerment Department, Government of Gujarat. The scheme aims to promote self-employment among individuals from the minority communities by providing financial assistance for agriculture and allied activities, small-scale businesses, craftsmanship, transport sector, traditional occupations, and service-based businesses/trades. Under this scheme, beneficiaries can avail loans at concessional interest rates to purchase equipment, raw materials, or working capital.\n<br>\n\n",
+      "benefits_md": "\n1. **Financial Assistance for Business:** Loans ranging from ₹1,00,000/- to ₹20,00,000/- are provided businesses/trades in various sectors listed below:\n  - Agriculture and allied businesses, such as animal husbandry, fisheries, etc.\n  - Technical &amp; Skilled self-employment businesses.\n  - Service-oriented businesses such as provision stores, ready-made garment shops, cyber cafés, cold drink parlors, auto repairing, beauty parlors, etc.\n  - Handicraft businesses.\n  - Transport sector.\n\n1. **Interest Rates:**\n\n  - For annual income up to ₹1,20,000/- (rural) and ₹1,20,000/- (urban), the interest rate is 6% per annum.\n  - For families with annual income above ₹1,20,000/- and up to ₹8,00,000/-, the interest rate is 8% for male beneficiaries and 6% for female beneficiaries.\n\n\n**3. Repayment:** The loan amount has to be repaid to the corporation in 60 equal installments over five years, including interest.\n<br>\n\n",
+      "exclusions_md": "&lt;br&gt;\n\n<br>\n\n",
+      "briefDescription": "The scheme aims to promote self-employment among individuals from the minority communities by providing financial assistance for agriculture and allied activities, small-scale businesses, craftsmanship, transport sector, traditional occupations, and service-based businesses/trades.",
+      "detailedDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "The scheme \"Term Loan Scheme\" is implemented by Gujarat Minorities Finance and Development Corporation (GMFDC) under the Social Justice and Empowerment Department, Government of Gujarat. The scheme aims to promote self-employment among individuals from the minority communities by providing financial assistance for agriculture and allied activities, small-scale businesses, craftsmanship, transport sector, traditional occupations, and service-based businesses/trades. Under this scheme, beneficiaries can avail loans at concessional interest rates to purchase equipment, raw materials, or working capital."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Financial Assistance for Business: ",
+                  "bold": true
+                },
+                {
+                  "text": "Loans ranging from ₹1,00,000/- to ₹20,00,000/- are provided businesses/trades in various sectors listed below:"
+                }
+              ]
+            },
+            {
+              "type": "ul_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Agriculture and allied businesses, such as animal husbandry, fisheries, etc."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Technical & Skilled self-employment businesses."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Service-oriented businesses such as provision stores, ready-made garment shops, cyber cafés, cold drink parlors, auto repairing, beauty parlors, etc."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Handicraft businesses."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Transport sector."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Interest Rates:",
+                  "bold": true
+                }
+              ]
+            },
+            {
+              "type": "ul_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "For annual income up to ₹1,20,000/- (rural) and ₹1,20,000/- (urban), the interest rate is 6% per annum."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "For families with annual income above ₹1,20,000/- and up to ₹8,00,000/-, the interest rate is 8% for male beneficiaries and 6% for female beneficiaries."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "3. Repayment:",
+              "bold": true
+            },
+            {
+              "text": " The loan amount has to be repaid to the corporation in 60 equal installments over five years, including interest."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ],
+      "exclusions": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Online",
+        "process": [
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "text": "Registration",
+                "bold": true,
+                "underline": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "bold": true,
+                "text": "Step 1: "
+              },
+              {
+                "text": "Visit the Gujarat Minority Finance and Development Corporation "
+              },
+              {
+                "type": "link",
+                "link": "https://gmfdconline.gujarat.gov.in/",
+                "children": [
+                  {
+                    "text": "official website"
+                  }
+                ]
+              },
+              {
+                "text": "."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2:",
+                "bold": true
+              },
+              {
+                "text": " Register as a new user with name, mobile number, email, Aadhaar number, and create a password."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 3:",
+                "bold": true
+              },
+              {
+                "text": " In the form, provide all the mandatory fields, fill in the captcha code, and click \"Submit\" to complete the registration process. A pop-up will appear acknowledging successful registration and displaying your User ID for Login."
+              }
+            ]
+          },
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "text": "Application",
+                "bold": true,
+                "underline": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "bold": true,
+                "text": "Step 1: "
+              },
+              {
+                "text": "Visit the Gujarat Minority Finance and Development Corporation "
+              },
+              {
+                "type": "link",
+                "link": "https://gmfdconline.gujarat.gov.in/",
+                "children": [
+                  {
+                    "text": "official website"
+                  }
+                ]
+              },
+              {
+                "text": "."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2: ",
+                "bold": true
+              },
+              {
+                "text": "Log in using your registered credentials. Select the Term Loan Scheme from the available schemes."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 3: ",
+                "bold": true
+              },
+              {
+                "text": "Fill in personal details, income information, business details, and bank account details."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "bold": true,
+                "text": "Step 4:"
+              },
+              {
+                "type": "link",
+                "link": "https://gmfdconline.gujarat.gov.in/",
+                "children": [
+                  {
+                    "text": " "
+                  }
+                ]
+              },
+              {
+                "text": "Upload required documents: Identity Proof, Address Proof, Income Certificate, Minority Certificate, Educational Qualification Certificate, Experience Certificate (if any), Business Proposal, and Bank Passbook."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 5:",
+                "bold": true
+              },
+              {
+                "text": " You will be taken to the online application form of the scheme. In the form, provide all the mandatory fields and upload all the mandatory documents in the specified format and size."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 6:",
+                "bold": true
+              },
+              {
+                "text": " Carefully review all the information provided and the documents uploaded. Make corrections, if any."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 7:",
+                "bold": true
+              },
+              {
+                "text": " Click \"Submit\" to submit your application. You'll receive a confirmation message. Note down your Application Number for future reference. You can also take a printout of the submitted application form."
+              }
+            ]
+          },
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "text": "Track Application Status",
+                "bold": true,
+                "underline": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "bold": true,
+                "text": "Step 1: "
+              },
+              {
+                "text": "Visit the Gujarat Minority Finance and Development Corporation "
+              },
+              {
+                "type": "link",
+                "link": "https://gmfdconline.gujarat.gov.in/",
+                "children": [
+                  {
+                    "text": "official website"
+                  }
+                ]
+              },
+              {
+                "text": "."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2:",
+                "bold": true
+              },
+              {
+                "text": " Navigate to the bottom of the home page, and click \"Your Application Status\"."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 3:",
+                "bold": true
+              },
+              {
+                "text": " On the next page, provide your Application Number, Date of Birth, and click \"View Status\". The current status of your application will be displayed."
+              }
+            ]
+          },
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "text": "Contact:",
+                "bold": true
+              },
+              {
+                "text": " "
+              }
+            ]
+          },
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "text": "For any assistance, contact 079-23253843, 23254583, 23253757 or email md-gmfdcl@gujarat.gov.in."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          }
+        ],
+        "process_md": "> **Registration**\n\n**Step 1:** Visit the Gujarat Minority Finance and Development Corporation [official website](https://gmfdconline.gujarat.gov.in/).\n**Step 2:** Register as a new user with name, mobile number, email, Aadhaar number, and create a password.\n**Step 3:** In the form, provide all the mandatory fields, fill in the captcha code, and click &quot;Submit&quot; to complete the registration process. A pop-up will appear acknowledging successful registration and displaying your User ID for Login.\n> **Application**\n\n**Step 1:** Visit the Gujarat Minority Finance and Development Corporation [official website](https://gmfdconline.gujarat.gov.in/).\n**Step 2:** Log in using your registered credentials. Select the Term Loan Scheme from the available schemes.\n**Step 3:** Fill in personal details, income information, business details, and bank account details.\n**Step 4:**[ ](https://gmfdconline.gujarat.gov.in/)Upload required documents: Identity Proof, Address Proof, Income Certificate, Minority Certificate, Educational Qualification Certificate, Experience Certificate (if any), Business Proposal, and Bank Passbook.\n**Step 5:** You will be taken to the online application form of the scheme. In the form, provide all the mandatory fields and upload all the mandatory documents in the specified format and size.\n**Step 6:** Carefully review all the information provided and the documents uploaded. Make corrections, if any.\n**Step 7:** Click &quot;Submit&quot; to submit your application. You&#39;ll receive a confirmation message. Note down your Application Number for future reference. You can also take a printout of the submitted application form.\n> **Track Application Status**\n\n**Step 1:** Visit the Gujarat Minority Finance and Development Corporation [official website](https://gmfdconline.gujarat.gov.in/).\n**Step 2:** Navigate to the bottom of the home page, and click &quot;Your Application Status&quot;.\n**Step 3:** On the next page, provide your Application Number, Date of Birth, and click &quot;View Status&quot;. The current status of your application will be displayed.\n> **Contact:** \n\n> For any assistance, contact 079-23253843, 23254583, 23253757 or email md-gmfdcl@gujarat.gov.in.\n\n<br>\n\n"
+      },
+      {
+        "mode": "Offline",
+        "process": [
+          {
+            "type": "ul_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Interested individuals should contact either the Gujarat Minority Finance and Development Corporation office in Gandhinagar or the District Deputy Director/District Social Welfare Officer (Developing Castes) office in their respective district to obtain the application form."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "text": "Contact Information for Gujarat Minorities Finance and Development Corporation, Gandhinagar:",
+                "bold": true,
+                "underline": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Address:",
+                "bold": true
+              },
+              {
+                "text": " Ground Floor and Second Floor, Block Number: 11, Dr. Jivraj Mehta Bhavan, Gandhinagar"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Phone Numbers:",
+                "bold": true
+              },
+              {
+                "text": " (079) 232 53843, 232 54583, 232 53757"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Email:",
+                "bold": true
+              },
+              {
+                "text": " md-gmfdcl@gujarat.gov.in"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          }
+        ],
+        "process_md": "\n- Interested individuals should contact either the Gujarat Minority Finance and Development Corporation office in Gandhinagar or the District Deputy Director/District Social Welfare Officer (Developing Castes) office in their respective district to obtain the application form.\n\n> **Contact Information for Gujarat Minorities Finance and Development Corporation, Gandhinagar:**\n\n**Address:** Ground Floor and Second Floor, Block Number: 11, Dr. Jivraj Mehta Bhavan, Gandhinagar\n**Phone Numbers:** (079) 232 53843, 232 54583, 232 53757\n**Email:** md-gmfdcl@gujarat.gov.in\n<br>\n\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n1. The applicant should be a resident of Gujarat.\n1. The applicant should belong to a minority religious community (Muslim, Christian, Sikh, Jain, Buddhist, Parsi, or Jewish) or a linguistic community (Sindhi, Marathi, or Urdu) in the state of Gujarat.\n1. The applicant, or any member of their family, should not have obtained a loan from Gujarat Minority Finance and Development Corporation Limited, Gujarat Backwards Class Development Corporation, Gandhinagar, including any other corporation/institution or bank of the Central or State Government.\n1. The annual income of the applicant&#39;s family should be:\n\n  - ₹98,000/- for rural areas.\n  - ₹1,20,000/- for urban areas.\n  - However, families with income exceeding ₹1,20,000/- and up to ₹8,00,000/- are also eligible, albeit with different interest rates.\n\n1. The applicant&#39;s age should be between 21 and 45 years.\n\n<br>\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should be a resident of Gujarat."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should belong to a minority religious community (Muslim, Christian, Sikh, Jain, Buddhist, Parsi, or Jewish) or a linguistic community (Sindhi, Marathi, or Urdu) in the state of Gujarat."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant, or any member of their family, should not have obtained a loan from Gujarat Minority Finance and Development Corporation Limited, Gujarat Backwards Class Development Corporation, Gandhinagar, including any other corporation/institution or bank of the Central or State Government."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The annual income of the applicant's family should be:"
+                }
+              ]
+            },
+            {
+              "type": "ul_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "₹98,000/- for rural areas."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "₹1,20,000/- for urban areas."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "However, families with income exceeding ₹1,20,000/- and up to ₹8,00,000/- are also eligible, albeit with different interest rates."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant's age should be between 21 and 45 years."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "tlsgmfdc"
+}

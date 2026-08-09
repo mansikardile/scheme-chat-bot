@@ -1,0 +1,849 @@
+{
+  "_id": "676c4855ff1de86fed7188e6",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": true,
+      "tags": [
+        "Scholarship",
+        "Student",
+        "Backward Classes",
+        "Post-Matric"
+      ],
+      "schemeName": "Jharkhand State Backward Classes Post-Matric Scholarship Scheme",
+      "schemeShortTitle": "JSBCPMSS",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce76cd6d1a3bde4685292",
+          "label": "Education & Learning"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "International education",
+          "label": "International education"
+        },
+        {
+          "value": "Scholarships and student finance",
+          "label": "Scholarships and student finance"
+        },
+        {
+          "value": "Universities and higher education",
+          "label": "Universities and higher education"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "state": {
+        "value": 20,
+        "label": "Jharkhand"
+      },
+      "nodalDepartmentName": {
+        "value": 2000026,
+        "label": "Department of Scheduled Tribe, Scheduled Caste, Minority and Backward Class Welfare"
+      },
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://ekalyan.cgg.gov.in/downloads/Post_Matric_Scholarship_sankalp_2022.pdf"
+        },
+        {
+          "title": "Official Website",
+          "url": "https://ekalyan.cgg.gov.in/"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The &quot;Jharkhand State Backward Classes Post-Matric Scholarship Scheme&quot; was launched by the Department of Scheduled Tribe, Scheduled Caste, Minority and Backward Class Welfare, Government of Jharkhand. The scheme aims to promote higher education among OBC students in Jharkhand and provides financial assistance to students pursuing professional and academic courses at the post-matriculation level. The scheme covers a wide range of courses, including professional, technical, and academic programs.\n",
+      "benefits_md": "**Covers tuition fees, academic allowance, and maintenance fees:**\nCourse GroupHosteller (₹)Day-scholar (₹)Group- 1 &amp;amp;amp;quot;A&amp;amp;amp;quot;1,00,00090,000Group- 1 &amp;amp;amp;quot;B&amp;amp;amp;quot;90,00085,000Group- 1 &amp;amp;amp;quot;C&amp;amp;amp;quot;85,00080,000Group- 2 &amp;amp;amp;quot;A&amp;amp;amp;quot;75,00070,000Group- 2 &amp;amp;amp;quot;B&amp;amp;amp;quot;70,000  65,000\nGroup- 2 &amp;amp;amp;quot;C&amp;amp;amp;quot;65,00060,000Group- 345,00040,000Group- 435,00030,000<br>\n\n**NOTE:** \n\n- The amount is directly credited to the Aadhaar-linked bank account through DBT (Direct Benefit Transfer).\n- 60% funding by the Ministry of Social Justice and Empowerment, Government of India, and 40% by the Jharkhand State Government.\n- The student must adhere to the attendance system prescribed by their educational institution or university to qualify for the scholarship.\n- If a student switches courses mid-way, they are eligible for the scholarship in the new course only if they did not receive a scholarship for the previous course in the same academic year.\n\n",
+      "briefDescription": "The \"Jharkhand State Backward Classes Post-Matric Scholarship Scheme\" aims to promote higher education among OBC students in Jharkhand. The scheme provides financial assistance to students pursuing professional and academic courses at the post-matriculation level. ",
+      "exclusions_md": "",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The \"Jharkhand State Backward Classes Post-Matric Scholarship Scheme\" was launched by the Department of Scheduled Tribe, Scheduled Caste, Minority and Backward Class Welfare, Government of Jharkhand. The scheme aims to promote higher education among OBC students in Jharkhand and provides financial assistance to students pursuing professional and academic courses at the post-matriculation level. The scheme covers a wide range of courses, including professional, technical, and academic programs."
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Covers tuition fees, academic allowance, and maintenance fees:",
+              "bold": true,
+              "underline": true
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "children": [
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Course Group"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Hosteller (₹)"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Day-scholar (₹)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Group- 1 \"A\""
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "1,00,000"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "90,000"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Group- 1 \"B\""
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "90,000"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "85,000"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Group- 1 \"C\""
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "85,000"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "80,000"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Group- 2 \"A\""
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "75,000"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "70,000"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Group- 2 \"B\""
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "70,000"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "  65,000"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "children": [
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Group- 2 \"C\""
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "65,000"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "60,000"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Group- 3"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "45,000"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "40,000"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Group- 4"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "35,000"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "30,000"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "NOTE: ",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The amount is directly credited to the Aadhaar-linked bank account through DBT (Direct Benefit Transfer)."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "60% funding by the Ministry of Social Justice and Empowerment, Government of India, and 40% by the Jharkhand State Government."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The student must adhere to the attendance system prescribed by their educational institution or university to qualify for the scholarship."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "If a student switches courses mid-way, they are eligible for the scholarship in the new course only if they did not receive a scholarship for the previous course in the same academic year."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Online",
+        "process": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Student Registration:",
+                "bold": true,
+                "italic": true,
+                "underline": true
+              }
+            ]
+          },
+          {
+            "type": "ul_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Students must apply online on the scholarship "
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://ekalyan.cgg.gov.in/",
+                    "children": [
+                      {
+                        "text": "e-Kalyan",
+                        "bold": true
+                      },
+                      {
+                        "text": " "
+                      },
+                      {
+                        "text": "portal",
+                        "bold": true
+                      }
+                    ]
+                  },
+                  {
+                    "text": " designated by the Department of Scheduled Tribes, Scheduled Castes, Minorities, and Backward Classes Welfare."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Students must first enter their Aadhaar number, name, date of birth, gender, mobile number while filling out the online registration form."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "After Registration:",
+                "bold": true,
+                "italic": true,
+                "underline": true
+              }
+            ]
+          },
+          {
+            "type": "ul_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "After validation, an application ID will be generated by the portal, which must be used to complete further steps of the application."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Students must provide the details of their Aadhaar-linked bank account under their name."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Students must upload the following documents to the portal. "
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "NOTE:",
+                "bold": true
+              },
+              {
+                "text": " Applications with bank account details in another person’s name will be rejected."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Verification by Educational Institutions:",
+                "bold": true,
+                "italic": true,
+                "underline": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "After submitting the online application, it will be verified by the respective educational institution or college through the departmental portal."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Applications not verified by the institution/college will be deemed invalid."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "NOTE: ",
+                "bold": true
+              },
+              {
+                "text": "Offline applications will not be accepted under any circumstances."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Instruction for Educational Institutions under the Post-Matric Scholarship Scheme:",
+                "bold": true,
+                "underline": true,
+                "italic": true
+              }
+            ]
+          },
+          {
+            "type": "ul_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "All educational institutions must register on the departmental scholarship portal within the stipulated time to be covered under the scheme."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Institutions/colleges must submit the required documents as specified by the Tribal Welfare Commissioner, Jharkhand, Ranchi."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "A prescribed form for registration will be made available on the scholarship portal by the Commissioner."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Only those institutions that maintain the prescribed academic standards are eligible under this scheme."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Institutions/colleges must possess a valid AISHE (All India Survey on Higher Education) or U-DISE (Unified District Information System for Education) code to qualify."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Institutions/colleges must register once on the portal, and the registration will remain valid for the duration of the course's recognition period."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Institutions must update their NAAC (National Assessment and Accreditation Council) or NBA (National Board of Accreditation) details on the portal."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "The Tribal Welfare Commissioner will verify these details via the NAAC/NBA portal."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Institutions must submit a self-audited report every six months in a prescribed format to the Tribal Welfare Commissioner."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Each institution must designate a Nodal Officer (Institute Nodal Officer - INO) to handle all scholarship-related tasks and provide necessary information to the District Welfare Officer."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Institutions and hostels housing students benefiting from the scheme must upload geo-tagged photographs to the departmental scholarship portal."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "A two-member inspection team constituted by the Tribal Welfare Commissioner will conduct physical inspections of out-of-state institutions every three years."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "If irregularities or errors are found during inspections, the Commissioner has the authority to take necessary actions."
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "process_md": "***Student Registration:***\n\n- Students must apply online on the scholarship [**e-Kalyan** **portal**](https://ekalyan.cgg.gov.in/) designated by the Department of Scheduled Tribes, Scheduled Castes, Minorities, and Backward Classes Welfare.- Students must first enter their Aadhaar number, name, date of birth, gender, mobile number while filling out the online registration form.\n\n***After Registration:***\n\n- After validation, an application ID will be generated by the portal, which must be used to complete further steps of the application.\n- Students must provide the details of their Aadhaar-linked bank account under their name.\n- Students must upload the following documents to the portal. \n\n**NOTE:** Applications with bank account details in another person’s name will be rejected.\n<br>\n\n***Verification by Educational Institutions:***\nAfter submitting the online application, it will be verified by the respective educational institution or college through the departmental portal.\nApplications not verified by the institution/college will be deemed invalid.\n<br>\n\n**NOTE:** Offline applications will not be accepted under any circumstances.\n<br>\n\n***Instruction for Educational Institutions under the Post-Matric Scholarship Scheme:***\n\n- All educational institutions must register on the departmental scholarship portal within the stipulated time to be covered under the scheme.\n- Institutions/colleges must submit the required documents as specified by the Tribal Welfare Commissioner, Jharkhand, Ranchi.\n- A prescribed form for registration will be made available on the scholarship portal by the Commissioner.\n- Only those institutions that maintain the prescribed academic standards are eligible under this scheme.\n- Institutions/colleges must possess a valid AISHE (All India Survey on Higher Education) or U-DISE (Unified District Information System for Education) code to qualify.\n- Institutions/colleges must register once on the portal, and the registration will remain valid for the duration of the course&#39;s recognition period.\n- Institutions must update their NAAC (National Assessment and Accreditation Council) or NBA (National Board of Accreditation) details on the portal.\n- The Tribal Welfare Commissioner will verify these details via the NAAC/NBA portal.\n- Institutions must submit a self-audited report every six months in a prescribed format to the Tribal Welfare Commissioner.\n- Each institution must designate a Nodal Officer (Institute Nodal Officer - INO) to handle all scholarship-related tasks and provide necessary information to the District Welfare Officer.\n- Institutions and hostels housing students benefiting from the scheme must upload geo-tagged photographs to the departmental scholarship portal.\n- A two-member inspection team constituted by the Tribal Welfare Commissioner will conduct physical inspections of out-of-state institutions every three years.\n- If irregularities or errors are found during inspections, the Commissioner has the authority to take necessary actions.\n\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "**Eligibility Criteria for the Student:**\n\n1. The student should be a native of Jharkhand.\n1. The student belongs to the Other Backward Class category.\n1. The student&#39;s family annual income should not exceed ₹2,50,000/-.\n1. The student must be enrolled in a recognized educational institution that complies with the rules of the scheme and is registered on the departmental scholarship portal. The student should be pursuing a post-matric course (Degree, Diploma, Certificate, or equivalent). \n1. The student should not be receiving any other scholarship or financial assistance from the central or state government. \n\n<br>\n\n**Classification of Courses:****** [**Page No. 18**](https://ekalyan.cgg.gov.in/downloads/Post_Matric_Scholarship_sankalp_2022.pdf)\nGroup 1: Professional degree/postgraduate courses in institutions with A++ to B++ NAAC accreditation.\nGroup 2: Vocational and diploma courses requiring Class 12 or higher qualifications.\nGroup 3: Polytechnic and other courses not covered in Groups 1 or 2.\nGroup 4: Graduate and Post Graduate course.Group 5: All post-matriculation (Post Class X level non-degree courses). \n",
+      "eligibilityDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Eligibility Criteria for the Student:",
+              "bold": true,
+              "underline": true
+            }
+          ]
+        },
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The student should be a native of Jharkhand."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The student belongs to the Other Backward Class category."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The student's family annual income should not exceed ₹2,50,000/-."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The student must be enrolled in a recognized educational institution that complies with the rules of the scheme and is registered on the departmental scholarship portal. The student should be pursuing a post-matric course (Degree, Diploma, Certificate, or equivalent). "
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The student should not be receiving any other scholarship or financial assistance from the central or state government. "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Classification of Courses:",
+              "bold": true,
+              "underline": true
+            },
+            {
+              "bold": true,
+              "text": " "
+            },
+            {
+              "type": "link",
+              "link": "https://ekalyan.cgg.gov.in/downloads/Post_Matric_Scholarship_sankalp_2022.pdf",
+              "children": [
+                {
+                  "bold": true,
+                  "text": "Page No. 18"
+                }
+              ]
+            },
+            {
+              "text": ""
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Group 1: Professional degree/postgraduate courses in institutions with A++ to B++ NAAC accreditation."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Group 2: Vocational and diploma courses requiring Class 12 or higher qualifications."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Group 3: Polytechnic and other courses not covered in Groups 1 or 2."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Group 4: Graduate and Post Graduate course.Group 5: All post-matriculation (Post Class X level non-degree courses). "
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "jsbcpmss"
+}

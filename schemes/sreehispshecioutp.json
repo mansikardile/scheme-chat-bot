@@ -1,0 +1,270 @@
+{
+  "_id": "65c34e27cd96dc5e07488148",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Financial Asisstance",
+        "Student",
+        "Disability",
+        "Reimbursement",
+        "Fees",
+        "College"
+      ],
+      "schemeName": "Scheme for Reimbursement of Educational Expenses to Hearing Impaired Students Pursuing Special Higher Education Courses Inside or Outside the Union Territory of Puducherry",
+      "schemeShortTitle": "SREEHISPSHECIOUTP",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce87cd6d1a3bde4685312",
+          "label": "Social welfare & Empowerment"
+        },
+        {
+          "value": "628ce76cd6d1a3bde4685292",
+          "label": "Education & Learning"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Financial assistance",
+          "label": "Financial assistance"
+        },
+        {
+          "value": "Citizen empowerment",
+          "label": "Citizen empowerment"
+        },
+        {
+          "value": "Scholarships and student finance",
+          "label": "Scholarships and student finance"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "state": {
+        "value": 34,
+        "label": "Puducherry"
+      },
+      "nodalDepartmentName": {
+        "value": 34000038,
+        "label": "Social Welfare Department, Puducherry"
+      },
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Citizen's Charter",
+          "url": "https://socwelfare.py.gov.in/sites/default/files/citizen-charter.pdf"
+        },
+        {
+          "title": "Contact Us",
+          "url": "https://socwelfare.py.gov.in/contact-us"
+        },
+        {
+          "title": "Sub Offices",
+          "url": "https://socwelfare.py.gov.in/sub--office-social-welfare-department"
+        },
+        {
+          "title": "Grievance Redressal",
+          "url": "https://pgportal.gov.in/"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The scheme “Scheme for Reimbursement of Educational Expenses to Hearing Impaired Students Pursuing Special Higher Education Courses Inside or Outside the Union Territory of Puducherry” by the Department of Social Welfare, Government of Puducherry was introduced to provide financial assistance to Hearing Impaired and Visually Impaired students for pursuing their special higher studies. Through this scheme, the reimbursement of the entire fee is granted from the first year onwards.\n",
+      "benefits_md": "\n- Reimbursement of entire fees from the first year of the course.\n\n",
+      "briefDescription": "This scheme was introduced by the  Dept of Social Welfare, Govt of Puducherry to provide financial assistance to Hearing Impaired and Visually Impaired students for pursuing their special higher studies. Through this scheme, the reimbursement of the entire fee is granted from the first year onwards.",
+      "exclusions_md": "",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The scheme “Scheme for Reimbursement of Educational Expenses to Hearing Impaired Students Pursuing Special Higher Education Courses Inside or Outside the Union Territory of Puducherry” by the Department of Social Welfare, Government of Puducherry was introduced to provide financial assistance to Hearing Impaired and Visually Impaired students for pursuing their special higher studies. Through this scheme, the reimbursement of the entire fee is granted from the first year onwards."
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Reimbursement of entire fees from the first year of the course."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "process": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 1: ",
+                "bold": true
+              },
+              {
+                "text": "The interested applicant should visit (during office hours) the "
+              },
+              {
+                "type": "link",
+                "link": "https://socwelfare.py.gov.in/sub--office-social-welfare-department",
+                "children": [
+                  {
+                    "text": "Office/ Sub-Office"
+                  }
+                ]
+              },
+              {
+                "text": " of the Department of Social Welfare, and request the hard copy of the prescribed format of the application form from the staff exclusively entrusted to issue and collect filled-in applications."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2:",
+                "bold": true
+              },
+              {
+                "text": " In the application form, fill in all the mandatory fields, paste the passport-sized photograph (signed across, if required), and attach copies of all the mandatory documents (self-attest, if required)."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 3: ",
+                "bold": true
+              },
+              {
+                "text": "Submit the duly filled and signed application form along with the documents to the authority given below - "
+              }
+            ]
+          },
+          {
+            "type": "ul_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Puducherry: ",
+                    "bold": true
+                  },
+                  {
+                    "text": "The Deputy Director, Differently Abled Section, Directorate of Social Welfare. "
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Karaikal: ",
+                    "bold": true
+                  },
+                  {
+                    "text": "The Assistant Director, Social Welfare Department (Sub Office)."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Mahe / Yanam: ",
+                    "bold": true
+                  },
+                  {
+                    "text": "The Welfare Officer (i\\c), Social Welfare Department (Sub Office). "
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 4: ",
+                "bold": true
+              },
+              {
+                "text": "Request a receipt or acknowledgement from the concerned authority to whom the application has been submitted. Ensure that the receipt contains essential details such as the date and time of submission, and a unique identification number (if applicable)."
+              }
+            ]
+          }
+        ],
+        "process_md": "**Step 1:** The interested applicant should visit (during office hours) the [Office/ Sub-Office](https://socwelfare.py.gov.in/sub--office-social-welfare-department) of the Department of Social Welfare, and request the hard copy of the prescribed format of the application form from the staff exclusively entrusted to issue and collect filled-in applications.\n**Step 2:** In the application form, fill in all the mandatory fields, paste the passport-sized photograph (signed across, if required), and attach copies of all the mandatory documents (self-attest, if required).\n**Step 3:** Submit the duly filled and signed application form along with the documents to the authority given below - \n\n- **Puducherry:** The Deputy Director, Differently Abled Section, Directorate of Social Welfare. - **Karaikal:** The Assistant Director, Social Welfare Department (Sub Office).- **Mahe / Yanam:** The Welfare Officer (i\\c), Social Welfare Department (Sub Office). \n**Step 4:** Request a receipt or acknowledgement from the concerned authority to whom the application has been submitted. Ensure that the receipt contains essential details such as the date and time of submission, and a unique identification number (if applicable).\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n- The applicant&#39;s annual income should be under ₹2,00,000.\n- The applicant should have a disability of 40% and above.\n- The applicant should be residing in the Union Territory of Puducherry since 5 years.\n- The applicant should be enrolled in a full-time special higher education course in a government-recognized institution.\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant's annual income should be under ₹2,00,000."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should have a disability of 40% and above."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should be residing in the Union Territory of Puducherry since 5 years."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should be enrolled in a full-time special higher education course in a government-recognized institution."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "sreehispshecioutp"
+}

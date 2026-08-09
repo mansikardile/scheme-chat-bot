@@ -1,0 +1,687 @@
+{
+  "_id": "698ac8458da282bbf4b89b1b",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Centre Of Excellence",
+        "AYUSH Infrastructure",
+        "Tertiary Healthcare",
+        "Institutional Upgradation"
+      ],
+      "schemeName": "Ayurswasthya Yojana: Up-gradation of Facilities to Centre of Excellence (CoE)",
+      "schemeShortTitle": "ASYCOE",
+      "level": {
+        "value": "central",
+        "label": "Central"
+      },
+      "schemeType": {
+        "value": "central-sector-scheme",
+        "label": "Central Sector Scheme"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce7a2d6d1a3bde46852b1",
+          "label": "Health & Wellness"
+        }
+      ],
+      "schemeSubCategory": null,
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "institution",
+          "label": "University / Institution"
+        },
+        {
+          "value": "government-organisation",
+          "label": "Government Organisation"
+        },
+        {
+          "value": "trust",
+          "label": "Trust"
+        },
+        {
+          "value": "ngo",
+          "label": "NGO"
+        }
+      ],
+      "schemeFor": "Infra",
+      "nodalMinistryName": {
+        "value": 1561,
+        "label": "Ministry Of Ayush"
+      },
+      "nodalDepartmentName": null
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://ayush.gov.in/resources/pdf/schemes/Ayurswasthya.pdf"
+        },
+        {
+          "title": "User Manual",
+          "url": "https://ngo.ayush.gov.in/uploads/assets/Frontend_User_Manual_v-1.2.pdf"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The scheme-component &amp;quot;AYUSH and Public Health&amp;quot; under the &amp;quot;Ayurswasthya Yojana&amp;quot; by the Ministry of Ayush, Government of India, provides financial assistance to reputed AYUSH and allied institutions to develop advanced facilities, research capacity, and specialized healthcare services. The scheme promotes innovation, education technology, and international collaboration in AYUSH systems. It also seeks to enhance infrastructure and professional competencies to promote AYUSH at national and international levels.\n> **Main activities under the scheme:**\n\n\n  - Up-gradation of facilities and infrastructure in AYUSH hospitals.\n  - Development of research and development activities in AYUSH medicines and therapeutics.\n  - Provision of specialized AYUSH healthcare services to patients.\n  - Professional competency development of AYUSH professionals.\n  - Development and sharing of AYUSH activity data with the Ministry of AYUSH.\n  - Implementation of specialized AYUSH projects and innovations.\n\n<br>\n\n",
+      "benefits_md": "\n  - **Financial Assistance:** Financial assistance of up to ₹10,00,00,000/- for a period of 3 years is provided to eligible institutions for establishing and upgrading Centres of Excellence.  - **Release of Installment-Based Fund:** Funds are released in 3 installments of 40%, 40%, and 20% of the total sanctioned amount, ensuring phased and performance-linked financial support.  - **Performance-Linked Disbursement:** The second and third installments are released only after expenditure of at least 75% of the released amount and submission and acceptance of the Utilization Certificate and satisfactory performance report.  - **Construction Cost Limit:** Expenditure on the construction of buildings is capped at 30% of the approved project budget.\n&gt; **Note:** Purchase of land /vehicle, **except ambulance** and foreign travel, is not allowed from the grant.\n\n<br>\n\n",
+      "exclusions_md": "<br>\n\n",
+      "briefDescription": "The scheme-component aims to support the establishment and up-gradation of reputed institutions to Centres of Excellence for strengthening AYUSH education, research, innovation, and advanced healthcare services.",
+      "detailedDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "The scheme-component \"AYUSH and Public Health\" under the \"Ayurswasthya Yojana\" by the Ministry of Ayush, Government of India, provides financial assistance to reputed AYUSH and allied institutions to develop advanced facilities, research capacity, and specialized healthcare services. The scheme promotes innovation, education technology, and international collaboration in AYUSH systems. It also seeks to enhance infrastructure and professional competencies to promote AYUSH at national and international levels."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "Main activities under the scheme:",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "ul_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Up-gradation of facilities and infrastructure in AYUSH hospitals."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Development of research and development activities in AYUSH medicines and therapeutics."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Provision of specialized AYUSH healthcare services to patients."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Professional competency development of AYUSH professionals."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Development and sharing of AYUSH activity data with the Ministry of AYUSH."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Implementation of specialized AYUSH projects and innovations."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "ul_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Financial Assistance: ",
+                      "bold": true
+                    },
+                    {
+                      "text": "Financial assistance of up to ₹10,00,00,000/- for a period of 3 years is provided to eligible institutions for establishing and upgrading Centres of Excellence."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Release of Installment-Based Fund: ",
+                      "bold": true
+                    },
+                    {
+                      "text": "Funds are released in 3 installments of 40%, 40%, and 20% of the total sanctioned amount, ensuring phased and performance-linked financial support."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Performance-Linked Disbursement: ",
+                      "bold": true
+                    },
+                    {
+                      "text": "The second and third installments are released only after expenditure of at least 75% of the released amount and submission and acceptance of the Utilization Certificate and satisfactory performance report."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Construction Cost Limit:",
+                      "bold": true
+                    },
+                    {
+                      "text": " Expenditure on the construction of buildings is capped at 30% of the approved project budget."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "block_quote",
+              "children": [
+                {
+                  "text": "Note: ",
+                  "bold": true
+                },
+                {
+                  "text": "Purchase of land /vehicle, "
+                },
+                {
+                  "text": "except ambulance",
+                  "bold": true
+                },
+                {
+                  "text": " and foreign travel, is not allowed from the grant."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ],
+      "exclusions": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "process": [
+          {
+            "type": "align_justify",
+            "children": [
+              {
+                "type": "block_quote",
+                "children": [
+                  {
+                    "text": "Registration Process:",
+                    "bold": true
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 1: ",
+                    "bold": true
+                  },
+                  {
+                    "text": "Visit the "
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://ngo.ayush.gov.in/register",
+                    "children": [
+                      {
+                        "text": "Ayush NGO Portal"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 2:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Fill in all the mandatory details and upload the relevant documents."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 3:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Verify the captcha and click on \"Register\". If required, click \"Cancel\" to discard changes."
+                  }
+                ]
+              },
+              {
+                "type": "block_quote",
+                "children": [
+                  {
+                    "text": "Login Process:",
+                    "bold": true
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 1:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Visit the "
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://ngo.ayush.gov.in/login",
+                    "children": [
+                      {
+                        "text": "Ayush NGO Portal"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 2:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Enter the registered email id, password. "
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 3: ",
+                    "bold": true
+                  },
+                  {
+                    "text": "Type the captcha and click on \"Login\"."
+                  }
+                ]
+              },
+              {
+                "type": "ul_list",
+                "children": [
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "text": "User Manual: "
+                      },
+                      {
+                        "type": "link",
+                        "link": "https://ngo.ayush.gov.in/uploads/assets/Frontend_User_Manual_v-1.2.pdf",
+                        "children": [
+                          {
+                            "text": "Click here"
+                          }
+                        ]
+                      },
+                      {
+                        "text": "."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "text": "Contact Us: "
+                      },
+                      {
+                        "type": "link",
+                        "link": "https://ngo.ayush.gov.in/contact-us",
+                        "children": [
+                          {
+                            "text": "Click here"
+                          }
+                        ]
+                      },
+                      {
+                        "text": "."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          }
+        ],
+        "mode": "Online",
+        "process_md": "&gt; **Registration Process:**\n\n**Step 1:** Visit the [Ayush NGO Portal](https://ngo.ayush.gov.in/register).\n**Step 2:** Fill in all the mandatory details and upload the relevant documents.\n**Step 3:** Verify the captcha and click on &amp;quot;Register&amp;quot;. If required, click &amp;quot;Cancel&amp;quot; to discard changes.\n&gt; **Login Process:**\n\n**Step 1:** Visit the [Ayush NGO Portal](https://ngo.ayush.gov.in/login).\n**Step 2:** Enter the registered email id, password. \n**Step 3:** Type the captcha and click on &amp;quot;Login&amp;quot;.\n\n  - User Manual: [Click here](https://ngo.ayush.gov.in/uploads/assets/Frontend_User_Manual_v-1.2.pdf).  - Contact Us: [Click here](https://ngo.ayush.gov.in/contact-us).\n<br>\n\n"
+      },
+      {
+        "mode": "Offline",
+        "process": [
+          {
+            "type": "ul_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Eligible organizations should apply in the prescribed format ("
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://ayush.gov.in/resources/pdf/schemes/Ayurswasthya.pdf",
+                    "children": [
+                      {
+                        "text": "Annexure- A"
+                      }
+                    ]
+                  },
+                  {
+                    "text": ") along with a detailed proposal (two copies) to:"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "text": "Director (Schemes),",
+                "bold": true
+              }
+            ]
+          },
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "text": "Ministry of Ayurveda, Yoga & Naturopathy, Unani, Siddha and Homoeopathy,",
+                "bold": true
+              }
+            ]
+          },
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "text": "AYUSH Bhawan, B-Block, GPO Complex, INA, New Delhi - 110023.",
+                "bold": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          }
+        ],
+        "process_md": "\n- Eligible organizations should apply in the prescribed format ([Annexure- A](https://ayush.gov.in/resources/pdf/schemes/Ayurswasthya.pdf)) along with a detailed proposal (two copies) to:\n> **Director (Schemes),**\n\n> **Ministry of Ayurveda, Yoga &amp; Naturopathy, Unani, Siddha and Homoeopathy,**\n\n> **AYUSH Bhawan, B-Block, GPO Complex, INA, New Delhi - 110023.**\n\n<br>\n\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "> **Eligible Organisation:**\n\n\n- Ayush teaching institutions recognised under the [IMCC Act, 1970](https://www.indiacode.nic.in/bitstream/123456789/19303/1/a1970-48_0.pdf), and the [HCC Act, 1973](https://www.indiacode.nic.in/bitstream/123456789/19294/1/homoeopathy_central_council_act%2C_1973.pdf),- Other Central/ State Govt. institutes, \n- Government-aided Institutions,\n- Undertaking/ Universities/ Research Councils/ Autonomous Organisations,\n- Non–profit Non-Governmental organisations engaged in one or more specialisations in AYUSH,\n- Reputed tertiary care hospitals with at least 250 beds aiming to establish AYUSH tertiary healthcare and research facilities.\n- Non-AYUSH reputed research and educational institutes willing to undertake AYUSH projects.\n\n> **Eligibility Criteria:**\n\n\n  - The organisation should furnish the necessary evidence for its potential in having achieved a level of eminence in the respective field at state level, and further potential to become a Centre of Excellence at the National level, as per the illustrative list placed at Annexure – D of the scheme guidelines.\n  - The organisation should be registered under the Societies Registration Act / Trust / Companies Act or any other Act.\n  - The applicant should have a competent core staff in the field in which the Centre of Excellence is proposed.\n  - The applicant should have a credible and transparent governing body and management committee consisting of reputed persons.\n  - Applicant shall have to make information available regarding any assistance if ever taken from the Government, along with the details of Utilization Certificate (UC) status of the previous grant availed.\n  - The institute should have a valid NABH/NAAC or other relevant accreditation/certification. \n\n<br>\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "Eligible Organisation:",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Ayush teaching institutions recognised under the "
+                },
+                {
+                  "type": "link",
+                  "link": "https://www.indiacode.nic.in/bitstream/123456789/19303/1/a1970-48_0.pdf",
+                  "children": [
+                    {
+                      "text": "IMCC Act, 1970"
+                    }
+                  ]
+                },
+                {
+                  "text": ", and the "
+                },
+                {
+                  "type": "link",
+                  "link": "https://www.indiacode.nic.in/bitstream/123456789/19294/1/homoeopathy_central_council_act%2C_1973.pdf",
+                  "children": [
+                    {
+                      "text": "HCC Act, 1973"
+                    }
+                  ]
+                },
+                {
+                  "text": ","
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Other Central/ State Govt. institutes, "
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Government-aided Institutions,"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Undertaking/ Universities/ Research Councils/ Autonomous Organisations,"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Non–profit Non-Governmental organisations engaged in one or more specialisations in AYUSH,"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Reputed tertiary care hospitals with at least 250 beds aiming to establish AYUSH tertiary healthcare and research facilities."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Non-AYUSH reputed research and educational institutes willing to undertake AYUSH projects."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "Eligibility Criteria:",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "ul_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The organisation should furnish the necessary evidence for its potential in having achieved a level of eminence in the respective field at state level, and further potential to become a Centre of Excellence at the National level, as per the illustrative list placed at Annexure – D of the scheme guidelines."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The organisation should be registered under the Societies Registration Act / Trust / Companies Act or any other Act."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant should have a competent core staff in the field in which the Centre of Excellence is proposed."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant should have a credible and transparent governing body and management committee consisting of reputed persons."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Applicant shall have to make information available regarding any assistance if ever taken from the Government, along with the details of Utilization Certificate (UC) status of the previous grant availed."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The institute should have a valid NABH/NAAC or other relevant accreditation/certification. "
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "asycoe"
+}

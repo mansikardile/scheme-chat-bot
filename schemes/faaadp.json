@@ -1,0 +1,254 @@
+{
+  "_id": "64534b9f9a0bca12ac11add8",
+  "en": {
+    "basicDetails": {
+      "schemeOpenDate": null,
+      "schemeCloseDate": null,
+      "state": {
+        "value": 27,
+        "label": "Maharashtra"
+      },
+      "nodalMinistryName": null,
+      "nodalDepartmentName": {
+        "value": 27111139,
+        "label": "Social Justice and Special Assistance Department"
+      },
+      "otherMinistryName": null,
+      "otherDepartmentNames": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Aids/Appliances",
+          "label": "Aids/Appliances"
+        },
+        {
+          "value": "Financial assistance",
+          "label": "Financial assistance"
+        }
+      ],
+      "dbtScheme": null,
+      "implementingAgency": "District Social Welfare Offices Of The Department Of Social Justice & Special Assistance, Govt. Of Maharashtra",
+      "tags": [
+        "Aids And Appliances",
+        "Person With Disability",
+        "Financial Assistance",
+        "Social Welfare"
+      ],
+      "schemeName": "Financial Assistance For Aids And Appliances For Disabled Persons",
+      "schemeShortTitle": "FAAADP",
+      "level": {
+        "value": "state",
+        "label": "State"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce87cd6d1a3bde4685312",
+          "label": "Social welfare & Empowerment"
+        }
+      ],
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://sjsa.maharashtra.gov.in/en/scheme-category/disability-welfare"
+        }
+      ],
+      "schemeImageUrl": "",
+      "briefDescription": "The \"Financial Assistance for Aids and Appliances for Disabled Persons\" is a scheme by the Govt. of Maharashtra. The objective of this scheme is to provide assistance to Persons with Disabilities (PwDs) for the purchase of aids and appliances as per their age group and the type of disability.",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The \"Financial Assistance for Aids and Appliances for Disabled Persons\" is a scheme by the Department of Social Justice & Special Assistance, Govt. of Maharashtra. The objective of this scheme is to provide assistance to Persons with Disabilities (PwDs) for the purchase of aids and appliances as per their age group and the type of disability. Only citizens who are permanent residents of the state of Maharashtra are eligible to apply for this scheme. This scheme is 100% funded by the Govt. of Maharashtra."
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 2,
+        "value": "in-kind",
+        "label": "In Kind"
+      },
+      "benefits": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "For Hearing Handicapped:",
+                  "bold": true
+                },
+                {
+                  "text": " Hearing Aids."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "For Orthopedically Handicapped:",
+                  "bold": true
+                },
+                {
+                  "text": " Crutches, Tricycles, Calipers, Wheel Chair."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "For Visually Handicapped:",
+                  "bold": true
+                },
+                {
+                  "text": " Tape Recorders and Blank Cassettes for Education Purposes Up to Cost of ₹3,000/-."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "detailedDescription_md": "The &quot;Financial Assistance for Aids and Appliances for Disabled Persons&quot; is a scheme by the Department of Social Justice &amp; Special Assistance, Govt. of Maharashtra. The objective of this scheme is to provide assistance to Persons with Disabilities (PwDs) for the purchase of aids and appliances as per their age group and the type of disability. Only citizens who are permanent residents of the state of Maharashtra are eligible to apply for this scheme. This scheme is 100% funded by the Govt. of Maharashtra.\n"
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "url": "",
+        "process": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 1: ",
+                "bold": true
+              },
+              {
+                "text": "Visit the "
+              },
+              {
+                "type": "link",
+                "link": "https://sjsa.maharashtra.gov.in/en/contacts",
+                "children": [
+                  {
+                    "text": "District Social Welfare Office"
+                  }
+                ]
+              },
+              {
+                "text": ", and request a hard copy of the format of the application form for the scheme from the concerned authority."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2: ",
+                "bold": true
+              },
+              {
+                "text": "In the application form, fill in all the mandatory fields, paste the passport-sized photograph (signed across), and attach all the (self-attested) mandatory documents."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 3: ",
+                "bold": true
+              },
+              {
+                "text": "Submit the duly filled and signed application form along with the documents to the Assistant Commissioner, District Social Welfare Office."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 4: ",
+                "bold": true
+              },
+              {
+                "text": "Acquire the receipt/acknowledgment of the successful submission of the application form from the District Social Welfare Office."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n1. The applicant should be a citizen of India.\n1. The applicant should be a permanent resident of Maharashtra State.\n1. The applicant should be a Person with Disability (Visually Handicapped, Low Vision, Hearing Impaired, Orthopedically Handicapped, etc).\n1. The percentage of the disability should be 40% or above.\n1. For financial assistance of 100% of the cost of the aids and appliances, the monthly income of the applicant should be less than ₹1,500/-.\n1. For financial assistance of 50% of the cost of the aids and appliances, the monthly income of the applicant should be between ₹1,500/- to ₹2,000/-.\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should be a citizen of India."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should be a permanent resident of Maharashtra State."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should be a Person with Disability (Visually Handicapped, Low Vision, Hearing Impaired, Orthopedically Handicapped, etc)."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The percentage of the disability should be 40% or above."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "For financial assistance of 100% of the cost of the aids and appliances, the monthly income of the applicant should be less than ₹1,500/-."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "For financial assistance of 50% of the cost of the aids and appliances, the monthly income of the applicant should be between ₹1,500/- to ₹2,000/-."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "faaadp"
+}

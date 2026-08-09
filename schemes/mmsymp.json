@@ -1,0 +1,544 @@
+{
+  "_id": "68ff1744a1ebeb90f61d9166",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Labour",
+        "Scholarship",
+        "Marriage Assistance",
+        "Insurance Assistance",
+        "Funeral Assistance"
+      ],
+      "schemeName": "Mukhyamantri Majadoor Suraksha Yojana",
+      "schemeShortTitle": "MMSYMP",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce87cd6d1a3bde4685312",
+          "label": "Social welfare & Empowerment"
+        }
+      ],
+      "schemeSubCategory": null,
+      "schemeOpenDate": null,
+      "schemeFor": "Individual",
+      "state": {
+        "value": 23,
+        "label": "Madhya Pradesh"
+      },
+      "nodalDepartmentName": {
+        "value": 2300053,
+        "label": "Department of Social Justice and Empowerment of Persons with Disabilities"
+      }
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guideline",
+          "url": "https://cmhelpline.mp.gov.in/schemes.aspx?vID=284"
+        },
+        {
+          "title": "Amendment",
+          "url": "https://sambal.mp.gov.in/Document/MMMSY.pdf"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The scheme is implemented by the Government of Madhya Pradesh to benefit labourers residing in rural and agricultural sectors. Under this scheme: registered workers receive maternity assistance, scholarships for their children, and insurance cover. It aims to bring social and economic security to families of unorganised agricultural workers by facilitating access to welfare assistance and ensuring eligibility criteria are met.\n<br>\n\n",
+      "benefits_md": "\n1. Maternity Leave Assistance –\n\n  - 45 days’ wage equivalent for registered female workers or wives of registered workers (first two deliveries).\n  - 15 days’ wage equivalent for fathers (paternity leave).\n\n1. Maternity Expense Assistance –\n\n  - Institutional deliveries covered under Janani Suraksha Yojana.\n  - ₹500/- aid for home deliveries of below-poverty-line women.\n  - Managed by the Public Health &amp; Family Welfare Department.\n\n1. Medical Assistance –\n\n  - Coverage under Deendayal Antyodaya Upchar Yojana and State Illness Assistance Scheme.\n  - Child heart-disease treatment under Mukhyamantri Bal Hriday Upchar Yojana.\n\n1. Scholarship / Student Award –\n\n  - Children of registered beneficiaries belonging to Scheduled Castes, Scheduled Tribes, Other Backward Classes, or General Category will receive scholarships under respective departmental schemes.\n  - Beneficiaries covered under Aam Aadmi Bima Yojana whose two children are studying in Classes 9–12 will receive educational scholarships through Life Insurance Corporation (LIC).\n  - Disabled children of registered workers with a disability of 40% or more will be eligible for disability scholarships.\n\n1. Marriage Assistance –\n\n  - Financial support for first marriage of registered workers’ daughters aged 18 + under Mukhyamantri Kanyadan/Nikah Yojana.\n\n1. Insurance Assistance – Insurance via Aam Aadmi Bima Yojana:\n\n  - Normal death – ₹30,000/-\n  - Accidental death – ₹75,000/-\n  - Permanent disability – ₹75,000/-\n  - Partial disability – ₹37,500/-\n\n1. Funeral Assistance –\n\n  - ₹2,000/- immediate help for funeral expenses upon death of worker or family member, provided through Gram Panchayat.\n\n\n<br>\n\n",
+      "briefDescription": "Mukhyamantri Majdur Suraksha Yojana provides registered rural and agriculture-based labourers in Madhya Pradesh with maternity assistance, scholarships for children, insurance cover and wage-loss compensation. Ensures social security for unorganised workers’ families.",
+      "exclusions_md": "\n- Applicants who do not fall under the eligibility criteria for registration.\n- Applicants residing in urban areas and those who do not fall under the definition of family under the scheme within the criteria given regarding the assistance amount will be considered ineligible for registration/assistance.\n\n<br>\n\n",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The scheme is implemented by the Government of Madhya Pradesh to benefit labourers residing in rural and agricultural sectors. Under this scheme: registered workers receive maternity assistance, scholarships for their children, and insurance cover. It aims to bring social and economic security to families of unorganised agricultural workers by facilitating access to welfare assistance and ensuring eligibility criteria are met."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 3,
+        "value": "composite",
+        "label": "Composite"
+      },
+      "benefits": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Maternity Leave Assistance –"
+                }
+              ]
+            },
+            {
+              "type": "ul_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "45 days’ wage equivalent for registered female workers or wives of registered workers (first two deliveries)."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "15 days’ wage equivalent for fathers (paternity leave)."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Maternity Expense Assistance –"
+                }
+              ]
+            },
+            {
+              "type": "ul_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Institutional deliveries covered under Janani Suraksha Yojana."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "₹500/- aid for home deliveries of below-poverty-line women."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Managed by the Public Health & Family Welfare Department."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Medical Assistance –"
+                }
+              ]
+            },
+            {
+              "type": "ul_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Coverage under Deendayal Antyodaya Upchar Yojana and State Illness Assistance Scheme."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Child heart-disease treatment under Mukhyamantri Bal Hriday Upchar Yojana."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Scholarship / Student Award –"
+                }
+              ]
+            },
+            {
+              "type": "ul_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Children of registered beneficiaries belonging to Scheduled Castes, Scheduled Tribes, Other Backward Classes, or General Category will receive scholarships under respective departmental schemes."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Beneficiaries covered under Aam Aadmi Bima Yojana whose two children are studying in Classes 9–12 will receive educational scholarships through Life Insurance Corporation (LIC)."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Disabled children of registered workers with a disability of 40% or more will be eligible for disability scholarships."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Marriage Assistance –"
+                }
+              ]
+            },
+            {
+              "type": "ul_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Financial support for first marriage of registered workers’ daughters aged 18 + under Mukhyamantri Kanyadan/Nikah Yojana."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Insurance Assistance – Insurance via Aam Aadmi Bima Yojana:"
+                }
+              ]
+            },
+            {
+              "type": "ul_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Normal death – ₹30,000/-"
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Accidental death – ₹75,000/-"
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Permanent disability – ₹75,000/-"
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Partial disability – ₹37,500/-"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Funeral Assistance –"
+                }
+              ]
+            },
+            {
+              "type": "ul_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "₹2,000/- immediate help for funeral expenses upon death of worker or family member, provided through Gram Panchayat."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ],
+      "exclusions": [
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Applicants who do not fall under the eligibility criteria for registration."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Applicants residing in urban areas and those who do not fall under the definition of family under the scheme within the criteria given regarding the assistance amount will be considered ineligible for registration/assistance."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Online",
+        "process": [
+          {
+            "type": "ol_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Registration ",
+                    "bold": true
+                  },
+                  {
+                    "text": "- On the recommendation of the Gram Panchayat, it will be done by the Chief Executive Officer of the District Panchayat within a period of 7 days."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "The registration fee will be Rs. 10/-, which will be deposited in the Gram Panchayat and at the end of every year, the details of the deposited amount will be sent to the Commissioner, Social Justice through the Chief Executive Officer, Janpad Panchayat."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "The registration period will be 5 years."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Renewal of Registration",
+                    "bold": true
+                  },
+                  {
+                    "text": " – Next date from the date of expiry of the original registration period. On the recommendation of the Gram Panchayat, renewal for 5 years can be done for the next 5 years, for this it will be mandatory that the beneficiary is working as a labourer while living in the Gram Panchayat and falls under the eligibility conditions."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Cancellation of registration",
+                    "bold": true
+                  },
+                  {
+                    "text": " – Registered beneficiaries have deviated from the norms of the scheme and have opted for other schemes. He has started doing some other labour/business/job for earning livelihood and it has been more than six months since he was displaced from his original place of residence. The Secretary, Gram Panchayat will read out the names of the registered beneficiaries in every Gram Sabha and get them approved and will be responsible for sending a proposal to the Chief Executive Officer, District Panchayat for cancellation of registration of those who have died or have been displaced. An appeal against the order can be made before the Tehsildar within 30 days."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Registered beneficiary information will be maintained on the Samagra portal at "
+                  },
+                  {
+                    "type": "link",
+                    "link": "http://socialsecurity.mp.gov.in/",
+                    "children": [
+                      {
+                        "text": "http://socialsecurity.mp.gov.in/"
+                      }
+                    ]
+                  },
+                  {
+                    "text": " or"
+                  },
+                  {
+                    "type": "link",
+                    "link": "http://sssm.nic.in/",
+                    "children": [
+                      {
+                        "text": " http://sssm.nic.in/"
+                      }
+                    ]
+                  },
+                  {
+                    "text": ". Beneficiaries can apply for registration and assistance through this portal. Application forms are attached in "
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://sambal.mp.gov.in/Document/MMMSY.pdf",
+                    "children": [
+                      {
+                        "text": "Appendices 1 and 2."
+                      }
+                    ]
+                  },
+                  {
+                    "text": ""
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": ""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          }
+        ],
+        "process_md": "\n1. **Registration** - On the recommendation of the Gram Panchayat, it will be done by the Chief Executive Officer of the District Panchayat within a period of 7 days.1. The registration fee will be Rs. 10/-, which will be deposited in the Gram Panchayat and at the end of every year, the details of the deposited amount will be sent to the Commissioner, Social Justice through the Chief Executive Officer, Janpad Panchayat.\n1. The registration period will be 5 years.\n1. **Renewal of Registration** – Next date from the date of expiry of the original registration period. On the recommendation of the Gram Panchayat, renewal for 5 years can be done for the next 5 years, for this it will be mandatory that the beneficiary is working as a labourer while living in the Gram Panchayat and falls under the eligibility conditions.1. **Cancellation of registration** – Registered beneficiaries have deviated from the norms of the scheme and have opted for other schemes. He has started doing some other labour/business/job for earning livelihood and it has been more than six months since he was displaced from his original place of residence. The Secretary, Gram Panchayat will read out the names of the registered beneficiaries in every Gram Sabha and get them approved and will be responsible for sending a proposal to the Chief Executive Officer, District Panchayat for cancellation of registration of those who have died or have been displaced. An appeal against the order can be made before the Tehsildar within 30 days.1. Registered beneficiary information will be maintained on the Samagra portal at [http://socialsecurity.mp.gov.in/](http://socialsecurity.mp.gov.in/) or[ http://sssm.nic.in/](http://sssm.nic.in/). Beneficiaries can apply for registration and assistance through this portal. Application forms are attached in [Appendices 1 and 2.](https://sambal.mp.gov.in/Document/MMMSY.pdf)\n<br>\n\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n1. The applicant should have been residing regularly in the Gram Panchayat for at least five years.\n1. The age of the applicant should be between 18 and 59 years.\n1. The applicant should be capable of performing wage labor.\n1. The applicant should earn his livelihood by working as a laborer in agriculture, horticulture, afforestation, collection of forest produce, fishing, etc.\n1. Neither the applicant nor any member of his family should own agricultural land.\n\n<br>\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should have been residing regularly in the Gram Panchayat for at least five years."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The age of the applicant should be between 18 and 59 years."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should be capable of performing wage labor."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should earn his livelihood by working as a laborer in agriculture, horticulture, afforestation, collection of forest produce, fishing, etc."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Neither the applicant nor any member of his family should own agricultural land."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "mmsymp"
+}

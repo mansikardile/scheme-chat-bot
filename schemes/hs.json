@@ -1,0 +1,259 @@
+{
+  "_id": "6459e1383782f1556f200055",
+  "en": {
+    "basicDetails": {
+      "schemeOpenDate": null,
+      "schemeCloseDate": null,
+      "state": {
+        "value": 2,
+        "label": "Himachal Pradesh"
+      },
+      "nodalMinistryName": null,
+      "nodalDepartmentName": {
+        "value": 21111158,
+        "label": "Department of Social Justice and Empowerment"
+      },
+      "otherMinistryName": null,
+      "otherDepartmentNames": null,
+      "targetBeneficiaries": [
+        {
+          "value": "family",
+          "label": "Family"
+        }
+      ],
+      "schemeSubCategory": null,
+      "dbtScheme": true,
+      "implementingAgency": null,
+      "tags": [
+        "Housing Scheme",
+        "Subsidy",
+        "Construction",
+        "SC/ST",
+        "Women",
+        "Handicapped",
+        "Minority Scheme"
+      ],
+      "schemeName": "House Subsidy Scheme",
+      "schemeShortTitle": "HS",
+      "level": {
+        "value": "state",
+        "label": "State"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce7d2d6d1a3bde46852c2",
+          "label": "Housing & Shelter"
+        }
+      ],
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Govt Portal",
+          "url": "https://hpshimla.nic.in/dwo-shimla/"
+        }
+      ],
+      "schemeImageUrl": "",
+      "briefDescription": "A subsidy of Rs. 1,30,000/- is given to persons from Scheduled Castes, Other Backward Classes, Minority Communities, Single Women, or handicapped for the construction of the house. ",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The housing subsidy scheme was launched by the Government of Himachal Pradesh to provide financial assistance to individuals from marginalized sections for the construction of their own houses. Under this scheme, a subsidy of Rs. 1,30,000/- is provided to persons from Scheduled Castes, Other Backward Classes, Minority Communities, Single Women, or handicapped for the construction of their houses. This scheme aims to improve the living conditions and overall quality of life of individuals from these sections."
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "1.\tThe scheme provides a subsidy of Rs. 1,30,000/- for the construction of a house."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "2.\tIndividuals from marginalized sections, including Scheduled Castes, Other Backward Classes, Minority Community, Single Women, or handicapped, can apply for this scheme.Communities"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "3.\tThis scheme aims to improve the living conditions and overall quality of life of individuals from these sections."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ],
+      "detailedDescription_md": "The housing subsidy scheme was launched by the Government of Himachal Pradesh to provide financial assistance to individuals from marginalized sections for the construction of their own houses. Under this scheme, a subsidy of Rs. 1,30,000/- is provided to persons from Scheduled Castes, Other Backward Classes, Minority Communities, Single Women, or handicapped for the construction of their houses. This scheme aims to improve the living conditions and overall quality of life of individuals from these sections.\n"
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "url": "",
+        "process": [
+          {
+            "type": "ol_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Obtain the application form: The application form for the scheme can be obtained from the concerned department or can be downloaded from the official website."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Fill out the application form: Fill out the application form with all the required details such as personal information, income details, and details of the proposed construction."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Gather necessary documents: Gather all the necessary documents such as Bonafied Himachali Certificate of the couple, Scheduled Cast/Other Backward Classes/Minority Community/Single Women or Handicapped Certificate, Income Certificate, Revenue Papers, Recommendation from the concerned Gram Panchayat, Certificate from the applicant that he/she is not availed any such subsidy earlier, and Latest Photographs of the present house."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Submit the application: Submit the filled application form along with all the necessary documents to the concerned department or Gram Panchayat."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Verification and approval: The application will be verified by the concerned authorities, and if found eligible, the subsidy amount will be approved and disbursed to the beneficiary."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": ""
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "1.\tThe applicant should be a resident of Himachal Pradesh.\n2.\tThe applicant should belong to Scheduled Cast, Other Backward Classes, Minority Community, Single Women, or Handicapped.\n3.\tThe applicant&#39;s annual income should be less than Rs. 3.00 lakhs.\n4.\tThe applicant should not have availed of any such subsidy earlier.\n5.\tThe applicant should have a bonafide Himachali certificate of the couple.\n6.\tThe applicant should possess a Scheduled Cast/Other Backward Classes/Minority Community/Single Women or Handicapped Certificate.\n7.\tThe applicant should have income and revenue papers (Record of Right – Parcha &amp; Tatima).\n8.\tThe applicant should have a recommendation from the concerned Gram Panchayat.\n9.\tLatest photographs of the present house are required.\n<br>\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "1.\tThe applicant should be a resident of Himachal Pradesh."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "2.\tThe applicant should belong to Scheduled Cast, Other Backward Classes, Minority Community, Single Women, or Handicapped."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "3.\tThe applicant's annual income should be less than Rs. 3.00 lakhs."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "4.\tThe applicant should not have availed of any such subsidy earlier."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "5.\tThe applicant should have a bonafide Himachali certificate of the couple."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "6.\tThe applicant should possess a Scheduled Cast/Other Backward Classes/Minority Community/Single Women or Handicapped Certificate."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "7.\tThe applicant should have income and revenue papers (Record of Right – Parcha & Tatima)."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "8.\tThe applicant should have a recommendation from the concerned Gram Panchayat."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "9.\tLatest photographs of the present house are required."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "hs"
+}

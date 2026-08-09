@@ -1,0 +1,567 @@
+{
+  "_id": "651bb5d213cc60269e8e2778",
+  "en": {
+    "basicDetails": {
+      "schemeOpenDate": null,
+      "schemeCloseDate": null,
+      "nodalMinistryName": null,
+      "nodalDepartmentName": {
+        "value": 30000026,
+        "label": "Information and Publicity Department"
+      },
+      "otherMinistryName": null,
+      "otherDepartmentNames": null,
+      "targetBeneficiaries": [
+        {
+          "value": "business-entity",
+          "label": "Business Entity"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Setting up / start-up / entrepreneurship",
+          "label": "Setting up / start-up / entrepreneurship"
+        }
+      ],
+      "dbtScheme": false,
+      "implementingAgency": null,
+      "tags": [
+        "Internet",
+        "Software",
+        "License",
+        "Reimbursement",
+        "Cloud Service"
+      ],
+      "schemeName": "Reimbursement of Expenses for Startups Operating from Leased/Privately Owned Premises Scheme",
+      "schemeShortTitle": "RESOLPOPS",
+      "level": {
+        "value": "state",
+        "label": "State"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce733d6d1a3bde4685278",
+          "label": "Business & Entrepreneurship"
+        }
+      ],
+      "state": {
+        "value": 30,
+        "label": "Goa"
+      },
+      "schemeFor": "Infra"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Goa Startup Schemes",
+          "url": "https://www.goa.gov.in/wp-content/uploads/2018/05/Schemes.pdf"
+        },
+        {
+          "title": "Guidelines",
+          "url": "https://startup.goa.gov.in/Incentives/ExpensesforStartupsScheme.pdf"
+        },
+        {
+          "title": "Startup Goa Website",
+          "url": "https://www.startup.goa.gov.in/StartupIncentives#GrantforIncubationCenterswithinEducationalInstitutesScheme"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The scheme “Reimbursement of Expenses for Startups Operating from Leased/Privately Owned Premises Scheme” is a scheme by the Department of Information Technology, Electronics and Communications, Government of Goa, for the Startups of Goa. The cost towards internet connectivity, software license fees, and cloud services fees, will be reimbursed.\n",
+      "benefits_md": "> **For start-ups that operate from privately owned premises:**\n\n\n1. The cost towards internet connectivity, software license fees, and cloud services fees, will be reimbursed subject to an upper limit of ₹ 1,00,000 per quarter for a period of one year. \n1. This benefit can be availed by 20 start-ups each year which the SPC shall select as per its guidelines.\n\n<br>\n\n> **For start-ups that operate from rented premises:**\n\n\n1. The cost towards internet connectivity, software license fees, and cloud services fees, will be reimbursed subject to an upper limit of ₹ 1,00,000 per quarter for a period of one year.\n1. This benefit can be availed by 20 start-ups each year which the SPC shall select as per its guidelines.\n1. For local start-ups that operate out of rented premises, a lease rental subsidy of up to ₹ 20/- per square foot per month will be reimbursed quarterly for a period of up to two years. \n1. This incentive is subject to a cap of ₹ 3,00,000 per annum and can be availed by 25 start-ups each year which shall be selected by the SPC as per its guidelines.\n\n<br>\n\n**NOTE 1:** A start-up can only avail the benefits either as per clause 1 or clause 2 at any given time.\n**NOTE 2:** Under no circumstance shall the benefits under this scheme be considered an entitlement. The SPC shall reserve the sole right to accept or reject applications.\n",
+      "briefDescription": "“Reimbursement of Expenses for Startups Operating from Leased/Privately Owned Premises Scheme” is a scheme for the Startups of Goa. The cost towards internet connectivity, software license fees and cloud services fees, will be reimbursed.",
+      "exclusions_md": "",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The scheme “Reimbursement of Expenses for Startups Operating from Leased/Privately Owned Premises Scheme” is a scheme by the Department of Information Technology, Electronics and Communications, Government of Goa, for the Startups of Goa. The cost towards internet connectivity, software license fees, and cloud services fees, will be reimbursed."
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "For start-ups that operate from privately owned premises:",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The cost towards internet connectivity, software license fees, and cloud services fees, will be reimbursed subject to an upper limit of ₹ 1,00,000 per quarter for a period of one year. "
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "This benefit can be availed by 20 start-ups each year which the SPC shall select as per its guidelines."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        },
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "For start-ups that operate from rented premises:",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The cost towards internet connectivity, software license fees, and cloud services fees, will be reimbursed subject to an upper limit of ₹ 1,00,000 per quarter for a period of one year."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "This benefit can be availed by 20 start-ups each year which the SPC shall select as per its guidelines."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "For local start-ups that operate out of rented premises, a lease rental subsidy of up to ₹ 20/- per square foot per month will be reimbursed quarterly for a period of up to two years. "
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "This incentive is subject to a cap of ₹ 3,00,000 per annum and can be availed by 25 start-ups each year which shall be selected by the SPC as per its guidelines."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "NOTE 1:",
+              "bold": true
+            },
+            {
+              "text": " A start-up can only avail the benefits either as per clause 1 or clause 2 at any given time."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "NOTE 2:",
+              "bold": true
+            },
+            {
+              "text": " Under no circumstance shall the benefits under this scheme be considered an entitlement. The SPC shall reserve the sole right to accept or reject applications."
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Online",
+        "process": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 1: ",
+                "bold": true
+              },
+              {
+                "text": "Visit the "
+              },
+              {
+                "type": "link",
+                "link": "https://goaonline.gov.in/public/startuplogin?",
+                "children": [
+                  {
+                    "text": "Official Website"
+                  }
+                ]
+              },
+              {
+                "text": " of Goa Startup Mission."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2: ",
+                "bold": true
+              },
+              {
+                "text": "Verify your Email ID and Mobile Number using OTP. You will be redirected to the Registration Page."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 3: ",
+                "bold": true
+              },
+              {
+                "text": "On the "
+              },
+              {
+                "type": "link",
+                "link": "https://goaonline.gov.in/Public/stpRegistration_af",
+                "children": [
+                  {
+                    "text": "Registration/Signup Page"
+                  }
+                ]
+              },
+              {
+                "text": ", fill in all the mandatory fields of the registration form (Country, Name, Date of Birth, Address, PIN Code, Gender, etc.)."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 4: ",
+                "bold": true
+              },
+              {
+                "text": "Create a Login Name and a strong Password (Password can have special characters like @ # $ % ^ & + =)."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 5: ",
+                "bold": true
+              },
+              {
+                "text": "Carefully read the Declaration and the Terms & Conditions, and tick the checkboxes."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 6: ",
+                "bold": true
+              },
+              {
+                "text": "Fill in the Captcha Code, and click \"Register/Signup\"."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 7:",
+                "bold": true
+              },
+              {
+                "text": " Login to the website using your Login Name and Password. Fill in the Captcha Code, and click \"Login\"."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 8:",
+                "bold": true
+              },
+              {
+                "text": " Navigate to the online application form for the relevant scheme."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 9:",
+                "bold": true
+              },
+              {
+                "text": " In the application form, fill in all the mandatory fields and upload all the mandatory documents (self-attest if required)."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 10:",
+                "bold": true
+              },
+              {
+                "text": " Submit the application and note the application reference number for application tracking."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "OR ",
+                "bold": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 1:",
+                "bold": true
+              },
+              {
+                "text": " Take a print of the "
+              },
+              {
+                "type": "link",
+                "link": "https://www.goa.gov.in/wp-content/uploads/2018/05/Schemes.pdf",
+                "children": [
+                  {
+                    "text": "proforma"
+                  }
+                ]
+              },
+              {
+                "text": " of the application form. Fill in all the mandatory fields, and attach copies of all the mandatory documents (self-attest if required)."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2:",
+                "bold": true
+              },
+              {
+                "text": " Submit the duly filled and signed application form along with the documents to SPC via Email at spc-dit.goa@gov.in"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "NOTE:",
+                "bold": true
+              },
+              {
+                "text": " The applicant can apply for this scheme at any time of the financial year but only within 6 months of incurring the relevant expenditure."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "text": "Notification",
+                "bold": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "The applications received by the SPC shall be evaluated and approval or rejection shall be notified within 45 days from receipt of the application by the SPC."
+              }
+            ]
+          }
+        ],
+        "process_md": "**Step 1:** Visit the [Official Website](https://goaonline.gov.in/public/startuplogin?) of Goa Startup Mission.\n**Step 2:** Verify your Email ID and Mobile Number using OTP. You will be redirected to the Registration Page.\n**Step 3:** On the [Registration/Signup Page](https://goaonline.gov.in/Public/stpRegistration_af), fill in all the mandatory fields of the registration form (Country, Name, Date of Birth, Address, PIN Code, Gender, etc.).\n**Step 4:** Create a Login Name and a strong Password (Password can have special characters like @ # $ % ^ &amp; + =).\n**Step 5:** Carefully read the Declaration and the Terms &amp; Conditions, and tick the checkboxes.\n**Step 6:** Fill in the Captcha Code, and click &quot;Register/Signup&quot;.\n**Step 7:** Login to the website using your Login Name and Password. Fill in the Captcha Code, and click &quot;Login&quot;.\n**Step 8:** Navigate to the online application form for the relevant scheme.\n**Step 9:** In the application form, fill in all the mandatory fields and upload all the mandatory documents (self-attest if required).\n**Step 10:** Submit the application and note the application reference number for application tracking.\n<br>\n\n**OR** \n<br>\n\n**Step 1:** Take a print of the [proforma](https://www.goa.gov.in/wp-content/uploads/2018/05/Schemes.pdf) of the application form. Fill in all the mandatory fields, and attach copies of all the mandatory documents (self-attest if required).\n**Step 2:** Submit the duly filled and signed application form along with the documents to SPC via Email at spc-dit.goa@gov.in\n<br>\n\n**NOTE:** The applicant can apply for this scheme at any time of the financial year but only within 6 months of incurring the relevant expenditure.\n<br>\n\n> **Notification**\n\nThe applications received by the SPC shall be evaluated and approval or rejection shall be notified within 45 days from receipt of the application by the SPC.\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "All Start-ups certified by the Start-up Promotion Cell (SPC) having a valid start-up certificate number that are not using any government-developed co-working spaces/ incubators/ accelerators for their operations are eligible.\n<br>\n\n**NOTE:** Only expenditures incurred after notification of Goa Start-up Policy 2017, being within the validity of this policy and paid for digitally will be considered for reimbursements under this scheme. In case digital payments are not possible then it shall be up to the SPC to admit the expenditure as per its guidelines.\n<br>\n\n> **Definitions**\n\n**Local start-up:** For the purpose of this scheme “Local start-up” shall mean a start-up in which at least 50% equity/share is held by one or more Goans continuously since the time of inception. \n**Goan:** For the purpose of this scheme the term “Goan” shall mean:\n1. Person born in the State of Goa; or,\n2. Person having domicile for 10 years or more in the State; or,\n3. Spouse of a person covered under any of the conditions mentioned in (1) and (2), through marriages registered in Goa.\n",
+      "eligibilityDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "All Start-ups certified by the Start-up Promotion Cell (SPC) having a valid start-up certificate number that are not using any government-developed co-working spaces/ incubators/ accelerators for their operations are eligible."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "bold": true,
+              "text": "NOTE: "
+            },
+            {
+              "text": "Only expenditures incurred after notification of Goa Start-up Policy 2017, being within the validity of this policy and paid for digitally will be considered for reimbursements under this scheme. In case digital payments are not possible then it shall be up to the SPC to admit the expenditure as per its guidelines."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        },
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "Definitions",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Local start-up:",
+              "bold": true
+            },
+            {
+              "text": " For the purpose of this scheme “Local start-up” shall mean a start-up in which at least 50% equity/share is held by one or more Goans continuously since the time of inception. "
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Goan:",
+              "bold": true
+            },
+            {
+              "text": " For the purpose of this scheme the term “Goan” shall mean:"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "1. Person born in the State of Goa; or,"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "2. Person having domicile for 10 years or more in the State; or,"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "3. Spouse of a person covered under any of the conditions mentioned in (1) and (2), through marriages registered in Goa."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "resolpops"
+}

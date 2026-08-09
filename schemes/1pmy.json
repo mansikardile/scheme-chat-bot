@@ -1,0 +1,359 @@
+{
+  "_id": "68e352e3e00490d9b3311389",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Housing",
+        "Penalty",
+        "Waiver",
+        "Tenant",
+        "Urban"
+      ],
+      "schemeName": "100% Penalty Mafi Yojana",
+      "schemeShortTitle": "1PMY",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce7d2d6d1a3bde46852c2",
+          "label": "Housing & Shelter"
+        },
+        {
+          "value": "628ce97ad6d1a3bde468537d",
+          "label": "Utility & Sanitation"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Housing",
+          "label": "Housing"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "schemeFor": "Individual",
+      "state": {
+        "value": 24,
+        "label": "Gujarat"
+      },
+      "nodalDepartmentName": {
+        "value": 2444468,
+        "label": "Urban Development and Urban Housing Department"
+      }
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines [Scheme No. 8716]",
+          "url": "https://mariyojana.gujarat.gov.in/Schemeatoz.aspx"
+        },
+        {
+          "title": "Online Application",
+          "url": "https://tally.so/r/w5GN66"
+        },
+        {
+          "title": "CMO Gujarat",
+          "url": "https://cmogujarat.gov.in/en/latest-news/gujarat-cm-takes-important-decision-giving-rebate-payment-outstanding-municipal-taxes"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The scheme &quot;100% Penalty Mafi Yojana&quot; was launched by the Urban Development and Urban Housing Department, Government of Gujarat. The scheme aims to provide financial relief to beneficiaries of the Gujarat Housing Board and Slum Clearance Cell who have pending installment dues by offering a complete waiver of penalty amounts, thereby reducing the financial burden on property allottees and encouraging them to clear their outstanding dues. The scheme provides 100% waiver on penalty amounts if all arrears of installments are paid in one go by 31st March and facilitates the transfer of property ownership to eligible applicants. The applications for this scheme are accepted Online.\n<br>\n\n",
+      "benefits_md": "\n- The applicant receives 100% waiver on the penalty amount accumulated on pending installments.\n- The waiver is applicable on all arrears of installments pertaining to old schemes of the Gujarat Housing Board and Slum Clearance Cell.\n- The benefit is a one-time waiver granted upon fulfillment of payment conditions.\n- The waiver is applied at the time of final settlement of dues.\n\n***Conditions***\n_*All arrears of installments must be paid in one go (lump sum payment)._\n_*The payment must be completed by 31st March._\n_*The waiver applies only to the penalty component; the principal installment amount must be paid in full._\n<br>\n\n",
+      "briefDescription": "The scheme aims to provide financial relief to beneficiaries of the Gujarat Housing Board and Slum Clearance Cell who have pending installment dues by offering a complete waiver of penalty amounts. It benefits tenants and property allottees by waiving 100% penalties on arrears if paid by 31st March.",
+      "exclusions_md": "<br>\n\n",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The scheme \"100% Penalty Mafi Yojana\" was launched by the Urban Development and Urban Housing Department, Government of Gujarat. The scheme aims to provide financial relief to beneficiaries of the Gujarat Housing Board and Slum Clearance Cell who have pending installment dues by offering a complete waiver of penalty amounts, thereby reducing the financial burden on property allottees and encouraging them to clear their outstanding dues. The scheme provides 100% waiver on penalty amounts if all arrears of installments are paid in one go by 31st March and facilitates the transfer of property ownership to eligible applicants. The applications for this scheme are accepted Online."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant receives 100% waiver on the penalty amount accumulated on pending installments."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The waiver is applicable on all arrears of installments pertaining to old schemes of the Gujarat Housing Board and Slum Clearance Cell."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The benefit is a one-time waiver granted upon fulfillment of payment conditions."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The waiver is applied at the time of final settlement of dues."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Conditions",
+              "bold": true,
+              "underline": true,
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "*All arrears of installments must be paid in one go (lump sum payment).",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "*The payment must be completed by 31st March.",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "*The waiver applies only to the penalty component; the principal installment amount must be paid in full.",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ],
+      "exclusions": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Online",
+        "process": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 1:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " Access the "
+              },
+              {
+                "type": "link",
+                "link": "https://tally.so/r/w5GN66",
+                "children": [
+                  {
+                    "text": "online application form"
+                  }
+                ]
+              },
+              {
+                "text": ". Enter all mandatory personal information. Verify that all mandatory fields marked with asterisk (*) have been filled. "
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " For document upload, click \"Choose File\" or drag and drop documents into appropriate upload fields. Ensure all documents are clear, legible, and within the specified file size limits."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 3:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " Carefully review all entered information and uploaded documents for accuracy and completeness. Click \"Submit\". Note down any application reference number or acknowledgment number provided for future tracking and correspondence."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 4:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " After successful application submission, proceed to pay all pending arrears of installments in one lump sum payment through designated Gujarat Housing Board payment channels by 31st March. Retain payment receipts for record and verification purposes."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Application Deadline",
+                "bold": true,
+                "underline": true,
+                "italic": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "The critical deadline for completing the lump sum payment of all arrears is 31st March of the respective year."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          }
+        ],
+        "process_md": "**Step 1:** Access the [online application form](https://tally.so/r/w5GN66). Enter all mandatory personal information. Verify that all mandatory fields marked with asterisk (*) have been filled. \n**Step 2:** For document upload, click &quot;Choose File&quot; or drag and drop documents into appropriate upload fields. Ensure all documents are clear, legible, and within the specified file size limits.\n**Step 3:** Carefully review all entered information and uploaded documents for accuracy and completeness. Click &quot;Submit&quot;. Note down any application reference number or acknowledgment number provided for future tracking and correspondence.\n**Step 4:** After successful application submission, proceed to pay all pending arrears of installments in one lump sum payment through designated Gujarat Housing Board payment channels by 31st March. Retain payment receipts for record and verification purposes.\n***Application Deadline***\nThe critical deadline for completing the lump sum payment of all arrears is 31st March of the respective year.\n<br>\n\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n- The applicant must be a resident of Gujarat.\n- The applicant must be a beneficiary of the Gujarat Housing Board or Slum Clearance Cell.\n- The applicant must have pending installment arrears under the old schemes of the Gujarat Housing Board and Slum Clearance Cell.\n- The applicant must clear all arrears of installments in one lump sum payment.\n- The applicant must complete the payment by 31st March.\n- The applicant must be either the original tenant, a successive power of attorney holder, or the existing occupant of the property.\n\n<br>\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must be a resident of Gujarat."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must be a beneficiary of the Gujarat Housing Board or Slum Clearance Cell."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must have pending installment arrears under the old schemes of the Gujarat Housing Board and Slum Clearance Cell."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must clear all arrears of installments in one lump sum payment."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must complete the payment by 31st March."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must be either the original tenant, a successive power of attorney holder, or the existing occupant of the property."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "1pmy"
+}

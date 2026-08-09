@@ -1,0 +1,200 @@
+{
+  "_id": "671a1b014d83876c61b9c911",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Financial Assistance",
+        "Widow",
+        "Widower",
+        "Death",
+        "Construction Worker"
+      ],
+      "schemeName": "Financial Assistance for Widow or Widower of Registered Construction Worker",
+      "schemeShortTitle": "FAWWRCW",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce87cd6d1a3bde4685312",
+          "label": "Social welfare & Empowerment"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Financial assistance",
+          "label": "Financial assistance"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "state": {
+        "value": 27,
+        "label": "Maharashtra"
+      },
+      "nodalDepartmentName": {
+        "value": 27111124,
+        "label": "Labour Department"
+      },
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://mahakamgar.maharashtra.gov.in/welfare-scheme-for-building-other-construction-workers.htm"
+        },
+        {
+          "title": "Official Website",
+          "url": "https://mahabocw.in/"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The “Financial Assistance for Widow or Widower of Registered Construction Worker” scheme was implemented by the Maharashtra Building and Other Construction Workers Welfare Board. Under this scheme, financial assistance of ₹24,000/- p.a. up to 5 years to the widow or widower in case of death of a registered worker during the course of employment.\n",
+      "benefits_md": "\n- Financial assistance of ₹24,000/- per annum up to 5 years to the widow or widower. \n\n",
+      "briefDescription": "The scheme is implemented by the Maharashtra Building and Other Construction Workers Welfare Board. Under this scheme, financial assistance of ₹24,000/- p.a. up to 5 years to the widow or widower in case of death of a registered worker during the course of employment.",
+      "exclusions_md": "",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The “Financial Assistance for Widow or Widower of Registered Construction Worker” scheme was implemented by the Maharashtra Building and Other Construction Workers Welfare Board. Under this scheme, financial assistance of ₹24,000/- p.a. up to 5 years to the widow or widower in case of death of a registered worker during the course of employment."
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Financial assistance of ₹24,000/- per annum up to 5 years to the widow or widower. "
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "process": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step-1:",
+                "bold": true
+              },
+              {
+                "text": " The interested applicant downloads the "
+              },
+              {
+                "type": "link",
+                "link": "https://mahabocw.in/wp-content/uploads/2019/06/SCHEME_FINANCE_FORM.pdf",
+                "children": [
+                  {
+                    "text": "application form"
+                  }
+                ]
+              },
+              {
+                "text": " from the MBOCWW official website. "
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step-2:",
+                "bold": true
+              },
+              {
+                "text": " In the application form, fill in all the mandatory fields, and attach copies of all the mandatory documents (self-attest, if required)."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step-3:",
+                "bold": true
+              },
+              {
+                "text": " Submit the duly filled and signed application form along with the documents to the Labor Commissioner/Government Labor Officer."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step-4:",
+                "bold": true
+              },
+              {
+                "text": " Request a receipt or acknowledgment from the concerned authority to whom the application has been submitted. Ensure that the receipt contains essential details such as the date and time of submission, and a unique identification number (if applicable)."
+              }
+            ]
+          }
+        ],
+        "process_md": "**Step-1:** The interested applicant downloads the [application form](https://mahabocw.in/wp-content/uploads/2019/06/SCHEME_FINANCE_FORM.pdf) from the MBOCWW official website. \n**Step-2:** In the application form, fill in all the mandatory fields, and attach copies of all the mandatory documents (self-attest, if required).\n**Step-3:** Submit the duly filled and signed application form along with the documents to the Labor Commissioner/Government Labor Officer.\n**Step-4:** Request a receipt or acknowledgment from the concerned authority to whom the application has been submitted. Ensure that the receipt contains essential details such as the date and time of submission, and a unique identification number (if applicable).\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n1. The applicant should be the widow or widower of a deceased construction worker.\n1. The deceased worker must have been registered with the Maharashtra Building and Other Construction Workers Welfare Board.\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should be the widow or widower of a deceased construction worker."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The deceased worker must have been registered with the Maharashtra Building and Other Construction Workers Welfare Board."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "fawwrcw"
+}

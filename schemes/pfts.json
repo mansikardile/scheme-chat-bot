@@ -1,0 +1,825 @@
+{
+  "_id": "659d3c076093f0fa331a0eff",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Farm",
+        "Tourism",
+        "Stay",
+        "Tourist",
+        "Registration"
+      ],
+      "schemeName": "Punjab Farm Tourism Scheme",
+      "schemeShortTitle": "PFTS",
+      "implementingAgency": "Department Of Tourism/Punjab Heritage Tourism Promotion Board",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce94cd6d1a3bde468536f",
+          "label": "Travel & Tourism"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Tourism in India",
+          "label": "Tourism in India"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "state": {
+        "value": 3,
+        "label": "Punjab"
+      },
+      "nodalDepartmentName": {
+        "value": 300000046,
+        "label": "Department of Tourism and Cultural Affairs"
+      },
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://pbindustries.gov.in/webportal/uploads/pdffiles/481f31afd3f5844b86e8eee060712cfa.pdf"
+        },
+        {
+          "title": "Official Website",
+          "url": "https://punjabtourism.punjab.gov.in/"
+        },
+        {
+          "title": "Scheme/Application Portal",
+          "url": "https://eservices.punjab.gov.in/serviceLinkHome.html?serviceToken=RIsxLjrZ3Z&message=Successfully+logged+out&OWASP_CSRFTOKEN=5RH4-0KQF-9ZM5-MNHP-87A2-R662-KB75-2Y8Y"
+        },
+        {
+          "title": "Scheme Details",
+          "url": "https://punjabtourism.punjab.gov.in/pdf/compliance-reduction-information-2.pdf"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The scheme &amp;quot;Punjab Farm Tourism Scheme” was launched by the Department of Tourism &amp;amp; Cultural Affairs, Government of Punjab. The scheme envisages to provide to tourists with a clean, hygienic, and comfortable stay in the farmhouses spread across the State of Punjab. The scheme also aims to provide a cultural experience to domestic and foreign tourists through their exposure to village life. The concept will also help to provide additional sources of income to the farming community. Thus, it will be a complete package of farm tourism, adventure tourism, rural and village tourism and cultural tourism to visiting tourists in the predominantly agricultural State of Punjab. It has therefore been decided to register the farm stay units by the Department of Tourism (DoT)/Punjab Heritage Tourism Promotion Board (PHTPB) and lay down suitable guidelines for the same.\n**Farm Stay unit:**\nA farm stay unit will be a property having an area of at least 2.5 acres or above with suitable accommodation built inside for providing a comfortable stay to the guests/tourists as per the standards prescribed in this scheme. The construction must be compliant with policies and limits prescribed by the Department of Housing and Urban Development, Government of Punjab.\n",
+      "benefits_md": "The Farm Stay Scheme will provide the following benefits to the registered owners of the property:\n\n   1. A useful source of additional income to the farm owners of the registered Farm Stay units.\n   1. Registered Farm stay units shall be allowed to use Punjab Tourism Logo on their sign boards. \n   1. The benefit in terms of support from the Department of Tourism (DoT)/Punjab Heritage and Tourism Promotion Board (PHTPB) in marketing the Farm Stay unit, through:\n\n\n  - Promotion on the official website of Punjab Tourism.\n  - Media coverage by travel writers.\n  - Promotion of the Farm stay units through brochures/leaflets and other printed material published by the Department of Tourism and Punjab Heritage and Tourism Promotion Board.\n  - Promotion through domestic and international trade fairs. During the registered farm stay owners shall be provided space for promotion free of any charges.\n\n**Issuance of FTS Certificate:**\n\n  - Certificates will be issued by the Chief Executive Officer (CEO), PHTPB\n  - The duration of the Certificate is Lifetime.\n\n",
+      "briefDescription": "The scheme envisages to provide to the tourists a clean, hygienic and comfortable stay in the farm houses spread across the State of Punjab. The scheme also aims to provide cultural experience to the domestic and foreign tourists through their exposure to village life.",
+      "exclusions_md": "",
+      "detailedDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "The scheme \"Punjab Farm Tourism Scheme” was launched by the Department of Tourism & Cultural Affairs, Government of Punjab. The scheme envisages to provide to tourists with a clean, hygienic, and comfortable stay in the farmhouses spread across the State of Punjab. The scheme also aims to provide a cultural experience to domestic and foreign tourists through their exposure to village life. The concept will also help to provide additional sources of income to the farming community. Thus, it will be a complete package of farm tourism, adventure tourism, rural and village tourism and cultural tourism to visiting tourists in the predominantly agricultural State of Punjab. It has therefore been decided to register the farm stay units by the Department of Tourism (DoT)/Punjab Heritage Tourism Promotion Board (PHTPB) and lay down suitable guidelines for the same."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "Farm Stay unit:",
+                  "bold": true,
+                  "underline": true
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "A farm stay unit will be a property having an area of at least 2.5 acres or above with suitable accommodation built inside for providing a comfortable stay to the guests/tourists as per the standards prescribed in this scheme. The construction must be compliant with policies and limits prescribed by the Department of Housing and Urban Development, Government of Punjab."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 2,
+        "value": "in-kind",
+        "label": "In Kind"
+      },
+      "benefits": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "The Farm Stay Scheme will provide the following benefits to the registered owners of the property:"
+                }
+              ]
+            },
+            {
+              "type": "ol_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "A useful source of additional income to the farm owners of the registered Farm Stay units."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Registered Farm stay units shall be allowed to use Punjab Tourism Logo on their sign boards. "
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The benefit in terms of support from the Department of Tourism (DoT)/Punjab Heritage and Tourism Promotion Board (PHTPB) in marketing the Farm Stay unit, through:"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "ul_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Promotion on the official website of Punjab Tourism."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Media coverage by travel writers."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Promotion of the Farm stay units through brochures/leaflets and other printed material published by the Department of Tourism and Punjab Heritage and Tourism Promotion Board."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Promotion through domestic and international trade fairs. During the registered farm stay owners shall be provided space for promotion free of any charges."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "Issuance of FTS Certificate:",
+                  "bold": true,
+                  "underline": true
+                }
+              ]
+            },
+            {
+              "type": "ul_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Certificates will be issued by the Chief Executive Officer (CEO), PHTPB"
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The duration of the Certificate is Lifetime."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Online",
+        "process": [
+          {
+            "type": "align_justify",
+            "children": [
+              {
+                "type": "block_quote",
+                "children": [
+                  {
+                    "text": "Application Process:",
+                    "bold": true
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 01:",
+                    "bold": true
+                  },
+                  {
+                    "text": " The owners of the properties fulfilling the eligibility criteria desirous of getting their property registered as a Farm Stay unit shall apply online on the web portal of the Department of Tourism ("
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://punjabtourism.punjab.gov.in/",
+                    "children": [
+                      {
+                        "text": "https://punjabtourism.punjab.gov.in/"
+                      }
+                    ]
+                  },
+                  {
+                    "text": ")."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 02: ",
+                    "bold": true
+                  },
+                  {
+                    "text": "The applicants need to visit the official Portal, on the middle of the home page, and click on ‘Farm Stay Scheme’ under “Registered your Units With Punjab Tourism”."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 03:",
+                    "bold": true
+                  },
+                  {
+                    "text": " On the scheme window page, in case, the applicant is not registered yet, click on ‘Register Yourself’ and fill in all the mandatory details for registering yourself."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 04: ",
+                    "bold": true
+                  },
+                  {
+                    "text": "After successful registration, click on “Apply for Service” and select ‘Online’."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 05:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Now, the applicant can login through his/her Login ID and password."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 06: ",
+                    "bold": true
+                  },
+                  {
+                    "text": "After successful login, the applicant can fill out the application form and submit the form after uploading all the requisite documents."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 07: ",
+                    "bold": true
+                  },
+                  {
+                    "text": "The application fee shall be deposited online in the account of the Punjab Heritage & Tourism Promotion Board as given on the website. Proof of having paid the necessary fee shall be uploaded on the website."
+                  }
+                ]
+              },
+              {
+                "type": "block_quote",
+                "children": [
+                  {
+                    "text": "Application Fee:",
+                    "bold": true
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "A non-refundable application fee shall be payable for registration of the Farm Tourism Scheme."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "•\tFor Gold Category: ₹5,000/-"
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "•\tFor Silver Category: ₹3,000/-"
+                  }
+                ]
+              },
+              {
+                "type": "block_quote",
+                "children": [
+                  {
+                    "text": "Registration of the Property:",
+                    "bold": true
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "On receipt of the complete application online along with the application fee and the requisite documents, a system-generated email shall be sent to the applicant as an acknowledgment. After the approval by the CEO of PHTPB, an auto-generated certificate of registration will be issued to the applicant online within 7 working days. In the case of failure to issue the certificate of registration within the stipulated period of time, the property shall be deemed to have been registered in the category applied for."
+                  }
+                ]
+              },
+              {
+                "type": "block_quote",
+                "children": [
+                  {
+                    "text": "Submission of the periodic reports by registered units:",
+                    "bold": true
+                  }
+                ]
+              },
+              {
+                "type": "ol_list",
+                "children": [
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "text": "The owners of the registered farm stay units shall submit a quarterly report about the number of guests served, on the prescribed Proforma ("
+                      },
+                      {
+                        "type": "link",
+                        "link": "https://pbindustries.gov.in/webportal/uploads/pdffiles/481f31afd3f5844b86e8eee060712cfa.pdf",
+                        "children": [
+                          {
+                            "text": "Annexure V"
+                          }
+                        ]
+                      },
+                      {
+                        "text": ") to the CEO, PHTPB through the online system."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "text": "The Owners of the registered farm stay units will file self-declaration every 3 years on the facilities being provided in the Proforma given in "
+                      },
+                      {
+                        "type": "link",
+                        "link": "https://pbindustries.gov.in/webportal/uploads/pdffiles/481f31afd3f5844b86e8eee060712cfa.pdf",
+                        "children": [
+                          {
+                            "text": "Annexure - VI"
+                          }
+                        ]
+                      },
+                      {
+                        "text": "."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "block_quote",
+                "children": [
+                  {
+                    "text": "Cancellation of registration:",
+                    "bold": true
+                  }
+                ]
+              },
+              {
+                "type": "ol_list",
+                "children": [
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "text": "Any violation of the terms and conditions of the scheme may attract cancellation of registration by CEO, PHTPB after giving an opportunity of being heard to the owner of the registered unit."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "text": "If at any stage, it is found that the information given by the applicant online was incorrect, the registration -of the property shall be cancelled without any notice and the applicant shall be debarred from seeking fresh registration of any property in the future."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "text": "Failure on more than one occasion to submit the quarterly reports within the prescribed time limit may result in the cancellation of the certificate of registration."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "text": "Any illegal activity carried out on the registered farm stay unit in violation of the provisions of any law will result in cancellation of the registration with immediate effect and it will also entail liability for prosecution under the relevant law."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "text": "Any deficiency pointed out by the Chief Executive Officer will have to be removed within the time stipulated by the CEO. In case of non-compliance of the same within the stipulated time or 3 months whichever is lesser, the registration shall become liable for cancellation without any further notice."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "text": "Complaints by customers will be investigated by the CEO, PHTPB or an authorized officer and if the allegations are found to be true, the certificate of registration may become liable for cancellation."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "text": "The Farm Stay Certificate will stand cancelled automatically on a change of ownership of the property. It shall be incumbent upon the applicant to inform the CEO, PHTPB regarding any change in the ownership of the property."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "process_md": "&gt; **Application Process:**\n\n**Step 01:** The owners of the properties fulfilling the eligibility criteria desirous of getting their property registered as a Farm Stay unit shall apply online on the web portal of the Department of Tourism ([https://punjabtourism.punjab.gov.in/](https://punjabtourism.punjab.gov.in/)).\n**Step 02:** The applicants need to visit the official Portal, on the middle of the home page, and click on ‘Farm Stay Scheme’ under “Registered your Units With Punjab Tourism”.\n**Step 03:** On the scheme window page, in case, the applicant is not registered yet, click on ‘Register Yourself’ and fill in all the mandatory details for registering yourself.\n**Step 04:** After successful registration, click on “Apply for Service” and select ‘Online’.\n**Step 05:** Now, the applicant can login through his/her Login ID and password.\n**Step 06:** After successful login, the applicant can fill out the application form and submit the form after uploading all the requisite documents.\n**Step 07:** The application fee shall be deposited online in the account of the Punjab Heritage &amp;amp; Tourism Promotion Board as given on the website. Proof of having paid the necessary fee shall be uploaded on the website.\n&gt; **Application Fee:**\n\nA non-refundable application fee shall be payable for registration of the Farm Tourism Scheme.\n•\tFor Gold Category: ₹5,000/-\n•\tFor Silver Category: ₹3,000/-\n&gt; **Registration of the Property:**\n\nOn receipt of the complete application online along with the application fee and the requisite documents, a system-generated email shall be sent to the applicant as an acknowledgment. After the approval by the CEO of PHTPB, an auto-generated certificate of registration will be issued to the applicant online within 7 working days. In the case of failure to issue the certificate of registration within the stipulated period of time, the property shall be deemed to have been registered in the category applied for.\n&gt; **Submission of the periodic reports by registered units:**\n\n\n   1. The owners of the registered farm stay units shall submit a quarterly report about the number of guests served, on the prescribed Proforma ([Annexure V](https://pbindustries.gov.in/webportal/uploads/pdffiles/481f31afd3f5844b86e8eee060712cfa.pdf)) to the CEO, PHTPB through the online system.   1. The Owners of the registered farm stay units will file self-declaration every 3 years on the facilities being provided in the Proforma given in [Annexure - VI](https://pbindustries.gov.in/webportal/uploads/pdffiles/481f31afd3f5844b86e8eee060712cfa.pdf).\n&gt; **Cancellation of registration:**\n\n\n   1. Any violation of the terms and conditions of the scheme may attract cancellation of registration by CEO, PHTPB after giving an opportunity of being heard to the owner of the registered unit.\n   1. If at any stage, it is found that the information given by the applicant online was incorrect, the registration -of the property shall be cancelled without any notice and the applicant shall be debarred from seeking fresh registration of any property in the future.\n   1. Failure on more than one occasion to submit the quarterly reports within the prescribed time limit may result in the cancellation of the certificate of registration.\n   1. Any illegal activity carried out on the registered farm stay unit in violation of the provisions of any law will result in cancellation of the registration with immediate effect and it will also entail liability for prosecution under the relevant law.\n   1. Any deficiency pointed out by the Chief Executive Officer will have to be removed within the time stipulated by the CEO. In case of non-compliance of the same within the stipulated time or 3 months whichever is lesser, the registration shall become liable for cancellation without any further notice.\n   1. Complaints by customers will be investigated by the CEO, PHTPB or an authorized officer and if the allegations are found to be true, the certificate of registration may become liable for cancellation.\n   1. The Farm Stay Certificate will stand cancelled automatically on a change of ownership of the property. It shall be incumbent upon the applicant to inform the CEO, PHTPB regarding any change in the ownership of the property.\n\n"
+      },
+      {
+        "mode": "Online - via CSC",
+        "process": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "The application has to be submitted through Kiosk. To get the details of the Kiosk of your location, please "
+              },
+              {
+                "type": "link",
+                "link": "https://eservices.punjab.gov.in/applyServiceKiosk.do?OWASP_CSRFTOKEN=15DR-KTYE-EMWC-TLQH-H019-FU2J-L48X-477P#",
+                "children": [
+                  {
+                    "text": "click here"
+                  }
+                ]
+              },
+              {
+                "text": "."
+              }
+            ]
+          }
+        ],
+        "process_md": "The application has to be submitted through Kiosk. To get the details of the Kiosk of your location, please [click here](https://eservices.punjab.gov.in/applyServiceKiosk.do?OWASP_CSRFTOKEN=15DR-KTYE-EMWC-TLQH-H019-FU2J-L48X-477P#).\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "**The registration of the Farm Stay units shall be done in two categories:** ***Gold Category &amp;amp; Silver Category***\n&gt; **Eligibility for Gold category:**\n\nThe Farm stay units having:\n\n   1. An area of more than 5 acres with comfortable accommodation of not more than 9 lettable rooms (18 beds) built in it as per standards prescribed in A[nnexure-II](https://pbindustries.gov.in/webportal/uploads/pdffiles/481f31afd3f5844b86e8eee060712cfa.pdf) of the scheme guidelines.   1. Facility for providing cooked meals for the tourists.\n   1. Facility for hygienic storage of the food.\n   1. Facility can be managed by a Manager also.\n\n&gt; **Eligibility for Silver Category:**\n\nThe Farm Stay units having:\n\n   1. An area up to 5 acres having comfortable accommodation of not more than 9 lettable rooms (18 beds) built in it as per the standards prescribed in [Annexure - II](https://pbindustries.gov.in/webportal/uploads/pdffiles/481f31afd3f5844b86e8eee060712cfa.pdf) of the scheme guidelines.   1. Facility for provision of cooked meals for the tourists.\n   1. Facility for hygienic storage of the food.\n   1. Facility to be operated by owner only.\n   1. The unit can be run in any existing house in a village also. \n\n&gt; **Other General Conditions:**\n\n\n   1. Tariffs charged under the scheme shall be at the discretion of the Registered Farm stay unit owner. The registered owner shall specify the rates for stay, food, and other activities, that he may be providing.\n   1. Every registered unit must be furnished and decorated to a high standard of comfort suitable for international and domestic tourists.\n   1. Every bedroom must have a neat &amp;amp; clean attached bathroom, 24-hour hot and cold running water facility, Western-style toilet, and adequate arrangements for power supply and backup, ventilation, and lighting facility.\n   1. The building should be structurally safe and in good condition and should also meet high standards of hygiene, cleanliness, and safety.\n   1. The tourists should also be allowed to venture out in the fields during their stay in the unit.\n\n&gt; **Compliance by the registered Farm Stay units:**\n\n\n   1. The registered Farm Stay unit will be required to maintain. The standards as prescribed in [Annexure -II](https://pbindustries.gov.in/webportal/uploads/pdffiles/481f31afd3f5844b86e8eee060712cfa.pdf) of the scheme at all times. The Chief Executive Officer, PHTPB, or any other officer authorized by the Government can conduct a surprise inspection of the unit at any time between 9.00 am to 5.00 pm without any prior notice.   1. Any change in the facilities of the Farm stay unit will have to be informed to the Chief Executive Officer within 30 days of such change.\n   1. The owner of the Registered Farm stay shall be responsible for providing due assistance to the visitor for transport and medical help in case of any medical emergency. In case of any loss, sustained by the guests or tourists due to the negligence of the farm stay owner or his staff, he/they will be compensated by the farm owners.\n   1. The registered Farm stay owner shall be responsible for strictly adhering to the rules and regulations of the other departments/ agencies of the Government, as may be applicable.\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "The registration of the Farm Stay units shall be done in two categories:",
+                  "bold": true
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "Gold Category & Silver Category",
+                  "bold": true,
+                  "underline": true,
+                  "italic": true
+                }
+              ]
+            },
+            {
+              "type": "block_quote",
+              "children": [
+                {
+                  "text": "Eligibility for Gold category:",
+                  "bold": true
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "The Farm stay units having:"
+                }
+              ]
+            },
+            {
+              "type": "ol_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "An area of more than 5 acres with comfortable accommodation of not more than 9 lettable rooms (18 beds) built in it as per standards prescribed in A"
+                    },
+                    {
+                      "type": "link",
+                      "link": "https://pbindustries.gov.in/webportal/uploads/pdffiles/481f31afd3f5844b86e8eee060712cfa.pdf",
+                      "children": [
+                        {
+                          "text": "nnexure-II"
+                        }
+                      ]
+                    },
+                    {
+                      "text": " of the scheme guidelines."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Facility for providing cooked meals for the tourists."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Facility for hygienic storage of the food."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Facility can be managed by a Manager also."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "block_quote",
+              "children": [
+                {
+                  "text": "Eligibility for Silver Category:",
+                  "bold": true
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "The Farm Stay units having:"
+                }
+              ]
+            },
+            {
+              "type": "ol_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "An area up to 5 acres having comfortable accommodation of not more than 9 lettable rooms (18 beds) built in it as per the standards prescribed in "
+                    },
+                    {
+                      "type": "link",
+                      "link": "https://pbindustries.gov.in/webportal/uploads/pdffiles/481f31afd3f5844b86e8eee060712cfa.pdf",
+                      "children": [
+                        {
+                          "text": "Annexure - II"
+                        }
+                      ]
+                    },
+                    {
+                      "text": " of the scheme guidelines."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Facility for provision of cooked meals for the tourists."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Facility for hygienic storage of the food."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Facility to be operated by owner only."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The unit can be run in any existing house in a village also. "
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "block_quote",
+              "children": [
+                {
+                  "text": "Other General Conditions:",
+                  "bold": true
+                }
+              ]
+            },
+            {
+              "type": "ol_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Tariffs charged under the scheme shall be at the discretion of the Registered Farm stay unit owner. The registered owner shall specify the rates for stay, food, and other activities, that he may be providing."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Every registered unit must be furnished and decorated to a high standard of comfort suitable for international and domestic tourists."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Every bedroom must have a neat & clean attached bathroom, 24-hour hot and cold running water facility, Western-style toilet, and adequate arrangements for power supply and backup, ventilation, and lighting facility."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The building should be structurally safe and in good condition and should also meet high standards of hygiene, cleanliness, and safety."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The tourists should also be allowed to venture out in the fields during their stay in the unit."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "block_quote",
+              "children": [
+                {
+                  "text": "Compliance by the registered Farm Stay units:",
+                  "bold": true
+                }
+              ]
+            },
+            {
+              "type": "ol_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The registered Farm Stay unit will be required to maintain. The standards as prescribed in "
+                    },
+                    {
+                      "type": "link",
+                      "link": "https://pbindustries.gov.in/webportal/uploads/pdffiles/481f31afd3f5844b86e8eee060712cfa.pdf",
+                      "children": [
+                        {
+                          "text": "Annexure -II"
+                        }
+                      ]
+                    },
+                    {
+                      "text": " of the scheme at all times. The Chief Executive Officer, PHTPB, or any other officer authorized by the Government can conduct a surprise inspection of the unit at any time between 9.00 am to 5.00 pm without any prior notice."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Any change in the facilities of the Farm stay unit will have to be informed to the Chief Executive Officer within 30 days of such change."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The owner of the Registered Farm stay shall be responsible for providing due assistance to the visitor for transport and medical help in case of any medical emergency. In case of any loss, sustained by the guests or tourists due to the negligence of the farm stay owner or his staff, he/they will be compensated by the farm owners."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The registered Farm stay owner shall be responsible for strictly adhering to the rules and regulations of the other departments/ agencies of the Government, as may be applicable."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "pfts"
+}

@@ -1,0 +1,498 @@
+{
+  "_id": "65e6aac0da55878ebe11cd58",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Family",
+        "Pension",
+        "Construction Worker",
+        "Building Worker",
+        "Labour"
+      ],
+      "schemeName": "Family Pension (MBOCWWB)",
+      "schemeShortTitle": "FP(MBOCWWB)",
+      "implementingAgency": "Meghalaya Building & Other Construction Workers Welfare Board",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce87cd6d1a3bde4685312",
+          "label": "Social welfare & Empowerment"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Pension",
+          "label": "Pension"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "family",
+          "label": "Family"
+        },
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "state": {
+        "value": 17,
+        "label": "Meghalaya"
+      },
+      "schemeType": null,
+      "nodalMinistryName": null,
+      "nodalDepartmentName": {
+        "value": 1777797,
+        "label": "Labour and Employment Department"
+      },
+      "otherMinistryName": null,
+      "otherDepartmentNames": null,
+      "schemeFor": "Family"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Official Website",
+          "url": "https://megbocwwb.gov.in/enrollment"
+        },
+        {
+          "title": "Scheme Details",
+          "url": "https://megbocwwb.gov.in/schemes_family_pension"
+        },
+        {
+          "title": "Online Application Portal",
+          "url": "https://megbocwwb.gov.in/bocw_services/login.htm"
+        },
+        {
+          "title": "Application Form For Family Pension",
+          "url": "https://megbocwwb.gov.in/forms/benefit/familypension.pdf"
+        }
+      ],
+      "schemeImageUrl": "",
+      "briefDescription": "In the event of the death of a pensioner who was receiving a pension from the Board, a family pension shall be given to the surviving spouse by the Meghalaya Building and Other Construction Workers Welfare Board (MBOCWWB).",
+      "detailedDescription_md": "The scheme “Family Pension” is a social security scheme, implemented by the Meghalaya Building and Other Construction Workers Welfare Board (MBOCWWB), Labour Department, Government of Meghalaya. Under the scheme, in the event of the death of a pensioner who was receiving a pension from the Board, a family pension shall be given to the surviving spouse by the Board.\n",
+      "benefits_md": "\n- In the event of the death of the pensioner, a family pension shall be given to the surviving spouse.\n- The amount of pension will be 50% of the pension received by the pensioner or ₹100/- whichever is higher.\n\n",
+      "exclusions_md": "",
+      "detailedDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "The scheme “Family Pension” is a social security scheme, implemented by the Meghalaya Building and Other Construction Workers Welfare Board (MBOCWWB), Labour Department, Government of Meghalaya. Under the scheme, in the event of the death of a pensioner who was receiving a pension from the Board, a family pension shall be given to the surviving spouse by the Board."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "align_justify",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "In the event of the death of the pensioner, a family pension shall be given to the surviving spouse."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The amount of pension will be 50% of the pension received by the pensioner or ₹100/- whichever is higher."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Online",
+        "process": [
+          {
+            "type": "align_justify",
+            "children": [
+              {
+                "type": "block_quote",
+                "children": [
+                  {
+                    "text": "Online Registration Process (Portal):",
+                    "bold": true,
+                    "underline": true
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 01: ",
+                    "bold": true
+                  },
+                  {
+                    "text": "The applicants may visit the online Portal: "
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://megbocwwb.gov.in/bocw_services/login.htm",
+                    "children": [
+                      {
+                        "text": "https://megbocwwb.gov.in/bocw_services/login.htm"
+                      }
+                    ]
+                  },
+                  {
+                    "text": ""
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 02:",
+                    "bold": true
+                  },
+                  {
+                    "text": " The applicant can register by creating a new account, on the home page click on the ‘Worker’ button and enter all the mandatory information."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 03:",
+                    "bold": true
+                  },
+                  {
+                    "text": " After filling in all the details, click on ‘Register’."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 04:",
+                    "bold": true
+                  },
+                  {
+                    "text": " After successful registration, the applicant will see the message “Registered Successfully”."
+                  }
+                ]
+              },
+              {
+                "type": "block_quote",
+                "children": [
+                  {
+                    "text": "Application Process for Family Pension:",
+                    "bold": true,
+                    "underline": true
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 01:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Visit the online Portal: https://megbocwwb.gov.in/bocw_services/login.htm "
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 02: ",
+                    "bold": true
+                  },
+                  {
+                    "text": "Enter your User ID (Registered Mobile Number), Password, and Enter Security Code. Click on Login."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 03:",
+                    "bold": true
+                  },
+                  {
+                    "text": " After successful login, click on the “Family Pension” scheme from the Dashboard."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 04:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Fill in all the required information and necessary enclosures."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 05:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Click ‘Submit’ to apply for benefits."
+                  }
+                ]
+              },
+              {
+                "type": "block_quote",
+                "children": [
+                  {
+                    "text": "Application Process to Track/Update:",
+                    "bold": true,
+                    "underline": true
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 01:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Visit the online Portal: "
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://megbocwwb.gov.in/bocw_services/login.htm",
+                    "children": [
+                      {
+                        "text": "https://megbocwwb.gov.in/bocw_services/login.htm"
+                      }
+                    ]
+                  },
+                  {
+                    "text": ""
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 02: ",
+                    "bold": true
+                  },
+                  {
+                    "text": "Enter your User ID (Registered Mobile Number), Password, and Enter Security Code. Click on Login."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 03:",
+                    "bold": true
+                  },
+                  {
+                    "text": " From the menu, click on ‘Track Application Status’."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 04:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Click on ‘View Details’ to view your application."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 05: ",
+                    "bold": true
+                  },
+                  {
+                    "text": "Click on ‘Application History’ to view the application history."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 06:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Click on ‘Update’ to update your application."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Note:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Once your application is under process or processed, you cannot update it."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "(Worker’s "
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://megbocwwb.gov.in/bocw_services/assets/files/user-manual-workers.pdf",
+                    "children": [
+                      {
+                        "text": "User Manual"
+                      }
+                    ]
+                  },
+                  {
+                    "text": ")"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "process_md": "&gt; **Online Registration Process (Portal):**\n\n**Step 01:** The applicants may visit the online Portal: [https://megbocwwb.gov.in/bocw_services/login.htm](https://megbocwwb.gov.in/bocw_services/login.htm)\n**Step 02:** The applicant can register by creating a new account, on the home page click on the ‘Worker’ button and enter all the mandatory information.\n**Step 03:** After filling in all the details, click on ‘Register’.\n**Step 04:** After successful registration, the applicant will see the message “Registered Successfully”.\n&gt; **Application Process for Family Pension:**\n\n**Step 01:** Visit the online Portal: https://megbocwwb.gov.in/bocw_services/login.htm \n**Step 02:** Enter your User ID (Registered Mobile Number), Password, and Enter Security Code. Click on Login.\n**Step 03:** After successful login, click on the “Family Pension” scheme from the Dashboard.\n**Step 04:** Fill in all the required information and necessary enclosures.\n**Step 05:** Click ‘Submit’ to apply for benefits.\n&gt; **Application Process to Track/Update:**\n\n**Step 01:** Visit the online Portal: [https://megbocwwb.gov.in/bocw_services/login.htm](https://megbocwwb.gov.in/bocw_services/login.htm)\n**Step 02:** Enter your User ID (Registered Mobile Number), Password, and Enter Security Code. Click on Login.\n**Step 03:** From the menu, click on ‘Track Application Status’.\n**Step 04:** Click on ‘View Details’ to view your application.\n**Step 05:** Click on ‘Application History’ to view the application history.\n**Step 06:** Click on ‘Update’ to update your application.\n**Note:** Once your application is under process or processed, you cannot update it.\n(Worker’s [User Manual](https://megbocwwb.gov.in/bocw_services/assets/files/user-manual-workers.pdf))\n"
+      },
+      {
+        "mode": "Offline",
+        "process": [
+          {
+            "type": "align_justify",
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "An application in "
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://megbocwwb.gov.in/forms/benefit/familypension.pdf",
+                    "children": [
+                      {
+                        "text": "Form No. XLV"
+                      }
+                    ]
+                  },
+                  {
+                    "text": " shall be submitted along with all the relevant documents as may be specified by the BOARD to the concerned office."
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "process_md": "An application in [Form No. XLV](https://megbocwwb.gov.in/forms/benefit/familypension.pdf) shall be submitted along with all the relevant documents as may be specified by the BOARD to the concerned office.\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n   1. The beneficiary should be a resident of Meghalaya.\n   1. The deceased individual/worker should have been receiving a pension from the Meghalaya Building &amp;amp; Other Construction Workers Welfare Board.\n   1. In the event of the death of the pensioner, the surviving spouse shall be eligible for the family pension.\n   1. The spouse of the pensioner should not be receiving any pension from the Government/Semi-Government/Private Organization.\n   1. The spouse of the pensioner should not be receiving any salary from the Government/Semi-Government/Private Organization.\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "ol_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The beneficiary should be a resident of Meghalaya."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The deceased individual/worker should have been receiving a pension from the Meghalaya Building & Other Construction Workers Welfare Board."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "In the event of the death of the pensioner, the surviving spouse shall be eligible for the family pension."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The spouse of the pensioner should not be receiving any pension from the Government/Semi-Government/Private Organization."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The spouse of the pensioner should not be receiving any salary from the Government/Semi-Government/Private Organization."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "fpmbocwwb"
+}

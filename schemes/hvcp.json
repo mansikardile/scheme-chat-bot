@@ -1,0 +1,388 @@
+{
+  "_id": "65c357eced4030e118cf0b65",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Shelter",
+        "Free Food",
+        "Visually Challenged Person",
+        "Free Clothes"
+      ],
+      "schemeName": "Home for Visually Challenged Person",
+      "schemeShortTitle": "HVCP",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce87cd6d1a3bde4685312",
+          "label": "Social welfare & Empowerment"
+        },
+        {
+          "value": "628ce85cd6d1a3bde4685304",
+          "label": "Skills & Employment"
+        },
+        {
+          "value": "628ce7a2d6d1a3bde46852b1",
+          "label": "Health & Wellness"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Shelter",
+          "label": "Shelter"
+        },
+        {
+          "value": "Financial assistance",
+          "label": "Financial assistance"
+        },
+        {
+          "value": "Citizen empowerment",
+          "label": "Citizen empowerment"
+        },
+        {
+          "value": "Food Security / Public Distribution System",
+          "label": "Food Security / Public Distribution System"
+        },
+        {
+          "value": "Training and Skill Up-gradation",
+          "label": "Training and Skill Up-gradation"
+        },
+        {
+          "value": "Voctional education",
+          "label": "Voctional education"
+        },
+        {
+          "value": "Welfare measures",
+          "label": "Welfare measures"
+        },
+        {
+          "value": "Free Meal",
+          "label": "Free Meal"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "state": {
+        "value": 34,
+        "label": "Puducherry"
+      },
+      "nodalDepartmentName": {
+        "value": 34000038,
+        "label": "Social Welfare Department, Puducherry"
+      },
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://socwelfare.py.gov.in/home-visually-challenged-person-puducherry"
+        },
+        {
+          "title": "Citizen's Charter",
+          "url": "https://socwelfare.py.gov.in/sites/default/files/citizen-charter.pdf"
+        },
+        {
+          "title": "Contact Us",
+          "url": "https://socwelfare.py.gov.in/contact-us"
+        },
+        {
+          "title": "Sub Offices",
+          "url": "https://socwelfare.py.gov.in/sub--office-social-welfare-department"
+        },
+        {
+          "title": "Grievance Redressal",
+          "url": "https://pgportal.gov.in/"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The scheme “Home for Visually challenged Person&quot; was launched by the Department of Social Welfare, Government of Puducherry. The objective of this scheme is to take care of the male persons who are visually impaired and who lack care and protection in society and are deprived of basic needs like food, shelter, clothes.\n",
+      "benefits_md": "\n1. Free Food and Shelter.\n1. Free Supply of Daily Living Needs.\n1. Pocket Money of ₹ 5/-.\n1. Vocational Training Such as Korai &amp; Coir Mat Weaving, According to Their Interest. \n1. Labour Charges of ₹ 20 /- for Mat.\n1. Recreations Such as TV, Radio, Musical Instrument, Besides Local Trips to Places of Interest and Temples. \n1. Annual Tour to Places of Interest. \n\n**NOTE:** Contact the authorities below in case of delay in disbursal of benefits:\nPuducherry: The Director, Directorate of Social Welfare, Saradhambal Nagar, Ellaipillaichavadhy, Puducherry. \nKaraikal: The Collector, Karaikal.\nMahe/Yanam: The Regional Administrator, Mahe/Yanam.\n",
+      "briefDescription": "The scheme “Home for Visually challenged Person\" was launched by the Department of Social Welfare, Government of Puducherry. The objective of this scheme is to take care of the male persons who are visually impaired and who lack care and protection in society and are deprived of basic needs.",
+      "exclusions_md": "",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The scheme “Home for Visually challenged Person\" was launched by the Department of Social Welfare, Government of Puducherry. The objective of this scheme is to take care of the male persons who are visually impaired and who lack care and protection in society and are deprived of basic needs like food, shelter, clothes."
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 2,
+        "value": "in-kind",
+        "label": "In Kind"
+      },
+      "benefits": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Free Food and Shelter."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Free Supply of Daily Living Needs."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Pocket Money of ₹ 5/-."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Vocational Training Such as Korai & Coir Mat Weaving, According to Their Interest. "
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Labour Charges of ₹ 20 /- for Mat."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Recreations Such as TV, Radio, Musical Instrument, Besides Local Trips to Places of Interest and Temples. "
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Annual Tour to Places of Interest. "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "NOTE:",
+              "bold": true
+            },
+            {
+              "text": " Contact the authorities below in case of delay in disbursal of benefits:"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Puducherry: The Director, Directorate of Social Welfare, Saradhambal Nagar, Ellaipillaichavadhy, Puducherry. "
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Karaikal: The Collector, Karaikal."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Mahe/Yanam: The Regional Administrator, Mahe/Yanam."
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "process": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 1: ",
+                "bold": true
+              },
+              {
+                "text": "The interested applicant should visit (during office hours) the "
+              },
+              {
+                "type": "link",
+                "link": "https://socwelfare.py.gov.in/sub--office-social-welfare-department",
+                "children": [
+                  {
+                    "text": "Office/ Sub-Office"
+                  }
+                ]
+              },
+              {
+                "text": " of the Department of Social Welfare, and request the hard copy of the prescribed format of the application form from the staff exclusively entrusted to issue and collect filled-in applications."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2:",
+                "bold": true
+              },
+              {
+                "text": " In the application form, fill in all the mandatory fields, paste the passport-sized photograph (signed across, if required), and attach copies of all the mandatory documents (self-attest, if required)."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 3: ",
+                "bold": true
+              },
+              {
+                "text": "Submit the duly filled and signed application form along with the documents to the authority given below - "
+              }
+            ]
+          },
+          {
+            "type": "ul_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Puducherry: ",
+                    "bold": true
+                  },
+                  {
+                    "text": "The Deputy Director, Differently Abled Section, Directorate of Social Welfare. "
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Karaikal: ",
+                    "bold": true
+                  },
+                  {
+                    "text": "The Assistant Director, Social Welfare Department (Sub Office)."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Mahe / Yanam: ",
+                    "bold": true
+                  },
+                  {
+                    "text": "The Welfare Officer (i\\c), Social Welfare Department (Sub Office). "
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 4: ",
+                "bold": true
+              },
+              {
+                "text": "Request a receipt or acknowledgement from the concerned authority to whom the application has been submitted. Ensure that the receipt contains essential details such as the date and time of submission, and a unique identification number (if applicable)."
+              }
+            ]
+          }
+        ],
+        "process_md": "**Step 1:** The interested applicant should visit (during office hours) the [Office/ Sub-Office](https://socwelfare.py.gov.in/sub--office-social-welfare-department) of the Department of Social Welfare, and request the hard copy of the prescribed format of the application form from the staff exclusively entrusted to issue and collect filled-in applications.\n**Step 2:** In the application form, fill in all the mandatory fields, paste the passport-sized photograph (signed across, if required), and attach copies of all the mandatory documents (self-attest, if required).\n**Step 3:** Submit the duly filled and signed application form along with the documents to the authority given below - \n\n- **Puducherry:** The Deputy Director, Differently Abled Section, Directorate of Social Welfare. - **Karaikal:** The Assistant Director, Social Welfare Department (Sub Office).- **Mahe / Yanam:** The Welfare Officer (i\\c), Social Welfare Department (Sub Office). \n**Step 4:** Request a receipt or acknowledgement from the concerned authority to whom the application has been submitted. Ensure that the receipt contains essential details such as the date and time of submission, and a unique identification number (if applicable).\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n1. The applicant should have a total absence of sight.\n1. The applicant should have a visual acuity not exceeding 6/60 or 20/200 in the better eye with correcting lenses. \n1. The applicant should have a limitation of field of vision sub standing an angle of 20 degree.\n1. The applicant should be above 20 years of age.\n\n<br>\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should have a total absence of sight."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should have a visual acuity not exceeding 6/60 or 20/200 in the better eye with correcting lenses. "
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should have a limitation of field of vision sub standing an angle of 20 degree."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should be above 20 years of age."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "hvcp"
+}

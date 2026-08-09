@@ -1,0 +1,218 @@
+{
+  "_id": "68fb65b3c0f1dc71eb719197",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Electricity Bill Waiver",
+        "Outstanding Dues",
+        "Construction Worker",
+        "Subsidy",
+        "BPL"
+      ],
+      "schemeName": "Mukhyamantri Bijli Bill Bakaya Maaf Samadhan Scheme",
+      "schemeShortTitle": "MBBBMSS",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce97ad6d1a3bde468537d",
+          "label": "Utility & Sanitation"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Electricity",
+          "label": "Electricity"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "schemeFor": "Individual",
+      "state": {
+        "value": 23,
+        "label": "Madhya Pradesh"
+      },
+      "schemeType": null,
+      "nodalMinistryName": null,
+      "nodalDepartmentName": {
+        "value": 2300010,
+        "label": "Energy Department"
+      },
+      "otherMinistryName": null,
+      "otherDepartmentNames": null
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://cmhelpline.mp.gov.in/schemes.aspx?vID=0"
+        }
+      ],
+      "schemeImageUrl": "",
+      "briefDescription": "The scheme aims to provide relief in payment of outstanding electricity bills to the registered workers, construction workers, and BPL consumers under the \"Mukhyamantri Mazdoor Kalyan (Sambal) Yojana\".",
+      "detailedDescription_md": "The scheme “Mukhya Mantri Bijli Bill Bakaya Maaf Samadhan Scheme” launched by the Energy Department, Government of Madhya Pradesh aims to provide waiver of electricity bill dues through sharing of outstanding amounts between the state government and distribution companies for the benefit of registered workers, construction workers, and BPL consumers.\n<br>\n\n",
+      "benefits_md": "\n  - **Waiver of Outstanding Dues:** Complete waiver of surcharge amount and 50% waiver of the principal outstanding amount as of the date of implementation of the scheme.  - **Benefit to Consumers:** The entire surcharge and 50% of the principal amount are borne by the concerned distribution companies.  - **State Government Support:** The remaining 50% of the principal amount is borne by the State Government as a subsidy to the distribution companies.\n<br>\n\n",
+      "exclusions_md": "",
+      "detailedDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "The scheme “Mukhya Mantri Bijli Bill Bakaya Maaf Samadhan Scheme” launched by the Energy Department, Government of Madhya Pradesh aims to provide waiver of electricity bill dues through sharing of outstanding amounts between the state government and distribution companies for the benefit of registered workers, construction workers, and BPL consumers."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 2,
+        "value": "in-kind",
+        "label": "In Kind"
+      },
+      "benefits": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "ul_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Waiver of Outstanding Dues:",
+                      "bold": true
+                    },
+                    {
+                      "text": " Complete waiver of surcharge amount and 50% waiver of the principal outstanding amount as of the date of implementation of the scheme."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Benefit to Consumers:",
+                      "bold": true
+                    },
+                    {
+                      "text": " The entire surcharge and 50% of the principal amount are borne by the concerned distribution companies."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "State Government Support: ",
+                      "bold": true
+                    },
+                    {
+                      "text": "The remaining 50% of the principal amount is borne by the State Government as a subsidy to the distribution companies."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "process": [
+          {
+            "type": "ul_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "A waiver has been granted on the full principal outstanding amount and the surcharge payable as on the date of implementation of the scheme. "
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "The entire surcharge amount and 50% of the principal outstanding amount are being borne by the concerned distribution companies, while the remaining 50% of the principal amount is being borne by the State Government by providing it as a subsidy to the distribution companies."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          }
+        ],
+        "process_md": "\n- A waiver has been granted on the full principal outstanding amount and the surcharge payable as on the date of implementation of the scheme. \n- The entire surcharge amount and 50% of the principal outstanding amount are being borne by the concerned distribution companies, while the remaining 50% of the principal amount is being borne by the State Government by providing it as a subsidy to the distribution companies.\n\n<br>\n\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "The applicant must be a registered worker under the &quot;Mukhyamantri Mazdoor Kalyan (Sambal) Yojana&quot;.\nThe applicant must be a construction worker or a Below Poverty Line (BPL) consumer.\n<br>\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The applicant must be a registered worker under the \"Mukhyamantri Mazdoor Kalyan (Sambal) Yojana\"."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The applicant must be a construction worker or a Below Poverty Line (BPL) consumer."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "mbbbmss"
+}

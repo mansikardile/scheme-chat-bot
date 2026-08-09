@@ -1,0 +1,429 @@
+{
+  "_id": "695b8769559d800161488010",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Financial Assistance",
+        "Medical Treatment",
+        "Driver",
+        "Conductor",
+        "Diseases"
+      ],
+      "schemeName": "Motor Vehicle Driver-Conductor Welfare Scheme- Medical Assistance",
+      "schemeShortTitle": "MVDCWS-MDA",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce7a2d6d1a3bde46852b1",
+          "label": "Health & Wellness"
+        },
+        {
+          "value": "628ce924d6d1a3bde4685354",
+          "label": "Transport & Infrastructure"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Disease and conditions",
+          "label": "Disease and conditions"
+        },
+        {
+          "value": "Health care providers and access",
+          "label": "Health care providers and access"
+        },
+        {
+          "value": "Financial assistance",
+          "label": "Financial assistance"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        },
+        {
+          "value": "family",
+          "label": "Family"
+        }
+      ],
+      "schemeFor": "Family",
+      "state": {
+        "value": 23,
+        "label": "Madhya Pradesh"
+      },
+      "schemeType": null,
+      "nodalMinistryName": null,
+      "nodalDepartmentName": {
+        "value": 2300050,
+        "label": "Transport Department"
+      },
+      "otherMinistryName": null,
+      "otherDepartmentNames": null
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://transport.mp.gov.in/sites/default/files/documents/yojna_20150001.pdf"
+        },
+        {
+          "title": "Official Website",
+          "url": "https://transport.mp.gov.in/"
+        }
+      ],
+      "schemeImageUrl": "",
+      "briefDescription": "The scheme aims to provide healthcare and medical assistance to registered drivers, conductors, and their families. Medical benefits are delivered through existing state health schemes.",
+      "detailedDescription_md": "The “Motor Vehicle Driver-Conductor Welfare Scheme- Medical Assistance” scheme has been launched by the Transport Department, Government of Madhya Pradesh. The scheme aims to provide medical assistance benefits to registered drivers, conductors, and their eligible family members to reduce the financial burden arising from illness. It also enables beneficiaries to receive assistance for high-cost treatments in case of severe diseases.\n<br>\n\n",
+      "benefits_md": "\n- Medical treatment benefits are provided under [Deendayal Antyodaya Upchar Yojana](https://www.mpedistrict.gov.in/MPL/getphoto.aspx?ViewCircular=eVTeefDvS1Q=) through the Public Health and Family Welfare Department.- Financial assistance for serious or life-threatening diseases may be provided under the State Illness Assistance Fund, subject to eligibility and approval.\n- The benefit covers the registered driver or conductor and their eligible family members as defined under the scheme.\n\n<br>\n\n",
+      "exclusions_md": "<br>\n\n",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The “Motor Vehicle Driver-Conductor Welfare Scheme- Medical Assistance” scheme has been launched by the Transport Department, Government of Madhya Pradesh. The scheme aims to provide medical assistance benefits to registered drivers, conductors, and their eligible family members to reduce the financial burden arising from illness. It also enables beneficiaries to receive assistance for high-cost treatments in case of severe diseases."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 3,
+        "value": "composite",
+        "label": "Composite"
+      },
+      "benefits": [
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Medical treatment benefits are provided under "
+                },
+                {
+                  "type": "link",
+                  "link": "https://www.mpedistrict.gov.in/MPL/getphoto.aspx?ViewCircular=eVTeefDvS1Q=",
+                  "children": [
+                    {
+                      "text": "Deendayal Antyodaya Upchar Yojana"
+                    }
+                  ]
+                },
+                {
+                  "text": " through the Public Health and Family Welfare Department."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Financial assistance for serious or life-threatening diseases may be provided under the State Illness Assistance Fund, subject to eligibility and approval."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The benefit covers the registered driver or conductor and their eligible family members as defined under the scheme."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ],
+      "exclusions": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "process": [
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "text": "Samagra ID Registration Process:",
+                "bold": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "bold": true,
+                "text": "Step 1: "
+              },
+              {
+                "text": "Visit the official website: "
+              },
+              {
+                "type": "link",
+                "link": "https://samagra.gov.in/",
+                "children": [
+                  {
+                    "text": "samagra.gov.in"
+                  }
+                ]
+              },
+              {
+                "text": "."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "bold": true,
+                "text": "Step 2: "
+              },
+              {
+                "text": "Click on the option “Register Family” or “Register Member”."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "bold": true,
+                "text": "Step 3: "
+              },
+              {
+                "text": "Enter the Aadhaar number and other required information."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "bold": true,
+                "text": "Step 4: "
+              },
+              {
+                "text": "Enter the OTP received on the registered mobile number."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "bold": true,
+                "text": "Step 5: "
+              },
+              {
+                "text": "Carefully fill in all the required details and upload the necessary documents."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "bold": true,
+                "text": "Step 6: "
+              },
+              {
+                "text": "Enter the captcha code and click on “Submit Application.”"
+              }
+            ]
+          },
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "bold": true,
+                "text": "Offline Samagra ID Registration Process:"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "bold": true,
+                "text": "Step 1: "
+              },
+              {
+                "text": "Visit the nearest Lok Seva Kendra, MP Online Kiosk, or Common Service Center (CSC)."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "bold": true,
+                "text": "Step 2: "
+              },
+              {
+                "text": "Provide the required documents and necessary information to complete the registration process."
+              }
+            ]
+          },
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "bold": true,
+                "text": "After Samagra Registration:"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "bold": true,
+                "text": "Step 1: Step 1: "
+              },
+              {
+                "text": "The interested applicant downloads the "
+              },
+              {
+                "type": "link",
+                "link": "https://transport.mp.gov.in/sites/default/files/documents/yojna_20150001.pdf",
+                "children": [
+                  {
+                    "text": "application form"
+                  }
+                ]
+              },
+              {
+                "text": " (Page No. 9) from the official website. "
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2:",
+                "bold": true
+              },
+              {
+                "text": " In the application form, fill in all the mandatory fields, and attach copies of all the mandatory documents (self-attest, if required)."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 3:",
+                "bold": true
+              },
+              {
+                "text": " Submit the duly filled and signed application form along with the documents to the District or Regional Transport Office."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          }
+        ],
+        "process_md": "> **Samagra ID Registration Process:**\n\n**Step 1:** Visit the official website: [samagra.gov.in](https://samagra.gov.in/).\n**Step 2:** Click on the option “Register Family” or “Register Member”.\n**Step 3:** Enter the Aadhaar number and other required information.\n**Step 4:** Enter the OTP received on the registered mobile number.\n**Step 5:** Carefully fill in all the required details and upload the necessary documents.\n**Step 6:** Enter the captcha code and click on “Submit Application.”\n> **Offline Samagra ID Registration Process:**\n\n**Step 1:** Visit the nearest Lok Seva Kendra, MP Online Kiosk, or Common Service Center (CSC).\n**Step 2:** Provide the required documents and necessary information to complete the registration process.\n> **After Samagra Registration:**\n\n**Step 1: Step 1:** The interested applicant downloads the [application form](https://transport.mp.gov.in/sites/default/files/documents/yojna_20150001.pdf) (Page No. 9) from the official website. \n**Step 2:** In the application form, fill in all the mandatory fields, and attach copies of all the mandatory documents (self-attest, if required).\n**Step 3:** Submit the duly filled and signed application form along with the documents to the District or Regional Transport Office.\n<br>\n\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n1. The applicant should be a permanent resident of Madhya Pradesh.\n1. The applicant should hold a valid commercial driver or conductor license issued in Madhya Pradesh.\n1. The applicant should be registered on the Samagra Portal.\n1. The applicant should be a registered transport vehicle driver or conductor under the scheme.\n1. The applicant or eligible family member should require medical treatment as per scheme provisions.\n\n<br>\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should be a permanent resident of Madhya Pradesh."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should hold a valid commercial driver or conductor license issued in Madhya Pradesh."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should be registered on the Samagra Portal."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should be a registered transport vehicle driver or conductor under the scheme."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant or eligible family member should require medical treatment as per scheme provisions."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "mvdcws-mda"
+}

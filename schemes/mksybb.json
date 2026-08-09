@@ -1,0 +1,247 @@
+{
+  "_id": "676a5326ff1de86fed6df0a4",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Fixed Deposit",
+        "Women Empowerment",
+        "Financial Assistance"
+      ],
+      "schemeName": "Mukhyamantri Kanya Suraksha Yojana",
+      "schemeShortTitle": "MKSYBB",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce7f6d6d1a3bde46852d0",
+          "label": "Banking,Financial Services and Insurance"
+        },
+        {
+          "value": "64f57d10ffb93104c7006c97",
+          "label": "Women and Child"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Insurance",
+          "label": "Insurance"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "state": {
+        "value": 10,
+        "label": "Bihar"
+      },
+      "nodalDepartmentName": {
+        "value": 10111148,
+        "label": "Social Welfare Department"
+      },
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://wcdc.bihar.gov.in/MKSYDetails"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "Launched by the Government of Bihar, the Mukhyamantri Kanya Suraksha Yojana (MKSY) aims to provide financial support to girl children belonging to BPL families. The scheme strives to enhance the value of girl children in society, prevent female foeticide, improve the sex ratio, and ensure the registration of births. \n",
+      "benefits_md": "\n  - ₹2,000/- is invested as a fixed deposit for each eligible girl child.\n\n&gt; **Note:** In the event of the girl child’s death, the amount is returned to the Women &amp;amp; Child Development Corporation, Bihar.\n\n&lt;br&gt;\n\n&lt;br&gt;\n\n",
+      "briefDescription": "The \"Mukhyamantri Kanya Suraksha Yojana (MKSY)\" is a welfare initiative by the Government of Bihar to combat female foeticide, improve the sex ratio, and promote birth registration.",
+      "exclusions_md": "<br>\n\n",
+      "detailedDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "Launched by the Government of Bihar, the Mukhyamantri Kanya Suraksha Yojana (MKSY) aims to provide financial support to girl children belonging to BPL families. The scheme strives to enhance the value of girl children in society, prevent female foeticide, improve the sex ratio, and ensure the registration of births. "
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "ul_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "₹2,000/- is invested as a fixed deposit for each eligible girl child."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "block_quote",
+              "children": [
+                {
+                  "text": "Note:",
+                  "bold": true
+                },
+                {
+                  "text": " In the event of the girl child’s death, the amount is returned to the Women & Child Development Corporation, Bihar."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": ""
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": ""
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "exclusions": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "process": [
+          {
+            "type": "align_justify",
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 1: ",
+                    "bold": true
+                  },
+                  {
+                    "text": "Obtain the application form from the Women & Child Development Corporation or from the local designated government offices."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 2: ",
+                    "bold": true
+                  },
+                  {
+                    "text": "Fill out the form with accurate details and attach the required documents."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 3: ",
+                    "bold": true
+                  },
+                  {
+                    "text": "Submit the application form to the nearest government office or relevant authority."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 4: ",
+                    "bold": true
+                  },
+                  {
+                    "text": "The documents will be verified, and eligible beneficiaries will be informed."
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "process_md": "**Step 1:** Obtain the application form from the Women &amp;amp; Child Development Corporation or from the local designated government offices.\n**Step 2:** Fill out the form with accurate details and attach the required documents.\n**Step 3:** Submit the application form to the nearest government office or relevant authority.\n**Step 4:** The documents will be verified, and eligible beneficiaries will be informed.\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n1. The Girl must be a resident of Bihar.\n1. The Girl child must born on or after November 22, 2007.\n1. The family must belong to the Below Poverty Line (BPL) category.\n\n> Note: A maximum of 2 girl children per family can avail of the benefit.\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The Girl must be a resident of Bihar."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The Girl child must born on or after November 22, 2007."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The family must belong to the Below Poverty Line (BPL) category."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "Note: A maximum of 2 girl children per family can avail of the benefit."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "mksybb"
+}

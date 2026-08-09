@@ -1,0 +1,685 @@
+{
+  "_id": "68ef78a18ba160c15f3a0681",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Child",
+        "Surgery",
+        "Financial Aid",
+        "Disease",
+        "Treatment"
+      ],
+      "schemeName": "Mukhyamantri Bal Hridaya Upchar Yojana",
+      "schemeShortTitle": "MBHUY",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce7a2d6d1a3bde46852b1",
+          "label": "Health & Wellness"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Children’s health and immunization",
+          "label": "Children’s health and immunization"
+        },
+        {
+          "value": "Emergency medical assistance",
+          "label": "Emergency medical assistance"
+        },
+        {
+          "value": "Financial assistance",
+          "label": "Financial assistance"
+        },
+        {
+          "value": "Health promotion",
+          "label": "Health promotion"
+        },
+        {
+          "value": "Disease and conditions",
+          "label": "Disease and conditions"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "schemeFor": "Individual",
+      "state": {
+        "value": 23,
+        "label": "Madhya Pradesh"
+      },
+      "nodalDepartmentName": {
+        "value": 2300035,
+        "label": "Public Health and Family Welfare Department"
+      }
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://mpedistrict.gov.in/MPL/ShowServiceDetail.aspx?param=OPkKx2RwkmFXEdDNoHnsuZVMdEV+S6hV5yriv/wV8Kpl7mrDRVGqcK2fxNWi8h2yJn3KQVTMd5nzdYvxZ5j265XkYY/BTdfclhUrQo0uXpnpUQpxpiKu+YMEC9E2tmG8"
+        },
+        {
+          "title": "List Of CMHOs",
+          "url": "https://www.health.mp.gov.in/en/district-office-cmhocivil-surgeon"
+        },
+        {
+          "title": "Locate Your Nearest MP ONLINE",
+          "url": "https://www.mponline.gov.in/Portal/UserInterface/KIOSK/AuthKIOSKList.aspx"
+        },
+        {
+          "title": "Locate Your Nearest CSC",
+          "url": "https://findmycsc.nic.in/csc/"
+        },
+        {
+          "title": "Locate Your Nearest Lok Sewa Kendra",
+          "url": "http://mpedistrict.gov.in/Public/loksevakendra.aspx"
+        },
+        {
+          "title": "Prescribed Proforma [For Offline Application]",
+          "url": "https://mpedistrict.gov.in/MPL/DisplayServiceForm.aspx?ParamDownloadForm=05RYlMoDTVA%3d"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The scheme &quot;Mukhyamantri Bal Hridaya Upchar Yojana&quot; was launched by the Public Health and Family Welfare Department, Government of Madhya Pradesh. The scheme aims to provide free treatment and surgery to children aged 0 to 15 years who are suffering from identified heart diseases. The scheme provides financial assistance ranging from ₹25,000/- to ₹1,00,000/- for treatment, covering 07 identified heart diseases in children. Key features include covering costs for treatment at recognized government or private hospitals and ensuring the process is governed by the Madhya Pradesh Public Services Guarantee Act, 2010.\n<br>\n\n",
+      "benefits_md": "\n- Financial assistance ranging from ₹25,000/- to ₹1,00,000/- per case for treatment.\n- Provision of free treatment/surgery for 07 identified heart diseases in children.\n- The sanctioned amount is transferred to the account of the concerned medical institution via Cheque or E-Payment (e-transfer).\n- The benefit delivery period is stipulated as 20 working days.\n\n***Conditions***\n\n- Treatment must be confined to the approved package amount.\n- Hospitals must not demand any additional fee from the patient for treatment beyond the sanctioned amount.\n- The beneficiary or hospital must submit a detailed expenditure report/utilization certificate for the funds spent on the patient&#39;s treatment.\n- A duplicate or photocopy of the discharge ticket issued after the patient&#39;s recovery must be provided.\n\n<br>\n\n",
+      "exclusions_md": "The beneficiary is not eligible for assistance if treatment for the sanctioned disease is sought prior to the approval date.\n<br>\n\n",
+      "briefDescription": "The scheme provides financial assistance ranging from ₹25,000/- to ₹1,00,000/- for treatment, covering 07 identified heart diseases in children. Key features include covering costs for treatment at recognized government or private hospitals.",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The scheme \"Mukhyamantri Bal Hridaya Upchar Yojana\" was launched by the Public Health and Family Welfare Department, Government of Madhya Pradesh. The scheme aims to provide free treatment and surgery to children aged 0 to 15 years who are suffering from identified heart diseases. The scheme provides financial assistance ranging from ₹25,000/- to ₹1,00,000/- for treatment, covering 07 identified heart diseases in children. Key features include covering costs for treatment at recognized government or private hospitals and ensuring the process is governed by the Madhya Pradesh Public Services Guarantee Act, 2010."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Financial assistance ranging from ₹25,000/- to ₹1,00,000/- per case for treatment."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Provision of free treatment/surgery for 07 identified heart diseases in children."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The sanctioned amount is transferred to the account of the concerned medical institution via Cheque or E-Payment (e-transfer)."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The benefit delivery period is stipulated as 20 working days."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Conditions",
+              "bold": true,
+              "underline": true,
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Treatment must be confined to the approved package amount."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Hospitals must not demand any additional fee from the patient for treatment beyond the sanctioned amount."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The beneficiary or hospital must submit a detailed expenditure report/utilization certificate for the funds spent on the patient's treatment."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "A duplicate or photocopy of the discharge ticket issued after the patient's recovery must be provided."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ],
+      "exclusions": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The beneficiary is not eligible for assistance if treatment for the sanctioned disease is sought prior to the approval date."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Online",
+        "process": [
+          {
+            "type": "heading_five",
+            "children": [
+              {
+                "text": "Registration",
+                "bold": true,
+                "underline": true,
+                "italic": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 1:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " Visit the Official Website of \""
+              },
+              {
+                "type": "link",
+                "link": "https://mpedistrict.gov.in/",
+                "children": [
+                  {
+                    "text": "Madhya Pradesh Lok Sewa Guarantee Portal"
+                  }
+                ]
+              },
+              {
+                "text": "\" and click \""
+              },
+              {
+                "type": "link",
+                "link": "https://mpedistrict.gov.in/MPL/CitizenRegistration.aspx",
+                "children": [
+                  {
+                    "text": "नागरिक पंजीयन (Citizen Registration)"
+                  }
+                ]
+              },
+              {
+                "text": "\"."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " In the registration page, provide the following mandatory information: Name, Gender, Mobile No., Email ID."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 3:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " Create a new password and confirm the same. Fill the captcha code. Verify your Mobile Number via OTP. Finally, click \"Register\"."
+              }
+            ]
+          },
+          {
+            "type": "heading_five",
+            "children": [
+              {
+                "text": "Application",
+                "bold": true,
+                "underline": true,
+                "italic": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 1:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " Visit the Official Website of \""
+              },
+              {
+                "type": "link",
+                "link": "https://mpedistrict.gov.in/",
+                "children": [
+                  {
+                    "text": "Madhya Pradesh Lok Sewa Guarantee Portal"
+                  }
+                ]
+              },
+              {
+                "text": "\" and click \""
+              },
+              {
+                "type": "link",
+                "link": "https://mpedistrict.gov.in/MPL/Login.aspx",
+                "children": [
+                  {
+                    "text": "लॉग इन (Login)"
+                  }
+                ]
+              },
+              {
+                "text": "\"."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " Login using your registered Email ID and the password created during registration."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 3:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " On the homepage, sort the list of services \"By Department\". Further, select the Department and the respective scheme that you intend to apply for. On the next page, detailed information about the scheme will be displayed, along with the following resources:"
+              }
+            ]
+          },
+          {
+            "type": "ul_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": ""
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://mpedistrict.gov.in/MPL/getphoto.aspx?ViewCircular=UcK/7Q97U9M=",
+                    "children": [
+                      {
+                        "text": "Official Guidelines"
+                      }
+                    ]
+                  },
+                  {
+                    "text": " of the Scheme."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": ""
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://mpedistrict.gov.in/MPL/DisplayServiceForm.aspx?ParamDownloadForm=05RYlMoDTVA%3d",
+                    "children": [
+                      {
+                        "text": "Prescribed Format"
+                      }
+                    ]
+                  },
+                  {
+                    "text": " of the Application Form (For Offline Application)."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Link to Apply Online (By Self or Through Lok Sewa Kendra / MP Online / CSC)."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 4:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " In the scheme's online application form, fill in all the mandatory fields and upload all the mandatory documents in the specified format and size (fields marked with * are mandatory), and click \"Submit\". "
+              },
+              {
+                "text": "Alternatively, you may apply via your nearest Lok Sewa Kendra / MP Online / CSC by making a payment of ₹20/-.",
+                "bold": true,
+                "italic": true
+              }
+            ]
+          },
+          {
+            "type": "heading_five",
+            "children": [
+              {
+                "text": "Grievance Redressal / Help & Support (Appeal Mechanism)",
+                "bold": true,
+                "underline": true,
+                "italic": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "The applicant may file an appeal in the following situations: "
+              }
+            ]
+          },
+          {
+            "type": "ol_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Non-receipt of the application acknowledgment receipt."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Approved treatment amount is less than the prescribed package/estimate."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Non-resolution within the specified time limit."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ul_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "First Appeal:",
+                    "bold": true,
+                    "underline": true
+                  },
+                  {
+                    "text": " Must be filed with the Collector. The prescribed time limit for the resolution of the first appeal is 15 working days."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Second Appeal:",
+                    "bold": true,
+                    "underline": true
+                  },
+                  {
+                    "text": " Must be filed with the Samagra Sanyukt Sanchalak, Swasthya Seva (Integrated Joint Director, Health Services)."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          }
+        ],
+        "process_md": "##### ***Registration***\n**Step 1:** Visit the Official Website of &quot;[Madhya Pradesh Lok Sewa Guarantee Portal](https://mpedistrict.gov.in/)&quot; and click &quot;[नागरिक पंजीयन (Citizen Registration)](https://mpedistrict.gov.in/MPL/CitizenRegistration.aspx)&quot;.\n**Step 2:** In the registration page, provide the following mandatory information: Name, Gender, Mobile No., Email ID.\n**Step 3:** Create a new password and confirm the same. Fill the captcha code. Verify your Mobile Number via OTP. Finally, click &quot;Register&quot;.\n##### ***Application***\n**Step 1:** Visit the Official Website of &quot;[Madhya Pradesh Lok Sewa Guarantee Portal](https://mpedistrict.gov.in/)&quot; and click &quot;[लॉग इन (Login)](https://mpedistrict.gov.in/MPL/Login.aspx)&quot;.\n**Step 2:** Login using your registered Email ID and the password created during registration.\n**Step 3:** On the homepage, sort the list of services &quot;By Department&quot;. Further, select the Department and the respective scheme that you intend to apply for. On the next page, detailed information about the scheme will be displayed, along with the following resources:\n\n- [Official Guidelines](https://mpedistrict.gov.in/MPL/getphoto.aspx?ViewCircular=UcK/7Q97U9M=) of the Scheme.- [Prescribed Format](https://mpedistrict.gov.in/MPL/DisplayServiceForm.aspx?ParamDownloadForm=05RYlMoDTVA%3d) of the Application Form (For Offline Application).- Link to Apply Online (By Self or Through Lok Sewa Kendra / MP Online / CSC).\n\n**Step 4:** In the scheme&#39;s online application form, fill in all the mandatory fields and upload all the mandatory documents in the specified format and size (fields marked with * are mandatory), and click &quot;Submit&quot;. ***Alternatively, you may apply via your nearest Lok Sewa Kendra / MP Online / CSC by making a payment of ₹20/-.***\n##### ***Grievance Redressal / Help &amp; Support (Appeal Mechanism)***\nThe applicant may file an appeal in the following situations: \n\n1. Non-receipt of the application acknowledgment receipt.\n1. Approved treatment amount is less than the prescribed package/estimate.\n1. Non-resolution within the specified time limit.\n\n\n- **First Appeal:** Must be filed with the Collector. The prescribed time limit for the resolution of the first appeal is 15 working days.- **Second Appeal:** Must be filed with the Samagra Sanyukt Sanchalak, Swasthya Seva (Integrated Joint Director, Health Services).\n<br>\n\n"
+      },
+      {
+        "mode": "Offline",
+        "process": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 1:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " The interested applicant should take a printout of the "
+              },
+              {
+                "type": "link",
+                "link": "https://mpedistrict.gov.in/MPL/DisplayServiceForm.aspx?ParamDownloadForm=05RYlMoDTVA%3d",
+                "children": [
+                  {
+                    "text": "prescribed format"
+                  }
+                ]
+              },
+              {
+                "text": " of the application form."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " In the application form, fill in all the mandatory fields, and attach copies of all the mandatory documents (self-attest, if required)."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 3:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " Submit the duly filled and signed application form along with the documents, within the prescribed period (if any), to the "
+              },
+              {
+                "type": "link",
+                "link": "https://www.mpdoctors.com/doctors/cmho%20in%20mp.htm",
+                "children": [
+                  {
+                    "text": "Chief Medical and Health Officer (CMHO)"
+                  }
+                ]
+              },
+              {
+                "text": " of their district."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          }
+        ],
+        "process_md": "**Step 1:** The interested applicant should take a printout of the [prescribed format](https://mpedistrict.gov.in/MPL/DisplayServiceForm.aspx?ParamDownloadForm=05RYlMoDTVA%3d) of the application form.\n**Step 2:** In the application form, fill in all the mandatory fields, and attach copies of all the mandatory documents (self-attest, if required).\n**Step 3:** Submit the duly filled and signed application form along with the documents, within the prescribed period (if any), to the [Chief Medical and Health Officer (CMHO)](https://www.mpdoctors.com/doctors/cmho%20in%20mp.htm) of their district.\n<br>\n\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n- The applicant must be a resident of Madhya Pradesh.\n- The applicant must be a member of an Economically Weaker Family or a Below Poverty Line (BPL) family.\n- The applicant must ensure their name is recorded in the family roster and they hold a ration card.\n- The intended beneficiary (child) must be aged 0 to 15 years.\n- The intended beneficiary (child) must be suffering from one of the identified heart diseases.\n\n<br>\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must be a resident of Madhya Pradesh."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must be a member of an Economically Weaker Family or a Below Poverty Line (BPL) family."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must ensure their name is recorded in the family roster and they hold a ration card."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The intended beneficiary (child) must be aged 0 to 15 years."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The intended beneficiary (child) must be suffering from one of the identified heart diseases."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "mbhuy"
+}

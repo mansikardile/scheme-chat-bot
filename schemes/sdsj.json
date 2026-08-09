@@ -1,0 +1,220 @@
+{
+  "_id": "678fa77d299213e15d38fbfe",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Subsidized Rate",
+        "Salt",
+        "JSFSS",
+        "NFSA"
+      ],
+      "schemeName": "Salt Distribution Scheme Jharkhand",
+      "schemeShortTitle": "SDSJ",
+      "implementingAgency": "Directorate Of Food And Consumer Affairs, Ranchi",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce87cd6d1a3bde4685312",
+          "label": "Social welfare & Empowerment"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Food Security / Public Distribution System",
+          "label": "Food Security / Public Distribution System"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "state": {
+        "value": 20,
+        "label": "Jharkhand"
+      },
+      "nodalDepartmentName": {
+        "value": 2000007,
+        "label": "Food, Public Distribution and Consumer affairs Department"
+      },
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://www.jharkhand.gov.in/PDepartment/ViewDoc?id=D009DO003SD00625102023010214718"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The &quot;Salt Distribution Scheme&quot; by the Department of Food, Public Distribution and Consumer Affairs, Government of Jharkhand, aims to provide subsidized salt to beneficiaries, ensuring affordability and nutrition intake for economically weaker sections. Under this scheme, salt is distributed at ₹1 per kilogram to Antyodaya Anna Yojana (AAY) cardholders, Priority Household (PHH) cardholders under the National Food Security Act (NFSA), and Green Cardholders under the Jharkhand State Food Security Scheme (JSFSS). \n",
+      "benefits_md": "\n- Subsidized salt is provided at ₹1/- per kilogram.\n\n<br>\n\n**Note:**\n\n1. Benefits extended to AAY and PHH cardholders under NFSA and Green Cardholders under JSFSS.\n1. Distributed monthly through designated fair price shops.\n\n",
+      "briefDescription": "The \"Salt Distribution Scheme\" by the Department of Food, Public Distribution and Consumer Affairs, Government of Jharkhand, ensures subsidized salt is provided to AAY, PHH, and Green Cardholders, promoting accessibility and affordability.",
+      "exclusions_md": "",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The \"Salt Distribution Scheme\" by the Department of Food, Public Distribution and Consumer Affairs, Government of Jharkhand, aims to provide subsidized salt to beneficiaries, ensuring affordability and nutrition intake for economically weaker sections. Under this scheme, salt is distributed at ₹1 per kilogram to Antyodaya Anna Yojana (AAY) cardholders, Priority Household (PHH) cardholders under the National Food Security Act (NFSA), and Green Cardholders under the Jharkhand State Food Security Scheme (JSFSS). "
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 2,
+        "value": "in-kind",
+        "label": "In Kind"
+      },
+      "benefits": [
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Subsidized salt is provided at ₹1/- per kilogram."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Note:",
+              "bold": true,
+              "underline": true
+            }
+          ]
+        },
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Benefits extended to AAY and PHH cardholders under NFSA and Green Cardholders under JSFSS."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Distributed monthly through designated fair price shops."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "process": [
+          {
+            "type": "ol_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Visit the nearest ration shop or designated enrollment center with the required documents."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "If Aadhaar is not available, apply for Aadhaar enrollment at an authorized center."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Submit the Aadhaar number or Aadhaar Enrolment Identification Slip during registration."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Verify the eligibility and documents with the designated officer."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Collect the salt from the distribution center as per the monthly schedule."
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "process_md": "\n1. Visit the nearest ration shop or designated enrollment center with the required documents.\n1. If Aadhaar is not available, apply for Aadhaar enrollment at an authorized center.\n1. Submit the Aadhaar number or Aadhaar Enrolment Identification Slip during registration.\n1. Verify the eligibility and documents with the designated officer.\n1. Collect the salt from the distribution center as per the monthly schedule.\n\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n1. The applicant must be a resident of Jharkhand.\n1. The applicant must hold an Antyodaya Anna Yojana (AAY) card, a Priority Household (PHH) card under the National Food Security Act, 2013, or a Green Card under the Jharkhand State Food Security Scheme.\n1. Preference is given to economically disadvantaged households.\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must be a resident of Jharkhand."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must hold an Antyodaya Anna Yojana (AAY) card, a Priority Household (PHH) card under the National Food Security Act, 2013, or a Green Card under the Jharkhand State Food Security Scheme."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Preference is given to economically disadvantaged households."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "sdsj"
+}

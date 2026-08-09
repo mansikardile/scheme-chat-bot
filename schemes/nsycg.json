@@ -1,0 +1,538 @@
+{
+  "_id": "67c98b2e385fe0618dd37cd6",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Women",
+        "Child",
+        "Financial Asssitance",
+        "Girl",
+        "Female"
+      ],
+      "schemeName": "Noni Suraksha Yojana",
+      "schemeShortTitle": "NSYCG",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "64f57d10ffb93104c7006c97",
+          "label": "Women and Child"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Childcare",
+          "label": "Childcare"
+        },
+        {
+          "value": "Financial Assistance",
+          "label": "Financial Assistance"
+        }
+      ],
+      "schemeOpenDate": "2014-04-01",
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "state": {
+        "value": 22,
+        "label": "Chhattisgarh"
+      },
+      "nodalDepartmentName": {
+        "value": 2200040,
+        "label": "Women and Child Development Department"
+      },
+      "schemeFor": "Family"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://cgwcd.gov.in/%E0%A4%A8%E0%A5%8B%E0%A4%A8%E0%A5%80-%E0%A4%B8%E0%A5%81%E0%A4%B0%E0%A4%95%E0%A5%8D%E0%A4%B7%E0%A4%BE-%E0%A4%AF%E0%A5%8B%E0%A4%9C%E0%A4%A8%E0%A4%BE"
+        },
+        {
+          "title": "Application Form",
+          "url": "https://cgwcd.gov.in/sites/default/files/2noni-surksha-yojna-application-form.pdf"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "Launched in 2014, the scheme &quot;Noni Suraksha Yojana&quot; by the Women and Child Development Department, Chhattisgarh Government, aims to address the declining child sex ratio and foster a positive societal attitude towards girls.  The scheme provides financial assistance of ₹1,00,000/- upon fulfilling certain conditions and invests ₹25,000/- in the name of the beneficiary girl child through the Life Insurance Corporation of India (LIC).  The applicant must be a native of Chhattisgarh and belong to a family living below the poverty line.  The scheme is implemented by the Life Insurance Corporation of India.  Applications for this scheme are accepted offline. \n",
+      "benefits_md": "\n- Financial assistance of ₹1,00,000/- will be provided by a financial institution upon the girl&#39;s 18th birthday, provided she is unmarried and has completed 12th standard education. The amount shall not be less than ₹1,00,000/-. \n- ₹5,000/- per year, totalling ₹25,000/- over 5 years, will be invested in the name of the eligible girl through the Life Insurance Corporation of India. \n- An additional corpus/contribution of 10% of the amount given to LIC will be provided to ensure the maturity amount is not less than ₹1,00,000/- and to account for potential devaluation of the Rupee. \n- The Life Insurance Corporation of India will handle all formalities from application receipt to payment. \n- The beneficiary girl/family will also be eligible for benefits under other social security schemes operated by the Life Insurance Corporation of India, as per the rules.\n\n**Mode of Disbursement:** Through a bank account opened in the beneficiary girl&#39;s name at the time of payment.\n**Disbursement Conditions:** The beneficiary girl must provide her 12th-grade mark sheet, an affidavit of being unmarried until 18 years of age (verified by the Child Development Project Officer or authorised officer), and her bank account details.\nIf the girl dies before the age of 18, the amount will be forfeited. \n",
+      "briefDescription": "The scheme aims to improve the educational and health status of girls, lay the foundation for their bright future, prevent female feticide, promote a positive attitude towards the birth of girls, and prevent child marriage.  It provides financial benefit to girls who remain unmarried until 18 years.",
+      "exclusions_md": "",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Launched in 2014, the scheme \"Noni Suraksha Yojana\" by the Women and Child Development Department, Chhattisgarh Government, aims to address the declining child sex ratio and foster a positive societal attitude towards girls.  The scheme provides financial assistance of ₹1,00,000/- upon fulfilling certain conditions and invests ₹25,000/- in the name of the beneficiary girl child through the Life Insurance Corporation of India (LIC).  The applicant must be a native of Chhattisgarh and belong to a family living below the poverty line.  The scheme is implemented by the Life Insurance Corporation of India.  Applications for this scheme are accepted offline. "
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Financial assistance of ₹1,00,000/- will be provided by a financial institution upon the girl's 18th birthday, provided she is unmarried and has completed 12th standard education. The amount shall not be less than ₹1,00,000/-. "
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "₹5,000/- per year, totalling ₹25,000/- over 5 years, will be invested in the name of the eligible girl through the Life Insurance Corporation of India. "
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "An additional corpus/contribution of 10% of the amount given to LIC will be provided to ensure the maturity amount is not less than ₹1,00,000/- and to account for potential devaluation of the Rupee. "
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The Life Insurance Corporation of India will handle all formalities from application receipt to payment. "
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The beneficiary girl/family will also be eligible for benefits under other social security schemes operated by the Life Insurance Corporation of India, as per the rules."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Mode of Disbursement:",
+              "bold": true,
+              "underline": true
+            },
+            {
+              "text": " Through a bank account opened in the beneficiary girl's name at the time of payment."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Disbursement Conditions:",
+              "bold": true,
+              "underline": true
+            },
+            {
+              "text": " The beneficiary girl must provide her 12th-grade mark sheet, an affidavit of being unmarried until 18 years of age (verified by the Child Development Project Officer or authorised officer), and her bank account details."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "If the girl dies before the age of 18, the amount will be forfeited. "
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "process": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 1:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " The interested applicant should take a printout of the <prescribed format> of the application form."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " In the application form, fill in all the mandatory fields, paste the passport-sized photograph (signed across, if required), and attach copies of all the mandatory documents (self-attested, if required)."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 3:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " Submit the duly filled and signed application form along with the documents, within the prescribed period (if any), to any one of the following:"
+              }
+            ]
+          },
+          {
+            "type": "ul_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "The Anganwadi Centre in Your Village/Locality",
+                    "bold": true
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Area Supervisor",
+                    "bold": true
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Child Development Project Officer",
+                    "bold": true
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "District Women and Child Development Officer",
+                    "bold": true
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "District Program Officer, Women and Child Development Department",
+                    "bold": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 4:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " Request a receipt or acknowledgement from the authority to whom the application has been submitted. Ensure that the receipt contains essential details such as the date and time of submission, and a unique identification number (if applicable)."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 5:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " The Child Development Project Officer will process/approve the application. After approval, the District Program Officer/District Women and Child Development Officer will send the beneficiary details to the Life Insurance Corporation of India. The Directorate of Women and Child Development will provide the funds as per the agreement. "
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 7:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " Each applicant/beneficiary will be given a unique identification number along with a bond/certificate at the time of the first instalment."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Application Deadline",
+                "bold": true,
+                "underline": true
+              }
+            ]
+          },
+          {
+            "type": "ul_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "The application must be submitted within 1 year of the girl's birth. "
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "If the application is not submitted within 1 year, it can be submitted to the District Collector within the next year (i.e., within 2 years of the girl's birth). "
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "In the event of the parents' death, the application can be submitted until the girl is five years old. "
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "In the case of an orphaned girl, the application must be made by the superintendent of the children's home within 1 year of the girl's entry into the home and before the girl turns 6 years old, to the Child Development Project Officer/District Women and Child Development Officer/District Program Officer, Women and Child Development Department. "
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Payment of Maturity Amount",
+                "bold": true,
+                "underline": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 1:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " At the time of payment of the maturity amount, a bank account must be opened in the name of the beneficiary girl. "
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " To receive the payment, the beneficiary girl must submit her 12th-grade mark sheet, an affidavit of being unmarried until 18 years of age (verified by the Child Development Project Officer or authorised officer), and her bank account details. "
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 3:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " The maturity amount will be disbursed through the bank account. "
+              }
+            ]
+          }
+        ],
+        "process_md": "**Step 1:** The interested applicant should take a printout of the &lt;prescribed format&gt; of the application form.\n**Step 2:** In the application form, fill in all the mandatory fields, paste the passport-sized photograph (signed across, if required), and attach copies of all the mandatory documents (self-attested, if required).\n**Step 3:** Submit the duly filled and signed application form along with the documents, within the prescribed period (if any), to any one of the following:\n\n- **The Anganwadi Centre in Your Village/Locality**\n- **Area Supervisor**\n- **Child Development Project Officer**\n- **District Women and Child Development Officer**\n- **District Program Officer, Women and Child Development Department**\n\n**Step 4:** Request a receipt or acknowledgement from the authority to whom the application has been submitted. Ensure that the receipt contains essential details such as the date and time of submission, and a unique identification number (if applicable).\n**Step 5:** The Child Development Project Officer will process/approve the application. After approval, the District Program Officer/District Women and Child Development Officer will send the beneficiary details to the Life Insurance Corporation of India. The Directorate of Women and Child Development will provide the funds as per the agreement. \n**Step 7:** Each applicant/beneficiary will be given a unique identification number along with a bond/certificate at the time of the first instalment.\n<br>\n\n**Application Deadline**\n\n- The application must be submitted within 1 year of the girl&#39;s birth. \n- If the application is not submitted within 1 year, it can be submitted to the District Collector within the next year (i.e., within 2 years of the girl&#39;s birth). \n- In the event of the parents&#39; death, the application can be submitted until the girl is five years old. \n- In the case of an orphaned girl, the application must be made by the superintendent of the children&#39;s home within 1 year of the girl&#39;s entry into the home and before the girl turns 6 years old, to the Child Development Project Officer/District Women and Child Development Officer/District Program Officer, Women and Child Development Department. \n\n<br>\n\n**Payment of Maturity Amount**\n**Step 1:** At the time of payment of the maturity amount, a bank account must be opened in the name of the beneficiary girl. \n**Step 2:** To receive the payment, the beneficiary girl must submit her 12th-grade mark sheet, an affidavit of being unmarried until 18 years of age (verified by the Child Development Project Officer or authorised officer), and her bank account details. \n**Step 3:** The maturity amount will be disbursed through the bank account. \n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n- The girl must have been born on or after April 1, 2014.\n\n\n- The girl&#39;s parents must be permanent residents of Chhattisgarh.\n- The girl must belong to a family living below the poverty line. The name of the family&#39;s head must be present in the current poverty line survey list of the Rural Development Department (currently, the 2002 survey list for rural areas and the 2007 survey list for urban areas is valid).\n- The benefit under the scheme is limited to two daughters. If there are two sons, a third daughter is not eligible for the benefit.\n- In the case of the second girl child, it is mandatory for the mother or father to have adopted a permanent family planning method before applying. \n- All girls born as twins or more than one child in the first/second delivery will receive the benefit of the scheme. \n- If a third girl child is born after the benefit has been given to twin girls born in the first delivery, the third girl child will not receive the benefit of the scheme.\n- If the family has legally adopted a girl, she will be considered eligible and given the benefit of the scheme if she meets the other criteria. \n- The girl must not marry before the age of 18, and she must complete her 12th standard education to be eligible for benefits under the scheme. \n\n_*The decision to determine eligibility and approve/disapprove cases rests entirely with the concerned District Collector._ \n<br>\n\n**Special Inclusion:**\nGirls born to HIV-affected couples (including A.P.L. families) after April 1, 2016, will also be given the benefit of the scheme for the first two girls.\n",
+      "eligibilityDescription": [
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The girl must have been born on or after April 1, 2014."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The girl's parents must be permanent residents of Chhattisgarh."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The girl must belong to a family living below the poverty line. The name of the family's head must be present in the current poverty line survey list of the Rural Development Department (currently, the 2002 survey list for rural areas and the 2007 survey list for urban areas is valid)."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The benefit under the scheme is limited to two daughters. If there are two sons, a third daughter is not eligible for the benefit."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "In the case of the second girl child, it is mandatory for the mother or father to have adopted a permanent family planning method before applying. "
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "All girls born as twins or more than one child in the first/second delivery will receive the benefit of the scheme. "
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "If a third girl child is born after the benefit has been given to twin girls born in the first delivery, the third girl child will not receive the benefit of the scheme."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "If the family has legally adopted a girl, she will be considered eligible and given the benefit of the scheme if she meets the other criteria. "
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The girl must not marry before the age of 18, and she must complete her 12th standard education to be eligible for benefits under the scheme. "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "*The decision to determine eligibility and approve/disapprove cases rests entirely with the concerned District Collector. ",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Special Inclusion:",
+              "bold": true,
+              "underline": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Girls born to HIV-affected couples (including A.P.L. families) after April 1, 2016, will also be given the benefit of the scheme for the first two girls."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "nsycg"
+}

@@ -1,0 +1,493 @@
+{
+  "_id": "651c427d13cc60269e8eac36",
+  "en": {
+    "basicDetails": {
+      "schemeOpenDate": null,
+      "schemeCloseDate": null,
+      "nodalMinistryName": null,
+      "nodalDepartmentName": {
+        "value": 32000022,
+        "label": "Industries and Commerce Department"
+      },
+      "otherMinistryName": null,
+      "otherDepartmentNames": null,
+      "targetBeneficiaries": [
+        {
+          "value": "business-entity",
+          "label": "Business Entity"
+        },
+        {
+          "value": "industries",
+          "label": "Industries"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Setting up / start-up / entrepreneurship",
+          "label": "Setting up / start-up / entrepreneurship"
+        },
+        {
+          "value": "Loan",
+          "label": "Loan"
+        }
+      ],
+      "dbtScheme": false,
+      "implementingAgency": "Directorate Of Industries And Commerce, Government Of Kerala",
+      "tags": [
+        "Family",
+        "Enterprise",
+        "OFOE",
+        "MSME",
+        "Entrepreneur",
+        "Interest Subvention",
+        "Loan"
+      ],
+      "schemeName": "One Family One Enterprise Scheme ",
+      "schemeShortTitle": "OFOE",
+      "level": {
+        "value": "state",
+        "label": "State"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce733d6d1a3bde4685278",
+          "label": "Business & Entrepreneurship"
+        }
+      ],
+      "state": {
+        "value": 32,
+        "label": "Kerala"
+      },
+      "schemeFor": "Infra"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Official Website",
+          "url": "https://industry.kerala.gov.in/index.php/schemes-mainmenu/one-family-one-enterprises-ofoe"
+        },
+        {
+          "title": "Guidelines",
+          "url": "https://industry.kerala.gov.in/images/Schemes/OFOE_GO_Rt_1232_22_ID_2.pdf"
+        },
+        {
+          "title": "Application Portal",
+          "url": "http://ofoe.industry.kerala.gov.in/public/index.php/family"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The Government of Kerala approved the scheme “One Family One Enterprise” to encourage entrepreneurial activity in every household and empower women&amp;#39;s entrepreneurship. This scheme aims to set up at least one MSME unit including trade activity in each family. The MSMEs primarily rely on bank finance for their operations. Providing assistance in the early stage of the establishment of the enterprise will enhance the competency of the MSME unit. The scheme intends to provide interest subvention on Term loans and/or Working capital loans availed by MSME units from financial institutions viz. Nationalized Banks, Scheduled Banks, KSIDC, KFC, KSFE and Kerala Bank. The units engaged in manufacturing, service, and trading are eligible for the assistance. 50% of the beneficiaries under the scheme shall be women entrepreneurs.\n&gt; **Objectives:**\n\nThe scheme envisages encouraging entrepreneurial activity in every household and promoting upcoming entrepreneurs in setting up enterprises through providing interest subvention for loan amounts up to ₹10 lakh (for fixed capital loan and/ or working capital loan) of the project cost.\n",
+      "benefits_md": "\n   1. The assistance provided under this scheme shall be in the form of an interest subvention on a reimbursement basis.\n   1. All new MSMEs engaged in manufacturing, service, and trading activities shall be eligible for interest subvention on the interest charged by the financial institution on an approved project for loan amounts up to ₹10 lakhs (for Term loan and/or working capital loan) for a period of five years from the date of disbursement of the 1st installment of the loan by the financial institution.\n   1. In a case where the loan amount exceeds ₹10 Lakhs, the interest subvention shall be considered for loans up to ₹10 Lakhs only.\n   1. The rate of subvention will be up to a maximum of 6%. The subvention will be the difference in the rate of interest charged by the financial institution and 4 %.\n\n",
+      "briefDescription": "The Government of Kerala approved the scheme “One Family One Enterprise” to encourage entrepreneurial activity in every household and empower women's entrepreneurship. This scheme aims to set up at least one MSME unit including trade activity in each family.",
+      "exclusions_md": "",
+      "detailedDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "The Government of Kerala approved the scheme “One Family One Enterprise” to encourage entrepreneurial activity in every household and empower women's entrepreneurship. This scheme aims to set up at least one MSME unit including trade activity in each family. The MSMEs primarily rely on bank finance for their operations. Providing assistance in the early stage of the establishment of the enterprise will enhance the competency of the MSME unit. The scheme intends to provide interest subvention on Term loans and/or Working capital loans availed by MSME units from financial institutions viz. Nationalized Banks, Scheduled Banks, KSIDC, KFC, KSFE and Kerala Bank. The units engaged in manufacturing, service, and trading are eligible for the assistance. 50% of the beneficiaries under the scheme shall be women entrepreneurs."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "block_quote",
+              "children": [
+                {
+                  "text": "Objectives:",
+                  "bold": true
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "The scheme envisages encouraging entrepreneurial activity in every household and promoting upcoming entrepreneurs in setting up enterprises through providing interest subvention for loan amounts up to ₹10 lakh (for fixed capital loan and/ or working capital loan) of the project cost."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 2,
+        "value": "in-kind",
+        "label": "In Kind"
+      },
+      "benefits": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "ol_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The assistance provided under this scheme shall be in the form of an interest subvention on a reimbursement basis."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "All new MSMEs engaged in manufacturing, service, and trading activities shall be eligible for interest subvention on the interest charged by the financial institution on an approved project for loan amounts up to ₹10 lakhs (for Term loan and/or working capital loan) for a period of five years from the date of disbursement of the 1st installment of the loan by the financial institution."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "In a case where the loan amount exceeds ₹10 Lakhs, the interest subvention shall be considered for loans up to ₹10 Lakhs only."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The rate of subvention will be up to a maximum of 6%. The subvention will be the difference in the rate of interest charged by the financial institution and 4 %."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Online",
+        "process": [
+          {
+            "type": "align_justify",
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 01:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Application can be submitted online through the Official website of the Directorate of Industries & Commerce, Government of Kerala. The applicant needs to visit the "
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://schemes.industry.kerala.gov.in/public/index.php/schemes",
+                    "children": [
+                      {
+                        "text": "official website"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 02:",
+                    "bold": true
+                  },
+                  {
+                    "text": " The applicant may select the scheme “One Family One Enterprise” from the available Online Services listed on the home page and click on the “Apply Now” option. While clicking “Apply Now” redirected to the Login Page. If new user use the “Registration” option and if already registered use the ‘Login’ option."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 03:",
+                    "bold": true
+                  },
+                  {
+                    "text": " A new user can register by filling in his/her details and after successful registration, the user can login."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 04: ",
+                    "bold": true
+                  },
+                  {
+                    "text": "After successful login, the applicant may fill out the application form."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 05:",
+                    "bold": true
+                  },
+                  {
+                    "text": " After filling out the application form completely and click on ‘Submit’."
+                  }
+                ]
+              },
+              {
+                "type": "block_quote",
+                "children": [
+                  {
+                    "text": "Sanctioning Authority/Recommending Authority:",
+                    "bold": true
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "1.\tThe Assistant District Industries Officer, Taluk Industries Office concerned shall be the recommending authority under this scheme. The Assistant District Industries Officer shall forward the application to the sanctioning authority with a recommendation."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "2.\tThe General Manager, District Industries Centre concerned shall be the sanctioning authority. All completed applications have to be disposed of within a period of 15 days from the date of receipt of the completed defect-free application."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "3.\tThe decision of the sanctioning authority shall be intimated to the party directly or electronically within 15 days. The assistance shall be disbursed by the sanctioning authority through the financing institution, which has financed the unit, on executing an agreement by the applicant with the sanctioning authority in the prescribed format"
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Note 01:",
+                    "bold": true
+                  },
+                  {
+                    "text": " The applicant may avail the assistance for a period of 6 months or for 1 year. The applicant may apply for the assistance after completion of 6 months or 1 year as the case may be within a period of 3 months from the date of completion of the period for which the interest subvention is claimed (6 months or 1 year)."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Note 02:",
+                    "bold": true
+                  },
+                  {
+                    "text": " The General Manager, District Industries Centre shall have the power to condone delays in individual cases based on merit. In no case, the delay condo nation shall exceed a period of 1 Year."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Note 03:",
+                    "bold": true
+                  },
+                  {
+                    "text": " The Officer while accepting the application should examine whether all necessary details have been furnished. If any information is found inadequate the same should be intimated to the applicant unit directly or electronically and grant 10 days time to rectify the defects."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Note 04:",
+                    "bold": true
+                  },
+                  {
+                    "text": " The eligible interest subvention approved will be reimbursed to the unit through the bank account on half yearly or yearly basis, as required in the claim submitted by the applicant. "
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "process_md": "**Step 01:** Application can be submitted online through the Official website of the Directorate of Industries &amp;amp; Commerce, Government of Kerala. The applicant needs to visit the [official website](https://schemes.industry.kerala.gov.in/public/index.php/schemes).\n**Step 02:** The applicant may select the scheme “One Family One Enterprise” from the available Online Services listed on the home page and click on the “Apply Now” option. While clicking “Apply Now” redirected to the Login Page. If new user use the “Registration” option and if already registered use the ‘Login’ option.\n**Step 03:** A new user can register by filling in his/her details and after successful registration, the user can login.\n**Step 04:** After successful login, the applicant may fill out the application form.\n**Step 05:** After filling out the application form completely and click on ‘Submit’.\n&gt; **Sanctioning Authority/Recommending Authority:**\n\n1.\tThe Assistant District Industries Officer, Taluk Industries Office concerned shall be the recommending authority under this scheme. The Assistant District Industries Officer shall forward the application to the sanctioning authority with a recommendation.\n2.\tThe General Manager, District Industries Centre concerned shall be the sanctioning authority. All completed applications have to be disposed of within a period of 15 days from the date of receipt of the completed defect-free application.\n3.\tThe decision of the sanctioning authority shall be intimated to the party directly or electronically within 15 days. The assistance shall be disbursed by the sanctioning authority through the financing institution, which has financed the unit, on executing an agreement by the applicant with the sanctioning authority in the prescribed format\n**Note 01:** The applicant may avail the assistance for a period of 6 months or for 1 year. The applicant may apply for the assistance after completion of 6 months or 1 year as the case may be within a period of 3 months from the date of completion of the period for which the interest subvention is claimed (6 months or 1 year).\n**Note 02:** The General Manager, District Industries Centre shall have the power to condone delays in individual cases based on merit. In no case, the delay condo nation shall exceed a period of 1 Year.\n**Note 03:** The Officer while accepting the application should examine whether all necessary details have been furnished. If any information is found inadequate the same should be intimated to the applicant unit directly or electronically and grant 10 days time to rectify the defects.\n**Note 04:** The eligible interest subvention approved will be reimbursed to the unit through the bank account on half yearly or yearly basis, as required in the claim submitted by the applicant. \n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n   1. All new micro, small, and medium enterprises in manufacturing, service, and trading activities, that availed of Term Loan and/or Working Capital Loan, shall be eligible for assistance under this scheme.\n   1. The MSME units, that commenced operation/production on or after 1/4/2022, are eligible for assistance under this scheme.\n   1. The unit shall have a valid Udyam Registration.\n   1. As of the date of submission of the claim, the loan accounts should not have been declared as NPA as per extant guidelines in force.\n   1. The unit shall be working as of the date of application.\n   1. The unit shall not have availed any grant assistance under any scheme of the Central Government/State Government/ Local Self Government Department.\n   1. Even though the scheme is for new units as item 1 above, an exemption is there for units supported by the Prime Minister Formalization of Micro Food Processing Enterprises (PMFME) scheme of the Ministry of Food Processing Industries, Govt. of India. In order to dovetail this scheme with the PMFME scheme - existing enterprises supported under the PMFME scheme shall also be eligible for assistance under the &amp;quot;One Family One Enterprise (OFOE)&amp;quot; scheme provided the unit commenced production after expansion/ modernization/ diversification on or after 01/04/2022.\n   1. Even though the scheme is not eligible for units who have availed any grant assistance under any scheme of Central Government/State Government/ Local Self Government Department as item 6 above, an exemption is there for units supported by Prime Minister Formalization of Micro Food Processing Enterprises (PMFME) scheme of the Ministry of Food Processing Industries, Govt. of India. Units that have availed/are availing assistance under the PMFME scheme shall be eligible for this assistance for the working capital portion alone up to a loan amount of ₹10 Lakh.\n\n&gt; **Obligation of an applicant:**\n\n\n   1. The applicant shall provide all required details and declare such information as to be true if so required by the recommending authority/sanctioning authority to assess the eligibility of the application.\n   1. The applicant shall provide clarifications of further details sought by the recommending/ sanctioning authority.\n   1. The applicant shall allow inspection or verification of any details mentioned in the application including plant and machinery and all other assets if so required by recommending/ sanctioning authority.\n   1. Applicants shall produce loan remittance particulars and a bank certificate for the remittance of the loan.\n   1. The applicant shall execute the requisite legal agreement as and when the assistance is sanctioned.\n   1. The beneficiary shall produce the relevant documents submitted along with the application before the Recommending Authority.\n   1. The applicant should operate the unit as stipulated in the agreement in which the quantum of support received, failing which the assistance shall be resumed by restoring the provisions of Kerala Revenue Recovery Act, 1968 or in such other manner as the Government may deem fit.\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "ol_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "All new micro, small, and medium enterprises in manufacturing, service, and trading activities, that availed of Term Loan and/or Working Capital Loan, shall be eligible for assistance under this scheme."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The MSME units, that commenced operation/production on or after 1/4/2022, are eligible for assistance under this scheme."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The unit shall have a valid Udyam Registration."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "As of the date of submission of the claim, the loan accounts should not have been declared as NPA as per extant guidelines in force."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The unit shall be working as of the date of application."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The unit shall not have availed any grant assistance under any scheme of the Central Government/State Government/ Local Self Government Department."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Even though the scheme is for new units as item 1 above, an exemption is there for units supported by the Prime Minister Formalization of Micro Food Processing Enterprises (PMFME) scheme of the Ministry of Food Processing Industries, Govt. of India. In order to dovetail this scheme with the PMFME scheme - existing enterprises supported under the PMFME scheme shall also be eligible for assistance under the \"One Family One Enterprise (OFOE)\" scheme provided the unit commenced production after expansion/ modernization/ diversification on or after 01/04/2022."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Even though the scheme is not eligible for units who have availed any grant assistance under any scheme of Central Government/State Government/ Local Self Government Department as item 6 above, an exemption is there for units supported by Prime Minister Formalization of Micro Food Processing Enterprises (PMFME) scheme of the Ministry of Food Processing Industries, Govt. of India. Units that have availed/are availing assistance under the PMFME scheme shall be eligible for this assistance for the working capital portion alone up to a loan amount of ₹10 Lakh."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "block_quote",
+              "children": [
+                {
+                  "text": "Obligation of an applicant:",
+                  "bold": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "ol_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant shall provide all required details and declare such information as to be true if so required by the recommending authority/sanctioning authority to assess the eligibility of the application."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant shall provide clarifications of further details sought by the recommending/ sanctioning authority."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant shall allow inspection or verification of any details mentioned in the application including plant and machinery and all other assets if so required by recommending/ sanctioning authority."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Applicants shall produce loan remittance particulars and a bank certificate for the remittance of the loan."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant shall execute the requisite legal agreement as and when the assistance is sanctioned."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The beneficiary shall produce the relevant documents submitted along with the application before the Recommending Authority."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant should operate the unit as stipulated in the agreement in which the quantum of support received, failing which the assistance shall be resumed by restoring the provisions of Kerala Revenue Recovery Act, 1968 or in such other manner as the Government may deem fit."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "ofoe"
+}

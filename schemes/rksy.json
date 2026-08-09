@@ -1,0 +1,479 @@
+{
+  "_id": "651fbc1d34b89517d04b0793",
+  "en": {
+    "basicDetails": {
+      "schemeOpenDate": "2017-06-19",
+      "schemeCloseDate": null,
+      "nodalMinistryName": null,
+      "nodalDepartmentName": {
+        "value": 2200018,
+        "label": "Labour Department"
+      },
+      "otherMinistryName": null,
+      "otherDepartmentNames": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Loan",
+          "label": "Loan"
+        }
+      ],
+      "dbtScheme": false,
+      "implementingAgency": null,
+      "tags": [
+        "Financial Assistance",
+        "Empowerment",
+        "Unorganized Worker"
+      ],
+      "schemeName": "Readymade Kichan Sahaayata Yojana",
+      "schemeShortTitle": "RKSY",
+      "level": {
+        "value": "state",
+        "label": "State"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce85cd6d1a3bde4685304",
+          "label": "Skills & Employment"
+        },
+        {
+          "value": "628ce733d6d1a3bde4685278",
+          "label": "Business & Entrepreneurship"
+        }
+      ],
+      "state": {
+        "value": 22,
+        "label": "Chhattisgarh"
+      },
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://cglabour.nic.in/UOW/smartkitchan.pdf"
+        },
+        {
+          "title": "Official Website",
+          "url": "https://cglabour.nic.in"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "Labor Department of Chhattisgarh State started this scheme &amp;amp;quot;Readymade Kitchen Sahaayata Yojana&amp;amp;quot; for unorganized worker on 19 June 2017. The main objective of the scheme to empower unorganized worker by providing financial assistance for Readymade Kitchen.\n",
+      "benefits_md": "\n1. Registered unorganized labor individuals will need to cover the expenses of ₹ 10,000 for scheme execution.\n1. A grant of ₹ 30,000/- will be provided by the Chhattisgarh Unorganized Worker State Social Security Board.\n1. The remaining sum will be extended to the tea and chaat cart operator as a bank loan, with the beneficiary responsible for repaying it within a specified timeframe and at the interest rate determined by the bank.\n1. The Board will only transfer its contribution to the beneficiary&#39;s account once all the necessary loan-related documents are submitted to the board.\n\n",
+      "exclusions_md": "<br>\n\n",
+      "briefDescription": "Chhattisgarh State Government started a scheme \"Readymade Kitchen Sahaayata Yojana\" for unorganized worker on 19 June 2017.",
+      "detailedDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "align_justify",
+              "children": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "Labor Department of Chhattisgarh State started this scheme \"Readymade Kitchen Sahaayata Yojana\" for unorganized worker on 19 June 2017. The main objective of the scheme to empower unorganized worker by providing financial assistance for Readymade Kitchen."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Registered unorganized labor individuals will need to cover the expenses of ₹ 10,000 for scheme execution."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "A grant of ₹ 30,000/- will be provided by the Chhattisgarh Unorganized Worker State Social Security Board."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The remaining sum will be extended to the tea and chaat cart operator as a bank loan, with the beneficiary responsible for repaying it within a specified timeframe and at the interest rate determined by the bank."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The Board will only transfer its contribution to the beneficiary's account once all the necessary loan-related documents are submitted to the board."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "exclusions": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Online",
+        "process": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Unregistered Applicant :",
+                "bold": true,
+                "underline": true
+              }
+            ]
+          },
+          {
+            "type": "ol_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "All the applicant have to visit the official "
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://cglabour.nic.in",
+                    "children": [
+                      {
+                        "text": "website"
+                      }
+                    ]
+                  },
+                  {
+                    "text": " Chhattisgarh Labour Department. "
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "On the home page click on \""
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://cglabour.nic.in/Departments.aspx?id=4",
+                    "children": [
+                      {
+                        "text": "Apply"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "\" under \"Chhattisgarh Unorganized Workers State Social Security Board\"."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Enter the following details"
+                  }
+                ]
+              },
+              {
+                "type": "ol_list",
+                "children": [
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "text": "Select Group Name : \"Asangathit Marmakaar Mandal\""
+                      }
+                    ]
+                  },
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "text": "Select Service : \"Asangathit Shramik Panjikaran\""
+                      }
+                    ]
+                  },
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "text": "What do you want to do :  \"Aavedan\""
+                      }
+                    ]
+                  },
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "text": "Click next."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Check the eligibility criteria for registration in Chhattisgarh Unorganized Workers State Social Security Board and click next. "
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Fill out the online \"Registration form\"."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Submit."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Already Registered Applicant :",
+                "bold": true,
+                "underline": true
+              }
+            ]
+          },
+          {
+            "type": "ol_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "All the applicant have to visit the official "
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://cglabour.nic.in",
+                    "children": [
+                      {
+                        "text": "website"
+                      }
+                    ]
+                  },
+                  {
+                    "text": " Chhattisgarh Labour Department. "
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "On the home page click on \""
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://cglabour.nic.in/Departments.aspx?id=4",
+                    "children": [
+                      {
+                        "text": "Apply"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "\" under \"Chhattisgarh Unorganized Workers State Social Security Board\"."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Enter the following details"
+                  }
+                ]
+              },
+              {
+                "type": "ol_list",
+                "children": [
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "text": "Select Group Name : \"Asangathit Marmakaar Mandal\""
+                      }
+                    ]
+                  },
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "text": "Select Service : \"Yojana\""
+                      }
+                    ]
+                  },
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "text": "What do you want to do :  \"Aavedan\""
+                      }
+                    ]
+                  },
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "text": "Click next."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Select your district name and provide old/new registration number and click next."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Select the scheme name. "
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Fill out the online with required details. "
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Submit."
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "process_md": "**Unregistered Applicant :**\n\n1. All the applicant have to visit the official [website](https://cglabour.nic.in) Chhattisgarh Labour Department. 1. On the home page click on &quot;[Apply](https://cglabour.nic.in/Departments.aspx?id=4)&quot; under &quot;Chhattisgarh Unorganized Workers State Social Security Board&quot;.1. Enter the following details\n\n   1. Select Group Name : &quot;Asangathit Marmakaar Mandal&quot;\n   1. Select Service : &quot;Asangathit Shramik Panjikaran&quot;\n   1. What do you want to do :  &quot;Aavedan&quot;\n   1. Click next.\n\n1. Check the eligibility criteria for registration in Chhattisgarh Unorganized Workers State Social Security Board and click next. \n1. Fill out the online &quot;Registration form&quot;.\n1. Submit.\n\n<br>\n\n**Already Registered Applicant :**\n\n1. All the applicant have to visit the official [website](https://cglabour.nic.in) Chhattisgarh Labour Department. 1. On the home page click on &quot;[Apply](https://cglabour.nic.in/Departments.aspx?id=4)&quot; under &quot;Chhattisgarh Unorganized Workers State Social Security Board&quot;.1. Enter the following details\n\n   1. Select Group Name : &quot;Asangathit Marmakaar Mandal&quot;\n   1. Select Service : &quot;Yojana&quot;\n   1. What do you want to do :  &quot;Aavedan&quot;\n   1. Click next.\n\n1. Select your district name and provide old/new registration number and click next.\n1. Select the scheme name. \n1. Fill out the online with required details. \n1. Submit.\n\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n1. Applicants should be Unorganized workers who sell tea and snacks, or food items in general, and who are registered with the State Social Security Board.\n1. Applicants must be between 18 and 50 years old.\n1. Applicants who are commercial vehicle drivers those must have a health certificate from the RTO.\n1. Applicants must register with the Chhattisgarh Unorganized Workers State Social Security Board at least 90 days in advance.\n1. Applicants can only receive the benefits of this scheme once.\n1. If Applicant already received benefits from any other parallel scheme of the State Government, than applicant will not be eligible for the benefits of this scheme.\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Applicants should be Unorganized workers who sell tea and snacks, or food items in general, and who are registered with the State Social Security Board."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Applicants must be between 18 and 50 years old."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Applicants who are commercial vehicle drivers those must have a health certificate from the RTO."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Applicants must register with the Chhattisgarh Unorganized Workers State Social Security Board at least 90 days in advance."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Applicants can only receive the benefits of this scheme once."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "If Applicant already received benefits from any other parallel scheme of the State Government, than applicant will not be eligible for the benefits of this scheme."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "rksy"
+}

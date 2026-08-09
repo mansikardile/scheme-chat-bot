@@ -1,0 +1,184 @@
+{
+  "_id": "650790464b1a0fc5d94f0393",
+  "en": {
+    "basicDetails": {
+      "schemeOpenDate": null,
+      "schemeCloseDate": null,
+      "nodalMinistryName": null,
+      "nodalDepartmentName": {
+        "value": 2200018,
+        "label": "Labour Department"
+      },
+      "otherMinistryName": null,
+      "otherDepartmentNames": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Financial assistance",
+          "label": "Financial assistance"
+        }
+      ],
+      "dbtScheme": false,
+      "implementingAgency": null,
+      "tags": [
+        "Financial Assistance",
+        "Labor Workers",
+        "Accident"
+      ],
+      "schemeName": "Durghatana Mein Chikitsa Sahaayata Yojana",
+      "schemeShortTitle": "DMCSY",
+      "level": {
+        "value": "state",
+        "label": "State"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce7a2d6d1a3bde46852b1",
+          "label": "Health & Wellness"
+        }
+      ],
+      "state": {
+        "value": 22,
+        "label": "Chhattisgarh"
+      },
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://cglabour.nic.in/BOCW/ApplicationSchemes.aspx"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "&quot;Chhattisgarh Durghatana Mein Chikitsa Sahaayata Yojana&quot; has been started by the Chhattisgarh Government and manage/run by the Chhattisgarh, Labor Department. \n",
+      "benefits_md": "\n- To the registered beneficiaries, medical assistance of ₹ 20,000/- or the actual expenditure incurred on the treatment, whichever is less, will be provided.\n\n",
+      "briefDescription": "Chhattisgarh State Government started this scheme \"Durghatana Mein Chikitsa Sahaayata Yojana\" for labor workers. ",
+      "exclusions_md": "",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "\"Chhattisgarh Durghatana Mein Chikitsa Sahaayata Yojana\" has been started by the Chhattisgarh Government and manage/run by the Chhattisgarh, Labor Department. "
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "To the registered beneficiaries, medical assistance of ₹ 20,000/- or the actual expenditure incurred on the treatment, whichever is less, will be provided."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "process": [
+          {
+            "type": "ol_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Registered construction workers can apply through any CSC center or labor office."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Get the application form."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Fill out with required details."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Attach the necessary documents. "
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "process_md": "\n1. Registered construction workers can apply through any CSC center or labor office.\n1. Get the application form.\n1. Fill out with required details.\n1. Attach the necessary documents. \n\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n1. The applicant must be a permanent resident of Chhattisgarh state.\n1. It is mandatory for construction workers to be registered in any district.\n1. Must have completed 90 days as a laborer in the board.\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must be a permanent resident of Chhattisgarh state."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "It is mandatory for construction workers to be registered in any district."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Must have completed 90 days as a laborer in the board."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "dmcsy"
+}

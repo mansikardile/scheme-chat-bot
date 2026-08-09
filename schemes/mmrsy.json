@@ -1,0 +1,502 @@
+{
+  "_id": "677403eadca243276c9f31bf",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Financial Assistance",
+        "Loan",
+        "Self-employment",
+        "Entrepreneurship"
+      ],
+      "schemeName": "Mukhyamatri Rojgaar Srijan Yojana",
+      "schemeShortTitle": "MMRSY",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce733d6d1a3bde4685278",
+          "label": "Business & Entrepreneurship"
+        },
+        {
+          "value": "628ce85cd6d1a3bde4685304",
+          "label": "Skills & Employment"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Setting up / start-up / entrepreneurship",
+          "label": "Setting up / start-up / entrepreneurship"
+        },
+        {
+          "value": "Loan",
+          "label": "Loan"
+        },
+        {
+          "value": "Entrepreneurship development",
+          "label": "Entrepreneurship development"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "state": {
+        "value": 20,
+        "label": "Jharkhand"
+      },
+      "nodalDepartmentName": {
+        "value": 2000026,
+        "label": "Department of Scheduled Tribe, Scheduled Caste, Minority and Backward Class Welfare"
+      },
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://cmegp.jharkhand.gov.in/assets/web_assets/images/SANKALP%202563.pdf"
+        },
+        {
+          "title": "Official Website",
+          "url": "https://cmegp.jharkhand.gov.in/index.php/WebSetup/index"
+        },
+        {
+          "title": "Application Form",
+          "url": "https://jsmfdc.com/admin_panel/Uploads/files/CMEGP%20Application%20form.pdf"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The &quot;Mukhyamantri Rojgaar Srijan Yojana&quot; was launched by the Department of Scheduled Tribe, Scheduled Caste, Minority and Backward Class Welfare, Government of Jharkhand. The scheme aims to promote self-employment and entrepreneurship among Scheduled Tribes (ST), Scheduled Castes (SC), Minorities, Backward Classes, and Persons with Disabilities (PwDs) by providing subsidized loans and financial assistance.\n",
+      "benefits_md": "***Subsidized Loan for Self-Employment:***\n\n- 40% subsidy on loans or a maximum of ₹5,00,000/-, whichever is lower.\n- EMI will be calculated on the remaining loan amount after deducting the subsidy.\n\n***Loan Guarantee Facility:***\n\n- Loans up to ₹50,000/- do not require a guarantor.\n- For loans above ₹50,000/-, a guarantor or collateral (movable/immovable property) is required.\n\n**Low Interest Rate:**\n\n- Loans are provided at an interest rate of 6%.\n\n***Entrepreneurship Development Training:***\n\n- Beneficiaries will receive training before starting their business ventures.\n\n<br>\n\n**NOTE:** For loans above ₹50,001/-, the applicant must deposit 10% of the loan amount as margin money.\n",
+      "briefDescription": "The Mukhyamantri Rojgaar Srijan Yojana aims to promote self-employment and entrepreneurship among Scheduled Tribes (ST), Scheduled Castes (SC), Minorities, Backward Classes, and Persons with Disabilities (PwDs) by providing subsidized loans and financial assistance.",
+      "exclusions_md": "",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The \"Mukhyamantri Rojgaar Srijan Yojana\" was launched by the Department of Scheduled Tribe, Scheduled Caste, Minority and Backward Class Welfare, Government of Jharkhand. The scheme aims to promote self-employment and entrepreneurship among Scheduled Tribes (ST), Scheduled Castes (SC), Minorities, Backward Classes, and Persons with Disabilities (PwDs) by providing subsidized loans and financial assistance."
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 3,
+        "value": "composite",
+        "label": "Composite"
+      },
+      "benefits": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Subsidized Loan for Self-Employment:",
+              "bold": true,
+              "italic": true,
+              "underline": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "40% subsidy on loans or a maximum of ₹5,00,000/-, whichever is lower."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "EMI will be calculated on the remaining loan amount after deducting the subsidy."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Loan Guarantee Facility:",
+              "bold": true,
+              "underline": true,
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Loans up to ₹50,000/- do not require a guarantor."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "For loans above ₹50,000/-, a guarantor or collateral (movable/immovable property) is required."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Low Interest Rate:",
+              "bold": true,
+              "underline": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Loans are provided at an interest rate of 6%."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Entrepreneurship Development Training:",
+              "bold": true,
+              "underline": true,
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Beneficiaries will receive training before starting their business ventures."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "NOTE: ",
+              "bold": true
+            },
+            {
+              "text": "For loans above ₹50,001/-, the applicant must deposit 10% of the loan amount as margin money."
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Online",
+        "process": [
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "text": "Registration Process:",
+                "bold": true,
+                "underline": true
+              }
+            ]
+          },
+          {
+            "type": "ul_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Interested candidates visit the official website "
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://cmegp.jharkhand.gov.in/index.php/WebSetup/index",
+                    "children": [
+                      {
+                        "text": "Mukhyamantri Rojgaar Srijan Yojana"
+                      }
+                    ]
+                  },
+                  {
+                    "text": " – Jharkhand"
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Click on “"
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://cmegp.jharkhand.gov.in/index.php/WebSetup/Howtoapply",
+                    "children": [
+                      {
+                        "text": "Registration"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "” and fill Aadhaar Number, Date of Birth, Mobile Number, and Email ID. "
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "After successfully registering. "
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "text": "Login Process:",
+                "bold": true,
+                "underline": true
+              }
+            ]
+          },
+          {
+            "type": "ul_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Enter Mobile Number, Password the last 8 digits of Aadhaar Card"
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Click on “Login”, after that fill the application form basic detail, address"
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Upload profile photo and signature and required documents"
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Click on “Submit” and you will get the application id and take a print. "
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "process_md": "> **Registration Process:**\n\n\n- Interested candidates visit the official website [Mukhyamantri Rojgaar Srijan Yojana](https://cmegp.jharkhand.gov.in/index.php/WebSetup/index) – Jharkhand- Click on “[Registration](https://cmegp.jharkhand.gov.in/index.php/WebSetup/Howtoapply)” and fill Aadhaar Number, Date of Birth, Mobile Number, and Email ID. - After successfully registering. \n\n<br>\n\n> **Login Process:**\n\n\n- Enter Mobile Number, Password the last 8 digits of Aadhaar Card\n- Click on “Login”, after that fill the application form basic detail, address\n- Upload profile photo and signature and required documents\n- Click on “Submit” and you will get the application id and take a print. \n\n"
+      },
+      {
+        "mode": "Offline",
+        "process": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 1: ",
+                "bold": true
+              },
+              {
+                "text": "The interested applicant should take print of the "
+              },
+              {
+                "type": "link",
+                "link": "https://jsmfdc.com/admin_panel/Uploads/files/CMEGP%20Application%20form.pdf",
+                "children": [
+                  {
+                    "text": "prescribed format"
+                  }
+                ]
+              },
+              {
+                "text": " "
+              },
+              {
+                "type": "link",
+                "link": "https://wcd.py.gov.in/sites/default/files/wcdmarrigeofpoorbride.pdf",
+                "children": [
+                  {
+                    "text": ""
+                  }
+                ]
+              },
+              {
+                "text": "of the application form."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2:",
+                "bold": true
+              },
+              {
+                "text": " In the application form, fill in all the mandatory fields, paste the passport-sized photograph (signed across, if required), and attach copies of all the mandatory documents (self-attest, if required)."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 3: ",
+                "bold": true
+              },
+              {
+                "text": "Submit the duly filled and signed application form along with the documents to the concerned corporation (Tribal, Scheduled Caste, Backward Class, Minority) or District Welfare Office."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 4: ",
+                "bold": true
+              },
+              {
+                "text": "Request a receipt or acknowledgment from the concerned authority to whom the application has been submitted. Ensure that the receipt contains essential details such as the date and time of submission, and a unique identification number (if applicable)."
+              }
+            ]
+          }
+        ],
+        "process_md": "**Step 1:** The interested applicant should take print of the [prescribed format](https://jsmfdc.com/admin_panel/Uploads/files/CMEGP%20Application%20form.pdf) of the application form.\n**Step 2:** In the application form, fill in all the mandatory fields, paste the passport-sized photograph (signed across, if required), and attach copies of all the mandatory documents (self-attest, if required).\n**Step 3:** Submit the duly filled and signed application form along with the documents to the concerned corporation (Tribal, Scheduled Caste, Backward Class, Minority) or District Welfare Office.\n**Step 4:** Request a receipt or acknowledgment from the concerned authority to whom the application has been submitted. Ensure that the receipt contains essential details such as the date and time of submission, and a unique identification number (if applicable).\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n1. The applicant&#39;s age should be between 18 to 50 years.\n1. The applicant must be a permanent resident of Jharkhand.\n1. The applicant&#39;s annual family income should not exceed ₹5,00,000/- for rural and urban areas.\n1. The applicant should not be employed in any government or semi-government job.\n1. The applicant must not be a loan defaulter in any bank.\n1. Only environment-friendly business proposals are acceptable (businesses related to alcohol, drugs, or polythene are not allowed).\n1. If the applicant is disabled the percentage of disability should not be less than 40%. \n\n",
+      "eligibilityDescription": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant's age should be between 18 to 50 years."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must be a permanent resident of Jharkhand."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant's annual family income should not exceed ₹5,00,000/- for rural and urban areas."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should not be employed in any government or semi-government job."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must not be a loan defaulter in any bank."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Only environment-friendly business proposals are acceptable (businesses related to alcohol, drugs, or polythene are not allowed)."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "If the applicant is disabled the percentage of disability should not be less than 40%. "
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "mmrsy"
+}

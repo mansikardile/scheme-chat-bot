@@ -1,0 +1,583 @@
+{
+  "_id": "67ef7dca5a4889e1887a8968",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Financial Assistance",
+        "Medical Treatment",
+        "Person With Disability",
+        "Ex-Servicemen",
+        "Illness",
+        "PwD"
+      ],
+      "schemeName": "Financial Assistance for the Treatment of Blind, Disabled, Deaf, Dumb, or Mentally Challenged Ex-Servicemen and their Dependents (Wife and Children)",
+      "schemeShortTitle": "FATBDDDMCESD",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce7a2d6d1a3bde46852b1",
+          "label": "Health & Wellness"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Financial assistance",
+          "label": "Financial assistance"
+        }
+      ],
+      "schemeOpenDate": "2020-07-01",
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "state": {
+        "value": 8,
+        "label": "Rajasthan"
+      },
+      "nodalDepartmentName": {
+        "value": 8000047,
+        "label": "Department of Sainik Welfare"
+      },
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://sainikkalyan.rajasthan.gov.in/content/dam/doitassests/sainikwelfare/pdf/Amalgamatedfundschemes/Medical%20Assistance.pdf"
+        },
+        {
+          "title": "Official Website",
+          "url": "https://sainikkalyan.rajasthan.gov.in/content/raj/sainikwelfaresite/en/welfare-schemes/welfare-schemes-from-amalgamated-fund.html"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The &amp;quot;Financial Assistance for the Treatment of Blind, Disabled, Deaf, Dumb, or Mentally Challenged Ex-Servicemen and their Dependents (Wife and Children)&amp;quot; scheme was launched by the Department of Sainik Welfare, Government of Rajasthan. The scheme aims to provide monthly financial assistance for the treatment of ex-servicemen and their dependents (wife &amp;amp; children) who have a disability of 40% or more and are suffering from serious illnesses such as cancer, leprosy, tuberculosis, kidney and cardiac ailments, paralysis, etc. Only an ex-serviceman of the rank of Havildar or below or a member of the family of an ex-serviceman whose disability is 40% or more is eligible to apply. This scheme came into effect on 01.07.2020, and financial assistance will be granted from the first day of the month in which the application is approved.\n",
+      "benefits_md": "**Financial Assistance:**\n**S. No.****Percentage of Disability****Financial Assistance****Priority**180% and above₹3,000/- per monthFirst Priority260% but less than 80%₹2,000/- per monthSecond Priority340% but less than 60%₹1,000/- per monthThird Priority**Note:**\n\n- The assistance is provided for three years. After that, the applicant will re-apply for renewal.\n- The financial aid is disbursed online through the District Sainik Welfare Office.\n- A maximum of two disabled family members of an ex-serviceman can avail of this benefit.\n- The financial assistance will cease upon the death of the disabled ex-serviceman or the disabled family member.\n\n",
+      "briefDescription": "The scheme aims to provide monthly financial assistance for the treatment of ex-servicemen and their dependents (wife & children) who have a disability of 40% or more and are suffering from serious illnesses such as cancer, leprosy, tuberculosis, kidney and cardiac ailments, paralysis, etc.",
+      "exclusions_md": "",
+      "detailedDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "The \"Financial Assistance for the Treatment of Blind, Disabled, Deaf, Dumb, or Mentally Challenged Ex-Servicemen and their Dependents (Wife and Children)\" scheme was launched by the Department of Sainik Welfare, Government of Rajasthan. The scheme aims to provide monthly financial assistance for the treatment of ex-servicemen and their dependents (wife & children) who have a disability of 40% or more and are suffering from serious illnesses such as cancer, leprosy, tuberculosis, kidney and cardiac ailments, paralysis, etc. Only an ex-serviceman of the rank of Havildar or below or a member of the family of an ex-serviceman whose disability is 40% or more is eligible to apply. This scheme came into effect on 01.07.2020, and financial assistance will be granted from the first day of the month in which the application is approved."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Financial Assistance:",
+              "bold": true,
+              "underline": true
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "children": [
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "S. No.",
+                      "bold": true
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Percentage of Disability",
+                      "bold": true
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Financial Assistance",
+                      "bold": true
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Priority",
+                      "bold": true
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "1"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "80% and above"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "₹3,000/- per month"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "First Priority"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "2"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "60% but less than 80%"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "₹2,000/- per month"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Second Priority"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "3"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "40% but less than 60%"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "₹1,000/- per month"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Third Priority"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Note:",
+              "bold": true,
+              "underline": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The assistance is provided for three years. After that, the applicant will re-apply for renewal."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The financial aid is disbursed online through the District Sainik Welfare Office."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "A maximum of two disabled family members of an ex-serviceman can avail of this benefit."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The financial assistance will cease upon the death of the disabled ex-serviceman or the disabled family member."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "process": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Application Process:",
+                "bold": true,
+                "underline": true,
+                "italic": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 1:",
+                "bold": true
+              },
+              {
+                "text": " The interested applicant should visit the office of the District Sainik Welfare Office and request a hard copy of the prescribed format of the application form from the staff exclusively entrusted to issue and collect filled-in applications."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "OR",
+                "bold": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "The applicant should download the "
+              },
+              {
+                "type": "link",
+                "link": "https://sainikkalyan.rajasthan.gov.in/content/dam/doitassests/sainikwelfare/pdf/Amalgamatedfundschemes/Medical%20Assistance.pdf",
+                "children": [
+                  {
+                    "text": "application form"
+                  }
+                ]
+              },
+              {
+                "text": " (Page No. 5) from the official website."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2:",
+                "bold": true
+              },
+              {
+                "text": " In the application form, fill in all the mandatory fields and attach copies of all the mandatory documents (self-attest if required)."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 3:",
+                "bold": true
+              },
+              {
+                "text": " Submit the duly filled and signed application form along with the documents to the District Sainik Welfare Office."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 4:",
+                "bold": true
+              },
+              {
+                "text": " Request a receipt or acknowledgment from the District Sainik Welfare Office to whom the application has been submitted. Ensure that the receipt contains essential details such as the date and time of submission and a unique identification number (if applicable)."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "NOTE:",
+                "bold": true,
+                "italic": true,
+                "underline": true
+              }
+            ]
+          },
+          {
+            "type": "ul_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "If the ex-serviceman/widow is alive, they apply; otherwise, a family member/guardian applies if the disabled applicant is unable."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "The application should be made through the same District Sainik Welfare Officer from whom the ex-serviceman/widow's identity card was issued."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Beneficiaries must reapply every three years for renewal."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Post-Application Process:",
+                "bold": true,
+                "underline": true,
+                "italic": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 1: ",
+                "bold": true
+              },
+              {
+                "text": "The District Sainik Welfare Officer will verify the documents and forward the application to the Director, Sainik Welfare Department, Rajasthan, Jaipur."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2: ",
+                "bold": true
+              },
+              {
+                "text": "A committee will review the applications every six months."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 3: ",
+                "bold": true
+              },
+              {
+                "text": "Approved applicants will receive financial assistance online."
+              }
+            ]
+          }
+        ],
+        "process_md": "***Application Process:***\n**Step 1:** The interested applicant should visit the office of the District Sainik Welfare Office and request a hard copy of the prescribed format of the application form from the staff exclusively entrusted to issue and collect filled-in applications.\n**OR**\nThe applicant should download the [application form](https://sainikkalyan.rajasthan.gov.in/content/dam/doitassests/sainikwelfare/pdf/Amalgamatedfundschemes/Medical%20Assistance.pdf) (Page No. 5) from the official website.\n**Step 2:** In the application form, fill in all the mandatory fields and attach copies of all the mandatory documents (self-attest if required).\n**Step 3:** Submit the duly filled and signed application form along with the documents to the District Sainik Welfare Office.\n**Step 4:** Request a receipt or acknowledgment from the District Sainik Welfare Office to whom the application has been submitted. Ensure that the receipt contains essential details such as the date and time of submission and a unique identification number (if applicable).\n***NOTE:***\n\n- If the ex-serviceman/widow is alive, they apply; otherwise, a family member/guardian applies if the disabled applicant is unable.\n- The application should be made through the same District Sainik Welfare Officer from whom the ex-serviceman/widow&#39;s identity card was issued.\n- Beneficiaries must reapply every three years for renewal.\n\n***Post-Application Process:***\n**Step 1:** The District Sainik Welfare Officer will verify the documents and forward the application to the Director, Sainik Welfare Department, Rajasthan, Jaipur.\n**Step 2:** A committee will review the applications every six months.\n**Step 3:** Approved applicants will receive financial assistance online.\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n   1. The applicant should be a native of Rajasthan.\n   1. The applicant should either be an ex-serviceman as defined by the Government of India or a dependent family member (excluding parents) of ex-serviceman.\n   1. Only an ex-serviceman holding the rank of Havildar or below, or their family members, are eligible to apply.\n   1. The ex-serviceman or their dependent should have a disability of 40% or more.\n   1. Both pensioner and non-pensioner are eligible. However, ex-serviceman who is already receiving a disability pension from the Army cannot apply for financial assistance for himself based on their disability. He may apply on behalf of a disabled family member with 40% or more disability.\n   1. Under this scheme, the family members do not include parents. Only wife/widow, son/daughter are included.\n   1. The ex-serviceman’s disability will be considered valid regardless of whether it occurred during military service or after retirement.\n   1. The name of the disabled wife, son, or daughter should be recorded in the discharge book or Part II Order of the ex-serviceman.\n   1. Assistance will not be provided to more than two members of the same family, including the ex-serviceman.\n   1. A valid recommendation from the District Sainik Welfare Officer (DSWO) is mandatory.\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "ol_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant should be a native of Rajasthan."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant should either be an ex-serviceman as defined by the Government of India or a dependent family member (excluding parents) of ex-serviceman."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Only an ex-serviceman holding the rank of Havildar or below, or their family members, are eligible to apply."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The ex-serviceman or their dependent should have a disability of 40% or more."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Both pensioner and non-pensioner are eligible. However, ex-serviceman who is already receiving a disability pension from the Army cannot apply for financial assistance for himself based on their disability. He may apply on behalf of a disabled family member with 40% or more disability."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Under this scheme, the family members do not include parents. Only wife/widow, son/daughter are included."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The ex-serviceman’s disability will be considered valid regardless of whether it occurred during military service or after retirement."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The name of the disabled wife, son, or daughter should be recorded in the discharge book or Part II Order of the ex-serviceman."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Assistance will not be provided to more than two members of the same family, including the ex-serviceman."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "A valid recommendation from the District Sainik Welfare Officer (DSWO) is mandatory."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "faafbdmmresf"
+}

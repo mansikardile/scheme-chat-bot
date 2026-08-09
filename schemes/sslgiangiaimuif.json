@@ -1,0 +1,398 @@
+{
+  "_id": "64ca8af54ff0498cae3803d7",
+  "en": {
+    "basicDetails": {
+      "schemeOpenDate": null,
+      "schemeCloseDate": null,
+      "state": {
+        "value": 30,
+        "label": "Goa"
+      },
+      "nodalMinistryName": null,
+      "nodalDepartmentName": {
+        "value": 30000022,
+        "label": "Higher Education Department"
+      },
+      "otherMinistryName": null,
+      "otherDepartmentNames": null,
+      "targetBeneficiaries": [
+        {
+          "value": "institution",
+          "label": "Institution"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Loan",
+          "label": "Loan"
+        },
+        {
+          "value": "Infrastructure",
+          "label": "Infrastructure"
+        }
+      ],
+      "dbtScheme": null,
+      "implementingAgency": null,
+      "tags": [
+        "Infrastructure",
+        "Maintenance",
+        "Institution",
+        "Loan"
+      ],
+      "schemeName": "Scheme For Soft Loan To The Grant-in-aid/ Non-grant In Aid Institutions For Maintenance And Upgradation Of Infrastructure Facilities",
+      "schemeShortTitle": "SSLGIA/NGIAIMUIF",
+      "level": {
+        "value": "state",
+        "label": "State"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce7f6d6d1a3bde46852d0",
+          "label": "Banking,Financial Services and Insurance"
+        },
+        {
+          "value": "628ce924d6d1a3bde4685354",
+          "label": "Transport & Infrastructure"
+        }
+      ],
+      "schemeFor": "Infra"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://www.goa.gov.in/wp-content/uploads/2020/12/Soft-Loan-Scheme.pdf"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "&quot;Scheme for Soft Loan to the Grant-in-aid/ Non-grant in Aid Institutions for Maintenance and Upgradation of Infrastructure Facilities&quot; is a Loan Scheme by the Directorate of Higher Education, Government of Goa. The objective of the scheme is to support the efforts of the management of the Non-Government aided institutions/non-grant-in-aid institutions for the upgradation and maintenance of infrastructural facilities for promoting a conducive atmosphere for learning.\n",
+      "benefits_md": "As Goa Education Development Corporation is a Grant in Aid Corporation, Soft loan beneficiaries are assisted by taking loans from Economic Development Corporation and further disbursing it as below:\n<br>\n\n> **50% of the Loan Amount**\n\nReleased immediately on the issue of sanction order by the Directorate of Higher Education.\n<br>\n\n> **40% of the Loan Amount**\n\nReleased on the production of a certificate from a Government Registered Engineer duly signed by a Chartered Accountant and College Principal/Head of Institution; to the effect that the first instalment of 50% has been fully utilized for the purpose for which it was granted.\n<br>\n\n> **10% of the Loan Amount**\n\nReleased subject to the following three conditions:\n  a)  Production of a certificate from a Government Registered Engineer duly signed by a Chartered Accountant and College Principal/Head of Institution; to the effect that 40% of the loan amount has been fully utilized for the purpose for which it was granted.\n  b)  The project is completed and a completion certificate for that effect is produced by the Management.\n  c)  The occupancy certificate is issued by a competent authority to the satisfaction of the Directorate of Higher Education.\n",
+      "briefDescription": "The objective of the scheme is to support the efforts of the management of the Non-Government aided institutions/non-grant-in-aid institutions for the upgradation and maintenance of infrastructural facilities for promoting a conducive atmosphere for learning.",
+      "exclusions_md": "",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "\"Scheme for Soft Loan to the Grant-in-aid/ Non-grant in Aid Institutions for Maintenance and Upgradation of Infrastructure Facilities\" is a Loan Scheme by the Directorate of Higher Education, Government of Goa. The objective of the scheme is to support the efforts of the management of the Non-Government aided institutions/non-grant-in-aid institutions for the upgradation and maintenance of infrastructural facilities for promoting a conducive atmosphere for learning."
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 2,
+        "value": "in-kind",
+        "label": "In Kind"
+      },
+      "benefits": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "As Goa Education Development Corporation is a Grant in Aid Corporation, Soft loan beneficiaries are assisted by taking loans from Economic Development Corporation and further disbursing it as below:"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        },
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "50% of the Loan Amount",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Released immediately on the issue of sanction order by the Directorate of Higher Education."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        },
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "40% of the Loan Amount",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Released on the production of a certificate from a Government Registered Engineer duly signed by a Chartered Accountant and College Principal/Head of Institution; to the effect that the first instalment of 50% has been fully utilized for the purpose for which it was granted."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        },
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "10% of the Loan Amount",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Released subject to the following three conditions:"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "  a)  Production of a certificate from a Government Registered Engineer duly signed by a Chartered Accountant and College Principal/Head of Institution; to the effect that 40% of the loan amount has been fully utilized for the purpose for which it was granted."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "  b)  The project is completed and a completion certificate for that effect is produced by the Management."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "  c)  The occupancy certificate is issued by a competent authority to the satisfaction of the Directorate of Higher Education."
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "url": "https://www.goa.gov.in/wp-content/uploads/2020/12/Soft-Loan-Scheme.pdf",
+        "process": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 1:",
+                "bold": true
+              },
+              {
+                "text": " In the "
+              },
+              {
+                "type": "link",
+                "link": "https://www.goa.gov.in/wp-content/uploads/2020/12/Soft-Loan-Scheme.pdf",
+                "children": [
+                  {
+                    "text": "prescribed format"
+                  }
+                ]
+              },
+              {
+                "text": " of the application form, fill in all the mandatory fields, and attach copies of all the mandatory documents."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2: ",
+                "bold": true
+              },
+              {
+                "text": "Get the application duly signed by the Chairman of the Society."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 3: ",
+                "bold": true
+              },
+              {
+                "text": "Send the duly filled and signed application to:"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "bold": true,
+                "text": "The Directorate of Higher Education, SCERT building, Porvorim, Penha de França, Goa - 403 521"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 4: ",
+                "bold": true
+              },
+              {
+                "text": "Acquire the receipt/acknowledgement of the successful submission of the application from the Directorate."
+              }
+            ]
+          }
+        ],
+        "process_md": "**Step 1:** In the [prescribed format](https://www.goa.gov.in/wp-content/uploads/2020/12/Soft-Loan-Scheme.pdf) of the application form, fill in all the mandatory fields, and attach copies of all the mandatory documents.\n**Step 2:** Get the application duly signed by the Chairman of the Society.\n**Step 3:** Send the duly filled and signed application to:\n**The Directorate of Higher Education, SCERT building, Porvorim, Penha de França, Goa - 403 521**\n**Step 4:** Acquire the receipt/acknowledgement of the successful submission of the application from the Directorate.\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "All the aided/non-aided institutions of higher learning, including institutions providing professional courses, shall be eligible to apply for the loan subject to the following conditions:\n\n1. The institution should be situated in Goa.\n1. The society which runs the institution should have been registered under the Societies Registration Act.\n1. The institution should have been in operation for at least 10 years, preceding the date of application of the loan. \n1. The institution should have a minimum strength of 300 students on campus.\n1. The average passing percentage should not be below 60% in the last three years out of five years immediately preceding the date of application for the loan.\n1. The institution seeking the loan should meet ANY ONE of the following two requirements:\n\n               a)  The institutions concerned should be affiliated with Goa University.\n               b)  The institutions should have been recognized by AICTE/MCI/ACI/DCI or any other statutory body of the Government of India/Government of Goa.\n<br>\n\n> **Preference/ Priority**\n\n\n1. A special preference shall be given to the institutions from less developed Taluka’s such as Canacona, Pernem, Sattari, Sanquelim, Quepem, Bicholim and Sanguem.\n1. Since the financial facilities under the scheme at any point in time are limited, priority would be given to the older institutions over the newer ones.\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "All the aided/non-aided institutions of higher learning, including institutions providing professional courses, shall be eligible to apply for the loan subject to the following conditions:"
+            }
+          ]
+        },
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The institution should be situated in Goa."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The society which runs the institution should have been registered under the Societies Registration Act."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The institution should have been in operation for at least 10 years, preceding the date of application of the loan. "
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The institution should have a minimum strength of 300 students on campus."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The average passing percentage should not be below 60% in the last three years out of five years immediately preceding the date of application for the loan."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The institution seeking the loan should meet ANY ONE of the following two requirements:"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "               a)  The institutions concerned should be affiliated with Goa University."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "               b)  The institutions should have been recognized by AICTE/MCI/ACI/DCI or any other statutory body of the Government of India/Government of Goa."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        },
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "Preference/ Priority",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "A special preference shall be given to the institutions from less developed Taluka’s such as Canacona, Pernem, Sattari, Sanquelim, Quepem, Bicholim and Sanguem."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Since the financial facilities under the scheme at any point in time are limited, priority would be given to the older institutions over the newer ones."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "sslgiangiaimuif"
+}

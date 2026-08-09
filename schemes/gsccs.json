@@ -1,0 +1,416 @@
+{
+  "_id": "67604dde9179d18db5f5af0d",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Student",
+        "Loan",
+        "Higher Education",
+        "Interest Rate"
+      ],
+      "schemeName": "Guruji Student Credit Card (GSCC) Scheme",
+      "schemeShortTitle": "GSCCS",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce76cd6d1a3bde4685292",
+          "label": "Education & Learning"
+        },
+        {
+          "value": "628ce7f6d6d1a3bde46852d0",
+          "label": "Banking,Financial Services and Insurance"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Loan",
+          "label": "Loan"
+        },
+        {
+          "value": "Scholarships and student finance",
+          "label": "Scholarships and student finance"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "state": {
+        "value": 20,
+        "label": "Jharkhand"
+      },
+      "nodalDepartmentName": {
+        "value": 2000008,
+        "label": "Higher and Techical Education Department"
+      },
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://gscc.jharkhand.gov.in/sample%20files/guruji_guidelines.pdf"
+        },
+        {
+          "title": "Official Website",
+          "url": "https://gscc.jharkhand.gov.in/"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The Guruji Student Credit Card (GSCC) Scheme was launched by the Department of Higher and Technical Education, Government of Jharkhand. The scheme aims to provide financial support to students pursue higher education without financial constraints. Under this scheme, eligible students can avail education loans up to ₹15 lakhs at a subsidized 4% simple interest rate, with additional benefits for female students. \n",
+      "benefits_md": "\n1. Education loans up to ₹15,00,000/- at a subsidized 4% interest rate.\n1. Long Repayment Term: Maximum repayment tenure of up to 15 years.\n1. No Processing Fees: No additional fees for loan processing, sanctioning, or disbursement.\n\n<br>\n\n",
+      "briefDescription": "Under this scheme, a financial support initiative by the Jharkhand Government to help students pursue higher education without financial constraints. Under this scheme, eligible students can avail of education loans up to ₹15,00,000 at a subsidized 4% simple interest rate, with additional benefits. ",
+      "exclusions_md": "",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The Guruji Student Credit Card (GSCC) Scheme was launched by the Department of Higher and Technical Education, Government of Jharkhand. The scheme aims to provide financial support to students pursue higher education without financial constraints. Under this scheme, eligible students can avail education loans up to ₹15 lakhs at a subsidized 4% simple interest rate, with additional benefits for female students. "
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Education loans up to ₹15,00,000/- at a subsidized 4% interest rate."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Long Repayment Term: Maximum repayment tenure of up to 15 years."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "No Processing Fees: No additional fees for loan processing, sanctioning, or disbursement."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Online",
+        "process": [
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "text": "Registration Process:",
+                "bold": true,
+                "underline": true
+              }
+            ]
+          },
+          {
+            "type": "ul_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Interested candidate visits the official website GSCCS: Student Credit Card Scheme – Jharkhand"
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Click on “Registration” and fill name, email id, captcha, verify the OTP. "
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "After verification, you get a registration number via SMS."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "text": "Login Process:",
+                "bold": true,
+                "underline": true
+              }
+            ]
+          },
+          {
+            "type": "ul_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Enter user ID, Password and captcha"
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Click on “Login”, after that fill the application form basic detail, address"
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Upload profile photo and signature"
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Click on “Submit” and you will get application id"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "text": "Loan Process:",
+                "bold": true,
+                "underline": true
+              }
+            ]
+          },
+          {
+            "type": "ul_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Student MLI (Member lending institution) Selection: Student selects an MLI from the onboarded list for loan processing."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Loan Approval by MLI: MLI reviews and approves/rejects the loan application, specifying loan amount and disbursement timeline."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Loan Details Upload by MLI: MLI uploads loan details including amount, duration, and repayment period, along with the sanction letter."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Interest Subvention Block by Corpus Bank: Corpus Bank blocks the required interest subvention amount based on the disbursed loan."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Course Fee Disbursement by MLI: MLI disburses the institutional expense to the institution’s account as per the student's payment schedule."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Interest Subvention Payment to MLI: The portal auto-pays the MLI the interest subvention amount at the agreed frequency."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Repayment Schedule Upload by MLI: MLI uploads the repayment schedule and raises an interest subvention request to DHTE."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Loan Status Validation by Portal: The portal auto-validates the loan status for all stakeholders, showing interest payment updates."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Interest Disbursement by Corpus Bank: DHTE sends a request to Corpus Bank for disbursement of interest subvention to the MLI."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          }
+        ],
+        "process_md": "> **Registration Process:**\n\n\n- Interested candidate visits the official website GSCCS: Student Credit Card Scheme – Jharkhand\n- Click on “Registration” and fill name, email id, captcha, verify the OTP. \n- After verification, you get a registration number via SMS.\n\n<br>\n\n> **Login Process:**\n\n\n- Enter user ID, Password and captcha\n- Click on “Login”, after that fill the application form basic detail, address\n- Upload profile photo and signature\n- Click on “Submit” and you will get application id\n\n<br>\n\n> **Loan Process:**\n\n\n- Student MLI (Member lending institution) Selection: Student selects an MLI from the onboarded list for loan processing.\n- Loan Approval by MLI: MLI reviews and approves/rejects the loan application, specifying loan amount and disbursement timeline.\n- Loan Details Upload by MLI: MLI uploads loan details including amount, duration, and repayment period, along with the sanction letter.\n- Interest Subvention Block by Corpus Bank: Corpus Bank blocks the required interest subvention amount based on the disbursed loan.\n- Course Fee Disbursement by MLI: MLI disburses the institutional expense to the institution’s account as per the student&#39;s payment schedule.\n- Interest Subvention Payment to MLI: The portal auto-pays the MLI the interest subvention amount at the agreed frequency.\n- Repayment Schedule Upload by MLI: MLI uploads the repayment schedule and raises an interest subvention request to DHTE.\n- Loan Status Validation by Portal: The portal auto-validates the loan status for all stakeholders, showing interest payment updates.\n- Interest Disbursement by Corpus Bank: DHTE sends a request to Corpus Bank for disbursement of interest subvention to the MLI.\n\n<br>\n\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n1. The applicant should be a student. \n1. The student should be an Indian national.\n1. The student should have completed class 10th to pursue a diploma and class 10th and 12th to pursue undergraduate or higher courses from a recognized school in Jharkhand. \n1. The student should have secured admission in institutions like IITs, IIMs, IIESTs, ISIs, NLUs, AIIMSs, NITs, XLRI, IISCs, BITS, SPA, NID, IIFTs, ICFAI Business School etc within and outside of the state (within India) which are ranked up to 200 in the overall list or ranked up to 100 in their respective individual category of NIRF Rankings or have been accredited grade either “A&quot; or above by NAAC.\n1. The student should not be aged more than 40 (forty) years at the time of application for loan.\n1. The student should not be a prior beneficiary of the scheme.\n1. The student should not have availed education loan from any State Co-operative Banks, Central Co-operative Banks, District Central Co-operative Banks, or any Public or Private sector Banks for the course in which he/she is applying for a loan under the Scheme.\n\n<br>\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should be a student. "
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The student should be an Indian national."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The student should have completed class 10th to pursue a diploma and class 10th and 12th to pursue undergraduate or higher courses from a recognized school in Jharkhand. "
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The student should have secured admission in institutions like IITs, IIMs, IIESTs, ISIs, NLUs, AIIMSs, NITs, XLRI, IISCs, BITS, SPA, NID, IIFTs, ICFAI Business School etc within and outside of the state (within India) which are ranked up to 200 in the overall list or ranked up to 100 in their respective individual category of NIRF Rankings or have been accredited grade either “A\" or above by NAAC."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The student should not be aged more than 40 (forty) years at the time of application for loan."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The student should not be a prior beneficiary of the scheme."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The student should not have availed education loan from any State Co-operative Banks, Central Co-operative Banks, District Central Co-operative Banks, or any Public or Private sector Banks for the course in which he/she is applying for a loan under the Scheme."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "gsccs"
+}

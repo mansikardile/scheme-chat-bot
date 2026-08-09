@@ -1,0 +1,394 @@
+{
+  "_id": "64e5ac859a06d82f412cfebf",
+  "en": {
+    "basicDetails": {
+      "schemeOpenDate": null,
+      "schemeCloseDate": null,
+      "nodalMinistryName": null,
+      "nodalDepartmentName": {
+        "value": 30000044,
+        "label": "Social Welfare Department"
+      },
+      "otherMinistryName": null,
+      "otherDepartmentNames": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Training and Skill Up-gradation",
+          "label": "Training and Skill Up-gradation"
+        },
+        {
+          "value": "Citizen empowerment",
+          "label": "Citizen empowerment"
+        },
+        {
+          "value": "Voctional education",
+          "label": "Voctional education"
+        },
+        {
+          "value": "Financial assistance",
+          "label": "Financial assistance"
+        }
+      ],
+      "dbtScheme": false,
+      "implementingAgency": null,
+      "tags": [
+        "Training",
+        "Financial Assistance",
+        "Scheduled Tribe"
+      ],
+      "schemeName": "Short Term Professional Training Courses",
+      "schemeShortTitle": "Stptc",
+      "level": {
+        "value": "state",
+        "label": "State"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce85cd6d1a3bde4685304",
+          "label": "Skills & Employment"
+        },
+        {
+          "value": "628ce87cd6d1a3bde4685312",
+          "label": "Social welfare & Empowerment"
+        }
+      ],
+      "state": {
+        "value": 30,
+        "label": "Goa"
+      },
+      "schemeType": null,
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://www.goa.gov.in/wp-content/uploads/2020/10/Schemes-of-the-Goa-state-Scheduled-Tribes-Finance-and-Development-Corporation.pdf"
+        },
+        {
+          "title": "Official Gazette",
+          "url": "https://tribalwelfare.goa.gov.in/images/2019/uploads/Notification_STPT_Yojana_2020.pdf"
+        },
+        {
+          "title": "Application Form",
+          "url": "https://tribalwelfare.goa.gov.in/images/2019/uploads/Notification_STPT_Yojana_2020.pdf"
+        }
+      ],
+      "schemeImageUrl": "",
+      "briefDescription": "The \"Short Term Professional Training Courses\" is provided to train the youth of the Scheduled Tribe Community in order to start their own business, and to acquire skills by joining the various training courses for the purpose of self-employment or for their livelihood.",
+      "detailedDescription_md": "The &quot;Short Term Professional Training Courses&quot; is provided by the Department of Tribal Welfare, Government of Goa to train the youth of the Scheduled Tribe Community in order to start their own business. The objective of the scheme is to provide financial assistance to the beneficiaries of the Scheduled Tribe community to acquire skills by joining the various training courses for the purpose of self-employment or for their livelihood.\n<br>\n\n> **Definition**\n\nAny training that would directly improve any individual’s ability to perform his or her current/new job/self-employment. \n<br>\n\n> **Duration**\n\nNot more than 3 months and not less than 15 days. \n<br>\n\n> **Recognition/Affiliation**\n\nRegistered with any of the Government Departments/Government Institutions/Government Autonomous Bodies in the State of Goa. \n",
+      "benefits_md": "> **List of Courses**\n\n\n1. Motor Driving Training Course.\n1. Tailoring Course.\n1. Cookery and Bakery Courses.\n1. Beautician Course.\n1. Mobile Repairing Courses.\n1. Computer Courses.\n\n<br>\n\n> **Quantum of Financial Assistance**\n\n\n1. Financial assistance will be given to complete any one course with a maximum limit of ₹ 5,000/-.\n1. 50% of the actual fees with a limit of ₹ 2,500/- shall be released as an advance to take admission in the particular course.\n1. 50% balance amount will be released after the completion of the course on the production of the completion certificate.\n\n",
+      "exclusions_md": "",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The \"Short Term Professional Training Courses\" is provided by the Department of Tribal Welfare, Government of Goa to train the youth of the Scheduled Tribe Community in order to start their own business. The objective of the scheme is to provide financial assistance to the beneficiaries of the Scheduled Tribe community to acquire skills by joining the various training courses for the purpose of self-employment or for their livelihood."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        },
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "Definition",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Any training that would directly improve any individual’s ability to perform his or her current/new job/self-employment. "
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        },
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "Duration",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Not more than 3 months and not less than 15 days. "
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        },
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "Recognition/Affiliation",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Registered with any of the Government Departments/Government Institutions/Government Autonomous Bodies in the State of Goa. "
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "List of Courses",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Motor Driving Training Course."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Tailoring Course."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Cookery and Bakery Courses."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Beautician Course."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Mobile Repairing Courses."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Computer Courses."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        },
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "Quantum of Financial Assistance",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Financial assistance will be given to complete any one course with a maximum limit of ₹ 5,000/-."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "50% of the actual fees with a limit of ₹ 2,500/- shall be released as an advance to take admission in the particular course."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "50% balance amount will be released after the completion of the course on the production of the completion certificate."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "process": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 1: ",
+                "bold": true
+              },
+              {
+                "text": "The interested applicant should visit the Goa State Scheduled Tribes Finance And Development Corporation Limited,"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "2nd Floor, Dayanand Smruti Building, Swami Vivekanand Road, Panaji, Goa - 403 001."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2: ",
+                "bold": true
+              },
+              {
+                "text": "Take a print of the "
+              },
+              {
+                "type": "link",
+                "link": "https://tribalwelfare.goa.gov.in/images/2019/uploads/Notification_STPT_Yojana_2020.pdf",
+                "children": [
+                  {
+                    "text": "proforma "
+                  }
+                ]
+              },
+              {
+                "text": "of the application form, or request a hard copy from the concerned authority."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 3: ",
+                "bold": true
+              },
+              {
+                "text": "In the application form, fill in all the mandatory fields, paste the passport-sized photograph (signed across), and attach copies of all the mandatory documents (self-attest if required)."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 4: ",
+                "bold": true
+              },
+              {
+                "text": "Submit the duly filled and signed application form along with the documents to the concerned authority."
+              }
+            ]
+          }
+        ],
+        "process_md": "**Step 1:** The interested applicant should visit the Goa State Scheduled Tribes Finance And Development Corporation Limited,\n2nd Floor, Dayanand Smruti Building, Swami Vivekanand Road, Panaji, Goa - 403 001.\n**Step 2:** Take a print of the [proforma ](https://tribalwelfare.goa.gov.in/images/2019/uploads/Notification_STPT_Yojana_2020.pdf)of the application form, or request a hard copy from the concerned authority.\n**Step 3:** In the application form, fill in all the mandatory fields, paste the passport-sized photograph (signed across), and attach copies of all the mandatory documents (self-attest if required).\n**Step 4:** Submit the duly filled and signed application form along with the documents to the concerned authority.\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n1. The applicant should belong to the Scheduled Tribe Community of Goa.\n1. The applicant shall be above 18 years of age and below the age of 50 years.\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should belong to the Scheduled Tribe Community of Goa."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant shall be above 18 years of age and below the age of 50 years."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "stptc"
+}

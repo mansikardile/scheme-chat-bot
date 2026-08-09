@@ -1,0 +1,351 @@
+{
+  "_id": "66096306a833324343916353",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Book",
+        "Allowance",
+        "Student",
+        "Ex-Serviceman",
+        "Widow"
+      ],
+      "schemeName": "Book Allowance to the Wards of Ex-Servicemen/Widows (Sainik Welfare)",
+      "schemeShortTitle": "BAWESMW-SW",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce76cd6d1a3bde4685292",
+          "label": "Education & Learning"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Scholarships and student finance",
+          "label": "Scholarships and student finance"
+        },
+        {
+          "value": "Education and training grants, fellowship, stipend",
+          "label": "Education and training grants, fellowship, stipend"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "state": {
+        "value": 34,
+        "label": "Puducherry"
+      },
+      "nodalDepartmentName": {
+        "value": 34000035,
+        "label": "Sainik Welfare Department, Puducherry"
+      },
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://sainik.py.gov.in/assistance-affd-fund"
+        },
+        {
+          "title": "Government Order",
+          "url": "https://sainik.py.gov.in/sites/default/files/g.o.ms.22-dated-24-feb-2020.pdf"
+        },
+        {
+          "title": "Application Form",
+          "url": "https://sainik.py.gov.in/sites/default/files/uniformandbookallowance202223.pdf"
+        },
+        {
+          "title": "Contact Us",
+          "url": "https://sainik.py.gov.in/contact-us"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "&quot;Book Allowance to the Wards of Ex-Servicemen/Widows (Sainik Welfare)&quot; is a Welfare Scheme by the Armed Forces Flag Day Fund of the Department of Sainik Welfare, Puducherry. Through this scheme, the wards of the ESM / Widows of ESM studying in Government-recognized Institutions are provided allowances towards the purchase of books. The application should be submitted offline within three months from the date of completion of the education.\n",
+      "benefits_md": "> **Book Allowance (in ₹ per annum) as per the Level of Education**\n\n\n- School / School for Special Children / Diploma in Polytechnic: 2,000\n- Bachelor Degree: 3,000\n- Master Degree: 4,000\n- Professional Course (MBBS/BE/BTech) (Bachelor of Medicine and Bachelor of Surgery / Bachelor of Engineering / Bachelor of Technology): 4,000\n\n_*The rate listed above or the actual cost of the fee, whichever is less, is reimbursed._\n_*The amount, as decided by the Management Committee, is credited to the beneficiary’s Bank Account through RTGS/ NEFT._\n",
+      "exclusions_md": "\n- The scheme does not apply to the ward who is repeating the same class.\n- The Wards who are already in receipt of an academic scholarship are not eligible.\n- The Wards who are availing the benefit of reimbursement of tuition fees from other sources are not eligible.\n\n",
+      "briefDescription": "\"Book Allowance to the Wards of Ex-Servicemen/Widows\" is a Welfare Scheme by the Dept of Sainik Welfare, Puducherry. Through this scheme, the wards of the ESM / Widows of ESM studying in Government-recognized Institutions are provided allowances towards the purchase of books.",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "\"Book Allowance to the Wards of Ex-Servicemen/Widows (Sainik Welfare)\" is a Welfare Scheme by the Armed Forces Flag Day Fund of the Department of Sainik Welfare, Puducherry. Through this scheme, the wards of the ESM / Widows of ESM studying in Government-recognized Institutions are provided allowances towards the purchase of books. The application should be submitted offline within three months from the date of completion of the education."
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "Book Allowance (in ₹ per annum) as per the Level of Education",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "School / School for Special Children / Diploma in Polytechnic: 2,000"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Bachelor Degree: 3,000"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Master Degree: 4,000"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Professional Course (MBBS/BE/BTech) (Bachelor of Medicine and Bachelor of Surgery / Bachelor of Engineering / Bachelor of Technology): 4,000"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "*The rate listed above or the actual cost of the fee, whichever is less, is reimbursed.",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "*The amount, as decided by the Management Committee, is credited to the beneficiary’s Bank Account through RTGS/ NEFT.",
+              "italic": true
+            }
+          ]
+        }
+      ],
+      "exclusions": [
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The scheme does not apply to the ward who is repeating the same class."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The Wards who are already in receipt of an academic scholarship are not eligible."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The Wards who are availing the benefit of reimbursement of tuition fees from other sources are not eligible."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "process": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 1: ",
+                "bold": true
+              },
+              {
+                "text": "The interested applicant should take print of the "
+              },
+              {
+                "type": "link",
+                "link": "https://sainik.py.gov.in/sites/default/files/uniformandbookallowance202223.pdf",
+                "children": [
+                  {
+                    "text": "prescribed format"
+                  }
+                ]
+              },
+              {
+                "text": " of the application form for the concerned scheme."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2:",
+                "bold": true
+              },
+              {
+                "text": " In the application form, fill in all the mandatory fields, paste the passport-sized photograph (signed across, if required), and attach copies of all the mandatory documents (self-attest, if required)."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 3: ",
+                "bold": true
+              },
+              {
+                "text": "The interested applicant should submit the duly filled and signed application form and the documents to the concerned authority at the Rajya Sainik Board, Jawan Bhawan, Department of Sainik Welfare, Government of Puducherry, 261, Lawspet Main Road, Pakkamudianpet, Puducherry Road, Lawspet, Puducherry - 605013, India."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 4: ",
+                "bold": true
+              },
+              {
+                "text": "A receipt of the application will be assigned to the applicant by the concerned authority."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "text": "Queries/Complaints/Suggestions/Grievances",
+                "bold": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Address: 261, Lawspet Main Road, Pakkamudianpet, Puducherry Road, Lawspet, Puducherry - 605013, India"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Phone Number: (+91)(0413) 2253107"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Email: dirdsw.pon@nic.in"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Hours: Monday - Friday, 2:30 pm to 5:00 pm"
+              }
+            ]
+          }
+        ],
+        "process_md": "**Step 1:** The interested applicant should take print of the [prescribed format](https://sainik.py.gov.in/sites/default/files/uniformandbookallowance202223.pdf) of the application form for the concerned scheme.\n**Step 2:** In the application form, fill in all the mandatory fields, paste the passport-sized photograph (signed across, if required), and attach copies of all the mandatory documents (self-attest, if required).\n**Step 3:** The interested applicant should submit the duly filled and signed application form and the documents to the concerned authority at the Rajya Sainik Board, Jawan Bhawan, Department of Sainik Welfare, Government of Puducherry, 261, Lawspet Main Road, Pakkamudianpet, Puducherry Road, Lawspet, Puducherry - 605013, India.\n**Step 4:** A receipt of the application will be assigned to the applicant by the concerned authority.\n<br>\n\n> **Queries/Complaints/Suggestions/Grievances**\n\nAddress: 261, Lawspet Main Road, Pakkamudianpet, Puducherry Road, Lawspet, Puducherry - 605013, India\nPhone Number: (+91)(0413) 2253107\nEmail: dirdsw.pon@nic.in\nHours: Monday - Friday, 2:30 pm to 5:00 pm\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n- The applicant should be a Ward of an Unemployed ESM / Ward of the Widow of an ESM.\n- The applicant should be registered with the Department of Sainik Welfare, Puducherry.\n- The Ward should be studying in a Government-recognized Institution.\n- The scheme is applicable for upto two wards of the Unemployed ESM / Widow of an ESM.\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should be a Ward of an Unemployed ESM / Ward of the Widow of an ESM."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should be registered with the Department of Sainik Welfare, Puducherry."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The Ward should be studying in a Government-recognized Institution."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The scheme is applicable for upto two wards of the Unemployed ESM / Widow of an ESM."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "bawesmw-sw"
+}

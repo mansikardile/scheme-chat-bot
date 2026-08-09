@@ -1,0 +1,231 @@
+{
+  "_id": "67765fbd8aa510ca37141332",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Nutritional Support",
+        "Tribal Welfare",
+        "Child Nutrition",
+        "Pregnant Mothers"
+      ],
+      "schemeName": "Doodh Sanjivani Scheme",
+      "schemeShortTitle": "DSSG",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce7a2d6d1a3bde46852b1",
+          "label": "Health & Wellness"
+        },
+        {
+          "value": "628ce87cd6d1a3bde4685312",
+          "label": "Social welfare & Empowerment"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Pregnancy care",
+          "label": "Pregnancy care"
+        },
+        {
+          "value": "Children’s health and immunization",
+          "label": "Children’s health and immunization"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "state": {
+        "value": 24,
+        "label": "Gujarat"
+      },
+      "schemeType": null,
+      "nodalMinistryName": null,
+      "nodalDepartmentName": {
+        "value": 2444469,
+        "label": "Women and Child Development Department"
+      },
+      "otherMinistryName": null,
+      "otherDepartmentNames": null,
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://wcd.gujarat.gov.in/initiativedetails?id=237"
+        }
+      ],
+      "schemeImageUrl": "",
+      "briefDescription": "The scheme aims to enhance the nutritional health of children aged 6 months to 6 years and pregnant and lactating mothers by providing fortified flavored milk in Anganwadi centers across 20 districts in the state.",
+      "detailedDescription_md": "The &amp;quot;Doodh Sanjivani Scheme&amp;quot; launched by the Women and Child Development Department, Gujarat, is a welfare initiative designed to improve the nutritional status of children and women in tribal and underdeveloped communities. The scheme benefits children aged 6 months to 6 years and pregnant and lactating mothers registered at Anganwadi centers. It covers 138 tribal and developing communities in 20 districts and is implemented through Anganwadi centers.\n",
+      "benefits_md": "\n  - **Nutritional Support for Children:** 100 ml of fortified flavored milk is provided 5 days a week to children aged 6 months to 6 years.  - **Nutritional Support for Mothers:** 200 ml of fortified flavored milk is provided 2 days a week to pregnant and lactating mothers.\n",
+      "exclusions_md": "",
+      "detailedDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "The \"Doodh Sanjivani Scheme\" launched by the Women and Child Development Department, Gujarat, is a welfare initiative designed to improve the nutritional status of children and women in tribal and underdeveloped communities. The scheme benefits children aged 6 months to 6 years and pregnant and lactating mothers registered at Anganwadi centers. It covers 138 tribal and developing communities in 20 districts and is implemented through Anganwadi centers."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 2,
+        "value": "in-kind",
+        "label": "In Kind"
+      },
+      "benefits": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "ul_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Nutritional Support for Children: ",
+                      "bold": true
+                    },
+                    {
+                      "text": "100 ml of fortified flavored milk is provided 5 days a week to children aged 6 months to 6 years."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Nutritional Support for Mothers:",
+                      "bold": true
+                    },
+                    {
+                      "text": " 200 ml of fortified flavored milk is provided 2 days a week to pregnant and lactating mothers."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "process": [
+          {
+            "type": "align_justify",
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 1:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Visit the nearest Anganwadi center."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 2:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Register yourself or your child with the Anganwadi center."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 3:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Provide the required documents."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 4:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Avail of the benefits during scheduled distribution days."
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "process_md": "**Step 1:** Visit the nearest Anganwadi center.\n**Step 2:** Register yourself or your child with the Anganwadi center.\n**Step 3:** Provide the required documents.\n**Step 4:** Avail of the benefits during scheduled distribution days.\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n  - The applicant must be a child aged 6 months to 6 years or a pregnant or lactating mother.\n  - The applicant must be registered at an Anganwadi center.\n\n<br>\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "ul_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant must be a child aged 6 months to 6 years or a pregnant or lactating mother."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant must be registered at an Anganwadi center."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "dssg"
+}

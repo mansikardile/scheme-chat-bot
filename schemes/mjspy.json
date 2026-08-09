@@ -1,0 +1,398 @@
+{
+  "_id": "646eeff39062e559675f6bf9",
+  "en": {
+    "basicDetails": {
+      "schemeOpenDate": "2018-09-01",
+      "schemeCloseDate": null,
+      "state": {
+        "value": 23,
+        "label": "Madhya Pradesh"
+      },
+      "nodalMinistryName": null,
+      "nodalDepartmentName": {
+        "value": 2300048,
+        "label": "Technical Education and Man Power Planning Department"
+      },
+      "otherMinistryName": null,
+      "otherDepartmentNames": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Scholarships and student finance",
+          "label": "Scholarships and student finance"
+        }
+      ],
+      "dbtScheme": null,
+      "implementingAgency": null,
+      "tags": [
+        "Financial Assistance",
+        "Students",
+        "Higher Education"
+      ],
+      "schemeName": "Mukhyamantri Jankalyan (Shiksha Protsahan Yojna)",
+      "schemeShortTitle": "MJSPY",
+      "level": {
+        "value": "state",
+        "label": "State"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce76cd6d1a3bde4685292",
+          "label": "Education & Learning"
+        }
+      ],
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "http://www.scholarshipportal.mp.nic.in/SambalScholarship/Documents/pdf/Introduction%20of%20the%20scheme.pdf"
+        },
+        {
+          "title": "Details",
+          "url": "http://www.scholarshipportal.mp.nic.in/SambalScholarship/"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The main objective of this scheme is to provide higher education to the children of unorganized workers. Through this scheme, the tuition fee for the higher education of all the students whose parents are registered as unorganized workers in the Labor Department of the Government of Madhya Pradesh will be borne by the Government of Madhya Pradesh.\nNow the students of the state will not be deprived of education due to financial constraints, because the Madhya Pradesh government will provide them higher education. The state&amp;#39;s unemployment rate will also decrease through the Chief Minister&amp;#39;s Jan Kalyan Shiksha Protsahan Yojana. Apart from this, this scheme will also prove effective in improving the standard of living of the state&amp;#39;s citizens.\n",
+      "benefits_md": "\n   1. The tuition fees for all such students on admission to graduate, polytechnic, diploma and ITI courses will be borne by the state government.\n   1. For all these courses, the admission fee and actual fee will also be paid by the government as an expenditure.\n   1. Mess charges and caution money charges are not included in this.\n   1. Only that fee will be included under this scheme, which has been determined by the Regulatory Committee or Madhya Pradesh Private University Regulatory Commission and the State Government of India.\n   1. The students of the state will be able to get education.\n   1. Students will not have to face any financial crunch to get an education.\n   1. Reducing the unemployment rate of the state.\n   1. The standard of living of the citizens of the state will also improve.\n\n",
+      "exclusions_md": "<br>\n\n",
+      "briefDescription": "This scheme has been launched by the Government of Madhya Pradesh. Through the Mukhyamantri Jankalyan Shiksha Protsahan Yojana, financial assistance will be provided for education to students of Madhya Pradesh.",
+      "detailedDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "The main objective of this scheme is to provide higher education to the children of unorganized workers. Through this scheme, the tuition fee for the higher education of all the students whose parents are registered as unorganized workers in the Labor Department of the Government of Madhya Pradesh will be borne by the Government of Madhya Pradesh."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "Now the students of the state will not be deprived of education due to financial constraints, because the Madhya Pradesh government will provide them higher education. The state's unemployment rate will also decrease through the Chief Minister's Jan Kalyan Shiksha Protsahan Yojana. Apart from this, this scheme will also prove effective in improving the standard of living of the state's citizens."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 2,
+        "value": "in-kind",
+        "label": "In Kind"
+      },
+      "benefits": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "ol_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The tuition fees for all such students on admission to graduate, polytechnic, diploma and ITI courses will be borne by the state government."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "For all these courses, the admission fee and actual fee will also be paid by the government as an expenditure."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Mess charges and caution money charges are not included in this."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Only that fee will be included under this scheme, which has been determined by the Regulatory Committee or Madhya Pradesh Private University Regulatory Commission and the State Government of India."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The students of the state will be able to get education."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Students will not have to face any financial crunch to get an education."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Reducing the unemployment rate of the state."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The standard of living of the citizens of the state will also improve."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "exclusions": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Online",
+        "url": "http://www.scholarshipportal.mp.nic.in/SambalScholarship/",
+        "process": [
+          {
+            "type": "ol_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Applicants have to go to the "
+                  },
+                  {
+                    "type": "link",
+                    "link": "http://www.scholarshipportal.mp.nic.in/Index.aspx",
+                    "children": [
+                      {
+                        "text": "official website"
+                      }
+                    ]
+                  },
+                  {
+                    "text": " of the Madhya Pradesh Scholarship."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Click on Mukhya Mantri Jankalyan (Shiksha Protsahan Yojna) under Post Matric Scholarship Schemes or "
+                  },
+                  {
+                    "type": "link",
+                    "link": "http://www.scholarshipportal.mp.nic.in/SambalScholarship/",
+                    "children": [
+                      {
+                        "text": "click here."
+                      }
+                    ]
+                  },
+                  {
+                    "text": ""
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Now click on Registration."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Now fill out the online registration form."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Now click on the submit option."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Now login again."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "After this applicants will have to log in by entering their login credentials."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Now applicants have to click on the option of Apply Now."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "After this, the application form will open."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Applicants have to enter all the important information asked in this form."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Now upload all the important documents."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Click on the submit option."
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "process_md": "\n1. Applicants have to go to the [official website](http://www.scholarshipportal.mp.nic.in/Index.aspx) of the Madhya Pradesh Scholarship.1. Click on Mukhya Mantri Jankalyan (Shiksha Protsahan Yojna) under Post Matric Scholarship Schemes or [click here.](http://www.scholarshipportal.mp.nic.in/SambalScholarship/)1. Now click on Registration.\n1. Now fill out the online registration form.\n1. Now click on the submit option.\n1. Now login again.\n1. After this applicants will have to log in by entering their login credentials.\n1. Now applicants have to click on the option of Apply Now.\n1. After this, the application form will open.\n1. Applicants have to enter all the important information asked in this form.\n1. Now upload all the important documents.\n1. Click on the submit option.\n\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n   1. The applicant must be a permanent resident of Madhya Pradesh.\n   1. The applicant&amp;#39;s mother/father should be registered as an unorganized worker in the Labor Department of the Madhya Pradesh Government.\n   1. The student will be given the benefit of this scheme on admission to the Diploma/Degree and Certificate courses in Government Medical College and Paramedical Science conducted under it.\n   1. All the government and grant-aided colleges and universities of the state government, in which all graduates and postgraduate courses under the State Higher Education Department, all diploma courses and ITIs conducted in polytechnic colleges, will be given the benefit of this scheme to the students.\n   1. The benefit of this scheme will be given even after getting admission in the graduation program and integrated post-graduation program conducted in all university institutions of the state government or government of India.\n   1. For engineering, in the case of fees coming under 1.5 lakh in JEE Mains, full fees will be given upon taking admission in government engineering college and 1.5 lakh rupees and actual tuition fee, whichever is less, will be provided upon admission in aided college.\n   1. If students have taken admission through the NEET entrance exam for medical studies in MBBS/VIDEO medical and dental college of Central or State Government or MBBS course of private medical located in the college, then the students are eligible to get the benefit of this scheme. are eligible.\n   1. The benefit of this scheme will also be given on getting admission to National Law University or Delhi University through the Common Law Admission Test for the study of law and the examination conducted by itself.\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "ol_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant must be a permanent resident of Madhya Pradesh."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant's mother/father should be registered as an unorganized worker in the Labor Department of the Madhya Pradesh Government."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The student will be given the benefit of this scheme on admission to the Diploma/Degree and Certificate courses in Government Medical College and Paramedical Science conducted under it."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "All the government and grant-aided colleges and universities of the state government, in which all graduates and postgraduate courses under the State Higher Education Department, all diploma courses and ITIs conducted in polytechnic colleges, will be given the benefit of this scheme to the students."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The benefit of this scheme will be given even after getting admission in the graduation program and integrated post-graduation program conducted in all university institutions of the state government or government of India."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "For engineering, in the case of fees coming under 1.5 lakh in JEE Mains, full fees will be given upon taking admission in government engineering college and 1.5 lakh rupees and actual tuition fee, whichever is less, will be provided upon admission in aided college."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "If students have taken admission through the NEET entrance exam for medical studies in MBBS/VIDEO medical and dental college of Central or State Government or MBBS course of private medical located in the college, then the students are eligible to get the benefit of this scheme. are eligible."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The benefit of this scheme will also be given on getting admission to National Law University or Delhi University through the Common Law Admission Test for the study of law and the examination conducted by itself."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "mjspy"
+}

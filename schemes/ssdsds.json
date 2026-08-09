@@ -1,0 +1,203 @@
+{
+  "_id": "6787c5e26fc4765b7e164373",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Clothes",
+        "Saree",
+        "Subsidized Rate"
+      ],
+      "schemeName": "Sona Sobaran Dhoti Saree Distribution Scheme",
+      "schemeShortTitle": "SSDSDS",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce87cd6d1a3bde4685312",
+          "label": "Social welfare & Empowerment"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Food Security / Public Distribution System",
+          "label": "Food Security / Public Distribution System"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "state": {
+        "value": 20,
+        "label": "Jharkhand"
+      },
+      "nodalDepartmentName": {
+        "value": 2000007,
+        "label": "Food, Public Distribution and Consumer affairs Department"
+      },
+      "schemeFor": "Family"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://www.jharkhand.gov.in/Home/ViewDoc?id=D009DO003SD00625102023010425300"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The &quot;Sona Sobaran Dhoti Saree Distribution Scheme&quot; by the Department of Food, Public Distribution and Consumer Affairs, Government of Jharkhand, aims to provide essential clothing to eligible households. Through this scheme, one dhoti/lungi and one saree are offered at a subsidized rate to families covered under the National Food Security Act (NFSA), 2013, and the Jharkhand State Food Security Scheme (JSFSS).\n",
+      "benefits_md": "\n1. One dhoti or lungi and one saree are provided to eligible families.\n1. Items are distributed at subsidized rates to ensure affordability.\n1. Benefits are provided annually to NFSA and JSFSS beneficiaries.\n\n",
+      "briefDescription": "The \"Sona Sobaran Dhoti Saree Distribution Scheme\" by the Department of Food, Public Distribution and Consumer Affairs, Government of Jharkhand, provides one dhoti/lungi and one saree at a subsidized rate to NFSA and JSFSS beneficiaries to ensure clothing accessibility for low-income families",
+      "exclusions_md": "",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The \"Sona Sobaran Dhoti Saree Distribution Scheme\" by the Department of Food, Public Distribution and Consumer Affairs, Government of Jharkhand, aims to provide essential clothing to eligible households. Through this scheme, one dhoti/lungi and one saree are offered at a subsidized rate to families covered under the National Food Security Act (NFSA), 2013, and the Jharkhand State Food Security Scheme (JSFSS)."
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 2,
+        "value": "in-kind",
+        "label": "In Kind"
+      },
+      "benefits": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "One dhoti or lungi and one saree are provided to eligible families."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Items are distributed at subsidized rates to ensure affordability."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Benefits are provided annually to NFSA and JSFSS beneficiaries."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "process": [
+          {
+            "type": "ul_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Visit the nearest distribution center or designated enrollment center with the required documents."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "If Aadhaar is not available, apply for Aadhaar enrollment at an authorized center."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Submit the Aadhaar number or Aadhaar Enrolment Identification Slip during registration."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Verify the eligibility and documents with the designated officer."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Collect the clothes from the distribution center as per the schedule."
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "process_md": "\n- Visit the nearest distribution center or designated enrollment center with the required documents.\n- If Aadhaar is not available, apply for Aadhaar enrollment at an authorized center.\n- Submit the Aadhaar number or Aadhaar Enrolment Identification Slip during registration.\n- Verify the eligibility and documents with the designated officer.\n- Collect the clothes from the distribution center as per the schedule.\n\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n1. The applicant must be a resident of Jharkhand.\n1. The applicant should have a valid Antyodaya Anna Yojana (AAY) or Priority Household (PHH) card under NFSA, 2013.\n1. Green Card holders under the Jharkhand State Food Security Scheme (JSFSS) are eligible.\n1. The applicant must possess or apply for an Aadhaar number.\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must be a resident of Jharkhand."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should have a valid Antyodaya Anna Yojana (AAY) or Priority Household (PHH) card under NFSA, 2013."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Green Card holders under the Jharkhand State Food Security Scheme (JSFSS) are eligible."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must possess or apply for an Aadhaar number."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "ssdsds"
+}

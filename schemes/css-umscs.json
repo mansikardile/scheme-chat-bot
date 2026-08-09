@@ -1,0 +1,591 @@
+{
+  "_id": "68cbf54889d250875d37a089",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Student",
+        "School",
+        "Education",
+        "Scholarship",
+        "Merit"
+      ],
+      "schemeName": "Centrally Sponsored Scheme of Upgradation of Merit of Scheduled Caste Students",
+      "schemeShortTitle": "CSS-UMSCS",
+      "level": {
+        "value": "central",
+        "label": "Central"
+      },
+      "schemeType": {
+        "value": "centrally-sponsored-scheme",
+        "label": "Centrally Sponsored Scheme"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce87cd6d1a3bde4685312",
+          "label": "Social welfare & Empowerment"
+        },
+        {
+          "value": "628ce76cd6d1a3bde4685292",
+          "label": "Education & Learning"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Financial assistance",
+          "label": "Financial assistance"
+        },
+        {
+          "value": "Scholarships and student finance",
+          "label": "Scholarships and student finance"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "schemeFor": "Individual",
+      "nodalMinistryName": {
+        "value": 712,
+        "label": "Ministry Of Social Justice and Empowerment"
+      },
+      "nodalDepartmentName": {
+        "value": 11112,
+        "label": "Department of Social Justice & Empowerment"
+      }
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://socialjustice.gov.in/schemes/26"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The scheme &quot;Centrally Sponsored Scheme of Upgradation of Merit of Scheduled Caste Students&quot; was launched by the Department of Social Justice and Empowerment, Ministry of Social Justice and Empowerment, Government of India. The scheme aims to upgrade the merit of Scheduled Caste students by providing them with facilities for all round development through education in residential or non-residential schools, addressing their educational deficiencies that prevent them from taking advantage of reservation quotas in technical and professional courses. The scheme provides remedial coaching to remove deficiencies in school subjects and special coaching to prepare students for competitive examinations for entry into professional courses like Engineering and Medical.\n<br>\n\n",
+      "benefits_md": "##### ***Package Grant***\n\n1. ***₹25,000/- per student per year with the following breakdown:***\n\n_₹15,000/- per student per year comprising -_ \n\n- Boarding and Lodging Charges: ₹900/- per month for 10 months = ₹9,000/- (for residential school students only)\n- Pocket Money: ₹300/- per month for 10 months = ₹3,000/-\n- Books and Stationery: ₹3,000/-\n\n_₹10,000/- per year per student -_ \n\n- For honorarium to Principal, Experts and other incidental charges.\n\n##### ***Additional Benefits for Students with Disabilities***\n\n- _Reader Allowance:_ ₹200/- per month for blind students in classes IX to XII.- _Transport Allowance:_ ₹100/- per month for disabled students not residing in hostel within educational institution premises.- _Special Pay:_ ₹200/- per month for hostel employees assisting severely orthopaedically handicapped students.- _Escort Allowance:_ ₹100/- per month for severely handicapped day scholar students with lower extremity disability.- _Allowance:_ ₹200/- per month towards extra coaching for mentally retarded and mentally ill students in classes IX to XII.\n##### ***Conditions***\n*Students must maintain regular attendance and academic performance as monitored by school authorities.\n*Students must complete the full coaching program from Class IX to XII to derive maximum benefit.\n*Compliance with the transparent selection and monitoring process established by State Governments.\n<br>\n\n",
+      "briefDescription": "The scheme aims to upgrade the merit of Scheduled Caste students by providing them with facilities for all round development through education in residential or non-residential schools, addressing their educational deficiencies that prevent them from taking advantage of reservation quotas.",
+      "exclusions_md": "<br>\n\n",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The scheme \"Centrally Sponsored Scheme of Upgradation of Merit of Scheduled Caste Students\" was launched by the Department of Social Justice and Empowerment, Ministry of Social Justice and Empowerment, Government of India. The scheme aims to upgrade the merit of Scheduled Caste students by providing them with facilities for all round development through education in residential or non-residential schools, addressing their educational deficiencies that prevent them from taking advantage of reservation quotas in technical and professional courses. The scheme provides remedial coaching to remove deficiencies in school subjects and special coaching to prepare students for competitive examinations for entry into professional courses like Engineering and Medical."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 3,
+        "value": "composite",
+        "label": "Composite"
+      },
+      "benefits": [
+        {
+          "type": "heading_five",
+          "children": [
+            {
+              "text": "Package Grant",
+              "bold": true,
+              "underline": true,
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "₹25,000/- per student per year with the following breakdown:",
+                  "bold": true,
+                  "italic": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "₹15,000/- per student per year comprising - ",
+              "underline": true,
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Boarding and Lodging Charges: ₹900/- per month for 10 months = ₹9,000/- (for residential school students only)"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Pocket Money: ₹300/- per month for 10 months = ₹3,000/-"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Books and Stationery: ₹3,000/-"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "₹10,000/- per year per student - ",
+              "underline": true,
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "For honorarium to Principal, Experts and other incidental charges."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "heading_five",
+          "children": [
+            {
+              "text": "Additional Benefits for Students with Disabilities",
+              "bold": true,
+              "underline": true,
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Reader Allowance:",
+                  "underline": true,
+                  "italic": true
+                },
+                {
+                  "text": " ₹200/- per month for blind students in classes IX to XII."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Transport Allowance:",
+                  "underline": true,
+                  "italic": true
+                },
+                {
+                  "text": " ₹100/- per month for disabled students not residing in hostel within educational institution premises."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Special Pay:",
+                  "underline": true,
+                  "italic": true
+                },
+                {
+                  "text": " ₹200/- per month for hostel employees assisting severely orthopaedically handicapped students."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Escort Allowance:",
+                  "underline": true,
+                  "italic": true
+                },
+                {
+                  "text": " ₹100/- per month for severely handicapped day scholar students with lower extremity disability."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Allowance:",
+                  "underline": true,
+                  "italic": true
+                },
+                {
+                  "text": " ₹200/- per month towards extra coaching for mentally retarded and mentally ill students in classes IX to XII."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "heading_five",
+          "children": [
+            {
+              "text": "Conditions",
+              "bold": true,
+              "underline": true,
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "*Students must maintain regular attendance and academic performance as monitored by school authorities."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "*Students must complete the full coaching program from Class IX to XII to derive maximum benefit."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "*Compliance with the transparent selection and monitoring process established by State Governments."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ],
+      "exclusions": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "process": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 1:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " "
+              },
+              {
+                "text": "Identification of Eligible Districts and Schools",
+                "italic": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "State Governments select 2-3 districts having highest Scheduled Caste population and identified as Educationally Backward Districts, with priority given to districts with lower literacy rates."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " "
+              },
+              {
+                "text": "School Selection Process",
+                "italic": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "States select schools with necessary facilities for all-round development, adequate hostel facilities, and consistent good academic results, particularly in rural areas including Kendriya Vidyalayas with hostel facilities."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 3:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " "
+              },
+              {
+                "text": "Student Selection Process",
+                "italic": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "State Governments conduct transparent and fair selection of Scheduled Caste students studying in classes IX to XII, with provision for enrollment in classes X or XI for students with excellent previous performance."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 4:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " "
+              },
+              {
+                "text": "Application Processing",
+                "italic": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Selected students are enrolled through the State Government's established process ensuring equal opportunity for boys and girls (50:50 ratio) and at least 3% representation for disabled students."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 5:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " "
+              },
+              {
+                "text": "Monitoring and Database Creation",
+                "italic": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "State Governments prepare database of beneficiaries integrated with Unique Identification Authority of India by embedding Aadhaar numbers and using Unique Identification Authority of India enabled bank accounts for scholarship crediting."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "*The admission and selection process is left to the discretion of concerned State Governments who ensure total transparency and fairness in identification of coaching institutions and beneficiary students.",
+                "bold": true,
+                "italic": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Grievance Redressal / Help & Support",
+                "bold": true,
+                "underline": true,
+                "italic": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "State and District level Grievance Redressal Officers are designated to address scholarship-related grievances of students."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          }
+        ],
+        "process_md": "**Step 1:** _Identification of Eligible Districts and Schools_\nState Governments select 2-3 districts having highest Scheduled Caste population and identified as Educationally Backward Districts, with priority given to districts with lower literacy rates.\n**Step 2:** _School Selection Process_\nStates select schools with necessary facilities for all-round development, adequate hostel facilities, and consistent good academic results, particularly in rural areas including Kendriya Vidyalayas with hostel facilities.\n**Step 3:** _Student Selection Process_\nState Governments conduct transparent and fair selection of Scheduled Caste students studying in classes IX to XII, with provision for enrollment in classes X or XI for students with excellent previous performance.\n**Step 4:** _Application Processing_\nSelected students are enrolled through the State Government&#39;s established process ensuring equal opportunity for boys and girls (50:50 ratio) and at least 3% representation for disabled students.\n**Step 5:** _Monitoring and Database Creation_\nState Governments prepare database of beneficiaries integrated with Unique Identification Authority of India by embedding Aadhaar numbers and using Unique Identification Authority of India enabled bank accounts for scholarship crediting.\n****The admission and selection process is left to the discretion of concerned State Governments who ensure total transparency and fairness in identification of coaching institutions and beneficiary students.***\n***Grievance Redressal / Help &amp; Support***\nState and District level Grievance Redressal Officers are designated to address scholarship-related grievances of students.\n<br>\n\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n- The applicant must be a Scheduled Caste student.\n- The applicant must be studying in classes IX to XII.\n- The applicant must be enrolled in schools selected by the State Government under the scheme.\n- The applicant may be enrolled in class X or XI if he/she has shown excellent performance in the previous examination and missed entry at class IX level for any reason.\n- The applicant must be from districts selected based on highest Scheduled Caste population and identified as Educationally Backward Districts (for new selections from 2014-15 onwards).\n\n***Preference***\n\n- Girls students are given equal preference with awards allocated in 50:50 ratio between boys and girls.\n- Unutilized awards by girls may be used by boys and vice-versa.\n- At least 3% representation for disabled Scheduled Caste students wherever possible.\n\n<br>\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must be a Scheduled Caste student."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must be studying in classes IX to XII."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must be enrolled in schools selected by the State Government under the scheme."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant may be enrolled in class X or XI if he/she has shown excellent performance in the previous examination and missed entry at class IX level for any reason."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must be from districts selected based on highest Scheduled Caste population and identified as Educationally Backward Districts (for new selections from 2014-15 onwards)."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Preference",
+              "bold": true,
+              "underline": true,
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Girls students are given equal preference with awards allocated in 50:50 ratio between boys and girls."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Unutilized awards by girls may be used by boys and vice-versa."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "At least 3% representation for disabled Scheduled Caste students wherever possible."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "css-umscs"
+}

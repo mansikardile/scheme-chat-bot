@@ -1,0 +1,177 @@
+{
+  "_id": "6633b41157663958484a6df1",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Differently Abled Person",
+        "Orthopedically",
+        "Social Welfare",
+        "Children",
+        "Walking Device"
+      ],
+      "schemeName": "Walking Device - Tamil Nadu",
+      "schemeShortTitle": "WDTN",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce87cd6d1a3bde4685312",
+          "label": "Social welfare & Empowerment"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Aids/Appliances",
+          "label": "Aids/Appliances"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "state": {
+        "value": 33,
+        "label": "Tamil Nadu"
+      },
+      "nodalDepartmentName": {
+        "value": 3333363,
+        "label": "Welfare of Differently Abled Persons Department"
+      },
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Citizen's Charter (2022)",
+          "url": "https://cms.tn.gov.in/sites/default/files/documents/wda_e_cc_2022_23.pdf"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The &#39;Walking Device by Welfare of Differently Abled Persons Department&#39; scheme was launched by the Department for the Welfare of Differently Abled Persons, Government of Tamil Nadu. The scheme aims to provide a rollator/walker to enable walking training to orthopedically differently abled children having difficulties in walking. The applications are accepted offline in the prescribed form available at the District Differently Abled Welfare Office.\n",
+      "benefits_md": "\n- **Free distribution of walking devices.** \n\n",
+      "briefDescription": "The 'Walking Device by Welfare of Differently Abled Persons Department' scheme was launched by the Department for the Welfare of Differently Abled Persons, Govt. of Tamil Nadu. The scheme aims to provide a rollator/walker to orthopedically differently abled children having difficulties in walking. ",
+      "exclusions_md": "",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The 'Walking Device by Welfare of Differently Abled Persons Department' scheme was launched by the Department for the Welfare of Differently Abled Persons, Government of Tamil Nadu. The scheme aims to provide a rollator/walker to enable walking training to orthopedically differently abled children having difficulties in walking. The applications are accepted offline in the prescribed form available at the District Differently Abled Welfare Office."
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 2,
+        "value": "in-kind",
+        "label": "In Kind"
+      },
+      "benefits": [
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Free distribution of walking devices. ",
+                  "bold": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "process": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 1: ",
+                "bold": true
+              },
+              {
+                "text": "The interested applicant should visit (during office hours) the District Differently Abled Welfare Officer and request a hard copy of the prescribed format of the application form from the staff exclusively entrusted to issue and collect filled-in applications."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2:",
+                "bold": true
+              },
+              {
+                "text": " In the application form, fill in all the mandatory fields, and attach copies of all the mandatory documents (self-attest, if required)."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 3:",
+                "bold": true
+              },
+              {
+                "text": " Submit the duly filled and signed application form along with the documents to the District Differently Abled Welfare Officer."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 4:",
+                "bold": true
+              },
+              {
+                "text": " Request a receipt or acknowledgment from the District Differently Abled Welfare Officer to whom the application has been submitted. Ensure that the receipt contains essential details such as the date and time of submission, and a unique identification number (if applicable)."
+              }
+            ]
+          }
+        ],
+        "process_md": "**Step 1:** The interested applicant should visit (during office hours) the District Differently Abled Welfare Officer and request a hard copy of the prescribed format of the application form from the staff exclusively entrusted to issue and collect filled-in applications.\n**Step 2:** In the application form, fill in all the mandatory fields, and attach copies of all the mandatory documents (self-attest, if required).\n**Step 3:** Submit the duly filled and signed application form along with the documents to the District Differently Abled Welfare Officer.\n**Step 4:** Request a receipt or acknowledgment from the District Differently Abled Welfare Officer to whom the application has been submitted. Ensure that the receipt contains essential details such as the date and time of submission, and a unique identification number (if applicable).\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n1. The child should be orthopedically person. \n1. The child is having difficulty walking.\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The child should be orthopedically person. "
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The child is having difficulty walking."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "wdbwodapd"
+}

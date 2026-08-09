@@ -1,0 +1,302 @@
+{
+  "_id": "673f15b5d8e1de79ec0128e2",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Social Security",
+        "Transport Worker",
+        "Hospitalization",
+        "Medical Assistance"
+      ],
+      "schemeName": "West Bengal Transport Workers’ Social Security Scheme: Assistance on Hospitalization",
+      "schemeShortTitle": "WBTWSSAH",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce7a2d6d1a3bde46852b1",
+          "label": "Health & Wellness"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Financial assistance",
+          "label": "Financial assistance"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "state": {
+        "value": 19,
+        "label": "West Bengal"
+      },
+      "nodalDepartmentName": {
+        "value": 19999925,
+        "label": "Labour Department"
+      },
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://wblc.gov.in/sites/default/files/ckfinder/userfiles/images/WBTWSSS_at_a_glance.pdf"
+        },
+        {
+          "title": "Online Application",
+          "url": "https://edistrict.wb.gov.in/portal/home"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The “West Bengal Transport Workers’ Social Security Scheme: Assistance on Hospitalization” by the Labour Department, offers assistance to transport workers who are hospitalized for five or more days due to an accident. Benefits are directly transferred to the beneficiaries&amp;#39; bank accounts through Direct Benefit Transfer (DBT).\n&lt;br&gt;\n\n",
+      "benefits_md": "\n  - **Assistance for Hospitalization:** ₹400/- per day for the first 5 days of hospitalization due to an accident.  - **Extended Financial Support:** ₹200/- per day for the remaining period of hospitalization after the first five days.  - **Maximum Benefit:** Up to a total of ₹10,000/- for the entire hospitalization period.\n&lt;br&gt;\n\n",
+      "briefDescription": "The scheme provides financial assistance to transport workers who are hospitalized for 5 or more days due to an accident.\n",
+      "exclusions_md": "",
+      "detailedDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "The “West Bengal Transport Workers’ Social Security Scheme: Assistance on Hospitalization” by the Labour Department, offers assistance to transport workers who are hospitalized for five or more days due to an accident. Benefits are directly transferred to the beneficiaries' bank accounts through Direct Benefit Transfer (DBT)."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": ""
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "ul_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Assistance for Hospitalization: ",
+                      "bold": true
+                    },
+                    {
+                      "text": "₹400/- per day for the first 5 days of hospitalization due to an accident."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Extended Financial Support: ",
+                      "bold": true
+                    },
+                    {
+                      "text": "₹200/- per day for the remaining period of hospitalization after the first five days."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Maximum Benefit: ",
+                      "bold": true
+                    },
+                    {
+                      "text": "Up to a total of ₹10,000/- for the entire hospitalization period."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Online",
+        "process": [
+          {
+            "type": "align_justify",
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 1:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Visit the “"
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://edistrict.wb.gov.in/portal/home",
+                    "children": [
+                      {
+                        "text": "eDistrict 2.0"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "” portal. Click on Log In/Sign Up."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 2: ",
+                    "bold": true
+                  },
+                  {
+                    "text": "In the User Login window, scroll down to the bottom and click on “Register”."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 3: ",
+                    "bold": true
+                  },
+                  {
+                    "text": "Fill in all the details carefully, enter a username, and click on “Register”."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 4:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Upon entering the One Time Password received on your mobile, you will be successfully registered."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 5:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Now in the User Login window, enter your Username or email and captcha and click on “Sign In”."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 6: ",
+                    "bold": true
+                  },
+                  {
+                    "text": "Enter the received O.T.P and click on “Submit”."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 7: ",
+                    "bold": true
+                  },
+                  {
+                    "text": "Upon successful Login, You will be redirected to the “Dashboard”. From the right side menu apply for the concerned scheme."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": ""
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "process_md": "**Step 1:** Visit the “[eDistrict 2.0](https://edistrict.wb.gov.in/portal/home)” portal. Click on Log In/Sign Up.\n**Step 2:** In the User Login window, scroll down to the bottom and click on “Register”.\n**Step 3:** Fill in all the details carefully, enter a username, and click on “Register”.\n**Step 4:** Upon entering the One Time Password received on your mobile, you will be successfully registered.\n**Step 5:** Now in the User Login window, enter your Username or email and captcha and click on “Sign In”.\n**Step 6:** Enter the received O.T.P and click on “Submit”.\n**Step 7:** Upon successful Login, You will be redirected to the “Dashboard”. From the right side menu apply for the concerned scheme.\n&lt;br&gt;\n\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n1. The applicant must be between 18 and 60 years of age at the time of enrolment.\n1. The applicant must be an unorganized worker employed in the operation of commercial vehicles, such as cars, taxis, luxury taxis, light commercial vehicles, vans, auto-rickshaws, tempos, lorries, trucks, or buses.\n1. The applicant’s vehicle must be used for commercial purposes and not solely for personal or family use.\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must be between 18 and 60 years of age at the time of enrolment."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must be an unorganized worker employed in the operation of commercial vehicles, such as cars, taxis, luxury taxis, light commercial vehicles, vans, auto-rickshaws, tempos, lorries, trucks, or buses."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant’s vehicle must be used for commercial purposes and not solely for personal or family use."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "wbtwssah"
+}

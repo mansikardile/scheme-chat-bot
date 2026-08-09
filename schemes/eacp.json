@@ -1,0 +1,622 @@
+{
+  "_id": "64c37044481f59106a7a2d2a",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": null,
+      "tags": [
+        "Student",
+        "Prisoner",
+        "Scholarship",
+        "Education",
+        "BPL",
+        "Children"
+      ],
+      "schemeName": "Educational Assistance To Children Of Prisoners",
+      "schemeShortTitle": "EACP",
+      "implementingAgency": "District Probation Office, Kerala",
+      "level": {
+        "value": "state",
+        "label": "State"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce76cd6d1a3bde4685292",
+          "label": "Education & Learning"
+        },
+        {
+          "value": "628ce87cd6d1a3bde4685312",
+          "label": "Social welfare & Empowerment"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Scholarships and student finance",
+          "label": "Scholarships and student finance"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "schemeFor": "Individual",
+      "state": {
+        "value": 32,
+        "label": "Kerala"
+      },
+      "nodalDepartmentName": {
+        "value": 32000041,
+        "label": "Social Justice Department"
+      }
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Official Website",
+          "url": "http://sjd.kerala.gov.in/scheme-info.php?scheme_id=MTAxc1Y4dXFSI3Z5"
+        },
+        {
+          "title": "Application Form",
+          "url": "http://sjd.kerala.gov.in/DOCUMENTS/Downloadables/Application%20Forms/12323.pdf"
+        },
+        {
+          "title": "Order/Notice",
+          "url": "http://sjd.kerala.gov.in/DOCUMENTS/Order_new/GOs/12330.pdf"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The scheme “Educational Assistance to Children of Prisoners” was launched by the Department of Social Justice, Government of Kerala. There are many persons imprisoned, some for known reasons and others for unknown reasons. Once they are lodged in jail their families that are suffering the most. They get ostracized from society. Due to the lack of money, their children might be denied education at a very early age itself. This might have huge repercussions later it may lead to the birth of new criminals in society. Therefore, the government has initiated such a scheme that aims at bringing these people to the mainstream of society.\n",
+      "benefits_md": "\n1. Under the scheme, scholarship/financial assistance will be provided to the children of prisoners for their expenses like food, clothing, school fees, etc. as under:\n\n**Sl. No.****Classes/Courses****Amount of Scholarship/Financial Assistance**11st Std. to 5th Std.₹500/- per month26th Std. to 10th Std.₹750/- per month3+1 (Plus one) &amp;amp;amp;amp; +2 (Plus two)₹1000/- per month4Degree/Professional Course₹1500/- per monthNote: Degree/ Professional course must be in Government/ Aided colleges inside Kerala.\n",
+      "briefDescription": "The scheme “Educational Assistance to Children of Prisoners” was launched by the Department of Social Justice, Government of Kerala. ",
+      "exclusions_md": "<br>\n\n",
+      "detailedDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "The scheme “Educational Assistance to Children of Prisoners” was launched by the Department of Social Justice, Government of Kerala. There are many persons imprisoned, some for known reasons and others for unknown reasons. Once they are lodged in jail their families that are suffering the most. They get ostracized from society. Due to the lack of money, their children might be denied education at a very early age itself. This might have huge repercussions later it may lead to the birth of new criminals in society. Therefore, the government has initiated such a scheme that aims at bringing these people to the mainstream of society."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Under the scheme, scholarship/financial assistance will be provided to the children of prisoners for their expenses like food, clothing, school fees, etc. as under:"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "children": [
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Sl. No.",
+                      "bold": true
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Classes/Courses",
+                      "bold": true
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Amount of Scholarship/Financial Assistance",
+                      "bold": true
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "1"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "1st Std. to 5th Std."
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "₹500/- per month"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "2"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "6th Std. to 10th Std."
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "₹750/- per month"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "3"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "+1 (Plus one) & +2 (Plus two)"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "₹1000/- per month"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "4"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Degree/Professional Course"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "₹1500/- per month"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Note: Degree/ Professional course must be in Government/ Aided colleges inside Kerala."
+            }
+          ]
+        }
+      ],
+      "exclusions": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Online",
+        "url": "https://suneethi.sjd.kerala.gov.in",
+        "process": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Registration Process:",
+                "bold": true
+              }
+            ]
+          },
+          {
+            "type": "align_justify",
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 01:",
+                    "bold": true
+                  },
+                  {
+                    "text": " To avail of the benefits of the scheme, the applicant needs to visit "
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://suneethi.sjd.kerala.gov.in",
+                    "children": [
+                      {
+                        "text": "SUNEETHI- Online Service Application Portal"
+                      }
+                    ]
+                  },
+                  {
+                    "text": ""
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 02: ",
+                    "bold": true
+                  },
+                  {
+                    "text": "On the home page, click on “One time Registration”"
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 03:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Fill in the details like Name, Email ID & Mobile Number and click on ‘Register’."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 04:",
+                    "bold": true
+                  },
+                  {
+                    "text": " The applicant needs to enter the verification code received on the mobile number and click on ‘Verify’."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 05:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Now, a form will open to create the new profile, fill in all the mandatory details and click on ‘Register’."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Login/Application Process: ",
+                    "bold": true
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 01:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Once the registration process is completed, the applicant should visit "
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://suneethi.sjd.kerala.gov.in",
+                    "children": [
+                      {
+                        "text": "SUNEETHI- Online Service Application Portal "
+                      }
+                    ]
+                  },
+                  {
+                    "text": "and click on “Citizen Login”."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 02:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Enter the user name i.e. Mobile Number and Password and click on “Sign in”."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 03:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Now, the applicant needs to update all their details i.e. Personal Information, Contact Details, Identity Cards & Bank Details by clicking on the 'Edit' button."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 04: ",
+                    "bold": true
+                  },
+                  {
+                    "text": "Once the applicant updated their profile successfully, the schemes will appear on the left side of the screen."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 05: ",
+                    "bold": true
+                  },
+                  {
+                    "text": "Select the scheme and click on the “Apply Now” button."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 06:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Fill in all the mandatory details in the application form and click on the ‘Submit’ button."
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "process_md": "**Registration Process:**\n**Step 01:** To avail of the benefits of the scheme, the applicant needs to visit [SUNEETHI- Online Service Application Portal](https://suneethi.sjd.kerala.gov.in)\n**Step 02:** On the home page, click on “One time Registration”\n**Step 03:** Fill in the details like Name, Email ID &amp;amp; Mobile Number and click on ‘Register’.\n**Step 04:** The applicant needs to enter the verification code received on the mobile number and click on ‘Verify’.\n**Step 05:** Now, a form will open to create the new profile, fill in all the mandatory details and click on ‘Register’.\n**Login/Application Process:** \n**Step 01:** Once the registration process is completed, the applicant should visit [SUNEETHI- Online Service Application Portal ](https://suneethi.sjd.kerala.gov.in)and click on “Citizen Login”.\n**Step 02:** Enter the user name i.e. Mobile Number and Password and click on “Sign in”.\n**Step 03:** Now, the applicant needs to update all their details i.e. Personal Information, Contact Details, Identity Cards &amp;amp; Bank Details by clicking on the &amp;#39;Edit&amp;#39; button.\n**Step 04:** Once the applicant updated their profile successfully, the schemes will appear on the left side of the screen.\n**Step 05:** Select the scheme and click on the “Apply Now” button.\n**Step 06:** Fill in all the mandatory details in the application form and click on the ‘Submit’ button.\n"
+      },
+      {
+        "mode": "Offline",
+        "url": "http://sjd.kerala.gov.in/DOCUMENTS/Downloadables/Application%20Forms/12323.pdf",
+        "process": [
+          {
+            "type": "align_justify",
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 01:",
+                    "bold": true
+                  },
+                  {
+                    "text": " To avail of the benefits of the scheme, the applicant needs to visit the "
+                  },
+                  {
+                    "type": "link",
+                    "link": "http://sjd.kerala.gov.in/scheme-info.php?scheme_id=MTAxc1Y4dXFSI3Z5",
+                    "children": [
+                      {
+                        "text": "official website"
+                      }
+                    ]
+                  },
+                  {
+                    "text": " of the Social Justice Department, Government of Kerala to download the "
+                  },
+                  {
+                    "type": "link",
+                    "link": "http://sjd.kerala.gov.in/DOCUMENTS/Downloadables/Application%20Forms/12323.pdf",
+                    "children": [
+                      {
+                        "text": "application form"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 02:",
+                    "bold": true
+                  },
+                  {
+                    "text": " The applicant needs to fill out the application form completely."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 03:",
+                    "bold": true
+                  },
+                  {
+                    "text": " The application form should be submitted through the Jail Superintendent along with the recommendation."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 04:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Financial aid is disbursed through Jail Superintendent which is approved by the Director of Social Justice. "
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 05:",
+                    "bold": true
+                  },
+                  {
+                    "text": " The amount is directly transferred to the bank account of the beneficiaries."
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "process_md": "**Step 01:** To avail of the benefits of the scheme, the applicant needs to visit the [official website](http://sjd.kerala.gov.in/scheme-info.php?scheme_id=MTAxc1Y4dXFSI3Z5) of the Social Justice Department, Government of Kerala to download the [application form](http://sjd.kerala.gov.in/DOCUMENTS/Downloadables/Application%20Forms/12323.pdf).\n**Step 02:** The applicant needs to fill out the application form completely.\n**Step 03:** The application form should be submitted through the Jail Superintendent along with the recommendation.\n**Step 04:** Financial aid is disbursed through Jail Superintendent which is approved by the Director of Social Justice. \n**Step 05:** The amount is directly transferred to the bank account of the beneficiaries.\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "1.\tThe applicant should be a native and resident of Kerala State.\n2.\tThe applicants should be from Below Poverty Line (BPL) category.\n3.\tThe applicants should be studying in Class- I to Degree/Professional Course.\n4.\tThe applicants (Children of Prisoners) whose parents are in jail are eligible to apply under the scheme.\n**Note:** Financial aid can be provided to the children even though the relatives, who are liable to protect them and falls under the Above Poverty Line (APL) category, provided both the parents are in jail, for that an inquiry report of the District Probation Officer is essential.\n",
+      "eligibilityDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "1.\tThe applicant should be a native and resident of Kerala State."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "2.\tThe applicants should be from Below Poverty Line (BPL) category."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "3.\tThe applicants should be studying in Class- I to Degree/Professional Course."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "4.\tThe applicants (Children of Prisoners) whose parents are in jail are eligible to apply under the scheme."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "Note:",
+                  "bold": true
+                },
+                {
+                  "text": " Financial aid can be provided to the children even though the relatives, who are liable to protect them and falls under the Above Poverty Line (APL) category, provided both the parents are in jail, for that an inquiry report of the District Probation Officer is essential."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "eacp"
+}

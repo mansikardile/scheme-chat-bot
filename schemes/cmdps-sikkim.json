@@ -1,0 +1,383 @@
+{
+  "_id": "644556aa642a2a597437849c",
+  "en": {
+    "basicDetails": {
+      "schemeOpenDate": null,
+      "schemeCloseDate": null,
+      "state": {
+        "value": 11,
+        "label": "Sikkim"
+      },
+      "nodalMinistryName": null,
+      "nodalDepartmentName": {
+        "value": 11111156,
+        "label": "Women & Child Welfare Department"
+      },
+      "otherMinistryName": null,
+      "otherDepartmentNames": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Pension",
+          "label": "Pension"
+        },
+        {
+          "value": "Financial assistance",
+          "label": "Financial assistance"
+        },
+        {
+          "value": "Citizen empowerment",
+          "label": "Citizen empowerment"
+        }
+      ],
+      "dbtScheme": true,
+      "implementingAgency": "Women & Child Welfare Department, Govt. Of Sikkim",
+      "tags": [
+        "Disability",
+        "Pension",
+        "Below Poverty Line",
+        "Direct Benefit Transfer"
+      ],
+      "schemeName": "Chief Minister's State Disability Pension Scheme - Sikkim",
+      "schemeShortTitle": "CMDPS-SIKKIM",
+      "level": {
+        "value": "state",
+        "label": "State"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce87cd6d1a3bde4685312",
+          "label": "Social welfare & Empowerment"
+        },
+        {
+          "value": "628ce7f6d6d1a3bde46852d0",
+          "label": "Banking,Financial Services and Insurance"
+        }
+      ],
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Website Link",
+          "url": "https://pensionscheme.sikkim.gov.in"
+        }
+      ],
+      "schemeImageUrl": "",
+      "briefDescription": "The scheme “Chief Minister's State Disability Pension Scheme (CMDPS)” was started by the Women & Child Welfare Department, Govt. of Sikkim to provide financial assistance to the differently abled person who has a disability of 40% and above. ",
+      "detailedDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "The scheme “Chief Minister's State Disability Pension Scheme (CMDPS)” was started by the Women & Child Welfare Department, Govt. of Sikkim to provide financial assistance to the differently abled person who has a disability of 40% and above. This scheme is 100% State Innovative Scheme and the beneficiary will receive a monthly pension of ₹ 1500/-."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The beneficiary will receive a monthly pension of ₹ 1500/-."
+            }
+          ]
+        }
+      ],
+      "exclusions": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ],
+      "detailedDescription_md": "The scheme “Chief Minister&amp;#39;s State Disability Pension Scheme (CMDPS)” was started by the Women &amp;amp; Child Welfare Department, Govt. of Sikkim to provide financial assistance to the differently abled person who has a disability of 40% and above. This scheme is 100% State Innovative Scheme and the beneficiary will receive a monthly pension of ₹ 1500/-.\n"
+    },
+    "applicationProcess": [
+      {
+        "mode": "Online",
+        "url": "https://sso.sikkim.gov.in/account/login?returnUrl=%2Fconnect%2Fauthorize%2Fcallback%3Fclient_id%3Dcitizenservices%26redirect_uri%3Dhttps%253A%252F%252Fpensionscheme.sikkim.gov.in%252F%26response_mode%3Dform_post%26response_type%3Dcode%2520id_token%26scope%3Dopenid%2520profile%2520email%2520phone_number%2520sharedaccessapi%2520server_api%2520role%2520department%2520offline_access%26state%3DOpenIdConnect.AuthenticationProperties%253DJPjM6jpLfX80roYpltXHCSvDXuODlgyDOQX8NVH7JUoARlYJO60jJP98iWlLw6DGjnVD9WrndxuBNbG2aCl8NqBrzj0EhyPkLj7PbLhHaNDlBGgDMFWUzZLy3BrZLdwsHI3ant0rhuTSnnCUA4UFRsxHSFeGtMFSqS8VVbYGprieNFfN61WOu0KeZkm3f2UXh0hn1vWxpQY_FRi0fMNQvqdrGKa85opc18jPcXBxUm7Q4Sxni6H4gMSywU-hCl_U%26nonce%3D638178638980182050.NGU2Nzg3YTgtMDlhMi00YmVmLTkyYzctMzliN2FlYzc3OGZjNzE0NTg0ZjAtNGUzYy00NjQ3LWJlODAtMGM4YjNmYWQ3ZTM5%26x-client-SKU%3DID_NET451%26x-client-ver%3D5.3.0.0",
+        "process": [
+          {
+            "type": "align_justify",
+            "children": [
+              {
+                "type": "block_quote",
+                "children": [
+                  {
+                    "text": "Registration:",
+                    "bold": true
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "bold": true,
+                    "text": ""
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "bold": true,
+                    "text": "Step 01:"
+                  },
+                  {
+                    "text": " Visit the "
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://pensionscheme.sikkim.gov.in",
+                    "children": [
+                      {
+                        "text": "official website"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": ""
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "bold": true,
+                    "text": "Step 02: "
+                  },
+                  {
+                    "text": "Click “Create Account”. On the registration page, fill in the mandatory details (Username, Gender, First Name, Last Name, Email, Mobile Number, and Password). Fill in the Captcha Code and click \"Register\". The login credentials will be sent on your registered Email ID / Mobile Number."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": ""
+                  }
+                ]
+              },
+              {
+                "type": "block_quote",
+                "children": [
+                  {
+                    "text": "Application:",
+                    "bold": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "bold": true,
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "bold": true,
+                "text": "Step 01:"
+              },
+              {
+                "text": " Visit the "
+              },
+              {
+                "type": "link",
+                "link": "https://pensionscheme.sikkim.gov.in",
+                "children": [
+                  {
+                    "text": "official website"
+                  }
+                ]
+              },
+              {
+                "text": "."
+              },
+              {
+                "type": "link",
+                "link": "https://pensionscheme.sikkim.gov.in",
+                "children": [
+                  {
+                    "text": ""
+                  }
+                ]
+              },
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "align_justify",
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 02:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Click “Apply now” and log in."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": ""
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 03:",
+                    "bold": true
+                  },
+                  {
+                    "text": " On the application page, fill in all the mandatory fields and upload the required documents in the appropriate file size and file type. Upon successful submission of the application, a system-generated application number will be provided as acknowledgment. Please keep it safe for future reference."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": ""
+                  }
+                ]
+              },
+              {
+                "type": "block_quote",
+                "children": [
+                  {
+                    "text": "Check Application Status:",
+                    "bold": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "The status, viz. Approval or Rejection if any will be conveyed to the applicant through an SMS."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n1. The applicant should be a resident of the state of Sikkim.\n1. The applicant with 40% and above disability is eligible for the scheme.\n1. The applicant should belong to Below Poverty Line (BPL) household.\n1. The applicant should not be covered under Indira Gandhi National Disability Pension Scheme (IGNDPS).\n1. The applicant should have opened the Bank Account under “Pradhan Mantri Jan Dhan Yojana”.\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should be a resident of the state of Sikkim."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant with 40% and above disability is eligible for the scheme."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should belong to Below Poverty Line (BPL) household."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should not be covered under Indira Gandhi National Disability Pension Scheme (IGNDPS)."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should have opened the Bank Account under “Pradhan Mantri Jan Dhan Yojana”."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "cmdps-sikkim"
+}

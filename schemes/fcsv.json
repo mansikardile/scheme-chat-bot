@@ -1,0 +1,648 @@
+{
+  "_id": "64c23c46481f59106a79c241",
+  "en": {
+    "basicDetails": {
+      "schemeOpenDate": null,
+      "schemeCloseDate": null,
+      "state": {
+        "value": 30,
+        "label": "Goa"
+      },
+      "nodalMinistryName": null,
+      "nodalDepartmentName": {
+        "value": 30000053,
+        "label": "Women and Child Development Department"
+      },
+      "otherMinistryName": null,
+      "otherDepartmentNames": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Shelter",
+          "label": "Shelter"
+        },
+        {
+          "value": "Rehabilitation",
+          "label": "Rehabilitation"
+        },
+        {
+          "value": "Young people and the law",
+          "label": "Young people and the law"
+        },
+        {
+          "value": "Rescue services",
+          "label": "Rescue services"
+        },
+        {
+          "value": "Psychosocial support/counselling",
+          "label": "Psychosocial support/counselling"
+        }
+      ],
+      "dbtScheme": null,
+      "implementingAgency": "The Child Welfare Committee Shall Be The Competent Authority Under The Juvenile Justice (Care And Protection Of Children) Act, 2000 For The Implementation Of The Scheme.",
+      "tags": [
+        "Foster Care",
+        "Shelter",
+        "Rehabilitation",
+        "Parent",
+        "Orphan"
+      ],
+      "schemeName": "Foster Care Scheme (Vatsalaya)",
+      "schemeShortTitle": "FCSV",
+      "level": {
+        "value": "state",
+        "label": "State"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce87cd6d1a3bde4685312",
+          "label": "Social welfare & Empowerment"
+        },
+        {
+          "value": "628ce81ed6d1a3bde46852ea",
+          "label": "Public Safety,Law & Justice"
+        }
+      ],
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Official Gazette",
+          "url": "https://dwcd.goa.gov.in/uploads/FostercareschemeandPrabhat.pdf"
+        },
+        {
+          "title": "Citizen's Charter",
+          "url": "https://www.goa.gov.in/wp-content/uploads/2022/08/DWCD-Citizen-Charter-1.pdf"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The Foster Care Scheme (Vatsalaya) is being implemented by the Department of Women &amp; Child Development, Government of Goa to provide temporary/substitute care for children in difficult circumstances, whose parents are unable to care for them due to illness, death, and desertion of one parent or any emotional crisis.\n<br>\n\n> **Awareness**\n\nSelf-Help Groups, MahilaMandals, Child Development Project Officers, Village Child Committees, Anganwadi Workers, NGOs, and Media can be enlisted to propagate the need for foster parents and families.\n<br>\n\n> **Placement Conditions**\n\n\n1. When placing a child in foster care, the following points shall be looked Due consideration shall be given to the age and sex of the other children of the foster care applicants/parents.\n1. Not more than two children shall be placed in a foster family, except in the case of siblings who may require to be placed with the same family.\n1. Foster care applicants/s shall be counselled about behavioural issues. \n1. The child&#39;s emotional and psychological assessment shall be discussed with the foster care applicant/s to enable them to deal with the child&#39;s situation to minimize the chances of premature termination of the foster care placement.\n1. The child&#39;s opinion shall be sought, wherever possible, prior to initiating the foster care procedures.\n1. In case of a child in conflict with law, the Juvenile Justice Board may refer the child to the Child Welfare Committee to initiate the procedures for foster placement.\n\n<br>\n\n",
+      "benefits_md": "_(payable to the foster families on the basis of the assessment of the Child Care Coordinator)_\n<br>\n\n> **Foster Care Allowance**\n\n₹ 2,500/- per month. \n(The children who are Beneficiaries of the Dayanand Social Security Scheme shall not be eligible for Foster Care Allowances)\n<br>\n\n> **Maintenance Allowance**\n\n\n1. Age Group: 0 to 6 years; Amount: ₹ 1,500/- per month\n1. Age Group: 6 to 14 years; Amount: ₹ 2,000/- per month\n1. Age Group: 14 to 18 years; Amount: ₹ 2,500/- per month\n\n",
+      "exclusions_md": "The children who are Beneficiaries of the Dayanand Social Security Scheme (DSSS) of the Directorate of Social Welfare, Government of Goa, shall not be eligible for Foster Care allowances under this scheme.\n",
+      "briefDescription": "The Foster Care Scheme (Vatsalaya) is being implemented by the Department of Women & Child Development, Government of Goa to provide temporary/substitute care for children in difficult circumstances, whose parents are unable to care for them due to illness, death, and desertion of parent, etc.",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The Foster Care Scheme (Vatsalaya) is being implemented by the Department of Women & Child Development, Government of Goa to provide temporary/substitute care for children in difficult circumstances, whose parents are unable to care for them due to illness, death, and desertion of one parent or any emotional crisis."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        },
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "Awareness",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Self-Help Groups, MahilaMandals, Child Development Project Officers, Village Child Committees, Anganwadi Workers, NGOs, and Media can be enlisted to propagate the need for foster parents and families."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        },
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "Placement Conditions",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "When placing a child in foster care, the following points shall be looked Due consideration shall be given to the age and sex of the other children of the foster care applicants/parents."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Not more than two children shall be placed in a foster family, except in the case of siblings who may require to be placed with the same family."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Foster care applicants/s shall be counselled about behavioural issues. "
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The child's emotional and psychological assessment shall be discussed with the foster care applicant/s to enable them to deal with the child's situation to minimize the chances of premature termination of the foster care placement."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The child's opinion shall be sought, wherever possible, prior to initiating the foster care procedures."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "In case of a child in conflict with law, the Juvenile Justice Board may refer the child to the Child Welfare Committee to initiate the procedures for foster placement."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "(payable to the foster families on the basis of the assessment of the Child Care Coordinator)",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        },
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "Foster Care Allowance",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "₹ 2,500/- per month. "
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "(The children who are Beneficiaries of the Dayanand Social Security Scheme shall not be eligible for Foster Care Allowances)"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        },
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "Maintenance Allowance",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Age Group: 0 to 6 years; Amount: ₹ 1,500/- per month"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Age Group: 6 to 14 years; Amount: ₹ 2,000/- per month"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Age Group: 14 to 18 years; Amount: ₹ 2,500/- per month"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "exclusions": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The children who are Beneficiaries of the Dayanand Social Security Scheme (DSSS) of the Directorate of Social Welfare, Government of Goa, shall not be eligible for Foster Care allowances under this scheme."
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "url": "",
+        "process": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 1: ",
+                "bold": true
+              },
+              {
+                "text": "Visit the District Child Protection Society/ Child Welfare Committee, and request a hard copy of the proforma of the application form for the \"Foster Care Scheme (Vatsalaya)\" from the Child Care Coordinator/ Concerned Authority."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2: ",
+                "bold": true
+              },
+              {
+                "text": "In the application form, fill in all the mandatory fields, paste the passport-sized photograph (signed across), and attach copies of all the mandatory documents (self-attest if required)."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 3: ",
+                "bold": true
+              },
+              {
+                "text": "Submit the duly filled and signed application form along with the documents to the Child Care Coordinator/ Concerned Authority."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 4: ",
+                "bold": true
+              },
+              {
+                "text": "Acquire the receipt/acknowledgement of the successful submission of the application from the District Child Protection Society/ Child Welfare Committee."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "bold": true,
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "bold": true,
+                "text": "Identification of Foster Families"
+              }
+            ]
+          },
+          {
+            "type": "ol_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "The biological parent/s can identify a relative or a potential caregiver from the vicinity."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "A list of couples found ineligible under the criteria for adoption but willing to care for children in foster care can be prepared by adoption agencies and submitted to Child Welfare Committee for assessment by the Child Care Coordinator."
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "process_md": "**Step 1:** Visit the District Child Protection Society/ Child Welfare Committee, and request a hard copy of the proforma of the application form for the &quot;Foster Care Scheme (Vatsalaya)&quot; from the Child Care Coordinator/ Concerned Authority.\n**Step 2:** In the application form, fill in all the mandatory fields, paste the passport-sized photograph (signed across), and attach copies of all the mandatory documents (self-attest if required).\n**Step 3:** Submit the duly filled and signed application form along with the documents to the Child Care Coordinator/ Concerned Authority.\n**Step 4:** Acquire the receipt/acknowledgement of the successful submission of the application from the District Child Protection Society/ Child Welfare Committee.\n<br>\n\n> **Identification of Foster Families**\n\n\n1. The biological parent/s can identify a relative or a potential caregiver from the vicinity.\n1. A list of couples found ineligible under the criteria for adoption but willing to care for children in foster care can be prepared by adoption agencies and submitted to Child Welfare Committee for assessment by the Child Care Coordinator.\n\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "> **For Children**\n\nThe Child should qualify for at least one of the following conditions - \n\n1. The child is affected by family breakdown or marital discord.\n1. The child is faced with upheavals caused by family illness, substance abuse or any other “crisis”.\n1. The child&#39;s safety is “at risk”.\n1. The child is affected by natural or man-made disasters.\n1. The child is orphaned, surrendered/relinquished, or abandoned.\n1. The child cannot be placed for adoption for various reasons.\n1. The child in an institution who can be “reinstated” or “restored” back into families.\n1. The child is in conflict with the law.\n\n<br>\n\n> **For Foster Parents**\n\n(in accordance with Section 35 of the Model Rules of the Juvenile Justice (Care and Protection of Children) Act)\n\n1. The foster parents should have stable emotional adjustment within the family.\n1. The foster parents should have an income in which they are able to meet the basic needs of the child. \n1. The Medical Reports of all the members of the family residing on the premises should be obtained to determine their medical fitness, including checks on: Human Immunodeficiency Virus (HIV), Tuberculosis (TB) and Hepatitis B.\n1. The foster parents should have adequate exposure, orientation and capacity in child caring and the capacity to provide good child care.\n1. the foster parents should be physically, mentally and emotionally stable.\n1. The home of the foster parents should have adequate space and basic facilities.\n1. The foster care family should be willing to follow rules laid down including making regular visits to a paediatrician, immunization of the child, \n1. and maintenance of the child&#39;s health records.\n1. The foster care family should be willing to sign an agreement and to return the child to the Child Welfare Committee if directed by the Committee to do so.\n1. The foster parents should be willing to attend training or orientation programmes on child care and health, etc.\n1. The foster parents should motivate the child to study and be willing to send the child to regular school or vocational training.\n\n<br>\n\n**NOTE 1:** There shall be no discrimination in the selection of foster parents on the basis of caste, religion, ethnic status, disability or health status and the best interests of the child shall be paramount in deciding foster-care placement. As far as possible, the foster family should belong to a similar social-economic and cultural milieu.\n**NOTE 2:** The foster care maintenance allowance/assistance should not be their motivation for caring for the child and they should not be totally dependent on the same. The CWC shall assess whether the monthly family income is adequate to take care of foster children.\n",
+      "eligibilityDescription": [
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "For Children",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The Child should qualify for at least one of the following conditions - "
+            }
+          ]
+        },
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The child is affected by family breakdown or marital discord."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The child is faced with upheavals caused by family illness, substance abuse or any other “crisis”."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The child's safety is “at risk”."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The child is affected by natural or man-made disasters."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The child is orphaned, surrendered/relinquished, or abandoned."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The child cannot be placed for adoption for various reasons."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The child in an institution who can be “reinstated” or “restored” back into families."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The child is in conflict with the law."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        },
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "For Foster Parents",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "(in accordance with Section 35 of the Model Rules of the Juvenile Justice (Care and Protection of Children) Act)"
+            }
+          ]
+        },
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The foster parents should have stable emotional adjustment within the family."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The foster parents should have an income in which they are able to meet the basic needs of the child. "
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The Medical Reports of all the members of the family residing on the premises should be obtained to determine their medical fitness, including checks on: Human Immunodeficiency Virus (HIV), Tuberculosis (TB) and Hepatitis B."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The foster parents should have adequate exposure, orientation and capacity in child caring and the capacity to provide good child care."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "the foster parents should be physically, mentally and emotionally stable."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The home of the foster parents should have adequate space and basic facilities."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The foster care family should be willing to follow rules laid down including making regular visits to a paediatrician, immunization of the child, "
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "and maintenance of the child's health records."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The foster care family should be willing to sign an agreement and to return the child to the Child Welfare Committee if directed by the Committee to do so."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The foster parents should be willing to attend training or orientation programmes on child care and health, etc."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The foster parents should motivate the child to study and be willing to send the child to regular school or vocational training."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "NOTE 1: ",
+              "bold": true
+            },
+            {
+              "text": "There shall be no discrimination in the selection of foster parents on the basis of caste, religion, ethnic status, disability or health status and the best interests of the child shall be paramount in deciding foster-care placement. As far as possible, the foster family should belong to a similar social-economic and cultural milieu."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "NOTE 2: ",
+              "bold": true
+            },
+            {
+              "text": "The foster care maintenance allowance/assistance should not be their motivation for caring for the child and they should not be totally dependent on the same. The CWC shall assess whether the monthly family income is adequate to take care of foster children."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "fcsv"
+}

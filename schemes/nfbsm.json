@@ -1,0 +1,213 @@
+{
+  "_id": "671a1d4c4d83876c61b9cbff",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Pension",
+        "Family",
+        "BPL",
+        "Death",
+        "Below Poverty Line"
+      ],
+      "schemeName": "National Family Benefit Scheme (Maharashtra)",
+      "schemeShortTitle": "NFBSM",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce87cd6d1a3bde4685312",
+          "label": "Social welfare & Empowerment"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Pension",
+          "label": "Pension"
+        },
+        {
+          "value": "Citizen empowerment",
+          "label": "Citizen empowerment"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "state": {
+        "value": 27,
+        "label": "Maharashtra"
+      },
+      "nodalDepartmentName": {
+        "value": 27111139,
+        "label": "Social Justice and Special Assistance Department"
+      },
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://sjsa.maharashtra.gov.in/scheme/national-family-benefit-scheme/"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The scheme &amp;quot;National Family Benefit Scheme (Maharashtra)&amp;quot; is a social welfare scheme by the Social Justice &amp;amp; Special Assistance Department, Government of Maharashtra. Under this scheme, in the event of the death of the primary breadwinner of a BPL family, the family is provided with a one-time lump sum financial assistance of ₹20,000/-.\n",
+      "benefits_md": "Financial assistance of ₹20,000/-.\n",
+      "briefDescription": "The scheme \"National Family Benefit Scheme (Maharashtra)\" is a social welfare scheme by the Social Justice & Special Assistance Department, Government of Maharashtra. Under this scheme, ₹20,000/-. is provided to the family in the event of the death of their primary breadwinner.",
+      "exclusions_md": "",
+      "detailedDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "The scheme \"National Family Benefit Scheme (Maharashtra)\" is a social welfare scheme by the Social Justice & Special Assistance Department, Government of Maharashtra. Under this scheme, in the event of the death of the primary breadwinner of a BPL family, the family is provided with a one-time lump sum financial assistance of ₹20,000/-."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Financial assistance of ₹20,000/-."
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "process": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 1: ",
+                "bold": true
+              },
+              {
+                "text": "The interested applicant should visit (during office hours) the Collector Office/Tahsildar/Talathi of your district, and request the hard copy of the prescribed format of the application form from the concerned authority."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2: ",
+                "bold": true
+              },
+              {
+                "text": "In the application form, fill in all the mandatory fields, paste the passport-sized photograph (signed across, if required), and attach copies of all the mandatory documents (self-attest, if required)."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 3: ",
+                "bold": true
+              },
+              {
+                "text": "Submit the duly filled and signed application form along with the documents, within the prescribed period (if any), to the concerned authority."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 4: ",
+                "bold": true
+              },
+              {
+                "text": "Request a receipt or acknowledgement from the concerned authority to whom the application has been submitted. Ensure that the receipt contains essential details such as the date and time of submission, and a unique identification number (if applicable)."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "NOTE: ",
+                "bold": true
+              },
+              {
+                "text": "Ensure that the application is submitted within the prescribed period, if any."
+              }
+            ]
+          }
+        ],
+        "process_md": "**Step 1:** The interested applicant should visit (during office hours) the Collector Office/Tahsildar/Talathi of your district, and request the hard copy of the prescribed format of the application form from the concerned authority.\n**Step 2:** In the application form, fill in all the mandatory fields, paste the passport-sized photograph (signed across, if required), and attach copies of all the mandatory documents (self-attest, if required).\n**Step 3:** Submit the duly filled and signed application form along with the documents, within the prescribed period (if any), to the concerned authority.\n**Step 4:** Request a receipt or acknowledgement from the concerned authority to whom the application has been submitted. Ensure that the receipt contains essential details such as the date and time of submission, and a unique identification number (if applicable).\n**NOTE:** Ensure that the application is submitted within the prescribed period, if any.\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n   1. The applicant should be a resident of Maharashtra.\n   1. The applicant should be a family member or dependent of the deceased breadwinner (an earning member of the family on whom the family primarily depended for income).\n   1. The family should be living Below the Poverty Line (BPL).\n   1. The deceased should have been between 18 and 59 years old.\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "ol_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant should be a resident of Maharashtra."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant should be a family member or dependent of the deceased breadwinner (an earning member of the family on whom the family primarily depended for income)."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The family should be living Below the Poverty Line (BPL)."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The deceased should have been between 18 and 59 years old."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "nfbsm"
+}

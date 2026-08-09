@@ -1,0 +1,574 @@
+{
+  "_id": "6301bf21f485aaff88c65238",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": true,
+      "tags": [
+        "Pension",
+        "Employment",
+        "Retailer",
+        "Traders",
+        "Shopkeeper",
+        "Broker"
+      ],
+      "schemeName": "National Pension Scheme For Traders And Self Employed Persons",
+      "schemeShortTitle": "NPS-TSEP",
+      "implementingAgency": "Common Service Centers",
+      "level": {
+        "value": "central",
+        "label": "Central"
+      },
+      "schemeType": {
+        "value": "central-sector-scheme",
+        "label": "Central Sector Scheme"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce7f6d6d1a3bde46852d0",
+          "label": "Banking,Financial Services and Insurance"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Pension",
+          "label": "Pension"
+        }
+      ],
+      "schemeOpenDate": "2019-01-01",
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "schemeFor": "Individual",
+      "nodalMinistryName": {
+        "value": 496,
+        "label": "Ministry Of Labour and Employment"
+      },
+      "nodalDepartmentName": null
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://maandhan.in/show_content.php?lang=1&level=1&ls_id=29&lid=29&page=6"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The scheme &quot;National Pension Scheme For Traders And Self-Employed Persons&quot; was launched by the Ministry of Labour and Employment, Government of India. The scheme aims to provide old age protection and social security to small-scale traders, retailers, and self-employed individuals. The scheme provides a voluntary and contributory pension under which the beneficiary receives a minimum assured monthly pension of ₹3,000/- after attaining the age of sixty years, along with matching contributions from the Government of India. The applicant must make monthly contributions ranging between ₹55/- and ₹200/- per month till they attain the age of 60 years.\n<br>\n\n",
+      "benefits_md": "##### ***1. Pension Benefit***\n\n- Each eligible subscriber under this scheme shall receive an assured minimum monthly pension of ₹3,000/- after attaining the age of sixty years.\n- The Government of India will make a matching contribution into the subscriber&#39;s pension account every month as a subsidy.\n\n##### ***2. Family Pension on Death of Beneficiary***\nDuring the receipt of the pension, if an eligible beneficiary dies, the spouse shall be entitled to receive fifty per cent of the pension received by such beneficiary as a family pension, which is applicable only to the spouse.\n##### ***3. Provisions for Permanent Disablement Before Age of Sixty***\n\n- If an eligible beneficiary has given regular contributions and becomes permanently disabled before attaining the age of sixty years, the spouse shall be entitled to continue with the scheme by payment of regular contributions. \n- In case of permanent disablement where the spouse does not continue, they can exit the scheme by receiving the share of contribution deposited by the subscriber, with interest as actually earned thereon by the Pension Fund or the savings bank interest rate, whichever is higher.\n\n##### ***4. Exit Before Completion of Ten Years***\nIn case an eligible beneficiary exits this scheme within a period of less than ten years from the date of joining, the share of contribution by them only will be returned with the savings bank rate of interest payable thereon.\n##### ***5. Exit After Ten Years but Before Age of Sixty***\nIf an eligible beneficiary exits after completion of a period of ten years or more from the date of joining but before the age of sixty years, their share of contribution only shall be returned along with accumulated interest thereon as actually earned by the Pension Fund or the savings bank interest rate, whichever is higher.\n##### ***6. Death of Beneficiary During the Contribution Period***\n\n- If an eligible beneficiary has given regular contributions and dies due to any cause, the spouse shall be entitled to continue with the scheme by payment of regular contributions. \n- If the spouse does not wish to continue after the beneficiary&#39;s death, they can exit by receiving the share of contribution paid by the beneficiary along with accumulated interest, as actually earned by the Pension Fund or at the savings bank interest rate, whichever is higher.\n\n##### ***7. Corpus Reversion After Death of Both Beneficiary and Spouse***\nAfter the death of the beneficiary and his or her spouse, the corpus shall be credited back to the fund.\n<br>\n\n",
+      "exclusions_md": "\n- The applicant must not be covered under any National Pension Scheme contributed by the Central Government.\n- The applicant must not be a member of the Employees’ Provident Fund Organisation (EPFO) under the Employees’ Provident Fund and Miscellaneous Provisions Act, 1952.\n- The applicant must not be covered under the Employees’ State Insurance Corporation (ESIC) Scheme under the Employees’ State Insurance Act, 1948.\n- The applicant must not be an income-tax payer or income-tax assessee.\n- The applicant must not be enrolled under the Pradhan Mantri Shram Yogi Maandhan Yojana administered by the Ministry of Labour &amp; Employment.\n- The applicant must not be enrolled under the Pradhan Mantri Kisan Maandhan Yojana administered by the Ministry of Agriculture &amp; Farmers Welfare.\n\n<br>\n\n",
+      "briefDescription": "The scheme aims to provide old age protection and social security to workers in the unorganized sector. It offers an assured monthly pension of ₹3,000/- after age sixty, with matching government contributions, to benefit small shopkeepers, retail traders, and self-employed persons.",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The scheme \"National Pension Scheme For Traders And Self-Employed Persons\" was launched by the Ministry of Labour and Employment, Government of India. The scheme aims to provide old age protection and social security to small-scale traders, retailers, and self-employed individuals. The scheme provides a voluntary and contributory pension under which the beneficiary receives a minimum assured monthly pension of ₹3,000/- after attaining the age of sixty years, along with matching contributions from the Government of India. The applicant must make monthly contributions ranging between ₹55/- and ₹200/- per month till they attain the age of 60 years."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "value": "Cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "heading_five",
+          "align": "justify",
+          "children": [
+            {
+              "text": "1. Pension Benefit",
+              "bold": true,
+              "underline": true,
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "align": "justify",
+              "children": [
+                {
+                  "text": "Each eligible subscriber under this scheme shall receive an assured minimum monthly pension of ₹3,000/- after attaining the age of sixty years."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "align": "justify",
+              "children": [
+                {
+                  "text": "The Government of India will make a matching contribution into the subscriber's pension account every month as a subsidy."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "heading_five",
+          "align": "justify",
+          "children": [
+            {
+              "text": "2. Family Pension on Death of Beneficiary",
+              "bold": true,
+              "underline": true,
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "align": "justify",
+          "children": [
+            {
+              "text": "During the receipt of the pension, if an eligible beneficiary dies, the spouse shall be entitled to receive fifty per cent of the pension received by such beneficiary as a family pension, which is applicable only to the spouse."
+            }
+          ]
+        },
+        {
+          "type": "heading_five",
+          "align": "justify",
+          "children": [
+            {
+              "text": "3. Provisions for Permanent Disablement Before Age of Sixty",
+              "bold": true,
+              "underline": true,
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "align": "justify",
+              "children": [
+                {
+                  "text": "If an eligible beneficiary has given regular contributions and becomes permanently disabled before attaining the age of sixty years, the spouse shall be entitled to continue with the scheme by payment of regular contributions. "
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "align": "justify",
+              "children": [
+                {
+                  "text": "In case of permanent disablement where the spouse does not continue, they can exit the scheme by receiving the share of contribution deposited by the subscriber, with interest as actually earned thereon by the Pension Fund or the savings bank interest rate, whichever is higher."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "heading_five",
+          "align": "justify",
+          "children": [
+            {
+              "text": "4. Exit Before Completion of Ten Years",
+              "bold": true,
+              "underline": true,
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "align": "justify",
+          "children": [
+            {
+              "text": "In case an eligible beneficiary exits this scheme within a period of less than ten years from the date of joining, the share of contribution by them only will be returned with the savings bank rate of interest payable thereon."
+            }
+          ]
+        },
+        {
+          "type": "heading_five",
+          "align": "justify",
+          "children": [
+            {
+              "text": "5. Exit After Ten Years but Before Age of Sixty",
+              "bold": true,
+              "underline": true,
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "align": "justify",
+          "children": [
+            {
+              "text": "If an eligible beneficiary exits after completion of a period of ten years or more from the date of joining but before the age of sixty years, their share of contribution only shall be returned along with accumulated interest thereon as actually earned by the Pension Fund or the savings bank interest rate, whichever is higher."
+            }
+          ]
+        },
+        {
+          "type": "heading_five",
+          "align": "justify",
+          "children": [
+            {
+              "text": "6. Death of Beneficiary During the Contribution Period",
+              "bold": true,
+              "underline": true,
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "align": "justify",
+              "children": [
+                {
+                  "text": "If an eligible beneficiary has given regular contributions and dies due to any cause, the spouse shall be entitled to continue with the scheme by payment of regular contributions. "
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "align": "justify",
+              "children": [
+                {
+                  "text": "If the spouse does not wish to continue after the beneficiary's death, they can exit by receiving the share of contribution paid by the beneficiary along with accumulated interest, as actually earned by the Pension Fund or at the savings bank interest rate, whichever is higher."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "heading_five",
+          "align": "justify",
+          "children": [
+            {
+              "text": "7. Corpus Reversion After Death of Both Beneficiary and Spouse",
+              "bold": true,
+              "underline": true,
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "align": "justify",
+          "children": [
+            {
+              "text": "After the death of the beneficiary and his or her spouse, the corpus shall be credited back to the fund."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ],
+      "exclusions": [
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must not be covered under any National Pension Scheme contributed by the Central Government."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must not be a member of the Employees’ Provident Fund Organisation (EPFO) under the Employees’ Provident Fund and Miscellaneous Provisions Act, 1952."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must not be covered under the Employees’ State Insurance Corporation (ESIC) Scheme under the Employees’ State Insurance Act, 1948."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must not be an income-tax payer or income-tax assessee."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must not be enrolled under the Pradhan Mantri Shram Yogi Maandhan Yojana administered by the Ministry of Labour & Employment."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must not be enrolled under the Pradhan Mantri Kisan Maandhan Yojana administered by the Ministry of Agriculture & Farmers Welfare."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Online - via CSC",
+        "url": "",
+        "process": [
+          {
+            "type": "heading_five",
+            "children": [
+              {
+                "text": "Registration Process",
+                "bold": true,
+                "underline": true,
+                "italic": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 1:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " The interested eligible person must visit their nearest Common Service Centre (CSC) to initiate the registration process offline. The applicant must carry prerequisites such as their Aadhaar Card and evidence of their bank account."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " The Village Level Entrepreneur (VLE) at the center will key in the Aadhaar number, name of the beneficiary, and date of birth as printed on the Aadhaar card. This step is necessary to authenticate the identity of the applicant in the system."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 3:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " The VLE will complete the online registration by filling up essential details in the enrollment system. These details include the applicant's bank account information, mobile number, email address, GSTIN, annual turnover income, spouse details, and nominee details."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 4:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " A self-certification process for the eligibility conditions will be completed by the applicant. Following this, the system will automatically calculate the monthly contribution amount payable according to the age of the beneficiary."
+              }
+            ]
+          },
+          {
+            "type": "heading_five",
+            "children": [
+              {
+                "text": "Application and Payment Process",
+                "bold": true,
+                "underline": true,
+                "italic": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 5:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " The enrolled beneficiary will pay the first subscription amount in cash directly to the VLE. This initial contribution payment activates the subscription to the pension scheme."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 6:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " An enrollment cum auto-debit mandate form will be generated and printed by the system. This mandate form must be signed by the beneficiary, after which the VLE will scan the document and upload it securely into the system."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 7:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " A unique Vyapari Pension Account Number (VPAN) will be generated for the applicant to maintain their account records. Finally, a physical Vyapari Card will be printed and handed over to the beneficiary."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          }
+        ],
+        "process_md": "##### ***Registration Process***\n**Step 1:** The interested eligible person must visit their nearest Common Service Centre (CSC) to initiate the registration process offline. The applicant must carry prerequisites such as their Aadhaar Card and evidence of their bank account.\n**Step 2:** The Village Level Entrepreneur (VLE) at the center will key in the Aadhaar number, name of the beneficiary, and date of birth as printed on the Aadhaar card. This step is necessary to authenticate the identity of the applicant in the system.\n**Step 3:** The VLE will complete the online registration by filling up essential details in the enrollment system. These details include the applicant&#39;s bank account information, mobile number, email address, GSTIN, annual turnover income, spouse details, and nominee details.\n**Step 4:** A self-certification process for the eligibility conditions will be completed by the applicant. Following this, the system will automatically calculate the monthly contribution amount payable according to the age of the beneficiary.\n##### ***Application and Payment Process***\n**Step 5:** The enrolled beneficiary will pay the first subscription amount in cash directly to the VLE. This initial contribution payment activates the subscription to the pension scheme.\n**Step 6:** An enrollment cum auto-debit mandate form will be generated and printed by the system. This mandate form must be signed by the beneficiary, after which the VLE will scan the document and upload it securely into the system.\n**Step 7:** A unique Vyapari Pension Account Number (VPAN) will be generated for the applicant to maintain their account records. Finally, a physical Vyapari Card will be printed and handed over to the beneficiary.\n<br>\n\n"
+      },
+      {
+        "mode": "Online",
+        "process": [
+          {
+            "type": "ul_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Eligible individuals who wish to apply themselves can do so by navigating to the official online enrollment portal."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "They must complete the self-enrollment online procedure by providing the required information and setting up their account without visiting a physical center."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          }
+        ],
+        "process_md": "\n- Eligible individuals who wish to apply themselves can do so by navigating to the official online enrollment portal.\n- They must complete the self-enrollment online procedure by providing the required information and setting up their account without visiting a physical center.\n\n<br>\n\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n- The applicant must be a Laghu Vyapari, self-employed person, shop owner, retail trader, rice mill owner, oil mill owner, workshop owner, commission agent, real estate broker, small hotel owner, or restaurant owner.\n- The applicant must be between 18 and 40 years of age.\n- The applicant must have an annual turnover that does not exceed ₹1,50,00,000/-.\n- The applicant must possess a savings bank account in their name.\n- The applicant must possess an Aadhaar Card or Aadhaar Number.\n\n<br>\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must be a Laghu Vyapari, self-employed person, shop owner, retail trader, rice mill owner, oil mill owner, workshop owner, commission agent, real estate broker, small hotel owner, or restaurant owner."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must be between 18 and 40 years of age."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must have an annual turnover that does not exceed ₹1,50,00,000/-."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must possess a savings bank account in their name."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must possess an Aadhaar Card or Aadhaar Number."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "nps-tsep"
+}

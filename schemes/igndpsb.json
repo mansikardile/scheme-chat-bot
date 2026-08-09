@@ -1,0 +1,334 @@
+{
+  "_id": "66d1e8049c9ff8daef6d56ee",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": true,
+      "tags": [
+        "Indira Gandhi",
+        "Disability",
+        "Pension",
+        "BPL",
+        "PwD"
+      ],
+      "schemeName": "Indira Gandhi National Disability Pension Scheme- Bihar",
+      "schemeShortTitle": "IGNDPSB",
+      "implementingAgency": "Social Welfare Department, Government Of Bihar",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce87cd6d1a3bde4685312",
+          "label": "Social welfare & Empowerment"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Pension",
+          "label": "Pension"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "state": {
+        "value": 10,
+        "label": "Bihar"
+      },
+      "nodalDepartmentName": {
+        "value": 10111148,
+        "label": "Social Welfare Department"
+      },
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://state.bihar.gov.in/cache/39/Chhatra%20Yojna/Mukhyamantri%20Samajik%20Sahayata%20Evam%20Protsahan%20Chhatra%20Yojna/IGNDPS.pdf"
+        },
+        {
+          "title": "Scheme Details",
+          "url": "https://state.bihar.gov.in/cache/39/Chhatra%20Yojna/Mukhyamantri%20Samajik%20Sahayata%20Evam%20Protsahan%20Chhatra%20Yojna/Mukhyamantri%20Samajik%20Sahayata%20Evam%20Protsahan%20Chhatra%20Yojna.pdf"
+        },
+        {
+          "title": "Application Format",
+          "url": "https://cdn.s3waas.gov.in/s30d0fd7c6e093f7b804fa0150b875b868/uploads/2018/03/2018031737.pdf"
+        },
+        {
+          "title": "Official Website",
+          "url": "https://state.bihar.gov.in/socialwelfare/CitizenHome.html"
+        },
+        {
+          "title": "SSPMIS Portal",
+          "url": "https://www.sspmis.bihar.gov.in/aboutUs"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The scheme &amp;quot;Indira Gandhi National Disability Pension Scheme&amp;quot; was introduced in Bihar during the year 2009-10 as a part of the National Social Assistance Programme. The scheme is implemented by the Social Welfare Department, Government of Bihar. Under this scheme, a monthly pension is provided to persons with disabilities in the age group of 18 to 79 years who belong to Below Poverty Line (BPL) families to support them financially. This scheme is centrally sponsored.\n**Objective:**\nThe objective of this scheme is to provide social security to persons with disabilities belonging to poor families of the society by providing them financial assistance.\n",
+      "benefits_md": "\n- Under this scheme, eligible beneficiaries will receive a monthly pension of ₹400/-. \n\n**Note:** The pension amount is being paid to the beneficiaries through the Direct Benefit Transfer (DBT) process. In this process, the pension amount is transferred directly into the beneficiaries&amp;#39; accounts via the Public Financial Management System (PFMS) at the state level, based on the account numbers provided by the beneficiaries.\n",
+      "briefDescription": "Under this scheme, a monthly pension of ₹400/- is provided to persons with disabilities in the age group of 18 to 79 years who belong to Below Poverty Line (BPL) families to support them financially. This scheme is centrally sponsored.",
+      "exclusions_md": "",
+      "detailedDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "The scheme \"Indira Gandhi National Disability Pension Scheme\" was introduced in Bihar during the year 2009-10 as a part of the National Social Assistance Programme. The scheme is implemented by the Social Welfare Department, Government of Bihar. Under this scheme, a monthly pension is provided to persons with disabilities in the age group of 18 to 79 years who belong to Below Poverty Line (BPL) families to support them financially. This scheme is centrally sponsored."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "Objective:",
+                  "bold": true
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "The objective of this scheme is to provide social security to persons with disabilities belonging to poor families of the society by providing them financial assistance."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "align_justify",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Under this scheme, eligible beneficiaries will receive a monthly pension of ₹400/-. "
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "Note: ",
+                  "bold": true
+                },
+                {
+                  "text": "The pension amount is being paid to the beneficiaries through the Direct Benefit Transfer (DBT) process. In this process, the pension amount is transferred directly into the beneficiaries' accounts via the Public Financial Management System (PFMS) at the state level, based on the account numbers provided by the beneficiaries."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "process": [
+          {
+            "type": "align_justify",
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 1:",
+                    "bold": true
+                  },
+                  {
+                    "text": " To avail of the benefits of this scheme, eligible applicants should submit their duly filled and signed application in the "
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://cdn.s3waas.gov.in/s30d0fd7c6e093f7b804fa0150b875b868/uploads/2018/03/2018031737.pdf",
+                    "children": [
+                      {
+                        "text": "prescribed format"
+                      }
+                    ]
+                  },
+                  {
+                    "text": ", along with the required attachments, at the Right to Public Service (RTPS) counter located at the block office level."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 2:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Upon submission, applicants will receive an acknowledgment receipt from the RTPS counter, which should be kept for future reference."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 3:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Applicants will be notified of the application's approval or rejection via SMS or email."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 4:",
+                    "bold": true
+                  },
+                  {
+                    "text": " If approved, the Sanction Order can be collected from the same RTPS counter where the application was submitted, upon presenting the acknowledgment receipt and a valid identity card."
+                  }
+                ]
+              },
+              {
+                "type": "block_quote",
+                "children": [
+                  {
+                    "text": "Complaints & Grievance Redressal:",
+                    "bold": true,
+                    "underline": true
+                  }
+                ]
+              },
+              {
+                "type": "ul_list",
+                "children": [
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "text": "A special portal has been developed for grievance redressal in relation to the Social Security Pension Scheme ("
+                      },
+                      {
+                        "type": "link",
+                        "link": "https://www.sspmis.bihar.gov.in/",
+                        "children": [
+                          {
+                            "text": "https://www.sspmis.bihar.gov.in/"
+                          }
+                        ]
+                      },
+                      {
+                        "text": ") where the beneficiary can go and register his complaint himself or can call on toll-free number 18003456262 and register his complaint free of cost through the helpdesk."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "text": "The complaint can be lodged in the office of the Block Development Officer, Sub-divisional Office, Assistant Director, District Social Security Cell/District Child Protection Unit, Director, Social Security Office, and Additional Chief Secretary/Principal Secretary/Secretary, Social Welfare Department. Apart from this, under the Bihar Public Grievance Redressal Rights Act, 2016, the office of the Public Grievance Redressal Officer at the sub-divisional level and the District Public Grievance Redressal Officer at the district level are functioning."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "process_md": "**Step 1:** To avail of the benefits of this scheme, eligible applicants should submit their duly filled and signed application in the [prescribed format](https://cdn.s3waas.gov.in/s30d0fd7c6e093f7b804fa0150b875b868/uploads/2018/03/2018031737.pdf), along with the required attachments, at the Right to Public Service (RTPS) counter located at the block office level.\n**Step 2:** Upon submission, applicants will receive an acknowledgment receipt from the RTPS counter, which should be kept for future reference.\n**Step 3:** Applicants will be notified of the application&amp;#39;s approval or rejection via SMS or email.\n**Step 4:** If approved, the Sanction Order can be collected from the same RTPS counter where the application was submitted, upon presenting the acknowledgment receipt and a valid identity card.\n&gt; **Complaints &amp;amp; Grievance Redressal:**\n\n\n  - A special portal has been developed for grievance redressal in relation to the Social Security Pension Scheme ([https://www.sspmis.bihar.gov.in/](https://www.sspmis.bihar.gov.in/)) where the beneficiary can go and register his complaint himself or can call on toll-free number 18003456262 and register his complaint free of cost through the helpdesk.  - The complaint can be lodged in the office of the Block Development Officer, Sub-divisional Office, Assistant Director, District Social Security Cell/District Child Protection Unit, Director, Social Security Office, and Additional Chief Secretary/Principal Secretary/Secretary, Social Welfare Department. Apart from this, under the Bihar Public Grievance Redressal Rights Act, 2016, the office of the Public Grievance Redressal Officer at the sub-divisional level and the District Public Grievance Redressal Officer at the district level are functioning.\n\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n   1. The applicant should be a resident of Bihar.\n   1. The applicant should be a person with disabilities.\n   1. The applicant should have a disability of 80% or more.\n   1. The applicant’s age should be between 18 and 79 years.\n   1. The applicant should belong to a Below Poverty Line (BPL) family.\n   1. The applicant should not be receiving pension benefits under any other social security scheme.\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "ol_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant should be a resident of Bihar."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant should be a person with disabilities."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant should have a disability of 80% or more."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant’s age should be between 18 and 79 years."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant should belong to a Below Poverty Line (BPL) family."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant should not be receiving pension benefits under any other social security scheme."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "igndpsb"
+}

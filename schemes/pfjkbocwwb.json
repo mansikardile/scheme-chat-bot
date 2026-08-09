@@ -1,0 +1,669 @@
+{
+  "_id": "670cc9c20b69a7abdf7483fd",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Worker",
+        "Construction",
+        "Labour",
+        "Student",
+        "Education"
+      ],
+      "schemeName": "Professional Education (PEJKBOCWWB)",
+      "schemeShortTitle": "PFJKBOCWWB",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce76cd6d1a3bde4685292",
+          "label": "Education & Learning"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Scholarships and student finance",
+          "label": "Scholarships and student finance"
+        },
+        {
+          "value": "Universities and higher education",
+          "label": "Universities and higher education"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "state": {
+        "value": 1,
+        "label": "Jammu and Kashmir"
+      },
+      "nodalDepartmentName": {
+        "value": 1073,
+        "label": "Department of Labour and Employment"
+      },
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://www.jkbocw.gov.in/StaticPages/SchemeInformation.aspx"
+        },
+        {
+          "title": "Website",
+          "url": "https://www.jkbocw.gov.in/Index.aspx"
+        },
+        {
+          "title": "Scheme Apply",
+          "url": "https://portal.jkbocw.gov.in/LoginGuest.aspx"
+        },
+        {
+          "title": "Application Form Page No.28",
+          "url": "https://www.jkbocw.gov.in/downloads/circ.pdf"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The &quot;Professional Education&quot; scheme by the Building and Other Construction Workers Welfare Board, Labour Department, Jammu &amp; Kashmir, provides financial assistance to the children of registered workers who have engaged in at least 90 days of building or construction work in the preceding 12 months. Under this scheme, regular students receive ₹10,000/- for Para Medical and ITI diploma courses, ₹30,000/- for 3-year engineering or other recognized diploma courses, and ₹50,000/- for professional or technical degree courses.\n",
+      "benefits_md": "> **Financial Assistance based on the Educational Qualification -** \n\n\n- Para Medical Diploma Courses (Regular Students): ₹10,000/-.\n- ITI Diploma Courses (Regular Students): ₹10,000/-.\n- 3-Year Engineering / Any Other Recognized Diploma Courses (Regular Students): ₹30,000/-.\n- Professional / Technical Degree Courses (Regular Students): ₹50,000/-.\n\n",
+      "exclusions_md": "<br>\n\n",
+      "briefDescription": "The \"Professional Education\" scheme by the JKBOCW Welfare Board, Jammu & Kashmir, provides financial assistance to regular students pursuing Para Medical, ITI, Engineering, and other recognized diploma or professional/technical degree courses.",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The \"Professional Education\" scheme by the Building and Other Construction Workers Welfare Board, Labour Department, Jammu & Kashmir, provides financial assistance to the children of registered workers who have engaged in at least 90 days of building or construction work in the preceding 12 months. Under this scheme, regular students receive ₹10,000/- for Para Medical and ITI diploma courses, ₹30,000/- for 3-year engineering or other recognized diploma courses, and ₹50,000/- for professional or technical degree courses."
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "Financial Assistance based on the Educational Qualification - ",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Para Medical Diploma Courses (Regular Students): ₹10,000/-."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "ITI Diploma Courses (Regular Students): ₹10,000/-."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "3-Year Engineering / Any Other Recognized Diploma Courses (Regular Students): ₹30,000/-."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Professional / Technical Degree Courses (Regular Students): ₹50,000/-."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "exclusions": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Online",
+        "process": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Registration -",
+                "bold": true,
+                "italic": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 1:",
+                "bold": true
+              },
+              {
+                "text": " Go to the J&K Building and Other Construction Workers Welfare Board (JKBOCWWB) "
+              },
+              {
+                "type": "link",
+                "link": "https://www.jkbocw.gov.in/Index.aspx",
+                "children": [
+                  {
+                    "text": "official website."
+                  }
+                ]
+              },
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2: ",
+                "bold": true
+              },
+              {
+                "text": "On the homepage, find and click the \""
+              },
+              {
+                "type": "link",
+                "link": "https://portal.jkbocw.gov.in/MemberRegistration.aspx",
+                "children": [
+                  {
+                    "text": "Labour Registration\""
+                  }
+                ]
+              },
+              {
+                "text": " link."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 3:",
+                "bold": true
+              },
+              {
+                "text": " If you're a new user, click on \"Apply for New Registration.\""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 4: ",
+                "bold": true
+              },
+              {
+                "text": "Complete the registration form with your details, submit the form, and send the OTP to your registered mobile number. Enter the OTP and click \"Verify OTP & Submit.\""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 5: ",
+                "bold": true
+              },
+              {
+                "text": "After the OTP is verified, a confirmation message with your Login ID and password will be sent to your registered mobile number."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 6: ",
+                "bold": true
+              },
+              {
+                "text": "Use the Login ID, password, and captcha to log in (remember, the username and password are case-sensitive). filled are case-sensitive). Read all the instructions carefully and Click to continue"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 7: ",
+                "bold": true
+              },
+              {
+                "text": "Once logged in, choose the \"Construction Worker’s Registration\" option and click on \"Registration Form.\""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 8: ",
+                "bold": true
+              },
+              {
+                "text": "A dashboard will appear. Complete the form by entering all required details (marked with *)."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 9: ",
+                "bold": true
+              },
+              {
+                "text": "Upload all the important documents, such as ID proof and other relevant certificates."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 10: ",
+                "bold": true
+              },
+              {
+                "text": "Once the form is completed and documents uploaded, click \"Submit\" and pay the application fee online. You will receive a registration number after successful payment and submission."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Application - ",
+                "bold": true,
+                "italic": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 1: ",
+                "bold": true
+              },
+              {
+                "text": "Go to the "
+              },
+              {
+                "type": "link",
+                "link": "https://www.jkbocw.gov.in/Index.aspx",
+                "children": [
+                  {
+                    "text": "official website "
+                  }
+                ]
+              },
+              {
+                "text": "of the Jammu & Kashmir Building and Other Construction Workers Welfare Board."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2: ",
+                "bold": true
+              },
+              {
+                "text": "Click on "
+              },
+              {
+                "type": "link",
+                "link": "https://portal.jkbocw.gov.in/LoginGuest.aspx",
+                "children": [
+                  {
+                    "text": "\"Login,\""
+                  }
+                ]
+              },
+              {
+                "text": " enter your details, and sign in to your account."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 3: ",
+                "bold": true
+              },
+              {
+                "text": "After logging in, click on \"Scheme Registration\" and select \"Apply for Scheme.\""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 4: ",
+                "bold": true
+              },
+              {
+                "text": "Choose the scheme you wish to apply for in order to avail the benefits."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 5: ",
+                "bold": true
+              },
+              {
+                "text": "Enter all required information and upload the necessary documents as prompted."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 6: ",
+                "bold": true
+              },
+              {
+                "text": "Finally, click on \"Submit Application\" to complete the process."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Status Tracking - ",
+                "bold": true,
+                "italic": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Applicant can track their application status online through the "
+              },
+              {
+                "type": "link",
+                "link": "https://www.jkbocw.gov.in/Index.aspx",
+                "children": [
+                  {
+                    "text": "official website"
+                  }
+                ]
+              },
+              {
+                "text": " of the  Jammu & Kashmir Building and Other Construction Workers Welfare Board. Relevant updates will be sent to the registered mobile number."
+              }
+            ]
+          }
+        ],
+        "process_md": "***Registration -***\n**Step 1:** Go to the J&amp;K Building and Other Construction Workers Welfare Board (JKBOCWWB) [official website.](https://www.jkbocw.gov.in/Index.aspx)\n**Step 2:** On the homepage, find and click the &quot;[Labour Registration&quot;](https://portal.jkbocw.gov.in/MemberRegistration.aspx) link.\n**Step 3:** If you&#39;re a new user, click on &quot;Apply for New Registration.&quot;\n**Step 4:** Complete the registration form with your details, submit the form, and send the OTP to your registered mobile number. Enter the OTP and click &quot;Verify OTP &amp; Submit.&quot;\n**Step 5:** After the OTP is verified, a confirmation message with your Login ID and password will be sent to your registered mobile number.\n**Step 6:** Use the Login ID, password, and captcha to log in (remember, the username and password are case-sensitive). filled are case-sensitive). Read all the instructions carefully and Click to continue\n**Step 7:** Once logged in, choose the &quot;Construction Worker’s Registration&quot; option and click on &quot;Registration Form.&quot;\n**Step 8:** A dashboard will appear. Complete the form by entering all required details (marked with *).\n**Step 9:** Upload all the important documents, such as ID proof and other relevant certificates.\n**Step 10:** Once the form is completed and documents uploaded, click &quot;Submit&quot; and pay the application fee online. You will receive a registration number after successful payment and submission.\n<br>\n\n***Application -*** \n**Step 1:** Go to the [official website ](https://www.jkbocw.gov.in/Index.aspx)of the Jammu &amp; Kashmir Building and Other Construction Workers Welfare Board.\n**Step 2:** Click on [&quot;Login,&quot;](https://portal.jkbocw.gov.in/LoginGuest.aspx) enter your details, and sign in to your account.\n**Step 3:** After logging in, click on &quot;Scheme Registration&quot; and select &quot;Apply for Scheme.&quot;\n**Step 4:** Choose the scheme you wish to apply for in order to avail the benefits.\n**Step 5:** Enter all required information and upload the necessary documents as prompted.\n**Step 6:** Finally, click on &quot;Submit Application&quot; to complete the process.\n<br>\n\n***Status Tracking -*** \nApplicant can track their application status online through the [official website](https://www.jkbocw.gov.in/Index.aspx) of the  Jammu &amp; Kashmir Building and Other Construction Workers Welfare Board. Relevant updates will be sent to the registered mobile number.\n"
+      },
+      {
+        "mode": "Offline",
+        "process": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              },
+              {
+                "type": "link",
+                "link": "https://www.jkbocw.gov.in/downloads/circ.pdf",
+                "children": [
+                  {
+                    "text": ""
+                  }
+                ]
+              },
+              {
+                "text": "Step 1: ",
+                "bold": true
+              },
+              {
+                "text": "The interested applicant should visit the JKBOCWWB office during office hours and request a hard copy of the prescribed application form from the staff responsible for issuing and collecting filled-in applications."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "OR"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "The interested applicant should take print the "
+              },
+              {
+                "type": "link",
+                "link": "https://www.jkbocw.gov.in/downloads/circ.pdf",
+                "children": [
+                  {
+                    "text": "application form"
+                  }
+                ]
+              },
+              {
+                "text": "."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2: ",
+                "bold": true
+              },
+              {
+                "text": "In the application form, fill in all mandatory fields, paste a passport-sized photograph (signed across, if required), and attach copies of all mandatory documents (self-attested, if required)."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 3: ",
+                "bold": true
+              },
+              {
+                "text": "Submit the duly filled and signed application form along with the required documents to the Assistant Labour Commissioner  (ALC ) of your district."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Ensure submission is made within any prescribed period, if applicable."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 4: ",
+                "bold": true
+              },
+              {
+                "text": "Request a receipt or acknowledgement from the concerned authority upon submission. Ensure the receipt contains essential details such as the date and time of submission and a unique identification number (if applicable)."
+              }
+            ]
+          }
+        ],
+        "process_md": "**Step 1:** The interested applicant should visit the JKBOCWWB office during office hours and request a hard copy of the prescribed application form from the staff responsible for issuing and collecting filled-in applications.\nOR\nThe interested applicant should take print the [application form](https://www.jkbocw.gov.in/downloads/circ.pdf).\n**Step 2:** In the application form, fill in all mandatory fields, paste a passport-sized photograph (signed across, if required), and attach copies of all mandatory documents (self-attested, if required).\n**Step 3:** Submit the duly filled and signed application form along with the required documents to the Assistant Labour Commissioner  (ALC ) of your district.\nEnsure submission is made within any prescribed period, if applicable.\n**Step 4:** Request a receipt or acknowledgement from the concerned authority upon submission. Ensure the receipt contains essential details such as the date and time of submission and a unique identification number (if applicable).\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "> **For Registration -** \n\nThe applicant should be a resident of Jammu &amp; Kashmir.\nThe applicant should be a Building/ Construction Worker.\nThe applicant should be between 18 and 60 years.\nThe applicant should have engaged in any building or other construction work for at least 90 days during the preceding 12 months.\nThe registration of the applicant should be renewed annually.\n> **For Application -** \n\n\n1. The parents must be registered members of the &quot;Jammu &amp; Kashmir Building and Other Construction Workers Welfare Board&quot;.\n1. The parents must have an active membership with the JKBOCWW Board.\n1. The applicant must be a student.\n1. The applicant must be a regular in attendance.\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "For Registration - ",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The applicant should be a resident of Jammu & Kashmir."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The applicant should be a Building/ Construction Worker."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The applicant should be between 18 and 60 years."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The applicant should have engaged in any building or other construction work for at least 90 days during the preceding 12 months."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The registration of the applicant should be renewed annually."
+            }
+          ]
+        },
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "For Application - ",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The parents must be registered members of the \"Jammu & Kashmir Building and Other Construction Workers Welfare Board\"."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The parents must have an active membership with the JKBOCWW Board."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must be a student."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must be a regular in attendance."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "pfjkbocwwb"
+}

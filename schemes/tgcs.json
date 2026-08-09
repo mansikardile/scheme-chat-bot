@@ -1,0 +1,435 @@
+{
+  "_id": "6911bbaee62e1ea66d0702dc",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Training",
+        "Certification",
+        "Tourism",
+        "Entrepreneurship",
+        "Employment"
+      ],
+      "schemeName": "Tourist Guide Certification Scheme",
+      "schemeShortTitle": "TGCS",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce94cd6d1a3bde468536f",
+          "label": "Travel & Tourism"
+        },
+        {
+          "value": "628ce85cd6d1a3bde4685304",
+          "label": "Skills & Employment"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Tourism in India",
+          "label": "Tourism in India"
+        },
+        {
+          "value": "Employment services and jobs",
+          "label": "Employment services and jobs"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "schemeFor": "Individual",
+      "state": {
+        "value": 30,
+        "label": "Goa"
+      },
+      "schemeType": null,
+      "nodalMinistryName": null,
+      "nodalDepartmentName": {
+        "value": 30000047,
+        "label": "Tourism Department"
+      },
+      "otherMinistryName": null,
+      "otherDepartmentNames": null
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://goaprintingpress.gov.in/downloads/2223/2223-6-SI-OG-0.pdf"
+        }
+      ],
+      "schemeImageUrl": "",
+      "briefDescription": "The scheme aims to train and certify Goan youth as tourist guides through Basic and Advanced modules. It reimburses fees for the Basic course and sponsors the Advanced curriculum, creating employment and entrepreneurial opportunities in Goa’s tourism sector.",
+      "detailedDescription_md": "The scheme “Tourist Guide Certification Scheme” was launched by the Department of Tourism, Government of Goa. The scheme aims to increase the number of certified tourists guides in Goa, thereby generating employment opportunities for Goan youth and improving the quality of tourist facilitation services in the State. It provides (i) reimbursement of the fee paid by Goan participants for the Incredible India Tourist Facilitator (Basic) Certification Programme of the Ministry of Tourism, Government of India, and (ii) sponsorship of the cost of an Advanced Tourist Guide Curriculum developed by the Department of Tourism, Goa. The applications are accepted offline.\n<br>\n\n",
+      "benefits_md": "##### ***Reimbursement of Fees***\n\n- Reimbursement of the fee paid by the participant for the Incredible India Tourist Facilitator (Basic) Certification Programme (IITF Basic) conducted by the Ministry of Tourism, Government of India.\n- SC/ST category candidates are already exempted from payment of registration fees under the IITF programme and therefore are not eligible for reimbursement under this scheme.\n\n##### ***Sponsored Training***\n\n-  Sponsorship of the Advanced Tourist Guide Curriculum developed by the Department of Tourism, Goa, covering local history, heritage, culture, tourist destinations, soft skills, and etiquette.\n\n##### ***Certification***\n\n-  On completion of the Advanced Tourist Guide Curriculum, the Department of Tourism awards a Tourist Guide Certificate.\n\n##### ***Optional Language Specialisation***\n\n-  Participants may optionally pursue Foreign Language Courses after certification at their own cost.\n\n##### ***Special Provisions***\n\n- Existing tourist guides registered with the Department of Tourism as on the date of notification may register for the Advanced Tourist Guide Curriculum at no cost.\n- Examination fee of ₹ 500 for the IITF Basic course shall be borne by the candidate.\n\n<br>\n\n",
+      "exclusions_md": "<br>\n\n",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The scheme “Tourist Guide Certification Scheme” was launched by the Department of Tourism, Government of Goa. The scheme aims to increase the number of certified tourists guides in Goa, thereby generating employment opportunities for Goan youth and improving the quality of tourist facilitation services in the State. It provides (i) reimbursement of the fee paid by Goan participants for the Incredible India Tourist Facilitator (Basic) Certification Programme of the Ministry of Tourism, Government of India, and (ii) sponsorship of the cost of an Advanced Tourist Guide Curriculum developed by the Department of Tourism, Goa. The applications are accepted offline."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 3,
+        "value": "composite",
+        "label": "Composite"
+      },
+      "benefits": [
+        {
+          "type": "heading_five",
+          "children": [
+            {
+              "text": "Reimbursement of Fees",
+              "bold": true,
+              "underline": true,
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Reimbursement of the fee paid by the participant for the Incredible India Tourist Facilitator (Basic) Certification Programme (IITF Basic) conducted by the Ministry of Tourism, Government of India."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "SC/ST category candidates are already exempted from payment of registration fees under the IITF programme and therefore are not eligible for reimbursement under this scheme."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "heading_five",
+          "children": [
+            {
+              "text": "Sponsored Training",
+              "bold": true,
+              "underline": true,
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": " Sponsorship of the Advanced Tourist Guide Curriculum developed by the Department of Tourism, Goa, covering local history, heritage, culture, tourist destinations, soft skills, and etiquette."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "heading_five",
+          "children": [
+            {
+              "text": "Certification",
+              "bold": true,
+              "underline": true,
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": " On completion of the Advanced Tourist Guide Curriculum, the Department of Tourism awards a Tourist Guide Certificate."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "heading_five",
+          "children": [
+            {
+              "text": "Optional Language Specialisation",
+              "bold": true,
+              "underline": true,
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": " Participants may optionally pursue Foreign Language Courses after certification at their own cost."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "heading_five",
+          "children": [
+            {
+              "text": "Special Provisions",
+              "bold": true,
+              "underline": true,
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Existing tourist guides registered with the Department of Tourism as on the date of notification may register for the Advanced Tourist Guide Curriculum at no cost."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Examination fee of ₹ 500 for the IITF Basic course shall be borne by the candidate."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ],
+      "exclusions": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "process": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 1:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " The applicant shall register for the Incredible "
+              },
+              {
+                "type": "link",
+                "link": "https://iitf.gov.in",
+                "children": [
+                  {
+                    "text": "India Tourist Facilitator (Basic) Certification Programme"
+                  }
+                ]
+              },
+              {
+                "text": " offered by the Ministry of Tourism, Government of India."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " After successful completion of the programme, the applicant must download the completion certificate and retain the fee receipt or challan. The applicant shall fill in the Reimbursement Application Form available at the Office of the Department of Tourism, Goa, and submit it along with the required documents."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 3:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " The Department of Tourism verifies the documents and details submitted by the applicant. After verification, the Department of Tourism reimburses the IITF (Basic) Course Fee through the applicant’s bank account."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 4:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " After completion of IITF (Basic), the participant shall register for the Advanced Tourist Guide Curriculum offered by the institution engaged by DOT. Upon successful completion of the Advanced Tourist Guide Curriculum, the Department of Tourism will award a Tourist Guide Certificate to the participant."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 5:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " The participant shall download the Registration Form from www.goatourism.gov.in, fill it out, and submit it to DOT along with the documents required for registration."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 6: ",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": "After registration, the certified tourist guide may opt for one or more foreign language courses at their own expense to enhance employability."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          }
+        ],
+        "process_md": "**Step 1:** The applicant shall register for the Incredible [India Tourist Facilitator (Basic) Certification Programme](https://iitf.gov.in) offered by the Ministry of Tourism, Government of India.\n**Step 2:** After successful completion of the programme, the applicant must download the completion certificate and retain the fee receipt or challan. The applicant shall fill in the Reimbursement Application Form available at the Office of the Department of Tourism, Goa, and submit it along with the required documents.\n**Step 3:** The Department of Tourism verifies the documents and details submitted by the applicant. After verification, the Department of Tourism reimburses the IITF (Basic) Course Fee through the applicant’s bank account.\n**Step 4:** After completion of IITF (Basic), the participant shall register for the Advanced Tourist Guide Curriculum offered by the institution engaged by DOT. Upon successful completion of the Advanced Tourist Guide Curriculum, the Department of Tourism will award a Tourist Guide Certificate to the participant.\n**Step 5:** The participant shall download the Registration Form from www.goatourism.gov.in, fill it out, and submit it to DOT along with the documents required for registration.\n**Step 6:** After registration, the certified tourist guide may opt for one or more foreign language courses at their own expense to enhance employability.\n<br>\n\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n- The applicant must be a person of Goan domicile.\n- The applicant must be between 18 and 40 years of age.\n- The applicant must have passed 10 + 2 (or equivalent) examination from any recognised board in India.\n- The applicant must have successfully completed the IITF (Basic) Certification Programme of the Ministry of Tourism, Government of India.\n- The applicant must not belong to SC/ST category for claiming reimbursement (as these categories are already fee-exempt under IITF).\n- The applicant must register with the Department of Tourism, Goa after completion of the Advanced Tourist Guide Curriculum to be recognised as a certified guide.\n- Existing tourist guides registered with DOT before the publication of this scheme are eligible only for the sponsored Advanced Tourist Guide Curriculum.\n\n<br>\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must be a person of Goan domicile."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must be between 18 and 40 years of age."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must have passed 10 + 2 (or equivalent) examination from any recognised board in India."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must have successfully completed the IITF (Basic) Certification Programme of the Ministry of Tourism, Government of India."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must not belong to SC/ST category for claiming reimbursement (as these categories are already fee-exempt under IITF)."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must register with the Department of Tourism, Goa after completion of the Advanced Tourist Guide Curriculum to be recognised as a certified guide."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Existing tourist guides registered with DOT before the publication of this scheme are eligible only for the sponsored Advanced Tourist Guide Curriculum."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "tgcs"
+}

@@ -1,0 +1,742 @@
+{
+  "_id": "677e25895876a2e5d4b22eca",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Business",
+        "Entrepreneurship",
+        "MSMEs",
+        "Interest Subsidy"
+      ],
+      "schemeName": "Aatmanirbhar Gujarat Scheme for assistance to MSMEs: Net SGST reimbursement to Micro, Small and Medium Manufacturing Enterprise (MSMEs):",
+      "schemeShortTitle": "AGMSMECSGST",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce733d6d1a3bde4685278",
+          "label": "Business & Entrepreneurship"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Setting up / start-up / entrepreneurship",
+          "label": "Setting up / start-up / entrepreneurship"
+        }
+      ],
+      "schemeOpenDate": "2022-10-05",
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "state": {
+        "value": 24,
+        "label": "Gujarat"
+      },
+      "nodalDepartmentName": {
+        "value": 2444452,
+        "label": "Industries and Mines Department"
+      },
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines 1",
+          "url": "https://msmec.gujarat.gov.in/uploads/homepagescroll/GR09082023.pdf"
+        },
+        {
+          "title": "Guidelines 2",
+          "url": "https://msmec.gujarat.gov.in/uploads/homepagescroll/Guideline09082023.pdf"
+        },
+        {
+          "title": "Online Application Portal",
+          "url": "https://ifp.gujarat.gov.in/IC/digigov.htm?actionFlag=loadCitizenRegPage"
+        },
+        {
+          "title": "Document Checklist",
+          "url": "https://ic.gujarat.gov.in/documents/commondoc/2023/CHECKLIST_MERGE.pdf"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The &amp;quot;Aatmanirbhar Gujarat Scheme for MSMEs&amp;quot; is an umbrella scheme launched by the Industries and Mines Department, Gujarat. It aims to empower the state&amp;#39;s dynamic MSME sector, which significantly contributes to employment, GDP, and exports. Effective from October 5, 2022, to October 4, 2027, this initiative supports growth, investments, and the vision of &amp;quot;Aatmanirbhar Gujarat&amp;quot; and &amp;quot;Aatmanirbhar Bharat.&amp;quot;\nThe component &amp;quot;Net SGST reimbursement to Micro, Small and Medium Manufacturing Enterprise (MSMEs)&amp;quot; provides reimbursement of net SGST based on the taluka category of the project.\n",
+      "benefits_md": "**Category of Taluka** **Quantum of Incentive**  Category 1100% of net SGST for 10 years upto 7.5% of eFCl p.a. Category 2 90% of net SGST for 10 years upto 6.5% of eFCl p.a. Category 3 &amp;amp;amp;amp; Municipal Corporation Areas80% of net SGST for 10 years upto 5% of eFCI p.a. <br>\n\n> **Note:** The period of 10 years shall be from the date of commencement of commercial production.\n\n",
+      "exclusions_md": "\n  - Enterprises that have already availed incentives for the same GFCI under any state government scheme are ineligible unless specifically allowed.\n  - Enterprises engaging in resale of goods are ineligible.\n  - Enterprises showing inter-State sales as intra-State sales to claim higher incentives are disqualified and liable for repayment with interest.\n  - Failure to submit certified details of reimbursement claims will render the enterprise ineligible.\n\n&lt;br&gt;\n\n&lt;br&gt;\n\n&lt;br&gt;\n\n&lt;br&gt;\n\n&lt;br&gt;\n\n&lt;br&gt;\n\n",
+      "briefDescription": "The \"Aatmanirbhar Gujarat Scheme for assistance to MSMEs\" aims to empower the state's dynamic MSME sector, which significantly contributes to employment, GDP, and exports.\n",
+      "detailedDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "The \"Aatmanirbhar Gujarat Scheme for MSMEs\" is an umbrella scheme launched by the Industries and Mines Department, Gujarat. It aims to empower the state's dynamic MSME sector, which significantly contributes to employment, GDP, and exports. Effective from October 5, 2022, to October 4, 2027, this initiative supports growth, investments, and the vision of \"Aatmanirbhar Gujarat\" and \"Aatmanirbhar Bharat.\""
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "The component \"Net SGST reimbursement to Micro, Small and Medium Manufacturing Enterprise (MSMEs)\" provides reimbursement of net SGST based on the taluka category of the project."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "table",
+          "children": [
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Category of Taluka ",
+                      "bold": true
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Quantum of Incentive ",
+                      "bold": true
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": " Category 1"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "100% of net SGST for 10 years upto 7.5% of eFCl p.a. "
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Category 2 "
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "90% of net SGST for 10 years upto 6.5% of eFCl p.a. "
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Category 3 & Municipal Corporation Areas"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "80% of net SGST for 10 years upto 5% of eFCI p.a. "
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        },
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "Note:",
+              "bold": true
+            },
+            {
+              "text": " The period of 10 years shall be from the date of commencement of commercial production."
+            }
+          ]
+        }
+      ],
+      "exclusions": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "ul_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Enterprises that have already availed incentives for the same GFCI under any state government scheme are ineligible unless specifically allowed."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Enterprises engaging in resale of goods are ineligible."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Enterprises showing inter-State sales as intra-State sales to claim higher incentives are disqualified and liable for repayment with interest."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Failure to submit certified details of reimbursement claims will render the enterprise ineligible."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": ""
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": ""
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": ""
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": ""
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": ""
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Online",
+        "process": [
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "text": "Registration Process:",
+                "bold": true,
+                "underline": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 1:",
+                "bold": true
+              },
+              {
+                "text": " Visit the "
+              },
+              {
+                "type": "link",
+                "link": "https://ifp.gujarat.gov.in/DIGIGOV/",
+                "children": [
+                  {
+                    "text": "Investor Facilitation Portal (IFP)"
+                  }
+                ]
+              },
+              {
+                "text": " portal. Click on \"New Investor Registration\" to access the registration form."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2: ",
+                "bold": true
+              },
+              {
+                "text": "Fill in the Registration Form. Click on \"Submit\". "
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 3: ",
+                "bold": true
+              },
+              {
+                "text": "Verify the E-mail ID using the link sent on your registered E-mail ID."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 4: ",
+                "bold": true
+              },
+              {
+                "text": "After verification, you will be registered successfully."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "text": "Post-Registration Process:",
+                "bold": true,
+                "underline": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 1: ",
+                "bold": true
+              },
+              {
+                "text": "Visit the "
+              },
+              {
+                "type": "link",
+                "link": "https://ifp.gujarat.gov.in/DIGIGOV/",
+                "children": [
+                  {
+                    "text": "Investor Facilitation Portal (IFP)"
+                  }
+                ]
+              },
+              {
+                "text": " portal. Click on \"Login\"."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2: ",
+                "bold": true
+              },
+              {
+                "text": "Enter the email address and password you used during registration."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 3: ",
+                "bold": true
+              },
+              {
+                "text": "Click the \"Login\" button to access your account."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 4: ",
+                "bold": true
+              },
+              {
+                "text": "Now fill in the required details and mandatory documents about your business to complete the application process."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "text": "Application for Provisional/Final Eligibility Certificate for Net SGST: ",
+                "bold": true
+              },
+              {
+                "text": "After commencement of commercial production, the eligible enterprise, shall submit an application for provisional eligibility certificate within 1 year from the date of commencement of commercial production or within one year from the date of issue of this G.R., whichever is later."
+              }
+            ]
+          },
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "text": "Procedure for claim of assistance for Net SGST:",
+                "bold": true
+              },
+              {
+                "text": " The eligible enterprise shall submit the claim application for assistance, at the interval of every 3 months, to Sanctioning & disbursing authority."
+              }
+            ]
+          },
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "text": "Helpdesk: ",
+                "bold": true
+              },
+              {
+                "type": "link",
+                "link": "https://ifp.gujarat.gov.in/DIGIGOV/IFP-pages/contact.jsp?pagedisp=static",
+                "children": [
+                  {
+                    "text": "Contact here."
+                  }
+                ]
+              },
+              {
+                "text": ""
+              },
+              {
+                "type": "link",
+                "link": "https://ifp.gujarat.gov.in/DIGIGOV/IFP-pages/contact.jsp?pagedisp=static",
+                "children": [
+                  {
+                    "text": ""
+                  }
+                ]
+              },
+              {
+                "text": ""
+              }
+            ]
+          }
+        ],
+        "process_md": "> **Registration Process:**\n\n**Step 1:** Visit the [Investor Facilitation Portal (IFP)](https://ifp.gujarat.gov.in/DIGIGOV/) portal. Click on &quot;New Investor Registration&quot; to access the registration form.\n**Step 2:** Fill in the Registration Form. Click on &quot;Submit&quot;. \n**Step 3:** Verify the E-mail ID using the link sent on your registered E-mail ID.\n**Step 4:** After verification, you will be registered successfully.\n<br>\n\n> **Post-Registration Process:**\n\n**Step 1:** Visit the [Investor Facilitation Portal (IFP)](https://ifp.gujarat.gov.in/DIGIGOV/) portal. Click on &quot;Login&quot;.\n**Step 2:** Enter the email address and password you used during registration.\n**Step 3:** Click the &quot;Login&quot; button to access your account.\n**Step 4:** Now fill in the required details and mandatory documents about your business to complete the application process.\n<br>\n\n> **Application for Provisional/Final Eligibility Certificate for Net SGST:** After commencement of commercial production, the eligible enterprise, shall submit an application for provisional eligibility certificate within 1 year from the date of commencement of commercial production or within one year from the date of issue of this G.R., whichever is later.\n\n> **Procedure for claim of assistance for Net SGST:** The eligible enterprise shall submit the claim application for assistance, at the interval of every 3 months, to Sanctioning &amp; disbursing authority.\n\n> **Helpdesk:** [Contact here.](https://ifp.gujarat.gov.in/DIGIGOV/IFP-pages/contact.jsp?pagedisp=static)\n\n"
+      }
+    ],
+    "schemeDefinitions": [
+      {
+        "name": "New Enterprise",
+        "definition": [
+          {
+            "type": "align_justify",
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "A New Enterprise means an enterprise set up by the MSME, that has commenced commercial production/ rendering of services during the operative period of the scheme, provided it satisfies the following conditions:"
+                  }
+                ]
+              },
+              {
+                "type": "ul_list",
+                "children": [
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "text": "The new enterprise should have obtained acknowledgement/ registration from Ministry of MSME or DPIIT, as the case may be."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "text": "The new enterprise should have separately identifiable fixed capital investment. "
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "However, the enterprise will not lose its eligibility, if the utilities of an existing project, such as for water, electricity, steam, gas, pollution control facilities etc. are utilized. "
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "definitions_md": "A New Enterprise means an enterprise set up by the MSME, that has commenced commercial production/ rendering of services during the operative period of the scheme, provided it satisfies the following conditions:\n\n  - The new enterprise should have obtained acknowledgement/ registration from Ministry of MSME or DPIIT, as the case may be.\n  - The new enterprise should have separately identifiable fixed capital investment. \n\nHowever, the enterprise will not lose its eligibility, if the utilities of an existing project, such as for water, electricity, steam, gas, pollution control facilities etc. are utilized. \n",
+        "source": "https://msmec.gujarat.gov.in/uploads/homepagescroll/GR09082023.pdf"
+      },
+      {
+        "name": "Existing Enterprise",
+        "definition": [
+          {
+            "type": "align_justify",
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "An Existing Enterprise means an MSME that is in production/is rendering services before initiating the expansion/diversification. A new enterprise set up during the operative period of the scheme, will be termed as existing enterprise in reference to the expansion/ diversification."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          }
+        ],
+        "definitions_md": "An Existing Enterprise means an MSME that is in production/is rendering services before initiating the expansion/diversification. A new enterprise set up during the operative period of the scheme, will be termed as existing enterprise in reference to the expansion/ diversification.\n<br>\n\n",
+        "source": "https://msmec.gujarat.gov.in/uploads/homepagescroll/GR09082023.pdf"
+      },
+      {
+        "name": "Gross Fixed Capital Investment (GFCI)",
+        "definition": [
+          {
+            "type": "align_justify",
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Gross Fixed Capital Investment means the investment made in building, plant and machinery, utilities, tools and equipment, and other assets (excluding Land) required for manufacturing the end product/ rendering of services. Assets acquired and paid for during the eligible investment period of the project under this scheme shall be considered for determining the gross fixed capital investment."
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "definitions_md": "Gross Fixed Capital Investment means the investment made in building, plant and machinery, utilities, tools and equipment, and other assets (excluding Land) required for manufacturing the end product/ rendering of services. Assets acquired and paid for during the eligible investment period of the project under this scheme shall be considered for determining the gross fixed capital investment.\n",
+        "source": "https://msmec.gujarat.gov.in/uploads/homepagescroll/GR09082023.pdf"
+      },
+      {
+        "name": "Eligible Fixed Capital Investment (EFCI)",
+        "definition": [
+          {
+            "type": "align_justify",
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Eligible Fixed Capital Investment means following investments made on or after the date of issue of this GR and upto the last date of the eligible investment period."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          }
+        ],
+        "definitions_md": "Eligible Fixed Capital Investment means following investments made on or after the date of issue of this GR and upto the last date of the eligible investment period.\n<br>\n\n",
+        "source": "https://msmec.gujarat.gov.in/uploads/homepagescroll/GR09082023.pdf"
+      }
+    ],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n   1. The firm must be a Micro/Small/Medium enterprise.\n   1. The enterprise must have obtained acknowledgment or registration from the Ministry of MSME or the Department for Promotion of Industry and Internal Trade (DPIIT), as applicable.\n   1. New manufacturing enterprises or existing ones undertaking expansion or diversification are eligible.\n   1. The enterprise must commence commercial production during the scheme&amp;#39;s operative period.\n   1. The subsidy is based on the lower of the Gross Fixed Capital Investment (GFCI) or the cost appraised by a bank or financial institution.\n   1. Enterprises must obtain separate GST registration for manufacturing eligible products.\n   1. Separate books of accounts are required for each manufacturing unit, certified by a Chartered Accountant.\n   1. Incentives are only for goods manufactured in the eligible enterprise&amp;#39;s premises, not for resold goods.\n   1. Compliance with all reporting and reimbursement requirements is mandatory.\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "ol_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The firm must be a Micro/Small/Medium enterprise."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The enterprise must have obtained acknowledgment or registration from the Ministry of MSME or the Department for Promotion of Industry and Internal Trade (DPIIT), as applicable."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "New manufacturing enterprises or existing ones undertaking expansion or diversification are eligible."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The enterprise must commence commercial production during the scheme's operative period."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The subsidy is based on the lower of the Gross Fixed Capital Investment (GFCI) or the cost appraised by a bank or financial institution."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Enterprises must obtain separate GST registration for manufacturing eligible products."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Separate books of accounts are required for each manufacturing unit, certified by a Chartered Accountant."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Incentives are only for goods manufactured in the eligible enterprise's premises, not for resold goods."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Compliance with all reporting and reimbursement requirements is mandatory."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "agmsmecsgst"
+}

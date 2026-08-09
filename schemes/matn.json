@@ -1,0 +1,168 @@
+{
+  "_id": "64b4c282380f8e123549d542",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": null,
+      "tags": [
+        "Tamil Nadu",
+        "Marriage",
+        "Employees",
+        "Son",
+        "Daughter"
+      ],
+      "schemeName": "Marriage Assistance",
+      "schemeShortTitle": "MATN",
+      "level": {
+        "value": "state",
+        "label": "State"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce87cd6d1a3bde4685312",
+          "label": "Social welfare & Empowerment"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Financial assistance",
+          "label": "Financial assistance"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "state": {
+        "value": 33,
+        "label": "Tamil Nadu"
+      },
+      "nodalDepartmentName": {
+        "value": 3333347,
+        "label": "Labour and Employment Department"
+      },
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://www.lwb.tn.gov.in/schemes.php?Marriage_assistance"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The Government of Tamil Nadu introduced &quot;Marriage Assistance&quot;  with a sum of Rs.10,000/- for both male and female is given as Marriage Assistance to employees or their Son/Daughter who legally attain the age of marriage.\n",
+      "benefits_md": "A sum of Rs.10,000/- for both male and female is given as Marriage Assistance to employees or their Son/Daughter who legally attain the age of marriage.\n",
+      "briefDescription": "The Government of Tamil Nadu introduced \"Marriage Assistance\"  for the employees or their Son/Daughter who legally attain the age of marriage.",
+      "exclusions_md": "",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The Government of Tamil Nadu introduced \"Marriage Assistance\"  with a sum of Rs.10,000/- for both male and female is given as Marriage Assistance to employees or their Son/Daughter who legally attain the age of marriage."
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "A sum of Rs.10,000/- for both male and female is given as Marriage Assistance to employees or their Son/Daughter who legally attain the age of marriage."
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "url": "",
+        "process": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Applicants who require the "
+              },
+              {
+                "type": "link",
+                "link": "https://www.lwb.tn.gov.in/forms/Marriage_assistance.pdf",
+                "children": [
+                  {
+                    "text": "application form"
+                  }
+                ]
+              },
+              {
+                "text": " in person or self-addressed Rs.- Postage"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "It can be obtained through the enclosed envelope."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Address to apply.- Secretary, Tamil Nadu Professional Welfare Board, PO Box No. 718, T.M.S. Campus, Thenampet, Chennai-600 006."
+              }
+            ]
+          }
+        ],
+        "process_md": "Applicants who require the [application form](https://www.lwb.tn.gov.in/forms/Marriage_assistance.pdf) in person or self-addressed Rs.- Postage\nIt can be obtained through the enclosed envelope.\n<br>\n\nAddress to apply.- Secretary, Tamil Nadu Professional Welfare Board, PO Box No. 718, T.M.S. Campus, Thenampet, Chennai-600 006.\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n1. Should have contributed to Labour Welfare Fund.\n1. Employee’s monthly salary not exceeding Rs.25,000/- (Basic pay + DA).\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Should have contributed to Labour Welfare Fund."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Employee’s monthly salary not exceeding Rs.25,000/- (Basic pay + DA)."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "matn"
+}

@@ -1,0 +1,765 @@
+{
+  "_id": "6291ee6be65001fa5dfb2269",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": true,
+      "tags": [
+        "Student",
+        "Scholarship",
+        "Scheduled Caste",
+        "International Education",
+        "PhD",
+        "Degree",
+        "Post-Graduation",
+        "Tuition Fees"
+      ],
+      "schemeName": "National Overseas Scholarship For Scheduled Caste Etc. Candidates",
+      "schemeShortTitle": "NOS-SC",
+      "implementingAgency": "National Scholarship Portal (NSP)",
+      "level": {
+        "value": "central",
+        "label": "Central"
+      },
+      "schemeType": {
+        "value": "central-sector-scheme",
+        "label": "Central Sector Scheme"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce76cd6d1a3bde4685292",
+          "label": "Education & Learning",
+          "subcategories": [
+            "Early childhood",
+            "Universities and higher education",
+            "International education",
+            "International students",
+            "Scholarships and student finance",
+            "Apprenticeships and training",
+            "Education and training grants, fellowship, stipend",
+            "Resources for schools",
+            "Coaching",
+            "Internship"
+          ]
+        },
+        {
+          "value": "628ce87cd6d1a3bde4685312",
+          "label": "Social welfare & Empowerment",
+          "subcategories": [
+            "Pension",
+            "Crisis/Disaster/Accident",
+            "Shelter",
+            "Rehabilitation",
+            "Loan",
+            "Insurance",
+            "Provident fund",
+            "Aids/Appliances",
+            "Micro finance",
+            "Marriage",
+            "Financial assistance",
+            "Citizen empowerment"
+          ]
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "International education",
+          "label": "International education"
+        },
+        {
+          "value": "International students",
+          "label": "International students"
+        },
+        {
+          "value": "Universities and higher education",
+          "label": "Universities and higher education"
+        },
+        {
+          "value": "Scholarships and student finance",
+          "label": "Scholarships and student finance"
+        },
+        {
+          "value": "Financial assistance",
+          "label": "Financial assistance"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "schemeFor": "Individual",
+      "nodalMinistryName": {
+        "value": 712,
+        "label": "Ministry Of Social Justice and Empowerment"
+      },
+      "nodalDepartmentName": {
+        "value": 11112,
+        "label": "Department of Social Justice & Empowerment"
+      }
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://nosmsje.gov.in/public/images/Scheme-guidelines-2025-26.pdf"
+        }
+      ],
+      "schemeImageUrl": "https://uttara-s3-bucket.s3.ap-south-1.amazonaws.com/schemes/nos-sc/nos-sc.svg",
+      "detailedDescription_md": "A scholarship scheme by Ministry of Social Justice &amp; Empowerment for regular, full-time students from Scheduled Castes, Denotified Nomadic and Semi Nomadic Tribes, Landless Agricultural Labourers and Traditional Artisans; to obtain higher education viz., Master degree or Ph.D courses by studying abroad in Institutions/Universities accredited by the Government/authorized body of that country in any field of study.\n",
+      "benefits_md": "\n1. **Annual Maintenance Allowance:** For the United States of America (USA) &amp; other countries except for the UK: 15400 US Dollars. For United Kingdom (UK): 9900 Great Britain Pounds1. **Contingency Allowance:** For the United States of America (USA) &amp; other countries except for the UK: 1500 US Dollars. For United Kingdom (UK): 1100 Great Britain Pounds1. **Tuition Fees:** Actual as charged1. **Visa Fees:** Actual Visa Fees in INR1. **Medical Insurance Premium:** Actual as charged1. **Incidental Journey Allowance &amp; Equipment Allowance:** 20 US Dollars for each or its equivalent in INR.1. **Air Passage:** Purchase air tickets (from the nearest Airport to Hometown in India to the nearest place to the educational institution and back to India) from the three authorized travel agents viz. Balmer Lawrie &amp; Company Limited (BLCL), Ashok Travels &amp; Tours (ATT), Indian Railways Catering and Tourism Corporation Ltd (IRCTC). The ticket purchased must be of economy class/shortest route on the date of booking. The choice of the travel agent for booking the ticket is left open to the awardees. No Booking charges/excess baggage/cancellation charges &amp; other add-ons will be reimbursed to awardees.\n**Note:**\n\n- The awardees will claim reimbursement of airfare from their respective Indian Mission abroad after joining the University and providing a joining report from the University.\n- The conditions will be effective from 1st Jan 2022.\n- Return tickets will be booked by Indian Mission abroad as per Clause 11(iii) of the scheme guidelines.\n\n<br>\n\n",
+      "exclusions_md": "\n1. **Bachelors Level courses**, in any discipline, are not covered under this scheme.1. candidates already staying or studying or having completed studies abroad by utilizing any other scholarship from State Government, other agency, or through their own funds are not eligible to apply under this scheme.\n1. **No more than two children of the same parents/guardians** will be eligible for scholarships. The second child of the same parents/guardians will be considered only if slots are still available in the last cycle of the year in which the applicant has applied.1. The candidate is not eligible for a scholarship to pursue the **same level (Masters/Ph.D.) of course** for which he/she has already acquired the qualification from any University/Institution either in India or abroad.\n",
+      "briefDescription": "A scholarship scheme by MoSJE for regular, full-time students from Scheduled Castes, Denotified Nomadic and Semi Nomadic Tribes, Landless Agricultural Labourers and Traditional Artisans; to obtain higher education viz., Master degree or Ph.D courses by studying abroad",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "A scholarship scheme by Ministry of Social Justice & Empowerment for regular, full-time students from Scheduled Castes, Denotified Nomadic and Semi Nomadic Tribes, Landless Agricultural Labourers and Traditional Artisans; to obtain higher education viz., Master degree or Ph.D courses by studying abroad in Institutions/Universities accredited by the Government/authorized body of that country in any field of study."
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "value": "composite",
+        "label": "Composite"
+      },
+      "benefits": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Annual Maintenance Allowance: ",
+                  "bold": true
+                },
+                {
+                  "text": "For the United States of America (USA) & other countries except for the UK: 15400 US Dollars. For United Kingdom (UK): 9900 Great Britain Pounds"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Contingency Allowance: ",
+                  "bold": true
+                },
+                {
+                  "text": "For the United States of America (USA) & other countries except for the UK: 1500 US Dollars. For United Kingdom (UK): 1100 Great Britain Pounds"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Tuition Fees:",
+                  "bold": true
+                },
+                {
+                  "text": " Actual as charged"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Visa Fees:",
+                  "bold": true
+                },
+                {
+                  "text": " Actual Visa Fees in INR"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Medical Insurance Premium:",
+                  "bold": true
+                },
+                {
+                  "text": " Actual as charged"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Incidental Journey Allowance & Equipment Allowance:",
+                  "bold": true
+                },
+                {
+                  "text": " 20 US Dollars for each or its equivalent in INR."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Air Passage: ",
+                  "bold": true
+                },
+                {
+                  "text": "Purchase air tickets (from the nearest Airport to Hometown in India to the nearest place to the educational institution and back to India) from the three authorized travel agents viz. Balmer Lawrie & Company Limited (BLCL), Ashok Travels & Tours (ATT), Indian Railways Catering and Tourism Corporation Ltd (IRCTC). The ticket purchased must be of economy class/shortest route on the date of booking. The choice of the travel agent for booking the ticket is left open to the awardees. No Booking charges/excess baggage/cancellation charges & other add-ons will be reimbursed to awardees."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Note:",
+              "bold": true,
+              "underline": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The awardees will claim reimbursement of airfare from their respective Indian Mission abroad after joining the University and providing a joining report from the University."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The conditions will be effective from 1st Jan 2022."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Return tickets will be booked by Indian Mission abroad as per Clause 11(iii) of the scheme guidelines."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ],
+      "exclusions": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Bachelors Level courses",
+                  "bold": true
+                },
+                {
+                  "text": ", in any discipline, are not covered under this scheme."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "candidates already staying or studying or having completed studies abroad by utilizing any other scholarship from State Government, other agency, or through their own funds are not eligible to apply under this scheme."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "No more than two children of the same parents/guardians",
+                  "bold": true
+                },
+                {
+                  "text": " will be eligible for scholarships. The second child of the same parents/guardians will be considered only if slots are still available in the last cycle of the year in which the applicant has applied."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The candidate is not eligible for a scholarship to pursue the "
+                },
+                {
+                  "text": "same level (Masters/Ph.D.) of course",
+                  "bold": true
+                },
+                {
+                  "text": " for which he/she has already acquired the qualification from any University/Institution either in India or abroad."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Online",
+        "url": "",
+        "process": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 1: ",
+                "bold": true
+              },
+              {
+                "text": "The candidates can apply online on the portal: www.nosmsje.gov.in"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2: ",
+                "bold": true
+              },
+              {
+                "text": "The new applicants need to register under the “Student Register Form” under the login tab: https://nosmsje.gov.in/Register.aspx. The following details are required to be filled in the Student Register Form: Category, First Name, Middle Name, Last Name, Full Name, Mobile Number, Email ID, Date of Birth, State of 10th Board,10th Board Certificate Number, Year of passing."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 3: ",
+                "bold": true
+              },
+              {
+                "text": "After successful login details, a text message will be sent to the registered email address. The email address and password entered by the applicant will be the User ID and password respectively for filling out the application form. The password should be at least 8 digits with a combination of numeric, alphabet, and one special character. At least one character should be in capital letters."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "The following details are required to be filled in the Application Form:",
+                "bold": true,
+                "underline": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "1. Personal Information:",
+                "bold": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Full Name, Fathers/Guardian Name, Gender, Date of Birth, Mobile Number, Email ID, Domicile State, Domicile District, Marital Status, Aadhaar Number."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "2. Current Address:",
+                "bold": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "House Number / Plot Number, Street Name / Road Name / Location Name, State, District, Pin Code."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "3. Next of kin residing in India",
+                "bold": true
+              },
+              {
+                "text": " (to be notified in case of Emergency):"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "A valid and functional Phone Number / Mobile Number and Email ID of the family member/friend/relative."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "4. Details of the Foreign University/Institute",
+                "bold": true
+              },
+              {
+                "text": " (where the applicant has taken admission or has applied for admission):"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Degree Course Applied for (Masters or Ph.D., Field of Study, Course Name (in case applied for Masters Programme, for Masters Programme, full nomenclature of the course name), Title / Topic of the Research (in case applied for a Ph.D. Programme), Description of the Course (max. 1000 characters), Application / Registration / Admission date, Anticipated Joining Date (if any), Anticipated Course End Date (if any), Name of the University / Institute, Country of the University / Institute, Do you have unconditional offer letter? (Yes / No), QS World Ranking of the University / Institute."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "(In case, the candidate has unconditional offer letters for more than one University/Institute he/she should choose only one most preferred University/Institute and provide its details.)"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "5. Qualifying Degree / Examination Details:",
+                "bold": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Course Name, Name of the College/University/Institution, State, District, Address of the College/University/Institution, Subject/Course taken, Year of Passing, Scoring System (Whether CGPA / OGPA or % marks. In case of CGPA / OGPA, the grade marks as mentioned in the certificate), Percentage / Equivalent Percentage of Marks, Details of published Research Papers (if any)."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "6. Employment / Gap Details",
+                "bold": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Provide the current and/or past employment details, if any, from the qualifying examination. In case of no employment by the candidate, an affidavit of the same may be attached to the concerned column."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "(a) Current employment details",
+                "bold": true
+              },
+              {
+                "text": " (if the applicant is currently employed)"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Nature of Employment (Self Employed / Salaried / Contract Work / Casual Work etc), Name of Office / Organization, State, District, Address of Office / Organization, Date of Joining, Designation, Last Emoluments (In case of salaried persons, salary received including all allowances from the present employment during last month may be provided. In case of employment other than salaried, the total monthly income of the last month may be entered)."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "(b) & (c) Have you ever been employed earlier/any other experience",
+                "bold": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "There may be situations that which the applicant has worked on earlier occasions."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "7. Award of Scholarship under the National Overseas Scholarship (NOS) Scheme on a previous occasion",
+                "bold": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "The details of the scholarship awarded to the candidate or any of his/her siblings under NOS on earlier occasions. The relationship with the applicant/year of award/course for which scholarship was awarded."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "8. Visa Application details",
+                "bold": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Provide details of the Visa obtained or applied for. In case the candidate has applied to any University in the USA, he/she is required to obtain J-1 VISA only."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "9. Prospects in India",
+                "bold": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Provide the future prospects in India after completion of his/her proposed study abroad."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          }
+        ],
+        "process_md": "**Step 1:** The candidates can apply online on the portal: www.nosmsje.gov.in\n**Step 2:** The new applicants need to register under the “Student Register Form” under the login tab: https://nosmsje.gov.in/Register.aspx. The following details are required to be filled in the Student Register Form: Category, First Name, Middle Name, Last Name, Full Name, Mobile Number, Email ID, Date of Birth, State of 10th Board,10th Board Certificate Number, Year of passing.\n**Step 3:** After successful login details, a text message will be sent to the registered email address. The email address and password entered by the applicant will be the User ID and password respectively for filling out the application form. The password should be at least 8 digits with a combination of numeric, alphabet, and one special character. At least one character should be in capital letters.\n**The following details are required to be filled in the Application Form:**\n**1. Personal Information:**\nFull Name, Fathers/Guardian Name, Gender, Date of Birth, Mobile Number, Email ID, Domicile State, Domicile District, Marital Status, Aadhaar Number.\n**2. Current Address:**\nHouse Number / Plot Number, Street Name / Road Name / Location Name, State, District, Pin Code.\n**3. Next of kin residing in India** (to be notified in case of Emergency):\nA valid and functional Phone Number / Mobile Number and Email ID of the family member/friend/relative.\n**4. Details of the Foreign University/Institute** (where the applicant has taken admission or has applied for admission):\nDegree Course Applied for (Masters or Ph.D., Field of Study, Course Name (in case applied for Masters Programme, for Masters Programme, full nomenclature of the course name), Title / Topic of the Research (in case applied for a Ph.D. Programme), Description of the Course (max. 1000 characters), Application / Registration / Admission date, Anticipated Joining Date (if any), Anticipated Course End Date (if any), Name of the University / Institute, Country of the University / Institute, Do you have unconditional offer letter? (Yes / No), QS World Ranking of the University / Institute.\n(In case, the candidate has unconditional offer letters for more than one University/Institute he/she should choose only one most preferred University/Institute and provide its details.)\n**5. Qualifying Degree / Examination Details:**\nCourse Name, Name of the College/University/Institution, State, District, Address of the College/University/Institution, Subject/Course taken, Year of Passing, Scoring System (Whether CGPA / OGPA or % marks. In case of CGPA / OGPA, the grade marks as mentioned in the certificate), Percentage / Equivalent Percentage of Marks, Details of published Research Papers (if any).\n**6. Employment / Gap Details**\nProvide the current and/or past employment details, if any, from the qualifying examination. In case of no employment by the candidate, an affidavit of the same may be attached to the concerned column.\n**(a) Current employment details** (if the applicant is currently employed)\nNature of Employment (Self Employed / Salaried / Contract Work / Casual Work etc), Name of Office / Organization, State, District, Address of Office / Organization, Date of Joining, Designation, Last Emoluments (In case of salaried persons, salary received including all allowances from the present employment during last month may be provided. In case of employment other than salaried, the total monthly income of the last month may be entered).\n**(b) &amp; (c) Have you ever been employed earlier/any other experience**\nThere may be situations that which the applicant has worked on earlier occasions.\n**7. Award of Scholarship under the National Overseas Scholarship (NOS) Scheme on a previous occasion**\nThe details of the scholarship awarded to the candidate or any of his/her siblings under NOS on earlier occasions. The relationship with the applicant/year of award/course for which scholarship was awarded.\n**8. Visa Application details**\nProvide details of the Visa obtained or applied for. In case the candidate has applied to any University in the USA, he/she is required to obtain J-1 VISA only.\n**9. Prospects in India**\nProvide the future prospects in India after completion of his/her proposed study abroad.\n<br>\n\n"
+      }
+    ],
+    "schemeDefinitions": [
+      {
+        "name": "Scheduled Caste",
+        "definition": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "as defined  in The Constitution (Scheduled Castes) Order, 1950 C.O.19"
+              }
+            ]
+          }
+        ],
+        "source": "http://socialjustice.gov.in/writereaddata/UploadFile/Compendium-2016.pdf",
+        "definitions_md": "as defined  in The Constitution (Scheduled Castes) Order, 1950 C.O.19\n"
+      },
+      {
+        "name": "Denotified Tribes, Nomadic Tribes, and Semi-Nomadic Tribes of India",
+        "definition": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "as defined by the National Commission for Denotified, Nomadic, and Semi-Nomadic Tribes, Ministry of Social Justice and Empowerment."
+              }
+            ]
+          }
+        ],
+        "source": "https://ruralindiaonline.org/media/documents/Draft_List_of_Denotified_Tribes_Nomadic_Tribes_and_Semi-Nomadic_Tribes_of_India.pdf",
+        "definitions_md": "as defined by the National Commission for Denotified, Nomadic, and Semi-Nomadic Tribes, Ministry of Social Justice and Empowerment.\n"
+      },
+      {
+        "name": "Family",
+        "definition": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "(for determination of family income)– The parents and siblings below the age of 18 years, his/her spouse and also children below the age of 18 years. In case of married women, the in-laws, her spouse and children below the age of 18 years will be considered as family."
+              }
+            ]
+          }
+        ],
+        "source": "https://nosmsje.gov.in/docs/nosGuidelines2022-23.pdf",
+        "definitions_md": "(for determination of family income)– The parents and siblings below the age of 18 years, his/her spouse and also children below the age of 18 years. In case of married women, the in-laws, her spouse and children below the age of 18 years will be considered as family.\n"
+      },
+      {
+        "name": "Claus (iii)",
+        "definition": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "When the awardee overstays abroad for more than one month after successful completion of the course and then of his/her own returns to India at own cost, he/she will not be entitled to receive refund of return passage booked by him/her. In normal circumstances, immediately after successful completion of the course, the Indian Missions abroad books the return journey, for the awardee as provided in the Scheme, and thus, the overstaying awardee without any specific purpose for more than a month after the course is over, will forfeit his/her claims of return passage at Government expense through Indian Missions abroad."
+              }
+            ]
+          }
+        ],
+        "source": "https://nosmsje.gov.in/docs/nosGuidelines2022-23.pdf",
+        "definitions_md": "When the awardee overstays abroad for more than one month after successful completion of the course and then of his/her own returns to India at own cost, he/she will not be entitled to receive refund of return passage booked by him/her. In normal circumstances, immediately after successful completion of the course, the Indian Missions abroad books the return journey, for the awardee as provided in the Scheme, and thus, the overstaying awardee without any specific purpose for more than a month after the course is over, will forfeit his/her claims of return passage at Government expense through Indian Missions abroad.\n"
+      },
+      {
+        "name": "Qualifying Examination",
+        "definition": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "In the case of Ph.D. courses, the qualifying exam is a Master’s Degree."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "In the case of a Master’s Degree, the qualifying exam is Bachelor's Degree."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "In case a student has completed a Bachelor of Engineering after completing a Diploma (Lateral Entry to 2nd year), the percentage of marks obtained in Bachelor's degree will be taken into account."
+              }
+            ]
+          }
+        ],
+        "source": "https://nosmsje.gov.in/docs/nosGuidelines2022-23.pdf",
+        "definitions_md": "In the case of Ph.D. courses, the qualifying exam is a Master’s Degree.\nIn the case of a Master’s Degree, the qualifying exam is Bachelor&#39;s Degree.\nIn case a student has completed a Bachelor of Engineering after completing a Diploma (Lateral Entry to 2nd year), the percentage of marks obtained in Bachelor&#39;s degree will be taken into account.\n"
+      }
+    ],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n1. The applicant must be a student belonging to a Scheduled Caste, Denotified Nomadic, Semi Nomadic Tribe, Landless Agricultural Labourer, or a Traditional Artisan.\n1. The applicant must have been admitted to or received an unconditional offer of admission for pursuing a master&#39;s / Ph.D. from an institute/university located abroad.\n1. The institute/university of the applicant must be accredited by the Government/authorized body of that country.\n1. The applicant must have secured at least 60% marks or equivalent grade in the qualifying examination (In the case of Ph.D. courses, the qualifying exam is a Master’s Degree; In the case of a Master’s Degree, the qualifying exam is a Bachelor&#39;s Degree)\n1. The total income of the family of the applicant (from all sources) is less than or equal to ₹ 8 lakh per annum.\n1. Two or more of the applicant&#39;s siblings must not be already availing of this scholarship.\n1. In case a student has completed a Bachelor of Engineering after completing a Diploma (Lateral Entry to 2nd year), the percentage of marks obtained in Bachelor&#39;s degree will be taken into account.\n1. 30% of the awards for each year shall be earmarked for women candidates. However, in case, adequate women candidates are not available as per the stipulations of the scheme, then the unutilized slots will be utilized by selecting suitable male candidates.\n1. There are 115 slots for Scheduled Castes, 6 slots for Denotified, Nomadic, and Semi-Nomadic Tribes, and 4 slots for Landless Agricultural Labourers and Traditional Artisans.\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must be a student belonging to a Scheduled Caste, Denotified Nomadic, Semi Nomadic Tribe, Landless Agricultural Labourer, or a Traditional Artisan."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must have been admitted to or received an unconditional offer of admission for pursuing a master's / Ph.D. from an institute/university located abroad."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The institute/university of the applicant must be accredited by the Government/authorized body of that country."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must have secured at least 60% marks or equivalent grade in the qualifying examination (In the case of Ph.D. courses, the qualifying exam is a Master’s Degree; In the case of a Master’s Degree, the qualifying exam is a Bachelor's Degree)"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The total income of the family of the applicant (from all sources) is less than or equal to ₹ 8 lakh per annum."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Two or more of the applicant's siblings must not be already availing of this scholarship."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "In case a student has completed a Bachelor of Engineering after completing a Diploma (Lateral Entry to 2nd year), the percentage of marks obtained in Bachelor's degree will be taken into account."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "30% of the awards for each year shall be earmarked for women candidates. However, in case, adequate women candidates are not available as per the stipulations of the scheme, then the unutilized slots will be utilized by selecting suitable male candidates."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "There are 115 slots for Scheduled Castes, 6 slots for Denotified, Nomadic, and Semi-Nomadic Tribes, and 4 slots for Landless Agricultural Labourers and Traditional Artisans."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "nos-sc"
+}

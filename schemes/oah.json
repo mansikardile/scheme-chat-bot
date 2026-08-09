@@ -1,0 +1,179 @@
+{
+  "_id": "64772998481f59106a668569",
+  "en": {
+    "basicDetails": {
+      "schemeOpenDate": null,
+      "schemeCloseDate": null,
+      "state": {
+        "value": 10,
+        "label": "Bihar"
+      },
+      "nodalMinistryName": null,
+      "nodalDepartmentName": {
+        "value": 10111148,
+        "label": "Social Welfare Department"
+      },
+      "otherMinistryName": null,
+      "otherDepartmentNames": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Shelter",
+          "label": "Shelter"
+        }
+      ],
+      "dbtScheme": null,
+      "implementingAgency": null,
+      "tags": [
+        "Vrihad Sahayata",
+        "Social Welfare",
+        "Shelter Homes"
+      ],
+      "schemeName": "Old Age Home (Sahara)",
+      "schemeShortTitle": "OAH",
+      "level": {
+        "value": "state",
+        "label": "State"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce87cd6d1a3bde4685312",
+          "label": "Social welfare & Empowerment"
+        }
+      ],
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://state.bihar.gov.in/cache/39/Chhatra%20Yojna/Mukhyamantri%20Vrihad%20Sahayata%20Chhatra%20Yojana/Old%20Age%20Home(%20SAHARA).pdf"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "Under this scheme construction and operation of the old age home &amp;quot;Sahara&amp;quot; will be included in which destitute Housing, clothes, food, medical facilities, etc. are made available for qualitative improvement in the standard of living of poor and poor elders, for cooperation and proper care.\n",
+      "benefits_md": "\n   1. Construction and operation of old age home &amp;quot;Sahara&amp;quot;\n   1. These old age homes also include housing, clothes, food, medical facilities etc. \n   1. Facilities will be available for qualitative improvement in the standard of living, cooperation and proper care of destitute and poor old people of the state.\n\n",
+      "briefDescription": "This scheme is to bring qualitative improvement in the living standards of old people of the state. Establishment and expansion of rehabilitation programs/ services and capacity building for strengthening the delivery of rehabilitation programs and services.",
+      "exclusions_md": "",
+      "detailedDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "Under this scheme construction and operation of the old age home \"Sahara\" will be included in which destitute Housing, clothes, food, medical facilities, etc. are made available for qualitative improvement in the standard of living of poor and poor elders, for cooperation and proper care."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 2,
+        "value": "in-kind",
+        "label": "In Kind"
+      },
+      "benefits": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "ol_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Construction and operation of old age home \"Sahara\""
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "These old age homes also include housing, clothes, food, medical facilities etc. "
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Facilities will be available for qualitative improvement in the standard of living, cooperation and proper care of destitute and poor old people of the state."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "url": "",
+        "process": [
+          {
+            "type": "ol_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Applicants can apply through the application in plain paper to the District Social Security Cell."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "The committee constituted under the chairmanship of the District Magistrate will approve the proposal. "
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "process_md": "\n1. Applicants can apply through the application in plain paper to the District Social Security Cell.\n1. The committee constituted under the chairmanship of the District Magistrate will approve the proposal. \n\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n- Applicants should come under the below poverty line ( BPL) category (or)\n- Annual Income should be below Rs. 60,000/-\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Applicants should come under the below poverty line ( BPL) category (or)"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Annual Income should be below Rs. 60,000/-"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "oah"
+}

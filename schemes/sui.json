@@ -1,0 +1,380 @@
+{
+  "_id": "628727c27d5de378dc7acfe9",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Loan",
+        "Entrepreneur",
+        "Finance",
+        "Business"
+      ],
+      "schemeName": "Stand-Up India",
+      "schemeShortTitle": "SUPI",
+      "implementingAgency": "Banks",
+      "level": {
+        "value": "central",
+        "label": "Central"
+      },
+      "schemeType": {
+        "value": "central-sector-scheme",
+        "label": "Central Sector Scheme"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce733d6d1a3bde4685278",
+          "label": "Business & Entrepreneurship"
+        },
+        {
+          "value": "628ce7f6d6d1a3bde46852d0",
+          "label": "Banking,Financial Services and Insurance"
+        },
+        {
+          "value": "628ce87cd6d1a3bde4685312",
+          "label": "Social welfare & Empowerment"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Banking and money",
+          "label": "Banking and money"
+        },
+        {
+          "value": "Loan",
+          "label": "Loan"
+        }
+      ],
+      "schemeOpenDate": "2016-04-05",
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        },
+        {
+          "value": "business-entity",
+          "label": "Business Entity"
+        }
+      ],
+      "nodalMinistryName": {
+        "value": 499,
+        "label": "Ministry Of Finance"
+      },
+      "nodalDepartmentName": {
+        "value": 1174,
+        "label": "Department of Financial Service"
+      },
+      "schemeCloseDate": "2025-03-31",
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://www.udyami.org.in/storage/schemes/file/t4CQkv4D2TsdhI3MK8KqFSnYPw6RTBBsmh7p449D.pdf"
+        }
+      ],
+      "schemeImageUrl": "  https://standupmitra.in/Images/standuplogo.gif    ",
+      "detailedDescription_md": "A scheme by Ministry of Finance for financing SC/ST and/or Women Entrepreneurs by facilitating bank loans for setting up a greenfield project  enterprise in manufacturing, services, trading sector and activities allied to agriculture. The objective of this scheme is to facilitate bank loans between Rs. 10 lakh and Rs. 1 Crore to at least one Scheduled Caste (SC) or Scheduled Tribe (ST) borrower and at least one woman borrower per bank branch for setting up a greenfield enterprise. In case of non-individual enterprises, at least 51% of the shareholding and controlling stake should be held by either an SC/ST or Woman entrepreneur.\n",
+      "benefits_md": "\n1. Facilitation of composite loan (inclusive of term loan and working capital) between ₹10 Lakhs and ₹100 Lakhs. Rupay debit card to be issued for convenience of the borrower.\n1. The web portal by SIDBI provides hand-holding support through a network of agencies engaged in training, skill development, mentoring, project report preparation, application filling, work shed / utility support services, subsidy schemes etc.\n\n",
+      "exclusions_md": "<br>\n\n",
+      "briefDescription": "A scheme by Ministry of Finance for financing SC/ST and  Women Entrepreneurs by facilitating bank loans for setting up a greenfield project  Enterprise in manufacturing, services, trading sector and activities allied to agriculture.",
+      "detailedDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "A scheme by Ministry of Finance for financing SC/ST and/or Women Entrepreneurs by facilitating bank loans for setting up a greenfield project  enterprise in manufacturing, services, trading sector and activities allied to agriculture. The objective of this scheme is to facilitate bank loans between Rs. 10 lakh and Rs. 1 Crore to at least one Scheduled Caste (SC) or Scheduled Tribe (ST) borrower and at least one woman borrower per bank branch for setting up a greenfield enterprise. In case of non-individual enterprises, at least 51% of the shareholding and controlling stake should be held by either an SC/ST or Woman entrepreneur."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Facilitation of composite loan (inclusive of term loan and working capital) between ₹10 Lakhs and ₹100 Lakhs. Rupay debit card to be issued for convenience of the borrower."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The web portal by SIDBI provides hand-holding support through a network of agencies engaged in training, skill development, mentoring, project report preparation, application filling, work shed / utility support services, subsidy schemes etc."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "exclusions": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Online",
+        "url": "www.standupmitra.in",
+        "process": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Either approach your nearest bank branch to apply (locate your nearest bank here - "
+              },
+              {
+                "type": "link",
+                "link": "https://www.rbi.org.in/Scripts/query.aspx",
+                "children": [
+                  {
+                    "text": "https://www.rbi.org.in/Scripts/query.aspx "
+                  }
+                ]
+              },
+              {
+                "text": ")Or Through the Lead District Manager (LDM) (find the address and the email of the LDM of your district here - "
+              },
+              {
+                "type": "link",
+                "link": "https://www.standupmitra.in/LDMS#NoBack",
+                "children": [
+                  {
+                    "text": "https://www.standupmitra.in/LDMS#NoBack"
+                  }
+                ]
+              },
+              {
+                "text": ")"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Or Apply Through Portal: "
+              },
+              {
+                "type": "link",
+                "link": "https://www.standupmitra.in/",
+                "children": [
+                  {
+                    "text": "www.standupmitra.in"
+                  }
+                ]
+              },
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Process:",
+                "bold": true
+              }
+            ]
+          },
+          {
+            "type": "ol_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "The first step is to visit the official portal of StandUp India at: "
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://www.standupmitra.in/Login/Register",
+                    "children": [
+                      {
+                        "text": "https://www.standupmitra.in/Login/Register"
+                      }
+                    ]
+                  },
+                  {
+                    "text": " "
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Enter the full details of the business location."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Select the category between SC, ST, Woman, and whether the stake held is 51% or higher."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Select the nature of the proposed business; the loan amount desired description of the business, the details of the premises, etc."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Populate the fields with past business experience, including tenure."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Select the need for hand-holding is required."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Enter all the personal details sought, which include the name of the enterprise and the constitution."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "The last step is to select the register button to complete the process."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Once you have completed registration, you are eligible to initiate the StandUp India Loan Application process with the respective financial institution for the officials to contact you for completing the StandUp India Loan Process and requisite formalities."
+              }
+            ]
+          }
+        ],
+        "process_md": "Either approach your nearest bank branch to apply (locate your nearest bank here - [https://www.rbi.org.in/Scripts/query.aspx ](https://www.rbi.org.in/Scripts/query.aspx))Or Through the Lead District Manager (LDM) (find the address and the email of the LDM of your district here - [https://www.standupmitra.in/LDMS#NoBack](https://www.standupmitra.in/LDMS#NoBack))\nOr Apply Through Portal: [www.standupmitra.in](https://www.standupmitra.in/)\n**Process:**\n\n1. The first step is to visit the official portal of StandUp India at: [https://www.standupmitra.in/Login/Register](https://www.standupmitra.in/Login/Register) 1. Enter the full details of the business location.\n1. Select the category between SC, ST, Woman, and whether the stake held is 51% or higher.\n1. Select the nature of the proposed business; the loan amount desired description of the business, the details of the premises, etc.\n1. Populate the fields with past business experience, including tenure.\n1. Select the need for hand-holding is required.\n1. Enter all the personal details sought, which include the name of the enterprise and the constitution.\n1. The last step is to select the register button to complete the process.\n\nOnce you have completed registration, you are eligible to initiate the StandUp India Loan Application process with the respective financial institution for the officials to contact you for completing the StandUp India Loan Process and requisite formalities.\n"
+      }
+    ],
+    "schemeDefinitions": [
+      {
+        "name": "greenfield project",
+        "definition": [
+          {
+            "type": "align_justify",
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Green field project signifies, in this context, the first time venture of the beneficiary in the manufacturing or services or trading sector and  activities allied to agriculture ."
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "source": "https://www.udyami.org.in/storage/schemes/file/t4CQkv4D2TsdhI3MK8KqFSnYPw6RTBBsmh7p449D.pdf",
+        "definitions_md": "Green field project signifies, in this context, the first time venture of the beneficiary in the manufacturing or services or trading sector and  activities allied to agriculture .\n"
+      }
+    ],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n- Finance is  provided for Greenfield Enterprises.\n- If the applicant is a male, he must be from SC / ST category.\n- The age of the applicant must be at least 18 years.\n- The applicant must not be in default to any bank/financial institution.\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "align_justify",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Finance is  provided for Greenfield Enterprises."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "align_justify",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "If the applicant is a male, he must be from SC / ST category."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "align_justify",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The age of the applicant must be at least 18 years."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "align_justify",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant must not be in default to any bank/financial institution."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "sui"
+}

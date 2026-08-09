@@ -1,0 +1,236 @@
+{
+  "_id": "64a47732380f8e123545e687",
+  "en": {
+    "basicDetails": {
+      "schemeOpenDate": null,
+      "schemeCloseDate": null,
+      "state": {
+        "value": 27,
+        "label": "Maharashtra"
+      },
+      "nodalMinistryName": null,
+      "nodalDepartmentName": {
+        "value": 27111139,
+        "label": "Social Justice and Special Assistance Department"
+      },
+      "otherMinistryName": null,
+      "otherDepartmentNames": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Financial assistance",
+          "label": "Financial assistance"
+        }
+      ],
+      "dbtScheme": null,
+      "implementingAgency": null,
+      "tags": [
+        "Students",
+        "Vimukta Jati And Nomadic Tribes",
+        "Special Backward Class",
+        "Scholarship"
+      ],
+      "schemeName": "Meritorious Scholarships To Vjnt And Sbc Students Studying In Secondary Schools",
+      "schemeShortTitle": "Msvss",
+      "level": {
+        "value": "state",
+        "label": "State"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce87cd6d1a3bde4685312",
+          "label": "Social welfare & Empowerment"
+        }
+      ],
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://sjsa.maharashtra.gov.in/en/scheme-category/education-training"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The government of Maharashtra introduced the scheme of Meritorious Scholarships to VJNT and SBC students studying in Secondary Schools. To motivate Backward Class students for education.\nThe students will get ₹ 200/- for 5th to 7th and ₹ 400/- for 8th to 10th standard per annum.\n",
+      "benefits_md": "\n1. The students will get ₹ 200/- for 5th to 7th standard per annum. \n1. The students will get ₹ 400/- for 8th to 10th standard per annum.\n\n",
+      "briefDescription": "The government of Maharashtra introduced the scheme of meritorious Scholarships to VJNT and SBC students studying in Secondary Schools. To motivate Backward Class students for education.",
+      "exclusions_md": "",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The government of Maharashtra introduced the scheme of Meritorious Scholarships to VJNT and SBC students studying in Secondary Schools. To motivate Backward Class students for education."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The students will get ₹ 200/- for 5th to 7th and ₹ 400/- for 8th to 10th standard per annum."
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 2,
+        "value": "in-kind",
+        "label": "In Kind"
+      },
+      "benefits": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The students will get ₹ 200/- for 5th to 7th standard per annum. "
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The students will get ₹ 400/- for 8th to 10th standard per annum."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "url": "",
+        "process": [
+          {
+            "type": "ol_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "The students should contact the school principal for application."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "The application will be submitted by Head Master of the concerned School through the concerned Block Education Officer to District Social Welfare Officer, Zillah Parishad concerned. "
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "For Mumbai City, only proposals are to be submitted to the Assistant Commissioner of Social Welfare, Mumbai City."
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "process_md": "\n1. The students should contact the school principal for application.\n1. The application will be submitted by Head Master of the concerned School through the concerned Block Education Officer to District Social Welfare Officer, Zillah Parishad concerned. \n1. For Mumbai City, only proposals are to be submitted to the Assistant Commissioner of Social Welfare, Mumbai City.\n\n"
+      }
+    ],
+    "schemeDefinitions": [
+      {
+        "name": "Vimukta Jati And Nomadic Tribes",
+        "definition": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "\"Nomadic Tribes\"",
+                "bold": true
+              },
+              {
+                "text": " means tribes wandering from the place to place in search of their livelihood as declared by the Government from time to time."
+              }
+            ]
+          }
+        ],
+        "definitions_md": "**&quot;Nomadic Tribes&quot;** means tribes wandering from the place to place in search of their livelihood as declared by the Government from time to time.\n",
+        "source": "chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://lj.maharashtra.gov.in/site/upload/Acts/SC,%20ST,%20DNT,%20NT,OBC%20and%20SBC%20Caste%20Certificate%20Act,%202000.pdf"
+      },
+      {
+        "name": "\" Special Backward Category",
+        "definition": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "\""
+              },
+              {
+                "text": "Special Backward Category\" ",
+                "bold": true
+              },
+              {
+                "text": "means Socially and Educationally Backward Classes of citizens declared as a Special Backward Category by Government."
+              }
+            ]
+          }
+        ],
+        "definitions_md": "&quot;**Special Backward Category&quot;** means Socially and Educationally Backward Classes of citizens declared as a Special Backward Category by Government.\n",
+        "source": "chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://lj.maharashtra.gov.in/site/upload/Acts/SC,%20ST,%20DNT,%20NT,OBC%20and%20SBC%20Caste%20Certificate%20Act,%202000.pdf"
+      }
+    ],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n1. Students who secured more than 50 percent marks in the previous year’s annual examination and stood first or second in the class.\n1. He should belong to VJNT / SBC category.\n1. He should be studying in 5th to 10th standard.\n1. There is no income limit for this scholarship.\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Students who secured more than 50 percent marks in the previous year’s annual examination and stood first or second in the class."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "He should belong to VJNT / SBC category."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "He should be studying in 5th to 10th standard."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "There is no income limit for this scholarship."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "msvss"
+}

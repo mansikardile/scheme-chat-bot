@@ -1,0 +1,342 @@
+{
+  "_id": "64aaee88481f59106a71e05e",
+  "en": {
+    "basicDetails": {
+      "schemeOpenDate": "2013-04-01",
+      "schemeCloseDate": null,
+      "state": {
+        "value": 8,
+        "label": "Rajasthan"
+      },
+      "nodalMinistryName": null,
+      "nodalDepartmentName": {
+        "value": 8000035,
+        "label": "Social Justice and Empowerment Department"
+      },
+      "otherMinistryName": null,
+      "otherDepartmentNames": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Pension",
+          "label": "Pension"
+        }
+      ],
+      "dbtScheme": null,
+      "implementingAgency": null,
+      "tags": [
+        "Financial Assistance",
+        "Empowerment",
+        "Pension",
+        "Differently Abled"
+      ],
+      "schemeName": "Chief Minister Specially Abled Samman Pension Scheme",
+      "schemeShortTitle": "CMSASPS",
+      "level": {
+        "value": "state",
+        "label": "State"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce87cd6d1a3bde4685312",
+          "label": "Social welfare & Empowerment"
+        }
+      ],
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Details",
+          "url": "https://ssp.rajasthan.gov.in/HtmlPages/Schemes/DisablityDetail.aspx"
+        },
+        {
+          "title": "Guidelines",
+          "url": "https://schemes.rajasthan.gov.in/scheme/detail/113"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "Chief Minister Specially Abled Samman Pension Scheme has been launched by the Government of Rajasthan. This scheme is an important scheme by the Government of Rajasthan for the Divyangjan of the state. It was started mainly to provide financial assistance to disabled persons.\nIn State, a specially-abled person of any age who is suffering from any one or more disabilities (40% and above disability) will be eligible for a pension. From October 2, 2021, the process of issuing automatic approval of applications received online without human intervention was started using the metadata available on the Jan Aadhaar portal for the pension scheme.\n",
+      "benefits_md": "\n1. For women below 55 years of age and men below 58 years of age: Rs. 750/- per month. \n1. To women aged 55 years and above, men aged 58 years and above but less than 75 years of age: Rs. 1,000/- per month.\n1. To the beneficiaries of 75 years and above age ( male and female): Rs. 1,250/- per month.\n1. To leprosy-free beneficiaries of all ages  ( male and female): Rs. 1,500/- per month. \n\n",
+      "exclusions_md": "<br>\n\n",
+      "briefDescription": "Rajasthan Government started a scholarship for Specially Abled persons. ",
+      "detailedDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "Chief Minister Specially Abled Samman Pension Scheme has been launched by the Government of Rajasthan. This scheme is an important scheme by the Government of Rajasthan for the Divyangjan of the state. It was started mainly to provide financial assistance to disabled persons."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "In State, a specially-abled person of any age who is suffering from any one or more disabilities (40% and above disability) will be eligible for a pension. From October 2, 2021, the process of issuing automatic approval of applications received online without human intervention was started using the metadata available on the Jan Aadhaar portal for the pension scheme."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "For women below 55 years of age and men below 58 years of age: Rs. 750/- per month. "
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "To women aged 55 years and above, men aged 58 years and above but less than 75 years of age: Rs. 1,000/- per month."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "To the beneficiaries of 75 years and above age ( male and female): Rs. 1,250/- per month."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "To leprosy-free beneficiaries of all ages  ( male and female): Rs. 1,500/- per month. "
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "exclusions": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Online",
+        "url": "https://emitra.rajasthan.gov.in/emitra/home",
+        "process": [
+          {
+            "type": "ol_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Applicants have to visit the"
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://emitra.rajasthan.gov.in/emitra/home",
+                    "children": [
+                      {
+                        "text": " official portal"
+                      }
+                    ]
+                  },
+                  {
+                    "text": ". "
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Click on login."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "If applicants are existing SSO users, log in with their SSO user and password. and If applicants don’t have SSO Id then create one by clicking “Registration”. Applicants can create SSO IDs by using Janaadhar & Google"
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Completing the SSO profile process. "
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Select Appropriate Scheme and click on the “Next” button"
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Fill out all required academic information and click on the “Submit” button "
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "process_md": "\n1. Applicants have to visit the[ official portal](https://emitra.rajasthan.gov.in/emitra/home). 1. Click on login.\n1. If applicants are existing SSO users, log in with their SSO user and password. and If applicants don’t have SSO Id then create one by clicking “Registration”. Applicants can create SSO IDs by using Janaadhar &amp; Google\n1. Completing the SSO profile process. \n1. Select Appropriate Scheme and click on the “Next” button\n1. Fill out all required academic information and click on the “Submit” button \n\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n1. Specially abled persons of any age with 40% and above disability.\n1. Applicants are suffering from any one or more following disabilities : \n\n   1. Blindness, \n   1. Short-sightedness, \n   1. Locomotor disability, \n   1. Leprosy free, \n   1. Hearing loss, \n   1. Mental retardation, \n   1. Mental illness, \n   1. Dwarfism (less than 3 feet 6 inches in height in case of an adult and holding a certificate issued by an authorized medical officer),\n   1. Naturally suffering from eunuchism.\n\n1. Native of Rajasthan and living in Rajasthan.\n1. Own combined annual income (from all sources) is up to Rs. 60,000/-.\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Specially abled persons of any age with 40% and above disability."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Applicants are suffering from any one or more following disabilities : "
+                }
+              ]
+            },
+            {
+              "type": "ol_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Blindness, "
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Short-sightedness, "
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Locomotor disability, "
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Leprosy free, "
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Hearing loss, "
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Mental retardation, "
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Mental illness, "
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Dwarfism (less than 3 feet 6 inches in height in case of an adult and holding a certificate issued by an authorized medical officer),"
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Naturally suffering from eunuchism."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Native of Rajasthan and living in Rajasthan."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Own combined annual income (from all sources) is up to Rs. 60,000/-."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "cmsasps"
+}

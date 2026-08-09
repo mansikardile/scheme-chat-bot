@@ -1,0 +1,880 @@
+{
+  "_id": "658c1a0aa733b1d7326caeef",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Person With Disability",
+        "Insurance",
+        "Financial Assistance",
+        "Autism",
+        "Cerebral Palsy",
+        "Mental Retardation"
+      ],
+      "schemeName": "Niramaya Health Insurance Scheme",
+      "schemeShortTitle": "NHIS",
+      "level": {
+        "value": "central",
+        "label": "Central"
+      },
+      "schemeType": {
+        "value": "central-sector-scheme",
+        "label": "Central Sector Scheme"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce87cd6d1a3bde4685312",
+          "label": "Social welfare & Empowerment"
+        },
+        {
+          "value": "628ce7a2d6d1a3bde46852b1",
+          "label": "Health & Wellness"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Citizen empowerment",
+          "label": "Citizen empowerment"
+        },
+        {
+          "value": "Disease and conditions",
+          "label": "Disease and conditions"
+        },
+        {
+          "value": "Mental health",
+          "label": "Mental health"
+        },
+        {
+          "value": "Medical insurance",
+          "label": "Medical insurance"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "nodalMinistryName": {
+        "value": 712,
+        "label": "Ministry Of Social Justice and Empowerment"
+      },
+      "nodalDepartmentName": {
+        "value": 1617,
+        "label": "Department Of Empowerment Of Persons With Disabilities"
+      },
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://nationaltrust.nic.in/niramaya/"
+        },
+        {
+          "title": "Enrolment Form",
+          "url": "https://thenationaltrust.in/auth/Niramaya/HTML/new4.php"
+        },
+        {
+          "title": "Claim Form",
+          "url": "https://thenationaltrust.gov.in/upload/uploadfiles/files/claimformnew.pdf"
+        },
+        {
+          "title": "User Manual",
+          "url": "https://cdnbbsr.s3waas.gov.in/s3300891a62162b960cf02ce3827bb363c/uploads/2025/04/20250422881539735.pdf"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "“Niramaya Health Insurance Scheme” was launched by the Department of Empowerment of Persons with Disabilities, Ministry of Social Justice &amp;amp; Empowerment. Government of India. The objective of the scheme is to provide affordable Health Insurance to persons with Autism, Cerebral Palsy, Mental Retardation and Multiple Disabilities. The scheme provides insurance coverage of up to ₹1,00,000/-, which must be renewed annually after the financial year.\n",
+      "benefits_md": "\n1. **Health insurance coverage:** Up to ₹1,00,000/- for various expenses.1. **Outpatient department (OPD) treatment:** Covers medicines, pathology, diagnostic tests, etc.1. **Regular medical checkups:** For non-ailing individuals with disabilities.1. **Dental care:** Preventive dentistry services.1. **Surgery:** To prevent further disability worsening or for existing disabilities (including congenital).1. **Non-surgical/hospitalization:** Coverage for non-surgical treatments and related stays.1. **Ongoing therapies:** For managing disability and related complications.1. **Alternative medicine:** Coverage for alternative treatment options.\n> **Health insurance coverage: Up to ₹1,00,000/- bifurcation for various expenses.**\n\n- **Section I: Hospitalization** **:**  The overall limit for hospitalization expenses is ₹55,000/-. This includes:\n\n  - Corrective Surgeries for existing Disability including congenital disability (Under SECI(A)a maximum capping of ₹15,000/- For other than the corrective surgeries for Existing Disabilities, which is include in the overall limit of ₹40,000/- of Sec I(A))\n  - Non-surgical or hospitalization costs are covered up to ₹15,000/-.\n\n- **Section II: Outpatient Department (OPD)** **:** The overall OPD treatment limit is ₹19,000/-, broken down as:\n  - OPD treatment, including medicines, pathology, diagnostic tests, etc., is covered up to ₹15,000/-.\n  - Dental preventive dentistry is covered up to ₹4,000/-.\n\n- **Section III: Ongoing Therapies**\n\n  - A total of ₹20,000/- is allocated for ongoing therapies aimed at reducing the impact of disability.\n\n- ***Section IV: Alternative Medicine (AYUSH)***\n\n  - Treatment under AYUSH systems of medicine is reimbursable up to ₹4,000/-.\n\n- **Section V: Transportation**\n\n  - Transportation costs related to medical treatment are covered up to ₹2,000/-.\n\n\n<br>\n\n",
+      "briefDescription": "Niramaya Health Insurance Scheme ,launched by the Department of Empowerment of Persons with Disabilities, aims to provide affordable health insurance to the Persons with Disabilities (PwDs).",
+      "exclusions_md": "\n- The scheme will be available in the entire country except J&amp;K. The scheme further envisages that there shall be.\n\n",
+      "detailedDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "“Niramaya Health Insurance Scheme” was launched by the Department of Empowerment of Persons with Disabilities, Ministry of Social Justice & Empowerment. Government of India. The objective of the scheme is to provide affordable Health Insurance to persons with Autism, Cerebral Palsy, Mental Retardation and Multiple Disabilities. The scheme provides insurance coverage of up to ₹1,00,000/-, which must be renewed annually after the financial year."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Health insurance coverage:",
+                  "bold": true
+                },
+                {
+                  "text": " Up to ₹1,00,000/- for various expenses."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Outpatient department (OPD) treatment:",
+                  "bold": true
+                },
+                {
+                  "text": " Covers medicines, pathology, diagnostic tests, etc."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Regular medical checkups:",
+                  "bold": true
+                },
+                {
+                  "text": " For non-ailing individuals with disabilities."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Dental care:",
+                  "bold": true
+                },
+                {
+                  "text": " Preventive dentistry services."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Surgery: ",
+                  "bold": true
+                },
+                {
+                  "text": "To prevent further disability worsening or for existing disabilities (including congenital)."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Non-surgical/hospitalization:",
+                  "bold": true
+                },
+                {
+                  "text": " Coverage for non-surgical treatments and related stays."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Ongoing therapies: ",
+                  "bold": true
+                },
+                {
+                  "text": "For managing disability and related complications."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Alternative medicine:",
+                  "bold": true
+                },
+                {
+                  "text": " Coverage for alternative treatment options."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "underline": true,
+              "bold": true,
+              "text": "Health insurance coverage: Up to ₹1,00,000/- bifurcation for various expenses."
+            }
+          ]
+        },
+        {
+          "type": "list_item",
+          "children": [
+            {
+              "text": "Section I: Hospitalization ",
+              "bold": true,
+              "underline": true
+            },
+            {
+              "bold": true,
+              "text": ":  "
+            },
+            {
+              "text": "The overall limit for hospitalization expenses is ₹55,000/-. This includes:"
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "ul_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Corrective Surgeries for existing Disability including congenital disability (Under SECI(A)a maximum capping of ₹15,000/- For other than the corrective surgeries for Existing Disabilities, which is include in the overall limit of ₹40,000/- of Sec I(A))"
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Non-surgical or hospitalization costs are covered up to ₹15,000/-."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Section II: Outpatient Department (OPD) ",
+                  "bold": true,
+                  "underline": true
+                },
+                {
+                  "bold": true,
+                  "text": ": "
+                },
+                {
+                  "text": "The overall OPD treatment limit is ₹19,000/-, broken down as:"
+                }
+              ]
+            },
+            {
+              "type": "ul_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "OPD treatment, including medicines, pathology, diagnostic tests, etc., is covered up to ₹15,000/-."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Dental preventive dentistry is covered up to ₹4,000/-."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Section III: Ongoing Therapies",
+                  "bold": true,
+                  "underline": true
+                }
+              ]
+            },
+            {
+              "type": "ul_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "A total of ₹20,000/- is allocated for ongoing therapies aimed at reducing the impact of disability."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Section IV: Alternative Medicine (AYUSH)",
+                  "bold": true,
+                  "italic": true,
+                  "underline": true
+                }
+              ]
+            },
+            {
+              "type": "ul_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Treatment under AYUSH systems of medicine is reimbursable up to ₹4,000/-."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Section V: Transportation",
+                  "bold": true,
+                  "underline": true
+                }
+              ]
+            },
+            {
+              "type": "ul_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Transportation costs related to medical treatment are covered up to ₹2,000/-."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ],
+      "exclusions": null
+    },
+    "applicationProcess": [
+      {
+        "mode": "Online",
+        "process": [
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "text": "Enrolment process:",
+                "bold": true,
+                "underline": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 1: ",
+                "bold": true
+              },
+              {
+                "text": "Parents/ guardian of the PwD will visit the nearest "
+              },
+              {
+                "type": "link",
+                "link": "https://thenationaltrust.gov.in/content/registered_organization.php",
+                "children": [
+                  {
+                    "text": "Registered Organization (RO)"
+                  }
+                ]
+              },
+              {
+                "text": " for Niramaya enrolment with required documents."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2: ",
+                "bold": true
+              },
+              {
+                "text": "RO will fill up the Niramaya application form online and upload the scanned documents as required after verification of the originals. "
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 3:",
+                "bold": true
+              },
+              {
+                "text": " On successful enrolment and approval, Health ID No. /card will be issued to each beneficiary or can be downloaded by the beneficiary online or through RO."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "text": "Scheme Renewal process:",
+                "bold": true,
+                "underline": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 1: ",
+                "bold": true
+              },
+              {
+                "text": "The parent/guardian of the beneficiary can renew the scheme with the required documents online by logging on to the Niramaya "
+              },
+              {
+                "type": "link",
+                "link": "https://thenationaltrust.gov.in/auth/renew_gen.php",
+                "children": [
+                  {
+                    "text": "website"
+                  }
+                ]
+              },
+              {
+                "text": " through providing below details: Policy Period, Beneficiary ID, UDID No/Enrollment no, Date of birth."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2: ",
+                "bold": true
+              },
+              {
+                "text": "RO to verify the validity of documents "
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 3: ",
+                "bold": true
+              },
+              {
+                "text": "Pay the application fees online."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 4: ",
+                "bold": true
+              },
+              {
+                "text": "After receipt of payment, the RO/beneficiary will be notified of the renewal for another year through the website."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "",
+                "bold": true
+              }
+            ]
+          },
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "bold": true,
+                "text": "Scheme Claim Process",
+                "underline": true
+              },
+              {
+                "bold": true,
+                "text": ":"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "All claims for settlement under Niramaya have to be submitted to the canters of the insurance provider in the prescribed Claim Form along with relevant vouchers/bills, etc. (preferably within 30 days of treatment) or discharge from hospital."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 1: ",
+                "bold": true
+              },
+              {
+                "text": "Log on to "
+              },
+              {
+                "type": "link",
+                "link": "https://portal.mediassist.in/",
+                "children": [
+                  {
+                    "text": "https://portal.mediassist.in"
+                  }
+                ]
+              },
+              {
+                "text": " - MediAssist Employee portal. (Your username will be as <application_id>@NATIONALTRUST.Com and password will be your date of Birth of Beneficiary e.g. DD-MM-YYYY)"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "• You can also download the Mediassist App from Android/Apple/Window store in a phone [Username - <application_id>@NATIONALTRUST.Com and password will be DD-MM-YYYY (Date of Birth of the Beneficiary]"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2: ",
+                "bold": true
+              },
+              {
+                "text": "Click on Submit claim option and fill the details to generate the claim form."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 3: ",
+                "bold": true
+              },
+              {
+                "text": "Click on “Save and Next” once all the details are filled."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "On 3rd Page, employee KYC documents are to be updated (one time activity)."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 4: ",
+                "bold": true
+              },
+              {
+                "text": "Upload relevant documents. "
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 5: ",
+                "bold": true
+              },
+              {
+                "text": "After Moving to the final Page ”Declaration and Claim Submission”  select the ailment type."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 6: ",
+                "bold": true
+              },
+              {
+                "text": "Upload the softcopy of the documents."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 7:",
+                "bold": true
+              },
+              {
+                "text": " Acknowledge the declaration and Click submit to successfully generate the claim form."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 8:",
+                "bold": true
+              },
+              {
+                "text": " An Auto-generated mail will be triggered to your registered Email ID containing the claim form."
+              }
+            ]
+          },
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "text": "Dedicated helpline for claims : 040-68178569/71326135.",
+                "bold": true
+              }
+            ]
+          },
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "bold": true,
+                "text": "To register or track your Claim, please contact MediAssist at:"
+              }
+            ]
+          },
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "bold": true,
+                "text": "Phone: 040-68213648   |   Toll Free – 1800 572 9792"
+              }
+            ]
+          },
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "bold": true,
+                "text": "For any query regarding reimbursement of claim, email to MediAssist TPA on – niramaya[at]mediassist[dot]in"
+              }
+            ]
+          }
+        ],
+        "process_md": "> **Enrolment process:**\n\n**Step 1:** Parents/ guardian of the PwD will visit the nearest [Registered Organization (RO)](https://thenationaltrust.gov.in/content/registered_organization.php) for Niramaya enrolment with required documents.\n**Step 2:** RO will fill up the Niramaya application form online and upload the scanned documents as required after verification of the originals. \n**Step 3:** On successful enrolment and approval, Health ID No. /card will be issued to each beneficiary or can be downloaded by the beneficiary online or through RO.\n<br>\n\n> **Scheme Renewal process:**\n\n**Step 1:** The parent/guardian of the beneficiary can renew the scheme with the required documents online by logging on to the Niramaya [website](https://thenationaltrust.gov.in/auth/renew_gen.php) through providing below details: Policy Period, Beneficiary ID, UDID No/Enrollment no, Date of birth.\n**Step 2:** RO to verify the validity of documents \n**Step 3:** Pay the application fees online.\n**Step 4:** After receipt of payment, the RO/beneficiary will be notified of the renewal for another year through the website.\n<br>\n\n> **Scheme Claim Process****:**\n\nAll claims for settlement under Niramaya have to be submitted to the canters of the insurance provider in the prescribed Claim Form along with relevant vouchers/bills, etc. (preferably within 30 days of treatment) or discharge from hospital.\n**Step 1:** Log on to [https://portal.mediassist.in](https://portal.mediassist.in/) - MediAssist Employee portal. (Your username will be as &lt;application_id&gt;@NATIONALTRUST.Com and password will be your date of Birth of Beneficiary e.g. DD-MM-YYYY)\n• You can also download the Mediassist App from Android/Apple/Window store in a phone [Username - &lt;application_id&gt;@NATIONALTRUST.Com and password will be DD-MM-YYYY (Date of Birth of the Beneficiary]\n**Step 2:** Click on Submit claim option and fill the details to generate the claim form.\n**Step 3:** Click on “Save and Next” once all the details are filled.\nOn 3rd Page, employee KYC documents are to be updated (one time activity).\n**Step 4:** Upload relevant documents. \n**Step 5:** After Moving to the final Page ”Declaration and Claim Submission”  select the ailment type.\n**Step 6:** Upload the softcopy of the documents.\n**Step 7:** Acknowledge the declaration and Click submit to successfully generate the claim form.\n**Step 8:** An Auto-generated mail will be triggered to your registered Email ID containing the claim form.\n> **Dedicated helpline for claims : 040-68178569/71326135.**\n\n> **To register or track your Claim, please contact MediAssist at:**\n\n> **Phone: 040-68213648   |   Toll Free – 1800 572 9792**\n\n> **For any query regarding reimbursement of claim, email to MediAssist TPA on – niramaya[at]mediassist[dot]in**\n\n"
+      },
+      {
+        "mode": "Offline",
+        "process": [
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "text": "PROCESS FOR OFFLINE CLAIM SUBMISSION:",
+                "bold": true,
+                "underline": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 1: ",
+                "bold": true
+              },
+              {
+                "text": "Visit: "
+              },
+              {
+                "type": "link",
+                "link": "https://mediassisttpa.in/",
+                "children": [
+                  {
+                    "text": "https://mediassisttpa.in"
+                  }
+                ]
+              },
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2:",
+                "bold": true
+              },
+              {
+                "text": " Click on “Download Claim Form” or "
+              },
+              {
+                "type": "link",
+                "link": "https://mediassisttpa.in/#claim-forms",
+                "children": [
+                  {
+                    "text": "visit – https://mediassisttpa.in/#claim-forms"
+                  }
+                ]
+              },
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 3: ",
+                "bold": true
+              },
+              {
+                "text": "Click on “Claim Form Insured (Part A)” to download pdf file of claim form."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 4:",
+                "bold": true
+              },
+              {
+                "text": " Fill Claim form, attach required documents and send to Mediassist TPA on following address:"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "MEDI ASSIST INSURANCE TPA PRIVATE LIMITED,"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "1st Floor, Block D, Noida Sector 3, Noida, Uttar Pradesh, PIN- 201301"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Phone: 040-68213648, Toll Free – 1800 572 9792"
+              }
+            ]
+          }
+        ],
+        "process_md": "> **PROCESS FOR OFFLINE CLAIM SUBMISSION:**\n\n**Step 1:** Visit: [https://mediassisttpa.in](https://mediassisttpa.in/)\n**Step 2:** Click on “Download Claim Form” or [visit – https://mediassisttpa.in/#claim-forms](https://mediassisttpa.in/#claim-forms)\n**Step 3:** Click on “Claim Form Insured (Part A)” to download pdf file of claim form.\n**Step 4:** Fill Claim form, attach required documents and send to Mediassist TPA on following address:\nMEDI ASSIST INSURANCE TPA PRIVATE LIMITED,\n1st Floor, Block D, Noida Sector 3, Noida, Uttar Pradesh, PIN- 201301\nPhone: 040-68213648, Toll Free – 1800 572 9792\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n- All the disable person who have at least one of the disabilities under the [National Trust Act, 1999](https://cdnbbsr.s3waas.gov.in/s3300891a62162b960cf02ce3827bb363c/uploads/2024/09/20240918793880368.pdf) with valid disability certificate. \n",
+      "eligibilityDescription": [
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "All the disable person who have at least one of the disabilities under the "
+                },
+                {
+                  "type": "link",
+                  "link": "https://cdnbbsr.s3waas.gov.in/s3300891a62162b960cf02ce3827bb363c/uploads/2024/09/20240918793880368.pdf",
+                  "children": [
+                    {
+                      "text": "National Trust Act, 1999"
+                    }
+                  ]
+                },
+                {
+                  "text": " with valid disability certificate. "
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "nhis"
+}

@@ -1,0 +1,442 @@
+{
+  "_id": "677a8797dfe9058f60792cac",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Subsidy",
+        "Petrol",
+        "Rural",
+        "Two-wheelers"
+      ],
+      "schemeName": "Jharkhand Petrol Subsidy Scheme",
+      "schemeShortTitle": "JPSS",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce87cd6d1a3bde4685312",
+          "label": "Social welfare & Empowerment"
+        },
+        {
+          "value": "628ce924d6d1a3bde4685354",
+          "label": "Transport & Infrastructure"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Financial assistance",
+          "label": "Financial assistance"
+        },
+        {
+          "value": "Food Security / Public Distribution System",
+          "label": "Food Security / Public Distribution System"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "state": {
+        "value": 20,
+        "label": "Jharkhand"
+      },
+      "nodalDepartmentName": {
+        "value": 2000007,
+        "label": "Food, Public Distribution and Consumer affairs Department"
+      },
+      "schemeFor": "Family"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://cm.jharkhand.gov.in/node/12697"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The &quot;Petrol Subsidy Scheme&quot; implemented by the Food, Public Distribution &amp; Consumer Affairs Department, Government of Jharkhand, aims to provide financial relief to economically disadvantaged families by offering a petrol subsidy for their two-wheelers. Under this scheme, beneficiaries under the National Food Security Act (NFSA) or Jharkhand State Food Security Scheme receive ₹25/- per liter of petrol for up to 10 liters monthly. \n",
+      "benefits_md": "***Subsidy Amount***\n\n- ₹25/- per liter of petrol for up to 10 liters monthly (₹250/month).\n\n<br>\n\n***Mode of Disbursement:*** \n\n- Direct Benefit Transfer (DBT) to the beneficiary&#39;s bank account.\n\n",
+      "exclusions_md": "<br>\n\n",
+      "briefDescription": "The scheme \"Petrol Subsidy Scheme\" implemented by the Food, Public Distribution & Consumer Affairs Department, Government of Jharkhand, aims to provide a petrol subsidy of ₹250 per month for two-wheelers to eligible NFSA/Jharkhand State Food Security Scheme beneficiaries.",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The \"Petrol Subsidy Scheme\" implemented by the Food, Public Distribution & Consumer Affairs Department, Government of Jharkhand, aims to provide financial relief to economically disadvantaged families by offering a petrol subsidy for their two-wheelers. Under this scheme, beneficiaries under the National Food Security Act (NFSA) or Jharkhand State Food Security Scheme receive ₹25/- per liter of petrol for up to 10 liters monthly. "
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Subsidy Amount",
+              "bold": true,
+              "italic": true,
+              "underline": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "₹25/- per liter of petrol for up to 10 liters monthly (₹250/month)."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Mode of Disbursement: ",
+              "bold": true,
+              "italic": true,
+              "underline": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Direct Benefit Transfer (DBT) to the beneficiary's bank account."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "exclusions": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Online",
+        "process": [
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "text": "Registration Process:",
+                "bold": true,
+                "italic": true,
+                "underline": true
+              }
+            ]
+          },
+          {
+            "type": "ul_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Download the CMSUPPORT app or visit the official portal "
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://jsfss.jharkhand.gov.in/",
+                    "children": [
+                      {
+                        "text": "jsfss.jharkhand.gov.in"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Enter your ration card number and Aadhaar number."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "An OTP will be sent to the mobile number linked to the Aadhaar. Verify the OTP."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": ""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "text": "Login Credentials:",
+                "bold": true,
+                "italic": true,
+                "underline": true
+              }
+            ]
+          },
+          {
+            "type": "ul_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Use your ration card number as the login ID and the last 8 digits of your Aadhaar as the password."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "text": "Filling the Form:",
+                "bold": true,
+                "italic": true,
+                "underline": true
+              }
+            ]
+          },
+          {
+            "type": "ul_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Select your name from the family members listed on the ration card."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Enter your two-wheeler's registration number and driving license details."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": ""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "text": "Verification Process:",
+                "bold": true,
+                "underline": true
+              }
+            ]
+          },
+          {
+            "type": "ul_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Submitted vehicle details are sent to the DTO (District Transport Office) for verification."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Post verification, the data is forwarded to the District Supply Officer (DSO) for final approval."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "text": "Approval and Disbursement:",
+                "bold": true,
+                "italic": true,
+                "underline": true
+              }
+            ]
+          },
+          {
+            "type": "ul_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Once approved, the subsidy amount is transferred directly to the applicant's linked bank account through DBT."
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "process_md": "> ***Registration Process:***\n\n\n- Download the CMSUPPORT app or visit the official portal [jsfss.jharkhand.gov.in](https://jsfss.jharkhand.gov.in/).- Enter your ration card number and Aadhaar number.\n- An OTP will be sent to the mobile number linked to the Aadhaar. Verify the OTP.\n\n> ***Login Credentials:***\n\n\n- Use your ration card number as the login ID and the last 8 digits of your Aadhaar as the password.\n\n<br>\n\n> ***Filling the Form:***\n\n\n- Select your name from the family members listed on the ration card.\n- Enter your two-wheeler&#39;s registration number and driving license details.\n\n> **Verification Process:**\n\n\n- Submitted vehicle details are sent to the DTO (District Transport Office) for verification.\n- Post verification, the data is forwarded to the District Supply Officer (DSO) for final approval.\n\n<br>\n\n> ***Approval and Disbursement:***\n\n\n- Once approved, the subsidy amount is transferred directly to the applicant&#39;s linked bank account through DBT.\n\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "> ***General Eligibility:***\n\n\n1. The applicant should possess a valid ration card under the National Food Security Act (NFSA) or Jharkhand State Food Security Scheme.\n1. All family members listed in the ration card must have Aadhaar numbers linked and verified.\n1. The applicant&#39;s Aadhaar should be linked to a valid bank account and an updated mobile number.\n\n<br>\n\n> ***Vehicle Eligibility:***\n\n\n1. The applicant&#39;s two-wheeler must be registered in their name and in the state of Jharkhand.\n1. The applicant must possess a valid driving license.\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "General Eligibility:",
+              "bold": true,
+              "italic": true,
+              "underline": true
+            }
+          ]
+        },
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should possess a valid ration card under the National Food Security Act (NFSA) or Jharkhand State Food Security Scheme."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "All family members listed in the ration card must have Aadhaar numbers linked and verified."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant's Aadhaar should be linked to a valid bank account and an updated mobile number."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        },
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "Vehicle Eligibility:",
+              "bold": true,
+              "italic": true,
+              "underline": true
+            }
+          ]
+        },
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant's two-wheeler must be registered in their name and in the state of Jharkhand."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must possess a valid driving license."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "jpss"
+}

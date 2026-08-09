@@ -1,0 +1,177 @@
+{
+  "_id": "69005ee6b29d98f5f7ba7b5c",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Cancer",
+        "Day Care Centre",
+        "Cancer Patient",
+        "Chemotherapy"
+      ],
+      "schemeName": "Cancer Day Care Centre - Uttarakhand",
+      "schemeShortTitle": "CDCCUK",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce7a2d6d1a3bde46852b1",
+          "label": "Health & Wellness"
+        }
+      ],
+      "schemeSubCategory": null,
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "schemeFor": "Individual",
+      "state": {
+        "value": 5,
+        "label": "Uttarakhand"
+      },
+      "nodalDepartmentName": {
+        "value": 50000093,
+        "label": "Medical Health And Family Welfare Department"
+      }
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines (Page No. 127)",
+          "url": "https://uk.gov.in/department92/library_file/file-04-12-2023-06-02-23.pdf"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The “Cancer Day Care Centre” is implemented by the Department of Medical Health and Family Welfare, Government of Uttarakhand. The scheme aims to ensure early detection and timely treatment of cancer by providing accessible and affordable healthcare services within the state.\n<br>\n\n",
+      "benefits_md": "Free screening for common cancers (oral, breast, and CA cervix) is being conducted across all districts of Uttarakhand to detect cancer at an early stage and start treatment.\n<br>\n\n",
+      "briefDescription": "The scheme aims to ensure early detection & timely treatment of cancer by providing accessible & affordable healthcare services within the state. Under this initiative, free screening for common cancers such as oral, breast, & cervical cancer is being conducted across all districts of Uttarakhand.",
+      "exclusions_md": "",
+      "detailedDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "The “Cancer Day Care Centre” is implemented by the Department of Medical Health and Family Welfare, Government of Uttarakhand. The scheme aims to ensure early detection and timely treatment of cancer by providing accessible and affordable healthcare services within the state."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 2,
+        "value": "in-kind",
+        "label": "In Kind"
+      },
+      "benefits": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "Free screening for common cancers (oral, breast, and CA cervix) is being conducted across all districts of Uttarakhand to detect cancer at an early stage and start treatment."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "process": [
+          {
+            "type": "align_justify",
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Cancer Day Care Centres are being established in all 13 districts of Uttarakhand to provide chemotherapy, pain management, and other daycare services to cancer patients. Currently, Cancer Day Care Units have been set up in 10 hill districts of the state. Patients can avail of these facilities by visiting their respective district hospitals."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          }
+        ],
+        "process_md": "Cancer Day Care Centres are being established in all 13 districts of Uttarakhand to provide chemotherapy, pain management, and other daycare services to cancer patients. Currently, Cancer Day Care Units have been set up in 10 hill districts of the state. Patients can avail of these facilities by visiting their respective district hospitals.\n<br>\n\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n   1. The beneficiary must be a resident of Uttarakhand.\n   1. The beneficiary must be a cancer patient.\n\n<br>\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "ol_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The beneficiary must be a resident of Uttarakhand."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The beneficiary must be a cancer patient."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "cdccuk"
+}

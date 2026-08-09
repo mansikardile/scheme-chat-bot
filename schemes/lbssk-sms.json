@@ -1,0 +1,399 @@
+{
+  "_id": "62a31d49f038bd8499a5f77c",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Sanitary Mart",
+        "Loan",
+        "Financial Assistance",
+        "Credit",
+        "Sanitation",
+        "Manual Scavengers",
+        "Waste Pickers",
+        "Safai Karamcharis"
+      ],
+      "schemeName": "Loan Based Schemes For Safai Karamchari - Sanitary Marts Scheme",
+      "schemeShortTitle": "LBSSK-SMS",
+      "level": {
+        "value": "central",
+        "label": "Central"
+      },
+      "schemeType": {
+        "value": "central-sector-scheme",
+        "label": "Central Sector Scheme"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce733d6d1a3bde4685278",
+          "label": "Business & Entrepreneurship"
+        },
+        {
+          "value": "628ce7f6d6d1a3bde46852d0",
+          "label": "Banking,Financial Services and Insurance"
+        },
+        {
+          "value": "628ce87cd6d1a3bde4685312",
+          "label": "Social welfare & Empowerment"
+        },
+        {
+          "value": "628ce97ad6d1a3bde468537d",
+          "label": "Utility & Sanitation"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Setting up / start-up / entrepreneurship",
+          "label": "Setting up / start-up / entrepreneurship"
+        },
+        {
+          "value": "Loan",
+          "label": "Loan"
+        },
+        {
+          "value": "Citizen empowerment",
+          "label": "Citizen empowerment"
+        },
+        {
+          "value": "Sanitation / Sewage",
+          "label": "Sanitation / Sewage"
+        }
+      ],
+      "schemeOpenDate": "2014-10-02",
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        },
+        {
+          "value": "self-help-groups",
+          "label": "Self Help Groups (SHGS)"
+        }
+      ],
+      "schemeFor": "Infra",
+      "nodalMinistryName": {
+        "value": 712,
+        "label": "Ministry Of Social Justice and Empowerment"
+      },
+      "nodalDepartmentName": {
+        "value": 11112,
+        "label": "Department of Social Justice & Empowerment"
+      }
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Scheme Guidelines",
+          "url": "https://nskfdc.nic.in/en/content/home/sanitary-marts-scheme"
+        },
+        {
+          "title": "Official Website",
+          "url": "https://nskfdc.nic.in/en/content/home/home"
+        }
+      ],
+      "schemeImageUrl": "https://uttara-s3-bucket.s3.ap-south-1.amazonaws.com/schemes/lbssk-sms/lbssk-sms.svg",
+      "detailedDescription_md": "The &quot;Sanitary Marts Scheme&quot; has been launched by the Ministry of Social Justice and Empowerment, Government of India and implemented by the National Safai Karamcharis Finance &amp; Development Corporation. Under the scheme, financial assistance would be extended to individual beneficiaries/self-help groups of liberated manual scavengers/safai karamcharis and their dependents for the setting up of sanitary marts.\n<br>\n\n",
+      "benefits_md": "> **Financial Assistance** \n\n\n- **Quantum of loan:** 90% of the total cost with a maximum of ₹15,00,000/-.- **Promoters’ Contribution:** 10% of the total cost of a Sanitary Mart will be brought in by the beneficiaries- **Interest:** Interest payable by the beneficiaries shall not exceed 7% p.a. (1% p.a. rebate for women beneficiaries and 0.50% rebate for timely repayments.)- **Repayment:** Term loans drawn from NSKFDC will be required to be repaid upto 10 years in quarterly installments.- **Moratorium:** A moratorium period of 6 months in addition to the implementation period of 4 months will be allowed.\n<br>\n\n",
+      "exclusions_md": "<br>\n\n",
+      "briefDescription": "A sanitary mart is a one-stop-shop for all things for sanitation and hygiene. It is a shopping place where the sanitary needs of the common man could be met. It serves both as a shop and as a service centre.",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The \"Sanitary Marts Scheme\" has been launched by the Ministry of Social Justice and Empowerment, Government of India and implemented by the National Safai Karamcharis Finance & Development Corporation. Under the scheme, financial assistance would be extended to individual beneficiaries/self-help groups of liberated manual scavengers/safai karamcharis and their dependents for the setting up of sanitary marts."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "value": "Cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "Financial Assistance ",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "bold": true,
+                  "text": "Quantum of loan:"
+                },
+                {
+                  "text": " 90% of the total cost with a maximum of ₹15,00,000/-."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Promoters’ Contribution:",
+                  "bold": true
+                },
+                {
+                  "text": " 10% of the total cost of a Sanitary Mart will be brought in by the beneficiaries"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Interest:",
+                  "bold": true
+                },
+                {
+                  "text": " Interest payable by the beneficiaries shall not exceed 7% p.a. (1% p.a. rebate for women beneficiaries and 0.50% rebate for timely repayments.)"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Repayment:",
+                  "bold": true
+                },
+                {
+                  "text": " Term loans drawn from NSKFDC will be required to be repaid upto 10 years in quarterly installments."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Moratorium:",
+                  "bold": true
+                },
+                {
+                  "text": " A moratorium period of 6 months in addition to the implementation period of 4 months will be allowed."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ],
+      "exclusions": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "url": "https://nskfdc.nic.in/en/node/add/loan-application",
+        "process": [
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "text": "Application Process",
+                "bold": true
+              }
+            ]
+          },
+          {
+            "type": "ul_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "The loan applications are submitted by the beneficiaries to the District Offices of State Channelizing Agencies (SCAs) of NSKFDC/ Branches of Regional Rural Banks(RRBs)/Nationalised Bank. "
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "The District Offices of SCAs/Branches of RRBs/Nationalised Banks send these applications after scrutiny to their Head Offices. "
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "The viability of the project proposals are being appraised by the SCAs/ RRBs/Nationalised Banks and the viable projects are sent to NSKFDC along with their recommendations."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "text": "Post-Application Process",
+                "bold": true
+              }
+            ]
+          },
+          {
+            "type": "ul_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "The said project proposals are also appraised by the Project Appraisal Committee of NSKFDC and the proposals which are found to be in order, are placed before the Board of Directors for consideration and sanction. After sanction by the Board of Directors of NSKFDC, the sanction letters, also called Letter of Intents, are issued  to the SCAs/RRBs/Nationalised for acceptance."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "After acceptance of the terms and conditions of the sanction and execution of loan agreement/other documents, funds are released to the SCAs/RRBs/Nationalised Bank for onward disbursement to the beneficiaries.  The release of funds is being made by NSKFDC on receipt of demand from the SCAs/RRBs/Nationalised Banks  after considering all the parameters of release as  per the Lending Policies & Guidelines (LPG) of NSKFDC."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          }
+        ],
+        "process_md": "> **Application Process**\n\n\n- The loan applications are submitted by the beneficiaries to the District Offices of State Channelizing Agencies (SCAs) of NSKFDC/ Branches of Regional Rural Banks(RRBs)/Nationalised Bank. \n- The District Offices of SCAs/Branches of RRBs/Nationalised Banks send these applications after scrutiny to their Head Offices. \n- The viability of the project proposals are being appraised by the SCAs/ RRBs/Nationalised Banks and the viable projects are sent to NSKFDC along with their recommendations.\n\n> **Post-Application Process**\n\n\n- The said project proposals are also appraised by the Project Appraisal Committee of NSKFDC and the proposals which are found to be in order, are placed before the Board of Directors for consideration and sanction. After sanction by the Board of Directors of NSKFDC, the sanction letters, also called Letter of Intents, are issued  to the SCAs/RRBs/Nationalised for acceptance.\n- After acceptance of the terms and conditions of the sanction and execution of loan agreement/other documents, funds are released to the SCAs/RRBs/Nationalised Bank for onward disbursement to the beneficiaries.  The release of funds is being made by NSKFDC on receipt of demand from the SCAs/RRBs/Nationalised Banks  after considering all the parameters of release as  per the Lending Policies &amp; Guidelines (LPG) of NSKFDC.\n\n<br>\n\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n1. Safai Karamcharis (including Wastepickers), identified Manual Scavengers and their dependents.\n1. Registered co-operative societies of Safai Karamcharis.\n1. Legally constituted association/firm promoted by the target group, and\n1. All those who produce a certificate from local Revenue Officer/local Municipal Officer/Cantonment Executive Officer/Railway Officer, Head of the Govt. Departments (i.e. Schools, Colleges, Forest, Health, Education, Animal Husbandry) having rank not less than Gazetted Officer, Elected Members of Municipal Body &amp; Pradhan of Gram Panchayats, Regional Managers of Regional Rural Banks(RRBs)/Nationalised Banks.\n1. However, under the MS Act, 2013, a person identified as a manual scavenger in a survey, need not to provide any certificate once his/her name appeared in the final list of Manual Scavengers prepared by State Governments/Union Territory Administration.\n1. No income limit is fixed for availing financial assistance. However, other things being equal, NSKFDC accords priority to economic development and rehabilitation of –\n\n\n- Scavengers and amongst scavengers those scavengers  whose income is below double the poverty line;\n- Women from among the target group and\n- Disabled persons among the target group.\n\n<br>\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Safai Karamcharis (including Wastepickers), identified Manual Scavengers and their dependents."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Registered co-operative societies of Safai Karamcharis."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Legally constituted association/firm promoted by the target group, and"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "All those who produce a certificate from local Revenue Officer/local Municipal Officer/Cantonment Executive Officer/Railway Officer, Head of the Govt. Departments (i.e. Schools, Colleges, Forest, Health, Education, Animal Husbandry) having rank not less than Gazetted Officer, Elected Members of Municipal Body & Pradhan of Gram Panchayats, Regional Managers of Regional Rural Banks(RRBs)/Nationalised Banks."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "However, under the MS Act, 2013, a person identified as a manual scavenger in a survey, need not to provide any certificate once his/her name appeared in the final list of Manual Scavengers prepared by State Governments/Union Territory Administration."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "No income limit is fixed for availing financial assistance. However, other things being equal, NSKFDC accords priority to economic development and rehabilitation of –"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Scavengers and amongst scavengers those scavengers  whose income is below double the poverty line;"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Women from among the target group and"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Disabled persons among the target group."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "lbssk-sms"
+}

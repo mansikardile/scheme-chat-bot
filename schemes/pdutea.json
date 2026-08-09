@@ -1,0 +1,521 @@
+{
+  "_id": "69c280707491a9bd22667171",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Organization",
+        "Institution",
+        "Financial Incentive",
+        "Innovation",
+        "Skilling"
+      ],
+      "schemeName": "Pandit Deendayal Upadhyaya Telecom Excellence Award",
+      "schemeShortTitle": "PDUTEA",
+      "level": {
+        "value": "central",
+        "label": "Central"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce87cd6d1a3bde4685312",
+          "label": "Social welfare & Empowerment"
+        },
+        {
+          "value": "628ce9ced6d1a3bde46853a4",
+          "label": "Science, IT & Communications"
+        },
+        {
+          "value": "628ce85cd6d1a3bde4685304",
+          "label": "Skills & Employment"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Financial assistance",
+          "label": "Financial assistance"
+        },
+        {
+          "value": "Working conditions, health and safety",
+          "label": "Working conditions, health and safety"
+        },
+        {
+          "value": "Apprenticeship",
+          "label": "Apprenticeship"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "institution",
+          "label": "University / Institution"
+        },
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "schemeFor": "Infra",
+      "state": null,
+      "schemeType": {
+        "value": "central-sector-scheme",
+        "label": "Central Sector Scheme"
+      },
+      "nodalMinistryName": {
+        "value": 1065,
+        "label": "Ministry Of Communication"
+      },
+      "nodalDepartmentName": {
+        "value": 1066,
+        "label": "Department of Telecommunication"
+      },
+      "otherMinistryName": null,
+      "otherDepartmentNames": null
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://www.dot.gov.in/static/uploads/2025/07/8503593fed466068fa8ef7ce95935aea.pdf"
+        },
+        {
+          "title": "Scheme Details",
+          "url": "https://awards.gov.in/"
+        }
+      ],
+      "schemeImageUrl": "",
+      "briefDescription": "The scheme aims to provide national recognition, financial incentives, and professional encouragement to Indian citizens and institutions contributing significantly to telecom development and its application in sectors such as agriculture, health, education, and commerce.",
+      "detailedDescription_md": "The &quot;Pandit Deendayal Upadhyaya Telecom Excellence Award&quot; scheme has been launched by the Department of Telecommunications, Ministry of Communications, Government of India. The scheme aims to encourage innovation, excellence, and capacity building in the telecom sector while recognizing outstanding contributions made by individuals, organizations, and institutions across telecom innovations, skilling, services, manufacturing, and sectoral applications.\n<br>\n\n",
+      "benefits_md": "**Benefits**\n\n- Cash award of ₹2,00,000 per awardee.\n- Shawl, Citation, and Plaque as recognition.\n- Reimbursement of airfare (economy class by the shortest route).\n- A lump sum amount of ₹7,500 for boarding, lodging, and incidental expenses.\n- National recognition for outstanding telecom contributions.\n\n**Mode of Disbursement**\n\n- Cash award transferred to awardee; travel reimbursement on submission of bills.\n- Physical presentation of shawl, plaque, and citation.\n- Once annually.\n\n**Expected Time of Disbursement**\n\n- During the official Award Presentation Ceremony (date decided by Department of Telecommunications).\n- One-time award; cannot be used as title or prefix/suffix.\n\n<br>\n\n",
+      "exclusions_md": "<br>\n\n",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The \"Pandit Deendayal Upadhyaya Telecom Excellence Award\" scheme has been launched by the Department of Telecommunications, Ministry of Communications, Government of India. The scheme aims to encourage innovation, excellence, and capacity building in the telecom sector while recognizing outstanding contributions made by individuals, organizations, and institutions across telecom innovations, skilling, services, manufacturing, and sectoral applications."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 3,
+        "value": "composite",
+        "label": "Composite"
+      },
+      "benefits": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Benefits",
+              "bold": true,
+              "underline": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Cash award of ₹2,00,000 per awardee."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Shawl, Citation, and Plaque as recognition."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Reimbursement of airfare (economy class by the shortest route)."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "A lump sum amount of ₹7,500 for boarding, lodging, and incidental expenses."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "National recognition for outstanding telecom contributions."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Mode of Disbursement",
+              "bold": true,
+              "underline": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Cash award transferred to awardee; travel reimbursement on submission of bills."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Physical presentation of shawl, plaque, and citation."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Once annually."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Expected Time of Disbursement",
+              "bold": true,
+              "underline": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "During the official Award Presentation Ceremony (date decided by Department of Telecommunications)."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "One-time award; cannot be used as title or prefix/suffix."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ],
+      "exclusions": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Online",
+        "process": [
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "text": "Application Process:",
+                "bold": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "bold": true,
+                "text": "Step 01:"
+              },
+              {
+                "text": " The applicant should visit the National Awards Portal ("
+              },
+              {
+                "type": "link",
+                "link": "https://awards.gov.in/",
+                "children": [
+                  {
+                    "text": "https://www.awards.gov.in"
+                  }
+                ]
+              },
+              {
+                "text": ")."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 02: ",
+                "bold": true
+              },
+              {
+                "text": "The applicant should register and fill the online application form."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 03: ",
+                "bold": true
+              },
+              {
+                "text": "The applicant should upload all required documents and supporting evidence."
+              }
+            ]
+          },
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "text": "Post-Application Process:",
+                "bold": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "bold": true,
+                "text": "Step 01: "
+              },
+              {
+                "text": "The applications are scrutinized by the Award Sub-Committee."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "bold": true,
+                "text": "Step 02: "
+              },
+              {
+                "text": "The shortlisted candidates are recommended to the Award Committee."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "bold": true,
+                "text": "Step 03: "
+              },
+              {
+                "text": "The Award Committee selects the final awardees."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "bold": true,
+                "text": "Step 04: "
+              },
+              {
+                "text": "Approval is obtained from the Minister of Communications."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "bold": true,
+                "text": "Step 05: "
+              },
+              {
+                "text": "Selected candidates are informed and invited to the award ceremony."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "bold": true,
+                "text": "Step 06: "
+              },
+              {
+                "text": "Awards are presented during the official ceremony."
+              }
+            ]
+          },
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "text": "NOTE:",
+                "bold": true
+              }
+            ]
+          },
+          {
+            "type": "ul_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "The applicant should submit a recommendation from the organization (if work done in official capacity)."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          }
+        ],
+        "process_md": "> **Application Process:**\n\n**Step 01:** The applicant should visit the National Awards Portal ([https://www.awards.gov.in](https://awards.gov.in/)).\n**Step 02:** The applicant should register and fill the online application form.\n**Step 03:** The applicant should upload all required documents and supporting evidence.\n> **Post-Application Process:**\n\n**Step 01:** The applications are scrutinized by the Award Sub-Committee.\n**Step 02:** The shortlisted candidates are recommended to the Award Committee.\n**Step 03:** The Award Committee selects the final awardees.\n**Step 04:** Approval is obtained from the Minister of Communications.\n**Step 05:** Selected candidates are informed and invited to the award ceremony.\n**Step 06:** Awards are presented during the official ceremony.\n> **NOTE:**\n\n\n- The applicant should submit a recommendation from the organization (if work done in official capacity).\n\n<br>\n\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n1. The applicant should be an Indian citizen or an organization/institution registered in India.\n1. The applicant should have made notable contributions in telecom sector during the last 3 years.\n1. The applicant should contribute in telecom innovations, skilling, services, manufacturing, or telecom-based applications.\n1. The applicant should demonstrate impact in sectors such as agriculture, health, education, or commerce.\n1. The applicant should provide verifiable work done within India.\n1. The applicant should not have received this award in the last 3 years.\n1. The applicant should not be currently performing the work as part of regular government duty, unless after retirement.\n\n<br>\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should be an Indian citizen or an organization/institution registered in India."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should have made notable contributions in telecom sector during the last 3 years."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should contribute in telecom innovations, skilling, services, manufacturing, or telecom-based applications."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should demonstrate impact in sectors such as agriculture, health, education, or commerce."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should provide verifiable work done within India."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should not have received this award in the last 3 years."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should not be currently performing the work as part of regular government duty, unless after retirement."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "pdutea"
+}

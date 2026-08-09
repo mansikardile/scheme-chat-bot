@@ -1,0 +1,508 @@
+{
+  "_id": "66a0d5b962c12e305cb21ea0",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Pension",
+        "PwD",
+        "Disability",
+        "ISSS",
+        "BPL"
+      ],
+      "schemeName": "Integrated Social Security Scheme: Pension to Physically Challenged Persons",
+      "schemeShortTitle": "ISSSPPCP",
+      "implementingAgency": "Directorate Of Social & Tribal Welfare, Administration Of Union Territory Of Ladakh",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce87cd6d1a3bde4685312",
+          "label": "Social welfare & Empowerment"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Pension",
+          "label": "Pension"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "state": {
+        "value": 37,
+        "label": "Ladakh"
+      },
+      "nodalDepartmentName": {
+        "value": 37000030,
+        "label": "Social and Tribal Welfare Department"
+      },
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Notification",
+          "url": "https://cdnbbsr.s3waas.gov.in/s395192c98732387165bf8e396c0f2dad2/uploads/2023/06/2023060595.pdf"
+        },
+        {
+          "title": "Official Website",
+          "url": "https://socialwelfare.ladakh.gov.in/schemes.php"
+        },
+        {
+          "title": "Ladakh E-Seva Platform",
+          "url": "https://eseva.ladakh.gov.in/ladakheservices"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The scheme &amp;quot;Pension to Physically Challenged Persons&amp;quot; is a sub-component of the “Integrated Social Security Scheme (IGSSS)” implemented by the Social and Tribal Welfare Department, Administration of Union Territory of Ladakh. Under this scheme, a monthly pension of ₹1,000/- is provided to poor physically handicapped persons (including those who are blind, deaf, or dumb) with a degree of disability 40% or above and having no source of income.\n",
+      "benefits_md": "**Amount of pension:**  ₹1,000/- per month per beneficiary \n",
+      "briefDescription": "Under this scheme, a monthly pension of ₹1,000/- is provided to poor physically handicapped persons (including those who are blind, deaf, or dumb) with a degree of disability 40% or above and having no source of income.",
+      "exclusions_md": "",
+      "detailedDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "The scheme \"Pension to Physically Challenged Persons\" is a sub-component of the “Integrated Social Security Scheme (IGSSS)” implemented by the Social and Tribal Welfare Department, Administration of Union Territory of Ladakh. Under this scheme, a monthly pension of ₹1,000/- is provided to poor physically handicapped persons (including those who are blind, deaf, or dumb) with a degree of disability 40% or above and having no source of income."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "Amount of pension:",
+                  "bold": true
+                },
+                {
+                  "text": "  ₹1,000/- per month per beneficiary "
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Online",
+        "process": [
+          {
+            "type": "align_justify",
+            "children": [
+              {
+                "type": "block_quote",
+                "children": [
+                  {
+                    "text": "Registration Process:",
+                    "bold": true,
+                    "underline": true
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 1:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Visit the ‘"
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://eseva.ladakh.gov.in/ladakheservices",
+                    "children": [
+                      {
+                        "text": "Ladakh E-Seva Platform"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "’ and navigate to the “Go Live Services” tab on the right side of the screen. Select the ISSS scheme under the 'Social Welfare' section."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 2:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Click on the '"
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://eseva.ladakh.gov.in/cznregistration",
+                    "children": [
+                      {
+                        "text": "Registration"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "' tab in the right corner of the screen. "
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 3:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Read the instructions carefully and fill in all the required information accurately. Upload the Passport-size scan photo (jpg image) in a clear background of size less than 50 kB. "
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 4: ",
+                    "bold": true
+                  },
+                  {
+                    "text": "Note the User ID and Password after successful registration for future reference."
+                  }
+                ]
+              },
+              {
+                "type": "block_quote",
+                "children": [
+                  {
+                    "text": "Login to apply for scheme benefits:",
+                    "bold": true,
+                    "underline": true
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 1:",
+                    "bold": true
+                  },
+                  {
+                    "text": " To apply under the scheme, visit the ‘"
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://eseva.ladakh.gov.in/ladakheservices",
+                    "children": [
+                      {
+                        "text": "Ladakh E-Seva Platform"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "’ again and navigate to the “Go Live Services” tab on the right side of the screen. Select the ISSS scheme under the 'Social Welfare' section."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 2:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Enter your "
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://eseva.ladakh.gov.in/indexpage",
+                    "children": [
+                      {
+                        "text": "login"
+                      }
+                    ]
+                  },
+                  {
+                    "text": " credentials (Login ID and Password generated after registration), select \"User Role\" as \"Citizen,\" enter the Captcha, and click on \"Submit\". "
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 3:",
+                    "bold": true
+                  },
+                  {
+                    "text": " After Login, the applicant has to click on the “E-services” tab in the left menu."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 4:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Click on the “Department of Social & Tribal Welfare” and select the scheme ‘Pension to Physically Challenged Persons’ under “Integrated Social Security Scheme”."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 5:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Fill in the required details accurately and upload the mandatory documents then click on Submit to complete the application process."
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "process_md": "&gt; **Registration Process:**\n\n**Step 1:** Visit the ‘[Ladakh E-Seva Platform](https://eseva.ladakh.gov.in/ladakheservices)’ and navigate to the “Go Live Services” tab on the right side of the screen. Select the ISSS scheme under the &amp;#39;Social Welfare&amp;#39; section.\n**Step 2:** Click on the &amp;#39;[Registration](https://eseva.ladakh.gov.in/cznregistration)&amp;#39; tab in the right corner of the screen. \n**Step 3:** Read the instructions carefully and fill in all the required information accurately. Upload the Passport-size scan photo (jpg image) in a clear background of size less than 50 kB. \n**Step 4:** Note the User ID and Password after successful registration for future reference.\n&gt; **Login to apply for scheme benefits:**\n\n**Step 1:** To apply under the scheme, visit the ‘[Ladakh E-Seva Platform](https://eseva.ladakh.gov.in/ladakheservices)’ again and navigate to the “Go Live Services” tab on the right side of the screen. Select the ISSS scheme under the &amp;#39;Social Welfare&amp;#39; section.\n**Step 2:** Enter your [login](https://eseva.ladakh.gov.in/indexpage) credentials (Login ID and Password generated after registration), select &amp;quot;User Role&amp;quot; as &amp;quot;Citizen,&amp;quot; enter the Captcha, and click on &amp;quot;Submit&amp;quot;. \n**Step 3:** After Login, the applicant has to click on the “E-services” tab in the left menu.\n**Step 4:** Click on the “Department of Social &amp;amp; Tribal Welfare” and select the scheme ‘Pension to Physically Challenged Persons’ under “Integrated Social Security Scheme”.\n**Step 5:** Fill in the required details accurately and upload the mandatory documents then click on Submit to complete the application process.\n"
+      },
+      {
+        "mode": "Offline",
+        "process": [
+          {
+            "type": "align_justify",
+            "children": [
+              {
+                "type": "block_quote",
+                "children": [
+                  {
+                    "text": "Application Process:",
+                    "bold": true,
+                    "underline": true
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 1:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Visit the office of the concerned Tehsil Social Welfare Officer (TSWO) and collect the application form, which is available free of cost."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 2:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Fill in all the required information accurately and legibly."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 3:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Enclose all the mandatory documents (self-attested, if required) with the application."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 4:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Submit the application to the TSWO and request a proper receipt acknowledging the submission."
+                  }
+                ]
+              },
+              {
+                "type": "block_quote",
+                "children": [
+                  {
+                    "text": "Post-Application Process",
+                    "bold": true,
+                    "underline": true
+                  },
+                  {
+                    "text": ":"
+                  }
+                ]
+              },
+              {
+                "type": "ul_list",
+                "children": [
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "text": "The concerned TSWO consolidates the list of eligible applicants under the scheme and forwards it to the concerned District Social Welfare Officer for the arrangement of funds and accord of sanction by a designated District level Sanctioning Committee headed by the Director Social Welfare Department, UT Ladakh."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Note:",
+                    "bold": true
+                  },
+                  {
+                    "text": " In case, the pension is not received by the 8th of every month, beneficiaries are requested to raise a complaint either via email or physically at the following address:"
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Email:",
+                    "bold": true
+                  },
+                  {
+                    "text": " directorsocialwelfareladakh@gmail.com"
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Address:",
+                    "bold": true
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Directorate of Social and Tribal Welfare,"
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Ground Floor, Council Secretariat,"
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Kurbathang, Kargil- 194103."
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "process_md": "&gt; **Application Process:**\n\n**Step 1:** Visit the office of the concerned Tehsil Social Welfare Officer (TSWO) and collect the application form, which is available free of cost.\n**Step 2:** Fill in all the required information accurately and legibly.\n**Step 3:** Enclose all the mandatory documents (self-attested, if required) with the application.\n**Step 4:** Submit the application to the TSWO and request a proper receipt acknowledging the submission.\n&gt; **Post-Application Process**:\n\n\n  - The concerned TSWO consolidates the list of eligible applicants under the scheme and forwards it to the concerned District Social Welfare Officer for the arrangement of funds and accord of sanction by a designated District level Sanctioning Committee headed by the Director Social Welfare Department, UT Ladakh.\n\n**Note:** In case, the pension is not received by the 8th of every month, beneficiaries are requested to raise a complaint either via email or physically at the following address:\n**Email:** directorsocialwelfareladakh@gmail.com\n**Address:**\nDirectorate of Social and Tribal Welfare,\nGround Floor, Council Secretariat,\nKurbathang, Kargil- 194103.\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n   1. The applicant should be a permanent resident of the Union Territory of Ladakh.\n   1. The applicant should be a physically challenged person with a disability of 40% or more (including Blind, Deaf, Dumb).\n   1. The applicant should belong to the Below Poverty Line (BPL) category.\n   1. The applicant&amp;#39;s age should be between 18 and 79 years.\n   1. The applicant should have no source of income.\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "ol_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant should be a permanent resident of the Union Territory of Ladakh."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant should be a physically challenged person with a disability of 40% or more (including Blind, Deaf, Dumb)."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant should belong to the Below Poverty Line (BPL) category."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant's age should be between 18 and 79 years."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant should have no source of income."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "isssppcp"
+}

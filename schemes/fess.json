@@ -1,0 +1,218 @@
+{
+  "_id": "68ff4c56416d6da6984354ee",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Free Electricity",
+        "Scheduled Caste",
+        "Scheduled Tribe"
+      ],
+      "schemeName": "Free Electricity Supply Scheme",
+      "schemeShortTitle": "FESS",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce97ad6d1a3bde468537d",
+          "label": "Utility & Sanitation"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Electricity",
+          "label": "Electricity"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "schemeFor": "Individual",
+      "state": {
+        "value": 23,
+        "label": "Madhya Pradesh"
+      },
+      "schemeType": null,
+      "nodalMinistryName": null,
+      "nodalDepartmentName": {
+        "value": 2300010,
+        "label": "Energy Department"
+      },
+      "otherMinistryName": null,
+      "otherDepartmentNames": null
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://cmhelpline.mp.gov.in/schemes.aspx?vID=0"
+        }
+      ],
+      "schemeImageUrl": "",
+      "briefDescription": "The scheme aims to provide free electricity supply to Scheduled Caste (SC) and Scheduled Tribe (ST) farmers of Madhya Pradesh who have agricultural pumps up to 5 horsepower and landholding up to 1 hectare.",
+      "detailedDescription_md": "The scheme “Free Electricity Supply Scheme” launched by the Energy Department, Government of Madhya Pradesh aims to support Scheduled Caste and Scheduled Tribe farmers by providing free electricity supply for agricultural pumps up to 5 horsepower and landholding up to 1 hectare.\n<br>\n\n",
+      "benefits_md": "\n  - **Free Electricity Supply:** Scheduled Caste and Scheduled Tribe farmers having agricultural pumps up to 5 horsepower and landholding up to 1 hectare receive free electricity.\n<br>\n\n",
+      "exclusions_md": "",
+      "detailedDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "The scheme “Free Electricity Supply Scheme” launched by the Energy Department, Government of Madhya Pradesh aims to support Scheduled Caste and Scheduled Tribe farmers by providing free electricity supply for agricultural pumps up to 5 horsepower and landholding up to 1 hectare."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 2,
+        "value": "in-kind",
+        "label": "In Kind"
+      },
+      "benefits": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "ul_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Free Electricity Supply:",
+                      "bold": true
+                    },
+                    {
+                      "text": " Scheduled Caste and Scheduled Tribe farmers having agricultural pumps up to 5 horsepower and landholding up to 1 hectare receive free electricity."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "process": [
+          {
+            "type": "ul_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "The applicant can avail of the scheme benefits through the concerned electricity distribution company."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          }
+        ],
+        "process_md": "\n- The applicant can avail of the scheme benefits through the concerned electricity distribution company.\n\n<br>\n\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n  - The applicant must be a farmer.\n  - The applicant must be a resident of Madhya Pradesh.\n  - The applicant must belong to the Scheduled Caste (SC) or the Scheduled Tribe (ST) category.\n  - The applicant must be a farmer owning agricultural land up to 1 hectare.\n  - The applicant must have an agricultural pump of capacity up to 5 Horsepower (HP).\n\n<br>\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "ul_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant must be a farmer."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant must be a resident of Madhya Pradesh."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant must belong to the Scheduled Caste (SC) or the Scheduled Tribe (ST) category."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant must be a farmer owning agricultural land up to 1 hectare."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant must have an agricultural pump of capacity up to 5 Horsepower (HP)."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "fess"
+}

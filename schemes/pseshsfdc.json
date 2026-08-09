@@ -1,0 +1,770 @@
+{
+  "_id": "6683d3bfc833972ed2ed1e9e",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Professional",
+        "Self Employment",
+        "HSFDC",
+        "Loan",
+        "BPL",
+        "Scheduled Caste"
+      ],
+      "schemeName": "Professional and Self Employment Scheme (HSFDC)",
+      "schemeShortTitle": "PSESHSFDC",
+      "implementingAgency": "Haryana Scheduled Castes Finance And Development Corporation",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce7f6d6d1a3bde46852d0",
+          "label": "Banking,Financial Services and Insurance"
+        },
+        {
+          "value": "628ce733d6d1a3bde4685278",
+          "label": "Business & Entrepreneurship"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Loan",
+          "label": "Loan"
+        },
+        {
+          "value": "Setting up / start-up / entrepreneurship",
+          "label": "Setting up / start-up / entrepreneurship"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "schemeFor": "Individual",
+      "state": {
+        "value": 6,
+        "label": "Haryana"
+      },
+      "nodalDepartmentName": {
+        "value": 666710,
+        "label": "Welfare of Scheduled Caste & Backward Classes Department"
+      }
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Official Website",
+          "url": "https://hscfdc.org.in/"
+        },
+        {
+          "title": "Application Portal",
+          "url": "https://hscfdc.org.in/appreg"
+        },
+        {
+          "title": "HSFDC Details",
+          "url": "https://haryanascbc.gov.in/contribution-towards-share-capital-to-haryana-scheduled-castes-finance-development-corporation"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The scheme &amp;quot;Professional and Self Employment Scheme&amp;quot; is implemented by the Haryana Scheduled Castes Finance and Development Corporation (HSFDC) in collaboration with the bank tie-up schemes. The HSFDC is a Company registered under the Companies Act, 1956 on 02.01.1971. It is a wholly Government-owned Corporation with a 51% share of the State Government and a 49% share of the Government of India.\n       Under this scheme, the Corporation provides loans/benefits to individuals from Below Poverty Line (BPL) families, whose annual family income does not exceed ₹1,80,000/-, in both rural and urban areas. These loans support self-employment activities in fields such as the legal profession, Chartered Accountancy, medical practice, and other viable professional activities.\n",
+      "benefits_md": "**Project Cost Ceiling:**\n\n  - Up to ₹1,50,000/-.\n\n&gt; **Subsidy:**\n\n\n  - Subsidy @ 50% of the total project cost (Maximum amount of subsidy is ₹10,000/-)  \n\n**Margin Money:**\n\n  - The Corporation provides margin money @ 10% of the project cost.\n  - Margin money is provided @ 4% interest per annum.\n  - The interest on bank loan is charged by the banks at their lending policies.\n\n**Bank Loan:**\n\n  - Besides subsidy and margin money, the composite loan i.e. subsidy and margin money, and the balance amount of the bank loan is provided by the banks to the seller of the assets on behalf of the beneficiaries.\n\n> **Interest criteria for the loan amount recoverable by HSFDC:**\n\n**Upto Amount ( ₹)****Interest % P.A.****Penal Interest % P.A.**15,000/-             4                4<br>\n\n**Interest Starts on****Penalty Start After****Principal Recovery Starts After****Installment Starts After****Installment Period**Same Day180 Days360 Days      180 Days         180 Days\n",
+      "briefDescription": "Under this scheme, the Corporation provides loans/benefits to individuals from BPL families, whose annual family income does not exceed ₹1,80,000/-, in rural & urban areas. These loans support self-employment activities in fields such as legal profession, Chartered Accountancy, medical practice etc.",
+      "exclusions_md": "<br>\n\n",
+      "detailedDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "The scheme \"Professional and Self Employment Scheme\" is implemented by the Haryana Scheduled Castes Finance and Development Corporation (HSFDC) in collaboration with the bank tie-up schemes. The HSFDC is a Company registered under the Companies Act, 1956 on 02.01.1971. It is a wholly Government-owned Corporation with a 51% share of the State Government and a 49% share of the Government of India."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "       Under this scheme, the Corporation provides loans/benefits to individuals from Below Poverty Line (BPL) families, whose annual family income does not exceed ₹1,80,000/-, in both rural and urban areas. These loans support self-employment activities in fields such as the legal profession, Chartered Accountancy, medical practice, and other viable professional activities."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "Project Cost Ceiling:",
+                  "bold": true,
+                  "underline": true
+                }
+              ]
+            },
+            {
+              "type": "ul_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Up to ₹1,50,000/-."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "block_quote",
+              "children": [
+                {
+                  "text": "Subsidy:",
+                  "bold": true,
+                  "underline": true
+                }
+              ]
+            },
+            {
+              "type": "ul_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Subsidy @ 50% of the total project cost (Maximum amount of subsidy is ₹10,000/-)  "
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "Margin Money:",
+                  "bold": true,
+                  "underline": true
+                }
+              ]
+            },
+            {
+              "type": "ul_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The Corporation provides margin money @ 10% of the project cost."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Margin money is provided @ 4% interest per annum."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The interest on bank loan is charged by the banks at their lending policies."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "Bank Loan:",
+                  "bold": true,
+                  "underline": true
+                }
+              ]
+            },
+            {
+              "type": "ul_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Besides subsidy and margin money, the composite loan i.e. subsidy and margin money, and the balance amount of the bank loan is provided by the banks to the seller of the assets on behalf of the beneficiaries."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "Interest criteria for the loan amount recoverable by HSFDC:",
+              "bold": true,
+              "underline": true
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "children": [
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Upto Amount ( ₹)",
+                      "bold": true
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Interest % P.A.",
+                      "bold": true
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Penal Interest % P.A.",
+                      "bold": true
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "15,000/-"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "             4"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "                4"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "children": [
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Interest Starts on",
+                      "bold": true
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Penalty Start After",
+                      "bold": true
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Principal Recovery Starts After",
+                      "bold": true
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Installment Starts After",
+                      "bold": true
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Installment Period",
+                      "bold": true
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Same Day"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "180 Days"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "360 Days"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "      180 Days"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "         180 Days"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "exclusions": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Online",
+        "process": [
+          {
+            "type": "align_justify",
+            "children": [
+              {
+                "type": "block_quote",
+                "children": [
+                  {
+                    "text": "Registration Process on Haryana Scheduled Castes Finance and Development Corporation:",
+                    "bold": true,
+                    "underline": true
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 1: ",
+                    "bold": true
+                  },
+                  {
+                    "text": "Visit the "
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://hscfdc.org.in/appreg",
+                    "children": [
+                      {
+                        "text": "official website"
+                      }
+                    ]
+                  },
+                  {
+                    "text": " of Haryana Scheduled Castes Finance and Development Corporation and select the scheme under ‘Bank Tie-up Scheme’."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 2: ",
+                    "bold": true
+                  },
+                  {
+                    "text": "Click on \""
+                  },
+                  {
+                    "type": "link",
+                    "link": "http://hsfdc.org.in/register.php",
+                    "children": [
+                      {
+                        "text": "Apply for Loan"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "\" to begin the registration process."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 3:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Fill in your details, including your name, Aadhaar number, email, mobile number, and captcha code, then click \"Register\"."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 4:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Enter the OTP sent to your mobile and click \"Submit\"."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 5:",
+                    "bold": true
+                  },
+                  {
+                    "text": " The application form will open."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 6:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Enter your details and upload the required documents."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 7:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Click \"Submit\" to complete your application, and you will receive your user ID and password."
+                  }
+                ]
+              },
+              {
+                "type": "block_quote",
+                "children": [
+                  {
+                    "text": "Login to apply for the scheme:",
+                    "bold": true,
+                    "underline": true
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 1: ",
+                    "bold": true
+                  },
+                  {
+                    "text": "Visit the "
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://hscfdc.org.in/appreg",
+                    "children": [
+                      {
+                        "text": "official website"
+                      }
+                    ]
+                  },
+                  {
+                    "text": " of the Haryana Scheduled Castes Finance and Development Corporation and on the home page, click on ‘Login’ option."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 2:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Enter your user ID/Username, password, and captcha code."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 3: ",
+                    "bold": true
+                  },
+                  {
+                    "text": "Click \""
+                  },
+                  {
+                    "type": "link",
+                    "link": "http://hsfdc.org.in/login/loneeLogin.php",
+                    "children": [
+                      {
+                        "text": "Login"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "\"."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 4:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Once logged in, the dashboard will open in front of you Click on \"Edit Profile\"."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 5:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Fill in surety details, upload required documents, and update other details."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 6:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Click \"Final Submit\"."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 7: ",
+                    "bold": true
+                  },
+                  {
+                    "text": "After submitting, you can print out your application for your reference."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          }
+        ],
+        "process_md": "&gt; **Registration Process on Haryana Scheduled Castes Finance and Development Corporation:**\n\n**Step 1:** Visit the [official website](https://hscfdc.org.in/appreg) of Haryana Scheduled Castes Finance and Development Corporation and select the scheme under ‘Bank Tie-up Scheme’.\n**Step 2:** Click on &amp;quot;[Apply for Loan](http://hsfdc.org.in/register.php)&amp;quot; to begin the registration process.\n**Step 3:** Fill in your details, including your name, Aadhaar number, email, mobile number, and captcha code, then click &amp;quot;Register&amp;quot;.\n**Step 4:** Enter the OTP sent to your mobile and click &amp;quot;Submit&amp;quot;.\n**Step 5:** The application form will open.\n**Step 6:** Enter your details and upload the required documents.\n**Step 7:** Click &amp;quot;Submit&amp;quot; to complete your application, and you will receive your user ID and password.\n&gt; **Login to apply for the scheme:**\n\n**Step 1:** Visit the [official website](https://hscfdc.org.in/appreg) of the Haryana Scheduled Castes Finance and Development Corporation and on the home page, click on ‘Login’ option.\n**Step 2:** Enter your user ID/Username, password, and captcha code.\n**Step 3:** Click &amp;quot;[Login](http://hsfdc.org.in/login/loneeLogin.php)&amp;quot;.\n**Step 4:** Once logged in, the dashboard will open in front of you Click on &amp;quot;Edit Profile&amp;quot;.\n**Step 5:** Fill in surety details, upload required documents, and update other details.\n**Step 6:** Click &amp;quot;Final Submit&amp;quot;.\n**Step 7:** After submitting, you can print out your application for your reference.\n<br>\n\n"
+      },
+      {
+        "mode": "Offline",
+        "process": [
+          {
+            "type": "align_justify",
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "The Corporation also collects/fills up loan applications in credit camps, Open Darbars, and other functions organized under the supervision of Deputy Commissioners/Additional Deputy Commissioners."
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "process_md": "The Corporation also collects/fills up loan applications in credit camps, Open Darbars, and other functions organized under the supervision of Deputy Commissioners/Additional Deputy Commissioners.\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n   1. The applicant should be a resident of Haryana.\n   1. The applicant should belong to the Scheduled Caste Category.\n   1. The applicant should belong to the Below Poverty Line (BPL) family.\n   1. The applicant&amp;#39;s annual family income should not exceed ₹1,80,000/- in both rural and urban areas.\n   1. The applicant&amp;#39;s annual family income should not exceed the BPL limit.\n   1. The applicant&amp;#39;s name should be included in the BPL Survey List.\n\n**Note:** The eligibility of the applicant is verified by the field staff before sponsoring the same to the bank for sanction.\n",
+      "eligibilityDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "ol_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant should be a resident of Haryana."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant should belong to the Scheduled Caste Category."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant should belong to the Below Poverty Line (BPL) family."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant's annual family income should not exceed ₹1,80,000/- in both rural and urban areas."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant's annual family income should not exceed the BPL limit."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant's name should be included in the BPL Survey List."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "Note:",
+                  "bold": true
+                },
+                {
+                  "text": " The eligibility of the applicant is verified by the field staff before sponsoring the same to the bank for sanction."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "pseshsfdc"
+}

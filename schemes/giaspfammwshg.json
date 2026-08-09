@@ -1,0 +1,386 @@
+{
+  "_id": "64c38f99b594314dec844c39",
+  "en": {
+    "basicDetails": {
+      "schemeOpenDate": null,
+      "schemeCloseDate": null,
+      "state": {
+        "value": 30,
+        "label": "Goa"
+      },
+      "nodalMinistryName": null,
+      "nodalDepartmentName": {
+        "value": 30000053,
+        "label": "Women and Child Development Department"
+      },
+      "otherMinistryName": null,
+      "otherDepartmentNames": null,
+      "targetBeneficiaries": [
+        {
+          "value": "joint-liability-groups",
+          "label": "Joint Liability Groups (JLGS)"
+        },
+        {
+          "value": "self-help-groups",
+          "label": "Self Help Groups (SHGS)"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Financial assistance",
+          "label": "Financial assistance"
+        },
+        {
+          "value": "Citizen empowerment",
+          "label": "Citizen empowerment"
+        },
+        {
+          "value": "Setting up / start-up / entrepreneurship",
+          "label": "Setting up / start-up / entrepreneurship"
+        }
+      ],
+      "dbtScheme": null,
+      "implementingAgency": null,
+      "tags": [
+        "Self Help Group",
+        "SHG",
+        "Employment",
+        "Training"
+      ],
+      "schemeName": "Grant-in-Aid Scheme To Provide Financial Assistance To The Mahila Mandals/ Women’s Self-help Groups (SWAWLAMBHAN)",
+      "schemeShortTitle": "GIASPFAMMWSHG",
+      "level": {
+        "value": "state",
+        "label": "State"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce87cd6d1a3bde4685312",
+          "label": "Social welfare & Empowerment"
+        },
+        {
+          "value": "628ce733d6d1a3bde4685278",
+          "label": "Business & Entrepreneurship"
+        },
+        {
+          "value": "64f57d10ffb93104c7006c97",
+          "label": "Women and Child"
+        }
+      ],
+      "schemeFor": "Infra"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://www.goa.gov.in/wp-content/uploads/2022/08/DWCD-Citizen-Charter-1.pdf"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The scheme &quot;Grant-in-Aid Scheme to Provide Financial Assistance to the Mahila Mandals/ Women’s Self-help Groups (SWAWLAMBHAN)&quot; by the Directorate of Women And Child Development, Govt. of Goa, provides financial assistance to Mahila Mandals/Self-Help Groups for training/orientation for members of the Mahila Mandal/ Self Help Groups for generating their own activity for self-employment. This Scheme is applicable to all the Mahila Mandals/Women&#39;s Self-Help Groups duly registered before the competent authority within the territory of Goa.\n",
+      "benefits_md": "**Financial Assistance:** ₹ 20,000/- sanctioned as annual grants.\n**Purpose:** For successful functioning in the state of Goa.\n<br>\n\n**Financial Assistance:** ₹ 5,000/-.\n**Purpose:** For undertaking any gainful self-employment activity training orientation in the [activities](https://goaprintingpress.gov.in/downloads/2122/2122-39-SI-OG-0.pdf).\n<br>\n\n> **For the Master Trainers**\n\n\n1. The Directorate may provide resource persons/ Master Trainers/Instructors for each course of activity through CDPOs.\n1. A fixed **honorarium of ₹ 5,000/-** will be paid per course..1. Actual **Travel Allowance (TA)** incurred shall be paid if travelling in the Taluka outside his/her jurisdiction.\n",
+      "briefDescription": "The SWAWLAMBHAN Scheme by the Govt. of Goa provides financial assistance to Mahila Mandals/Self-Help Groups for training/orientation for members of the Mahila Mandal/Self-Help Groups for generating their own activity for self-employment.",
+      "exclusions_md": "",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The scheme \"Grant-in-Aid Scheme to Provide Financial Assistance to the Mahila Mandals/ Women’s Self-help Groups (SWAWLAMBHAN)\" by the Directorate of Women And Child Development, Govt. of Goa, provides financial assistance to Mahila Mandals/Self-Help Groups for training/orientation for members of the Mahila Mandal/ Self Help Groups for generating their own activity for self-employment. This Scheme is applicable to all the Mahila Mandals/Women's Self-Help Groups duly registered before the competent authority within the territory of Goa."
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 3,
+        "value": "composite",
+        "label": "Composite"
+      },
+      "benefits": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Financial Assistance:",
+              "bold": true
+            },
+            {
+              "text": " ₹ 20,000/- sanctioned as annual grants."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Purpose:",
+              "bold": true
+            },
+            {
+              "text": " For successful functioning in the state of Goa."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Financial Assistance:",
+              "bold": true
+            },
+            {
+              "text": " ₹ 5,000/-."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Purpose:",
+              "bold": true
+            },
+            {
+              "text": " For undertaking any gainful self-employment activity training orientation in the "
+            },
+            {
+              "type": "link",
+              "link": "https://goaprintingpress.gov.in/downloads/2122/2122-39-SI-OG-0.pdf",
+              "children": [
+                {
+                  "text": "activities"
+                }
+              ]
+            },
+            {
+              "text": "."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        },
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "For the Master Trainers",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The Directorate may provide resource persons/ Master Trainers/Instructors for each course of activity through CDPOs."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "A fixed "
+                },
+                {
+                  "text": "honorarium of ₹ 5,000/-",
+                  "bold": true
+                },
+                {
+                  "text": " will be paid per course.."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Actual "
+                },
+                {
+                  "text": "Travel Allowance (TA)",
+                  "bold": true
+                },
+                {
+                  "text": " incurred shall be paid if travelling in the Taluka outside his/her jurisdiction."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "url": "",
+        "process": [
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "text": "For the Mahila Mandal/ Self Help Groups",
+                "bold": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "The application in the "
+              },
+              {
+                "type": "link",
+                "link": "https://goaprintingpress.gov.in/downloads/2122/2122-39-SI-OG-0.pdf",
+                "children": [
+                  {
+                    "text": "prescribed format"
+                  }
+                ]
+              },
+              {
+                "text": ", along with copies of the required documents shall be submitted through the "
+              },
+              {
+                "type": "link",
+                "link": "https://www.goa.gov.in/wp-content/uploads/2022/08/DWCD-Citizen-Charter-1.pdf",
+                "children": [
+                  {
+                    "text": "CDPO of the concerned block"
+                  }
+                ]
+              },
+              {
+                "text": ", Mukhya Sevika at the village level of the respective block, at the cost of ₹ 100/-."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "text": "For the Master Trainers/Instructors",
+                "bold": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "The application in the "
+              },
+              {
+                "type": "link",
+                "link": "https://goaprintingpress.gov.in/downloads/2122/2122-39-SI-OG-0.pdf",
+                "children": [
+                  {
+                    "text": "prescribed format"
+                  }
+                ]
+              },
+              {
+                "text": ", along with copies of the required documents shall be submitted through the "
+              },
+              {
+                "type": "link",
+                "link": "https://www.goa.gov.in/wp-content/uploads/2022/08/DWCD-Citizen-Charter-1.pdf",
+                "children": [
+                  {
+                    "text": "CDPO of the concerned block"
+                  }
+                ]
+              },
+              {
+                "text": ", Mukhya Sevika at the village level of the respective block."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          }
+        ],
+        "process_md": "> **For the Mahila Mandal/ Self Help Groups**\n\nThe application in the [prescribed format](https://goaprintingpress.gov.in/downloads/2122/2122-39-SI-OG-0.pdf), along with copies of the required documents shall be submitted through the [CDPO of the concerned block](https://www.goa.gov.in/wp-content/uploads/2022/08/DWCD-Citizen-Charter-1.pdf), Mukhya Sevika at the village level of the respective block, at the cost of ₹ 100/-.\n<br>\n\n> **For the Master Trainers/Instructors**\n\nThe application in the [prescribed format](https://goaprintingpress.gov.in/downloads/2122/2122-39-SI-OG-0.pdf), along with copies of the required documents shall be submitted through the [CDPO of the concerned block](https://www.goa.gov.in/wp-content/uploads/2022/08/DWCD-Citizen-Charter-1.pdf), Mukhya Sevika at the village level of the respective block.\n<br>\n\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n1. The Mahila Mandals/Women’s Self-Help Groups should have valid registration with the Department of Women &amp; Child Development, Panaji-Goa.\n1. The Mahila Mandals/Women’s Self-Help Groups shall be operating successfully for their members within the State of Goa.\n1. There shall be a minimum of 20 members for training/orientation.\n\n**NOTE:** The compulsion of 2 years of registration is deleted.\n",
+      "eligibilityDescription": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The Mahila Mandals/Women’s Self-Help Groups should have valid registration with the Department of Women & Child Development, Panaji-Goa."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The Mahila Mandals/Women’s Self-Help Groups shall be operating successfully for their members within the State of Goa."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "There shall be a minimum of 20 members for training/orientation."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "NOTE: ",
+              "bold": true
+            },
+            {
+              "text": "The compulsion of 2 years of registration is deleted."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "giaspfammwshg"
+}

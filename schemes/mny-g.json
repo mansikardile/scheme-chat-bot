@@ -1,0 +1,506 @@
+{
+  "_id": "68ac2cbef65b9f85e612432c",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Healthcare",
+        "Diagnosis",
+        "Laboratory",
+        "Rural",
+        "Medical"
+      ],
+      "schemeName": "Mukhyamantri Nidan Yojana",
+      "schemeShortTitle": "MNY-G",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce7a2d6d1a3bde46852b1",
+          "label": "Health & Wellness"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Health promotion",
+          "label": "Health promotion"
+        },
+        {
+          "value": "Health care providers and access",
+          "label": "Health care providers and access"
+        },
+        {
+          "value": "Medicine and health products",
+          "label": "Medicine and health products"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "schemeFor": "Individual",
+      "state": {
+        "value": 24,
+        "label": "Gujarat"
+      },
+      "schemeType": null,
+      "nodalMinistryName": null,
+      "nodalDepartmentName": {
+        "value": 2444450,
+        "label": "Health & Family Welfare Department"
+      },
+      "otherMinistryName": null,
+      "otherDepartmentNames": null
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://gmscl.gujarat.gov.in/Images/pdf/MIntroduction.pdf"
+        }
+      ],
+      "schemeImageUrl": "",
+      "briefDescription": "The scheme aims to provide free quality diagnostic facilities at all government health institutions in Gujarat. It benefits rural population by offering essential laboratory tests, X-ray, sonography services without charge at nearby government healthcare centers.",
+      "detailedDescription_md": "Launched in 2015-16, the scheme &quot;Mukhyamantri Nidan Yojana&quot; (also known as &quot;Free Laboratory Testing Scheme&quot;) by the Health and Family Welfare Department, Government of Gujarat, aims to provide quality diagnostic facilities without charge at all government health institutions and ensure timely and accurate diagnosis of diseases like malaria, tuberculosis, cancer, diabetes, hypertension to reduce morbidity and mortality in communities. The scheme provides free essential pathology, biochemistry, hematology, microbiology testing services at all government health institutions and strengthens existing laboratory facilities with quality equipment and trained staff along with regular supply of reagent kits. The applicant must be seeking healthcare services at government health facilities and require diagnostic testing for medical conditions. The scheme is implemented through a three-tier healthcare structure consisting of Sub Health Centers, Primary Health Centers, Community Health Centers, Sub-District Hospitals, District Hospitals and Medical Colleges with a total budget allocation of ₹200.94 crores, and applications are accepted offline at respective government healthcare facilities.\n<br>\n\n",
+      "benefits_md": "> **Primary Benefits**\n\n\n- Free Laboratory Testing Services: All essential pathology, biochemistry, hematology, and microbiology tests provided without any charge.\n- Diagnostic Facilities: X-ray, sonography, and Electrocardiography services at Community Health Centers\n- Comprehensive Healthcare Coverage: Testing for communicable and non-communicable diseases, maternal and child health conditions.\n\n> **Service Delivery**\n\n\n- Timely Diagnosis: Early detection of diseases like malaria, tuberculosis, cancer, diabetes, hypertension.\n- Quality Equipment: Modern diagnostic equipment and trained laboratory technicians.\n- Regular Supply: Continuous availability of reagent kits and testing materials.\n- Accessibility: Services available at doorstep through Sub Health Centers, Primary Health Centers, Community Health Centers, Sub-District Hospitals, District Hospitals, and Medical College hospitals.\n\n> **Implementation Structure**\n\n\n- Total Budget: ₹200.94 crores allocated for the scheme.\n- Two-Phase Implementation: First phase focuses on strengthening existing facilities, second phase adds new equipment and services.\n- Coordination System: Multi-tier coordination cells from state to facility level for effective implementation.\n\n> **Conditions for Availment**\n\n\n- Services available only at government healthcare institutions.\n- Testing must be prescribed by qualified medical officers.\n- Regular maintenance and quality checks of equipment ensured through designated coordination cells.\n\n<br>\n\n",
+      "exclusions_md": "",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Launched in 2015-16, the scheme \"Mukhyamantri Nidan Yojana\" (also known as \"Free Laboratory Testing Scheme\") by the Health and Family Welfare Department, Government of Gujarat, aims to provide quality diagnostic facilities without charge at all government health institutions and ensure timely and accurate diagnosis of diseases like malaria, tuberculosis, cancer, diabetes, hypertension to reduce morbidity and mortality in communities. The scheme provides free essential pathology, biochemistry, hematology, microbiology testing services at all government health institutions and strengthens existing laboratory facilities with quality equipment and trained staff along with regular supply of reagent kits. The applicant must be seeking healthcare services at government health facilities and require diagnostic testing for medical conditions. The scheme is implemented through a three-tier healthcare structure consisting of Sub Health Centers, Primary Health Centers, Community Health Centers, Sub-District Hospitals, District Hospitals and Medical Colleges with a total budget allocation of ₹200.94 crores, and applications are accepted offline at respective government healthcare facilities."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 2,
+        "value": "in-kind",
+        "label": "In Kind"
+      },
+      "benefits": [
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "Primary Benefits",
+              "bold": true,
+              "underline": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Free Laboratory Testing Services: All essential pathology, biochemistry, hematology, and microbiology tests provided without any charge."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Diagnostic Facilities: X-ray, sonography, and Electrocardiography services at Community Health Centers"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Comprehensive Healthcare Coverage: Testing for communicable and non-communicable diseases, maternal and child health conditions."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "Service Delivery",
+              "bold": true,
+              "underline": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Timely Diagnosis: Early detection of diseases like malaria, tuberculosis, cancer, diabetes, hypertension."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Quality Equipment: Modern diagnostic equipment and trained laboratory technicians."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Regular Supply: Continuous availability of reagent kits and testing materials."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Accessibility: Services available at doorstep through Sub Health Centers, Primary Health Centers, Community Health Centers, Sub-District Hospitals, District Hospitals, and Medical College hospitals."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "Implementation Structure",
+              "bold": true,
+              "underline": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Total Budget: ₹200.94 crores allocated for the scheme."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Two-Phase Implementation: First phase focuses on strengthening existing facilities, second phase adds new equipment and services."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Coordination System: Multi-tier coordination cells from state to facility level for effective implementation."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "Conditions for Availment",
+              "bold": true,
+              "underline": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Services available only at government healthcare institutions."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Testing must be prescribed by qualified medical officers."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Regular maintenance and quality checks of equipment ensured through designated coordination cells."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "process": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 1:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " "
+              },
+              {
+                "text": "Visit Government Healthcare Facility",
+                "italic": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Visit the nearest government healthcare facility (Sub Health Center, Primary Health Center, Community Health Center, Sub-District Hospital, District Hospital, or Medical College hospital) during working hours with all required documents."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " "
+              },
+              {
+                "text": "Medical Consultation",
+                "italic": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Consult with the qualified medical officer or doctor available at the facility who will assess your medical condition and determine the necessary diagnostic tests required for proper diagnosis and treatment."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 3:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " "
+              },
+              {
+                "text": "Prescription Receipt",
+                "italic": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Obtain a written prescription from the medical officer specifying the required laboratory tests, X-ray, sonography, or Electrocardiography services needed for your medical condition."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 4:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " "
+              },
+              {
+                "text": "Laboratory Registration",
+                "italic": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Proceed to the laboratory or diagnostic section of the healthcare facility with your prescription and identity documents, where the laboratory technician will register your case and assign a unique identification number."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 5:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " "
+              },
+              {
+                "text": "Sample Collection and Testing",
+                "italic": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Undergo the prescribed diagnostic procedures including sample collection for laboratory tests, X-ray imaging, sonography, or Electrocardiography as per the medical officer's prescription under the supervision of trained technical staff."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 6:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " "
+              },
+              {
+                "text": "Report Collection",
+                "italic": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Collect your diagnostic test reports from the laboratory or diagnostic section as per the timeline specified by the facility, which may vary depending on the type of tests conducted."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 7:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " "
+              },
+              {
+                "text": "Follow-up Consultation",
+                "italic": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Return to the medical officer with your test reports for interpretation of results, further medical advice, and continuation of treatment as necessary for your healthcare needs."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          }
+        ],
+        "process_md": "**Step 1:** _Visit Government Healthcare Facility_\nVisit the nearest government healthcare facility (Sub Health Center, Primary Health Center, Community Health Center, Sub-District Hospital, District Hospital, or Medical College hospital) during working hours with all required documents.\n**Step 2:** _Medical Consultation_\nConsult with the qualified medical officer or doctor available at the facility who will assess your medical condition and determine the necessary diagnostic tests required for proper diagnosis and treatment.\n**Step 3:** _Prescription Receipt_\nObtain a written prescription from the medical officer specifying the required laboratory tests, X-ray, sonography, or Electrocardiography services needed for your medical condition.\n**Step 4:** _Laboratory Registration_\nProceed to the laboratory or diagnostic section of the healthcare facility with your prescription and identity documents, where the laboratory technician will register your case and assign a unique identification number.\n**Step 5:** _Sample Collection and Testing_\nUndergo the prescribed diagnostic procedures including sample collection for laboratory tests, X-ray imaging, sonography, or Electrocardiography as per the medical officer&#39;s prescription under the supervision of trained technical staff.\n**Step 6:** _Report Collection_\nCollect your diagnostic test reports from the laboratory or diagnostic section as per the timeline specified by the facility, which may vary depending on the type of tests conducted.\n**Step 7:** _Follow-up Consultation_\nReturn to the medical officer with your test reports for interpretation of results, further medical advice, and continuation of treatment as necessary for your healthcare needs.\n<br>\n\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n- The applicant must be seeking healthcare services at any government health facility in Gujarat.\n- The applicant must require diagnostic testing as prescribed by a qualified medical officer.\n- The applicant must visit designated government healthcare institutions including Sub Health Centers, Primary Health Centers, Community Health Centers, Sub-District Hospitals, District Hospitals, or Medical College hospitals.\n\n<br>\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must be seeking healthcare services at any government health facility in Gujarat."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must require diagnostic testing as prescribed by a qualified medical officer."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must visit designated government healthcare institutions including Sub Health Centers, Primary Health Centers, Community Health Centers, Sub-District Hospitals, District Hospitals, or Medical College hospitals."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "mny-g"
+}

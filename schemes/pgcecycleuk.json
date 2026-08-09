@@ -1,0 +1,206 @@
+{
+  "_id": "68a5af6bb60023f484ad0db9",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Bicycle",
+        "Cycle",
+        "Girl Student"
+      ],
+      "schemeName": "Girl Education Promotion (Bicycle Scheme)",
+      "schemeShortTitle": "GEPBS",
+      "implementingAgency": "Secondary Education Department, Government Of Uttarakhand",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "64f57d10ffb93104c7006c97",
+          "label": "Women and Child"
+        }
+      ],
+      "schemeSubCategory": null,
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "schemeFor": "Individual",
+      "state": {
+        "value": 5,
+        "label": "Uttarakhand"
+      },
+      "nodalDepartmentName": {
+        "value": 50000009,
+        "label": "Department Of Education"
+      }
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines (Page No. 75)",
+          "url": "https://uk.gov.in/department92/library_file/file-04-12-2023-06-02-23.pdf"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The scheme &amp;quot;Girl Education Promotion (Bicycle Scheme)&amp;quot; is implemented by the Secondary Education Department under the Department of Education, Government of Uttarakhand. The scheme aims to promote girls’ education in the state by providing financial assistance to Class 9 girl students for purchasing bicycles.\n<br>\n\n",
+      "benefits_md": "\n- Each eligible girl student in class 9 receives ₹2,850/-.\n- The benefit includes a bicycle for plain areas and an FD (Fixed Deposit) worth ₹2,850/- for hilly areas.\n\n<br>\n\n",
+      "briefDescription": "The scheme aims to promote girls' education in the state by providing financial assistance for the purchase of bicycles to girl students studying in Class 9 in government and government-aided secondary schools.",
+      "exclusions_md": "",
+      "detailedDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "The scheme \"Girl Education Promotion (Bicycle Scheme)\" is implemented by the Secondary Education Department under the Department of Education, Government of Uttarakhand. The scheme aims to promote girls’ education in the state by providing financial assistance to Class 9 girl students for purchasing bicycles."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Each eligible girl student in class 9 receives ₹2,850/-."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The benefit includes a bicycle for plain areas and an FD (Fixed Deposit) worth ₹2,850/- for hilly areas."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "process": [
+          {
+            "type": "align_justify",
+            "children": [
+              {
+                "type": "ul_list",
+                "children": [
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "text": "The Uttarakhand Board provides bicycles/FDs to schools based on the number of girl students enrolled in Class 9 in government and government-aided secondary schools. "
+                      }
+                    ]
+                  },
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "text": "The schools then distribute the bicycles/FDs to the enrolled girl students. "
+                      }
+                    ]
+                  },
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "text": "No student is required to apply for this scheme."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          }
+        ],
+        "process_md": "\n  - The Uttarakhand Board provides bicycles/FDs to schools based on the number of girl students enrolled in Class 9 in government and government-aided secondary schools. \n  - The schools then distribute the bicycles/FDs to the enrolled girl students. \n  - No student is required to apply for this scheme.\n\n<br>\n\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n   1. The applicant must be a girl student studying in Class 9.\n   1. The applicant must be enrolled in a government or government-aided non-government secondary school under the Uttarakhand Board.\n\n<br>\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "ol_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant must be a girl student studying in Class 9."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant must be enrolled in a government or government-aided non-government secondary school under the Uttarakhand Board."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "pgcecycleuk"
+}

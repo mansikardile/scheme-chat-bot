@@ -1,0 +1,801 @@
+{
+  "_id": "65e94efd938a0b13cca80aa5",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Loan",
+        "Tool",
+        "Construction Worker",
+        "Building Worker",
+        "Labour",
+        "Instrument"
+      ],
+      "schemeName": "Loans for Tools (MBOCWWB)",
+      "schemeShortTitle": "LT(MBOCWWB)",
+      "implementingAgency": "Meghalaya Building & Other Construction Workers Welfare Board",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce85cd6d1a3bde4685304",
+          "label": "Skills & Employment"
+        },
+        {
+          "value": "628ce7f6d6d1a3bde46852d0",
+          "label": "Banking,Financial Services and Insurance"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Loan",
+          "label": "Loan"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "state": {
+        "value": 17,
+        "label": "Meghalaya"
+      },
+      "nodalDepartmentName": {
+        "value": 1777797,
+        "label": "Labour and Employment Department"
+      },
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Official Website",
+          "url": "https://megbocwwb.gov.in/enrollment"
+        },
+        {
+          "title": "Scheme Details",
+          "url": "https://megbocwwb.gov.in/schemes_loans"
+        },
+        {
+          "title": "Online Application Portal",
+          "url": "https://megbocwwb.gov.in/bocw_services/login.htm"
+        },
+        {
+          "title": "Application Form For Instrumental Loan",
+          "url": "https://megbocwwb.gov.in/forms/benefit/Instrumental%20Loan.pdf"
+        },
+        {
+          "title": "Registration Form",
+          "url": "https://megbocwwb.gov.in/forms/registration-form/Registration%20Form.pdf"
+        },
+        {
+          "title": "Nomination Form",
+          "url": "https://megbocwwb.gov.in/forms/registration-form/NominationForm.pdf"
+        },
+        {
+          "title": "Family Members Form",
+          "url": "https://megbocwwb.gov.in/forms/registration-form/Familymembers.pdf"
+        },
+        {
+          "title": "SDO Certificate",
+          "url": "https://megbocwwb.gov.in/forms/registration-form/SDOCertificate.pdf"
+        },
+        {
+          "title": "Employer Certificate",
+          "url": "https://megbocwwb.gov.in/forms/registration-form/EmployersCertificate.pdf"
+        },
+        {
+          "title": "Amendment Notification",
+          "url": "https://meglc.gov.in/acts/Amendment%20-rules-bocw-2018.pdf"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The “Loans for Tools” scheme is implemented by the Meghalaya Building and Other Construction Workers Welfare Board (MBOCWWB), Labour Department, Government of Meghalaya. Under the scheme, a onetime grant will be granted to all members of the fund for the purchase of tools subject to the conditions. The members of the fund who have completed 3 years of membership in the fund and those who remit contributions regularly will be eligible for this loan.\n",
+      "benefits_md": "\n   1. Under this scheme, registered building and construction workers will receive a one-time grant of up to ₹10,000/- for the purchase of tools.\n\n",
+      "briefDescription": "Under the scheme, a one-time grant will be granted to all members of the fund for the purchase of tools subject to the conditions. ",
+      "exclusions_md": "",
+      "detailedDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "The “Loans for Tools” scheme is implemented by the Meghalaya Building and Other Construction Workers Welfare Board (MBOCWWB), Labour Department, Government of Meghalaya. Under the scheme, a onetime grant will be granted to all members of the fund for the purchase of tools subject to the conditions. The members of the fund who have completed 3 years of membership in the fund and those who remit contributions regularly will be eligible for this loan."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "ol_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Under this scheme, registered building and construction workers will receive a one-time grant of up to ₹10,000/- for the purchase of tools."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Online",
+        "process": [
+          {
+            "type": "align_justify",
+            "children": [
+              {
+                "type": "block_quote",
+                "children": [
+                  {
+                    "text": "Online Worker Registration Process (Portal):",
+                    "bold": true,
+                    "underline": true
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 01: ",
+                    "bold": true
+                  },
+                  {
+                    "text": "The applicants may visit the online Portal: "
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://megbocwwb.gov.in/bocw_services/login.htm",
+                    "children": [
+                      {
+                        "text": "https://megbocwwb.gov.in/bocw_services/login.htm"
+                      }
+                    ]
+                  },
+                  {
+                    "text": ""
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 02:",
+                    "bold": true
+                  },
+                  {
+                    "text": " The applicant can register by creating a new account, on the home page click on the ‘Worker’ button and enter all the mandatory information."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 03:",
+                    "bold": true
+                  },
+                  {
+                    "text": " After filling in all the details, click on ‘Register’."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 04:",
+                    "bold": true
+                  },
+                  {
+                    "text": " After successful registration, the applicant will see the message “Registered Successfully”."
+                  }
+                ]
+              },
+              {
+                "type": "block_quote",
+                "children": [
+                  {
+                    "text": "Application Process for New Registration under the MBOCWWB:",
+                    "bold": true,
+                    "underline": true
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 01:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Visit the online Portal: "
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://megbocwwb.gov.in/bocw_services/login.htm",
+                    "children": [
+                      {
+                        "text": "https://megbocwwb.gov.in/bocw_services/login.htm"
+                      }
+                    ]
+                  },
+                  {
+                    "text": ""
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 02: ",
+                    "bold": true
+                  },
+                  {
+                    "text": "Enter your User ID (Registered Mobile Number), Password, and Enter Security Code. Click on Login."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 03:",
+                    "bold": true
+                  },
+                  {
+                    "text": " After successful login, click on ‘Apply for New Registration’ from the menu."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 04: ",
+                    "bold": true
+                  },
+                  {
+                    "text": "Fill in all the required details in the Registration Form i.e. Personal Details, Service/Work Details, Bank Details, and Demographic Details, etc."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 05: ",
+                    "bold": true
+                  },
+                  {
+                    "text": "Click on Submit."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 06:",
+                    "bold": true
+                  },
+                  {
+                    "text": " After successful registration, you will be directed to another page to manage all the Family & Nominee Details. Click on ‘Add New’ to add Family members and Nominee Details."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 07:",
+                    "bold": true
+                  },
+                  {
+                    "text": " After adding all the Family & Nominee Details, click on Proceed."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 08:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Now upload all the required enclosures i.e. Photograph, ID Proof, Employer Certificate/Self Certification, Bank Passbook of the Worker."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 09:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Click on the ‘Complete’ Button to complete the registration process."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 10:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Once your application has been processed and verified by Block/District LDA, Block/District Labour Inspector, and approved District Labour Commissioner (DLC), Registration Certificate will be generated."
+                  }
+                ]
+              },
+              {
+                "type": "block_quote",
+                "children": [
+                  {
+                    "text": "Application Process for Instrument Grant:",
+                    "bold": true,
+                    "underline": true
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 01:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Visit the online Portal: "
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://megbocwwb.gov.in/bocw_services/login.htm",
+                    "children": [
+                      {
+                        "text": "https://megbocwwb.gov.in/bocw_services/login.htm"
+                      }
+                    ]
+                  },
+                  {
+                    "text": " "
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 02: Enter your User ID (Registered Mobile Number), Password, and Enter Security Code. Click on Login."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 03:",
+                    "bold": true
+                  },
+                  {
+                    "text": " After successful login, click on the “Instrument Grant” scheme from the Dashboard."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 04:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Fill in all the required information and necessary enclosures."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 05: ",
+                    "bold": true
+                  },
+                  {
+                    "text": "Click Submit to apply for benefits."
+                  }
+                ]
+              },
+              {
+                "type": "block_quote",
+                "children": [
+                  {
+                    "text": "Application Process to Track/Update:",
+                    "bold": true,
+                    "underline": true
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 01: ",
+                    "bold": true
+                  },
+                  {
+                    "text": "Visit the online Portal: "
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://megbocwwb.gov.in/bocw_services/login.htm",
+                    "children": [
+                      {
+                        "text": "https://megbocwwb.gov.in/bocw_services/login.htm"
+                      }
+                    ]
+                  },
+                  {
+                    "text": ""
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 02:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Enter your User ID (Registered Mobile Number), Password, and Enter Security Code. Click on Login."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 03:",
+                    "bold": true
+                  },
+                  {
+                    "text": " From the menu, click on ‘Track Application Status’."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 04:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Click on ‘View Details’ to view your application."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 05:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Click on ‘Application History’ to view the application history."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 06: ",
+                    "bold": true
+                  },
+                  {
+                    "text": "Click on ‘Update’ to update your application."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Note:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Once your application is under process or processed, you cannot update it."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "(Worker’s "
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://megbocwwb.gov.in/bocw_services/assets/files/user-manual-workers.pdf",
+                    "children": [
+                      {
+                        "text": "User Manual"
+                      }
+                    ]
+                  },
+                  {
+                    "text": ")     "
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "process_md": "&gt; **Online Worker Registration Process (Portal):**\n\n**Step 01:** The applicants may visit the online Portal: [https://megbocwwb.gov.in/bocw_services/login.htm](https://megbocwwb.gov.in/bocw_services/login.htm)\n**Step 02:** The applicant can register by creating a new account, on the home page click on the ‘Worker’ button and enter all the mandatory information.\n**Step 03:** After filling in all the details, click on ‘Register’.\n**Step 04:** After successful registration, the applicant will see the message “Registered Successfully”.\n&gt; **Application Process for New Registration under the MBOCWWB:**\n\n**Step 01:** Visit the online Portal: [https://megbocwwb.gov.in/bocw_services/login.htm](https://megbocwwb.gov.in/bocw_services/login.htm)\n**Step 02:** Enter your User ID (Registered Mobile Number), Password, and Enter Security Code. Click on Login.\n**Step 03:** After successful login, click on ‘Apply for New Registration’ from the menu.\n**Step 04:** Fill in all the required details in the Registration Form i.e. Personal Details, Service/Work Details, Bank Details, and Demographic Details, etc.\n**Step 05:** Click on Submit.\n**Step 06:** After successful registration, you will be directed to another page to manage all the Family &amp;amp; Nominee Details. Click on ‘Add New’ to add Family members and Nominee Details.\n**Step 07:** After adding all the Family &amp;amp; Nominee Details, click on Proceed.\n**Step 08:** Now upload all the required enclosures i.e. Photograph, ID Proof, Employer Certificate/Self Certification, Bank Passbook of the Worker.\n**Step 09:** Click on the ‘Complete’ Button to complete the registration process.\n**Step 10:** Once your application has been processed and verified by Block/District LDA, Block/District Labour Inspector, and approved District Labour Commissioner (DLC), Registration Certificate will be generated.\n&gt; **Application Process for Instrument Grant:**\n\n**Step 01:** Visit the online Portal: [https://megbocwwb.gov.in/bocw_services/login.htm](https://megbocwwb.gov.in/bocw_services/login.htm) \nStep 02: Enter your User ID (Registered Mobile Number), Password, and Enter Security Code. Click on Login.\n**Step 03:** After successful login, click on the “Instrument Grant” scheme from the Dashboard.\n**Step 04:** Fill in all the required information and necessary enclosures.\n**Step 05:** Click Submit to apply for benefits.\n&gt; **Application Process to Track/Update:**\n\n**Step 01:** Visit the online Portal: [https://megbocwwb.gov.in/bocw_services/login.htm](https://megbocwwb.gov.in/bocw_services/login.htm)\n**Step 02:** Enter your User ID (Registered Mobile Number), Password, and Enter Security Code. Click on Login.\n**Step 03:** From the menu, click on ‘Track Application Status’.\n**Step 04:** Click on ‘View Details’ to view your application.\n**Step 05:** Click on ‘Application History’ to view the application history.\n**Step 06:** Click on ‘Update’ to update your application.\n**Note:** Once your application is under process or processed, you cannot update it.\n(Worker’s [User Manual](https://megbocwwb.gov.in/bocw_services/assets/files/user-manual-workers.pdf))     \n"
+      },
+      {
+        "mode": "Offline",
+        "process": [
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "text": "Process for New Registration:",
+                "bold": true,
+                "underline": true
+              }
+            ]
+          },
+          {
+            "type": "align_justify",
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 01:",
+                    "bold": true
+                  },
+                  {
+                    "text": " The complete "
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://megbocwwb.gov.in/forms/registration-form/Registration%20Form.pdf",
+                    "children": [
+                      {
+                        "text": "application form"
+                      }
+                    ]
+                  },
+                  {
+                    "text": " along with the required documents is required to be submitted before the Registering Officer of the area."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 02:",
+                    "bold": true
+                  },
+                  {
+                    "text": " The Registering Officer, after satisfying himself/herself with all the details, may register the worker as a beneficiary under the Act and issue an identity card affixing the photograph of the worker."
+                  }
+                ]
+              },
+              {
+                "type": "block_quote",
+                "children": [
+                  {
+                    "text": "Process to apply for Scheme Benefits:",
+                    "bold": true,
+                    "underline": true
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 01:",
+                    "bold": true
+                  },
+                  {
+                    "text": " A copy of the prescribed "
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://megbocwwb.gov.in/forms/benefit/Instrumental%20Loan.pdf",
+                    "children": [
+                      {
+                        "text": "application form"
+                      }
+                    ]
+                  },
+                  {
+                    "text": " duly signed by the applicant shall be submitted to the concerned employer."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 02:",
+                    "bold": true
+                  },
+                  {
+                    "text": " The employer is required to countersign the complete application and submit it to the Building & Other Construction Workers' Welfare Board for consideration."
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "process_md": "> **Process for New Registration:**\n\n**Step 01:** The complete [application form](https://megbocwwb.gov.in/forms/registration-form/Registration%20Form.pdf) along with the required documents is required to be submitted before the Registering Officer of the area.\n**Step 02:** The Registering Officer, after satisfying himself/herself with all the details, may register the worker as a beneficiary under the Act and issue an identity card affixing the photograph of the worker.\n&gt; **Process to apply for Scheme Benefits:**\n\n**Step 01:** A copy of the prescribed [application form](https://megbocwwb.gov.in/forms/benefit/Instrumental%20Loan.pdf) duly signed by the applicant shall be submitted to the concerned employer.\n**Step 02:** The employer is required to countersign the complete application and submit it to the Building &amp;amp; Other Construction Workers&amp;#39; Welfare Board for consideration.\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n   1. The beneficiary should be a resident of Meghalaya.\n   1. The beneficiary should be engaged in any building or other construction work.\n   1. The beneficiary should be registered under the Meghalaya Building &amp;amp; Other Construction Workers Welfare Board.\n   1. The beneficiary who has completed 3 years of membership in the fund will be eligible for this loan.\n   1. The beneficiary who remits contributions regularly will be eligible for this loan.\n   1. The beneficiary should have completed 55 years.\n\n**Note 01:** Operation and maintenance of the tool shall be the sole responsibility of the beneficiary, and the Board shall not be responsible for any after-sales service, parts, or accessories.\n**Note 02:** The grant shall be sanctioned subject to the production of a valid cash memo or voucher from an authorized dealer by the BOCW beneficiary and the tools shall be produced before an official of the Board for inspection &amp;amp; photograph.\n**Note 03:** The Board shall emboss a mark (logo or serial No) onto the tool after production &amp;amp; inspection. A tool so marked cannot be produced again for any subsequent claim(s).\n**Note 04:** A beneficiary is prohibited from selling the tools purchased and shall not be entitled to a second grant.\n**Note 05:** The loan amount shall be recovered in not more than sixty installments.\n",
+      "eligibilityDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "ol_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The beneficiary should be a resident of Meghalaya."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The beneficiary should be engaged in any building or other construction work."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The beneficiary should be registered under the Meghalaya Building & Other Construction Workers Welfare Board."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The beneficiary who has completed 3 years of membership in the fund will be eligible for this loan."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The beneficiary who remits contributions regularly will be eligible for this loan."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The beneficiary should have completed 55 years."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "Note 01:",
+                  "bold": true
+                },
+                {
+                  "text": " Operation and maintenance of the tool shall be the sole responsibility of the beneficiary, and the Board shall not be responsible for any after-sales service, parts, or accessories."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "Note 02:",
+                  "bold": true
+                },
+                {
+                  "text": " The grant shall be sanctioned subject to the production of a valid cash memo or voucher from an authorized dealer by the BOCW beneficiary and the tools shall be produced before an official of the Board for inspection & photograph."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "Note 03:",
+                  "bold": true
+                },
+                {
+                  "text": " The Board shall emboss a mark (logo or serial No) onto the tool after production & inspection. A tool so marked cannot be produced again for any subsequent claim(s)."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "Note 04:",
+                  "bold": true
+                },
+                {
+                  "text": " A beneficiary is prohibited from selling the tools purchased and shall not be entitled to a second grant."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "Note 05:",
+                  "bold": true
+                },
+                {
+                  "text": " The loan amount shall be recovered in not more than sixty installments."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "ltmbocwwb"
+}

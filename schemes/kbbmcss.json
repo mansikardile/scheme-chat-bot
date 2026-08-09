@@ -1,0 +1,250 @@
+{
+  "_id": "6491808d380f8e123540497d",
+  "en": {
+    "basicDetails": {
+      "schemeOpenDate": "2016-01-01",
+      "schemeCloseDate": null,
+      "state": {
+        "value": 8,
+        "label": "Rajasthan"
+      },
+      "nodalMinistryName": null,
+      "nodalDepartmentName": {
+        "value": 8000045,
+        "label": "Higher Education Department"
+      },
+      "otherMinistryName": null,
+      "otherDepartmentNames": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Resources for schools",
+          "label": "Resources for schools"
+        }
+      ],
+      "dbtScheme": null,
+      "implementingAgency": null,
+      "tags": [
+        "Student",
+        "Higher Education",
+        "Educational Support"
+      ],
+      "schemeName": "Kali Bai Bheel Medhavi Chhatra Scooty Scheme",
+      "schemeShortTitle": "KBBMCSS",
+      "level": {
+        "value": "state",
+        "label": "State"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce76cd6d1a3bde4685292",
+          "label": "Education & Learning"
+        },
+        {
+          "value": "64f57d10ffb93104c7006c97",
+          "label": "Women and Child"
+        }
+      ],
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Details",
+          "url": "https://schemes.rajasthan.gov.in/scheme/detail/173"
+        },
+        {
+          "title": "Guidelines",
+          "url": "https://jankalyanfile.rajasthan.gov.in//Content/UploadFolder/Scheme/College_Education/KBBMSDS/DOC_173_2dd11f54-6188-4768-b29b-96707919aa9c.pdf"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "Motivating the meritorious girl students of the state of Rajasthan to study by taking admission in government schools as regular students from class 9th to class 12th and to score maximum marks in the examination conducted by the Board of Secondary Education Rajasthan.\nIt is also announced to increase the number of scooties currently being provided to girls from 20 thousand to 30 thousand under this scheme. It is also proposed to give the option of taking Electric Scooty to these girls.\n",
+      "benefits_md": "\n- Scooty distribution to girl students.\n\n",
+      "briefDescription": "In 2015-16, Rajasthan State started the \"Kali Bai Bheel Medhavi Chhatra Scooty Scheme\" for Girls students. ",
+      "exclusions_md": "",
+      "detailedDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "Motivating the meritorious girl students of the state of Rajasthan to study by taking admission in government schools as regular students from class 9th to class 12th and to score maximum marks in the examination conducted by the Board of Secondary Education Rajasthan."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "It is also announced to increase the number of scooties currently being provided to girls from 20 thousand to 30 thousand under this scheme. It is also proposed to give the option of taking Electric Scooty to these girls."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 2,
+        "value": "in-kind",
+        "label": "In Kind"
+      },
+      "benefits": [
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Scooty distribution to girl students."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Online",
+        "url": "https://hte.rajasthan.gov.in/scholarship.php",
+        "process": [
+          {
+            "type": "ol_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Applicants have to visit the "
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://hte.rajasthan.gov.in/scholarship.php",
+                    "children": [
+                      {
+                        "text": "official portal."
+                      }
+                    ]
+                  },
+                  {
+                    "text": ""
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "If applicants are not registered users, they need to click on register and complete the registration process."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "If Applicants are already registered users, they need to click on login with their SSOID & password."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Fill out the application form."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Provided the required documents."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Submit. "
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "process_md": "\n1. Applicants have to visit the [official portal.](https://hte.rajasthan.gov.in/scholarship.php)1. If applicants are not registered users, they need to click on register and complete the registration process.\n1. If Applicants are already registered users, they need to click on login with their SSOID &amp; password.\n1. Fill out the application form.\n1. Provided the required documents.\n1. Submit. \n\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n1. Girl students who have passed class 12th with a minimum of 65% marks in Rajasthan Board of Secondary Education and passed class 12th with a minimum of 75% marks in Central Board of Secondary Education who are studying in any school in Rajasthan.\n1. Graduation degree from any Rajasthan-based college like (B.A.BED/ B.SC.BED/ B.COM.BED/BE / B.TECH/ B.ARCH / MBBS / IIT / BBA / BBM / BCA / BDS / BHMS / BAMS / LAW/ etc.) and studying as a regular student.\n1. The benefit of the scheme will not be payable if there is a gap of one year from the year of passing the 12th class in the admission of a bachelor&#39;s degree.\n1. Girl students getting financial assistance in any other scheme will also be benefited from this scheme. Girl students receiving financial aid/scholarships in any other scheme will not be deprived of this scheme.\n1. The girl students who have got the benefit of scooty in any scheme of the state government on the basis of their marks in any class before the implementation of the said scheme, those girl students will not be eligible to get scooty in this scheme. \n1. In the past, on the basis of 10th class results from the TAD Department, School Education Department, if a girl child has received scooty on the basis of 10th result, then that girl student will get a lump sum amount of Rs 40,000 if she is eligible on the basis of 12th result.\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Girl students who have passed class 12th with a minimum of 65% marks in Rajasthan Board of Secondary Education and passed class 12th with a minimum of 75% marks in Central Board of Secondary Education who are studying in any school in Rajasthan."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Graduation degree from any Rajasthan-based college like (B.A.BED/ B.SC.BED/ B.COM.BED/BE / B.TECH/ B.ARCH / MBBS / IIT / BBA / BBM / BCA / BDS / BHMS / BAMS / LAW/ etc.) and studying as a regular student."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The benefit of the scheme will not be payable if there is a gap of one year from the year of passing the 12th class in the admission of a bachelor's degree."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Girl students getting financial assistance in any other scheme will also be benefited from this scheme. Girl students receiving financial aid/scholarships in any other scheme will not be deprived of this scheme."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The girl students who have got the benefit of scooty in any scheme of the state government on the basis of their marks in any class before the implementation of the said scheme, those girl students will not be eligible to get scooty in this scheme. "
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "In the past, on the basis of 10th class results from the TAD Department, School Education Department, if a girl child has received scooty on the basis of 10th result, then that girl student will get a lump sum amount of Rs 40,000 if she is eligible on the basis of 12th result."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "kbbmcss"
+}

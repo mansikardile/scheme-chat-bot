@@ -1,0 +1,655 @@
+{
+  "_id": "66430f197ad44927a1daaded",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Building Worker",
+        "Construction Worker",
+        "Student",
+        "Labour",
+        "Financial Assistance"
+      ],
+      "schemeName": "Mukhya Mantri Shramyogi Prathibhavan Vidyarthi Yojana (HBOCWWB)",
+      "schemeShortTitle": "MMSPVY(HBOCWWB)",
+      "implementingAgency": "Haryana Building & Other Construction Workers Welfare Board",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce76cd6d1a3bde4685292",
+          "label": "Education & Learning"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Scholarships and student finance",
+          "label": "Scholarships and student finance"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "state": {
+        "value": 6,
+        "label": "Haryana"
+      },
+      "schemeType": null,
+      "nodalMinistryName": null,
+      "nodalDepartmentName": {
+        "value": 666690,
+        "label": "Labour Department"
+      },
+      "otherMinistryName": null,
+      "otherDepartmentNames": null,
+      "schemeFor": "Family"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Official Website",
+          "url": "https://hrylabour.gov.in/bocw/settings/schemeDetail/157"
+        },
+        {
+          "title": "Registration",
+          "url": "https://hrylabour.gov.in/bocw/Basicinfo/bocw_terms"
+        },
+        {
+          "title": "Sign In As HBOCW Board Beneficiary",
+          "url": "https://hrylabour.gov.in/login/bocw"
+        }
+      ],
+      "schemeImageUrl": "",
+      "briefDescription": "Under this scheme, the Haryana Building & Other Construction Workers Welfare Board provides financial assistance for books, stationery, hostels, and laptops/computers for higher education to the meritorious children of registered construction workers.",
+      "detailedDescription_md": "The scheme “Mukhya Mantri Shramyogi Prathibhavan Vidyarthi Yojana” is implemented by the Haryana Building and Other Construction Workers Welfare Board (HBOCWWB), Labour Department, Government of Haryana. The main objective of the scheme is to provide financial assistance for full tuition fees, hostel fees, books, stationery and laptop/computer for higher education to meritorious children of registered construction workers who have secured 85% marks in senior secondary (10+2) board examination or 75% or more in Bachelor&amp;#39;s degree course and admitted as regular students in the first year of undergraduate, postgraduate/professional courses.\n",
+      "benefits_md": "Under this scheme, children of registered construction workers receive assistance for various purposes:\n\n   1. An amount of ₹5,000/- per year per student will be payable for purchasing books and stationery.\n   1. An amount of ₹49,000/- per student will be payable only once during the course for purchasing a laptop/computer.\n   1. Up to ₹72,000/- per student will be payable for hostel fees.\n   1. Reimbursement of tuition fees.\n\n",
+      "exclusions_md": "\n   1. In case of failure of the student, financial assistance will not be given again for the same class.\n   1. Students who are self-employed or employed will not be eligible for benefits under this scheme.\n\n",
+      "detailedDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "The scheme “Mukhya Mantri Shramyogi Prathibhavan Vidyarthi Yojana” is implemented by the Haryana Building and Other Construction Workers Welfare Board (HBOCWWB), Labour Department, Government of Haryana. The main objective of the scheme is to provide financial assistance for full tuition fees, hostel fees, books, stationery and laptop/computer for higher education to meritorious children of registered construction workers who have secured 85% marks in senior secondary (10+2) board examination or 75% or more in Bachelor's degree course and admitted as regular students in the first year of undergraduate, postgraduate/professional courses."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "Under this scheme, children of registered construction workers receive assistance for various purposes:"
+                }
+              ]
+            },
+            {
+              "type": "ol_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "An amount of ₹5,000/- per year per student will be payable for purchasing books and stationery."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "An amount of ₹49,000/- per student will be payable only once during the course for purchasing a laptop/computer."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Up to ₹72,000/- per student will be payable for hostel fees."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Reimbursement of tuition fees."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "exclusions": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "ol_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "In case of failure of the student, financial assistance will not be given again for the same class."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Students who are self-employed or employed will not be eligible for benefits under this scheme."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Online",
+        "process": [
+          {
+            "type": "align_justify",
+            "children": [
+              {
+                "type": "block_quote",
+                "children": [
+                  {
+                    "text": "Registration of a Construction Worker Under HBOCWWB:",
+                    "bold": true,
+                    "underline": true
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 01: ",
+                    "bold": true
+                  },
+                  {
+                    "text": "The construction worker should visit the "
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://hrylabour.gov.in/",
+                    "children": [
+                      {
+                        "text": "Official Website"
+                      }
+                    ]
+                  },
+                  {
+                    "text": " of the Labour Department Haryana. "
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 02:",
+                    "bold": true
+                  },
+                  {
+                    "text": " On the home page, click on the “Building & Ors Const. Workers Welfare Board” link."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 03:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Applicant has to read all the instructions and then “Tick” the acknowledgment, then click on the “Submit” button."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 04:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Verification using Parivar Pehchan Patra (PPP)- Family ID:"
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "a) Forget/not having Family ID: If you do not have PPP ID or forget the PPP ID, then you have to select that radio button and you are redirected to the "
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://meraparivar.haryana.gov.in/",
+                    "children": [
+                      {
+                        "text": "PPP Portal"
+                      }
+                    ]
+                  },
+                  {
+                    "text": " for getting their PPP ID."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "b) Having a Family ID: If you have a family ID, then only you can move to the next step for registration. To proceed further, follow the given steps:"
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "• Select the “I have family ID” radio button"
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "• Enter Parivar Pehchan Patra number - Family ID"
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "• Click on “Fetch Family Details” which displays the family members registered under the given Family ID"
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "• Select a family member for registration"
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "• Enter the OTP that is being sent to the selected family member for verification"
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "• Click on “Click to Verify”"
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 05:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Aadhaar Verification before Registration: Provide your Aadhaar number and tick mark the checkbox for the declaration. Click on the “Continue” button."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 06:",
+                    "bold": true
+                  },
+                  {
+                    "text": " After verification, fill out the complete registration form and submit the form."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 07",
+                    "bold": true
+                  },
+                  {
+                    "text": ": Login into the account: After the final submission of the registration form, a worker can login into his/her account using their username and password but unable to avail of any benefit. "
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 08:",
+                    "bold": true
+                  },
+                  {
+                    "text": " To avail of the benefits, a worker has to pay the registration fee and add a work experience of a minimum of 90 days of the preceding year."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 09:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Now, the worker needs to add work experience, to add 90 days of experience, the applicant has to fill in all the details where he/she has worked."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 10:",
+                    "bold": true
+                  },
+                  {
+                    "text": " The schemes and other benefits can be availed once the 90 days’ work experience is approved by the Officer."
+                  }
+                ]
+              },
+              {
+                "type": "block_quote",
+                "children": [
+                  {
+                    "text": "Apply for Scheme:",
+                    "bold": true,
+                    "underline": true
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 01:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Visit the "
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://hrylabour.gov.in/",
+                    "children": [
+                      {
+                        "text": "Official Website"
+                      }
+                    ]
+                  },
+                  {
+                    "text": " of the Labour Department Haryana."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 02:",
+                    "bold": true
+                  },
+                  {
+                    "text": " On the home page, click on \""
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://hrylabour.gov.in/login/bocw",
+                    "children": [
+                      {
+                        "text": "HBOCW Board Beneficiary Login"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "\"."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 03:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Enter your Username, Password, Captcha, and click on the submit button."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 04:",
+                    "bold": true
+                  },
+                  {
+                    "text": " In the opened window, click on \"Schemes\", and a list of schemes will appear on the screen."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 05:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Now, select the scheme and read its details."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 06:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Fill in all the required details in the online application form and submit it."
+                  }
+                ]
+              },
+              {
+                "type": "block_quote",
+                "children": [
+                  {
+                    "text": "Application Tracking:",
+                    "bold": true,
+                    "underline": true
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Workers can track their application status online through the "
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://hrylabour.gov.in/login/bocw",
+                    "children": [
+                      {
+                        "text": "official website"
+                      }
+                    ]
+                  },
+                  {
+                    "text": " of the Labour Department Haryana. Relevant updates will be sent to the registered mobile number."
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "process_md": "&gt; **Registration of a Construction Worker Under HBOCWWB:**\n\n**Step 01:** The construction worker should visit the [Official Website](https://hrylabour.gov.in/) of the Labour Department Haryana. \n**Step 02:** On the home page, click on the “Building &amp;amp; Ors Const. Workers Welfare Board” link.\n**Step 03:** Applicant has to read all the instructions and then “Tick” the acknowledgment, then click on the “Submit” button.\n**Step 04:** Verification using Parivar Pehchan Patra (PPP)- Family ID:\na) Forget/not having Family ID: If you do not have PPP ID or forget the PPP ID, then you have to select that radio button and you are redirected to the [PPP Portal](https://meraparivar.haryana.gov.in/) for getting their PPP ID.\nb) Having a Family ID: If you have a family ID, then only you can move to the next step for registration. To proceed further, follow the given steps:\n• Select the “I have family ID” radio button\n• Enter Parivar Pehchan Patra number - Family ID\n• Click on “Fetch Family Details” which displays the family members registered under the given Family ID\n• Select a family member for registration\n• Enter the OTP that is being sent to the selected family member for verification\n• Click on “Click to Verify”\n**Step 05:** Aadhaar Verification before Registration: Provide your Aadhaar number and tick mark the checkbox for the declaration. Click on the “Continue” button.\n**Step 06:** After verification, fill out the complete registration form and submit the form.\n**Step 07**: Login into the account: After the final submission of the registration form, a worker can login into his/her account using their username and password but unable to avail of any benefit. \n**Step 08:** To avail of the benefits, a worker has to pay the registration fee and add a work experience of a minimum of 90 days of the preceding year.\n**Step 09:** Now, the worker needs to add work experience, to add 90 days of experience, the applicant has to fill in all the details where he/she has worked.\n**Step 10:** The schemes and other benefits can be availed once the 90 days’ work experience is approved by the Officer.\n&gt; **Apply for Scheme:**\n\n**Step 01:** Visit the [Official Website](https://hrylabour.gov.in/) of the Labour Department Haryana.\n**Step 02:** On the home page, click on &amp;quot;[HBOCW Board Beneficiary Login](https://hrylabour.gov.in/login/bocw)&amp;quot;.\n**Step 03:** Enter your Username, Password, Captcha, and click on the submit button.\n**Step 04:** In the opened window, click on &amp;quot;Schemes&amp;quot;, and a list of schemes will appear on the screen.\n**Step 05:** Now, select the scheme and read its details.\n**Step 06:** Fill in all the required details in the online application form and submit it.\n&gt; **Application Tracking:**\n\nWorkers can track their application status online through the [official website](https://hrylabour.gov.in/login/bocw) of the Labour Department Haryana. Relevant updates will be sent to the registered mobile number.\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n   1. The applicant should be engaged in building or construction work.\n   1. The applicants should be registered with the Haryana Building &amp;amp; Other Construction Workers Welfare Board.\n   1. The registered worker must have a minimum of one year’s regular membership.\n   1. The worker must have an active membership with the Board.\n   1. The worker&amp;#39;s child must have scored 85% in the senior secondary (10+2) board examination or 75% or more in the bachelor&amp;#39;s degree course and is continuing studies as a regular student in the next class or course.\n   1. For students pursuing commercial pilot training courses and type renting courses, all institutions approved by the Director General of Civil Aviation (DGCA) are also eligible for reimbursement under the scheme.\n   1. Applicants under this Scheme will not be eligible for benefits under already approved financial assistance, higher education, technical and professional courses, or any other similar scheme of the Board.\n   1. This financial assistance will be payable up to the first three children of the worker.\n   1. The worker has neither applied again for the same class of his/her son/daughter nor received similar benefits/financial assistance from any other government department/board/corporation, nor have they made any application for the same.\n\n**Note 01:** Under this scheme all IIMs/IITs/IIITs/AIIMS/NITs/NIFT/NID/Indian Institute of Hotel Management, National Law University, and other institutions of Central Government, approved by statutory bodies i.e. UGC, AICTE, PCI, MCI etc. Institutions/Universities are eligible to participate in this scheme.\n**Note 02:** Only institutions established within India are eligible to participate in this scheme.\n",
+      "eligibilityDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "ol_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant should be engaged in building or construction work."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicants should be registered with the Haryana Building & Other Construction Workers Welfare Board."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The registered worker must have a minimum of one year’s regular membership."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The worker must have an active membership with the Board."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The worker's child must have scored 85% in the senior secondary (10+2) board examination or 75% or more in the bachelor's degree course and is continuing studies as a regular student in the next class or course."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "For students pursuing commercial pilot training courses and type renting courses, all institutions approved by the Director General of Civil Aviation (DGCA) are also eligible for reimbursement under the scheme."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Applicants under this Scheme will not be eligible for benefits under already approved financial assistance, higher education, technical and professional courses, or any other similar scheme of the Board."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "This financial assistance will be payable up to the first three children of the worker."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The worker has neither applied again for the same class of his/her son/daughter nor received similar benefits/financial assistance from any other government department/board/corporation, nor have they made any application for the same."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "Note 01:",
+                  "bold": true
+                },
+                {
+                  "text": " Under this scheme all IIMs/IITs/IIITs/AIIMS/NITs/NIFT/NID/Indian Institute of Hotel Management, National Law University, and other institutions of Central Government, approved by statutory bodies i.e. UGC, AICTE, PCI, MCI etc. Institutions/Universities are eligible to participate in this scheme."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "Note 02:",
+                  "bold": true
+                },
+                {
+                  "text": " Only institutions established within India are eligible to participate in this scheme."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "mmspvyhbocwwb"
+}

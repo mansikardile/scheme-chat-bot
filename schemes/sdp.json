@@ -1,0 +1,237 @@
+{
+  "_id": "6728e5879c0322bd68737080",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Pension",
+        "Disability",
+        "Blind",
+        "Bedridden",
+        "Financial Assistance"
+      ],
+      "schemeName": "State Disability Pension",
+      "schemeShortTitle": "SDP",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce87cd6d1a3bde4685312",
+          "label": "Social welfare & Empowerment"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Financial assistance",
+          "label": "Financial assistance"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "state": {
+        "value": 15,
+        "label": "Mizoram"
+      },
+      "nodalDepartmentName": {
+        "value": 1511147,
+        "label": "Social Welfare Department"
+      },
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://socialwelfare.mizoram.gov.in/page/state-disability-pension"
+        },
+        {
+          "title": "Official Website",
+          "url": "https://socialwelfare.mizoram.gov.in/page/welcome-to-directorate-of-social-welfare"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The Social Welfare &amp; Tribal Affairs Department launched the State Disability Pension scheme is funded by the Mizoram government. It provides a monthly pension of ₹350 to 200 eligible individuals who are completely blind or bedridden. \n",
+      "benefits_md": "\n- **Financial assistance of ₹350/- per month for disabled individuals.**\n\n<br>\n\n",
+      "briefDescription": "The Social Welfare & Tribal Affairs Department, Government of Mizoram launched the State Disability Pension scheme. It provides a monthly pension of ₹350 to 200 eligible individuals who are completely blind or bedridden.",
+      "exclusions_md": "",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The Social Welfare & Tribal Affairs Department launched the State Disability Pension scheme is funded by the Mizoram government. It provides a monthly pension of ₹350 to 200 eligible individuals who are completely blind or bedridden. "
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Financial assistance of ₹350/- per month for disabled individuals.",
+                  "bold": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "process": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 1:",
+                "bold": true
+              },
+              {
+                "text": " The applicant writes the application on plain paper. "
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2:",
+                "bold": true
+              },
+              {
+                "text": " In the application form attach copies of all the mandatory documents (self-attest, if required)."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 3:",
+                "bold": true
+              },
+              {
+                "text": " Submit the duly filled and signed application along with the documents to the District Social Welfare Office"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 4:",
+                "bold": true
+              },
+              {
+                "text": " Request a receipt or acknowledgment from the concerned authority to whom the application has been submitted. Ensure that the receipt contains essential details such as the date and time of submission, and a unique identification number (if applicable)."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          }
+        ],
+        "process_md": "**Step 1:** The applicant writes the application on plain paper. \n**Step 2:** In the application form attach copies of all the mandatory documents (self-attest, if required).\n**Step 3:** Submit the duly filled and signed application along with the documents to the District Social Welfare Office\n**Step 4:** Request a receipt or acknowledgment from the concerned authority to whom the application has been submitted. Ensure that the receipt contains essential details such as the date and time of submission, and a unique identification number (if applicable).\n<br>\n\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n1. The applicant should be a resident of Mizoram.\n1. The applicant must be entirely blind or bedridden due to a disability.\n1. The applicant should be from the Below Poverty Line (BPL) family.\n\n<br>\n\n<br>\n\n<br>\n\n<br>\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should be a resident of Mizoram."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must be entirely blind or bedridden due to a disability."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should be from the Below Poverty Line (BPL) family."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "sdp"
+}

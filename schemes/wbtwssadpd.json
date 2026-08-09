@@ -1,0 +1,438 @@
+{
+  "_id": "673f1845d8e1de79ec012bcf",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Social Empowerment",
+        "Transport Worker",
+        "Monthly Assistance",
+        "Death Assistance",
+        "Permanent Disablement"
+      ],
+      "schemeName": "West Bengal Transport Workers’ Social Security Scheme: Assistance on Death and Permanent Disablement",
+      "schemeShortTitle": "WBTWSSADPD",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce7a2d6d1a3bde46852b1",
+          "label": "Health & Wellness"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Disease and conditions",
+          "label": "Disease and conditions"
+        },
+        {
+          "value": "Financial assistance",
+          "label": "Financial assistance"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "state": {
+        "value": 19,
+        "label": "West Bengal"
+      },
+      "nodalDepartmentName": {
+        "value": 19999925,
+        "label": "Labour Department"
+      },
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guideline-1",
+          "url": "https://wblc.gov.in/sites/default/files/ckfinder/userfiles/images/WBTWSSS_at_a_glance.pdf"
+        },
+        {
+          "title": "Guideline-2",
+          "url": "https://employmentbankwb.gov.in/social_security_scheme.php#ans8"
+        },
+        {
+          "title": "Online Application",
+          "url": "https://edistrict.wb.gov.in/portal/home"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The “West Bengal Transport Workers’ Social Security Scheme: Assistance on Death and Permanent Disablement” by the Labour Department, offers financial assistance to unorganised transport workers or their nominees/dependents during times of distress caused by death or disability. The relief includes monetary compensation for accidental or natural death, as well as graded benefits for permanent disabilities.\n&lt;br&gt;\n\n",
+      "benefits_md": "> **Relief on Death:**\n\n\n\n   1. **For accidental death:** ₹1,50,000/-.   1. **For natural death:** ₹50,000/-.\n\n> **Relief on Permanent Disability:**\n\n\n\n   1. **For loss of one hand, one leg below the knee, one eye, or hearing capacity in one ear:** ₹25,000/-.   1. **For loss of a thumb:** ₹9,000/-.   1. **For loss of any other finger:** ₹4,000/-   1. **Maximum relief for total disablement:** ₹50,000/-.\n\n<br>\n\n",
+      "exclusions_md": "No assistance under this provision shall be allowed if such death or permanent disablement was :\n\n  - Caused by intentional self-injury, suicide or attempted suicide, insanity or immorality or if the member was under the influence of intoxicating liquor, drug, or narcotic.\n  - Caused by injuries resulting from riots, civil commotions, or racing of any kind.\n\n",
+      "briefDescription": "The scheme provides financial relief to the beneficiaries in case of permanent disability due to accidents or their dependents/nominees in case of accidental or natural death.\n",
+      "detailedDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "The “West Bengal Transport Workers’ Social Security Scheme: Assistance on Death and Permanent Disablement” by the Labour Department, offers financial assistance to unorganised transport workers or their nominees/dependents during times of distress caused by death or disability. The relief includes monetary compensation for accidental or natural death, as well as graded benefits for permanent disabilities."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": ""
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "Relief on Death:",
+              "bold": true,
+              "underline": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "ol_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "For accidental death:",
+                      "bold": true
+                    },
+                    {
+                      "text": " ₹1,50,000/-."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "For natural death: ",
+                      "bold": true
+                    },
+                    {
+                      "text": "₹50,000/-."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "Relief on Permanent Disability:",
+              "bold": true,
+              "underline": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "ol_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "For loss of one hand, one leg below the knee, one eye, or hearing capacity in one ear: ",
+                      "bold": true
+                    },
+                    {
+                      "text": "₹25,000/-."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "For loss of a thumb:",
+                      "bold": true
+                    },
+                    {
+                      "text": " ₹9,000/-."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "For loss of any other finger: ",
+                      "bold": true
+                    },
+                    {
+                      "text": "₹4,000/-"
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Maximum relief for total disablement:",
+                      "bold": true
+                    },
+                    {
+                      "text": " ₹50,000/-."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ],
+      "exclusions": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "No assistance under this provision shall be allowed if such death or permanent disablement was :"
+                }
+              ]
+            },
+            {
+              "type": "ul_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Caused by intentional self-injury, suicide or attempted suicide, insanity or immorality or if the member was under the influence of intoxicating liquor, drug, or narcotic."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Caused by injuries resulting from riots, civil commotions, or racing of any kind."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Online",
+        "process": [
+          {
+            "type": "align_justify",
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step-1:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Visit the “"
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://edistrict.wb.gov.in/portal/home",
+                    "children": [
+                      {
+                        "text": "eDistrict 2.0"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "” portal. Click on Log In/Sign Up."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step-2: ",
+                    "bold": true
+                  },
+                  {
+                    "text": "In the User Login window, scroll down to the bottom and click on “Register”."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step-3: ",
+                    "bold": true
+                  },
+                  {
+                    "text": "Fill in all the details carefully, enter a username, and click on “Register”."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step-4:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Upon entering the One Time Password received on your mobile, you will be successfully registered."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step-5:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Now in the User Login window, enter your Username or email and captcha and click on “Sign In”."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step-6: ",
+                    "bold": true
+                  },
+                  {
+                    "text": "Enter the received O.T.P and click on “Submit”."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step-7: ",
+                    "bold": true
+                  },
+                  {
+                    "text": "Upon successful Login, You will be redirected to the “Dashboard”. From the right side menu apply for the concerned scheme."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": ""
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "process_md": "**Step-1:** Visit the “[eDistrict 2.0](https://edistrict.wb.gov.in/portal/home)” portal. Click on Log In/Sign Up.\n**Step-2:** In the User Login window, scroll down to the bottom and click on “Register”.\n**Step-3:** Fill in all the details carefully, enter a username, and click on “Register”.\n**Step-4:** Upon entering the One Time Password received on your mobile, you will be successfully registered.\n**Step-5:** Now in the User Login window, enter your Username or email and captcha and click on “Sign In”.\n**Step-6:** Enter the received O.T.P and click on “Submit”.\n**Step-7:** Upon successful Login, You will be redirected to the “Dashboard”. From the right side menu apply for the concerned scheme.\n&lt;br&gt;\n\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n   1. The applicant must be between 18 and 60 years of age at the time of enrolment.\n   1. The applicant must be an unorganized worker employed in the operation of commercial vehicles, such as cars, taxis, luxury taxis, light commercial vehicles, vans, auto-rickshaws, tempos, lorries, trucks, or buses.\n   1. The applicant’s vehicle must be used for commercial purposes and not solely for personal or family use.\n\n&gt; **Note:** A nominee/ dependent of a beneficiary shall be entitled for the benefits in case of death.\n\n&lt;br&gt;\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "ol_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant must be between 18 and 60 years of age at the time of enrolment."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant must be an unorganized worker employed in the operation of commercial vehicles, such as cars, taxis, luxury taxis, light commercial vehicles, vans, auto-rickshaws, tempos, lorries, trucks, or buses."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant’s vehicle must be used for commercial purposes and not solely for personal or family use."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "block_quote",
+              "children": [
+                {
+                  "text": "Note:",
+                  "bold": true
+                },
+                {
+                  "text": " A nominee/ dependent of a beneficiary shall be entitled for the benefits in case of death."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "wbtwssadpd"
+}

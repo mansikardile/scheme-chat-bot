@@ -1,0 +1,727 @@
+{
+  "_id": "65978d0aa733b1d73276b8c0",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Reimbursement",
+        "MSME",
+        "Enterprise",
+        "Business"
+      ],
+      "schemeName": "Reimbursement of Stamp Duty and Registration Charges",
+      "schemeShortTitle": "RSDARC",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce733d6d1a3bde4685278",
+          "label": "Business & Entrepreneurship"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Setting up / start-up / entrepreneurship",
+          "label": "Setting up / start-up / entrepreneurship"
+        },
+        {
+          "value": "Regulations & returns",
+          "label": "Regulations & returns"
+        },
+        {
+          "value": "Licenses, trademarks and copyright",
+          "label": "Licenses, trademarks and copyright"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "business-entity",
+          "label": "Business Entity"
+        }
+      ],
+      "state": {
+        "value": 33,
+        "label": "Tamil Nadu"
+      },
+      "nodalDepartmentName": {
+        "value": 3333350,
+        "label": "Micro Small and Medium Enterprises Department"
+      },
+      "schemeFor": "Infra"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://www.msmeonline.tn.gov.in/incentives/html_cye_stamp.php"
+        },
+        {
+          "title": "Contact Us",
+          "url": "https://www.msmeonline.tn.gov.in/contactus_local.php"
+        },
+        {
+          "title": "Grievance Redressal",
+          "url": "https://www.bizbuddy.tn.gov.in/#/home"
+        },
+        {
+          "title": "Application & Documents Required",
+          "url": "https://www.msmeonline.tn.gov.in/incentives/stamp_duty.php"
+        },
+        {
+          "title": "List Of Backward Blocks",
+          "url": "https://www.msmeonline.tn.gov.in/images/TN_Schemes_Booklet_Draft_09072022_v10.pdf"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The scheme &quot;Reimbursement of Stamp Duty and Registration Charges&quot; by the Micro Small and Medium Enterprises Department, Government of Tamil Nadu, is introduced with the objective of reducing the stamp duty and registration charges incurred by MSEs investing in backward blocks, i.e. the charges paid to the Registration department on the purchase of land meant for industrial use.\n",
+      "benefits_md": "50% reimbursement of stamp duty and Registration charges paid to the Registration department on the purchase of land meant for industrial use.\n",
+      "exclusions_md": "<br>\n\nFollowing list of Manufacturing Enterprises/activities are not eligible - \n1. Sugar.\n2. Distilleries, brewery and malt extraction.\n3. Units utilizing Molasses/ rectified spirit/ de-natured spirit as raw material for manufacture of potable alcohol.\n4. Fertiliser (except bio-fertilisers).\n5. Mining and quarrying.\n6. Iron and steel smelting.\n7. Beedis/ cigarettes/ cigars/ gutka and tobacco-based products.\n8. All types of Saw Mills.\n9. Cement.\n10. Aluminium smelting.\n11. Calcium carbide.\n12. Slaughter house.\n13. Re-packing of drugs/ medicine/ chemical, without any processing or value addition.\n14. Azoic/ reactive dyes.\n15. Fire cracker.\n16. Industries manufacturing and or utilizing Ozone depleting substances.\n17. Poultry.\n18. Cyanide.\n19. Caustic soda.\n20. Potassium chloride.\n21. Nylon fibre.\n22. Rayon fibre.\n23. Polyester fibre.\n24. One-time use and throw away plastics.\n25. All service MSMEs. \n26. Any other enterprise/ activity as may be notified by the Government.\n",
+      "briefDescription": "The scheme \"Reimbursement of Stamp Duty and Registration Charges\" by the Micro Small and Medium Enterprises Department, Government of Tamil Nadu, is introduced with the objective of reducing the stamp duty and registration charges incurred by MSEs investing in backward blocks.",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The scheme \"Reimbursement of Stamp Duty and Registration Charges\" by the Micro Small and Medium Enterprises Department, Government of Tamil Nadu, is introduced with the objective of reducing the stamp duty and registration charges incurred by MSEs investing in backward blocks, i.e. the charges paid to the Registration department on the purchase of land meant for industrial use."
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "50% reimbursement of stamp duty and Registration charges paid to the Registration department on the purchase of land meant for industrial use."
+            }
+          ]
+        }
+      ],
+      "exclusions": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Following list of Manufacturing Enterprises/activities are not eligible - "
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "1. Sugar."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "2. Distilleries, brewery and malt extraction."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "3. Units utilizing Molasses/ rectified spirit/ de-natured spirit as raw material for manufacture of potable alcohol."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "4. Fertiliser (except bio-fertilisers)."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "5. Mining and quarrying."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "6. Iron and steel smelting."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "7. Beedis/ cigarettes/ cigars/ gutka and tobacco-based products."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "8. All types of Saw Mills."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "9. Cement."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "10. Aluminium smelting."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "11. Calcium carbide."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "12. Slaughter house."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "13. Re-packing of drugs/ medicine/ chemical, without any processing or value addition."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "14. Azoic/ reactive dyes."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "15. Fire cracker."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "16. Industries manufacturing and or utilizing Ozone depleting substances."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "17. Poultry."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "18. Cyanide."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "19. Caustic soda."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "20. Potassium chloride."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "21. Nylon fibre."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "22. Rayon fibre."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "23. Polyester fibre."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "24. One-time use and throw away plastics."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "25. All service MSMEs. "
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "26. Any other enterprise/ activity as may be notified by the Government."
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Online",
+        "process": [
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "bold": true,
+                "text": "Step 1: Registration"
+              }
+            ]
+          },
+          {
+            "type": "ul_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Visit the "
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://www.msmeonline.tn.gov.in",
+                    "children": [
+                      {
+                        "text": "Official Website/Portal"
+                      }
+                    ]
+                  },
+                  {
+                    "text": " of the Micro, Small, and Medium Enterprises Department of the Government of Tamil Nadu. In the top ribbon, click \""
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://www.msmeonline.tn.gov.in/registration.php",
+                    "children": [
+                      {
+                        "text": "Login / Registration"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "\"."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "In the registration form, fill in the mandatory details accurately, Name, Date of Birth, Aadhaar Number, Email ID, and Mobile Number. Create a new password. The password must contain a minimum of 8 characters, 1 Upper Case Letter, 1 Lower Case Letter, and 1 Numeric Field."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Fill in the captcha code, and click \"Register\"."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "text": "Step 2: Login",
+                "bold": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Visit the "
+              },
+              {
+                "type": "link",
+                "link": "https://www.msmeonline.tn.gov.in/registration.php",
+                "children": [
+                  {
+                    "text": "Login Page"
+                  }
+                ]
+              },
+              {
+                "text": " and click \"Login\", and then fill in the credentials received on your registered Email ID and the registered Mobile Number."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "text": "Step 3: Form Filling",
+                "bold": true
+              }
+            ]
+          },
+          {
+            "type": "ul_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "After successfully logging in, hover over \"Schemes\" in the top ribbon, and then click on the concerned scheme from the dropdown."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "On the next page, hover over \"Apply Online\" in the top ribbon, and then click on \"New Application\" from the dropdown."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Fill in all the mandatory fields of the "
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://www.msmeonline.tn.gov.in/incentives/payroll.php",
+                    "children": [
+                      {
+                        "text": "Application Form"
+                      }
+                    ]
+                  },
+                  {
+                    "text": ". Carefully review all the information provided, acknowledge and agree to the terms and conditions, declaration, and privacy policy, and then click \"Proceed\"."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Note down the reference number appearing on the screen and then click \"Close\"."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "text": "Step 4: Upload Documents",
+                "bold": true
+              }
+            ]
+          },
+          {
+            "type": "ul_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Now, hover over \"Schemes\" in the top ribbon, and then click \"Upload Documents\" from the dropdown."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "On the next page, provide the Application ID and click \"Submit\"."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "On the next page, upload all the mandatory documents in the specified format and size."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "After uploading the documents, click \"View\" to verify the documents uploaded for correctness."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "text": "Step 5: Submission",
+                "bold": true
+              }
+            ]
+          },
+          {
+            "type": "ul_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Fill in all the checkboxes appearing at the bottom of the screen and then click \"Submit Application\"."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "The message regarding the submission of the online application to GM/DIC / RJD will be received on your mobile phone."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "(Optional) Step 6: Track Application Status",
+                "bold": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "You can check the status of your application "
+              },
+              {
+                "type": "link",
+                "link": "https://www.msmeonline.tn.gov.in/incentives/app_track.php?id=Track%20Your%20Status",
+                "children": [
+                  {
+                    "text": "here"
+                  }
+                ]
+              },
+              {
+                "text": ". The portal may provide updates via email or SMS regarding your application status."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "text": "Time Limit for Filing Application",
+                "bold": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "The applicant enterprises should apply for this incentive within 6 months from the date of commencement of commercial production."
+              }
+            ]
+          }
+        ],
+        "process_md": "> **Step 1: Registration**\n\n\n- Visit the [Official Website/Portal](https://www.msmeonline.tn.gov.in) of the Micro, Small, and Medium Enterprises Department of the Government of Tamil Nadu. In the top ribbon, click &quot;[Login / Registration](https://www.msmeonline.tn.gov.in/registration.php)&quot;.- In the registration form, fill in the mandatory details accurately, Name, Date of Birth, Aadhaar Number, Email ID, and Mobile Number. Create a new password. The password must contain a minimum of 8 characters, 1 Upper Case Letter, 1 Lower Case Letter, and 1 Numeric Field.\n- Fill in the captcha code, and click &quot;Register&quot;.\n\n<br>\n\n> **Step 2: Login**\n\nVisit the [Login Page](https://www.msmeonline.tn.gov.in/registration.php) and click &quot;Login&quot;, and then fill in the credentials received on your registered Email ID and the registered Mobile Number.\n<br>\n\n> **Step 3: Form Filling**\n\n\n- After successfully logging in, hover over &quot;Schemes&quot; in the top ribbon, and then click on the concerned scheme from the dropdown.\n- On the next page, hover over &quot;Apply Online&quot; in the top ribbon, and then click on &quot;New Application&quot; from the dropdown.\n- Fill in all the mandatory fields of the [Application Form](https://www.msmeonline.tn.gov.in/incentives/payroll.php). Carefully review all the information provided, acknowledge and agree to the terms and conditions, declaration, and privacy policy, and then click &quot;Proceed&quot;.- Note down the reference number appearing on the screen and then click &quot;Close&quot;.\n\n<br>\n\n> **Step 4: Upload Documents**\n\n\n- Now, hover over &quot;Schemes&quot; in the top ribbon, and then click &quot;Upload Documents&quot; from the dropdown.\n- On the next page, provide the Application ID and click &quot;Submit&quot;.\n- On the next page, upload all the mandatory documents in the specified format and size.\n- After uploading the documents, click &quot;View&quot; to verify the documents uploaded for correctness.\n\n<br>\n\n> **Step 5: Submission**\n\n\n- Fill in all the checkboxes appearing at the bottom of the screen and then click &quot;Submit Application&quot;.\n- The message regarding the submission of the online application to GM/DIC / RJD will be received on your mobile phone.\n\n<br>\n\n**(Optional) Step 6: Track Application Status**\nYou can check the status of your application [here](https://www.msmeonline.tn.gov.in/incentives/app_track.php?id=Track%20Your%20Status). The portal may provide updates via email or SMS regarding your application status.\n<br>\n\n> **Time Limit for Filing Application**\n\nThe applicant enterprises should apply for this incentive within 6 months from the date of commencement of commercial production.\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n- The applicant should be a manufacturing enterprise (micro or small scale), set up in the declared backward blocks of the state of Tamil Nadu.\n- This incentive is admissible to eligible enterprises on the land area up to five times the plinth area of the factory building constructed.\n- However, in respect of enterprises where the open land requirements would be large, due to the peculiar nature of the industry, the sanctioning Authority may consider allowing land in excess of five times the plinth area on case to case basis.\n\n<br>\n\nKnow Your Eligibility for this Scheme [here](Verify your Eligibility for the Scheme here\r\nhttps://www.msmeonline.tn.gov.in/incentives/know_your_eligibility.php)\n",
+      "eligibilityDescription": [
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should be a manufacturing enterprise (micro or small scale), set up in the declared backward blocks of the state of Tamil Nadu."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "This incentive is admissible to eligible enterprises on the land area up to five times the plinth area of the factory building constructed."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "However, in respect of enterprises where the open land requirements would be large, due to the peculiar nature of the industry, the sanctioning Authority may consider allowing land in excess of five times the plinth area on case to case basis."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Know Your Eligibility for this Scheme "
+            },
+            {
+              "type": "link",
+              "link": "Verify your Eligibility for the Scheme here\r\nhttps://www.msmeonline.tn.gov.in/incentives/know_your_eligibility.php",
+              "children": [
+                {
+                  "text": "here"
+                }
+              ]
+            },
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "rsdarc"
+}

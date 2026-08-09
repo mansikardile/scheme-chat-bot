@@ -1,0 +1,587 @@
+{
+  "_id": "62ecd1838b1ec52f617d3513",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Credit Linked Subsidy",
+        "Coir Production",
+        "Enterprises",
+        "Coir Board"
+      ],
+      "schemeName": "Coir Udyami Yojana",
+      "schemeShortTitle": "CUY",
+      "implementingAgency": "ARI Division, MoMSME",
+      "level": {
+        "value": "central",
+        "label": "Central"
+      },
+      "schemeType": {
+        "value": "central-sector-scheme",
+        "label": "Central Sector Scheme"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce733d6d1a3bde4685278",
+          "label": "Business & Entrepreneurship"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Credit Linked Subsidy",
+          "label": "Credit Linked Subsidy"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        },
+        {
+          "value": "joint-liability-groups",
+          "label": "Joint Liability Groups (JLGS)"
+        },
+        {
+          "value": "self-help-groups",
+          "label": "Self Help Groups (SHGS)"
+        },
+        {
+          "value": "trust",
+          "label": "Trust"
+        },
+        {
+          "value": "registered-societies",
+          "label": "Registered Societies"
+        },
+        {
+          "value": "ngo",
+          "label": "NGO"
+        },
+        {
+          "value": "business-entity",
+          "label": "Business Entity"
+        }
+      ],
+      "schemeFor": "Individual",
+      "nodalMinistryName": {
+        "value": 497,
+        "label": "Ministry Of Micro, Small and Medium Enterprises"
+      },
+      "nodalDepartmentName": null
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "http://coirboard.gov.in/wp-content/uploads/2015/06/OperationalGuidelines_CUY.pdf"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "Coir Udyami Yojana is a credit-linked subsidy scheme for setting up coir units with a project cost up to ₹10,00,000/- plus one cycle of working capital, which shall not exceed 25% of the project cost. Working capital will not be considered for subsidy. Coir Udyami Yojana is a Central Sector Scheme to be administered by the Ministry of Micro, Small and Medium Enterprises. The Scheme will be implemented by the Coir Board a statutory organization under the Ministry of MSME, as the Nodal Agency at the national level.\n> **Financial Institutions providing loan under CUY:**\n\n\n- All the Scheduled Commercial Banks listed in the 2nd schedule of the RBI Act\n- All Regional Rural Banks\n- Co-operative Banks that are Member Lending Institutions (MLIs) of the Credit Guarantee Trust Fund for MSME, as well as through SC/ST/OBC Finance and Development Corporations.\n\n<br>\n\n",
+      "benefits_md": "\n- **Beneficiary’s Contribution (of Project Cost):** 5%- **Bank Credit:** 55%- **Rate of Subsidy (of project cost):** 40%\n> **Note****:** \n\n\n\n  - The maximum admissible cost of the project is ₹10,00,000/- plus working capital. Working capital shall not exceed 25% of the project cost. Subsidy will be computed excluding the working capital component.\n  - The Bank will sanction 95% of the project cost after adjusting 5% beneficiary contribution deposited and disburse the full amount of the project cost, including the beneficiary contribution, in installments for setting up the project.\n\n\n<br>\n\n",
+      "exclusions_md": "\n1. The units that have already availed Govt. subsidy under any other Scheme of the Govt. of India or the State Govt. for the same purpose are not eligible to claim a subsidy under the scheme.\n1.  Working capital will not be considered for subsidy.\n1. Cases of inflated costing on machinery/building, and other elements of a project to avail a higher amount of subsidy will not be allowed, and such applications will be summarily rejected, or the committee will have the authority to consider such applications by reducing the cost of the project.\n\n",
+      "briefDescription": "The scheme \"Coir Udyami Yojana\" by the Coir Board, Ministry of MSME, Government of India, aims to modernize the coir industry and generate rural employment. It offers credit-linked financial assistance to establish coir units by eligible applicants.",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Coir Udyami Yojana is a credit-linked subsidy scheme for setting up coir units with a project cost up to ₹10,00,000/- plus one cycle of working capital, which shall not exceed 25% of the project cost. Working capital will not be considered for subsidy. Coir Udyami Yojana is a Central Sector Scheme to be administered by the Ministry of Micro, Small and Medium Enterprises. The Scheme will be implemented by the Coir Board a statutory organization under the Ministry of MSME, as the Nodal Agency at the national level."
+            }
+          ]
+        },
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "Financial Institutions providing loan under CUY:",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "All the Scheduled Commercial Banks listed in the 2nd schedule of the RBI Act"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "All Regional Rural Banks"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Co-operative Banks that are Member Lending Institutions (MLIs) of the Credit Guarantee Trust Fund for MSME, as well as through SC/ST/OBC Finance and Development Corporations."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "value": "Cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Beneficiary’s Contribution (of Project Cost): ",
+                  "bold": true
+                },
+                {
+                  "text": "5%"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Bank Credit: ",
+                  "bold": true
+                },
+                {
+                  "text": "55%"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Rate of Subsidy (of project cost): ",
+                  "bold": true
+                },
+                {
+                  "text": "40%"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "Note",
+              "underline": true,
+              "bold": true
+            },
+            {
+              "bold": true,
+              "text": ": "
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "ul_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The maximum admissible cost of the project is ₹10,00,000/- plus working capital. Working capital shall not exceed 25% of the project cost. Subsidy will be computed excluding the working capital component."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The Bank will sanction 95% of the project cost after adjusting 5% beneficiary contribution deposited and disburse the full amount of the project cost, including the beneficiary contribution, in installments for setting up the project."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ],
+      "exclusions": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The units that have already availed Govt. subsidy under any other Scheme of the Govt. of India or the State Govt. for the same purpose are not eligible to claim a subsidy under the scheme."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": " Working capital will not be considered for subsidy."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Cases of inflated costing on machinery/building, and other elements of a project to avail a higher amount of subsidy will not be allowed, and such applications will be summarily rejected, or the committee will have the authority to consider such applications by reducing the cost of the project."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "url": "https://www.coirservices.gov.in/frm_login.aspx",
+        "process": [
+          {
+            "type": "align_justify",
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 1: ",
+                    "bold": true
+                  },
+                  {
+                    "text": "The applicant must fill out the prescribed "
+                  },
+                  {
+                    "type": "link",
+                    "link": "http://coirboard.gov.in/wp-content/uploads/2015/06/OperationalGuidelines_CUY.pdf",
+                    "children": [
+                      {
+                        "text": "application form(refer Part-B)"
+                      }
+                    ]
+                  },
+                  {
+                    "text": " and attach all required documents."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 2: ",
+                    "bold": true
+                  },
+                  {
+                    "text": "Apply to the nearest Field Office of the Coir Board."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 3: ",
+                    "bold": true
+                  },
+                  {
+                    "text": "Undergo a mandatory 5-day Entrepreneurship Development Programme (EDP) before or after submission, but before bank recommendation."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 4: ",
+                    "bold": true
+                  },
+                  {
+                    "text": "The application is scrutinized and forwarded to the Regional Level Selection Committee."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 5: ",
+                    "bold": true
+                  },
+                  {
+                    "text": "The committee evaluates and forwards approved cases to the bank."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 6: ",
+                    "bold": true
+                  },
+                  {
+                    "text": "On bank approval, the applicant deposits 5% beneficiary contribution within 30 days."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 7: ",
+                    "bold": true
+                  },
+                  {
+                    "text": "Coir Board deposits a subsidy (40%) with the bank."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 8: ",
+                    "bold": true
+                  },
+                  {
+                    "text": "The bank disburses a term loan within 30 days of the subsidy deposit."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 9: ",
+                    "bold": true
+                  },
+                  {
+                    "text": "The project must be completed within 6 months."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 10: ",
+                    "bold": true
+                  },
+                  {
+                    "text": "Coir Board and the bank conduct physical verification before final subsidy adjustment."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          }
+        ],
+        "process_md": "**Step 1:** The applicant must fill out the prescribed [application form(refer Part-B)](http://coirboard.gov.in/wp-content/uploads/2015/06/OperationalGuidelines_CUY.pdf) and attach all required documents.\n**Step 2:** Apply to the nearest Field Office of the Coir Board.\n**Step 3:** Undergo a mandatory 5-day Entrepreneurship Development Programme (EDP) before or after submission, but before bank recommendation.\n**Step 4:** The application is scrutinized and forwarded to the Regional Level Selection Committee.\n**Step 5:** The committee evaluates and forwards approved cases to the bank.\n**Step 6:** On bank approval, the applicant deposits 5% beneficiary contribution within 30 days.\n**Step 7:** Coir Board deposits a subsidy (40%) with the bank.\n**Step 8:** The bank disburses a term loan within 30 days of the subsidy deposit.\n**Step 9:** The project must be completed within 6 months.\n**Step 10:** Coir Board and the bank conduct physical verification before final subsidy adjustment.\n<br>\n\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "> **Eligibility conditions of the Beneficiaries:**\n\n\n- The applicant must be an individual above 18 years of age with Indian Citizenship.\n- The applicant will not be subject to any income ceiling for receiving assistance under the scheme.\n- The applicant must set up a project related to the production of coir fibre, yarn, or products under the coir sector.\n- The applicant may be an individual, a Company, Self self-help group (SHG), a Non-Governmental Organization (NGO), Institution registered under the Societies Registration Act, 1860, a Production Co-operative Society, a Joint Liability Group, or a Charitable Trust.\n- The applicant must not have already availed a government subsidy under any other scheme of the Government of India or the State Government for the same purpose.\n\n> **Other eligibility conditions:**\n\n\n- The applicant belonging to special categories must produce a certified copy of the caste/community certificate issued by the competent authority.\n- The applicant, if applying as an institution, must submit a certified copy of the bylaws wherever applicable.\n- The applicant must ensure that the project cost includes capital expenditure such as building and machinery.\n- The applicant may include one cycle of working capital in the project proposal, but it will not be considered for subsidy. The loan for working capital will only be sanctioned and released after the unit is set up, and the working capital must not exceed 25% of the total project cost.\n- The applicant, if already owning a work shed, will have the cost of only the required machinery considered as the project cost under the scheme.\n\n> **Note :**\n\n\n- Special focus on SC/ST and beneficiaries from the North Eastern Region (NER).\n- The scheme encourages women and youth participation in rural areas.\n- Only one person from one family is eligible for obtaining financial assistance for setting up of projects under Coir Udyami Yojana. The ‘family’ includes self and spouse.\n\n<br>\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "Eligibility conditions of the Beneficiaries:",
+              "bold": true,
+              "underline": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must be an individual above 18 years of age with Indian Citizenship."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant will not be subject to any income ceiling for receiving assistance under the scheme."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must set up a project related to the production of coir fibre, yarn, or products under the coir sector."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant may be an individual, a Company, Self self-help group (SHG), a Non-Governmental Organization (NGO), Institution registered under the Societies Registration Act, 1860, a Production Co-operative Society, a Joint Liability Group, or a Charitable Trust."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must not have already availed a government subsidy under any other scheme of the Government of India or the State Government for the same purpose."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "Other eligibility conditions:",
+              "bold": true,
+              "underline": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant belonging to special categories must produce a certified copy of the caste/community certificate issued by the competent authority."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant, if applying as an institution, must submit a certified copy of the bylaws wherever applicable."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must ensure that the project cost includes capital expenditure such as building and machinery."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant may include one cycle of working capital in the project proposal, but it will not be considered for subsidy. The loan for working capital will only be sanctioned and released after the unit is set up, and the working capital must not exceed 25% of the total project cost."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant, if already owning a work shed, will have the cost of only the required machinery considered as the project cost under the scheme."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "Note :",
+              "underline": true,
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Special focus on SC/ST and beneficiaries from the North Eastern Region (NER)."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The scheme encourages women and youth participation in rural areas."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Only one person from one family is eligible for obtaining financial assistance for setting up of projects under Coir Udyami Yojana. The ‘family’ includes self and spouse."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "cuy"
+}

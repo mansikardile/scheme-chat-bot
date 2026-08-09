@@ -1,0 +1,281 @@
+{
+  "_id": "660d1c23c90f6c8098825e61",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Financial Assistance",
+        "Artisans",
+        "Award",
+        "Crafts"
+      ],
+      "schemeName": "Poompuhar State Award",
+      "schemeShortTitle": "PSA",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce85cd6d1a3bde4685304",
+          "label": "Skills & Employment"
+        },
+        {
+          "value": "628ce8aad6d1a3bde4685320",
+          "label": "Sports & Culture"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Apprenticeship",
+          "label": "Apprenticeship"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "state": {
+        "value": 33,
+        "label": "Tamil Nadu"
+      },
+      "nodalDepartmentName": {
+        "value": 3333340,
+        "label": "Handlooms, Handicrafts, Textiles and Khadi Department"
+      },
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Citizen Charter (2021)",
+          "url": "https://cms.tn.gov.in/sites/default/files/documents/tnhdc_e_cc_2021_22.pdf"
+        },
+        {
+          "title": "Application Form",
+          "url": "https://poompuhar.com/tnhdc/downloads/1696666049463145684.pdf"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The &quot;Poompuhar State Award&quot; scheme was launched by the Department of Handlooms, Handicrafts, Textiles &amp; Khadi, Government of Tamil Nadu. The best artisans who have contributed to the development of the crafts of Tamil Nadu are selected and given a cash prize of ₹50,000/, a 4-gram gold medal, tamirapathiram and a certificate. The economically backward awardees are also eligible for a monthly pension of ₹3,500/- after completion of 60 years of age.\n",
+      "benefits_md": "\n- Cash Prize of ₹50,000/-.\n- 4-gram Gold Medal.\n- Thamirapathiram.\n- Certificate.\n- Monthly Pension of ₹3,500/- to the economically backward awardee.\n\n",
+      "briefDescription": "\"Poompuhar State Award\" was launched by the Dept of Handlooms, Handicrafts, Textiles & Khadi, Tamil Nadu. The awardees are given ₹50,000, a 4-gram gold medal, tamirapathiram and a certificate. The economically backward awardees are also eligible for monthly pension of ₹3,500/- after 60 years of age.",
+      "exclusions_md": "An artisan who has already won the Poombukar State Award cannot participate again.\n",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The \"Poompuhar State Award\" scheme was launched by the Department of Handlooms, Handicrafts, Textiles & Khadi, Government of Tamil Nadu. The best artisans who have contributed to the development of the crafts of Tamil Nadu are selected and given a cash prize of ₹50,000/, a 4-gram gold medal, tamirapathiram and a certificate. The economically backward awardees are also eligible for a monthly pension of ₹3,500/- after completion of 60 years of age."
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 3,
+        "value": "composite",
+        "label": "Composite"
+      },
+      "benefits": [
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Cash Prize of ₹50,000/-."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "4-gram Gold Medal."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Thamirapathiram."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Certificate."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Monthly Pension of ₹3,500/- to the economically backward awardee."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "exclusions": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "An artisan who has already won the Poombukar State Award cannot participate again."
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "process": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 1:",
+                "bold": true
+              },
+              {
+                "text": " The interested applicant should take print of the "
+              },
+              {
+                "type": "link",
+                "link": "https://poompuhar.com/tnhdc/downloads/1696666049463145684.pdf",
+                "children": [
+                  {
+                    "text": "prescribed format"
+                  }
+                ]
+              },
+              {
+                "text": " of the application form."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2:",
+                "bold": true
+              },
+              {
+                "text": " In the application form, fill in all the mandatory fields, paste the passport-sized photograph (signed across, if required), and attach copies of all the mandatory documents (self-attest, if required)."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 3:",
+                "bold": true
+              },
+              {
+                "text": " Submit the duly filled and signed application form along with the documents (during office hours, Monday-Friday) to the "
+              },
+              {
+                "text": "Poombukar Head Office Tamil Nadu Handicrafts Development Corporation, 759, Anna Road, Chennai - 600 002. ",
+                "bold": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 4:",
+                "bold": true
+              },
+              {
+                "text": " Request a receipt or acknowledgment from the concerned authority to whom the application has been submitted. Ensure that the receipt contains essential details such as the date and time of submission, and a unique identification number (if applicable)."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "NOTE 1: ",
+                "bold": true
+              },
+              {
+                "text": "Advertisements are released during June month every year."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "NOTE 2: ",
+                "bold": true
+              },
+              {
+                "text": "No need to send award material with the application."
+              }
+            ]
+          }
+        ],
+        "process_md": "**Step 1:** The interested applicant should take print of the [prescribed format](https://poompuhar.com/tnhdc/downloads/1696666049463145684.pdf) of the application form.\n**Step 2:** In the application form, fill in all the mandatory fields, paste the passport-sized photograph (signed across, if required), and attach copies of all the mandatory documents (self-attest, if required).\n**Step 3:** Submit the duly filled and signed application form along with the documents (during office hours, Monday-Friday) to the **Poombukar Head Office Tamil Nadu Handicrafts Development Corporation, 759, Anna Road, Chennai - 600 002.** \n**Step 4:** Request a receipt or acknowledgment from the concerned authority to whom the application has been submitted. Ensure that the receipt contains essential details such as the date and time of submission, and a unique identification number (if applicable).\n**NOTE 1:** Advertisements are released during June month every year.\n**NOTE 2:** No need to send award material with the application.\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n1. The applicant should be an artisan.\n1. The applicant should be a native of Tamil Nadu.\n1. The applicant should be above 30 years of age. For monthly pension, the applicant should be 60 years or above in age.\n1. The experience of the artisans and the service rendered by them in their profession will be taken into consideration during the passing (The artisans participating in the Award will be invited for process explanation and interview if required by the headquarters to test their skills).\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should be an artisan."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should be a native of Tamil Nadu."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should be above 30 years of age. For monthly pension, the applicant should be 60 years or above in age."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The experience of the artisans and the service rendered by them in their profession will be taken into consideration during the passing (The artisans participating in the Award will be invited for process explanation and interview if required by the headquarters to test their skills)."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "psa"
+}

@@ -1,0 +1,483 @@
+{
+  "_id": "64eb2f9b031061909aee089b",
+  "en": {
+    "basicDetails": {
+      "schemeOpenDate": null,
+      "schemeCloseDate": null,
+      "nodalMinistryName": null,
+      "nodalDepartmentName": {
+        "value": 300000042,
+        "label": "Department of Social Security and Development of Women and Children"
+      },
+      "otherMinistryName": null,
+      "otherDepartmentNames": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Pension",
+          "label": "Pension"
+        }
+      ],
+      "dbtScheme": true,
+      "implementingAgency": null,
+      "tags": [
+        "Financial Assistance",
+        "Welfare",
+        "Pension"
+      ],
+      "schemeName": "Old Age Pension Scheme - Punjab",
+      "schemeShortTitle": "Oapsp",
+      "level": {
+        "value": "state",
+        "label": "State"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce87cd6d1a3bde4685312",
+          "label": "Social welfare & Empowerment"
+        }
+      ],
+      "state": {
+        "value": 3,
+        "label": "Punjab"
+      },
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://upload.indiacode.nic.in/showfile?actid=AC_PB_82_985_00002_00002_1553492693909&type=rule&filename=notification_pdf_13.6.2017_in_eng.pdf"
+        },
+        {
+          "title": "Portal",
+          "url": "https://connect.punjab.gov.in/service/citizenservice/108"
+        },
+        {
+          "title": "Application Form",
+          "url": "https://punjab.gov.in/wp-content/uploads/2023/08/OldAgePension-1_merged.pdf"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "Punjab State Government started a pension for old age person of the state people. The main objective is to provide financial security to those sections of society who doesn&#39;t have any stable source of income. its a DBT scheme so pension amount will directly transferred in the bank account of beneficiary.\n<br>\n\n",
+      "benefits_md": "Amount : ₹ 1,500/- per month\n",
+      "exclusions_md": "<br>\n\n",
+      "briefDescription": "Punjab State Government started a pension for old age person of the state people. ",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Punjab State Government started a pension for old age person of the state people. The main objective is to provide financial security to those sections of society who doesn't have any stable source of income. its a DBT scheme so pension amount will directly transferred in the bank account of beneficiary."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Amount : ₹ 1,500/- per month"
+            }
+          ]
+        }
+      ],
+      "exclusions": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Online",
+        "process": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step-1: ",
+                "bold": true
+              },
+              {
+                "text": "Applicants have to visit the "
+              },
+              {
+                "type": "link",
+                "link": "https://connect.punjab.gov.in/service/citizenservice/108",
+                "children": [
+                  {
+                    "text": "official website."
+                  }
+                ]
+              },
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step-2",
+                "bold": true
+              },
+              {
+                "text": ": Click on the \"Click to apply services\"."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step-3",
+                "bold": true
+              },
+              {
+                "text": ": Now login on Digital Punjab portal with Email/Phone number and password. If does have any account then register "
+              },
+              {
+                "type": "link",
+                "link": "https://ssocitizen.psegs.in/register",
+                "children": [
+                  {
+                    "text": "here"
+                  }
+                ]
+              },
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step-4:",
+                "bold": true
+              },
+              {
+                "text": " Fill out the application form."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step-5",
+                "bold": true
+              },
+              {
+                "text": ": Attach the required documents"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step-6",
+                "bold": true
+              },
+              {
+                "text": ": Submit."
+              }
+            ]
+          }
+        ],
+        "process_md": "**Step-1:** Applicants have to visit the [official website.](https://connect.punjab.gov.in/service/citizenservice/108)\n**Step-2**: Click on the &quot;Click to apply services&quot;.\n**Step-3**: Now login on Digital Punjab portal with Email/Phone number and password. If does have any account then register [here](https://ssocitizen.psegs.in/register)\n**Step-4:** Fill out the application form.\n**Step-5**: Attach the required documents\n**Step-6**: Submit.\n"
+      },
+      {
+        "mode": "Offline",
+        "process": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step-1: ",
+                "bold": true
+              },
+              {
+                "text": "Applicants have to visit the official website and download the "
+              },
+              {
+                "type": "link",
+                "link": "https://punjab.gov.in/wp-content/uploads/2023/08/OldAgePension-1_merged.pdf",
+                "children": [
+                  {
+                    "text": "application form."
+                  }
+                ]
+              },
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step-2",
+                "bold": true
+              },
+              {
+                "text": ": Beneficiary can get the Offline Application Form of Punjab Old Age Pension Scheme free of cost from any of the following Offices or Centre :-"
+              }
+            ]
+          },
+          {
+            "type": "ol_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Office of District Social Security Officer."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Office of Child Development Project Officer."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Panchayat and B.D.P.O Office."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "SDM Office."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Anganwadi Centre."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Sewa Kendra "
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step-3",
+                "bold": true
+              },
+              {
+                "text": ": Fill out the application form."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step-4",
+                "bold": true
+              },
+              {
+                "text": ": Attach required documents."
+              }
+            ]
+          },
+          {
+            "type": "align_left",
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step-5",
+                    "bold": true
+                  },
+                  {
+                    "text": ": Submit the Application Form of Punjab Old Age Pension Scheme along with all the documents in the same office or "
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "align_left",
+            "children": [
+              {
+                "type": "ul_list",
+                "children": [
+                  {
+                    "type": "align_left",
+                    "children": [
+                      {
+                        "type": "ul_list",
+                        "children": [
+                          {
+                            "type": "align_left",
+                            "children": [
+                              {
+                                "type": "paragraph",
+                                "children": [
+                                  {
+                                    "text": "centre from where it was collected."
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "process_md": "**Step-1:** Applicants have to visit the official website and download the [application form.](https://punjab.gov.in/wp-content/uploads/2023/08/OldAgePension-1_merged.pdf)\n**Step-2**: Beneficiary can get the Offline Application Form of Punjab Old Age Pension Scheme free of cost from any of the following Offices or Centre :-\n\n1. Office of District Social Security Officer.\n1. Office of Child Development Project Officer.\n1. Panchayat and B.D.P.O Office.\n1. SDM Office.\n1. Anganwadi Centre.\n1. Sewa Kendra \n\n**Step-3**: Fill out the application form.\n**Step-4**: Attach required documents.\n**Step-5**: Submit the Application Form of Punjab Old Age Pension Scheme along with all the documents in the same office or \n\n\ncentre from where it was collected.\n\n\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n1. Beneficiary should be a Permanent Resident of Punjab.\n1. The Annual Income of Beneficiary should not be more than Rs. 60,000/- per year.\n1. The Age of Beneficiary should be :- \n\n   1. Men: 65 Years or Above. \n   1. Women :58 Years or Above.\n\n1. Beneficiary should own any of the below mentioned amount of land :-\n\n   1. Maximum 2.5 Acre Nehri or Chahi Land, OR\n   1. Maximum 5 Acre Barani Land, OR\n   1. Waterlogged 5 Acre Land.\n\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Beneficiary should be a Permanent Resident of Punjab."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The Annual Income of Beneficiary should not be more than Rs. 60,000/- per year."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The Age of Beneficiary should be :- "
+                }
+              ]
+            },
+            {
+              "type": "ol_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Men: 65 Years or Above. "
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Women :58 Years or Above."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Beneficiary should own any of the below mentioned amount of land :-"
+                }
+              ]
+            },
+            {
+              "type": "ol_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Maximum 2.5 Acre Nehri or Chahi Land, OR"
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Maximum 5 Acre Barani Land, OR"
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Waterlogged 5 Acre Land."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "oapsp"
+}

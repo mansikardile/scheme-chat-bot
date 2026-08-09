@@ -1,0 +1,316 @@
+{
+  "_id": "64ebf13e031061909aee70e0",
+  "en": {
+    "basicDetails": {
+      "schemeOpenDate": null,
+      "schemeCloseDate": null,
+      "nodalMinistryName": null,
+      "nodalDepartmentName": {
+        "value": 300000042,
+        "label": "Department of Social Security and Development of Women and Children"
+      },
+      "otherMinistryName": null,
+      "otherDepartmentNames": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Pension",
+          "label": "Pension"
+        }
+      ],
+      "dbtScheme": true,
+      "implementingAgency": null,
+      "tags": [
+        "Financial Assistance",
+        "Social Welfare",
+        "Children"
+      ],
+      "schemeName": "Dependent Children Pension Scheme - Punjab",
+      "schemeShortTitle": "Dcps",
+      "level": {
+        "value": "state",
+        "label": "State"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce87cd6d1a3bde4685312",
+          "label": "Social welfare & Empowerment"
+        }
+      ],
+      "state": {
+        "value": 3,
+        "label": "Punjab"
+      },
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Portal",
+          "url": "https://connect.punjab.gov.in/service/citizenservice/116"
+        },
+        {
+          "title": "Guidelines",
+          "url": "https://upload.indiacode.nic.in/showfile?actid=AC_PB_82_985_00002_00002_1553492693909&type=rule&filename=notification_pdf_13.6.2017_in_eng.pdf"
+        },
+        {
+          "title": "Application Form",
+          "url": "https://punjab.gov.in/wp-content/uploads/2023/08/Dependent-Children-Pension.pdf"
+        },
+        {
+          "title": "Details",
+          "url": "https://sswcd.punjab.gov.in/en/financial-assistance-to-dependent-children-0"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The main objective behind launching Dependent Children Pension Scheme is to provide financial security cover to those childrens whose income is not stable due to non availability of his/ her father/ parents. This Scheme is implemented by Social Security and Women &amp; Child Development Department of Punjab Government. Eligible Beneficiary will get Monthly Pension direct to their bank account.\n",
+      "benefits_md": "Amount : ₹ 1,500/- per month\n",
+      "briefDescription": "Punjab State Government started a pension for Dependent Children of the state.",
+      "exclusions_md": "",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The main objective behind launching Dependent Children Pension Scheme is to provide financial security cover to those childrens whose income is not stable due to non availability of his/ her father/ parents. This Scheme is implemented by Social Security and Women & Child Development Department of Punjab Government. Eligible Beneficiary will get Monthly Pension direct to their bank account."
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Amount : ₹ 1,500/- per month"
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Online",
+        "process": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step-1: ",
+                "bold": true
+              },
+              {
+                "text": "Applicants have to visit the "
+              },
+              {
+                "type": "link",
+                "link": "https://connect.punjab.gov.in/service/citizenservice/116",
+                "children": [
+                  {
+                    "text": "official website"
+                  }
+                ]
+              },
+              {
+                "text": "."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step-2",
+                "bold": true
+              },
+              {
+                "text": ": Click on the \"Click to apply services\"."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step-3",
+                "bold": true
+              },
+              {
+                "text": ": Now login on Digital Punjab portal with Email/Phone number and password. If does have any account then register "
+              },
+              {
+                "type": "link",
+                "link": "https://ssocitizen.psegs.in/register",
+                "children": [
+                  {
+                    "text": "here"
+                  }
+                ]
+              },
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step-4:",
+                "bold": true
+              },
+              {
+                "text": " Fill out the application form."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step-5",
+                "bold": true
+              },
+              {
+                "text": ": Attach the required documents"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step-6",
+                "bold": true
+              },
+              {
+                "text": ": Submit."
+              }
+            ]
+          }
+        ],
+        "process_md": "**Step-1:** Applicants have to visit the [official website](https://connect.punjab.gov.in/service/citizenservice/116).\n**Step-2**: Click on the &quot;Click to apply services&quot;.\n**Step-3**: Now login on Digital Punjab portal with Email/Phone number and password. If does have any account then register [here](https://ssocitizen.psegs.in/register)\n**Step-4:** Fill out the application form.\n**Step-5**: Attach the required documents\n**Step-6**: Submit.\n"
+      },
+      {
+        "mode": "Offline",
+        "process": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step-1",
+                "bold": true
+              },
+              {
+                "text": ": Applicants have to visit the official website and download the "
+              },
+              {
+                "type": "link",
+                "link": "https://punjab.gov.in/wp-content/uploads/2023/08/Dependent-Children-Pension.pdf",
+                "children": [
+                  {
+                    "text": "application form"
+                  }
+                ]
+              },
+              {
+                "text": "."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step-2",
+                "bold": true
+              },
+              {
+                "text": ": Fill out the application form."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step-3",
+                "bold": true
+              },
+              {
+                "text": ": Attach required documents."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step-4",
+                "bold": true
+              },
+              {
+                "text": ": Submit the Application Form along with all the documents in the same office or centre from where it was collected."
+              }
+            ]
+          }
+        ],
+        "process_md": "**Step-1**: Applicants have to visit the official website and download the [application form](https://punjab.gov.in/wp-content/uploads/2023/08/Dependent-Children-Pension.pdf).\n**Step-2**: Fill out the application form.\n**Step-3**: Attach required documents.\n**Step-4**: Submit the Application Form along with all the documents in the same office or centre from where it was collected.\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n1. Applicant should be a Permanent Resident of Punjab.\n1. Annual Income of Parents/ Guardian should not be more than Rs. 60,000/- per Year.\n1. The Age of Child should be below 21 Years.\n1. Mother/father or both have passed away or parents regularly absent from home or have become physically /mentally incapacitated to look after the family.\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Applicant should be a Permanent Resident of Punjab."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Annual Income of Parents/ Guardian should not be more than Rs. 60,000/- per Year."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The Age of Child should be below 21 Years."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Mother/father or both have passed away or parents regularly absent from home or have become physically /mentally incapacitated to look after the family."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "dcps"
+}

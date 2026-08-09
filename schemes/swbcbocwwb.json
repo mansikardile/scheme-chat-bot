@@ -1,0 +1,864 @@
+{
+  "_id": "65aa60e830cd9600eb55ad27",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Scholarship",
+        "Ward",
+        "Construction Worker",
+        "Labour",
+        "Financial Assistance"
+      ],
+      "schemeName": "Scholarship to the Ward of Beneficiary (CBOCWWB)",
+      "schemeShortTitle": "SWB(CBOCWWB)",
+      "implementingAgency": "Chandigarh Building And Other Construction Workers Welfare Board",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce76cd6d1a3bde4685292",
+          "label": "Education & Learning"
+        },
+        {
+          "value": "628ce87cd6d1a3bde4685312",
+          "label": "Social welfare & Empowerment"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Scholarships and student finance",
+          "label": "Scholarships and student finance"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "state": {
+        "value": 4,
+        "label": "Chandigarh"
+      },
+      "nodalDepartmentName": {
+        "value": 4000019,
+        "label": "Labour Department"
+      },
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Official Website",
+          "url": "http://labour.chd.gov.in/scholarship.aspx"
+        },
+        {
+          "title": "Application Portal",
+          "url": "https://serviceonline.gov.in/serviceLinkHome.html?serviceToken=H2qU46F5a8&newLink=N&%3Ccsrf:token%20uri=%27serviceLinkHome.html%27/%3E"
+        },
+        {
+          "title": "User Manual",
+          "url": "http://labour.chd.gov.in/pdf/LWB.pdf"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The scheme “Scholarship to the Ward of Beneficiary” was started by the Chandigarh Building and Other Construction Workers Welfare Board (CBOCWWB), Labour Department, Chandigarh. Under this scheme, financial assistance in the form of scholarship shall be granted to the children/wards of workers who are registered under the CBOCWWB on the basis of the percentage of marks obtained in 10th, 12th &amp;amp; Graduation.\n",
+      "benefits_md": "**Rate of scholarship on the basis of percentage of marks obtained in 10th, 12th &amp; Graduation:**\n ClassPercentage of marks obtainedAmount of Scholarship10th 75% &amp;amp;amp;amp; above₹5,000/-10th60% &amp;amp;amp;amp; above₹4,000/-10th50% &amp;amp;amp;amp; above₹3,000/-10+275%₹5,000/-10+260% &amp;amp;amp;amp; above₹4,000/-10+250 % &amp;amp;amp;amp; above₹3,000/-Graduation or equivalent  (from recognized university)60% &amp;amp;amp;amp; above₹7,500/- (one time)**Note:-** No further scholarship shall be granted thereafter.\n",
+      "briefDescription": "Under this scheme, financial assistance in the form of scholarship shall be granted to the children/wards of workers who are registered under the CBOCWWB on the basis of the percentage of marks obtained in 10th, 12th & Graduation.",
+      "exclusions_md": "",
+      "detailedDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "The scheme “Scholarship to the Ward of Beneficiary” was started by the Chandigarh Building and Other Construction Workers Welfare Board (CBOCWWB), Labour Department, Chandigarh. Under this scheme, financial assistance in the form of scholarship shall be granted to the children/wards of workers who are registered under the CBOCWWB on the basis of the percentage of marks obtained in 10th, 12th & Graduation."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Rate of scholarship on the basis of percentage of marks obtained in 10th, 12th & Graduation:",
+              "bold": true,
+              "underline": true
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "children": [
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": " Class"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Percentage of marks obtained"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Amount of Scholarship"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "10th "
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "75% & above"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "₹5,000/-"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "10th"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "60% & above"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "₹4,000/-"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "10th"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "50% & above"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "₹3,000/-"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "10+2"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "75%"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "₹5,000/-"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "10+2"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "60% & above"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "₹4,000/-"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "10+2"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "50 % & above"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "₹3,000/-"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Graduation or equivalent  (from recognized university)"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "60% & above"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "₹7,500/- (one time)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Note:-",
+              "bold": true
+            },
+            {
+              "text": " No further scholarship shall be granted thereafter."
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Online",
+        "process": [
+          {
+            "type": "align_justify",
+            "children": [
+              {
+                "type": "block_quote",
+                "children": [
+                  {
+                    "text": "Registration Process under Chandigarh Building and Other Construction Workers Welfare Board:",
+                    "bold": true
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 01:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Applicants need to visit the official website of the Labour Department Chandigarh: "
+                  },
+                  {
+                    "type": "link",
+                    "link": "http://labour.chd.gov.in/",
+                    "children": [
+                      {
+                        "text": "http://labour.chd.gov.in/"
+                      }
+                    ]
+                  },
+                  {
+                    "text": ""
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 02:",
+                    "bold": true
+                  },
+                  {
+                    "text": " On the home page, click on ‘"
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://www.serviceonline.gov.in/citizenRegistration.html",
+                    "children": [
+                      {
+                        "text": "Click Here for Registration"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "’ and a registration page will open. Fill in all the mandatory details and click on the ‘Submit’ button."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 03: ",
+                    "bold": true
+                  },
+                  {
+                    "text": "After submitting the details, an OTP is sent to the registered email-id and mobile number, enter the OTP and then submit. Note down your ‘User ID’ and ‘Password’ for future correspondence."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 04:",
+                    "bold": true
+                  },
+                  {
+                    "text": " After registering yourself successfully, visit on "
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://www.serviceonline.gov.in/loginWindow.do",
+                    "children": [
+                      {
+                        "text": "Login page"
+                      }
+                    ]
+                  },
+                  {
+                    "text": " and click on ‘Login’. Fill up the Login ID & Password and click on ‘Login’."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 05:",
+                    "bold": true
+                  },
+                  {
+                    "text": " After the login page click on ‘Apply for Services’ and click on (view all available services). In the search box type (BOCW) and click on (BOCW Application for Registration as a New Member /Renewal)."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 06:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Download the CBOCW form and fill up the requisite information and upload this form on the next step."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 07:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Fill up the details for ‘New Member’ and click on the ‘Submit’ button. Now, click on 'Attach Annexure' and attach all mandatory annexures and save the annexure."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 08:",
+                    "bold": true
+                  },
+                  {
+                    "text": "  Click on 'Make Payment' and complete the payment process. Finally, click on the 'Proceed' button and an acknowledgement receipt is generated by the system."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Note 01: ",
+                    "bold": true
+                  },
+                  {
+                    "text": "Attach a clear picture on both sides of the Aadhaar Card."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Note 02:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Attach a clear picture of the Bank Passbook."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Note 03:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Attach a clear picture of all the pages which have been filled on the BOCW Copy issued by the Board."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "("
+                  },
+                  {
+                    "type": "link",
+                    "link": "http://labour.chd.gov.in/pdf/BOCW%20user%20manual.pdf",
+                    "children": [
+                      {
+                        "text": "User Manual"
+                      }
+                    ]
+                  },
+                  {
+                    "text": ")"
+                  }
+                ]
+              },
+              {
+                "type": "block_quote",
+                "children": [
+                  {
+                    "text": "Application Process to apply under the scheme:",
+                    "bold": true
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 01:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Applicants need to visit the official website of Labour Department Chandigarh: "
+                  },
+                  {
+                    "type": "link",
+                    "link": "http://labour.chd.gov.in/",
+                    "children": [
+                      {
+                        "text": "http://labour.chd.gov.in/"
+                      }
+                    ]
+                  },
+                  {
+                    "text": ""
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 02:",
+                    "bold": true
+                  },
+                  {
+                    "text": " On the home page, select the scheme ‘SCHOLARSHIP TO THE WARD OF BENEFICIARY’ under the Grant of Welfare Schemes to the workers of Chandigarh Labour Welfare Board."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 03:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Read the scheme details and on the bottom of the page click on ‘"
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://serviceonline.gov.in/serviceLinkHome.html?serviceToken=H2qU46F5a8&newLink=N&%3Ccsrf:token%20uri=%27serviceLinkHome.html%27/%3E",
+                    "children": [
+                      {
+                        "text": "Click here to Apply/Register"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "’. (The applicant may also read the user manual by clicking on the ‘"
+                  },
+                  {
+                    "type": "link",
+                    "link": "http://labour.chd.gov.in/pdf/LWB.pdf",
+                    "children": [
+                      {
+                        "text": "Click here for User Manual"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "’.)"
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 04:",
+                    "bold": true
+                  },
+                  {
+                    "text": " If the applicant not register, click on ‘register yourself’. A ‘ServicePlus’ window/page will open and fill in all the details to register."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 05:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Now, to apply for the scheme, click on ‘Apply for Service’ and use ‘ServicePlus’ credentials to Login i.e. ‘User ID’ & ‘Password’."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 06:",
+                    "bold": true
+                  },
+                  {
+                    "text": " After successful Login, you will be redirected automatically to the online application page by clicking on the ‘Apply for Service’ tab. "
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 07:",
+                    "bold": true
+                  },
+                  {
+                    "text": " In the application form, fill in Applicant's Personal Details, select the scheme (Scholarship) & Work Place Details. After furnishing all the mandatory details click on ‘Self-Declaration’ and fill in additional details."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 08:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Enter the verification code/Captcha and click on the ‘Submit’ button."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 09:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Preview all the filled details and click on ‘Attach Annexure’."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 10:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Upload all the mandatory documents and click on ‘Save Annexure’."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 11:",
+                    "bold": true
+                  },
+                  {
+                    "text": " After verifying all the details, click on the ‘Submit’ button."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 12:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Take a printout of the generated ‘Acknowledgement Receipt’ for future reference."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 13:",
+                    "bold": true
+                  },
+                  {
+                    "text": " To track the application status, the applicant can visit the official website of Labour Department and login through their ‘User ID’ & ‘Password’."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 14:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Click on ‘"
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://serviceonline.gov.in/serviceLinkHome.html?serviceToken=H2qU46F5a8&newLink=N&%3Ccsrf:token%20uri=%27serviceLinkHome.html%27/%3E",
+                    "children": [
+                      {
+                        "text": "Track Application Status"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "’ and fill in all the details. Now click on ‘Get Data’ to know the status of your application."
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "process_md": "&gt; **Registration Process under Chandigarh Building and Other Construction Workers Welfare Board:**\n\n**Step 01:** Applicants need to visit the official website of the Labour Department Chandigarh: [http://labour.chd.gov.in/](http://labour.chd.gov.in/)\n**Step 02:** On the home page, click on ‘[Click Here for Registration](https://www.serviceonline.gov.in/citizenRegistration.html)’ and a registration page will open. Fill in all the mandatory details and click on the ‘Submit’ button.\n**Step 03:** After submitting the details, an OTP is sent to the registered email-id and mobile number, enter the OTP and then submit. Note down your ‘User ID’ and ‘Password’ for future correspondence.\n**Step 04:** After registering yourself successfully, visit on [Login page](https://www.serviceonline.gov.in/loginWindow.do) and click on ‘Login’. Fill up the Login ID &amp;amp; Password and click on ‘Login’.\n**Step 05:** After the login page click on ‘Apply for Services’ and click on (view all available services). In the search box type (BOCW) and click on (BOCW Application for Registration as a New Member /Renewal).\n**Step 06:** Download the CBOCW form and fill up the requisite information and upload this form on the next step.\n**Step 07:** Fill up the details for ‘New Member’ and click on the ‘Submit’ button. Now, click on &amp;#39;Attach Annexure&amp;#39; and attach all mandatory annexures and save the annexure.\n**Step 08:**  Click on &amp;#39;Make Payment&amp;#39; and complete the payment process. Finally, click on the &amp;#39;Proceed&amp;#39; button and an acknowledgement receipt is generated by the system.\n**Note 01:** Attach a clear picture on both sides of the Aadhaar Card.\n**Note 02:** Attach a clear picture of the Bank Passbook.\n**Note 03:** Attach a clear picture of all the pages which have been filled on the BOCW Copy issued by the Board.\n([User Manual](http://labour.chd.gov.in/pdf/BOCW%20user%20manual.pdf))\n&gt; **Application Process to apply under the scheme:**\n\n**Step 01:** Applicants need to visit the official website of Labour Department Chandigarh: [http://labour.chd.gov.in/](http://labour.chd.gov.in/)\n**Step 02:** On the home page, select the scheme ‘SCHOLARSHIP TO THE WARD OF BENEFICIARY’ under the Grant of Welfare Schemes to the workers of Chandigarh Labour Welfare Board.\n**Step 03:** Read the scheme details and on the bottom of the page click on ‘[Click here to Apply/Register](https://serviceonline.gov.in/serviceLinkHome.html?serviceToken=H2qU46F5a8&amp;newLink=N&amp;%3Ccsrf:token%20uri=%27serviceLinkHome.html%27/%3E)’. (The applicant may also read the user manual by clicking on the ‘[Click here for User Manual](http://labour.chd.gov.in/pdf/LWB.pdf)’.)\n**Step 04:** If the applicant not register, click on ‘register yourself’. A ‘ServicePlus’ window/page will open and fill in all the details to register.\n**Step 05:** Now, to apply for the scheme, click on ‘Apply for Service’ and use ‘ServicePlus’ credentials to Login i.e. ‘User ID’ &amp;amp; ‘Password’.\n**Step 06:** After successful Login, you will be redirected automatically to the online application page by clicking on the ‘Apply for Service’ tab. \n**Step 07:** In the application form, fill in Applicant&amp;#39;s Personal Details, select the scheme (Scholarship) &amp;amp; Work Place Details. After furnishing all the mandatory details click on ‘Self-Declaration’ and fill in additional details.\n**Step 08:** Enter the verification code/Captcha and click on the ‘Submit’ button.\n**Step 09:** Preview all the filled details and click on ‘Attach Annexure’.\n**Step 10:** Upload all the mandatory documents and click on ‘Save Annexure’.\n**Step 11:** After verifying all the details, click on the ‘Submit’ button.\n**Step 12:** Take a printout of the generated ‘Acknowledgement Receipt’ for future reference.\n**Step 13:** To track the application status, the applicant can visit the official website of Labour Department and login through their ‘User ID’ &amp;amp; ‘Password’.\n**Step 14:** Click on ‘[Track Application Status](https://serviceonline.gov.in/serviceLinkHome.html?serviceToken=H2qU46F5a8&amp;newLink=N&amp;%3Ccsrf:token%20uri=%27serviceLinkHome.html%27/%3E)’ and fill in all the details. Now click on ‘Get Data’ to know the status of your application.\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n   1. The worker/beneficiary should be working in the Establishment, registered under the Punjab Labour Welfare Fund Act, 1965 and his contribution towards labour welfare fund should regularly been received by the Board.\n   1. Any worker/beneficiary will be eligible to avail the benefit of the scheme only after 06 months of becoming the beneficiary member of the Chandigarh Building and Other Construction Workers Welfare Board at least for the last six months. \n   1. The scholarship application will not be entertained on getting a compartment in any of the subjects.\n   1. In case a scholarship is granted to the children of the workers from any other institution then he will not be entitled to get a scholarship from the Board.\n   1. If any student who placed at 1st, 2nd, and 3rd place in National/International games/sports then he will be granted a scholarship without taking into consideration the percentage of marks.\n   1. The scholarship will be given upto two children of the worker.\n   1. The applicant should apply for a Scholarship within three months from the date of issue of the mark sheet of the student.\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "ol_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The worker/beneficiary should be working in the Establishment, registered under the Punjab Labour Welfare Fund Act, 1965 and his contribution towards labour welfare fund should regularly been received by the Board."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Any worker/beneficiary will be eligible to avail the benefit of the scheme only after 06 months of becoming the beneficiary member of the Chandigarh Building and Other Construction Workers Welfare Board at least for the last six months. "
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The scholarship application will not be entertained on getting a compartment in any of the subjects."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "In case a scholarship is granted to the children of the workers from any other institution then he will not be entitled to get a scholarship from the Board."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "If any student who placed at 1st, 2nd, and 3rd place in National/International games/sports then he will be granted a scholarship without taking into consideration the percentage of marks."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The scholarship will be given upto two children of the worker."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant should apply for a Scholarship within three months from the date of issue of the mark sheet of the student."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "swbcbocwwb"
+}

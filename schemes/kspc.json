@@ -1,0 +1,169 @@
+{
+  "_id": "6901077cb29d98f5f7bdb540",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Adolescent",
+        "Health Counseling",
+        "Free Consultation",
+        "Clinic"
+      ],
+      "schemeName": "Kishor Swasthya Paramarsh Clinic - Uttarakhand",
+      "schemeShortTitle": "KSPC",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce7a2d6d1a3bde46852b1",
+          "label": "Health & Wellness"
+        }
+      ],
+      "schemeSubCategory": null,
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "schemeFor": "Individual",
+      "state": {
+        "value": 5,
+        "label": "Uttarakhand"
+      },
+      "nodalDepartmentName": {
+        "value": 50000093,
+        "label": "Medical Health And Family Welfare Department"
+      }
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines (Page No. 130)",
+          "url": "https://uk.gov.in/department92/library_file/file-04-12-2023-06-02-23.pdf"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The “Kishor Swasthya Paramarsh Clinic” is an initiative under the National Health Mission (NHM) implemented by the Department of Medical Health and Family Welfare, Government of Uttarakhand. The initiative aims to promote the physical, mental, and emotional well-being of adolescents aged 10 to 19 years by providing free health counselling and guidance.\n<br>\n\n",
+      "benefits_md": "Free counselling services are provided at the Adolescent Health Clinics.\n<br>\n\n",
+      "briefDescription": "This initiative aims to promote the physical, mental, and emotional well-being of adolescents aged 10 to 19 years by providing free health counselling and guidance.",
+      "exclusions_md": "",
+      "detailedDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "The “Kishor Swasthya Paramarsh Clinic” is an initiative under the National Health Mission (NHM) implemented by the Department of Medical Health and Family Welfare, Government of Uttarakhand. The initiative aims to promote the physical, mental, and emotional well-being of adolescents aged 10 to 19 years by providing free health counselling and guidance."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 2,
+        "value": "in-kind",
+        "label": "In Kind"
+      },
+      "benefits": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "Free counselling services are provided at the Adolescent Health Clinics."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "process": [
+          {
+            "type": "align_justify",
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Free consultation is provided upon registration at 13 district hospitals, 2 sub-district hospitals, and 45 community health centres across the state."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          }
+        ],
+        "process_md": "Free consultation is provided upon registration at 13 district hospitals, 2 sub-district hospitals, and 45 community health centres across the state.\n<br>\n\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n   1. The beneficiary must be an adolescent between 10 and 19 years of age from Uttarakhand.\n\n<br>\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "ol_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The beneficiary must be an adolescent between 10 and 19 years of age from Uttarakhand."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "kspc"
+}

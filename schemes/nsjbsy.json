@@ -1,0 +1,518 @@
+{
+  "_id": "65d457d2cd96dc5e075a1f54",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Medical",
+        "Insurance",
+        "Health",
+        "Labor",
+        "Premium",
+        "Construction",
+        "Pension"
+      ],
+      "schemeName": " Nirman Shramik Jeevan va Bhavishya Suraksha Yojana",
+      "schemeShortTitle": "NSJBSY",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce7a2d6d1a3bde46852b1",
+          "label": "Health & Wellness"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Medical insurance",
+          "label": "Medical insurance"
+        }
+      ],
+      "schemeOpenDate": "2016-01-01",
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "state": {
+        "value": 8,
+        "label": "Rajasthan"
+      },
+      "nodalDepartmentName": {
+        "value": 8000022,
+        "label": "Labour Department"
+      },
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines [Labour Department]",
+          "url": "https://labour.rajasthan.gov.in/Schemes.aspx"
+        },
+        {
+          "title": "Guidelines [Directorate Of Specially Abled Person]",
+          "url": "https://dsap.rajasthan.gov.in/sm/jankalyan-category-and-entry-type/54844/167/4/1"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "Launched in 2016, the scheme &quot;Nirman Shramik Jeevan va Bhavishya Suraksha Yojana&quot; (Construction Workers Life and Future Security Scheme) by the Building and Other Construction Workers Welfare Board, Government of Rajasthan aims to provide financial security and social protection through insurance and pension benefits to the registered construction workers and their families. Through this scheme, benefits under the Pradhan Mantri Suraksha Bima Yojana, Pradhan Mantri Jeevan Jyoti Bima Yojana, and Atal Pension Yojana are provided to eligible registered construction workers. This comprehensive scheme complements other initiatives like the Construction Workers Tools/Toolkit Assistance Scheme, Construction Workers Education and Skill Development Scheme, and Construction Workers Sulabh Yojana.\n",
+      "benefits_md": "**Pradhan Mantri Suraksha Bima Yojana (PMSBY)**\n\n- 100% reimbursement of annual premium amount (₹12)\n- Premium amount is fully reimbursed through electronic transfer\n- No partial reimbursement option is available\n- Beneficiary must show proof of premium deduction in bank passbook\n\n**Pradhan Mantri Jeevan Jyoti Bima Yojana (PMJJBY)**\n\n- 50% reimbursement of the annual premium amount\n- Total premium: ₹330\n- Reimbursement amount: ₹165\n- Remaining ₹165 to be borne by the beneficiary\n- Must provide proof of full premium deduction from bank account\n\n**Atal Pension Yojana (APY)**\n\n- 50% reimbursement of the annual contribution amount\n- Specifically for the ₹1,000 monthly pension plan\n- Reimbursement is calculated based on the average annual contribution\n- Beneficiary must continue paying their share to maintain scheme validity\n- Must show proof of contribution deduction from bank account\n\n",
+      "exclusions_md": "<br>\n\n",
+      "briefDescription": "The scheme \"Nirman Shramik Jeevan va Bhavishya Suraksha Yojana\" aims to provide financial security and social protection through insurance and pension benefits to registered construction workers and their families. Benefits under various flagship schemes are provided.",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Launched in 2016, the scheme \"Nirman Shramik Jeevan va Bhavishya Suraksha Yojana\" (Construction Workers Life and Future Security Scheme) by the Building and Other Construction Workers Welfare Board, Government of Rajasthan aims to provide financial security and social protection through insurance and pension benefits to the registered construction workers and their families. Through this scheme, benefits under the Pradhan Mantri Suraksha Bima Yojana, Pradhan Mantri Jeevan Jyoti Bima Yojana, and Atal Pension Yojana are provided to eligible registered construction workers. This comprehensive scheme complements other initiatives like the Construction Workers Tools/Toolkit Assistance Scheme, Construction Workers Education and Skill Development Scheme, and Construction Workers Sulabh Yojana."
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Pradhan Mantri Suraksha Bima Yojana (PMSBY)",
+              "bold": true,
+              "underline": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "100% reimbursement of annual premium amount (₹12)"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Premium amount is fully reimbursed through electronic transfer"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "No partial reimbursement option is available"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Beneficiary must show proof of premium deduction in bank passbook"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Pradhan Mantri Jeevan Jyoti Bima Yojana (PMJJBY)",
+              "bold": true,
+              "underline": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "50% reimbursement of the annual premium amount"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Total premium: ₹330"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Reimbursement amount: ₹165"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Remaining ₹165 to be borne by the beneficiary"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Must provide proof of full premium deduction from bank account"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Atal Pension Yojana (APY)",
+              "bold": true,
+              "underline": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "50% reimbursement of the annual contribution amount"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Specifically for the ₹1,000 monthly pension plan"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Reimbursement is calculated based on the average annual contribution"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Beneficiary must continue paying their share to maintain scheme validity"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Must show proof of contribution deduction from bank account"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "exclusions": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Online",
+        "process": [
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "text": "REGISTRATION",
+                "bold": true,
+                "underline": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 1:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " Visit the "
+              },
+              {
+                "type": "link",
+                "link": "https://sso.rajasthan.gov.in/",
+                "children": [
+                  {
+                    "text": "Official Portal"
+                  }
+                ]
+              },
+              {
+                "text": " of Rajasthan Single Signon, and click \""
+              },
+              {
+                "type": "link",
+                "link": "https://sso.rajasthan.gov.in/register",
+                "children": [
+                  {
+                    "text": "Register Here"
+                  }
+                ]
+              },
+              {
+                "text": "\"."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " In the online registration form, fill in all the mandatory fields, verify your Mobile Number via OTP, and click \"Register\"."
+              }
+            ]
+          },
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "text": "APPLICATION",
+                "bold": true,
+                "underline": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 1:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " After successful registration, log in to the SSO Portal, you will be able to browse the various Departmental Portals of the Government of Rajasthan."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " Click on the “Labour Department Management System (LDMS)” icon. The system will ask whether you are already registered with LDMS."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2.1:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " If you are already registered with LDMS, click ‘Yes’. You will be asked to provide your LDMS Login ID & Password for mapping with SSO ID. "
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "*This is a one-time activity, thereafter, in subsequent sessions upon entering the SSO ID & selecting the LDMS portal, the user will automatically come to the respective screen in the LDMS portal."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2.2:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " If you are NOT already registered with LDMS, click ‘No’. You will be asked to update your profile by providing the following details: District, House No./Plot No., Street/Locality, Village/Town/City, and PIN Code."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 3:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " After submitting the form, you will automatically come to the dashboard of the LDMS portal."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 4:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " Select \"Welfare Schemes\" from the side menu, then select \"BOCW Welfare Board\", then click \"Apply for Scheme\"."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 5:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " In the next page, all the schemes of the Rajasthan Shramik Card will be displayed. From the list, select the scheme you intend to apply for."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 6:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " You will be taken to the online application form of the scheme. In the form, fill in all the mandatory fields of the Application Form and upload all the mandatory documents in the specified format and size. Finally, click \"Submit\"."
+              }
+            ]
+          }
+        ],
+        "process_md": "> **REGISTRATION**\n\n**Step 1:** Visit the [Official Portal](https://sso.rajasthan.gov.in/) of Rajasthan Single Signon, and click &quot;[Register Here](https://sso.rajasthan.gov.in/register)&quot;.\n**Step 2:** In the online registration form, fill in all the mandatory fields, verify your Mobile Number via OTP, and click &quot;Register&quot;.\n> **APPLICATION**\n\n**Step 1:** After successful registration, log in to the SSO Portal, you will be able to browse the various Departmental Portals of the Government of Rajasthan.\n**Step 2:** Click on the “Labour Department Management System (LDMS)” icon. The system will ask whether you are already registered with LDMS.\n**Step 2.1:** If you are already registered with LDMS, click ‘Yes’. You will be asked to provide your LDMS Login ID &amp; Password for mapping with SSO ID. \n*This is a one-time activity, thereafter, in subsequent sessions upon entering the SSO ID &amp; selecting the LDMS portal, the user will automatically come to the respective screen in the LDMS portal.\n**Step 2.2:** If you are NOT already registered with LDMS, click ‘No’. You will be asked to update your profile by providing the following details: District, House No./Plot No., Street/Locality, Village/Town/City, and PIN Code.\n**Step 3:** After submitting the form, you will automatically come to the dashboard of the LDMS portal.\n**Step 4:** Select &quot;Welfare Schemes&quot; from the side menu, then select &quot;BOCW Welfare Board&quot;, then click &quot;Apply for Scheme&quot;.\n**Step 5:** In the next page, all the schemes of the Rajasthan Shramik Card will be displayed. From the list, select the scheme you intend to apply for.\n**Step 6:** You will be taken to the online application form of the scheme. In the form, fill in all the mandatory fields of the Application Form and upload all the mandatory documents in the specified format and size. Finally, click &quot;Submit&quot;.\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "1.  The applicant must be registered as a beneficiary with the Building and Other Construction Workers Welfare Board.\n2.  The applicant must have a savings bank account in their name.\n3.  The applicant must be eligible for membership under the following schemes:\n\n- Pradhan Mantri Suraksha Bima Yojana (PMSBY)\n- Pradhan Mantri Jeevan Jyoti Bima Yojana (PMJJBY)\n- Atal Pension Yojana (APY)\n\n4.  The applicant must provide consent to their bank for the deduction of premium/contribution from their savings account.\n5.  The applicant must have gotten the annual premium/contribution amount deducted from their savings account.\n",
+      "eligibilityDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "1.  The applicant must be registered as a beneficiary with the Building and Other Construction Workers Welfare Board."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "2.  The applicant must have a savings bank account in their name."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "3.  The applicant must be eligible for membership under the following schemes:"
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Pradhan Mantri Suraksha Bima Yojana (PMSBY)"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Pradhan Mantri Jeevan Jyoti Bima Yojana (PMJJBY)"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Atal Pension Yojana (APY)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "4.  The applicant must provide consent to their bank for the deduction of premium/contribution from their savings account."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "5.  The applicant must have gotten the annual premium/contribution amount deducted from their savings account."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "nsjbsy"
+}

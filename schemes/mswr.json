@@ -1,0 +1,182 @@
+{
+  "_id": "64e7546fd9731a73665fbac7",
+  "en": {
+    "basicDetails": {
+      "schemeOpenDate": null,
+      "schemeCloseDate": null,
+      "nodalMinistryName": null,
+      "nodalDepartmentName": {
+        "value": 32000048,
+        "label": "Department of Women & Child Development"
+      },
+      "otherMinistryName": null,
+      "otherDepartmentNames": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Marriage",
+          "label": "Marriage"
+        },
+        {
+          "value": "Financial assistance",
+          "label": "Financial assistance"
+        }
+      ],
+      "dbtScheme": false,
+      "implementingAgency": "Women & Child Directorate, Kerala",
+      "tags": [
+        "Widow",
+        "Divorced Woman",
+        "Financial Assistance",
+        "Remarriage",
+        "Woman"
+      ],
+      "schemeName": "Mangalya Scheme For Widow Remarriage",
+      "schemeShortTitle": "Mswr",
+      "level": {
+        "value": "state",
+        "label": "State"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce87cd6d1a3bde4685312",
+          "label": "Social welfare & Empowerment"
+        },
+        {
+          "value": "64f57d10ffb93104c7006c97",
+          "label": "Women and Child"
+        }
+      ],
+      "state": {
+        "value": 32,
+        "label": "Kerala"
+      },
+      "schemeType": null,
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Official Website",
+          "url": "http://wcd.kerala.gov.in/scheme-info.php?id=NQ=="
+        },
+        {
+          "title": "Scheme Details",
+          "url": "https://www.vvgnli.gov.in/sites/default/files/Convergence_of_Social_Security_0.pdf"
+        }
+      ],
+      "schemeImageUrl": "",
+      "briefDescription": "The “Mangalya Scheme” was launched by the Department of Women and Child Development, Government of Kerala. Under the scheme, financial assistance is to be provided to eligible widows and divorced women for their remarriage.",
+      "detailedDescription_md": "The “Mangalya Scheme” was launched by the Department of Women and Child Development, Government of Kerala. Under the scheme, financial assistance is to be provided to eligible widows and divorced women for their remarriage. In Kerala, women not only outnumber men but also outlive them, so the marital status of women in Kerala is very important. It could influence the overall care and support they receive from their family and society. Statics show only 3.5% of the total male population in Kerala are widowers and the proportion of the widowed female population is 11.56%. This gender gap adversely affects women in every sphere of their life. It is in this context, that the Government of Kerala envisages the scheme called ‘Mangalya’ to encourage widow remarriage. The scheme imparts financial assistance for the widows/divorced to remarry.\n",
+      "benefits_md": "\n   1. Under the scheme, financial assistance of ₹25000/- is provided to eligible widows and divorced women to remarry.\n\n",
+      "exclusions_md": "",
+      "detailedDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "The “Mangalya Scheme” was launched by the Department of Women and Child Development, Government of Kerala. Under the scheme, financial assistance is to be provided to eligible widows and divorced women for their remarriage. In Kerala, women not only outnumber men but also outlive them, so the marital status of women in Kerala is very important. It could influence the overall care and support they receive from their family and society. Statics show only 3.5% of the total male population in Kerala are widowers and the proportion of the widowed female population is 11.56%. This gender gap adversely affects women in every sphere of their life. It is in this context, that the Government of Kerala envisages the scheme called ‘Mangalya’ to encourage widow remarriage. The scheme imparts financial assistance for the widows/divorced to remarry."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "ol_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Under the scheme, financial assistance of ₹25000/- is provided to eligible widows and divorced women to remarry."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "process": [
+          {
+            "type": "align_justify",
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "To avail of the scheme's benefits, the application duly filled out should be forwarded to District Women and Child Officers through Child Development Project Officers."
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "process_md": "To avail of the scheme&amp;#39;s benefits, the application duly filled out should be forwarded to District Women and Child Officers through Child Development Project Officers.\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n   1. The applicant should be a resident of Kerala State.\n   1. The applicant should be a widow and a divorced woman.\n   1. Women belonging to the age group of 18 to 50 years who are legally divorced and widowed are eligible to apply under the scheme.\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "ol_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant should be a resident of Kerala State."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant should be a widow and a divorced woman."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Women belonging to the age group of 18 to 50 years who are legally divorced and widowed are eligible to apply under the scheme."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "mswr"
+}

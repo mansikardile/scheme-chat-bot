@@ -1,0 +1,198 @@
+{
+  "_id": "68dfa51ab9777dc8c09da590",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Scholarship",
+        "Sports",
+        "Students",
+        "Undergraduate"
+      ],
+      "schemeName": "Sports Scholarship (UG) - Uttarakhand",
+      "schemeShortTitle": "SSUG",
+      "implementingAgency": "Govind Ballabh Pant University Of Agriculture And Technology, Pantnagar",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce76cd6d1a3bde4685292",
+          "label": "Education & Learning"
+        },
+        {
+          "value": "628ce8aad6d1a3bde4685320",
+          "label": "Sports & Culture"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Scholarships and student finance",
+          "label": "Scholarships and student finance"
+        },
+        {
+          "value": "Sports",
+          "label": "Sports"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "schemeFor": "Individual",
+      "state": {
+        "value": 5,
+        "label": "Uttarakhand"
+      },
+      "nodalDepartmentName": {
+        "value": 50000001,
+        "label": "Agriculture Department"
+      }
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines (Page No. 180)",
+          "url": "https://uk.gov.in/department92/library_file/file-30-01-2025-04-25-16.pdf"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The “Sports Scholarship (UG)” scheme is implemented by Govind Ballabh Pant University of Agriculture and Technology, Pantnagar, under the Department of Agriculture, Government of Uttarakhand. The scheme aims to provide monthly financial assistance in the form of scholarships to undergraduate students who excel in sports.\n<br>\n\n",
+      "benefits_md": "**Rate of Scholarship:** ₹800/- per month.\n<br>\n\n",
+      "briefDescription": "The scheme aims to provide monthly financial assistance of ₹800/- in the form of scholarships to undergraduate students who excel in sports.",
+      "exclusions_md": "",
+      "detailedDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "The “Sports Scholarship (UG)” scheme is implemented by Govind Ballabh Pant University of Agriculture and Technology, Pantnagar, under the Department of Agriculture, Government of Uttarakhand. The scheme aims to provide monthly financial assistance in the form of scholarships to undergraduate students who excel in sports."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Rate of Scholarship:",
+              "bold": true
+            },
+            {
+              "text": " ₹800/- per month."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "process": [
+          {
+            "type": "align_justify",
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "First, applications are invited from students using a prescribed form. Thereafter, a committee constituted by the Vice-Chancellor evaluates the received applications as per the established selection process. Based on the committee’s recommendations, the Vice-Chancellor approves the selected students, following which the scholarship amount is disbursed to them."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          }
+        ],
+        "process_md": "First, applications are invited from students using a prescribed form. Thereafter, a committee constituted by the Vice-Chancellor evaluates the received applications as per the established selection process. Based on the committee’s recommendations, the Vice-Chancellor approves the selected students, following which the scholarship amount is disbursed to them.\n<br>\n\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n   1. The applicant must be a student.\n   1. The applicant must be enrolled in the first year of an undergraduate course at Govind Ballabh Pant University of Agriculture and Technology, Pantnagar.\n   1. The applicant must be one of the six selected students eligible to receive this benefit.\n\n<br>\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "ol_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant must be a student."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant must be enrolled in the first year of an undergraduate course at Govind Ballabh Pant University of Agriculture and Technology, Pantnagar."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant must be one of the six selected students eligible to receive this benefit."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "khelchhatravritiuk"
+}

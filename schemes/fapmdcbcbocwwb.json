@@ -1,0 +1,626 @@
+{
+  "_id": "65ad32a966a1d73a2181466a",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Financial Assistance",
+        "Physically Disabled Child",
+        "Mentally Disabled Child",
+        "PwD",
+        "Construction Worker",
+        "Labour"
+      ],
+      "schemeName": "Financial Assistance to Physically/Mentally Disabled Children of Beneficiary (CBOCWWB)",
+      "schemeShortTitle": "FAP/MDCB(CBOCWWB)",
+      "implementingAgency": "Chandigarh Building And Other Construction Workers Welfare Board",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce87cd6d1a3bde4685312",
+          "label": "Social welfare & Empowerment"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Financial assistance",
+          "label": "Financial assistance"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "state": {
+        "value": 4,
+        "label": "Chandigarh"
+      },
+      "nodalDepartmentName": {
+        "value": 4000019,
+        "label": "Labour Department"
+      },
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Official Website",
+          "url": "http://labour.chd.gov.in/PublicPages/mentally-disabled-children-of-beneficiary.aspx"
+        },
+        {
+          "title": "Application Portal",
+          "url": "https://serviceonline.gov.in/serviceLinkHome.html?serviceToken=H2qU46F5a8&newLink=N&%3Ccsrf:token%20uri=%27serviceLinkHome.html%27/%3E"
+        },
+        {
+          "title": "User Manual",
+          "url": "http://labour.chd.gov.in/pdf/LWB.pdf"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The scheme “Financial Assistance to Physically/Mentally Disabled Children of Beneficiary” was started by the Chandigarh Building and Other Construction Workers Welfare Board (CBOCWWB), Labour Department, Chandigarh. Under this scheme, registered construction workers whose child has a disability of 40% or more will receive financial assistance.\n",
+      "benefits_md": "\n   1. Under the scheme, registered construction workers whose child has a disability of 40% or more will receive financial assistance of ₹1000/- per month.\n   1. The benefit under this scheme shall be admissible only till such time the child is alive.\n   1. The benefit is given for a maximum of two children.\n\n",
+      "briefDescription": "Under this scheme, registered construction workers whose child has a disability of 40% or more will receive financial assistance.",
+      "exclusions_md": "",
+      "detailedDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "The scheme “Financial Assistance to Physically/Mentally Disabled Children of Beneficiary” was started by the Chandigarh Building and Other Construction Workers Welfare Board (CBOCWWB), Labour Department, Chandigarh. Under this scheme, registered construction workers whose child has a disability of 40% or more will receive financial assistance."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "ol_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Under the scheme, registered construction workers whose child has a disability of 40% or more will receive financial assistance of ₹1000/- per month."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The benefit under this scheme shall be admissible only till such time the child is alive."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The benefit is given for a maximum of two children."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Online",
+        "process": [
+          {
+            "type": "align_justify",
+            "children": [
+              {
+                "type": "block_quote",
+                "children": [
+                  {
+                    "text": "Registration Process under Chandigarh Building and Other Construction Workers Welfare Board:",
+                    "bold": true,
+                    "underline": true
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 01:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Applicants need to visit the official website of the Labour Department Chandigarh: "
+                  },
+                  {
+                    "type": "link",
+                    "link": "http://labour.chd.gov.in/",
+                    "children": [
+                      {
+                        "text": "http://labour.chd.gov.in/"
+                      }
+                    ]
+                  },
+                  {
+                    "text": ""
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 02:",
+                    "bold": true
+                  },
+                  {
+                    "text": " On the home page, click on ‘"
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://www.serviceonline.gov.in/citizenRegistration.html",
+                    "children": [
+                      {
+                        "text": "Click Here for Registration"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "’ and a registration page will open. Fill in all the mandatory details and click on the ‘Submit’ button."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 03:",
+                    "bold": true
+                  },
+                  {
+                    "text": " After submitting the details, an OTP is sent to the registered email-id and mobile number, enter the OTP and then submit. Note down your ‘User ID’ and ‘Password’ for future correspondence."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 04:",
+                    "bold": true
+                  },
+                  {
+                    "text": " After registering yourself successfully, visit on Login page and click on ‘"
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://www.serviceonline.gov.in/loginWindow.do",
+                    "children": [
+                      {
+                        "text": "Login"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "’. Fill up the Login ID & Password and click on ‘Login’."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 05:",
+                    "bold": true
+                  },
+                  {
+                    "text": " After the login, click on ‘Apply for Services’ and click on (view all available services). In the search box type (BOCW) and click on (BOCW Application for Registration as a New Member /Renewal)."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 06:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Download the CBOCW form and fill up the requisite information and upload this form on the next step."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 07",
+                    "bold": true
+                  },
+                  {
+                    "text": ": Fill up the details for ‘New Member’ and click on the ‘Submit’ button. After submitting, click on 'Attach Annexure' and attach all mandatory annexures and save the annexure."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 08:",
+                    "bold": true
+                  },
+                  {
+                    "text": " After saving the annexure, click on ‘Make Payment’ and complete the payment process."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 09:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Now, click on ‘proceed’ and an acknowledgement receipt will be generated by the system."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Note 01:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Attach a clear picture on both sides of the Aadhaar Card."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Note 02:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Attach a clear picture of the Bank Passbook."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Note 03:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Attach a clear picture of all the pages which have been filled on the BOCW Copy issued by the Board."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "("
+                  },
+                  {
+                    "type": "link",
+                    "link": "http://labour.chd.gov.in/pdf/BOCW%20user%20manual.pdf",
+                    "children": [
+                      {
+                        "text": "User Manual"
+                      }
+                    ]
+                  },
+                  {
+                    "text": ")"
+                  }
+                ]
+              },
+              {
+                "type": "block_quote",
+                "children": [
+                  {
+                    "text": "Application Process to apply under the scheme:",
+                    "bold": true,
+                    "underline": true
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 01:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Applicants need to visit the official website of Labour Department Chandigarh: "
+                  },
+                  {
+                    "type": "link",
+                    "link": "http://labour.chd.gov.in/",
+                    "children": [
+                      {
+                        "text": "http://labour.chd.gov.in/"
+                      }
+                    ]
+                  },
+                  {
+                    "text": ""
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 02:",
+                    "bold": true
+                  },
+                  {
+                    "text": " On the home page, select the scheme ‘FINANCIAL ASSISTANCE TO PHYSICALLY / MENTALLY DISABLED CHILDREN OF BENEFICIARY’ under the Grant of Welfare Schemes to the workers of Chandigarh Labour Welfare Board."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 03:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Read details of the scheme and on the bottom of the page, click on ‘"
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://serviceonline.gov.in/serviceLinkHome.html?serviceToken=H2qU46F5a8&newLink=N&%3Ccsrf:token%20uri=%27serviceLinkHome.html%27/%3E",
+                    "children": [
+                      {
+                        "text": "Click here to Apply/Register"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "’. (The applicant may also read the user manual by clicking on the ‘"
+                  },
+                  {
+                    "type": "link",
+                    "link": "http://labour.chd.gov.in/pdf/LWB.pdf",
+                    "children": [
+                      {
+                        "text": "Click here for User Manual"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "’.)"
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 04:",
+                    "bold": true
+                  },
+                  {
+                    "text": " If the applicant not register, click on ‘register yourself’. A ‘ServicePlus’ window/page will open and fill in all the details to register."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 05:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Now, to apply for the scheme, click on ‘Apply for Service’ and use ‘ServicePlus’ credentials to Login i.e. ‘User ID’ & ‘Password’."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 06:",
+                    "bold": true
+                  },
+                  {
+                    "text": " After successful Login, the applicant will be redirected automatically to the online application page by clicking on the ‘Apply for Service’ tab. "
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 07:",
+                    "bold": true
+                  },
+                  {
+                    "text": " In the application form, fill in Applicant's Personal Details, select the scheme & Work Place Details. After furnishing all the mandatory details click on ‘Self-Declaration’ and fill in additional details."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 08:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Enter the verification code/Captcha and click on the ‘Submit’ button."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 09:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Preview all the filled details and click on ‘Attach Annexure’."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 10:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Upload all the mandatory documents and click on ‘Save Annexure’."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 11:",
+                    "bold": true
+                  },
+                  {
+                    "text": " After verifying all the details, click on the ‘Submit’ button."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 12:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Take a printout of the generated ‘Acknowledgement Receipt’ for future reference."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 13:",
+                    "bold": true
+                  },
+                  {
+                    "text": " To track the application status, the applicant can visit the official website of the Labour Department and login through their ‘User ID’ & ‘Password’."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 14:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Click on ‘"
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://serviceonline.gov.in/serviceLinkHome.html?serviceToken=H2qU46F5a8&newLink=N&%3Ccsrf:token%20uri=%27serviceLinkHome.html%27/%3E",
+                    "children": [
+                      {
+                        "text": "Track Application Status"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "’ and fill in all the details. Now click on ‘Get Data’ to know the status of your application."
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "process_md": "&gt; **Registration Process under Chandigarh Building and Other Construction Workers Welfare Board:**\n\n**Step 01:** Applicants need to visit the official website of the Labour Department Chandigarh: [http://labour.chd.gov.in/](http://labour.chd.gov.in/)\n**Step 02:** On the home page, click on ‘[Click Here for Registration](https://www.serviceonline.gov.in/citizenRegistration.html)’ and a registration page will open. Fill in all the mandatory details and click on the ‘Submit’ button.\n**Step 03:** After submitting the details, an OTP is sent to the registered email-id and mobile number, enter the OTP and then submit. Note down your ‘User ID’ and ‘Password’ for future correspondence.\n**Step 04:** After registering yourself successfully, visit on Login page and click on ‘[Login](https://www.serviceonline.gov.in/loginWindow.do)’. Fill up the Login ID &amp;amp; Password and click on ‘Login’.\n**Step 05:** After the login, click on ‘Apply for Services’ and click on (view all available services). In the search box type (BOCW) and click on (BOCW Application for Registration as a New Member /Renewal).\n**Step 06:** Download the CBOCW form and fill up the requisite information and upload this form on the next step.\n**Step 07**: Fill up the details for ‘New Member’ and click on the ‘Submit’ button. After submitting, click on &amp;#39;Attach Annexure&amp;#39; and attach all mandatory annexures and save the annexure.\n**Step 08:** After saving the annexure, click on ‘Make Payment’ and complete the payment process.\n**Step 09:** Now, click on ‘proceed’ and an acknowledgement receipt will be generated by the system.\n**Note 01:** Attach a clear picture on both sides of the Aadhaar Card.\n**Note 02:** Attach a clear picture of the Bank Passbook.\n**Note 03:** Attach a clear picture of all the pages which have been filled on the BOCW Copy issued by the Board.\n([User Manual](http://labour.chd.gov.in/pdf/BOCW%20user%20manual.pdf))\n&gt; **Application Process to apply under the scheme:**\n\n**Step 01:** Applicants need to visit the official website of Labour Department Chandigarh: [http://labour.chd.gov.in/](http://labour.chd.gov.in/)\n**Step 02:** On the home page, select the scheme ‘FINANCIAL ASSISTANCE TO PHYSICALLY / MENTALLY DISABLED CHILDREN OF BENEFICIARY’ under the Grant of Welfare Schemes to the workers of Chandigarh Labour Welfare Board.\n**Step 03:** Read details of the scheme and on the bottom of the page, click on ‘[Click here to Apply/Register](https://serviceonline.gov.in/serviceLinkHome.html?serviceToken=H2qU46F5a8&amp;newLink=N&amp;%3Ccsrf:token%20uri=%27serviceLinkHome.html%27/%3E)’. (The applicant may also read the user manual by clicking on the ‘[Click here for User Manual](http://labour.chd.gov.in/pdf/LWB.pdf)’.)\n**Step 04:** If the applicant not register, click on ‘register yourself’. A ‘ServicePlus’ window/page will open and fill in all the details to register.\n**Step 05:** Now, to apply for the scheme, click on ‘Apply for Service’ and use ‘ServicePlus’ credentials to Login i.e. ‘User ID’ &amp;amp; ‘Password’.\n**Step 06:** After successful Login, the applicant will be redirected automatically to the online application page by clicking on the ‘Apply for Service’ tab. \n**Step 07:** In the application form, fill in Applicant&amp;#39;s Personal Details, select the scheme &amp;amp; Work Place Details. After furnishing all the mandatory details click on ‘Self-Declaration’ and fill in additional details.\n**Step 08:** Enter the verification code/Captcha and click on the ‘Submit’ button.\n**Step 09:** Preview all the filled details and click on ‘Attach Annexure’.\n**Step 10:** Upload all the mandatory documents and click on ‘Save Annexure’.\n**Step 11:** After verifying all the details, click on the ‘Submit’ button.\n**Step 12:** Take a printout of the generated ‘Acknowledgement Receipt’ for future reference.\n**Step 13:** To track the application status, the applicant can visit the official website of the Labour Department and login through their ‘User ID’ &amp;amp; ‘Password’.\n**Step 14:** Click on ‘[Track Application Status](https://serviceonline.gov.in/serviceLinkHome.html?serviceToken=H2qU46F5a8&amp;newLink=N&amp;%3Ccsrf:token%20uri=%27serviceLinkHome.html%27/%3E)’ and fill in all the details. Now click on ‘Get Data’ to know the status of your application.\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n   1. The beneficiary should be working in the Establishment, registered under the Punjab Labour Welfare Fund Act, 1965 and his contribution towards the labour welfare fund should regularly been received by the Board.\n   1. Registered construction workers whose child has a disability of 40% or more are eligible to apply under the scheme.\n   1. This benefit is for a maximum of two children.\n   1. The applicant shall be eligible to avail the benefit of the scheme only after 06 months of becoming a member of the Board.\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "ol_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The beneficiary should be working in the Establishment, registered under the Punjab Labour Welfare Fund Act, 1965 and his contribution towards the labour welfare fund should regularly been received by the Board."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Registered construction workers whose child has a disability of 40% or more are eligible to apply under the scheme."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "This benefit is for a maximum of two children."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant shall be eligible to avail the benefit of the scheme only after 06 months of becoming a member of the Board."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "fapmdcbcbocwwb"
+}

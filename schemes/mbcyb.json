@@ -1,0 +1,182 @@
+{
+  "_id": "676a3a77ff1de86fed6dbd2f",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Education",
+        "Girls",
+        "Cycle",
+        "Social Empowerment"
+      ],
+      "schemeName": "Mukhyamantri Balika Cycle Yojna",
+      "schemeShortTitle": "MBCYB",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce76cd6d1a3bde4685292",
+          "label": "Education & Learning"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Resources for schools",
+          "label": "Resources for schools"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "state": {
+        "value": 10,
+        "label": "Bihar"
+      },
+      "schemeType": null,
+      "nodalMinistryName": null,
+      "nodalDepartmentName": {
+        "value": 10111123,
+        "label": "Education Department"
+      },
+      "otherMinistryName": null,
+      "otherDepartmentNames": null
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://state.bihar.gov.in/educationbihar/Content.html?links&page=FACTS_SCHEMES"
+        }
+      ],
+      "schemeImageUrl": "",
+      "briefDescription": "The \"Mukhyamantri Balika Cycle Yojna\" is a government initiative aimed at reducing the gender gap in secondary school enrollment by providing financial assistance to girls for purchasing bicycles, ensuring improved access to education.",
+      "detailedDescription_md": "The &amp;quot;Mukhyamantri Balika Cycle Yojna&amp;quot; was introduced to promote girls&amp;#39; education and reduce the dropout rate among female students transitioning to secondary school. Under this scheme, eligible girls are given financial assistance to purchase a bicycle, enabling them to travel to school conveniently and safely. This initiative encourages education, reduces gender disparity, and supports overall empowerment of young girls.\n",
+      "benefits_md": "\n- Financial assistance is provided to purchase a bicycle.\n\n",
+      "exclusions_md": "",
+      "detailedDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "The \"Mukhyamantri Balika Cycle Yojna\" was introduced to promote girls' education and reduce the dropout rate among female students transitioning to secondary school. Under this scheme, eligible girls are given financial assistance to purchase a bicycle, enabling them to travel to school conveniently and safely. This initiative encourages education, reduces gender disparity, and supports overall empowerment of young girls."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 2,
+        "value": "in-kind",
+        "label": "In Kind"
+      },
+      "benefits": [
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Financial assistance is provided to purchase a bicycle."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "process": [
+          {
+            "type": "align_justify",
+            "children": [
+              {
+                "type": "ul_list",
+                "children": [
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "text": "Contact the concerned school Administration to avail the scheme benefits."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "process_md": "\n  - Contact the concerned school Administration to avail the scheme benefits.\n\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n  - The applicant must be a resident of Bihar.\n  - The applicant must be a girl student.\n  - The applicant must be enrolled in a government or government-recognized secondary school.\n  - The applicant should have successfully completed Class VIII and be transitioning to Class IX or higher.\n  - The scheme applies only to girls from economically weaker sections or as specified by the government.\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "ul_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant must be a resident of Bihar."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant must be a girl student."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant must be enrolled in a government or government-recognized secondary school."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant should have successfully completed Class VIII and be transitioning to Class IX or higher."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The scheme applies only to girls from economically weaker sections or as specified by the government."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "mbcyb"
+}

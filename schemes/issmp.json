@@ -1,0 +1,611 @@
+{
+  "_id": "66b07fb5c5e4d2fe64bbaa0e",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Scholarship",
+        "Student",
+        "Higher Education",
+        "Sports",
+        "Training"
+      ],
+      "schemeName": "Integrated Scholarship Scheme",
+      "schemeShortTitle": "ISSMP",
+      "implementingAgency": "Higher Education Department, Government Of Madhya Pradesh",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce76cd6d1a3bde4685292",
+          "label": "Education & Learning"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Scholarships and student finance",
+          "label": "Scholarships and student finance"
+        },
+        {
+          "value": "Universities and higher education",
+          "label": "Universities and higher education"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "state": {
+        "value": 23,
+        "label": "Madhya Pradesh"
+      },
+      "schemeType": null,
+      "nodalMinistryName": null,
+      "nodalDepartmentName": {
+        "value": 2300017,
+        "label": "Higher Education Department"
+      },
+      "otherMinistryName": null,
+      "otherDepartmentNames": null,
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Official Website",
+          "url": "https://highereducation.mp.gov.in/?page=k%2F1MNJyDoyS4k1yDLiNa%2BQ%3D%3D&leftid=ZnGWU%2BxYVl5%2BNBOUmwU4dg%3D%3D"
+        },
+        {
+          "title": "Scheme Details (Page No. 127)",
+          "url": "https://aiggpa.mp.gov.in/uploads/publication/Social_Protection_Eng.pdf"
+        },
+        {
+          "title": "Scheme Details",
+          "url": "https://cmhelpline.mp.gov.in/KnowYourEntitleDetail.aspx?Schemeid=46"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The &amp;quot;Integrated Scholarship Scheme,&amp;quot; implemented by the Higher Education Department, Government of Madhya Pradesh, aims to provide financial assistance to meritorious students who are deprived of other scholarships to pursue higher education and training in various fields. The scheme offers scholarships for PhD, M.Phil., Postgraduate (qualification-based and qualification cum instrument-based), and sports, as well as merit-based scholarships for graduates, ranging from ₹300/- to ₹600/- per month. Eligible students must be natives of Madhya Pradesh, studying in a government college, with a family income not exceeding ₹54,000/- per annum from all sources.\n",
+      "benefits_md": "The scholarships are provided at the following rates:\n**Sl. No.****Type of scholarship****Amount per month** **Quota**1PhD₹600/- 182M.Phil.₹500/- 143Postgraduate (Merit based only)₹500/- 734Postgraduate (Merit cum means based)₹500/- 735Sports₹300/-226Graduation (Merit based only)₹300/-1467Graduation (Merit cum means based)₹300/-146**Note:** The scholarship is provided for 10 months.\n",
+      "briefDescription": "This scheme offers scholarships for PhD, M.Phil., Postgraduate (qualification-based and qualification cum instrument-based), and sports, as well as merit-based scholarships for graduates, ranging from ₹300/- to ₹600/- per month.",
+      "exclusions_md": "",
+      "detailedDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "The \"Integrated Scholarship Scheme,\" implemented by the Higher Education Department, Government of Madhya Pradesh, aims to provide financial assistance to meritorious students who are deprived of other scholarships to pursue higher education and training in various fields. The scheme offers scholarships for PhD, M.Phil., Postgraduate (qualification-based and qualification cum instrument-based), and sports, as well as merit-based scholarships for graduates, ranging from ₹300/- to ₹600/- per month. Eligible students must be natives of Madhya Pradesh, studying in a government college, with a family income not exceeding ₹54,000/- per annum from all sources."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The scholarships are provided at the following rates:"
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "children": [
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Sl. No.",
+                      "bold": true
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Type of scholarship",
+                      "bold": true
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Amount per month ",
+                      "bold": true
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Quota",
+                      "bold": true
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "1"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "PhD"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "₹600/- "
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "18"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "2"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "M.Phil."
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "₹500/- "
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "14"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "3"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Postgraduate (Merit based only)"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "₹500/- "
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "73"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "4"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Postgraduate (Merit cum means based)"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "₹500/- "
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "73"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "5"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Sports"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "₹300/-"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "22"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "6"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Graduation (Merit based only)"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "₹300/-"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "146"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "7"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Graduation (Merit cum means based)"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "₹300/-"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "146"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Note:",
+              "bold": true
+            },
+            {
+              "text": " The scholarship is provided for 10 months."
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "process": [
+          {
+            "type": "align_justify",
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Advertisement Issuanc",
+                    "bold": true,
+                    "underline": true
+                  },
+                  {
+                    "text": "e:",
+                    "underline": true
+                  },
+                  {
+                    "text": " The "
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://highereducation.mp.gov.in/",
+                    "children": [
+                      {
+                        "text": "Directorate of Higher Education"
+                      }
+                    ]
+                  },
+                  {
+                    "text": " issues advertisements inviting applications for the scholarship."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Application Review and Selection:",
+                    "bold": true,
+                    "underline": true
+                  },
+                  {
+                    "text": " Applications received are evaluated and applicants are selected based on the prescribed quota limit."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Approval and Disbursement:",
+                    "bold": true,
+                    "underline": true
+                  },
+                  {
+                    "text": " Upon approval from the Commissioner of Higher Education, the scholarship amount is deposited directly into the bank account of the selected applicant. "
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Note:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Selection of new applicants is done on the basis of merit process."
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "process_md": "**Advertisement Issuanc**e: The [Directorate of Higher Education](https://highereducation.mp.gov.in/) issues advertisements inviting applications for the scholarship.\n**Application Review and Selection:** Applications received are evaluated and applicants are selected based on the prescribed quota limit.\n**Approval and Disbursement:** Upon approval from the Commissioner of Higher Education, the scholarship amount is deposited directly into the bank account of the selected applicant. \n**Note:** Selection of new applicants is done on the basis of merit process.\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "1.\tThe applicant should be a native of Madhya Pradesh.\n2.\tThe applicant should be studying in a government/aided private college.\n3.\tThe annual income of parents/guardians of the applicant should not exceed ₹54,000/-.\n4.\tThe other qualifications of the applicant:\n\n  - **Ph.D:** 55% marks in post-graduation.   - **Postgraduate:** 55% marks in graduation.   - **Graduation (qualification cum means):** 55% marks in the examination of the Board of Secondary Education.  - 60% marks in Graduation (qualifying) examination of Board of Secondary Education.\n  - **Sports:** The applicant should be a member of the national sports team in the school team of Madhya Pradesh, or should be a member of the adult team of the state or should have been in any of the first three places in the state level competition.\n",
+      "eligibilityDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "1.\tThe applicant should be a native of Madhya Pradesh."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "2.\tThe applicant should be studying in a government/aided private college."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "3.\tThe annual income of parents/guardians of the applicant should not exceed ₹54,000/-."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "4.\tThe other qualifications of the applicant:"
+                }
+              ]
+            },
+            {
+              "type": "ul_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Ph.D:",
+                      "bold": true
+                    },
+                    {
+                      "text": " 55% marks in post-graduation. "
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Postgraduate:",
+                      "bold": true
+                    },
+                    {
+                      "text": " 55% marks in graduation. "
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Graduation (qualification cum means):",
+                      "bold": true
+                    },
+                    {
+                      "text": " 55% marks in the examination of the Board of Secondary Education."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "60% marks in Graduation (qualifying) examination of Board of Secondary Education."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Sports:",
+                      "bold": true
+                    },
+                    {
+                      "text": " The applicant should be a member of the national sports team in the school team of Madhya Pradesh, or should be a member of the adult team of the state or should have been in any of the first three places in the state level competition."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "issmp"
+}

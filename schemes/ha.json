@@ -1,0 +1,328 @@
+{
+  "_id": "676c1b68ff1de86fed7136d7",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Student",
+        "Hostel",
+        "Higher Education",
+        "Housing"
+      ],
+      "schemeName": "Housing Assistance (Madhya Pradesh)",
+      "schemeShortTitle": "HA",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce7d2d6d1a3bde46852c2",
+          "label": "Housing & Shelter"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Hostel service",
+          "label": "Hostel service"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "state": {
+        "value": 23,
+        "label": "Madhya Pradesh"
+      },
+      "nodalDepartmentName": {
+        "value": 2300051,
+        "label": "Tribal Welfare and Scheduled Caste (SC) Department"
+      },
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Scheme Details",
+          "url": "https://cmhelpline.mp.gov.in/KnowYourEntitleDetail.aspx?status=ByVibhag&pointvalue=2&Schemeid=812"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The scheme &quot;Housing Assistance (Madhya Pradesh)&quot; by the Tribal Welfare and Scheduled Caste (SC) Department, Government of Madhya Pradesh, provides housing support to tribal boys and girls pursuing higher education outside their hometown, where hostels are not available.\n",
+      "benefits_md": "The scheme provides housing assistance to tribal boys/girls to continue their higher and higher education outside their home town (for whom hostels are not available).\n",
+      "briefDescription": "The scheme \"Housing Assistance (Madhya Pradesh)\" by the Tribal Welfare and Scheduled Caste (SC) Department, Government of Madhya Pradesh, provides housing support to tribal boys and girls pursuing higher education outside their hometown, where hostels are not available.",
+      "exclusions_md": "",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The scheme \"Housing Assistance (Madhya Pradesh)\" by the Tribal Welfare and Scheduled Caste (SC) Department, Government of Madhya Pradesh, provides housing support to tribal boys and girls pursuing higher education outside their hometown, where hostels are not available."
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 2,
+        "value": "in-kind",
+        "label": "In Kind"
+      },
+      "benefits": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The scheme provides housing assistance to tribal boys/girls to continue their higher and higher education outside their home town (for whom hostels are not available)."
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "process": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 1:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " The interested applicant should visit (during office hours) the Hostel Superintendent Vikas Khand Education Officer Principal District Coordinator/Assistant Commissioner, and request the hard copy of the prescribed format of the application form from the concerned authority."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " In the application form, fill in all the mandatory fields, paste the passport-sized photograph (signed across, if required), and attach copies of all the mandatory documents (self-attest, if required)."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 3:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " Submit the duly filled and signed application form along with the documents, within the prescribed period (if any), to the authority."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 4:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " Request a receipt or acknowledgement from the concerned authority to whom the application has been submitted. Ensure that the receipt contains essential details such as the date and time of submission, and a unique identification number (if applicable)."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "NOTE:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " Ensure that the application is submitted within the prescribed period, if any."
+              }
+            ]
+          }
+        ],
+        "process_md": "**Step 1:** The interested applicant should visit (during office hours) the Hostel Superintendent Vikas Khand Education Officer Principal District Coordinator/Assistant Commissioner, and request the hard copy of the prescribed format of the application form from the concerned authority.\n**Step 2:** In the application form, fill in all the mandatory fields, paste the passport-sized photograph (signed across, if required), and attach copies of all the mandatory documents (self-attest, if required).\n**Step 3:** Submit the duly filled and signed application form along with the documents, within the prescribed period (if any), to the authority.\n**Step 4:** Request a receipt or acknowledgement from the concerned authority to whom the application has been submitted. Ensure that the receipt contains essential details such as the date and time of submission, and a unique identification number (if applicable).\n**NOTE:** Ensure that the application is submitted within the prescribed period, if any.\n"
+      },
+      {
+        "mode": "Online",
+        "process": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Registration",
+                "bold": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 1:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " The applicant should visit the Madhya Pradesh Tribal Affairs & Scheduled Caste Welfare Automation System "
+              },
+              {
+                "type": "link",
+                "link": "https://www.tribal.mp.gov.in/mptaas",
+                "children": [
+                  {
+                    "text": "MPTAAS portal."
+                  }
+                ]
+              },
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " Click on \"New Beneficiary Profile "
+              },
+              {
+                "type": "link",
+                "link": "https://www.tribal.mp.gov.in/PMS/Registration/BeneficiaryRegistration/PersonalDetail",
+                "children": [
+                  {
+                    "text": "Registration"
+                  }
+                ]
+              },
+              {
+                "text": ".\""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 3:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " Fill in all the required details. Fields marked with * are mandatory. Complete the form by entering all necessary information."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 4:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " Upload all required documents, such as ID proof and other relevant certificates."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 5:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " After completing the form and uploading the documents, click \"Submit\"."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 6:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " After successful payment and submission, you will receive a registration number."
+              }
+            ]
+          }
+        ],
+        "process_md": "**Registration**\n**Step 1:** The applicant should visit the Madhya Pradesh Tribal Affairs &amp; Scheduled Caste Welfare Automation System [MPTAAS portal.](https://www.tribal.mp.gov.in/mptaas)\n**Step 2:** Click on &quot;New Beneficiary Profile [Registration](https://www.tribal.mp.gov.in/PMS/Registration/BeneficiaryRegistration/PersonalDetail).&quot;\n**Step 3:** Fill in all the required details. Fields marked with * are mandatory. Complete the form by entering all necessary information.\n**Step 4:** Upload all required documents, such as ID proof and other relevant certificates.\n**Step 5:** After completing the form and uploading the documents, click &quot;Submit&quot;.\n**Step 6:** After successful payment and submission, you will receive a registration number.\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n1. The applicant should be a native of Madhya Pradesh.\n1. The applicant should have passed class 12th from a government or non-government college.\n1. The applicant should be enrolled in a graduate, graduate diploma, technical, or paramedical course.\n1. The applicant should be regularly admitted in the course they are pursuing.\n1. The applicant should not have received admission to a government hostel.\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should be a native of Madhya Pradesh."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should have passed class 12th from a government or non-government college."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should be enrolled in a graduate, graduate diploma, technical, or paramedical course."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should be regularly admitted in the course they are pursuing."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should not have received admission to a government hostel."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "ha"
+}

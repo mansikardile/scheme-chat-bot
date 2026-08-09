@@ -1,0 +1,747 @@
+{
+  "_id": "6a44fda788cbab874ffecf37",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Financial Assistance",
+        "Sportsperson",
+        "Scholarship",
+        "Senior Championship",
+        "Junior Championship"
+      ],
+      "schemeName": "Scholarship to Meritorious Sportspersons",
+      "schemeShortTitle": "STMSP",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce8aad6d1a3bde4685320",
+          "label": "Sports & Culture"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Sports",
+          "label": "Sports"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "schemeFor": "Individual",
+      "state": {
+        "value": 4,
+        "label": "Chandigarh"
+      },
+      "schemeType": null,
+      "nodalMinistryName": null,
+      "nodalDepartmentName": {
+        "value": 4000029,
+        "label": "Sports and Youth Department"
+      },
+      "otherMinistryName": null,
+      "otherDepartmentNames": null
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Scheme Guidelines",
+          "url": "https://sportsdeptt.chd.gov.in/pages/scholarship_scheme"
+        },
+        {
+          "title": "Official Website",
+          "url": "https://sportsdeptt.chd.gov.in/"
+        }
+      ],
+      "schemeImageUrl": "",
+      "briefDescription": "The scheme aims to encourage and nurture budding sports talent. Annual scholarships are provided to eligible meritorious student sportspersons based on their sports achievements.",
+      "detailedDescription_md": "The &quot;Scholarship to Meritorious Sportspersons&quot; scheme was launched by the Department of Sports, Chandigarh Administration. The scheme aims to motivate, encourage, and nurture budding sports talent by recognizing outstanding sporting achievements. Under this scheme, annual financial scholarships are provided to meritorious student sportspersons securing top positions in the Inter-School, Inter-College, and State-level championships. \n<br>\n\n",
+      "benefits_md": "**Annual Scholarship Amount**\n> **Category 1: Sub-Junior State / Inter-School (Under-14)**\n\n**Position****Scholarship Amount**1st₹36,0002nd₹30,0003rd₹24,000> **Category 2: Junior/Cadet State / Inter-School (Under-17 &amp; Under-19)**\n\n**Position****Scholarship Amount**1st₹48,0002nd₹42,0003rd₹36,000> **Category 3: Senior State &amp; Inter-College**\n\n**Position****Scholarship Amount**1st₹60,0002nd₹54,0003rd₹48,000**Conditions:**\n\n- Scholarship is awarded for the highest sports achievement in one financial year.\n- Multiple medals in different sports do not qualify for multiple scholarships.\n- Performance in competitions held during the preceding year is considered.\n- The competition must have at least 7 competitors or 7 participating teams/units (except for Para/Specially-Abled sportspersons).\n\n**Mode of Disbursement:**\n\n- Direct transfer to the applicant&#39;s Aadhaar-seeded bank account.\n\n<br>\n\n",
+      "exclusions_md": "<br>\n\n",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The \"Scholarship to Meritorious Sportspersons\" scheme was launched by the Department of Sports, Chandigarh Administration. The scheme aims to motivate, encourage, and nurture budding sports talent by recognizing outstanding sporting achievements. Under this scheme, annual financial scholarships are provided to meritorious student sportspersons securing top positions in the Inter-School, Inter-College, and State-level championships. "
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Annual Scholarship Amount",
+              "bold": true,
+              "underline": true
+            }
+          ]
+        },
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "Category 1: Sub-Junior State / Inter-School (Under-14)",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "children": [
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Position",
+                      "bold": true
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Scholarship Amount",
+                      "bold": true
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "1st"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "₹36,000"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "2nd"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "₹30,000"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "3rd"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "₹24,000"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "Category 2: Junior/Cadet State / Inter-School (Under-17 & Under-19)",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "children": [
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Position",
+                      "bold": true
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Scholarship Amount",
+                      "bold": true
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "1st"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "₹48,000"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "2nd"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "₹42,000"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "3rd"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "₹36,000"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "Category 3: Senior State & Inter-College",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "children": [
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Position",
+                      "bold": true
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Scholarship Amount",
+                      "bold": true
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "1st"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "₹60,000"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "2nd"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "₹54,000"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "3rd"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "₹48,000"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Conditions:",
+              "bold": true,
+              "underline": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Scholarship is awarded for the highest sports achievement in one financial year."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Multiple medals in different sports do not qualify for multiple scholarships."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Performance in competitions held during the preceding year is considered."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The competition must have at least 7 competitors or 7 participating teams/units (except for Para/Specially-Abled sportspersons)."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Mode of Disbursement:",
+              "bold": true,
+              "underline": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Direct transfer to the applicant's Aadhaar-seeded bank account."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ],
+      "exclusions": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Online",
+        "process": [
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "text": "The Department of Sports issues a public notice on its official website inviting applications.",
+                "bold": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 01:",
+                "bold": true
+              },
+              {
+                "text": " The interested applicant visits the official "
+              },
+              {
+                "type": "link",
+                "link": "https://sportsdeptt.chd.gov.in/",
+                "children": [
+                  {
+                    "text": "Sports Department portal"
+                  }
+                ]
+              },
+              {
+                "text": "."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 02: ",
+                "bold": true
+              },
+              {
+                "text": "The applicant fills in the online scholarship application form."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 03: ",
+                "bold": true
+              },
+              {
+                "text": "The applicant uploads all required documents."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 04: ",
+                "bold": true
+              },
+              {
+                "text": "The applicant submits the application online."
+              }
+            ]
+          },
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "text": "Post- Application Process",
+                "bold": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 01: ",
+                "bold": true
+              },
+              {
+                "text": "The Department verifies the merit certificate through the concerned Sports Association, District Education Officer, or Panjab University."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 02: ",
+                "bold": true
+              },
+              {
+                "text": "A departmental committee scrutinizes eligible applications."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 03: ",
+                "bold": true
+              },
+              {
+                "text": "Approved scholarship amounts are transferred directly to the applicant's Aadhaar-linked bank account."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          }
+        ],
+        "process_md": "> **The Department of Sports issues a public notice on its official website inviting applications.**\n\n**Step 01:** The interested applicant visits the official [Sports Department portal](https://sportsdeptt.chd.gov.in/).\n**Step 02:** The applicant fills in the online scholarship application form.\n**Step 03:** The applicant uploads all required documents.\n**Step 04:** The applicant submits the application online.\n> **Post- Application Process**\n\n**Step 01:** The Department verifies the merit certificate through the concerned Sports Association, District Education Officer, or Panjab University.\n**Step 02:** A departmental committee scrutinizes eligible applications.\n**Step 03:** Approved scholarship amounts are transferred directly to the applicant&#39;s Aadhaar-linked bank account.\n<br>\n\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n1. The applicant should be a bonafide student of a recognized or affiliated school, college, or institute situated in Chandigarh.\n1. The applicant should not be an employee.\n1. The applicant who is a resident of Chandigarh but studies outside Chandigarh should be enrolled in a recognized or affiliated educational institution outside Chandigarh.\n1. The applicant studying outside Chandigarh should have participated in the Chandigarh Open State Competition/Tournament conducted by the concerned State Association.\n1. The applicant studying outside Chandigarh should submit an undertaking stating that no sports scholarship has been claimed from any other State or Union Territory.\n1. The applicant studying outside Chandigarh should possess a valid residence certificate showing at least 3 years of residence before the application date.\n1. The applicant should represent Chandigarh in eligible State-level competitions organized by the Education Department, Panjab University, or sports associations recognized or affiliated with the Chandigarh Olympic Association or Chandigarh Sports Council.\n1. The applicant&#39;s sports achievement should belong to the relevant scholarship category based on the date of competition.\n1. The applicant can receive scholarship for only one highest sports achievement in a financial year.\n1. The applicant&#39;s achievement in individual or team events should be through a competition having at least 7 competitors or 7 participating teams/units, except for Para/Specially-Abled sportspersons.\n1. The concerned sport should be included in the Chandigarh Sports Policy.\n1. The concerned Sports Association should be affiliated with the Chandigarh Olympic Association or recognized by the Chandigarh Sports Council.\n1. The National Federation of the concerned sport should be recognized by the Indian Olympic Association and the Ministry of Youth Affairs and Sports.\n\n<br>\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should be a bonafide student of a recognized or affiliated school, college, or institute situated in Chandigarh."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should not be an employee."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant who is a resident of Chandigarh but studies outside Chandigarh should be enrolled in a recognized or affiliated educational institution outside Chandigarh."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant studying outside Chandigarh should have participated in the Chandigarh Open State Competition/Tournament conducted by the concerned State Association."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant studying outside Chandigarh should submit an undertaking stating that no sports scholarship has been claimed from any other State or Union Territory."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant studying outside Chandigarh should possess a valid residence certificate showing at least 3 years of residence before the application date."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should represent Chandigarh in eligible State-level competitions organized by the Education Department, Panjab University, or sports associations recognized or affiliated with the Chandigarh Olympic Association or Chandigarh Sports Council."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant's sports achievement should belong to the relevant scholarship category based on the date of competition."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant can receive scholarship for only one highest sports achievement in a financial year."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant's achievement in individual or team events should be through a competition having at least 7 competitors or 7 participating teams/units, except for Para/Specially-Abled sportspersons."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The concerned sport should be included in the Chandigarh Sports Policy."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The concerned Sports Association should be affiliated with the Chandigarh Olympic Association or recognized by the Chandigarh Sports Council."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The National Federation of the concerned sport should be recognized by the Indian Olympic Association and the Ministry of Youth Affairs and Sports."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "stmsp"
+}

@@ -1,0 +1,403 @@
+{
+  "_id": "66db57c7150e9fd26bc44b5c",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Financial Assistance",
+        "Empowerment",
+        "Expenses",
+        "Below Poverty Line",
+        "Woman"
+      ],
+      "schemeName": "Griha Lakshmi Scheme",
+      "schemeShortTitle": "GLS",
+      "implementingAgency": "Karnataka State Women Development Corporation",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce87cd6d1a3bde4685312",
+          "label": "Social welfare & Empowerment"
+        },
+        {
+          "value": "64f57d10ffb93104c7006c97",
+          "label": "Women and Child"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Financial assistance",
+          "label": "Financial assistance"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "state": {
+        "value": 29,
+        "label": "Karnataka"
+      },
+      "nodalDepartmentName": {
+        "value": 3000025,
+        "label": "Woman and Child Development Department"
+      },
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guideline",
+          "url": "https://wcd.karnataka.gov.in/storage/pdf-files/GruhaLaxmiGO.pdf"
+        },
+        {
+          "title": "Official Website",
+          "url": "https://wcd.karnataka.gov.in/"
+        },
+        {
+          "title": "FAQs",
+          "url": "https://sevasindhugs.karnataka.gov.in/PDF/Gruha_Lakshmi_FAQ.pdf"
+        },
+        {
+          "title": "Government Order",
+          "url": "https://sevasindhugs.karnataka.gov.in/PDF/Gruha_Lakshmi_Main_GO.pdf"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The scheme &quot;Griha Lakshmi&quot; by the by the Department of Women and Child Development, Government of Karnataka aims to empower women by providing financial assistance to female heads of households. The scheme offers a monthly financial aid of ₹2,000/- to eligible women, helping them manage household expenses and improve their quality of life. Eligible beneficiaries include women who are listed as the head of the family in the ration card, and the scheme is open to families holding Below Poverty Line (BPL) or Above Poverty Line (APL) ration cards.\n",
+      "benefits_md": "\n- Financial Assistance of ₹2,000/- per month.\n- The amount is directly transferred to the beneficiary&#39;s bank account linked with Aadhaar (DBT) or through RTGS for non-Aadhaar linked accounts.\n\n",
+      "exclusions_md": "\n- The families where the head of the household is a male.\n- The families where the woman head is paying income tax or GST.\n\n",
+      "briefDescription": "The scheme \"Griha Lakshmi\" aims to provide financial assistance to women heads of households in Karnataka. The scheme offers a monthly benefit of ₹2,000/- to eligible women, helping them manage household expenses and improve their economic stability.",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The scheme \"Griha Lakshmi\" by the by the Department of Women and Child Development, Government of Karnataka aims to empower women by providing financial assistance to female heads of households. The scheme offers a monthly financial aid of ₹2,000/- to eligible women, helping them manage household expenses and improve their quality of life. Eligible beneficiaries include women who are listed as the head of the family in the ration card, and the scheme is open to families holding Below Poverty Line (BPL) or Above Poverty Line (APL) ration cards."
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Financial Assistance of ₹2,000/- per month."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The amount is directly transferred to the beneficiary's bank account linked with Aadhaar (DBT) or through RTGS for non-Aadhaar linked accounts."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "exclusions": [
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The families where the head of the household is a male."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The families where the woman head is paying income tax or GST."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Online",
+        "process": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 1:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "bold": true,
+                "text": " "
+              },
+              {
+                "text": "Visit the Official Website of "
+              },
+              {
+                "type": "link",
+                "link": "https://sevasindhugs.karnataka.gov.in/",
+                "children": [
+                  {
+                    "text": "Seva Sindhu Guarantee Schemes Portal",
+                    "bold": true,
+                    "underline": true
+                  }
+                ]
+              },
+              {
+                "text": "."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "bold": true,
+                "text": " "
+              },
+              {
+                "text": "Register on the portal using your Aadhaar Number and Mobile Number."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 3:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "bold": true,
+                "text": " "
+              },
+              {
+                "text": "Use the credentials you created during registration to log in. Navigate to the online application form for the scheme. "
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 4:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " In the form, fill in all the mandatory fields and upload all the mandatory documents in the specified format and size."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Carefully review all the information provided and the documents uploaded. Make any necessary corrections."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 5:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " Acknowledge and agree to the terms and conditions, declaration, and privacy policy (if any). Click the \"Submit\" or \"Apply\" button to submit your application. You'll receive a confirmation message. Note the application reference number for tracking."
+              }
+            ]
+          }
+        ],
+        "process_md": "**Step 1:****** Visit the Official Website of [**Seva Sindhu Guarantee Schemes Portal**](https://sevasindhugs.karnataka.gov.in/).\n**Step 2:****** Register on the portal using your Aadhaar Number and Mobile Number.\n**Step 3:****** Use the credentials you created during registration to log in. Navigate to the online application form for the scheme. \n**Step 4:** In the form, fill in all the mandatory fields and upload all the mandatory documents in the specified format and size.\nCarefully review all the information provided and the documents uploaded. Make any necessary corrections.\n**Step 5:** Acknowledge and agree to the terms and conditions, declaration, and privacy policy (if any). Click the &quot;Submit&quot; or &quot;Apply&quot; button to submit your application. You&#39;ll receive a confirmation message. Note the application reference number for tracking.\n"
+      },
+      {
+        "mode": "Offline",
+        "process": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 1:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " The interested applicant should visit the nearest Grama One, Bangalore One, Karnataka One, or BBMP Ward Office. Alternatively, the government-appointed representatives will visit your home for enrollment."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " Request a hard copy of the prescribed format of the application form."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 3:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " In the application form, fill in all the mandatory fields, and attach copies of all the mandatory documents (self-attest, if required)."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 4:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " Submit the duly filled and signed application form along with the documents, within the prescribed period (if any), to the staff."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "*The application process is completely free of cost.",
+                "italic": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "*There is no last date for enrollment; beneficiaries can register at any time.",
+                "italic": true
+              }
+            ]
+          }
+        ],
+        "process_md": "**Step 1:** The interested applicant should visit the nearest Grama One, Bangalore One, Karnataka One, or BBMP Ward Office. Alternatively, the government-appointed representatives will visit your home for enrollment.\n**Step 2:** Request a hard copy of the prescribed format of the application form.\n**Step 3:** In the application form, fill in all the mandatory fields, and attach copies of all the mandatory documents (self-attest, if required).\n**Step 4:** Submit the duly filled and signed application form along with the documents, within the prescribed period (if any), to the staff.\n_*The application process is completely free of cost._\n_*There is no last date for enrollment; beneficiaries can register at any time._\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n- The applicant should be a woman.\n\n\n- The applicant should be listed as the head of the family on the ration card.\n- The applicant should be the head of the family as per the ration card (BPL or APL).\n- The family of the applicant should be a resident of Karnataka.\n\n**Preference/Priority/Reservation/Relaxation**\n\n- Women from BPL families are given priority.\n- In case of the death of the family head, the next eligible female member can be registered.\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should be a woman."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should be listed as the head of the family on the ration card."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should be the head of the family as per the ration card (BPL or APL)."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The family of the applicant should be a resident of Karnataka."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Preference/Priority/Reservation/Relaxation",
+              "bold": true,
+              "underline": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Women from BPL families are given priority."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "In case of the death of the family head, the next eligible female member can be registered."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "gls"
+}

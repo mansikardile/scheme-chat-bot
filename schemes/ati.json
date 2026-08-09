@@ -1,0 +1,551 @@
+{
+  "_id": "652d235f4c46bfe12b2033d2",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Training",
+        "ATI",
+        "MSME",
+        "EDI",
+        "Financial Assistance"
+      ],
+      "schemeName": "Assistance to Training Institutions Scheme",
+      "schemeShortTitle": "ATI",
+      "implementingAgency": "Ministry Of Micro, Small & Medium Enterprises, Government Of India",
+      "level": {
+        "value": "central",
+        "label": "Central"
+      },
+      "schemeType": {
+        "value": "central-sector-scheme",
+        "label": "Central Sector Scheme"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce733d6d1a3bde4685278",
+          "label": "Business & Entrepreneurship"
+        },
+        {
+          "value": "628ce85cd6d1a3bde4685304",
+          "label": "Skills & Employment"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Training and Skill Up-gradation",
+          "label": "Training and Skill Up-gradation"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "business-entity",
+          "label": "Business Entity"
+        },
+        {
+          "value": "industries",
+          "label": "Industries"
+        }
+      ],
+      "schemeFor": "Infra",
+      "nodalMinistryName": {
+        "value": 497,
+        "label": "Ministry Of Micro, Small and Medium Enterprises"
+      },
+      "nodalDepartmentName": null
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://msme.gov.in/sites/default/files/ATIguidelinesEnglish.pdf"
+        },
+        {
+          "title": "Invest India Portal",
+          "url": "https://www.investindia.gov.in/schemes-msmes-india/assistance-training-institutions-ati-scheme"
+        },
+        {
+          "title": "Website",
+          "url": "https://ati.msme.gov.in/ATI/home.aspx"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The scheme &amp;quot;Assistance to Training Institutions (ATI) Scheme&amp;quot; by the Ministry of Micro, Small and Medium Enterprises, Government of India aims to strengthen training capacity through financial assistance for infrastructure, training programmes, and revenue support to institutions and EDIs. The scheme also aims to enhance infrastructure and capacity of institutions and support training programmes under NSQF norms.\n<br>\n\n",
+      "benefits_md": "&gt; **Assistance to MSME Training Institutions:**\n\n\n  - Financial assistance for infrastructure creation, strengthening, or expansion.\n  - Support for opening new branches/centres.\n  - Support for meeting revenue deficit of National Institute for Micro, Small and Medium Enterprises (NI-MSME).\n  - Assistance limited to actual requirement.\n\n&gt; **Assistance to MSME Training Institutions:**\n\n\n  - Financial assistance for infrastructure creation, strengthening, or expansion.\n  - Support for opening new branches/centres.\n  - Support for meeting revenue deficit of National Institute for Micro, Small and Medium Enterprises (NI-MSME).\n  - Assistance limited to actual requirement.\n\n&gt; **Assistance for Training Programmes:**\n\n\n  - **Category I:** ₹38.50 per trainee per hour.  - **Category II:** ₹33.00 per trainee per hour.  - **Category III:** ₹27.50 per trainee per hour.  - **Training of Trainers:** ₹60 per trainee per hour or NSQF rate.  - Grant released in installments; first in advance.\n  - Covers overhead costs like space, utilities, staff, and follow-up activities.\n\n<br>\n\n",
+      "exclusions_md": "<br>\n\n",
+      "briefDescription": "The scheme aims to provide financial assistance for creation, strengthening, and expansion of training institutions under MSME for skill development and entrepreneurship training.\n",
+      "detailedDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "The scheme \"Assistance to Training Institutions (ATI) Scheme\" by the Ministry of Micro, Small and Medium Enterprises, Government of India aims to strengthen training capacity through financial assistance for infrastructure, training programmes, and revenue support to institutions and EDIs. The scheme also aims to enhance infrastructure and capacity of institutions and support training programmes under NSQF norms."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "block_quote",
+              "children": [
+                {
+                  "text": "Assistance to MSME Training Institutions:",
+                  "bold": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "ul_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Financial assistance for infrastructure creation, strengthening, or expansion."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Support for opening new branches/centres."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Support for meeting revenue deficit of National Institute for Micro, Small and Medium Enterprises (NI-MSME)."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Assistance limited to actual requirement."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "block_quote",
+              "children": [
+                {
+                  "bold": true,
+                  "text": "Assistance to MSME Training Institutions:"
+                }
+              ]
+            },
+            {
+              "type": "ul_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Financial assistance for infrastructure creation, strengthening, or expansion."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Support for opening new branches/centres."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Support for meeting revenue deficit of National Institute for Micro, Small and Medium Enterprises (NI-MSME)."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Assistance limited to actual requirement."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "block_quote",
+              "children": [
+                {
+                  "text": "Assistance for Training Programmes:",
+                  "bold": true
+                }
+              ]
+            },
+            {
+              "type": "ul_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Category I: ",
+                      "bold": true
+                    },
+                    {
+                      "text": "₹38.50 per trainee per hour."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Category II:",
+                      "bold": true
+                    },
+                    {
+                      "text": " ₹33.00 per trainee per hour."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Category III: ",
+                      "bold": true
+                    },
+                    {
+                      "text": "₹27.50 per trainee per hour."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Training of Trainers:",
+                      "bold": true
+                    },
+                    {
+                      "text": " ₹60 per trainee per hour or NSQF rate."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Grant released in installments; first in advance."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Covers overhead costs like space, utilities, staff, and follow-up activities."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ],
+      "exclusions": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "process": [
+          {
+            "type": "align_justify",
+            "children": [
+              {
+                "type": "block_quote",
+                "children": [
+                  {
+                    "text": "Application Process:",
+                    "bold": true
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "The proposals from national and state level EDIs, training institutions of M/o MSME etc. for grant of financial assistance under the scheme shall be submitted to the Deputy Secretary/Director (EDI), M/o MSME, Udyog Bhawan, New Delhi 110011."
+                  }
+                ]
+              },
+              {
+                "type": "block_quote",
+                "children": [
+                  {
+                    "text": "Post-Application Process:",
+                    "bold": true
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 01: ",
+                    "bold": true
+                  },
+                  {
+                    "text": "The proposals for assistance shall be processed for submission to the Screening Committee for consideration."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 02:",
+                    "bold": true
+                  },
+                  {
+                    "text": " The Screening Committee shall examine all the proposals received under the scheme and submit its recommendations to the Secretary (MSME)."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 03:",
+                    "bold": true
+                  },
+                  {
+                    "text": " After approval of the Secretary (MSME), administrative approval shall be conveyed to the applicant organization, and admissible financial assistance shall be released in accordance with the approval letter. It is clarified that private training institutions/NGOs are not covered under the scheme for assistance for infrastructure support and training programmes.   "
+                  }
+                ]
+              },
+              {
+                "type": "block_quote",
+                "children": [
+                  {
+                    "text": "Miscellaneous:",
+                    "bold": true
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "An online mechanism for maintaining the details related to beneficiaries is already in place @ "
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://ati.msme.gov.in/ATI/home.aspx",
+                    "children": [
+                      {
+                        "text": "www.ati.msme.gov.in."
+                      }
+                    ]
+                  },
+                  {
+                    "text": " To meet the expenditure related to Aadhaar authentication services and maintenance/development of online software and other miscellaneous/administrative expenses related to the Scheme will be met from the budget provision (General Head) under the Scheme."
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "process_md": "&gt; **Application Process:**\n\nThe proposals from national and state level EDIs, training institutions of M/o MSME etc. for grant of financial assistance under the scheme shall be submitted to the Deputy Secretary/Director (EDI), M/o MSME, Udyog Bhawan, New Delhi 110011.\n&gt; **Post-Application Process:**\n\n**Step 01:** The proposals for assistance shall be processed for submission to the Screening Committee for consideration.\n**Step 02:** The Screening Committee shall examine all the proposals received under the scheme and submit its recommendations to the Secretary (MSME).\n**Step 03:** After approval of the Secretary (MSME), administrative approval shall be conveyed to the applicant organization, and admissible financial assistance shall be released in accordance with the approval letter. It is clarified that private training institutions/NGOs are not covered under the scheme for assistance for infrastructure support and training programmes.   \n&gt; **Miscellaneous:**\n\nAn online mechanism for maintaining the details related to beneficiaries is already in place @ [www.ati.msme.gov.in.](https://ati.msme.gov.in/ATI/home.aspx) To meet the expenditure related to Aadhaar authentication services and maintenance/development of online software and other miscellaneous/administrative expenses related to the Scheme will be met from the budget provision (General Head) under the Scheme.\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "&gt; **Eligibility criteria for assistance to Training Institutions of the Ministry of MSME:**\n\n\n  - The applicant must be a training institution under the Ministry of Micro, Small and Medium Enterprises.\n  - The applicant must seek support for infrastructure development or expansion.\n  - The applicant may include NI-MSME for revenue deficit support.\n\n&gt; **Eligibility criteria for assistance to State Level EDIs:**\n\n\n  - The applicant must be a training institution under the Ministry of Micro, Small and Medium Enterprises.\n  - The applicant must seek support for infrastructure development or expansion.\n  - The applicant may include NI-MSME for revenue deficit support.\n\n&gt; **Eligibility criteria for assistance for Training Programmes:**\n\n\n  - The applicant must be an institution such as NI-MSME, National Small Industries Corporation (NSIC), Khadi and Village Industries Commission (KVIC), Coir Board, Tool Rooms/Technology Centres, or Mahatma Gandhi Institute for Rural Industrialisation (MGIRI).\n  - The applicant may include State Government training institutions or District Industries Centres in Eastern Region and North Eastern Region.\n  - The applicant must conduct skill development training programmes related to MSME sector.\n\n<br>\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "block_quote",
+              "children": [
+                {
+                  "text": "Eligibility criteria for assistance to Training Institutions of the Ministry of MSME:",
+                  "bold": true
+                }
+              ]
+            },
+            {
+              "type": "ul_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant must be a training institution under the Ministry of Micro, Small and Medium Enterprises."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant must seek support for infrastructure development or expansion."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant may include NI-MSME for revenue deficit support."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "block_quote",
+              "children": [
+                {
+                  "text": "Eligibility criteria for assistance to State Level EDIs:",
+                  "bold": true
+                }
+              ]
+            },
+            {
+              "type": "ul_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant must be a training institution under the Ministry of Micro, Small and Medium Enterprises."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant must seek support for infrastructure development or expansion."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant may include NI-MSME for revenue deficit support."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "block_quote",
+              "children": [
+                {
+                  "text": "Eligibility criteria for assistance for Training Programmes:",
+                  "bold": true
+                }
+              ]
+            },
+            {
+              "type": "ul_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant must be an institution such as NI-MSME, National Small Industries Corporation (NSIC), Khadi and Village Industries Commission (KVIC), Coir Board, Tool Rooms/Technology Centres, or Mahatma Gandhi Institute for Rural Industrialisation (MGIRI)."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant may include State Government training institutions or District Industries Centres in Eastern Region and North Eastern Region."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant must conduct skill development training programmes related to MSME sector."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "ati"
+}

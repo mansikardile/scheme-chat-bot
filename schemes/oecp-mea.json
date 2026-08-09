@@ -1,0 +1,389 @@
+{
+  "_id": "650d89261a1c949c65ff60d2",
+  "en": {
+    "basicDetails": {
+      "schemeOpenDate": null,
+      "schemeCloseDate": null,
+      "nodalMinistryName": null,
+      "nodalDepartmentName": {
+        "value": 32000049,
+        "label": "Backward Classes Development Department"
+      },
+      "otherMinistryName": null,
+      "otherDepartmentNames": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Scholarships and student finance",
+          "label": "Scholarships and student finance"
+        }
+      ],
+      "dbtScheme": true,
+      "implementingAgency": "Govt./Aided/Recognised Un-Aided/C.B.S.E/I.C.S.E Affiliated Schools And Kendriya Vidyalayas In Kerala State",
+      "tags": [
+        "Student",
+        "OEC",
+        "Other Equivalent Communities",
+        "Scholarship",
+        "Educational Assistance",
+        "Pre-matric"
+      ],
+      "schemeName": "OEC Pre-matric Educational Assistance",
+      "schemeShortTitle": "OECP-MEA",
+      "level": {
+        "value": "state",
+        "label": "State"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce76cd6d1a3bde4685292",
+          "label": "Education & Learning"
+        }
+      ],
+      "state": {
+        "value": 32,
+        "label": "Kerala"
+      },
+      "schemeType": null,
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Official Website",
+          "url": "https://bcdd.kerala.gov.in/en/schemes/educational-schemes/oec-prematric-educational-assistance/"
+        },
+        {
+          "title": "Governmemt Order",
+          "url": "https://bcdd.kerala.gov.in/wp-content/uploads/2018/11/2-03-2.pdf"
+        },
+        {
+          "title": "Notification",
+          "url": "https://bcdd.kerala.gov.in/wp-content/uploads/2018/11/2-04-2.pdf"
+        },
+        {
+          "title": "List Of OEC. Communities",
+          "url": "https://bcdd.kerala.gov.in/wp-content/uploads/2018/11/2-01.pdf"
+        },
+        {
+          "title": "List Of Other Communities Selected For OEC Educational Benefit",
+          "url": "https://bcdd.kerala.gov.in/wp-content/uploads/2018/11/2-02-2.pdf"
+        }
+      ],
+      "schemeImageUrl": "",
+      "briefDescription": "The Scheme “OEC Pre-matric Educational Assistance” was started by the Backward Classes Development Department, Government of Kerala to provide educational assistance to pre-matric students belonging to these communities who are studying in Government/Aided/Unaided schools from Classes 1st to 10th. ",
+      "detailedDescription_md": "The Scheme “OEC Pre-matric Educational Assistance” was started by the Backward Classes Development Department, Government of Kerala. In the state, the most backward communities from among the Other Backward Communities are grouped as Other Eligible Communities (OEC). The scheme is intended to provide educational assistance to pre-matric students belonging to these communities who are studying in Government/Aided/Unaided schools from Classes 1st to 10th. This scheme is being fully implemented with the state fund.\n",
+      "benefits_md": "**Educational Assistance Benefits:**\n**Sl. No.****Classes/Standards****Educational Assistance Amount**1I to IV ₹320/-2V to VII₹630/-3VIII to X ₹940/-",
+      "exclusions_md": "",
+      "detailedDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "The Scheme “OEC Pre-matric Educational Assistance” was started by the Backward Classes Development Department, Government of Kerala. In the state, the most backward communities from among the Other Backward Communities are grouped as Other Eligible Communities (OEC). The scheme is intended to provide educational assistance to pre-matric students belonging to these communities who are studying in Government/Aided/Unaided schools from Classes 1st to 10th. This scheme is being fully implemented with the state fund."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Educational Assistance Benefits:",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "children": [
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Sl. No.",
+                      "bold": true
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Classes/Standards",
+                      "bold": true
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Educational Assistance Amount",
+                      "bold": true
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "1"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "I to IV "
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "₹320/-"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "2"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "V to VII"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "₹630/-"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "3"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "VIII to X "
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "₹940/-"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Online",
+        "process": [
+          {
+            "type": "align_justify",
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 01:",
+                    "bold": true
+                  },
+                  {
+                    "text": " To get the benefits of the scheme, the students do not have to submit separate applications."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 02: ",
+                    "bold": true
+                  },
+                  {
+                    "text": "The School authorities should make an online entry through the "
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://www.egrantz.kerala.gov.in/",
+                    "children": [
+                      {
+                        "text": "scholarship portal"
+                      }
+                    ]
+                  },
+                  {
+                    "text": " within the prescribed time. "
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 03: ",
+                    "bold": true
+                  },
+                  {
+                    "text": "The concerned Educational Officer should do on-time verification of the details entered by the Un-aided/ Affiliated Institutions."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 04:",
+                    "bold": true
+                  },
+                  {
+                    "text": " The school authorities will apply online for the scheme and financial assistance reaches the eligible students’ bank account through Direct Beneficiary Transfer (DBT)."
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "process_md": "**Step 01:** To get the benefits of the scheme, the students do not have to submit separate applications.\n**Step 02:** The School authorities should make an online entry through the [scholarship portal](https://www.egrantz.kerala.gov.in/) within the prescribed time. \n**Step 03:** The concerned Educational Officer should do on-time verification of the details entered by the Un-aided/ Affiliated Institutions.\n**Step 04:** The school authorities will apply online for the scheme and financial assistance reaches the eligible students’ bank account through Direct Beneficiary Transfer (DBT).\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "1.\tThe students should belong to the [Other Eligible Communities](https://bcdd.kerala.gov.in/wp-content/uploads/2018/11/2-01.pdf) (OEC) &amp;amp; [Other Equivalent Communities](https://bcdd.kerala.gov.in/wp-content/uploads/2018/11/2-02-2.pdf) of Kerala State.\n2.\tThe students should be studying in Government/Aided/Recognized Un-Aided/C.B.S.E/I.C.S.E Affiliated Schools and Kendriya Vidyalayas in Kerala state.\n3.\tThe students must be studying in Class 1st to 10th.\n4.\tThere is no annual family income limit for the students who belong to OEC Communities.\n5.\tThe annual family income should be ₹6,00,000/- for the students who belong to Other Equivalent Communities.\n",
+      "eligibilityDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "1.\tThe students should belong to the "
+                },
+                {
+                  "type": "link",
+                  "link": "https://bcdd.kerala.gov.in/wp-content/uploads/2018/11/2-01.pdf",
+                  "children": [
+                    {
+                      "text": "Other Eligible Communities"
+                    }
+                  ]
+                },
+                {
+                  "text": " (OEC) & "
+                },
+                {
+                  "type": "link",
+                  "link": "https://bcdd.kerala.gov.in/wp-content/uploads/2018/11/2-02-2.pdf",
+                  "children": [
+                    {
+                      "text": "Other Equivalent Communities"
+                    }
+                  ]
+                },
+                {
+                  "text": " of Kerala State."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "2.\tThe students should be studying in Government/Aided/Recognized Un-Aided/C.B.S.E/I.C.S.E Affiliated Schools and Kendriya Vidyalayas in Kerala state."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "3.\tThe students must be studying in Class 1st to 10th."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "4.\tThere is no annual family income limit for the students who belong to OEC Communities."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "5.\tThe annual family income should be ₹6,00,000/- for the students who belong to Other Equivalent Communities."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "oecp-mea"
+}

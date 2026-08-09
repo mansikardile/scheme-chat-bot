@@ -1,0 +1,517 @@
+{
+  "_id": "672d01ffcef677932c62e6a3",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Samriddhi",
+        "Kishori",
+        "Girl",
+        "Student",
+        "Expenses"
+      ],
+      "schemeName": "Savitribai Phule Kishori Samriddhi Yojana",
+      "schemeShortTitle": "SPKSY",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce76cd6d1a3bde4685292",
+          "label": "Education & Learning"
+        },
+        {
+          "value": "628ce87cd6d1a3bde4685312",
+          "label": "Social welfare & Empowerment"
+        },
+        {
+          "value": "628ce7a2d6d1a3bde46852b1",
+          "label": "Health & Wellness"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Scholarships and student finance",
+          "label": "Scholarships and student finance"
+        },
+        {
+          "value": "Financial assistance",
+          "label": "Financial assistance"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "state": {
+        "value": 20,
+        "label": "Jharkhand"
+      },
+      "nodalDepartmentName": {
+        "value": 2000025,
+        "label": "Women, Child Development & Social Security Department"
+      },
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guideline",
+          "url": "https://cdn.s3waas.gov.in/s3ff4d5fbbafdf976cfdc032e3bde78de5/uploads/2022/10/2022100752.pdf"
+        },
+        {
+          "title": "Official Website",
+          "url": "https://savitribaipksy.jharkhand.gov.in/about"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The Savitribai Phule Kishori Samriddhi Yojana was initiated by the Department of Women, Child Development, and Social Security, Government of Jharkhand. The objective of the Savitribai Phule Kishori Samriddhi Yojana is to address negative perceptions about the birth of daughters in society, issues like female foeticide, child marriage, low female child sex ratio, and the weak educational status of girls. The scheme has been approved across the entire state of Jharkhand to address these issues. The objectives of this scheme are as follows:\n<br>\n\nObjectives of the Savitribai Phule Kishori Samriddhi Yojana: \n> (a) Women&#39;s empowerment\n\n> (b) Emphasis on girls’ education\n\n> (c) Eradication of the child marriage practice\n\n> (d) Support for the educational expenses of girls in higher classes to reduce school dropout rates and encourage them towards higher education.\n\n> (e) Assistance for adolescent girls&#39; health and personal hygiene.\n\n> (f) Enable adolescent girls to make independent decisions regarding their lives.\n\n",
+      "benefits_md": "Under this scheme, girls/adolescent girls will be provided with the following financial assistance:\n<br>\n\n**S. No.****Beneficiary Category****Amount of Financial Assistance**1Girls enrolled in Class 8₹2,500/-2Girls enrolled in Class 9₹2,500/-3Girls enrolled in Class 10₹5,000/-4Girls enrolled in Class 11₹5,000/-5Girls enrolled in Class 12₹5,000/-6One-time grant for girls aged 18-19₹20,000/-<br>\n\n",
+      "briefDescription": "The Savitribai Phule Kishori Samriddhi Yojana was initiated by the \"Department of Women, Child Development, and Social Security, Government of Jharkhand.\"",
+      "exclusions_md": "",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The Savitribai Phule Kishori Samriddhi Yojana was initiated by the Department of Women, Child Development, and Social Security, Government of Jharkhand. The objective of the Savitribai Phule Kishori Samriddhi Yojana is to address negative perceptions about the birth of daughters in society, issues like female foeticide, child marriage, low female child sex ratio, and the weak educational status of girls. The scheme has been approved across the entire state of Jharkhand to address these issues. The objectives of this scheme are as follows:"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Objectives of the Savitribai Phule Kishori Samriddhi Yojana: "
+            }
+          ]
+        },
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "(a) Women's empowerment"
+            }
+          ]
+        },
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "(b) Emphasis on girls’ education"
+            }
+          ]
+        },
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "(c) Eradication of the child marriage practice"
+            }
+          ]
+        },
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "(d) Support for the educational expenses of girls in higher classes to reduce school dropout rates and encourage them towards higher education."
+            }
+          ]
+        },
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "(e) Assistance for adolescent girls' health and personal hygiene."
+            }
+          ]
+        },
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "(f) Enable adolescent girls to make independent decisions regarding their lives."
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Under this scheme, girls/adolescent girls will be provided with the following financial assistance:"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "children": [
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "S. No.",
+                      "bold": true
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Beneficiary Category",
+                      "bold": true
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Amount of Financial Assistance",
+                      "bold": true
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "1"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Girls enrolled in Class 8"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "₹2,500/-"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "2"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Girls enrolled in Class 9"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "₹2,500/-"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "3"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Girls enrolled in Class 10"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "₹5,000/-"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "4"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Girls enrolled in Class 11"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "₹5,000/-"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "5"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Girls enrolled in Class 12"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "₹5,000/-"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "6"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "One-time grant for girls aged 18-19"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "₹20,000/-"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "process": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "A beneficiary can avail of a child development facility in his area directly or through an Anganwadi worker."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          }
+        ],
+        "process_md": "A beneficiary can avail of a child development facility in his area directly or through an Anganwadi worker.\n<br>\n\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "1. The beneficiary will apply for the benefits under the scheme, and the beneficiary will be required to have the following eligibility till the date of application:\n\n\n  - This assistance shall be payable to the first two daughters of the mother.\n  - A self-declaration to this effect will be submitted by the mother of the beneficiary, which will be required to be attached to the application.\n\n\n2. Under this scheme, all eligible girls studying from class 12 in the Government/Scheduled Tribes, Scheduled Castes, Minority and Backward Classes Welfare Department, Jharkhand supported/run by Women Child Development and Social Security Department, Jharkhand/run under National Child Labour Project (NCLP)/managed by Jharkhand Government/aided by the schools will be covered.\n3. The beneficiaries of the scheme will be those girl children whose \n\n\n  - Mother/father is not permanently employed in or retired from the Central Government/State Government/Central Public Sector Undertakings/State Public Sector Undertakings and is not in receipt of pension/family pension from these employers.\n  - Mother/father will not be an income taxpayer. \n  - The mother of the applicant will submit a self-declaration form to this effect, which will be necessary to attach to the application.\n\n\n4. The beneficiary should be between 18 and 19 years of age at the time of application for the last installment.\n",
+      "eligibilityDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "1. The beneficiary will apply for the benefits under the scheme, and the beneficiary will be required to have the following eligibility till the date of application:"
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "ul_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "This assistance shall be payable to the first two daughters of the mother."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "A self-declaration to this effect will be submitted by the mother of the beneficiary, which will be required to be attached to the application."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "2. Under this scheme, all eligible girls studying from class 12 in the Government/Scheduled Tribes, Scheduled Castes, Minority and Backward Classes Welfare Department, Jharkhand supported/run by Women Child Development and Social Security Department, Jharkhand/run under National Child Labour Project (NCLP)/managed by Jharkhand Government/aided by the schools will be covered."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "3. The beneficiaries of the scheme will be those girl children whose "
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "ul_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Mother/father is not permanently employed in or retired from the Central Government/State Government/Central Public Sector Undertakings/State Public Sector Undertakings and is not in receipt of pension/family pension from these employers."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Mother/father will not be an income taxpayer. "
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The mother of the applicant will submit a self-declaration form to this effect, which will be necessary to attach to the application."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "4. The beneficiary should be between 18 and 19 years of age at the time of application for the last installment."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "spksy"
+}

@@ -1,0 +1,550 @@
+{
+  "_id": "644a5316323b59881422ac34",
+  "en": {
+    "basicDetails": {
+      "schemeOpenDate": null,
+      "schemeCloseDate": null,
+      "state": {
+        "value": 19,
+        "label": "West Bengal"
+      },
+      "nodalMinistryName": null,
+      "nodalDepartmentName": {
+        "value": 19999921,
+        "label": "Housing Department"
+      },
+      "otherMinistryName": null,
+      "otherDepartmentNames": null,
+      "targetBeneficiaries": [
+        {
+          "value": "family",
+          "label": "Family"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Housing",
+          "label": "Housing"
+        },
+        {
+          "value": "Shelter",
+          "label": "Shelter"
+        },
+        {
+          "value": "Citizen empowerment",
+          "label": "Citizen empowerment"
+        }
+      ],
+      "dbtScheme": null,
+      "implementingAgency": "Housing Department, Government Of West Bengal",
+      "tags": [
+        "House",
+        "Flats",
+        "Lower Income Group",
+        "Middle Income Group"
+      ],
+      "schemeName": "NIJASHAREE HOUSING SCHEME",
+      "schemeShortTitle": "NHS- WEST BENGAL",
+      "level": {
+        "value": "state",
+        "label": "State"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce7d2d6d1a3bde46852c2",
+          "label": "Housing & Shelter"
+        },
+        {
+          "value": "628ce87cd6d1a3bde4685312",
+          "label": "Social welfare & Empowerment"
+        }
+      ],
+      "schemeFor": "Family"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Website",
+          "url": "http://wbhousing.gov.in/nijashree"
+        }
+      ],
+      "schemeImageUrl": "",
+      "briefDescription": "The scheme “NIJASHAREE HOUSING SCHEME” is an initiative by the Govt. of West Bengal which envisages the construction of multi-storied Lower Income Group (LIG)/Middle Income Group (MIG) flats on the public lands belonging to the State Government, local bodies and parastatals.",
+      "detailedDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "The Government of West Bengal is determined to provide a `Basha’ (house) to all the people belonging to the Lower Income Group (LIG) and the Middle Income Group (MIG). There is a growing demand for housing amongst families belonging to the low and middle-income categories. In order to cater to the housing needs of the Lower Income Group and the Middle Income Group, the Housing Department felt the need to make provisions for affordable housing, and decided to introduce a new Housing Scheme, namely \"NIJASHREE HOUSING SCHEME\"."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Salient Features of The Scheme:"
+            }
+          ]
+        },
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "align_justify",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The scheme envisages the construction of dwelling units of a minimum of 16 flats in a block of G + 3 buildings on the government lands, lands of local bodies, and other parastatals."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "1BHK flats, with a minimum built-up area of 35.15 square meters (378 sq. ft.), will be constructed for the LIG category, and 2BHK flats, having a minimum built-up area of 50.96 square meters (559 sq. ft.), will be constructed for the MIG category."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The unit cost will be determined on the basis of the actual cost of construction of the superstructure, substructure, and internal infrastructure including sanitary and plumbing, internal electrification, etc., incidental therein."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "No cost of land shall be taken into account while computing the unit cost. This freehold land will be treated as a subsidy to the beneficiary."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The unit cost and standard built-up area may vary, depending on the location and quantum of the land available, as well as the land development cost and the schedule of rates applicable to the area, at the time of construction."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Off-site infrastructure like the construction of internal roads, boundary wall, outside electrification, making of a drainage system, installation of lights in the campus and water supply shall not be added to the cost of the housing development scheme NIJASHREE, i.e., the purchaser will not have to pay for such infrastructure."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Credit-linked subsidies to the eligible beneficiaries will be facilitated by the Housing Department, as per the existing scheme."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 2,
+        "value": "in-kind",
+        "label": "In Kind"
+      },
+      "benefits": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "align_justify",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Under this scheme, a `Basha’ (house) will be allotted to all the people belonging to the Lower Income Group (LIG) and the Middle Income Group (MIG) by lottery on ownership basis."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Credit-linked subsidies to the eligible beneficiaries will be facilitated by the Housing Department, as per the existing scheme."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": ""
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "exclusions": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ],
+      "detailedDescription_md": "The Government of West Bengal is determined to provide a `Basha’ (house) to all the people belonging to the Lower Income Group (LIG) and the Middle Income Group (MIG). There is a growing demand for housing amongst families belonging to the low and middle-income categories. In order to cater to the housing needs of the Lower Income Group and the Middle Income Group, the Housing Department felt the need to make provisions for affordable housing, and decided to introduce a new Housing Scheme, namely &amp;quot;NIJASHREE HOUSING SCHEME&amp;quot;.\nSalient Features of The Scheme:\n\n- The scheme envisages the construction of dwelling units of a minimum of 16 flats in a block of G + 3 buildings on the government lands, lands of local bodies, and other parastatals.\n- 1BHK flats, with a minimum built-up area of 35.15 square meters (378 sq. ft.), will be constructed for the LIG category, and 2BHK flats, having a minimum built-up area of 50.96 square meters (559 sq. ft.), will be constructed for the MIG category.\n- The unit cost will be determined on the basis of the actual cost of construction of the superstructure, substructure, and internal infrastructure including sanitary and plumbing, internal electrification, etc., incidental therein.\n- No cost of land shall be taken into account while computing the unit cost. This freehold land will be treated as a subsidy to the beneficiary.\n- The unit cost and standard built-up area may vary, depending on the location and quantum of the land available, as well as the land development cost and the schedule of rates applicable to the area, at the time of construction.\n- Off-site infrastructure like the construction of internal roads, boundary wall, outside electrification, making of a drainage system, installation of lights in the campus and water supply shall not be added to the cost of the housing development scheme NIJASHREE, i.e., the purchaser will not have to pay for such infrastructure.\n- Credit-linked subsidies to the eligible beneficiaries will be facilitated by the Housing Department, as per the existing scheme.\n\n<br>\n\n"
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "url": "http://wbhousing.gov.in/nijashree",
+        "process": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Application Link:",
+                "bold": true
+              },
+              {
+                "text": " "
+              },
+              {
+                "type": "link",
+                "link": "http://wbhousing.gov.in/templetes/templete1/pdf/Nijashree/Sample-Application-format.pdf",
+                "children": [
+                  {
+                    "text": "http://wbhousing.gov.in/templetes/templete1/pdf/Nijashree/Sample-Application-format.pdf"
+                  }
+                ]
+              },
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "align_justify",
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 01:",
+                    "bold": true
+                  },
+                  {
+                    "text": " A sample application form and a soft copy of the brochure will be available at the website www.wbhousing.gov.in (NIJASHAREE Housing) and at the concerned District Magistrate/ Sub-Divisional Officer's office."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 02:",
+                    "bold": true
+                  },
+                  {
+                    "text": " The original application form, bearing the printed serial number, will be available from the specific nationalized bank/other banks. The duly filled-up application, along with the application money and required documents, are to be submitted at the branch of the bank from where the application was obtained."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Note 01:",
+                    "bold": true
+                  },
+                  {
+                    "text": " There may be one joint applicant for each application. Such joint applications may only be of the husband/wife/dependent parent of the first person."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Note 02:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Application money, at the rate of 2500 for 1BHK and 25000 for 2BHK, will be charged from the beneficiary at the time of application. This amount will be adjusted with the unit cost and is refundable for unsuccessful applicants."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Note 03: ",
+                    "bold": true
+                  },
+                  {
+                    "text": "The application money will be returned to the unsuccessful applicants within 30 days after the issuance of the allotment letter."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Note 04:",
+                    "bold": true
+                  },
+                  {
+                    "text": " No processing fee will be charged."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Note 05:",
+                    "bold": true
+                  },
+                  {
+                    "text": " The installment payment by the beneficiary will be deposited directly into the Escrow Account to be opened by the Housing Department, for each project."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Note 06:",
+                    "bold": true
+                  },
+                  {
+                    "text": " The work for the execution of the scheme will be taken up after getting confirmed bookings of at least 80% of the total flats in the approved scheme project/block of 1 BHK or 2 BHK. The project, where 80% of bookings/applicants are not available, will be treated as immature. In such a case, the application money will be refunded to all applicants within 30 days from the issuance of the memorandum of the decision of immaturity for that project."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Note 07:",
+                    "bold": true
+                  },
+                  {
+                    "text": " If any statement or document, in support of the application, is found to be false or fabricated at any stage, the application/allotment will be cancelled. The authorities may forfeit the application money."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Note 08:",
+                    "bold": true
+                  },
+                  {
+                    "text": " In the event of failure of the allottee to deposit any installment/other charges against the allotted flat as per the time frame in the Payment Schedule, an interest of 8% per annum for the delayed period shall be charged on the delayed payment amounts."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Note 09:",
+                    "bold": true
+                  },
+                  {
+                    "text": " In case of a delayed payment of any installment/other charges against the allotted flat exceeding six months from the due date, the District Magistrate shall have the right to cancel the allotment offering an opportunity for a hearing."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Note 10:",
+                    "bold": true
+                  },
+                  {
+                    "text": " If the allottee surrenders the allotment after payment of the first or second installment, the amount paid by the allottee will be refunded after the deduction of 5% of the said paid amount, without any interest. Surrendering of the flat will not be allowed after payment of the third installment."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Note 11: ",
+                    "bold": true
+                  },
+                  {
+                    "text": "The refund will be made through the applicant's bank account as mentioned by the applicant in the application form."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Note 12:",
+                    "bold": true
+                  },
+                  {
+                    "text": " In case of failure to hand over the allotted flat to the allottee, in the scheduled time as per the agreement made at the time of issuance of the allotment letter, the Housing Department will pay an interest of 8% per annum on the deposited amount to the allottee for the delayed period of handing over of the said flat as per the West Bengal Housing Industry Regulation Act 2017."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Note 13:",
+                    "bold": true
+                  },
+                  {
+                    "text": " The date of completion of the project and handover of the allotted flat will be intimated at the time of issuance of the allotment letter."
+                  },
+                  {
+                    "type": "link",
+                    "link": "http://wbhousing.gov.in/templetes/templete1/pdf/Nijashree/Sample-Application-format.pdf",
+                    "children": [
+                      {
+                        "text": ""
+                      }
+                    ]
+                  },
+                  {
+                    "text": ""
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n   1. Monthly family income should be ₹15,000 or less for the Lower Income Group (LIG).\n   1. Monthly family income should be ₹30,000 or less for the Middle Income Group (MIG).\n   1. The beneficiary should not have any pucca house/flat in his/her name, or in the name of any family (family includes spouse, unmarried sons or daughters) member in the state.\n   1. The applicant must be an inhabitant of the same district in which the project is to be implemented.\n   1. One applicant can apply for one flat only for his/her family. Any person allotted with a flat in the scheme cannot apply for the same scheme in another project in his/her district.\n\n&lt;br&gt;\n\n**Note 01:** The selection of beneficiaries and allotment of flats will be done through a transparent lottery in the respective district/sub-division.\n**Note 02:** The waiting list of the eligible applicants, consisting of 20% of the total flats under each category (i.e. LIG and MIG), will be prepared in case the number of applicants is more than the number of flats in a particular project.\n<br>\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "ol_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Monthly family income should be ₹15,000 or less for the Lower Income Group (LIG)."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Monthly family income should be ₹30,000 or less for the Middle Income Group (MIG)."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The beneficiary should not have any pucca house/flat in his/her name, or in the name of any family (family includes spouse, unmarried sons or daughters) member in the state."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant must be an inhabitant of the same district in which the project is to be implemented."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "One applicant can apply for one flat only for his/her family. Any person allotted with a flat in the scheme cannot apply for the same scheme in another project in his/her district."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": ""
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "Note 01:",
+                  "bold": true
+                },
+                {
+                  "text": " The selection of beneficiaries and allotment of flats will be done through a transparent lottery in the respective district/sub-division."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "Note 02:",
+                  "bold": true
+                },
+                {
+                  "text": " The waiting list of the eligible applicants, consisting of 20% of the total flats under each category (i.e. LIG and MIG), will be prepared in case the number of applicants is more than the number of flats in a particular project."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "nhs-west-bengal"
+}

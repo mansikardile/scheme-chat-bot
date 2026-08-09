@@ -1,0 +1,305 @@
+{
+  "_id": "64c30b79b594314dec841e1c",
+  "en": {
+    "basicDetails": {
+      "schemeOpenDate": "2006-04-01",
+      "schemeCloseDate": null,
+      "state": {
+        "value": 23,
+        "label": "Madhya Pradesh"
+      },
+      "nodalMinistryName": null,
+      "nodalDepartmentName": {
+        "value": 2300041,
+        "label": "Social Welfare Department"
+      },
+      "otherMinistryName": null,
+      "otherDepartmentNames": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Financial assistance",
+          "label": "Financial assistance"
+        }
+      ],
+      "dbtScheme": null,
+      "implementingAgency": null,
+      "tags": [
+        "Financial Assitance",
+        "Marriage Grant",
+        "Group Marriage",
+        "Empowerment"
+      ],
+      "schemeName": "Mukhyamantri Kanya Vivaah / Nikaah Yojana",
+      "schemeShortTitle": "MKVYMP",
+      "level": {
+        "value": "state",
+        "label": "State"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce87cd6d1a3bde4685312",
+          "label": "Social welfare & Empowerment"
+        },
+        {
+          "value": "64f57d10ffb93104c7006c97",
+          "label": "Women and Child"
+        }
+      ],
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Details",
+          "url": "https://cmhelpline.mp.gov.in/Schmedetail.aspx?Schemeid=373"
+        },
+        {
+          "title": "Guidelines-1",
+          "url": "https://socialjustice.mp.gov.in/uploads/files/22-04-2022_CM_Nikha_Scheme_2022_Updated2.pdf"
+        },
+        {
+          "title": "Guideline-2",
+          "url": "https://socialjustice.mp.gov.in/uploads/files/22-04-2022_CM_Vivah_Scheme_2022_Updated1.pdf"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "Madhya Pradesh State Government started &quot;Mukhyamantri Kanya Vivaah Yojana&quot; with the objective to provide financial assistance to needy girls/widows (Kalyani)/abandoned sisters at the time of their marriage.\n",
+      "benefits_md": "\n- To the Bride\n\n   1. Account Payee Check : Rs: 11,000/-\n   1. Marriage Gift : Rs. 38,000/-\n\n\n\n- Amount: Rs.6,000/- per girl, to the mass marriage organizing body. \n\n",
+      "briefDescription": "In 2006, Madhya Pradesh State Government started the \"Mukhyamantri Kanya Vivaah Yojana\" for females/girls. ",
+      "exclusions_md": "",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Madhya Pradesh State Government started \"Mukhyamantri Kanya Vivaah Yojana\" with the objective to provide financial assistance to needy girls/widows (Kalyani)/abandoned sisters at the time of their marriage."
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "To the Bride"
+                }
+              ]
+            },
+            {
+              "type": "ol_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Account Payee Check : Rs: 11,000/-"
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Marriage Gift : Rs. 38,000/-"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Amount: Rs.6,000/- per girl, to the mass marriage organizing body. "
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "url": "https://mpvivahportal.nic.in/",
+        "process": [
+          {
+            "type": "ol_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Applicants have to visit Gram Panchayat/Janpad Panchyat for rural Areas and Nagar Nigam/Nagar Panchayat/Nagar Parishad for urban areas."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Applicants have to get the application form and fill out the application form with the required information. "
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Applicants have to submit the application form along with all the necessary documents to the below offices:"
+                  }
+                ]
+              },
+              {
+                "type": "ol_list",
+                "children": [
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "text": "Gram Panchayat/Janpad Panchyat for rural areas."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "text": "Nagar Nigam/Nagar Panchayat/Nagar Parishad for urban areas "
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "To check the eligibility of the beneficiaries, an inquiry committee will be formed by the Chief Executive Officer of the District Panchayat in the rural area and by the Commissioner Municipal Corporation or the Chief Municipal Officer of the body in the urban area, which will examine the eligibility criteria of the beneficiaries. "
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "After scrutinizing the applications, it will select for participating in the mass marriage program. The inquiry committee will scrutinize the applications and submit the report. The details of eligibility (both eligible and ineligible) of all the applications found after scrutiny will be entered into the marriage portal. "
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "It will be the responsibility of the concerned local body to complete the said process 7 days prior to the mass marriage programme. The acceptance order of eligible couples and rejection order of couples found ineligible will be generated from the portal. "
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "All the applicants found eligible will have to be informed to be present in the mass marriage and the ineligible applications will have to be informed along with the reason. "
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Approval orders of eligible couples will be generated through the marriage "
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://mpvivahportal.nic.in/",
+                    "children": [
+                      {
+                        "text": "portal only"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Gram Panchayat/Janpad Panchyat for rural areas."
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "process_md": "\n1. Applicants have to visit Gram Panchayat/Janpad Panchyat for rural Areas and Nagar Nigam/Nagar Panchayat/Nagar Parishad for urban areas.\n1. Applicants have to get the application form and fill out the application form with the required information. \n1. Applicants have to submit the application form along with all the necessary documents to the below offices:\n\n   1. Gram Panchayat/Janpad Panchyat for rural areas.\n   1. Nagar Nigam/Nagar Panchayat/Nagar Parishad for urban areas \n\n1. To check the eligibility of the beneficiaries, an inquiry committee will be formed by the Chief Executive Officer of the District Panchayat in the rural area and by the Commissioner Municipal Corporation or the Chief Municipal Officer of the body in the urban area, which will examine the eligibility criteria of the beneficiaries. \n1. After scrutinizing the applications, it will select for participating in the mass marriage program. The inquiry committee will scrutinize the applications and submit the report. The details of eligibility (both eligible and ineligible) of all the applications found after scrutiny will be entered into the marriage portal. \n1. It will be the responsibility of the concerned local body to complete the said process 7 days prior to the mass marriage programme. The acceptance order of eligible couples and rejection order of couples found ineligible will be generated from the portal. \n1. All the applicants found eligible will have to be informed to be present in the mass marriage and the ineligible applications will have to be informed along with the reason. \n1. Approval orders of eligible couples will be generated through the marriage [portal only](https://mpvivahportal.nic.in/).1. Gram Panchayat/Janpad Panchyat for rural areas.\n\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n1. The guardian of the bride/groom should be a native of Madhya Pradesh.\n1. The bride has completed the prescribed age for marriage (At present, the minimum legal age for marriage for a girl is 18 years and the minimum legal age for a man is 21 years).\n1. Abandoned women who have been legally divorced.\n1. There will be no restriction on income for the beneficiary to get assistance under the scheme, but it will be necessary that the beneficiary should get his marriage done only by participating in the group marriage program to be organized on the scheduled dates. In case of a single marriage, the benefit of the scheme will not be available.\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The guardian of the bride/groom should be a native of Madhya Pradesh."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The bride has completed the prescribed age for marriage (At present, the minimum legal age for marriage for a girl is 18 years and the minimum legal age for a man is 21 years)."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Abandoned women who have been legally divorced."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "There will be no restriction on income for the beneficiary to get assistance under the scheme, but it will be necessary that the beneficiary should get his marriage done only by participating in the group marriage program to be organized on the scheduled dates. In case of a single marriage, the benefit of the scheme will not be available."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "mkvymp"
+}

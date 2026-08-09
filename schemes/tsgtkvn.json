@@ -1,0 +1,365 @@
+{
+  "_id": "687a27cf3b8a10e048e11d4d",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": null,
+      "tags": [
+        "Loan",
+        "Self Employment",
+        "Auto Rickshaw",
+        "Vehicle",
+        "Transport"
+      ],
+      "schemeName": "Vehicle Loan Scheme (GTKVN)",
+      "schemeShortTitle": "VLSGTKVN",
+      "implementingAgency": "Gujarat Thakor And Koli Vikas Nigam",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce924d6d1a3bde4685354",
+          "label": "Transport & Infrastructure"
+        },
+        {
+          "value": "628ce7f6d6d1a3bde46852d0",
+          "label": "Banking,Financial Services and Insurance"
+        },
+        {
+          "value": "628ce85cd6d1a3bde4685304",
+          "label": "Skills & Employment"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Loan",
+          "label": "Loan"
+        },
+        {
+          "value": "Public transport and private vehicles",
+          "label": "Public transport and private vehicles"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "schemeFor": "Individual",
+      "state": {
+        "value": 24,
+        "label": "Gujarat"
+      },
+      "nodalDepartmentName": {
+        "value": 2444464,
+        "label": "Social Justice and Empowerment Department"
+      }
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://mariyojana.gujarat.gov.in/Schemeatoz.aspx"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The &amp;quot;Vehicle Loan Scheme&amp;quot; is implemented by the Gujarat Thakor and Koli Vikas Nigam (GTKVN) under the Social Justice and Empowerment Department, Government of Gujarat. The scheme aims to promote self-employment among youth from the Thakor and Koli communities by providing financial assistance for the purchase of commercial vehicles. Under this scheme, beneficiaries can avail of a subsidized loan to purchase auto-rickshaws, loading rickshaws, or a Maruti Eeco van to start an income-generating transport business.\n<br>\n\n",
+      "benefits_md": "Under this scheme, beneficiaries can avail of a loan of up to ₹4,00,000/- for the purchase of commercial vehicles such as auto-rickshaws, loading rickshaws, Maruti Eeco, etc.\n<br>\n\n",
+      "briefDescription": "The scheme aims to promote self-employment among youth from the Thakor and Koli communities by providing loans of up to ₹4,00,000/- for the purchase of commercial vehicles such as auto-rickshaws, loading rickshaws, or a Maruti Eeco van to start an income-generating transport business.",
+      "exclusions_md": "<br>\n\n",
+      "detailedDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "The \"Vehicle Loan Scheme\" is implemented by the Gujarat Thakor and Koli Vikas Nigam (GTKVN) under the Social Justice and Empowerment Department, Government of Gujarat. The scheme aims to promote self-employment among youth from the Thakor and Koli communities by providing financial assistance for the purchase of commercial vehicles. Under this scheme, beneficiaries can avail of a subsidized loan to purchase auto-rickshaws, loading rickshaws, or a Maruti Eeco van to start an income-generating transport business."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "Under this scheme, beneficiaries can avail of a loan of up to ₹4,00,000/- for the purchase of commercial vehicles such as auto-rickshaws, loading rickshaws, Maruti Eeco, etc."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ],
+      "exclusions": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Online",
+        "process": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 1: ",
+                "bold": true
+              },
+              {
+                "text": "Visit the "
+              },
+              {
+                "type": "link",
+                "link": "https://gtkdconline.gujarat.gov.in/",
+                "children": [
+                  {
+                    "text": "official website"
+                  }
+                ]
+              },
+              {
+                "text": " of the Gujarat Thakor and Koli Vikas Nigam."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2:",
+                "bold": true
+              },
+              {
+                "text": " On the top menu bar, click on \"Apply Now\"."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 3:",
+                "bold": true
+              },
+              {
+                "text": " Click on the loan scheme name. "
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 4: ",
+                "bold": true
+              },
+              {
+                "text": "Select the loan category and fill in the loan amount."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 5: ",
+                "bold": true
+              },
+              {
+                "text": "Fill out the Application Form, enter the following details:"
+              }
+            ]
+          },
+          {
+            "type": "ul_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Personal Information: Name, gender, date of birth, caste, etc."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Address Information: Permanent and correspondence address"
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Income Details: Monthly family income and source"
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Loan Requirement: Amount needed, proposed use (e.g., business, self-employment)"
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Bank Account Details: For loan disbursement"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 6: ",
+                "bold": true
+              },
+              {
+                "text": "Upload scanned copies of the Caste certificate, Income certificate, Aadhaar card, Passport-size photo, Bank passbook (first page), and Residence proof."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 7:",
+                "bold": true
+              },
+              {
+                "text": " Double-check all details. Click on “Preview” to verify. If all details are correct, click “Submit”."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 8: ",
+                "bold": true
+              },
+              {
+                "text": "Applicant will receive an Application ID/Reference Number. Save or print the acknowledgement for future tracking."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          }
+        ],
+        "process_md": "**Step 1:** Visit the [official website](https://gtkdconline.gujarat.gov.in/) of the Gujarat Thakor and Koli Vikas Nigam.\n**Step 2:** On the top menu bar, click on &quot;Apply Now&quot;.\n**Step 3:** Click on the loan scheme name. \n**Step 4:** Select the loan category and fill in the loan amount.\n**Step 5:** Fill out the Application Form, enter the following details:\n\n- Personal Information: Name, gender, date of birth, caste, etc.\n- Address Information: Permanent and correspondence address\n- Income Details: Monthly family income and source\n- Loan Requirement: Amount needed, proposed use (e.g., business, self-employment)\n- Bank Account Details: For loan disbursement\n\n**Step 6:** Upload scanned copies of the Caste certificate, Income certificate, Aadhaar card, Passport-size photo, Bank passbook (first page), and Residence proof.\n**Step 7:** Double-check all details. Click on “Preview” to verify. If all details are correct, click “Submit”.\n**Step 8:** Applicant will receive an Application ID/Reference Number. Save or print the acknowledgement for future tracking.\n<br>\n\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n1. The applicant should be a resident of Gujarat.\n1. The applicant should belong to Thakor or Koli community.\n1. The applicant&#39;s age should be between 21 to 50 years. \n1. The applicant’s annual family income should not exceed ₹3,00,000/-.\n1. The applicant should intend to purchase an approved transport vehicle for commercial use.\n\n<br>\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should be a resident of Gujarat."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should belong to Thakor or Koli community."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant's age should be between 21 to 50 years. "
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant’s annual family income should not exceed ₹3,00,000/-."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should intend to purchase an approved transport vehicle for commercial use."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "tsgtkvn"
+}

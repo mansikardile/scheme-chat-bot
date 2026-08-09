@@ -1,0 +1,252 @@
+{
+  "_id": "682f0a646e107e22ce6b2b50",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": null,
+      "tags": [
+        "Financial Assistance",
+        "BPL",
+        "Scheduled Caste",
+        "House",
+        "Atal",
+        "Homeless Family"
+      ],
+      "schemeName": "Atal Awas Yojana - Uttarakhand",
+      "schemeShortTitle": "AAYU",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce7d2d6d1a3bde46852c2",
+          "label": "Housing & Shelter"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Shelter, integrated support and assistance",
+          "label": "Shelter, integrated support and assistance"
+        },
+        {
+          "value": "Housing",
+          "label": "Housing"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "family",
+          "label": "Family"
+        }
+      ],
+      "schemeFor": "Family",
+      "state": {
+        "value": 5,
+        "label": "Uttarakhand"
+      },
+      "nodalDepartmentName": {
+        "value": 50000019,
+        "label": "Department Of Social Welfare"
+      }
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines (Page No. 2)",
+          "url": "https://uk.gov.in/department92/library_file/file-30-01-2025-04-25-16.pdf"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The scheme &amp;#39;Atal Awas Yojana&amp;#39; has been implemented by the Social Welfare Department, Government of Uttarakhand, to provide financial assistance for the construction of houses in both hilly and plain areas of the state. Under this scheme, financial assistance is provided to homeless Scheduled Caste families who are below the poverty line (BPL) or fall within a defined income limit for constructing a house. The beneficiaries should not own any house and should possess their own land within the state.\n<br>\n\n",
+      "benefits_md": "**Financial Assistance**\n\n- ₹1,30,000/- for hilly areas\n- ₹1,20,000/- for plain areas\n\n> **Note:** The amount is disbursed in 3 installments to construct a house.\n\n",
+      "briefDescription": "Under this scheme, financial assistance of ₹1,30,000/- is provided for constructing houses in hilly areas and ₹1,20,000/- for plain areas to homeless Scheduled Caste families who are below the poverty line (BPL) or fall within a defined income limit.",
+      "exclusions_md": "<br>\n\n",
+      "detailedDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "The scheme 'Atal Awas Yojana' has been implemented by the Social Welfare Department, Government of Uttarakhand, to provide financial assistance for the construction of houses in both hilly and plain areas of the state. Under this scheme, financial assistance is provided to homeless Scheduled Caste families who are below the poverty line (BPL) or fall within a defined income limit for constructing a house. The beneficiaries should not own any house and should possess their own land within the state."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Financial Assistance",
+              "bold": true,
+              "underline": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "₹1,30,000/- for hilly areas"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "₹1,20,000/- for plain areas"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "Note: ",
+              "bold": true
+            },
+            {
+              "text": "The amount is disbursed in 3 installments to construct a house."
+            }
+          ]
+        }
+      ],
+      "exclusions": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "process": [
+          {
+            "type": "align_justify",
+            "children": [
+              {
+                "type": "ul_list",
+                "children": [
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "text": "Every year, targets are assigned to the districts. The districts allocate targets to the development blocks on the basis of population. Applications are received at the development block level."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "text": "It is mandatory to attach the caste certificate, income certificate, photograph, Aadhaar card, CBS Aadhaar-seeded/linked bank account details, and property documents with the application."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "text": "The application forms are verified by the Village Development Officer/Gram Panchayat Development Officer, after which a priority list is prepared at the block development level. From the applications received, eligible beneficiaries are selected by a committee comprising the Chief Development Officer, Block Development Officer, and District Social Welfare Officer. Thereafter, the District Social Welfare Officer initiates the process of fund allocation as per the committee’s recommendations."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          }
+        ],
+        "process_md": "\n  - Every year, targets are assigned to the districts. The districts allocate targets to the development blocks on the basis of population. Applications are received at the development block level.\n  - It is mandatory to attach the caste certificate, income certificate, photograph, Aadhaar card, CBS Aadhaar-seeded/linked bank account details, and property documents with the application.\n  - The application forms are verified by the Village Development Officer/Gram Panchayat Development Officer, after which a priority list is prepared at the block development level. From the applications received, eligible beneficiaries are selected by a committee comprising the Chief Development Officer, Block Development Officer, and District Social Welfare Officer. Thereafter, the District Social Welfare Officer initiates the process of fund allocation as per the committee’s recommendations.\n\n<br>\n\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n1. The applicant should be a native of Uttarakhand.\n1. The applicant should belong to a Scheduled Caste family.\n1. The applicant should belong to the Below Poverty Line (BPL) category or have an annual income not exceeding ₹48,000/-.\n1. The applicant should not have their own house.\n1. The applicant should have their own land for constructing a house.\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should be a native of Uttarakhand."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should belong to a Scheduled Caste family."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should belong to the Below Poverty Line (BPL) category or have an annual income not exceeding ₹48,000/-."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should not have their own house."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should have their own land for constructing a house."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "aayu"
+}

@@ -1,0 +1,461 @@
+{
+  "_id": "67ca97d41dc65aa2df41686d",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Construction",
+        "Worker",
+        "Labour",
+        "Marriage",
+        "Financial Assistance"
+      ],
+      "schemeName": "Marriage Assistance Scheme (MPBOCWWB)",
+      "schemeShortTitle": "MASMPBOCWWB",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce87cd6d1a3bde4685312",
+          "label": "Social welfare & Empowerment"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Financial assistance",
+          "label": "Financial assistance"
+        },
+        {
+          "value": "Marriage",
+          "label": "Marriage"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "state": {
+        "value": 23,
+        "label": "Madhya Pradesh"
+      },
+      "nodalDepartmentName": {
+        "value": 2300023,
+        "label": "Labour Department"
+      },
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://labour.mp.gov.in/Public/Pages/Schemes/VivahSahayta.aspx"
+        },
+        {
+          "title": "Labour Registration",
+          "url": "https://labour.mp.gov.in/Public/Registration/BeneficiaryRegistrationRequest.aspx"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "&quot;Marriage Assistance Scheme&quot; by the Madhya Pradesh Building and Other Construction Workers Welfare Board, Department of Labour, Government of Madhya Pradesh, provides financial assistance for the marriage of a registered female worker herself (including one-time remarriage) and for up to two daughters of a registered worker. The scheme applies to the marriage of the female beneficiary herself or the legal, adopted, or stepdaughter of a registered construction worker, provided that the bride is at least 18 years old at the time of marriage.\n",
+      "benefits_md": "\n- ₹55,000/- Total Assistance\n- ₹11,000/- Cash Support\n- ₹38,000/- For Materials\n- ₹6,000/- For Mass Marriage Organizer\n\n",
+      "briefDescription": "The scheme provides financial assistance for the marriage of a registered female worker herself (including one-time remarriage) and for up to two daughters of a registered worker. The scheme applies to the marriage of the female beneficiary herself and the legal, adopted, or stepdaughter of worker.",
+      "exclusions_md": "",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "\"Marriage Assistance Scheme\" by the Madhya Pradesh Building and Other Construction Workers Welfare Board, Department of Labour, Government of Madhya Pradesh, provides financial assistance for the marriage of a registered female worker herself (including one-time remarriage) and for up to two daughters of a registered worker. The scheme applies to the marriage of the female beneficiary herself or the legal, adopted, or stepdaughter of a registered construction worker, provided that the bride is at least 18 years old at the time of marriage."
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "₹55,000/- Total Assistance"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "₹11,000/- Cash Support"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "₹38,000/- For Materials"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "₹6,000/- For Mass Marriage Organizer"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Online",
+        "process": [
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "text": "For Registration",
+                "bold": true,
+                "underline": true
+              }
+            ]
+          },
+          {
+            "type": "align_justify",
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 1:",
+                    "bold": true,
+                    "underline": true
+                  },
+                  {
+                    "text": " The interested applicant should visit the prescribed authority mentioned below. "
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "For Rural Area: Chief Executive Officer, Janpad Panchayat"
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "For Urban Area: Commissioner/Chief Municipal Officer, Urban Bodies"
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 2:",
+                    "bold": true,
+                    "underline": true
+                  },
+                  {
+                    "text": " Registration can be done by paying a cash payment of Rs. 15/- (Rs. 5/- as registration fee and Rs. 10 as contribution for five years) to the prescribed authority in the prescribed form for five years."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 3:",
+                    "bold": true,
+                    "underline": true
+                  },
+                  {
+                    "text": " The receipt of fee receipt is given to the applicant by the prescribed authority. The approval / rejection of the application and accordingly the registration order is decided by the prescribed authority."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 4:",
+                    "bold": true,
+                    "underline": true
+                  },
+                  {
+                    "text": " The process of registration of labour is done through the departmental portal https://labour.mp.gov.in/."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 5:",
+                    "bold": true,
+                    "underline": true
+                  },
+                  {
+                    "text": " On completion of the online registration process, the identity card with the photo received from the portal is issued under the signature of the prescribed authority."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "*Arrangements have been made to register the construction worker on the basis of self-certification as a proof of 90 days of work in a year.",
+                    "italic": true
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": ""
+                  }
+                ]
+              },
+              {
+                "type": "block_quote",
+                "children": [
+                  {
+                    "text": "For Application",
+                    "bold": true,
+                    "underline": true
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 1:",
+                    "bold": true,
+                    "underline": true
+                  },
+                  {
+                    "text": " Visit the "
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://labour.mp.gov.in/Default.aspx",
+                    "children": [
+                      {
+                        "text": "Official Website"
+                      }
+                    ]
+                  },
+                  {
+                    "text": " of the \"Shram Seva Portal\". In the top ribbon, click \" योजना आवेदन\", then click \" "
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://labour.mp.gov.in/Public/Application/RegsiterSchemeApplication.aspx",
+                    "children": [
+                      {
+                        "text": "योजना लाभ हेतु आवेदन दर्ज करें"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "\"."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 2:",
+                    "bold": true,
+                    "underline": true
+                  },
+                  {
+                    "text": " On the next screen, provide your \"श्रमिक पंजीयन क्रमांक (पोर्टल कोड)\" (Labour Registration Number), fill in the Captcha Code, and click \"View Information\"."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 3:",
+                    "bold": true,
+                    "underline": true
+                  },
+                  {
+                    "text": " On the next screen, a list of the Board's schemes will be displayed. Click on the name of the scheme that you intend to apply for. The online application form for the scheme will open."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 4:",
+                    "bold": true,
+                    "underline": true
+                  },
+                  {
+                    "text": " In the form, fill in all the mandatory fields and upload all the mandatory documents in the specified format and size."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Carefully review all the information provided and the documents uploaded. Make any necessary corrections."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 5:",
+                    "bold": true,
+                    "underline": true
+                  },
+                  {
+                    "text": " Click \"Submit\" to submit your application. You'll receive a confirmation message."
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "process_md": "> **For Registration**\n\n**Step 1:** The interested applicant should visit the prescribed authority mentioned below. \nFor Rural Area: Chief Executive Officer, Janpad Panchayat\nFor Urban Area: Commissioner/Chief Municipal Officer, Urban Bodies\n**Step 2:** Registration can be done by paying a cash payment of Rs. 15/- (Rs. 5/- as registration fee and Rs. 10 as contribution for five years) to the prescribed authority in the prescribed form for five years.\n**Step 3:** The receipt of fee receipt is given to the applicant by the prescribed authority. The approval / rejection of the application and accordingly the registration order is decided by the prescribed authority.\n**Step 4:** The process of registration of labour is done through the departmental portal https://labour.mp.gov.in/.\n**Step 5:** On completion of the online registration process, the identity card with the photo received from the portal is issued under the signature of the prescribed authority.\n_*Arrangements have been made to register the construction worker on the basis of self-certification as a proof of 90 days of work in a year._\n&lt;br&gt;\n\n&gt; **For Application**\n\n**Step 1:** Visit the [Official Website](https://labour.mp.gov.in/Default.aspx) of the &amp;quot;Shram Seva Portal&amp;quot;. In the top ribbon, click &amp;quot; योजना आवेदन&amp;quot;, then click &amp;quot; [योजना लाभ हेतु आवेदन दर्ज करें](https://labour.mp.gov.in/Public/Application/RegsiterSchemeApplication.aspx)&amp;quot;.\n**Step 2:** On the next screen, provide your &amp;quot;श्रमिक पंजीयन क्रमांक (पोर्टल कोड)&amp;quot; (Labour Registration Number), fill in the Captcha Code, and click &amp;quot;View Information&amp;quot;.\n**Step 3:** On the next screen, a list of the Board&amp;#39;s schemes will be displayed. Click on the name of the scheme that you intend to apply for. The online application form for the scheme will open.\n**Step 4:** In the form, fill in all the mandatory fields and upload all the mandatory documents in the specified format and size.\nCarefully review all the information provided and the documents uploaded. Make any necessary corrections.\n**Step 5:** Click &amp;quot;Submit&amp;quot; to submit your application. You&amp;#39;ll receive a confirmation message.\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "**For Registration**\n\n- The applicant should be a resident of Madhya Pradesh.\n- The applicant should be a Building/ Construction Worker.\n- The applicant should be between 18 and 60 years.\n- The applicant should have engaged in any building or other construction work for at least 90 days during the preceding 12 months.\n- The registration of the applicant should be renewed annually.\n\n**For Application**\n\n- The applicant should be a registered female worker or the daughter of a registered worker.\n- The applicant should participate in the &quot;Chief Minister Kanya Vivaah/Nikah Scheme&quot;.\n- The bride should be at least 18 years old.\n- The applicant should not have received similar assistance before.\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "For Registration",
+              "bold": true,
+              "underline": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should be a resident of Madhya Pradesh."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should be a Building/ Construction Worker."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should be between 18 and 60 years."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should have engaged in any building or other construction work for at least 90 days during the preceding 12 months."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The registration of the applicant should be renewed annually."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "For Application",
+              "bold": true,
+              "underline": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should be a registered female worker or the daughter of a registered worker."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should participate in the \"Chief Minister Kanya Vivaah/Nikah Scheme\"."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The bride should be at least 18 years old."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should not have received similar assistance before."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "masmpbocwwb"
+}

@@ -1,0 +1,410 @@
+{
+  "_id": "66a387e3827e45c81158964b",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Labour",
+        "Building Worker",
+        "Construction Worker",
+        "Funeral Expenses",
+        "Death"
+      ],
+      "schemeName": "Funeral Expenses for the Construction Workers",
+      "schemeShortTitle": "FEFTCWWB",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce87cd6d1a3bde4685312",
+          "label": "Social welfare & Empowerment"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Financial assistance",
+          "label": "Financial assistance"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "state": {
+        "value": 19,
+        "label": "West Bengal"
+      },
+      "schemeType": null,
+      "nodalMinistryName": null,
+      "nodalDepartmentName": {
+        "value": 19999925,
+        "label": "Labour Department"
+      },
+      "otherMinistryName": null,
+      "otherDepartmentNames": null,
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://wblc.gov.in/sites/default/files/ckfinder/userfiles/images/BOCW.pdf"
+        },
+        {
+          "title": "Guidelines",
+          "url": "https://wblabour.gov.in/building-and-other-construction-workers-welfare-board"
+        },
+        {
+          "title": "Guidelines",
+          "url": "https://employmentbankwb.gov.in/welfare_board.php"
+        }
+      ],
+      "schemeImageUrl": "",
+      "briefDescription": "The “Funeral Expenses for the Construction Workers” scheme by the BOCW Welfare Board, Labour Department,West Bengal, is a welfare scheme that provides financial assistance for funeral expenses to the nominees of a deceased registered member.\n",
+      "detailedDescription_md": "The “Funeral Expenses for the Construction Workers” scheme by the Building and Other Construction Workers Welfare Board, Labour Department, West Bengal, is a welfare scheme for the registered workers of the board. Under this scheme, financial assistance shall be provided to the nominee of each deceased registered member to meet their funeral expenses.\n<br>\n\n",
+      "benefits_md": "\n  - **Quantum of Assistance:** ₹3,000/- for each deceased beneficiary payable to the nominee.\n",
+      "exclusions_md": "",
+      "detailedDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "The “Funeral Expenses for the Construction Workers” scheme by the Building and Other Construction Workers Welfare Board, Labour Department, West Bengal, is a welfare scheme for the registered workers of the board. Under this scheme, financial assistance shall be provided to the nominee of each deceased registered member to meet their funeral expenses."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "ul_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Quantum of Assistance: ",
+                      "bold": true
+                    },
+                    {
+                      "text": "₹3,000/- for each deceased beneficiary payable to the nominee."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "process": [
+          {
+            "type": "align_justify",
+            "children": [
+              {
+                "type": "block_quote",
+                "children": [
+                  {
+                    "text": "Registration Process as a Building/ Construction Worker:",
+                    "bold": true,
+                    "underline": true
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 1: ",
+                    "bold": true
+                  },
+                  {
+                    "text": "To register as a beneficiary under the BOCW Welfare Board, an applicant worker should request Form-27 from the Assistant Labour Commissioners/ Beneficiary Registering Officers and should attach all the mandatory documents (self-attested, if required)."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 2:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Application shall be submitted to the Assistant Labour Commissioners/ Beneficiary Registering Officers."
+                  }
+                ]
+              },
+              {
+                "type": "block_quote",
+                "children": [
+                  {
+                    "text": "Application Process of the Welfare Scheme:",
+                    "bold": true,
+                    "underline": true
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 1: ",
+                    "bold": true
+                  },
+                  {
+                    "text": "A registered worker should request the application from the Assistant Labour Commissioners/ Beneficiary Registering Officers and should attach all the mandatory documents (self-attested, if required)."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 2: ",
+                    "bold": true
+                  },
+                  {
+                    "text": "Application shall be submitted to the Assistant Labour Commissioners/ Beneficiary Registering Officers for this benefit."
+                  }
+                ]
+              },
+              {
+                "type": "block_quote",
+                "children": [
+                  {
+                    "text": "Helpdesk:",
+                    "bold": true
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Labour Department"
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Department of Labour, Government of West Bengal,"
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "12th Floor, N.S Building, Block-A,"
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "1, Kiran Shankar Roy Road,"
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Kolkata-700001"
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Helpline of Labour Department, Govt. of West Bengal (Shramik Sathi): 1800-103-0009"
+                  }
+                ]
+              },
+              {
+                "type": "align_justify",
+                "children": [
+                  {
+                    "type": "block_quote",
+                    "children": [
+                      {
+                        "text": "Note:",
+                        "bold": true
+                      }
+                    ]
+                  },
+                  {
+                    "type": "ul_list",
+                    "children": [
+                      {
+                        "type": "list_item",
+                        "children": [
+                          {
+                            "text": "Upon successful verification,  the construction worker is registered and an identity card and passbook are issued to him/ her. ₹20/- as the registration fee and ₹30/- as yearly subscription is taken. The amounts taken are noted in the passbook and a receipt is issued."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "list_item",
+                        "children": [
+                          {
+                            "text": "After one year, the beneficiary's subscription is renewed upon payment of a renewal fee of ₹30/- and submission of an application in Form-27A."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "list_item",
+                        "children": [
+                          {
+                            "text": "If not renewed the registration of the beneficiary is cancelled after the expiry of one year. Fresh application for renewal to be submitted to the ALC for consideration."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "process_md": "&gt; **Registration Process as a Building/ Construction Worker:**\n\n**Step 1:** To register as a beneficiary under the BOCW Welfare Board, an applicant worker should request Form-27 from the Assistant Labour Commissioners/ Beneficiary Registering Officers and should attach all the mandatory documents (self-attested, if required).\n**Step 2:** Application shall be submitted to the Assistant Labour Commissioners/ Beneficiary Registering Officers.\n&gt; **Application Process of the Welfare Scheme:**\n\n**Step 1:** A registered worker should request the application from the Assistant Labour Commissioners/ Beneficiary Registering Officers and should attach all the mandatory documents (self-attested, if required).\n**Step 2:** Application shall be submitted to the Assistant Labour Commissioners/ Beneficiary Registering Officers for this benefit.\n&gt; **Helpdesk:**\n\nLabour Department\nDepartment of Labour, Government of West Bengal,\n12th Floor, N.S Building, Block-A,\n1, Kiran Shankar Roy Road,\nKolkata-700001\nHelpline of Labour Department, Govt. of West Bengal (Shramik Sathi): 1800-103-0009\n&amp;gt; **Note:**\n\n\n  - Upon successful verification,  the construction worker is registered and an identity card and passbook are issued to him/ her. ₹20/- as the registration fee and ₹30/- as yearly subscription is taken. The amounts taken are noted in the passbook and a receipt is issued.\n  - After one year, the beneficiary&amp;amp;#39;s subscription is renewed upon payment of a renewal fee of ₹30/- and submission of an application in Form-27A.\n  - If not renewed the registration of the beneficiary is cancelled after the expiry of one year. Fresh application for renewal to be submitted to the ALC for consideration.\n\n"
+      }
+    ],
+    "schemeDefinitions": [
+      {
+        "name": "Building & Other Construction Work",
+        "definition": [
+          {
+            "type": "align_justify",
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "\"Building & Other Construction Work includes construction, alteration, repairs, maintenance or demolition of buildings, streets, roads, railways, tramways, airfields, irrigation, drainage, embankment and navigation works, flood control works, generation, transmission, and distribution of power, water works, oil and gas installation, electric lines, wireless, radio, television, telephone, telegraph and overseas communications, dams, canals, reservoirs, water course, tunnels, bridges, viaducts, aqueducts, pipelines, towers, cooling towers, transmission towers etc.\""
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "definitions_md": "&amp;quot;Building &amp;amp; Other Construction Work includes construction, alteration, repairs, maintenance or demolition of buildings, streets, roads, railways, tramways, airfields, irrigation, drainage, embankment and navigation works, flood control works, generation, transmission, and distribution of power, water works, oil and gas installation, electric lines, wireless, radio, television, telephone, telegraph and overseas communications, dams, canals, reservoirs, water course, tunnels, bridges, viaducts, aqueducts, pipelines, towers, cooling towers, transmission towers etc.&amp;quot;\n",
+        "source": "https://wblc.gov.in/sites/default/files/ckfinder/userfiles/images/BOCW.pdf"
+      }
+    ],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "&gt; **For Registration as a Building/ Construction Worker:**\n\n\n  - The applicant should be a resident of West Bengal.\n  - The applicant should be a Building/ Construction Worker.\n  - The applicant should be between 18 and 60 years.\n  - The applicant should have engaged in building and construction work for at least 90 days in a given year.\n\n&gt; **For the Application of the Welfare Scheme:**\n\n\n  - The applicant should be a nominee of a deceased registered member Under the Building and Other Construction Workers Welfare Board of West Bengal.\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "block_quote",
+              "children": [
+                {
+                  "text": "For Registration as a Building/ Construction Worker:",
+                  "bold": true,
+                  "underline": true
+                }
+              ]
+            },
+            {
+              "type": "ul_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant should be a resident of West Bengal."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant should be a Building/ Construction Worker."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant should be between 18 and 60 years."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant should have engaged in building and construction work for at least 90 days in a given year."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "block_quote",
+              "children": [
+                {
+                  "text": "For the Application of the Welfare Scheme:",
+                  "bold": true,
+                  "underline": true
+                }
+              ]
+            },
+            {
+              "type": "ul_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant should be a nominee of a deceased registered member Under the Building and Other Construction Workers Welfare Board of West Bengal."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "feftcwwb"
+}

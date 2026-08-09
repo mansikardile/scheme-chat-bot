@@ -1,0 +1,762 @@
+{
+  "_id": "65cddd40cd96dc5e0754009a",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": true,
+      "tags": [
+        "Unorganized Worker",
+        "Pension",
+        "Financial Assistance",
+        "Senior Citizen"
+      ],
+      "schemeName": "Mukhyamantri Samajik Sahayata Prakalpa - Unorganized Workers",
+      "schemeShortTitle": "MSSP-UW",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce87cd6d1a3bde4685312",
+          "label": "Social welfare & Empowerment"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Pension",
+          "label": "Pension"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "schemeFor": "Individual",
+      "state": {
+        "value": 16,
+        "label": "Tripura"
+      },
+      "nodalDepartmentName": {
+        "value": 1059,
+        "label": "Directorate Of Social Welfare & Social Education"
+      }
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://socialwelfare.tripura.gov.in/sites/default/files/Notification%20for%20Mukhyamantri%20Samajik%20Sahayata%20Prakalpa.pdf"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The scheme “Mukhyamantri Samajik Sahayata Prakalpa- Unorganized Workers&quot; is a Pension Scheme launched by the Directorate of Social Welfare and Social Education, Government of Tripura. The objective of this scheme is to provide financial assistance to the Unorganized Workers (home-based workers, self-employed workers or a wage workers) in the unorganized sector.\n",
+      "benefits_md": "\n- A pension amount of ₹2,000/- per month.\n\n> **Mode of Disbursal:**\n\nThe sanctioned grant will be transferred directly to the individual bank account of the applicant.\n> **Beneficiary List:**\n\nThe list of beneficiaries will be made available on the [official website](https://socialwelfare.tripura.gov.in/) of the Social Welfare &amp; Social Education Department, Govt. of Tripura.\n<br>\n\n",
+      "exclusions_md": "\n- Income taxpayers are not eligible.\n- Government employees are not eligible.\n- The individuals whose family members are already getting benefits under any of the Category/Sub-Category under ‘Mukhyamantri Samajik Sahayata Prakalpa&#39; (except infirm &amp; PwDs) are not eligible.\n- Pensioners who are getting benefits under the “National Social Assistance Program (NSAP)” or the 32 State Social Pension Schemes run by the Social Welfare &amp; Social Education Department, Govt. of Tripura are not eligible.\n\n<br>\n\n",
+      "briefDescription": "The scheme “Mukhyamantri Samajik Sahayata Prakalpa-Unorganized Workers\" was launched by the Directorate of Social Welfare and Social Education, Government of Tripura. The objective of this scheme is to provide financial benefits to Unorganized Workers (home-based, self-employed or wage workers). ",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The scheme “Mukhyamantri Samajik Sahayata Prakalpa- Unorganized Workers\" is a Pension Scheme launched by the Directorate of Social Welfare and Social Education, Government of Tripura. The objective of this scheme is to provide financial assistance to the Unorganized Workers (home-based workers, self-employed workers or a wage workers) in the unorganized sector."
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "A pension amount of ₹2,000/- per month."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "Mode of Disbursal:",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The sanctioned grant will be transferred directly to the individual bank account of the applicant."
+            }
+          ]
+        },
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "bold": true,
+              "text": "Beneficiary List:"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The list of beneficiaries will be made available on the "
+            },
+            {
+              "type": "link",
+              "link": "https://socialwelfare.tripura.gov.in/",
+              "children": [
+                {
+                  "text": "official website"
+                }
+              ]
+            },
+            {
+              "text": " of the Social Welfare & Social Education Department, Govt. of Tripura."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ],
+      "exclusions": [
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Income taxpayers are not eligible."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Government employees are not eligible."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The individuals whose family members are already getting benefits under any of the Category/Sub-Category under ‘Mukhyamantri Samajik Sahayata Prakalpa' (except infirm & PwDs) are not eligible."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Pensioners who are getting benefits under the “National Social Assistance Program (NSAP)” or the 32 State Social Pension Schemes run by the Social Welfare & Social Education Department, Govt. of Tripura are not eligible."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "process": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 1:",
+                "bold": true
+              },
+              {
+                "text": " The applicant should visit the Office of the Child Development Project Officer, and request a hard copy of the prescribed format of the "
+              },
+              {
+                "type": "link",
+                "link": "https://socialwelfare.tripura.gov.in/sites/default/files/Mukhyamantri%20Samajik%20Sahayata%20Prakalpa%20%28Appendix%20I-VII%29.pdf",
+                "children": [
+                  {
+                    "text": "application form "
+                  }
+                ]
+              },
+              {
+                "text": "free of cost. "
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "OR"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "The interested applicant should take print of the "
+              },
+              {
+                "type": "link",
+                "link": "https://socialwelfare.tripura.gov.in/sites/default/files/Mukhyamantri%20Samajik%20Sahayata%20Prakalpa%20%28Appendix%20I-VII%29.pdf",
+                "children": [
+                  {
+                    "text": "prescribed format"
+                  }
+                ]
+              },
+              {
+                "text": " of the application form."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2:",
+                "bold": true
+              },
+              {
+                "text": " In the application form, fill in all the mandatory fields (signed across, if required), and attach copies of all the mandatory documents (self-attest, if required)."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 3:",
+                "bold": true
+              },
+              {
+                "text": " Submit the duly filled and signed application form along with the documents to the CDPO Office under which the project his/her residence is located. "
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 4:",
+                "bold": true
+              },
+              {
+                "text": " Request a receipt or acknowledgement from the concerned authority to whom the application has been submitted. Ensure that the receipt contains essential details such as the date and time of submission, and a unique identification number (if applicable)."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          }
+        ],
+        "process_md": "**Step 1:** The applicant should visit the Office of the Child Development Project Officer, and request a hard copy of the prescribed format of the [application form ](https://socialwelfare.tripura.gov.in/sites/default/files/Mukhyamantri%20Samajik%20Sahayata%20Prakalpa%20%28Appendix%20I-VII%29.pdf)free of cost. \nOR\nThe interested applicant should take print of the [prescribed format](https://socialwelfare.tripura.gov.in/sites/default/files/Mukhyamantri%20Samajik%20Sahayata%20Prakalpa%20%28Appendix%20I-VII%29.pdf) of the application form.\n**Step 2:** In the application form, fill in all the mandatory fields (signed across, if required), and attach copies of all the mandatory documents (self-attest, if required).\n**Step 3:** Submit the duly filled and signed application form along with the documents to the CDPO Office under which the project his/her residence is located. \n**Step 4:** Request a receipt or acknowledgement from the concerned authority to whom the application has been submitted. Ensure that the receipt contains essential details such as the date and time of submission, and a unique identification number (if applicable).\n<br>\n\n"
+      },
+      {
+        "mode": "Online",
+        "process": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "The eligible beneficiaries may apply directly to the "
+              },
+              {
+                "type": "link",
+                "link": "https://socialwelfare.tripura.gov.in/",
+                "children": [
+                  {
+                    "text": "official website"
+                  }
+                ]
+              },
+              {
+                "text": " of the Directorate of Social Welfare & Social Education, Govt. of Tripura."
+              }
+            ]
+          }
+        ],
+        "process_md": "The eligible beneficiaries may apply directly to the [official website](https://socialwelfare.tripura.gov.in/) of the Directorate of Social Welfare &amp; Social Education, Govt. of Tripura.\n"
+      }
+    ],
+    "schemeDefinitions": [
+      {
+        "name": "Cobbler ",
+        "definition": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Any person engaged in the job mending shoes and which is the primary source of earning of his/her livelihood."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          }
+        ],
+        "definitions_md": "Any person engaged in the job mending shoes and which is the primary source of earning of his/her livelihood.\n<br>\n\n",
+        "source": "https://socialwelfare.tripura.gov.in/sites/default/files/Notification%20for%20Mukhyamantri%20Samajik%20Sahayata%20Prakalpa.pdf"
+      },
+      {
+        "name": "Rickshaw Puller",
+        "definition": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Any person who earns his livelihood by rickshaw pulling and is his primary source of income."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          }
+        ],
+        "definitions_md": "Any person who earns his livelihood by rickshaw pulling and is his primary source of income.\n<br>\n\n",
+        "source": "https://socialwelfare.tripura.gov.in/sites/default/files/Notification%20for%20Mukhyamantri%20Samajik%20Sahayata%20Prakalpa.pdf"
+      },
+      {
+        "name": "Bidi Shramik",
+        "definition": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Any person engaged in the work of making beedi, tobacco, cigar or cigarette and is involved in any process of making beedi, cigar or cigarette. "
+              }
+            ]
+          }
+        ],
+        "definitions_md": "Any person engaged in the work of making beedi, tobacco, cigar or cigarette and is involved in any process of making beedi, cigar or cigarette. \n",
+        "source": "https://socialwelfare.tripura.gov.in/sites/default/files/Notification%20for%20Mukhyamantri%20Samajik%20Sahayata%20Prakalpa.pdf"
+      },
+      {
+        "name": "Motor Shramik",
+        "definition": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Any person engaged in the work of motor driving or associated with motor driving profession such as driver/ conductor/ cleaner etc. (any three wheeler or four wheeler vehicle such as auto/bus/ truck/Jeep etc.)"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          }
+        ],
+        "definitions_md": "Any person engaged in the work of motor driving or associated with motor driving profession such as driver/ conductor/ cleaner etc. (any three wheeler or four wheeler vehicle such as auto/bus/ truck/Jeep etc.)\n<br>\n\n",
+        "source": "https://socialwelfare.tripura.gov.in/sites/default/files/Notification%20for%20Mukhyamantri%20Samajik%20Sahayata%20Prakalpa.pdf"
+      },
+      {
+        "name": "Laundry Worker",
+        "definition": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Any person engaged in the profession of collecting, washing and delivering laundry and works in a laundry."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          }
+        ],
+        "definitions_md": "Any person engaged in the profession of collecting, washing and delivering laundry and works in a laundry.\n<br>\n\n",
+        "source": "https://socialwelfare.tripura.gov.in/sites/default/files/Notification%20for%20Mukhyamantri%20Samajik%20Sahayata%20Prakalpa.pdf"
+      },
+      {
+        "name": "Barber ",
+        "definition": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Any person who cuts men's hair and shaves or trims beards as an occupation."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          }
+        ],
+        "definitions_md": "Any person who cuts men&#39;s hair and shaves or trims beards as an occupation.\n<br>\n\n",
+        "source": "https://socialwelfare.tripura.gov.in/sites/default/files/Notification%20for%20Mukhyamantri%20Samajik%20Sahayata%20Prakalpa.pdf"
+      },
+      {
+        "name": "Handloom Worker",
+        "definition": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Any person whose primary occupation is making fabric by weaving handloom fiber and is his/her main source of income."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          }
+        ],
+        "definitions_md": "Any person whose primary occupation is making fabric by weaving handloom fiber and is his/her main source of income.\n<br>\n\n",
+        "source": "https://socialwelfare.tripura.gov.in/sites/default/files/Notification%20for%20Mukhyamantri%20Samajik%20Sahayata%20Prakalpa.pdf"
+      },
+      {
+        "name": "Fisherman ",
+        "definition": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Any person who is engaged in the profession of catching fish for earning livelihood."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          }
+        ],
+        "definitions_md": "Any person who is engaged in the profession of catching fish for earning livelihood.\n<br>\n\n",
+        "source": "https://socialwelfare.tripura.gov.in/sites/default/files/Notification%20for%20Mukhyamantri%20Samajik%20Sahayata%20Prakalpa.pdf"
+      },
+      {
+        "name": "Folk Artist",
+        "definition": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Any person associated with any of the art form originating among the common people of the region and reflecting their traditional culture."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          }
+        ],
+        "definitions_md": "Any person associated with any of the art form originating among the common people of the region and reflecting their traditional culture.\n<br>\n\n",
+        "source": "https://socialwelfare.tripura.gov.in/sites/default/files/Notification%20for%20Mukhyamantri%20Samajik%20Sahayata%20Prakalpa.pdf"
+      },
+      {
+        "name": "Pottery Worker",
+        "definition": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Any person whose primary occupation is forming vessels and other objects with clay and other ceramic materials."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          }
+        ],
+        "definitions_md": "Any person whose primary occupation is forming vessels and other objects with clay and other ceramic materials.\n<br>\n\n",
+        "source": "https://socialwelfare.tripura.gov.in/sites/default/files/Notification%20for%20Mukhyamantri%20Samajik%20Sahayata%20Prakalpa.pdf"
+      },
+      {
+        "name": "Carpenter ",
+        "definition": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Any person whose primary occupation is making or repairing wooden objects and structures."
+              }
+            ]
+          }
+        ],
+        "definitions_md": "Any person whose primary occupation is making or repairing wooden objects and structures.\n",
+        "source": "https://socialwelfare.tripura.gov.in/sites/default/files/Notification%20for%20Mukhyamantri%20Samajik%20Sahayata%20Prakalpa.pdf"
+      },
+      {
+        "name": "Blacksmith ",
+        "definition": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Any person engaged in the profession of making and repairing things in iron."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          }
+        ],
+        "definitions_md": "Any person engaged in the profession of making and repairing things in iron.\n<br>\n\n",
+        "source": "https://socialwelfare.tripura.gov.in/sites/default/files/Notification%20for%20Mukhyamantri%20Samajik%20Sahayata%20Prakalpa.pdf"
+      },
+      {
+        "name": "Scheduled Castes traditionally connected with sanitation work",
+        "definition": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Any person belonging to Scheduled caste community and is engaged traditionally in sweeping, cleaning and other sanitation works."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          }
+        ],
+        "definitions_md": "Any person belonging to Scheduled caste community and is engaged traditionally in sweeping, cleaning and other sanitation works.\n<br>\n\n",
+        "source": "https://socialwelfare.tripura.gov.in/sites/default/files/Notification%20for%20Mukhyamantri%20Samajik%20Sahayata%20Prakalpa.pdf"
+      },
+      {
+        "name": "Greha Shahayika Female Domestic Worker",
+        "definition": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Any woman who earns her livelihood by providing domestic help to households of others. Their work includes cleaning the house, cooking, washing, taking care of children or elderly etc."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          }
+        ],
+        "definitions_md": "Any woman who earns her livelihood by providing domestic help to households of others. Their work includes cleaning the house, cooking, washing, taking care of children or elderly etc.\n<br>\n\n",
+        "source": "https://socialwelfare.tripura.gov.in/sites/default/files/Notification%20for%20Mukhyamantri%20Samajik%20Sahayata%20Prakalpa.pdf"
+      }
+    ],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n1. The applicant should be a resident of Tripura.\n1. The annual income of the family of the applicant should not exceed ₹1,00,000/-.\n1. The age of the applicant should be 55 years and above (except for ‘Greha Sahayika’).\n1. In the case of ‘Greha Shahayika’ (Female Domestic Worker), the age of the applicant should be between 23 to 59 years.\n1. If the family has children in the age group of 6 to 14 years, those children must be enrolled in a school recognized by the Government of Tripura.\n\n<br>\n\n**NOTE:** The assistance under this scheme will be stopped immediately in the following cases:\n1.   Death of Beneficiary.\n2.   Fulfillment of any exclusion criteria during the lifetime of a beneficiary:\n\n- Remarriage of a widow.\n- A member of the family of the beneficiary getting a Government Job.\n- The annual family income of the beneficiary exceeding ₹1,00,000/-, etc.\n\n<br>\n\n<br>\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should be a resident of Tripura."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The annual income of the family of the applicant should not exceed ₹1,00,000/-."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The age of the applicant should be 55 years and above (except for ‘Greha Sahayika’)."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "In the case of ‘Greha Shahayika’ (Female Domestic Worker), the age of the applicant should be between 23 to 59 years."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "If the family has children in the age group of 6 to 14 years, those children must be enrolled in a school recognized by the Government of Tripura."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "NOTE:",
+              "bold": true
+            },
+            {
+              "text": " The assistance under this scheme will be stopped immediately in the following cases:"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "1.   Death of Beneficiary."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "2.   Fulfillment of any exclusion criteria during the lifetime of a beneficiary:"
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Remarriage of a widow."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "A member of the family of the beneficiary getting a Government Job."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The annual family income of the beneficiary exceeding ₹1,00,000/-, etc."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "mssp-uw"
+}

@@ -1,0 +1,555 @@
+{
+  "_id": "66c70ef1bfeff774c3914334",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": true,
+      "tags": [
+        "Female",
+        "Financial Assistance",
+        "Health",
+        "Nutrition"
+      ],
+      "schemeName": "Mukhyamantri - Majhi Ladki Bahin Yojana",
+      "schemeShortTitle": "MMLBY",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce87cd6d1a3bde4685312",
+          "label": "Social welfare & Empowerment"
+        },
+        {
+          "value": "64f57d10ffb93104c7006c97",
+          "label": "Women and Child"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Financial assistance",
+          "label": "Financial assistance"
+        },
+        {
+          "value": "Citizen empowerment",
+          "label": "Citizen empowerment"
+        }
+      ],
+      "schemeOpenDate": "2024-06-28",
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "state": {
+        "value": 27,
+        "label": "Maharashtra"
+      },
+      "nodalDepartmentName": {
+        "value": 27111145,
+        "label": "Women and Child Development Department"
+      },
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://ladlibahinstorage.s3.ap-south-1.amazonaws.com/site-pdf/%E0%A4%AE%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%97%E0%A4%A6%E0%A4%B0%E0%A5%8D%E0%A4%B6%E0%A4%95+%E0%A4%B8%E0%A5%82%E0%A4%9A%E0%A4%A8%E0%A4%BE+%E0%A4%A6%E0%A4%BF.%E0%A5%A8%E0%A5%AD.%E0%A5%A6%E0%A5%AD.%E0%A5%A8%E0%A5%AA.pdf#toolbar=0"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The &quot;Mukhyamantri - Majhi Ladki Bahin Yojana&quot; scheme was launched by the Women and Child Development Department, Government of Maharashtra. The scheme aims to give economic freedom to women in the state age group of 21 to 65 years, improving their health and nutrition and strengthening their decisive role in the family. The women will get a financial benefit of ₹1,500/- through direct benefit transfer (DBT).\n",
+      "benefits_md": "\n- **Financial Assistance of ₹1,500/- per month.** \n\n",
+      "exclusions_md": "\n1. The combined annual family income is more than ₹2,50,000/-.\n1. The family member is an income taxpayer.\n1. The family members are working as regular/permanent employees in a government department/undertaking/board/government of India or local body of the state government or are drawing pensions after retirement. \n1. The beneficiary women received ₹1,500 per month through the financial scheme implemented by other departments of the government.\n1. The family member is a present or former MP/MLA.\n1. The family member is the Chairman/Vice-Chairman/Director/Member of the Board/Corporation/Undertaking of the Government of India or State Government.\n1. A person has a four-wheeler (excluding a tractor) registered in the name of their family members.\n\n",
+      "briefDescription": "The \"Mukhyamantri - Majhi Ladki Bahin Yojana\" is for the economic freedom of women in the state age group of 21 to 65, improving their health and nutrition and strengthening their decisive role in the family. The women will receive a financial benefit through direct benefit transfer.  ",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The \"Mukhyamantri - Majhi Ladki Bahin Yojana\" scheme was launched by the Women and Child Development Department, Government of Maharashtra. The scheme aims to give economic freedom to women in the state age group of 21 to 65 years, improving their health and nutrition and strengthening their decisive role in the family. The women will get a financial benefit of ₹1,500/- through direct benefit transfer (DBT)."
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Financial Assistance of ₹1,500/- per month. ",
+                  "bold": true
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "exclusions": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The combined annual family income is more than ₹2,50,000/-."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The family member is an income taxpayer."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The family members are working as regular/permanent employees in a government department/undertaking/board/government of India or local body of the state government or are drawing pensions after retirement. "
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The beneficiary women received ₹1,500 per month through the financial scheme implemented by other departments of the government."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The family member is a present or former MP/MLA."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The family member is the Chairman/Vice-Chairman/Director/Member of the Board/Corporation/Undertaking of the Government of India or State Government."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "A person has a four-wheeler (excluding a tractor) registered in the name of their family members."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Online",
+        "process": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Registration Process:",
+                "bold": true,
+                "italic": true,
+                "underline": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 01:",
+                "bold": true
+              },
+              {
+                "text": " The interested applicant visit the "
+              },
+              {
+                "type": "link",
+                "link": "https://ladakibahin.maharashtra.gov.in/",
+                "children": [
+                  {
+                    "text": "official website"
+                  }
+                ]
+              },
+              {
+                "text": ". "
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 02:",
+                "bold": true
+              },
+              {
+                "text": " Select \""
+              },
+              {
+                "text": "Applicant Login",
+                "bold": true
+              },
+              {
+                "text": "\" and click on \""
+              },
+              {
+                "text": "Create Account",
+                "bold": true
+              },
+              {
+                "text": ".\""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 03:",
+                "bold": true
+              },
+              {
+                "text": " Complete the registration form with the following details: Full Name as per Aadhaar, Mobile No, Password, Confirm Password, District, Taluka, Village, Municipal Corporation / Council, Authorized Person & Accept Terms and Conditions. "
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 04:",
+                "bold": true
+              },
+              {
+                "text": " Enter the Captcha code and click \"Sign-up.\" You will receive an OTP."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 05:",
+                "bold": true
+              },
+              {
+                "text": " Enter the OTP and the Captcha code again."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 06:",
+                "bold": true
+              },
+              {
+                "text": " Click \""
+              },
+              {
+                "text": "Verify the OTP",
+                "bold": true
+              },
+              {
+                "text": "\" to receive a message confirming that your login was successful."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Application Process:",
+                "bold": true,
+                "italic": true,
+                "underline": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 01:",
+                "bold": true
+              },
+              {
+                "text": " Log in to the portal using your Mobile number, Password, and Captcha to log in."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 02:",
+                "bold": true
+              },
+              {
+                "text": " Click on \""
+              },
+              {
+                "text": "Application of Mukhyamantri - Majhi Ladki Bahin Yojana",
+                "bold": true
+              },
+              {
+                "text": "\" and enter your Aadhaar Number and Captcha."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 03:",
+                "bold": true
+              },
+              {
+                "text": " Click on \""
+              },
+              {
+                "text": "Valid Aadhaar",
+                "bold": true
+              },
+              {
+                "text": "\" and complete the registration form with the applicant's name, bank details, and permanent address."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 04:",
+                "bold": true
+              },
+              {
+                "text": " Upload relevant documents such as an Aadhaar card, Domicile certificate, Ration card, etc."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 05:",
+                "bold": true
+              },
+              {
+                "text": " Click \""
+              },
+              {
+                "text": "Submit",
+                "bold": true
+              },
+              {
+                "text": "\" to receive your application ID via SMS."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Check the Status:",
+                "bold": true,
+                "italic": true,
+                "underline": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 01:",
+                "bold": true
+              },
+              {
+                "text": " Log in to the portal using your Mobile number, Password, and Captcha to log in."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 02:",
+                "bold": true
+              },
+              {
+                "text": " Click on \""
+              },
+              {
+                "text": "Applications Made Earlier",
+                "bold": true
+              },
+              {
+                "text": "\" to view the status of your applications."
+              }
+            ]
+          }
+        ],
+        "process_md": "***Registration Process:***\n**Step 01:** The interested applicant visit the [official website](https://ladakibahin.maharashtra.gov.in/). \n**Step 02:** Select &quot;**Applicant Login**&quot; and click on &quot;**Create Account**.&quot;\n**Step 03:** Complete the registration form with the following details: Full Name as per Aadhaar, Mobile No, Password, Confirm Password, District, Taluka, Village, Municipal Corporation / Council, Authorized Person &amp; Accept Terms and Conditions. \n**Step 04:** Enter the Captcha code and click &quot;Sign-up.&quot; You will receive an OTP.\n**Step 05:** Enter the OTP and the Captcha code again.\n**Step 06:** Click &quot;**Verify the OTP**&quot; to receive a message confirming that your login was successful.\n<br>\n\n***Application Process:***\n**Step 01:** Log in to the portal using your Mobile number, Password, and Captcha to log in.\n**Step 02:** Click on &quot;**Application of Mukhyamantri - Majhi Ladki Bahin Yojana**&quot; and enter your Aadhaar Number and Captcha.\n**Step 03:** Click on &quot;**Valid Aadhaar**&quot; and complete the registration form with the applicant&#39;s name, bank details, and permanent address.\n**Step 04:** Upload relevant documents such as an Aadhaar card, Domicile certificate, Ration card, etc.\n**Step 05:** Click &quot;**Submit**&quot; to receive your application ID via SMS.\n<br>\n\n***Check the Status:***\n**Step 01:** Log in to the portal using your Mobile number, Password, and Captcha to log in.\n**Step 02:** Click on &quot;**Applications Made Earlier**&quot; to view the status of your applications.\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n1. The applicant should be a female.\n1. The applicant should be a resident of Maharashtra state.\n1. The applicant&#39;s age should be between 21-65 years.\n1. The applicant should have their bank account with an Aadhaar link.\n1. The annual income of the applicant&#39;s family should not exceed ₹2,50,000/-. \n1. Outsourced employees, voluntary workers, and contract workers with income up to ₹2,50,000/- are eligible.\n1. The applicant should be any one of the following:\n\n\n\n  - Married Woman \n  - Widowed \n  - Divorced Woman\n  - Abandoned and Destitute Women \n  - One Unmarried Woman in the family\n\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should be a female."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should be a resident of Maharashtra state."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant's age should be between 21-65 years."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should have their bank account with an Aadhaar link."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The annual income of the applicant's family should not exceed ₹2,50,000/-. "
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Outsourced employees, voluntary workers, and contract workers with income up to ₹2,50,000/- are eligible."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should be any one of the following:"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "ul_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Married Woman "
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Widowed "
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Divorced Woman"
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Abandoned and Destitute Women "
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "One Unmarried Woman in the family"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "mmlby"
+}

@@ -1,0 +1,574 @@
+{
+  "_id": "6831ee5277025b42c32d1c60",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Financial Assistance",
+        "Tourism",
+        "Pilgrim",
+        "Yatra",
+        "Mansarovar",
+        "Kailash"
+      ],
+      "schemeName": "Assistance to Pilgrims for Kailash Mansarovar Yatra - Rajasthan",
+      "schemeShortTitle": "APKMY",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce94cd6d1a3bde468536f",
+          "label": "Travel & Tourism"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Tourism in India",
+          "label": "Tourism in India"
+        }
+      ],
+      "schemeOpenDate": "2011-04-01",
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "state": {
+        "value": 8,
+        "label": "Rajasthan"
+      },
+      "nodalDepartmentName": {
+        "value": 8000048,
+        "label": "Devasthan Department"
+      },
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://devasthan.rajasthan.gov.in/Files/Kalish_Mansrovar_Yatra.pdf"
+        },
+        {
+          "title": "Official Website",
+          "url": "https://devasthan.rajasthan.gov.in/Kalish_Mansrovar_Yatra.asp"
+        },
+        {
+          "title": "Application Form",
+          "url": "https://devasthan.rajasthan.gov.in/Files/kailash_masrover_form.pdf"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The &quot;Assistance to Pilgrims for Kailash Mansarovar Yatra&quot; scheme was introduced by the Devasthan Department, Government of Rajasthan, on 1st April 2011. The objective of this scheme is to provide financial support to residents of Rajasthan who successfully complete the Kailash Mansarovar Yatra through the Ministry of External Affairs, Government of India. Under this scheme, financial assistance of up to ₹1,00,000/- is granted to each pilgrim, with a maximum of 100 beneficiaries selected per year.\n",
+      "benefits_md": "> **Financial Assistance** \n\n\n- ₹1,00,000 per selected pilgrim after completing the Yatra.\n\n> **Mode of Disbursement**\n\nDirect transfer to the beneficiary’s bank account via account payee cheque/demand draft, depending on departmental discretion.\n> **Note:**\n\n\n- The Yatra must be completed through the Ministry of External Affairs, Government of India.\n- The benefit is available only once in a lifetime.\n- A maximum of 100 beneficiaries per year.\n- Selection via lottery if applications exceed the quota.\n\n",
+      "briefDescription": "The objective of this scheme is to provide financial support to residents of Rajasthan who successfully complete the Kailash Mansarovar Yatra organized by the Ministry of External Affairs, Govt. of India. Under this scheme, each pilgrim is granted financial assistance of up to ₹1,00,000/-.",
+      "exclusions_md": "<br>\n\n",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The \"Assistance to Pilgrims for Kailash Mansarovar Yatra\" scheme was introduced by the Devasthan Department, Government of Rajasthan, on 1st April 2011. The objective of this scheme is to provide financial support to residents of Rajasthan who successfully complete the Kailash Mansarovar Yatra through the Ministry of External Affairs, Government of India. Under this scheme, financial assistance of up to ₹1,00,000/- is granted to each pilgrim, with a maximum of 100 beneficiaries selected per year."
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "Financial Assistance",
+              "bold": true
+            },
+            {
+              "text": " "
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "₹1,00,000 per selected pilgrim after completing the Yatra."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "Mode of Disbursement",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Direct transfer to the beneficiary’s bank account via account payee cheque/demand draft, depending on departmental discretion."
+            }
+          ]
+        },
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "Note:",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The Yatra must be completed through the Ministry of External Affairs, Government of India."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The benefit is available only once in a lifetime."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "A maximum of 100 beneficiaries per year."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Selection via lottery if applications exceed the quota."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "exclusions": null
+    },
+    "applicationProcess": [
+      {
+        "mode": "Online",
+        "process": [
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "text": "The application dates are announced via departmental notification (typically between June to September)",
+                "bold": true
+              }
+            ]
+          },
+          {
+            "type": "align_justify",
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 1",
+                    "bold": true
+                  },
+                  {
+                    "text": ": The applicant applying for the scheme for the first time needs to register using the icon “Applying for Yatra\" and click on \"New User” at the "
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://kmy.gov.in/?lang=en",
+                    "children": [
+                      {
+                        "text": "Ministry of External Affairs"
+                      }
+                    ]
+                  },
+                  {
+                    "text": " portal by providing accurate and correct information as per their documents."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 2:",
+                    "bold": true
+                  },
+                  {
+                    "text": " After successfully getting registration done, the applicant will get their “login details”."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 3:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Through “Email ID and Password,” the applicant will be able to login into the account using the icon “Existing User” at the Ministry of External Affairs portal."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 4:",
+                    "bold": true
+                  },
+                  {
+                    "text": " After successful login to the portal, the welcome page appeared. On clicking the “Application Form” icon, the applicant will be directed to the application screen."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 5:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Now, the applicant may fill out the complete application form, and on clicking the “Final Submit” button, the application is finally submitted."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 6",
+                    "bold": true
+                  },
+                  {
+                    "text": ": On successful submission of the application, the applicant will receive an SMS and e-mail after successful submission of the application, which can be used for future reference."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "bold": true,
+                "text": "Note:"
+              }
+            ]
+          },
+          {
+            "type": "ul_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "The printed application form with documents must be submitted within 2 months after completing the Yatra."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "text": "Selection & Approval Process",
+                "bold": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "bold": true,
+                "text": "Step 1: "
+              },
+              {
+                "text": "Applications are verified by the Sub-Divisional Officer or Assistant Commissioner of the Devasthan Department."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "bold": true,
+                "text": "Step 2: "
+              },
+              {
+                "text": "Documents are matched with the originals, and a verification note is made."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "bold": true,
+                "text": "Step 3: "
+              },
+              {
+                "text": "Applications are forwarded to the Assistant Commissioner for approval within 15 days."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "bold": true,
+                "text": "Step 4: "
+              },
+              {
+                "text": "Selection through a computerized lottery if applications exceed the annual quota."
+              }
+            ]
+          }
+        ],
+        "process_md": "> **The application dates are announced via departmental notification (typically between June to September)**\n\n**Step 1**: The applicant applying for the scheme for the first time needs to register using the icon “Applying for Yatra&amp;quot; and click on &amp;quot;New User” at the [Ministry of External Affairs](https://kmy.gov.in/?lang=en) portal by providing accurate and correct information as per their documents.\n**Step 2:** After successfully getting registration done, the applicant will get their “login details”.\n**Step 3:** Through “Email ID and Password,” the applicant will be able to login into the account using the icon “Existing User” at the Ministry of External Affairs portal.\n**Step 4:** After successful login to the portal, the welcome page appeared. On clicking the “Application Form” icon, the applicant will be directed to the application screen.\n**Step 5:** Now, the applicant may fill out the complete application form, and on clicking the “Final Submit” button, the application is finally submitted.\n**Step 6**: On successful submission of the application, the applicant will receive an SMS and e-mail after successful submission of the application, which can be used for future reference.\n> **Note:**\n\n\n- The printed application form with documents must be submitted within 2 months after completing the Yatra.\n\n> **Selection &amp; Approval Process**\n\n**Step 1:** Applications are verified by the Sub-Divisional Officer or Assistant Commissioner of the Devasthan Department.\n**Step 2:** Documents are matched with the originals, and a verification note is made.\n**Step 3:** Applications are forwarded to the Assistant Commissioner for approval within 15 days.\n**Step 4:** Selection through a computerized lottery if applications exceed the annual quota.\n"
+      },
+      {
+        "mode": "Offline",
+        "process": [
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "text": "Application Process",
+                "bold": true
+              }
+            ]
+          },
+          {
+            "type": "align_justify",
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "bold": true,
+                    "text": "Step 1: "
+                  },
+                  {
+                    "text": "The interested applicant downloads the "
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://devasthan.rajasthan.gov.in/Files/kailash_masrover_form.pdf",
+                    "children": [
+                      {
+                        "text": "application form"
+                      }
+                    ]
+                  },
+                  {
+                    "text": " from the official website. "
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 2:",
+                    "bold": true
+                  },
+                  {
+                    "text": " In the application form, fill in all the mandatory fields and attach copies of all the mandatory documents (self-attested, if required)."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 3:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Submit the duly filled and signed application form along with the documents to the Assistant Commissioner, Devasthan Department office."
+                  }
+                ]
+              },
+              {
+                "type": "block_quote",
+                "children": [
+                  {
+                    "text": "Note:.",
+                    "bold": true
+                  }
+                ]
+              },
+              {
+                "type": "ul_list",
+                "children": [
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "text": "An application form with documents must be submitted within 2 months after completing the Yatra."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "block_quote",
+                "children": [
+                  {
+                    "text": "Selection & Approval Process",
+                    "bold": true
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "bold": true,
+                    "text": "Step 1: "
+                  },
+                  {
+                    "text": "Applications are verified by the Sub-Divisional Officer or Assistant Commissioner of the Devasthan Department."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "bold": true,
+                    "text": "Step 2: "
+                  },
+                  {
+                    "text": "Documents are matched with the originals, and a verification note is made."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "bold": true,
+                    "text": "Step 3: "
+                  },
+                  {
+                    "text": "Applications are forwarded to the Assistant Commissioner for approval within 15 days."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "bold": true,
+                    "text": "Step 4: "
+                  },
+                  {
+                    "text": "Selection through a computerized lottery if applications exceed the annual quota."
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "process_md": "> **Application Process**\n\n**Step 1:** The interested applicant downloads the [application form](https://devasthan.rajasthan.gov.in/Files/kailash_masrover_form.pdf) from the official website. \n**Step 2:** In the application form, fill in all the mandatory fields and attach copies of all the mandatory documents (self-attested, if required).\n**Step 3:** Submit the duly filled and signed application form along with the documents to the Assistant Commissioner, Devasthan Department office.\n&gt; **Note:.**\n\n\n  - An application form with documents must be submitted within 2 months after completing the Yatra.\n\n&gt; **Selection &amp;amp; Approval Process**\n\n**Step 1:** Applications are verified by the Sub-Divisional Officer or Assistant Commissioner of the Devasthan Department.\n**Step 2:** Documents are matched with the originals, and a verification note is made.\n**Step 3:** Applications are forwarded to the Assistant Commissioner for approval within 15 days.\n**Step 4:** Selection through a computerized lottery if applications exceed the annual quota.\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n   1. The applicant should be a native of Rajasthan.\n   1. The applicant should have successfully completed the Kailash Mansarovar Yatra through the Ministry of External Affairs, Government of India.\n   1. The applicant receives this grant only once in a lifetime.\n\n**Note 1:** 100 pilgrims are selected each year. If there are more applicants than available slots, selection is done through a lottery system.\n**Note 2:** After completing the trip, a certificate from the Ministry of External Affairs confirming the successful completion of the journey is required.\n",
+      "eligibilityDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "ol_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant should be a native of Rajasthan."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant should have successfully completed the Kailash Mansarovar Yatra through the Ministry of External Affairs, Government of India."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant receives this grant only once in a lifetime."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "Note 1:",
+                  "bold": true
+                },
+                {
+                  "text": " 100 pilgrims are selected each year. If there are more applicants than available slots, selection is done through a lottery system."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "Note 2: ",
+                  "bold": true
+                },
+                {
+                  "text": "After completing the trip, a certificate from the Ministry of External Affairs confirming the successful completion of the journey is required."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "apkmy"
+}

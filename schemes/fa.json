@@ -1,0 +1,221 @@
+{
+  "_id": "671a151280ec82b742b8ef73",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Financial Assistance",
+        "Construction Worker",
+        "Labour",
+        "Funeral Expense",
+        "Nominated Heir"
+      ],
+      "schemeName": "Funeral Assistance",
+      "schemeShortTitle": "FA",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce87cd6d1a3bde4685312",
+          "label": "Social welfare & Empowerment"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Financial assistance",
+          "label": "Financial assistance"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "state": {
+        "value": 27,
+        "label": "Maharashtra"
+      },
+      "nodalDepartmentName": {
+        "value": 27111124,
+        "label": "Labour Department"
+      },
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://mahakamgar.maharashtra.gov.in/welfare-scheme-for-building-other-construction-workers.htm"
+        },
+        {
+          "title": "Official Website",
+          "url": "https://mahabocw.in/"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The scheme “Funeral Assistance” is implemented by the Maharashtra Building and Other Construction Workers Welfare Board (MBOCWW), Labour Department, Government of Maharashtra. Under this scheme, the Board provides financial assistance for funeral expenses to the nominated heir of a registered worker in the event of their death.\n",
+      "benefits_md": "\n- In case of the death of a registered worker, an amount of ₹10,000/- is payable as funeral assistance to the nominated heir. \n\n",
+      "briefDescription": "Under this scheme, the “Maharashtra Building & Other Construction Workers Welfare Board” (MBOCWW) provides financial assistance for funeral expenses of ₹10,000/- to the nominated heir of the deceased registered worker in the event of their death. ",
+      "exclusions_md": "",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The scheme “Funeral Assistance” is implemented by the Maharashtra Building and Other Construction Workers Welfare Board (MBOCWW), Labour Department, Government of Maharashtra. Under this scheme, the Board provides financial assistance for funeral expenses to the nominated heir of a registered worker in the event of their death."
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "In case of the death of a registered worker, an amount of ₹10,000/- is payable as funeral assistance to the nominated heir. "
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "process": [
+          {
+            "type": "align_justify",
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step-1:",
+                    "bold": true
+                  },
+                  {
+                    "text": " The interested applicant downloads the "
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://mahabocw.in/wp-content/uploads/2019/06/SCHEME_FINANCE_FORM.pdf",
+                    "children": [
+                      {
+                        "text": "application form"
+                      }
+                    ]
+                  },
+                  {
+                    "text": " from the MBOCWW official website. "
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step-2:",
+                "bold": true
+              },
+              {
+                "text": " In the application form, fill in all the mandatory fields, and attach copies of all the mandatory documents (self-attest, if required)."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step-3:",
+                "bold": true
+              },
+              {
+                "text": " Submit the duly filled and signed application form along with the documents to the Labor Commissioner/Government Labor Officer."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step-4:",
+                "bold": true
+              },
+              {
+                "text": " Request a receipt or acknowledgment from the concerned authority to whom the application has been submitted. Ensure that the receipt contains essential details such as the date and time of submission, and a unique identification number (if applicable)."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          }
+        ],
+        "process_md": "**Step-1:** The interested applicant downloads the [application form](https://mahabocw.in/wp-content/uploads/2019/06/SCHEME_FINANCE_FORM.pdf) from the MBOCWW official website. \n**Step-2:** In the application form, fill in all the mandatory fields, and attach copies of all the mandatory documents (self-attest, if required).\n**Step-3:** Submit the duly filled and signed application form along with the documents to the Labor Commissioner/Government Labor Officer.\n**Step-4:** Request a receipt or acknowledgment from the concerned authority to whom the application has been submitted. Ensure that the receipt contains essential details such as the date and time of submission, and a unique identification number (if applicable).\n<br>\n\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n1. The applicant should be a nominee/legal heir of the deceased worker.\n1. The deceased worker should have been registered with the Maharashtra Building &amp; Other Construction Workers Welfare Board.\n\n<br>\n\n<br>\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should be a nominee/legal heir of the deceased worker."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The deceased worker should have been registered with the Maharashtra Building & Other Construction Workers Welfare Board."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "fa"
+}

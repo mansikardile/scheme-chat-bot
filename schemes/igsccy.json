@@ -1,0 +1,275 @@
+{
+  "_id": "6498a6b1380f8e123543810c",
+  "en": {
+    "basicDetails": {
+      "schemeOpenDate": "2021-06-01",
+      "schemeCloseDate": "2022-03-31",
+      "state": {
+        "value": 8,
+        "label": "Rajasthan"
+      },
+      "nodalMinistryName": null,
+      "nodalDepartmentName": {
+        "value": 8000009,
+        "label": "Employment Department"
+      },
+      "otherMinistryName": null,
+      "otherDepartmentNames": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Citizen empowerment",
+          "label": "Citizen empowerment"
+        }
+      ],
+      "dbtScheme": null,
+      "implementingAgency": null,
+      "tags": [
+        "Empowerment",
+        "Unemployment",
+        "Financial Assistance",
+        "Covid"
+      ],
+      "schemeName": "Indira Gandhi Shehri Credit Card Yojana",
+      "schemeShortTitle": "IGSCCY",
+      "level": {
+        "value": "state",
+        "label": "State"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce87cd6d1a3bde4685312",
+          "label": "Social welfare & Empowerment"
+        }
+      ],
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://jankalyanfile.rajasthan.gov.in//Content/UploadFolder/Scheme/LBD/IGSCCY/DOC_784_04d64203-feac-4d7f-9dfd-5e34ab8534a7.pdf"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The scheme targets street vendors, people providing essential services in the informal sector such as hair dressers, rickshaw-pullers, potters, eaters, cobblers, mechanics, tailors, washermen, paint-painters, plumbing-electric repairmen, etc. and the unemployed. financially empowering the youth Provide and restore.\n",
+      "benefits_md": "\n1. Providing interest-free loan facility up to Rs.50,000/- (fifty thousand). \n1. To promote the development of small businesses in the informal sector. \n1. To encourage self-employment. \n1. To make available financial resources for day-to-day needs. \n1. Mitigating the impact of COVID-19 on the informal business sector.\n1. This scheme will pave the way for the development and promotion of the economy by helping 5 lakh beneficiaries working in the informal business sector of Rajasthan state.\n\n",
+      "briefDescription": "Indira Gandhi Urban Credit Card Scheme-2021 is implemented to provide employment / self-employment opportunities in\nurban areas and to provide financial resources for everyday needs.\n",
+      "exclusions_md": "",
+      "detailedDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "The scheme targets street vendors, people providing essential services in the informal sector such as hair dressers, rickshaw-pullers, potters, eaters, cobblers, mechanics, tailors, washermen, paint-painters, plumbing-electric repairmen, etc. and the unemployed. financially empowering the youth Provide and restore."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 3,
+        "value": "composite",
+        "label": "Composite"
+      },
+      "benefits": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Providing interest-free loan facility up to Rs.50,000/- (fifty thousand). "
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "To promote the development of small businesses in the informal sector. "
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "To encourage self-employment. "
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "To make available financial resources for day-to-day needs. "
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Mitigating the impact of COVID-19 on the informal business sector."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "This scheme will pave the way for the development and promotion of the economy by helping 5 lakh beneficiaries working in the informal business sector of Rajasthan state."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Online",
+        "url": "https://emitra.rajasthan.gov.in/",
+        "process": [
+          {
+            "type": "ol_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Applicants can apply through "
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://emitra.rajasthan.gov.in/emitra/home",
+                    "children": [
+                      {
+                        "text": "e-Mitra"
+                      }
+                    ]
+                  },
+                  {
+                    "text": " "
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://emitra.rajasthan.gov.in/",
+                    "children": [
+                      {
+                        "text": ""
+                      }
+                    ]
+                  },
+                  {
+                    "text": "centre on the online web portal of the scheme or through own "
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://sso.rajasthan.gov.in/signin",
+                    "children": [
+                      {
+                        "text": "S.S.O. Application"
+                      }
+                    ]
+                  },
+                  {
+                    "text": " or through concerned urban body office. "
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "The applications received on the portal will be verified by the concerned nodal officer in 07 working days. "
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "process_md": "\n1. Applicants can apply through [e-Mitra](https://emitra.rajasthan.gov.in/emitra/home) centre on the online web portal of the scheme or through own [S.S.O. Application](https://sso.rajasthan.gov.in/signin) or through concerned urban body office. 1. The applications received on the portal will be verified by the concerned nodal officer in 07 working days. \n\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n1. The applicant must be a permanent resident of Rajasthan.\n1. The age of the applicant should be between 18 to 40 years.\n1. To get the benefit of this scheme, the monthly income of the applicant should be Rs 15,000/- or less.\n1. The monthly income of the applicant&#39;s family should be Rs. 50,000 or less.\n1. All those small traders who have been provided with a certificate or identity card by the urban body are also eligible for this scheme.\n1. Traders left out in the survey or beneficiary Wonder with a recommendation letter from Town Vending Committee will also be eligible for this scheme.\n1. The vendors selected during the survey will also be eligible for this scheme. (To whom a certificate or identity card has not been issued)\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must be a permanent resident of Rajasthan."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The age of the applicant should be between 18 to 40 years."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "To get the benefit of this scheme, the monthly income of the applicant should be Rs 15,000/- or less."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The monthly income of the applicant's family should be Rs. 50,000 or less."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "All those small traders who have been provided with a certificate or identity card by the urban body are also eligible for this scheme."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Traders left out in the survey or beneficiary Wonder with a recommendation letter from Town Vending Committee will also be eligible for this scheme."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The vendors selected during the survey will also be eligible for this scheme. (To whom a certificate or identity card has not been issued)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "igsccy"
+}

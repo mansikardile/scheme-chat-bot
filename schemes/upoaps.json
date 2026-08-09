@@ -1,0 +1,271 @@
+{
+  "_id": "64267cc5dab6343ea3327c7a",
+  "en": {
+    "basicDetails": {
+      "schemeOpenDate": null,
+      "schemeCloseDate": null,
+      "state": {
+        "value": 9,
+        "label": "Uttar Pradesh"
+      },
+      "nodalMinistryName": null,
+      "nodalDepartmentName": {
+        "value": 90000049,
+        "label": "Department of Social Welfare"
+      },
+      "otherMinistryName": null,
+      "otherDepartmentNames": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Pension",
+          "label": "Pension"
+        }
+      ],
+      "dbtScheme": null,
+      "implementingAgency": null,
+      "tags": [
+        "Uttar Pradesh",
+        "Old Age",
+        "Pension Scheme"
+      ],
+      "schemeName": "Uttar Pradesh Old Age Pension Scheme",
+      "schemeShortTitle": "UPOAPS",
+      "level": {
+        "value": "state",
+        "label": "State"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce87cd6d1a3bde4685312",
+          "label": "Social welfare & Empowerment"
+        }
+      ],
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://sspy-up.gov.in/docs/oap_yojna_vishya.pdf"
+        },
+        {
+          "title": "Application Form",
+          "url": "https://sspy-up.gov.in/docs/form_oap.pdf"
+        }
+      ],
+      "schemeImageUrl": "",
+      "briefDescription": "The Government of Uttar Pradesh has introduced an old-age pension scheme for the benefit of the senior citizens in the state. Under this scheme, eligible senior citizens will be provided with financial assistance in the form of a monthly pension.",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Features ",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The government will allow only the senior citizens from the economically weaker sections to avail the benefits under this scheme."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Under this Uttar Pradesh old age pension scheme, the Government will transfer the pension amount to the beneficiaries through their bank account"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Benefits",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Monthly pension Rs. 1000/-. "
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "exclusions": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Exclusions",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Not eligible if the applicant is benefited from other pension schemes."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "detailedDescription_md": "**Features** \n\n1. The government will allow only the senior citizens from the economically weaker sections to avail the benefits under this scheme.\n1. Under this Uttar Pradesh old age pension scheme, the Government will transfer the pension amount to the beneficiaries through their bank account\n\n"
+    },
+    "applicationProcess": [
+      {
+        "mode": "Online",
+        "url": "https://sspy-up.gov.in/oap/public_new/UserRegistrationForm.aspx?Scheme=OldAgePension",
+        "process": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Application Process",
+                "bold": true
+              }
+            ]
+          },
+          {
+            "type": "ol_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Applicants need to visit the official "
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://sspy-up.gov.in/HindiPages/index_h.aspx",
+                    "children": [
+                      {
+                        "text": "website"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Select the option \"Old Age Pension\"."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Now choose \"Apply Online\"."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Now applicants need to fill out the form and provide the required information."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Upload required documents (Photograph and Age certificate)."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "And Submit. "
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "**Eligibility** \n\n1. Age should be between 60 to 150.\n1. Applicant should be below poverty line or his/her annual income should be upto for Rural Areas Rs. 46,080/- and Urban Areas Rs. 56,460/-.\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Eligibility ",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Age should be between 60 to 150."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Applicant should be below poverty line or his/her annual income should be upto for Rural Areas Rs. 46,080/- and Urban Areas Rs. 56,460/-."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "upoaps"
+}

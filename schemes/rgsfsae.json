@@ -1,0 +1,401 @@
+{
+  "_id": "648b4b3f481f59106a6991c5",
+  "en": {
+    "basicDetails": {
+      "schemeOpenDate": "2021-10-05",
+      "schemeCloseDate": null,
+      "state": {
+        "value": 8,
+        "label": "Rajasthan"
+      },
+      "nodalMinistryName": null,
+      "nodalDepartmentName": {
+        "value": 8000040,
+        "label": "Technical Education Department"
+      },
+      "otherMinistryName": null,
+      "otherDepartmentNames": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Scholarships and student finance",
+          "label": "Scholarships and student finance"
+        }
+      ],
+      "dbtScheme": true,
+      "implementingAgency": null,
+      "tags": [
+        "Financial Assistance",
+        "Higher Education",
+        "Student Finance"
+      ],
+      "schemeName": "Rajiv Gandhi Scholarship For Academic Excellence",
+      "schemeShortTitle": "RGSFSAE",
+      "level": {
+        "value": "state",
+        "label": "State"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce76cd6d1a3bde4685292",
+          "label": "Education & Learning"
+        }
+      ],
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://schemes.rajasthan.gov.in/scheme/detail/981"
+        },
+        {
+          "title": "Registration",
+          "url": "https://sso.rajasthan.gov.in/signin"
+        },
+        {
+          "title": "Manual",
+          "url": "https://hte.rajasthan.gov.in/files/uploads/RGSAE-APPLICATION-SUBMISSION.pdf"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "Hon’ble Chief Minister of Rajasthan Sh. Ashok Gehlot announced this scheme on 20th August 2021 in commemoration of late Shri Rajiv Gandhi, former Prime Minister of India. In order to provide financial assistance to meritorious students of Rajasthan to study in top foreign universities of the world. \n**Objective**:\n\n1. To assist students of Rajasthan financially to pursue higher studies in the top 150 QS World Universities\n1. International exposure to students for their career development. \n1. To give priority to students having gross family income less than 8 lakh rupees/annum.\n1. To provide better opportunities to female students by earmarking 30 % seats (Income category-wise).\n\n",
+      "benefits_md": "\n1. **E1: Family gross annual income less than 8 Lakh**\n(i). Tuition Fees and Bench fee: Max 50 lakh\n(ii). Living Expenses: 12 Lakh Rupees.\n(iii). One-time advance of Rs 3 Lakh to candidates who will start their course after application on the portal (adjusted against living expenses).\n1. **E2: Family gross annual income 8 – 25 Lakh**\n(i). Tuition Fees and Bench fee: Max 50 lakh\n(ii). Living Expenses: 6 Lakh Rupees\n1. **E3: Family gross annual income above 25 Lakh**\n(i). Tuition Fees and Bench fee: Max 50 lakh\n(ii). No Living Expenses\n\n<br>\n\n",
+      "briefDescription": "In order to provide financial assistance to meritorious students of Rajasthan to study in top foreign universities of the world. The scheme commenced from 5th October 2021. ",
+      "exclusions_md": "",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Hon’ble Chief Minister of Rajasthan Sh. Ashok Gehlot announced this scheme on 20th August 2021 in commemoration of late Shri Rajiv Gandhi, former Prime Minister of India. In order to provide financial assistance to meritorious students of Rajasthan to study in top foreign universities of the world. "
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "bold": true,
+              "text": "Objective"
+            },
+            {
+              "text": ":"
+            }
+          ]
+        },
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "To assist students of Rajasthan financially to pursue higher studies in the top 150 QS World Universities"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "International exposure to students for their career development. "
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "To give priority to students having gross family income less than 8 lakh rupees/annum."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "To provide better opportunities to female students by earmarking 30 % seats (Income category-wise)."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "E1: Family gross annual income less than 8 Lakh",
+                  "bold": true
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "(i). Tuition Fees and Bench fee: Max 50 lakh"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "(ii). Living Expenses: 12 Lakh Rupees."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "(iii). One-time advance of Rs 3 Lakh to candidates who will start their course after application on the portal (adjusted against living expenses)."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "E2: Family gross annual income 8 – 25 Lakh",
+                  "bold": true
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "(i). Tuition Fees and Bench fee: Max 50 lakh"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "(ii). Living Expenses: 6 Lakh Rupees"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "E3: Family gross annual income above 25 Lakh",
+                  "bold": true
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "(i). Tuition Fees and Bench fee: Max 50 lakh"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "(ii). No Living Expenses"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Online",
+        "url": "https://hte.rajasthan.gov.in/online-scholarship",
+        "process": [
+          {
+            "type": "ol_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Applicant to log in to "
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://sso.rajasthan.gov.in",
+                    "children": [
+                      {
+                        "text": "RajSSO"
+                      }
+                    ]
+                  },
+                  {
+                    "text": " Portal using his/her SSOID."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "If SSOID is not available then the applicant to first register on RajSSO Portal to create SSOID and update SSO Profile at first login."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "After successful authentication/login and updation of the SSOID Profile and select the scheme name. "
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Select his/her name, the bank account and fill in personal details."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Upload required document"
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "(i). Domicile Certificate"
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "(ii). Admission Letter/Offer Letter"
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "(iii). Fee Details letters/Documents issued by Foreign University "
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Clicking the “SUBMIT” button. "
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "System will submit the application and a unique APPLICATION-ID will be presented to applicant."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": ""
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "process_md": "\n1. Applicant to log in to [RajSSO](https://sso.rajasthan.gov.in) Portal using his/her SSOID.1. If SSOID is not available then the applicant to first register on RajSSO Portal to create SSOID and update SSO Profile at first login.\n1. After successful authentication/login and updation of the SSOID Profile and select the scheme name. \n1. Select his/her name, the bank account and fill in personal details.\n1. Upload required document\n(i). Domicile Certificate\n(ii). Admission Letter/Offer Letter\n(iii). Fee Details letters/Documents issued by Foreign University \n1. Clicking the “SUBMIT” button. \n1. System will submit the application and a unique APPLICATION-ID will be presented to applicant.\n\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n1. Bonafide Resident of Rajasthan. \n1. Less than 35 years of age on 1st July 2023\n1. Admitted / Obtained offer letter in top 150 World QS ranked Universities as of 1st April, 2023\n1. All disciplines for UG, PG, PhD and Post Doc courses.\n1. Maximum 7.5 % seats ( 37 ) for Engineering, Architecture, Medical, Dentistry courses at UG level\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Bonafide Resident of Rajasthan. "
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Less than 35 years of age on 1st July 2023"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Admitted / Obtained offer letter in top 150 World QS ranked Universities as of 1st April, 2023"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "All disciplines for UG, PG, PhD and Post Doc courses."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Maximum 7.5 % seats ( 37 ) for Engineering, Architecture, Medical, Dentistry courses at UG level"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "rgsfsae"
+}

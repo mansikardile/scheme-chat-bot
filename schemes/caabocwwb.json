@@ -1,0 +1,444 @@
+{
+  "_id": "65bcbf25cd96dc5e073ca693",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": true,
+      "tags": [
+        "Cash Award",
+        "Construction Worker",
+        "Building Worker",
+        "Student",
+        "Labour"
+      ],
+      "schemeName": "Cash Award (A.B.O.C.W.W.B)",
+      "schemeShortTitle": "CA(ABOCWWB)",
+      "implementingAgency": "Assam Building And Other Construction Workers Welfare Board",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce76cd6d1a3bde4685292",
+          "label": "Education & Learning"
+        }
+      ],
+      "schemeSubCategory": null,
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "state": {
+        "value": 18,
+        "label": "Assam"
+      },
+      "nodalDepartmentName": {
+        "value": 1800027,
+        "label": "Labour & Welfare Department"
+      },
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Official Website",
+          "url": "https://labourcommissioner.assam.gov.in/portlet-innerpage/various-welfare-benefits-for-registered-construction-workers"
+        },
+        {
+          "title": "Application Portal",
+          "url": "https://abocwwb.assam.gov.in/"
+        },
+        {
+          "title": "User Manual",
+          "url": "https://labourcommissioner.assam.gov.in/sites/default/files/swf_utility_folder/departments/coi_labour_uneecopscloud_com_oid_14/portlet/level_2/sop_bocw_online_mode_for_uploading.pdf"
+        }
+      ],
+      "schemeImageUrl": "",
+      "briefDescription": "Cash awards shall be given to the three male & three female children of the registered construction workers in each district to those students who score 75% or above, 65% or less than 75%, and 55% or less than 65% mark in HSLC, AHM and H.S. examinations.",
+      "detailedDescription_md": "The “Cash Award” scheme was started by the Assam Building and Other Construction Workers Welfare Board (A.B.O.C.W.W.B), Labour Welfare Department, Government of Assam. Under this scheme, cash awards shall be given to the three male &amp;amp; three female children of the registered construction workers in each district to those students who score 75% or above, 65% or less than 75%, and 55% or less than 65% mark in HSLC, AHM and H.S. examinations.\n",
+      "benefits_md": "\n   1. The cash awards shall be given to the children of the beneficiaries who score 75% or above, 65% or less than 75%, and 55% or less than 65% mark @ ₹5,000/-, ₹4,000/- and ₹3,500/- respectively in HSLC, AHM, and H.S. examinations.\n   1. The Board offers cash awards to three male and three female children of the beneficiaries in each district.\n\n",
+      "exclusions_md": "",
+      "detailedDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "The “Cash Award” scheme was started by the Assam Building and Other Construction Workers Welfare Board (A.B.O.C.W.W.B), Labour Welfare Department, Government of Assam. Under this scheme, cash awards shall be given to the three male & three female children of the registered construction workers in each district to those students who score 75% or above, 65% or less than 75%, and 55% or less than 65% mark in HSLC, AHM and H.S. examinations."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "ol_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The cash awards shall be given to the children of the beneficiaries who score 75% or above, 65% or less than 75%, and 55% or less than 65% mark @ ₹5,000/-, ₹4,000/- and ₹3,500/- respectively in HSLC, AHM, and H.S. examinations."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The Board offers cash awards to three male and three female children of the beneficiaries in each district."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Online",
+        "process": [
+          {
+            "type": "align_justify",
+            "children": [
+              {
+                "type": "block_quote",
+                "children": [
+                  {
+                    "text": "Application Process to apply under the scheme:",
+                    "bold": true,
+                    "underline": true
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 01:",
+                    "bold": true
+                  },
+                  {
+                    "text": " To avail the benefits of the scheme, the eligible applicant may apply through the Official Portal. "
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://abocwwb.assam.gov.in/",
+                    "children": [
+                      {
+                        "text": "https://abocwwb.assam.gov.in/"
+                      }
+                    ]
+                  },
+                  {
+                    "text": ""
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 02:",
+                    "bold": true
+                  },
+                  {
+                    "text": " On the home page of the portal, click on ‘"
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://abocwwb.assam.gov.in/index.php/Base/userLogin",
+                    "children": [
+                      {
+                        "text": "Login Now"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "’ and enter the registered Mobile Number or User ID. OTP received on the registered mobile number should be entered to complete the login."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 03:",
+                    "bold": true
+                  },
+                  {
+                    "text": " The individual console of the applicant gets opened with various functions such as detail updating, Fees due, and benefits eligible."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 04:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Click on ‘Benefit’ and select the applicable scheme (Cash Award Benefit) under the benefit and the portal redirects to an online application form specific to the scheme."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 05:",
+                    "bold": true
+                  },
+                  {
+                    "text": " The applicant may fill up the application with all mandatory fields and upload the necessary documents."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 06:",
+                    "bold": true
+                  },
+                  {
+                    "text": " The applicant submits the application form and a tracking/reference number is generated as a future reference for the applicant."
+                  }
+                ]
+              },
+              {
+                "type": "block_quote",
+                "children": [
+                  {
+                    "text": "Post-Application Process:",
+                    "bold": true,
+                    "underline": true
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 01:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Successfully submitted applications pop up in the concerned Officers console. The officer may assign a subordinate to make verifications through the portal."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 02:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Subsequent to preliminary verification, the application is placed in the scrutiny committee for detailed checks."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 03:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Minutes of the Scrutiny Committee meeting get uploaded and Forwarded to the H.O."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 04: ",
+                    "bold": true
+                  },
+                  {
+                    "text": "Applications/ Pops up in the Officer’s Console of Head Office. Officer assigns to the Assistant concerned and allotted with the District concerned."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 05:",
+                    "bold": true
+                  },
+                  {
+                    "text": " The assistant processes the application through PFMS. Account details get auto-verified in PFMS."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 06:",
+                    "bold": true
+                  },
+                  {
+                    "text": " On successful PFMS verification, Print Advice is generated through PFMS."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 07:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Approving authority approves for disbursement of the benefit through PFMS.  "
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "("
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://labourcommissioner.assam.gov.in/sites/default/files/swf_utility_folder/departments/coi_labour_uneecopscloud_com_oid_14/portlet/level_2/sop_bocw_online_mode_for_uploading.pdf",
+                    "children": [
+                      {
+                        "text": "User Manual"
+                      }
+                    ]
+                  },
+                  {
+                    "text": ")"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "process_md": "&gt; **Application Process to apply under the scheme:**\n\n**Step 01:** To avail the benefits of the scheme, the eligible applicant may apply through the Official Portal. [https://abocwwb.assam.gov.in/](https://abocwwb.assam.gov.in/)\n**Step 02:** On the home page of the portal, click on ‘[Login Now](https://abocwwb.assam.gov.in/index.php/Base/userLogin)’ and enter the registered Mobile Number or User ID. OTP received on the registered mobile number should be entered to complete the login.\n**Step 03:** The individual console of the applicant gets opened with various functions such as detail updating, Fees due, and benefits eligible.\n**Step 04:** Click on ‘Benefit’ and select the applicable scheme (Cash Award Benefit) under the benefit and the portal redirects to an online application form specific to the scheme.\n**Step 05:** The applicant may fill up the application with all mandatory fields and upload the necessary documents.\n**Step 06:** The applicant submits the application form and a tracking/reference number is generated as a future reference for the applicant.\n&gt; **Post-Application Process:**\n\n**Step 01:** Successfully submitted applications pop up in the concerned Officers console. The officer may assign a subordinate to make verifications through the portal.\n**Step 02:** Subsequent to preliminary verification, the application is placed in the scrutiny committee for detailed checks.\n**Step 03:** Minutes of the Scrutiny Committee meeting get uploaded and Forwarded to the H.O.\n**Step 04:** Applications/ Pops up in the Officer’s Console of Head Office. Officer assigns to the Assistant concerned and allotted with the District concerned.\n**Step 05:** The assistant processes the application through PFMS. Account details get auto-verified in PFMS.\n**Step 06:** On successful PFMS verification, Print Advice is generated through PFMS.\n**Step 07:** Approving authority approves for disbursement of the benefit through PFMS.  \n([User Manual](https://labourcommissioner.assam.gov.in/sites/default/files/swf_utility_folder/departments/coi_labour_uneecopscloud_com_oid_14/portlet/level_2/sop_bocw_online_mode_for_uploading.pdf))\n"
+      },
+      {
+        "mode": "Online - via CSC",
+        "process": [
+          {
+            "type": "align_justify",
+            "children": [
+              {
+                "type": "ul_list",
+                "children": [
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "text": "Applicants can approach the nearest CSC (VLE) for required assistance."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "text": "In case VLE assistance is utilized, VLE shall ensure recording reference/tracking numbers at their end and also providing the same to the applicant."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "text": "An applicant can directly check for the status of an application or make telephonic inquiries to the concerned VLE by providing a tracking ID. VLEs shall ensure telephone numbers are displayed in centers at all times."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "process_md": "\n  - Applicants can approach the nearest CSC (VLE) for required assistance.\n  - In case VLE assistance is utilized, VLE shall ensure recording reference/tracking numbers at their end and also providing the same to the applicant.\n  - An applicant can directly check for the status of an application or make telephonic inquiries to the concerned VLE by providing a tracking ID. VLEs shall ensure telephone numbers are displayed in centers at all times.\n\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n   1. The applicant student should be a permanent resident of Assam.\n   1. The applicant’s parent should be engaged in any building &amp;amp; other construction work.\n   1. The applicant’s parent should be registered with the Assam Building and Other Construction Workers Welfare Board.\n   1. The parent of the applicant should have an active membership with the Board.\n   1. To avail of the benefits of the scheme, students must have obtained a minimum of 55% or above in the HSLC, AHM, and H.S. examinations.\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "ol_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant student should be a permanent resident of Assam."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant’s parent should be engaged in any building & other construction work."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant’s parent should be registered with the Assam Building and Other Construction Workers Welfare Board."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The parent of the applicant should have an active membership with the Board."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "To avail of the benefits of the scheme, students must have obtained a minimum of 55% or above in the HSLC, AHM, and H.S. examinations."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "caabocwwb"
+}

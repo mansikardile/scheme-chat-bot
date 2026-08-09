@@ -1,0 +1,618 @@
+{
+  "_id": "65492674ca66628dc2a16809",
+  "en": {
+    "basicDetails": {
+      "schemeOpenDate": null,
+      "schemeCloseDate": null,
+      "nodalMinistryName": null,
+      "nodalDepartmentName": {
+        "value": 2111111,
+        "label": "Agriculture and Farmers Empowerment Department"
+      },
+      "otherMinistryName": null,
+      "otherDepartmentNames": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Scholarships and student finance",
+          "label": "Scholarships and student finance"
+        }
+      ],
+      "dbtScheme": true,
+      "implementingAgency": "Department Of Agriculture & Farmers Empowerment , Odisha",
+      "tags": [
+        "KALIA",
+        "Scholarship",
+        "Professional Course",
+        "Technical Course",
+        "Student"
+      ],
+      "schemeName": "KALIA Scholarship",
+      "schemeShortTitle": "KALIAS",
+      "level": {
+        "value": "state",
+        "label": "State"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce76cd6d1a3bde4685292",
+          "label": "Education & Learning"
+        }
+      ],
+      "state": {
+        "value": 21,
+        "label": "Odisha"
+      },
+      "schemeType": null,
+      "schemeFor": "Family"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://scholarship.odisha.gov.in/Admin/getAfile/eyJpdiI6IlAwWEZmN1NreWtQV2NmamFxbzhiRWc9PSIsInZhbHVlIjoidWFBaEZBUFhPTzhIdW4yUFwvK2tldEpVcjJqbDBPVThMRmNteFBMMGNnV2RaVmJnd2RYYmYza3l0NG82SWthTitCeGNsTTlOTjJEXC90a0p4QXN4aDZlUT09IiwibWFjIjoiYjdjMzI5ZmQ4NTMxNjMyNTFmZjRlZTlhYzVhMTMzNDliZWVlOWEwNzk3MDZjN2MyODBlZDAxYTU5YmFjM2IwNyJ9"
+        },
+        {
+          "title": "State Scholarship Portal",
+          "url": "https://scholarship.odisha.gov.in/website/scholarship-details"
+        }
+      ],
+      "schemeImageUrl": "",
+      "briefDescription": "The objective of the scheme is to extend financial assistance to the children of the beneficiaries under KALIA for pursuing Professional/Technical courses in the State of Odisha.",
+      "detailedDescription_md": "> **Objective:**\n\nThe objective of the scheme is to extend financial assistance to the children of the beneficiaries under KALIA for pursuing Professional/Technical courses in the State of Odisha. It will lead to better access to Higher Education for children of Small and marginal farmers (SF/MF), Actual cultivators (sharecroppers), and Landless Agricultural households (LAH). KALIA Scholarship will support SF/MF &amp;amp; LAH in empowering their families.\n> **Key features of the KALIA Scholarship:**\n\nIn order to ensure proper higher education for their children, support will be provided in the form of a KALIA Scholarship. The scholarship will be given purely on a merit basis to those who are studying professional/technical courses like Medical, Engineering, Agriculture and Allied Nursing, Diploma, and different trades in ITI in Government Institutions of the State.\n",
+      "benefits_md": "\n   1. The tuition fees, annual fees, one-time fees, hostel charges, and any other fees deposited by the student in the colleges/universities/institutions except the caution money/any other refundable money as admissible shall be released to the concerned student Account directly through DBT.\n   1. The mess /hostel charges of ₹1200/- per month &amp;amp; ₹1000/- per month for ten months shall be provided to the Degree &amp;amp; Diploma/Polytechnic/ITI students respectively as per the guideline of ST &amp;amp; SC Development, Minorities and BCW Department.\n\n**Note 01:** For the refund and penalties in different situations, the institution shall follow the guidelines/modalities of the concerned Department/Institution. Any refundable security deposit shall not be part of the scholarship and needs to be paid by the student.\n**Note 02:** The scholarship sanctioned in favour of a student shall be liable for cancellation if he/she is found to have obtained the scholarship by false statements, discontinue his/her studies, or is in receipt of any other scholarship.\n",
+      "exclusions_md": "\n   1. The students taking admission on cost-sharing/Self-financing/NRI will not be eligible for the scholarship.\n\n",
+      "detailedDescription": [
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "Objective:",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "The objective of the scheme is to extend financial assistance to the children of the beneficiaries under KALIA for pursuing Professional/Technical courses in the State of Odisha. It will lead to better access to Higher Education for children of Small and marginal farmers (SF/MF), Actual cultivators (sharecroppers), and Landless Agricultural households (LAH). KALIA Scholarship will support SF/MF & LAH in empowering their families."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "Key features of the KALIA Scholarship:",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "In order to ensure proper higher education for their children, support will be provided in the form of a KALIA Scholarship. The scholarship will be given purely on a merit basis to those who are studying professional/technical courses like Medical, Engineering, Agriculture and Allied Nursing, Diploma, and different trades in ITI in Government Institutions of the State."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 3,
+        "value": "composite",
+        "label": "Composite"
+      },
+      "benefits": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "ol_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The tuition fees, annual fees, one-time fees, hostel charges, and any other fees deposited by the student in the colleges/universities/institutions except the caution money/any other refundable money as admissible shall be released to the concerned student Account directly through DBT."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The mess /hostel charges of ₹1200/- per month & ₹1000/- per month for ten months shall be provided to the Degree & Diploma/Polytechnic/ITI students respectively as per the guideline of ST & SC Development, Minorities and BCW Department."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "Note 01:",
+                  "bold": true
+                },
+                {
+                  "text": " For the refund and penalties in different situations, the institution shall follow the guidelines/modalities of the concerned Department/Institution. Any refundable security deposit shall not be part of the scholarship and needs to be paid by the student."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "Note 02:",
+                  "bold": true
+                },
+                {
+                  "text": " The scholarship sanctioned in favour of a student shall be liable for cancellation if he/she is found to have obtained the scholarship by false statements, discontinue his/her studies, or is in receipt of any other scholarship."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "exclusions": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "ol_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The students taking admission on cost-sharing/Self-financing/NRI will not be eligible for the scholarship."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Online",
+        "process": [
+          {
+            "type": "align_justify",
+            "children": [
+              {
+                "type": "block_quote",
+                "children": [
+                  {
+                    "text": "To apply for the scholarship, eligible students need to follow the following steps:",
+                    "bold": true
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 01:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Click the "
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://scholarship.odisha.gov.in/website/student-registration",
+                    "children": [
+                      {
+                        "text": "Registration link"
+                      }
+                    ]
+                  },
+                  {
+                    "text": " at the "
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://scholarship.odisha.gov.in/website/scholarship-details",
+                    "children": [
+                      {
+                        "text": "Portal"
+                      }
+                    ]
+                  },
+                  {
+                    "text": ", if you are a new user. Existing users can click on the login button."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 02: ",
+                    "bold": true
+                  },
+                  {
+                    "text": "Enter the Aadhaar number and proceed further."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 03:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Check your registered mobile or email to get the user ID and password."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 04",
+                    "bold": true
+                  },
+                  {
+                    "text": ": Click the login link at the portal and enter the User ID and password to apply for the scholarship."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 05:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Provide all necessary details like student, academic, eligibility, and bank information."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 06:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Click on the “Save as draft” button to draft the information or click on the “Next” button to save and proceed with the scholarship form."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 07:",
+                    "bold": true
+                  },
+                  {
+                    "text": " The preview of the completed form will appear on the page. Download the forms and take its print them out."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Note 01:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Advertisements will be published in the local dailies and on the website."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Note 02:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Concerned students are advised to keep the applicant's copy for their reference."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Note 03:",
+                    "bold": true
+                  },
+                  {
+                    "text": " The physical application would not be accepted."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Note 04:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Only verified online applications will be considered for the award of scholarship."
+                  }
+                ]
+              },
+              {
+                "type": "block_quote",
+                "children": [
+                  {
+                    "text": "Post-Application Process:",
+                    "bold": true
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 01: ",
+                    "bold": true
+                  },
+                  {
+                    "text": "The Head of the Institution shall be provided with the user ID and password for the online verification of the application sent by the students."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 02: ",
+                    "bold": true
+                  },
+                  {
+                    "text": "The Head of the Institution has to ensure the genuineness of the student i.e. he/she is studying in the College/Institution for the particular year by checking his/her roll no/admission no."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 03:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Verification of the name of the parent with the help of a High School certificate/10th Pass certificate."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 04: ",
+                    "bold": true
+                  },
+                  {
+                    "text": "Verification regarding day scholar/ hosteller"
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 05:",
+                    "bold": true
+                  },
+                  {
+                    "text": " The Head of the Institution has to ensure that the student is not in receipt of any Scholarships sponsored by other Department of State Govt./ Government of India."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 06:",
+                    "bold": true
+                  },
+                  {
+                    "text": " The verified application should be forwarded to the concerned Chief District Agriculture Officer of the district from which KALIA assistance has been provided online."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 07:",
+                    "bold": true
+                  },
+                  {
+                    "text": " If any student has applied more than one time, only a single record will be authenticated by the principal."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Note 01:",
+                    "bold": true
+                  },
+                  {
+                    "text": " This scheme is automatically renewable on a year-to-year basis in the same category on receipt of satisfactory performance of completion of the academic session from the concerned Institute Head."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Note 02:",
+                    "bold": true
+                  },
+                  {
+                    "text": " The Principal/Head of the Institution will be personally held responsible for authenticating eligible students from the records displayed in their login."
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "process_md": "&gt; **To apply for the scholarship, eligible students need to follow the following steps:**\n\n**Step 01:** Click the [Registration link](https://scholarship.odisha.gov.in/website/student-registration) at the [Portal](https://scholarship.odisha.gov.in/website/scholarship-details), if you are a new user. Existing users can click on the login button.\n**Step 02:** Enter the Aadhaar number and proceed further.\n**Step 03:** Check your registered mobile or email to get the user ID and password.\n**Step 04**: Click the login link at the portal and enter the User ID and password to apply for the scholarship.\n**Step 05:** Provide all necessary details like student, academic, eligibility, and bank information.\n**Step 06:** Click on the “Save as draft” button to draft the information or click on the “Next” button to save and proceed with the scholarship form.\n**Step 07:** The preview of the completed form will appear on the page. Download the forms and take its print them out.\n**Note 01:** Advertisements will be published in the local dailies and on the website.\n**Note 02:** Concerned students are advised to keep the applicant&amp;#39;s copy for their reference.\n**Note 03:** The physical application would not be accepted.\n**Note 04:** Only verified online applications will be considered for the award of scholarship.\n&gt; **Post-Application Process:**\n\n**Step 01:** The Head of the Institution shall be provided with the user ID and password for the online verification of the application sent by the students.\n**Step 02:** The Head of the Institution has to ensure the genuineness of the student i.e. he/she is studying in the College/Institution for the particular year by checking his/her roll no/admission no.\n**Step 03:** Verification of the name of the parent with the help of a High School certificate/10th Pass certificate.\n**Step 04:** Verification regarding day scholar/ hosteller\n**Step 05:** The Head of the Institution has to ensure that the student is not in receipt of any Scholarships sponsored by other Department of State Govt./ Government of India.\n**Step 06:** The verified application should be forwarded to the concerned Chief District Agriculture Officer of the district from which KALIA assistance has been provided online.\n**Step 07:** If any student has applied more than one time, only a single record will be authenticated by the principal.\n**Note 01:** This scheme is automatically renewable on a year-to-year basis in the same category on receipt of satisfactory performance of completion of the academic session from the concerned Institute Head.\n**Note 02:** The Principal/Head of the Institution will be personally held responsible for authenticating eligible students from the records displayed in their login.\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "> **Eligibility criteria for KALIA Scholarship:**\n\n\n   1. The children of all the eligible beneficiaries under the KALIA scheme under the two different components, namely Support to Cultivators for Cultivation and Livelihood Support to Landless Agricultural Households are eligible for the scholarship.\n   1. The parent of the student must be eligible under KALIA during verification at the Chief District Agriculture Officer (CDAO) level.\n   1. The student must have obtained admission in a Government institution of the State on a merit basis. \n   1. The student will not be eligible to get any other scholarship or if he/she is in receipt of another scholarship, he/she will need to shift from the existing scholarship scheme to the KALIA Scholarship, if they so choose. Only one scholarship can be availed.\n   1. The students can get KALIA scholarship for one professional course only &amp;amp; shall not be eligible for getting the scholarship for a second professional course.\n\n**Note:** Government Institutions means an organization set up by the State Government to execute its programme is called Government Institution. The institutions set up by the Central Government and Private Institutions or the State Govt. aided Private Institutions shall not come under the Government Institutions.\n&gt; **Subjects &amp;amp; Courses eligible for the KALIA Scholarship**\n\n\n   1. The Professional or Technical graduation courses like M.B.B.S, BDS, BHMS, BAMS, B.Pharma, B.Sc. (Nursing), PBBSc, B.Sc (Agriculture), BVSc &amp;amp; AH, B.Sc (Horticulture), B.Sc. (Forestry), B.Sc (Fisheries Science), B.Sc. (Community Science), B.Tech (Agril. Engg), B.Tech/B.E in Government Institutes of the State is included under the KALIA Scholarship.\n   1. Similarly, Diploma courses like D. Pharma, DMLT, DMRT, Ophthalmic Assistance/Surgical OPTH Assistance, GNM, ANM, Psychiatric Nursing, Polytechnic &amp;amp; Agri Polytechnic in Government Institutes of the State are included under the KALIA Scholarship.\n   1. Further, courses of different trades in Government ITI&amp;#39;s are included under the KALIA Scholarship scheme.\n\n**Note:** The list of courses may be modified if needed by Government approval.\n",
+      "eligibilityDescription": [
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "Eligibility criteria for KALIA Scholarship:",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "ol_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The children of all the eligible beneficiaries under the KALIA scheme under the two different components, namely Support to Cultivators for Cultivation and Livelihood Support to Landless Agricultural Households are eligible for the scholarship."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The parent of the student must be eligible under KALIA during verification at the Chief District Agriculture Officer (CDAO) level."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The student must have obtained admission in a Government institution of the State on a merit basis. "
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The student will not be eligible to get any other scholarship or if he/she is in receipt of another scholarship, he/she will need to shift from the existing scholarship scheme to the KALIA Scholarship, if they so choose. Only one scholarship can be availed."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The students can get KALIA scholarship for one professional course only & shall not be eligible for getting the scholarship for a second professional course."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "Note:",
+                  "bold": true
+                },
+                {
+                  "text": " Government Institutions means an organization set up by the State Government to execute its programme is called Government Institution. The institutions set up by the Central Government and Private Institutions or the State Govt. aided Private Institutions shall not come under the Government Institutions."
+                }
+              ]
+            },
+            {
+              "type": "block_quote",
+              "children": [
+                {
+                  "text": "Subjects & Courses eligible for the KALIA Scholarship",
+                  "bold": true
+                }
+              ]
+            },
+            {
+              "type": "ol_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The Professional or Technical graduation courses like M.B.B.S, BDS, BHMS, BAMS, B.Pharma, B.Sc. (Nursing), PBBSc, B.Sc (Agriculture), BVSc & AH, B.Sc (Horticulture), B.Sc. (Forestry), B.Sc (Fisheries Science), B.Sc. (Community Science), B.Tech (Agril. Engg), B.Tech/B.E in Government Institutes of the State is included under the KALIA Scholarship."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Similarly, Diploma courses like D. Pharma, DMLT, DMRT, Ophthalmic Assistance/Surgical OPTH Assistance, GNM, ANM, Psychiatric Nursing, Polytechnic & Agri Polytechnic in Government Institutes of the State are included under the KALIA Scholarship."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Further, courses of different trades in Government ITI's are included under the KALIA Scholarship scheme."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "Note:",
+                  "bold": true
+                },
+                {
+                  "text": " The list of courses may be modified if needed by Government approval."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "kalias"
+}

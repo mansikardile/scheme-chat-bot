@@ -1,0 +1,233 @@
+{
+  "_id": "677279040c0f73c674c32668",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Land Purchase",
+        "Housing",
+        "Rural Development",
+        "Financial Assistance"
+      ],
+      "schemeName": "Mukhyamantri Vas Sthal Kray Sahayata Yojana",
+      "schemeShortTitle": "MMVSKSY",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce7d2d6d1a3bde46852c2",
+          "label": "Housing & Shelter"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Housing",
+          "label": "Housing"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "state": {
+        "value": 10,
+        "label": "Bihar"
+      },
+      "nodalDepartmentName": {
+        "value": 10111145,
+        "label": "Rural Development Department"
+      },
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://cdnbbsr.s3waas.gov.in/s31943102704f8f8f3302c2b730728e023/uploads/2022/07/2022072358.pdf"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The &amp;quot;Mukhyamantri Vas Sthal Kray Sahayata Yojana&amp;quot; launched by the Rural Development Department, Bihar, aims to support landless beneficiaries listed under the Pradhan Mantri Awas Yojana–Rural (PMAY-G). The scheme helps those without residential land by offering financial aid directly into their bank accounts to purchase land for housing. \n",
+      "benefits_md": "\n  - **Financial Assistance:** ₹60,000/- for purchasing residential land.\n&lt;br&gt;\n\n",
+      "exclusions_md": "<br>\n\n",
+      "briefDescription": "This scheme provides financial assistance to landless beneficiaries for purchasing residential land, ensuring housing for the underprivileged in rural Bihar.",
+      "detailedDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "The \"Mukhyamantri Vas Sthal Kray Sahayata Yojana\" launched by the Rural Development Department, Bihar, aims to support landless beneficiaries listed under the Pradhan Mantri Awas Yojana–Rural (PMAY-G). The scheme helps those without residential land by offering financial aid directly into their bank accounts to purchase land for housing. "
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "ul_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Financial Assistance:",
+                      "bold": true
+                    },
+                    {
+                      "text": " ₹60,000/- for purchasing residential land."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": ""
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "exclusions": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "process": [
+          {
+            "type": "align_justify",
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 1:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Verify your eligibility as a PMAY-G beneficiary."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 2:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Gather all required documents and submit your application through the designated Rural Development Department office."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 3:",
+                    "bold": true
+                  },
+                  {
+                    "text": " The concerned authority will conduct a physical verification of landlessness and eligibility."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 4:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Upon approval, the amount will be directly transferred to the bank account."
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "process_md": "**Step 1:** Verify your eligibility as a PMAY-G beneficiary.\n**Step 2:** Gather all required documents and submit your application through the designated Rural Development Department office.\n**Step 3:** The concerned authority will conduct a physical verification of landlessness and eligibility.\n**Step 4:** Upon approval, the amount will be directly transferred to the bank account.\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n   1. The applicant must be listed as a beneficiary under PMAY-G.\n   1. The applicant must be landless and houseless.\n   1. The applicant must reside in a village where no government land is available for housing allocation.\n   1. The applicant must have a bank account for direct fund transfer.\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "ol_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant must be listed as a beneficiary under PMAY-G."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant must be landless and houseless."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant must reside in a village where no government land is available for housing allocation."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant must have a bank account for direct fund transfer."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "mmvsksy"
+}

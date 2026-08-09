@@ -1,0 +1,465 @@
+{
+  "_id": "641d27bd02f99acf64387dec",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": null,
+      "tags": [
+        "Student",
+        "Loan",
+        "Education",
+        "CLSS"
+      ],
+      "schemeName": "Bidya Lakshmi Loan",
+      "schemeShortTitle": "BLL",
+      "level": {
+        "value": "state",
+        "label": "State"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce76cd6d1a3bde4685292",
+          "label": "Education & Learning"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Universities and higher education",
+          "label": "Universities and higher education"
+        }
+      ],
+      "schemeOpenDate": "2017-03-21",
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "state": {
+        "value": 18,
+        "label": "Assam"
+      },
+      "nodalDepartmentName": {
+        "value": 1800011,
+        "label": "Finance Department"
+      },
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://finance.assam.gov.in/documents-detail/bidya-lakshmi-loan-for-higher-education-of-the-children-of-regular-state-government"
+        },
+        {
+          "title": "Application Form",
+          "url": "https://finance.assam.gov.in/sites/default/files/Application%20Form%20for%20Education%20Loan-ilovepdf-compressed.pdf"
+        },
+        {
+          "title": "List Of Premier Institutions",
+          "url": "https://finance.assam.gov.in/sites/default/files/Application%20Form%20for%20Education%20Loan-ilovepdf-compressed.pdf"
+        },
+        {
+          "title": "Designated Branches For Sanction Of Loan",
+          "url": "https://finance.assam.gov.in/sites/default/files/Application%20Form%20for%20Education%20Loan-ilovepdf-compressed.pdf"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "Launched in 2016-17, the scheme &amp;quot;Bidya Lakshmi&amp;quot; by the Finance (Audit &amp;amp; Fund) Department, Government of Assam aims to provide higher education loans for the children of regular State Government employees in Assam under the Uecha Siksha Hitoishona Achani (USHA) for Karmachari. The scheme offers loans ranging from ₹5,00,000/- to ₹10,00,000/- at an interest rate of 4%, with additional benefits for employees under the Credit Linked Subsidy Scheme (CLSS). Eligible courses include professional and technical programs in India and abroad, such as Engineering, Medical, Management, and Doctorate programs. The scheme is implemented by the State Bank of India (SBI), with designated branches across all districts and civil sub-divisions.\n",
+      "benefits_md": "\n- The State Government provides a loan of ₹5,00,000/- to ₹10,00,000/- at an interest rate of 4%.\n- Employees with an annual salary income exceeding ₹4,50,000/- can avail up to ₹10,00,000/- at 4% interest after State Government interest subvention.\n- Employees with annual income up to ₹4,50,000/- are eligible under the Credit Linked Subsidy Scheme (CLSS), with 100% subsidy during the moratorium period (course period plus one year). Post-moratorium, the effective interest rate is 4%.\n- Loans can be used for course fees, books, computers, educational equipment, and travel expenses (for studies abroad).\n- No collateral security or third-party guarantee is required for loans up to ₹10,00,000/-.\n- Life insurance policy option available to cover the loan amount.\n- Tax rebate under Section 80(E) of the Indian Income Tax Act.\n\n> **Mode of Disbursement**\n\nThe loan amount is transferred directly to the educational institution’s account (not to the parent/student). It covers Tuition fees, books, computers, equipment, and travel (for abroad studies). The amount is disbursed in lump sum or installments, as per the institution’s fee structure.\n> **Frequency of Disbursement**\n\nInterest is charged monthly, and subsidy amounts are credited back to the individual account upon claim clearance.\n> **Conditions for Disbursement**\n\nThe utilization certificate must be submitted at the end of the financial year.\n",
+      "briefDescription": "\"Bidya Lakshmi\" aims to provide education loans for higher studies to children of Assam State Government employees. Benefits include loans up to ₹10,00,000/- at 4% interest, with subsidies for eligible candidates.",
+      "exclusions_md": "<br>\n\n",
+      "detailedDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "Launched in 2016-17, the scheme \"Bidya Lakshmi\" by the Finance (Audit & Fund) Department, Government of Assam aims to provide higher education loans for the children of regular State Government employees in Assam under the Uecha Siksha Hitoishona Achani (USHA) for Karmachari. The scheme offers loans ranging from ₹5,00,000/- to ₹10,00,000/- at an interest rate of 4%, with additional benefits for employees under the Credit Linked Subsidy Scheme (CLSS). Eligible courses include professional and technical programs in India and abroad, such as Engineering, Medical, Management, and Doctorate programs. The scheme is implemented by the State Bank of India (SBI), with designated branches across all districts and civil sub-divisions."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The State Government provides a loan of ₹5,00,000/- to ₹10,00,000/- at an interest rate of 4%."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Employees with an annual salary income exceeding ₹4,50,000/- can avail up to ₹10,00,000/- at 4% interest after State Government interest subvention."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Employees with annual income up to ₹4,50,000/- are eligible under the Credit Linked Subsidy Scheme (CLSS), with 100% subsidy during the moratorium period (course period plus one year). Post-moratorium, the effective interest rate is 4%."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Loans can be used for course fees, books, computers, educational equipment, and travel expenses (for studies abroad)."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "No collateral security or third-party guarantee is required for loans up to ₹10,00,000/-."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Life insurance policy option available to cover the loan amount."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Tax rebate under Section 80(E) of the Indian Income Tax Act."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "Mode of Disbursement",
+              "bold": true,
+              "underline": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The loan amount is transferred directly to the educational institution’s account (not to the parent/student). It covers Tuition fees, books, computers, equipment, and travel (for abroad studies). The amount is disbursed in lump sum or installments, as per the institution’s fee structure."
+            }
+          ]
+        },
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "Frequency of Disbursement",
+              "bold": true,
+              "underline": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Interest is charged monthly, and subsidy amounts are credited back to the individual account upon claim clearance."
+            }
+          ]
+        },
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "Conditions for Disbursement",
+              "bold": true,
+              "underline": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The utilization certificate must be submitted at the end of the financial year."
+            }
+          ]
+        }
+      ],
+      "exclusions": null
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "url": "https://www.vidyalakshmi.co.in/Students/",
+        "process": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 1:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " The eligible employee should take a print of the "
+              },
+              {
+                "type": "link",
+                "link": "https://finance.assam.gov.in/sites/default/files/Application%20Form%20for%20Education%20Loan-ilovepdf-compressed.pdf",
+                "children": [
+                  {
+                    "text": "prescribed format"
+                  }
+                ]
+              },
+              {
+                "text": " of the application form."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2:",
+                "underline": true,
+                "bold": true
+              },
+              {
+                "text": " In the application form, fill in all the mandatory fields and attach copies of all the mandatory documents (self-attest them, if required)."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 3:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " Submit the duly filled and signed application form along with the documents, within the prescribed period (if any), to the respective Drawing and Disbursing Officer (DDO). Furnish a written undertaking for EMI deduction from salary. "
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 4:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " The DDO sends the application package (form, documents, and check-off letter) to the designated SBI branch in the district or civil sub-division."
+              }
+            ]
+          },
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "text": "Post-Application Processes",
+                "bold": true,
+                "underline": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 1:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " The bank reviews the application, confirms eligibility, and approves the loan if all criteria are met. The loan amount is then disbursed directly to the educational institution."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " Once repayment begins, SBI automatically deducts the Equated Monthly Installments (EMIs) from the applicant’s salary account using the check-off facility."
+              }
+            ]
+          }
+        ],
+        "process_md": "**Step 1:** The eligible employee should take a print of the [prescribed format](https://finance.assam.gov.in/sites/default/files/Application%20Form%20for%20Education%20Loan-ilovepdf-compressed.pdf) of the application form.\n**Step 2:** In the application form, fill in all the mandatory fields and attach copies of all the mandatory documents (self-attest them, if required).\n**Step 3:** Submit the duly filled and signed application form along with the documents, within the prescribed period (if any), to the respective Drawing and Disbursing Officer (DDO). Furnish a written undertaking for EMI deduction from salary. \n**Step 4:** The DDO sends the application package (form, documents, and check-off letter) to the designated SBI branch in the district or civil sub-division.\n> **Post-Application Processes**\n\n**Step 1:** The bank reviews the application, confirms eligibility, and approves the loan if all criteria are met. The loan amount is then disbursed directly to the educational institution.\n**Step 2:** Once repayment begins, SBI automatically deducts the Equated Monthly Installments (EMIs) from the applicant’s salary account using the check-off facility.\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "> **For the Parent**\n\n\n- The parent should be a regular, in-service State Government Employee of Assam.\n- The parent should have at least 5 years of residual pensionable service.\n- The employees with annual income exceeding ₹4,50,000/- can avail up to ₹10,00,000/-.\n- The employees with annual income up to ₹4,50,000/- are eligible under CLSS.\n- The employee must have a salary account with check-off facility (for EMI deductions).\n- The employee must be a co-borrower in the loan application. The employee’s name must be included in the loan application alongside the child (the student).\n\n> **For the Child**\n\n\n- The child must be admitted to a technical/higher educational institution recognized by UGC (University Grants Commission)/ AICTE (All India Council for Technical Education)/ Government-approved colleges/universities in Assam or anywhere in India/ Premier institutions (for studies abroad).\n\n\n- The child must be pursuing one of the following approved courses:\n\n**In India:** Engineering, Medical, Agriculture, Veterinary, Law, Dental, Management, Computer Science, Chartered Accountancy (CA), Cost and Management Accountancy (ICWA), Chartered Financial Analyst (CFA), Master of Computer Applications (MCA), Master of Science (MS), Graduation in professional/technical courses, Doctorate (PhD).\n**Abroad:** Courses conducted by premier institutions like CIMA (Chartered Institute of Management Accountants, London) or CPA (Certified Public Accountant, USA).\n\n- The child must be a co-borrower in the loan application. The child’s name must be included in the loan application alongside the parent (government employee).\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "For the Parent",
+              "bold": true,
+              "underline": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The parent should be a regular, in-service State Government Employee of Assam."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The parent should have at least 5 years of residual pensionable service."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The employees with annual income exceeding ₹4,50,000/- can avail up to ₹10,00,000/-."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The employees with annual income up to ₹4,50,000/- are eligible under CLSS."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The employee must have a salary account with check-off facility (for EMI deductions)."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The employee must be a co-borrower in the loan application. The employee’s name must be included in the loan application alongside the child (the student)."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "For the Child",
+              "bold": true,
+              "underline": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The child must be admitted to a technical/higher educational institution recognized by UGC (University Grants Commission)/ AICTE (All India Council for Technical Education)/ Government-approved colleges/universities in Assam or anywhere in India/ Premier institutions (for studies abroad)."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The child must be pursuing one of the following approved courses:"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "In India:",
+              "bold": true,
+              "underline": true
+            },
+            {
+              "text": " Engineering, Medical, Agriculture, Veterinary, Law, Dental, Management, Computer Science, Chartered Accountancy (CA), Cost and Management Accountancy (ICWA), Chartered Financial Analyst (CFA), Master of Computer Applications (MCA), Master of Science (MS), Graduation in professional/technical courses, Doctorate (PhD)."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Abroad:",
+              "bold": true,
+              "underline": true
+            },
+            {
+              "text": " Courses conducted by premier institutions like CIMA (Chartered Institute of Management Accountants, London) or CPA (Certified Public Accountant, USA)."
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The child must be a co-borrower in the loan application. The child’s name must be included in the loan application alongside the parent (government employee)."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "bll"
+}

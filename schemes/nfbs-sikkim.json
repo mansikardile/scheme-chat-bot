@@ -1,0 +1,463 @@
+{
+  "_id": "6446522f0fdbe339f9bb737c",
+  "en": {
+    "basicDetails": {
+      "schemeOpenDate": "2016-04-01",
+      "schemeCloseDate": null,
+      "state": {
+        "value": 11,
+        "label": "Sikkim"
+      },
+      "nodalMinistryName": null,
+      "nodalDepartmentName": {
+        "value": 11111156,
+        "label": "Women & Child Welfare Department"
+      },
+      "otherMinistryName": null,
+      "otherDepartmentNames": null,
+      "targetBeneficiaries": [
+        {
+          "value": "family",
+          "label": "Family"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Financial assistance",
+          "label": "Financial assistance"
+        },
+        {
+          "value": "Citizen empowerment",
+          "label": "Citizen empowerment"
+        }
+      ],
+      "dbtScheme": true,
+      "implementingAgency": "Women & Child Welfare Department, Govt. Of Sikkim",
+      "tags": [
+        "Family",
+        "Breadwinner",
+        "Financial Assistance",
+        "Below Poverty Line",
+        "Direct Benefit Transfer"
+      ],
+      "schemeName": "National Family Benefit Scheme - Sikkim",
+      "schemeShortTitle": "NFBS-SIKKIM",
+      "level": {
+        "value": "state",
+        "label": "State"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce87cd6d1a3bde4685312",
+          "label": "Social welfare & Empowerment"
+        }
+      ],
+      "schemeFor": "Family"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Website",
+          "url": "https://pensionscheme.sikkim.gov.in"
+        },
+        {
+          "title": "Guideline",
+          "url": "http://sikkimsocialwelfare.gov.in/wp-content/uploads/2015/10/NFBS-Notification-2017.pdf"
+        }
+      ],
+      "schemeImageUrl": "",
+      "briefDescription": "The scheme “National Family Benefit Scheme (NFBS)” was launched in 2016 by the Department of Women & Child Welfare, Govt. of Sikkim. Under this scheme, a lump sum amount of ₹ 30,000/- as financial assistance is provided to the bereaved household in the event of the death of the \"Primary breadwinner\"",
+      "detailedDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "The scheme “National Family Benefit Scheme (NFBS)” was launched in 2016 by the Department of Women & Child Welfare, Govt. of Sikkim. Under this scheme, a lump sum amount of ₹ 30,000/- as financial assistance is provided to the bereaved household in the event of the death of the \"Primary breadwinner\" belonging to the Below Poverty Line (BPL) Category. The one-time grant amount consists of Central and State Government Share. (i.e. ₹ 20,000/- as Central Share and ₹ 10,000/- as State Share)"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The beneficiary will receive a one-time grant of ₹ 30,000/- as financial assistance."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The assistance would be given to every case of death of a breadwinner in a family of the Below Poverty Line (BPL) category."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "exclusions": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ],
+      "detailedDescription_md": "The scheme “National Family Benefit Scheme (NFBS)” was launched in 2016 by the Department of Women &amp;amp; Child Welfare, Govt. of Sikkim. Under this scheme, a lump sum amount of ₹ 30,000/- as financial assistance is provided to the bereaved household in the event of the death of the &amp;quot;Primary breadwinner&amp;quot; belonging to the Below Poverty Line (BPL) Category. The one-time grant amount consists of Central and State Government Share. (i.e. ₹ 20,000/- as Central Share and ₹ 10,000/- as State Share)\n"
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "url": "http://sikkimsocialwelfare.gov.in/wp-content/uploads/2015/12/Application-Form-for-all-pension-schemes.pdf",
+        "process": [
+          {
+            "type": "align_justify",
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 01",
+                    "bold": true
+                  },
+                  {
+                    "text": ": The applicant has to approach their respective State Social Welfare Department and obtain the application form from the concerned officer."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": ""
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 02",
+                    "bold": true
+                  },
+                  {
+                    "text": ": Fill in all the mandatory fields of the application form and attach all the (self-attested) mandatory documents and submit it to the designated receiving authority."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 03",
+                "bold": true
+              },
+              {
+                "text": ": On receipt of an application in the prescribed Form, the same shall be scrutinized by the Selection Committee. Thereafter, the approval shall be accorded by the Secretary."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "align_justify",
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 04",
+                    "bold": true
+                  },
+                  {
+                    "text": ": The grant and payment shall be distributed through Direct Benefit Transfer System or any other system as may be decided by the Sanctioning / Competent Authority from time to time."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "mode": "Online",
+        "url": "https://sso.sikkim.gov.in/account/login?returnUrl=%2Fconnect%2Fauthorize%2Fcallback%3Fclient_id%3Dcitizenservices%26redirect_uri%3Dhttps%253A%252F%252Fpensionscheme.sikkim.gov.in%252F%26response_mode%3Dform_post%26response_type%3Dcode%2520id_token%26scope%3Dopenid%2520profile%2520email%2520phone_number%2520sharedaccessapi%2520server_api%2520role%2520department%2520offline_access%26state%3DOpenIdConnect.AuthenticationProperties%253DFoPiklOB0ea2akeWyRWTT1Wjbcpq-aXX8oGx7TvZ32g1PSLvYuBZjj1rNo10nifPE2cYzhgy1KxRZLWhIsMIjvg9Nz6dVos0Ee_ktfGhBfickxvv-08nGkx_GLzP-KtNbDuEXVIqddROK-yZtgN3DMz7PBtU37eyWGHcmNRe5EwMXLYpsr4Jb1vY1Y05aexCqw6yHBbvAV8ZdzBgzSnjOGMnhMOx8KmKUhvXqDke-cm1NYq3gosenOXYeGj_t3CC%26nonce%3D638179183448508806.YjUwMTM0NDQtYjUxMC00YmU4LWE5N2YtNzY4MDc2YjM3YTg4MjgyNTIzNzgtNDE0ZS00ZWViLTg2N2EtYjdiOWVhMDdkNThl%26x-client-SKU%3DID_NET451%26x-client-ver%3D5.3.0.0",
+        "process": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Registration:",
+                "bold": true
+              }
+            ]
+          },
+          {
+            "type": "align_justify",
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 01:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Visit the official website:  "
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://pensionscheme.sikkim.gov.in",
+                    "children": [
+                      {
+                        "text": "https://pensionscheme.sikkim.gov.in"
+                      }
+                    ]
+                  },
+                  {
+                    "text": ""
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 02:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Click “Create Account”. On the registration page, fill in the mandatory details (Username, Gender, First Name, Last Name, Email, Mobile Number, and Password). Fill in the Captcha Code and click \"Register\". The login credentials will be sent to your registered Email ID / Mobile Number."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": ""
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Application:",
+                    "bold": true
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 01:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Visit the official website: "
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://pensionscheme.sikkim.gov.in",
+                    "children": [
+                      {
+                        "text": "https://pensionscheme.sikkim.gov.in"
+                      }
+                    ]
+                  },
+                  {
+                    "text": ""
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 02:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Click “Apply now” and log in."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 03:",
+                    "bold": true
+                  },
+                  {
+                    "text": " On the application page, fill in all the mandatory fields and upload the required documents in the appropriate file size and file type. Upon successful submission of the application, a system-generated application number will be provided as acknowledgment. Please keep it safe for future reference."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": ""
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Check Application Status:",
+                    "bold": true
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "The status, viz. Approval or Rejection if any will be conveyed to the applicant through an SMS."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n   1. The applicant should be a resident of the state of Sikkim.\n   1. The applicant should be from Below Poverty Line (BPL) family.\n   1. In the event of the death of the breadwinner of a family, the family will become eligible to apply for the scheme.\n   1. The financial assistance will be paid to the household (includes spouse, minor children, unmarried daughters, and dependent parents) of the deceased person.\n   1. The applicant should have opened the Bank Account under “Pradhan Mantri Jan Dhan Yojana”.\n\n&lt;br&gt;\n\n**Note:** A woman in the family, who is a homemaker, is also considered as a &amp;quot;Breadwinner&amp;quot;.\n<br>\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "ol_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant should be a resident of the state of Sikkim."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant should be from Below Poverty Line (BPL) family."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "In the event of the death of the breadwinner of a family, the family will become eligible to apply for the scheme."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The financial assistance will be paid to the household (includes spouse, minor children, unmarried daughters, and dependent parents) of the deceased person."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant should have opened the Bank Account under “Pradhan Mantri Jan Dhan Yojana”."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": ""
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "Note:",
+                  "bold": true
+                },
+                {
+                  "text": " A woman in the family, who is a homemaker, is also considered as a \"Breadwinner\"."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "nfbs-sikkim"
+}

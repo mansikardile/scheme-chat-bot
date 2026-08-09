@@ -1,0 +1,270 @@
+{
+  "_id": "6522fff09d53ec1d287c22bf",
+  "en": {
+    "basicDetails": {
+      "schemeOpenDate": "2018-01-16",
+      "schemeCloseDate": null,
+      "nodalMinistryName": null,
+      "nodalDepartmentName": {
+        "value": 2200018,
+        "label": "Labour Department"
+      },
+      "otherMinistryName": null,
+      "otherDepartmentNames": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        },
+        {
+          "value": "family",
+          "label": "Family"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Financial assistance",
+          "label": "Financial assistance"
+        }
+      ],
+      "dbtScheme": false,
+      "implementingAgency": null,
+      "tags": [
+        "Financial Assistance",
+        "Silicosis Disease",
+        "Unorganized Worker"
+      ],
+      "schemeName": "Silicosis (Bimari) Se Pidit Shramiko Ke Liye Aarthik Evam Punarvas Sahayata Yojana",
+      "schemeShortTitle": "SSPSL",
+      "level": {
+        "value": "state",
+        "label": "State"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce7a2d6d1a3bde46852b1",
+          "label": "Health & Wellness"
+        }
+      ],
+      "state": {
+        "value": 22,
+        "label": "Chhattisgarh"
+      },
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://cglabour.nic.in/ShramAyuktNew/silikosis%20%20se%20peedit%20shramikon%20ke%20liye%20aarthik%20aur%20punarvaas%20sahaayata%20yojana.pdf"
+        },
+        {
+          "title": "Official Website",
+          "url": "https://cglabour.nic.in/"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "Labor Department of Chhattisgarh State started this scheme &amp;amp;quot;Silicosis (Bimari) Se Pidit Shramiko Ke Liye Aarthik Evam Punarvas Sahayata Yojana&amp;amp;quot; for unorganized worker on 16 April 2018. The main objective of the scheme to provide the financial assistance to the person who are suffering from Silicosis disease. \n",
+      "benefits_md": "\n- Unorganized workers with silicosis will get ₹ 300,000. \n- If the worker dies, their family will get ₹100,000 and the rest will be paid as a fixed deposit with monthly interest.\n\n",
+      "exclusions_md": "<br>\n\n",
+      "briefDescription": "Chhattisgarh state Government started a scheme \"Silicosis (Bimari) Se Pidit Shramiko Ke Liye Aarthik Evam Punarvas Sahayata Yojana\" for unorganized worker on 16 January 2018.",
+      "detailedDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "align_justify",
+              "children": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "Labor Department of Chhattisgarh State started this scheme \"Silicosis (Bimari) Se Pidit Shramiko Ke Liye Aarthik Evam Punarvas Sahayata Yojana\" for unorganized worker on 16 April 2018. The main objective of the scheme to provide the financial assistance to the person who are suffering from Silicosis disease. "
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Unorganized workers with silicosis will get ₹ 300,000. "
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "If the worker dies, their family will get ₹100,000 and the rest will be paid as a fixed deposit with monthly interest."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "exclusions": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "process": [
+          {
+            "type": "ol_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Visit the office of the Assistant Labor Commissioner/Labor Officer of the district."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Submit the application and the required documents."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "The officer will review the application and send it to the divisional office for further action."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Applicant can be submitted by mother, father, wife, husband, minor son, or minor daughter."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "The application should include the following information:"
+                  }
+                ]
+              },
+              {
+                "type": "ol_list",
+                "children": [
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "text": "Name and address of the deceased worker"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "text": "Name and address of the dependent"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "text": "Occupation of the deceased worker"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "text": "Date of death of the deceased worker"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "text": "Medical report confirming that the deceased worker had silicosis"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "process_md": "\n1. Visit the office of the Assistant Labor Commissioner/Labor Officer of the district.\n1. Submit the application and the required documents.\n1. The officer will review the application and send it to the divisional office for further action.\n1. Applicant can be submitted by mother, father, wife, husband, minor son, or minor daughter.\n1. The application should include the following information:\n\n   1. Name and address of the deceased worker\n   1. Name and address of the dependent\n   1. Occupation of the deceased worker\n   1. Date of death of the deceased worker\n   1. Medical report confirming that the deceased worker had silicosis\n\n\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n   1. Workers registered with the Chhattisgarh Unorganized Workers State Social Security Board.\n   1. Workers who claim to be working in the organized sector but cannot prove it, or construction workers who are not eligible for registration with the Chhattisgarh Building and Other Construction Workers Welfare Board, will also get the benefits.\n   1. Competent doctors must confirm the Silicosis disease  to the worker. \n\n",
+      "eligibilityDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "ol_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Workers registered with the Chhattisgarh Unorganized Workers State Social Security Board."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Workers who claim to be working in the organized sector but cannot prove it, or construction workers who are not eligible for registration with the Chhattisgarh Building and Other Construction Workers Welfare Board, will also get the benefits."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Competent doctors must confirm the Silicosis disease  to the worker. "
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "sspsl"
+}

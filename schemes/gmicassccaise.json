@@ -1,0 +1,490 @@
+{
+  "_id": "68d2a6cbea68bc7181bafdf0",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Student",
+        "Youth",
+        "Examination",
+        "Award",
+        "Cash",
+        "Coaching"
+      ],
+      "schemeName": "Government of Mizoram Incentive Cash Award Scheme To Successful Candidates for Central and All India Service Examination",
+      "schemeShortTitle": "GMICASSCCAISE",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce76cd6d1a3bde4685292",
+          "label": "Education & Learning"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Scholarships and student finance",
+          "label": "Scholarships and student finance"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "schemeFor": "Individual",
+      "state": {
+        "value": 15,
+        "label": "Mizoram"
+      },
+      "schemeType": null,
+      "nodalMinistryName": null,
+      "nodalDepartmentName": {
+        "value": 1511125,
+        "label": "Higher and Technical Education Department"
+      },
+      "otherMinistryName": null,
+      "otherDepartmentNames": null
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://msb.mizoram.gov.in/uploads/attachments/2024/10/f0d7e49fc8069e3fa74fa8242b689d9a/incentive-cash-award-notification.pdf"
+        },
+        {
+          "title": "Application Form PDF",
+          "url": "https://msb.mizoram.gov.in/uploads/attachments/2023/06/0bb793e5bb8b62140b2c2980e861512f/incentives-cash-award.pdf"
+        }
+      ],
+      "schemeImageUrl": "",
+      "briefDescription": "The scheme aims to encourage educated youth among the citizens of India and bonafide residents of Mizoram who aspire to succeed entry to Central and All India Services, addressing the issue of Mizo educated youths lagging behind and becoming increasingly marginalized in examinations.",
+      "detailedDescription_md": "The scheme &quot;Government of Mizoram Incentive Cash Award Scheme To Successful Candidates for Central and All India Service Examination&quot; was launched by the Higher and Technical Education Department, Government of Mizoram. The scheme aims to encourage educated youth among the citizens of India and bonafide residents of Mizoram who aspire to succeed entry to Central and All India Services, addressing the issue of Mizo educated youths lagging behind and becoming increasingly marginalized in examinations conducted by the Union Public Service Commission. The scheme provides an incentive cash award of ₹1,00,000/- to successful candidates and reimbursement of coaching and hostel fees.\n<br>\n\n",
+      "benefits_md": "**Incentive Cash Award:** ₹1,00,000/- (one-time payment) for clearance of any eligible examination.\n**Coaching Fee Reimbursement:** Actual fees paid to coaching institution or ₹20,000/-, whichever is less (only once, not granted on second attempt).\n**Hostel/Mess Fee Reimbursement:** ₹2,000/- per month for maximum 6 months (only once, not granted on second attempt).\n*Payment made through E-Payment by Secretary, Mizoram Scholarship Board.\n*Only one examination can be claimed at a time.\n_*Claims must be submitted within 3 months from date of result declaration._\n<br>\n\n",
+      "exclusions_md": "\n- The applicant shall not be an employee under the Union or State Government or any Government aided Public Service Undertaking or Board etc. at the time of appearing for the exam.\n- The applicant shall not be covered under any scholarship or incentive scheme implemented by the Union or State Government.\n\n<br>\n\n",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The scheme \"Government of Mizoram Incentive Cash Award Scheme To Successful Candidates for Central and All India Service Examination\" was launched by the Higher and Technical Education Department, Government of Mizoram. The scheme aims to encourage educated youth among the citizens of India and bonafide residents of Mizoram who aspire to succeed entry to Central and All India Services, addressing the issue of Mizo educated youths lagging behind and becoming increasingly marginalized in examinations conducted by the Union Public Service Commission. The scheme provides an incentive cash award of ₹1,00,000/- to successful candidates and reimbursement of coaching and hostel fees."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Incentive Cash Award:",
+              "bold": true,
+              "underline": true
+            },
+            {
+              "text": " ₹1,00,000/- (one-time payment) for clearance of any eligible examination."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Coaching Fee Reimbursement:",
+              "bold": true,
+              "underline": true
+            },
+            {
+              "text": " Actual fees paid to coaching institution or ₹20,000/-, whichever is less (only once, not granted on second attempt)."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Hostel/Mess Fee Reimbursement:",
+              "bold": true,
+              "underline": true
+            },
+            {
+              "text": " ₹2,000/- per month for maximum 6 months (only once, not granted on second attempt)."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "*Payment made through E-Payment by Secretary, Mizoram Scholarship Board."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "*Only one examination can be claimed at a time."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "*Claims must be submitted within 3 months from date of result declaration.",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ],
+      "exclusions": [
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant shall not be an employee under the Union or State Government or any Government aided Public Service Undertaking or Board etc. at the time of appearing for the exam."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant shall not be covered under any scholarship or incentive scheme implemented by the Union or State Government."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "process": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 1:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " The interested applicant should take a printout of the "
+              },
+              {
+                "type": "link",
+                "link": "https://msb.mizoram.gov.in/uploads/attachments/2023/06/0bb793e5bb8b62140b2c2980e861512f/incentives-cash-award.pdf",
+                "children": [
+                  {
+                    "text": "prescribed format"
+                  }
+                ]
+              },
+              {
+                "text": " of the application form. Alternatively, visit the Office of the Secretary, Mizoram Scholarship Board, to obtain the prescribed application form."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " In the application form, fill in all the mandatory fields: name of applicant, father's/mother's name, permanent residence, date of birth, Aadhaar number, examination details for which incentive is applied, roll number, month and year of examination, contact number, email address, and call letter/intimation number and date."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Paste the passport-sized photograph (signed across, if required), and attach copies of all the mandatory documents (self-attest, if required)."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 3:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " Submit the duly filled and signed application form along with the documents to Office of the Secretary, Mizoram Scholarship Board, Mizoram."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Verification Process",
+                "bold": true,
+                "underline": true,
+                "italic": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "The Mizoram Scholarship Board will verify all submitted documents and claims as per the scheme guidelines."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Payment Processing",
+                "bold": true,
+                "underline": true,
+                "italic": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Upon successful verification, payment will be made by the Secretary, Mizoram Scholarship Board through E-Payment system directly to the applicant's bank account."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Application Deadline",
+                "bold": true,
+                "underline": true,
+                "italic": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Claims must be submitted within 3 months from the date of declaration of examination results."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          }
+        ],
+        "process_md": "**Step 1:** The interested applicant should take a printout of the [prescribed format](https://msb.mizoram.gov.in/uploads/attachments/2023/06/0bb793e5bb8b62140b2c2980e861512f/incentives-cash-award.pdf) of the application form. Alternatively, visit the Office of the Secretary, Mizoram Scholarship Board, to obtain the prescribed application form.\n**Step 2:** In the application form, fill in all the mandatory fields: name of applicant, father&#39;s/mother&#39;s name, permanent residence, date of birth, Aadhaar number, examination details for which incentive is applied, roll number, month and year of examination, contact number, email address, and call letter/intimation number and date.\nPaste the passport-sized photograph (signed across, if required), and attach copies of all the mandatory documents (self-attest, if required).\n**Step 3:** Submit the duly filled and signed application form along with the documents to Office of the Secretary, Mizoram Scholarship Board, Mizoram.\n***Verification Process***\nThe Mizoram Scholarship Board will verify all submitted documents and claims as per the scheme guidelines.\n***Payment Processing***\nUpon successful verification, payment will be made by the Secretary, Mizoram Scholarship Board through E-Payment system directly to the applicant&#39;s bank account.\n***Application Deadline***\nClaims must be submitted within 3 months from the date of declaration of examination results.\n<br>\n\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n- The applicant should be a bonafide citizen of the State of Mizoram.\n- The applicant should be a citizen of India and bonafide resident of Mizoram.\n- The applicant should have successfully cleared examinations conducted by Union Public Service Commission.\n\n***Examination Categories***\n\n- Civil Service Examination.\n- Combined Defence Service (Officers Training Academy) Examination.\n- National Defence Academy and Naval Academic Examination.\n- TCombined Medical Examination.\n- Central Police Forces (Assistant Commandants) Examination.\n- Indian Economic/Indian Statistical Service Examination.\n- Combined Geo-Scientist Examination.\n- Section Officers (20% Direct recruitment by Union Public Service Commission) Examination.\n\n<br>\n\n_*The applicant shall be entitled to two chances i.e. clearance of preliminary exam twice and mains exam twice._\n_*The applicant shall be entitled to claim for only one examination at a time._\n_*The applicant shall submit his claim in the prescribed form within a period of 3 months from the date of declaration of results._\n<br>\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should be a bonafide citizen of the State of Mizoram."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should be a citizen of India and bonafide resident of Mizoram."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should have successfully cleared examinations conducted by Union Public Service Commission."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Examination Categories",
+              "bold": true,
+              "underline": true,
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Civil Service Examination."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Combined Defence Service (Officers Training Academy) Examination."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "National Defence Academy and Naval Academic Examination."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "TCombined Medical Examination."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Central Police Forces (Assistant Commandants) Examination."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Indian Economic/Indian Statistical Service Examination."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Combined Geo-Scientist Examination."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Section Officers (20% Direct recruitment by Union Public Service Commission) Examination."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "*The applicant shall be entitled to two chances i.e. clearance of preliminary exam twice and mains exam twice.",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "*The applicant shall be entitled to claim for only one examination at a time.",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "*The applicant shall submit his claim in the prescribed form within a period of 3 months from the date of declaration of results.",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "gmicassccaise"
+}

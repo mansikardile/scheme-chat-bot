@@ -1,0 +1,556 @@
+{
+  "_id": "66bbb44d0d7fcba7845a6302",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": true,
+      "tags": [
+        "Social Security",
+        "Pension",
+        "PwD",
+        "Dwarf",
+        "BPL",
+        "Disabled"
+      ],
+      "schemeName": "Social Security Pension Scheme",
+      "schemeShortTitle": "SSPS",
+      "implementingAgency": "Social Welfare Department, Government Of Chhattisgarh",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce87cd6d1a3bde4685312",
+          "label": "Social welfare & Empowerment"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Pension",
+          "label": "Pension"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "state": {
+        "value": 22,
+        "label": "Chhattisgarh"
+      },
+      "nodalDepartmentName": {
+        "value": 2200033,
+        "label": "Social Welfare Department"
+      },
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://sw.cg.gov.in/sites/default/files/pensionscheme.pdf"
+        },
+        {
+          "title": "Official Website",
+          "url": "https://sw.cg.gov.in/en/social-security-pension-scheme"
+        },
+        {
+          "title": "Amendment Notification",
+          "url": "https://sw.cg.gov.in/sites/default/files/ssp.pdf"
+        },
+        {
+          "title": "Application Form (Page No. 10)",
+          "url": "https://sw.cg.gov.in/sites/default/files/pensionscheme.pdf"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The &amp;quot;Social Security Pension Scheme&amp;quot; was launched by the Social Welfare Department, Government of Chhattisgarh. Under this scheme, financial assistance is provided to Below Poverty Line (BPL) Persons with Disabilities (PwDs) and dwarf individuals to support them in living a respectful life.\n",
+      "benefits_md": "\n  - Under this scheme, eligible beneficiaries will receive a pension of ₹500/- per month.\n\n**Note:** The pension amount will be directly transferred to the applicant&amp;#39;s bank account.\n",
+      "briefDescription": "Under this scheme, a monthly pension of ₹500/- is provided to Below Poverty Line (BPL) Persons with Disabilities (PwDs) and dwarf individuals to support them in living a respectful life.",
+      "exclusions_md": "",
+      "detailedDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "The \"Social Security Pension Scheme\" was launched by the Social Welfare Department, Government of Chhattisgarh. Under this scheme, financial assistance is provided to Below Poverty Line (BPL) Persons with Disabilities (PwDs) and dwarf individuals to support them in living a respectful life."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "ul_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Under this scheme, eligible beneficiaries will receive a pension of ₹500/- per month."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "Note:",
+                  "bold": true
+                },
+                {
+                  "text": " The pension amount will be directly transferred to the applicant's bank account."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "process": [
+          {
+            "type": "align_justify",
+            "children": [
+              {
+                "type": "block_quote",
+                "children": [
+                  {
+                    "text": "In Rural Areas:",
+                    "underline": true,
+                    "bold": true
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 1:",
+                    "bold": true
+                  },
+                  {
+                    "text": " The applicant, who fulfills the eligibility criteria, may visit the office of the Gram Panchayat and collect the "
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://sw.cg.gov.in/sites/default/files/pensionscheme.pdf",
+                    "children": [
+                      {
+                        "text": "application form"
+                      }
+                    ]
+                  },
+                  {
+                    "text": ", which is available free of cost."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 2:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Fill out the application form and submit it to the Gram Panchayat. You will receive an acknowledgment receipt from the Gram Panchayat."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 3:",
+                    "bold": true
+                  },
+                  {
+                    "text": " The Gram Panchayat will review and recommend the application and then forward it to the District Panchayat within 07 days."
+                  }
+                ]
+              },
+              {
+                "type": "block_quote",
+                "children": [
+                  {
+                    "text": "In urban areas:",
+                    "bold": true,
+                    "underline": true
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 1:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Eligible applicants should visit the office of the concerned Municipal Corporation, Municipality, Nagar Panchayat, or Panchayat Raj institution to collect the "
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://sw.cg.gov.in/sites/default/files/pensionscheme.pdf",
+                    "children": [
+                      {
+                        "text": "application form"
+                      }
+                    ]
+                  },
+                  {
+                    "text": ", which is available free of cost."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 2:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Fill out the application form and submit it to the respective office (Municipality/Municipal Corporation/Nagar Panchayat). You will receive an acknowledgment receipt from the office."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Note 1:",
+                    "bold": true
+                  },
+                  {
+                    "text": " The concerned urban body/District Panchayat has the authority to approve or reject the applications."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Note 2:",
+                    "bold": true
+                  },
+                  {
+                    "text": " If a printed application form is not available, you may submit your application on plain paper."
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "process_md": "&gt; **In Rural Areas:**\n\n**Step 1:** The applicant, who fulfills the eligibility criteria, may visit the office of the Gram Panchayat and collect the [application form](https://sw.cg.gov.in/sites/default/files/pensionscheme.pdf), which is available free of cost.\n**Step 2:** Fill out the application form and submit it to the Gram Panchayat. You will receive an acknowledgment receipt from the Gram Panchayat.\n**Step 3:** The Gram Panchayat will review and recommend the application and then forward it to the District Panchayat within 07 days.\n&gt; **In urban areas:**\n\n**Step 1:** Eligible applicants should visit the office of the concerned Municipal Corporation, Municipality, Nagar Panchayat, or Panchayat Raj institution to collect the [application form](https://sw.cg.gov.in/sites/default/files/pensionscheme.pdf), which is available free of cost.\n**Step 2:** Fill out the application form and submit it to the respective office (Municipality/Municipal Corporation/Nagar Panchayat). You will receive an acknowledgment receipt from the office.\n**Note 1:** The concerned urban body/District Panchayat has the authority to approve or reject the applications.\n**Note 2:** If a printed application form is not available, you may submit your application on plain paper.\n"
+      },
+      {
+        "mode": "Online",
+        "process": [
+          {
+            "type": "align_justify",
+            "children": [
+              {
+                "type": "block_quote",
+                "children": [
+                  {
+                    "text": "Registration Process:",
+                    "underline": true
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 1:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Go to the"
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://edistrict.cgstate.gov.in/",
+                    "children": [
+                      {
+                        "text": " eDistrict Chhattisgarh Portal"
+                      }
+                    ]
+                  },
+                  {
+                    "text": ". "
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 2:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Click on \""
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://edistrict.cgstate.gov.in/PACE/newCitizenLogin.do?OWASP_CSRFTOKEN=FOF2-M40P-DLK1-ZIZE-3PTR-1N4G-JKHY-Y4X5",
+                    "children": [
+                      {
+                        "text": "Citizen Login"
+                      }
+                    ]
+                  },
+                  {
+                    "text": ".\""
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 3:",
+                    "bold": true
+                  },
+                  {
+                    "text": " If you are a new user, select \""
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://edistrict.cgstate.gov.in/PACE/CitizenLogin.do?OWASP_CSRFTOKEN=FOF2-M40P-DLK1-ZIZE-3PTR-1N4G-JKHY-Y4X5",
+                    "children": [
+                      {
+                        "text": "New Registration"
+                      }
+                    ]
+                  },
+                  {
+                    "text": ".\""
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 4: ",
+                    "bold": true
+                  },
+                  {
+                    "text": "Enter your registration details and click \"Submit.\""
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 5:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Your Registration Summary will be displayed, and you will receive your password on your registered mobile number."
+                  }
+                ]
+              },
+              {
+                "type": "block_quote",
+                "children": [
+                  {
+                    "text": "Application Process:",
+                    "bold": true,
+                    "underline": true
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 1: ",
+                    "bold": true
+                  },
+                  {
+                    "text": "Go to the "
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://edistrict.cgstate.gov.in/",
+                    "children": [
+                      {
+                        "text": "eDistrict Chhattisgarh Portal"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 2:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Click on ‘Login’ or \""
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://edistrict.cgstate.gov.in/PACE/newCitizenLogin.do?OWASP_CSRFTOKEN=FOF2-M40P-DLK1-ZIZE-3PTR-1N4G-JKHY-Y4X5",
+                    "children": [
+                      {
+                        "text": "Citizen Login"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "\"."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 3: ",
+                    "bold": true
+                  },
+                  {
+                    "text": "Enter your username and password, and then click ‘Login’."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 4:",
+                    "bold": true
+                  },
+                  {
+                    "text": " After logging in, click on \"My Service\" and search for the scheme to apply for."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 5: ",
+                    "bold": true
+                  },
+                  {
+                    "text": "Click on ‘Apply Online’ and fill in all required details, upload important documents, and click ‘Submit.’"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "process_md": "&gt; Registration Process:\n\n**Step 1:** Go to the[ eDistrict Chhattisgarh Portal](https://edistrict.cgstate.gov.in/). \n**Step 2:** Click on &amp;quot;[Citizen Login](https://edistrict.cgstate.gov.in/PACE/newCitizenLogin.do?OWASP_CSRFTOKEN=FOF2-M40P-DLK1-ZIZE-3PTR-1N4G-JKHY-Y4X5).&amp;quot;\n**Step 3:** If you are a new user, select &amp;quot;[New Registration](https://edistrict.cgstate.gov.in/PACE/CitizenLogin.do?OWASP_CSRFTOKEN=FOF2-M40P-DLK1-ZIZE-3PTR-1N4G-JKHY-Y4X5).&amp;quot;\n**Step 4:** Enter your registration details and click &amp;quot;Submit.&amp;quot;\n**Step 5:** Your Registration Summary will be displayed, and you will receive your password on your registered mobile number.\n&gt; **Application Process:**\n\n**Step 1:** Go to the [eDistrict Chhattisgarh Portal](https://edistrict.cgstate.gov.in/).\n**Step 2:** Click on ‘Login’ or &amp;quot;[Citizen Login](https://edistrict.cgstate.gov.in/PACE/newCitizenLogin.do?OWASP_CSRFTOKEN=FOF2-M40P-DLK1-ZIZE-3PTR-1N4G-JKHY-Y4X5)&amp;quot;.\n**Step 3:** Enter your username and password, and then click ‘Login’.\n**Step 4:** After logging in, click on &amp;quot;My Service&amp;quot; and search for the scheme to apply for.\n**Step 5:** Click on ‘Apply Online’ and fill in all required details, upload important documents, and click ‘Submit.’\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n   1. The applicant should be a native of Chhattisgarh.\n   1. The applicant should be either a person with a disability or a dwarf person.\n   1. Children with disabilities (CwDs) aged 6-17 years are eligible, the CwDs in the age group of 6-14 should be school-going.\n   1. Persons with disabilities who are 18 years or older and have a disability of 40% or above are eligible for the scheme.\n   1. The applicant should not be receiving pension benefits from any other central or state government pension scheme.\n   1. The applicant&amp;#39;s name should be included in the list of families living the Below Poverty Line.\n\n**Note:** Disabled children aged 6-14 years who are not attending school are not eligible.\n",
+      "eligibilityDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "ol_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant should be a native of Chhattisgarh."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant should be either a person with a disability or a dwarf person."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Children with disabilities (CwDs) aged 6-17 years are eligible, the CwDs in the age group of 6-14 should be school-going."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Persons with disabilities who are 18 years or older and have a disability of 40% or above are eligible for the scheme."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant should not be receiving pension benefits from any other central or state government pension scheme."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant's name should be included in the list of families living the Below Poverty Line."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "Note:",
+                  "bold": true
+                },
+                {
+                  "text": " Disabled children aged 6-14 years who are not attending school are not eligible."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "ssps"
+}

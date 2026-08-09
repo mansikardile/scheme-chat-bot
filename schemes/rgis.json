@@ -1,0 +1,265 @@
+{
+  "_id": "670e3fe4eb7b25fc85ce15c6",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Student Finance",
+        "Scholarship",
+        "Incentive",
+        "Rural Development"
+      ],
+      "schemeName": "Rural Girls’ Incentive Scheme",
+      "schemeShortTitle": "RGIS",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce76cd6d1a3bde4685292",
+          "label": "Education & Learning"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Scholarships and student finance",
+          "label": "Scholarships and student finance"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "state": {
+        "value": 33,
+        "label": "Tamil Nadu"
+      },
+      "nodalDepartmentName": {
+        "value": 3333334,
+        "label": "Backward Classes Most Backward Classes and Minorities Welfare Department"
+      },
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://bcmbcmw.tn.gov.in/welfschemes.htm#incentive_scheme"
+        },
+        {
+          "title": "Community List",
+          "url": "https://bcmbcmw.tn.gov.in/community_list.pdf"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The scheme “Rural Girls’ Incentive Scheme&amp;quot; launched by the Backward Classes, Most Backward Classes and Minorities Welfare Department, Tamil Nadu, offers financial aid to girls students of Most Backward Classes (MBC) and Denotified Communities (DNC), attending government or government-aided schools in rural areas, excluding Chennai District. Priority is given to girls from families headed by widows or destitute parents. The scheme aims to enhance educational opportunities and reduce dropout rates among these communities.\n",
+      "benefits_md": "> **Financial Assistance:**\n\n\n- For 3rd to 5th grade: ₹500/- per annum.\n- For 6th grade:  ₹1,000/- per annum.\n\n<br>\n\n",
+      "exclusions_md": "<br>\n\n",
+      "briefDescription": "The Scheme provides financial support to girls students of Most Backward Classes (MBC) and Denotified Communities (DNC) studying in rural government or government-aided schools, aimed at encouraging education and reducing school dropouts.",
+      "detailedDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "The scheme “Rural Girls’ Incentive Scheme\" launched by the Backward Classes, Most Backward Classes and Minorities Welfare Department, Tamil Nadu, offers financial aid to girls students of Most Backward Classes (MBC) and Denotified Communities (DNC), attending government or government-aided schools in rural areas, excluding Chennai District. Priority is given to girls from families headed by widows or destitute parents. The scheme aims to enhance educational opportunities and reduce dropout rates among these communities."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "Financial Assistance:",
+              "bold": true,
+              "underline": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "For 3rd to 5th grade: ₹500/- per annum."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "For 6th grade:  ₹1,000/- per annum."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ],
+      "exclusions": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "process": [
+          {
+            "type": "align_justify",
+            "children": [
+              {
+                "type": "ul_list",
+                "children": [
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "text": "The eligible and willing students are requested to contact the Headmaster of the Government/Government Aided Schools concerned in Rural areas."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "process_md": "\n  - The eligible and willing students are requested to contact the Headmaster of the Government/Government Aided Schools concerned in Rural areas.\n\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n   1. The beneficiary should be a student.\n   1. The beneficiary should be a female.\n   1. The beneficiary should be a resident of Tamil Nadu (should not be from Chennai District).\n   1. The beneficiary should be from a rural area.\n   1. The beneficiary should belong to the Most Backward Classes (MBC)/ Denotified Communities (DNC).\n   1. The beneficiary should be Studying in classes 3rd to 6th in government or government-aided schools\n   1. The beneficiary&amp;#39;s parental annual income should not exceed ₹1,00,000/-.\n\n**Note:** \n\n  - This scheme is implemented in all the Districts except Chennai District.\n  - Preference will be given to Girl Children of Widows/ Destitutes.\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "ol_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The beneficiary should be a student."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The beneficiary should be a female."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The beneficiary should be a resident of Tamil Nadu (should not be from Chennai District)."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The beneficiary should be from a rural area."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The beneficiary should belong to the Most Backward Classes (MBC)/ Denotified Communities (DNC)."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The beneficiary should be Studying in classes 3rd to 6th in government or government-aided schools"
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The beneficiary's parental annual income should not exceed ₹1,00,000/-."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "Note: ",
+                  "bold": true
+                }
+              ]
+            },
+            {
+              "type": "ul_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "This scheme is implemented in all the Districts except Chennai District."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Preference will be given to Girl Children of Widows/ Destitutes."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "rgis"
+}

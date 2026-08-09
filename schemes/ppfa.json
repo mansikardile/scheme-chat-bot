@@ -1,0 +1,443 @@
+{
+  "_id": "69e0b296c9e1e72295dbd809",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Bank",
+        "Deposits",
+        "Loan",
+        "Interest Payable"
+      ],
+      "schemeName": "Public Provident Fund Account(PPF)",
+      "schemeShortTitle": "PPFA",
+      "level": {
+        "value": "central",
+        "label": "Central"
+      },
+      "schemeType": {
+        "value": "centrally-sponsored-scheme",
+        "label": "Centrally Sponsored Scheme"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce7f6d6d1a3bde46852d0",
+          "label": "Banking,Financial Services and Insurance"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Banking and money",
+          "label": "Banking and money"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "schemeFor": "Individual",
+      "nodalMinistryName": {
+        "value": 1065,
+        "label": "Ministry Of Communication"
+      },
+      "nodalDepartmentName": {
+        "value": 1149,
+        "label": "Department of Posts"
+      }
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://www.indiapost.gov.in/banking-services/savings"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The Public Provident Fund (PPF) Scheme, operated under the Department of Posts, Ministry of Communications, offers a secure and long-term investment option to individuals. The scheme currently provides an interest rate of 7.1% per annum, which is periodically revised by the government. To open a PPF account, a minimum deposit of ₹500 is required in a financial year, while the maximum limit is ₹1,50,000. Investors have the flexibility to make deposits either in a lump sum or in multiple installments within the financial year, making it a convenient and disciplined savings option.\n<br>\n\n",
+      "benefits_md": "<br>\n\nInterest payable, Rates, Periodicity etc.Minimum Amount for opening of account and maximum balance that can be retained7.1% per annumMinimum INR. 500/-. Maximum INR. 1,50,000/- in a financial year. Deposits can be made in lumpsum or in installments**Deposit**\n\n1. Minimum deposit ₹ 500/- in a Financial Year and Maximum deposit is  ₹1.50 lakh in a Financial Year.\n1. Maximum limit of ₹ 1.50/- lakh shall be inclusive of the deposits made in his/her own account and in the account opened on behalf of minor.\n1. Amount can be deposited in any number of instalments in a FY in multiple of ₹ 50 and maximum up to ₹1.50 lakh\n1. Subsequent deposits can be made through internet banking option (NEFT/RTGS) from another bank\n1. Deposits qualify for deduction under section 80C of Income Tax Act\n\n**Interest**\n\n1. Interest notified by Ministry of Finance from time to time, shall be eligible for a calendar month on the lowest balance at the credit of an account between the close of the fifth day and the end of the month.\n1. Interest shall be credited to the account at the end of each year\n1. Interest earned is tax free under Income Tax Act\n\n**Loan and Repayment**\n\n1. At any time after the expiry of one year from the end of the year in which the initial subscription was made but before expiry of 5 years from the end of the year in which the initial subscription was made, the account holder may apply for obtaining a loan consisting of a sum of whole rupees not exceeding 25%.of the amount that stood to his credit at the end of the second year immediately preceding the year in which the loan is applied for (i.e. if loan taken during 2025-26, 25% of balance credit on 31.03.2024)\n1. The principal amount of a loan shall be repaid by the account holder before the expiry of 36 months from the first day of the month following the month in which the loan is sanctioned\n1. After the principal amount of the loan is fully repaid, the account holder shall pay interest thereon in not more than two monthly instalments at the rate of 1% per annum of the principal for the period commencing from the first day of the month following the month in which the loan is drawn upto the last day of the month in which the last instalment of the loan is repaid:\n1. Provided that where the loan is not repaid, or is repaid only in part, within a period of thirty-six months, interest on the amount of loan outstanding shall be charged at 6% per annum instead of at 1% per annum with effect from the first day of the month following the month in which the loan was obtained, to the last day of the month in which the loan is finally repaid.\n1. An account holder shall be entitled for only one loan in a year.\n1. An account holder shall not be entitled to get a fresh loan so long as earlier loan has not been repaid in full together with interest thereon.\n\n<br>\n\n",
+      "exclusions_md": "<br>\n\n",
+      "briefDescription": "The objective of the Public Provident Fund (PPF) scheme is to promote regular savings by offering a safe, long-term investment with good interest rates, encouraging financial security and disciplined saving habits.",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The Public Provident Fund (PPF) Scheme, operated under the Department of Posts, Ministry of Communications, offers a secure and long-term investment option to individuals. The scheme currently provides an interest rate of 7.1% per annum, which is periodically revised by the government. To open a PPF account, a minimum deposit of ₹500 is required in a financial year, while the maximum limit is ₹1,50,000. Investors have the flexibility to make deposits either in a lump sum or in multiple installments within the financial year, making it a convenient and disciplined savings option."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "children": [
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Interest payable, Rates, Periodicity etc."
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Minimum Amount for opening of account and maximum balance that can be retained"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "7.1% per annum"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Minimum INR. 500/-. Maximum INR. 1,50,000/- in a financial year. Deposits can be made in lumpsum or in installments"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Deposit",
+              "bold": true,
+              "underline": true
+            }
+          ]
+        },
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Minimum deposit ₹ 500/- in a Financial Year and Maximum deposit is  ₹1.50 lakh in a Financial Year."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Maximum limit of ₹ 1.50/- lakh shall be inclusive of the deposits made in his/her own account and in the account opened on behalf of minor."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Amount can be deposited in any number of instalments in a FY in multiple of ₹ 50 and maximum up to ₹1.50 lakh"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Subsequent deposits can be made through internet banking option (NEFT/RTGS) from another bank"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Deposits qualify for deduction under section 80C of Income Tax Act"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Interest",
+              "bold": true,
+              "underline": true
+            }
+          ]
+        },
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Interest notified by Ministry of Finance from time to time, shall be eligible for a calendar month on the lowest balance at the credit of an account between the close of the fifth day and the end of the month."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Interest shall be credited to the account at the end of each year"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Interest earned is tax free under Income Tax Act"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Loan and Repayment",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "At any time after the expiry of one year from the end of the year in which the initial subscription was made but before expiry of 5 years from the end of the year in which the initial subscription was made, the account holder may apply for obtaining a loan consisting of a sum of whole rupees not exceeding 25%.of the amount that stood to his credit at the end of the second year immediately preceding the year in which the loan is applied for (i.e. if loan taken during 2025-26, 25% of balance credit on 31.03.2024)"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The principal amount of a loan shall be repaid by the account holder before the expiry of 36 months from the first day of the month following the month in which the loan is sanctioned"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "After the principal amount of the loan is fully repaid, the account holder shall pay interest thereon in not more than two monthly instalments at the rate of 1% per annum of the principal for the period commencing from the first day of the month following the month in which the loan is drawn upto the last day of the month in which the last instalment of the loan is repaid:"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Provided that where the loan is not repaid, or is repaid only in part, within a period of thirty-six months, interest on the amount of loan outstanding shall be charged at 6% per annum instead of at 1% per annum with effect from the first day of the month following the month in which the loan was obtained, to the last day of the month in which the loan is finally repaid."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "An account holder shall be entitled for only one loan in a year."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "An account holder shall not be entitled to get a fresh loan so long as earlier loan has not been repaid in full together with interest thereon."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ],
+      "exclusions": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "process": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 1: Visit the nearest Post Office and collect the Account Opening Form and KYC Form."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2: Fill out the forms carefully and attach required documents (PAN, Aadhaar or valid ID proof, etc.)."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 3: Submit the completed forms along with documents at the Post Office counter."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 4: Deposit the minimum amount (₹500) through cheque."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 5: After verification, the account will be opened and details will be provided."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          }
+        ],
+        "process_md": "Step 1: Visit the nearest Post Office and collect the Account Opening Form and KYC Form.\nStep 2: Fill out the forms carefully and attach required documents (PAN, Aadhaar or valid ID proof, etc.).\nStep 3: Submit the completed forms along with documents at the Post Office counter.\nStep 4: Deposit the minimum amount (₹500) through cheque.\nStep 5: After verification, the account will be opened and details will be provided.\n<br>\n\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n1. An individual may open an account\n1. An individual may also open one account on behalf of each minor or a person with mental illness or intellectual disability of whom he is the guardian: Provided that only one account shall be opened in the name of a minor or a person with mental illness or intellectual disability by any of the guardian.\n\n**Note:** Joint account shall not be opened under this Scheme\n**Note:** Accounts can also be opened through e-Banking facility. It is to be noted that Post Office Savings Account is a prerequisite for availing internet banking facility (Please visit www.ebanking.indiapost.gov.in)\n<br>\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "An individual may open an account"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "An individual may also open one account on behalf of each minor or a person with mental illness or intellectual disability of whom he is the guardian: Provided that only one account shall be opened in the name of a minor or a person with mental illness or intellectual disability by any of the guardian."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Note: ",
+              "bold": true
+            },
+            {
+              "text": "Joint account shall not be opened under this Scheme"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Note: ",
+              "bold": true
+            },
+            {
+              "text": "Accounts can also be opened through e-Banking facility. It is to be noted that Post Office Savings Account is a prerequisite for availing internet banking facility (Please visit www.ebanking.indiapost.gov.in)"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "ppfa"
+}

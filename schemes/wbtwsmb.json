@@ -1,0 +1,269 @@
+{
+  "_id": "675574f0ba7b6826d75797cd",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Social Security",
+        "Transport Worker",
+        "Health & Wellness",
+        "Maternity Benefit",
+        "Medical Benefit",
+        "Pregnant Women"
+      ],
+      "schemeName": "West Bengal Transport Workers’ Social Security Scheme: Maternity Benefit",
+      "schemeShortTitle": "WBTWSMB",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "64f57d10ffb93104c7006c97",
+          "label": "Women and Child"
+        },
+        {
+          "value": "628ce7a2d6d1a3bde46852b1",
+          "label": "Health & Wellness"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Pregnancy Care",
+          "label": "Pregnancy Care"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "state": {
+        "value": 19,
+        "label": "West Bengal"
+      },
+      "nodalDepartmentName": {
+        "value": 19999925,
+        "label": "Labour Department"
+      },
+      "schemeFor": "Family"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://employmentbankwb.gov.in/social_security_scheme.php#ans8"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The “West Bengal Transport Workers’ Social Security Scheme: Maternity Benefit” by the Labour Department, West Bengal, provides financial assistance to a beneficiary on successful delivery of a child or miscarriage by such beneficiary or his wife. The benefit is limited to two instances per beneficiary to promote maternal health and provide support during critical times.\n<br>\n\n",
+      "benefits_md": "\n  - **Financial Assistance:** ₹6,000/-.\n",
+      "briefDescription": "This scheme provides financial assistance to a beneficiary on successful delivery of a child or miscarriage by such beneficiary or his wife.\n",
+      "exclusions_md": "",
+      "detailedDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "The “West Bengal Transport Workers’ Social Security Scheme: Maternity Benefit” by the Labour Department, West Bengal, provides financial assistance to a beneficiary on successful delivery of a child or miscarriage by such beneficiary or his wife. The benefit is limited to two instances per beneficiary to promote maternal health and provide support during critical times."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "ul_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Financial Assistance: ",
+                      "bold": true
+                    },
+                    {
+                      "text": "₹6,000/-."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Online",
+        "process": [
+          {
+            "type": "align_justify",
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 1:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Visit the “"
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://edistrict.wb.gov.in/portal/home",
+                    "children": [
+                      {
+                        "text": "eDistrict 2.0"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "” portal. Click on Log In/Sign Up."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 2: ",
+                    "bold": true
+                  },
+                  {
+                    "text": "In the User Login window, scroll down to the bottom and click on “Register”."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 3: ",
+                    "bold": true
+                  },
+                  {
+                    "text": "Fill in all the details carefully, enter a username, and click on “Register”."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 4:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Upon entering the One Time Password received on your mobile, you will be successfully registered."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 5:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Now in the User Login window, enter your Username or email and captcha and click on “Sign In”."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 6: ",
+                    "bold": true
+                  },
+                  {
+                    "text": "Enter the received O.T.P and click on “Submit”."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 7: ",
+                    "bold": true
+                  },
+                  {
+                    "text": "Upon successful Login, You will be redirected to the “Dashboard”. From the right side menu apply for the concerned scheme."
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "process_md": "**Step 1:** Visit the “[eDistrict 2.0](https://edistrict.wb.gov.in/portal/home)” portal. Click on Log In/Sign Up.\n**Step 2:** In the User Login window, scroll down to the bottom and click on “Register”.\n**Step 3:** Fill in all the details carefully, enter a username, and click on “Register”.\n**Step 4:** Upon entering the One Time Password received on your mobile, you will be successfully registered.\n**Step 5:** Now in the User Login window, enter your Username or email and captcha and click on “Sign In”.\n**Step 6:** Enter the received O.T.P and click on “Submit”.\n**Step 7:** Upon successful Login, You will be redirected to the “Dashboard”. From the right side menu apply for the concerned scheme.\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n  - The applicant must be between 18 and 60 years of age at the time of enrolment.\n  - The applicant must be an unorganized worker employed in the operation of commercial vehicles, such as cars, taxis, luxury taxis, light commercial vehicles, vans, auto-rickshaws, tempos, lorries, trucks, or buses.\n  - The applicant’s vehicle must be used for commercial purposes and not solely for personal or family use.\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "ul_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant must be between 18 and 60 years of age at the time of enrolment."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant must be an unorganized worker employed in the operation of commercial vehicles, such as cars, taxis, luxury taxis, light commercial vehicles, vans, auto-rickshaws, tempos, lorries, trucks, or buses."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant’s vehicle must be used for commercial purposes and not solely for personal or family use."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "wbtwsmb"
+}

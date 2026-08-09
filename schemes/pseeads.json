@@ -1,0 +1,712 @@
+{
+  "_id": "69a1321b9a2109585bb386e7",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Small Enterprise",
+        "Empowerment",
+        "Business",
+        "Loans"
+      ],
+      "schemeName": "Prime Small Enterprise Empowerment and Development(SEED) Scheme",
+      "schemeShortTitle": "PSEEADS",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce733d6d1a3bde4685278",
+          "label": "Business & Entrepreneurship"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Setting up / start-up / entrepreneurship",
+          "label": "Setting up / start-up / entrepreneurship"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "schemeFor": "Individual",
+      "state": {
+        "value": 17,
+        "label": "Meghalaya"
+      },
+      "schemeType": null,
+      "nodalMinistryName": null,
+      "nodalDepartmentName": {
+        "value": 1777803,
+        "label": "Planning Department"
+      },
+      "otherMinistryName": null,
+      "otherDepartmentNames": null
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://meghalayaone.gov.in/meghalaya-one/view-detail?U2FsdGVkX19%2FvYLmWwCXyOMeLiXd0bwWjzuqTkqZ5bx1HKapcgsy4pw1JIgstaIOITwcHuBvpPPD6iN7YkGifWRLykQ%200ZpLCa5FhaPU%20kuxtRhQpo5ZggqbPdkkv0f1z%2052%20rpcSGeuAx57HGC%2FOxlCK4PbBMvhoHuADggCCipI8KuD3PY8zCmChr3VkNgyf4qhN%20WQ1eVlm0p3C0FD09Ujw3UIvK6%20KETJBc1ELANs6lfeiSgbwtGc7hNZ55mx="
+        },
+        {
+          "title": "Website",
+          "url": "https://www.primemeghalaya.com/awareness-programme-on-seed-scheme-under-cm-elevate-held-at-prime-shillong/"
+        }
+      ],
+      "schemeImageUrl": "",
+      "briefDescription": "Under the scheme provides financial support for setting up or expanding small business ventures. It primarily targets the unorganized sector and underserved business activities that contribute significantly to the local economy but have historically lacked institutional support.",
+      "detailedDescription_md": "The **SEED Prime – Small Enterprise Empowerment and Development (SEED) Scheme,** under the Chief Minister’s ELEVATE Program and implemented by the Planning Department, Government of Meghalaya, aims to empower youth and promote inclusive entrepreneurship across the state. The scheme provides financial support for setting up or expanding small business ventures. It primarily targets the unorganized sector and underserved business activities that contribute significantly to the local economy but have historically lacked institutional support.\n<br>\n\n<br>\n\n",
+      "benefits_md": "\n1. 50% of total project cost supported as upfront subsidy by Government of Meghalaya (₹50,000 max)\n1. 5% of total project cost to be contributed by entrepreneur as own share\n1. Remaining 45% of project cost eligible for bank loan\n1. Loan tenure of 2 years with a 3-month moratorium period before EMI begins\n1. Financial support strictly for asset creation (machinery, equipment), operational or working capital expenses not allowed\n1. Opportunity to access scheme through single online portal under CM-ELEVATE initiative\n1. Cash Credit loan option available for eligible beneficiaries\n1. Support to entrepreneurs from unorganized and underserved sectors with emphasis on creating local employment\n\n<br>\n\n",
+      "exclusions_md": "**Individuals**\n**Applications shall not be ordinarily considered for the following**\nA) Following individuals (currently employed as full-fledged or contractual, or retired and drawing pension) and their Immediate family members which includes spouse, parents, and children up to the age of 30\ni) State and Central Government employees\nii) Employees of public sector undertakings, subsidiaries of public sector undertakings and divisions of public sector undertakings etc.\niii) Any individual whose job is concerned with politics such MLAs, MLCs, MPs etc. or seeking to hold a similar position in government\niv) Registered class-1 contractors\nv) Consultants who are currently engaged with state or central government\nvi) Pressure groups and organizations that are primarily political in nature shall not be ordinarily considered\nB) Only one member from a family is eligible for the scheme.\n**Unregistered Entities**\n**Applications shall not be ordinarily considered for the following**\ni) State and Central Government employees\nii) Employees of public sector undertakings, subsidiaries of public sector undertakings and divisions of public sector undertakings etc.\niii) Any individual whose job is concerned with politics such MLAs, MLCs, MPs etc. or seeking to hold a similar position in government\niv) Registered class-1 contractors\nv) Pressure groups and organizations that are primarily political in nature\nvi) Consultants who are currently engaged with state or central government\n<br>\n\n",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The "
+            },
+            {
+              "text": "SEED Prime – Small Enterprise Empowerment and Development (SEED) Scheme,",
+              "bold": true
+            },
+            {
+              "text": " under the Chief Minister’s ELEVATE Program and implemented by the Planning Department, Government of Meghalaya, aims to empower youth and promote inclusive entrepreneurship across the state. The scheme provides financial support for setting up or expanding small business ventures. It primarily targets the unorganized sector and underserved business activities that contribute significantly to the local economy but have historically lacked institutional support."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "50% of total project cost supported as upfront subsidy by Government of Meghalaya (₹50,000 max)"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "5% of total project cost to be contributed by entrepreneur as own share"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Remaining 45% of project cost eligible for bank loan"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Loan tenure of 2 years with a 3-month moratorium period before EMI begins"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Financial support strictly for asset creation (machinery, equipment), operational or working capital expenses not allowed"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Opportunity to access scheme through single online portal under CM-ELEVATE initiative"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Cash Credit loan option available for eligible beneficiaries"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Support to entrepreneurs from unorganized and underserved sectors with emphasis on creating local employment"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ],
+      "exclusions": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Individuals",
+              "bold": true,
+              "underline": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Applications shall not be ordinarily considered for the following",
+              "bold": true,
+              "underline": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "A) Following individuals (currently employed as full-fledged or contractual, or retired and drawing pension) and their Immediate family members which includes spouse, parents, and children up to the age of 30"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "i) State and Central Government employees"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "ii) Employees of public sector undertakings, subsidiaries of public sector undertakings and divisions of public sector undertakings etc."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "iii) Any individual whose job is concerned with politics such MLAs, MLCs, MPs etc. or seeking to hold a similar position in government"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "iv) Registered class-1 contractors"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "v) Consultants who are currently engaged with state or central government"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "vi) Pressure groups and organizations that are primarily political in nature shall not be ordinarily considered"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "B) Only one member from a family is eligible for the scheme."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Unregistered Entities",
+              "bold": true,
+              "underline": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Applications shall not be ordinarily considered for the following",
+              "bold": true,
+              "underline": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "i) State and Central Government employees"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "ii) Employees of public sector undertakings, subsidiaries of public sector undertakings and divisions of public sector undertakings etc."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "iii) Any individual whose job is concerned with politics such MLAs, MLCs, MPs etc. or seeking to hold a similar position in government"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "iv) Registered class-1 contractors"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "v) Pressure groups and organizations that are primarily political in nature"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "vi) Consultants who are currently engaged with state or central government"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Online",
+        "process": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Citizen Registration for Member ID",
+                "bold": true,
+                "underline": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "bold": true,
+                "text": "Step 1:"
+              },
+              {
+                "text": " Visit the "
+              },
+              {
+                "type": "link",
+                "link": "https://meghalayaone.gov.in/meghalaya-one/view-detail?U2FsdGVkX19%2FvYLmWwCXyOMeLiXd0bwWjzuqTkqZ5bx1HKapcgsy4pw1JIgstaIOITwcHuBvpPPD6iN7YkGifWRLykQ%200ZpLCa5FhaPU%20kuxtRhQpo5ZggqbPdkkv0f1z%2052%20rpcSGeuAx57HGC%2FOxlCK4PbBMvhoHuADggCCipI8KuD3PY8zCmChr3VkNgyf4qhN%20WQ1eVlm0p3C0FD09Ujw3UIvK6%20KETJBc1ELANs6lfeiSgbwtGc7hNZ55mx=",
+                "children": [
+                  {
+                    "text": "official website "
+                  }
+                ]
+              },
+              {
+                "text": "of the scheme and click on the “Login to Apply” button to start the application process. Carefully read all the instructions provided on the website before proceeding."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2:",
+                "bold": true
+              },
+              {
+                "text": " If you are a first-time user, click on “"
+              },
+              {
+                "type": "link",
+                "link": "https://meghalayaone.gov.in/meghalaya-one/citizen-login?U2FsdGVkX1%2Fj0VpCC5AKaBYOcVsO207ea%20qs40JOarPgwkZtFDg03EVeDNMjhzMNgt66jk7HLKmzLFayU0wTM0EjpeKCRqApCovt2efa%2F0KbydwrFt8QNtiK1L9FEGK0rwHWPMZNxfJ2oG84okmekHM%20w2UWsypPf7HznEGzXJ9yzUevH2GxeNY6GrVN64Nc5vLWhdycsyVT5gxYjOQ7aTLfMjvUcaNNg56%20lFH6Z87ejSfF5hcowpsYT63w1IVyMGXXLjTCwVX1J7zigJST3KvW3SAkeGKZbQ4pl9jSHq16%2FowHqRFwaSZ2hZHgvcAel7SmNx0C4xFN5oap8U%20rLA=%3D",
+                "children": [
+                  {
+                    "text": "Registration for New User"
+                  }
+                ]
+              },
+              {
+                "text": "” and complete the registration process to create your account."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 3: ",
+                "bold": true
+              },
+              {
+                "text": "Select your Authentication ID from the available options, such as"
+              }
+            ]
+          },
+          {
+            "type": "ul_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "PDS (Ration Card) "
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Election Photo ID Card (EPIC)."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 4: ",
+                "bold": true
+              },
+              {
+                "text": "Enter your card number, select your name from the displayed list, and click on “Next” to continue."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 5: ",
+                "bold": true
+              },
+              {
+                "text": "Your EPIC ID will appear on the screen. If the details are correct, click on “Accept.” If the details are incorrect or rejected, manually enter your EPIC number and proceed."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 6: ",
+                "bold": true
+              },
+              {
+                "text": "Click on “Validate” to verify the entered EPIC number, and then click on “Next” to move to the application form."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 7:",
+                "bold": true
+              },
+              {
+                "text": " Fill in all required details in the application form, upload the necessary documents, carefully review all the information, and click on “Submit.” After successful submission, you will receive a unique application number for future reference."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Sign In ",
+                "bold": true,
+                "underline": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 1:",
+                "bold": true
+              },
+              {
+                "text": " Click on "
+              },
+              {
+                "type": "link",
+                "link": "https://meghalayaone.gov.in/meghalaya-one/citizen-login?U2FsdGVkX1%2Fdu5Z2a1hGWoNI9swJd%2F0ipy%2F8BIg8oHzgeQ8x8B%206kEL5r6nzjssTJEkSC6a%2FSWz7TWB3omsCH8BvMqNoVkXYB3r12F2IIJu4JPz98fEyQ9bC3ERAjVoMX%2FaXvBWvVd34iUrwhVjn5iB2jCAqiKeCkjFBb9FIzX%203uUzYAhHc35dE4aSDFDctKc13r1MR%2FNuq4idI8ilaZQ5JUjUgutxygxHcnRmHRuYW0dbzfMIpBADd90WhKa76ESANqQ4hUqAzhMpEd1WWAxerZ55GBq1cWB8NmElKfsgqW%20Go8qlNIhySwptuQ1imQF4xKBa437k7OlxbylI9ig=%3D",
+                "children": [
+                  {
+                    "text": "“Sign In"
+                  }
+                ]
+              },
+              {
+                "text": "” and choose your preferred sign-in method from Mobile Number, PDS, EPIC, or Member ID."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2:",
+                "bold": true
+              },
+              {
+                "text": " Enter your User ID and Password, then click on “Login” to access your account."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 3:",
+                "bold": true
+              },
+              {
+                "text": " After logging in, click on “Apply for Services/Scheme” to start your application."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 4:",
+                "bold": true
+              },
+              {
+                "text": " Fill in all the required details in the application form, upload the necessary documents, carefully review the information, and click on “Submit.”"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          }
+        ],
+        "process_md": "**Citizen Registration for Member ID**\n**Step 1:** Visit the [official website ](https://meghalayaone.gov.in/meghalaya-one/view-detail?U2FsdGVkX19%2FvYLmWwCXyOMeLiXd0bwWjzuqTkqZ5bx1HKapcgsy4pw1JIgstaIOITwcHuBvpPPD6iN7YkGifWRLykQ%200ZpLCa5FhaPU%20kuxtRhQpo5ZggqbPdkkv0f1z%2052%20rpcSGeuAx57HGC%2FOxlCK4PbBMvhoHuADggCCipI8KuD3PY8zCmChr3VkNgyf4qhN%20WQ1eVlm0p3C0FD09Ujw3UIvK6%20KETJBc1ELANs6lfeiSgbwtGc7hNZ55mx=)of the scheme and click on the “Login to Apply” button to start the application process. Carefully read all the instructions provided on the website before proceeding.\n**Step 2:** If you are a first-time user, click on “[Registration for New User](https://meghalayaone.gov.in/meghalaya-one/citizen-login?U2FsdGVkX1%2Fj0VpCC5AKaBYOcVsO207ea%20qs40JOarPgwkZtFDg03EVeDNMjhzMNgt66jk7HLKmzLFayU0wTM0EjpeKCRqApCovt2efa%2F0KbydwrFt8QNtiK1L9FEGK0rwHWPMZNxfJ2oG84okmekHM%20w2UWsypPf7HznEGzXJ9yzUevH2GxeNY6GrVN64Nc5vLWhdycsyVT5gxYjOQ7aTLfMjvUcaNNg56%20lFH6Z87ejSfF5hcowpsYT63w1IVyMGXXLjTCwVX1J7zigJST3KvW3SAkeGKZbQ4pl9jSHq16%2FowHqRFwaSZ2hZHgvcAel7SmNx0C4xFN5oap8U%20rLA=%3D)” and complete the registration process to create your account.\n**Step 3:** Select your Authentication ID from the available options, such as\n\n- PDS (Ration Card) \n- Election Photo ID Card (EPIC).\n\n**Step 4:** Enter your card number, select your name from the displayed list, and click on “Next” to continue.\n**Step 5:** Your EPIC ID will appear on the screen. If the details are correct, click on “Accept.” If the details are incorrect or rejected, manually enter your EPIC number and proceed.\n**Step 6:** Click on “Validate” to verify the entered EPIC number, and then click on “Next” to move to the application form.\n**Step 7:** Fill in all required details in the application form, upload the necessary documents, carefully review all the information, and click on “Submit.” After successful submission, you will receive a unique application number for future reference.\n**Sign In** \n**Step 1:** Click on [“Sign In](https://meghalayaone.gov.in/meghalaya-one/citizen-login?U2FsdGVkX1%2Fdu5Z2a1hGWoNI9swJd%2F0ipy%2F8BIg8oHzgeQ8x8B%206kEL5r6nzjssTJEkSC6a%2FSWz7TWB3omsCH8BvMqNoVkXYB3r12F2IIJu4JPz98fEyQ9bC3ERAjVoMX%2FaXvBWvVd34iUrwhVjn5iB2jCAqiKeCkjFBb9FIzX%203uUzYAhHc35dE4aSDFDctKc13r1MR%2FNuq4idI8ilaZQ5JUjUgutxygxHcnRmHRuYW0dbzfMIpBADd90WhKa76ESANqQ4hUqAzhMpEd1WWAxerZ55GBq1cWB8NmElKfsgqW%20Go8qlNIhySwptuQ1imQF4xKBa437k7OlxbylI9ig=%3D)” and choose your preferred sign-in method from Mobile Number, PDS, EPIC, or Member ID.\n**Step 2:** Enter your User ID and Password, then click on “Login” to access your account.\n**Step 3:** After logging in, click on “Apply for Services/Scheme” to start your application.\n**Step 4:** Fill in all the required details in the application form, upload the necessary documents, carefully review the information, and click on “Submit.”\n<br>\n\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "**For Individuals:**\n\n1. The applicant must be between 18 and 58 years of age.\n1. The applicant must be a permanent resident of Meghalaya.\n1. The applicant must provide proof of relevant experience in the field related to the proposed project.\n1. The applicant must substantiate experience through past projects, portfolios, certifications, or testimonials from the village headman.\n1. The applicant shall not be a credit defaulter with any bank or financial institution.\n1. The applicant without demonstrated relevant experience will not be considered.\n\n**For Unregistered Entities:**\n\n1. The unregistered entity must be based in Meghalaya.\n1. The unregistered entity may include village organizations, self-help groups, traditional communities, or similar groups.\n1. The unregistered entity must provide proof of relevant experience in the field related to the proposed project.\n1. The unregistered entity must substantiate experience through past projects, portfolios, certifications, or testimonials from the village headman.\n1. The unregistered entity shall not be a credit defaulter with any bank or financial institution.\n1. The unregistered entity without demonstrated relevant experience will not be considered.\n\n<br>\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "For Individuals:",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must be between 18 and 58 years of age."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must be a permanent resident of Meghalaya."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must provide proof of relevant experience in the field related to the proposed project."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must substantiate experience through past projects, portfolios, certifications, or testimonials from the village headman."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant shall not be a credit defaulter with any bank or financial institution."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant without demonstrated relevant experience will not be considered."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "For Unregistered Entities:",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The unregistered entity must be based in Meghalaya."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The unregistered entity may include village organizations, self-help groups, traditional communities, or similar groups."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The unregistered entity must provide proof of relevant experience in the field related to the proposed project."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The unregistered entity must substantiate experience through past projects, portfolios, certifications, or testimonials from the village headman."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The unregistered entity shall not be a credit defaulter with any bank or financial institution."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The unregistered entity without demonstrated relevant experience will not be considered."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "pseeads"
+}

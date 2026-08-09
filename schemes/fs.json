@@ -1,0 +1,342 @@
+{
+  "_id": "65e58266da55878ebe1063a5",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Studentship",
+        "Scholarship",
+        "Award",
+        "Student",
+        "Education"
+      ],
+      "schemeName": "Free Studentship",
+      "schemeShortTitle": "FS",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce76cd6d1a3bde4685292",
+          "label": "Education & Learning"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Coaching",
+          "label": "Coaching"
+        },
+        {
+          "value": "Internship",
+          "label": "Internship"
+        },
+        {
+          "value": "Scholarships and student finance",
+          "label": "Scholarships and student finance"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "schemeFor": "Individual",
+      "state": {
+        "value": 17,
+        "label": "Meghalaya"
+      },
+      "nodalDepartmentName": {
+        "value": 1777781,
+        "label": "Education Department"
+      }
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines And Application Form",
+          "url": "https://meghalaya.gov.in/sites/default/files/documents/handbook_of_Scholarship_Schemes_0.pdf"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The scheme &quot;Free Studentship&quot; by the Directorate of Higher &amp; Technical Education, Meghalaya, is a state-sponsored program aimed at providing financial assistance to students belonging to the SC/ST/OBC categories for their tuition fees and other fee according to prescribed rates.\n",
+      "benefits_md": "\n- Class 11th - 12th (Arts &amp; Commerce): ₹1,105/-.\n- Class 11th - 12th (Science): ₹1285/- \n- Degree General (Arts &amp; Commerce): ₹1,375/-.\n- Degree Major (Arts &amp; Commerce): ₹1,635/-.\n- Degree General (Science): ₹1,735/-. \n- Degree Major (Science): ₹2,235/-.\n\n<br>\n\n<br>\n\n",
+      "exclusions_md": "<br>\n\n",
+      "briefDescription": "The \"Free Studentship\" initiative, administered by the Directorate of Higher & Technical Education, Meghalaya, is a state-sponsored program aimed at providing financial assistance to students belonging to the SC/ST/OBC categories for their tuition fees and other fee according to prescribed rates.",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The scheme \"Free Studentship\" by the Directorate of Higher & Technical Education, Meghalaya, is a state-sponsored program aimed at providing financial assistance to students belonging to the SC/ST/OBC categories for their tuition fees and other fee according to prescribed rates."
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Class 11th - 12th (Arts & Commerce): ₹1,105/-."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Class 11th - 12th (Science): ₹1285/- "
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Degree General (Arts & Commerce): ₹1,375/-."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Degree Major (Arts & Commerce): ₹1,635/-."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Degree General (Science): ₹1,735/-. "
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Degree Major (Science): ₹2,235/-."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ],
+      "exclusions": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "process": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 1:",
+                "bold": true
+              },
+              {
+                "text": " The applicant should visit and request the hard copy of the prescribed format of the application form from the colleges/institutes in which they are studying. The students studying in an institution outside the state may collect the forms from the Office of the D.H.T.E. (Directorate of Higher and Technical Education)."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Or"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "The interested applicant should take print of the "
+              },
+              {
+                "type": "link",
+                "link": "https://meghalaya.gov.in/sites/default/files/documents/handbook_of_Scholarship_Schemes_0.pdf",
+                "children": [
+                  {
+                    "text": "prescribed format"
+                  }
+                ]
+              },
+              {
+                "text": " of the application form."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2:",
+                "bold": true
+              },
+              {
+                "text": " In the application form, fill in all the mandatory fields and attach copies of all the mandatory documents (self-attest, if required)."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 3:",
+                "bold": true
+              },
+              {
+                "text": " Submit the duly filled and signed application form along with the documents to the Head of Institution where he/she is pursuing studies."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 4:",
+                "bold": true
+              },
+              {
+                "text": " Request a receipt or acknowledgement from the concerned authority to whom the application has been submitted. Ensure that the receipt contains essential details such as the date and time of submission, and a unique identification number (if applicable)."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          }
+        ],
+        "process_md": "**Step 1:** The applicant should visit and request the hard copy of the prescribed format of the application form from the colleges/institutes in which they are studying. The students studying in an institution outside the state may collect the forms from the Office of the D.H.T.E. (Directorate of Higher and Technical Education).\nOr\nThe interested applicant should take print of the [prescribed format](https://meghalaya.gov.in/sites/default/files/documents/handbook_of_Scholarship_Schemes_0.pdf) of the application form.\n**Step 2:** In the application form, fill in all the mandatory fields and attach copies of all the mandatory documents (self-attest, if required).\n**Step 3:** Submit the duly filled and signed application form along with the documents to the Head of Institution where he/she is pursuing studies.\n**Step 4:** Request a receipt or acknowledgement from the concerned authority to whom the application has been submitted. Ensure that the receipt contains essential details such as the date and time of submission, and a unique identification number (if applicable).\n<br>\n\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n1. The applicant should be a citizen of India.\n1. The applicant should be a permanent resident of Meghalaya.\n1. The applicant should be a Student.\n1. He/ She should belong to Scheduled Casts (SC)/ Scheduled Tribes (ST)/ Other Backward Classes (OBC). \n1. He/ She should be pursuing a regular course of studies in a recognized institution. \n1. The student&#39;s guardian/parents should be citizens of India.\n1. He/she should not be receiving financial assistance from the Indian government&#39;s Post Matric Scholarship for SC/ST students and other government central and state scholarship schemes.\n1. He/she should not be a government/non-government employee. \n1. He/she should not be a repeater in the same class more than once. \n\n",
+      "eligibilityDescription": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should be a citizen of India."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should be a permanent resident of Meghalaya."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should be a Student."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "He/ She should belong to Scheduled Casts (SC)/ Scheduled Tribes (ST)/ Other Backward Classes (OBC). "
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "He/ She should be pursuing a regular course of studies in a recognized institution. "
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The student's guardian/parents should be citizens of India."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "He/she should not be receiving financial assistance from the Indian government's Post Matric Scholarship for SC/ST students and other government central and state scholarship schemes."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "He/she should not be a government/non-government employee. "
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "He/she should not be a repeater in the same class more than once. "
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "fs"
+}

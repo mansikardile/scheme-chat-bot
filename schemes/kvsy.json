@@ -1,0 +1,308 @@
+{
+  "_id": "6433de7a115770cc78d50e4e",
+  "en": {
+    "basicDetails": {
+      "schemeOpenDate": "2022-08-16",
+      "schemeCloseDate": null,
+      "state": {
+        "value": 9,
+        "label": "Uttar Pradesh"
+      },
+      "nodalMinistryName": null,
+      "nodalDepartmentName": {
+        "value": 90000049,
+        "label": "Department of Social Welfare"
+      },
+      "otherMinistryName": null,
+      "otherDepartmentNames": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Financial assistance",
+          "label": "Financial assistance"
+        }
+      ],
+      "dbtScheme": null,
+      "implementingAgency": null,
+      "tags": [
+        "Kanya",
+        "Vivah",
+        "Girl",
+        "Marriage",
+        "Financial Assistance"
+      ],
+      "schemeName": "Kanya Vivah Sahayta Yojana",
+      "schemeShortTitle": "Kvsy",
+      "level": {
+        "value": "state",
+        "label": "State"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce87cd6d1a3bde4685312",
+          "label": "Social welfare & Empowerment"
+        }
+      ],
+      "schemeType": null,
+      "schemeFor": "Family"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://upbocw.in/pdf/schemes/kanya_vivah_2022.pdf"
+        },
+        {
+          "title": "Official Website",
+          "url": "https://upbocw.in/English/StaticPages/schemes.aspx#tab6"
+        }
+      ],
+      "schemeImageUrl": "",
+      "briefDescription": "The primary objective of this scheme is to provide financial assistance for marriageable daughters of beneficiary registered labourers and registered women construction labourers working in the building and other construction processes and to encourage legal arrangements.",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Details",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "The primary objective of this scheme is to provide financial assistance for marriageable daughters of beneficiary registered labourers and registered women construction labourers working in the building and other construction processes and to encourage legal arrangements like adult marriage to prevent illegal practices to control. All those registered construction workers will be eligible under this scheme, who are the latest duly registered members of the board, as well as the daughter of such registered construction worker or the registered female worker herself should not be less than the age as decided by the government from time to time. Under this scheme, such updated registered construction workers who have completed at least 01 years (365 days) board membership period after registration can apply for the benefit."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "Within one year of the completion of the marriage, an application will have to be made from the website of the Public Service Center / Board along with all necessary records, but in case of mass marriage, the application can be made 15 days before the date fixed for the marriage. It will be mandatory to attach the required documents with the application form."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "bold": true,
+              "text": ""
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "bold": true,
+              "text": ""
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "bold": true,
+              "text": ""
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "Benefits",
+                  "bold": true
+                }
+              ]
+            },
+            {
+              "type": "ol_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "In case of fulfilment of all the qualifications to the registered construction worker, an amount of Rs.55,000/- (Rupees fifty five thousand only) will be provided by the board as financial assistance for the marriage of his own daughter or registered female construction worker and for inter-caste marriage Rs. An amount of 61,000 / – (Rupees sixty one thousand only) will be provided as financial assistance."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "In the case of group marriage, in the event of a marriage of a minimum of 11 couples being organized simultaneously at one place, an amount of Rs. 65,000 (Rupees Sixty Five Thousand only) will be provided by the Board as financial assistance for the daughter's marriage and the group marriage will be held in the form of financial assistance. Expenses at the rate of Rs.7,000/- per pair will be paid by the Board to the organiser. In addition to the above, the amount for the purchase of the bride and groom's dress at the rate of Rs. 5000/- each will be transferred to the account of the registered worker 1 week before the proposed date of mass marriage and if one of the two parties is not present In such a case, the amount paid as advance for a dress will be adjusted against the amount payable in normal / inter-caste marriage (as the case may be)."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": " In the case of self-marriage of registered women workers also, the amount of benefit as mentioned above will be payable with the condition that the amount has not been received under this head by her/his father/mother. In the case of remarriage of a registered female construction worker, this benefit will be payable only in the event that her marriage is legally divorced or she is being remarried after the death of her husband. In cases of divorce, an attested copy of the decision of the court of competent jurisdiction and in case of remarriage after the death of the husband, a copy of the death certificate of the husband issued from the competent level will be required as necessary records. The amount of benefit payable in cases of remarriage will be equal to the amount payable in cases of group marriages."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "exclusions": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ],
+      "detailedDescription_md": "**Details**\nThe primary objective of this scheme is to provide financial assistance for marriageable daughters of beneficiary registered labourers and registered women construction labourers working in the building and other construction processes and to encourage legal arrangements like adult marriage to prevent illegal practices to control. All those registered construction workers will be eligible under this scheme, who are the latest duly registered members of the board, as well as the daughter of such registered construction worker or the registered female worker herself should not be less than the age as decided by the government from time to time. Under this scheme, such updated registered construction workers who have completed at least 01 years (365 days) board membership period after registration can apply for the benefit.\nWithin one year of the completion of the marriage, an application will have to be made from the website of the Public Service Center / Board along with all necessary records, but in case of mass marriage, the application can be made 15 days before the date fixed for the marriage. It will be mandatory to attach the required documents with the application form.\n&lt;br&gt;\n\n<br>\n\n<br>\n\n<br>\n\n"
+    },
+    "applicationProcess": [
+      {
+        "mode": "Online",
+        "url": "https://www.uplmis.in/Guest/frm_CreateLogin.aspx?type=2",
+        "process": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Application Form",
+                "bold": true
+              }
+            ]
+          },
+          {
+            "type": "ol_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Within one year of the completion of the marriage, an application will have to be made from the "
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://www.uplmis.in/Guest/frm_CreateLogin.aspx?type=2",
+                    "children": [
+                      {
+                        "text": "website "
+                      }
+                    ]
+                  },
+                  {
+                    "text": "of Public Service Center / Board along with all necessary records, but in case of mass marriage, the application can be made 15 days before the date fixed for the marriage."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "For all those registered construction workers who will be eligible under this scheme, who are the latest duly registered members of the board, as well as the age of the daughter of such registered construction worker or the registered female worker herself should not be less than the age prescribed by the government from time to time. Such updated registered construction workers who have completed at least one year (365 days) membership of the board after registration will be able to apply for benefits under this scheme."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "**Eligibility** \n\n1. After the registration by the construction worker, the membership period of the board should have been completed for at least 365 days.\n1. Provision has been made for application within 1 year of marriage and 15 days before in case of mass marriage.\n1. Aadhaar authentication of the daughter of the beneficiary labor has been made mandatory.\n1. The benefit is limited subject to the limit of 2 children.\n1. The benefit of the scheme will be admissible after the daughter and the proposed bridegroom complete the prescribed age of 18 years and 21 years respectively.\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Eligibility ",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "After the registration by the construction worker, the membership period of the board should have been completed for at least 365 days."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Provision has been made for application within 1 year of marriage and 15 days before in case of mass marriage."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Aadhaar authentication of the daughter of the beneficiary labor has been made mandatory."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The benefit is limited subject to the limit of 2 children."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The benefit of the scheme will be admissible after the daughter and the proposed bridegroom complete the prescribed age of 18 years and 21 years respectively."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "kvsy"
+}

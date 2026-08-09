@@ -1,0 +1,298 @@
+{
+  "_id": "66d0282dc542b4416ffdc2dc",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Laon",
+        "Education",
+        "Student",
+        "Financial Assistance"
+      ],
+      "schemeName": "Overseas Educational Loan Scheme",
+      "schemeShortTitle": "OELS",
+      "implementingAgency": "Karnataka Minorities Development Corporation",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce76cd6d1a3bde4685292",
+          "label": "Education & Learning"
+        },
+        {
+          "value": "628ce7f6d6d1a3bde46852d0",
+          "label": "Banking,Financial Services and Insurance"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Loan",
+          "label": "Loan"
+        },
+        {
+          "value": "Scholarships and student finance",
+          "label": "Scholarships and student finance"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "state": {
+        "value": 29,
+        "label": "Karnataka"
+      },
+      "nodalDepartmentName": {
+        "value": 3000027,
+        "label": "Minorities Welfare Department"
+      },
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://kmdc.karnataka.gov.in/36/overseas-educational-loan/en"
+        },
+        {
+          "title": "Login & Apply",
+          "url": "https://kmdconline.karnataka.gov.in/Portal/login"
+        },
+        {
+          "title": "Track Application",
+          "url": "https://kmdconline.karnataka.gov.in/Portal/track"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The &quot;Overseas Educational Loan Scheme&quot; was launched by the Minorities Welfare Department, Government of Karnataka, and implemented by the Karnataka Minorities Development Corporation. The scheme objective is to provide financial/loan assistance to students belonging to minority communities who are pursuing graduate or postgraduate degree courses in recognized universities abroad.\n",
+      "benefits_md": "\n- The loan amount will be provided up to ₹20,00,000/- at a zero interest rate.\n\n",
+      "exclusions_md": "<br>\n\n",
+      "briefDescription": "The \"Overseas Educational Loan Scheme\" objective is to provide financial/loan assistance to students belonging to minority communities who are pursuing graduate or postgraduate degree courses in recognized universities abroad.",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The \"Overseas Educational Loan Scheme\" was launched by the Minorities Welfare Department, Government of Karnataka, and implemented by the Karnataka Minorities Development Corporation. The scheme objective is to provide financial/loan assistance to students belonging to minority communities who are pursuing graduate or postgraduate degree courses in recognized universities abroad."
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The loan amount will be provided up to ₹20,00,000/- at a zero interest rate."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "exclusions": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Online",
+        "process": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step-01: Applicant need to visits the Karnataka Minorities Development Corporation"
+              },
+              {
+                "type": "link",
+                "link": "https://kmdconline.karnataka.gov.in/Portal/home",
+                "children": [
+                  {
+                    "text": " official website"
+                  }
+                ]
+              },
+              {
+                "text": ".  "
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step-02: Click "
+              },
+              {
+                "type": "link",
+                "link": "https://kmdconline.karnataka.gov.in/Portal/login",
+                "children": [
+                  {
+                    "text": "\"Apply Online\""
+                  }
+                ]
+              },
+              {
+                "text": " and Enter \"Mobile Number\" and \"Submit\".   "
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step-03: Enter \"Aadhaar Number\" Fill in the \"Captcha\" and Select \"Next\"."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step-04: Applicant will get OTP in his/her Aadhaar Linked Mobile Number."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step-05: Enter \"OTP\" and select \"Continue\", After that Allow the official notice."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step-06: After verifying the Aadhaar again fill in the \"OTP\" and Submit."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step-07: Select the scheme \"Sikhligar’s Community Development Scheme\" and fill in the basic details father's name, gender, qualification detail"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step-08: Select \"Next\" Fill in the address detail and again select \"Next\"."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step-09: Upload the required document passport-size photo, educational document, income certificate, etc. "
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step-10: Click \"Proceed\" and Select \"Submit Application\" and get an Application ID."
+              }
+            ]
+          }
+        ],
+        "process_md": "Step-01: Applicant need to visits the Karnataka Minorities Development Corporation[ official website](https://kmdconline.karnataka.gov.in/Portal/home).  \nStep-02: Click [&quot;Apply Online&quot;](https://kmdconline.karnataka.gov.in/Portal/login) and Enter &quot;Mobile Number&quot; and &quot;Submit&quot;.   \nStep-03: Enter &quot;Aadhaar Number&quot; Fill in the &quot;Captcha&quot; and Select &quot;Next&quot;.\nStep-04: Applicant will get OTP in his/her Aadhaar Linked Mobile Number.\nStep-05: Enter &quot;OTP&quot; and select &quot;Continue&quot;, After that Allow the official notice.\nStep-06: After verifying the Aadhaar again fill in the &quot;OTP&quot; and Submit.\nStep-07: Select the scheme &quot;Sikhligar’s Community Development Scheme&quot; and fill in the basic details father&#39;s name, gender, qualification detail\nStep-08: Select &quot;Next&quot; Fill in the address detail and again select &quot;Next&quot;.\nStep-09: Upload the required document passport-size photo, educational document, income certificate, etc. \nStep-10: Click &quot;Proceed&quot; and Select &quot;Submit Application&quot; and get an Application ID.\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n1. The student should be a resident of Karnataka State.\n1. The student should belong to a minority community (Muslim, Christian, Jain, Buddhist, Sikh and Parsi).\n1. The student should have secured at least 60% marks in the previous year.\n1. The student should have received an offer letter from a foreign university.\n1. Loans will be provided only on mortgage of property (building/land) to the corporation. The value of the property should not be less than the loan amount.\n1. The students who have not received a scholarship from the Directorate of Minorities.\n\n<br>\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The student should be a resident of Karnataka State."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The student should belong to a minority community (Muslim, Christian, Jain, Buddhist, Sikh and Parsi)."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The student should have secured at least 60% marks in the previous year."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The student should have received an offer letter from a foreign university."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Loans will be provided only on mortgage of property (building/land) to the corporation. The value of the property should not be less than the loan amount."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The students who have not received a scholarship from the Directorate of Minorities."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "oels"
+}

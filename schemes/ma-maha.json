@@ -1,0 +1,226 @@
+{
+  "_id": "645872b182abf04de47c7c12",
+  "en": {
+    "basicDetails": {
+      "schemeOpenDate": null,
+      "schemeCloseDate": null,
+      "state": {
+        "value": 27,
+        "label": "Maharashtra"
+      },
+      "nodalMinistryName": null,
+      "nodalDepartmentName": {
+        "value": 27111139,
+        "label": "Social Justice and Special Assistance Department"
+      },
+      "otherMinistryName": null,
+      "otherDepartmentNames": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Financial assistance",
+          "label": "Financial assistance"
+        },
+        {
+          "value": "Citizen empowerment",
+          "label": "Citizen empowerment"
+        },
+        {
+          "value": "Education and training grants, fellowship, stipend",
+          "label": "Education and training grants, fellowship, stipend"
+        }
+      ],
+      "dbtScheme": null,
+      "implementingAgency": "District Social Welfare Offices Of The Department Of Social Justice & Special Assistance, Govt. Of Maharashtra",
+      "tags": [
+        "Education",
+        "Award",
+        "Student With Disability",
+        "School"
+      ],
+      "schemeName": "Merit Awards",
+      "schemeShortTitle": "MA-MAHA",
+      "level": {
+        "value": "state",
+        "label": "State"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce87cd6d1a3bde4685312",
+          "label": "Social welfare & Empowerment"
+        },
+        {
+          "value": "628ce76cd6d1a3bde4685292",
+          "label": "Education & Learning"
+        }
+      ],
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://sjsa.maharashtra.gov.in/en/scheme-category/disability-welfare"
+        }
+      ],
+      "schemeImageUrl": "",
+      "briefDescription": "In the \"Merit Awards\" scheme, awards are given to the students with disability who rank 1st, 2nd, and 3rd among disabled students in the Secondary School Certificate (S.S.C.) and Higher Secondary Certificate (H.S.C.)  in their respective divisional boards of education.",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The \"Merit Awards\" is a scheme by the Department of Social Justice & Special Assistance, Govt. of Maharashtra. In this scheme, awards are given to the students with disability who rank 1st, 2nd, and 3rd among disabled students in the Secondary School Certificate (S.S.C.) and Higher Secondary Certificate (H.S.C.) in their respective divisional boards of education. Only citizens who are permanent residents of the state of Maharashtra are eligible to apply for this scheme. This scheme is 100% funded by the Govt. of Maharashtra."
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The quantum of the award is ₹1,000/- cash amount, certificate. "
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The beneficiary is also provided travel expenses to attend the place of the award, and felicitation up to an amount ₹100/- per student."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "detailedDescription_md": "The &quot;Merit Awards&quot; is a scheme by the Department of Social Justice &amp; Special Assistance, Govt. of Maharashtra. In this scheme, awards are given to the students with disability who rank 1st, 2nd, and 3rd among disabled students in the Secondary School Certificate (S.S.C.) and Higher Secondary Certificate (H.S.C.) in their respective divisional boards of education. Only citizens who are permanent residents of the state of Maharashtra are eligible to apply for this scheme. This scheme is 100% funded by the Govt. of Maharashtra.\n"
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "url": "",
+        "process": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 1: ",
+                "bold": true
+              },
+              {
+                "text": "Visit the "
+              },
+              {
+                "type": "link",
+                "link": "https://sjsa.maharashtra.gov.in/en/contacts",
+                "children": [
+                  {
+                    "text": "District Social Welfare Office"
+                  }
+                ]
+              },
+              {
+                "text": ", and request a hard copy of the format of the application form for the scheme from the concerned authority."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2: ",
+                "bold": true
+              },
+              {
+                "text": "In the application form, fill in all the mandatory fields, paste the passport-sized photograph (signed across), and attach all the (self-attested) mandatory documents."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 3: ",
+                "bold": true
+              },
+              {
+                "text": "Submit the duly filled and signed application form along with the documents to the Regional Deputy Commissioner, District Social Welfare Office."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 4: ",
+                "bold": true
+              },
+              {
+                "text": "Acquire the receipt/acknowledgment of the successful submission of the application form from the District Social Welfare Office."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n1. The applicant should be a citizen of India.\n1. The applicant should be a permanent resident of Maharashtra State.\n1. The applicant should be a Person with Disability (Visually Handicapped, Low Vision, Hearing Impaired, Orthopedically Handicapped, etc).\n1. The applicant should have ranked 1st, 2nd, and 3rd among disabled students in the Secondary School Certificate (S.S.C.) and Higher Secondary Certificate (H.S.C.) in their respective divisional boards of education.\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should be a citizen of India."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should be a permanent resident of Maharashtra State."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should be a Person with Disability (Visually Handicapped, Low Vision, Hearing Impaired, Orthopedically Handicapped, etc)."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should have ranked 1st, 2nd, and 3rd among disabled students in the Secondary School Certificate (S.S.C.) and Higher Secondary Certificate (H.S.C.) in their respective divisional boards of education."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "ma-maha"
+}

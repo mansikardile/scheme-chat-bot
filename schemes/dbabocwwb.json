@@ -1,0 +1,460 @@
+{
+  "_id": "65bc972ced4030e118c2d81c",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Death",
+        "Financial Assistance",
+        "Building Worker",
+        "Construction Worker",
+        "Labour"
+      ],
+      "schemeName": "Death Benefit (A.B.O.C.W.W.B)",
+      "schemeShortTitle": "DB(ABOCWWB)",
+      "implementingAgency": "Assam Building And Other Construction Workers Welfare Board",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce87cd6d1a3bde4685312",
+          "label": "Social welfare & Empowerment"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Financial assistance",
+          "label": "Financial assistance"
+        },
+        {
+          "value": "Crisis/Disaster/Accident",
+          "label": "Crisis/Disaster/Accident"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "family",
+          "label": "Family"
+        }
+      ],
+      "state": {
+        "value": 18,
+        "label": "Assam"
+      },
+      "nodalDepartmentName": {
+        "value": 1800027,
+        "label": "Labour & Welfare Department"
+      },
+      "schemeFor": "Family"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Official Website",
+          "url": "https://labourcommissioner.assam.gov.in/portlet-innerpage/various-welfare-benefits-for-registered-construction-workers"
+        },
+        {
+          "title": "Application Portal",
+          "url": "https://abocwwb.assam.gov.in/"
+        },
+        {
+          "title": "User Manual",
+          "url": "https://labourcommissioner.assam.gov.in/sites/default/files/swf_utility_folder/departments/coi_labour_uneecopscloud_com_oid_14/portlet/level_2/sop_bocw_online_mode_for_uploading.pdf"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The scheme “Death Benefit” was started by the Assam Building and Other Construction Workers Welfare Board (A.B.O.C.W.W.B), Labour Welfare Department, Government of Assam. Under this scheme, financial assistance shall be given to the nominees/dependents of a registered worker towards death benefit, in case of normal death or due to an accident during the course of employment.\n",
+      "benefits_md": "\n   1. The financial assistance of ₹50,000/- shall be given to the nominees/dependents of a registered construction worker in case of normal death during the course of employment.\n   1. The financial assistance of ₹3,00,000/- shall be given to the nominee/dependents of a registered construction worker, in case the death is due to an accident during the course of employment.\n\n",
+      "briefDescription": "Under this scheme, financial assistance shall be given to the nominees/dependents of a registered worker towards death benefit, in case of normal death or due to an accident during the course of employment.",
+      "exclusions_md": "",
+      "detailedDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "The scheme “Death Benefit” was started by the Assam Building and Other Construction Workers Welfare Board (A.B.O.C.W.W.B), Labour Welfare Department, Government of Assam. Under this scheme, financial assistance shall be given to the nominees/dependents of a registered worker towards death benefit, in case of normal death or due to an accident during the course of employment."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "ol_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The financial assistance of ₹50,000/- shall be given to the nominees/dependents of a registered construction worker in case of normal death during the course of employment."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The financial assistance of ₹3,00,000/- shall be given to the nominee/dependents of a registered construction worker, in case the death is due to an accident during the course of employment."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Online",
+        "process": [
+          {
+            "type": "align_justify",
+            "children": [
+              {
+                "type": "block_quote",
+                "children": [
+                  {
+                    "text": "Application Process to apply under the scheme:",
+                    "bold": true,
+                    "underline": true
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 01: ",
+                    "bold": true
+                  },
+                  {
+                    "text": "The eligible applicants may apply through the portal. "
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://abocwwb.assam.gov.in/",
+                    "children": [
+                      {
+                        "text": "https://abocwwb.assam.gov.in/"
+                      }
+                    ]
+                  },
+                  {
+                    "text": ""
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 02:",
+                    "bold": true
+                  },
+                  {
+                    "text": " The eligible applicants may login in through ID No./registered phone number. On the home page of the portal, click on ‘"
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://abocwwb.assam.gov.in/index.php/Base/userLogin",
+                    "children": [
+                      {
+                        "text": "Login Now"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "’ and enter the Mobile Number or User ID. OTP received on the registered mobile number should be entered to complete the login."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 03:",
+                    "bold": true
+                  },
+                  {
+                    "text": " The individual console of the applicant gets opened with various functions such as detail updating, Fees due, and benefits eligible."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 04:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Click on ‘Benefit’ and select the applicable scheme (Death Benefit) under the benefit and the portal redirects to an online application form specific to the scheme."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 05:",
+                    "bold": true
+                  },
+                  {
+                    "text": " The applicant may fill up the application with all mandatory fields and upload the necessary documents."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 06:",
+                    "bold": true
+                  },
+                  {
+                    "text": " The applicant submits the application form and a tracking/reference number is generated as a future reference for the applicant."
+                  }
+                ]
+              },
+              {
+                "type": "block_quote",
+                "children": [
+                  {
+                    "text": "Post-Application Process:",
+                    "bold": true
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 01: ",
+                    "bold": true
+                  },
+                  {
+                    "text": "Successfully submitted applications pop up in the concerned Officers console. The officer may assign a subordinate to make verifications through the portal."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 02:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Subsequent to preliminary verification, the application is placed in the scrutiny committee for detailed checks."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 03:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Minutes of the Scrutiny Committee meeting get uploaded and Forwarded to the H.O."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 04: ",
+                    "bold": true
+                  },
+                  {
+                    "text": "Applications/ Pops up in the Officer’s Console of Head Office. Officer assigns to the Assistant concerned and allotted with the District concerned."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 05:",
+                    "bold": true
+                  },
+                  {
+                    "text": " The assistant processes the application through PFMS. Account details get auto-verified in PFMS."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 06:",
+                    "bold": true
+                  },
+                  {
+                    "text": " On successful PFMS verification, Print Advice is generated through PFMS."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 07:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Approving authority approves for disbursement of the benefit through PFMS."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "("
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://labourcommissioner.assam.gov.in/sites/default/files/swf_utility_folder/departments/coi_labour_uneecopscloud_com_oid_14/portlet/level_2/sop_bocw_online_mode_for_uploading.pdf",
+                    "children": [
+                      {
+                        "text": "User Manual"
+                      }
+                    ]
+                  },
+                  {
+                    "text": ")"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "process_md": "&gt; **Application Process to apply under the scheme:**\n\n**Step 01:** The eligible applicants may apply through the portal. [https://abocwwb.assam.gov.in/](https://abocwwb.assam.gov.in/)\n**Step 02:** The eligible applicants may login in through ID No./registered phone number. On the home page of the portal, click on ‘[Login Now](https://abocwwb.assam.gov.in/index.php/Base/userLogin)’ and enter the Mobile Number or User ID. OTP received on the registered mobile number should be entered to complete the login.\n**Step 03:** The individual console of the applicant gets opened with various functions such as detail updating, Fees due, and benefits eligible.\n**Step 04:** Click on ‘Benefit’ and select the applicable scheme (Death Benefit) under the benefit and the portal redirects to an online application form specific to the scheme.\n**Step 05:** The applicant may fill up the application with all mandatory fields and upload the necessary documents.\n**Step 06:** The applicant submits the application form and a tracking/reference number is generated as a future reference for the applicant.\n&gt; **Post-Application Process:**\n\n**Step 01:** Successfully submitted applications pop up in the concerned Officers console. The officer may assign a subordinate to make verifications through the portal.\n**Step 02:** Subsequent to preliminary verification, the application is placed in the scrutiny committee for detailed checks.\n**Step 03:** Minutes of the Scrutiny Committee meeting get uploaded and Forwarded to the H.O.\n**Step 04:** Applications/ Pops up in the Officer’s Console of Head Office. Officer assigns to the Assistant concerned and allotted with the District concerned.\n**Step 05:** The assistant processes the application through PFMS. Account details get auto-verified in PFMS.\n**Step 06:** On successful PFMS verification, Print Advice is generated through PFMS.\n**Step 07:** Approving authority approves for disbursement of the benefit through PFMS.\n([User Manual](https://labourcommissioner.assam.gov.in/sites/default/files/swf_utility_folder/departments/coi_labour_uneecopscloud_com_oid_14/portlet/level_2/sop_bocw_online_mode_for_uploading.pdf))\n"
+      },
+      {
+        "mode": "Online - via CSC",
+        "process": [
+          {
+            "type": "align_justify",
+            "children": [
+              {
+                "type": "ul_list",
+                "children": [
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "text": "Applicants can approach the nearest CSC (VLE) for required assistance."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "text": "In case VLE assistance is utilized, VLEs shall ensure recording reference/tracking numbers at their end and also providing the same to the applicant."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "text": "An applicant can directly check for the status of an application or make telephonic inquiries to the concerned VLE by providing a tracking ID. VLEs shall ensure telephone numbers are displayed in centers at all times."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          }
+        ],
+        "process_md": "\n  - Applicants can approach the nearest CSC (VLE) for required assistance.\n  - In case VLE assistance is utilized, VLEs shall ensure recording reference/tracking numbers at their end and also providing the same to the applicant.\n  - An applicant can directly check for the status of an application or make telephonic inquiries to the concerned VLE by providing a tracking ID. VLEs shall ensure telephone numbers are displayed in centers at all times.\n\n<br>\n\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n   1. The applicant should be a permanent resident of Assam.\n   1. The applicant should be a nominee/dependent of deceased worker.\n   1. The deceased worker should have been engaged in any building and other construction work.\n   1. The deceased worker should have been registered with the Assam Building and Other Construction Workers Welfare Board.\n   1. The deceased worker should have had an active membership with the Board.\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "ol_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant should be a permanent resident of Assam."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant should be a nominee/dependent of deceased worker."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The deceased worker should have been engaged in any building and other construction work."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The deceased worker should have been registered with the Assam Building and Other Construction Workers Welfare Board."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The deceased worker should have had an active membership with the Board."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "dbabocwwb"
+}

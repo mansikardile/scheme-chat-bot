@@ -1,0 +1,301 @@
+{
+  "_id": "666add0021d7c2ac0d8828a5",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Employment",
+        "Transport",
+        "Financial Assistance",
+        "Subsidy"
+      ],
+      "schemeName": "Mukhyamantri Prakhand Parivahan Yojana",
+      "schemeShortTitle": "MMPPY",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce924d6d1a3bde4685354",
+          "label": "Transport & Infrastructure"
+        },
+        {
+          "value": "628ce85cd6d1a3bde4685304",
+          "label": "Skills & Employment"
+        },
+        {
+          "value": "628ce87cd6d1a3bde4685312",
+          "label": "Social welfare & Empowerment"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Financial assistance",
+          "label": "Financial assistance"
+        },
+        {
+          "value": "Public transport and private vehicles",
+          "label": "Public transport and private vehicles"
+        },
+        {
+          "value": "Employment services and jobs",
+          "label": "Employment services and jobs"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "state": {
+        "value": 10,
+        "label": "Bihar"
+      },
+      "nodalDepartmentName": {
+        "value": 10111151,
+        "label": "Transport Department"
+      },
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://state.bihar.gov.in/cache/16/Smart%20City/Mukhyamantri%20Gram%20Parivahan%20Yojana/8803-23-11-23.pdf"
+        },
+        {
+          "title": "Official Website",
+          "url": "https://state.bihar.gov.in/transport/CitizenHome.html"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "Under the Transport Department of the Bihar Government, has implemented the &amp;#39;Mukhyamantri Prakhand Parivahan Yojana&amp;#39; to provide transportation facilities connecting blocks and remote Panchayats with district headquarters. This scheme aims to enhance connectivity and facilitate mobility for residents across the state of Bihar. To encourage scheduled castes, scheduled tribes, extremely backward classes, backward classes, and minority communities entrepreneurship by providing financial support to purchase buses.\n",
+      "benefits_md": "\n- **Subsidy of ₹5,00,000/- per bus to beneficiaries.**\n\n",
+      "exclusions_md": "<br>\n\n",
+      "briefDescription": "\"Mukhyamantri Prakhand Parivahan Yojana\" to provide transportation facilities connecting blocks & remote Panchayats with district headquarters. This scheme aims to encourage scheduled castes, scheduled tribes, backward classes entrepreneurship by providing financial support to purchase buses.",
+      "detailedDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "Under the Transport Department of the Bihar Government, has implemented the 'Mukhyamantri Prakhand Parivahan Yojana' to provide transportation facilities connecting blocks and remote Panchayats with district headquarters. This scheme aims to enhance connectivity and facilitate mobility for residents across the state of Bihar. To encourage scheduled castes, scheduled tribes, extremely backward classes, backward classes, and minority communities entrepreneurship by providing financial support to purchase buses."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Subsidy of ₹5,00,000/- per bus to beneficiaries.",
+                  "bold": true
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "exclusions": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Online",
+        "process": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 01:",
+                "bold": true
+              },
+              {
+                "text": " The applicant need to visit the Transport Department’s official website for Mukhyamantri Block Transport Yojana "
+              },
+              {
+                "type": "link",
+                "link": "http://appsonline.bih.nic.in/MMGPY/NewRegistrationUser.aspx",
+                "children": [
+                  {
+                    "text": "registration"
+                  }
+                ]
+              },
+              {
+                "text": "."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 02: ",
+                "bold": true
+              },
+              {
+                "text": "The applicant need to fill following details while registering : "
+              }
+            ]
+          },
+          {
+            "type": "ul_list",
+            "children": [
+              {
+                "type": "ul_list",
+                "children": [
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "text": "Phone Number"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "text": "Password"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "text": "Re-password"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "text": "Email ID"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "text": "Driving Licence Number"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step-03: ",
+                "bold": true
+              },
+              {
+                "text": "Submit the details"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          }
+        ],
+        "process_md": "**Step 01:** The applicant need to visit the Transport Department’s official website for Mukhyamantri Block Transport Yojana [registration](http://appsonline.bih.nic.in/MMGPY/NewRegistrationUser.aspx).\n**Step 02:** The applicant need to fill following details while registering : \n\n\n  - Phone Number\n  - Password\n  - Re-password\n  - Email ID\n  - Driving Licence Number\n\n\n**Step-03:** Submit the details\n<br>\n\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n1. The beneficiary should be a resident of the block where they apply.\n1. The age of the beneficiary should not be less than 18 years.\n1. The beneficiary must have a driving license. \n1. The beneficiary should not be working/employed in government service.\n1. The beneficiary should belong to the specified categories SC, ST, EBC, BC, Minority, and General.\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The beneficiary should be a resident of the block where they apply."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The age of the beneficiary should not be less than 18 years."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The beneficiary must have a driving license. "
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The beneficiary should not be working/employed in government service."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The beneficiary should belong to the specified categories SC, ST, EBC, BC, Minority, and General."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "mmppy"
+}

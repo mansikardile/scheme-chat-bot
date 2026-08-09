@@ -1,0 +1,901 @@
+{
+  "_id": "62a198e0b53f102de0e5a396",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": true,
+      "tags": [
+        "Housing",
+        "Urban",
+        "Rehabilitation",
+        "Loan",
+        "Sanitation"
+      ],
+      "schemeName": "Pradhan Mantri Awas Yojana - Urban",
+      "schemeShortTitle": "PMAY - U",
+      "level": {
+        "value": "central",
+        "label": "Central"
+      },
+      "schemeType": {
+        "value": "central-sector-scheme",
+        "label": "Central Sector Scheme"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce7d2d6d1a3bde46852c2",
+          "label": "Housing & Shelter"
+        },
+        {
+          "value": "628ce97ad6d1a3bde468537d",
+          "label": "Utility & Sanitation"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Slum Rehabilitation/Redevelopment",
+          "label": "Slum Rehabilitation/Redevelopment"
+        },
+        {
+          "value": "Electricity",
+          "label": "Electricity"
+        },
+        {
+          "value": "Water supply",
+          "label": "Water supply"
+        },
+        {
+          "value": "Sanitation / Sewage",
+          "label": "Sanitation / Sewage"
+        },
+        {
+          "value": "Housing",
+          "label": "Housing"
+        },
+        {
+          "value": "Solid waste management",
+          "label": "Solid waste management"
+        },
+        {
+          "value": "Loan",
+          "label": "Loan"
+        }
+      ],
+      "schemeOpenDate": "2015-06-25",
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "schemeFor": "Family",
+      "nodalMinistryName": {
+        "value": 518,
+        "label": "Ministry Of Housing & Urban Affairs"
+      },
+      "nodalDepartmentName": null
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://pmay-urban.gov.in/uploads/guidelines/Operational-Guidelines-of-PMAY-U-2.pdf"
+        },
+        {
+          "title": "Official Website",
+          "url": "https://pmay-urban.gov.in/"
+        },
+        {
+          "title": "MIS Portal",
+          "url": "https://pmaymis.gov.in/"
+        }
+      ],
+      "schemeImageUrl": "https://uttara-s3-bucket.s3.ap-south-1.amazonaws.com/schemes/pmay-u/pmay-u.svg",
+      "detailedDescription_md": "The “Pradhan Mantri Awas Yojana – Urban (PMAY-U)” was launched on 25th June 2015 by the Ministry of Housing &amp;amp; Urban Affairs, Government of India with the vision of “Housing for All” to provide pucca houses to eligible urban households. Implemented by the Ministry of Housing and Urban Affairs, the scheme addresses urban housing shortages, especially for EWS, LIG, and MIG categories, including slum dwellers. It promotes affordable and sustainable housing through components like the Credit Linked Subsidy Scheme (CLSS), offering interest subsidies on housing loans. The mission covers all statutory towns and notified urban areas as per Census 2011. Aadhaar is mandatory for all eligible beneficiaries under the scheme.\n<br>\n\n",
+      "benefits_md": "&lt;br&gt;\n\n**States/UTs****BLC &amp;amp;amp;amp; AHP****ARH****ISS**Assam, Arunachal Pradesh, Meghalaya, Manipur, Mizoram, Nagaland, Tripura, Sikkim, Himachal Pradesh, Uttarakhand, UTs of Jammu and Kashmir, Puducherry, and DelhiCentral Govt. - ₹2.25 lakh/Unit;   State Govt. - Min. ₹0.25 lakh/UnitTechnology Innovation Grant Central Govt. - ₹3,000/sqm per unit State Govt.- ₹2,000/sqm per unit Home Loan Subsidy – up to ₹1.80 lakh (Actual Release) per unit by the Government of India as a Central Sector SchemeAll other UTsCentral Govt. - ₹2.50 lakh/UnitDoDoAll other StatesCentral Govt. - ₹1.5 lakh/Unit;    State Govt. - Min. ₹1.00 lakh/UnitDoDo<br>\n\n<br>\n\n",
+      "exclusions_md": "<br>\n\n",
+      "briefDescription": "Pradhan Mantri Awas Yojana - Urban (PMAY-U) Scheme was launched on 25th June 2015 by the Hon’ble Prime Minister to provide all-weather pucca houses to all eligible urban households across the nation with the vision of ‘Housing for All’. ",
+      "detailedDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "The “Pradhan Mantri Awas Yojana – Urban (PMAY-U)” was launched on 25th June 2015 by the Ministry of Housing & Urban Affairs, Government of India with the vision of “Housing for All” to provide pucca houses to eligible urban households. Implemented by the Ministry of Housing and Urban Affairs, the scheme addresses urban housing shortages, especially for EWS, LIG, and MIG categories, including slum dwellers. It promotes affordable and sustainable housing through components like the Credit Linked Subsidy Scheme (CLSS), offering interest subsidies on housing loans. The mission covers all statutory towns and notified urban areas as per Census 2011. Aadhaar is mandatory for all eligible beneficiaries under the scheme."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "value": "in kind",
+        "label": "In Kind"
+      },
+      "benefits": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "children": [
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "States/UTs",
+                      "bold": true
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "BLC & AHP",
+                      "bold": true
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "ARH",
+                      "bold": true
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "ISS",
+                      "bold": true
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Assam, Arunachal Pradesh, Meghalaya, Manipur, Mizoram, Nagaland, Tripura, Sikkim, Himachal Pradesh, Uttarakhand, UTs of Jammu and Kashmir, Puducherry, and Delhi"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Central Govt. - ₹2.25 lakh/Unit;   State Govt. - Min. ₹0.25 lakh/Unit"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Technology Innovation Grant Central Govt. - ₹3,000/sqm per unit State Govt.- ₹2,000/sqm per unit "
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Home Loan Subsidy – up to ₹1.80 lakh (Actual Release) per unit by the Government of India as a Central Sector Scheme"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "All other UTs"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Central Govt. - ₹2.50 lakh/Unit"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Do"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Do"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "All other States"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Central Govt. - ₹1.5 lakh/Unit;    State Govt. - Min. ₹1.00 lakh/Unit"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Do"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Do"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ],
+      "exclusions": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Online",
+        "url": "https://pmaymis.gov.in/",
+        "process": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 1: ",
+                "bold": true
+              },
+              {
+                "text": "Interested beneficiary who wants to own a house under PMAY-U 2.0 can register herself/himself on the "
+              },
+              {
+                "type": "link",
+                "link": "https://pmay-urban.gov.in/",
+                "children": [
+                  {
+                    "text": "PMAY-U 2.0 website"
+                  }
+                ]
+              },
+              {
+                "text": ", wherein it is required to click on ‘Apply for PMAY-U 2.0’ tab. "
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2: ",
+                "bold": true
+              },
+              {
+                "text": "The User is required to read and understand the instructions carefully, her/his eligibility criteria, the option to choose any one vertical out of the four verticals of PMAY-U 2,0 before availing the benefits."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 3: ",
+                "bold": true
+              },
+              {
+                "text": "After proceeding, the User needs to undergo the eligibility check for the scheme."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 4: ",
+                "bold": true
+              },
+              {
+                "text": "Once the Eligibility check is completed, the user shall give consent for Aadhaar authentication. "
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 5: ",
+                "bold": true
+              },
+              {
+                "text": "User will then be taken to the Beneficiary Survey Form for all verticals. The survey form has different sections."
+              }
+            ]
+          },
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "text": "User Manual: "
+              },
+              {
+                "type": "link",
+                "link": "https://pmaymis.gov.in/PMAYMIS2_2024/PDF/UserManual/BeneficairyApplication_for_SoP_27_12_24.pdf",
+                "children": [
+                  {
+                    "text": "Click here"
+                  }
+                ]
+              },
+              {
+                "text": "."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          }
+        ],
+        "process_md": "**Step 1:** Interested beneficiary who wants to own a house under PMAY-U 2.0 can register herself/himself on the [PMAY-U 2.0 website](https://pmay-urban.gov.in/), wherein it is required to click on ‘Apply for PMAY-U 2.0’ tab. \n**Step 2:** The User is required to read and understand the instructions carefully, her/his eligibility criteria, the option to choose any one vertical out of the four verticals of PMAY-U 2,0 before availing the benefits.\n**Step 3:** After proceeding, the User needs to undergo the eligibility check for the scheme.\n**Step 4:** Once the Eligibility check is completed, the user shall give consent for Aadhaar authentication. \n**Step 5:** User will then be taken to the Beneficiary Survey Form for all verticals. The survey form has different sections.\n> User Manual: [Click here](https://pmaymis.gov.in/PMAYMIS2_2024/PDF/UserManual/BeneficairyApplication_for_SoP_27_12_24.pdf).\n\n<br>\n\n<br>\n\n"
+      },
+      {
+        "mode": "Offline",
+        "url": "https://cscindia.info/",
+        "process": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 1: ",
+                "bold": true
+              },
+              {
+                "text": "Visit a "
+              },
+              {
+                "type": "link",
+                "link": "https://cscindia.info/",
+                "children": [
+                  {
+                    "text": "Common Service Centre (CSC) near you"
+                  }
+                ]
+              },
+              {
+                "text": ". "
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2: ",
+                "bold": true
+              },
+              {
+                "text": "Purchase the application form by paying ₹ 25 (plus GST) at the counter."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 3: ",
+                "bold": true
+              },
+              {
+                "text": "In the form, fill in all the mandatory details, and attach copies of the required documents. The details to be filled include name, contact number, other personal details, bank account and income details, among others."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 3: ",
+                "bold": true
+              },
+              {
+                "text": "Submit the duly filled and signed application form at the CSC."
+              }
+            ]
+          }
+        ],
+        "process_md": "**Step 1:** Visit a [Common Service Centre (CSC) near you](https://cscindia.info/). \n**Step 2:** Purchase the application form by paying ₹ 25 (plus GST) at the counter.\n**Step 3:** In the form, fill in all the mandatory details, and attach copies of the required documents. The details to be filled include name, contact number, other personal details, bank account and income details, among others.\n**Step 3:** Submit the duly filled and signed application form at the CSC.\n"
+      }
+    ],
+    "schemeDefinitions": [
+      {
+        "name": "Beneficiary",
+        "definition": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "A beneficiary family will comprise husband, wife and unmarried [sons and/ or unmarried daughters.]"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "The beneficiary family should not own a pucca house (an all weather dwelling unit) either in his/her name or in the name of any member of his/her family in any part of India."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "[An adult earning member (irrespective of marital status) can be treated as a separate household;"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Provided that he /she does not own a pucca house (an all weather dwelling unit) in his /her name in any part of India."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Provided also that in the case of a married couple, either of the spouses or both together in joint ownership will be eligible for a single house, subject to income eligibility of the household under the Scheme.]1"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "[Further, such person with pucca house having built-up area less than 21 sq.m may be included for enhancement of existing dwelling units upto 30 sq.m. However, if enhancement is not possible on account of lack of availability of land/ space or any other reason, she/ he may get a house under PMAY(U) elsewhere.]"
+              }
+            ]
+          }
+        ],
+        "source": "https://pmay-urban.gov.in/uploads/guidelines/60180813309f2-Updated%20guidelines%20of%20PMAY-U.pdf",
+        "definitions_md": "A beneficiary family will comprise husband, wife and unmarried [sons and/ or unmarried daughters.]\nThe beneficiary family should not own a pucca house (an all weather dwelling unit) either in his/her name or in the name of any member of his/her family in any part of India.\n<br>\n\n[An adult earning member (irrespective of marital status) can be treated as a separate household;\nProvided that he /she does not own a pucca house (an all weather dwelling unit) in his /her name in any part of India.\nProvided also that in the case of a married couple, either of the spouses or both together in joint ownership will be eligible for a single house, subject to income eligibility of the household under the Scheme.]1\n<br>\n\n[Further, such person with pucca house having built-up area less than 21 sq.m may be included for enhancement of existing dwelling units upto 30 sq.m. However, if enhancement is not possible on account of lack of availability of land/ space or any other reason, she/ he may get a house under PMAY(U) elsewhere.]\n"
+      },
+      {
+        "name": "Affordable Housing Project",
+        "definition": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Housing projects where 35% of the houses are constructed for EWS category."
+              }
+            ]
+          }
+        ],
+        "source": "https://pmay-urban.gov.in/uploads/guidelines/60180813309f2-Updated%20guidelines%20of%20PMAY-U.pdf",
+        "definitions_md": "Housing projects where 35% of the houses are constructed for EWS category.\n"
+      },
+      {
+        "name": "Carpet Area",
+        "definition": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "The net usable floor area of an apartment, excluding the area covered by the external walls, areas under services shafts, exclusive balcony or verandah area and exclusive open terrace area, but includes the area covered by the internal partition walls of the apartment."
+              }
+            ]
+          }
+        ],
+        "source": "https://pmay-urban.gov.in/uploads/guidelines/60180813309f2-Updated%20guidelines%20of%20PMAY-U.pdf",
+        "definitions_md": "The net usable floor area of an apartment, excluding the area covered by the external walls, areas under services shafts, exclusive balcony or verandah area and exclusive open terrace area, but includes the area covered by the internal partition walls of the apartment.\n"
+      },
+      {
+        "name": "Economically Weaker Section (EWS)",
+        "definition": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "EWS households are defined as households having an annual income up to Rs. 3,00,000 (Rupees Three Lakh). States/UTs shall have the flexibility to redefine the annual income criteria as per local conditions in consultation with the Ministry."
+              }
+            ]
+          }
+        ],
+        "source": "https://pmay-urban.gov.in/uploads/guidelines/60180813309f2-Updated%20guidelines%20of%20PMAY-U.pdf",
+        "definitions_md": "EWS households are defined as households having an annual income up to Rs. 3,00,000 (Rupees Three Lakh). States/UTs shall have the flexibility to redefine the annual income criteria as per local conditions in consultation with the Ministry.\n"
+      },
+      {
+        "name": "EWS House",
+        "definition": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "An all-weather single unit or a unit in a multi-storied super structure having carpet area of upto 30 sq.m. with adequate basic civic services and infrastructure services like toilet, water, electricity etc. States/UTs can determine the area of EWS as per their local needs with information to the Ministry."
+              }
+            ]
+          }
+        ],
+        "source": "https://pmay-urban.gov.in/uploads/guidelines/60180813309f2-Updated%20guidelines%20of%20PMAY-U.pdf",
+        "definitions_md": "An all-weather single unit or a unit in a multi-storied super structure having carpet area of upto 30 sq.m. with adequate basic civic services and infrastructure services like toilet, water, electricity etc. States/UTs can determine the area of EWS as per their local needs with information to the Ministry.\n"
+      },
+      {
+        "name": "CLSS Awas Portal (CLAP)",
+        "definition": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "CLSS Awas Portal (CLAP) is a web-based platform designed, developed and implemented by the Mission. CLAP software works in tandem on real time basis with UIDAI for Aadhaar validation. CLAP also communicates with the PMAY(U) MIS System to provide advance information on a potential beneficiary being processed by PMAY(U). Dashboard and report have also been introduced in CLAP software in order to monitor the progress of CLSS vertical by various stakeholders."
+              }
+            ]
+          }
+        ],
+        "source": "https://pmay-urban.gov.in/uploads/guidelines/60180813309f2-Updated%20guidelines%20of%20PMAY-U.pdf",
+        "definitions_md": "CLSS Awas Portal (CLAP) is a web-based platform designed, developed and implemented by the Mission. CLAP software works in tandem on real time basis with UIDAI for Aadhaar validation. CLAP also communicates with the PMAY(U) MIS System to provide advance information on a potential beneficiary being processed by PMAY(U). Dashboard and report have also been introduced in CLAP software in order to monitor the progress of CLSS vertical by various stakeholders.\n"
+      },
+      {
+        "name": "Central Nodal Agencies (CNAs)",
+        "definition": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Nodal Agencies identified by Ministry for the purposes of implementation of Credit Linked Subsidy component of the Mission."
+              }
+            ]
+          }
+        ],
+        "source": "https://pmay-urban.gov.in/uploads/guidelines/60180813309f2-Updated%20guidelines%20of%20PMAY-U.pdf",
+        "definitions_md": "Nodal Agencies identified by Ministry for the purposes of implementation of Credit Linked Subsidy component of the Mission.\n"
+      },
+      {
+        "name": "“Floor Area Ratio” (FAR)/FSI",
+        "definition": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "The quotient obtained by dividing the total covered area (plinth area) on all the floors by the area of the plot:"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "FAR = (Total covered area on all the floors x 100) / Plot area"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "If States/Cities have some variations in this definition, State/City definitions will be accepted under the Mission."
+              }
+            ]
+          }
+        ],
+        "source": "https://pmay-urban.gov.in/uploads/guidelines/60180813309f2-Updated%20guidelines%20of%20PMAY-U.pdf",
+        "definitions_md": "The quotient obtained by dividing the total covered area (plinth area) on all the floors by the area of the plot:\nFAR = (Total covered area on all the floors x 100) / Plot area\nIf States/Cities have some variations in this definition, State/City definitions will be accepted under the Mission.\n"
+      },
+      {
+        "name": "Implementing Agencies (IAs)",
+        "definition": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Implementing Agencies are agencies such as Urban Local Bodies, Development Authorities, Housing Boards etc. which are selected by State Government/ State Level Sanctioning and Monitoring Committee (SLSMC) for implementing Pradhan Mantri Awas Yojana (Urban) – Housing for All Mission."
+              }
+            ]
+          }
+        ],
+        "source": "https://pmay-urban.gov.in/uploads/guidelines/60180813309f2-Updated%20guidelines%20of%20PMAY-U.pdf",
+        "definitions_md": "Implementing Agencies are agencies such as Urban Local Bodies, Development Authorities, Housing Boards etc. which are selected by State Government/ State Level Sanctioning and Monitoring Committee (SLSMC) for implementing Pradhan Mantri Awas Yojana (Urban) – Housing for All Mission.\n"
+      },
+      {
+        "name": "Low Income Group (LIG)",
+        "definition": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "LIG households are defined as households having an annual income from Rs.3,00,001 (Rupees Three Lakhs One) up to Rs.6,00,000 (Rupees Six Lakhs). States/UTs shall have the flexibility to redefine the annual income criteria as per local conditions in consultation with MoHUA."
+              }
+            ]
+          }
+        ],
+        "source": "https://pmay-urban.gov.in/uploads/guidelines/60180813309f2-Updated%20guidelines%20of%20PMAY-U.pdf",
+        "definitions_md": "LIG households are defined as households having an annual income from Rs.3,00,001 (Rupees Three Lakhs One) up to Rs.6,00,000 (Rupees Six Lakhs). States/UTs shall have the flexibility to redefine the annual income criteria as per local conditions in consultation with MoHUA.\n"
+      },
+      {
+        "name": "Middle Income Group (MIG)3",
+        "definition": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "MIG - I households are defined as households having an annual income from Rs.6,00,001 (Rupees Six Lakh One) up to Rs.12,00,000 (Rupees Twelve Lakh)."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "MIG - II households are defined as households having an annual income from Rs.12,00,001 (Rupees Twelve Lakh One) up to Rs.18,00,000 (Rupees Eighteen Lakh)."
+              }
+            ]
+          }
+        ],
+        "source": "https://pmay-urban.gov.in/uploads/guidelines/60180813309f2-Updated%20guidelines%20of%20PMAY-U.pdf",
+        "definitions_md": "MIG - I households are defined as households having an annual income from Rs.6,00,001 (Rupees Six Lakh One) up to Rs.12,00,000 (Rupees Twelve Lakh).\nMIG - II households are defined as households having an annual income from Rs.12,00,001 (Rupees Twelve Lakh One) up to Rs.18,00,000 (Rupees Eighteen Lakh).\n"
+      },
+      {
+        "name": "Primary Lending Institutions (PLIs)",
+        "definition": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Scheduled Commercial Banks, Housing Finance Companies, Regional Rural Banks (RRBs), State Cooperative Banks, Urban Cooperative Banks [Small Financial Banks, Non-Banking Financial Company- Micro Finance Institutions’ (NBFC- MFIs)]4 or any other institutions as may be identified by the Ministry."
+              }
+            ]
+          }
+        ],
+        "source": "https://pmay-urban.gov.in/uploads/guidelines/60180813309f2-Updated%20guidelines%20of%20PMAY-U.pdf",
+        "definitions_md": "Scheduled Commercial Banks, Housing Finance Companies, Regional Rural Banks (RRBs), State Cooperative Banks, Urban Cooperative Banks [Small Financial Banks, Non-Banking Financial Company- Micro Finance Institutions’ (NBFC- MFIs)]4 or any other institutions as may be identified by the Ministry.\n"
+      },
+      {
+        "name": "Slum",
+        "definition": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "A compact area of at least 300 population or about 60-70 households of poorly built congested tenements, in unhygienic environment usually with inadequate infrastructure and lacking in proper sanitary and drinking water facilities."
+              }
+            ]
+          }
+        ],
+        "source": "https://pmay-urban.gov.in/uploads/guidelines/60180813309f2-Updated%20guidelines%20of%20PMAY-U.pdf",
+        "definitions_md": "A compact area of at least 300 population or about 60-70 households of poorly built congested tenements, in unhygienic environment usually with inadequate infrastructure and lacking in proper sanitary and drinking water facilities.\n"
+      },
+      {
+        "name": "State Level Nodal Agencies (SLNAs)",
+        "definition": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Nodal Agency designated by the State/UT Governments for implementing the Mission."
+              }
+            ]
+          }
+        ],
+        "source": "https://pmay-urban.gov.in/uploads/guidelines/60180813309f2-Updated%20guidelines%20of%20PMAY-U.pdf",
+        "definitions_md": "Nodal Agency designated by the State/UT Governments for implementing the Mission.\n"
+      },
+      {
+        "name": "Transfer of Development Rights (TDR)",
+        "definition": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "TDR means making available certain amount of additional built up area in lieu of the area relinquished or surrendered by the owner of the land, so that he can use extra built up area himself in some other land."
+              }
+            ]
+          }
+        ],
+        "source": "https://pmay-urban.gov.in/uploads/guidelines/60180813309f2-Updated%20guidelines%20of%20PMAY-U.pdf",
+        "definitions_md": "TDR means making available certain amount of additional built up area in lieu of the area relinquished or surrendered by the owner of the land, so that he can use extra built up area himself in some other land.\n"
+      }
+    ],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "1. The family identifies as one of the following -\na)    Economically Weaker Section (EWS): households with annual income up to ₹3,00,000.\nb)    Low Income Group (LIG): households with annual income between ₹3,00,001 and ₹6,00,000.\nc)    Middle Income Group-1 (MIG-1): households with annual income between ₹6,00,001 and ₹12,00,000.\nd)    Middle Income Group-2 (MIG-2): households with annual income between ₹12,00,001 and ₹18,00,000.\n2. The applicant or his/her family members must not own a pucca house in any part of the country.\n3. The family must comprise of husband/wife and unmarried children.\n4. The town/city in which the family resides must be covered under the scheme.\n5. The family MUST NOT have previously availed the benefits of any housing-related schemes set up by the Government of India.\n<br>\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "1. The family identifies as one of the following -"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "a)    Economically Weaker Section (EWS): households with annual income up to ₹3,00,000."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "b)    Low Income Group (LIG): households with annual income between ₹3,00,001 and ₹6,00,000."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "c)    Middle Income Group-1 (MIG-1): households with annual income between ₹6,00,001 and ₹12,00,000."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "d)    Middle Income Group-2 (MIG-2): households with annual income between ₹12,00,001 and ₹18,00,000."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "2. The applicant or his/her family members must not own a pucca house in any part of the country."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "3. The family must comprise of husband/wife and unmarried children."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "4. The town/city in which the family resides must be covered under the scheme."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "5. The family MUST NOT have previously availed the benefits of any housing-related schemes set up by the Government of India."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "pmay-u"
+}

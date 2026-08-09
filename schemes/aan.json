@@ -1,0 +1,371 @@
+{
+  "_id": "6460ad505f56d6325f980955",
+  "en": {
+    "basicDetails": {
+      "schemeOpenDate": null,
+      "schemeCloseDate": null,
+      "state": {
+        "value": 18,
+        "label": "Assam"
+      },
+      "nodalMinistryName": null,
+      "nodalDepartmentName": {
+        "value": 1800017,
+        "label": "Health and Family Welfare Department"
+      },
+      "otherMinistryName": null,
+      "otherDepartmentNames": null,
+      "targetBeneficiaries": [
+        {
+          "value": "family",
+          "label": "Family"
+        },
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Health care providers and access",
+          "label": "Health care providers and access"
+        },
+        {
+          "value": "Financial assistance",
+          "label": "Financial assistance"
+        },
+        {
+          "value": "Aids/Appliances",
+          "label": "Aids/Appliances"
+        }
+      ],
+      "dbtScheme": true,
+      "implementingAgency": "Health & Family Welfare Department, Government Of Assam",
+      "tags": [
+        "Hospital",
+        "Treatment",
+        "Accidental Case",
+        "Diseases",
+        "Financial Assistance"
+      ],
+      "schemeName": "Assam Arogya Nidhi Scheme",
+      "schemeShortTitle": "AAN",
+      "level": {
+        "value": "state",
+        "label": "State"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce7a2d6d1a3bde46852b1",
+          "label": "Health & Wellness"
+        },
+        {
+          "value": "628ce87cd6d1a3bde4685312",
+          "label": "Social welfare & Empowerment"
+        }
+      ],
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guideline",
+          "url": "https://nhm.assam.gov.in/schemes/assam-arogya-nidhi"
+        },
+        {
+          "title": "Website",
+          "url": "https://hfw.assam.gov.in/schemes/assam-arogya-nidhi-aan"
+        }
+      ],
+      "schemeImageUrl": "",
+      "briefDescription": "The scheme “Assam Arogya Nidhi Scheme” is a yearly Financial Assistance Scheme provided as reimbursement to members of families whose yearly income is less than ₹5.00 lakhs for treatment of serious diseases including accident cases. ",
+      "detailedDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "The scheme “Assam Arogya Nidhi (AAN)” was launched by the Health & Family Welfare Department, Govt. of Assam to provide financial assistance to BPL families and families having an annual income of less than ₹5.00 Lakhs. The financial assistance is provided for general and specialized treatment of (i) life-threatening diseases, and (ii) of injuries caused by natural and manmade disasters, such as industrial/ farm/ road/ rail accidents, bomb blasts, etc. Life-threatening diseases include Heart Diseases and Heart Surgery, Cancer, Kidney and Urinary diseases, Orthopedic, Thallassemia, Bone marrow Transplant, AIDS, and chronic Mental Illness with Surgical Treatment. Beneficiaries are selected by a Selection Committee that has been notified by the Government of Assam. Under the AAN, the Government of India contributes 50% of the funds sanctioned by the State Government."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Grant of Assistance: ",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "1.\tThe Chief Minister of Assam may grant permission directly for the maximum benefits available under AAN."
+            }
+          ]
+        },
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "2.\tThe Chairperson of the Committee can clear the grant of financial assistance under AAN against eligible cases up to ₹2.00 Lakh."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "3.\tFor grant of assistance above ₹2.00 Lakh up to ₹3.00 Lakh, the State Level committee will decide the eligible cases."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "Mode of disbursement:",
+                  "bold": true
+                },
+                {
+                  "text": " Financial assistance will be disbursed to the beneficiary concerned or reimbursed to the hospital concerned through bank account transfer only. The advance payment shall only be to the hospital subject to a maximum of ₹3.00 lakh."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 3,
+        "value": "composite",
+        "label": "Composite"
+      },
+      "benefits": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "align_justify",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Under this scheme, financial assistance up to a maximum benefit of ₹3.00 Lakh will be provided."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Under this scheme, any serious disease is to be covered which requires surgery/implants/procedures like Bone Marrow Transplant (BMT) or any other critical disease including serious accident cases."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "All financial assistance will be admissible for treatment in all Government hospitals including Medical Colleges/ Tertiary Health Care facilities, all reputed private hospitals registered under the Clinical Establishment Act and empanelled hospitals of Government of Assam, AAA (Atal Amrit Abhiyan) and PMJAY (Pradhan Mantri Jan Aarogya Yojana)."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": ""
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "detailedDescription_md": "The scheme “Assam Arogya Nidhi (AAN)” was launched by the Health &amp;amp; Family Welfare Department, Govt. of Assam to provide financial assistance to BPL families and families having an annual income of less than ₹5.00 Lakhs. The financial assistance is provided for general and specialized treatment of (i) life-threatening diseases, and (ii) of injuries caused by natural and manmade disasters, such as industrial/ farm/ road/ rail accidents, bomb blasts, etc. Life-threatening diseases include Heart Diseases and Heart Surgery, Cancer, Kidney and Urinary diseases, Orthopedic, Thallassemia, Bone marrow Transplant, AIDS, and chronic Mental Illness with Surgical Treatment. Beneficiaries are selected by a Selection Committee that has been notified by the Government of Assam. Under the AAN, the Government of India contributes 50% of the funds sanctioned by the State Government.\n**Grant of Assistance:** \n1.\tThe Chief Minister of Assam may grant permission directly for the maximum benefits available under AAN.\n2.\tThe Chairperson of the Committee can clear the grant of financial assistance under AAN against eligible cases up to ₹2.00 Lakh.\n3.\tFor grant of assistance above ₹2.00 Lakh up to ₹3.00 Lakh, the State Level committee will decide the eligible cases.\n**Mode of disbursement:** Financial assistance will be disbursed to the beneficiary concerned or reimbursed to the hospital concerned through bank account transfer only. The advance payment shall only be to the hospital subject to a maximum of ₹3.00 lakh.\n"
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "url": "https://nhm.assam.gov.in/schemes/assam-arogya-nidhi",
+        "process": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 01:",
+                "bold": true
+              },
+              {
+                "text": " The applicant should visit the official website and download the application form from the website of National Health Assam: "
+              },
+              {
+                "type": "link",
+                "link": "https://nhm.assam.gov.in/schemes/assam-arogya-nidhi",
+                "children": [
+                  {
+                    "text": "https://nhm.assam.gov.in/schemes/assam-arogya-nidhi"
+                  }
+                ]
+              },
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 02:",
+                "bold": true
+              },
+              {
+                "text": " Application in the prescribed format, complete in all respects will be submitted to NHM, Assam, or to the Joint Director of Health Services of the District who will forward the same to NHM, Assam for necessary consideration."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 03:",
+                "bold": true
+              },
+              {
+                "text": " An Expert Committee comprising specialist doctors of Guwahati Medical College verifies the applications and recommends the eligible cases."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 04:",
+                "bold": true
+              },
+              {
+                "text": " As per the committee’s recommendations financial assistance is provided to eligible beneficiaries preferably through Direct Bank Transfer."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Note 01:",
+                "bold": true
+              },
+              {
+                "text": " A person having PMJAY or AAA card will avail of the cashless treatment benefit against admissible diseases under the said schemes first before making any application for consideration under AAN."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Note 02: ",
+                "bold": true
+              },
+              {
+                "text": "A person not having PMJAY/ AAA Card or if the disease is not covered under PMJAY/AAA, can submit their application directly."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Note 03:",
+                "bold": true
+              },
+              {
+                "text": " AAN assistance is for exceptional cases and not general."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n1. All Indian citizens who are ordinarily resident of the State of Assam will be eligible under the scheme.\n1. The family income of the applicant should be less than ₹5.00 lakhs per annum.\n1. There will be no age limit for coverage under the scheme.\n1. No Govt. employee or Govt. pensioners and their family members will be eligible under the scheme.\n1. Treatment should be undertaken in any govt. hospital including Govt. Medical Colleges and all reputed Pvt. Hospitals registered under Clinical Establishment Act. anywhere in the state or in the country.\n\n<br>\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "All Indian citizens who are ordinarily resident of the State of Assam will be eligible under the scheme."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The family income of the applicant should be less than ₹5.00 lakhs per annum."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "There will be no age limit for coverage under the scheme."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "No Govt. employee or Govt. pensioners and their family members will be eligible under the scheme."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Treatment should be undertaken in any govt. hospital including Govt. Medical Colleges and all reputed Pvt. Hospitals registered under Clinical Establishment Act. anywhere in the state or in the country."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "aan"
+}

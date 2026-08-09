@@ -1,0 +1,658 @@
+{
+  "_id": "62a2d9c8af0a039a396f7137",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": true,
+      "tags": [
+        "Employment",
+        "Labour",
+        "Unskilled",
+        "Panchayat",
+        "Job"
+      ],
+      "schemeName": "Mahatma Gandhi National Rural Employment Guarantee Act",
+      "schemeShortTitle": "MGNREGA",
+      "implementingAgency": "Gram Panchayats (GPs)",
+      "level": {
+        "value": "central",
+        "label": "Central"
+      },
+      "schemeType": {
+        "value": "centrally-sponsored-scheme",
+        "label": "Centrally Sponsored Scheme"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce85cd6d1a3bde4685304",
+          "label": "Skills & Employment"
+        },
+        {
+          "value": "628ce87cd6d1a3bde4685312",
+          "label": "Social welfare & Empowerment"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Employment services and jobs",
+          "label": "Employment services and jobs"
+        },
+        {
+          "value": "Citizen empowerment",
+          "label": "Citizen empowerment"
+        }
+      ],
+      "schemeOpenDate": "2006-02-02",
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "nodalMinistryName": {
+        "value": 487,
+        "label": "Ministry Of Rural Development"
+      },
+      "nodalDepartmentName": {
+        "value": 505,
+        "label": "Department of Rural Development"
+      },
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://nrega.nic.in/Circular_Archive/archive/Operational_guidelines_4thEdition_eng_2013.pdf"
+        },
+        {
+          "title": "FAQ",
+          "url": "https://nrega.nic.in/Circular_Archive/archive/nrega_doc_FAQs.pdf"
+        }
+      ],
+      "schemeImageUrl": "https://drive.google.com/file/d/1oEtmS6jjG9BQ3QSkWRRX9JrIb7cbDZym/view?usp=sharing",
+      "detailedDescription_md": "An employment scheme by the Ministry of Rural Development, providing provide at least 100 days of guaranteed wage employment in a financial year to every rural household whose adult members volunteer to do unskilled work. Any Indian citizen above the age of 18 years and residing in a rural area can apply to this scheme. The applicant receives guaranteed employment within 15 days from the date of application.\n<br>\n\nThe wage is deposited directly in the Bank Account / Post Office Account of the applicant. Wages are paid within a week, or fifteen days at most. Men and Women are paid equally. MGNREGA covers the entire country with the exception of districts that have a hundred percent urban population.\n",
+      "benefits_md": "\n1. The applicant receives guaranteed employment within 15 days from the date of application.\n1. Work is to be provided within a radius of 5 kilometers of the applicant’s residence if possible, and in any case within the Block. If the applicant lives more than 5 km away from the worksite, he/she will be entitled to a travel and subsistence allowance (10% of the minimum wage).\n1. Wages are paid within a week, or fifteen days at most. Men and Women are paid equally.\n1. Shade, drinking water, and first-aid are provided at every worksite.\n\n<br>\n\n**Exclusive measures for the promotion of the participation of the disabled persons:**\n\n1. Identification of suitable works\n1. Mobilization of disabled persons by focussing on awareness and special provisions\n1. Specifically identified works for disabled persons in the case of large GPs\n1. Preference to appoint as mates and as workers for providing drinking water, to manage crèches, etc., at the worksites\n1. Adoption of tools and equipment/facilities at workplaces\n1. Treating persons with disabilities with respect\n1. Special drive to ensure 100 days of employment to such households\n1. Provide a special job card of a distinct color\n\n<br>\n\n**Specific attention and provisions for Senior Citizens:** \n\n1. Exclusive senior citizen groups may be formed and special works which require lesser physical effort are identified and allotted to these groups.\n\n<br>\n\n**Specific attention and provisions for Internally Displaced Persons:**\n\n1. A special job card to be provided will be valid till these families are displaced and will lose its validity as soon as they return to their original place of residence.\n\n",
+      "exclusions_md": "NA\n",
+      "briefDescription": "An employment scheme by the MoRD, providing provide at least 100 days of guaranteed wage employment in a financial year to every rural household whose adult members volunteer to do unskilled work. Any Indian citizen above the age of 18 years and residing in a rural area can apply to this scheme.",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "An employment scheme by the Ministry of Rural Development, providing provide at least 100 days of guaranteed wage employment in a financial year to every rural household whose adult members volunteer to do unskilled work. Any Indian citizen above the age of 18 years and residing in a rural area can apply to this scheme. The applicant receives guaranteed employment within 15 days from the date of application."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The wage is deposited directly in the Bank Account / Post Office Account of the applicant. Wages are paid within a week, or fifteen days at most. Men and Women are paid equally. MGNREGA covers the entire country with the exception of districts that have a hundred percent urban population."
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "value": "Cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant receives guaranteed employment within 15 days from the date of application."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Work is to be provided within a radius of 5 kilometers of the applicant’s residence if possible, and in any case within the Block. If the applicant lives more than 5 km away from the worksite, he/she will be entitled to a travel and subsistence allowance (10% of the minimum wage)."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Wages are paid within a week, or fifteen days at most. Men and Women are paid equally."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Shade, drinking water, and first-aid are provided at every worksite."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Exclusive measures for the promotion of the participation of the disabled persons:",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Identification of suitable works"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Mobilization of disabled persons by focussing on awareness and special provisions"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Specifically identified works for disabled persons in the case of large GPs"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Preference to appoint as mates and as workers for providing drinking water, to manage crèches, etc., at the worksites"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Adoption of tools and equipment/facilities at workplaces"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Treating persons with disabilities with respect"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Special drive to ensure 100 days of employment to such households"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Provide a special job card of a distinct color"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Specific attention and provisions for Senior Citizens: ",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Exclusive senior citizen groups may be formed and special works which require lesser physical effort are identified and allotted to these groups."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Specific attention and provisions for Internally Displaced Persons:",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "A special job card to be provided will be valid till these families are displaced and will lose its validity as soon as they return to their original place of residence."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "exclusions": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "NA"
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "url": "",
+        "process": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 1: ",
+                "bold": true
+              },
+              {
+                "text": "The application for registration may be given on plain paper to the local Gram Panchayat. An individual may appear personally before the Panchayat Secretary or Gram Rozgar Sahayak and make an oral request for registration, in which case the particulars required will be noted by the Gram Rojgar Sahayak or the Panchayat Secretary. "
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Application for registration should contain names of those adult members of the household who are willing to do unskilled manual work. Particulars such as age, sex, SC/ST status, Rashtriya Swastha Bima Yojana (RSBY) number, Aadhar number, Below Poverty Line (BPL) status and bank/post office account number (if s/he has opened one) must be provided in the application."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2:",
+                "bold": true
+              },
+              {
+                "text": " The Gram Panchayat (GP) will verify the following details:"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Whether the household is really an entity as stated in the application."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Whether the applicant household are local residents in the Gram Panchayat concerned."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Whether applicants are adult members of the household."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "The process of verification shall be completed as early as possible, and in any case not later than a fortnight after the receipt of the application in the Gram Panchayat."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 3:",
+                "bold": true
+              },
+              {
+                "text": " All particulars of a household found to be eligible after verification, will be entered in the MIS (NREGASoft) by the Panchayat Secretary or the Gram Rojgar Sahayak (GRS) or a person duly authorized by the State Government."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 4:",
+                "bold": true
+              },
+              {
+                "text": " If a household is found to be eligible for registration, the GP will, within a fortnight of the application, issue a JC to the household. JC should be handed over to one of the members of the applicant household in the presence of a few other residents of the GP. The format of the Job Card is provided in the Annexure-5 of the scheme guidelines."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "The detailed format for application for registration is provided in Annexure-3 of the scheme guidelines.",
+                "bold": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "* Registrations shall be opened throughout the year at the Gram Panchayat (GP) office.",
+                "bold": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "* Application for registration must be made on behalf of the household by any adult member.",
+                "bold": true
+              }
+            ]
+          }
+        ],
+        "process_md": "**Step 1:** The application for registration may be given on plain paper to the local Gram Panchayat. An individual may appear personally before the Panchayat Secretary or Gram Rozgar Sahayak and make an oral request for registration, in which case the particulars required will be noted by the Gram Rojgar Sahayak or the Panchayat Secretary. \nApplication for registration should contain names of those adult members of the household who are willing to do unskilled manual work. Particulars such as age, sex, SC/ST status, Rashtriya Swastha Bima Yojana (RSBY) number, Aadhar number, Below Poverty Line (BPL) status and bank/post office account number (if s/he has opened one) must be provided in the application.\n**Step 2:** The Gram Panchayat (GP) will verify the following details:\nWhether the household is really an entity as stated in the application.\nWhether the applicant household are local residents in the Gram Panchayat concerned.\nWhether applicants are adult members of the household.\nThe process of verification shall be completed as early as possible, and in any case not later than a fortnight after the receipt of the application in the Gram Panchayat.\n**Step 3:** All particulars of a household found to be eligible after verification, will be entered in the MIS (NREGASoft) by the Panchayat Secretary or the Gram Rojgar Sahayak (GRS) or a person duly authorized by the State Government.\n**Step 4:** If a household is found to be eligible for registration, the GP will, within a fortnight of the application, issue a JC to the household. JC should be handed over to one of the members of the applicant household in the presence of a few other residents of the GP. The format of the Job Card is provided in the Annexure-5 of the scheme guidelines.\n**The detailed format for application for registration is provided in Annexure-3 of the scheme guidelines.**\n*** Registrations shall be opened throughout the year at the Gram Panchayat (GP) office.**\n*** Application for registration must be made on behalf of the household by any adult member.**\n"
+      },
+      {
+        "mode": "Online - via CSC",
+        "url": "",
+        "process": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Individuals should also be given the option to make registration to apply for registration at other touch points such as Community Service Centre (CSC). The CSC operator will fill in the details in the application form and forward the filled application form to the concerned GP for necessary action. State Government will issue necessary enabling orders in this regard."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "* Registrations shall be opened throughout the year at the Gram Panchayat (GP) office.",
+                "bold": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "* Application for registration must be made on behalf of the household by any adult member.",
+                "bold": true
+              }
+            ]
+          }
+        ],
+        "process_md": "Individuals should also be given the option to make registration to apply for registration at other touch points such as Community Service Centre (CSC). The CSC operator will fill in the details in the application form and forward the filled application form to the concerned GP for necessary action. State Government will issue necessary enabling orders in this regard.\n*** Registrations shall be opened throughout the year at the Gram Panchayat (GP) office.**\n*** Application for registration must be made on behalf of the household by any adult member.**\n"
+      },
+      {
+        "mode": "Online",
+        "process": [
+          {
+            "type": "ul_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "One can download UMANG App or visit website "
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://web.umang.gov.in/web_new/home",
+                    "children": [
+                      {
+                        "text": "https://web.umang.gov.in/web_new/home"
+                      }
+                    ]
+                  },
+                  {
+                    "text": " "
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "The citizen can login using a mobile number and OTP."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Once logged In, citizen can search for MGNREGA."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Click on “Apply for Job Card”"
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Fill in the basic details, choose the mode of payment of pension, upload photo and click on “Submit”."
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "process_md": "\n- One can download UMANG App or visit website [https://web.umang.gov.in/web_new/home](https://web.umang.gov.in/web_new/home) - The citizen can login using a mobile number and OTP.\n- Once logged In, citizen can search for MGNREGA.\n- Click on “Apply for Job Card”\n- Fill in the basic details, choose the mode of payment of pension, upload photo and click on “Submit”.\n\n"
+      }
+    ],
+    "schemeDefinitions": [
+      {
+        "name": "adult",
+        "definition": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "a person who has completed 18 years of age."
+              }
+            ]
+          }
+        ],
+        "source": "https://nrega.nic.in/Circular_Archive/archive/Operational_guidelines_4thEdition_eng_2013.pdf",
+        "definitions_md": "a person who has completed 18 years of age.\n"
+      },
+      {
+        "name": "Household",
+        "definition": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "the members of a family related to each other by blood, marriage or adoption and normally residing together and sharing meals or holding a common ration card."
+              }
+            ]
+          }
+        ],
+        "source": "https://nrega.nic.in/Circular_Archive/archive/Operational_guidelines_4thEdition_eng_2013.pdf",
+        "definitions_md": "the members of a family related to each other by blood, marriage or adoption and normally residing together and sharing meals or holding a common ration card.\n"
+      },
+      {
+        "name": "wages",
+        "definition": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "all remuneration, capable of being expressed in terms of money, which would, if the terms of the contract of employment, express or implied, were fulfilled, be payable to a person employed in respect of his employment or of work done in such employment, [and includes house rent allowance] but does not include:"
+              }
+            ]
+          },
+          {
+            "type": "ol_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "the value of - (a) any house- accommodation, supply of light, water, medical attendance, or (b) any other amenity or any service excluded by general or special order of the appropriate Government."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "any contribution paid by the employer to any Pension Fund or Provident Fund or under any scheme of social insurance."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "any travc1ling allowance or the value of any traveling concession."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "any sum paid to the person employed to defray special expenses entailed on him by the nature of his employment or "
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "any gratuity payable on discharge."
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "source": "https://clc.gov.in/clc/sites/default/files/MinimumWagesact.pdf",
+        "definitions_md": "all remuneration, capable of being expressed in terms of money, which would, if the terms of the contract of employment, express or implied, were fulfilled, be payable to a person employed in respect of his employment or of work done in such employment, [and includes house rent allowance] but does not include:\n\n1. the value of - (a) any house- accommodation, supply of light, water, medical attendance, or (b) any other amenity or any service excluded by general or special order of the appropriate Government.\n1. any contribution paid by the employer to any Pension Fund or Provident Fund or under any scheme of social insurance.\n1. any travc1ling allowance or the value of any traveling concession.\n1. any sum paid to the person employed to defray special expenses entailed on him by the nature of his employment or \n1. any gratuity payable on discharge.\n\n"
+      },
+      {
+        "name": "Unskilled Work",
+        "definition": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "work that involves simple operations requiring little or no skill or experience on the job;"
+              }
+            ]
+          }
+        ],
+        "source": "https://labour.gov.in/sites/default/files/MW%20Final%20%281%29_0.pdf",
+        "definitions_md": "work that involves simple operations requiring little or no skill or experience on the job;\n"
+      }
+    ],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n1. The applicant must be at least 18 years of age.\n1. The applicant must be residing in a Rural Area.\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must be at least 18 years of age."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must be residing in a Rural Area."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "mgnrega"
+}

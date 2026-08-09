@@ -1,0 +1,230 @@
+{
+  "_id": "671a29e780ec82b742b90839",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Financial Assistance",
+        "Illness",
+        "Construction Worker",
+        "Medical Treatment"
+      ],
+      "schemeName": "Medical Assistance for the Treatment of Critical Illness",
+      "schemeShortTitle": "MATCI",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce7a2d6d1a3bde46852b1",
+          "label": "Health & Wellness"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Financial assistance",
+          "label": "Financial assistance"
+        },
+        {
+          "value": "Emergency medical assistance",
+          "label": "Emergency medical assistance"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "state": {
+        "value": 27,
+        "label": "Maharashtra"
+      },
+      "nodalDepartmentName": {
+        "value": 27111124,
+        "label": "Labour Department"
+      },
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://mahakamgar.maharashtra.gov.in/welfare-scheme-for-building-other-construction-workers.htm"
+        },
+        {
+          "title": "Official Website",
+          "url": "https://mahabocw.in/"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The &quot;Medical Assistance for the Treatment of Critical Illness&quot; scheme was launched by the Maharashtra Building And Other Construction Workers Welfare Board (MBOCWW), Labour Department Maharashtra. Under this scheme, medical assistance of ₹1,00,000/- for the treatment of serious ailments for registered worker and his/her family members. (the benefit can be availed only after 26th July 2014 as the benefit is covered under the Mediclaim &amp; Personal Accident Insurance scheme).\n<br>\n\n",
+      "benefits_md": "\n- **Financial assistance of ₹1,00,000/- is provided for medical treatment.**\n\n",
+      "exclusions_md": "<br>\n\n",
+      "briefDescription": "Under this scheme, medical assistance of ₹1,00,000/- for the treatment of serious ailments for registered worker and his/her family members. (the benefit can be availed only after 26th July 2014 as the benefit is covered under the Mediclaim & Personal Accident Insurance scheme).",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The \"Medical Assistance for the Treatment of Critical Illness\" scheme was launched by the Maharashtra Building And Other Construction Workers Welfare Board (MBOCWW), Labour Department Maharashtra. Under this scheme, medical assistance of ₹1,00,000/- for the treatment of serious ailments for registered worker and his/her family members. (the benefit can be availed only after 26th July 2014 as the benefit is covered under the Mediclaim & Personal Accident Insurance scheme)."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Financial assistance of ₹1,00,000/- is provided for medical treatment.",
+                  "bold": true
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "exclusions": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "process": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step-1:",
+                "bold": true
+              },
+              {
+                "text": " The interested applicant downloads the "
+              },
+              {
+                "type": "link",
+                "link": "https://mahabocw.in/wp-content/uploads/2019/06/SCHEME_HEALTH_FORM-1.pdf",
+                "children": [
+                  {
+                    "text": "application form"
+                  }
+                ]
+              },
+              {
+                "text": " from the MBOCWW official website. "
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step-2:",
+                "bold": true
+              },
+              {
+                "text": " In the application form, fill in all the mandatory fields, and attach copies of all the mandatory documents (self-attest, if required)."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step-3:",
+                "bold": true
+              },
+              {
+                "text": " Submit the duly filled and signed application form along with the documents to the Labor Commissioner / Government Labor Officer."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step-4:",
+                "bold": true
+              },
+              {
+                "text": " Request a receipt or acknowledgment from the concerned authority to whom the application has been submitted. Ensure that the receipt contains essential details such as the date and time of submission, and a unique identification number (if applicable)."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          }
+        ],
+        "process_md": "**Step-1:** The interested applicant downloads the [application form](https://mahabocw.in/wp-content/uploads/2019/06/SCHEME_HEALTH_FORM-1.pdf) from the MBOCWW official website. \n**Step-2:** In the application form, fill in all the mandatory fields, and attach copies of all the mandatory documents (self-attest, if required).\n**Step-3:** Submit the duly filled and signed application form along with the documents to the Labor Commissioner / Government Labor Officer.\n**Step-4:** Request a receipt or acknowledgment from the concerned authority to whom the application has been submitted. Ensure that the receipt contains essential details such as the date and time of submission, and a unique identification number (if applicable).\n<br>\n\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n1. The worker must be engaged in building or construction work.\n1. The worker should be registered under the Maharashtra Building and Other Construction Workers Welfare Board (MBOCWW).\n1. The worker or family member must be undergoing treatment for a serious illness or critical medical condition.\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The worker must be engaged in building or construction work."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The worker should be registered under the Maharashtra Building and Other Construction Workers Welfare Board (MBOCWW)."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The worker or family member must be undergoing treatment for a serious illness or critical medical condition."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "matci"
+}

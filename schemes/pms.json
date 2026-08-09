@@ -1,0 +1,223 @@
+{
+  "_id": "646f2ea39062e559675fa0e3",
+  "en": {
+    "basicDetails": {
+      "schemeOpenDate": null,
+      "schemeCloseDate": null,
+      "state": {
+        "value": 23,
+        "label": "Madhya Pradesh"
+      },
+      "nodalMinistryName": null,
+      "nodalDepartmentName": {
+        "value": 2300039,
+        "label": "School Education Department"
+      },
+      "otherMinistryName": null,
+      "otherDepartmentNames": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "schemeSubCategory": null,
+      "dbtScheme": null,
+      "implementingAgency": null,
+      "tags": [
+        "Financial Assistance",
+        "Higher Education",
+        "Student Finance"
+      ],
+      "schemeName": "Post Metric Scholarship For OBC Students",
+      "schemeShortTitle": "PMS",
+      "level": {
+        "value": "state",
+        "label": "State"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce76cd6d1a3bde4685292",
+          "label": "Education & Learning"
+        }
+      ],
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "http://www.scholarshipportal.mp.nic.in/Public/OtherSchemes/GB.aspx?ID=MTM="
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "Madhya Pradesh State government started a scholarship for student who belong to the OBC category. Now the students of the state will not be deprived of education due to financial constraints, because the Madhya Pradesh government will provide scholarships to the students. Through the scholarship, the state&amp;#39;s literacy rate will also increase and also will encourage the student to higher education. \n",
+      "benefits_md": "- The benefit of the scholarship depends on the annual family income of the students, institution, course, course subscriber, fee capping, etc.\n- All students whose annual family income is up to Rs 3,00,000, those students will be eligible for a 100% scholarship.\n",
+      "exclusions_md": "<br>\n\n",
+      "briefDescription": "This scheme is to provide financial assistance to the Other Backward Classes students studying at the post-matriculation stage to enable students to complete their education.",
+      "detailedDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "Madhya Pradesh State government started a scholarship for student who belong to the OBC category. Now the students of the state will not be deprived of education due to financial constraints, because the Madhya Pradesh government will provide scholarships to the students. Through the scholarship, the state's literacy rate will also increase and also will encourage the student to higher education. "
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 2,
+        "value": "in-kind",
+        "label": "In Kind"
+      },
+      "benefits": [
+        {
+          "type": "list_item",
+          "children": [
+            {
+              "text": "The benefit of the scholarship depends on the annual family income of the students, institution, course, course subscriber, fee capping, etc."
+            }
+          ]
+        },
+        {
+          "type": "list_item",
+          "children": [
+            {
+              "text": "All students whose annual family income is up to Rs 3,00,000, those students will be eligible for a 100% scholarship."
+            }
+          ]
+        }
+      ],
+      "exclusions": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Online",
+        "url": "http://www.scholarshipportal.mp.nic.in/Index.aspx",
+        "process": [
+          {
+            "type": "ol_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Applicants have to visit the "
+                  },
+                  {
+                    "type": "link",
+                    "link": "http://www.scholarshipportal.mp.nic.in/Index.aspx",
+                    "children": [
+                      {
+                        "text": "official website. "
+                      }
+                    ]
+                  },
+                  {
+                    "text": ""
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Applicants need to register himself/herself."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Fill out the required details."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Now login with credentials and fill out the application form."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "And submit."
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "process_md": "\n1. Applicants have to visit the [official website. ](http://www.scholarshipportal.mp.nic.in/Index.aspx)1. Applicants need to register himself/herself.\n1. Fill out the required details.\n1. Now login with credentials and fill out the application form.\n1. And submit.\n\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n   1. The applicant must be a permanent resident of Madhya Pradesh.\n   1. Annual family income is up to Rs 3,00,000/-\n   1. Have passed Class 10.\n   1. Belong to the OBC category.\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "ol_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant must be a permanent resident of Madhya Pradesh."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Annual family income is up to Rs 3,00,000/-"
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Have passed Class 10."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Belong to the OBC category."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "pms"
+}

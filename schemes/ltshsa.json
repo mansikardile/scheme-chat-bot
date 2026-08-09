@@ -1,0 +1,498 @@
+{
+  "_id": "68bc674ec2a339e095631b3e",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Student",
+        "Loan",
+        "Higher Education",
+        "Scheduled Tribe",
+        "Foreign Study"
+      ],
+      "schemeName": "Loans to Tribal Students for Higher Studies Abroad",
+      "schemeShortTitle": "LTSHSA",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce76cd6d1a3bde4685292",
+          "label": "Education & Learning"
+        },
+        {
+          "value": "628ce7f6d6d1a3bde46852d0",
+          "label": "Banking,Financial Services and Insurance"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Universities and higher education",
+          "label": "Universities and higher education"
+        },
+        {
+          "value": "International education",
+          "label": "International education"
+        },
+        {
+          "value": "Scholarships and student finance",
+          "label": "Scholarships and student finance"
+        },
+        {
+          "value": "Loan",
+          "label": "Loan"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "schemeFor": "Individual",
+      "state": {
+        "value": 24,
+        "label": "Gujarat"
+      },
+      "nodalDepartmentName": {
+        "value": 2444467,
+        "label": "Tribal Development Department"
+      }
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines (Page No. 6)",
+          "url": "https://adijatinigam.gujarat.gov.in/assets/downloads/SchemesDetailsofGTDC08102024.pdf"
+        },
+        {
+          "title": "Scheme Details",
+          "url": "https://mariyojana.gujarat.gov.in/MoreDetails.aspx"
+        },
+        {
+          "title": "Official Website",
+          "url": "https://tribal.gujarat.gov.in/"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The &quot;Loans to Tribal Students for Higher Studies Abroad&quot; scheme was launched by the Tribal Development Department, Government of Gujarat. The scheme aims to provide financial assistance to tribal students who wish to pursue higher education in foreign universities. Through this scheme, eligible Scheduled Tribe (ST) students can avail a loan at a concessional interest rate of 4% per annum.\n<br>\n\n",
+      "benefits_md": "**Monetary Benefit:**\n\n- Loan of up to ₹15,00,000 or the actual cost of study/training abroad, whichever is lower.\n\n**Interest Rate:** \n\n- 4% per annum.\n\n**Penalty Interest:** \n\n- 2.5% per annum for late repayment.\n\n**Beneficiary Contribution:** \n\n- No contribution is required from the beneficiary.\n\n**Repayment Terms:**\n\n- Repayment to be made in 60 monthly installments.\n- Repayment starts 6 months after completion of studies.\n- Early repayment is permitted.\n\n<br>\n\n",
+      "briefDescription": "The scheme's purpose is to offer financial assistance to tribal students for higher education abroad. It provides a loan of up to ₹15,00,000 at a 4% annual interest rate.",
+      "exclusions_md": "",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The \"Loans to Tribal Students for Higher Studies Abroad\" scheme was launched by the Tribal Development Department, Government of Gujarat. The scheme aims to provide financial assistance to tribal students who wish to pursue higher education in foreign universities. Through this scheme, eligible Scheduled Tribe (ST) students can avail a loan at a concessional interest rate of 4% per annum."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Monetary Benefit:",
+              "bold": true,
+              "underline": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Loan of up to ₹15,00,000 or the actual cost of study/training abroad, whichever is lower."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Interest Rate:",
+              "bold": true,
+              "underline": true
+            },
+            {
+              "text": " "
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "4% per annum."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Penalty Interest:",
+              "bold": true,
+              "underline": true
+            },
+            {
+              "text": " "
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "2.5% per annum for late repayment."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Beneficiary Contribution:",
+              "bold": true,
+              "underline": true
+            },
+            {
+              "text": " "
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "No contribution is required from the beneficiary."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Repayment Terms:",
+              "bold": true,
+              "underline": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Repayment to be made in 60 monthly installments."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Repayment starts 6 months after completion of studies."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Early repayment is permitted."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Online",
+        "process": [
+          {
+            "type": "heading_five",
+            "children": [
+              {
+                "text": "Registration Process",
+                "bold": true,
+                "underline": true
+              }
+            ]
+          },
+          {
+            "type": "ul_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Visit the Gujarat Tribal Development Corporation "
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://adijatinigam.gujarat.gov.in/home",
+                    "children": [
+                      {
+                        "text": "official website"
+                      }
+                    ]
+                  },
+                  {
+                    "text": ". "
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Click on the \""
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://adijatinigam.gujarat.gov.in/gtdcloan",
+                    "children": [
+                      {
+                        "text": "APPLY FOR LOAN"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "\"."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Select the scheme name \"Foreign Study\"."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Fill the registration form: Full Name (as per Aadhaar Card), Gender, Date of Birth, Aadhaar Number, Mobile Number, Uder name, Password for login, Confirm Password."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Click on the \"Sign Up."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "After successful registration, User ID and Password will be generated."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "heading_five",
+            "children": [
+              {
+                "text": "Login and Application Process",
+                "bold": true,
+                "underline": true
+              }
+            ]
+          },
+          {
+            "type": "ul_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Enter User ID, Password, and Captcha Code."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ul_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "After login, schemes applicable to your caste will be displayed."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Click on the scheme you want to apply for."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Fill the \"Application Form\" and upload the required documents"
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Click Save Application. The system will generate an Application Number."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Click Print Application."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          }
+        ],
+        "process_md": "##### **Registration Process**\n\n- Visit the Gujarat Tribal Development Corporation [official website](https://adijatinigam.gujarat.gov.in/home). - Click on the &quot;[APPLY FOR LOAN](https://adijatinigam.gujarat.gov.in/gtdcloan)&quot;.- Select the scheme name &quot;Foreign Study&quot;.\n- Fill the registration form: Full Name (as per Aadhaar Card), Gender, Date of Birth, Aadhaar Number, Mobile Number, Uder name, Password for login, Confirm Password.\n- Click on the &quot;Sign Up.\n- After successful registration, User ID and Password will be generated.\n\n##### **Login and Application Process**\n\n- Enter User ID, Password, and Captcha Code.\n\n\n- After login, schemes applicable to your caste will be displayed.\n- Click on the scheme you want to apply for.\n- Fill the &quot;Application Form&quot; and upload the required documents\n- Click Save Application. The system will generate an Application Number.\n- Click Print Application.\n\n<br>\n\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n1. The applicant must be a resident of Gujarat.\n1. The applicant must be a student. \n1. The applicant must belong to the Scheduled Tribe (ST) category.\n1. The applicant must have secured special merit in Matriculation, Higher Secondary, Indian School Certificate, or its equivalent examination.\n1. The applicant must have secured admission to a recognized foreign university for higher education.\n1. The applicant must have passed the Higher Secondary Certificate (HSC) or equivalent examination.\n\n<br>\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must be a resident of Gujarat."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must be a student. "
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must belong to the Scheduled Tribe (ST) category."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must have secured special merit in Matriculation, Higher Secondary, Indian School Certificate, or its equivalent examination."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must have secured admission to a recognized foreign university for higher education."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must have passed the Higher Secondary Certificate (HSC) or equivalent examination."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "ltshsa"
+}

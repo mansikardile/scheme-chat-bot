@@ -1,0 +1,597 @@
+{
+  "_id": "6744609cb63acbe8ffb75eb0",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Building Worker",
+        "Construction Workers",
+        "Labour",
+        "Maternity",
+        "Financial Assistance"
+      ],
+      "schemeName": "Maternity Support Scheme (MPBOCWWB)",
+      "schemeShortTitle": "MSSMPBOCWWB",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce87cd6d1a3bde4685312",
+          "label": "Social welfare & Empowerment"
+        },
+        {
+          "value": "64f57d10ffb93104c7006c97",
+          "label": "Women and Child"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Financial assistance",
+          "label": "Financial assistance"
+        },
+        {
+          "value": "Citizen empowerment",
+          "label": "Citizen empowerment"
+        },
+        {
+          "value": "Pregnancy Care",
+          "label": "Pregnancy Care"
+        },
+        {
+          "value": "Childcare",
+          "label": "Childcare"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "state": {
+        "value": 23,
+        "label": "Madhya Pradesh"
+      },
+      "nodalDepartmentName": {
+        "value": 2300023,
+        "label": "Labour Department"
+      },
+      "schemeFor": "Family"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://labour.mp.gov.in/Public/Pages/Schemes/PrasutiSahayta.aspx"
+        },
+        {
+          "title": "Scheme Details",
+          "url": "https://cmhelpline.mp.gov.in/KnowYourEntitleDetail.aspx?status=ByVibhag&pointvalue=2&Schemeid=333"
+        },
+        {
+          "title": "Labour Registration",
+          "url": "https://labour.mp.gov.in/Public/Registration/BeneficiaryRegistrationRequest.aspx"
+        },
+        {
+          "title": "Scheme Registration",
+          "url": "https://labour.mp.gov.in/Public/Application/RegsiterSchemeApplication.aspx"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The &quot;Maternity Support Scheme&quot; by the Building and Other Construction Workers Welfare Board, Labour Department, Jammu &amp; Kashmir, provides financial assistance of ₹16,000/- as maternity allowance, payable in two installments. Only registered construction workers or their wives are eligible to receive the benefits under this scheme.\n<br>\n\n<br>\n\n<br>\n\n<br>\n\n",
+      "benefits_md": "\n1. **First Installment:** ₹4,000 for registration of pregnancy in the first trimester.1. **Second Installment:** ₹12,000 for:\n\n- Delivery in government or authorized non-government hospitals under the Ayushman Bharat &quot;Niramayam&quot; program for pregnancy and delivery-related high-risk packages.\n- Registration of newborns after institutional birth.\n- Early breastfeeding of babies.\n- BCG, OPV, and Hep B vaccination for the infant.\n\n**Total Amount: ₹16,000**\n",
+      "briefDescription": "The \"Maternity Support Scheme\" by the MPBOCW Welfare Board, Labour Department, Government of Madhya Pradesh provides an amount of ₹16,000/- as maternity allowance, payable in two installments.",
+      "exclusions_md": "",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The \"Maternity Support Scheme\" by the Building and Other Construction Workers Welfare Board, Labour Department, Jammu & Kashmir, provides financial assistance of ₹16,000/- as maternity allowance, payable in two installments. Only registered construction workers or their wives are eligible to receive the benefits under this scheme."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "First Installment:",
+                  "bold": true
+                },
+                {
+                  "text": " ₹4,000 for registration of pregnancy in the first trimester."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Second Installment:",
+                  "bold": true
+                },
+                {
+                  "text": " ₹12,000 for:"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Delivery in government or authorized non-government hospitals under the Ayushman Bharat \"Niramayam\" program for pregnancy and delivery-related high-risk packages."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Registration of newborns after institutional birth."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Early breastfeeding of babies."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "BCG, OPV, and Hep B vaccination for the infant."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Total Amount: ₹16,000",
+              "bold": true
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Online",
+        "process": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Registration of a Construction Worker under MPBOCWWB:",
+                "bold": true,
+                "underline": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 1: Go to the Shram Seva Portal (MPBOCWWB) "
+              },
+              {
+                "type": "link",
+                "link": "https://labour.mp.gov.in/Default.aspx",
+                "children": [
+                  {
+                    "text": "official website."
+                  }
+                ]
+              },
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2: On the homepage, find and click on \"Registration of Construction Worker.\""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 3:Select the option \""
+              },
+              {
+                "type": "link",
+                "link": "https://labour.mp.gov.in/Public/Application/RegsiterSchemeApplication.aspx",
+                "children": [
+                  {
+                    "text": "Apply online"
+                  }
+                ]
+              },
+              {
+                "text": " for registration as a beneficiary.\""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 4: Enter your Composite Member ID and Samagra Family ID, then click Get Details."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 5: Your family or beneficiary details will be displayed on the screen."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 8: Complete the form by entering all required details (marked with *)."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 9: Upload all necessary documents, such as ID proof and other relevant certificates."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 10:After completing the form and uploading the documents, click Submit and pay the application fee online."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step11 : You will receive a registration number after successful payment and submission."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Steps to Apply for Scheme Benefits:",
+                "bold": true
+              }
+            ]
+          },
+          {
+            "type": "align_justify",
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step1: Go to the Shram Seva Portal (MPBOCWWB) "
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://labour.mp.gov.in/Default.aspx",
+                    "children": [
+                      {
+                        "text": "official website."
+                      }
+                    ]
+                  },
+                  {
+                    "text": ""
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step2: On the homepage, find and click on Planning Application, then register the applications of registered workers for the "
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://labour.mp.gov.in/Public/Application/RegsiterSchemeApplication.aspx",
+                    "children": [
+                      {
+                        "text": "benefits of schemes"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 3: Enter your Labor Registration Number (Portal Code) and the code displayed in the image, then click View Details."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step4: Choose the scheme you wish to apply for in order to avail the benefits."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step5: Enter all required information and upload the necessary documents as prompted."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step6: Finally, click on Submit Application to complete the process."
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "process_md": "**Registration of a Construction Worker under MPBOCWWB:**\nStep 1: Go to the Shram Seva Portal (MPBOCWWB) [official website.](https://labour.mp.gov.in/Default.aspx)\nStep 2: On the homepage, find and click on &quot;Registration of Construction Worker.&quot;\nStep 3:Select the option &quot;[Apply online](https://labour.mp.gov.in/Public/Application/RegsiterSchemeApplication.aspx) for registration as a beneficiary.&quot;\nStep 4: Enter your Composite Member ID and Samagra Family ID, then click Get Details.\nStep 5: Your family or beneficiary details will be displayed on the screen.\nStep 8: Complete the form by entering all required details (marked with *).\nStep 9: Upload all necessary documents, such as ID proof and other relevant certificates.\nStep 10:After completing the form and uploading the documents, click Submit and pay the application fee online.\nStep11 : You will receive a registration number after successful payment and submission.\n<br>\n\n**Steps to Apply for Scheme Benefits:**\nStep1: Go to the Shram Seva Portal (MPBOCWWB) [official website.](https://labour.mp.gov.in/Default.aspx)\nStep2: On the homepage, find and click on Planning Application, then register the applications of registered workers for the [benefits of schemes](https://labour.mp.gov.in/Public/Application/RegsiterSchemeApplication.aspx).\nStep 3: Enter your Labor Registration Number (Portal Code) and the code displayed in the image, then click View Details.\nStep4: Choose the scheme you wish to apply for in order to avail the benefits.\nStep5: Enter all required information and upload the necessary documents as prompted.\nStep6: Finally, click on Submit Application to complete the process.\n"
+      },
+      {
+        "mode": "Offline",
+        "process": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 1: The interested applicant should visit (during office hours) the Rural Area Block Medical Officer / Civil Surgeon / Superintendent Medical College Hospital, and request the hard copy of the prescribed format of the application form from the concerned authority."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2: In the application form, fill in all the mandatory fields, paste the passport-sized photograph (signed across, if required), and attach copies of all the mandatory documents (self-attest, if required)."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 3: Submit the duly filled and signed application form along with the documents, within the prescribed period (if any), to the authority."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 4: Request a receipt or acknowledgement from the concerned authority to whom the application has been submitted. Ensure that the receipt contains essential details such as the date and time of submission, and a unique identification number (if applicable)."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "NOTE: Ensure that the application is submitted within the prescribed period, if any."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          }
+        ],
+        "process_md": "Step 1: The interested applicant should visit (during office hours) the Rural Area Block Medical Officer / Civil Surgeon / Superintendent Medical College Hospital, and request the hard copy of the prescribed format of the application form from the concerned authority.\nStep 2: In the application form, fill in all the mandatory fields, paste the passport-sized photograph (signed across, if required), and attach copies of all the mandatory documents (self-attest, if required).\nStep 3: Submit the duly filled and signed application form along with the documents, within the prescribed period (if any), to the authority.\nStep 4: Request a receipt or acknowledgement from the concerned authority to whom the application has been submitted. Ensure that the receipt contains essential details such as the date and time of submission, and a unique identification number (if applicable).\nNOTE: Ensure that the application is submitted within the prescribed period, if any.\n<br>\n\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "**For Registration as a Building/ Construction Worker:**\n\n1. The applicant should be a resident of Madhya Pradesh.\n1. The applicant should be a Building/ Construction Worker.\n1. The applicant should be between 18 and 60 years.\n1. The applicant should have engaged in any building or other construction work for at least 90 days during the preceding 12 months.\n1. The applicant should be registration is renewed annually.\n\n**For the Application of the Welfare Scheme:**\n\n1. The applicant should be registered Under the Building and Other Construction Workers Welfare Board of Madhya Pradesh.\n1. The applicant should be pregnant.\n1. The worker&#39;s membership with the Welfare Board must be active at the time of application.\n\n**NOTE:** Assistance is limited to a maximum of three children.\n<br>\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "For Registration as a Building/ Construction Worker:",
+              "bold": true,
+              "underline": true
+            }
+          ]
+        },
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should be a resident of Madhya Pradesh."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should be a Building/ Construction Worker."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should be between 18 and 60 years."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should have engaged in any building or other construction work for at least 90 days during the preceding 12 months."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should be registration is renewed annually."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "For the Application of the Welfare Scheme:",
+              "bold": true,
+              "underline": true
+            }
+          ]
+        },
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should be registered Under the Building and Other Construction Workers Welfare Board of Madhya Pradesh."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should be pregnant."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The worker's membership with the Welfare Board must be active at the time of application."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "NOTE:",
+              "bold": true
+            },
+            {
+              "text": " Assistance is limited to a maximum of three children."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "mssmpbocwwb"
+}

@@ -1,0 +1,487 @@
+{
+  "_id": "677a5b13dfe9058f6078f054",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Financial Assistance",
+        "Sportsperson",
+        "Career",
+        "Scholarship"
+      ],
+      "schemeName": "Khel Chhatravriti (Vritika) Yojana",
+      "schemeShortTitle": "KCVY",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce8aad6d1a3bde4685320",
+          "label": "Sports & Culture"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Sports",
+          "label": "Sports"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "sportsperson",
+          "label": "Sportsperson"
+        }
+      ],
+      "state": {
+        "value": 20,
+        "label": "Jharkhand"
+      },
+      "nodalDepartmentName": {
+        "value": 2000030,
+        "label": "Department of Sports & Youth Affairs"
+      },
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://sports.jharkhand.gov.in/notification_docs/4ced6d8d1938.pdf"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The &quot;Khel Chhatravriti (Vritika) Yojana&quot; implemented by the Directorate of Art, Culture, Sports, and Youth Affairs, Government of Jharkhand aims to financially support athletes and encourage them to focus on sports as a livelihood. Under this scheme, scholarships are provided to athletes based on their performance in recognized national and state-level competitions.\n",
+      "benefits_md": "> ***Monetary Assistance Based on Performance***\n\n**National championship winners:**\n\n- First, Second, and Third Place: ₹6,000 per month.\n- Fourth to Eighth Place: ₹4,000 per month.\n\n<br>\n\n**State-level winners qualifying for national championships:**\n\n- First to Third Place: ₹3,000 per month.\n\n<br>\n\n**National record-equivalent performances:**\n\n- ₹4,000 per month.\n\n<br>\n\n***Recognition for National Representation***\n\n- Athletes representing Jharkhand after obtaining a No Objection Certificate from other states or organizations may receive an allowance equal to their existing honorarium/salary.\n\n***Additional Support***\n\n- Financial aid can be used for training, nutrition, and purchasing sports equipment.\n\n",
+      "exclusions_md": "\n- The applicant availing any other sports-related stipend, scholarship, or honorarium are not eligible.\n\n",
+      "briefDescription": "The \"Khel Chhatravriti (Vritika) Yojana\" implemented by the Directorate of Art, Culture, Sports, and Youth Affairs, Government of Jharkhand, provides financial assistance to athletes based on their performance to encourage sports as a career.",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The \"Khel Chhatravriti (Vritika) Yojana\" implemented by the Directorate of Art, Culture, Sports, and Youth Affairs, Government of Jharkhand aims to financially support athletes and encourage them to focus on sports as a livelihood. Under this scheme, scholarships are provided to athletes based on their performance in recognized national and state-level competitions."
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "Monetary Assistance Based on Performance",
+              "bold": true,
+              "italic": true,
+              "underline": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "National championship winners:",
+              "bold": true,
+              "underline": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "First, Second, and Third Place: ₹6,000 per month."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Fourth to Eighth Place: ₹4,000 per month."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "State-level winners qualifying for national championships:",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "First to Third Place: ₹3,000 per month."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "National record-equivalent performances:",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "₹4,000 per month."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Recognition for National Representation",
+              "bold": true,
+              "italic": true,
+              "underline": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Athletes representing Jharkhand after obtaining a No Objection Certificate from other states or organizations may receive an allowance equal to their existing honorarium/salary."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Additional Support",
+              "bold": true,
+              "italic": true,
+              "underline": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Financial aid can be used for training, nutrition, and purchasing sports equipment."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "exclusions": [
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant availing any other sports-related stipend, scholarship, or honorarium are not eligible."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "process": [
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "text": "Visit the Official Website",
+                "bold": true,
+                "underline": true
+              }
+            ]
+          },
+          {
+            "type": "ul_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Go to the "
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://sports.jharkhand.gov.in/Home.aspx",
+                    "children": [
+                      {
+                        "text": "official website"
+                      }
+                    ]
+                  },
+                  {
+                    "text": " Directorate of Art, Culture, Sports, and Youth Affairs."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "text": "Download Application Form",
+                "bold": true,
+                "underline": true
+              }
+            ]
+          },
+          {
+            "type": "ul_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Navigate to the \"Notice\" section, select \"Khel Vritika (Sports Scholarship),\" and download the "
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://sports.jharkhand.gov.in/notice_docs/6f2a344cFormat%20of%20Scholarship%20Application.pdf",
+                    "children": [
+                      {
+                        "text": "application form"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Fill Out the Form (details such as personal information, competition performance, and bank details)."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "text": "Attach Documents",
+                "bold": true,
+                "underline": true
+              }
+            ]
+          },
+          {
+            "type": "ul_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Attach all required documents as listed above. Ensure proper attestation wherever needed."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "text": "Submit the Application",
+                "bold": true,
+                "underline": true
+              }
+            ]
+          },
+          {
+            "type": "ul_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Submit the completed form and attached documents to the Directorate of Art, Culture, Sports, and Youth Affairs or the Jharkhand State Sports Authority."
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "process_md": "> **Visit the Official Website**\n\n\n- Go to the [official website](https://sports.jharkhand.gov.in/Home.aspx) Directorate of Art, Culture, Sports, and Youth Affairs.\n<br>\n\n> **Download Application Form**\n\n\n- Navigate to the &quot;Notice&quot; section, select &quot;Khel Vritika (Sports Scholarship),&quot; and download the [application form](https://sports.jharkhand.gov.in/notice_docs/6f2a344cFormat%20of%20Scholarship%20Application.pdf).- Fill Out the Form (details such as personal information, competition performance, and bank details).\n\n<br>\n\n> **Attach Documents**\n\n\n- Attach all required documents as listed above. Ensure proper attestation wherever needed.\n\n<br>\n\n> **Submit the Application**\n\n\n- Submit the completed form and attached documents to the Directorate of Art, Culture, Sports, and Youth Affairs or the Jharkhand State Sports Authority.\n\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n1. The applicant must be a permanent resident of Jharkhand.\n1. The applicant should be a sportsperson. \n1. Scholarships are awarded based on performance in the previous year&#39;s recognized national or state-level sports competitions.\n1. The applicant must not receive any other scholarship or benefits under any other sports scheme, such as free diet, accommodation, or stipend.\n\n<br>\n\n<br>\n\n**NOTE:** If the applicant is already receiving such benefits, they must forfeit them before applying for this scholarship.\n",
+      "eligibilityDescription": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must be a permanent resident of Jharkhand."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should be a sportsperson. "
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Scholarships are awarded based on performance in the previous year's recognized national or state-level sports competitions."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must not receive any other scholarship or benefits under any other sports scheme, such as free diet, accommodation, or stipend."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "NOTE:",
+              "bold": true
+            },
+            {
+              "text": " If the applicant is already receiving such benefits, they must forfeit them before applying for this scholarship."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "kcvy"
+}

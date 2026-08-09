@@ -1,0 +1,272 @@
+{
+  "_id": "6474f054527a0d6debd58203",
+  "en": {
+    "basicDetails": {
+      "schemeOpenDate": "2016-01-01",
+      "schemeCloseDate": null,
+      "state": {
+        "value": 10,
+        "label": "Bihar"
+      },
+      "nodalMinistryName": null,
+      "nodalDepartmentName": {
+        "value": 10111148,
+        "label": "Social Welfare Department"
+      },
+      "otherMinistryName": null,
+      "otherDepartmentNames": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Financial assistance",
+          "label": "Financial assistance"
+        }
+      ],
+      "dbtScheme": null,
+      "implementingAgency": null,
+      "tags": [
+        "Financial Assistance",
+        "Empowerment",
+        "Benefits",
+        "Disability"
+      ],
+      "schemeName": "Chief Minister Divyangjan Empowerment Scheme (Sambal)",
+      "schemeShortTitle": "CMDES",
+      "level": {
+        "value": "state",
+        "label": "State"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce87cd6d1a3bde4685312",
+          "label": "Social welfare & Empowerment"
+        }
+      ],
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://state.bihar.gov.in/cache/39/Chhatra%20Yojna/Mukhyamantri%20Divayangjan%20Shashaktikaran%20Chatra%20Yojna/SAMBAL.pdf"
+        },
+        {
+          "title": "Registration",
+          "url": "https://online.bih.nic.in/swf/swftc/"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The main objective of this scheme is to provide quick benefits for the welfare of the disabled to all the schemes of the disability sector run by the state government. To increase awareness towards the disabled, to ensure their rights while empowering them physically, socially, educationally and economically.\nFor the operation of Sambal, a provision of 100 percent amount is made by the state government. Similarly, for the participation of the state in the schemes of the National Trust, the necessary supplementary grant amount is given by the state government under this scheme to the beneficiaries.\n",
+      "benefits_md": "\n1. A loan of up to Rs.2.00 lakh will be given for self-employment. \n1. The scholarship will be given for teaching in special schools, the rate of which will be less than the rate given to non-disabled people. \n1. In very special cases, the rate of grant and state grant in schemes of National Trust will be payable according to the needs of the scheme and the specific beneficiary.\n\n",
+      "briefDescription": "The State government of Bihar launched the \"Chief Minister Divyangjan Empowerment Scheme (Sambal) \" scheme with the aim of improving the lives of Disable persons. Financial assistance is provided by the government through these schemes.",
+      "exclusions_md": "",
+      "detailedDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "The main objective of this scheme is to provide quick benefits for the welfare of the disabled to all the schemes of the disability sector run by the state government. To increase awareness towards the disabled, to ensure their rights while empowering them physically, socially, educationally and economically."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "For the operation of Sambal, a provision of 100 percent amount is made by the state government. Similarly, for the participation of the state in the schemes of the National Trust, the necessary supplementary grant amount is given by the state government under this scheme to the beneficiaries."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 3,
+        "value": "composite",
+        "label": "Composite"
+      },
+      "benefits": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "A loan of up to Rs.2.00 lakh will be given for self-employment. "
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The scholarship will be given for teaching in special schools, the rate of which will be less than the rate given to non-disabled people. "
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "In very special cases, the rate of grant and state grant in schemes of National Trust will be payable according to the needs of the scheme and the specific beneficiary."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Online",
+        "url": "https://online.bih.nic.in/",
+        "process": [
+          {
+            "type": "align_justify",
+            "children": [
+              {
+                "type": "ol_list",
+                "children": [
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "text": "Visit the official "
+                      },
+                      {
+                        "type": "link",
+                        "link": "https://online.bih.nic.in/",
+                        "children": [
+                          {
+                            "text": "website"
+                          }
+                        ]
+                      },
+                      {
+                        "text": ". "
+                      }
+                    ]
+                  },
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "text": "Registration is mandatory for e-filling up the "
+                      },
+                      {
+                        "type": "link",
+                        "link": "https://online.bih.nic.in/SWF/SWFTC/Register.aspx",
+                        "children": [
+                          {
+                            "text": "form."
+                          }
+                        ]
+                      },
+                      {
+                        "text": ""
+                      }
+                    ]
+                  },
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "text": "Use login credentials to log in."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "text": "Only eligible candidates as per guidelines/advertisement should fill up the form with Personal Details."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "text": "Upload Photo & Signature."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "text": "Upload Documents."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "text": "Finalise and submit application."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "process_md": "\n   1. Visit the official [website](https://online.bih.nic.in/).    1. Registration is mandatory for e-filling up the [form.](https://online.bih.nic.in/SWF/SWFTC/Register.aspx)   1. Use login credentials to log in.\n   1. Only eligible candidates as per guidelines/advertisement should fill up the form with Personal Details.\n   1. Upload Photo &amp;amp; Signature.\n   1. Upload Documents.\n   1. Finalise and submit application.\n\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n1. The age limit will be 18-60 years for self-employment loans and more than 5 years for artificial limbs and equipment.\n1. In very special cases, a grant will be payable in all cases covered by multiple disabilities and judgments and there will be no restriction on the limit of income, age etc.\n1. The age limit of the student for the special school will be 6-18 years.\n1. For shelter home (Ashiyana / Saket), the minimum age limit of the beneficiary (male/female) will be 18 years.\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The age limit will be 18-60 years for self-employment loans and more than 5 years for artificial limbs and equipment."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "In very special cases, a grant will be payable in all cases covered by multiple disabilities and judgments and there will be no restriction on the limit of income, age etc."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The age limit of the student for the special school will be 6-18 years."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "For shelter home (Ashiyana / Saket), the minimum age limit of the beneficiary (male/female) will be 18 years."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "cmdes"
+}

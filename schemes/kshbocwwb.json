@@ -1,0 +1,664 @@
+{
+  "_id": "6633626bcd35aa541a9f4d85",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Building Worker",
+        "Construction Worker",
+        "Marriage",
+        "Financial Assistance",
+        "Kanyadaan",
+        "Labour"
+      ],
+      "schemeName": "Kanyadaan Scheme (HBOCWWB)",
+      "schemeShortTitle": "KS(HBOCWWB)",
+      "implementingAgency": "Haryana Building & Other Construction Workers Welfare Board",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce87cd6d1a3bde4685312",
+          "label": "Social welfare & Empowerment"
+        },
+        {
+          "value": "64f57d10ffb93104c7006c97",
+          "label": "Women and Child"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Marriage",
+          "label": "Marriage"
+        },
+        {
+          "value": "Financial assistance",
+          "label": "Financial assistance"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "state": {
+        "value": 6,
+        "label": "Haryana"
+      },
+      "nodalDepartmentName": {
+        "value": 666690,
+        "label": "Labour Department"
+      },
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Official Website",
+          "url": "https://hrylabour.gov.in/bocw/settings/schemeDetail/113"
+        },
+        {
+          "title": "Registration",
+          "url": "https://hrylabour.gov.in/bocw/Basicinfo/bocw_terms"
+        },
+        {
+          "title": "Scheme Details",
+          "url": "https://kms.saralharyana.nic.in/ViewDoc?Id=SptEybKHn%2ftmZmXl8s4YGw%3d%3d"
+        },
+        {
+          "title": "Application Portal",
+          "url": "https://saralharyana.gov.in/"
+        },
+        {
+          "title": "HBOCWWB Rule",
+          "url": "https://hrylabour.gov.in/staticdocs/labourActpdfdocs/HBOCW_Rules.pdf"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The scheme “Kanyadaan Scheme” is implemented by the Haryana Building and Other Construction Workers Welfare Board (HBOCWWB), Labour Department, Government of Haryana. Under this scheme, the Board provides financial assistance in the form of Kanyadaan to registered construction workers on the occasion of the marriage of their daughters. This assistance is available for up to three daughters of the worker.\n",
+      "benefits_md": "\n   1. Under this scheme, registered workers are being provided financial assistance of ₹51,000/- as Kanyadaan on the marriage of their daughters.\n\n**Note:** Financial assistance of ₹50,000/- is also provided by the Board for arranging the marriage of the daughter of a registered worker, for which a separate online application is mandatory. Hence, ₹51,000/- (Kanyadaan Scheme) + ₹50,000/- on the marriage of the daughter of the beneficiary. Total financial assistance of ₹1,01,000/- on the marriage of children (daughter) is provided.\n",
+      "briefDescription": "Under this scheme, the Board provides financial assistance of ₹51,000/- in the form of Kanyadaan to registered construction workers on the occasion of the marriage of their daughters. This assistance is available for up to three daughters of the worker.",
+      "exclusions_md": "",
+      "detailedDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "The scheme “Kanyadaan Scheme” is implemented by the Haryana Building and Other Construction Workers Welfare Board (HBOCWWB), Labour Department, Government of Haryana. Under this scheme, the Board provides financial assistance in the form of Kanyadaan to registered construction workers on the occasion of the marriage of their daughters. This assistance is available for up to three daughters of the worker."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "ol_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Under this scheme, registered workers are being provided financial assistance of ₹51,000/- as Kanyadaan on the marriage of their daughters."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "Note:",
+                  "bold": true
+                },
+                {
+                  "text": " Financial assistance of ₹50,000/- is also provided by the Board for arranging the marriage of the daughter of a registered worker, for which a separate online application is mandatory. Hence, ₹51,000/- (Kanyadaan Scheme) + ₹50,000/- on the marriage of the daughter of the beneficiary. Total financial assistance of ₹1,01,000/- on the marriage of children (daughter) is provided."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Online",
+        "process": [
+          {
+            "type": "align_justify",
+            "children": [
+              {
+                "type": "block_quote",
+                "children": [
+                  {
+                    "text": "Registration of a Construction Worker Under HBOCWWB:",
+                    "underline": true,
+                    "bold": true
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 01:",
+                    "bold": true
+                  },
+                  {
+                    "text": " The construction worker should visit the "
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://hrylabour.gov.in/",
+                    "children": [
+                      {
+                        "text": "Official Website"
+                      }
+                    ]
+                  },
+                  {
+                    "text": " of the Labour Department Haryana. "
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 02:",
+                    "bold": true
+                  },
+                  {
+                    "text": " On the home page, click on the “Building & Ors Const. Workers Welfare Board” link."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 03:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Applicant has to read all the instructions and then “Tick” the acknowledgment, then click on the “Submit” button."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 04:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Verification using Parivar Pehchan Patra (PPP)- Family ID:"
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "a) Forget/not having Family ID: If you do not have PPP ID or forget the PPP ID, then you have to select that radio button and you are redirected to the "
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://meraparivar.haryana.gov.in/",
+                    "children": [
+                      {
+                        "text": "PPP Portal"
+                      }
+                    ]
+                  },
+                  {
+                    "text": " to get their PPP ID."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "b) Having a Family ID: If you have a family ID, then only you can move to the next step for registration. To proceed further, follow the given steps:"
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "• Select the “I have family ID” radio button"
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "• Enter Parivar Pehchan Patra number - Family ID"
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "• Click on “Fetch Family Details” which displays the family members registered under the given Family ID"
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "• Select a family member for registration"
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "• Enter the OTP that is being sent to the selected family member for verification"
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "• Click on “Click to Verify”"
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 05:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Aadhaar Verification before Registration: Provide your Aadhaar number and tick mark the checkbox for the declaration. Click on the “Continue” button."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 06:",
+                    "bold": true
+                  },
+                  {
+                    "text": " After verification, fill out the complete registration form and submit the form."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 07:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Login into the account: After the final submission of the registration form, a worker can login into his/her account using their username and password but unable to avail of any benefit. "
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 08:",
+                    "bold": true
+                  },
+                  {
+                    "text": " To avail of the benefits, a worker has to pay the registration fee and add a work experience of a minimum of 90 days of the preceding year."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 09:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Now, the worker needs to add work experience, to add 90 days of experience, the applicant has to fill in all the details where he/she has worked."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 10:",
+                    "bold": true
+                  },
+                  {
+                    "text": " The schemes and other benefits can be availed once the 90 days’ work experience is approved by the Officer."
+                  }
+                ]
+              },
+              {
+                "type": "block_quote",
+                "children": [
+                  {
+                    "text": "Apply for Scheme: Registration Process on Antyodaya-SARAL Portal:",
+                    "bold": true,
+                    "underline": true
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 01:",
+                    "bold": true
+                  },
+                  {
+                    "text": " To avail of the benefits of the scheme, the applicant needs to visit the Official Portal -"
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://saralharyana.gov.in/",
+                    "children": [
+                      {
+                        "text": "Antyodaya-SARAL Portal"
+                      }
+                    ]
+                  },
+                  {
+                    "text": ""
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 02:",
+                    "bold": true
+                  },
+                  {
+                    "text": " If the applicant is not registered on the portal, then he/she gets registered on the portal. "
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 03:",
+                    "bold": true
+                  },
+                  {
+                    "text": " For registration, click on “New User/Register Here” and fill in all the mandatory details i.e. Name, Email ID, Mobile Number & password. Click on ‘Submit’."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 04:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Applicants will receive the login ID on their mobile number."
+                  }
+                ]
+              },
+              {
+                "type": "block_quote",
+                "children": [
+                  {
+                    "text": "Login to Apply for the Scheme:",
+                    "bold": true,
+                    "underline": true
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 01:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Visit the Official Portal -"
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://saralharyana.gov.in/",
+                    "children": [
+                      {
+                        "text": "Antyodaya-SARAL Portal"
+                      }
+                    ]
+                  },
+                  {
+                    "text": ""
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 02:",
+                    "bold": true
+                  },
+                  {
+                    "text": " The “Sign in here” option is available on the right side of the screen. Applicant needs to fill in their credentials and click on the ‘Login’ button."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 03:",
+                    "bold": true
+                  },
+                  {
+                    "text": " In the opened window, click on “Scheme/Services list” and a list of schemes will appear on the screen."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 04:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Now, select the scheme and click on “Apply for Service/Scheme”."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 05:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Fill in all the details asked in the online application form and submit the application form."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": ""
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://hrylabour.gov.in/uploads/manuals/Manual_for_Worker_Registration_HBOCW.pdf",
+                    "children": [
+                      {
+                        "text": "HBOCW Registration User Manual"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "       "
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://hrylabour.gov.in/staticdocs/BOCW_English.pdf",
+                    "children": [
+                      {
+                        "text": "HBOCW Registration Basic Instructions & Features"
+                      }
+                    ]
+                  },
+                  {
+                    "text": ""
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "process_md": "&gt; **Registration of a Construction Worker Under HBOCWWB:**\n\n**Step 01:** The construction worker should visit the [Official Website](https://hrylabour.gov.in/) of the Labour Department Haryana. \n**Step 02:** On the home page, click on the “Building &amp;amp; Ors Const. Workers Welfare Board” link.\n**Step 03:** Applicant has to read all the instructions and then “Tick” the acknowledgment, then click on the “Submit” button.\n**Step 04:** Verification using Parivar Pehchan Patra (PPP)- Family ID:\na) Forget/not having Family ID: If you do not have PPP ID or forget the PPP ID, then you have to select that radio button and you are redirected to the [PPP Portal](https://meraparivar.haryana.gov.in/) to get their PPP ID.\nb) Having a Family ID: If you have a family ID, then only you can move to the next step for registration. To proceed further, follow the given steps:\n• Select the “I have family ID” radio button\n• Enter Parivar Pehchan Patra number - Family ID\n• Click on “Fetch Family Details” which displays the family members registered under the given Family ID\n• Select a family member for registration\n• Enter the OTP that is being sent to the selected family member for verification\n• Click on “Click to Verify”\n**Step 05:** Aadhaar Verification before Registration: Provide your Aadhaar number and tick mark the checkbox for the declaration. Click on the “Continue” button.\n**Step 06:** After verification, fill out the complete registration form and submit the form.\n**Step 07:** Login into the account: After the final submission of the registration form, a worker can login into his/her account using their username and password but unable to avail of any benefit. \n**Step 08:** To avail of the benefits, a worker has to pay the registration fee and add a work experience of a minimum of 90 days of the preceding year.\n**Step 09:** Now, the worker needs to add work experience, to add 90 days of experience, the applicant has to fill in all the details where he/she has worked.\n**Step 10:** The schemes and other benefits can be availed once the 90 days’ work experience is approved by the Officer.\n&gt; **Apply for Scheme: Registration Process on Antyodaya-SARAL Portal:**\n\n**Step 01:** To avail of the benefits of the scheme, the applicant needs to visit the Official Portal -[Antyodaya-SARAL Portal](https://saralharyana.gov.in/)\n**Step 02:** If the applicant is not registered on the portal, then he/she gets registered on the portal. \n**Step 03:** For registration, click on “New User/Register Here” and fill in all the mandatory details i.e. Name, Email ID, Mobile Number &amp;amp; password. Click on ‘Submit’.\n**Step 04:** Applicants will receive the login ID on their mobile number.\n&gt; **Login to Apply for the Scheme:**\n\n**Step 01:** Visit the Official Portal -[Antyodaya-SARAL Portal](https://saralharyana.gov.in/)\n**Step 02:** The “Sign in here” option is available on the right side of the screen. Applicant needs to fill in their credentials and click on the ‘Login’ button.\n**Step 03:** In the opened window, click on “Scheme/Services list” and a list of schemes will appear on the screen.\n**Step 04:** Now, select the scheme and click on “Apply for Service/Scheme”.\n**Step 05:** Fill in all the details asked in the online application form and submit the application form.\n[HBOCW Registration User Manual](https://hrylabour.gov.in/uploads/manuals/Manual_for_Worker_Registration_HBOCW.pdf)       [HBOCW Registration Basic Instructions &amp;amp; Features](https://hrylabour.gov.in/staticdocs/BOCW_English.pdf)\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n   1. The applicant should be registered under the Haryana Building &amp;amp; Other Construction Workers Welfare Board.\n   1. The registered worker must have a minimum of one year’s regular membership.\n   1. The registered member must have worked for 90 days as a Building and Other Construction Worker during the preceding twelve months.\n   1. The worker must have paid up-to-date contributions.\n   1. The benefit is payable upto the marriage of three daughters only.\n   1. The applicant should submit all the documents within one year after the marriage.\n   1. The applicant should not avail of this assistance from any other government department/board/corporation.\n\n**Note 01:** The worker has to produce a work experience certificate duly verified by the prescribed authorities.\n**Note 02:** The worker has to upload the Marriage Certificate of the daughter.\n**Note 03:** The worker/applicant shall submit the undertaking prescribed by the Board.\n",
+      "eligibilityDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "ol_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant should be registered under the Haryana Building & Other Construction Workers Welfare Board."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The registered worker must have a minimum of one year’s regular membership."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The registered member must have worked for 90 days as a Building and Other Construction Worker during the preceding twelve months."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The worker must have paid up-to-date contributions."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The benefit is payable upto the marriage of three daughters only."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant should submit all the documents within one year after the marriage."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant should not avail of this assistance from any other government department/board/corporation."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "Note 01:",
+                  "bold": true
+                },
+                {
+                  "text": " The worker has to produce a work experience certificate duly verified by the prescribed authorities."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "Note 02: ",
+                  "bold": true
+                },
+                {
+                  "text": "The worker has to upload the Marriage Certificate of the daughter."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "Note 03: ",
+                  "bold": true
+                },
+                {
+                  "text": "The worker/applicant shall submit the undertaking prescribed by the Board."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "kshbocwwb"
+}

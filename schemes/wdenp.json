@@ -1,0 +1,256 @@
+{
+  "_id": "645b43de4358152a4789f95f",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": true,
+      "tags": [
+        "Widow Pension",
+        "Financial Assistance"
+      ],
+      "schemeName": "Widow/Abandoned/Single Woman Pension Scheme",
+      "schemeShortTitle": "WDENP",
+      "level": {
+        "value": "state",
+        "label": "State"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce87cd6d1a3bde4685312",
+          "label": "Social welfare & Empowerment"
+        },
+        {
+          "value": "64f57d10ffb93104c7006c97",
+          "label": "Women and Child"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Pension",
+          "label": "Pension"
+        },
+        {
+          "value": "Financial assistance",
+          "label": "Financial assistance"
+        },
+        {
+          "value": "Assistance to Widows",
+          "label": "Assistance to Widows"
+        }
+      ],
+      "schemeOpenDate": "2022-04-08",
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "state": {
+        "value": 2,
+        "label": "Himachal Pradesh"
+      },
+      "nodalDepartmentName": {
+        "value": 21111158,
+        "label": "Department of Social Justice and Empowerment"
+      },
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "http://esomsa.hp.gov.in/sites/default/files/Notification_SSP_0.pdf"
+        },
+        {
+          "title": "Application Form",
+          "url": "http://esomsa.hp.gov.in/sites/default/files/scan0001-44250128_0.pdf"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "**Widow/Abandoned/Single Woman Pension Scheme** is a scheme under the Social Welfare and Empowerment Department, Government of Himachal Pradesh. The scheme aims to provide financial help to widows, abandoned women, and unmarried women shall be entitled to receive pension for a sum of Rs.1,150/-per month. The scheme aims to improve the quality of life of these women who are unable to support themselves financially.\n",
+      "benefits_md": "\n   1. Financial assistance of Rs.1,150/- per month to eligible widows, deserted women, and unmarried women.\n   1. The pension amount is disbursed directly to the beneficiary&amp;#39;s bank account.\n   1. It helps improve the standard of living of eligible women and reduces their financial burden.\n   1. Provides a sense of security and support to eligible women.\n\n",
+      "briefDescription": "Widow/Abandoned/Single Woman Pension Scheme of Himachal Pradesh Government aims to provide financial help to widows, abandoned women, and unmarried women shall be entitled to receive pension for a sum of Rs.1,150/-per month.",
+      "exclusions_md": "",
+      "detailedDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "Widow/Abandoned/Single Woman Pension Scheme",
+                  "bold": true
+                },
+                {
+                  "text": " is a scheme under the Social Welfare and Empowerment Department, Government of Himachal Pradesh. The scheme aims to provide financial help to widows, abandoned women, and unmarried women shall be entitled to receive pension for a sum of Rs.1,150/-per month. The scheme aims to improve the quality of life of these women who are unable to support themselves financially."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "ol_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Financial assistance of Rs.1,150/- per month to eligible widows, deserted women, and unmarried women."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The pension amount is disbursed directly to the beneficiary's bank account."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "It helps improve the standard of living of eligible women and reduces their financial burden."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Provides a sense of security and support to eligible women."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "url": "",
+        "process": [
+          {
+            "type": "align_justify",
+            "children": [
+              {
+                "type": "ol_list",
+                "children": [
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "text": "Eligible women may download or obtain the "
+                      },
+                      {
+                        "type": "link",
+                        "link": "http://esomsa.hp.gov.in/sites/default/files/scan0001-44250128_0.pdf",
+                        "children": [
+                          {
+                            "text": "application form",
+                            "bold": true
+                          }
+                        ]
+                      },
+                      {
+                        "text": " for the Widow/Abandoned/Single Woman Pension Scheme and submit to respective Gram Panchayat or block development office."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "text": "Fill out the application form with accurate personal and income details."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "text": "Attach the required documents such as income certificate, identity proof, age proof, and bank account details."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "text": "Submit the completed application form along with the necessary documents to the respective Gram Panchayat or block development office."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "process_md": "\n   1. Eligible women may download or obtain the [**application form**](http://esomsa.hp.gov.in/sites/default/files/scan0001-44250128_0.pdf) for the Widow/Abandoned/Single Woman Pension Scheme and submit to respective Gram Panchayat or block development office.   1. Fill out the application form with accurate personal and income details.\n   1. Attach the required documents such as income certificate, identity proof, age proof, and bank account details.\n   1. Submit the completed application form along with the necessary documents to the respective Gram Panchayat or block development office.\n\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n   1. Applicant must be a resident of Himachal Pradesh.\n   1. Applicant must be a widow, deserted woman, or unmarried woman.\n   1. Applicant&amp;#39;s annual income should not exceed Rs. 35,000.\n\n<br>\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "ol_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Applicant must be a resident of Himachal Pradesh."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Applicant must be a widow, deserted woman, or unmarried woman."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Applicant's annual income should not exceed Rs. 35,000."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "wdenp"
+}

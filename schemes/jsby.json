@@ -1,0 +1,272 @@
+{
+  "_id": "68207a9121aa532bf6751928",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": true,
+      "tags": [
+        "Financial Assistance",
+        "Death",
+        "Swachh Project",
+        "Sahariya Community",
+        "Insurance"
+      ],
+      "schemeName": "Jan Samuh Bima Yojana",
+      "schemeShortTitle": "JSBY",
+      "implementingAgency": "Swachh Project, Shahabad, Rajasthan",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce7f6d6d1a3bde46852d0",
+          "label": "Banking,Financial Services and Insurance"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Insurance",
+          "label": "Insurance"
+        },
+        {
+          "value": "Personal finance",
+          "label": "Personal finance"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "family",
+          "label": "Family"
+        }
+      ],
+      "state": {
+        "value": 8,
+        "label": "Rajasthan"
+      },
+      "nodalDepartmentName": {
+        "value": 8000043,
+        "label": "Tribal Area Development Department"
+      },
+      "schemeFor": "Family"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://tad.rajasthan.gov.in/scheme/detail/485"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The scheme &amp;quot;Jan Samuh Bima Yojana&amp;quot; was launched in 2019 by the Department of Tribal Area Development, Government of Rajasthan. The scheme aims to provide financial assistance to Sahariya families in the event of the death of the heads of the families (primary earning member). Under this scheme, a one-time financial assistance is provided by the insurance company to the deceased&amp;#39;s family to help reduce their economic burden. The heads of these families are insured under the Swachh Project, and the insurance premium is paid by the Swachh Project.\n",
+      "benefits_md": "> **Financial Assistance:** \n\n\n- The insurance company provides financial assistance of ₹25,000/- to the family in case of death of the insured person.\n\n> **Insurance Premium:** \n\n\n- Fully paid under the Swachh Project.\n\n",
+      "briefDescription": "The scheme aims to provide financial assistance to Sahariya families in the event of the death of the heads of the families. Under this scheme, a one-time financial assistance of ₹25,000/- is provided by the insurance company to the deceased's family to help reduce their economic burden.",
+      "exclusions_md": "",
+      "detailedDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "The scheme \"Jan Samuh Bima Yojana\" was launched in 2019 by the Department of Tribal Area Development, Government of Rajasthan. The scheme aims to provide financial assistance to Sahariya families in the event of the death of the heads of the families (primary earning member). Under this scheme, a one-time financial assistance is provided by the insurance company to the deceased's family to help reduce their economic burden. The heads of these families are insured under the Swachh Project, and the insurance premium is paid by the Swachh Project."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "Financial Assistance: ",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The insurance company provides financial assistance of ₹25,000/- to the family in case of death of the insured person."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "Insurance Premium: ",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Fully paid under the Swachh Project."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "process": [
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "text": "Survey & Selection:",
+                "bold": true
+              }
+            ]
+          },
+          {
+            "type": "ul_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "A survey is conducted by the Swachh Project in Sahariya bastis of Baran district to identify eligible families."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "text": "Enrollment:",
+                "bold": true
+              }
+            ]
+          },
+          {
+            "type": "ul_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Eligible families members are enrolled under the insurance scheme by the Swachh Project."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "text": "Submission of Claim (in case of death of the insured):",
+                "bold": true
+              }
+            ]
+          },
+          {
+            "type": "ul_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "The family must submit the required documents to the Swachh Project office at Shahabad."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "The documents are verified and forwarded to the insurance company."
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "process_md": "> **Survey &amp; Selection:**\n\n\n- A survey is conducted by the Swachh Project in Sahariya bastis of Baran district to identify eligible families.\n\n> **Enrollment:**\n\n\n- Eligible families members are enrolled under the insurance scheme by the Swachh Project.\n\n> **Submission of Claim (in case of death of the insured):**\n\n\n- The family must submit the required documents to the Swachh Project office at Shahabad.\n- The documents are verified and forwarded to the insurance company.\n\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n   1. The applicant should be native Rajasthan.\n   1. The applicant should be a family member or dependent of the deceased person. \n   1. The deceased person should belong to the Sahariya community.\n   1. The deceased person should be a resident of the Baran district, Rajasthan.\n   1. The insured person must be registered under the scheme before death.\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "ol_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant should be native Rajasthan."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant should be a family member or dependent of the deceased person. "
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The deceased person should belong to the Sahariya community."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The deceased person should be a resident of the Baran district, Rajasthan."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The insured person must be registered under the scheme before death."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "jsby"
+}

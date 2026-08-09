@@ -1,0 +1,541 @@
+{
+  "_id": "652f5ad82a298fe1b486d438",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": true,
+      "tags": [
+        "Rehabilitation",
+        "Labour",
+        "DBT",
+        "Trafficking",
+        "Social Justice"
+      ],
+      "schemeName": "Central Sector Scheme for Rehabilitation of Bonded Labourer",
+      "schemeShortTitle": "CSSRBL",
+      "level": {
+        "value": "central",
+        "label": "Central"
+      },
+      "schemeType": {
+        "value": "central-sector-scheme",
+        "label": "Central Sector Scheme"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce87cd6d1a3bde4685312",
+          "label": "Social welfare & Empowerment"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Rehabilitation",
+          "label": "Rehabilitation"
+        },
+        {
+          "value": "Shelter",
+          "label": "Shelter"
+        },
+        {
+          "value": "Financial assistance",
+          "label": "Financial assistance"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "schemeFor": "Individual",
+      "nodalMinistryName": {
+        "value": 496,
+        "label": "Ministry Of Labour and Employment"
+      },
+      "nodalDepartmentName": null
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://master-labour.digifootprint.gov.in/static/uploads/2025/06/41b7bebf501983358b1c4867dff8082a.pdf"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The Central Sector Scheme for Rehabilitation of Bonded Labourer-2021, effective from January 27, 2022, is a crucial initiative led by the Ministry of Labour &amp;amp; Employment, Government of India that addresses eradicating bonded labour in India. It introduces varying rehabilitation assistance amounts based on beneficiary categories, such as adults, children, women, and extreme cases, with provisions for annuity schemes and Direct Benefit Transfer. The scheme also facilitates surveys, awareness programs, and evaluatory studies to combat bonded labour, with financial support. It emphasizes skill development, socio-economic assistance, and monitoring mechanisms, all aimed at offering comprehensive support to eradicate the bonded labour system in the country.\n",
+      "benefits_md": "> **For Adult Male Beneficiaries**\n\n\n- The rehabilitation assistance shall be ₹1,00,000/- per adult male beneficiary.\n- Beneficiaries have the option to deposit the assistance in an annuity scheme or receive it as a cash grant.\n- The District Administration will assess the cash requirement of the beneficiary and, with their consent, place the money in an annuity scheme.\n\n<br>\n\n> **Special Category Beneficiaries (Children, Women)**\n\n\n- Rehabilitation assistance for special category beneficiaries, such as children, including orphans, or those rescued from forced labour, and women, shall be ₹2,00,000/-.\n- At least ₹1,25,000/- shall be deposited in an annuity scheme in each beneficiary&#39;s name.\n- The remaining amount shall be transferred to the beneficiary&#39;s account via Direct Benefit Transfer (DBT).\n\n<br>\n\n> **Extreme Cases of Bonded or Forced Labor**\n\n\n- In cases of extreme deprivation, such as transgender individuals, women, and children rescued from sexual exploitation, or trafficking, the rehabilitation assistance shall be ₹3,00,000/-.\n- At least ₹2,00,000/- shall be deposited in an annuity scheme in each beneficiary&#39;s name.\n- ₹1,00,000/- shall be transferred to the beneficiary&#39;s account via DBT.\n\n<br>\n\n> **Bonded Labour Rehabilitation Fund**\n\n\n- Each state shall create a Bonded Labour Rehabilitation Fund at the district level with a permanent corpus of at least ₹10,00,000 (Ten Lakhs Rupees) at the disposal of the District Magistrate.\n- Penalties recovered from convicted perpetrators of bonded labour may be deposited in this corpus.\n\n<br>\n\n> **Immediate Financial Assistance**\n\n\n- The District Administration shall provide immediate financial assistance up to ₹30,000/- to rescued individuals from the District Bonded Labour Rehabilitation Fund.\n- The District Magistrate may disburse higher amounts if required but limited to the maximum entitlement prescribed under this scheme.\n\n<br>\n\n> **State Government Responsibilities**\n\n\n- Providing a safe and secure environment for capacity building of child-bonded labourers.\n- Addressing the special needs of female freed bonded labourers, including financial support for marriage.\n- Offering special care for disabled individuals, in line with the national policy for disabled people.\n- Providing employable skill development training for adult bonded labourers who do not fall into the above categories.\n\n<br>\n\n",
+      "exclusions_md": "<br>\n\n",
+      "briefDescription": "The scheme addresses eradicating bonded labour in India. It introduces varying rehabilitation assistance amounts based on beneficiary categories, such as adults, children, women, and extreme cases, with provisions for annuity schemes and Direct Benefit Transfer.",
+      "detailedDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "The Central Sector Scheme for Rehabilitation of Bonded Labourer-2021, effective from January 27, 2022, is a crucial initiative led by the Ministry of Labour & Employment, Government of India that addresses eradicating bonded labour in India. It introduces varying rehabilitation assistance amounts based on beneficiary categories, such as adults, children, women, and extreme cases, with provisions for annuity schemes and Direct Benefit Transfer. The scheme also facilitates surveys, awareness programs, and evaluatory studies to combat bonded labour, with financial support. It emphasizes skill development, socio-economic assistance, and monitoring mechanisms, all aimed at offering comprehensive support to eradicate the bonded labour system in the country."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 3,
+        "value": "composite",
+        "label": "Composite"
+      },
+      "benefits": [
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "For Adult Male Beneficiaries",
+              "bold": true,
+              "underline": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The rehabilitation assistance shall be ₹1,00,000/- per adult male beneficiary."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Beneficiaries have the option to deposit the assistance in an annuity scheme or receive it as a cash grant."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The District Administration will assess the cash requirement of the beneficiary and, with their consent, place the money in an annuity scheme."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "",
+              "underline": true
+            }
+          ]
+        },
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "Special Category Beneficiaries (Children, Women)",
+              "bold": true,
+              "underline": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Rehabilitation assistance for special category beneficiaries, such as children, including orphans, or those rescued from forced labour, and women, shall be ₹2,00,000/-."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "At least ₹1,25,000/- shall be deposited in an annuity scheme in each beneficiary's name."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The remaining amount shall be transferred to the beneficiary's account via Direct Benefit Transfer (DBT)."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        },
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "Extreme Cases of Bonded or Forced Labor",
+              "bold": true,
+              "underline": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "In cases of extreme deprivation, such as transgender individuals, women, and children rescued from sexual exploitation, or trafficking, the rehabilitation assistance shall be ₹3,00,000/-."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "At least ₹2,00,000/- shall be deposited in an annuity scheme in each beneficiary's name."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "₹1,00,000/- shall be transferred to the beneficiary's account via DBT."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "",
+              "underline": true
+            }
+          ]
+        },
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "Bonded Labour Rehabilitation Fund",
+              "bold": true,
+              "underline": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Each state shall create a Bonded Labour Rehabilitation Fund at the district level with a permanent corpus of at least ₹10,00,000 (Ten Lakhs Rupees) at the disposal of the District Magistrate."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Penalties recovered from convicted perpetrators of bonded labour may be deposited in this corpus."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        },
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "Immediate Financial Assistance",
+              "bold": true,
+              "underline": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The District Administration shall provide immediate financial assistance up to ₹30,000/- to rescued individuals from the District Bonded Labour Rehabilitation Fund."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The District Magistrate may disburse higher amounts if required but limited to the maximum entitlement prescribed under this scheme."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        },
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "State Government Responsibilities",
+              "bold": true,
+              "underline": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Providing a safe and secure environment for capacity building of child-bonded labourers."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Addressing the special needs of female freed bonded labourers, including financial support for marriage."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Offering special care for disabled individuals, in line with the national policy for disabled people."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Providing employable skill development training for adult bonded labourers who do not fall into the above categories."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ],
+      "exclusions": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Online",
+        "process": [
+          {
+            "type": "heading_five",
+            "children": [
+              {
+                "text": "Step 1:",
+                "bold": true,
+                "underline": true,
+                "italic": true
+              },
+              {
+                "bold": true,
+                "text": " ",
+                "italic": true
+              },
+              {
+                "bold": true,
+                "italic": true,
+                "text": "Submission of Proposal",
+                "underline": true
+              }
+            ]
+          },
+          {
+            "type": "ul_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "The District Magistrate/Administration forwards the proposal for financial support to the relevant State Ministry/Department dealing with the Bonded Labour Rehabilitation Scheme (BLR)."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "The State/UT Government submits each proposal for immediate cash assistance and rehabilitation assistance."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "heading_five",
+            "children": [
+              {
+                "text": "Step 2:",
+                "bold": true,
+                "underline": true,
+                "italic": true
+              },
+              {
+                "bold": true,
+                "text": " ",
+                "italic": true
+              },
+              {
+                "bold": true,
+                "italic": true,
+                "text": "Release of Funds",
+                "underline": true
+              }
+            ]
+          },
+          {
+            "type": "ul_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "The eligible reimbursements are disbursed directly by the M/oLE to the State/UT Government."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "The State/UT Government transfers the allocated funds to the concerned District Magistrate/Collector to support the implementation of BLR."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "heading_five",
+            "children": [
+              {
+                "text": "Step 3:",
+                "bold": true,
+                "underline": true,
+                "italic": true
+              },
+              {
+                "bold": true,
+                "text": " ",
+                "italic": true
+              },
+              {
+                "bold": true,
+                "italic": true,
+                "text": "Disbursement of Benefits",
+                "underline": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "The District Administration will assess the cash requirement of the beneficiary and exercise its best judgment if the amount should be put under an annuity scheme or transferred to the beneficiary account through "
+              },
+              {
+                "text": "Direct Benefit Transfer (DBT)",
+                "bold": true
+              },
+              {
+                "text": "."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          }
+        ],
+        "process_md": "##### ***Step 1:********* ***Submission of Proposal***\n\n- The District Magistrate/Administration forwards the proposal for financial support to the relevant State Ministry/Department dealing with the Bonded Labour Rehabilitation Scheme (BLR).\n- The State/UT Government submits each proposal for immediate cash assistance and rehabilitation assistance.\n\n##### ***Step 2:********* ***Release of Funds***\n\n- The eligible reimbursements are disbursed directly by the M/oLE to the State/UT Government.\n- The State/UT Government transfers the allocated funds to the concerned District Magistrate/Collector to support the implementation of BLR.\n\n##### ***Step 3:********* ***Disbursement of Benefits***\nThe District Administration will assess the cash requirement of the beneficiary and exercise its best judgment if the amount should be put under an annuity scheme or transferred to the beneficiary account through **Direct Benefit Transfer (DBT)**.\n<br>\n\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "The beneficiary should be a rescued bonded labour.\n<br>\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The beneficiary should be a rescued bonded labour."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "cssrbl"
+}

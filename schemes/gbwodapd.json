@@ -1,0 +1,168 @@
+{
+  "_id": "6634a7a681fc5af17bbbf09c",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Differently Abled Person",
+        "Goggles",
+        "Visually Challenged Person",
+        "Social Welfare"
+      ],
+      "schemeName": "Goggles by Welfare of Differently Abled Persons Department",
+      "schemeShortTitle": "GBWODAPD",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce87cd6d1a3bde4685312",
+          "label": "Social welfare & Empowerment"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Aids/Appliances",
+          "label": "Aids/Appliances"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "state": {
+        "value": 33,
+        "label": "Tamil Nadu"
+      },
+      "nodalDepartmentName": {
+        "value": 3333363,
+        "label": "Welfare of Differently Abled Persons Department"
+      },
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Citizen's Charter (2022)",
+          "url": "https://cms.tn.gov.in/sites/default/files/documents/wda_e_cc_2022_23.pdf"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The &#39;Goggles by Welfare of Differently Abled Persons Department&#39; scheme was launched by the Department for the Welfare of Differently Abled Persons, Government of Tamil Nadu. The scheme aims to distribute goggles to needy visually impaired persons to enable them to protect themselves from sunlight and moisture. The applications are accepted offline in the prescribed form available at the District Differently Abled Welfare Office.\n",
+      "benefits_md": "\n- **Free distribution of goggles to visually impaired persons.** \n\n",
+      "briefDescription": "The 'Goggles by Welfare of Differently Abled Persons Department' scheme was launched by the Department for the Welfare of Differently Abled Persons, Government of Tamil Nadu. The scheme aims to distribute goggles to needy visually impaired persons to enable them to protect themselves from sunlight. ",
+      "exclusions_md": "",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The 'Goggles by Welfare of Differently Abled Persons Department' scheme was launched by the Department for the Welfare of Differently Abled Persons, Government of Tamil Nadu. The scheme aims to distribute goggles to needy visually impaired persons to enable them to protect themselves from sunlight and moisture. The applications are accepted offline in the prescribed form available at the District Differently Abled Welfare Office."
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 2,
+        "value": "in-kind",
+        "label": "In Kind"
+      },
+      "benefits": [
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Free distribution of goggles to visually impaired persons. ",
+                  "bold": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "process": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 1: ",
+                "bold": true
+              },
+              {
+                "text": "The interested applicant should visit (during office hours) the District Differently Abled Welfare Officer and request a hard copy of the prescribed format of the application form from the staff exclusively entrusted to issue and collect filled-in applications."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2:",
+                "bold": true
+              },
+              {
+                "text": " In the application form, fill in all the mandatory fields, and attach copies of all the mandatory documents (self-attest, if required)."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 3:",
+                "bold": true
+              },
+              {
+                "text": " Submit the duly filled and signed application form along with the documents to the District Differently Abled Welfare Officer."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 4:",
+                "bold": true
+              },
+              {
+                "text": " Request a receipt or acknowledgment from the District Differently Abled Welfare Officer to whom the application has been submitted. Ensure that the receipt contains essential details such as the date and time of submission, and a unique identification number (if applicable)."
+              }
+            ]
+          }
+        ],
+        "process_md": "**Step 1:** The interested applicant should visit (during office hours) the District Differently Abled Welfare Officer and request a hard copy of the prescribed format of the application form from the staff exclusively entrusted to issue and collect filled-in applications.\n**Step 2:** In the application form, fill in all the mandatory fields, and attach copies of all the mandatory documents (self-attest, if required).\n**Step 3:** Submit the duly filled and signed application form along with the documents to the District Differently Abled Welfare Officer.\n**Step 4:** Request a receipt or acknowledgment from the District Differently Abled Welfare Officer to whom the application has been submitted. Ensure that the receipt contains essential details such as the date and time of submission, and a unique identification number (if applicable).\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n- The applicant should be a visually impaired person.\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should be a visually impaired person."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "gbwodapd"
+}

@@ -1,0 +1,427 @@
+{
+  "_id": "66b5bcff0d7fcba78453e86a",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Scholarship",
+        "Sweekruti",
+        "Student",
+        "Transgender",
+        "Post Matric",
+        "Pre Matric"
+      ],
+      "schemeName": "Sweekruti: Pre & Post Matric Scholarship",
+      "schemeShortTitle": "SPPMS",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce76cd6d1a3bde4685292",
+          "label": "Education & Learning"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Scholarships and student finance",
+          "label": "Scholarships and student finance"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "schemeFor": "Individual",
+      "state": {
+        "value": 21,
+        "label": "Odisha"
+      },
+      "nodalDepartmentName": {
+        "value": 2111146,
+        "label": "Social Security and Empowerment of Persons with Disabilities Department"
+      }
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://ssepd.odisha.gov.in/sites/default/files/2024-04/Guideline%20on%20Sweekruti.pdf"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The scheme &amp;quot;Pre &amp;amp; Post Matric Scholarship&amp;quot; is a component of the “Sweekruti” scheme, implemented by the Social Security and Empowerment of Persons with Disabilities (SSEPD) Department, Government of Odisha. The objective of the component is to provide financial assistance to Transgender students studying at post matriculation or post-secondary stage to enable them to complete their education. These scholarships are available to transgender students of Odisha for studies in India only and are awarded where the applicant is studying.\n",
+      "benefits_md": "<br>\n\n**Category****Rate/ Per Month**Pre-Matric (From Std. V to X) ₹1,000/-Post-Matric (From Std. XI-XII)₹1,500/-General Graduate/ Post Graduate Courses₹2,000/-Professional Degrees/ Diplomas/ Certificates₹2,500/-Open University/ Non-formal Courses₹3,000/-<br>\n\n",
+      "exclusions_md": "<br>\n\n",
+      "briefDescription": "The scheme aims to provide financial assistance to Transgender students studying at post matriculation or post-secondary stage to enable them to complete their education. These scholarships are available to transgender students  for studies in India only and awarded where the applicant is studying.",
+      "detailedDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "The scheme \"Pre & Post Matric Scholarship\" is a component of the “Sweekruti” scheme, implemented by the Social Security and Empowerment of Persons with Disabilities (SSEPD) Department, Government of Odisha. The objective of the component is to provide financial assistance to Transgender students studying at post matriculation or post-secondary stage to enable them to complete their education. These scholarships are available to transgender students of Odisha for studies in India only and are awarded where the applicant is studying."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "children": [
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Category",
+                      "bold": true
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Rate/ Per Month",
+                      "bold": true
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Pre-Matric (From Std. V to X) "
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "₹1,000/-"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Post-Matric (From Std. XI-XII)"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "₹1,500/-"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "General Graduate/ Post Graduate Courses"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "₹2,000/-"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Professional Degrees/ Diplomas/ Certificates"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "₹2,500/-"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Open University/ Non-formal Courses"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "₹3,000/-"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ],
+      "exclusions": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "process": [
+          {
+            "type": "align_justify",
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 1: ",
+                    "bold": true
+                  },
+                  {
+                    "text": "Download the application form ("
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://ssepd.odisha.gov.in/sites/default/files/2024-04/Guideline%20on%20Sweekruti.pdf",
+                    "children": [
+                      {
+                        "text": "Annexure B"
+                      }
+                    ]
+                  },
+                  {
+                    "text": " or Refer to Page No. 20) and fill out all required sections of the application form accurately."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 2:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Submit the completed application form along with all attached documents to the Block/ULB Administration office."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 3: ",
+                    "bold": true
+                  },
+                  {
+                    "text": "Ensure you receive a submission receipt for future reference."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": ""
+                  }
+                ]
+              },
+              {
+                "type": "block_quote",
+                "children": [
+                  {
+                    "text": "Contact Us:",
+                    "bold": true
+                  }
+                ]
+              },
+              {
+                "type": "block_quote",
+                "children": [
+                  {
+                    "text": "Address: SSEPD Department, Red Building, Lokseva Bhawan, Bhubaneswar - 751001",
+                    "bold": true
+                  }
+                ]
+              },
+              {
+                "type": "block_quote",
+                "children": [
+                  {
+                    "text": "E-mail: ssepdsec.od@nic.in",
+                    "bold": true
+                  }
+                ]
+              },
+              {
+                "type": "block_quote",
+                "children": [
+                  {
+                    "text": "Tel No : 0674- 2392803",
+                    "bold": true
+                  }
+                ]
+              },
+              {
+                "type": "block_quote",
+                "children": [
+                  {
+                    "text": ""
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://ssepd.odisha.gov.in/contact-us/list-of-DSSOs",
+                    "children": [
+                      {
+                        "text": "List of District Social Security Officers",
+                        "bold": true
+                      }
+                    ]
+                  },
+                  {
+                    "text": ""
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "process_md": "**Step 1:** Download the application form ([Annexure B](https://ssepd.odisha.gov.in/sites/default/files/2024-04/Guideline%20on%20Sweekruti.pdf) or Refer to Page No. 20) and fill out all required sections of the application form accurately.\n**Step 2:** Submit the completed application form along with all attached documents to the Block/ULB Administration office.\n**Step 3:** Ensure you receive a submission receipt for future reference.\n&lt;br&gt;\n\n&gt; **Contact Us:**\n\n&gt; **Address: SSEPD Department, Red Building, Lokseva Bhawan, Bhubaneswar - 751001**\n\n&gt; **E-mail: ssepdsec.od@nic.in**\n\n&gt; **Tel No : 0674- 2392803**\n\n&gt; [**List of District Social Security Officers**](https://ssepd.odisha.gov.in/contact-us/list-of-DSSOs)\n\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n  - The applicant must be a bonafide resident of Odisha.\n  - The applicant must be a transgender person.\n  - The applicant must be a regular student at a recognized educational institution.\n  - The applicant’s family income should not exceed ₹2,40,000/- per annum.\n  - The applicant must not be receiving financial assistance from any other State or Central Government scheme.\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "ul_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant must be a bonafide resident of Odisha."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant must be a transgender person."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant must be a regular student at a recognized educational institution."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant’s family income should not exceed ₹2,40,000/- per annum."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant must not be receiving financial assistance from any other State or Central Government scheme."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "sppms"
+}

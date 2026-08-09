@@ -1,0 +1,455 @@
+{
+  "_id": "650fb0171a1c949c6500a70f",
+  "en": {
+    "basicDetails": {
+      "schemeOpenDate": "2012-04-28",
+      "schemeCloseDate": null,
+      "nodalMinistryName": null,
+      "nodalDepartmentName": {
+        "value": 2200018,
+        "label": "Labour Department"
+      },
+      "otherMinistryName": null,
+      "otherDepartmentNames": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Machine & skill up-Gradation",
+          "label": "Machine & skill up-Gradation"
+        }
+      ],
+      "dbtScheme": false,
+      "implementingAgency": null,
+      "tags": [
+        "Sewing Machine",
+        "Empowerment",
+        "Business"
+      ],
+      "schemeName": "Asangathit Karmakaar Silai Machine Sahayata Yojana",
+      "schemeShortTitle": "AKSMSY",
+      "level": {
+        "value": "state",
+        "label": "State"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce733d6d1a3bde4685278",
+          "label": "Business & Entrepreneurship"
+        },
+        {
+          "value": "64f57d10ffb93104c7006c97",
+          "label": "Women and Child"
+        }
+      ],
+      "state": {
+        "value": 22,
+        "label": "Chhattisgarh"
+      },
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://cglabour.nic.in/ShramAyuktNew/mukhyamantree%20asangathit%20karmakaar%20silaee%20masheen%20sahayata%20yojana.pdf"
+        },
+        {
+          "title": "Official Website",
+          "url": "https://cglabour.nic.in/ShramAyuktHome.aspx"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The Asangathit Karmakaar Silai Machine Sahayata Yojana (Unorganized Workers Sewing Machine Assistance Scheme) is a government scheme in Chhattisgarh State that provides sewing machines. The objective of this scheme is to promote unorganized workers in their businesses and make them self-reliant. \n",
+      "benefits_md": "Under the scheme, sewing machines will be supplied every year to the registered unorganized women workers of the state.\n",
+      "exclusions_md": "<br>\n\n",
+      "briefDescription": "Asangathit Karmakaar Silai Machine Sahayata Yojana started by the Government of Chhattisgarh in 2012. \n",
+      "detailedDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "The Asangathit Karmakaar Silai Machine Sahayata Yojana (Unorganized Workers Sewing Machine Assistance Scheme) is a government scheme in Chhattisgarh State that provides sewing machines. The objective of this scheme is to promote unorganized workers in their businesses and make them self-reliant. "
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 2,
+        "value": "in-kind",
+        "label": "In Kind"
+      },
+      "benefits": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Under the scheme, sewing machines will be supplied every year to the registered unorganized women workers of the state."
+            }
+          ]
+        }
+      ],
+      "exclusions": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Online",
+        "process": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Application Process",
+                "bold": true
+              }
+            ]
+          },
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "text": "Step-1. Applicant have to visit the official labour "
+              },
+              {
+                "type": "link",
+                "link": "https://cglabour.nic.in/ShramAyuktHome.aspx",
+                "children": [
+                  {
+                    "text": "website "
+                  }
+                ]
+              },
+              {
+                "text": "of Chhattisgarh State."
+              }
+            ]
+          },
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "text": "Step-2. Click on "
+              },
+              {
+                "type": "link",
+                "link": "https://cglabour.nic.in/Scheme/UnorganizedOnlineScheme/Application.aspx",
+                "children": [
+                  {
+                    "text": "apply now "
+                  }
+                ]
+              },
+              {
+                "text": "under the Unorganized worder board option."
+              }
+            ]
+          },
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "text": "Step-3. Now applicant have to provide the below detail."
+              }
+            ]
+          },
+          {
+            "type": "ol_list",
+            "children": [
+              {
+                "type": "ol_list",
+                "children": [
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "text": "District,"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "text": "Name of the Beneficiary."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "text": "Father's / Husband's name."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "text": "Pre-registration no. "
+                      }
+                    ]
+                  },
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "text": "New registration no."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "text": "And click on check the details"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "text": "Step-4. Now select the scheme name here. "
+              }
+            ]
+          },
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "text": "Step-5. Fill out the online form. "
+              }
+            ]
+          },
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "text": "Step-6. Upload required documents."
+              }
+            ]
+          },
+          {
+            "type": "ol_list",
+            "children": [
+              {
+                "type": "ol_list",
+                "children": [
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "text": "Labor registration card."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "text": "Age certificate."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "text": "Bank passbook photocopy."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "text": "Income certificate."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "text": "Step-7. Click on submit."
+              }
+            ]
+          },
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "text": "Step-8. Note the application number."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Trace the Application Status",
+                "bold": true
+              }
+            ]
+          },
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "text": "Step-1. Applicant have to visit the official labour "
+              },
+              {
+                "type": "link",
+                "link": "https://cglabour.nic.in/ShramAyuktHome.aspx",
+                "children": [
+                  {
+                    "text": "website "
+                  }
+                ]
+              },
+              {
+                "text": "of Chhattisgarh State."
+              }
+            ]
+          },
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "text": "Step-2. Click on \""
+              },
+              {
+                "type": "link",
+                "link": "https://cglabour.nic.in/Scheme/UnorganizedOnlineScheme/searchAppNo.aspx",
+                "children": [
+                  {
+                    "text": "Check the application status\""
+                  }
+                ]
+              },
+              {
+                "text": " "
+              },
+              {
+                "type": "link",
+                "link": "https://cglabour.nic.in/Scheme/UnorganizedOnlineScheme/Application.aspx",
+                "children": [
+                  {
+                    "text": ""
+                  }
+                ]
+              },
+              {
+                "text": "under the Unorganized worder board option."
+              }
+            ]
+          },
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "text": "Step-3. Select the scheme name."
+              }
+            ]
+          },
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "text": "Step-4. Enter the application number. "
+              }
+            ]
+          },
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "text": "Step-5. Click on search."
+              }
+            ]
+          }
+        ],
+        "process_md": "**Application Process**\n> Step-1. Applicant have to visit the official labour [website ](https://cglabour.nic.in/ShramAyuktHome.aspx)of Chhattisgarh State.\n\n> Step-2. Click on [apply now ](https://cglabour.nic.in/Scheme/UnorganizedOnlineScheme/Application.aspx)under the Unorganized worder board option.\n\n> Step-3. Now applicant have to provide the below detail.\n\n\n\n   1. District,\n   1. Name of the Beneficiary.\n   1. Father&#39;s / Husband&#39;s name.\n   1. Pre-registration no. \n   1. New registration no.\n   1. And click on check the details\n\n\n> Step-4. Now select the scheme name here. \n\n> Step-5. Fill out the online form. \n\n> Step-6. Upload required documents.\n\n\n\n   1. Labor registration card.\n   1. Age certificate.\n   1. Bank passbook photocopy.\n   1. Income certificate.\n\n\n> Step-7. Click on submit.\n\n> Step-8. Note the application number.\n\n<br>\n\n**Trace the Application Status**\n> Step-1. Applicant have to visit the official labour [website ](https://cglabour.nic.in/ShramAyuktHome.aspx)of Chhattisgarh State.\n\n> Step-2. Click on &quot;[Check the application status&quot;](https://cglabour.nic.in/Scheme/UnorganizedOnlineScheme/searchAppNo.aspx) under the Unorganized worder board option.\n\n> Step-3. Select the scheme name.\n\n> Step-4. Enter the application number. \n\n> Step-5. Click on search.\n\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n1. Women who work in construction and are registered with the labor board/department.\n1. Women between the ages of 18 and 50 who sew, embroider, or weave (tailor) clothes, are employed by an employer or have their own business, and earn a living for themselves and their families, in any district of the state.\n1. Women who have not received a sewing machine or an amount equal to the value of a sewing machine under any other scheme run by the state government.\n1. Women who have not received benefits under the Chief Minister Cycle Assistance Scheme run by the labor board/department.\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Women who work in construction and are registered with the labor board/department."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Women between the ages of 18 and 50 who sew, embroider, or weave (tailor) clothes, are employed by an employer or have their own business, and earn a living for themselves and their families, in any district of the state."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Women who have not received a sewing machine or an amount equal to the value of a sewing machine under any other scheme run by the state government."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Women who have not received benefits under the Chief Minister Cycle Assistance Scheme run by the labor board/department."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "aksmsy"
+}

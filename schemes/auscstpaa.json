@@ -1,0 +1,210 @@
+{
+  "_id": "65b7b6c5826dbceda0cbd9ba",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Scheduled Caste",
+        "Rehabilitation",
+        "Relief",
+        "Compensation"
+      ],
+      "schemeName": "Assistance under SC/ST Prevention of Atrocities Act",
+      "schemeShortTitle": "AUSCSTPAA",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce81ed6d1a3bde46852ea",
+          "label": "Public Safety,Law & Justice"
+        },
+        {
+          "value": "628ce87cd6d1a3bde4685312",
+          "label": "Social welfare & Empowerment"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Reporting crimes and getting compensation",
+          "label": "Reporting crimes and getting compensation"
+        },
+        {
+          "value": "Your rights and the law",
+          "label": "Your rights and the law"
+        },
+        {
+          "value": "Rehabilitation",
+          "label": "Rehabilitation"
+        },
+        {
+          "value": "Citizen empowerment",
+          "label": "Citizen empowerment"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "state": {
+        "value": 34,
+        "label": "Puducherry"
+      },
+      "schemeType": null,
+      "nodalMinistryName": null,
+      "nodalDepartmentName": {
+        "value": 34000002,
+        "label": "Adi Dravidar Welfare Department, Puducherry"
+      },
+      "otherMinistryName": null,
+      "otherDepartmentNames": null,
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://adwelfare.py.gov.in/assistance-under-scst-prevention-atrocities-act"
+        },
+        {
+          "title": "Citizen's Charter",
+          "url": "https://py.gov.in/sites/default/files/citizencharter-adidravidar.pdf"
+        },
+        {
+          "title": "Contact Us",
+          "url": "https://adwelfare.py.gov.in/contact-us"
+        }
+      ],
+      "schemeImageUrl": "",
+      "briefDescription": "The scheme “Assistance under SC/ST Prevention of Atrocities Act” was introduced by the Adi Dravidar Welfare Department, Government of Puducherry. The objective of the scheme is to provide immediate relief to the victims of atrocities who are from Scheduled Castes/ Scheduled Tribes.",
+      "detailedDescription_md": "The scheme “Assistance under SC/ST Prevention of Atrocities Act” was introduced by the Adi Dravidar Welfare Department, Government of Puducherry. The objective of the scheme is to provide immediate relief to the victims of atrocities who are from Scheduled Castes/ Scheduled Tribes.\n",
+      "benefits_md": "Payment of Relief, Compensation for Loss, and Rehabilitation.\n",
+      "exclusions_md": "",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The scheme “Assistance under SC/ST Prevention of Atrocities Act” was introduced by the Adi Dravidar Welfare Department, Government of Puducherry. The objective of the scheme is to provide immediate relief to the victims of atrocities who are from Scheduled Castes/ Scheduled Tribes."
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 3,
+        "value": "composite",
+        "label": "Composite"
+      },
+      "benefits": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Payment of Relief, Compensation for Loss, and Rehabilitation."
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "process": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 1: ",
+                "bold": true
+              },
+              {
+                "text": "The interested applicant should visit (during office hours) the "
+              },
+              {
+                "type": "link",
+                "link": "https://adwelfare.py.gov.in/contact-us",
+                "children": [
+                  {
+                    "text": "Office/ Sub-Office"
+                  }
+                ]
+              },
+              {
+                "text": " of the Adi Dravidar Welfare and Scheduled Tribes Welfare Department, and request the hard copy of the prescribed format of the application form from the staff exclusively entrusted to issue and collect filled-in applications."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2:",
+                "bold": true
+              },
+              {
+                "text": " In the application form, fill in all the mandatory fields, paste the passport-sized photograph (signed across, if required), and attach copies of all the mandatory documents (self-attest, if required)."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 3: ",
+                "bold": true
+              },
+              {
+                "text": "Submit the duly filled and signed application form along with the documents to the concerned authority."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 4: ",
+                "bold": true
+              },
+              {
+                "text": "Request a receipt or acknowledgment from the concerned authority to whom the application has been submitted. Ensure that the receipt contains essential details such as the date and time of submission, and a unique identification number (if applicable)."
+              }
+            ]
+          }
+        ],
+        "process_md": "**Step 1:** The interested applicant should visit (during office hours) the [Office/ Sub-Office](https://adwelfare.py.gov.in/contact-us) of the Adi Dravidar Welfare and Scheduled Tribes Welfare Department, and request the hard copy of the prescribed format of the application form from the staff exclusively entrusted to issue and collect filled-in applications.\n**Step 2:** In the application form, fill in all the mandatory fields, paste the passport-sized photograph (signed across, if required), and attach copies of all the mandatory documents (self-attest, if required).\n**Step 3:** Submit the duly filled and signed application form along with the documents to the concerned authority.\n**Step 4:** Request a receipt or acknowledgment from the concerned authority to whom the application has been submitted. Ensure that the receipt contains essential details such as the date and time of submission, and a unique identification number (if applicable).\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n- The applicant should be from a Scheduled Caste.\n- The applicant should have been affected by an atrocity.\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should be from a Scheduled Caste."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should have been affected by an atrocity."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "auscstpaa"
+}

@@ -1,0 +1,514 @@
+{
+  "_id": "68c2afbbec02ce9609da01ca",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Scholarship",
+        "Higher Education",
+        "Diploma",
+        "Degree Scholarship",
+        "Medical Education Scholarship"
+      ],
+      "schemeName": "Chief Minister Scholarship Scheme",
+      "schemeShortTitle": "CMSSG",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce76cd6d1a3bde4685292",
+          "label": "Education & Learning"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Scholarships and student finance",
+          "label": "Scholarships and student finance"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "schemeFor": "Individual",
+      "state": {
+        "value": 24,
+        "label": "Gujarat"
+      },
+      "nodalDepartmentName": {
+        "value": 2444444,
+        "label": "Education Department"
+      }
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines (Scheme No. 99)",
+          "url": "https://mariyojana.gujarat.gov.in/Schemeatoz.aspx"
+        },
+        {
+          "title": "User Manual",
+          "url": "https://scholarships.gujarat.gov.in/Noticeboard/Important%20instruction%20for%20student%20CMSS%20Final%2024-25.pdf"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The scheme &quot;Chief Minister Scholarship Scheme&quot; by the Education Department, Government of Gujarat, aims to encourage higher education by providing financial assistance to meritorious students who have passed Class 10th or Class 12th and secured admission in diploma, degree, or higher education courses. The scheme provides varying amounts of financial support based on the course type and merit.\n<br>\n\n",
+      "benefits_md": "<br>\n\n**Benefit Type****Details of Assistance****Number of Beneficiaries**Financial Assistance for Medical and Dental CoursesUp to ₹5,00,000/-250 StudentsFinancial Assistance for Engineering/Technology, Pharmacy Diploma to Degree, Ayurveda/Homeopathy, Nursing, Physiotherapy, Para-medical CoursesUp to ₹1,00,000/-1,130 StudentsFinancial Assistance for Diploma CoursesUp to ₹50,000/-120 StudentsFinancial Assistance for Higher Education CoursesUp to ₹10,000/-1,000 Students<br>\n\n<br>\n\n",
+      "briefDescription": "The scheme \"Chief Minister Scholarship Scheme\" by the Education Department, Government of Gujarat, aims to provide financial assistance to meritorious students for pursuing medical, engineering, diploma, and higher education courses.",
+      "exclusions_md": "<br>\n\n",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The scheme \"Chief Minister Scholarship Scheme\" by the Education Department, Government of Gujarat, aims to encourage higher education by providing financial assistance to meritorious students who have passed Class 10th or Class 12th and secured admission in diploma, degree, or higher education courses. The scheme provides varying amounts of financial support based on the course type and merit."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "children": [
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Benefit Type",
+                      "bold": true
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Details of Assistance",
+                      "bold": true
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Number of Beneficiaries",
+                      "bold": true
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Financial Assistance for Medical and Dental Courses"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Up to ₹5,00,000/-"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "250 Students"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Financial Assistance for Engineering/Technology, Pharmacy Diploma to Degree, Ayurveda/Homeopathy, Nursing, Physiotherapy, Para-medical Courses"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Up to ₹1,00,000/-"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "1,130 Students"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Financial Assistance for Diploma Courses"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Up to ₹50,000/-"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "120 Students"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Financial Assistance for Higher Education Courses"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Up to ₹10,000/-"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "1,000 Students"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ],
+      "exclusions": null
+    },
+    "applicationProcess": [
+      {
+        "mode": "Online",
+        "process": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 1:",
+                "bold": true
+              },
+              {
+                "text": " Students must register on "
+              },
+              {
+                "type": "link",
+                "link": "https://scholarships.gujarat.gov.in/",
+                "children": [
+                  {
+                    "text": ""
+                  }
+                ]
+              },
+              {
+                "text": "the "
+              },
+              {
+                "type": "link",
+                "link": "https://scholarships.gujarat.gov.in/",
+                "children": [
+                  {
+                    "text": "Official Website"
+                  }
+                ]
+              },
+              {
+                "text": " using their Standard 10th or Standard 12th seat number. Do not use any spaces or special characters when entering the seat number."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2:",
+                "bold": true
+              },
+              {
+                "text": " Students applying for a Diploma to Degree course should use their Diploma enrollment number for registration."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 3:",
+                "bold": true
+              },
+              {
+                "text": " The student's name must be entered exactly as it appears on their Standard 10 or 12 original marksheet."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 4:",
+                "bold": true
+              },
+              {
+                "text": " Enter the passing year according to the marksheet (e.g., 2024)."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Provide a personal mobile number that will remain active throughout the entire course of study, as important updates will be sent via SMS to this number."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 5:",
+                "bold": true
+              },
+              {
+                "text": " Enter and verify your 12-digit Aadhaar card number."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 6:",
+                "bold": true
+              },
+              {
+                "text": " Fill in the correct ration card details, including the ration card number and the student's member ID number."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 7:",
+                "bold": true
+              },
+              {
+                "text": " Provide accurate bank account details and an active email ID."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 8:",
+                "bold": true
+              },
+              {
+                "text": " Enter the percentage from the marksheet; if percentages are not available, calculate them according to the rules of the university or board."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 9:",
+                "bold": true
+              },
+              {
+                "text": " When selecting a stream, students from Arts and Commerce streams should choose \"General Stream,\" while Science students should select \"Science Stream\"."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          }
+        ],
+        "process_md": "**Step 1:** Students must register on the [Official Website](https://scholarships.gujarat.gov.in/) using their Standard 10th or Standard 12th seat number. Do not use any spaces or special characters when entering the seat number.\n**Step 2:** Students applying for a Diploma to Degree course should use their Diploma enrollment number for registration.\n**Step 3:** The student&#39;s name must be entered exactly as it appears on their Standard 10 or 12 original marksheet.\n**Step 4:** Enter the passing year according to the marksheet (e.g., 2024).\nProvide a personal mobile number that will remain active throughout the entire course of study, as important updates will be sent via SMS to this number.\n**Step 5:** Enter and verify your 12-digit Aadhaar card number.\n**Step 6:** Fill in the correct ration card details, including the ration card number and the student&#39;s member ID number.\n**Step 7:** Provide accurate bank account details and an active email ID.\n**Step 8:** Enter the percentage from the marksheet; if percentages are not available, calculate them according to the rules of the university or board.\n**Step 9:** When selecting a stream, students from Arts and Commerce streams should choose &quot;General Stream,&quot; while Science students should select &quot;Science Stream&quot;.\n<br>\n\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n  - The applicant must be a resident of Gujarat.\n  - The applicant must be a student.\n  - The applicant must have passed the Class 10th or Class 12th examination.\n  - The applicant must have secured admission in a diploma course, a degree course after diploma, or a degree course after Class 12th.\n  - The applicant must be pursuing medical, dental, engineering, technology, pharmacy, Ayurveda, homeopathy, nursing, physiotherapy, para-medical, or higher education courses.\n  - The applicant must have a family annual income of less than or equal to ₹4,50,000/-.\n\n<br>\n\n<br>\n\n<br>\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "ul_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant must be a resident of Gujarat."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant must be a student."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant must have passed the Class 10th or Class 12th examination."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant must have secured admission in a diploma course, a degree course after diploma, or a degree course after Class 12th."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant must be pursuing medical, dental, engineering, technology, pharmacy, Ayurveda, homeopathy, nursing, physiotherapy, para-medical, or higher education courses."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant must have a family annual income of less than or equal to ₹4,50,000/-."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "cmssg"
+}

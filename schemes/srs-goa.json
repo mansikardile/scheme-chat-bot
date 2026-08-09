@@ -1,0 +1,546 @@
+{
+  "_id": "656815ae7e51bbad7a87ac51",
+  "en": {
+    "basicDetails": {
+      "schemeOpenDate": null,
+      "schemeCloseDate": null,
+      "nodalMinistryName": null,
+      "nodalDepartmentName": {
+        "value": 30000026,
+        "label": "Information and Publicity Department"
+      },
+      "otherMinistryName": null,
+      "otherDepartmentNames": null,
+      "targetBeneficiaries": [
+        {
+          "value": "business-entity",
+          "label": "Business Entity"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Setting up / start-up / entrepreneurship",
+          "label": "Setting up / start-up / entrepreneurship"
+        }
+      ],
+      "dbtScheme": false,
+      "implementingAgency": "Startup Promotion Cell (SPC)",
+      "tags": [
+        "Business",
+        "Entrepreneur",
+        "Salary",
+        "Reimbursement",
+        "Startup"
+      ],
+      "schemeName": "Salary Reimbursement Scheme",
+      "schemeShortTitle": "SRS-GOA",
+      "level": {
+        "value": "state",
+        "label": "State"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce733d6d1a3bde4685278",
+          "label": "Business & Entrepreneurship"
+        }
+      ],
+      "state": {
+        "value": 30,
+        "label": "Goa"
+      },
+      "schemeFor": "Infra"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines & Application Form",
+          "url": "https://www.goa.gov.in/wp-content/uploads/2018/05/Schemes.pdf"
+        },
+        {
+          "title": "Contact Us",
+          "url": "https://www.startup.goa.gov.in/ContactUs"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The scheme “Salary Reimbursement Scheme” is a scheme by the Department of Information Technology, Electronics and Communications, Government of Goa, for the Startups of Goa. The scheme aims to bolster startup growth by incentivizing the hiring of local talent through a dual-pronged approach. Startups can reimburse 50% of fresher salaries. The process ensures prompt disbursement post SPC approval, emphasizing that benefits are discretionary, not entitlements.\n",
+      "benefits_md": "> **For Startups Hiring Local Talent:**\n\n50% of the salary of a fresher will be reimbursed, subject to a cap of **₹10,000 per month per recruit**. A startup can claim the salary of a maximum of 25 people per month for a period of 3 years. This benefit can be availed of by 100 startups each year, which shall be selected by the SPC as per its guidelines.\n> **For Startups Whose Workforce Comprises 60% Locals:**\n\nUp to 25% of the salary of the local workforce, subject to a cap of **₹25,00,000 per year**, will be reimbursed for 3 years. A startup can claim the salary of a maximum of 25 people. This benefit can be availed of by 100 startups each year.\n**NOTE:** Once the application is approved by the SPC, the approved amount shall be disbursed within 60 days from the date of approval.\n",
+      "briefDescription": "The scheme “Salary Reimbursement Scheme” is a scheme by the Dept. of Information Technology, Electronics and Communications, Govt. of Goa, for the Startups of Goa. For start-ups hiring local talent, 50% of the salary of fresher will be reimbursed, subject to a cap of ₹ 10,000 per month per recruit.",
+      "exclusions_md": "",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The scheme “Salary Reimbursement Scheme” is a scheme by the Department of Information Technology, Electronics and Communications, Government of Goa, for the Startups of Goa. The scheme aims to bolster startup growth by incentivizing the hiring of local talent through a dual-pronged approach. Startups can reimburse 50% of fresher salaries. The process ensures prompt disbursement post SPC approval, emphasizing that benefits are discretionary, not entitlements."
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "For Startups Hiring Local Talent:",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "50% of the salary of a fresher will be reimbursed, subject to a cap of "
+            },
+            {
+              "text": "₹10,000 per month per recruit",
+              "bold": true
+            },
+            {
+              "text": ". A startup can claim the salary of a maximum of 25 people per month for a period of 3 years. This benefit can be availed of by 100 startups each year, which shall be selected by the SPC as per its guidelines."
+            }
+          ]
+        },
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "For Startups Whose Workforce Comprises 60% Locals:",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Up to 25% of the salary of the local workforce, subject to a cap of "
+            },
+            {
+              "text": "₹25,00,000 per year",
+              "bold": true
+            },
+            {
+              "text": ", will be reimbursed for 3 years. A startup can claim the salary of a maximum of 25 people. This benefit can be availed of by 100 startups each year."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "NOTE:",
+              "bold": true
+            },
+            {
+              "text": " Once the application is approved by the SPC, the approved amount shall be disbursed within 60 days from the date of approval."
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Online",
+        "process": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 1: ",
+                "bold": true
+              },
+              {
+                "text": "Visit the "
+              },
+              {
+                "type": "link",
+                "link": "https://goaonline.gov.in/public/startuplogin?",
+                "children": [
+                  {
+                    "text": "Official Website"
+                  }
+                ]
+              },
+              {
+                "text": " of Goa Startup Mission."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2: ",
+                "bold": true
+              },
+              {
+                "text": "Verify your Email ID and Mobile Number using OTP. You will be redirected to the Registration Page."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 3: ",
+                "bold": true
+              },
+              {
+                "text": "On the "
+              },
+              {
+                "type": "link",
+                "link": "https://goaonline.gov.in/Public/stpRegistration_af",
+                "children": [
+                  {
+                    "text": "Registration/Signup Page"
+                  }
+                ]
+              },
+              {
+                "text": ", fill in all the mandatory fields of the registration form (Country, Name, Date of Birth, Address, PIN Code, Gender, etc.)."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 4: ",
+                "bold": true
+              },
+              {
+                "text": "Create a Login Name and a strong Password (Password can have special characters like @ # $ % ^ & + =)."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 5: ",
+                "bold": true
+              },
+              {
+                "text": "Carefully read the Declaration and the Terms & Conditions, and tick the checkboxes."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 6: ",
+                "bold": true
+              },
+              {
+                "text": "Fill in the Captcha Code, and click \"Register/Signup\"."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 7: ",
+                "bold": true
+              },
+              {
+                "text": "Login to the website using your Login Name and Password. Fill in the Captcha Code, and click \"Login\"."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 8: ",
+                "bold": true
+              },
+              {
+                "text": "Navigate to the online application form for the relevant scheme."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 9: ",
+                "bold": true
+              },
+              {
+                "text": "In the application form, fill in all the mandatory fields and upload all the mandatory documents (self-attest if required)."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 10: ",
+                "bold": true
+              },
+              {
+                "text": "Submit the application and note the application reference number for application tracking."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "text": "Evaluation Process",
+                "bold": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 1: ",
+                "bold": true
+              },
+              {
+                "text": "On receipt of the complete application, the SPC shall inspect and verify the contents of the application. Based on the received documents, SPC will scrutinize and perform necessary due diligence on the expenses incurred."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2: ",
+                "bold": true
+              },
+              {
+                "text": "The SPC shall recommend the application for the sanction of reimbursement of the costs."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "text": "Notification",
+                "bold": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "The applications received by the SPC shall be evaluated and approval or rejection shall be notified within 45 days from receipt of the application by the SPC."
+              }
+            ]
+          }
+        ],
+        "process_md": "**Step 1:** Visit the [Official Website](https://goaonline.gov.in/public/startuplogin?) of Goa Startup Mission.\n**Step 2:** Verify your Email ID and Mobile Number using OTP. You will be redirected to the Registration Page.\n**Step 3:** On the [Registration/Signup Page](https://goaonline.gov.in/Public/stpRegistration_af), fill in all the mandatory fields of the registration form (Country, Name, Date of Birth, Address, PIN Code, Gender, etc.).\n**Step 4:** Create a Login Name and a strong Password (Password can have special characters like @ # $ % ^ &amp; + =).\n**Step 5:** Carefully read the Declaration and the Terms &amp; Conditions, and tick the checkboxes.\n**Step 6:** Fill in the Captcha Code, and click &quot;Register/Signup&quot;.\n**Step 7:** Login to the website using your Login Name and Password. Fill in the Captcha Code, and click &quot;Login&quot;.\n**Step 8:** Navigate to the online application form for the relevant scheme.\n**Step 9:** In the application form, fill in all the mandatory fields and upload all the mandatory documents (self-attest if required).\n**Step 10:** Submit the application and note the application reference number for application tracking.\n<br>\n\n> **Evaluation Process**\n\n**Step 1:** On receipt of the complete application, the SPC shall inspect and verify the contents of the application. Based on the received documents, SPC will scrutinize and perform necessary due diligence on the expenses incurred.\n**Step 2:** The SPC shall recommend the application for the sanction of reimbursement of the costs.\n<br>\n\n> **Notification**\n\nThe applications received by the SPC shall be evaluated and approval or rejection shall be notified within 45 days from receipt of the application by the SPC.\n"
+      },
+      {
+        "mode": "Offline",
+        "process": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 1: ",
+                "bold": true
+              },
+              {
+                "text": "Take a print of the "
+              },
+              {
+                "type": "link",
+                "link": "https://www.goa.gov.in/wp-content/uploads/2018/05/Schemes.pdf",
+                "children": [
+                  {
+                    "text": "proforma"
+                  }
+                ]
+              },
+              {
+                "text": " of the application form. Fill in all the mandatory fields, and attach copies of all the mandatory documents (self-attest if required)."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2: ",
+                "bold": true
+              },
+              {
+                "text": "Submit the duly filled and signed application form along with the documents to SPC via Email at spc-dit.goa@gov.in"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "NOTE: ",
+                "bold": true
+              },
+              {
+                "text": "The applicant can apply for this scheme at any time of the financial year after incurring the relevant expenditure. The applicant can avail the benefits of this scheme bi-annually/ annually."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "text": "Evaluation Process",
+                "bold": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 1: ",
+                "bold": true
+              },
+              {
+                "text": "On receipt of the complete application, the SPC shall inspect and verify the contents of the application. Based on the received documents, SPC will scrutinize and perform necessary due diligence on the expenses incurred."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2: ",
+                "bold": true
+              },
+              {
+                "text": "The SPC shall recommend the application for the sanction of reimbursement of the costs."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "text": "Notification",
+                "bold": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "The applications received by the SPC shall be evaluated and approval or rejection shall be notified within 45 days from receipt of the application by the SPC."
+              }
+            ]
+          }
+        ],
+        "process_md": "**Step 1:** Take a print of the [proforma](https://www.goa.gov.in/wp-content/uploads/2018/05/Schemes.pdf) of the application form. Fill in all the mandatory fields, and attach copies of all the mandatory documents (self-attest if required).\n**Step 2:** Submit the duly filled and signed application form along with the documents to SPC via Email at spc-dit.goa@gov.in\n**NOTE:** The applicant can apply for this scheme at any time of the financial year after incurring the relevant expenditure. The applicant can avail the benefits of this scheme bi-annually/ annually.\n<br>\n\n> **Evaluation Process**\n\n**Step 1:** On receipt of the complete application, the SPC shall inspect and verify the contents of the application. Based on the received documents, SPC will scrutinize and perform necessary due diligence on the expenses incurred.\n**Step 2:** The SPC shall recommend the application for the sanction of reimbursement of the costs.\n<br>\n\n> **Notification**\n\nThe applications received by the SPC shall be evaluated and approval or rejection shall be notified within 45 days from receipt of the application by the SPC.\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n1. All the Start-ups certified by the Start-up Promotion Cell (SPC) having a valid start-up certificate number are eligible to apply for this scheme.\n1. The employees should be hired for a period of at least 12 months.\n1. For availing the benefit under clause 3.1, the employee/s whose salary is being claimed for reimbursement must be an IT professional/s. \n1. The bank accounts of employees should be linked to Aadhaar.\n1. The bank accounts of the Directors of the company should be linked to Aadhaar.\n1. Only expenditures incurred after notification of Goa Start-up Policy 2017, being within the validity of this policy and paid for digitally will be considered for reimbursements under this scheme. In case digital payments are not possible then it shall be up to the decision of SPC as per its due diligence to admit the expenditure.\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "All the Start-ups certified by the Start-up Promotion Cell (SPC) having a valid start-up certificate number are eligible to apply for this scheme."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The employees should be hired for a period of at least 12 months."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "For availing the benefit under clause 3.1, the employee/s whose salary is being claimed for reimbursement must be an IT professional/s. "
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The bank accounts of employees should be linked to Aadhaar."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The bank accounts of the Directors of the company should be linked to Aadhaar."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Only expenditures incurred after notification of Goa Start-up Policy 2017, being within the validity of this policy and paid for digitally will be considered for reimbursements under this scheme. In case digital payments are not possible then it shall be up to the decision of SPC as per its due diligence to admit the expenditure."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "srs-goa"
+}

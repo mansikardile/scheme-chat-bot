@@ -1,0 +1,406 @@
+{
+  "_id": "66b88a3b0d7fcba784567ff4",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Maternity",
+        "Financial Assistance",
+        "Construction Workers"
+      ],
+      "schemeName": "Maternity Benefit Scheme - Telangana",
+      "schemeShortTitle": "MBS-T",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce87cd6d1a3bde4685312",
+          "label": "Social welfare & Empowerment"
+        },
+        {
+          "value": "64f57d10ffb93104c7006c97",
+          "label": "Women and Child"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Financial assistance",
+          "label": "Financial assistance"
+        },
+        {
+          "value": "Pregnancy Care",
+          "label": "Pregnancy Care"
+        }
+      ],
+      "schemeOpenDate": "2010-07-27",
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "state": {
+        "value": 36,
+        "label": "Telangana"
+      },
+      "nodalDepartmentName": {
+        "value": 3666676,
+        "label": "Labour, Employment Training and Factories Department"
+      },
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://tbocwwb.telangana.gov.in/newsite/pdf_files/2017LETF_MS12.pdf"
+        },
+        {
+          "title": "Official Website",
+          "url": "https://tbocwwb.telangana.gov.in/index.html"
+        },
+        {
+          "title": "Application Form",
+          "url": "https://tbocwwb.telangana.gov.in/newsite/forms/MaternityBenefit.pdf"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The &quot;Marriage Gift Scheme&quot; is a welfare initiative implemented by the Telangana Building and Other Construction Workers Welfare Board (TB&amp;OCWWB), LET&amp;F (Labour) Department, Telangana. The scheme provides financial assistance to registered women workers, as well as the wives and daughters of registered workers, to support them during and after pregnancy.\n",
+      "benefits_md": "> ***Financial Assistance:*** \n\n\n- A total amount of ₹30,000/- per delivery is provided, limited to two deliveries.\n\n> ***Payment Breakdown:***\n\n\n- ₹10,000/- is paid during the 7th month of pregnancy to compensate for wage loss during the later stages of pregnancy.- ₹20,000/- is paid after the delivery.\n\n",
+      "briefDescription": "The \"Maternity Benefit Scheme\" was launched by the Telangana Building & Other Construction Workers Welfare Board, LET&F (Labour) Department, Telangana. The scheme provides financial assistance to registered women workers, as well as the wives & daughters of registered workers to support them.",
+      "exclusions_md": "",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The \"Marriage Gift Scheme\" is a welfare initiative implemented by the Telangana Building and Other Construction Workers Welfare Board (TB&OCWWB), LET&F (Labour) Department, Telangana. The scheme provides financial assistance to registered women workers, as well as the wives and daughters of registered workers, to support them during and after pregnancy."
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "Financial Assistance: ",
+              "bold": true,
+              "italic": true,
+              "underline": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "A total amount of ₹30,000/- per delivery is provided, limited to two deliveries."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "Payment Breakdown:",
+              "bold": true,
+              "italic": true,
+              "underline": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "₹10,000/- is paid during the 7"
+                },
+                {
+                  "text": "th",
+                  "superscript": true
+                },
+                {
+                  "text": " month of pregnancy to compensate for wage loss during the later stages of pregnancy."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "₹20,000/- is paid after the delivery."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "process": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Application Process:",
+                "bold": true,
+                "italic": true,
+                "underline": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 1:",
+                "bold": true
+              },
+              {
+                "text": " The interested applicant visits to the "
+              },
+              {
+                "type": "link",
+                "link": "https://tbocwwb.telangana.gov.in/index.html",
+                "children": [
+                  {
+                    "text": "official website "
+                  }
+                ]
+              },
+              {
+                "text": "and click on \"Downloads\" for the "
+              },
+              {
+                "type": "link",
+                "link": "https://tbocwwb.telangana.gov.in/newsite/forms/MaternityBenefit.pdf",
+                "children": [
+                  {
+                    "text": "application form"
+                  }
+                ]
+              },
+              {
+                "text": ". "
+              },
+              {
+                "type": "link",
+                "link": "https://tbocwwb.telangana.gov.in/index.html",
+                "children": [
+                  {
+                    "text": ""
+                  }
+                ]
+              },
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2",
+                "bold": true
+              },
+              {
+                "text": ": In the application form, fill in all the mandatory fields, and attach copies of all the mandatory documents (self-attest, if required)."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 3:",
+                "bold": true
+              },
+              {
+                "text": " Submit the duly filled and signed application form along with the documents to the concerned officer in the labour department. "
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 4:",
+                "bold": true
+              },
+              {
+                "text": " Request a receipt or acknowledgment from the concerned authority to whom the application has been submitted. Ensure that the receipt contains essential details such as the date and time of submission, and a unique identification number (if applicable)."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "NOTE: ",
+                "bold": true
+              }
+            ]
+          },
+          {
+            "type": "ul_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Applications must be submitted within one year from the date of delivery."
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "process_md": "***Application Process:***\n**Step 1:** The interested applicant visits to the [official website ](https://tbocwwb.telangana.gov.in/index.html)and click on &quot;Downloads&quot; for the [application form](https://tbocwwb.telangana.gov.in/newsite/forms/MaternityBenefit.pdf). \n**Step 2**: In the application form, fill in all the mandatory fields, and attach copies of all the mandatory documents (self-attest, if required).\n**Step 3:** Submit the duly filled and signed application form along with the documents to the concerned officer in the labour department. \n**Step 4:** Request a receipt or acknowledgment from the concerned authority to whom the application has been submitted. Ensure that the receipt contains essential details such as the date and time of submission, and a unique identification number (if applicable).\n<br>\n\n**NOTE:** \n\n- Applications must be submitted within one year from the date of delivery.\n\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "> **For construction workers themselves (Women only)**\n\n\n1. The construction worker should be registered under the Telangana Building &amp; Other Construction Workers Welfare Board. \n1. The construction worker should be a woman.\n1. The construction worker should have been registered for at least 12 months before the date of delivery.\n1. The construction work can get this assistance only twice.\n\n<br>\n\n> **For wife/daughters of construction workers**\n\n\n1. The construction workers should be registered under the Telangana Building &amp; Other Construction Workers Welfare Board.\n1. The construction worker can receive the scheme benefits twice for up to two daughters.\n1. The construction worker should have been registered for at least 12 months before the date of delivery.\n1. If both parents are registered workers, only one parent is eligible for the scheme amount.\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "For construction workers themselves (Women only)",
+              "bold": true,
+              "underline": true
+            }
+          ]
+        },
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The construction worker should be registered under the Telangana Building & Other Construction Workers Welfare Board. "
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The construction worker should be a woman."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The construction worker should have been registered for at least 12 months before the date of delivery."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The construction work can get this assistance only twice."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        },
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "For wife/daughters of construction workers",
+              "underline": true,
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The construction workers should be registered under the Telangana Building & Other Construction Workers Welfare Board."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The construction worker can receive the scheme benefits twice for up to two daughters."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The construction worker should have been registered for at least 12 months before the date of delivery."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "If both parents are registered workers, only one parent is eligible for the scheme amount."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "mbs-t"
+}

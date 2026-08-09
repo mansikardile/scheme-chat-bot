@@ -1,0 +1,604 @@
+{
+  "_id": "679b6b37c4ea5da14d02dd80",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Technical Competence",
+        "Manpower Solution",
+        "Institute",
+        "Skill Development"
+      ],
+      "schemeName": "Scheme for Enhancement of Technical Competence and Manpower: Scheme of Financial Assistance for Setting Up Anchor Institute",
+      "schemeShortTitle": "SETCMAAI",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce76cd6d1a3bde4685292",
+          "label": "Education & Learning"
+        },
+        {
+          "value": "628ce85cd6d1a3bde4685304",
+          "label": "Skills & Employment"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Entrepreneurship development",
+          "label": "Entrepreneurship development"
+        },
+        {
+          "value": "Training and Skill Up-gradation",
+          "label": "Training and Skill Up-gradation"
+        }
+      ],
+      "schemeOpenDate": "2020-08-07",
+      "targetBeneficiaries": [
+        {
+          "value": "institution",
+          "label": "University / Institution"
+        }
+      ],
+      "state": {
+        "value": 24,
+        "label": "Gujarat"
+      },
+      "nodalDepartmentName": {
+        "value": 2444452,
+        "label": "Industries and Mines Department"
+      },
+      "schemeFor": "Infra"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://ic.gujarat.gov.in/documents/commondoc/2020/15-GR_02092020.pdf"
+        },
+        {
+          "title": "Guidelines 2",
+          "url": "https://ced.gujarat.gov.in/pagestate-level-anchor-institutes"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The &amp;quot;Scheme for Enhancement of Technical Competence and Manpower&amp;quot; is an umbrella scheme launched by the Industries and Mines Department, Gujarat under the Gujarat Industrial Policy. Effective from August 7th, 2020 to August 6th, 2025, it aims to bridge the industry’s skill gap, boost employment, and align workforce training with evolving technology and business needs.\nThe component “Scheme of Financial Assistance for Setting Up Anchor Institute” is aimed at supporting industry-sponsored institutions or Centers of Excellence with a proven track record of employment generation. The scheme focuses on key sectors such as Biotechnology, Marine, Mining, Agribusiness, Shipbuilding, Aerospace, Fisheries, Technical and Industrial Textiles, Auto Engineering, and other priority sectors.\n",
+      "benefits_md": "&gt; **General Assistance:**\n\n\n  - **Capital Expenditure Support:** Up to ₹5,00,00,000/- for machinery, equipment, and infrastructure (excluding land and new buildings).  - **Operating Expenditure Support:** Up to ₹5,00,00,000/- for running expenses, including faculty honorarium and administrative costs.\n&gt; **Additional Assistance:**\n\n\n  - **Awareness Programs &amp;amp; Seminars:** A maximum support of ₹1,00,000/- per training center per year will be provided for awareness programs and seminars.\n\n  - **Other Expenditures:** SLEC/IC/CED can approve the expenditure on any study, renovation/refurbishing of existing skill centers/institute, remuneration to third party evaluation of scheme, monitoring/audit expenses, assessment agency, etc.\n\n  - **Trainee Transportation Reimbursement:** Trainees who complete skill upgradation training under any scheme will be eligible for reimbursement of Gujarat State Road Transport Corporation (GSRTC) bus passes for travel between their residence and training center as per the following rates:\n\n   1. **For BPL candidates, Physically Handicapped, SC, ST, SEBC, and Women:** 100%   1. **For Other candidates:** 75%\n",
+      "exclusions_md": "<br>\n\n",
+      "briefDescription": "The \"Scheme for Enhancement of Technical Competence and Manpower\" under the Gujarat Industrial Policy aims to bridge the industry’s skill gap, boost employment, and align workforce training with evolving technology and business needs.",
+      "detailedDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "The \"Scheme for Enhancement of Technical Competence and Manpower\" is an umbrella scheme launched by the Industries and Mines Department, Gujarat under the Gujarat Industrial Policy. Effective from August 7th, 2020 to August 6th, 2025, it aims to bridge the industry’s skill gap, boost employment, and align workforce training with evolving technology and business needs."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "The component “Scheme of Financial Assistance for Setting Up Anchor Institute” is aimed at supporting industry-sponsored institutions or Centers of Excellence with a proven track record of employment generation. The scheme focuses on key sectors such as Biotechnology, Marine, Mining, Agribusiness, Shipbuilding, Aerospace, Fisheries, Technical and Industrial Textiles, Auto Engineering, and other priority sectors."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "block_quote",
+              "children": [
+                {
+                  "text": "General Assistance:",
+                  "bold": true
+                }
+              ]
+            },
+            {
+              "type": "ul_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "bold": true,
+                      "text": "Capital Expenditure Support: "
+                    },
+                    {
+                      "text": "Up to ₹5,00,00,000/- for machinery, equipment, and infrastructure (excluding land and new buildings)."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Operating Expenditure Support: ",
+                      "bold": true
+                    },
+                    {
+                      "text": "Up to ₹5,00,00,000/- for running expenses, including faculty honorarium and administrative costs."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "block_quote",
+              "children": [
+                {
+                  "text": "Additional Assistance:",
+                  "bold": true
+                }
+              ]
+            },
+            {
+              "type": "ul_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Awareness Programs & Seminars:",
+                      "bold": true
+                    },
+                    {
+                      "text": " A maximum support of ₹1,00,000/- per training center per year will be provided for awareness programs and seminars."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "ul_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Other Expenditures: ",
+                      "bold": true
+                    },
+                    {
+                      "text": "SLEC/IC/CED can approve the expenditure on any study, renovation/refurbishing of existing skill centers/institute, remuneration to third party evaluation of scheme, monitoring/audit expenses, assessment agency, etc."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "ul_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Trainee Transportation Reimbursement: ",
+                      "bold": true
+                    },
+                    {
+                      "text": "Trainees who complete skill upgradation training under any scheme will be eligible for reimbursement of Gujarat State Road Transport Corporation (GSRTC) bus passes for travel between their residence and training center as per the following rates:"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "ol_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "For BPL candidates, Physically Handicapped, SC, ST, SEBC, and Women:",
+                      "bold": true
+                    },
+                    {
+                      "text": " 100%"
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "For Other candidates:",
+                      "bold": true
+                    },
+                    {
+                      "text": " 75%"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "exclusions": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "process": [
+          {
+            "type": "align_justify",
+            "children": [
+              {
+                "type": "align_justify",
+                "children": [
+                  {
+                    "type": "align_justify",
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "children": [
+                          {
+                            "text": "Step 1:",
+                            "bold": true
+                          },
+                          {
+                            "text": " Submit the "
+                          },
+                          {
+                            "type": "link",
+                            "link": "https://ced.gujarat.gov.in/assets/downloads/application_form_for_scheme_1_to_6_06102020.pdf",
+                            "children": [
+                              {
+                                "text": "application form"
+                              }
+                            ]
+                          },
+                          {
+                            "text": " to The Centre for Entrepreneurship Development(CED) for onward submission to the Screening Committee (applications are received twice a year in April and October)."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "paragraph",
+                        "children": [
+                          {
+                            "text": "Step 2:",
+                            "bold": true
+                          },
+                          {
+                            "text": " A Committee consisting of the following members will scrutinize and appraise the proposals for feasibility and will submit its recommendations to the State Level Empowered Committee (SLEC) for consideration."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "block_quote",
+                        "children": [
+                          {
+                            "text": "Application to be Submitted to the below Address:",
+                            "bold": true
+                          }
+                        ]
+                      },
+                      {
+                        "type": "paragraph",
+                        "children": [
+                          {
+                            "text": "Director,"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "paragraph",
+                        "children": [
+                          {
+                            "text": "The Center for Entrepreneurship Development,"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "paragraph",
+                        "children": [
+                          {
+                            "text": "Block No.1, 9th Floor, Udyog Bhavan,"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "paragraph",
+                        "children": [
+                          {
+                            "text": "Sector 11, Gandhinagar - 382 017 "
+                          }
+                        ]
+                      },
+                      {
+                        "type": "paragraph",
+                        "children": [
+                          {
+                            "text": "For Further information/queries:",
+                            "bold": true
+                          }
+                        ]
+                      },
+                      {
+                        "type": "paragraph",
+                        "children": [
+                          {
+                            "text": "Phone: 079-23247366, 23243847, 23240253"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "paragraph",
+                        "children": [
+                          {
+                            "text": "Fax: 079-23256679"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "paragraph",
+                        "children": [
+                          {
+                            "text": "E-mail: dir-ced@gujarat.gov.in"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "paragraph",
+                        "children": [
+                          {
+                            "text": "Web site: "
+                          },
+                          {
+                            "type": "link",
+                            "link": "http://www.ced.gujarat.gov.in/",
+                            "children": [
+                              {
+                                "text": "www.ced.gujarat.gov.in"
+                              }
+                            ]
+                          },
+                          {
+                            "text": ""
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "process_md": "**Step 1:** Submit the [application form](https://ced.gujarat.gov.in/assets/downloads/application_form_for_scheme_1_to_6_06102020.pdf) to The Centre for Entrepreneurship Development(CED) for onward submission to the Screening Committee (applications are received twice a year in April and October).\n**Step 2:** A Committee consisting of the following members will scrutinize and appraise the proposals for feasibility and will submit its recommendations to the State Level Empowered Committee (SLEC) for consideration.\n&amp;amp;gt; **Application to be Submitted to the below Address:**\n\nDirector,\nThe Center for Entrepreneurship Development,\nBlock No.1, 9th Floor, Udyog Bhavan,\nSector 11, Gandhinagar - 382 017 \n**For Further information/queries:**\nPhone: 079-23247366, 23243847, 23240253\nFax: 079-23256679\nE-mail: dir-ced@gujarat.gov.in\nWeb site: [www.ced.gujarat.gov.in](http://www.ced.gujarat.gov.in/)\n"
+      }
+    ],
+    "schemeDefinitions": [
+      {
+        "name": "Anchor Institute",
+        "definition": [
+          {
+            "type": "align_justify",
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Anchor Institute means the Industry sponsored Institution/Centre of excellence with strong industries linkage with proven capability in employment generation and ability to mentor over Skill Development activities. "
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Anchor Institute will be responsible for curriculum development and training high level trainers and faculty members in its respective area of specialization. It will also act as Mentor to The Centre for Entrepreneurship Development, Gandhinagar (CED) in promoting other schemes mentioned in this Government Resolution by aiding, advising, monitoring and nurturing other skill development centres in the state established under this Government Resolution."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "In each focus/ identified specialized sector, there shall be only one Anchor Institute. "
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          }
+        ],
+        "definitions_md": "Anchor Institute means the Industry sponsored Institution/Centre of excellence with strong industries linkage with proven capability in employment generation and ability to mentor over Skill Development activities. \nAnchor Institute will be responsible for curriculum development and training high level trainers and faculty members in its respective area of specialization. It will also act as Mentor to The Centre for Entrepreneurship Development, Gandhinagar (CED) in promoting other schemes mentioned in this Government Resolution by aiding, advising, monitoring and nurturing other skill development centres in the state established under this Government Resolution.\nIn each focus/ identified specialized sector, there shall be only one Anchor Institute. \n<br>\n\n",
+        "source": "https://ic.gujarat.gov.in/documents/commondoc/2020/15-GR_02092020.pdf"
+      },
+      {
+        "name": "Nodal Institute",
+        "definition": [
+          {
+            "type": "align_justify",
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Nodal Institute means the institute responsible to train second level trainers and supervisors/ instructor/ faculty members under the control of respective Anchor Institute. Anchor Institute will select Nodal Institute among the ITIs/ Polytechnic/ Engineering or equivalent Institutes, having specific sector specialization, required to function as per the guidelines of Anchor Institute. "
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          }
+        ],
+        "definitions_md": "Nodal Institute means the institute responsible to train second level trainers and supervisors/ instructor/ faculty members under the control of respective Anchor Institute. Anchor Institute will select Nodal Institute among the ITIs/ Polytechnic/ Engineering or equivalent Institutes, having specific sector specialization, required to function as per the guidelines of Anchor Institute. \n<br>\n\n",
+        "source": "https://ic.gujarat.gov.in/documents/commondoc/2020/15-GR_02092020.pdf"
+      },
+      {
+        "name": "Host Institute",
+        "definition": [
+          {
+            "type": "align_justify",
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Existing ITls/ Polytechnics/ Engineering colleges/ Government Affiliated Institutions/ Center affiliated by any Recognized University/ Center Promoted by Industries/ Universities/School identified for running need based specific training courses. "
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "definitions_md": "Existing ITls/ Polytechnics/ Engineering colleges/ Government Affiliated Institutions/ Center affiliated by any Recognized University/ Center Promoted by Industries/ Universities/School identified for running need based specific training courses. \n",
+        "source": "https://ic.gujarat.gov.in/documents/commondoc/2020/15-GR_02092020.pdf"
+      },
+      {
+        "name": "Capital Expenditure",
+        "definition": [
+          {
+            "type": "align_justify",
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Means cost incurred to acquire or upgrade fixed assets such as building refurbishing/ renovating, equipment and machinery including installation cost, electrification, furniture and other related investment except cost of land. "
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "definitions_md": "Means cost incurred to acquire or upgrade fixed assets such as building refurbishing/ renovating, equipment and machinery including installation cost, electrification, furniture and other related investment except cost of land. \n",
+        "source": "https://ic.gujarat.gov.in/documents/commondoc/2020/15-GR_02092020.pdf"
+      },
+      {
+        "name": "Operating Expenditure",
+        "definition": [
+          {
+            "type": "align_justify",
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Means any recurring cost incurred on training, maintenance of assets, and remuneration to staff of anchor cell, honorarium to the external experts, related consumables and other administrative expenses as approved by the Committee. "
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          }
+        ],
+        "definitions_md": "Means any recurring cost incurred on training, maintenance of assets, and remuneration to staff of anchor cell, honorarium to the external experts, related consumables and other administrative expenses as approved by the Committee. \n<br>\n\n",
+        "source": "https://ic.gujarat.gov.in/documents/commondoc/2020/15-GR_02092020.pdf"
+      }
+    ],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n  - The institute must be based in Gujarat.\n  - The institution must be an industry-sponsored institute or center of excellence.\n  - The institute must have a minimum of 10 years of experience in its sector.\n  - The institute must be working in sectors like biotechnology, marine, mining, shipbuilding, aerospace, agribusiness, etc.\n  - The institute should have a proven track record of employment generation.\n  - The institute must commit to operating for a minimum of 10 years and function on a self-sustaining model after 5 years\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "ul_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The institute must be based in Gujarat."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The institution must be an industry-sponsored institute or center of excellence."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The institute must have a minimum of 10 years of experience in its sector."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The institute must be working in sectors like biotechnology, marine, mining, shipbuilding, aerospace, agribusiness, etc."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The institute should have a proven track record of employment generation."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The institute must commit to operating for a minimum of 10 years and function on a self-sustaining model after 5 years"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "setcmaai"
+}

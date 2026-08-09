@@ -1,0 +1,364 @@
+{
+  "_id": "67b1aa6150fc00c18b81c3fa",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Employment",
+        "Subsidy",
+        "Industry",
+        "Entrepreneur",
+        "Incentive"
+      ],
+      "schemeName": "Goa State Employment Subsidy Scheme for the Industries, 2008",
+      "schemeShortTitle": "GSESSI",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce733d6d1a3bde4685278",
+          "label": "Business & Entrepreneurship"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Setting up / start-up / entrepreneurship",
+          "label": "Setting up / start-up / entrepreneurship"
+        },
+        {
+          "value": "Employee management",
+          "label": "Employee management"
+        },
+        {
+          "value": "Credit Linked Subsidy",
+          "label": "Credit Linked Subsidy"
+        }
+      ],
+      "schemeOpenDate": "2009-01-30",
+      "targetBeneficiaries": [
+        {
+          "value": "business-entity",
+          "label": "Business Entity"
+        }
+      ],
+      "state": {
+        "value": 30,
+        "label": "Goa"
+      },
+      "nodalDepartmentName": {
+        "value": 30000010,
+        "label": "Commercial Taxes Department"
+      },
+      "schemeCloseDate": "2011-03-31",
+      "schemeFor": "Infra"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines (Page No. 12)",
+          "url": "https://ditc.goa.gov.in/sites/default/files/Preferential-Purchase-Incentives-for-Micro-and-Small-Enterprises.pdf"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "Launched in 2008, the scheme &quot;Goa State Employment Subsidy Scheme for the Industries, 2008&quot; by the Directorate of Industries, Trade and Commerce, Government of Goa aimed to promote industrial growth, create a healthy environment for setting up new industrial units, revive sick industrial units, provide employment to local youths, and create manpower suitable to the needs of the industry. The scheme offered additional benefits such as a 5% increase in local employment subsidy, preference in capital contribution, and increased interest subsidy limits. Eligibility was limited to manufacturing units, including new and existing micro, small, medium, and large enterprises, with a focus on units employing 80% local manpower. The scheme was implemented by the Directorate of Industries, Trade and Commerce, with a Task Force Committee responsible for scrutinizing and recommending benefits. The scheme was in force until 31st March 2011.\n",
+      "benefits_md": "> **Additional Benefits**\n\n\n- 5% additional benefit under the Local Employment Subsidy Scheme.\n- Preference in Capital Contribution and under Special Capital Contribution Schemes.\n- Increased interest subsidy limit from 1% to 2% of turnover, with 35% of interest paid (up from 30%), subject to an overall ceiling of ₹8,00,000/-.\n\n> **Subsidy Quantum**\n\n\n- For new units in developed talukas: 25% subsidy.\n- For new units in less developed talukas: Additional 10% subsidy (total 35%).\n- For existing micro and small units in developed talukas: 10% subsidy.\n- For existing micro and small units in less developed talukas: Additional 5% subsidy (total 15%).\n- For sick units under revival plan: Subsidy defined by the appropriate authority, subject to a maximum of 25%.\n- Total subsidy did not exceed 40% including all additional benefits.\n\n> **Disbursement**\n\n\n- 50% of the amount was paid upon signing the agreement.\n- The remaining 50% was paid via bonds bearing 6% interest, payable after 5 years, subject to the unit being functional and employing 80% local youths at maturity.\n- Disbursement was made within 15 days of claim finalization.\n\n",
+      "briefDescription": "\"Goa State Employment Subsidy Scheme for the Industries, 2008\" aimed to promote industrial growth, revive sick units, and provide employment to local youths. Additional subsidies and incentives were given to eligible manufacturing units, with a focus on local employment and industrial development.",
+      "exclusions_md": "",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Launched in 2008, the scheme \"Goa State Employment Subsidy Scheme for the Industries, 2008\" by the Directorate of Industries, Trade and Commerce, Government of Goa aimed to promote industrial growth, create a healthy environment for setting up new industrial units, revive sick industrial units, provide employment to local youths, and create manpower suitable to the needs of the industry. The scheme offered additional benefits such as a 5% increase in local employment subsidy, preference in capital contribution, and increased interest subsidy limits. Eligibility was limited to manufacturing units, including new and existing micro, small, medium, and large enterprises, with a focus on units employing 80% local manpower. The scheme was implemented by the Directorate of Industries, Trade and Commerce, with a Task Force Committee responsible for scrutinizing and recommending benefits. The scheme was in force until 31st March 2011."
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "Additional Benefits",
+              "bold": true,
+              "underline": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "5% additional benefit under the Local Employment Subsidy Scheme."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Preference in Capital Contribution and under Special Capital Contribution Schemes."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Increased interest subsidy limit from 1% to 2% of turnover, with 35% of interest paid (up from 30%), subject to an overall ceiling of ₹8,00,000/-."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "Subsidy Quantum",
+              "bold": true,
+              "underline": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "For new units in developed talukas: 25% subsidy."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "For new units in less developed talukas: Additional 10% subsidy (total 35%)."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "For existing micro and small units in developed talukas: 10% subsidy."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "For existing micro and small units in less developed talukas: Additional 5% subsidy (total 15%)."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "For sick units under revival plan: Subsidy defined by the appropriate authority, subject to a maximum of 25%."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Total subsidy did not exceed 40% including all additional benefits."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "Disbursement",
+              "bold": true,
+              "underline": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "50% of the amount was paid upon signing the agreement."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The remaining 50% was paid via bonds bearing 6% interest, payable after 5 years, subject to the unit being functional and employing 80% local youths at maturity."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Disbursement was made within 15 days of claim finalization."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "process": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 1:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " The eligible units had to register with the Directorate of Industries, Trade and Commerce using the prescribed proforma/form."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " Submit half-yearly claims covering January-June and July-December periods. Claims had to be filed within 3 months of the half-yearly period (first half-year claim by 30th September, second half-year claim by 31st March)."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 3:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " The Directorate of Industries, Trade and Commerce scrutinized and prepared a list of eligible units and forwarded it to the Task Force Committee within one month. The Task Force Committee verified claims and finalized the list within two months."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "*Any disputes could be filed with the Chief Secretary, whose decision was final.",
+                "italic": true
+              }
+            ]
+          }
+        ],
+        "process_md": "**Step 1:** The eligible units had to register with the Directorate of Industries, Trade and Commerce using the prescribed proforma/form.\n**Step 2:** Submit half-yearly claims covering January-June and July-December periods. Claims had to be filed within 3 months of the half-yearly period (first half-year claim by 30th September, second half-year claim by 31st March).\n**Step 3:** The Directorate of Industries, Trade and Commerce scrutinized and prepared a list of eligible units and forwarded it to the Task Force Committee within one month. The Task Force Committee verified claims and finalized the list within two months.\n_*Any disputes could be filed with the Chief Secretary, whose decision was final._\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n- Only manufacturing units were eligible.\n- New and existing Micro and Small Enterprises registered with the Directorate of Industries, Trade and Commerce.\n- Medium and large units approved by the High-Powered Coordination Committee after 1st April 2008.\n- Units had to employ 80% local manpower (contract/temporary/daily wage employees not considered).\n- Units had to fall under &quot;Green&quot;, &quot;Orange&quot;, or specified &quot;Orange&quot; categories.\n\n_*Proprietor, partner, promoters, directors, or their relatives (spouse, father, mother, son/daughter, grandparent, son-in-law, daughter-in-law, brother, sister, first cousin) were not considered employees for subsidy claims._\n> **Preference/Priority**\n\nWomen-owned proprietary concerns (100% ownership) and partnership firms (51% ownership by women, with at least one additional partner other than husband, father, brother, or son).\n",
+      "eligibilityDescription": [
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Only manufacturing units were eligible."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "New and existing Micro and Small Enterprises registered with the Directorate of Industries, Trade and Commerce."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Medium and large units approved by the High-Powered Coordination Committee after 1st April 2008."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Units had to employ 80% local manpower (contract/temporary/daily wage employees not considered)."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Units had to fall under \"Green\", \"Orange\", or specified \"Orange\" categories."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "*Proprietor, partner, promoters, directors, or their relatives (spouse, father, mother, son/daughter, grandparent, son-in-law, daughter-in-law, brother, sister, first cousin) were not considered employees for subsidy claims.",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "Preference/Priority",
+              "bold": true,
+              "underline": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Women-owned proprietary concerns (100% ownership) and partnership firms (51% ownership by women, with at least one additional partner other than husband, father, brother, or son)."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "gsessi"
+}

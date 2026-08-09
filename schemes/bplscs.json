@@ -1,0 +1,439 @@
+{
+  "_id": "6565a9937e51bbad7a8620e7",
+  "en": {
+    "basicDetails": {
+      "schemeOpenDate": "2005-01-01",
+      "schemeCloseDate": null,
+      "nodalMinistryName": null,
+      "nodalDepartmentName": {
+        "value": 2200016,
+        "label": "Higher Education Department"
+      },
+      "otherMinistryName": null,
+      "otherDepartmentNames": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Scholarships and student finance",
+          "label": "Scholarships and student finance"
+        }
+      ],
+      "dbtScheme": true,
+      "implementingAgency": "Department Of Higher Education, Government Of Chhattisgarh",
+      "tags": [
+        "BPL",
+        "Scholarship",
+        "College",
+        "Student",
+        "Graduate",
+        "Post Graduate"
+      ],
+      "schemeName": "BPL Scholarship for College Students",
+      "schemeShortTitle": "BPLSCS",
+      "level": {
+        "value": "state",
+        "label": "State"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce76cd6d1a3bde4685292",
+          "label": "Education & Learning"
+        }
+      ],
+      "state": {
+        "value": 22,
+        "label": "Chhattisgarh"
+      },
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://scholarships.gov.in/public/schemeGuidelines/Chattisgarh/Guidelines_3042.pdf"
+        },
+        {
+          "title": "National Scholarship Portal",
+          "url": "https://scholarships.gov.in/"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The scheme “BPL Scholarship For College Students” was implemented by the Department of Higher Education, Government of Chhattisgarh since 2005 to provide financial assistance to meritorious students from BPL category families to meet a part of their day-to-day expenses while pursuing higher studies.\n&gt; **Scope:**\n\nThe scholarships are awarded to the students, studying in the Graduate and Post Graduate courses of Government colleges of the Chhattisgarh state, run by the Higher Education Department, Chhattisgarh only.\n&gt; **Duration of Scholarship:**\n\nThe scholarship is given for a maximum of 10 ‘qualifying’ months, from July to April. A particular month is ‘qualified’ if the student has taken admission on or before the 21st of that month.\n",
+      "benefits_md": "\n   1. The rate of scholarship for Post Graduate Level (PG) students is ₹500/- per month.\n   1. The rate of scholarship for Graduate Level (UG) students is ₹300/- per month.\n   1. The renewal applicants will get a full scholarship i.e. ₹3000 for UG Classes and ₹5000 for PG Classes. \n\n**Note 01:** The scholarship amount is transferred directly to the student&amp;#39;s bank account using the Direct Benefit Transfer (DBT) method.\n**Note 02:** The students are required to seed the Aadhaar with the bank account.\n",
+      "briefDescription": "The scheme “BPL Scholarship For College Students” was implemented by the Department of Higher Education, Government of Chhattisgarh since 2005 to provide financial assistance to meritorious students from BPL category families to meet a part of their day-to-day expenses while pursuing higher studies.",
+      "exclusions_md": "",
+      "detailedDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "The scheme “BPL Scholarship For College Students” was implemented by the Department of Higher Education, Government of Chhattisgarh since 2005 to provide financial assistance to meritorious students from BPL category families to meet a part of their day-to-day expenses while pursuing higher studies."
+                }
+              ]
+            },
+            {
+              "type": "block_quote",
+              "children": [
+                {
+                  "text": "Scope:",
+                  "bold": true
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "The scholarships are awarded to the students, studying in the Graduate and Post Graduate courses of Government colleges of the Chhattisgarh state, run by the Higher Education Department, Chhattisgarh only."
+                }
+              ]
+            },
+            {
+              "type": "block_quote",
+              "children": [
+                {
+                  "text": "Duration of Scholarship:",
+                  "bold": true
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "The scholarship is given for a maximum of 10 ‘qualifying’ months, from July to April. A particular month is ‘qualified’ if the student has taken admission on or before the 21st of that month."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "ol_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The rate of scholarship for Post Graduate Level (PG) students is ₹500/- per month."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The rate of scholarship for Graduate Level (UG) students is ₹300/- per month."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The renewal applicants will get a full scholarship i.e. ₹3000 for UG Classes and ₹5000 for PG Classes. "
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "Note 01:",
+                  "bold": true
+                },
+                {
+                  "text": " The scholarship amount is transferred directly to the student's bank account using the Direct Benefit Transfer (DBT) method."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "Note 02:",
+                  "bold": true
+                },
+                {
+                  "text": " The students are required to seed the Aadhaar with the bank account."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Online",
+        "process": [
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "text": "Application Process:",
+                "bold": true
+              }
+            ]
+          },
+          {
+            "type": "align_justify",
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 01:",
+                    "bold": true
+                  },
+                  {
+                    "text": " The students applying for the scholarship for the first time need to \"Register\" using the icon “New Registration” at the NSP Portal URL - "
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://scholarships.gov.in/",
+                    "children": [
+                      {
+                        "text": "https://scholarships.gov.in/"
+                      }
+                    ]
+                  },
+                  {
+                    "text": ", by providing accurate and correct information as per their documents."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 02:",
+                    "bold": true
+                  },
+                  {
+                    "text": " After successfully get registration done, students will get their “Student Registration ID”."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 03:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Through “Student Registration ID” students will be able to login into the account using the icon “Fresh Application” at NSP Portal."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 04:",
+                    "bold": true
+                  },
+                  {
+                    "text": " After successful login to the portal, the welcome page appeared. On clicking the “Application Form” icon, students will be directed to the application screen."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 05:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Now, the students may fill out the complete application form and on clicking the “Final Submit” button, the application is finally submitted."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 06:",
+                    "bold": true
+                  },
+                  {
+                    "text": " On successful submission of the application, a system-generated registration number is sent to the students which can be used for future reference."
+                  }
+                ]
+              },
+              {
+                "type": "block_quote",
+                "children": [
+                  {
+                    "text": "Selection Procedure:",
+                    "bold": true
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 01:",
+                    "bold": true
+                  },
+                  {
+                    "text": " The online applications will be verified at two levels:"
+                  }
+                ]
+              },
+              {
+                "type": "ul_list",
+                "children": [
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "text": "By the Institute where the student is studying."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "text": "By the State Government office."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Note 01:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Applicant is required to submit requisite documents to the Institute."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Note 02:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Application which is not verified either by the institute or by the concerned State Government Office or by both will be treated as ‘Invalid’."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Note 03:",
+                    "bold": true
+                  },
+                  {
+                    "text": " 2nd year and 3rd year students should apply under the 'Renewal' category if they have received a BPL scholarship in 1st year."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Note 04:",
+                    "bold": true
+                  },
+                  {
+                    "text": " It is advisable not to change the mobile number for the duration of the scholarship. After registering yourself, Login to the NSP portal to apply for the scholarship."
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "process_md": "> **Application Process:**\n\n**Step 01:** The students applying for the scholarship for the first time need to &amp;quot;Register&amp;quot; using the icon “New Registration” at the NSP Portal URL - [https://scholarships.gov.in/](https://scholarships.gov.in/), by providing accurate and correct information as per their documents.\n**Step 02:** After successfully get registration done, students will get their “Student Registration ID”.\n**Step 03:** Through “Student Registration ID” students will be able to login into the account using the icon “Fresh Application” at NSP Portal.\n**Step 04:** After successful login to the portal, the welcome page appeared. On clicking the “Application Form” icon, students will be directed to the application screen.\n**Step 05:** Now, the students may fill out the complete application form and on clicking the “Final Submit” button, the application is finally submitted.\n**Step 06:** On successful submission of the application, a system-generated registration number is sent to the students which can be used for future reference.\n&gt; **Selection Procedure:**\n\n**Step 01:** The online applications will be verified at two levels:\n\n  - By the Institute where the student is studying.\n  - By the State Government office.\n\n**Note 01:** Applicant is required to submit requisite documents to the Institute.\n**Note 02:** Application which is not verified either by the institute or by the concerned State Government Office or by both will be treated as ‘Invalid’.\n**Note 03:** 2nd year and 3rd year students should apply under the &amp;#39;Renewal&amp;#39; category if they have received a BPL scholarship in 1st year.\n**Note 04:** It is advisable not to change the mobile number for the duration of the scholarship. After registering yourself, Login to the NSP portal to apply for the scholarship.\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n   1. The students of Graduate Level (UG)  &amp;amp; Post Graduate Level (PG) who are studying in any Government college of Chhattisgarh, under the Higher Education Department are eligible to apply under the scheme.\n   1. The student&amp;#39;s guardian should have a BPL Card.\n   1. The student is not getting the benefit of any other scholarship scheme.\n   1. The students should pass the annual examination in the first attempt.\n   1. The student attendance should not be shortened.\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "ol_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The students of Graduate Level (UG)  & Post Graduate Level (PG) who are studying in any Government college of Chhattisgarh, under the Higher Education Department are eligible to apply under the scheme."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The student's guardian should have a BPL Card."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The student is not getting the benefit of any other scholarship scheme."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The students should pass the annual examination in the first attempt."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The student attendance should not be shortened."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "bplscs"
+}

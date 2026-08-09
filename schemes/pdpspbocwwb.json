@@ -1,0 +1,982 @@
+{
+  "_id": "66c824f2bfeff774c3923fc0",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Labour",
+        "Building Worker",
+        "Construction Worker",
+        "Disability Pension",
+        "PwD",
+        "Person With Disability"
+      ],
+      "schemeName": "Permanent Disability Pension Scheme (P.B.O.C.W.W.B)",
+      "schemeShortTitle": "PDPSPBOCWWB",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce87cd6d1a3bde4685312",
+          "label": "Social welfare & Empowerment"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Pension",
+          "label": "Pension"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "state": {
+        "value": 3,
+        "label": "Punjab"
+      },
+      "schemeType": null,
+      "nodalMinistryName": null,
+      "nodalDepartmentName": {
+        "value": 300000023,
+        "label": "Department of Labour"
+      },
+      "otherMinistryName": null,
+      "otherDepartmentNames": null,
+      "schemeFor": "Family"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://bocw.punjab.gov.in/userfiles/file/Scheme%20Forms/BOCW%20Schemes%20in%20English%20Final2.pdf"
+        },
+        {
+          "title": "Guidelines",
+          "url": "https://bocw.punjab.gov.in/userfiles/file/Scheme%20Forms/Twenty%20Welfare%20Sch%20in%20English%20report%20wise.pdf"
+        },
+        {
+          "title": "Guidelines",
+          "url": "https://bocw.punjab.gov.in/bocwstatic/about"
+        },
+        {
+          "title": "Required Documents",
+          "url": "https://bocw.punjab.gov.in/bApi/images/file-1657795437081.pdf"
+        },
+        {
+          "title": "FAQs",
+          "url": "https://bocw.punjab.gov.in/userfiles/file/Instructions/Computerization%20of%20BOCW.pdf"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The &amp;quot;Permanent Disability Pension Scheme&amp;#39;&amp;#39; by the BOCW Welfare Board, Department of Labour, Punjab, is a welfare scheme for the registered workers of the board. Under this scheme, the Board will provide financial assistance in the form of pension to the registered beneficiary with at least 1 year of membership with the Board for becoming fully (100%) disabled. The beneficiaries shall be given pension from the date of disablement.\n",
+      "benefits_md": "\n- **Financial Assistance:** ₹2,000/- Per Month.\n",
+      "exclusions_md": "<br>\n\n",
+      "briefDescription": "The \"Permanent Disability Pension Scheme'' by the BOCW Welfare Board, Department of Labour, Punjab, is a welfare scheme that provides pension to the registered beneficiary with at least 1 year of membership with the Board who becomes fully disabled.",
+      "detailedDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "The \"Permanent Disability Pension Scheme'' by the BOCW Welfare Board, Department of Labour, Punjab, is a welfare scheme for the registered workers of the board. Under this scheme, the Board will provide financial assistance in the form of pension to the registered beneficiary with at least 1 year of membership with the Board for becoming fully (100%) disabled. The beneficiaries shall be given pension from the date of disablement."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Financial Assistance:",
+                  "bold": true
+                },
+                {
+                  "text": " ₹2,000/- Per Month."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "exclusions": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Online - via CSC",
+        "process": [
+          {
+            "type": "align_justify",
+            "children": [
+              {
+                "type": "block_quote",
+                "children": [
+                  {
+                    "text": "Registration Process as a Building/ Construction Worker:",
+                    "bold": true,
+                    "underline": true
+                  }
+                ]
+              },
+              {
+                "type": "ul_list",
+                "children": [
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "text": "For new registration of workers please approach the nearby Sewa Kendra or Registering officers/ Labour Inspector."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "block_quote",
+                "children": [
+                  {
+                    "text": "Application Process of the Welfare Scheme:",
+                    "bold": true,
+                    "italic": true,
+                    "underline": true
+                  }
+                ]
+              },
+              {
+                "type": "ul_list",
+                "children": [
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "text": "To apply for benefits of the concerned welfare scheme, please approach to nearby Sewa Kendra or Registering Officers/ Labour Inspector of your area."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "block_quote",
+                "children": [
+                  {
+                    "text": "Note:",
+                    "bold": true,
+                    "italic": true
+                  }
+                ]
+              },
+              {
+                "type": "ul_list",
+                "children": [
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "text": "Registration with the Board:",
+                        "bold": true
+                      },
+                      {
+                        "text": " A construction worker becomes a member of the board by filling out Application Form No 28 along with depositing registration fees of ₹ 25/- only (once in life) and ₹ 10/- per month as contribution fees. A worker at a time can get himself registered for a minimum period of 1 year & maximum period of 5 years. The registered worker is called 'Beneficiary' of the Board."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "block_quote",
+                "children": [
+                  {
+                    "text": "Important Links:",
+                    "bold": true
+                  }
+                ]
+              },
+              {
+                "type": "ul_list",
+                "children": [
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "bold": true,
+                        "text": "Check Your Registration Application Status: "
+                      },
+                      {
+                        "text": "Registered workers can check their registration application status through visiting this "
+                      },
+                      {
+                        "type": "link",
+                        "link": "http://bocw.punjab.gov.in/Login.aspx?Id=1",
+                        "children": [
+                          {
+                            "text": "link "
+                          }
+                        ]
+                      },
+                      {
+                        "text": "upon entering their Registration Number."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "bold": true,
+                        "text": "Download Registration Card: "
+                      },
+                      {
+                        "text": "Registered workers can download their registration Registration Card through visiting this "
+                      },
+                      {
+                        "type": "link",
+                        "link": "https://bocw.punjab.gov.in/Login.aspx?Id=1",
+                        "children": [
+                          {
+                            "text": "link "
+                          }
+                        ]
+                      },
+                      {
+                        "text": "upon entering their Registration Number."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "bold": true,
+                        "text": "Check your Scheme Application Status: "
+                      },
+                      {
+                        "text": "Registered workers can check their scheme application status through visiting this "
+                      },
+                      {
+                        "type": "link",
+                        "link": "https://bocw.punjab.gov.in/Login.aspx?Id=1",
+                        "children": [
+                          {
+                            "text": "link "
+                          }
+                        ]
+                      },
+                      {
+                        "text": "upon entering their Registration Number."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "bold": true,
+                        "text": "CSC Locator: "
+                      },
+                      {
+                        "text": "Visit this "
+                      },
+                      {
+                        "type": "link",
+                        "link": "https://www.apnacsconline.in/csc-locator/punjab/",
+                        "children": [
+                          {
+                            "text": "link "
+                          }
+                        ]
+                      },
+                      {
+                        "text": "to search nearest Common Service Center (CSC) of your area."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "bold": true,
+                        "text": "List of Sewa"
+                      },
+                      {
+                        "text": " "
+                      },
+                      {
+                        "text": "Kendra: ",
+                        "bold": true
+                      },
+                      {
+                        "text": "Visit this "
+                      },
+                      {
+                        "type": "link",
+                        "link": "https://punjab.gov.in/documents/10191/1112286/Final+List-V1.0.pdf/6ab437f3-f04c-427d-a2b7-dd49515f075b",
+                        "children": [
+                          {
+                            "text": "link "
+                          }
+                        ]
+                      },
+                      {
+                        "text": "to see the list of Sewa Kendra."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "block_quote",
+                "children": [
+                  {
+                    "text": "Helpdesk:",
+                    "bold": true
+                  }
+                ]
+              },
+              {
+                "type": "block_quote",
+                "children": [
+                  {
+                    "text": "Punjab Building And Other Construction Workers Welfare Board"
+                  }
+                ]
+              },
+              {
+                "type": "block_quote",
+                "children": [
+                  {
+                    "text": "Address: ",
+                    "bold": true
+                  },
+                  {
+                    "text": "Labour Bhawan Model Welfare Centre Phase 10, Sector 64, Sahibzada Ajit Singh Nagar, Punjab, 160062"
+                  }
+                ]
+              },
+              {
+                "type": "block_quote",
+                "children": [
+                  {
+                    "text": "Phone :",
+                    "bold": true
+                  },
+                  {
+                    "text": " +91 172-2540125"
+                  }
+                ]
+              },
+              {
+                "type": "block_quote",
+                "children": [
+                  {
+                    "text": "Email :",
+                    "bold": true
+                  },
+                  {
+                    "text": " bocwhq@gmail.com"
+                  }
+                ]
+              },
+              {
+                "type": "block_quote",
+                "children": [
+                  {
+                    "text": "For Bocw Portal Related Queries (Technical Support):-",
+                    "bold": true
+                  }
+                ]
+              },
+              {
+                "type": "block_quote",
+                "children": [
+                  {
+                    "text": "Phone :",
+                    "bold": true
+                  },
+                  {
+                    "text": " +91 172-2540125"
+                  }
+                ]
+              },
+              {
+                "type": "block_quote",
+                "children": [
+                  {
+                    "text": "Email :",
+                    "bold": true
+                  },
+                  {
+                    "text": " bocwhq@gmail.com"
+                  }
+                ]
+              },
+              {
+                "type": "block_quote",
+                "children": [
+                  {
+                    "text": "Office Visiting Hours :",
+                    "bold": true
+                  },
+                  {
+                    "text": " Monday to Friday"
+                  }
+                ]
+              },
+              {
+                "type": "block_quote",
+                "children": [
+                  {
+                    "text": "(09:00 AM to 05:00 PM)"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "process_md": "&gt; **Registration Process as a Building/ Construction Worker:**\n\n\n  - For new registration of workers please approach the nearby Sewa Kendra or Registering officers/ Labour Inspector.\n\n&gt; ***Application Process of the Welfare Scheme:***\n\n\n  - To apply for benefits of the concerned welfare scheme, please approach to nearby Sewa Kendra or Registering Officers/ Labour Inspector of your area.\n\n&gt; ***Note:***\n\n\n  - **Registration with the Board:** A construction worker becomes a member of the board by filling out Application Form No 28 along with depositing registration fees of ₹ 25/- only (once in life) and ₹ 10/- per month as contribution fees. A worker at a time can get himself registered for a minimum period of 1 year &amp;amp; maximum period of 5 years. The registered worker is called &amp;#39;Beneficiary&amp;#39; of the Board.\n&gt; **Important Links:**\n\n\n  - **Check Your Registration Application Status:** Registered workers can check their registration application status through visiting this [link ](http://bocw.punjab.gov.in/Login.aspx?Id=1)upon entering their Registration Number.  - **Download Registration Card:** Registered workers can download their registration Registration Card through visiting this [link ](https://bocw.punjab.gov.in/Login.aspx?Id=1)upon entering their Registration Number.  - **Check your Scheme Application Status:** Registered workers can check their scheme application status through visiting this [link ](https://bocw.punjab.gov.in/Login.aspx?Id=1)upon entering their Registration Number.  - **CSC Locator:** Visit this [link ](https://www.apnacsconline.in/csc-locator/punjab/)to search nearest Common Service Center (CSC) of your area.  - **List of Sewa** **Kendra:** Visit this [link ](https://punjab.gov.in/documents/10191/1112286/Final+List-V1.0.pdf/6ab437f3-f04c-427d-a2b7-dd49515f075b)to see the list of Sewa Kendra.\n&gt; **Helpdesk:**\n\n&gt; Punjab Building And Other Construction Workers Welfare Board\n\n&gt; **Address:** Labour Bhawan Model Welfare Centre Phase 10, Sector 64, Sahibzada Ajit Singh Nagar, Punjab, 160062\n\n&gt; **Phone :** +91 172-2540125\n\n&gt; **Email :** bocwhq@gmail.com\n\n&gt; **For Bocw Portal Related Queries (Technical Support):-**\n\n&gt; **Phone :** +91 172-2540125\n\n&gt; **Email :** bocwhq@gmail.com\n\n&gt; **Office Visiting Hours :** Monday to Friday\n\n&gt; (09:00 AM to 05:00 PM)\n\n"
+      },
+      {
+        "mode": "Offline",
+        "process": [
+          {
+            "type": "align_justify",
+            "children": [
+              {
+                "type": "block_quote",
+                "children": [
+                  {
+                    "text": "Registration Process as a Building/ Construction Worker:",
+                    "bold": true,
+                    "italic": true,
+                    "underline": true
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 1: ",
+                    "bold": true
+                  },
+                  {
+                    "text": "To register as a beneficiary under the BOCW Welfare Board, an applicant worker should download "
+                  },
+                  {
+                    "type": "link",
+                    "link": "http://bocw.punjab.gov.in/userfiles/file/Registration%20Form%2028%20updated.pdf",
+                    "children": [
+                      {
+                        "text": "Form No-28"
+                      }
+                    ]
+                  },
+                  {
+                    "text": " and attach all the mandatory documents (self attested, if required)."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 2:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Application shall be submitted to the Labour Inspector of your area."
+                  }
+                ]
+              },
+              {
+                "type": "block_quote",
+                "children": [
+                  {
+                    "text": "Application Process of the Welfare Scheme:",
+                    "bold": true,
+                    "italic": true,
+                    "underline": true
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 1: ",
+                    "bold": true
+                  },
+                  {
+                    "text": "A registered worker should download "
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://bocw.punjab.gov.in/userfiles/file/Form%20No%2042%20B.pdf",
+                    "children": [
+                      {
+                        "text": "Form No-42B"
+                      }
+                    ]
+                  },
+                  {
+                    "text": " and attach all the mandatory documents (self attested, if required)."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 2: ",
+                    "bold": true
+                  },
+                  {
+                    "text": "Application shall be submitted to the Labour Inspectors of your area."
+                  }
+                ]
+              },
+              {
+                "type": "align_justify",
+                "children": [
+                  {
+                    "type": "block_quote",
+                    "children": [
+                      {
+                        "text": "Note:",
+                        "bold": true,
+                        "italic": true
+                      }
+                    ]
+                  },
+                  {
+                    "type": "ul_list",
+                    "children": [
+                      {
+                        "type": "list_item",
+                        "children": [
+                          {
+                            "text": "Registration with the Board:",
+                            "bold": true
+                          },
+                          {
+                            "text": " A construction worker becomes a member of the board by filling out Application Form No 28 along with depositing registration fees of ₹ 25/- only (once in life) and ₹ 10/- per month as contribution fees. A worker at a time can get himself registered for a minimum period of 1 year & maximum period of 5 years. The registered worker is called 'Beneficiary' of the Board."
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "block_quote",
+                    "children": [
+                      {
+                        "text": "Important Links:",
+                        "bold": true
+                      }
+                    ]
+                  },
+                  {
+                    "type": "ul_list",
+                    "children": [
+                      {
+                        "type": "list_item",
+                        "children": [
+                          {
+                            "bold": true,
+                            "text": "Check Your Registration Application Status: "
+                          },
+                          {
+                            "text": "Registered workers can check their registration application status through visiting this "
+                          },
+                          {
+                            "type": "link",
+                            "link": "http://bocw.punjab.gov.in/Login.aspx?Id=1",
+                            "children": [
+                              {
+                                "text": "link "
+                              }
+                            ]
+                          },
+                          {
+                            "text": "upon entering their Registration Number."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "list_item",
+                        "children": [
+                          {
+                            "bold": true,
+                            "text": "Download Registration Card: "
+                          },
+                          {
+                            "text": "Registered workers can download their registration Registration Card through visiting this "
+                          },
+                          {
+                            "type": "link",
+                            "link": "https://bocw.punjab.gov.in/Login.aspx?Id=1",
+                            "children": [
+                              {
+                                "text": "link "
+                              }
+                            ]
+                          },
+                          {
+                            "text": "upon entering their Registration Number."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "list_item",
+                        "children": [
+                          {
+                            "bold": true,
+                            "text": "Check your Scheme Application Status: "
+                          },
+                          {
+                            "text": "Registered workers can check their scheme application status through visiting this "
+                          },
+                          {
+                            "type": "link",
+                            "link": "https://bocw.punjab.gov.in/Login.aspx?Id=1",
+                            "children": [
+                              {
+                                "text": "link "
+                              }
+                            ]
+                          },
+                          {
+                            "text": "upon entering their Registration Number."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "list_item",
+                        "children": [
+                          {
+                            "bold": true,
+                            "text": "CSC Locator: "
+                          },
+                          {
+                            "text": "Visit this "
+                          },
+                          {
+                            "type": "link",
+                            "link": "https://www.apnacsconline.in/csc-locator/punjab/",
+                            "children": [
+                              {
+                                "text": "link "
+                              }
+                            ]
+                          },
+                          {
+                            "text": "to search nearest Common Service Center (CSC) of your area."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "list_item",
+                        "children": [
+                          {
+                            "bold": true,
+                            "text": "List of Sewa"
+                          },
+                          {
+                            "text": " "
+                          },
+                          {
+                            "text": "Kendra: ",
+                            "bold": true
+                          },
+                          {
+                            "text": "Visit this "
+                          },
+                          {
+                            "type": "link",
+                            "link": "https://punjab.gov.in/documents/10191/1112286/Final+List-V1.0.pdf/6ab437f3-f04c-427d-a2b7-dd49515f075b",
+                            "children": [
+                              {
+                                "text": "link "
+                              }
+                            ]
+                          },
+                          {
+                            "text": "to see the list of Sewa Kendra."
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "block_quote",
+                    "children": [
+                      {
+                        "text": "Helpdesk:",
+                        "bold": true
+                      }
+                    ]
+                  },
+                  {
+                    "type": "block_quote",
+                    "children": [
+                      {
+                        "text": "Punjab Building And Other Construction Workers Welfare Board"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "block_quote",
+                    "children": [
+                      {
+                        "text": "Address: ",
+                        "bold": true
+                      },
+                      {
+                        "text": "Labour Bhawan Model Welfare Centre Phase 10, Sector 64, Sahibzada Ajit Singh Nagar, Punjab, 160062"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "block_quote",
+                    "children": [
+                      {
+                        "text": "Phone :",
+                        "bold": true
+                      },
+                      {
+                        "text": " +91 172-2540125"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "block_quote",
+                    "children": [
+                      {
+                        "text": "Email :",
+                        "bold": true
+                      },
+                      {
+                        "text": " bocwhq@gmail.com"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "block_quote",
+                    "children": [
+                      {
+                        "text": "For Bocw Portal Related Queries (Technical Support):-",
+                        "bold": true
+                      }
+                    ]
+                  },
+                  {
+                    "type": "block_quote",
+                    "children": [
+                      {
+                        "text": "Phone :",
+                        "bold": true
+                      },
+                      {
+                        "text": " +91 172-2540125"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "block_quote",
+                    "children": [
+                      {
+                        "text": "Email :",
+                        "bold": true
+                      },
+                      {
+                        "text": " bocwhq@gmail.com"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "block_quote",
+                    "children": [
+                      {
+                        "text": "Office Visiting Hours :",
+                        "bold": true
+                      },
+                      {
+                        "text": " Monday to Friday"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "block_quote",
+                    "children": [
+                      {
+                        "text": "(09:00 AM to 05:00 PM)"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "process_md": "&gt; ***Registration Process as a Building/ Construction Worker:***\n\n**Step 1:** To register as a beneficiary under the BOCW Welfare Board, an applicant worker should download [Form No-28](http://bocw.punjab.gov.in/userfiles/file/Registration%20Form%2028%20updated.pdf) and attach all the mandatory documents (self attested, if required).\n**Step 2:** Application shall be submitted to the Labour Inspector of your area.\n&gt; ***Application Process of the Welfare Scheme:***\n\n**Step 1:** A registered worker should download [Form No-42B](https://bocw.punjab.gov.in/userfiles/file/Form%20No%2042%20B.pdf) and attach all the mandatory documents (self attested, if required).\n**Step 2:** Application shall be submitted to the Labour Inspectors of your area.\n&amp;gt; ***Note:***\n\n\n  - **Registration with the Board:** A construction worker becomes a member of the board by filling out Application Form No 28 along with depositing registration fees of ₹ 25/- only (once in life) and ₹ 10/- per month as contribution fees. A worker at a time can get himself registered for a minimum period of 1 year &amp;amp;amp; maximum period of 5 years. The registered worker is called &amp;amp;#39;Beneficiary&amp;amp;#39; of the Board.\n&amp;gt; **Important Links:**\n\n\n  - **Check Your Registration Application Status:** Registered workers can check their registration application status through visiting this [link ](http://bocw.punjab.gov.in/Login.aspx?Id=1)upon entering their Registration Number.  - **Download Registration Card:** Registered workers can download their registration Registration Card through visiting this [link ](https://bocw.punjab.gov.in/Login.aspx?Id=1)upon entering their Registration Number.  - **Check your Scheme Application Status:** Registered workers can check their scheme application status through visiting this [link ](https://bocw.punjab.gov.in/Login.aspx?Id=1)upon entering their Registration Number.  - **CSC Locator:** Visit this [link ](https://www.apnacsconline.in/csc-locator/punjab/)to search nearest Common Service Center (CSC) of your area.  - **List of Sewa** **Kendra:** Visit this [link ](https://punjab.gov.in/documents/10191/1112286/Final+List-V1.0.pdf/6ab437f3-f04c-427d-a2b7-dd49515f075b)to see the list of Sewa Kendra.\n&amp;gt; **Helpdesk:**\n\n&amp;gt; Punjab Building And Other Construction Workers Welfare Board\n\n&amp;gt; **Address:** Labour Bhawan Model Welfare Centre Phase 10, Sector 64, Sahibzada Ajit Singh Nagar, Punjab, 160062\n\n&amp;gt; **Phone :** +91 172-2540125\n\n&amp;gt; **Email :** bocwhq@gmail.com\n\n&amp;gt; **For Bocw Portal Related Queries (Technical Support):-**\n\n&amp;gt; **Phone :** +91 172-2540125\n\n&amp;gt; **Email :** bocwhq@gmail.com\n\n&amp;gt; **Office Visiting Hours :** Monday to Friday\n\n&amp;gt; (09:00 AM to 05:00 PM)\n\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "&gt; ***For Registration as a Building/ Construction Worker:***\n\n\n  - The applicant should be a resident of Punjab.\n  - The applicant should be a Building/ Construction Worker (Unorganised Worker).\n  - The applicant should be between 18 and 60 years.\n  - The applicant should have engaged in building and construction work for at least 90 days in a given year.\n  - The applicant should have a monthly income of ₹15,000/- or below.\n  - The applicant should not be a member of any other Welfare Fund established under any law.\n  - The applicant should not have membership of the Employees&amp;#39; Provident Fund (EPF)/ National Pension System (NPS)/ Employees&amp;#39; State Insurance Corporation (ESIC).\n  - The applicant should not be an income tax payer.\n\n&gt; ***For the Application of the Welfare Scheme:***\n\n\n  - The applicant should be a registered construction worker Under the Building and Other Construction Workers Welfare Board of Punjab.\n  - The applicant should have completed at least 1 year of membership with the Board.\n  - The worker should be a fully (100%) disabled person/ Person with Disabilities (PwD).\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "block_quote",
+              "children": [
+                {
+                  "text": "For Registration as a Building/ Construction Worker:",
+                  "bold": true,
+                  "italic": true,
+                  "underline": true
+                }
+              ]
+            },
+            {
+              "type": "ul_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant should be a resident of Punjab."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant should be a Building/ Construction Worker (Unorganised Worker)."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant should be between 18 and 60 years."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant should have engaged in building and construction work for at least 90 days in a given year."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant should have a monthly income of ₹15,000/- or below."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant should not be a member of any other Welfare Fund established under any law."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant should not have membership of the Employees' Provident Fund (EPF)/ National Pension System (NPS)/ Employees' State Insurance Corporation (ESIC)."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant should not be an income tax payer."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "block_quote",
+              "children": [
+                {
+                  "text": "For the Application of the Welfare Scheme:",
+                  "bold": true,
+                  "italic": true,
+                  "underline": true
+                }
+              ]
+            },
+            {
+              "type": "ul_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant should be a registered construction worker Under the Building and Other Construction Workers Welfare Board of Punjab."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant should have completed at least 1 year of membership with the Board."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The worker should be a fully (100%) disabled person/ Person with Disabilities (PwD)."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "pdpspbocwwb"
+}

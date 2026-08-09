@@ -1,0 +1,313 @@
+{
+  "_id": "67c94f161dc65aa2df402668",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": true,
+      "tags": [
+        "Child",
+        "Mother",
+        "Financial Assistance",
+        "Widow"
+      ],
+      "schemeName": "Mahtari Vandan Yojana",
+      "schemeShortTitle": "MVY",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "64f57d10ffb93104c7006c97",
+          "label": "Women and Child"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Pregnancy Care",
+          "label": "Pregnancy Care"
+        },
+        {
+          "value": "Childcare",
+          "label": "Childcare"
+        },
+        {
+          "value": "Emergency Medical Assistance",
+          "label": "Emergency Medical Assistance"
+        },
+        {
+          "value": "Financial Assistance",
+          "label": "Financial Assistance"
+        }
+      ],
+      "schemeOpenDate": "2024-03-01",
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "state": {
+        "value": 22,
+        "label": "Chhattisgarh"
+      },
+      "nodalDepartmentName": {
+        "value": 2200040,
+        "label": "Women and Child Development Department"
+      },
+      "schemeFor": "Family"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://cgwcd.gov.in/sites/default/files/%E0%A4%AE%E0%A4%B9%E0%A4%A4%E0%A4%BE%E0%A4%B0%E0%A5%80-%E0%A4%B5%E0%A4%82%E0%A4%A6%E0%A4%A8-%E0%A4%AF%E0%A5%8B%E0%A4%9C%E0%A4%A8%E0%A4%BE-%E0%A4%A6%E0%A4%BF%E0%A4%B6%E0%A4%BE-%E0%A4%A8%E0%A4%BF%E0%A4%B0%E0%A5%8D%E0%A4%A6%E0%A5%87%E0%A4%B6.pdf"
+        },
+        {
+          "title": "Scheme Details",
+          "url": "https://cgwcd.gov.in/%E0%A4%AE%E0%A4%B9%E0%A4%A4%E0%A4%BE%E0%A4%B0%E0%A5%80-%E0%A4%B5%E0%A4%82%E0%A4%A6%E0%A4%A8-%E0%A4%AF%E0%A5%8B%E0%A4%9C%E0%A4%A8%E0%A4%BE-0"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The scheme &quot;Mahatari Vandan Yojana&quot; by the Government of Chhattisgarh aims to provide financial assistance and support to eligible beneficiaries for socio-economic empowerment. The scheme offers monetary benefits and access to essential services, targeting underserved communities. Key eligibility criteria include residency in Chhattisgarh and possession of an EPIC Card. The scheme is implemented by the Department of Social Welfare, and applications are accepted online through the official portal.\n",
+      "benefits_md": "\n- Each eligible woman will receive ₹1000/- per month.\n- Women receiving less than ₹1000/- per month under social assistance programs and various pension schemes through the Samaj Kalyan Vibhag will receive additional assistance to a total ₹1,000/- per month.\n- The assistance will be directly deposited into the applicant&#39;s Aadhaar-linked DBT-based bank account.    \n\n",
+      "exclusions_md": "\n- The applicant&#39;s family must not have any member who is an income taxpayer.    \n- The applicant&#39;s family must not have any member who is a permanent, temporary, or contractual employee of the Government of India or the State Government in any department/undertaking/board/local body, working in the first, second, or third class position.    \n- The applicant&#39;s family must not have any member who is a current or former Member of Parliament (MP) or Member of the Legislative Assembly (MLA).    \n- The applicant&#39;s family must not have any member who is a current or former chairman or vice-chairman of any board, corporation, or council of the Government of India or the State Government.   \n\n",
+      "briefDescription": "The scheme aims to eliminate discrimination and inequality against women, improve their health and nutrition, promote economic independence and empowerment, and strengthen their decision-making role in the family.  It offers financial assistance to eligible married women to support their well-being.",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The scheme \"Mahatari Vandan Yojana\" by the Government of Chhattisgarh aims to provide financial assistance and support to eligible beneficiaries for socio-economic empowerment. The scheme offers monetary benefits and access to essential services, targeting underserved communities. Key eligibility criteria include residency in Chhattisgarh and possession of an EPIC Card. The scheme is implemented by the Department of Social Welfare, and applications are accepted online through the official portal."
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Each eligible woman will receive ₹1000/- per month."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Women receiving less than ₹1000/- per month under social assistance programs and various pension schemes through the Samaj Kalyan Vibhag will receive additional assistance to a total ₹1,000/- per month."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The assistance will be directly deposited into the applicant's Aadhaar-linked DBT-based bank account.    "
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "exclusions": [
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant's family must not have any member who is an income taxpayer.    "
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant's family must not have any member who is a permanent, temporary, or contractual employee of the Government of India or the State Government in any department/undertaking/board/local body, working in the first, second, or third class position.    "
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant's family must not have any member who is a current or former Member of Parliament (MP) or Member of the Legislative Assembly (MLA).    "
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant's family must not have any member who is a current or former chairman or vice-chairman of any board, corporation, or council of the Government of India or the State Government.   "
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "process": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 1:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " Visit the "
+              },
+              {
+                "type": "link",
+                "link": "https://www.mahtarivandan.cgstate.gov.in/",
+                "children": [
+                  {
+                    "text": "\"Mahtari Vandan Yojana\" portal, c"
+                  }
+                ]
+              },
+              {
+                "text": "lick on the registration link. In the "
+              },
+              {
+                "type": "link",
+                "link": "https://www.mahtarivandan.cgstate.gov.in/beneficiary-application-status#main-section",
+                "children": [
+                  {
+                    "text": "registration form,"
+                  }
+                ]
+              },
+              {
+                "text": " provide required details such as name, contact information, and EPIC Card number."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " Use the credentials you created during registration to log in. Navigate to the online form of the scheme. In the form, fill in all the mandatory fields and upload all the mandatory documents in the specified format and size. Carefully review all the information provided and the documents uploaded. Make any necessary corrections."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 3:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " Click \"Submit\" to submit your application. Save the application reference number or confirmation message for future tracking."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Post-Application Processes",
+                "bold": true,
+                "underline": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 1:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " After the last date of application, a provisional list of applicants will be displayed on the portal/app. A printout of the list will also be displayed on the notice board at the Gram Panchayat/ward level.      "
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " The Gram Sachiv/ward in-charge will issue an approval letter to the eligible beneficiaries in the final list. This list will also be displayed on the portal."
+              }
+            ]
+          }
+        ],
+        "process_md": "**Step 1:** Visit the [&quot;Mahtari Vandan Yojana&quot; portal, c](https://www.mahtarivandan.cgstate.gov.in/)lick on the registration link. In the [registration form,](https://www.mahtarivandan.cgstate.gov.in/beneficiary-application-status#main-section) provide required details such as name, contact information, and EPIC Card number.\n**Step 2:** Use the credentials you created during registration to log in. Navigate to the online form of the scheme. In the form, fill in all the mandatory fields and upload all the mandatory documents in the specified format and size. Carefully review all the information provided and the documents uploaded. Make any necessary corrections.\n**Step 3:** Click &quot;Submit&quot; to submit your application. Save the application reference number or confirmation message for future tracking.\n**Post-Application Processes**\n**Step 1:** After the last date of application, a provisional list of applicants will be displayed on the portal/app. A printout of the list will also be displayed on the notice board at the Gram Panchayat/ward level.      \n**Step 2:** The Gram Sachiv/ward in-charge will issue an approval letter to the eligible beneficiaries in the final list. This list will also be displayed on the portal.\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n- The applicant must be a resident of Chhattisgarh.\n- The applicant must be a married woman.\n- The applicant must be at least 21 years old as of 1st January of the year of application.\n- The applicant can also be a widow / divorced / abandoned woman.\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must be a resident of Chhattisgarh."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must be a married woman."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must be at least 21 years old as of 1st January of the year of application."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant can also be a widow / divorced / abandoned woman."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "mvy"
+}

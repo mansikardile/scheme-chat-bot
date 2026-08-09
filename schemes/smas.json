@@ -1,0 +1,255 @@
+{
+  "_id": "66aa00030667d47fde889084",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": true,
+      "tags": [
+        "Financial Assistance",
+        "Marriage",
+        "Differently-abled Person",
+        "Female"
+      ],
+      "schemeName": "State Marriage Assistance Scheme",
+      "schemeShortTitle": "SMAS",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce87cd6d1a3bde4685312",
+          "label": "Social welfare & Empowerment"
+        },
+        {
+          "value": "64f57d10ffb93104c7006c97",
+          "label": "Women and Child"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Financial assistance",
+          "label": "Financial assistance"
+        },
+        {
+          "value": "Marriage",
+          "label": "Marriage"
+        }
+      ],
+      "schemeOpenDate": "2024-01-06",
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "state": {
+        "value": 37,
+        "label": "Ladakh"
+      },
+      "nodalDepartmentName": {
+        "value": 37000030,
+        "label": "Social and Tribal Welfare Department"
+      },
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://ladakh.gov.in/divyangjans-to-get-1lakh-financial-assistance-for-marriage-ladakh-amends-the-state-marriage-assistance-scheme/"
+        },
+        {
+          "title": "Application Form",
+          "url": "https://helphub.ladakh.gov.in/uploads/state-marriage/SMASForm.pdf"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "&quot;The &#39;State Marriage Assistance Scheme,&#39; launched by the Department of Social and Tribal Welfare, UT Ladakh, aims to provide one-time financial assistance of ₹50,000/- to female beneficiaries from AAY or PHH ration cardholder families. Additionally, Divyangjan beneficiaries receive ₹1,00,000/-. Applications can be submitted through the District or Tehsil Social Welfare Officer in Leh or Kargil.&quot;\n",
+      "benefits_md": "\n- One-time financial assistance of ₹50,000/- shall be given to female beneficiaries. \n- Financial assistance of ₹1,00,000/- has been given to Divyangjan beneficiaries. \n\n",
+      "briefDescription": "The 'State Marriage Assistance Scheme' offers one-time financial aid to female beneficiaries from families holding AAY or PHH ration cards, with the amount directly credited to their Aadhaar-linked bank accounts. Additionally, divyangjan beneficiaries also receive financial assistance.",
+      "exclusions_md": "",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "\"The 'State Marriage Assistance Scheme,' launched by the Department of Social and Tribal Welfare, UT Ladakh, aims to provide one-time financial assistance of ₹50,000/- to female beneficiaries from AAY or PHH ration cardholder families. Additionally, Divyangjan beneficiaries receive ₹1,00,000/-. Applications can be submitted through the District or Tehsil Social Welfare Officer in Leh or Kargil.\""
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "One-time financial assistance of ₹50,000/- shall be given to female beneficiaries. "
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Financial assistance of ₹1,00,000/- has been given to Divyangjan beneficiaries. "
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "process": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 1: ",
+                "bold": true
+              },
+              {
+                "text": "The interested applicant should visit (during office hours) the office of the District Social Welfare and request the hard copy of the prescribed format of the application form from the staff exclusively entrusted to issue and collect filled-in applications."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "OR"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "The interested applicant should take print of the "
+              },
+              {
+                "type": "link",
+                "link": "https://helphub.ladakh.gov.in/uploads/state-marriage/SMASForm.pdf",
+                "children": [
+                  {
+                    "text": "prescribed format"
+                  }
+                ]
+              },
+              {
+                "text": " of the application form."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2:",
+                "bold": true
+              },
+              {
+                "text": " In the application form, fill in all the mandatory fields, paste the passport-sized photograph (signed across, if required), and attach copies of all the mandatory documents (self-attest, if required)."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 3: ",
+                "bold": true
+              },
+              {
+                "text": "Submit the duly filled and signed application form along with the documents to the District Social Welfare Officer/ Tehsil Social Welfare Officer/Social Worker of the Department at Leh/Kargil"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 4: ",
+                "bold": true
+              },
+              {
+                "text": "Request a receipt or acknowledgment from the District Social Welfare Officer/ Tehsil Social Welfare Officer/Social Worker of the Department at Leh/Kargil to whom the application has been submitted. Ensure that the receipt contains essential details such as the date and time of submission, and a unique identification number (if applicable)."
+              }
+            ]
+          }
+        ],
+        "process_md": "**Step 1:** The interested applicant should visit (during office hours) the office of the District Social Welfare and request the hard copy of the prescribed format of the application form from the staff exclusively entrusted to issue and collect filled-in applications.\nOR\nThe interested applicant should take print of the [prescribed format](https://helphub.ladakh.gov.in/uploads/state-marriage/SMASForm.pdf) of the application form.\n**Step 2:** In the application form, fill in all the mandatory fields, paste the passport-sized photograph (signed across, if required), and attach copies of all the mandatory documents (self-attest, if required).\n**Step 3:** Submit the duly filled and signed application form along with the documents to the District Social Welfare Officer/ Tehsil Social Welfare Officer/Social Worker of the Department at Leh/Kargil\n**Step 4:** Request a receipt or acknowledgment from the District Social Welfare Officer/ Tehsil Social Welfare Officer/Social Worker of the Department at Leh/Kargil to whom the application has been submitted. Ensure that the receipt contains essential details such as the date and time of submission, and a unique identification number (if applicable).\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n1. The applicant should belong to Antodaya Anna Yojana (AAY) or Priority Household (PHH) ration cardholder families. \n1. The bride and bridegroom should be permanent residents of Ladakh\n1. The bride should be above 18 years of age.\n1. The bridegroom should be above 21 years of age.\n1. The marriage should be the first marriage between the bride and the groom.\n1. The divyangjan applicants with benchmark disabilities as defined in “The Rights of Persons with Disabilities Act, 2016 are eligible. \n\n",
+      "eligibilityDescription": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should belong to Antodaya Anna Yojana (AAY) or Priority Household (PHH) ration cardholder families. "
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The bride and bridegroom should be permanent residents of Ladakh"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The bride should be above 18 years of age."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The bridegroom should be above 21 years of age."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The marriage should be the first marriage between the bride and the groom."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The divyangjan applicants with benchmark disabilities as defined in “The Rights of Persons with Disabilities Act, 2016 are eligible. "
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "smas"
+}

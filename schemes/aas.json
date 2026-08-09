@@ -1,0 +1,390 @@
+{
+  "_id": "64d0d0c6cc26959b836403b9",
+  "en": {
+    "basicDetails": {
+      "schemeOpenDate": null,
+      "schemeCloseDate": null,
+      "state": {
+        "value": 30,
+        "label": "Goa"
+      },
+      "nodalMinistryName": null,
+      "nodalDepartmentName": {
+        "value": 30000044,
+        "label": "Social Welfare Department"
+      },
+      "otherMinistryName": null,
+      "otherDepartmentNames": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Loan",
+          "label": "Loan"
+        },
+        {
+          "value": "Banking and money",
+          "label": "Banking and money"
+        },
+        {
+          "value": "Citizen empowerment",
+          "label": "Citizen empowerment"
+        }
+      ],
+      "dbtScheme": null,
+      "implementingAgency": null,
+      "tags": [
+        "House",
+        "Loan",
+        "Scheduled Tribe",
+        "Social Welfare",
+        "ST"
+      ],
+      "schemeName": "Ashraya Adhar Scheme",
+      "schemeShortTitle": "AAS",
+      "level": {
+        "value": "state",
+        "label": "State"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce87cd6d1a3bde4685312",
+          "label": "Social welfare & Empowerment"
+        },
+        {
+          "value": "628ce7f6d6d1a3bde46852d0",
+          "label": "Banking,Financial Services and Insurance"
+        }
+      ],
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://www.goa.gov.in/wp-content/uploads/2020/02/Schemes-of-the-ST-Corporation.pdf"
+        },
+        {
+          "title": "Citizen's Charter (2022)",
+          "url": "https://www.goa.gov.in/wp-content/uploads/2022/05/Citizen-Charter-2022-tribal-welfare.pdf"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "&amp;quot;Ashraya Adhar Scheme&amp;quot; is a Loan Scheme by the Goa State Scheduled Tribes Finance and Development Corporation Limited, Department of Tribal Welfare, Government of Goa. This scheme is introduced to provide financial assistance in the form of loans to the members of Scheduled Tribes for the purpose of repair, renovation/reconstruction of houses. The corporation has come up with the idea to help the Scheduled Tribe Community by providing financial assistance for the repair, and renovation/reconstruction of houses. There are many members of the ST Community who are willing to, but due to the higher rate of interest offered by banks, they cannot afford to avail of the bank loan for repairs, renovation or reconstruction of houses.\n",
+      "benefits_md": "**₹ 5,00,000/-** advanced as financial assistance in the form of a loan @ 2% per annum. \n<br>\n\n> **Mode of Advance**\n\nThe loan amount shall be advanced in two instalments after the submission of the required documents is complete in all respect. \n**₹ 3,75,000/-** immediately after sanctioning the loan. \n**₹ 1,25,000/-** on utilization of the first instalment. The 2nd instalment is to be released on submission of utilization bills and on the basis of physical verification/inspection carried out by the officer of the Corporation.\n<br>\n\n**NOTE:** Loanee shall commence the actual work within 03 months from the date of the sanctioned amount released.\n<br>\n\n> **Insurance**\n\nThe beneficiary shall be insured for life and property with the Insurance Agency identified by the Corporation and the premium of such policies shall be borne by the loanee (unless and otherwise decided by the Corporation).\n",
+      "briefDescription": "\"Ashraya Adhar Scheme\" is introduced to provide financial assistance in the form of loans to the members of Scheduled Tribes for the purpose of repair, renovation/reconstruction of houses. The Goa State Scheduled Tribes Finance and Development Corporation has introduced this scheme.",
+      "exclusions_md": "",
+      "detailedDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "\"Ashraya Adhar Scheme\" is a Loan Scheme by the Goa State Scheduled Tribes Finance and Development Corporation Limited, Department of Tribal Welfare, Government of Goa. This scheme is introduced to provide financial assistance in the form of loans to the members of Scheduled Tribes for the purpose of repair, renovation/reconstruction of houses. The corporation has come up with the idea to help the Scheduled Tribe Community by providing financial assistance for the repair, and renovation/reconstruction of houses. There are many members of the ST Community who are willing to, but due to the higher rate of interest offered by banks, they cannot afford to avail of the bank loan for repairs, renovation or reconstruction of houses."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "₹ 5,00,000/- ",
+              "bold": true
+            },
+            {
+              "text": "advanced as financial assistance in the form of a loan @ 2% per annum. "
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        },
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "Mode of Advance",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The loan amount shall be advanced in two instalments after the submission of the required documents is complete in all respect. "
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "₹ 3,75,000/-",
+              "bold": true
+            },
+            {
+              "text": " immediately after sanctioning the loan. "
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "₹ 1,25,000/-",
+              "bold": true
+            },
+            {
+              "text": " on utilization of the first instalment. The 2nd instalment is to be released on submission of utilization bills and on the basis of physical verification/inspection carried out by the officer of the Corporation."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "NOTE: ",
+              "bold": true
+            },
+            {
+              "text": "Loanee shall commence the actual work within 03 months from the date of the sanctioned amount released."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        },
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "Insurance",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The beneficiary shall be insured for life and property with the Insurance Agency identified by the Corporation and the premium of such policies shall be borne by the loanee (unless and otherwise decided by the Corporation)."
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "url": "",
+        "process": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 1: ",
+                "bold": true
+              },
+              {
+                "text": "Visit the Office of the Goa State Scheduled Tribes Finance and Development Corporation Limited, 2nd floor, Smruti Building, Swami Vivekanand Rd, Altinho, Panaji, Goa 403001."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2: ",
+                "bold": true
+              },
+              {
+                "text": "Request a hard copy of the proforma of the application form for the scheme from the Concerned Officer of the Corporation."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 3: ",
+                "bold": true
+              },
+              {
+                "text": "In the application form, fill in all the mandatory fields, paste the passport-sized photograph (signed across), and attach copies of all the mandatory documents (self-attest if required)."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 4: ",
+                "bold": true
+              },
+              {
+                "text": "Submit the duly filled and signed application form along with the documents to the Concerned Officer."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 5: ",
+                "bold": true
+              },
+              {
+                "text": "The loan application shall only be accepted after proper scrutiny. Acquire the receipt/acknowledgement of the successful submission of the application from the Concerned Officer."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "text": "Check Application Status",
+                "bold": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "The District Social Welfare Officer (DSWO) can be contacted regarding the application status of the scheme."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "text": "Post Application Processes",
+                "bold": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "The list of eligible applicants will be prepared and physical verification/inspection will be carried out by the officer of the Corporation. "
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "The application form along with documents and inspection report will be placed before the sanctioning authority for appraisal and approval."
+              }
+            ]
+          }
+        ],
+        "process_md": "**Step 1:** Visit the Office of the Goa State Scheduled Tribes Finance and Development Corporation Limited, 2nd floor, Smruti Building, Swami Vivekanand Rd, Altinho, Panaji, Goa 403001.\n**Step 2:** Request a hard copy of the proforma of the application form for the scheme from the Concerned Officer of the Corporation.\n**Step 3:** In the application form, fill in all the mandatory fields, paste the passport-sized photograph (signed across), and attach copies of all the mandatory documents (self-attest if required).\n**Step 4:** Submit the duly filled and signed application form along with the documents to the Concerned Officer.\n**Step 5:** The loan application shall only be accepted after proper scrutiny. Acquire the receipt/acknowledgement of the successful submission of the application from the Concerned Officer.\n<br>\n\n> **Check Application Status**\n\nThe District Social Welfare Officer (DSWO) can be contacted regarding the application status of the scheme.\n<br>\n\n> **Post Application Processes**\n\nThe list of eligible applicants will be prepared and physical verification/inspection will be carried out by the officer of the Corporation. \nThe application form along with documents and inspection report will be placed before the sanctioning authority for appraisal and approval.\n"
+      }
+    ],
+    "schemeDefinitions": [
+      {
+        "name": "Family ",
+        "definition": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Family means Husband, Wife, and Unmarried Children. The Father, Mother and unmarried brothers and sisters fully dependent and staying with the applicant shall also form part of the “family”."
+              }
+            ]
+          }
+        ],
+        "definitions_md": "Family means Husband, Wife, and Unmarried Children. The Father, Mother and unmarried brothers and sisters fully dependent and staying with the applicant shall also form part of the “family”.\n",
+        "source": "https://www.goa.gov.in/wp-content/uploads/2020/02/Schemes-of-the-ST-Corporation.pdf"
+      }
+    ],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n1. Any person belonging to Scheduled Tribe Community and having his/her house (which shall also include a mundcarial house) either owned individually or jointly will be eligible for financial assistance under this scheme. \n1. In case the house is owned jointly and there are different family units in the same house residing separately, each such unit will be eligible for financial support.\n1. The age of the applicant should not be more than 55 years as of the date of the loan application. However, the age of the applicant is relaxed up to 58 years in case the applicant is an employee of the State/ Central Government/ Government Corporation/ Board or aided Institute.\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Any person belonging to Scheduled Tribe Community and having his/her house (which shall also include a mundcarial house) either owned individually or jointly will be eligible for financial assistance under this scheme. "
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "In case the house is owned jointly and there are different family units in the same house residing separately, each such unit will be eligible for financial support."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The age of the applicant should not be more than 55 years as of the date of the loan application. However, the age of the applicant is relaxed up to 58 years in case the applicant is an employee of the State/ Central Government/ Government Corporation/ Board or aided Institute."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "aas"
+}

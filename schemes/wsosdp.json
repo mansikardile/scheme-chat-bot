@@ -1,0 +1,390 @@
+{
+  "_id": "69e0c52e141a5233f8f6d9ee",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Senior Citizen Welfare",
+        "Old Age Home Scheme",
+        "Elderly Care Services",
+        "Destitute Support Scheme",
+        "Mobile Medical Units",
+        "Geriatric Care",
+        "Dementia Care"
+      ],
+      "schemeName": "Welfare Services for Other Socially Disabled Persons (Senior Citizens & Destitute)",
+      "schemeShortTitle": "WSOSDP",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce87cd6d1a3bde4685312",
+          "label": "Social welfare & Empowerment"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Shelter",
+          "label": "Shelter"
+        },
+        {
+          "value": "Rehabilitation",
+          "label": "Rehabilitation"
+        },
+        {
+          "value": "Financial assistance",
+          "label": "Financial assistance"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "schemeFor": "Individual",
+      "state": {
+        "value": 15,
+        "label": "Mizoram"
+      },
+      "nodalDepartmentName": {
+        "value": 1511147,
+        "label": "Social Welfare Department"
+      }
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://socialwelfare.mizoram.gov.in/uploads/attachments/62da7efc0bb51062766aaf1aa4ed2211/pages-94-gia-rules.pdf"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The &quot;Welfare Services for Other Socially Disabled Persons (Senior Citizens &amp; Destitute)&quot; under the Mizoram Grant-in-Aid framework focuses on elderly persons (65+), destitute individuals, and socially disabled persons who lack means of livelihood. It supports NGOs in running old age homes, day care centres, mobile medical units, and specialized care services.\nThe scheme ensures access to healthcare, shelter, companionship, and mental health support, promoting dignified living for senior citizens.\n<br>\n\n",
+      "benefits_md": "> **Care &amp; Shelter**\n\n\n- Old age homes and respite care homes.\n\n> **Healthcare**\n\n\n- Mobile medical units.\n- Physiotherapy clinics.\n\n> **Day Care Services**\n\n\n- Multi-service centres for elderly.\n\n> **Special Care**\n\n\n- Dementia/Alzheimer’s care centres.\n\n> **Support Services**\n\n\n- Counseling and helplines.\n\n<br>\n\n",
+      "exclusions_md": "<br>\n\n",
+      "briefDescription": "The scheme aims to provide care, protection, and financial assistance to elderly persons and socially disadvantaged individuals lacking family or financial support.",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The \"Welfare Services for Other Socially Disabled Persons (Senior Citizens & Destitute)\" under the Mizoram Grant-in-Aid framework focuses on elderly persons (65+), destitute individuals, and socially disabled persons who lack means of livelihood. It supports NGOs in running old age homes, day care centres, mobile medical units, and specialized care services."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The scheme ensures access to healthcare, shelter, companionship, and mental health support, promoting dignified living for senior citizens."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 3,
+        "value": "composite",
+        "label": "Composite"
+      },
+      "benefits": [
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "Care & Shelter",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Old age homes and respite care homes."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "Healthcare",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Mobile medical units."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Physiotherapy clinics."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "Day Care Services",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Multi-service centres for elderly."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "Special Care",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Dementia/Alzheimer’s care centres."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "Support Services",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Counseling and helplines."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ],
+      "exclusions": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "process": [
+          {
+            "type": "align_justify",
+            "children": [
+              {
+                "type": "ul_list",
+                "children": [
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "text": "Apply through Social Welfare Department via NGOs."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          }
+        ],
+        "process_md": "\n  - Apply through Social Welfare Department via NGOs.\n\n<br>\n\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "> **For Individuals (Beneficiaries):**\n\n\n- The applicant must be a senior citizen aged 65 years or above.\n- The applicant must belong to a Below Poverty Line (BPL) family.\n- The applicant must be a destitute person without any regular means of livelihood.\n- The applicant must not have family members or relatives to provide financial or social support.\n\n> **For Organizations:**\n\n\n- The applicant must be a registered voluntary organization/NGO/institution.\n- The applicant must be engaged in providing welfare services for senior citizens or destitute persons.\n- The applicant must have adequate infrastructure such as old age homes, day care centres, or care facilities.\n- The applicant must have experience in implementing elderly care or social welfare programmes.\n- The applicant must ensure that services are provided without discrimination on any grounds.\n\n<br>\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "For Individuals (Beneficiaries):",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must be a senior citizen aged 65 years or above."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must belong to a Below Poverty Line (BPL) family."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must be a destitute person without any regular means of livelihood."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must not have family members or relatives to provide financial or social support."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "For Organizations:",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must be a registered voluntary organization/NGO/institution."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must be engaged in providing welfare services for senior citizens or destitute persons."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must have adequate infrastructure such as old age homes, day care centres, or care facilities."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must have experience in implementing elderly care or social welfare programmes."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must ensure that services are provided without discrimination on any grounds."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "wsosdp"
+}

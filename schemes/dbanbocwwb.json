@@ -1,0 +1,579 @@
+{
+  "_id": "65de0b7f938a0b13cc987980",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Financial Assistance",
+        "Building Worker",
+        "Construction Worker",
+        "Accident",
+        "Labour"
+      ],
+      "schemeName": "Death Benefit (ANBOCWWB)",
+      "schemeShortTitle": "DB(ANBOCWWB)",
+      "implementingAgency": "Andaman & Nicobar Islands Building And Other Construction Workers Welfare Board, Port Blair",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce87cd6d1a3bde4685312",
+          "label": "Social welfare & Empowerment"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Financial assistance",
+          "label": "Financial assistance"
+        },
+        {
+          "value": "Crisis/Disaster/Accident",
+          "label": "Crisis/Disaster/Accident"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "family",
+          "label": "Family"
+        }
+      ],
+      "state": {
+        "value": 35,
+        "label": "Andaman and Nicobar Islands"
+      },
+      "nodalDepartmentName": {
+        "value": 3500019,
+        "label": "Labour, Employment & Training Department"
+      },
+      "schemeFor": "Family"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Official Website",
+          "url": "https://labour.and.nic.in/webPages/welfareboard.html#:~:text=Pension%20Benefit%3A%20%2D%20Registered%20construction%20worker,Rs%201000%2F%2Dper%20month.&text=MBBS%2FBE%2FProfessional%20Course%20the,a%20case%20to%20case%20basis."
+        },
+        {
+          "title": "Application Portal",
+          "url": "https://serviceonline.gov.in/loginWindow.do"
+        },
+        {
+          "title": "Application Form For Death Benefit",
+          "url": "https://labour.and.nic.in/webPages/forms/deth.pdf"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The scheme “Death Benefit” was started by the Andaman &amp;amp; Nicobar Islands Building and Other Construction Workers Welfare Board (ANBOCWWB), Department of Labour, Employment &amp;amp; Training, Andaman &amp;amp; Nicobar Administration. Under this scheme, financial assistance shall be provided to the nominees or dependents of workers engaged in Building or Other Construction Works in Andaman &amp;amp; Nicobar Islands in the event of their natural or accidental death.\n",
+      "benefits_md": "\n   1. **Natural Death:**\n\n    - ₹1,00,000/- shall be sanctioned to the nominee or dependent of a registered beneficiary.\n\n   1. **Accidental Death (During Employment):**\n\n    - ₹2,00,000/- may be given to the nominee or dependent of the beneficiary.\n\n   1. **Accidental Death (Non-registered Construction Workers):**\n\n    - ₹50,000/- may be provided, subject to a certificate from the concerned Tehsildar confirming the deceased was a construction worker.\n\n\n",
+      "briefDescription": "The scheme provides financial assistance to the nominees or dependents of workers engaged in Building or Other Construction Works in Andaman & Nicobar Islands in the event of their natural or accidental death.  ",
+      "exclusions_md": "",
+      "detailedDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "The scheme “Death Benefit” was started by the Andaman & Nicobar Islands Building and Other Construction Workers Welfare Board (ANBOCWWB), Department of Labour, Employment & Training, Andaman & Nicobar Administration. Under this scheme, financial assistance shall be provided to the nominees or dependents of workers engaged in Building or Other Construction Works in Andaman & Nicobar Islands in the event of their natural or accidental death."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "ol_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Natural Death:",
+                      "bold": true,
+                      "underline": true
+                    }
+                  ]
+                },
+                {
+                  "type": "align_justify",
+                  "children": [
+                    {
+                      "type": "ul_list",
+                      "children": [
+                        {
+                          "type": "list_item",
+                          "children": [
+                            {
+                              "text": "₹1,00,000/- shall be sanctioned to the nominee or dependent of a registered beneficiary."
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Accidental Death (During Employment):",
+                      "underline": true,
+                      "bold": true
+                    }
+                  ]
+                },
+                {
+                  "type": "align_justify",
+                  "children": [
+                    {
+                      "type": "ul_list",
+                      "children": [
+                        {
+                          "type": "list_item",
+                          "children": [
+                            {
+                              "text": "₹2,00,000/- may be given to the nominee or dependent of the beneficiary."
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Accidental Death (Non-registered Construction Workers):",
+                      "underline": true,
+                      "bold": true
+                    }
+                  ]
+                },
+                {
+                  "type": "align_justify",
+                  "children": [
+                    {
+                      "type": "ul_list",
+                      "children": [
+                        {
+                          "type": "list_item",
+                          "children": [
+                            {
+                              "text": "₹50,000/- may be provided, subject to a certificate from the concerned Tehsildar confirming the deceased was a construction worker."
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Online",
+        "process": [
+          {
+            "type": "align_justify",
+            "children": [
+              {
+                "type": "block_quote",
+                "children": [
+                  {
+                    "text": "Portal Registration Process:",
+                    "bold": true,
+                    "underline": true
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 01:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Visit online Portal: "
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://serviceonline.gov.in/login.do",
+                    "children": [
+                      {
+                        "text": "https://serviceonline.gov.in/login.do"
+                      }
+                    ]
+                  },
+                  {
+                    "text": ""
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 02:",
+                    "bold": true
+                  },
+                  {
+                    "text": " On the home page, click on ‘"
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://serviceonline.gov.in/citizenRegistration.html",
+                    "children": [
+                      {
+                        "text": "Register"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "’ and fill in all the mandatory details."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 03:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Click on the ‘Submit’ button and validate your Email ID & Mobile Number using OTP received."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 04:",
+                    "bold": true
+                  },
+                  {
+                    "text": " After successful validation, the applicant will be registered."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": ""
+                  }
+                ]
+              },
+              {
+                "type": "block_quote",
+                "children": [
+                  {
+                    "text": "Application Process for Death Financial Assistance:",
+                    "bold": true,
+                    "underline": true
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 01:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Now, to avail the benefits of the scheme, the applicants can "
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://serviceonline.gov.in/loginWindow.do",
+                    "children": [
+                      {
+                        "text": "login"
+                      }
+                    ]
+                  },
+                  {
+                    "text": " through their email ID that is used while registering"
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 02:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Enter Password & Captcha"
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 03:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Click on ‘Login’"
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 04:",
+                    "bold": true
+                  },
+                  {
+                    "text": " After successful login, click on ‘Apply for Services’ and then ‘View all Available Services’"
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 05:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Now, search for ‘Death Financial Assistance’ and click on the scheme to proceed to fill out the application form."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 06: ",
+                    "bold": true
+                  },
+                  {
+                    "text": "Fill in all the mandatory details and upload all the mandatory documents."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 07: ",
+                    "bold": true
+                  },
+                  {
+                    "text": "Preview the application form and click on ‘Submit’."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": ""
+                  }
+                ]
+              },
+              {
+                "type": "block_quote",
+                "children": [
+                  {
+                    "text": "Application Tracking:",
+                    "bold": true,
+                    "underline": true
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 01:",
+                    "bold": true
+                  },
+                  {
+                    "text": " To track the application status, the applicant can visit the "
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://serviceonline.gov.in/error.do",
+                    "children": [
+                      {
+                        "text": "O"
+                      },
+                      {
+                        "type": "link",
+                        "link": "https://serviceonline.gov.in/loginWindow.do",
+                        "children": [
+                          {
+                            "text": "nline Portal"
+                          }
+                        ]
+                      },
+                      {
+                        "text": ""
+                      }
+                    ]
+                  },
+                  {
+                    "text": " and login through their ‘User ID’ & ‘Password’."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 02:",
+                    "bold": true
+                  },
+                  {
+                    "text": " On the home page, click on “View Application Status’ and then click on ‘Track Application Status’."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 03:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Enter the Application Reference Number and click on ‘Get Data’ to know the status of your application."
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "process_md": "&gt; **Portal Registration Process:**\n\n**Step 01:** Visit online Portal: [https://serviceonline.gov.in/login.do](https://serviceonline.gov.in/login.do)\n**Step 02:** On the home page, click on ‘[Register](https://serviceonline.gov.in/citizenRegistration.html)’ and fill in all the mandatory details.\n**Step 03:** Click on the ‘Submit’ button and validate your Email ID &amp;amp; Mobile Number using OTP received.\n**Step 04:** After successful validation, the applicant will be registered.\n&lt;br&gt;\n\n&gt; **Application Process for Death Financial Assistance:**\n\n**Step 01:** Now, to avail the benefits of the scheme, the applicants can [login](https://serviceonline.gov.in/loginWindow.do) through their email ID that is used while registering\n**Step 02:** Enter Password &amp;amp; Captcha\n**Step 03:** Click on ‘Login’\n**Step 04:** After successful login, click on ‘Apply for Services’ and then ‘View all Available Services’\n**Step 05:** Now, search for ‘Death Financial Assistance’ and click on the scheme to proceed to fill out the application form.\n**Step 06:** Fill in all the mandatory details and upload all the mandatory documents.\n**Step 07:** Preview the application form and click on ‘Submit’.\n&lt;br&gt;\n\n&gt; **Application Tracking:**\n\n**Step 01:** To track the application status, the applicant can visit the [O[nline Portal](https://serviceonline.gov.in/loginWindow.do)](https://serviceonline.gov.in/error.do) and login through their ‘User ID’ &amp;amp; ‘Password’.\n**Step 02:** On the home page, click on “View Application Status’ and then click on ‘Track Application Status’.\n**Step 03:** Enter the Application Reference Number and click on ‘Get Data’ to know the status of your application.\n"
+      },
+      {
+        "mode": "Offline",
+        "process": [
+          {
+            "type": "align_justify",
+            "children": [
+              {
+                "type": "ul_list",
+                "children": [
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "text": "The applicant may submit the application form himself/herself or through a contractor to the concerned Office along with all the relevant documents and form."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Note : ("
+              },
+              {
+                "type": "link",
+                "link": "https://labour.and.nic.in/webPages/forms/deth.pdf",
+                "children": [
+                  {
+                    "text": "Application Form for Death Benefit"
+                  }
+                ]
+              },
+              {
+                "text": ")"
+              }
+            ]
+          }
+        ],
+        "process_md": "\n  - The applicant may submit the application form himself/herself or through a contractor to the concerned Office along with all the relevant documents and form.\n\nNote : ([Application Form for Death Benefit](https://labour.and.nic.in/webPages/forms/deth.pdf))\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n   1. The applicant should be a legal nominee or dependent of the deceased worker.\n   1. The deceased worker should have been a resident of the Union Territory of Andaman &amp;amp; Nicobar Islands.\n   1. The deceased worker should have been engaged in any building or other construction work.\n   1. The financial assistance shall be given to the nominees or dependents of deceased registered workers in the event of their natural or accidental death.\n   1. The financial assistance shall be given to the nominees or dependents of non-registered construction workers in case of accidental death only.\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "ol_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant should be a legal nominee or dependent of the deceased worker."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The deceased worker should have been a resident of the Union Territory of Andaman & Nicobar Islands."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The deceased worker should have been engaged in any building or other construction work."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The financial assistance shall be given to the nominees or dependents of deceased registered workers in the event of their natural or accidental death."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The financial assistance shall be given to the nominees or dependents of non-registered construction workers in case of accidental death only."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "dbanbocwwb"
+}

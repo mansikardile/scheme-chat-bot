@@ -1,0 +1,259 @@
+{
+  "_id": "65ded5d9da55878ebe0714b3",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Cash",
+        "Award",
+        "Rank",
+        "Scholarship",
+        "Exam",
+        "School",
+        "College"
+      ],
+      "schemeName": "Cash Award to Top Ranking Holders in Public Examinations",
+      "schemeShortTitle": "CATRHPE",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce76cd6d1a3bde4685292",
+          "label": "Education & Learning"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Scholarships and student finance",
+          "label": "Scholarships and student finance"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "state": {
+        "value": 34,
+        "label": "Puducherry"
+      },
+      "nodalDepartmentName": {
+        "value": 34000036,
+        "label": "School Education Department, Puducherry"
+      },
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://schooledn.py.gov.in/Welfare/InnerPages/edu_Cashaward.html"
+        },
+        {
+          "title": "Application Form",
+          "url": "https://schooledn.py.gov.in/download.html"
+        },
+        {
+          "title": "Contact Us",
+          "url": "https://schooledn.py.gov.in/who/dte.html"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The scheme &quot;Cash Award to Top Ranking Holders in Public Examinations&quot; was launched by the Directorate of School Education, Union Territory of Puducherry. Through this scheme, cash awards of ₹50,000/-, ₹30,000/- and ₹20,000/- are granted to the 1st, 2nd and 3rd Rank Holders respectively from Secondary School Leaving Certificate (SSLC) Exam, Secondary School Certificate (SSC) Exam, Matriculation Exam, and for Higher Secondary Certificate (HSC) Exam, and Intermediate (2nd Year) Public Examinations.\n",
+      "benefits_md": "> **Quantum of Award**\n\n\n- 1st Rank: ₹50,000/-.\n- 2nd Rank: ₹30,000/-.\n- 3rd Rank: ₹20,000/-.\n\n* Every year, the awards are granted separately for each of the top three Rank Holders from Secondary School Leaving Certificate (SSLC) Exam, Secondary School Certificate (SSC) Exam, Matriculation Exam, and for Higher Secondary Certificate (HSC) Exam, and Intermediate (2nd Year) Public Examinations.\n* The awards are granted separately for each of the four regions of the UT of Puducherry, i.e. Puducherry, Karaikal, Mahe, and Yanam.\n* The awards are granted separately for Government Schools and for Private Schools.\n",
+      "briefDescription": "Through the \"Cash Award to Top Ranking Holders in Public Examinations\" scheme, cash awards of ₹50,000/-, ₹30,000/- and ₹20,000/- are granted to the 1st, 2nd and 3rd Rank Holders respectively from SSLC/ SSC/ HSC Exam, and Intermediate (2nd Year) Public Examinations.",
+      "exclusions_md": "",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The scheme \"Cash Award to Top Ranking Holders in Public Examinations\" was launched by the Directorate of School Education, Union Territory of Puducherry. Through this scheme, cash awards of ₹50,000/-, ₹30,000/- and ₹20,000/- are granted to the 1st, 2nd and 3rd Rank Holders respectively from Secondary School Leaving Certificate (SSLC) Exam, Secondary School Certificate (SSC) Exam, Matriculation Exam, and for Higher Secondary Certificate (HSC) Exam, and Intermediate (2nd Year) Public Examinations."
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "Quantum of Award",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "1st Rank: ₹50,000/-."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "2nd Rank: ₹30,000/-."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "3rd Rank: ₹20,000/-."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "* Every year, the awards are granted separately for each of the top three Rank Holders from Secondary School Leaving Certificate (SSLC) Exam, Secondary School Certificate (SSC) Exam, Matriculation Exam, and for Higher Secondary Certificate (HSC) Exam, and Intermediate (2nd Year) Public Examinations."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "* The awards are granted separately for each of the four regions of the UT of Puducherry, i.e. Puducherry, Karaikal, Mahe, and Yanam."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "* The awards are granted separately for Government Schools and for Private Schools."
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "process": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 1: ",
+                "bold": true
+              },
+              {
+                "text": "The interested applicant should take print of the "
+              },
+              {
+                "type": "link",
+                "link": "https://schooledn.py.gov.in/download.html",
+                "children": [
+                  {
+                    "text": "prescribed format"
+                  }
+                ]
+              },
+              {
+                "text": " of the application form."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2:",
+                "bold": true
+              },
+              {
+                "text": " In the application form, fill in all the mandatory fields, paste the passport-sized photograph (signed across, if required), and attach copies of all the mandatory documents (self-attest, if required)."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 3: ",
+                "bold": true
+              },
+              {
+                "text": "The interested applicant should visit the Head of the Institution of his/her respective school and submit the duly filled and signed application form and the documents. The Heads of the Institutions then send the applications to the Directorate of School Education through Google Forms."
+              }
+            ]
+          }
+        ],
+        "process_md": "**Step 1:** The interested applicant should take print of the [prescribed format](https://schooledn.py.gov.in/download.html) of the application form.\n**Step 2:** In the application form, fill in all the mandatory fields, paste the passport-sized photograph (signed across, if required), and attach copies of all the mandatory documents (self-attest, if required).\n**Step 3:** The interested applicant should visit the Head of the Institution of his/her respective school and submit the duly filled and signed application form and the documents. The Heads of the Institutions then send the applications to the Directorate of School Education through Google Forms.\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n- The applicant should be a citizen of India.\n- The applicant should be a native of the Union Territory of Puducherry by birth or by continuous residence for not less than five years.\n- The applicant should be a Student.\n- The applicant should be studying in a Government/Private High/Higher Secondary School or in Intermediate Level (2nd Year) in a Government Junior College in the Union Territory of Puducherry.\n- The applicant should be among the top three Rank Holders from Secondary School Leaving Certificate (SSLC) Exam/ Secondary School Certificate (SSC) Exam/ Matriculation Exam/ Higher Secondary Certificate (HSC) Exam/ Intermediate (2nd Year) Public Examination.\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should be a citizen of India."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should be a native of the Union Territory of Puducherry by birth or by continuous residence for not less than five years."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should be a Student."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should be studying in a Government/Private High/Higher Secondary School or in Intermediate Level (2nd Year) in a Government Junior College in the Union Territory of Puducherry."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should be among the top three Rank Holders from Secondary School Leaving Certificate (SSLC) Exam/ Secondary School Certificate (SSC) Exam/ Matriculation Exam/ Higher Secondary Certificate (HSC) Exam/ Intermediate (2nd Year) Public Examination."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "catrhpe"
+}

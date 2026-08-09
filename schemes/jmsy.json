@@ -1,0 +1,534 @@
+{
+  "_id": "679a25fbc4ea5da14d013e20",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Employment",
+        "Unskilled Workers",
+        "Urban Areas"
+      ],
+      "schemeName": "Jharkhand Mukhyamantri Shramik Yojana ",
+      "schemeShortTitle": "JMSY",
+      "implementingAgency": "Directorate Of Urban Administration Under The Jharkhand State Urban Livelihood Mission",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce85cd6d1a3bde4685304",
+          "label": "Skills & Employment"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Employment services and jobs",
+          "label": "Employment services and jobs"
+        },
+        {
+          "value": "Career information",
+          "label": "Career information"
+        },
+        {
+          "value": "Placement assistance",
+          "label": "Placement assistance"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "state": {
+        "value": 20,
+        "label": "Jharkhand"
+      },
+      "nodalDepartmentName": {
+        "value": 2000022,
+        "label": "Urban Development and Housing Department"
+      },
+      "schemeFor": "Family"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://msy.jharkhand.gov.in/sop"
+        },
+        {
+          "title": "Official Website",
+          "url": "https://msy.jharkhand.gov.in/"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The &quot;Mukhyamantri Shramik Yojana&quot; scheme by the Urban Development &amp; Housing Department, Government of Jharkhand aims to provide guaranteed employment to unskilled workers residing in urban areas. Under this scheme, eligible beneficiaries receive up to 100 days of employment per financial year in various urban development projects. \n",
+      "benefits_md": "\n- Guaranteed wage employment for a maximum of 100 days per financial year.\n- Improvement in living standards of urban poor families.\n- Employment opportunities in urban development projects like housing, sanitation, and road construction.\n- Ensuring social security for urban workers.\n- Contribution to urban cleanliness and green city initiatives.\n\n<br>\n\n***Job Card Issuance:***\n\n- Job cards can be obtained online, through community resource persons, urban local body offices, or ward-level camps.\n\n\n- Job card valid for 3 years with provisions for member addition/removal.\n\n<br>\n\n***Job Allocation Process:***\n\n- Workers can demand work online or through community resource persons.\n- Employment is assigned within 15 working days.\n- Job allocation details are sent via SMS and can be accessed on the portal.\n\n",
+      "exclusions_md": "<br>\n\n",
+      "briefDescription": "The \"Mukhyamantri Shramik Yojana\" scheme by the Urban Development & Housing Department, Government of Jharkhand aims to provide guaranteed employment to unskilled urban workers. It offers up to 100 days of employment in urban development projects.",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The \"Mukhyamantri Shramik Yojana\" scheme by the Urban Development & Housing Department, Government of Jharkhand aims to provide guaranteed employment to unskilled workers residing in urban areas. Under this scheme, eligible beneficiaries receive up to 100 days of employment per financial year in various urban development projects. "
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 2,
+        "value": "in-kind",
+        "label": "In Kind"
+      },
+      "benefits": [
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Guaranteed wage employment for a maximum of 100 days per financial year."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Improvement in living standards of urban poor families."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Employment opportunities in urban development projects like housing, sanitation, and road construction."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Ensuring social security for urban workers."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Contribution to urban cleanliness and green city initiatives."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Job Card Issuance:",
+              "bold": true,
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Job cards can be obtained online, through community resource persons, urban local body offices, or ward-level camps."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Job card valid for 3 years with provisions for member addition/removal."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Job Allocation Process:",
+              "bold": true,
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Workers can demand work online or through community resource persons."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Employment is assigned within 15 working days."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Job allocation details are sent via SMS and can be accessed on the portal."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "exclusions": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Online",
+        "process": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Job Card Apply Process:",
+                "bold": true,
+                "italic": true,
+                "underline": true
+              }
+            ]
+          },
+          {
+            "type": "ul_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Visit the official website of Mukhyamantri Shramik Yojana: msy.jharkhand.gov.in"
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Click on the \"Application\" link/button."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Select \"Apply for Job Card\"."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Fill out the form with the required information, such as your address, Aadhaar card number, mobile number, etc."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "If you need to add additional family members, click on the \"Add More\" button and fill in their details."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Accept the terms and conditions and complete the captcha verification."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Click on the \"Submit\" button."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Your job card application number will be generated and displayed. "
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Job Card Download Process:",
+                "bold": true,
+                "italic": true,
+                "underline": true
+              }
+            ]
+          },
+          {
+            "type": "ul_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Visit the official website and click on the \"Download Job Card\""
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Enter your Job Card Number and Aadhaar Number. "
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Complete the captcha verification."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Click the \"Submit\" to download the card."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "After Generated the Job Card Raise a Request for \"Demand Work\":",
+                "bold": true,
+                "italic": true,
+                "underline": true
+              }
+            ]
+          },
+          {
+            "type": "ul_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Click on the \"Demand Work\""
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Fill Job Card Number and Aadhaar Card Number."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Fill in the Demand Days (specify the number of days for which you are demanding work)."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Complete the captcha verification. "
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Submit the request."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Work allocation details will be sent via SMS to the registered mobile number and will also be available on the scheme’s portal."
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "process_md": "***Job Card Apply Process:***\n\n- Visit the official website of Mukhyamantri Shramik Yojana: msy.jharkhand.gov.in\n- Click on the &quot;Application&quot; link/button.\n- Select &quot;Apply for Job Card&quot;.\n- Fill out the form with the required information, such as your address, Aadhaar card number, mobile number, etc.\n- If you need to add additional family members, click on the &quot;Add More&quot; button and fill in their details.\n- Accept the terms and conditions and complete the captcha verification.\n- Click on the &quot;Submit&quot; button.\n- Your job card application number will be generated and displayed. \n\n***Job Card Download Process:***\n\n- Visit the official website and click on the &quot;Download Job Card&quot;\n- Enter your Job Card Number and Aadhaar Number. \n- Complete the captcha verification.\n- Click the &quot;Submit&quot; to download the card.\n\n***After Generated the Job Card Raise a Request for &quot;Demand Work&quot;:***\n\n- Click on the &quot;Demand Work&quot;\n- Fill Job Card Number and Aadhaar Card Number.\n- Fill in the Demand Days (specify the number of days for which you are demanding work).\n- Complete the captcha verification. \n- Submit the request.\n- Work allocation details will be sent via SMS to the registered mobile number and will also be available on the scheme’s portal.\n\n"
+      },
+      {
+        "mode": "Offline",
+        "process": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 1: ",
+                "bold": true
+              },
+              {
+                "text": "The interested applicant should visit (during office hours) the designated Community Resource Person in the respective ward/NULM (National Urban Livelihoods Mission) Cell of the Urban Local Body and request a hard copy of the prescribed format of the application form from the staff exclusively entrusted to issue and collect filled-in applications."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2:",
+                "bold": true
+              },
+              {
+                "text": " In the application form, fill in all the mandatory fields, and attach copies of all the mandatory documents (self-attest, if required)."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 3:",
+                "bold": true
+              },
+              {
+                "text": " Submit the duly filled and signed application form along with the documents to the designated Community Resource Person in the respective ward/NULM (National Urban Livelihoods Mission) Cell of the Urban Local Body."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 4:",
+                "bold": true
+              },
+              {
+                "text": " Request a receipt or acknowledgment from the concerned authority to whom the application has been submitted. Ensure that the receipt contains essential details such as the date and time of submission, and a unique identification number (if applicable)."
+              }
+            ]
+          }
+        ],
+        "process_md": "**Step 1:** The interested applicant should visit (during office hours) the designated Community Resource Person in the respective ward/NULM (National Urban Livelihoods Mission) Cell of the Urban Local Body and request a hard copy of the prescribed format of the application form from the staff exclusively entrusted to issue and collect filled-in applications.\n**Step 2:** In the application form, fill in all the mandatory fields, and attach copies of all the mandatory documents (self-attest, if required).\n**Step 3:** Submit the duly filled and signed application form along with the documents to the designated Community Resource Person in the respective ward/NULM (National Urban Livelihoods Mission) Cell of the Urban Local Body.\n**Step 4:** Request a receipt or acknowledgment from the concerned authority to whom the application has been submitted. Ensure that the receipt contains essential details such as the date and time of submission, and a unique identification number (if applicable).\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n1. The applicant should be an unskilled worker willing to work in urban areas.\n1. The applicant must be a resident of Jharkhand and living in an urban local body (own/rented/slum) since before April 1, 2015.\n1. The applicant should be 18 years or older.\n1. The disabled person, women in special circumstances, and senior citizens above 65 years are also eligible to apply. \n\n",
+      "eligibilityDescription": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should be an unskilled worker willing to work in urban areas."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must be a resident of Jharkhand and living in an urban local body (own/rented/slum) since before April 1, 2015."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should be 18 years or older."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The disabled person, women in special circumstances, and senior citizens above 65 years are also eligible to apply. "
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "jmsy"
+}

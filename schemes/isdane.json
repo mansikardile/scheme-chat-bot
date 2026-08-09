@@ -1,0 +1,584 @@
+{
+  "_id": "6459de5243e51a1da856a54e",
+  "en": {
+    "basicDetails": {
+      "schemeOpenDate": null,
+      "schemeCloseDate": null,
+      "state": {
+        "value": 2,
+        "label": "Himachal Pradesh"
+      },
+      "nodalMinistryName": null,
+      "nodalDepartmentName": {
+        "value": 21111135,
+        "label": "Labour and Employment Department, Himachal Pradesh"
+      },
+      "otherMinistryName": null,
+      "otherDepartmentNames": null,
+      "targetBeneficiaries": null,
+      "schemeSubCategory": null,
+      "dbtScheme": null,
+      "implementingAgency": null,
+      "tags": [
+        "Skill",
+        "Training",
+        "Youth",
+        "Allowance"
+      ],
+      "schemeName": "Industrial Skill Development Allowance To The New Employees Employed In Industries In H.p",
+      "schemeShortTitle": "Isdane",
+      "level": {
+        "value": "state",
+        "label": "State"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce85cd6d1a3bde4685304",
+          "label": "Skills & Employment"
+        }
+      ],
+      "schemeType": null,
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Official Notification",
+          "url": "https://himachal.nic.in/WriteReadData/l892s/14_l892s/SDA-93604762.pdf"
+        }
+      ],
+      "schemeImageUrl": "",
+      "briefDescription": "The Industrial Skill Development Allowance scheme, as announced in the Budget Speech of the Hon'ble Chief Minister for the Financial Year 2018-19, aims to provide financial assistance to eligible individuals employed in industries in Himachal Pradesh for their on-the-job skill upgradation",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "a) The Industrial Skill Development Allowance scheme aims to support eligible Himachali youth in enhancing their skills while working in an Industry or Industrial Establishment. This scheme is designed to provide financial assistance to individuals seeking on-the-job skill upgradation opportunities."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "b) By participating in this scheme, the Himachali youth will have the chance to develop their skills and gain valuable experience in their respective employment sectors. This, in turn, will significantly enhance their employability prospects and open doors to better employment opportunities."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "c) Under the provisions of this scheme, all apprentices and fresh recruits who meet the eligibility criteria will be entitled to receive the Industrial Skill Development Allowance. This allowance serves as a financial aid to assist the youth in meeting their living expenses while actively engaged in skill development activities within the industry. The scheme recognizes the importance of continuous skill enhancement and aims to support the youth in their pursuit of professional growth and development."
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Skill Development: The scheme provides an opportunity for new employees in industries in Himachal Pradesh to upgrade their skills through on-the-job training. It enables them to gain practical experience and enhance their employability."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Better Employment Prospects: By participating in the scheme, eligible individuals can develop their skills and improve their chances of securing better employment opportunities. The scheme aims to equip them with the necessary skills demanded by industries, making them more competitive in the job market."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Inclusive Approach: The scheme does not impose any minimum educational qualification requirements, making it accessible to individuals with various educational backgrounds, including those with limited formal education. This inclusive approach ensures that even individuals with lower qualifications can benefit from the scheme."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Financial Support: Through the Industrial Skill Development Allowance, eligible participants receive a monthly allowance. This financial support helps them meet their living expenses while they focus on their skill development and training, reducing the financial burden during the learning period."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Disability Support: The scheme recognizes the needs of physically challenged individuals by providing them with a higher allowance rate if they have a minimum of 50% permanent disability. This provision promotes inclusivity and supports the skill development of persons with disabilities."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Age Flexibility: The scheme caters to individuals aged 18 to below 36 years, providing an opportunity for young adults and those in their early career stages to enhance their skills. It targets the age group where skill development and employment opportunities are crucial for personal and professional growth."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "exclusions": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Individuals above the age of 36: The scheme sets the age limit for beneficiaries from 18 to below 36 years. Individuals outside this age bracket are excluded from availing the benefits of the scheme."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Individuals with higher educational qualifications: The scheme is primarily targeted towards individuals with limited formal education. Those who possess higher educational qualifications, such as a bachelor's degree or above, are excluded from the scheme."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Non-residents of Himachal Pradesh: The scheme is specifically designed for residents of Himachal Pradesh. Individuals who do not meet the residency criteria are not eligible to participate in the scheme."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Individuals not registered with Employment Exchanges: To be eligible for the scheme, individuals must be registered with the Employment Exchanges in Himachal Pradesh. Those who are not registered or fail to fulfill this requirement are excluded from the benefits."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Individuals engaged in regular employment: The scheme aims to provide skill development opportunities to unemployed individuals. Therefore, individuals who are already engaged in regular employment or self-employment are generally excluded from availing the benefits of the scheme."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "detailedDescription_md": "a) The Industrial Skill Development Allowance scheme aims to support eligible Himachali youth in enhancing their skills while working in an Industry or Industrial Establishment. This scheme is designed to provide financial assistance to individuals seeking on-the-job skill upgradation opportunities.\n<br>\n\nb) By participating in this scheme, the Himachali youth will have the chance to develop their skills and gain valuable experience in their respective employment sectors. This, in turn, will significantly enhance their employability prospects and open doors to better employment opportunities.\n<br>\n\nc) Under the provisions of this scheme, all apprentices and fresh recruits who meet the eligibility criteria will be entitled to receive the Industrial Skill Development Allowance. This allowance serves as a financial aid to assist the youth in meeting their living expenses while actively engaged in skill development activities within the industry. The scheme recognizes the importance of continuous skill enhancement and aims to support the youth in their pursuit of professional growth and development.\n"
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "url": "",
+        "process": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 1: Gather Required Documents"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Ensure that you have the necessary documents for the application, including:"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Form-(i): Application form for the grant of allowance."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Certificate of Employment from the competent Officer/Authority of the concerned Industrial Establishment (as per form-(vi) appended in the Scheme)."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Affidavit (as per form(iii)) to be submitted in the subsequent month of March."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2: Complete the Application Form"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Fill out the application form (Form-(i)) accurately with all the required information."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Include the necessary details such as personal information, employment details, and any other information as specified in the form."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Make sure to attach the Certificate of Employment and any other supporting documents as mentioned in the form."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 3: Submission Option 1 - In Person"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Visit the Employment Exchange in Himachal Pradesh where your name is registered."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Submit the duly completed application form along with the required documents."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Obtain a receipt as proof of submission (Form (ii))."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 3: Submission Option 2 - By Post"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Send the completed application form along with the required documents by post to the Employment Exchange in Himachal Pradesh where your name is registered."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Ensure that the envelope is properly addressed and has the correct postage."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "It is advisable to send the application by registered or certified mail to track its delivery."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 4: Affidavit Submission (Applicable for subsequent months of March)"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "If your initial claim is approved, you will be required to submit an Affidavit (as per form(iii)) in the subsequent month of March."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Prepare the Affidavit as per the prescribed format and submit it to the Employment Exchange where your name is registered."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 5: Application Processing"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "The Employment Exchange will thoroughly scrutinize the received applications within 45 days."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "The eligibility for the allowance will be assessed based on the provided documents and information."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "If the claim is found to be inadmissible, suitable orders (as per form (iv)) will be issued to inform the applicant."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 6: Appeal (if necessary)"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "If you are aggrieved by the decision communicated in the orders issued under Step 5, you have the option to file an appeal."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "The appeal should be addressed to the Director."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "The decision of the Director on the appeal will be final."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n1. Age: The scheme is open to individuals between the ages of 18 and below 36 years. Those falling within this age range are eligible to participate in the scheme.\n1. Educational Qualification: The scheme primarily targets individuals with limited formal education. The specific educational qualifications required may vary depending on the type of skill development program. Generally, individuals with lower levels of educational attainment are given priority.\n1. Residence: The scheme is specifically designed for residents of Himachal Pradesh. Applicants must be permanent residents of the state to be eligible for the scheme.\n1. Employment Exchange Registration: Eligible individuals should be registered with the Employment Exchanges in Himachal Pradesh. This registration is necessary to avail the benefits and opportunities provided by the scheme.\n1. Unemployed Status: The scheme primarily aims to provide skill development opportunities to unemployed individuals. Therefore, applicants should be currently unemployed and seeking employment to be eligible for participation.\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Age: The scheme is open to individuals between the ages of 18 and below 36 years. Those falling within this age range are eligible to participate in the scheme."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Educational Qualification: The scheme primarily targets individuals with limited formal education. The specific educational qualifications required may vary depending on the type of skill development program. Generally, individuals with lower levels of educational attainment are given priority."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Residence: The scheme is specifically designed for residents of Himachal Pradesh. Applicants must be permanent residents of the state to be eligible for the scheme."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Employment Exchange Registration: Eligible individuals should be registered with the Employment Exchanges in Himachal Pradesh. This registration is necessary to avail the benefits and opportunities provided by the scheme."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Unemployed Status: The scheme primarily aims to provide skill development opportunities to unemployed individuals. Therefore, applicants should be currently unemployed and seeking employment to be eligible for participation."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "isdane"
+}

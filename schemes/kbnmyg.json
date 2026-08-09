@@ -1,0 +1,460 @@
+{
+  "_id": "68bb0dac06a34a399e24fa1e",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Financial Assistance",
+        "Women",
+        "Scheduled Tribe",
+        "Marriage"
+      ],
+      "schemeName": "Kunwar Bai Nu Mameru Yojana Gujarat",
+      "schemeShortTitle": "KBNMYG",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce87cd6d1a3bde4685312",
+          "label": "Social welfare & Empowerment"
+        },
+        {
+          "value": "64f57d10ffb93104c7006c97",
+          "label": "Women and Child"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Financial assistance",
+          "label": "Financial assistance"
+        },
+        {
+          "value": "Financial Assistance",
+          "label": "Financial Assistance"
+        },
+        {
+          "value": "Marriage",
+          "label": "Marriage"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "schemeFor": "Individual",
+      "state": {
+        "value": 24,
+        "label": "Gujarat"
+      },
+      "nodalDepartmentName": {
+        "value": 2444467,
+        "label": "Tribal Development Department"
+      }
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://evanbandhu.gujarat.gov.in/index.aspx?ServiceID=duJMDyg6dmO007n6aojWGQ=="
+        },
+        {
+          "title": "Scheme Details",
+          "url": "https://mariyojana.gujarat.gov.in/Schemeatoz.aspx"
+        },
+        {
+          "title": "Official Website",
+          "url": "https://tribal.gujarat.gov.in/home"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The &quot;Kunwar Bai Nu Mameru Yojana&quot; was launched by the Tribal Development Department, Government of Gujarat. The scheme aims to provide financial assistance to families of Scheduled Tribe (ST) girls at the time of their marriage. Under this scheme, a financial benefit per couple is provided to ensure economic support to families and to encourage social welfare.\n<br>\n\n",
+      "benefits_md": "Financial assistance of ₹12,000/- per couple is provided during the marriage. \n<br>\n\n",
+      "exclusions_md": "In case of remarriage, benefits under this scheme will not be eligible.\n<br>\n\n",
+      "briefDescription": "The scheme aims to provide financial support to ST families during the marriage of girls, providing ₹12,000 per couple as financial assistance to eligible tribal women across the state.",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The \"Kunwar Bai Nu Mameru Yojana\" was launched by the Tribal Development Department, Government of Gujarat. The scheme aims to provide financial assistance to families of Scheduled Tribe (ST) girls at the time of their marriage. Under this scheme, a financial benefit per couple is provided to ensure economic support to families and to encourage social welfare."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Financial assistance of ₹12,000/- per couple is provided during the marriage. "
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ],
+      "exclusions": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "In case of remarriage, benefits under this scheme will not be eligible."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Online",
+        "process": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Registration Process",
+                "bold": true,
+                "underline": true,
+                "italic": true
+              }
+            ]
+          },
+          {
+            "type": "ul_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Visit the Directorate of Tribal Development "
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://evanbandhu.gujarat.gov.in/index.aspx",
+                    "children": [
+                      {
+                        "text": "official website"
+                      }
+                    ]
+                  },
+                  {
+                    "text": ". "
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Click on the \""
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://evanbandhu.gujarat.gov.in/Registration.aspx",
+                    "children": [
+                      {
+                        "text": "Please Register Here link"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "\"."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Fill the registration form: Full Name (as per Aadhaar Card), Gender, Date of Birth, Aadhaar Number, Email ID, Caste, Mobile Number"
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Password for login, Confirm Password."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Click on the \"Confirm\" tab."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "After successful registration, User ID and Password will be sent via SMS."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Login Process",
+                "bold": true,
+                "underline": true,
+                "italic": true
+              }
+            ]
+          },
+          {
+            "type": "ul_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Enter User ID, Password, and Captcha Code."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "After login, schemes applicable to your caste will be displayed."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Click on the scheme you want to apply for."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Fill the \"Application Form\" and upload the required documents"
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Click Save Application. The system will generate an Application Number."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Click Print Application."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Track Application",
+                "bold": true,
+                "underline": true,
+                "italic": true
+              }
+            ]
+          },
+          {
+            "type": "ul_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Click View Application Status."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Enter Application Number and Date of Birth."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Click view Status to check the status of your application."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "",
+                "italic": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "italic": true,
+                "text": "*The application for assistance has to be made within two years of the engagement."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "*Kunwarbai's Mameru scheme will be eligible for support from the district where the saat phera mass marriage is held.",
+                "italic": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "*The beneficiary girl participating in the mass marriage will be eligible to get benefits under both these schemes if she fulfills all the conditions of the Seven Phera Group Marriage Scheme as well as Kunwarbai's Mameru Scheme.",
+                "italic": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          }
+        ],
+        "process_md": "***Registration Process***\n\n- Visit the Directorate of Tribal Development [official website](https://evanbandhu.gujarat.gov.in/index.aspx). - Click on the &quot;[Please Register Here link](https://evanbandhu.gujarat.gov.in/Registration.aspx)&quot;.- Fill the registration form: Full Name (as per Aadhaar Card), Gender, Date of Birth, Aadhaar Number, Email ID, Caste, Mobile Number\n- Password for login, Confirm Password.\n- Click on the &quot;Confirm&quot; tab.\n- After successful registration, User ID and Password will be sent via SMS.\n\n***Login Process***\n\n- Enter User ID, Password, and Captcha Code.\n- After login, schemes applicable to your caste will be displayed.\n- Click on the scheme you want to apply for.\n- Fill the &quot;Application Form&quot; and upload the required documents\n- Click Save Application. The system will generate an Application Number.\n- Click Print Application.\n\n***Track Application***\n\n- Click View Application Status.\n- Enter Application Number and Date of Birth.\n- Click view Status to check the status of your application.\n\n<br>\n\n_*The application for assistance has to be made within two years of the engagement._\n_*Kunwarbai&#39;s Mameru scheme will be eligible for support from the district where the saat phera mass marriage is held._\n_*The beneficiary girl participating in the mass marriage will be eligible to get benefits under both these schemes if she fulfills all the conditions of the Seven Phera Group Marriage Scheme as well as Kunwarbai&#39;s Mameru Scheme._\n<br>\n\n<br>\n\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n1. The applicant must be a native of the Gujarat. \n1. The applicant must belong to a Scheduled Tribe. \n1. The applicant&#39;s annual family income must not exceed ₹6,00,000/-.\n1. The benefits under this scheme are eligible for till the occasion of the marriage of two (2) adult girls of the family.\n1. The bride&#39;s age must be 18 years at the time of marriage.\n1. The groom&#39;s age must be 21 years at the time of marriage. \n\n<br>\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must be a native of the Gujarat. "
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must belong to a Scheduled Tribe. "
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant's annual family income must not exceed ₹6,00,000/-."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The benefits under this scheme are eligible for till the occasion of the marriage of two (2) adult girls of the family."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The bride's age must be 18 years at the time of marriage."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The groom's age must be 21 years at the time of marriage. "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "kbnmyg"
+}

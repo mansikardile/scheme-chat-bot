@@ -1,0 +1,496 @@
+{
+  "_id": "68e3b220e00490d9b333e2fe",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Student",
+        "Education",
+        "Insurance",
+        "Accident",
+        "Death",
+        "Disability"
+      ],
+      "schemeName": "Vidhyadeep Yojana",
+      "schemeShortTitle": "VY",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce7f6d6d1a3bde46852d0",
+          "label": "Banking,Financial Services and Insurance"
+        }
+      ],
+      "schemeSubCategory": null,
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "schemeFor": "Individual",
+      "state": {
+        "value": 24,
+        "label": "Gujarat"
+      },
+      "nodalDepartmentName": {
+        "value": 2444444,
+        "label": "Education Department"
+      }
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines (Education Department)",
+          "url": "https://dpe.gujarat.gov.in/Primary/SchemesDetailsPage?id=ArRrL0sH2Kx38oCwT5w4PA=="
+        },
+        {
+          "title": "Guidelines (Commissionerate Of Schools)",
+          "url": "https://cos.gujarat.gov.in/Home/SchemesDetailsPage/IVf4y2kDy%E2%9C%A4hLkKH1ioD8IA%E2%99%AC%E2%99%AC"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The scheme “Vidhyadeep Yojana” was launched by the Education Department, Government of Gujarat. The scheme aims to provide insurance cover to students studying in primary, secondary, and higher secondary schools in the State. The scheme provides maximum financial assistance up to ₹50,000/- per student in case of accidental death or permanent total disability. The scheme is implemented by the State Insurance Fund (Directorate of Insurance) or private/public sector general insurance companies. The applications for this scheme are accepted by the Office of the District Primary Education Officer / District Education Officer / Administrative Officer (through the Principal of the school concerned).\n<br>\n\n",
+      "benefits_md": "> ***Accidental Death***\n\n₹50,000/- per student.\n> ***Accidental Permanent Disability***\n\n\n- In case of loss of two eyes or both limbs or arm/leg due to accident: ₹50,000/-.\n- In case of loss of one eye and one limb due to accident: ₹50,000/-.\n- In case of loss of one eye or one limb due to accident: ₹25,000/-.\n\n> ***Conditions***\n\n\n- The incident must be unexpected, sudden, and unintentional, and show visible signs of external violence.\n- The claim application must be submitted to the Nodal Officer within ninety (90) days from the date of the accident or death.\n- The benefit amount must not be paid for more than one category if the beneficiary is covered under multiple categories of the overall scheme.\n\n<br>\n\n",
+      "briefDescription": "The scheme aims to provide accidental insurance cover to students studying in all Primary, Secondary, and Higher Secondary schools across Gujarat State. It offers financial assistance up to ₹50,000/- in case of accidental death or permanent disability to the student's parent or successor.",
+      "exclusions_md": "\n- The claim will not be accepted if the death or injury is due to suicide or attempted suicide, natural death, or any act against the law.\n- The claim will not be accepted if the death or injury is caused by any disease, age-related factors, food poisoning, or polio.\n- The claim will not be accepted if the death or injury is due to the deceased&#39;s gross negligence, such as driving a vehicle without an effective and valid driving license as per the Motor Vehicle Act, 1988, Section 3.\n\n<br>\n\n",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The scheme “Vidhyadeep Yojana” was launched by the Education Department, Government of Gujarat. The scheme aims to provide insurance cover to students studying in primary, secondary, and higher secondary schools in the State. The scheme provides maximum financial assistance up to ₹50,000/- per student in case of accidental death or permanent total disability. The scheme is implemented by the State Insurance Fund (Directorate of Insurance) or private/public sector general insurance companies. The applications for this scheme are accepted by the Office of the District Primary Education Officer / District Education Officer / Administrative Officer (through the Principal of the school concerned)."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "Accidental Death",
+              "bold": true,
+              "underline": true,
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "₹50,000/- per student."
+            }
+          ]
+        },
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "Accidental Permanent Disability",
+              "bold": true,
+              "underline": true,
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "In case of loss of two eyes or both limbs or arm/leg due to accident: ₹50,000/-."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "In case of loss of one eye and one limb due to accident: ₹50,000/-."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "In case of loss of one eye or one limb due to accident: ₹25,000/-."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "Conditions",
+              "bold": true,
+              "underline": true,
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The incident must be unexpected, sudden, and unintentional, and show visible signs of external violence."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The claim application must be submitted to the Nodal Officer within ninety (90) days from the date of the accident or death."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The benefit amount must not be paid for more than one category if the beneficiary is covered under multiple categories of the overall scheme."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ],
+      "exclusions": [
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The claim will not be accepted if the death or injury is due to suicide or attempted suicide, natural death, or any act against the law."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The claim will not be accepted if the death or injury is caused by any disease, age-related factors, food poisoning, or polio."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The claim will not be accepted if the death or injury is due to the deceased's gross negligence, such as driving a vehicle without an effective and valid driving license as per the Motor Vehicle Act, 1988, Section 3."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "process": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 1:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " The applicant must obtain the necessary application forms and annexures through the Principal of the concerned school where the student was studying."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " The applicant must fully and comprehensively fill out the prescribed application form and gather all mandatory supporting documents to substantiate the claim. The application must be accompanied by the original Identity Card."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 3:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " The applicant (the heir in case of death, or the beneficiary in case of permanent disability) must submit the completed application along with all required proofs to the local Nodal/Competent Officer of the controlling office of the relevant department. This submission must be done in person (not via post) within ninety (90) days from the date of the accident or death."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 4:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " The Nodal Officer is responsible for fully checking and verifying the application and must forward the application, along with a certification in the prescribed format, to the Office of the Director of Insurance or the Insurance Company. This forwarding must occur within thirty (30) days of the Nodal Officer receiving the application."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "heading_five",
+            "children": [
+              {
+                "text": "Post-Application Processes",
+                "bold": true,
+                "underline": true,
+                "italic": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 1:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "bold": true,
+                "text": " "
+              },
+              {
+                "bold": true,
+                "text": "Resolution by Insurer",
+                "italic": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "The Insurance Company or the State Insurance Fund must decide on the claim approval or rejection within sixty (60) days of receiving the application with complete and satisfactory information/documents."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "bold": true,
+                "text": " "
+              },
+              {
+                "bold": true,
+                "text": "Claim Closure Timeline",
+                "italic": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "If the applicant fails to provide all requested documentation and fulfillments within the stipulated time, the claim will be closed automatically. The claim will also be permanently closed twelve months after the date of the accident/death, and no reconsideration request will be accepted thereafter."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "*If a claim is rejected, the beneficiary or their heir must first submit a representation to the designated Review Committee within thirty (30) days.",
+                "italic": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "*Legal action against the Review Committee's decision can only be pursued after filing the review, and the legal/quasi-judicial/judicial jurisdiction is exclusively in Gandhinagar.",
+                "italic": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "*Claim inquiries or representations must be made only by the applicant or beneficiary themselves, excluding any third parties like agents or lawyers.",
+                "italic": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          }
+        ],
+        "process_md": "**Step 1:** The applicant must obtain the necessary application forms and annexures through the Principal of the concerned school where the student was studying.\n**Step 2:** The applicant must fully and comprehensively fill out the prescribed application form and gather all mandatory supporting documents to substantiate the claim. The application must be accompanied by the original Identity Card.\n**Step 3:** The applicant (the heir in case of death, or the beneficiary in case of permanent disability) must submit the completed application along with all required proofs to the local Nodal/Competent Officer of the controlling office of the relevant department. This submission must be done in person (not via post) within ninety (90) days from the date of the accident or death.\n**Step 4:** The Nodal Officer is responsible for fully checking and verifying the application and must forward the application, along with a certification in the prescribed format, to the Office of the Director of Insurance or the Insurance Company. This forwarding must occur within thirty (30) days of the Nodal Officer receiving the application.\n<br>\n\n##### ***Post-Application Processes***\n**Step 1:****** ***Resolution by Insurer***\nThe Insurance Company or the State Insurance Fund must decide on the claim approval or rejection within sixty (60) days of receiving the application with complete and satisfactory information/documents.\n**Step 2:****** ***Claim Closure Timeline***\nIf the applicant fails to provide all requested documentation and fulfillments within the stipulated time, the claim will be closed automatically. The claim will also be permanently closed twelve months after the date of the accident/death, and no reconsideration request will be accepted thereafter.\n<br>\n\n_*If a claim is rejected, the beneficiary or their heir must first submit a representation to the designated Review Committee within thirty (30) days._\n_*Legal action against the Review Committee&#39;s decision can only be pursued after filing the review, and the legal/quasi-judicial/judicial jurisdiction is exclusively in Gandhinagar._\n_*Claim inquiries or representations must be made only by the applicant or beneficiary themselves, excluding any third parties like agents or lawyers._\n<br>\n\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "> ***For the Student Beneficiary***\n\n\n- The beneficiary must be a student studying in all Primary, Secondary, and Higher Secondary schools of Gujarat.\n\n> ***For the Applicant/Claimant***\n\n\n- The applicant must be the successor or the disabled beneficiary themselves in case of permanent disability.\n- The applicant must appear in person with the original identity card.\n- The applicant must submit the written application in the prescribed format to the local Nodal/Competent Officer.\n- The application must be submitted within ninety (90) days from the date of death or accident.\n\n<br>\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "For the Student Beneficiary",
+              "bold": true,
+              "underline": true,
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The beneficiary must be a student studying in all Primary, Secondary, and Higher Secondary schools of Gujarat."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "For the Applicant/Claimant",
+              "bold": true,
+              "underline": true,
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must be the successor or the disabled beneficiary themselves in case of permanent disability."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must appear in person with the original identity card."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must submit the written application in the prescribed format to the local Nodal/Competent Officer."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The application must be submitted within ninety (90) days from the date of death or accident."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "vy"
+}

@@ -1,0 +1,227 @@
+{
+  "_id": "6429221904c8c8e6936153f9",
+  "en": {
+    "basicDetails": {
+      "schemeOpenDate": null,
+      "schemeCloseDate": null,
+      "state": {
+        "value": 14,
+        "label": "Manipur"
+      },
+      "nodalMinistryName": null,
+      "nodalDepartmentName": {
+        "value": 1444455,
+        "label": "Family Welfare Department"
+      },
+      "otherMinistryName": null,
+      "otherDepartmentNames": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Aids/Appliances",
+          "label": "Aids/Appliances"
+        },
+        {
+          "value": "Financial assistance",
+          "label": "Financial assistance"
+        }
+      ],
+      "dbtScheme": null,
+      "implementingAgency": "District Social Welfare Offices",
+      "tags": [
+        "Financial Asisstance",
+        "Person With Disability",
+        "Social Welfare",
+        "PwD"
+      ],
+      "schemeName": "Scheme Of Assistance To Persons With Disabilities For Purchase/Fitting Of Aids And Appliances",
+      "schemeShortTitle": "SAPWDPFAA",
+      "level": {
+        "value": "state",
+        "label": "State"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce87cd6d1a3bde4685312",
+          "label": "Social welfare & Empowerment"
+        }
+      ],
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://socialwelfare.mn.gov.in/media/filer_public/b4/0d/b40d053e-337a-433f-96ba-7a88f17fa992/artificial_aids.pdf"
+        },
+        {
+          "title": "Application Form",
+          "url": "https://socialwelfare.mn.gov.in/media/filer_public/b4/0d/b40d053e-337a-433f-96ba-7a88f17fa992/artificial_aids.pdf"
+        }
+      ],
+      "schemeImageUrl": "",
+      "briefDescription": "\"Scheme of Assistance to Persons with Disabilities for Purchase/Fitting of Aids and Appliances\" is a scheme by the Social Welfare Department, Govt. of Manipur. In this scheme, the PwD is provided with Financial Assistance for the Purchase/Fitting of Hearing Aids, Artificial Limbs, etc.",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "\"Scheme of Assistance to Persons with Disabilities for Purchase/Fitting of Aids and Appliances\" is a scheme by the Social Welfare Department, Govt. of Manipur. In this scheme, the Person with a Disability is provided with Financial Assistance for the Purchase/Fitting of Hearing Aids, Artificial Limbs, and Other Appliances. This is a State Sponsored Scheme and only the citizens who are domiciled in the State of Manipur can apply for this scheme. The percentage of disability of the applicant should be 40% and above. The application should be submitted through the respective District Social Welfare Officer."
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Financial Assistance for the Purchase/Fitting of Hearing Aids, Artificial Limbs, and Other Appliances."
+            }
+          ]
+        }
+      ],
+      "exclusions": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ],
+      "detailedDescription_md": "&quot;Scheme of Assistance to Persons with Disabilities for Purchase/Fitting of Aids and Appliances&quot; is a scheme by the Social Welfare Department, Govt. of Manipur. In this scheme, the Person with a Disability is provided with Financial Assistance for the Purchase/Fitting of Hearing Aids, Artificial Limbs, and Other Appliances. This is a State Sponsored Scheme and only the citizens who are domiciled in the State of Manipur can apply for this scheme. The percentage of disability of the applicant should be 40% and above. The application should be submitted through the respective District Social Welfare Officer.\n"
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "url": "https://socialwelfare.mn.gov.in/media/filer_public/b4/0d/b40d053e-337a-433f-96ba-7a88f17fa992/artificial_aids.pdf",
+        "process": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 1: ",
+                "bold": true
+              },
+              {
+                "text": "The "
+              },
+              {
+                "type": "link",
+                "link": "https://socialwelfare.mn.gov.in/media/filer_public/b4/0d/b40d053e-337a-433f-96ba-7a88f17fa992/artificial_aids.pdf",
+                "children": [
+                  {
+                    "text": "application form "
+                  }
+                ]
+              },
+              {
+                "text": "can be downloaded from the Department’s website www.socialwelfare.nic.in or collected from the District Social Welfare Offices, Office of CDPOs. The application forms are also available during MeeyamgiNumit at Chief Minister’s Darbar Hall."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2: ",
+                "bold": true
+              },
+              {
+                "text": "Fill in the mandatory fields of the Application Form, and attach the supporting (self-attested) documents and the passport-sized photograph."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 3: ",
+                "bold": true
+              },
+              {
+                "text": "Submit the form to the Office of the District Social Welfare Officer concerned."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 4: ",
+                "bold": true
+              },
+              {
+                "text": "The name of the selected beneficiaries will be made available on the Department's website or displayed on the notice board of the Directorate, Social Welfare/ District Social Welfare Offices."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n1. The applicant should be a domicile of the state of Manipur.\n1. The percentage of disability should be 40% and above.\n1. The applicant should not have received assistance during the last 3 years for the same purpose from any firm / approved organization. However, for children below 12 years of age, this limit would be one year.\n1. The monthly income of the applicant from all sources should not exceed ₹ 15,000/- per month.\n1. In the case of dependents, the income of parents/guardians should not exceed ₹ 15,000/- per month.\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should be a domicile of the state of Manipur."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The percentage of disability should be 40% and above."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should not have received assistance during the last 3 years for the same purpose from any firm / approved organization. However, for children below 12 years of age, this limit would be one year."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The monthly income of the applicant from all sources should not exceed ₹ 15,000/- per month."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "In the case of dependents, the income of parents/guardians should not exceed ₹ 15,000/- per month."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "sapwdpfaa"
+}

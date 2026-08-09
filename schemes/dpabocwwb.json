@@ -1,0 +1,650 @@
+{
+  "_id": "65bc7950ed4030e118c2a909",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": true,
+      "tags": [
+        "Pension",
+        "Building Worker",
+        "Construction Worker",
+        "Financial Assistance",
+        "Labour"
+      ],
+      "schemeName": "Disability Pension (A.B.O.C.W.W.B)",
+      "schemeShortTitle": "DP(ABOCWWB)",
+      "implementingAgency": "Assam Building And Other Construction Workers Welfare Board",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce87cd6d1a3bde4685312",
+          "label": "Social welfare & Empowerment"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Pension",
+          "label": "Pension"
+        },
+        {
+          "value": "Financial assistance",
+          "label": "Financial assistance"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "state": {
+        "value": 18,
+        "label": "Assam"
+      },
+      "nodalDepartmentName": {
+        "value": 1800027,
+        "label": "Labour & Welfare Department"
+      },
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Official Website",
+          "url": "https://labourcommissioner.assam.gov.in/portlet-innerpage/various-welfare-benefits-for-registered-construction-workers"
+        },
+        {
+          "title": "Application Portal",
+          "url": "https://abocwwb.assam.gov.in/"
+        },
+        {
+          "title": "User Manual",
+          "url": "https://labourcommissioner.assam.gov.in/sites/default/files/swf_utility_folder/departments/coi_labour_uneecopscloud_com_oid_14/portlet/level_2/sop_bocw_online_mode_for_uploading.pdf"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The scheme “Disability Pension” was started by the Assam Building and Other Construction Workers Welfare Board (A.B.O.C.W.W.B), Labour Welfare Department, Government of Assam. Under this scheme, the Board provides financial assistance as disability pension to a beneficiary who is permanently disabled due to paralysis leprosy, TB., accident etc. in addition to this pension he/she will be eligible for an one time Ex-gratia payment depending upon the percentage of disability and subject to such conditions as fixed by the Board.\n",
+      "benefits_md": "\n   1. A monthly disability pension of ₹2,000/- plus ₹100/- per month for every completed year of service from the year of registration will be given to the eligible beneficiary.\n   1. In addition to this pension, the beneficiary will also be eligible for a one-time Ex-gratia payment of not more than ₹3.00 Lakhs depending upon the percentage of disability and subject to such conditions as fixed by the Board.\n\n",
+      "briefDescription": "The Board provides financial assistance as disability pension to a beneficiary who is permanently disabled due to paralysis leprosy, TB., accident etc. in addition to this pension he/she will be eligible for an one time Ex-gratia payment depending upon the percentage of disability.",
+      "exclusions_md": "",
+      "detailedDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "The scheme “Disability Pension” was started by the Assam Building and Other Construction Workers Welfare Board (A.B.O.C.W.W.B), Labour Welfare Department, Government of Assam. Under this scheme, the Board provides financial assistance as disability pension to a beneficiary who is permanently disabled due to paralysis leprosy, TB., accident etc. in addition to this pension he/she will be eligible for an one time Ex-gratia payment depending upon the percentage of disability and subject to such conditions as fixed by the Board."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "ol_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "A monthly disability pension of ₹2,000/- plus ₹100/- per month for every completed year of service from the year of registration will be given to the eligible beneficiary."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "In addition to this pension, the beneficiary will also be eligible for a one-time Ex-gratia payment of not more than ₹3.00 Lakhs depending upon the percentage of disability and subject to such conditions as fixed by the Board."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Online",
+        "process": [
+          {
+            "type": "align_justify",
+            "children": [
+              {
+                "type": "block_quote",
+                "children": [
+                  {
+                    "text": "Registration Process under Assam Building and Other Construction Workers Welfare Board:",
+                    "bold": true,
+                    "underline": true
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 01:",
+                    "bold": true
+                  },
+                  {
+                    "text": " The eligible building & other construction workers can submit an online application through the official website: "
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://abocwwb.assam.gov.in/",
+                    "children": [
+                      {
+                        "text": "https://abocwwb.assam.gov.in/"
+                      }
+                    ]
+                  },
+                  {
+                    "text": ""
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 02:",
+                    "bold": true
+                  },
+                  {
+                    "text": " On the home page, click on ‘"
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://abocwwb.assam.gov.in/index.php/new-register",
+                    "children": [
+                      {
+                        "text": "Registration Page for New Worker"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "’ and a registration page will open. Fill in all the mandatory details and upload all the required documents."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 03:",
+                    "bold": true
+                  },
+                  {
+                    "text": " After filling out the form, a payment option shall then prompt to allow the applicant to make the payment using UPI-based modes/Cards/net banking or even Challan."
+                  }
+                ]
+              },
+              {
+                "type": "block_quote",
+                "children": [
+                  {
+                    "text": "Post-Registration Process:",
+                    "bold": true,
+                    "underline": true
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 01:",
+                    "bold": true
+                  },
+                  {
+                    "text": " The registering officer shall be notified of the applications successfully submitted and the Registering officer shall scrutinize the applications."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 02:",
+                    "bold": true
+                  },
+                  {
+                    "text": " The Registering Officer shall arrange for a scrutiny committee meeting every 15 days and place all applications received."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 03:",
+                    "bold": true
+                  },
+                  {
+                    "text": " The committee may recommend for approval, reject, or query the application. In case of queries, an SMS shall be sent to the applicant with a brief on the query. The applicant may re-upload the requisite documents as per the query raised by the Registering officer."
+                  }
+                ]
+              },
+              {
+                "type": "block_quote",
+                "children": [
+                  {
+                    "text": "Notification to the worker through SMS; ID generation:",
+                    "bold": true,
+                    "underline": true
+                  }
+                ]
+              },
+              {
+                "type": "ul_list",
+                "children": [
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "text": "Applications if approved shall be notified through SMS and ID card shall be generated automatically for approved applications."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "text": "The applicant shall be notified for each stage such as queries, rejection, and allied."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "",
+                    "bold": true,
+                    "underline": true
+                  }
+                ]
+              },
+              {
+                "type": "block_quote",
+                "children": [
+                  {
+                    "bold": true,
+                    "underline": true,
+                    "text": "Application Process to apply under the scheme:"
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 01:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Only active registered construction workers may login in through ID No./registered phone number and apply through the portal. "
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://abocwwb.assam.gov.in/",
+                    "children": [
+                      {
+                        "text": "https://abocwwb.assam.gov.in/"
+                      }
+                    ]
+                  },
+                  {
+                    "text": ""
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 02:",
+                    "bold": true
+                  },
+                  {
+                    "text": " On the home page of the portal, click on ‘"
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://abocwwb.assam.gov.in/index.php/Base/userLogin",
+                    "children": [
+                      {
+                        "text": "Login Now"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "’ and enter the Mobile Number or User ID. OTP received on the registered mobile number should be entered to complete the login."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 03:",
+                    "bold": true
+                  },
+                  {
+                    "text": " The individual console of the applicant gets opened with various functions such as detail updating, Fees due, and benefits eligible."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 04:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Click on ‘Benefit’ and select the applicable scheme under the benefit and the portal redirects to an online application form specific to the scheme."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 05:",
+                    "bold": true
+                  },
+                  {
+                    "text": " The applicant may fill up the application with all mandatory fields and upload the necessary documents."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 06:",
+                    "bold": true
+                  },
+                  {
+                    "text": " The applicant submits the application form and a tracking/reference number is generated as a future reference for the applicant."
+                  }
+                ]
+              },
+              {
+                "type": "block_quote",
+                "children": [
+                  {
+                    "text": "Post-Application Process:",
+                    "bold": true,
+                    "underline": true
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 01:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Successfully submitted applications pop up in the concerned Officers console. The officer may assign a subordinate to make verifications through the portal."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 02:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Subsequent to preliminary verification, the application is placed in the scrutiny committee for detailed checks."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 03:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Minutes of the Scrutiny Committee meeting get uploaded and Forwarded to the H.O."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 04:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Applications/ Pops up in the Officer’s Console of Head Office. Officer assigns to the Assistant concerned and allotted with the District concerned."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 05:",
+                    "bold": true
+                  },
+                  {
+                    "text": " The assistant processes the application through PFMS. Account details get auto-verified in PFMS."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 06:",
+                    "bold": true
+                  },
+                  {
+                    "text": " On successful PFMS verification, Print Advice is generated through PFMS."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 07:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Approving authority approves for disbursement of the benefit through PFMS.  "
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "("
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://labourcommissioner.assam.gov.in/sites/default/files/swf_utility_folder/departments/coi_labour_uneecopscloud_com_oid_14/portlet/level_2/sop_bocw_online_mode_for_uploading.pdf",
+                    "children": [
+                      {
+                        "text": "User Manual"
+                      }
+                    ]
+                  },
+                  {
+                    "text": ")"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "process_md": "&gt; **Registration Process under Assam Building and Other Construction Workers Welfare Board:**\n\n**Step 01:** The eligible building &amp;amp; other construction workers can submit an online application through the official website: [https://abocwwb.assam.gov.in/](https://abocwwb.assam.gov.in/)\n**Step 02:** On the home page, click on ‘[Registration Page for New Worker](https://abocwwb.assam.gov.in/index.php/new-register)’ and a registration page will open. Fill in all the mandatory details and upload all the required documents.\n**Step 03:** After filling out the form, a payment option shall then prompt to allow the applicant to make the payment using UPI-based modes/Cards/net banking or even Challan.\n&gt; **Post-Registration Process:**\n\n**Step 01:** The registering officer shall be notified of the applications successfully submitted and the Registering officer shall scrutinize the applications.\n**Step 02:** The Registering Officer shall arrange for a scrutiny committee meeting every 15 days and place all applications received.\n**Step 03:** The committee may recommend for approval, reject, or query the application. In case of queries, an SMS shall be sent to the applicant with a brief on the query. The applicant may re-upload the requisite documents as per the query raised by the Registering officer.\n&gt; **Notification to the worker through SMS; ID generation:**\n\n\n  - Applications if approved shall be notified through SMS and ID card shall be generated automatically for approved applications.\n  - The applicant shall be notified for each stage such as queries, rejection, and allied.\n\n&lt;br&gt;\n\n&gt; **Application Process to apply under the scheme:**\n\n**Step 01:** Only active registered construction workers may login in through ID No./registered phone number and apply through the portal. [https://abocwwb.assam.gov.in/](https://abocwwb.assam.gov.in/)\n**Step 02:** On the home page of the portal, click on ‘[Login Now](https://abocwwb.assam.gov.in/index.php/Base/userLogin)’ and enter the Mobile Number or User ID. OTP received on the registered mobile number should be entered to complete the login.\n**Step 03:** The individual console of the applicant gets opened with various functions such as detail updating, Fees due, and benefits eligible.\n**Step 04:** Click on ‘Benefit’ and select the applicable scheme under the benefit and the portal redirects to an online application form specific to the scheme.\n**Step 05:** The applicant may fill up the application with all mandatory fields and upload the necessary documents.\n**Step 06:** The applicant submits the application form and a tracking/reference number is generated as a future reference for the applicant.\n&gt; **Post-Application Process:**\n\n**Step 01:** Successfully submitted applications pop up in the concerned Officers console. The officer may assign a subordinate to make verifications through the portal.\n**Step 02:** Subsequent to preliminary verification, the application is placed in the scrutiny committee for detailed checks.\n**Step 03:** Minutes of the Scrutiny Committee meeting get uploaded and Forwarded to the H.O.\n**Step 04:** Applications/ Pops up in the Officer’s Console of Head Office. Officer assigns to the Assistant concerned and allotted with the District concerned.\n**Step 05:** The assistant processes the application through PFMS. Account details get auto-verified in PFMS.\n**Step 06:** On successful PFMS verification, Print Advice is generated through PFMS.\n**Step 07:** Approving authority approves for disbursement of the benefit through PFMS.  \n([User Manual](https://labourcommissioner.assam.gov.in/sites/default/files/swf_utility_folder/departments/coi_labour_uneecopscloud_com_oid_14/portlet/level_2/sop_bocw_online_mode_for_uploading.pdf))\n"
+      },
+      {
+        "mode": "Online - via CSC",
+        "process": [
+          {
+            "type": "align_justify",
+            "children": [
+              {
+                "type": "ul_list",
+                "children": [
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "text": "Workers may approach the CSCs (VLE) for requisite assistance for registration application and allied. - CSCs (VLEs) shall be assistors to the applicant."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "text": "Applicants can approach the nearest VLE for required assistance."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Note 01",
+                    "bold": true
+                  },
+                  {
+                    "text": ": Services of CSCs engaged for assistance to Registered construction workers for registration and renewal only shall be free for the applicants. No fee/gratitude/rebates must be paid to the VLEs by Construction workers towards the services rendered."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Note 02:",
+                    "bold": true
+                  },
+                  {
+                    "text": " VLEs may charge only for ID card printing if workers desire to acquire a printed Card. The rate for the same shall be notified by the Board and displayed at CSCs."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Note 03:",
+                    "bold": true
+                  },
+                  {
+                    "text": " In case VLE assistances are utilized, VLEs shall ensure recording reference/tracking numbers at their end and also providing the same to the worker."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Note 04:",
+                    "bold": true
+                  },
+                  {
+                    "text": " A worker can directly check for the status of an application or make telephonic inquiries to the concerned VLE by providing a tracking ID. VLEs shall ensure telephone numbers are displayed in centers at all times."
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "process_md": "\n  - Workers may approach the CSCs (VLE) for requisite assistance for registration application and allied. - CSCs (VLEs) shall be assistors to the applicant.\n  - Applicants can approach the nearest VLE for required assistance.\n\n**Note 01**: Services of CSCs engaged for assistance to Registered construction workers for registration and renewal only shall be free for the applicants. No fee/gratitude/rebates must be paid to the VLEs by Construction workers towards the services rendered.\n**Note 02:** VLEs may charge only for ID card printing if workers desire to acquire a printed Card. The rate for the same shall be notified by the Board and displayed at CSCs.\n**Note 03:** In case VLE assistances are utilized, VLEs shall ensure recording reference/tracking numbers at their end and also providing the same to the worker.\n**Note 04:** A worker can directly check for the status of an application or make telephonic inquiries to the concerned VLE by providing a tracking ID. VLEs shall ensure telephone numbers are displayed in centers at all times.\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n   1. The applicant should be a permanent resident of Assam.\n   1. The applicant should be engaged in any building &amp;amp; other construction work.\n   1. The construction worker should be registered with the Assam Building and Other Construction Workers Welfare Board.\n   1. The applicant should have an active membership with the Board.\n   1. The construction worker who is permanently disabled due to paralysis leprosy, TB, accident, etc. is eligible to apply for the scheme.\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "ol_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant should be a permanent resident of Assam."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant should be engaged in any building & other construction work."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The construction worker should be registered with the Assam Building and Other Construction Workers Welfare Board."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant should have an active membership with the Board."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The construction worker who is permanently disabled due to paralysis leprosy, TB, accident, etc. is eligible to apply for the scheme."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "dpabocwwb"
+}

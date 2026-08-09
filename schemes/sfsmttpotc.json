@@ -1,0 +1,171 @@
+{
+  "_id": "669df5f68c4bd3d4059066d2",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Financial Assistance",
+        "Transgender",
+        "Child"
+      ],
+      "schemeName": "Scheme for Supportive Money to the Parents of Transgender Children",
+      "schemeShortTitle": "SFSMTTPOTC",
+      "level": {
+        "value": "central",
+        "label": "Central"
+      },
+      "schemeType": {
+        "value": "centrally-sponsored-scheme",
+        "label": "Centrally Sponsored Scheme"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce87cd6d1a3bde4685312",
+          "label": "Social welfare & Empowerment"
+        },
+        {
+          "value": "64f57d10ffb93104c7006c97",
+          "label": "Women and Child"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Financial assistance",
+          "label": "Financial assistance"
+        },
+        {
+          "value": "Childcare",
+          "label": "Childcare"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "family",
+          "label": "Family"
+        }
+      ],
+      "nodalMinistryName": {
+        "value": 712,
+        "label": "Ministry Of Social Justice and Empowerment"
+      },
+      "nodalDepartmentName": {
+        "value": 11112,
+        "label": "Department of Social Justice & Empowerment"
+      },
+      "schemeFor": "Family"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "http://esomsa.hp.gov.in/sites/default/files/scan0001-74363681.pdf"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The &quot;Scheme for Supportive Money to the Parents of Transgender Children&quot; was launched by the Ministry of Social Justice and Empowerment. The scheme aims to support 5,000 beneficiaries annually, with the potential for higher numbers based on State/UT identification. Transgender persons face stigma and discrimination in almost every sphere of their life including within the group, health facilities, education, employment, etc. Awareness and information are needed among parents to support their gender-nonconforming or transgender children, setting aside their discomfort and deeply held normative attitudes. \n",
+      "benefits_md": "\n- **Financial assistance of ₹1,000/- per transgender parent per child per month.** \n\n",
+      "briefDescription": "The \"Scheme for Supportive Money to the Parents of Transgender Children\" aims to provide financial assistance of ₹1,000/- to the parents of transgender children. Transgender persons face stigma and discrimination in almost every sphere of their life including within the group, health facilities.",
+      "exclusions_md": "",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The \"Scheme for Supportive Money to the Parents of Transgender Children\" was launched by the Ministry of Social Justice and Empowerment. The scheme aims to support 5,000 beneficiaries annually, with the potential for higher numbers based on State/UT identification. Transgender persons face stigma and discrimination in almost every sphere of their life including within the group, health facilities, education, employment, etc. Awareness and information are needed among parents to support their gender-nonconforming or transgender children, setting aside their discomfort and deeply held normative attitudes. "
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Financial assistance of ₹1,000/- per transgender parent per child per month. ",
+                  "bold": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "process": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 1: ",
+                "bold": true
+              },
+              {
+                "text": "The parents/guardians should visit (during office hours) the State Government or UT Administration office. and request a hard copy of the prescribed format of the application form from the staff exclusively entrusted to issue and collect filled-in applications."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2:",
+                "bold": true
+              },
+              {
+                "text": " Submit the duly filled and signed application form along with the documents to the State Government or UT Administration office."
+              }
+            ]
+          }
+        ],
+        "process_md": "**Step 1:** The parents/guardians should visit (during office hours) the State Government or UT Administration office. and request a hard copy of the prescribed format of the application form from the staff exclusively entrusted to issue and collect filled-in applications.\n**Step 2:** Submit the duly filled and signed application form along with the documents to the State Government or UT Administration office.\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n- The Parents must certify on an affidavit that they have a child exhibiting gender non-conforming behavior.\n- The child&#39;s age should be less than 18 years.\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The Parents must certify on an affidavit that they have a child exhibiting gender non-conforming behavior."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The child's age should be less than 18 years."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "sfsmttpotc"
+}

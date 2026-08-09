@@ -1,0 +1,321 @@
+{
+  "_id": "66c5f9eabfeff774c3904949",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Financial Assistance",
+        "Women",
+        "Rural",
+        "Urban"
+      ],
+      "schemeName": "Jharkhand Mukhyamantri Maiya Samman Yojana",
+      "schemeShortTitle": "JMMSY",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "64f57d10ffb93104c7006c97",
+          "label": "Women and Child"
+        },
+        {
+          "value": "628ce87cd6d1a3bde4685312",
+          "label": "Social welfare & Empowerment"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Financial Assistance",
+          "label": "Financial Assistance"
+        }
+      ],
+      "schemeOpenDate": "2024-08-16",
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "state": {
+        "value": 20,
+        "label": "Jharkhand"
+      },
+      "nodalDepartmentName": {
+        "value": 2000025,
+        "label": "Women, Child Development & Social Security Department"
+      },
+      "schemeFor": "Family"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://cdn.s3waas.gov.in/s32b8a61594b1f4c4db0902a8a395ced93/uploads/2024/07/2024073013.pdf"
+        },
+        {
+          "title": "FAQ",
+          "url": "https://cdn.s3waas.gov.in/s32b8a61594b1f4c4db0902a8a395ced93/uploads/2024/08/2024082052.pdf"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The Department of Women, Child Development &amp; Social Security launched the &quot;Jharkhand Mukhyamantri Maiya Samman Yojana&quot; scheme aims to enhance the financial security and well-being of women across the state by providing financial assistance of ₹1,000/- per month to women beneficiaries. The payments are directly deposited into their bank accounts by the 15th of every month. \n<br>\n\n",
+      "benefits_md": "\n- **Financial Assistance ₹1,000/- per month.** \n\n",
+      "exclusions_md": "\n1. The applicant herself or her husband should be employed as a regular/permanent employee/contractual employee/honorarium employee in the Central/State Government or Central/State Public Sector Undertakings, Statutory Body, Local Body, Urban Body and Government Aided Educational Institution or Should be receiving pension/family pension after retirement.\n1. The family member is a current or former MP/MLA.\n1. Income tax paying families.\n1. The beneficiaries who are already getting the benefits of any other social security pension scheme run by the Women, Child Development and Social Security Department, Jharkhand, Ranchi, will not be provided the benefits of this scheme.\n1. EPF account holder applicant woman. \n\n",
+      "briefDescription": "The \"Jharkhand Mukhyamantri Maiya Samman Yojana\" provides financial assistance to women beneficiaries. This initiative aims to enhance the financial security and well-being of women across the state.",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The Department of Women, Child Development & Social Security launched the \"Jharkhand Mukhyamantri Maiya Samman Yojana\" scheme aims to enhance the financial security and well-being of women across the state by providing financial assistance of ₹1,000/- per month to women beneficiaries. The payments are directly deposited into their bank accounts by the 15th of every month. "
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Financial Assistance ₹1,000/- per month. ",
+                  "bold": true
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "exclusions": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant herself or her husband should be employed as a regular/permanent employee/contractual employee/honorarium employee in the Central/State Government or Central/State Public Sector Undertakings, Statutory Body, Local Body, Urban Body and Government Aided Educational Institution or Should be receiving pension/family pension after retirement."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The family member is a current or former MP/MLA."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Income tax paying families."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The beneficiaries who are already getting the benefits of any other social security pension scheme run by the Women, Child Development and Social Security Department, Jharkhand, Ranchi, will not be provided the benefits of this scheme."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "EPF account holder applicant woman. "
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "process": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 1: ",
+                "bold": true
+              },
+              {
+                "text": "The interested applicant should visit (during office hours) the Anganwadi center or the office of the Block Development Officer/Zonal Officer and request a hard copy of the prescribed format of the application form from the staff exclusively entrusted to issue and collect filled-in applications."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "OR",
+                "bold": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "The interested applicant downloaded the "
+              },
+              {
+                "type": "link",
+                "link": "https://www.jharkhand.gov.in/PDepartment/ViewDoc?id=D031DO003SD00628072024033709248",
+                "children": [
+                  {
+                    "text": "application form"
+                  }
+                ]
+              },
+              {
+                "text": ". "
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2:",
+                "bold": true
+              },
+              {
+                "text": " In the application form, fill in all the mandatory fields, and attach copies of all the mandatory documents (self-attest, if required)."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 3:",
+                "bold": true
+              },
+              {
+                "text": " Submit the duly filled and signed application form along with the documents:"
+              }
+            ]
+          },
+          {
+            "type": "ul_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Rural Areas:",
+                    "bold": true
+                  },
+                  {
+                    "text": " The nearest Pragya Kendra or the office of the Block Development Officer Nearest Pragya Center."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Urban Areas:",
+                    "bold": true
+                  },
+                  {
+                    "text": " In the office of the zonal officer."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 4:",
+                "bold": true
+              },
+              {
+                "text": " Request a receipt or acknowledgment from the District Differently Abled Welfare Officer to whom the application has been submitted. Ensure that the receipt contains essential details such as the date and time of submission, and a unique identification number (if applicable)."
+              }
+            ]
+          }
+        ],
+        "process_md": "**Step 1:** The interested applicant should visit (during office hours) the Anganwadi center or the office of the Block Development Officer/Zonal Officer and request a hard copy of the prescribed format of the application form from the staff exclusively entrusted to issue and collect filled-in applications.\n**OR**\nThe interested applicant downloaded the [application form](https://www.jharkhand.gov.in/PDepartment/ViewDoc?id=D031DO003SD00628072024033709248). \n**Step 2:** In the application form, fill in all the mandatory fields, and attach copies of all the mandatory documents (self-attest, if required).\n**Step 3:** Submit the duly filled and signed application form along with the documents:\n\n- **Rural Areas:** The nearest Pragya Kendra or the office of the Block Development Officer Nearest Pragya Center.- **Urban Areas:** In the office of the zonal officer.\n**Step 4:** Request a receipt or acknowledgment from the District Differently Abled Welfare Officer to whom the application has been submitted. Ensure that the receipt contains essential details such as the date and time of submission, and a unique identification number (if applicable).\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n1. The applicant should be a female.\n1. The applicant should be a permanent resident of Jharkhand. \n1. The applicant&#39;s age should be between 21-49 years.\n\n<br>\n\n<br>\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should be a female."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should be a permanent resident of Jharkhand. "
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant's age should be between 21-49 years."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "jmmsy"
+}

@@ -1,0 +1,520 @@
+{
+  "_id": "69c6125ca6a3c0e9a09610f6",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Metallurgist",
+        "Award",
+        "Industry",
+        "Metal Science",
+        "Steel Sector"
+      ],
+      "schemeName": "National Metallurgist Award",
+      "schemeShortTitle": "NMA",
+      "level": {
+        "value": "central",
+        "label": "Central"
+      },
+      "schemeType": {
+        "value": "central-sector-scheme",
+        "label": "Central Sector Scheme"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce733d6d1a3bde4685278",
+          "label": "Business & Entrepreneurship"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Setting up / start-up / entrepreneurship",
+          "label": "Setting up / start-up / entrepreneurship"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "industries",
+          "label": "Industries"
+        }
+      ],
+      "schemeFor": "Individual",
+      "nodalMinistryName": {
+        "value": 1581,
+        "label": "Ministry Of Steel"
+      },
+      "nodalDepartmentName": null
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://awards.gov.in/Home/AwardLibrary"
+        },
+        {
+          "title": "Website",
+          "url": "https://steel.gov.in/national-metallurgist-awards"
+        }
+      ],
+      "schemeImageUrl": "",
+      "briefDescription": "Under this scheme, outstanding metallurgical contributions are recognized, and excellence in operations, R&D, waste management, and energy conservation is promoted.",
+      "detailedDescription_md": "The National Metallurgist Award, instituted by the Ministry of Steel, Government of India, is open only to Indian nationals who have made significant contributions to the field of metallurgy in India through their work in industry, research and development, or academia. The award recognizes outstanding achievements in areas such as operations, research and development, waste management, and energy conservation. Individuals from industry as well as research and academic institutions are eligible to apply. The awards will be presented in the following four categories:\n1) Lifetime Achievement Award\n2) National Metallurgist Award\n3) Young Metallurgist\na) Environment b) Metal Science\n4) Award for R&amp;D in Iron &amp; Steel Sector\n**No. of Awardees**\n\n1. Lifetime Achievement Award – 1 awardee\n1. National Metallurgist Award – 1 awardee\n1. Young Metallurgist (Environment Science) – 1 awardee\n1. Young Metallurgist (Metal Science) – 1 awardee\n1. Award for R&amp;D in Iron &amp; Steel Sector – 1 awardee\n\n<br>\n\n",
+      "benefits_md": "\n1. Lifetime Achievement Award – Certificate + Memento\n1. National Metallurgist Award – Certificate + Memento\n1. Young Metallurgist (Environment Science) – ₹1,00,000/- + Certificate + Memento\n1. Young Metallurgist (Metal Science) – ₹1,00,000/- + Certificate + Memento\n1. Award for R&amp;D in Iron &amp; Steel Sector – ₹1,00,000/- + Certificate + Memento\n\n<br>\n\n",
+      "exclusions_md": "<br>\n\n",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The National Metallurgist Award, instituted by the Ministry of Steel, Government of India, is open only to Indian nationals who have made significant contributions to the field of metallurgy in India through their work in industry, research and development, or academia. The award recognizes outstanding achievements in areas such as operations, research and development, waste management, and energy conservation. Individuals from industry as well as research and academic institutions are eligible to apply. The awards will be presented in the following four categories:"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "1) Lifetime Achievement Award"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "2) National Metallurgist Award"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "3) Young Metallurgist"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "a) Environment b) Metal Science"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "4) Award for R&D in Iron & Steel Sector"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "No. of Awardees",
+              "bold": true,
+              "underline": true
+            }
+          ]
+        },
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Lifetime Achievement Award – 1 awardee"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "National Metallurgist Award – 1 awardee"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Young Metallurgist (Environment Science) – 1 awardee"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Young Metallurgist (Metal Science) – 1 awardee"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Award for R&D in Iron & Steel Sector – 1 awardee"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 3,
+        "value": "composite",
+        "label": "Composite"
+      },
+      "benefits": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Lifetime Achievement Award – Certificate + Memento"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "National Metallurgist Award – Certificate + Memento"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Young Metallurgist (Environment Science) – ₹1,00,000/- + Certificate + Memento"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Young Metallurgist (Metal Science) – ₹1,00,000/- + Certificate + Memento"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Award for R&D in Iron & Steel Sector – ₹1,00,000/- + Certificate + Memento"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ],
+      "exclusions": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Online",
+        "process": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Registration:",
+                "bold": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 1: ",
+                "bold": true
+              },
+              {
+                "text": "Visit the o"
+              },
+              {
+                "type": "link",
+                "link": "https://awards.gov.in/",
+                "children": [
+                  {
+                    "text": "fficial website"
+                  }
+                ]
+              },
+              {
+                "text": " and click on the"
+              },
+              {
+                "type": "link",
+                "link": "https://awards.gov.in/Registration/SignUp",
+                "children": [
+                  {
+                    "text": " Registration button."
+                  }
+                ]
+              },
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2: ",
+                "bold": true
+              },
+              {
+                "text": "Select your category: Individual or Organization."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 3: ",
+                "bold": true
+              },
+              {
+                "text": "Fill in the required details:"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Individual: Name, Date of Birth, Nominator Type, Mobile, Email, Aadhaar Number."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Organization: Type, Authorized Person Name, Date of Birth, Organization Description, Designation, Mobile, Email, Aadhaar Number."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 4: ",
+                "bold": true
+              },
+              {
+                "text": "Click Submit to complete registration."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Apply:",
+                "bold": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 1:",
+                "bold": true
+              },
+              {
+                "text": " "
+              },
+              {
+                "type": "link",
+                "link": "https://awards.gov.in/Login",
+                "children": [
+                  {
+                    "text": "Log in"
+                  }
+                ]
+              },
+              {
+                "text": " to the portal using your registered credentials."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2: ",
+                "bold": true
+              },
+              {
+                "text": "Select the scheme from the list of awards and click \"Nominate / Apply Now\"."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 3: ",
+                "bold": true
+              },
+              {
+                "text": "Fill in all mandatory fields in the online application form."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 4:",
+                "bold": true
+              },
+              {
+                "text": " Click Submit to complete your application."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          }
+        ],
+        "process_md": "**Registration:**\n**Step 1:** Visit the o[fficial website](https://awards.gov.in/) and click on the[ Registration button.](https://awards.gov.in/Registration/SignUp)\n**Step 2:** Select your category: Individual or Organization.\n**Step 3:** Fill in the required details:\nIndividual: Name, Date of Birth, Nominator Type, Mobile, Email, Aadhaar Number.\nOrganization: Type, Authorized Person Name, Date of Birth, Organization Description, Designation, Mobile, Email, Aadhaar Number.\n**Step 4:** Click Submit to complete registration.\n**Apply:**\n**Step 1:** [Log in](https://awards.gov.in/Login) to the portal using your registered credentials.\n**Step 2:** Select the scheme from the list of awards and click &quot;Nominate / Apply Now&quot;.\n**Step 3:** Fill in all mandatory fields in the online application form.\n**Step 4:** Click Submit to complete your application.\n<br>\n\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n1. **Lifetime Achievement Award:** The applicant/nominee should have at least 20 years of experience, be minimum 50 years of age, and hold a Bachelor’s degree in Metallurgical Engineering/Materials Science or equivalent.1. **National Metallurgist Award:** The applicant/nominee should have at least 15 years of experience, be minimum 40 years of age, and hold a Bachelor’s degree in Metallurgical Engineering/Materials Science or equivalent.1. **Young Metallurgist (Environment Science):** The applicant/nominee should have at least 5 years of experience, be maximum 35 years of age, and hold a Bachelor’s degree in Metallurgical Engineering/Materials Science or equivalent.1. **Young Metallurgist (Metal Science):** The applicant/nominee should have at least 5 years of experience, be maximum 35 years of age, and hold a Bachelor’s degree in Metallurgical Engineering/Materials Science or equivalent.1. **Award for R&amp;D in Iron &amp; Steel Sector:** The applicant/nominee should have at least 10 years of experience, be minimum 35 years of age, and hold a Bachelor’s degree in Metallurgical Engineering/Materials Science or equivalent.\n<br>\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Lifetime Achievement Award: ",
+                  "bold": true
+                },
+                {
+                  "text": "The applicant/nominee should have at least 20 years of experience, be minimum 50 years of age, and hold a Bachelor’s degree in Metallurgical Engineering/Materials Science or equivalent."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "National Metallurgist Award:",
+                  "bold": true
+                },
+                {
+                  "text": " The applicant/nominee should have at least 15 years of experience, be minimum 40 years of age, and hold a Bachelor’s degree in Metallurgical Engineering/Materials Science or equivalent."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Young Metallurgist (Environment Science): ",
+                  "bold": true
+                },
+                {
+                  "text": "The applicant/nominee should have at least 5 years of experience, be maximum 35 years of age, and hold a Bachelor’s degree in Metallurgical Engineering/Materials Science or equivalent."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Young Metallurgist (Metal Science): ",
+                  "bold": true
+                },
+                {
+                  "text": "The applicant/nominee should have at least 5 years of experience, be maximum 35 years of age, and hold a Bachelor’s degree in Metallurgical Engineering/Materials Science or equivalent."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Award for R&D in Iron & Steel Sector: ",
+                  "bold": true
+                },
+                {
+                  "text": "The applicant/nominee should have at least 10 years of experience, be minimum 35 years of age, and hold a Bachelor’s degree in Metallurgical Engineering/Materials Science or equivalent."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "nma"
+}

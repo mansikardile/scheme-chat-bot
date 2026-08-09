@@ -1,0 +1,287 @@
+{
+  "_id": "67aec898c15709a4dbde80cc",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Loan",
+        "Employment",
+        "Entrepreneurship",
+        "Scheduled Caste",
+        "Scheduled Tribe",
+        "Minority",
+        "Disability"
+      ],
+      "schemeName": "Composite Loan Scheme",
+      "schemeShortTitle": "CLS",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce733d6d1a3bde4685278",
+          "label": "Business & Entrepreneurship"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Setting up / start-up / entrepreneurship",
+          "label": "Setting up / start-up / entrepreneurship"
+        },
+        {
+          "value": "Micro finance",
+          "label": "Micro finance"
+        },
+        {
+          "value": "Loan",
+          "label": "Loan"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "state": {
+        "value": 7,
+        "label": "Delhi"
+      },
+      "schemeType": null,
+      "nodalMinistryName": null,
+      "nodalDepartmentName": {
+        "value": 70000021,
+        "label": "Social Welfare Department"
+      },
+      "otherMinistryName": null,
+      "otherDepartmentNames": null,
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://dsfdc.delhi.gov.in/sites/default/files/cls_schem_details.pdf"
+        },
+        {
+          "title": "Application Form",
+          "url": "https://dsfdc.delhi.gov.in/sites/default/files/cls_form.pdf"
+        }
+      ],
+      "schemeImageUrl": "",
+      "briefDescription": "\"Composite Loan Scheme\" aims to provide need-based financial support to individuals from Scheduled Castes, Scheduled Tribes, Other Backward Classes, Minorities, and PwDs to help them pursue various income-generating activities. The scheme encourages self-employment and entrepreneurship.",
+      "detailedDescription_md": "The &quot;Composite Loan Scheme&quot; is managed by the Delhi SC/ST/OBC/Minorities/Handicapped Financial &amp; Development Corporation, Government of NCT of Delhi. The scheme aims to provide need-based financial support to individuals from Scheduled Castes, Scheduled Tribes, Other Backward Classes, Minorities, and Persons with Disabilities to help them pursue various income-generating activities. The scheme encourages self-employment and entrepreneurship, promoting economic independence and social inclusion for the targeted groups.\n",
+      "benefits_md": "**Maximum Permissible Loan Amount**\n\n- For the SC category, the need-based loan is up to ₹3,00,000/-.\n- For OBC, Minority and PwD categories, the need-based loan amount is up to ₹1,00,000/-.\n\n",
+      "exclusions_md": "",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The \"Composite Loan Scheme\" is managed by the Delhi SC/ST/OBC/Minorities/Handicapped Financial & Development Corporation, Government of NCT of Delhi. The scheme aims to provide need-based financial support to individuals from Scheduled Castes, Scheduled Tribes, Other Backward Classes, Minorities, and Persons with Disabilities to help them pursue various income-generating activities. The scheme encourages self-employment and entrepreneurship, promoting economic independence and social inclusion for the targeted groups."
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Maximum Permissible Loan Amount",
+              "bold": true,
+              "underline": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "For the SC category, the need-based loan is up to ₹3,00,000/-."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "For OBC, Minority and PwD categories, the need-based loan amount is up to ₹1,00,000/-."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "process": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 1:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " The interested applicant should take print of the "
+              },
+              {
+                "type": "link",
+                "link": "https://dsfdc.delhi.gov.in/sites/default/files/cls_form.pdf",
+                "children": [
+                  {
+                    "text": "prescribed format"
+                  }
+                ]
+              },
+              {
+                "text": " of the application form."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " In the application form, fill in all the mandatory fields, paste the passport-sized photograph, and attach copies of all the mandatory documents (self-attest, if required)."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 3:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " Submit the duly filled and signed application form along with the documents, to the "
+              },
+              {
+                "text": "Branch In-Charge / Section In-Charge",
+                "bold": true
+              },
+              {
+                "text": " of the Delhi SC/ST/OBC/Minorities/Handicapped Financial & Development Corporation, Government of NCT of Delhi."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 4:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " Request a receipt or acknowledgement."
+              }
+            ]
+          }
+        ],
+        "process_md": "**Step 1:** The interested applicant should take print of the [prescribed format](https://dsfdc.delhi.gov.in/sites/default/files/cls_form.pdf) of the application form.\n**Step 2:** In the application form, fill in all the mandatory fields, paste the passport-sized photograph, and attach copies of all the mandatory documents (self-attest, if required).\n**Step 3:** Submit the duly filled and signed application form along with the documents, to the **Branch In-Charge / Section In-Charge** of the Delhi SC/ST/OBC/Minorities/Handicapped Financial &amp; Development Corporation, Government of NCT of Delhi.\n**Step 4:** Request a receipt or acknowledgement.\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n- The applicant should be from one of the following target groups - Scheduled Caste, Scheduled Tribe, Other Backward Class, Minority, Persons with Disability.\n- The applicant should be a resident of Delhi. \n- The applicant&#39;s age should be between 18 to 50 years. \n- The annual family income of the applicant (from all sources) should not exceed ₹1,20,000/-. \n- The applicant should be willing to pursue one of the [income-generating activities](https://dsfdc.delhi.gov.in/sites/default/files/cls_schem_details.pdf) given in the scheme guidelines.- The applicant must have a proper workplace, for starting the proposed activity, either owned or rented. \n- The applicant should not have been declared a defaulter under any of the schemes being implemented by DSFDC.\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should be from one of the following target groups - Scheduled Caste, Scheduled Tribe, Other Backward Class, Minority, Persons with Disability."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should be a resident of Delhi. "
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant's age should be between 18 to 50 years. "
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The annual family income of the applicant (from all sources) should not exceed ₹1,20,000/-. "
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should be willing to pursue one of the "
+                },
+                {
+                  "type": "link",
+                  "link": "https://dsfdc.delhi.gov.in/sites/default/files/cls_schem_details.pdf",
+                  "children": [
+                    {
+                      "text": "income-generating activities"
+                    }
+                  ]
+                },
+                {
+                  "text": " given in the scheme guidelines."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must have a proper workplace, for starting the proposed activity, either owned or rented. "
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should not have been declared a defaulter under any of the schemes being implemented by DSFDC."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "cls"
+}

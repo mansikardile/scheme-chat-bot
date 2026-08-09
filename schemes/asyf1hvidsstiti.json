@@ -1,0 +1,567 @@
+{
+  "_id": "6903145314c67b8310beeb26",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Student",
+        "Housing",
+        "Disability",
+        "Training",
+        "Stipend"
+      ],
+      "schemeName": "Awas Sahayta Yojana for 100% Hearing and Visually Impaired Disabled Students in Special Trades of Industrial Training Institutes",
+      "schemeShortTitle": "ASYF1HVIDSSTITI",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce7d2d6d1a3bde46852c2",
+          "label": "Housing & Shelter"
+        },
+        {
+          "value": "628ce87cd6d1a3bde4685312",
+          "label": "Social welfare & Empowerment"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Financial assistance",
+          "label": "Financial assistance"
+        },
+        {
+          "value": "Citizen empowerment",
+          "label": "Citizen empowerment"
+        },
+        {
+          "value": "Housing",
+          "label": "Housing"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "schemeFor": "Individual",
+      "state": {
+        "value": 23,
+        "label": "Madhya Pradesh"
+      },
+      "schemeType": null,
+      "nodalMinistryName": null,
+      "nodalDepartmentName": {
+        "value": 2300053,
+        "label": "Department of Social Justice and Empowerment of Persons with Disabilities"
+      },
+      "otherMinistryName": null,
+      "otherDepartmentNames": null
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://socialjustice.mp.gov.in/uploads/schemes/aawas_sahayta_yojna.PDF"
+        }
+      ],
+      "schemeImageUrl": "",
+      "briefDescription": "The scheme aims to ensure qualitative admission and enable 100% hearing and visually impaired students to obtain high-quality technical education free from economic constraints. It provides housing assistance and expenses for food and accommodation, up to ₹4,000/- to PwD Students.",
+      "detailedDescription_md": "The scheme &quot;Awas Sahayta Yojana for 100% Hearing and Visually Impaired Disabled Students in Special Trades of Industrial Training Institutes&quot; was launched by the Department of Social Justice and Welfare for Persons with Disabilities, Government of Madhya Pradesh. The scheme aims to ensure qualitative admission of 100% hearing and visually impaired students equivalent to other categories, thereby enabling them to obtain high-quality technical education free from economic constraints. The scheme provides housing assistance and related allowances for food and accommodation to eligible disabled students pursuing specialized training programs in Industrial Training Institutes.\n<br>\n\n",
+      "benefits_md": "\n- Housing assistance up to ₹4,000/- per student per month for food and accommodation is available, provided the student is studying outside their home residence at an Industrial Training Institute.\n- Housing assistance of ₹2,000/- per month per student for food and other expenses only is available, if the student receives hostel facility provided by the Principal of the Industrial Training Institute.\n- The assistance is provided for the academic duration of the training program, whether it is a one-year or two-year trade.\n\n##### ***Disbursement***\n\n- **Mode:** Funds are transferred using Real Time Gross Settlement (RTGS).- **Frequency:** The sanctioned amount is transferred monthly into the student’s Aadhaar-based bank account. The Departmental District Officer provides the advance funds to the Principal of the Industrial Training Institute in two installments every six months.- **Limit:** The assistance is payable only once in a lifetime for the duration of the training program.- **Geographic Scope:** The scheme operates in 07 divisional Industrial Training Institutes located in Indore, Bhopal, Ujjain, Rewa, Jabalpur, Sagar, and Gwalior.\n##### ***Conditions***\n\n- The beneficiary disabled student must pay the rent amount to the landlord using an Account Payee Cheque.\n- The student must maintain regular attendance at the Industrial Training Institute for the Principal to disburse the monthly assistance amount.\n- Any rental amount exceeding the determined maximum housing assistance must be borne by the disabled students themselves from their own sources, and the department will provide no other facility.\n\n<br>\n\n",
+      "exclusions_md": "",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The scheme \"Awas Sahayta Yojana for 100% Hearing and Visually Impaired Disabled Students in Special Trades of Industrial Training Institutes\" was launched by the Department of Social Justice and Welfare for Persons with Disabilities, Government of Madhya Pradesh. The scheme aims to ensure qualitative admission of 100% hearing and visually impaired students equivalent to other categories, thereby enabling them to obtain high-quality technical education free from economic constraints. The scheme provides housing assistance and related allowances for food and accommodation to eligible disabled students pursuing specialized training programs in Industrial Training Institutes."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Housing assistance up to ₹4,000/- per student per month for food and accommodation is available, provided the student is studying outside their home residence at an Industrial Training Institute."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Housing assistance of ₹2,000/- per month per student for food and other expenses only is available, if the student receives hostel facility provided by the Principal of the Industrial Training Institute."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The assistance is provided for the academic duration of the training program, whether it is a one-year or two-year trade."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "heading_five",
+          "children": [
+            {
+              "text": "Disbursement",
+              "bold": true,
+              "underline": true,
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Mode:",
+                  "bold": true,
+                  "underline": true
+                },
+                {
+                  "text": " Funds are transferred using Real Time Gross Settlement (RTGS)."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Frequency:",
+                  "bold": true,
+                  "underline": true
+                },
+                {
+                  "text": " The sanctioned amount is transferred monthly into the student’s Aadhaar-based bank account. The Departmental District Officer provides the advance funds to the Principal of the Industrial Training Institute in two installments every six months."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Limit:",
+                  "bold": true,
+                  "underline": true
+                },
+                {
+                  "text": " The assistance is payable only once in a lifetime for the duration of the training program."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Geographic Scope:",
+                  "bold": true,
+                  "underline": true
+                },
+                {
+                  "text": " The scheme operates in 07 divisional Industrial Training Institutes located in Indore, Bhopal, Ujjain, Rewa, Jabalpur, Sagar, and Gwalior."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "heading_five",
+          "children": [
+            {
+              "text": "Conditions",
+              "bold": true,
+              "underline": true,
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The beneficiary disabled student must pay the rent amount to the landlord using an Account Payee Cheque."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The student must maintain regular attendance at the Industrial Training Institute for the Principal to disburse the monthly assistance amount."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Any rental amount exceeding the determined maximum housing assistance must be borne by the disabled students themselves from their own sources, and the department will provide no other facility."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "process": [
+          {
+            "type": "heading_five",
+            "children": [
+              {
+                "text": "Step 1:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "bold": true,
+                "text": " "
+              },
+              {
+                "bold": true,
+                "text": "Submission Of The Application Form And Required Documents",
+                "italic": true
+              }
+            ]
+          },
+          {
+            "type": "ul_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "The applicant must fill out the "
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://socialjustice.mp.gov.in/uploads/schemes/aawas_sahayta_yojna.PDF",
+                    "children": [
+                      {
+                        "text": "prescribed application form"
+                      }
+                    ]
+                  },
+                  {
+                    "text": " for the scheme, providing personal, disability, admission, and income details along with all necessary supporting certificates. "
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "The completed application, including the student's declaration, guardian's signature, landlord's details, and the affidavit/consent letters, must be submitted to the "
+                  },
+                  {
+                    "text": "Principal of the Industrial Training Institute",
+                    "bold": true
+                  },
+                  {
+                    "text": "."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "heading_five",
+            "children": [
+              {
+                "text": "Step 2:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "bold": true,
+                "text": " "
+              },
+              {
+                "bold": true,
+                "text": "Verification And Certification By The Principal of the Industrial Training Institute",
+                "italic": true
+              }
+            ]
+          },
+          {
+            "type": "ul_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "The Principal of the Industrial Training Institute reviews the application, verifies the student's regular admission, trade details, and confirms their good behavior and character. "
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "The Principal must certify that the student has not been provided with hostel facilities at the Industrial Training Institute or any other institute before granting preliminary approval for the housing assistance benefit."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "heading_five",
+            "children": [
+              {
+                "text": "Step 3:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "bold": true,
+                "text": " "
+              },
+              {
+                "bold": true,
+                "text": "Sanction Of Housing Assistance By The Principal of the Industrial Training Institute",
+                "italic": true
+              }
+            ]
+          },
+          {
+            "type": "ul_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Based on the submission of the required affidavit and the landlord's consent letter, the Principal of the Government Industrial Training Institute is authorized to grant the sanction of the housing assistance. "
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "The Principal will then submit a proposal requesting the sanctioned funds to the Joint Director, Department of Social Justice and Welfare for Persons with Disabilities, of the district."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "heading_five",
+            "children": [
+              {
+                "text": "Step 4:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "bold": true,
+                "text": " "
+              },
+              {
+                "bold": true,
+                "text": "Release Of Funds To The Principal By The District Departmental Officer",
+                "italic": true
+              }
+            ]
+          },
+          {
+            "type": "ul_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "The Departmental District Officer will provide the approved amount to the Principal of the Industrial Training Institute in advance, typically in two installments covering six-month intervals. "
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "The District Departmental Officer must utilize their office for the necessary official processing concerning the acceptance or rejection of the application, noting clear reasons if the application is rejected."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "heading_five",
+            "children": [
+              {
+                "text": "Step 5:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "bold": true,
+                "text": " "
+              },
+              {
+                "bold": true,
+                "text": "Monthly Disbursement To The Student's Aadhaar-based Bank Account",
+                "italic": true
+              }
+            ]
+          },
+          {
+            "type": "ul_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "The Principal will subsequently make the sanctioned assistance amount available to the disabled student on a monthly basis. "
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "This payment will be transferred directly into the student's Aadhaar-linked bank account using the Real Time Gross Settlement (RTGS) method, conditional upon the student's monthly attendance."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          }
+        ],
+        "process_md": "##### **Step 1:****** ***Submission Of The Application Form And Required Documents***\n\n- The applicant must fill out the [prescribed application form](https://socialjustice.mp.gov.in/uploads/schemes/aawas_sahayta_yojna.PDF) for the scheme, providing personal, disability, admission, and income details along with all necessary supporting certificates. - The completed application, including the student&#39;s declaration, guardian&#39;s signature, landlord&#39;s details, and the affidavit/consent letters, must be submitted to the **Principal of the Industrial Training Institute**.\n##### **Step 2:****** ***Verification And Certification By The Principal of the Industrial Training Institute***\n\n- The Principal of the Industrial Training Institute reviews the application, verifies the student&#39;s regular admission, trade details, and confirms their good behavior and character. \n- The Principal must certify that the student has not been provided with hostel facilities at the Industrial Training Institute or any other institute before granting preliminary approval for the housing assistance benefit.\n\n##### **Step 3:****** ***Sanction Of Housing Assistance By The Principal of the Industrial Training Institute***\n\n- Based on the submission of the required affidavit and the landlord&#39;s consent letter, the Principal of the Government Industrial Training Institute is authorized to grant the sanction of the housing assistance. \n- The Principal will then submit a proposal requesting the sanctioned funds to the Joint Director, Department of Social Justice and Welfare for Persons with Disabilities, of the district.\n\n##### **Step 4:****** ***Release Of Funds To The Principal By The District Departmental Officer***\n\n- The Departmental District Officer will provide the approved amount to the Principal of the Industrial Training Institute in advance, typically in two installments covering six-month intervals. \n- The District Departmental Officer must utilize their office for the necessary official processing concerning the acceptance or rejection of the application, noting clear reasons if the application is rejected.\n\n##### **Step 5:****** ***Monthly Disbursement To The Student&#39;s Aadhaar-based Bank Account***\n\n- The Principal will subsequently make the sanctioned assistance amount available to the disabled student on a monthly basis. \n- This payment will be transferred directly into the student&#39;s Aadhaar-linked bank account using the Real Time Gross Settlement (RTGS) method, conditional upon the student&#39;s monthly attendance.\n\n<br>\n\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n- The applicant must be a student.\n\n\n- The applicant must be 100% visually or hearing-impaired.\n- The applicant must be admitted to an Industrial Training Institute.\n- The applicant must not have received admission into any Government Hostel.\n- The applicant must not have received assistance from any Government Department.\n\n##### ***Post-Selection Conditions***\nThe applicant must present a certificate or declaration from the guardian stating that the guardian does not have an residential address at the same location or division where the Industrial Training Institute of regular study is situated.\n<br>\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must be a student."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must be 100% visually or hearing-impaired."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must be admitted to an Industrial Training Institute."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must not have received admission into any Government Hostel."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must not have received assistance from any Government Department."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "heading_five",
+          "children": [
+            {
+              "text": "Post-Selection Conditions",
+              "bold": true,
+              "underline": true,
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The applicant must present a certificate or declaration from the guardian stating that the guardian does not have an residential address at the same location or division where the Industrial Training Institute of regular study is situated."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "asyf1hvidsstiti"
+}

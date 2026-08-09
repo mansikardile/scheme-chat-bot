@@ -1,0 +1,359 @@
+{
+  "_id": "66d844b991b6f2157d6fed8f",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Financial Assistance",
+        "Marriage",
+        "Inter-Caste",
+        "Scheduled Castes"
+      ],
+      "schemeName": "Incentive for the Intra Caste Marriage within Scheduled Caste Community",
+      "schemeShortTitle": "IICMSCC",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce87cd6d1a3bde4685312",
+          "label": "Social welfare & Empowerment"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Financial assistance",
+          "label": "Financial assistance"
+        },
+        {
+          "value": "Marriage",
+          "label": "Marriage"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "state": {
+        "value": 29,
+        "label": "Karnataka"
+      },
+      "nodalDepartmentName": {
+        "value": 3000020,
+        "label": "Social Welfare Department"
+      },
+      "schemeFor": "Family"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://yuvakanaja.karnataka.gov.in/73/financial-aid-%28loan,-subsidy,-incentive-etc.%29/en"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The Karnataka Social Welfare Department provides an incentive to promote intra-caste marriages within different sub-castes of Scheduled Castes (SC) and Scheduled Tribes (ST). The scheme offers ₹2,00,000/- for such marriages, with an option for ₹1,50,000/- if the simple marriage grant is availed. This initiative aims to reduce casteism and foster unity within SC/ST communities in Karnataka.\n",
+      "benefits_md": "**Incentive Amount:**\n\n- ₹2,00,000/- if an SC/ST boy or girl marries a person from a different SC/ST sub-caste.\n- ₹1,50,000/- if the couple has availed of the simple marriage grant.\n\n**Subsidy Disbursement:**\nThe incentive is provided in two installments:\n\n- 50% in cash.\n- 50% as a fixed deposit with a minimum term of 3 years.\n\n<br>\n\n",
+      "exclusions_md": "Recipients of incentives for inter-caste marriage or widow remarriage are not eligible for this scheme.\n",
+      "briefDescription": "The Karnataka Social Welfare Department provides an incentive to promote intra-caste marriages within different sub-castes of Scheduled Castes (SC) and Scheduled Tribes (ST). ",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The Karnataka Social Welfare Department provides an incentive to promote intra-caste marriages within different sub-castes of Scheduled Castes (SC) and Scheduled Tribes (ST). The scheme offers ₹2,00,000/- for such marriages, with an option for ₹1,50,000/- if the simple marriage grant is availed. This initiative aims to reduce casteism and foster unity within SC/ST communities in Karnataka."
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Incentive Amount:",
+              "bold": true,
+              "underline": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "₹2,00,000/- if an SC/ST boy or girl marries a person from a different SC/ST sub-caste."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "₹1,50,000/- if the couple has availed of the simple marriage grant."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Subsidy Disbursement:",
+              "bold": true,
+              "underline": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The incentive is provided in two installments:"
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "50% in cash."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "50% as a fixed deposit with a minimum term of 3 years."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ],
+      "exclusions": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Recipients of incentives for inter-caste marriage or widow remarriage are not eligible for this scheme."
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Online",
+        "process": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "bold": true,
+                "text": "Step-01:"
+              },
+              {
+                "text": " First go to the "
+              },
+              {
+                "type": "link",
+                "link": "https://swdservices.karnataka.gov.in/index.aspx",
+                "children": [
+                  {
+                    "text": "official website"
+                  }
+                ]
+              },
+              {
+                "text": " and click \" Incentives to Marriages\"."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step-02: ",
+                "bold": true
+              },
+              {
+                "text": "Select \"Incentives to Inter-caste Marriages\" and Click \"Register\""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step-03:",
+                "bold": true
+              },
+              {
+                "text": " Using your \"Aadhaar Card Number\" Register with us providing all required Information."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step-04:",
+                "bold": true
+              },
+              {
+                "text": " Upload all the relevant documents."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step-05:",
+                "bold": true
+              },
+              {
+                "text": " After Registration, an SMS will be sent to the couple and they can print the acknowledgment form as proof of application."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step-06:",
+                "bold": true
+              },
+              {
+                "text": " Social Welfare will do spot verification to verify the details provided by the couple and process the application further."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step-07:",
+                "bold": true
+              },
+              {
+                "text": " After successful spot verification by the department, the incentive will be credited to the joint account of the couple."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "NOTE: ",
+                "bold": true
+              },
+              {
+                "text": "Application must be submitted within one year of marriage."
+              }
+            ]
+          }
+        ],
+        "process_md": "**Step-01:** First go to the [official website](https://swdservices.karnataka.gov.in/index.aspx) and click &quot; Incentives to Marriages&quot;.\n**Step-02:** Select &quot;Incentives to Inter-caste Marriages&quot; and Click &quot;Register&quot;\n**Step-03:** Using your &quot;Aadhaar Card Number&quot; Register with us providing all required Information.\n**Step-04:** Upload all the relevant documents.\n**Step-05:** After Registration, an SMS will be sent to the couple and they can print the acknowledgment form as proof of application.\n**Step-06:** Social Welfare will do spot verification to verify the details provided by the couple and process the application further.\n**Step-07:** After successful spot verification by the department, the incentive will be credited to the joint account of the couple.\n<br>\n\n**NOTE:** Application must be submitted within one year of marriage.\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n   1. The couple should belong to different sub caste of SC.\n   1. The bride and groom should be residing in Karnataka. \n   1. The family income of the applicant should not exceed ₹2,00,000/-.\n   1. The age of the bride should be between 18 to 42 years at the time of marriage.\n   1. The age of the groom should be between 21 to 45 years at the time of marriage.\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "ol_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The couple should belong to different sub caste of SC."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The bride and groom should be residing in Karnataka. "
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The family income of the applicant should not exceed ₹2,00,000/-."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The age of the bride should be between 18 to 42 years at the time of marriage."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The age of the groom should be between 21 to 45 years at the time of marriage."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "iicmscc"
+}

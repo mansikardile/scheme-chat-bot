@@ -1,0 +1,507 @@
+{
+  "_id": "66e5b318dfc57d5fce923341",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Student",
+        "Financial Assistance",
+        "Labour",
+        "Building Worker",
+        "Construction Worker",
+        "Unorganized Workers"
+      ],
+      "schemeName": "Financial Assistance for Studies (BBOCWWB)",
+      "schemeShortTitle": "FASBBOCWWB",
+      "implementingAgency": "Bihar Building & Other Construction Workers Welfare Board",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce76cd6d1a3bde4685292",
+          "label": "Education & Learning"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Scholarships and student finance",
+          "label": "Scholarships and student finance"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "state": {
+        "value": 10,
+        "label": "Bihar"
+      },
+      "nodalDepartmentName": {
+        "value": 10111133,
+        "label": "Labour Resources Department"
+      },
+      "schemeFor": "Family"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Scheme Details",
+          "url": "https://bocw.bihar.gov.in/Website/pdf/Brochure.pdf"
+        },
+        {
+          "title": "Labour Registration",
+          "url": "https://bocw.bihar.gov.in/Website/LabourReg.aspx"
+        },
+        {
+          "title": "Scheme Application",
+          "url": "https://bocw.bihar.gov.in/Website/SchemeApply.aspx"
+        },
+        {
+          "title": "Check Scheme Application Status",
+          "url": "https://bocw.bihar.gov.in/Registration/ApplicationStatus.aspx"
+        },
+        {
+          "title": "Application Form",
+          "url": "https://bocw.bihar.gov.in/WebLink/NotificationDoc/00001240_Doc.pdf"
+        },
+        {
+          "title": "Registration Form",
+          "url": "https://bocw.bihar.gov.in/WebLink/NotificationDoc/00001241_Doc.pdf"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The &amp;quot;Financial Assistance for Studies&amp;quot; scheme is implemented by the Bihar Building &amp;amp; Other Construction Workers Welfare Board (BBOCWWB), under the Labour Resources Department, Government of Bihar. Under this scheme, educational financial support is provided to the children of registered workers who have been members of the Board for at least one year. It covers full tuition fees for students admitted to prestigious government institutes like IIT, IIM, and AIIMS. Additionally, the scheme offers one-time financial assistance for pursuing B.Tech or equivalent courses, Polytechnic/Nursing diplomas, or ITI courses in government institutions.\n",
+      "benefits_md": "Under this scheme, the following financial assistance is provided to the children of registered building and construction workers:\n\n   1. Full tuition fees are covered for admission to prestigious government institutes like IIT, IIM, AIIMS, etc.\n   1. A one-time financial assistance of ₹20,000/- is provided upon admission to a B.Tech. or equivalent course in a government institution.\n   1. A one-time financial assistance of ₹10,000/- is provided for pursuing a Polytechnic, Nursing, or equivalent diploma course in a government institution.\n   1. A one-time financial assistance of ₹5,000/- is provided for pursuing an ITI or equivalent course in a government institution.\n\n",
+      "briefDescription": "The scheme is implemented by the Bihar Building & Other Construction Workers Welfare Board, Labour Resources Department, Govt. of Bihar. Under this scheme, educational financial support is provided to the children of registered workers who have been members of the Board for at least one year.",
+      "exclusions_md": "",
+      "detailedDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "The \"Financial Assistance for Studies\" scheme is implemented by the Bihar Building & Other Construction Workers Welfare Board (BBOCWWB), under the Labour Resources Department, Government of Bihar. Under this scheme, educational financial support is provided to the children of registered workers who have been members of the Board for at least one year. It covers full tuition fees for students admitted to prestigious government institutes like IIT, IIM, and AIIMS. Additionally, the scheme offers one-time financial assistance for pursuing B.Tech or equivalent courses, Polytechnic/Nursing diplomas, or ITI courses in government institutions."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "Under this scheme, the following financial assistance is provided to the children of registered building and construction workers:"
+                }
+              ]
+            },
+            {
+              "type": "ol_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Full tuition fees are covered for admission to prestigious government institutes like IIT, IIM, AIIMS, etc."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "A one-time financial assistance of ₹20,000/- is provided upon admission to a B.Tech. or equivalent course in a government institution."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "A one-time financial assistance of ₹10,000/- is provided for pursuing a Polytechnic, Nursing, or equivalent diploma course in a government institution."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "A one-time financial assistance of ₹5,000/- is provided for pursuing an ITI or equivalent course in a government institution."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Online",
+        "process": [
+          {
+            "type": "align_justify",
+            "children": [
+              {
+                "type": "block_quote",
+                "children": [
+                  {
+                    "text": "Registration of a Construction Worker under BBOCWWB:",
+                    "bold": true,
+                    "underline": true
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 1:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Visit the "
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://bocw.bihar.gov.in/Website/LabourReg.aspx",
+                    "children": [
+                      {
+                        "text": "Official Website"
+                      }
+                    ]
+                  },
+                  {
+                    "text": " of the Bihar Building and Other Construction Workers Welfare Board."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 2:",
+                    "bold": true
+                  },
+                  {
+                    "text": " On the homepage, click on \"Labour Registration\"."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 3:",
+                    "bold": true
+                  },
+                  {
+                    "text": " If you are not registered, click on \""
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://bocw.bihar.gov.in/Registration/AddLabourRegistrationWeb.aspx",
+                    "children": [
+                      {
+                        "text": "Apply for New Registration"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "\"."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 4:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Enter your Aadhar card number and name, then click \"Authenticate\"."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 5:",
+                    "bold": true
+                  },
+                  {
+                    "text": " A dashboard will appear. Enter all required details, ensuring that all fields marked with an asterisk (*) are filled in correctly."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 6: ",
+                    "bold": true
+                  },
+                  {
+                    "text": "Click on \"Submit\" and proceed to pay the application fee online."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 7: ",
+                    "bold": true
+                  },
+                  {
+                    "text": "You will receive your construction worker registration number upon successful registration."
+                  }
+                ]
+              },
+              {
+                "type": "block_quote",
+                "children": [
+                  {
+                    "text": "Apply for Scheme Benefits:",
+                    "bold": true,
+                    "underline": true
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 1:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Visit the "
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://bocw.bihar.gov.in/Website/SchemeApply.aspx",
+                    "children": [
+                      {
+                        "text": "Official Website"
+                      }
+                    ]
+                  },
+                  {
+                    "text": " of the Bihar Building and Other Construction Workers Welfare Board."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 2:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Click on \"Scheme Application\" and select \""
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://bocw.bihar.gov.in/Registration/SchemeTaggingWeb.aspx",
+                    "children": [
+                      {
+                        "text": "Apply for Scheme"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "\"."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 3:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Enter your registration number and click \"Show\" to view your details."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 4:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Select the scheme you wish to apply for to avail the benefits."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 5:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Enter all required information and upload the necessary documents."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 6:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Click on \"Submit Application\" to complete the process. "
+                  }
+                ]
+              },
+              {
+                "type": "block_quote",
+                "children": [
+                  {
+                    "text": "Application Tracking:",
+                    "bold": true,
+                    "underline": true
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Applicant can track their application status online through the "
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://bocw.bihar.gov.in/Registration/ApplicationStatus.aspx",
+                    "children": [
+                      {
+                        "text": "official website"
+                      }
+                    ]
+                  },
+                  {
+                    "text": " of the Bihar Building and Other Construction Workers Welfare Board. Relevant updates will be sent to the registered mobile number."
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "process_md": "&gt; **Registration of a Construction Worker under BBOCWWB:**\n\n**Step 1:** Visit the [Official Website](https://bocw.bihar.gov.in/Website/LabourReg.aspx) of the Bihar Building and Other Construction Workers Welfare Board.\n**Step 2:** On the homepage, click on &amp;quot;Labour Registration&amp;quot;.\n**Step 3:** If you are not registered, click on &amp;quot;[Apply for New Registration](https://bocw.bihar.gov.in/Registration/AddLabourRegistrationWeb.aspx)&amp;quot;.\n**Step 4:** Enter your Aadhar card number and name, then click &amp;quot;Authenticate&amp;quot;.\n**Step 5:** A dashboard will appear. Enter all required details, ensuring that all fields marked with an asterisk (*) are filled in correctly.\n**Step 6:** Click on &amp;quot;Submit&amp;quot; and proceed to pay the application fee online.\n**Step 7:** You will receive your construction worker registration number upon successful registration.\n&gt; **Apply for Scheme Benefits:**\n\n**Step 1:** Visit the [Official Website](https://bocw.bihar.gov.in/Website/SchemeApply.aspx) of the Bihar Building and Other Construction Workers Welfare Board.\n**Step 2:** Click on &amp;quot;Scheme Application&amp;quot; and select &amp;quot;[Apply for Scheme](https://bocw.bihar.gov.in/Registration/SchemeTaggingWeb.aspx)&amp;quot;.\n**Step 3:** Enter your registration number and click &amp;quot;Show&amp;quot; to view your details.\n**Step 4:** Select the scheme you wish to apply for to avail the benefits.\n**Step 5:** Enter all required information and upload the necessary documents.\n**Step 6:** Click on &amp;quot;Submit Application&amp;quot; to complete the process. \n&gt; **Application Tracking:**\n\nApplicant can track their application status online through the [official website](https://bocw.bihar.gov.in/Registration/ApplicationStatus.aspx) of the Bihar Building and Other Construction Workers Welfare Board. Relevant updates will be sent to the registered mobile number.\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "1.\tThe worker should be engaged in building or construction work.\n2.\tThe worker should be registered with the Bihar Building &amp;amp; Other Construction Workers Welfare Board.\n3.\tThe registered worker should have a minimum of one year of continuous membership.\n4.\tThe worker&amp;#39;s membership should be active at the time of application.\n5.\tThe children of registered workers should be pursuing or have been admitted to one of the following regular technical or professional courses:\n•\tAdmission to prestigious government institutes like IIT, IIM, AIIMS, etc.\n•\tAdmission to a B.Tech or equivalent course in a government institution.\n•\tPursuing a Polytechnic, Nursing, or equivalent diploma course in a government institution.\n•\tPursuing an ITI or equivalent course in a government institution\n",
+      "eligibilityDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "1.\tThe worker should be engaged in building or construction work."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "2.\tThe worker should be registered with the Bihar Building & Other Construction Workers Welfare Board."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "3.\tThe registered worker should have a minimum of one year of continuous membership."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "4.\tThe worker's membership should be active at the time of application."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "5.\tThe children of registered workers should be pursuing or have been admitted to one of the following regular technical or professional courses:"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "•\tAdmission to prestigious government institutes like IIT, IIM, AIIMS, etc."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "•\tAdmission to a B.Tech or equivalent course in a government institution."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "•\tPursuing a Polytechnic, Nursing, or equivalent diploma course in a government institution."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "•\tPursuing an ITI or equivalent course in a government institution"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "fasbbocwwb"
+}

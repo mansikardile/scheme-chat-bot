@@ -1,0 +1,223 @@
+{
+  "_id": "679c93f9ecdc87934b7de3d6",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Pension",
+        "Senior Citizen",
+        "Social Welfare",
+        "Financial Assistance",
+        "Old Age"
+      ],
+      "schemeName": "INDIRAMMA Old Age Pension (Rural)",
+      "schemeShortTitle": "IOAP",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce87cd6d1a3bde4685312",
+          "label": "Social welfare & Empowerment"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Pension",
+          "label": "Pension"
+        },
+        {
+          "value": "Financial assistance",
+          "label": "Financial assistance"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "state": {
+        "value": 28,
+        "label": "Andhra Pradesh"
+      },
+      "nodalDepartmentName": {
+        "value": 72,
+        "label": "Panchayat Raj Rural Employment"
+      },
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://handlooms.ap.gov.in/documents/old_age_pensions_(Rural)_GO.pdf"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "Launched in 2006-07, the scheme &quot;INDIRAMMA Old Age Pension (Rural)&quot; by the Department of Rural Development, Government of Andhra Pradesh, aims to disburse monthly pensions to old age citizens, both male and female, who are 65 years of age or above and are destitute (with little or no means of subsistence and no family or relative to depend upon). To be eligible, they should be from a BPL family, be a resident of the district, and not be covered under any other Pension Scheme. The eligible citizens will be identified by their respective Gram Sabhas. The Panchayat Secretary disburses the pension to the eligible citizens on the first date of every month.\n",
+      "benefits_md": "**Pension Amount:** The scale of benefit under the pension will be notified by the Government of Andhra Pradesh.\n**Mode of Disbursement:** The Panchayat Secretary disburses the pension to the eligible citizens, in the presence of Sarpanch, Gram Panchayat Members and the Office Bearers of Village Organization.\n**Time of Disbursement:** The pension is disbursed on the first date of every month.\n",
+      "briefDescription": "\"INDIRAMMA Old Age Pension (Rural)\" aims to disburse monthly pensions to old age citizens, both male and female, who are 65 years of age or above and are destitute (with little or no means of subsistence and no family or relative to depend upon). To be eligible, they should be from a BPL family.",
+      "exclusions_md": "",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Launched in 2006-07, the scheme \"INDIRAMMA Old Age Pension (Rural)\" by the Department of Rural Development, Government of Andhra Pradesh, aims to disburse monthly pensions to old age citizens, both male and female, who are 65 years of age or above and are destitute (with little or no means of subsistence and no family or relative to depend upon). To be eligible, they should be from a BPL family, be a resident of the district, and not be covered under any other Pension Scheme. The eligible citizens will be identified by their respective Gram Sabhas. The Panchayat Secretary disburses the pension to the eligible citizens on the first date of every month."
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Pension Amount:",
+              "bold": true,
+              "underline": true
+            },
+            {
+              "text": " The scale of benefit under the pension will be notified by the Government of Andhra Pradesh."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Mode of Disbursement:",
+              "bold": true,
+              "underline": true
+            },
+            {
+              "text": " The Panchayat Secretary disburses the pension to the eligible citizens, in the presence of Sarpanch, Gram Panchayat Members and the Office Bearers of Village Organization."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Time of Disbursement:",
+              "bold": true,
+              "underline": true
+            },
+            {
+              "text": " The pension is disbursed on the first date of every month."
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "process": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "The eligible citizens will be identified by their respective Gram Panchayat during the Gram Sabhas. The Panchayat Secretary maintains a register of eligible persons and sends the Gram Sabha resolution recommending eligible persons to the Mandal Parishad Development Officer (MPDO)."
+              }
+            ]
+          }
+        ],
+        "process_md": "The eligible citizens will be identified by their respective Gram Panchayat during the Gram Sabhas. The Panchayat Secretary maintains a register of eligible persons and sends the Gram Sabha resolution recommending eligible persons to the Mandal Parishad Development Officer (MPDO).\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n- The applicant should be from a Below Poverty Line (BPL) family.\n- The applicant should be a local resident of the district.\n- The applicant should be from a rural area.\n- The applicant should not be covered under any other Pension Scheme.\n- The applicant should be 65 years of age or above in age.\n- The applicant should be destitute.\n- The applicant should have no means of subsistence.\n- The applicant should have no family or relatives to depend upon.\n\n_* The eligible citizens will be identified by their respective Gram Sabhas. The register containing the list of eligible citizens will be shared by the Panchayat Secretary with the Mandal Parishad Development Officer (MPDO)._\n",
+      "eligibilityDescription": [
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should be from a Below Poverty Line (BPL) family."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should be a local resident of the district."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should be from a rural area."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should not be covered under any other Pension Scheme."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should be 65 years of age or above in age."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should be destitute."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should have no means of subsistence."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should have no family or relatives to depend upon."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "* The eligible citizens will be identified by their respective Gram Sabhas. The register containing the list of eligible citizens will be shared by the Panchayat Secretary with the Mandal Parishad Development Officer (MPDO).",
+              "italic": true
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "ioap"
+}

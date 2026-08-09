@@ -1,0 +1,240 @@
+{
+  "_id": "6787cdd26fc4765b7e16511f",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Food",
+        "PVTG",
+        "Doorstep Delivery"
+      ],
+      "schemeName": "PVTGs Dakia Yojana (Chief Minister's Food Security Scheme)",
+      "schemeShortTitle": "PDY(CMFSS)",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce87cd6d1a3bde4685312",
+          "label": "Social welfare & Empowerment"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Food Security / Public Distribution System",
+          "label": "Food Security / Public Distribution System"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        },
+        {
+          "value": "family",
+          "label": "Family"
+        }
+      ],
+      "state": {
+        "value": 20,
+        "label": "Jharkhand"
+      },
+      "nodalDepartmentName": {
+        "value": 2000007,
+        "label": "Food, Public Distribution and Consumer affairs Department"
+      },
+      "schemeFor": "Family"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines (New)",
+          "url": "https://jharkhandsfc.in/pdf/intrn_rprt/report_rohan_raj.pdf"
+        },
+        {
+          "title": "Guidelines (Old)",
+          "url": "https://www.jharkhand.gov.in/Home/ViewDoc?id=D030DO004SD001115012019014114455"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The &quot;PVTGs Dakia Yojana (Chief Minister&#39;s Food Security Scheme)&quot; by the Welfare Department, Government of Jharkhand, aims to ensure food security for Particularly Vulnerable Tribal Groups (PVTGs). Under this scheme, subsidized food grains are provided to PVTG families to improve their living conditions.\n",
+      "benefits_md": "***Food Security for PTG Families:***\n\n\n  - Free provision of 35 kg of wheat and rice per family per month at ₹1 per kg.\n\n\n<br>\n\n***Direct Village-Level Distribution:***\n\n\n  - Food grains are distributed at the village level by Block Welfare Officers.\n\n\n<br>\n\n***Support for National Food Security:***\n\n- Complements the &quot;Antyodaya Yojana&quot; by including all PVTG families in Jharkhand.\n\n",
+      "briefDescription": "The \"PVTGs Dakia Yojana (Chief Minister's Food Security Scheme)\" by the Welfare Department, Government of Jharkhand. The scheme aims to ensure food security for Particularly Vulnerable Tribal Groups (PVTGs). It provides subsidized food grains to enhance their living conditions.",
+      "exclusions_md": "",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The \"PVTGs Dakia Yojana (Chief Minister's Food Security Scheme)\" by the Welfare Department, Government of Jharkhand, aims to ensure food security for Particularly Vulnerable Tribal Groups (PVTGs). Under this scheme, subsidized food grains are provided to PVTG families to improve their living conditions."
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 2,
+        "value": "in-kind",
+        "label": "In Kind"
+      },
+      "benefits": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Food Security for PTG Families:",
+              "bold": true,
+              "italic": true,
+              "underline": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "ul_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Free provision of 35 kg of wheat and rice per family per month at ₹1 per kg."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Direct Village-Level Distribution:",
+              "bold": true,
+              "italic": true,
+              "underline": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "ul_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Food grains are distributed at the village level by Block Welfare Officers."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Support for National Food Security:",
+              "bold": true,
+              "italic": true,
+              "underline": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Complements the \"Antyodaya Yojana\" by including all PVTG families in Jharkhand."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "process": [
+          {
+            "type": "ul_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "To avail the benefits of the scheme, the eligible applicant may visit the nearest Block Welfare Office with all the relevant documents."
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "process_md": "\n- To avail the benefits of the scheme, the eligible applicant may visit the nearest Block Welfare Office with all the relevant documents.\n\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n1. The applicant must belong to Particularly Vulnerable Tribal Groups (PVTGs).\n1. The applicant’s family must be enrolled under the &quot;Antyodaya Yojana.&quot;\n1. The family should reside in designated PVTG areas or remote locations.\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must belong to Particularly Vulnerable Tribal Groups (PVTGs)."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant’s family must be enrolled under the \"Antyodaya Yojana.\""
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The family should reside in designated PVTG areas or remote locations."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "pdycmfss"
+}

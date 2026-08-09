@@ -1,0 +1,544 @@
+{
+  "_id": "687a75a63b8a10e048e29da3",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Hospital",
+        "Health",
+        "Incentive",
+        "Medical",
+        "Subsidy"
+      ],
+      "schemeName": "Incentive Scheme for Establishment of New Super Specialty Hospital in Private Sector",
+      "schemeShortTitle": "ISENSSHPS",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce924d6d1a3bde4685354",
+          "label": "Transport & Infrastructure"
+        },
+        {
+          "value": "628ce7a2d6d1a3bde46852b1",
+          "label": "Health & Wellness"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Infrastructure",
+          "label": "Infrastructure"
+        },
+        {
+          "value": "Health care providers and access",
+          "label": "Health care providers and access"
+        },
+        {
+          "value": "Financial assistance",
+          "label": "Financial assistance"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        },
+        {
+          "value": "registered-societies",
+          "label": "Registered Societies"
+        },
+        {
+          "value": "trust",
+          "label": "Trust"
+        }
+      ],
+      "schemeFor": "Infra",
+      "state": {
+        "value": 24,
+        "label": "Gujarat"
+      },
+      "nodalDepartmentName": {
+        "value": 2444450,
+        "label": "Health & Family Welfare Department"
+      }
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://gujhealth.gujarat.gov.in/images/pdf/GR_Scheme_New-Super-Speciality-Hospital_MCG-2016-SFS-6-J_13_12_2016.pdf"
+        },
+        {
+          "title": "Application Form (PDF)",
+          "url": "https://gujhealth.gujarat.gov.in/images/pdf/Application-forms-for-Establishment-of-New-Super-Specialty-Hospital-new.pdf"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "Launched on 13th December 2016, the &quot;Incentive Scheme for Establishment of New Super Specialty Hospital in Private Sector&quot; by the Health &amp; Family Welfare Department, Government of Gujarat, aims to address the shortage of high-end medical facilities in remote areas by incentivizing private and non-governmental organizations to establish super specialty hospitals. The scheme provides 10% capital subsidy on medical equipment loans (up to ₹10 crore), 4% interest subvention (max ₹40 crore loan) for 7 years, and reimbursement of electricity duty for 5 years. Eligible entities include registered doctors, firms, trusts, and corporations.\n<br>\n\n",
+      "benefits_md": "> **Capital Subsidy**\n\n\n- 10% of bank loans for medical equipment (max ₹10 crore).\n- Disbursed post-hospital operationalization.\n\n> **Interest Subvention**\n\n\n- 4% interest relief on loans up to ₹40 crore for 7 years.\n- Paid in 6 annual installments after a 1-year grace period.\n\n> **Electricity Duty Reimbursement**\n\n100% reimbursement for 5 years (quarterly claims).\n> **Employment Generation**\n\nMandates hiring qualified medical/paramedical staff.\n> **Disbursement**\n\n\n- **Capital Subsidy:** After Equipment Installation and Hospital Launch.- **Interest Subvention:** Annual Installments Post 1-Year Grace Period.- **Electricity Reimbursement:** Quarterly Claims.\n<br>\n\n",
+      "exclusions_md": "Excludes Government/Semi-Government Bodies.\n<br>\n\n",
+      "briefDescription": "The scheme offers financial incentives (capital subsidy, interest subvention, and electricity duty reimbursement) to private/NGO entities establishing new super specialty hospitals (50+ beds) in Gujarat, targeting underserved areas.",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Launched on 13th December 2016, the \"Incentive Scheme for Establishment of New Super Specialty Hospital in Private Sector\" by the Health & Family Welfare Department, Government of Gujarat, aims to address the shortage of high-end medical facilities in remote areas by incentivizing private and non-governmental organizations to establish super specialty hospitals. The scheme provides 10% capital subsidy on medical equipment loans (up to ₹10 crore), 4% interest subvention (max ₹40 crore loan) for 7 years, and reimbursement of electricity duty for 5 years. Eligible entities include registered doctors, firms, trusts, and corporations."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "Capital Subsidy",
+              "bold": true,
+              "underline": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "10% of bank loans for medical equipment (max ₹10 crore)."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Disbursed post-hospital operationalization."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "Interest Subvention",
+              "bold": true,
+              "underline": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "4% interest relief on loans up to ₹40 crore for 7 years."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Paid in 6 annual installments after a 1-year grace period."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "Electricity Duty Reimbursement",
+              "bold": true,
+              "underline": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "100% reimbursement for 5 years (quarterly claims)."
+            }
+          ]
+        },
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "Employment Generation",
+              "bold": true,
+              "underline": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Mandates hiring qualified medical/paramedical staff."
+            }
+          ]
+        },
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "Disbursement",
+              "bold": true,
+              "underline": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Capital Subsidy:",
+                  "bold": true
+                },
+                {
+                  "text": " After Equipment Installation and Hospital Launch."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Interest Subvention:",
+                  "bold": true
+                },
+                {
+                  "text": " Annual Installments Post 1-Year Grace Period."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Electricity Reimbursement:",
+                  "bold": true
+                },
+                {
+                  "text": " Quarterly Claims."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ],
+      "exclusions": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Excludes Government/Semi-Government Bodies."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "process": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 1:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " The interested applicant should take a printout of the "
+              },
+              {
+                "type": "link",
+                "link": "https://gujhealth.gujarat.gov.in/images/pdf/Application-forms-for-Establishment-of-New-Super-Specialty-Hospital-new.pdf",
+                "children": [
+                  {
+                    "text": "prescribed format"
+                  }
+                ]
+              },
+              {
+                "text": " of the application form."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " In the application form, fill in all the mandatory fields, and attach copies of all the mandatory documents (self-attest, if required)."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 3:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " Submit the duly filled and signed application form along with the documents, within the prescribed period (if any), to - "
+              },
+              {
+                "text": "Commissioner, Health & Medical Education, Dr. Jivraj Mehta Bhavan, Gandhinagar",
+                "bold": true,
+                "italic": true
+              },
+              {
+                "text": ". Pay ₹20,000/- scrutiny fee via Demand Draft."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 4:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " Request a receipt or acknowledgement from the concerned authority to whom the application has been submitted. Ensure that the receipt contains essential details such as the date of submission."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Approval & Verification",
+                "bold": true,
+                "underline": true
+              }
+            ]
+          },
+          {
+            "type": "ul_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "State-Level Committee scrutinizes applications."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Technical Group conducts physical inspections."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Compliance",
+                "bold": true,
+                "underline": true
+              }
+            ]
+          },
+          {
+            "type": "ul_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Submit quarterly utilization reports."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Maintain services for 7 years (penalty: repayment if violated)."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          }
+        ],
+        "process_md": "**Step 1:** The interested applicant should take a printout of the [prescribed format](https://gujhealth.gujarat.gov.in/images/pdf/Application-forms-for-Establishment-of-New-Super-Specialty-Hospital-new.pdf) of the application form.\n**Step 2:** In the application form, fill in all the mandatory fields, and attach copies of all the mandatory documents (self-attest, if required).\n**Step 3:** Submit the duly filled and signed application form along with the documents, within the prescribed period (if any), to - ***Commissioner, Health &amp; Medical Education, Dr. Jivraj Mehta Bhavan, Gandhinagar***. Pay ₹20,000/- scrutiny fee via Demand Draft.\n**Step 4:** Request a receipt or acknowledgement from the concerned authority to whom the application has been submitted. Ensure that the receipt contains essential details such as the date of submission.\n<br>\n\n**Approval &amp; Verification**\n\n- State-Level Committee scrutinizes applications.\n- Technical Group conducts physical inspections.\n\n**Compliance**\n\n- Submit quarterly utilization reports.\n- Maintain services for 7 years (penalty: repayment if violated).\n\n<br>\n\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "> **The Following Entities Are Eligible**\n\n\n- Registered Doctors (Gujarat Medical Council).\n- Partnership Firms, Companies, Trusts, Societies, Cooperatives.\n\n> **Hospital Requirements**\n\n\n- 50+ Total Beds,including 10+ Super Specialty Beds.\n- Covers Specialties Like Cardiology, Neurology, Oncology, etc. (List Expandable by Government).\n\n> **Loan Conditions**\n\n\n- Only Loans for Construction/Equipment (Excludes Land/Working Capital).\n\n<br>\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "The Following Entities Are Eligible",
+              "bold": true,
+              "underline": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Registered Doctors (Gujarat Medical Council)."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Partnership Firms, Companies, Trusts, Societies, Cooperatives."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "Hospital Requirements",
+              "bold": true,
+              "underline": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "50+ Total Beds,including 10+ Super Specialty Beds."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Covers Specialties Like Cardiology, Neurology, Oncology, etc. (List Expandable by Government)."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "Loan Conditions",
+              "bold": true,
+              "underline": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Only Loans for Construction/Equipment (Excludes Land/Working Capital)."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "isensshps"
+}

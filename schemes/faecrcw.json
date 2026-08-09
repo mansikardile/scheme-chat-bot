@@ -1,0 +1,588 @@
+{
+  "_id": "66b1e041c5af5de22678813d",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Financial Assistance",
+        "Construction Worker",
+        "Student",
+        "Pre-Matric",
+        "Post-Matric"
+      ],
+      "schemeName": "Financial Assistance for Education of Children of Registered Construction Worker",
+      "schemeShortTitle": "FAECRCW",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce76cd6d1a3bde4685292",
+          "label": "Education & Learning"
+        },
+        {
+          "value": "64f57d10ffb93104c7006c97",
+          "label": "Women and Child"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Financial Assistance",
+          "label": "Financial Assistance"
+        }
+      ],
+      "schemeOpenDate": "2022-10-20",
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "state": {
+        "value": 16,
+        "label": "Tripura"
+      },
+      "nodalDepartmentName": {
+        "value": 16000031,
+        "label": "Labour Department "
+      },
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://tbocwwb.tripura.gov.in/news_announcements/6640322.pdf"
+        },
+        {
+          "title": "Official Website",
+          "url": "https://tbocwwb.tripura.gov.in/index.php"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The &quot;Financial Assistance for Education of Children of Registered Construction Worker&quot; scheme was launched by the Tripura Building and Other Construction Workers Welfare Board, Labour Department Tripura. This scheme gives financial assistance for the education of children of registered construction workers having a continuous registration for a period of six months under TBOCWWB.\n",
+      "benefits_md": "**Pre-Matric Courses:**\n\n- Class 1st to 5th:    ₹1,800/- per year- Class 6th to 8th:    ₹2,400/- per year- Class 9th to 10th:  ₹4,000/- per year\n<br>\n\n**Non-Degree Post-Matric Courses:**\n\n- Courses with entrance qualification as High School (Class 10th) (e.g., senior secondary, ITI courses, 3-year diplomas in Polytechnics): ₹4,000/- per year\n<br>\n\n**Post-Matric Scholarships:**\n\n- **Group 1:  ₹20,000/- year**\n\n\n\n   1. Degree and Post Graduate level courses which include M.Phil., Ph.D., and Post-Doctoral research in Medicine (Allopathic, Indian, and other recognized systems of medicines, Engineering, Technology, Planning, Architecture, Design, Fashion Technology, Agriculture, Veterinary &amp; Allied Sciences, Management, Business Finance /Administration, Computer Science/Applications.\n   1. Commercial Pilot License (including helicopter pilot and multiengine rating) course.\n   1. Post Graduate Diploma courses in various branches of management &amp; medicine.\n   1. C.A./I.C.W.A./C.S./I.C.F.A. etc. (v) M.Phil., Ph.D. and Post-Doctoral Programmes (D. Litt., D.Sc., etc.): In existing Group 2 courses and In existing Group 3 courses\n\n\n\n- **Group 2:  ₹12,000/- year**\n\n\n\n   1. Graduate/ Post Graduate courses leading to Degree, Diploma, Certificate in areas like Pharmacy (B Pharma), Nursing (B Nursing), LLB, BFS, other para-medical branches like rehabilitation, diagnostics etc., Mass Communication, HotelManagement&amp; Catering, Travel/Tourism/Hospitality Management, Interior Decoration, Nutrition &amp; Dietetics, Commercial Art, Financial Services (e.g. Banking, Insurance, Taxation etc.) for which entrance qualification is minimum Sr. Secondary (10+2).\n   1. Post Graduate courses not covered under Group-I e.g. M.A./M.Sc./M.Com./M.Ed./M.Pharma etc.\n\n\n\n- **Group 3:  ₹10,000/- year**\n\n\n\n   1. All other courses leading to a graduate degree not covered under Group 1&amp;2eg. BA/B Sc/B Com etc.\n\n\n",
+      "exclusions_md": "\n1. The candidate pursuing part-time courses will not be eligible.\n1. Home study courses, online courses distance courses, etc. are not eligible for this benefit.\n1. The candidate under full employment during the period of study shall not be eligible for the scholarship.\n\n",
+      "briefDescription": "The \"Financial Assistance for Education of Children of Registered Construction Worker\" scheme for education benefit is to give financial assistance for the education of children of registered construction workers having continuous registration for a period of six months under TBOCWWB. ",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The \"Financial Assistance for Education of Children of Registered Construction Worker\" scheme was launched by the Tripura Building and Other Construction Workers Welfare Board, Labour Department Tripura. This scheme gives financial assistance for the education of children of registered construction workers having a continuous registration for a period of six months under TBOCWWB."
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Pre-Matric Courses:",
+              "bold": true,
+              "underline": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Class 1"
+                },
+                {
+                  "text": "st",
+                  "superscript": true
+                },
+                {
+                  "text": " to 5"
+                },
+                {
+                  "text": "th",
+                  "superscript": true
+                },
+                {
+                  "text": ":    ₹1,800/- per year"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Class 6"
+                },
+                {
+                  "text": "th",
+                  "superscript": true
+                },
+                {
+                  "text": " to 8"
+                },
+                {
+                  "text": "th",
+                  "superscript": true
+                },
+                {
+                  "text": ":    ₹2,400/- per year"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Class 9"
+                },
+                {
+                  "text": "th",
+                  "superscript": true
+                },
+                {
+                  "text": " to 10"
+                },
+                {
+                  "text": "th",
+                  "superscript": true
+                },
+                {
+                  "text": ":  ₹4,000/- per year"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Non-Degree Post-Matric Courses:",
+              "bold": true,
+              "underline": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Courses with entrance qualification as High School (Class 10"
+                },
+                {
+                  "text": "th",
+                  "superscript": true
+                },
+                {
+                  "text": ") (e.g., senior secondary, ITI courses, 3-year diplomas in Polytechnics): ₹4,000/- per year"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Post-Matric Scholarships:",
+              "bold": true,
+              "underline": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Group 1:  ₹20,000/- year",
+                  "bold": true,
+                  "underline": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "ol_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Degree and Post Graduate level courses which include M.Phil., Ph.D., and Post-Doctoral research in Medicine (Allopathic, Indian, and other recognized systems of medicines, Engineering, Technology, Planning, Architecture, Design, Fashion Technology, Agriculture, Veterinary & Allied Sciences, Management, Business Finance /Administration, Computer Science/Applications."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Commercial Pilot License (including helicopter pilot and multiengine rating) course."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Post Graduate Diploma courses in various branches of management & medicine."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "C.A./I.C.W.A./C.S./I.C.F.A. etc. (v) M.Phil., Ph.D. and Post-Doctoral Programmes (D. Litt., D.Sc., etc.): In existing Group 2 courses and In existing Group 3 courses"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Group 2:  ₹12,000/- year",
+                  "bold": true,
+                  "underline": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "ol_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Graduate/ Post Graduate courses leading to Degree, Diploma, Certificate in areas like Pharmacy (B Pharma), Nursing (B Nursing), LLB, BFS, other para-medical branches like rehabilitation, diagnostics etc., Mass Communication, HotelManagement& Catering, Travel/Tourism/Hospitality Management, Interior Decoration, Nutrition & Dietetics, Commercial Art, Financial Services (e.g. Banking, Insurance, Taxation etc.) for which entrance qualification is minimum Sr. Secondary (10+2)."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Post Graduate courses not covered under Group-I e.g. M.A./M.Sc./M.Com./M.Ed./M.Pharma etc."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Group 3:  ₹10,000/- year",
+                  "underline": true,
+                  "bold": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "ol_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "All other courses leading to a graduate degree not covered under Group 1&2eg. BA/B Sc/B Com etc."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "exclusions": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The candidate pursuing part-time courses will not be eligible."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Home study courses, online courses distance courses, etc. are not eligible for this benefit."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The candidate under full employment during the period of study shall not be eligible for the scholarship."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Online - via CSC",
+        "process": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 1:",
+                "bold": true
+              },
+              {
+                "text": " The applicant should gather copies of the necessary documents needed to apply for the concerned scheme."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2:",
+                "bold": true
+              },
+              {
+                "text": " The applicant should visit the nearest Common Service Center (CSC) and complete the Biometric Verification Process."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 3:",
+                "bold": true
+              },
+              {
+                "text": " The applicant should ensure that the CSC agent completes all mandatory fields in the application form and uploads copies of all required documents."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 4:",
+                "bold": true
+              },
+              {
+                "text": " Request a receipt or acknowledgment from the concerned authority to whom the application has been submitted. Ensure that the receipt contains essential details such as the date and time of submission, and a unique identification number (if applicable)."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "NOTE:",
+                "bold": true
+              },
+              {
+                "text": " "
+              }
+            ]
+          },
+          {
+            "type": "ul_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "The application must be submitted within 6 months of the next academic year."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "The student applying for a Post-Matric scholarship should possess the relevant qualification from any recognized institution."
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "process_md": "**Step 1:** The applicant should gather copies of the necessary documents needed to apply for the concerned scheme.\n**Step 2:** The applicant should visit the nearest Common Service Center (CSC) and complete the Biometric Verification Process.\n**Step 3:** The applicant should ensure that the CSC agent completes all mandatory fields in the application form and uploads copies of all required documents.\n**Step 4:** Request a receipt or acknowledgment from the concerned authority to whom the application has been submitted. Ensure that the receipt contains essential details such as the date and time of submission, and a unique identification number (if applicable).\n<br>\n\n**NOTE:** \n\n- The application must be submitted within 6 months of the next academic year.\n- The student applying for a Post-Matric scholarship should possess the relevant qualification from any recognized institution.\n\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n1. The children&#39;s parents or guardians must be registered construction workers under the Building &amp; Other Construction Workers’ Welfare Board\n1. The scholarships are awarded for all recognized Pre-Matric and Post-Matric courses in recognized institutions, except courses of 6 months or less.\n1. The students studying in the same stage of education in different subjects (e.g., Class XI Arts after Class XI Science) are not eligible.\n1. The student who completed one professional stream and is pursuing another (e.g., LLB after B.Ed.) is not eligible. The students will be allowed to take up only one professional stream.\n1. The scholarship shall be tenable for the prescribed duration of a course. A candidate who receives the scholarship but fails to pass in a particular year shall not receive further scholarship till he/she passes the specific year of the course.\n1. The student should maintain 50% of the annual attendance in the class.\n1. Only two children of the same parents/guardians are eligible for scholarships.\n1. The registered construction workers must have no dues payable to the Board.\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The children's parents or guardians must be registered construction workers under the Building & Other Construction Workers’ Welfare Board"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The scholarships are awarded for all recognized Pre-Matric and Post-Matric courses in recognized institutions, except courses of 6 months or less."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The students studying in the same stage of education in different subjects (e.g., Class XI Arts after Class XI Science) are not eligible."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The student who completed one professional stream and is pursuing another (e.g., LLB after B.Ed.) is not eligible. The students will be allowed to take up only one professional stream."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The scholarship shall be tenable for the prescribed duration of a course. A candidate who receives the scholarship but fails to pass in a particular year shall not receive further scholarship till he/she passes the specific year of the course."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The student should maintain 50% of the annual attendance in the class."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Only two children of the same parents/guardians are eligible for scholarships."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The registered construction workers must have no dues payable to the Board."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "faecrcw"
+}

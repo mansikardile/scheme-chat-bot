@@ -1,0 +1,221 @@
+{
+  "_id": "66b3ab0dc5af5de2267a549a",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Financial Assistance",
+        "Construction Worker",
+        "Funeral Assistance"
+      ],
+      "schemeName": "Scheme for Funeral Assistance in Case of Death of Registered Construction Worker",
+      "schemeShortTitle": "SFACDRCW",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce87cd6d1a3bde4685312",
+          "label": "Social welfare & Empowerment"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Financial assistance",
+          "label": "Financial assistance"
+        }
+      ],
+      "schemeOpenDate": "2022-10-20",
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "state": {
+        "value": 16,
+        "label": "Tripura"
+      },
+      "nodalDepartmentName": {
+        "value": 16000031,
+        "label": "Labour Department "
+      },
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://tbocwwb.tripura.gov.in/news_announcements/5109061.pdf"
+        },
+        {
+          "title": "Official Website",
+          "url": "https://tbocwwb.tripura.gov.in/index.php"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The Tripura Building and Other Construction Workers Welfare Board, Labour Department Tripura launched the &quot;Scheme for Funeral Assistance in Case of Death of Registered Construction Worker&quot;. Under rule 282 (Other Welfare Measures) of the Tripura State Building and Other Construction Workers (RE &amp; CS) Rules 2001, the scheme for funeral Assistance in case of the death of registered construction workers is made.\n",
+      "benefits_md": "\n- **A one-time grant of ₹10,000/- is provided for the expenses of the funeral ceremony.**\n\n**NOTE:** The amount of benefit payable by the BOARD shall be paid through DBT mode.\n",
+      "exclusions_md": "<br>\n\n",
+      "briefDescription": "The \"Scheme for Funeral Assistance in Case of Death of Registered Construction Worker\" was launched by the Tripura Building and Other Construction Workers Welfare Board, Labour Department Tripura. The scheme aims to provide funeral assistance in case of the death of registered construction workers.",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The Tripura Building and Other Construction Workers Welfare Board, Labour Department Tripura launched the \"Scheme for Funeral Assistance in Case of Death of Registered Construction Worker\". Under rule 282 (Other Welfare Measures) of the Tripura State Building and Other Construction Workers (RE & CS) Rules 2001, the scheme for funeral Assistance in case of the death of registered construction workers is made."
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "A one-time grant of ₹10,000/- is provided for the expenses of the funeral ceremony.",
+                  "bold": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "bold": true,
+              "text": "NOTE: "
+            },
+            {
+              "text": "The amount of benefit payable by the BOARD shall be paid through DBT mode."
+            }
+          ]
+        }
+      ],
+      "exclusions": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Online - via CSC",
+        "process": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 1:",
+                "bold": true
+              },
+              {
+                "text": " The applicant should gather copies of the necessary documents needed to apply for the concerned scheme."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2:",
+                "bold": true
+              },
+              {
+                "text": " The applicant should visit the nearest Common Service Center (CSC) and complete the Biometric Verification Process."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 3:",
+                "bold": true
+              },
+              {
+                "text": " The applicant should ensure that the CSC agent completes all mandatory fields in the application form and uploads copies of all required documents."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 4:",
+                "bold": true
+              },
+              {
+                "text": " Request a receipt or acknowledgment from the concerned authority to whom the application has been submitted. Ensure that the receipt contains essential details such as the date and time of submission, and a unique identification number (if applicable)."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "NOTE:  ",
+                "bold": true
+              },
+              {
+                "text": "The application should be submitted within 30 days from the date of death of the registered construction worker or the application for the same may be submitted while claiming for the death benefit by the nominee."
+              }
+            ]
+          }
+        ],
+        "process_md": "**Step 1:** The applicant should gather copies of the necessary documents needed to apply for the concerned scheme.\n**Step 2:** The applicant should visit the nearest Common Service Center (CSC) and complete the Biometric Verification Process.\n**Step 3:** The applicant should ensure that the CSC agent completes all mandatory fields in the application form and uploads copies of all required documents.\n**Step 4:** Request a receipt or acknowledgment from the concerned authority to whom the application has been submitted. Ensure that the receipt contains essential details such as the date and time of submission, and a unique identification number (if applicable).\n<br>\n\n**NOTE:**  The application should be submitted within 30 days from the date of death of the registered construction worker or the application for the same may be submitted while claiming for the death benefit by the nominee.\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n1. The applicant should be a nominee, spouse, or dependent of the deceased registered worker. \n1. The registered construction workers should not have any dues payable to the Board.\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should be a nominee, spouse, or dependent of the deceased registered worker. "
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The registered construction workers should not have any dues payable to the Board."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "sfacdrcw"
+}

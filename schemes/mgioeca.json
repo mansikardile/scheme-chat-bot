@@ -1,0 +1,239 @@
+{
+  "_id": "6660138402cfbde3165b8997",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": null,
+      "tags": [
+        "Financial Assistance",
+        "Maintenance Grant",
+        "Organization"
+      ],
+      "schemeName": "Maintenance Grant to Institutions and Organizations Engaged in Cultural Activities",
+      "schemeShortTitle": "MGIOECA",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce8aad6d1a3bde4685320",
+          "label": "Sports & Culture"
+        },
+        {
+          "value": "628ce733d6d1a3bde4685278",
+          "label": "Business & Entrepreneurship"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Culture",
+          "label": "Culture"
+        },
+        {
+          "value": "Setting up / start-up / entrepreneurship",
+          "label": "Setting up / start-up / entrepreneurship"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "business-entity",
+          "label": "Business Entity"
+        }
+      ],
+      "state": {
+        "value": 34,
+        "label": "Puducherry"
+      },
+      "nodalDepartmentName": {
+        "value": 34000005,
+        "label": "Arts and Culture Department, Puducherry"
+      },
+      "schemeFor": "Infra"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Citizens Charter",
+          "url": "https://art.py.gov.in//sites/default/files/ecit1.pdf"
+        },
+        {
+          "title": "Official Website",
+          "url": "https://art.py.gov.in/"
+        },
+        {
+          "title": "Application Form",
+          "url": "https://art.py.gov.in/sites/default/files/application-13.pdf"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The &amp;quot;Maintenance Grant to Institutions and Organizations Engaged in Cultural Activities&amp;quot; scheme was launched by the Arts and Culture Department, Puducherry. The scheme aims to provide a maintenance grant to the organizations engaged in cultural activities. The applications are accepted offline. \n",
+      "benefits_md": "\n- Financial assistance gives for maintenance ₹3,000/- and cultural activities ₹5,000/-. \n\n",
+      "briefDescription": "The \"Maintenance Grant to Institutions and Organizations Engaged in Cultural Activities\" scheme was launched by the Arts and Culture Department, Puducherry. The scheme aims to provide a maintenance grant to the organizations engaged in cultural activities.",
+      "exclusions_md": "",
+      "detailedDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "The \"Maintenance Grant to Institutions and Organizations Engaged in Cultural Activities\" scheme was launched by the Arts and Culture Department, Puducherry. The scheme aims to provide a maintenance grant to the organizations engaged in cultural activities. The applications are accepted offline. "
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Financial assistance gives for maintenance ₹3,000/- and cultural activities ₹5,000/-. "
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "process": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 1: ",
+                "bold": true
+              },
+              {
+                "text": "The interested applicant should visit (during office hours) the Department of Art and Culture and request the hard copy of the prescribed format of the application form from the staff exclusively entrusted to issue and collect filled-in applications."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "OR"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "The interested applicant downloads the "
+              },
+              {
+                "type": "link",
+                "link": "https://art.py.gov.in/sites/default/files/application-13.pdf",
+                "children": [
+                  {
+                    "text": "application form"
+                  }
+                ]
+              },
+              {
+                "text": "."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2:",
+                "bold": true
+              },
+              {
+                "text": " In the application form, fill in all the mandatory fields, paste the passport-sized photograph (signed across, if required), and attach copies of all the mandatory documents (self-attest, if required)."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 3: ",
+                "bold": true
+              },
+              {
+                "text": "Submit the duly filled and signed application form along with the documents to the superintendent, Department of Art and Culture,1, Romain Rolland Street, Puducherry."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 4: ",
+                "bold": true
+              },
+              {
+                "text": "Request a receipt or acknowledgment from the superintendent to whom the application has been submitted. Ensure that the receipt contains essential details such as the date and time of submission, and a unique identification number (if applicable)."
+              }
+            ]
+          }
+        ],
+        "process_md": "**Step 1:** The interested applicant should visit (during office hours) the Department of Art and Culture and request the hard copy of the prescribed format of the application form from the staff exclusively entrusted to issue and collect filled-in applications.\nOR\nThe interested applicant downloads the [application form](https://art.py.gov.in/sites/default/files/application-13.pdf).\n**Step 2:** In the application form, fill in all the mandatory fields, paste the passport-sized photograph (signed across, if required), and attach copies of all the mandatory documents (self-attest, if required).\n**Step 3:** Submit the duly filled and signed application form along with the documents to the superintendent, Department of Art and Culture,1, Romain Rolland Street, Puducherry.\n**Step 4:** Request a receipt or acknowledgment from the superintendent to whom the application has been submitted. Ensure that the receipt contains essential details such as the date and time of submission, and a unique identification number (if applicable).\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n1. A cultural organization should be engaged in cultural activities for a minimum period of two years. \n1. The institution&#39;s accounts should be duly audited and approved by a competent person or body, as per the rules outlined in the Memorandum of Association.\n1. A cultural organization should not be run for profit to any individual or a body of individuals.\n1. Institutions should have submitted utilization certificates for all previously received grants to be eligible for new grants.\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "A cultural organization should be engaged in cultural activities for a minimum period of two years. "
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The institution's accounts should be duly audited and approved by a competent person or body, as per the rules outlined in the Memorandum of Association."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "A cultural organization should not be run for profit to any individual or a body of individuals."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Institutions should have submitted utilization certificates for all previously received grants to be eligible for new grants."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "mgioeca"
+}

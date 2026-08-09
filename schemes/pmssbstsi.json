@@ -1,0 +1,781 @@
+{
+  "_id": "69eb3ac7add8ffad6371f1a7",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Student",
+        "Scheduled Tribe",
+        "Scholarship",
+        "Stipend",
+        "Education",
+        "Allowance",
+        "Reimbursement"
+      ],
+      "schemeName": "Post-Matric Scholarship for the Students Belonging to Scheduled Tribe for Studies in India",
+      "schemeShortTitle": "PMSSBSTSI",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce76cd6d1a3bde4685292",
+          "label": "Education & Learning"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Scholarships and student finance",
+          "label": "Scholarships and student finance"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "schemeFor": "Individual",
+      "state": {
+        "value": 18,
+        "label": "Assam"
+      },
+      "nodalDepartmentName": {
+        "value": 1800065,
+        "label": "Directorate of Tribal Affairs (Plain)"
+      }
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Directorate Website",
+          "url": "https://directoratetribalaffairsplain.assam.gov.in/"
+        },
+        {
+          "title": "Contact Us",
+          "url": "https://directoratetribalaffairsplain.assam.gov.in/contact-us"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The scheme &quot;Post-Matric Scholarship for the Students Belonging to Scheduled Tribe for Studies in India&quot; is implemented by the Department of Tribal Affairs (Plain), Government of Assam. The scheme aims to enable eligible Scheduled Tribe students to undertake quality education from the post-matriculation to the post-graduate level by providing them with comprehensive financial assistance. The scheme provides financial assistance covering the payment of compulsory non-refundable fees and a monthly stipend, alongside an additional disability allowance for specially-abled students.\n<br>\n\n",
+      "benefits_md": "##### ***Fee Component***\n\n- The scheme covers the payment of compulsory non-refundable fees for the recognized post-matriculation or post-secondary course pursued by the student.\n- There is a fee ceiling of ₹2,50,000/- per annum per student for Engineering courses in private sector institutes.\n- There is a fee ceiling of ₹6,00,000/- per annum per student for Bachelor of Medicine, Bachelor of Surgery, Master of Surgery, and Doctor of Medicine courses in private sector institutes.\n- There is a fee ceiling of ₹1,00,000/- per annum per student for all other courses in private sector institutes.\n\n<br>\n\n##### ***Monthly Stipend (Payable For A Maximum Of 10 Months Annually)***\n\n- For Group I (Degree and Post Graduate professional courses): Hostellers receive ₹1,200/- per month (₹12,000/- annually), and day scholars receive ₹550/- per month (₹5,500/- annually).\n- For Group II (Non-professional Degree and Post Graduate courses): Hostellers receive ₹820/- per month (₹8,200/- annually), and day scholars receive ₹530/- per month (₹5,300/- annually).\n- For Group III (Vocational, Industrial Training Institute, and 3-year diploma courses): Hostellers receive ₹570/- per month (₹5,700/- annually), and day scholars receive ₹300/- per month (₹3,000/- annually).\n- For Group IV (Post-matriculation non-degree courses): Hostellers receive ₹380/- per month (₹3,800/- annually), and day scholars receive ₹230/- per month (₹2,300/- annually).\n\n<br>\n\n##### ***Additional Disability Allowance***\n\n- Specially-abled hosteller students receive an additional allowance of ₹800/- per month (₹9,600/- annually).\n- Specially-abled day scholar students receive an additional allowance of ₹600/- per month (₹7,200/- annually).\n\n<br>\n\n##### ***Benefit Disbursal Details***\n\n- The scholarship amounts are disbursed exclusively through the Direct Benefit Transfer mode directly into the Aadhaar-linked bank accounts of the beneficiaries.\n- The stipend is payable monthly, calculated from 1st April or from the month of admission, whichever is later, until the month in which the annual examinations are completed.\n\n<br>\n\n##### ***Conditions for Availment and Continuation***\n\n- The continuous disbursement of the scholarship is strictly dependent on the satisfactory academic progress, good conduct, and regularity in attendance of the enrolled scholars.\n- The scholarship will be immediately cancelled or withheld if the student resorts to strikes or maintains irregular attendance without formal permission from the institution authorities.\n- The scholarship will not be renewed if the student fails in a particular academic year, and the benefits will be paused until the student clears that class and gets promoted to the next class.\n\n<br>\n\n",
+      "exclusions_md": "\n- The applicant must not be in receipt of any other scholarship or stipend from any alternative scheme at the same time.\n- The applicant must not apply for a diploma or degree course in a different academic stream after already completing a separate course in one stream.\n- The applicant must not claim the scholarship stipend for the period of internship or housemanship if they receive any form of remuneration or allowance during that practical training period.\n\n<br>\n\n",
+      "briefDescription": "The scheme aims to enable eligible Scheduled Tribe students to undertake quality education from the post-matriculation to the post-graduate level. It provides financial assistance covering compulsory course fees and monthly stipends for intended beneficiaries, including hostellers and day scholars.",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The scheme \"Post-Matric Scholarship for the Students Belonging to Scheduled Tribe for Studies in India\" is implemented by the Department of Tribal Affairs (Plain), Government of Assam. The scheme aims to enable eligible Scheduled Tribe students to undertake quality education from the post-matriculation to the post-graduate level by providing them with comprehensive financial assistance. The scheme provides financial assistance covering the payment of compulsory non-refundable fees and a monthly stipend, alongside an additional disability allowance for specially-abled students."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "heading_five",
+          "children": [
+            {
+              "text": "Fee Component",
+              "bold": true,
+              "underline": true,
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The scheme covers the payment of compulsory non-refundable fees for the recognized post-matriculation or post-secondary course pursued by the student."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "There is a fee ceiling of ₹2,50,000/- per annum per student for Engineering courses in private sector institutes."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "There is a fee ceiling of ₹6,00,000/- per annum per student for Bachelor of Medicine, Bachelor of Surgery, Master of Surgery, and Doctor of Medicine courses in private sector institutes."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "There is a fee ceiling of ₹1,00,000/- per annum per student for all other courses in private sector institutes."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        },
+        {
+          "type": "heading_five",
+          "children": [
+            {
+              "text": "Monthly Stipend (Payable For A Maximum Of 10 Months Annually)",
+              "bold": true,
+              "underline": true,
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "For Group I (Degree and Post Graduate professional courses): Hostellers receive ₹1,200/- per month (₹12,000/- annually), and day scholars receive ₹550/- per month (₹5,500/- annually)."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "For Group II (Non-professional Degree and Post Graduate courses): Hostellers receive ₹820/- per month (₹8,200/- annually), and day scholars receive ₹530/- per month (₹5,300/- annually)."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "For Group III (Vocational, Industrial Training Institute, and 3-year diploma courses): Hostellers receive ₹570/- per month (₹5,700/- annually), and day scholars receive ₹300/- per month (₹3,000/- annually)."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "For Group IV (Post-matriculation non-degree courses): Hostellers receive ₹380/- per month (₹3,800/- annually), and day scholars receive ₹230/- per month (₹2,300/- annually)."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        },
+        {
+          "type": "heading_five",
+          "children": [
+            {
+              "text": "Additional Disability Allowance",
+              "bold": true,
+              "underline": true,
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Specially-abled hosteller students receive an additional allowance of ₹800/- per month (₹9,600/- annually)."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Specially-abled day scholar students receive an additional allowance of ₹600/- per month (₹7,200/- annually)."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        },
+        {
+          "type": "heading_five",
+          "children": [
+            {
+              "text": "Benefit Disbursal Details",
+              "bold": true,
+              "underline": true,
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The scholarship amounts are disbursed exclusively through the Direct Benefit Transfer mode directly into the Aadhaar-linked bank accounts of the beneficiaries."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The stipend is payable monthly, calculated from 1st April or from the month of admission, whichever is later, until the month in which the annual examinations are completed."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        },
+        {
+          "type": "heading_five",
+          "children": [
+            {
+              "text": "Conditions for Availment and Continuation",
+              "bold": true,
+              "underline": true,
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The continuous disbursement of the scholarship is strictly dependent on the satisfactory academic progress, good conduct, and regularity in attendance of the enrolled scholars."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The scholarship will be immediately cancelled or withheld if the student resorts to strikes or maintains irregular attendance without formal permission from the institution authorities."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The scholarship will not be renewed if the student fails in a particular academic year, and the benefits will be paused until the student clears that class and gets promoted to the next class."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ],
+      "exclusions": [
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must not be in receipt of any other scholarship or stipend from any alternative scheme at the same time."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must not apply for a diploma or degree course in a different academic stream after already completing a separate course in one stream."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must not claim the scholarship stipend for the period of internship or housemanship if they receive any form of remuneration or allowance during that practical training period."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Online",
+        "process": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Signup to DigiLocker",
+                "bold": true,
+                "underline": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 1:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " Visit the "
+              },
+              {
+                "type": "link",
+                "link": "https://www.digilocker.gov.in/",
+                "children": [
+                  {
+                    "text": "DigiLocker Portal",
+                    "italic": true
+                  }
+                ]
+              },
+              {
+                "text": " or download the DigiLocker Mobile App ("
+              },
+              {
+                "type": "link",
+                "link": "https://play.google.com/store/apps/details?id=com.digilocker.android",
+                "children": [
+                  {
+                    "text": "Android",
+                    "italic": true
+                  }
+                ]
+              },
+              {
+                "text": " / ",
+                "italic": true
+              },
+              {
+                "type": "link",
+                "link": "https://itunes.apple.com/in/app/digilocker/id1320618078",
+                "children": [
+                  {
+                    "text": "iOS",
+                    "italic": true
+                  }
+                ]
+              },
+              {
+                "text": ")."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " Click "
+              },
+              {
+                "text": "\"",
+                "italic": true
+              },
+              {
+                "type": "link",
+                "link": "https://www.digilocker.gov.in/web/signup",
+                "children": [
+                  {
+                    "text": "Login/Register",
+                    "italic": true
+                  }
+                ]
+              },
+              {
+                "text": "\"",
+                "italic": true
+              },
+              {
+                "text": " and provide these details: Full name, Gender, Mobile number, Email ID, and Aadhaar Number. Create a 6-digit PIN."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 3:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " Finally, click \"Submit\". Note the 6-digit PIN for future reference."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "bold": true,
+                "underline": true,
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Signin to myScheme",
+                "bold": true,
+                "underline": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 1:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " At the top right corner of this page, click \"Sign In\". Provide your DigiLocker Mobile Number and the 6-digit PIN."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " Click the \"I consent to terms of use\" checkbox, then click \"Sign In\". You will be directed to the DigiLocker Consent Page."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 3:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " At the bottom of the page, click \"Allow\". You have now successfully signed in to myScheme."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "bold": true,
+                "underline": true,
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "bold": true,
+                "underline": true,
+                "text": "Scheme Application"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "bold": true,
+                "underline": true,
+                "text": "Step 1:"
+              },
+              {
+                "text": " At the top of this page, click \"Apply Now\". The application form of the scheme will open."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "bold": true,
+                "underline": true,
+                "text": "Step 2:"
+              },
+              {
+                "text": " Fill in all the mandatory fields of the application form, and upload all the mandatory documents in the specified format and size."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 3:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "bold": true,
+                "text": " "
+              },
+              {
+                "text": "Carefully review all the information provided and the documents uploaded. Make any necessary corrections."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 4:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " Click \"Submit\". You'll receive the following confirmation message: \"Form Submitted Successfully!\"."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 5:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " For future reference, click \"Print\" to print the form or to download the filled form as a PDF file. Else, click \"Ok\" to get redirected to the myScheme landing page."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          }
+        ],
+        "process_md": "**Signup to DigiLocker**\n**Step 1:** Visit the [_DigiLocker Portal_](https://www.digilocker.gov.in/) or download the DigiLocker Mobile App ([_Android_](https://play.google.com/store/apps/details?id=com.digilocker.android) _/_ [_iOS_](https://itunes.apple.com/in/app/digilocker/id1320618078)).\n**Step 2:** Click _&quot;_[_Login/Register_](https://www.digilocker.gov.in/web/signup)_&quot;_ and provide these details: Full name, Gender, Mobile number, Email ID, and Aadhaar Number. Create a 6-digit PIN.\n**Step 3:** Finally, click &quot;Submit&quot;. Note the 6-digit PIN for future reference.\n<br>\n\n**Signin to myScheme**\n**Step 1:** At the top right corner of this page, click &quot;Sign In&quot;. Provide your DigiLocker Mobile Number and the 6-digit PIN.\n**Step 2:** Click the &quot;I consent to terms of use&quot; checkbox, then click &quot;Sign In&quot;. You will be directed to the DigiLocker Consent Page.\n**Step 3:** At the bottom of the page, click &quot;Allow&quot;. You have now successfully signed in to myScheme.\n<br>\n\n**Scheme Application**\n**Step 1:** At the top of this page, click &quot;Apply Now&quot;. The application form of the scheme will open.\n**Step 2:** Fill in all the mandatory fields of the application form, and upload all the mandatory documents in the specified format and size.\n**Step 3:****** Carefully review all the information provided and the documents uploaded. Make any necessary corrections.\n**Step 4:** Click &quot;Submit&quot;. You&#39;ll receive the following confirmation message: &quot;Form Submitted Successfully!&quot;.\n**Step 5:** For future reference, click &quot;Print&quot; to print the form or to download the filled form as a PDF file. Else, click &quot;Ok&quot; to get redirected to the myScheme landing page.\n<br>\n\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n- The applicant must belong to the Scheduled Tribe, Other Backward Classes, or More Other Backward Classes as specified in relation to the State or Union Territory to which they actually belong.\n- The applicant must have successfully passed the Matriculation or Higher Secondary or any higher examination of a recognized University or Board of Secondary Education.\n- The applicant must take admission in recognized post-matriculation or post-secondary courses pursued in government, government-aided, or approved private institutions.\n- The applicant must possess a valid, active bank account in a Scheduled Bank.\n- The applicant must link their bank account securely with their Aadhaar number and their active mobile number.\n- The applicant should preferably continue using the identical mobile number linked with the bank account for the entire duration of the course.\n\n<br>\n\n***Income Criteria***\n\n- The applicant must belong to a family whose total gross income from all sources does not exceed ₹2,50,000/- per annum without any exemption or deductions.\n- The applicant must calculate the combined income of both parents from all sources if both the father and mother are currently working.\n- The applicant must compute the income of only one parent if only one parent is alive and supporting the family.\n- The applicant must not include the income of siblings or other earning members of the family while computing the total family income.\n- The applicant must be fully exempt from the family income criteria if they are an orphan supported by a guardian.\n\n<br>\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must belong to the Scheduled Tribe, Other Backward Classes, or More Other Backward Classes as specified in relation to the State or Union Territory to which they actually belong."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must have successfully passed the Matriculation or Higher Secondary or any higher examination of a recognized University or Board of Secondary Education."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must take admission in recognized post-matriculation or post-secondary courses pursued in government, government-aided, or approved private institutions."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must possess a valid, active bank account in a Scheduled Bank."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must link their bank account securely with their Aadhaar number and their active mobile number."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should preferably continue using the identical mobile number linked with the bank account for the entire duration of the course."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "",
+              "bold": true,
+              "underline": true,
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "bold": true,
+              "underline": true,
+              "italic": true,
+              "text": "Income Criteria"
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must belong to a family whose total gross income from all sources does not exceed ₹2,50,000/- per annum without any exemption or deductions."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must calculate the combined income of both parents from all sources if both the father and mother are currently working."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must compute the income of only one parent if only one parent is alive and supporting the family."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must not include the income of siblings or other earning members of the family while computing the total family income."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must be fully exempt from the family income criteria if they are an orphan supported by a guardian."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "pmssbstsi"
+}

@@ -1,0 +1,388 @@
+{
+  "_id": "685e4a8a61dd0be9e0816318",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Business",
+        "Rural",
+        "Village",
+        "Artisan",
+        "SHG",
+        "Subsidy",
+        "Margin Money"
+      ],
+      "schemeName": "Jyoti Gramodyog Vikas Yojana",
+      "schemeShortTitle": "JGVY",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce733d6d1a3bde4685278",
+          "label": "Business & Entrepreneurship"
+        },
+        {
+          "value": "628ce87cd6d1a3bde4685312",
+          "label": "Social welfare & Empowerment"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Setting up / start-up / entrepreneurship",
+          "label": "Setting up / start-up / entrepreneurship"
+        },
+        {
+          "value": "Credit Linked Subsidy",
+          "label": "Credit Linked Subsidy"
+        },
+        {
+          "value": "Financial assistance",
+          "label": "Financial assistance"
+        },
+        {
+          "value": "Citizen empowerment",
+          "label": "Citizen empowerment"
+        },
+        {
+          "value": "Micro finance",
+          "label": "Micro finance"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "state": {
+        "value": 24,
+        "label": "Gujarat"
+      },
+      "schemeType": null,
+      "nodalMinistryName": null,
+      "nodalDepartmentName": {
+        "value": 2444452,
+        "label": "Industries and Mines Department"
+      },
+      "otherMinistryName": null,
+      "otherDepartmentNames": null,
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines [Commissioner Of Cottage & Rural Industries]",
+          "url": "https://cottage.gujarat.gov.in/Home-5E25723F2E72-214079-282472242566-242566"
+        },
+        {
+          "title": "Application Form",
+          "url": "https://cottage.gujarat.gov.in/FileExplorer/JGVY.pdf"
+        },
+        {
+          "title": "Subsidy Form",
+          "url": "https://cottage.gujarat.gov.in/FileExplorer/SUBSIDY.pdf"
+        }
+      ],
+      "schemeImageUrl": "",
+      "briefDescription": "The scheme provides margin money subsidies (25–30%) for new rural industrial projects (₹1,00,000/- to 25,00,000/-) to artisans, entrepreneurs, and SHGs, leveraging a 24-hour electricity supply in villages. Beneficiaries must be aged 25–50 years with a Class 10th education.",
+      "detailedDescription_md": "Launched on 7th September 2015, the scheme &quot;Jyoti Gramodyog Vikas Yojana&quot; by the Commissioner of Cottage and Rural Industries, Industries &amp; Mines Department, Government of Gujarat, aims to promote rural entrepreneurship by providing financial assistance (margin money subsidy) for setting up new village industries in areas with 24x3-phase electricity supply. The scheme targets individual artisans, entrepreneurs, and Self-Help Groups (SHGs) with project costs ranging from ₹1,00,000/- to ₹25,00,000/-. It offers 25–30% margin money subsidy (higher for SC/ST/women/PH candidates) to incentivize production-oriented ventures. Applications are submitted offline through District Industries Centres (DICs), and subsidies are disbursed after a 2-year successful project run.\n",
+      "benefits_md": "> **Margin Money Subsidy**\n\n**For General Category**\n\n- 25% for projects up to ₹10,00,000/-.\n- 25% on first ₹10,00,000/- + 10% on remaining cost (up to ₹25,00,000/-).\n\n**For SC/ST/Women/Physically Handicapped**\n\n- 30% for projects up to ₹10,00,000/-.\n- 30% on first ₹10,00,000/- + 10% on remaining cost (up to ₹25,00,000/-).\n\n<br>\n\n> **Project Cost Coverage**\n\n\n- Includes machinery, raw materials, and working capital (max 10% of total cost).\n- Excludes land/building expenses.\n\n> **Disbursement**\n\nThe subsidy is credited to the beneficiary’s account after 2 years of successful operation (upon verification by DIC).\n",
+      "exclusions_md": "",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Launched on 7th September 2015, the scheme \"Jyoti Gramodyog Vikas Yojana\" by the Commissioner of Cottage and Rural Industries, Industries & Mines Department, Government of Gujarat, aims to promote rural entrepreneurship by providing financial assistance (margin money subsidy) for setting up new village industries in areas with 24x3-phase electricity supply. The scheme targets individual artisans, entrepreneurs, and Self-Help Groups (SHGs) with project costs ranging from ₹1,00,000/- to ₹25,00,000/-. It offers 25–30% margin money subsidy (higher for SC/ST/women/PH candidates) to incentivize production-oriented ventures. Applications are submitted offline through District Industries Centres (DICs), and subsidies are disbursed after a 2-year successful project run."
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "Margin Money Subsidy",
+              "bold": true,
+              "underline": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "For General Category",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "25% for projects up to ₹10,00,000/-."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "25% on first ₹10,00,000/- + 10% on remaining cost (up to ₹25,00,000/-)."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "For SC/ST/Women/Physically Handicapped",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "30% for projects up to ₹10,00,000/-."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "30% on first ₹10,00,000/- + 10% on remaining cost (up to ₹25,00,000/-)."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        },
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "Project Cost Coverage",
+              "bold": true,
+              "underline": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Includes machinery, raw materials, and working capital (max 10% of total cost)."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Excludes land/building expenses."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "Disbursement",
+              "bold": true,
+              "underline": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The subsidy is credited to the beneficiary’s account after 2 years of successful operation (upon verification by DIC)."
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "process": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 1:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " The interested applicant should visit the District Industries Centre (District Ughogh Kendra) of their district, and collect the prescribed format for scheme application from the designated staff."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "OR"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "The interested applicant should take a printout of the "
+              },
+              {
+                "type": "link",
+                "link": "https://cottage.gujarat.gov.in/FileExplorer/JGVY.pdf",
+                "children": [
+                  {
+                    "text": "prescribed format"
+                  }
+                ]
+              },
+              {
+                "text": " of the application form."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " In the application form, fill in all the mandatory fields, paste the passport-sized photograph (signed across, if required), and attach copies of all the mandatory documents (self-attest, if required)."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 3:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " Submit the duly filled and signed application form along with the documents, within the prescribed period (if any), to the designated staff."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 4:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " Request a receipt or acknowledgement from the staff to whom the application has been submitted. Ensure that the receipt contains essential details such as the date and time of submission, and a unique identification number (if applicable)."
+              }
+            ]
+          }
+        ],
+        "process_md": "**Step 1:** The interested applicant should visit the District Industries Centre (District Ughogh Kendra) of their district, and collect the prescribed format for scheme application from the designated staff.\nOR\nThe interested applicant should take a printout of the [prescribed format](https://cottage.gujarat.gov.in/FileExplorer/JGVY.pdf) of the application form.\n**Step 2:** In the application form, fill in all the mandatory fields, paste the passport-sized photograph (signed across, if required), and attach copies of all the mandatory documents (self-attest, if required).\n**Step 3:** Submit the duly filled and signed application form along with the documents, within the prescribed period (if any), to the designated staff.\n**Step 4:** Request a receipt or acknowledgement from the staff to whom the application has been submitted. Ensure that the receipt contains essential details such as the date and time of submission, and a unique identification number (if applicable).\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n- The applicant must be aged between 25 to 50 years. \n- The applicant must have passed at least Class 10 from a recognized educational board. \n- The applicant must possess at least one year of experience in the proposed business activity or relevant training from a recognized institution. \n- The applicant must be either an individual artisan/entrepreneur or part of a Grade-II active Self Help Group engaged in small-scale production. The applicant&#39;s proposed project must be located in a rural area with a population not exceeding 20,000. \n- The applicant must not represent a partnership firm, private limited company, joint venture, HUF, or similar commercial entity. \n- For SC/ST, women, and physically handicapped applicants, additional benefits are provided as specified in the benefits section.\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must be aged between 25 to 50 years. "
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must have passed at least Class 10 from a recognized educational board. "
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must possess at least one year of experience in the proposed business activity or relevant training from a recognized institution. "
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must be either an individual artisan/entrepreneur or part of a Grade-II active Self Help Group engaged in small-scale production. The applicant's proposed project must be located in a rural area with a population not exceeding 20,000. "
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must not represent a partnership firm, private limited company, joint venture, HUF, or similar commercial entity. "
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "For SC/ST, women, and physically handicapped applicants, additional benefits are provided as specified in the benefits section."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "jgvy"
+}

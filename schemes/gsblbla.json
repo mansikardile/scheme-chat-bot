@@ -1,0 +1,481 @@
+{
+  "_id": "650beb441a1c949c65fe4468",
+  "en": {
+    "basicDetails": {
+      "schemeOpenDate": null,
+      "schemeCloseDate": null,
+      "nodalMinistryName": null,
+      "nodalDepartmentName": {
+        "value": 30000005,
+        "label": "Art, Culture and Museums Department"
+      },
+      "otherMinistryName": null,
+      "otherDepartmentNames": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        },
+        {
+          "value": "institution",
+          "label": "University / Institution"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Culture",
+          "label": "Culture"
+        },
+        {
+          "value": "Resources for schools",
+          "label": "Resources for schools"
+        },
+        {
+          "value": "Financial assistance",
+          "label": "Financial assistance"
+        }
+      ],
+      "dbtScheme": false,
+      "implementingAgency": null,
+      "tags": [
+        "Library",
+        "Librarian",
+        "Award",
+        "Culture"
+      ],
+      "schemeName": "Goa State Best Library and Best Librarian Award",
+      "schemeShortTitle": "GSBLBLA",
+      "level": {
+        "value": "state",
+        "label": "State"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce8aad6d1a3bde4685320",
+          "label": "Sports & Culture"
+        },
+        {
+          "value": "628ce87cd6d1a3bde4685312",
+          "label": "Social welfare & Empowerment"
+        },
+        {
+          "value": "628ce76cd6d1a3bde4685292",
+          "label": "Education & Learning"
+        }
+      ],
+      "state": {
+        "value": 30,
+        "label": "Goa"
+      },
+      "schemeFor": "Infra"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Citizen's Charter",
+          "url": "https://www.goa.gov.in/wp-content/uploads/2022/06/Chitizen-Charter-2022-2023-art-and-culture.pdf"
+        },
+        {
+          "title": "Application Form",
+          "url": "https://www.goa.gov.in/wp-content/uploads/2021/07/Form-for-Best-Library-Award.pdf"
+        },
+        {
+          "title": "Guidelines",
+          "url": "https://www.artandculture.goa.gov.in/en/schemes-programmesawards/goa-state-best-library-and-best-librarian-award"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The scheme &quot;Goa State Best Library and Best Librarian Award&quot; has been designed by the Directorate of Art and Culture, Government of Goa envisaging grant of awards for one meritorious Library and one Librarian serving either in any Government or Government–aided Libraries in the State of Goa, which include the Public/Academic/Special/Research Libraries every year. \n<br>\n\n> **Objective**\n\nTo recognize the hard work put in by the management of the Libraries and the Librarians and to give an impetus and encouragement to them by conferring awards on them for their contribution in the field of library movement.\n",
+      "benefits_md": "> **Nature and Quantum of Assistance**\n\n<br>\n\n**Goa State Best Library Award**\nA cash prize of ₹ 50,000/-, a Memento, a Citation and a Certificate. \n<br>\n\n**Goa State Best Librarian Award**\nA cash prize of ₹ 25,000/-, a Memento, a Citation and a Certificate. \n<br>\n\n> **Number of Awards**\n\nEvery year one Library and one Librarian will be selected for the award. \n",
+      "exclusions_md": "**The award shall not be conferred posthumously.** However, in the event of death of the individual after recommendation of his/her name for the award by the Award Committee, the award shall be conferred posthumously. Further, any illustrious service of any individual in the field of library movement shall also be recognized and considered for the award not beyond one year of death or retirement of the individual.\n",
+      "briefDescription": "The scheme \"Goa State Best Library and Best Librarian Award\" has been designed to envisage grant of awards for one meritorious Library and one Librarian serving either in any Government or Government–aided Libraries in the State of Goa, which includes the Public/Academic/Special/Research Libraries.",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The scheme \"Goa State Best Library and Best Librarian Award\" has been designed by the Directorate of Art and Culture, Government of Goa envisaging grant of awards for one meritorious Library and one Librarian serving either in any Government or Government–aided Libraries in the State of Goa, which include the Public/Academic/Special/Research Libraries every year. "
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        },
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "Objective",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "To recognize the hard work put in by the management of the Libraries and the Librarians and to give an impetus and encouragement to them by conferring awards on them for their contribution in the field of library movement."
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 3,
+        "value": "composite",
+        "label": "Composite"
+      },
+      "benefits": [
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "Nature and Quantum of Assistance",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Goa State Best Library Award",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "A cash prize of ₹ 50,000/-, a Memento, a Citation and a Certificate. "
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Goa State Best Librarian Award",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "A cash prize of ₹ 25,000/-, a Memento, a Citation and a Certificate. "
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        },
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "Number of Awards",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Every year one Library and one Librarian will be selected for the award. "
+            }
+          ]
+        }
+      ],
+      "exclusions": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The award shall not be conferred posthumously. ",
+              "bold": true
+            },
+            {
+              "text": "However, in the event of death of the individual after recommendation of his/her name for the award by the Award Committee, the award shall be conferred posthumously. Further, any illustrious service of any individual in the field of library movement shall also be recognized and considered for the award not beyond one year of death or retirement of the individual."
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "process": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 1: ",
+                "bold": true
+              },
+              {
+                "text": "The interested applicant should visit the Goa State Central Library."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2: ",
+                "bold": true
+              },
+              {
+                "text": "Take a print of the "
+              },
+              {
+                "type": "link",
+                "link": "https://www.goa.gov.in/wp-content/uploads/2021/07/Form-for-Best-Library-Award.pdf",
+                "children": [
+                  {
+                    "text": "proforma"
+                  }
+                ]
+              },
+              {
+                "text": " of the application form, or request a hard copy from the concerned authority."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 3: ",
+                "bold": true
+              },
+              {
+                "text": "In the application form, fill in all the mandatory fields, paste the passport-sized photograph (signed across), and attach copies of all the mandatory documents (self-attest if required)."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 4: ",
+                "bold": true
+              },
+              {
+                "text": "Submit the duly filled and signed application form along with the documents to the "
+              },
+              {
+                "text": "Curator, Goa State Central Library, Patto, Panaji – Goa. Ph. No. 0832-2437947, Email: lib-cent.goa@nic.in, Website: https://www.artandculture.goa.gov.in",
+                "bold": true
+              }
+            ]
+          }
+        ],
+        "process_md": "**Step 1:** The interested applicant should visit the Goa State Central Library.\n**Step 2:** Take a print of the [proforma](https://www.goa.gov.in/wp-content/uploads/2021/07/Form-for-Best-Library-Award.pdf) of the application form, or request a hard copy from the concerned authority.\n**Step 3:** In the application form, fill in all the mandatory fields, paste the passport-sized photograph (signed across), and attach copies of all the mandatory documents (self-attest if required).\n**Step 4:** Submit the duly filled and signed application form along with the documents to the **Curator, Goa State Central Library, Patto, Panaji – Goa. Ph. No. 0832-2437947, Email: lib-cent.goa@nic.in, Website: https://www.artandculture.goa.gov.in**\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "> **For Library**\n\n\n1. The library should be in existence for a minimum period of 15 years. \n1. The library should have a minimum of 100 registered members for the last 5 years. \n1. The library should have in possession a minimum of 2500 books, periodicals etc., in readable condition. \n1. The library should have a proper infrastructure with retrieval facilities. \n1. The library should be spacious, having a minimum area of 40 sq. mts. and with proper ventilation. \n1. The library should have conducted regular programmes etc. for the members/public to enhance \n1. their reading habits and knowledge. \n1. The library should have maintained all the library records properly and up to date. \n1. The award shall be conferred to only one well-stacked library from the State of Goa.\n\n<br>\n\n> **For Librarian**\n\n\n1. The Librarian should be born in the State of Goa or should be a resident of the State of Goa for a minimum period of 15 years. \n1. The Librarian should have a minimum of 10 years of continuous service as a Librarian/Section-In-Charge of a reputed library from the State of Goa.\n1. The Librarian should have taken up initiatives for library development/inculcating reading culture in his/her area of work.\n1. The award shall not be conferred posthumously. However, in the event of death of the individual after recommendation of his/her name for the award by the Award Committee, the award shall be conferred posthumously. Further, any illustrious service of any individual in the field of library movement shall also be recognized and considered for the award not beyond one year of death or retirement of the individual.\n1. The award shall be conferred on one meritorious librarian i.e. serving in any Government, Government-aided Libraries in the State of Goa which include the Public/Academic/Special/Research Libraries etc.\n\n<br>\n\n**NOTE:** In the event of no suitable person of the desired standard being found, no award shall be conferred for that year.\n",
+      "eligibilityDescription": [
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "For Library",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The library should be in existence for a minimum period of 15 years. "
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The library should have a minimum of 100 registered members for the last 5 years. "
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The library should have in possession a minimum of 2500 books, periodicals etc., in readable condition. "
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The library should have a proper infrastructure with retrieval facilities. "
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The library should be spacious, having a minimum area of 40 sq. mts. and with proper ventilation. "
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The library should have conducted regular programmes etc. for the members/public to enhance "
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "their reading habits and knowledge. "
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The library should have maintained all the library records properly and up to date. "
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The award shall be conferred to only one well-stacked library from the State of Goa."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        },
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "For Librarian",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The Librarian should be born in the State of Goa or should be a resident of the State of Goa for a minimum period of 15 years. "
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The Librarian should have a minimum of 10 years of continuous service as a Librarian/Section-In-Charge of a reputed library from the State of Goa."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The Librarian should have taken up initiatives for library development/inculcating reading culture in his/her area of work."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The award shall not be conferred posthumously. However, in the event of death of the individual after recommendation of his/her name for the award by the Award Committee, the award shall be conferred posthumously. Further, any illustrious service of any individual in the field of library movement shall also be recognized and considered for the award not beyond one year of death or retirement of the individual."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The award shall be conferred on one meritorious librarian i.e. serving in any Government, Government-aided Libraries in the State of Goa which include the Public/Academic/Special/Research Libraries etc."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "NOTE: ",
+              "bold": true
+            },
+            {
+              "text": "In the event of no suitable person of the desired standard being found, no award shall be conferred for that year."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "gsblbla"
+}

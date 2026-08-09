@@ -1,0 +1,205 @@
+{
+  "_id": "678fbb22a9fcbe16393dcf4e",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Subsidized Rate",
+        "JSFSS",
+        "Food Grain"
+      ],
+      "schemeName": "Jharkhand State Food Security Scheme",
+      "schemeShortTitle": "JSFSS",
+      "implementingAgency": "Directorate Of Food And Consumer Affairs, Ranchi",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce87cd6d1a3bde4685312",
+          "label": "Social welfare & Empowerment"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Food Security / Public Distribution System",
+          "label": "Food Security / Public Distribution System"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "state": {
+        "value": 20,
+        "label": "Jharkhand"
+      },
+      "nodalDepartmentName": {
+        "value": 2000007,
+        "label": "Food, Public Distribution and Consumer affairs Department"
+      },
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://www.jharkhand.gov.in/PDepartment/ViewDoc?id=D009DO003SD00625102023010457574"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The &quot;Jharkhand State Food Security Scheme (JSFSS)&quot; by the Department of Food, Public Distribution and Consumer Affairs, Government of Jharkhand, aims to provide subsidized/free food grains to eligible beneficiaries. Through this scheme, food grain, primarily rice, is provided at a subsidized rate or free of cost to individuals holding a Green Card. The scheme is implemented by the Directorate of Food and Consumer Affairs, Ranchi.\n",
+      "benefits_md": "\n1. Subsidized/free rice is provided to Green Card holders beneficiaries under JSFSS.\n1. Benefits are delivered directly through the Directorate of Food and Consumer Affairs.\n\n<br>\n\n**NOTE****:** Priority is given to individuals from economically weaker sections.\n",
+      "briefDescription": "The \"Jharkhand State Food Security Scheme (JSFSS)\" by the Department of Food, Public Distribution and Consumer Affairs, Government of Jharkhand, aims to ensure food security by providing subsidized/free rice to eligible Green Card holders.",
+      "exclusions_md": "",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The \"Jharkhand State Food Security Scheme (JSFSS)\" by the Department of Food, Public Distribution and Consumer Affairs, Government of Jharkhand, aims to provide subsidized/free food grains to eligible beneficiaries. Through this scheme, food grain, primarily rice, is provided at a subsidized rate or free of cost to individuals holding a Green Card. The scheme is implemented by the Directorate of Food and Consumer Affairs, Ranchi."
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 2,
+        "value": "in-kind",
+        "label": "In Kind"
+      },
+      "benefits": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Subsidized/free rice is provided to Green Card holders beneficiaries under JSFSS."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Benefits are delivered directly through the Directorate of Food and Consumer Affairs."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "NOTE",
+              "bold": true,
+              "underline": true
+            },
+            {
+              "bold": true,
+              "text": ": "
+            },
+            {
+              "text": "Priority is given to individuals from economically weaker sections."
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "process": [
+          {
+            "type": "ol_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Visit the nearest ration shop or designated enrollment center with the required documents."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "If an Aadhaar is not available, apply for Aadhaar enrollment at an authorized center."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Submit the Aadhaar number or Aadhaar Enrolment Identification Slip during registration."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Verify the eligibility and documents with the designated officer."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Collect the food grains from the distribution center as per the monthly schedule."
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "process_md": "\n1. Visit the nearest ration shop or designated enrollment center with the required documents.\n1. If an Aadhaar is not available, apply for Aadhaar enrollment at an authorized center.\n1. Submit the Aadhaar number or Aadhaar Enrolment Identification Slip during registration.\n1. Verify the eligibility and documents with the designated officer.\n1. Collect the food grains from the distribution center as per the monthly schedule.\n\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n1. The applicant must be a resident of Jharkhand.\n1. The applicant must possess a Green Card issued under JSFSS.\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must be a resident of Jharkhand."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must possess a Green Card issued under JSFSS."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "jsfss"
+}

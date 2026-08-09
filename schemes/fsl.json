@@ -1,0 +1,540 @@
+{
+  "_id": "686cca0a848c2b33797ec861",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Education",
+        "Loan",
+        "Foreign",
+        "Student",
+        "University"
+      ],
+      "schemeName": "Foreign Study Loan",
+      "schemeShortTitle": "FSL",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce76cd6d1a3bde4685292",
+          "label": "Education & Learning"
+        },
+        {
+          "value": "628ce7f6d6d1a3bde46852d0",
+          "label": "Banking,Financial Services and Insurance"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "International education",
+          "label": "International education"
+        },
+        {
+          "value": "Scholarships and student finance",
+          "label": "Scholarships and student finance"
+        },
+        {
+          "value": "Universities and higher education",
+          "label": "Universities and higher education"
+        },
+        {
+          "value": "Banking and money",
+          "label": "Banking and money"
+        },
+        {
+          "value": "Loan",
+          "label": "Loan"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "schemeFor": "Individual",
+      "state": {
+        "value": 24,
+        "label": "Gujarat"
+      },
+      "nodalDepartmentName": {
+        "value": 2444464,
+        "label": "Social Justice and Empowerment Department"
+      }
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://gueedc.gujarat.gov.in/foreign-education-scheme.html"
+        },
+        {
+          "title": "User Manual - Online Application Process",
+          "url": "https://gueedc.gujarat.gov.in/Documents/how-to-apply/Videsh-Abhyas-Loan.pdf"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The scheme &quot;Foreign Study Loan&quot; implemented by the Gujarat Unreserved Educational and Economical Development Corporation (GUEEDC), Social Justice and Empowerment Department, Government of Gujarat, provides financial assistance to students from non-reserved categories pursuing higher studies abroad. The scheme provides overseas study loans of up to ₹15,00,000/- for specific courses, including Bachelor of Medicine, Bachelor of Surgery, post-graduation courses (valid even if obtained after diploma), post-graduation diploma, and equivalent courses after Class 12th. To be eligible, the applicant must have scored 60% or more in Class 12 and belong to a family with an annual income of ₹6,00,000/- or less. The loan carries simple interest at the rate of 4% per annum with repayment terms varying based on the loan amount.\n<br>\n\n",
+      "benefits_md": "**Loan Amount:** Up to ₹15,00,000/- for overseas study.\n**Interest Rate:** Simple interest at 4% per annum.\n**Repayment Grace Period:** 1 year after completion of study before repayment begins.\n**Flexible Repayment:** Borrower can repay the loan before the stipulated time limit.\n<br>\n\n**Repayment Schedule**\n\n- For loans up to ₹5,00,000/-: Equal monthly installments over 5 years.\n- For loans above ₹5,00,000/-: Equal monthly installments over 6 years.\n\n<br>\n\n",
+      "briefDescription": "The scheme aims to provide financial assistance to students from non-reserved categories for pursuing higher studies abroad in medical and post-graduation courses. It offers loans up to ₹15,00,000/- at 4% simple interest per annum to eligible students.",
+      "exclusions_md": "",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The scheme \"Foreign Study Loan\" implemented by the Gujarat Unreserved Educational and Economical Development Corporation (GUEEDC), Social Justice and Empowerment Department, Government of Gujarat, provides financial assistance to students from non-reserved categories pursuing higher studies abroad. The scheme provides overseas study loans of up to ₹15,00,000/- for specific courses, including Bachelor of Medicine, Bachelor of Surgery, post-graduation courses (valid even if obtained after diploma), post-graduation diploma, and equivalent courses after Class 12th. To be eligible, the applicant must have scored 60% or more in Class 12 and belong to a family with an annual income of ₹6,00,000/- or less. The loan carries simple interest at the rate of 4% per annum with repayment terms varying based on the loan amount."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Loan Amount:",
+              "bold": true,
+              "underline": true
+            },
+            {
+              "text": " Up to ₹15,00,000/- for overseas study."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Interest Rate:",
+              "bold": true,
+              "underline": true
+            },
+            {
+              "text": " Simple interest at 4% per annum."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Repayment Grace Period:",
+              "bold": true,
+              "underline": true
+            },
+            {
+              "text": " 1 year after completion of study before repayment begins."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Flexible Repayment:",
+              "bold": true,
+              "underline": true
+            },
+            {
+              "text": " Borrower can repay the loan before the stipulated time limit."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Repayment Schedule",
+              "bold": true,
+              "underline": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "For loans up to ₹5,00,000/-: Equal monthly installments over 5 years."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "For loans above ₹5,00,000/-: Equal monthly installments over 6 years."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Online",
+        "process": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 1: Register on the Official Portal",
+                "bold": true,
+                "underline": true
+              }
+            ]
+          },
+          {
+            "type": "ul_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Open the "
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://gueedc.gujarat.gov.in",
+                    "children": [
+                      {
+                        "text": "official website"
+                      }
+                    ]
+                  },
+                  {
+                    "text": ". Navigate to the “How to Apply” section and select “Foreign Study Loan.”"
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "You will be redirected to the "
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://esamajkalyan.gujarat.gov.in/",
+                    "children": [
+                      {
+                        "text": "e-SamajKalyan"
+                      }
+                    ]
+                  },
+                  {
+                    "text": " Portal. On the home page, under the tab ‘Citizen Login’, click on New User ‘"
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://esamajkalyan.gujarat.gov.in/Registration.aspx",
+                    "children": [
+                      {
+                        "text": "Please Register Here"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "’. Enter your Full Name as per Aadhaar Card, Gender, Date of Birth, Aadhaar Card Number, Email ID, Caste etc. and then click on ‘Register’."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Log in using your credentials once registration is complete."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2: Access and Fill Out the Application Form",
+                "bold": true,
+                "underline": true
+              }
+            ]
+          },
+          {
+            "type": "ul_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "After logging in, locate the application Form. Enter personal, academic, and family information in the respective modules: Name, gender, category, address, educational background, institution details, passport number, family income, occupation of guardians, and bank details (to be used for loan disbursement)."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Use dropdown selections in the \"Patrata Column\" (પાત્રતાની કોલમ) to correctly indicate your eligibility parameters. It is mandatory to select from the dropdown so that your application is processed under the right criteria."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 3: Prepare and Upload Required Documents",
+                "bold": true,
+                "underline": true
+              }
+            ]
+          },
+          {
+            "type": "ul_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Scan and upload clear, legible documents in the upload section. "
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Ensure each file is within the portal’s size and format limitations (usually PDF, JPEG or PNG) and named properly to avoid confusion during review."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 4: Review and Final Submission",
+                "bold": true,
+                "underline": true
+              }
+            ]
+          },
+          {
+            "type": "ul_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Carefully review each module. Use the preview option to examine the application before final submission."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Save a local PDF copy of the completed form for your records. Click “Final Submit”."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 5: Application Verification by GUEEDC",
+                "bold": true,
+                "underline": true
+              }
+            ]
+          },
+          {
+            "type": "ul_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Upon submission, your application and uploaded documents will be reviewed by GUEEDC officials."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "You may be contacted via phone or email if: Any clarification is required, Additional documents are needed, or Corrections must be made."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Maintain active communication channels and respond promptly to any such requests."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Loan Sanction and Disbursement",
+                "bold": true,
+                "underline": true
+              }
+            ]
+          },
+          {
+            "type": "ul_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "If the application is accepted, a formal sanction letter will be issued."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "You may be asked to sign an agreement accepting the terms and repayment conditions of the loan."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "The sanctioned loan amount will be disbursed directly into your verified bank account."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "If any post-sanction verification or usage confirmation is required, comply as per instructions provided by GUEEDC."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          }
+        ],
+        "process_md": "**Step 1: Register on the Official Portal**\n\n- Open the [official website](https://gueedc.gujarat.gov.in). Navigate to the “How to Apply” section and select “Foreign Study Loan.”- You will be redirected to the [e-SamajKalyan](https://esamajkalyan.gujarat.gov.in/) Portal. On the home page, under the tab ‘Citizen Login’, click on New User ‘[Please Register Here](https://esamajkalyan.gujarat.gov.in/Registration.aspx)’. Enter your Full Name as per Aadhaar Card, Gender, Date of Birth, Aadhaar Card Number, Email ID, Caste etc. and then click on ‘Register’.- Log in using your credentials once registration is complete.\n\n**Step 2: Access and Fill Out the Application Form**\n\n- After logging in, locate the application Form. Enter personal, academic, and family information in the respective modules: Name, gender, category, address, educational background, institution details, passport number, family income, occupation of guardians, and bank details (to be used for loan disbursement).\n- Use dropdown selections in the &quot;Patrata Column&quot; (પાત્રતાની કોલમ) to correctly indicate your eligibility parameters. It is mandatory to select from the dropdown so that your application is processed under the right criteria.\n\n**Step 3: Prepare and Upload Required Documents**\n\n- Scan and upload clear, legible documents in the upload section. \n- Ensure each file is within the portal’s size and format limitations (usually PDF, JPEG or PNG) and named properly to avoid confusion during review.\n\n**Step 4: Review and Final Submission**\n\n- Carefully review each module. Use the preview option to examine the application before final submission.\n- Save a local PDF copy of the completed form for your records. Click “Final Submit”.\n\n**Step 5: Application Verification by GUEEDC**\n\n- Upon submission, your application and uploaded documents will be reviewed by GUEEDC officials.\n- You may be contacted via phone or email if: Any clarification is required, Additional documents are needed, or Corrections must be made.\n- Maintain active communication channels and respond promptly to any such requests.\n\n**Loan Sanction and Disbursement**\n\n- If the application is accepted, a formal sanction letter will be issued.\n- You may be asked to sign an agreement accepting the terms and repayment conditions of the loan.\n- The sanctioned loan amount will be disbursed directly into your verified bank account.\n- If any post-sanction verification or usage confirmation is required, comply as per instructions provided by GUEEDC.\n\n<br>\n\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n- The applicant must belong to the non-reserved category.\n- The applicant must be pursuing higher studies abroad.\n- The applicant must be enrolled in Bachelor of Medicine, Bachelor of Surgery, post-graduation courses (valid even if obtained after diploma), post-graduation diploma, or equivalent courses after Class 12th.\n- The applicant must have scored 60% or more in Class 12th.\n- The applicant must belong to a family with an annual income of ₹6,00,000/- or less.\n\n<br>\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must belong to the non-reserved category."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must be pursuing higher studies abroad."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must be enrolled in Bachelor of Medicine, Bachelor of Surgery, post-graduation courses (valid even if obtained after diploma), post-graduation diploma, or equivalent courses after Class 12th."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must have scored 60% or more in Class 12th."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must belong to a family with an annual income of ₹6,00,000/- or less."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "fsl"
+}

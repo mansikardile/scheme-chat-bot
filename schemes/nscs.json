@@ -1,0 +1,643 @@
+{
+  "_id": "65c37fa2ed4030e118cf79b9",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Savings",
+        "Investment",
+        "Certificate"
+      ],
+      "schemeName": "National Savings Certificates (VIII-Issue) Scheme",
+      "schemeShortTitle": "NSCS",
+      "implementingAgency": "Post Office Branch Or A Designated Bank",
+      "level": {
+        "value": "central",
+        "label": "Central"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce7f6d6d1a3bde46852d0",
+          "label": "Banking,Financial Services and Insurance"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Investment",
+          "label": "Investment"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "state": null,
+      "schemeType": {
+        "value": "central-sector-scheme",
+        "label": "Central Sector Scheme"
+      },
+      "nodalMinistryName": {
+        "value": 499,
+        "label": "Ministry Of Finance"
+      },
+      "nodalDepartmentName": {
+        "value": 1597,
+        "label": "Department Of Economic Affairs"
+      },
+      "otherMinistryName": null,
+      "otherDepartmentNames": null,
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Official Website",
+          "url": "https://dea.gov.in/"
+        },
+        {
+          "title": "NSI Website",
+          "url": "https://www.nsiindia.gov.in/(S(yrxdpri15qh5qd55kbka1siy))/InternalPage.aspx?Id_Pk=90"
+        },
+        {
+          "title": "Scheme Guidelines",
+          "url": "https://www.nsiindia.gov.in/writereaddata/SchemeRules/NationalSavingsCertificatesRule.pdf"
+        },
+        {
+          "title": "Notification",
+          "url": "https://dea.gov.in/sites/default/files/nsc.pdf"
+        },
+        {
+          "title": "NSC Forms",
+          "url": "https://www.nsiindia.gov.in/(S(laomrj450aigbj55zl05zcnq))/InternalPage.aspx?Id_Pk=38"
+        }
+      ],
+      "schemeImageUrl": "",
+      "briefDescription": "The scheme “National Savings Certificates (VIII-Issue) Scheme” was launched by the Department of Economic Affairs, Ministry of Finance, Government of India to promote a culture of long-term savings among individuals.",
+      "detailedDescription_md": "The scheme “National Savings Certificates (VIII-Issue) Scheme” was launched by the Department of Economic Affairs, Ministry of Finance, Government of India to promote a culture of long-term savings among individuals. Under the scheme, an individual can deposit a minimum of ₹1000/- and thereafter in multiple of ₹100/- with no maximum deposit limit for 5 5-year maturity period. The following type of accounts can be opened under the Scheme, namely:-\n\n  - **Single Holder Type Account:** This type of account may be opened by an adult for himself, or on behalf of a minor or a person of unsound mind of whom he is the guardian; or by a minor who has attained the age of 10 years.  - **Joint A- Type Account:** This type of account may be opened jointly in the names of upto three adults payable to all the holders jointly or to the survivor or survivors.  - **Joint B- Type Account:** This type of account may be opened jointly in the name of upto three adults payable to any of the account holders or to the survivor or survivors. \n",
+      "benefits_md": "\n   1. National Savings Certificates offer an attractive interest rate of 7.7% compounded annually but payable at maturity.\n   1. No maximum deposit limit.\n   1. Account matures in 5 years.\n   1. Loan facility available by pledging with the banks.\n\n",
+      "exclusions_md": "",
+      "detailedDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "The scheme “National Savings Certificates (VIII-Issue) Scheme” was launched by the Department of Economic Affairs, Ministry of Finance, Government of India to promote a culture of long-term savings among individuals. Under the scheme, an individual can deposit a minimum of ₹1000/- and thereafter in multiple of ₹100/- with no maximum deposit limit for 5 5-year maturity period. The following type of accounts can be opened under the Scheme, namely:-"
+                }
+              ]
+            },
+            {
+              "type": "ul_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Single Holder Type Account:",
+                      "bold": true
+                    },
+                    {
+                      "text": " This type of account may be opened by an adult for himself, or on behalf of a minor or a person of unsound mind of whom he is the guardian; or by a minor who has attained the age of 10 years."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Joint A- Type Account:",
+                      "bold": true
+                    },
+                    {
+                      "text": " This type of account may be opened jointly in the names of upto three adults payable to all the holders jointly or to the survivor or survivors."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Joint B- Type Account:",
+                      "bold": true
+                    },
+                    {
+                      "text": " This type of account may be opened jointly in the name of upto three adults payable to any of the account holders or to the survivor or survivors. "
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "ol_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "National Savings Certificates offer an attractive interest rate of 7.7% compounded annually but payable at maturity."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "No maximum deposit limit."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Account matures in 5 years."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Loan facility available by pledging with the banks."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "process": [
+          {
+            "type": "align_justify",
+            "children": [
+              {
+                "type": "block_quote",
+                "children": [
+                  {
+                    "text": "Application process:",
+                    "bold": true,
+                    "underline": true
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 01:",
+                    "bold": true
+                  },
+                  {
+                    "text": " The applicant can visit the nearest Post Office Branch or a designated bank."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 02:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Collect the applicant form or "
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://www.indiapost.gov.in/VAS/DOP_PDFFiles/Savings%20Bank/National%20Savings%20Certificates%20%28VIIIth%20Issue%29%20Scheme%20%202019%20English.pdf",
+                    "children": [
+                      {
+                        "text": "download"
+                      }
+                    ]
+                  },
+                  {
+                    "text": " it from the "
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://www.nsiindia.gov.in/(S(laomrj450aigbj55zl05zcnq))/InternalPage.aspx?Id_Pk=38",
+                    "children": [
+                      {
+                        "text": "official website"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 03:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Fill out the application form and attach all the required documents."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 04:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Fill out the declaration and nomination details."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 05:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Submit the application form with an initial amount of investment/deposit."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 06:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Upon processing your application, an acknowledgment of the same will be provided marking the initiation of your NSC account."
+                  }
+                ]
+              },
+              {
+                "type": "block_quote",
+                "children": [
+                  {
+                    "text": "Premature closure of account:",
+                    "bold": true,
+                    "underline": true
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "1.\tThe account shall not be closed before maturity except in the following cases, namely:"
+                  }
+                ]
+              },
+              {
+                "type": "ul_list",
+                "children": [
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "text": "on the death of the account holder in a single account, or any or all the account holders in a joint account;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "text": "on forfeiture by a pledgee being a Gazetted Officer, when the pledge is in conformity with this Scheme;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "text": "when ordered by a court."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "2.\tWhere an account is prematurely closed under sub-paragraph (1) before the expiry of one year from the date of deposit, only the principal amount shall be payable."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "3.\tIf the account is prematurely closed under sub-paragraph (1) after the expiry of one year but before the expiry of three years from the date of deposit, the premature closure shall be allowed and on such premature closure of the account interest on principal amount at the rate applicable to the Post Office Savings Account from time to time for the complete months for which the account has been held, shall be payable."
+                  }
+                ]
+              },
+              {
+                "type": "block_quote",
+                "children": [
+                  {
+                    "text": "Transfer of account from one individual to another:",
+                    "underline": true,
+                    "bold": true
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "An account may be transferred from one individual to another, subject to the condition that the transferee is eligible to open an account under this Scheme, in the following cases, namely:-"
+                  }
+                ]
+              },
+              {
+                "type": "ul_list",
+                "children": [
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "text": "on the death of the account holder in case of a single account or on the death of all the account holders in a joint account, the amount shall be transferred to the legal heirs or the nominees as the case may be."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "text": "on the order of the court, the account shall be transferred from the account holder to the court or to any other individual as per the orders of the court;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "text": "on pledging, the account shall be transferred in accordance;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "text": "in the event of the death of any of the account holders in a joint account, the account shall be transferred in the name of the surviving account holder or account holder, as the case may be."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "block_quote",
+                "children": [
+                  {
+                    "text": "Payment on the death of the account holder:",
+                    "bold": true,
+                    "underline": true
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "1.\tIn the event of the death of the depositor of a single account or of all the depositors in a joint account, the eligible balance in the account shall be payable as specified in the scheme guideline."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "2.\tIf a nomination is in force at the time of death of the depositor of a single account or all the depositors of a joint account, the nominee may make a specified application to the accounts office for payment of the eligible balance and the application shall be accompanied by the proof of death of the depositor, and where any other nominee has also died, the proof of death of such nominee."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "3.\tIf there are two or more surviving nominees, the eligible balance shall be paid in the proportion as specified by the depositor while making the nomination, and if no such proportion or share is specified, then in equal proportion to all the surviving nominees."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "4.\tIf any nominee dies, his specified share in the eligible balance shall be distributed among the surviving nominees in the same proportion as their specified shares."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "5.\tWhere the surviving nominee is a minor, the payment shall be made to a person appointed by the depositor to receive such payment and, if no such person has been appointed, to the guardian of the minor."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "6.\tIf a depositor dies and there is no nomination in force at the time of his death, and probate of his will or letters of administration of his estate or a succession certificate as granted in the Indian Succession Act, 1925 (39 of 1925) is not produced within six months from the death of the depositor to the authorized officer of the accounts office where the account stands, then,"
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "(i)\tIf the eligible amount in the account does not exceed ₹5 lacs, the authorized officer of the accounts office or the authority specified by the institution to which the accounts office belongs, may pay the same to any person appearing to him as the rightful claimant and to his satisfaction to be entitled to receive the amount or to administer the estate of the deceased, on a specified application Form accompanied by the following documents; namely:- (a) death certificate; (b) passbook or deposit receipt/statement of account in original; (c) Affidavit; (d) letter of the disclaimer; (e) Bond of Indemnity;"
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "(ii)\tif the eligible amount in the account of the deceased is above ₹5 lakh, the amount shall be paid by the accounts office to the claimant on submission of a ‘Succession Certificate’ issued by the court along with the following documents; namely:-"
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "(a)\tclaim form;"
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "(b)\tpassbook or deposit receipt or statement of account in original;"
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "(c)\tdeath certificate of the account holder."
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "process_md": "&gt; **Application process:**\n\n**Step 01:** The applicant can visit the nearest Post Office Branch or a designated bank.\n**Step 02:** Collect the applicant form or [download](https://www.indiapost.gov.in/VAS/DOP_PDFFiles/Savings%20Bank/National%20Savings%20Certificates%20%28VIIIth%20Issue%29%20Scheme%20%202019%20English.pdf) it from the [official website](https://www.nsiindia.gov.in/(S(laomrj450aigbj55zl05zcnq))/InternalPage.aspx?Id_Pk=38).\n**Step 03:** Fill out the application form and attach all the required documents.\n**Step 04:** Fill out the declaration and nomination details.\n**Step 05:** Submit the application form with an initial amount of investment/deposit.\n**Step 06:** Upon processing your application, an acknowledgment of the same will be provided marking the initiation of your NSC account.\n&gt; **Premature closure of account:**\n\n1.\tThe account shall not be closed before maturity except in the following cases, namely:\n\n  - on the death of the account holder in a single account, or any or all the account holders in a joint account;\n  - on forfeiture by a pledgee being a Gazetted Officer, when the pledge is in conformity with this Scheme;\n  - when ordered by a court.\n\n2.\tWhere an account is prematurely closed under sub-paragraph (1) before the expiry of one year from the date of deposit, only the principal amount shall be payable.\n3.\tIf the account is prematurely closed under sub-paragraph (1) after the expiry of one year but before the expiry of three years from the date of deposit, the premature closure shall be allowed and on such premature closure of the account interest on principal amount at the rate applicable to the Post Office Savings Account from time to time for the complete months for which the account has been held, shall be payable.\n&gt; **Transfer of account from one individual to another:**\n\nAn account may be transferred from one individual to another, subject to the condition that the transferee is eligible to open an account under this Scheme, in the following cases, namely:-\n\n  - on the death of the account holder in case of a single account or on the death of all the account holders in a joint account, the amount shall be transferred to the legal heirs or the nominees as the case may be.\n  - on the order of the court, the account shall be transferred from the account holder to the court or to any other individual as per the orders of the court;\n  - on pledging, the account shall be transferred in accordance;\n  - in the event of the death of any of the account holders in a joint account, the account shall be transferred in the name of the surviving account holder or account holder, as the case may be.\n\n&gt; **Payment on the death of the account holder:**\n\n1.\tIn the event of the death of the depositor of a single account or of all the depositors in a joint account, the eligible balance in the account shall be payable as specified in the scheme guideline.\n2.\tIf a nomination is in force at the time of death of the depositor of a single account or all the depositors of a joint account, the nominee may make a specified application to the accounts office for payment of the eligible balance and the application shall be accompanied by the proof of death of the depositor, and where any other nominee has also died, the proof of death of such nominee.\n3.\tIf there are two or more surviving nominees, the eligible balance shall be paid in the proportion as specified by the depositor while making the nomination, and if no such proportion or share is specified, then in equal proportion to all the surviving nominees.\n4.\tIf any nominee dies, his specified share in the eligible balance shall be distributed among the surviving nominees in the same proportion as their specified shares.\n5.\tWhere the surviving nominee is a minor, the payment shall be made to a person appointed by the depositor to receive such payment and, if no such person has been appointed, to the guardian of the minor.\n6.\tIf a depositor dies and there is no nomination in force at the time of his death, and probate of his will or letters of administration of his estate or a succession certificate as granted in the Indian Succession Act, 1925 (39 of 1925) is not produced within six months from the death of the depositor to the authorized officer of the accounts office where the account stands, then,\n(i)\tIf the eligible amount in the account does not exceed ₹5 lacs, the authorized officer of the accounts office or the authority specified by the institution to which the accounts office belongs, may pay the same to any person appearing to him as the rightful claimant and to his satisfaction to be entitled to receive the amount or to administer the estate of the deceased, on a specified application Form accompanied by the following documents; namely:- (a) death certificate; (b) passbook or deposit receipt/statement of account in original; (c) Affidavit; (d) letter of the disclaimer; (e) Bond of Indemnity;\n(ii)\tif the eligible amount in the account of the deceased is above ₹5 lakh, the amount shall be paid by the accounts office to the claimant on submission of a ‘Succession Certificate’ issued by the court along with the following documents; namely:-\n(a)\tclaim form;\n(b)\tpassbook or deposit receipt or statement of account in original;\n(c)\tdeath certificate of the account holder.\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n   1. Any individual who is a resident of India can avail of the benefits under the scheme.\n   1. On behalf of a minor or a person of unsound mind, the guardian can apply under the scheme.\n   1. The minimum age of minors should be 10 years.\n\n&gt; **Deposits:**\n\n\n  - A minimum of ₹1000/- and any sum in multiples of ₹100/- may be deposited in an account.\n  - There shall be no maximum limit for deposits in an account or in accounts held by an account holder.\n  - An individual may open any number of accounts.\n\n&gt; **Payment on Maturity:**\n\n\n  - The deposit shall mature on completion of 5 years from the date of the deposit. The amount of maturity may be repaid to the account holder after submitting the specified form to the accounts office.\n  - The maturity value of an account opened with one thousand rupees shall be One thousand four hundred sixty-two rupees and fifty-four paisa and proportionate for deposits made with any other sum. In the calculation of maturity value, any amount in fraction of a rupee shall be rounded off to the nearest rupee and for this purpose, any amount of fifty paisa or more shall be treated as one rupee, and any amount less than fifty paisa shall be ignored.\n  - A certificate of annual accrual of interest shall be issued by the accounts office, on demand, to the account holder.\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "ol_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Any individual who is a resident of India can avail of the benefits under the scheme."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "On behalf of a minor or a person of unsound mind, the guardian can apply under the scheme."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The minimum age of minors should be 10 years."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "block_quote",
+              "children": [
+                {
+                  "text": "Deposits:",
+                  "bold": true,
+                  "underline": true
+                }
+              ]
+            },
+            {
+              "type": "ul_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "A minimum of ₹1000/- and any sum in multiples of ₹100/- may be deposited in an account."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "There shall be no maximum limit for deposits in an account or in accounts held by an account holder."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "An individual may open any number of accounts."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "block_quote",
+              "children": [
+                {
+                  "text": "Payment on Maturity:",
+                  "bold": true,
+                  "underline": true
+                }
+              ]
+            },
+            {
+              "type": "ul_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The deposit shall mature on completion of 5 years from the date of the deposit. The amount of maturity may be repaid to the account holder after submitting the specified form to the accounts office."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The maturity value of an account opened with one thousand rupees shall be One thousand four hundred sixty-two rupees and fifty-four paisa and proportionate for deposits made with any other sum. In the calculation of maturity value, any amount in fraction of a rupee shall be rounded off to the nearest rupee and for this purpose, any amount of fifty paisa or more shall be treated as one rupee, and any amount less than fifty paisa shall be ignored."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "A certificate of annual accrual of interest shall be issued by the accounts office, on demand, to the account holder."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "nscs"
+}

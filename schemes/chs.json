@@ -1,0 +1,445 @@
+{
+  "_id": "67c6e273594b8962c718cea2",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Tuition Fee Assistance",
+        "Education"
+      ],
+      "schemeName": "Coaching Help Scheme",
+      "schemeShortTitle": "CHS",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce76cd6d1a3bde4685292",
+          "label": "Education & Learning"
+        },
+        {
+          "value": "628ce87cd6d1a3bde4685312",
+          "label": "Social welfare & Empowerment"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Financial assistance",
+          "label": "Financial assistance"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "state": {
+        "value": 24,
+        "label": "Gujarat"
+      },
+      "nodalDepartmentName": {
+        "value": 2444464,
+        "label": "Social Justice and Empowerment Department"
+      },
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://gueedc.gujarat.gov.in/Tution-Help-Scheme.html"
+        },
+        {
+          "title": "User Manual",
+          "url": "https://esamajkalyan.gujarat.gov.in/ApplicationDocuments/GUEEDC/HowtoApplyGUEEDC.pdf"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The &amp;quot;Coaching Help Scheme&amp;quot; introduced by the Social Justice and Empowerment Department, Gujarat, offers an annual incentive to eligible students for tuition classes outside their school/college. The aim is to help academically bright students continue their studies without financial constraints.\n<br>\n\n<br>\n\n",
+      "benefits_md": "**Financial Assistance:** ₹15,000/- per year for coaching expenses outside the school/college.\n<br>\n\n",
+      "exclusions_md": "\n  - Education or tuition fees paid in school/college are not eligible for the scheme.\n\n",
+      "briefDescription": "The \"Coaching Help Scheme\" provides financial support to non-reserved category students pursuing science in Standard-11 and Standard-12 by covering additional tuition costs.",
+      "detailedDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "The \"Coaching Help Scheme\" introduced by the Social Justice and Empowerment Department, Gujarat, offers an annual incentive to eligible students for tuition classes outside their school/college. The aim is to help academically bright students continue their studies without financial constraints."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "Financial Assistance:",
+                  "bold": true
+                },
+                {
+                  "text": " ₹15,000/- per year for coaching expenses outside the school/college."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ],
+      "exclusions": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "ul_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Education or tuition fees paid in school/college are not eligible for the scheme."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Online",
+        "process": [
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "text": "Registration Process:",
+                "bold": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 1:",
+                "bold": true
+              },
+              {
+                "text": " Go to the Corporation's "
+              },
+              {
+                "type": "link",
+                "link": "https://esamajkalyan.gujarat.gov.in/",
+                "children": [
+                  {
+                    "text": "official website"
+                  }
+                ]
+              },
+              {
+                "text": " and navigate to the \"Gujarat Unreserved Education and Economical Development Corporation\" section under the Corporation menu."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2:",
+                "bold": true
+              },
+              {
+                "text": "Click on \"Coaching Help Scheme\" and then Apply Now."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 3: ",
+                "bold": true
+              },
+              {
+                "text": "Click on \"New User? Please Register Here\"."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 4: ",
+                "bold": true
+              },
+              {
+                "text": "Enter the required details and click Register."
+              }
+            ]
+          },
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "text": "Application Process:",
+                "bold": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 1:",
+                "bold": true
+              },
+              {
+                "text": " Enter your User ID, Password, and Captcha Code, then click \"Login\"."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2:",
+                "bold": true
+              },
+              {
+                "text": " Read the scheme details carefully and click OK."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 3:",
+                "bold": true
+              },
+              {
+                "text": " If your permanent address is correct, confirm it. Otherwise, enter your correct address."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 4:",
+                "bold": true
+              },
+              {
+                "text": " Click Save & Next to proceed. Upload the relevant documents."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 5:",
+                "bold": true
+              },
+              {
+                "text": " If you need to make changes, click \"No, Cancel\". If all details are correct, click \"Yes, Submit\"."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 6:",
+                "bold": true
+              },
+              {
+                "text": " Click Save Application. Note down your Application Number for future reference. You can also take a printout by clicking Print Application."
+              }
+            ]
+          },
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "text": "Check Application Status:",
+                "bold": true
+              },
+              {
+                "text": " "
+              },
+              {
+                "type": "link",
+                "link": "https://esamajkalyan.gujarat.gov.in/ViewApplicationStatus.aspx",
+                "children": [
+                  {
+                    "text": "Click here"
+                  }
+                ]
+              },
+              {
+                "text": "."
+              }
+            ]
+          },
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "text": "Post Online Application Procedure: ",
+                "bold": true
+              },
+              {
+                "text": "After submitting the online application, the applicant must take a printout of the application, sign it, and submit it along with all uploaded documents (certificates, mark sheets, etc.) to the concerned Deputy Director (Non-Reserved Category) or the District Social Welfare Officer through courier, post, or by visiting in person."
+              }
+            ]
+          },
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "text": "Contact Us:",
+                "bold": true
+              },
+              {
+                "text": " "
+              },
+              {
+                "type": "link",
+                "link": "https://gueedc.gujarat.gov.in/contact-us.html",
+                "children": [
+                  {
+                    "text": "Click here"
+                  }
+                ]
+              },
+              {
+                "text": "."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          }
+        ],
+        "process_md": "> **Registration Process:**\n\n**Step 1:** Go to the Corporation&#39;s [official website](https://esamajkalyan.gujarat.gov.in/) and navigate to the &quot;Gujarat Unreserved Education and Economical Development Corporation&quot; section under the Corporation menu.\n**Step 2:**Click on &quot;Coaching Help Scheme&quot; and then Apply Now.\n**Step 3:** Click on &quot;New User? Please Register Here&quot;.\n**Step 4:** Enter the required details and click Register.\n> **Application Process:**\n\n**Step 1:** Enter your User ID, Password, and Captcha Code, then click &quot;Login&quot;.\n**Step 2:** Read the scheme details carefully and click OK.\n**Step 3:** If your permanent address is correct, confirm it. Otherwise, enter your correct address.\n**Step 4:** Click Save &amp; Next to proceed. Upload the relevant documents.\n**Step 5:** If you need to make changes, click &quot;No, Cancel&quot;. If all details are correct, click &quot;Yes, Submit&quot;.\n**Step 6:** Click Save Application. Note down your Application Number for future reference. You can also take a printout by clicking Print Application.\n> **Check Application Status:** [Click here](https://esamajkalyan.gujarat.gov.in/ViewApplicationStatus.aspx).\n\n> **Post Online Application Procedure:** After submitting the online application, the applicant must take a printout of the application, sign it, and submit it along with all uploaded documents (certificates, mark sheets, etc.) to the concerned Deputy Director (Non-Reserved Category) or the District Social Welfare Officer through courier, post, or by visiting in person.\n\n> **Contact Us:** [Click here](https://gueedc.gujarat.gov.in/contact-us.html).\n\n<br>\n\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n   1. The applicant must belong to a non-reserved category.\n   1. The applicant must have scored 70% or more in Standard 10th.\n   1. The applicant must be currently studying in the science stream in Standard 11th or Standard 12th.\n   1. The applicant’s annual family income should not exceed ₹4,50,000/-.\n\n﻿\n**Note:** The applicant can avail of the assistance only once per academic year.\n",
+      "eligibilityDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "ol_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant must belong to a non-reserved category."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant must have scored 70% or more in Standard 10th."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant must be currently studying in the science stream in Standard 11th or Standard 12th."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant’s annual family income should not exceed ₹4,50,000/-."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "﻿"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "Note: ",
+                  "bold": true
+                },
+                {
+                  "text": "The applicant can avail of the assistance only once per academic year."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "chs"
+}

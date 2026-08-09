@@ -1,0 +1,374 @@
+{
+  "_id": "628c79f250b52bb011ccb5ee",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": true,
+      "tags": [
+        "Widow",
+        "Pension",
+        "Below Poverty Line - BPL"
+      ],
+      "schemeName": "Indira Gandhi National Widow Pension Scheme",
+      "schemeShortTitle": "IGNWPS",
+      "implementingAgency": "State/UT Government",
+      "level": {
+        "value": "central",
+        "label": "Central"
+      },
+      "schemeType": {
+        "value": "central-sector-scheme",
+        "label": "Central Sector Scheme"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce87cd6d1a3bde4685312",
+          "label": "Social welfare & Empowerment"
+        },
+        {
+          "value": "628ce7f6d6d1a3bde46852d0",
+          "label": "Banking,Financial Services and Insurance"
+        },
+        {
+          "value": "64f57d10ffb93104c7006c97",
+          "label": "Women and Child"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Pension",
+          "label": "Pension"
+        },
+        {
+          "value": "Financial assistance",
+          "label": "Financial assistance"
+        }
+      ],
+      "schemeOpenDate": "2009-05-01",
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "schemeFor": "Individual",
+      "nodalMinistryName": {
+        "value": 487,
+        "label": "Ministry Of Rural Development"
+      },
+      "nodalDepartmentName": {
+        "value": 505,
+        "label": "Department of Rural Development"
+      }
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://nsap.dord.gov.in/Guidelines/wps.pdf"
+        },
+        {
+          "title": "NSAP FAQs",
+          "url": "https://nsap.dord.gov.in/circular.do?method=faq"
+        },
+        {
+          "title": "Official Website",
+          "url": "https://nsap.dord.gov.in/"
+        }
+      ],
+      "schemeImageUrl": "https://uttara-s3-bucket.s3.ap-south-1.amazonaws.com/schemes/ignwps/ignwps.svg",
+      "detailedDescription_md": "Indira Gandhi National Widow Pension Scheme (IGNWPS) is implemented by Ministry of Rural Development, Government of India. It is a non-contributory pension scheme to provide social security to widows of poor family (BPL)  of the society.\n",
+      "benefits_md": "A pension of ₹ 300/- per month is provided to Widows between 40 years and 79 years.  For persons who are 80 years and above, the pension is ₹ 500/- per month. \n<br>\n\n",
+      "exclusions_md": "Pension will be discontinued\n<br>\n\n\n- In case of remarriage of widow\n- Once the widow moves above poverty line\n\n<br>\n\n",
+      "briefDescription": "A non-contributory pension scheme to provide social security to widows of poor family (BPL)  of the society.\n",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Indira Gandhi National Widow Pension Scheme (IGNWPS) is implemented by Ministry of Rural Development, Government of India. It is a non-contributory pension scheme to provide social security to widows of poor family (BPL)  of the society."
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "value": "Cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "A pension of ₹ 300/- per month is provided to Widows between 40 years and 79 years.  For persons who are 80 years and above, the pension is ₹ 500/- per month. "
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ],
+      "exclusions": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Pension will be discontinued"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "In case of remarriage of widow"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Once the widow moves above poverty line"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Online",
+        "url": "https://web.umang.gov.in/web_new/home ",
+        "process": [
+          {
+            "type": "ul_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "One can download UMANG App or visit website "
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://web.umang.gov.in/web_new/home",
+                    "children": [
+                      {
+                        "text": "https://web.umang.gov.in/web_new/home"
+                      }
+                    ]
+                  },
+                  {
+                    "text": " "
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "The citizen can login using mobile number and OTP."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Once logged In, citizen can search for NSAP."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Click on “Apply Online”"
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Fill the basic details, choose the mode of payment of pension, upload photo and click on “Submit”."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          }
+        ],
+        "process_md": "\n- One can download UMANG App or visit website [https://web.umang.gov.in/web_new/home](https://web.umang.gov.in/web_new/home) - The citizen can login using mobile number and OTP.\n- Once logged In, citizen can search for NSAP.\n- Click on “Apply Online”\n- Fill the basic details, choose the mode of payment of pension, upload photo and click on “Submit”.\n\n<br>\n\n"
+      },
+      {
+        "mode": "Offline",
+        "url": "",
+        "process": [
+          {
+            "type": "ul_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Individuals can submit completely filled applications to the Gram Panchayat / Block Office in the rural area and the Municipality / Municipal Council in the urban area, as per eligibility."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "A Verification Officer or Verification Team under an authorized officer verifies the applications with reference to facts related to eligibility"
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "The Verification Officer make the necessary recommendation for sanction or rejection with reasons."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "The list of applicants with the recommendations of the Verifying Authority is discussed in the Gram Sabha in rural areas or Ward Sabha / Area Sabha as designated by the State Government in urban areas and thereafter in the Gram Panchayats and Municipalities."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "If the time limits are not adhered to by Gram Sabha / Ward Sabhas, Gram Panchayats / Municipalities the Verification Officer directly submits his recommendations to the Sanctioning Authority under intimation to the Gram Panchayat / Municipality."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "After receipt of applications which are verified and recommended by the Gram Sabha / Ward Committee / Area Sabha, the Sanctioning Authority convey approval to the applicant in the form of a Sanction Order with a copy to Gram Panchayat / Municipality concerned."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "The Sanctioning Authority issues Sanction Order under his seal"
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Every beneficiary who has been sanctioned pension under schemes of NSAP are issued a Pension Passbook. The Passbook contain details of the Sanction Order, particulars of the pensioner and disbursement details"
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "The list of beneficiaries to whom sanctions are issued is displayed at the Gram Panchayat / Ward / Municipal Office and updated every three months. "
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "The Pension amount is directly paid to the beneficiaries through the Direct Benefit Transfer (DBT) process to their post office or bank account."
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "process_md": "\n- Individuals can submit completely filled applications to the Gram Panchayat / Block Office in the rural area and the Municipality / Municipal Council in the urban area, as per eligibility.\n- A Verification Officer or Verification Team under an authorized officer verifies the applications with reference to facts related to eligibility\n- The Verification Officer make the necessary recommendation for sanction or rejection with reasons.\n- The list of applicants with the recommendations of the Verifying Authority is discussed in the Gram Sabha in rural areas or Ward Sabha / Area Sabha as designated by the State Government in urban areas and thereafter in the Gram Panchayats and Municipalities.\n- If the time limits are not adhered to by Gram Sabha / Ward Sabhas, Gram Panchayats / Municipalities the Verification Officer directly submits his recommendations to the Sanctioning Authority under intimation to the Gram Panchayat / Municipality.\n- After receipt of applications which are verified and recommended by the Gram Sabha / Ward Committee / Area Sabha, the Sanctioning Authority convey approval to the applicant in the form of a Sanction Order with a copy to Gram Panchayat / Municipality concerned.\n- The Sanctioning Authority issues Sanction Order under his seal\n- Every beneficiary who has been sanctioned pension under schemes of NSAP are issued a Pension Passbook. The Passbook contain details of the Sanction Order, particulars of the pensioner and disbursement details\n- The list of beneficiaries to whom sanctions are issued is displayed at the Gram Panchayat / Ward / Municipal Office and updated every three months. \n- The Pension amount is directly paid to the beneficiaries through the Direct Benefit Transfer (DBT) process to their post office or bank account.\n\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "The eligibility criteria under Indira Gandhi National Widow Pension Scheme (IGNWPS) is:\n\n- The applicant must be a widow in the age group of 40-79 years.\n- The applicant should belong to a household living below the poverty line according to the criteria prescribed by the Govt. of India\n\n<br>\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The eligibility criteria under Indira Gandhi National Widow Pension Scheme (IGNWPS) is:"
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must be a widow in the age group of 40-79 years."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should belong to a household living below the poverty line according to the criteria prescribed by the Govt. of India"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "ignwps"
+}

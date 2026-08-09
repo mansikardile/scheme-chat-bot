@@ -1,0 +1,229 @@
+{
+  "_id": "6486dcc8380f8e12353e5882",
+  "en": {
+    "basicDetails": {
+      "schemeOpenDate": null,
+      "schemeCloseDate": null,
+      "state": {
+        "value": 9,
+        "label": "Uttar Pradesh"
+      },
+      "nodalMinistryName": null,
+      "nodalDepartmentName": {
+        "value": 90000016,
+        "label": "Empowerment of Persons With Disabilities Department, Uttar Pradesh"
+      },
+      "otherMinistryName": null,
+      "otherDepartmentNames": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Pension",
+          "label": "Pension"
+        }
+      ],
+      "dbtScheme": true,
+      "implementingAgency": null,
+      "tags": [
+        "Financial Assistance",
+        "Social Welfare",
+        "Empowerment",
+        "Disability"
+      ],
+      "schemeName": "Leprosy Pension Scheme",
+      "schemeShortTitle": "LPSUP",
+      "level": {
+        "value": "state",
+        "label": "State"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce87cd6d1a3bde4685312",
+          "label": "Social welfare & Empowerment"
+        }
+      ],
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines-1",
+          "url": "https://uphwd.gov.in/article/en/Kushtavstha-disabled-maintenance-grant-scheme"
+        },
+        {
+          "title": "Guidelines-2",
+          "url": "https://sspy-up.gov.in/docs/Pension_note.pdf"
+        },
+        {
+          "title": "Application Form",
+          "url": "https://sspy-up.gov.in/oap/public_new/UserRegistrationForm.aspx?Scheme=HandicapPension"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "    Leprosy Pension Scheme has been started by the Government of Uttar Pradesh and operated by the Department of Empowerment of Persons with Disabilities, Uttar Pradesh.\n    The main objective of the scheme is to provide a grant-in-aid for the maintenance of persons with disabilities and leprosy, whose family income is not sufficient for them. \n",
+      "benefits_md": "The rate of grant per beneficiary per month will be Rs. 3000/- who became disabled due to Leprosy.\n",
+      "briefDescription": "This Leprosy Pension Scheme has been started by the Government of Uttar Pradesh and operated by the Department of Empowerment of Persons with Disabilities, Uttar Pradesh.",
+      "exclusions_md": "",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "    Leprosy Pension Scheme has been started by the Government of Uttar Pradesh and operated by the Department of Empowerment of Persons with Disabilities, Uttar Pradesh."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "    The main objective of the scheme is to provide a grant-in-aid for the maintenance of persons with disabilities and leprosy, whose family income is not sufficient for them. "
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The rate of grant per beneficiary per month will be Rs. 3000/- who became disabled due to Leprosy."
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Online",
+        "url": "https://sspy-up.gov.in/oap/public_new/UserLogin.aspx",
+        "process": [
+          {
+            "type": "ol_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "First of all the applicant has to visit the "
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://sspy-up.gov.in",
+                    "children": [
+                      {
+                        "text": "official Portal."
+                      }
+                    ]
+                  },
+                  {
+                    "text": ""
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Fill out the online application form "
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://sspy-up.gov.in/oap/public_new/UserRegistrationForm.aspx?Scheme=HandicapPension",
+                    "children": [
+                      {
+                        "text": "from here. "
+                      }
+                    ]
+                  },
+                  {
+                    "text": ""
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "In the Application form, the applicant has to fill following details:- Personal Details, Bank Details, Income Details, and a description of a disability."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Upload the required documents (Photograph, Age Certificate and Disability Certificate). "
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "process_md": "\n1. First of all the applicant has to visit the [official Portal.](https://sspy-up.gov.in)1. Fill out the online application form [from here. ](https://sspy-up.gov.in/oap/public_new/UserRegistrationForm.aspx?Scheme=HandicapPension)1. In the Application form, the applicant has to fill following details:- Personal Details, Bank Details, Income Details, and a description of a disability.\n1. Upload the required documents (Photograph, Age Certificate and Disability Certificate). \n\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n1. It is necessary to be a permanent resident of Uttar Pradesh.\n1. Disabled due to leprosy (with any percentage of disability).\n1. Persons with disabilities due to leprosy may belong to any age group.\n1. Must be below the poverty and should be under Rs. 56,460/- per annum for urban and Rs. 46,080/- per annum for rural areas. \n1. Are not taking advantage of other pension schemes.\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "It is necessary to be a permanent resident of Uttar Pradesh."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Disabled due to leprosy (with any percentage of disability)."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Persons with disabilities due to leprosy may belong to any age group."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Must be below the poverty and should be under Rs. 56,460/- per annum for urban and Rs. 46,080/- per annum for rural areas. "
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Are not taking advantage of other pension schemes."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "lpsup"
+}

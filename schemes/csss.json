@@ -1,0 +1,370 @@
+{
+  "_id": "64698c779062e559675ccd24",
+  "en": {
+    "basicDetails": {
+      "schemeOpenDate": "2000-01-01",
+      "schemeCloseDate": "2020-01-01",
+      "state": {
+        "value": 1,
+        "label": "Jammu and Kashmir"
+      },
+      "nodalMinistryName": null,
+      "nodalDepartmentName": {
+        "value": 2336,
+        "label": "Department Of Social Welfare J and K"
+      },
+      "otherMinistryName": null,
+      "otherDepartmentNames": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Insurance",
+          "label": "Insurance"
+        },
+        {
+          "value": "Banking and money",
+          "label": "Banking and money"
+        },
+        {
+          "value": "Financial assistance",
+          "label": "Financial assistance"
+        }
+      ],
+      "dbtScheme": null,
+      "implementingAgency": "District Social Welfare Offices (DSWO) Of The Department Of Social Welfare, Union Territory Of Jammu & Kashmir",
+      "tags": [
+        "Social Security",
+        "Insurance",
+        "Pension",
+        "Social Welfare"
+      ],
+      "schemeName": "Contributory Social Security Scheme",
+      "schemeShortTitle": "CSSS",
+      "level": {
+        "value": "state",
+        "label": "State"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce7f6d6d1a3bde46852d0",
+          "label": "Banking,Financial Services and Insurance"
+        },
+        {
+          "value": "628ce87cd6d1a3bde4685312",
+          "label": "Social welfare & Empowerment"
+        }
+      ],
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines 1",
+          "url": "https://jksabwdobcs.com/pdf/gov_schemes.pdf"
+        },
+        {
+          "title": "Guidelines 2",
+          "url": "https://www.jkslsa.gov.in/pdf/sch.pdf"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The &amp;quot;Contributory Social Security Scheme (CSSS)&amp;quot; is a Financial Support by the Social Welfare Department, Govt. of Jammu and Kashmir. The scheme intends to provide social security to marginal workers on a contributory basis. The duration of the scheme shall be for a period of 5 years, or 10 years. The amount will be deposited in a bank account opened for the beneficiary, which will remain pledged to the District Social Welfare Officer (DSWO) for the period of the scheme. On completion of the scheme, the beneficiary has the option to withdraw the whole amount or re-invest in a pension scheme. The beneficiary is insured under this scheme. The applicant shall approach the concerned District Social Welfare Officer (DSWO) for submission of the application. This scheme is 100% Sponsored by the Union Territory of Jammu &amp;amp; Kashmir, and only the permanent residents of the Union Territory of Jammu &amp;amp; Kashmir can apply for this scheme.\n",
+      "benefits_md": "\n1. A contribution of ₹ 300/- by the state and ₹ 200/- by the beneficiary shall be made per quarter for 5 or 10 years into the joint account opened for this purpose.\n1. The amount will be deposited in a bank account opened for the beneficiary, which will remain pledged to the District Social Welfare Officer (DSWO) for the period of the scheme.\n1. On completion of the scheme, the beneficiary has the option to withdraw the whole amount or re-invest in a pension scheme. \n1. The beneficiary is insured under this scheme.\n\n",
+      "exclusions_md": "The applicant or his spouse who are beneficiary of any existing scheme are not eligible.\n",
+      "briefDescription": "The \"Contributory Social Security Scheme (CSSS)\" intends to provide social security to marginal workers on a contributory basis. The duration of the scheme shall be for a period of 5 years, or 10 years. The amount will be deposited in a bank account opened for the beneficiary.",
+      "detailedDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "The \"Contributory Social Security Scheme (CSSS)\" is a Financial Support by the Social Welfare Department, Govt. of Jammu and Kashmir. The scheme intends to provide social security to marginal workers on a contributory basis. The duration of the scheme shall be for a period of 5 years, or 10 years. The amount will be deposited in a bank account opened for the beneficiary, which will remain pledged to the District Social Welfare Officer (DSWO) for the period of the scheme. On completion of the scheme, the beneficiary has the option to withdraw the whole amount or re-invest in a pension scheme. The beneficiary is insured under this scheme. The applicant shall approach the concerned District Social Welfare Officer (DSWO) for submission of the application. This scheme is 100% Sponsored by the Union Territory of Jammu & Kashmir, and only the permanent residents of the Union Territory of Jammu & Kashmir can apply for this scheme."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "A contribution of ₹ 300/- by the state and ₹ 200/- by the beneficiary shall be made per quarter for 5 or 10 years into the joint account opened for this purpose."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The amount will be deposited in a bank account opened for the beneficiary, which will remain pledged to the District Social Welfare Officer (DSWO) for the period of the scheme."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "On completion of the scheme, the beneficiary has the option to withdraw the whole amount or re-invest in a pension scheme. "
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The beneficiary is insured under this scheme."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "exclusions": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The applicant or his spouse who are beneficiary of any existing scheme are not eligible."
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "url": "",
+        "process": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 1: ",
+                "bold": true
+              },
+              {
+                "text": "Visit the Tehsil Social Welfare Office or the District Social Welfare Office or the Nodal Bank, and request a hard copy of the format of the CSSS application form for the"
+              },
+              {
+                "type": "link",
+                "link": "https://www.jk.gov.in/jammukashmir/sites/default/files/Application%20Form%20for%20Prosthetic%20Aid.pdf",
+                "children": [
+                  {
+                    "text": ""
+                  }
+                ]
+              },
+              {
+                "text": " scheme from the concerned authority."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2: ",
+                "bold": true
+              },
+              {
+                "text": "In the application form, fill in all the mandatory fields, paste the passport-sized photograph (signed across), and attach all the (self-attested) mandatory documents."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 3: ",
+                "bold": true
+              },
+              {
+                "text": "Submit the duly filled and signed application form along with the documents to the "
+              },
+              {
+                "type": "link",
+                "link": "https://jksocialwelfare.nic.in/welfareIns/SocialWelfareCenters.pdf",
+                "children": [
+                  {
+                    "text": "District Social Welfare Officer"
+                  }
+                ]
+              },
+              {
+                "text": "."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 4: ",
+                "bold": true
+              },
+              {
+                "text": "Acquire the receipt/acknowledgment of the successful submission of the application form from the District Social Welfare Office."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "text": "Post-Application Processes:",
+                "bold": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 1: ",
+                "bold": true
+              },
+              {
+                "text": "On receipt of the application duly completed by the applicants, the applications shall be consolidated by the TSWO and forwarded to the DSWO for approval/sanction by the District Level Sanctioning Committee."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2: ",
+                "bold": true
+              },
+              {
+                "text": "After obtaining the approval, the DSWO shall issue authorization to the designated nodal branch of the J&K Bank to admit the beneficiary as a member of the scheme. "
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 3: ",
+                "bold": true
+              },
+              {
+                "text": "The branch concerned shall open a recurring social security deposit account (tailor-made for the purpose) in the name of the beneficiary to which contribution by the state and beneficiary shall be made."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "text": "Check Application Status:",
+                "bold": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "The District Social Welfare Officer (DSWO) / Deputy Commissioner can be contacted regarding the application status of the scheme."
+              }
+            ]
+          }
+        ],
+        "process_md": "**Step 1:** Visit the Tehsil Social Welfare Office or the District Social Welfare Office or the Nodal Bank, and request a hard copy of the format of the CSSS application form for the scheme from the concerned authority.\n**Step 2:** In the application form, fill in all the mandatory fields, paste the passport-sized photograph (signed across), and attach all the (self-attested) mandatory documents.\n**Step 3:** Submit the duly filled and signed application form along with the documents to the [District Social Welfare Officer](https://jksocialwelfare.nic.in/welfareIns/SocialWelfareCenters.pdf).\n**Step 4:** Acquire the receipt/acknowledgment of the successful submission of the application form from the District Social Welfare Office.\n<br>\n\n> **Post-Application Processes:**\n\n**Step 1:** On receipt of the application duly completed by the applicants, the applications shall be consolidated by the TSWO and forwarded to the DSWO for approval/sanction by the District Level Sanctioning Committee.\n**Step 2:** After obtaining the approval, the DSWO shall issue authorization to the designated nodal branch of the J&amp;K Bank to admit the beneficiary as a member of the scheme. \n**Step 3:** The branch concerned shall open a recurring social security deposit account (tailor-made for the purpose) in the name of the beneficiary to which contribution by the state and beneficiary shall be made.\n<br>\n\n> **Check Application Status:**\n\nThe District Social Welfare Officer (DSWO) / Deputy Commissioner can be contacted regarding the application status of the scheme.\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n1. The applicant should be a citizen of India.\n1. The applicant should not be below 18 years of age.\n1. The applicant should be a Marginal Worker (agriculture and non-agricultural labor, rural barber, craftsman, shepherd, blacksmith, mason, weaver, etc.).\n1. The income of the applicant (from all sources) should not exceed ₹ 48,000/- per annum.\n1. The applicant should be a domicile / permanent resident of the Union Territory of Jammu &amp; Kashmir.\n1. The applicant or his spouse should not be a beneficiary of any existing scheme.\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should be a citizen of India."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should not be below 18 years of age."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should be a Marginal Worker (agriculture and non-agricultural labor, rural barber, craftsman, shepherd, blacksmith, mason, weaver, etc.)."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The income of the applicant (from all sources) should not exceed ₹ 48,000/- per annum."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should be a domicile / permanent resident of the Union Territory of Jammu & Kashmir."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant or his spouse should not be a beneficiary of any existing scheme."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "csss"
+}

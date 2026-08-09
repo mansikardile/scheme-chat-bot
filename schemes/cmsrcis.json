@@ -1,0 +1,367 @@
+{
+  "_id": "63fd9e527b0e90da1e94bd36",
+  "en": {
+    "basicDetails": {
+      "schemeOpenDate": null,
+      "schemeCloseDate": null,
+      "state": {
+        "value": 33,
+        "label": "Tamil Nadu"
+      },
+      "nodalMinistryName": null,
+      "nodalDepartmentName": {
+        "value": 3333337,
+        "label": "Energy Department"
+      },
+      "otherMinistryName": null,
+      "otherDepartmentNames": null,
+      "targetBeneficiaries": [
+        {
+          "value": "family",
+          "label": "Family"
+        },
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Electricity",
+          "label": "Electricity"
+        }
+      ],
+      "dbtScheme": null,
+      "implementingAgency": "Tamil Nadu Energy Development Agency (TEDA)",
+      "tags": [
+        "Renewable Energy",
+        "Solar Rooftop",
+        "Utility"
+      ],
+      "schemeName": "Chief Minister’s Solar Rooftop Capital Incentive Scheme",
+      "schemeShortTitle": "CMSRCIS",
+      "level": {
+        "value": "state",
+        "label": "State"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce97ad6d1a3bde468537d",
+          "label": "Utility & Sanitation"
+        }
+      ],
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://teda.in/programes/cms-solar-rooftop-capital-incentive-scheme/"
+        },
+        {
+          "title": "FAQs",
+          "url": "https://teda.in/faqs/"
+        },
+        {
+          "title": "Consumer's Guide",
+          "url": "https://teda.in/pdf/Solar%20net%20metering%20Consumer%20Guide.pdf"
+        },
+        {
+          "title": "Application Form (Single Applicant Of Individual House)",
+          "url": "http://www.teda.in/pdf/CIS_Individual.pdf"
+        },
+        {
+          "title": "Application Form (Combined Group Of Flat Owners)",
+          "url": "http://www.teda.in/pdf/CIS_Group.pdf"
+        }
+      ],
+      "schemeImageUrl": "",
+      "briefDescription": "Chief Minister’s Solar Rooftop Capital Incentive Scheme is a capital subsidy scheme by the Tamil Nadu Government. In this scheme, a capital subsidy of ₹ 20,000 per kilowatt is provided for grid-connected domestic solar PV systems in addition to the 30% subsidy scheme* of the MNRE.",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Chief Minister’s Solar Rooftop Capital Incentive Scheme is a capital subsidy scheme by the Tamil Nadu Government. In this scheme, a capital subsidy of ₹ 20,000 per kilowatt is provided for grid-connected domestic solar PV systems in addition to the 30% subsidy scheme* of the Ministry of New and Renewable Energy (MNRE) of the Government of India. For individual homes/flats, the solar system capacity shall be 1 kW. For the residential flats solar system capacities of 5 kW, 10 kW, and multiples thereof can be applied for common usage as a group application."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "(* limited to 30% of MNRE benchmark cost or 30% of the project cost, whichever is less)"
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "A capital subsidy of ₹ 20,000 per kilowatt for grid-connected domestic solar PV systems in addition to the 30% subsidy scheme* of the Ministry of New and Renewable Energy (MNRE) of the Government of India. For individual homes/flats, the solar system capacity shall be 1 kW. For the residential flats solar system capacities of 5 kW, 10 kW, and multiples thereof can be applied for common usage as a group application. (* limited to 30% of MNRE benchmark cost or 30% of the project cost, whichever is less)"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "You may opt for any capacity out of 1, 2, 5 & 10 kWp, but the subsidy will be limited to 1kWp per house / flat."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "A grid-connected photovoltaic power system will reduce the power bill due to the import and export of power through net metering provision. Illustration: someone imports (consumes) 1,000 kWh from the grid and exports 600 kWh to the grid in a billing cycle. The energy bill will be for 400 kWh (1000 kWh – 600 kWh) accounted by Netmeter."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Grid-connected PV systems do not require batteries. Batteries are costly require periodic maintenance and also lead to the wastage of 15 – 20 % of energy in storage and retrieval."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Grid-connected PV systems are much easier to operate and maintain."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Segregation of load is not required."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "detailedDescription_md": "Chief Minister’s Solar Rooftop Capital Incentive Scheme is a capital subsidy scheme by the Tamil Nadu Government. In this scheme, a capital subsidy of ₹ 20,000 per kilowatt is provided for grid-connected domestic solar PV systems in addition to the 30% subsidy scheme* of the Ministry of New and Renewable Energy (MNRE) of the Government of India. For individual homes/flats, the solar system capacity shall be 1 kW. For the residential flats solar system capacities of 5 kW, 10 kW, and multiples thereof can be applied for common usage as a group application.\n(* limited to 30% of MNRE benchmark cost or 30% of the project cost, whichever is less)\n"
+    },
+    "applicationProcess": [
+      {
+        "mode": "Online",
+        "url": "",
+        "process": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 1: ",
+                "bold": true
+              },
+              {
+                "text": "Visit the official website of TEDA and click on the “Solar Rooftop” tab."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2: ",
+                "bold": true
+              },
+              {
+                "text": "Click on the “Apply Online” button to access the online application form."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 3: ",
+                "bold": true
+              },
+              {
+                "text": "Fill in the required details in the online application form such as personal information, contact details, and project details."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 4: ",
+                "bold": true
+              },
+              {
+                "text": "Upload the required documents such as proof of possession, proof of identity, site plan, building layout plan, and other documents."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 5: ",
+                "bold": true
+              },
+              {
+                "text": "Review the application form and documents before submitting them."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 6: ",
+                "bold": true
+              },
+              {
+                "text": "Click on the “Submit” button to submit the application form and documents to TEDA."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Post Application Steps",
+                "bold": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 1: ",
+                "bold": true
+              },
+              {
+                "text": "After submission, the application will be processed by TEDA and a response will be sent to the registered email address."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2: ",
+                "bold": true
+              },
+              {
+                "text": "If the application is approved, TEDA will provide the capital subsidy to the bank account specified in the application."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 3: ",
+                "bold": true
+              },
+              {
+                "text": "The applicant can then proceed with the installation of the solar rooftop system as per the specifications provided in the application."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 4: ",
+                "bold": true
+              },
+              {
+                "text": "After the installation is completed, the applicant can claim the subsidy by submitting the completion certificate and other documents to TEDA."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 5: ",
+                "bold": true
+              },
+              {
+                "text": "TEDA will verify the installation and release the subsidy to the applicant's bank account."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "**Eligibility for Consumer**\nThe scheme is open to applicants from individual homes/flats and residential flats, having an electricity connection.\n<br>\n\n**Eligibility for Vendor / Installer**\nQualified Solar Installers empanelled by the Tamil Nadu Energy Development Agency through a tendering system under this scheme (www.teda.in/pdf/CIS_INSTALLERS.pdf)\n",
+      "eligibilityDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Eligibility for Consumer",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The scheme is open to applicants from individual homes/flats and residential flats, having an electricity connection."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Eligibility for Vendor / Installer",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Qualified Solar Installers empanelled by the Tamil Nadu Energy Development Agency through a tendering system under this scheme (www.teda.in/pdf/CIS_INSTALLERS.pdf)"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "cmsrcis"
+}

@@ -1,0 +1,712 @@
+{
+  "_id": "64ddb9d8d74267d9a4f78fdc",
+  "en": {
+    "basicDetails": {
+      "schemeOpenDate": "2006-01-01",
+      "schemeCloseDate": null,
+      "nodalMinistryName": null,
+      "nodalDepartmentName": {
+        "value": 3333366,
+        "label": "Department of Employment and Training"
+      },
+      "otherMinistryName": null,
+      "otherDepartmentNames": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "schemeSubCategory": null,
+      "dbtScheme": false,
+      "implementingAgency": null,
+      "tags": [
+        "Employement",
+        "Jobs",
+        "Training"
+      ],
+      "schemeName": "Unemployment Assistance Scheme - Tamil Nadu",
+      "schemeShortTitle": "Ueastn",
+      "level": {
+        "value": "state",
+        "label": "State"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce85cd6d1a3bde4685304",
+          "label": "Skills & Employment"
+        }
+      ],
+      "state": {
+        "value": 33,
+        "label": "Tamil Nadu"
+      },
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Details",
+          "url": "https://tnvelaivaaippu.gov.in/schemes.html"
+        },
+        {
+          "title": "Application Form",
+          "url": "https://tnvelaivaaippu.gov.in/download.html"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The Unemployment Assistance was launched with a view to help the youth who have registered with the District Employment and Career Guidance Centre and waiting in the live register for five years or more to secure an employment.\nUnemployment Assistance is also provided to Differently-Abled job seekers. The criteria with regard to the Differently-Abled person to get this assistance is that they should have been on the live register for one year. However, there is no restriction on parental income and age. \n",
+      "benefits_md": "<br>\n\n**Candidate Type****Qualification****Amount of Assistance (Per Month)**General CandidateSSLC/10th Failed (Secondary School Leaving Certificate).Rs. 200/-General CandidateSSLC/10th Passed (Secondary School Leaving Certificate).Rs. 300/-General CandidateHSC /12th(Higher Secondary Certificate).Rs. 400/-General CandidateGraduationRs. 600/-Differently Abled CandidatesIlliterate to SSLC/10th (Secondary School Leaving Certificate).Rs. 600/-Differently Abled CandidatesHSC/12th (Higher Secondary certificate).Rs. 750/-Differently Abled CandidatesGraduationRs. 1,000/-<br>\n\n",
+      "exclusions_md": "<br>\n\n",
+      "briefDescription": "In 2006, Tamil Nadu Government started Unemployment Assistance Scheme for the welfare of unemployed youth of  the state.",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The Unemployment Assistance was launched with a view to help the youth who have registered with the District Employment and Career Guidance Centre and waiting in the live register for five years or more to secure an employment."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Unemployment Assistance is also provided to Differently-Abled job seekers. The criteria with regard to the Differently-Abled person to get this assistance is that they should have been on the live register for one year. However, there is no restriction on parental income and age. "
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "children": [
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Candidate Type",
+                      "bold": true
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Qualification",
+                      "bold": true
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Amount of Assistance (Per Month)",
+                      "bold": true
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "General Candidate"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "SSLC/10th Failed (Secondary School Leaving Certificate)."
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Rs. 200/-"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "General Candidate"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "SSLC/10th Passed (Secondary School Leaving Certificate)."
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Rs. 300/-"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "General Candidate"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "HSC /12th(Higher Secondary Certificate)."
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Rs. 400/-"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "General Candidate"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Graduation"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Rs. 600/-"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Differently Abled Candidates"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Illiterate to SSLC/10th (Secondary School Leaving Certificate)."
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Rs. 600/-"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Differently Abled Candidates"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "HSC/12th (Higher Secondary certificate)."
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Rs. 750/-"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Differently Abled Candidates"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Graduation"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Rs. 1,000/-"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ],
+      "exclusions": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "process": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step-1: ",
+                "bold": true
+              },
+              {
+                "text": "The Applicant can obtain the Application Form from the Employment Exchange Center of his district. or can download the from "
+              },
+              {
+                "type": "link",
+                "link": "https://tnvelaivaaippu.gov.in/pdf/download_forms/ua_normal.pdf",
+                "children": [
+                  {
+                    "text": "here"
+                  }
+                ]
+              },
+              {
+                "text": ". "
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step-2: ",
+                "bold": true
+              },
+              {
+                "text": "Fill out the application in prescribe manner."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step-3",
+                "bold": true
+              },
+              {
+                "text": ": Attach required documents"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step-4",
+                "bold": true
+              },
+              {
+                "text": ": The Applicant have to submit the Application Form and the attached documents to the Employment Exchange Center of his district. "
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          }
+        ],
+        "process_md": "**Step-1:** The Applicant can obtain the Application Form from the Employment Exchange Center of his district. or can download the from [here](https://tnvelaivaaippu.gov.in/pdf/download_forms/ua_normal.pdf). \n**Step-2:** Fill out the application in prescribe manner.\n**Step-3**: Attach required documents\n**Step-4**: The Applicant have to submit the Application Form and the attached documents to the Employment Exchange Center of his district. \n<br>\n\n"
+      },
+      {
+        "mode": "Online",
+        "process": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step-1: ",
+                "bold": true
+              },
+              {
+                "text": "Applicant have to visit the official "
+              },
+              {
+                "type": "link",
+                "link": "https://tnvelaivaaippu.gov.in/index.html#",
+                "children": [
+                  {
+                    "text": "website"
+                  }
+                ]
+              },
+              {
+                "text": " "
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step-2: ",
+                "bold": true
+              },
+              {
+                "text": "Click on login and select Government/Public Sector or Private Sector. "
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step-3",
+                "bold": true
+              },
+              {
+                "text": ": Select registration/create new account option."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step-4",
+                "bold": true
+              },
+              {
+                "text": ": Fill out the required details."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step-5: ",
+                "bold": true
+              },
+              {
+                "text": "Attach required documents."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step-6: ",
+                "bold": true
+              },
+              {
+                "text": "Submit."
+              }
+            ]
+          }
+        ],
+        "process_md": "**Step-1:** Applicant have to visit the official [website](https://tnvelaivaaippu.gov.in/index.html#) \n**Step-2:** Click on login and select Government/Public Sector or Private Sector. \n**Step-3**: Select registration/create new account option.\n**Step-4**: Fill out the required details.\n**Step-5:** Attach required documents.\n**Step-6:** Submit.\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n- **General Candidate**\n\n\n- Resident of Tamil Nadu.\n- Family Annual Income should not be more than Rs. 72,000/- per annum.\n- Maximum Age Limit :-\n\n  - 40 Years for General Candidate.\n  - 45 Years for Schedule Caste/Tribe Candidate.     \n\n- Should be registered in Employment Exchange for 5 years or more.\n- Should not be a regular student of any school or college.\n- Should not be in any type of employment.\n\n\n- **Differently Abled Candidates**\n\n\n- Resident of Tamil Nadu.\n- Should have Physical Disability.\n- Should be registered in Employment Exchange for 1 year or more.\n- No Maximum Age or Income Limit.\n- Should not be in any type of employment.\n- Should not be a regular student of any school or college.\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "General Candidate",
+                  "bold": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "align_left",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Resident of Tamil Nadu."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Family Annual Income should not be more than Rs. 72,000/- per annum."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Maximum Age Limit :-"
+                    }
+                  ]
+                },
+                {
+                  "type": "align_left",
+                  "children": [
+                    {
+                      "type": "ul_list",
+                      "children": [
+                        {
+                          "type": "list_item",
+                          "children": [
+                            {
+                              "text": "40 Years for General Candidate."
+                            }
+                          ]
+                        },
+                        {
+                          "type": "list_item",
+                          "children": [
+                            {
+                              "text": "45 Years for Schedule Caste/Tribe Candidate.     "
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Should be registered in Employment Exchange for 5 years or more."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Should not be a regular student of any school or college."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Should not be in any type of employment."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "bold": true,
+                  "text": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "bold": true,
+                  "text": "Differently Abled Candidates"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "align_left",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Resident of Tamil Nadu."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Should have Physical Disability."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Should be registered in Employment Exchange for 1 year or more."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "No Maximum Age or Income Limit."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Should not be in any type of employment."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Should not be a regular student of any school or college."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "ueastn"
+}

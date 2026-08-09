@@ -1,0 +1,326 @@
+{
+  "_id": "673f24d2a207123b9e1489d9",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Social Security",
+        "Transport Worker",
+        "Monthly Assistance",
+        "Pension"
+      ],
+      "schemeName": "West Bengal Transport Workers’ Social Security Scheme: Pension",
+      "schemeShortTitle": "WBTWSSP",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce87cd6d1a3bde4685312",
+          "label": "Social welfare & Empowerment"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Pension",
+          "label": "Pension"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "state": {
+        "value": 19,
+        "label": "West Bengal"
+      },
+      "nodalDepartmentName": {
+        "value": 19999925,
+        "label": "Labour Department"
+      },
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guideline-1",
+          "url": "https://wblc.gov.in/sites/default/files/ckfinder/userfiles/images/WBTWSSS_at_a_glance.pdf"
+        },
+        {
+          "title": "Guideline-2",
+          "url": "https://employmentbankwb.gov.in/social_security_scheme.php#ans8"
+        },
+        {
+          "title": "Guideline (Page No 150)-3",
+          "url": "https://bsk.wb.gov.in/download/BSK%20Manual_English.pdf"
+        },
+        {
+          "title": "Online Application",
+          "url": "https://edistrict.wb.gov.in/portal/home"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The “West Bengal Transport Workers’ Social Security Scheme: Pension” by the Labour Department, is designed to support unorganized transport workers upon retirement. Eligible beneficiaries receive a monthly pension of ₹1500/-, which increases by ₹10/- for each year of enrolment beyond 5 years, provided they have been continuously enrolled in the scheme for at least 5 years. This initiative aims to ensure financial stability and dignity for transport workers during their retirement years.\n&lt;br&gt;\n\n",
+      "benefits_md": "\n  - **Pension Amount:** ₹1,500/- per month for beneficiaries aged 60 and above.  - **Incremental Benefit:** Additional ₹10/- per month for every completed year of enrolment beyond five years.\n&lt;br&gt;\n\n",
+      "exclusions_md": "<br>\n\n",
+      "briefDescription": "The scheme provides pension benefits to transport workers of the state upon reaching 60 years of age.\n",
+      "detailedDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "The “West Bengal Transport Workers’ Social Security Scheme: Pension” by the Labour Department, is designed to support unorganized transport workers upon retirement. Eligible beneficiaries receive a monthly pension of ₹1500/-, which increases by ₹10/- for each year of enrolment beyond 5 years, provided they have been continuously enrolled in the scheme for at least 5 years. This initiative aims to ensure financial stability and dignity for transport workers during their retirement years."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": ""
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "ul_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Pension Amount:",
+                      "bold": true
+                    },
+                    {
+                      "text": " ₹1,500/- per month for beneficiaries aged 60 and above."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Incremental Benefit:",
+                      "bold": true
+                    },
+                    {
+                      "text": " Additional ₹10/- per month for every completed year of enrolment beyond five years."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": ""
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "exclusions": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Online",
+        "process": [
+          {
+            "type": "align_justify",
+            "children": [
+              {
+                "type": "align_justify",
+                "children": [
+                  {
+                    "type": "paragraph",
+                    "children": [
+                      {
+                        "text": "Step-1:",
+                        "bold": true
+                      },
+                      {
+                        "text": " Visit the “"
+                      },
+                      {
+                        "type": "link",
+                        "link": "https://edistrict.wb.gov.in/portal/home",
+                        "children": [
+                          {
+                            "text": "eDistrict 2.0"
+                          }
+                        ]
+                      },
+                      {
+                        "text": "” portal. Click on Log In/Sign Up."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "children": [
+                      {
+                        "text": "Step-2: ",
+                        "bold": true
+                      },
+                      {
+                        "text": "In the User Login window, scroll down to the bottom and click on “Register”."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "children": [
+                      {
+                        "text": "Step-3: ",
+                        "bold": true
+                      },
+                      {
+                        "text": "Fill in all the details carefully, enter a username, and click on “Register”."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "children": [
+                      {
+                        "text": "Step-4:",
+                        "bold": true
+                      },
+                      {
+                        "text": " Upon entering the One Time Password received on your mobile, you will be successfully registered."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "children": [
+                      {
+                        "text": "Step-5:",
+                        "bold": true
+                      },
+                      {
+                        "text": " Now in the User Login window, enter your Username or email and captcha and click on “Sign In”."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "children": [
+                      {
+                        "text": "Step-6: ",
+                        "bold": true
+                      },
+                      {
+                        "text": "Enter the received O.T.P and click on “Submit”."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "children": [
+                      {
+                        "text": "Step-7: ",
+                        "bold": true
+                      },
+                      {
+                        "text": "Upon successful Login, You will be redirected to the “Dashboard”. From the right side menu apply for the concerned scheme."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "process_md": "**Step-1:** Visit the “[eDistrict 2.0](https://edistrict.wb.gov.in/portal/home)” portal. Click on Log In/Sign Up.\n**Step-2:** In the User Login window, scroll down to the bottom and click on “Register”.\n**Step-3:** Fill in all the details carefully, enter a username, and click on “Register”.\n**Step-4:** Upon entering the One Time Password received on your mobile, you will be successfully registered.\n**Step-5:** Now in the User Login window, enter your Username or email and captcha and click on “Sign In”.\n**Step-6:** Enter the received O.T.P and click on “Submit”.\n**Step-7:** Upon successful Login, You will be redirected to the “Dashboard”. From the right side menu apply for the concerned scheme.\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n   1. The applicant must be between 18 and 60 years of age at the time of enrolment.\n   1. The applicant must be an unorganized worker employed in the operation of commercial vehicles, such as cars, taxis, luxury taxis, light commercial vehicles, vans, auto-rickshaws, tempos, lorries, trucks, or buses.\n   1. The applicant’s vehicle must be used for commercial purposes and not solely for personal or family use.\n   1. The applicant must have been continuously enrolled in the scheme for at least 5 years to qualify for pension benefits.\n\n&lt;br&gt;\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "ol_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant must be between 18 and 60 years of age at the time of enrolment."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant must be an unorganized worker employed in the operation of commercial vehicles, such as cars, taxis, luxury taxis, light commercial vehicles, vans, auto-rickshaws, tempos, lorries, trucks, or buses."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant’s vehicle must be used for commercial purposes and not solely for personal or family use."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant must have been continuously enrolled in the scheme for at least 5 years to qualify for pension benefits."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "wbtwssp"
+}

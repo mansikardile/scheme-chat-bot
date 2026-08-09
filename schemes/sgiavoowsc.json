@@ -1,0 +1,623 @@
+{
+  "_id": "652f7a8e2a298fe1b486f03c",
+  "en": {
+    "basicDetails": {
+      "schemeOpenDate": null,
+      "schemeCloseDate": null,
+      "nodalMinistryName": {
+        "value": 712,
+        "label": "Ministry Of Social Justice and Empowerment"
+      },
+      "nodalDepartmentName": {
+        "value": 11112,
+        "label": "Department of Social Justice & Empowerment"
+      },
+      "otherMinistryName": null,
+      "otherDepartmentNames": null,
+      "targetBeneficiaries": [
+        {
+          "value": "ngo",
+          "label": "NGO"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Financial assistance",
+          "label": "Financial assistance"
+        }
+      ],
+      "dbtScheme": true,
+      "implementingAgency": null,
+      "tags": [
+        "Scheduled Caste",
+        "Grant",
+        "NGO"
+      ],
+      "schemeName": "Scheme of Grant-in-Aid to Voluntary and other Organizations Working for Scheduled Castes",
+      "schemeShortTitle": "SGIAVOOWSC",
+      "level": {
+        "value": "central",
+        "label": "Central"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce87cd6d1a3bde4685312",
+          "label": "Social welfare & Empowerment"
+        }
+      ],
+      "state": null,
+      "schemeType": {
+        "value": "central-sector-scheme",
+        "label": "Central Sector Scheme"
+      },
+      "schemeFor": "Infra"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://socialjustice.gov.in/writereaddata/UploadFile/New%20Scheme.pdf"
+        }
+      ],
+      "schemeImageUrl": "",
+      "briefDescription": "The \"Scheme aims to enhance the reach of development interventions of the Government and fill the gaps in service-deficient Scheduled Caste-dominant areas in sectors such as education, health, vocational training, etc., through the efforts of voluntary organizations and other organizations.",
+      "detailedDescription_md": "The prime objective of the &amp;quot;Scheme of Grant-in-Aid to Voluntary and other Organizations Working for Scheduled Castes&amp;quot; by the Ministry of Social Justice and Empowerment, Department of Social Justice and Empowerment, is to enhance the reach of development interventions of the Government and fill the gaps in service-deficient Scheduled Caste dominant areas in sectors such as education, health, vocational training, etc., through the efforts of voluntary organizations and other organizations. This aims to provide an environment for the socio-economic upliftment and overall development of the Scheduled Castes (SCs). Any other innovative activity with a direct impact on the socio-economic development or livelihood generation of SCs may also be considered through voluntary efforts.\n",
+      "benefits_md": "\n1. **Educational Initiatives:** Opening of Hostels and Residential Schools, ITIs, Arts and Craft Centers, or Any Other Income Generating Scheme.1. **Tuition Fee Support:** Meeting the Cost of Tuition Fees for Training in Information Technology at Institutions of Repute Selected by the Ministry of Social Justice &amp; Empowerment.1. **Childcare Services:** Organizing Balwadies and Bal Kendras, i.e., Creches, to Look After the Deprived Children of Scheduled Castes.1. **Healthcare Facilities:** Providing Medical Facilities to Scheduled Castes through the Establishment of Hospitals or Mobile Dispensaries. For a ten-bed hospital, a visiting specialist (paediatrician/gynaecologist) is recommended. The maximum expenditure per month for this purpose will be restricted to ₹10,000, subject to payment of ₹1,000 per visit/day.1. **Awareness and Support:** Creating Awareness Regarding Government Programs and Facilities, and Providing Assistance and Guidance in Accessing Various Government Facilities like Legal Aid, Scholarships, Loans, Various Grants, and Client Services.1. **Grievance Redressal:** Providing Assistance for Grievance Redressal at Appropriate Judicial/Administrative Fora.1. **Coaching and Advocacy:** Coaching Centers for Various Entrance Examinations and Tests and Other Service-Related Competitive Examinations, which are not covered in the Coaching Scheme for Scheduled Castes and Other Backward Classes. Addressing Human Rights Issues, Environmental Issues, and Issues Related to the Protection of Consumers&#39; Rights.1. **NGO Capacity Building:** Training of Non-Governmental Organizations (NGOs) in Accounts, Management, and Application Procedures, etc.1. **Related Activities:** All Such and Related Activities that are in Harmony with the Objectives Listed Above.1. **Accountancy Support:** Accountancy for Maintenance of Accounts in MGNREGA and More.\n",
+      "exclusions_md": "",
+      "detailedDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "The prime objective of the \"Scheme of Grant-in-Aid to Voluntary and other Organizations Working for Scheduled Castes\" by the Ministry of Social Justice and Empowerment, Department of Social Justice and Empowerment, is to enhance the reach of development interventions of the Government and fill the gaps in service-deficient Scheduled Caste dominant areas in sectors such as education, health, vocational training, etc., through the efforts of voluntary organizations and other organizations. This aims to provide an environment for the socio-economic upliftment and overall development of the Scheduled Castes (SCs). Any other innovative activity with a direct impact on the socio-economic development or livelihood generation of SCs may also be considered through voluntary efforts."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Educational Initiatives: ",
+                  "bold": true
+                },
+                {
+                  "text": "Opening of Hostels and Residential Schools, ITIs, Arts and Craft Centers, or Any Other Income Generating Scheme."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Tuition Fee Support: ",
+                  "bold": true
+                },
+                {
+                  "text": "Meeting the Cost of Tuition Fees for Training in Information Technology at Institutions of Repute Selected by the Ministry of Social Justice & Empowerment."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Childcare Services: ",
+                  "bold": true
+                },
+                {
+                  "text": "Organizing Balwadies and Bal Kendras, i.e., Creches, to Look After the Deprived Children of Scheduled Castes."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Healthcare Facilities: ",
+                  "bold": true
+                },
+                {
+                  "text": "Providing Medical Facilities to Scheduled Castes through the Establishment of Hospitals or Mobile Dispensaries. For a ten-bed hospital, a visiting specialist (paediatrician/gynaecologist) is recommended. The maximum expenditure per month for this purpose will be restricted to ₹10,000, subject to payment of ₹1,000 per visit/day."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Awareness and Support: ",
+                  "bold": true
+                },
+                {
+                  "text": "Creating Awareness Regarding Government Programs and Facilities, and Providing Assistance and Guidance in Accessing Various Government Facilities like Legal Aid, Scholarships, Loans, Various Grants, and Client Services."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Grievance Redressal: ",
+                  "bold": true
+                },
+                {
+                  "text": "Providing Assistance for Grievance Redressal at Appropriate Judicial/Administrative Fora."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Coaching and Advocacy: ",
+                  "bold": true
+                },
+                {
+                  "text": "Coaching Centers for Various Entrance Examinations and Tests and Other Service-Related Competitive Examinations, which are not covered in the Coaching Scheme for Scheduled Castes and Other Backward Classes. Addressing Human Rights Issues, Environmental Issues, and Issues Related to the Protection of Consumers' Rights."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "NGO Capacity Building: ",
+                  "bold": true
+                },
+                {
+                  "text": "Training of Non-Governmental Organizations (NGOs) in Accounts, Management, and Application Procedures, etc."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Related Activities: ",
+                  "bold": true
+                },
+                {
+                  "text": "All Such and Related Activities that are in Harmony with the Objectives Listed Above."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Accountancy Support: ",
+                  "bold": true
+                },
+                {
+                  "text": "Accountancy for Maintenance of Accounts in MGNREGA and More."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "process": [
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "text": "Step 1: Application Preparation",
+                "bold": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "The organization shall submit the application in the prescribed format (Application-cum-Monitoring Form) following the procedure and guidelines provided by the Ministry."
+              }
+            ]
+          },
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "text": "Step 2: Submission Timing",
+                "bold": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Applications, for both ongoing and new cases, should be submitted by the organization to the Social Welfare Department or the department responsible for Scheduled Castes matters in the State/UT, preferably in the first quarter of the relevant financial year."
+              }
+            ]
+          },
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "text": "Step 3: State Committee Review",
+                "bold": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "The State Government (State Social Welfare Department or the department dealing with Scheduled Caste matters) will verify the organization's genuineness and the project at the field level. Proposals are then presented before the multidisciplinary \"State Grant-in-aid Committee\" (State Committee)."
+              }
+            ]
+          },
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "text": "Step 4: Recommendations to the Ministry",
+                "bold": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "The State Committee forwards its recommendations to the Ministry of Social Justice and Empowerment by 30th April. The State Committee must provide reasons for recommending or rejecting the proposals."
+              }
+            ]
+          },
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "text": "Step 5: Inspection Report",
+                "bold": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "If proposals or recommendations from the State Governments/UTs are not received within a reasonable period, the Ministry may obtain an inspection report from the National Scheduled Caste Finance Development Corporation (NSCFDC)/National Safai Karmachari Finance Development Corporation (NSKFDC)/Ambedkar Chairs under Dr. Ambedkar Foundation nearby or by deputing a suitable officer from the ministry for inspection."
+              }
+            ]
+          },
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "text": "Step 6: Ministry's Acceptance",
+                "bold": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "No application will be accepted by the Ministry of Social Justice and Empowerment directly. All applications must be recommended by the State Committee or following the prescribed procedure."
+              }
+            ]
+          },
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "text": "Step 7: Document Submission",
+                "bold": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "State Government/UT Administrations, while forwarding the recommendations of the State Committee and the proposals of VOs/NGOs, should submit the required documents as per the provided checklist and Time Schedule, which is uploaded on the website."
+              }
+            ]
+          },
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "text": "Step 8: Evaluation of Proposals",
+                "bold": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "The Ministry evaluates the received proposals and recommendations."
+              }
+            ]
+          },
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "text": "Step 9: Fund Transfer Procedures",
+                "bold": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "The Ministry follows procedures to issue a sanction order, transfer funds, and handle internal fund transfers."
+              }
+            ]
+          },
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "text": "Step 10: Fund Allocation",
+                "bold": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Funds are allocated based on the accepted proposals and recommendations to facilitate projects related to Scheduled Castes."
+              }
+            ]
+          }
+        ],
+        "process_md": "> **Step 1: Application Preparation**\n\nThe organization shall submit the application in the prescribed format (Application-cum-Monitoring Form) following the procedure and guidelines provided by the Ministry.\n> **Step 2: Submission Timing**\n\nApplications, for both ongoing and new cases, should be submitted by the organization to the Social Welfare Department or the department responsible for Scheduled Castes matters in the State/UT, preferably in the first quarter of the relevant financial year.\n> **Step 3: State Committee Review**\n\nThe State Government (State Social Welfare Department or the department dealing with Scheduled Caste matters) will verify the organization&#39;s genuineness and the project at the field level. Proposals are then presented before the multidisciplinary &quot;State Grant-in-aid Committee&quot; (State Committee).\n> **Step 4: Recommendations to the Ministry**\n\nThe State Committee forwards its recommendations to the Ministry of Social Justice and Empowerment by 30th April. The State Committee must provide reasons for recommending or rejecting the proposals.\n> **Step 5: Inspection Report**\n\nIf proposals or recommendations from the State Governments/UTs are not received within a reasonable period, the Ministry may obtain an inspection report from the National Scheduled Caste Finance Development Corporation (NSCFDC)/National Safai Karmachari Finance Development Corporation (NSKFDC)/Ambedkar Chairs under Dr. Ambedkar Foundation nearby or by deputing a suitable officer from the ministry for inspection.\n> **Step 6: Ministry&#39;s Acceptance**\n\nNo application will be accepted by the Ministry of Social Justice and Empowerment directly. All applications must be recommended by the State Committee or following the prescribed procedure.\n> **Step 7: Document Submission**\n\nState Government/UT Administrations, while forwarding the recommendations of the State Committee and the proposals of VOs/NGOs, should submit the required documents as per the provided checklist and Time Schedule, which is uploaded on the website.\n> **Step 8: Evaluation of Proposals**\n\nThe Ministry evaluates the received proposals and recommendations.\n> **Step 9: Fund Transfer Procedures**\n\nThe Ministry follows procedures to issue a sanction order, transfer funds, and handle internal fund transfers.\n> **Step 10: Fund Allocation**\n\nFunds are allocated based on the accepted proposals and recommendations to facilitate projects related to Scheduled Castes.\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "> **For the Organization**\n\n\n1. Registered under the Societies Registration Act, 1860 (XXI of 1860) or any relevant State/Union Territory Act.\n1. A public trust registered under the applicable law.\n1. A charitable company licensed under Section 25 of the Companies Act, 1956.\n1. Indian Red Cross Society or its branches.\n1. Any other public body or institution with legal status.\n1. Voluntary organizations should have been registered for at least three years when applying for a grant under the scheme. However, the Secretary, of the Ministry of Social Justice and Empowerment can waive this requirement in exceptional cases with written reasons.\n1. The number of Scheduled Caste beneficiaries should be at least 60% in the case of voluntary organizations.\n1. Other organizations or training institutions approved by the Secretary, Ministry of Social Justice and Empowerment.\n\n\n- Non-Governmental Organizations (NGOs)/Voluntary Organizations (VOs) must have maintained and operated a bank account in the name of NGOs/VOs for the last three years.\n- It should not operate for profit for any individual or body of individuals, except in the case of training institutions of repute.\n\n<br>\n\n> **The following criteria would be kept in view while selecting the new VOs/NGOs**\n\n\n1. Experience of at least two years in the relevant field.\n1. Aptitude and experience in welfare work pertaining to weaker sections.\n1. The location of the Residential and non-residential School Projects proposed by the organization should be in:\n\n\n- Educationally Backward Blocks (EBBs); or\n- Service Deficient blocks with 40% SC population; or\n- Backward Districts identified by the Planning Commission or\n- Integrated Action Plan Districts identified by the Govt. of India.\n\n         1. The Educationally Backward Blocks (EBBs).\n         2. Financial viability of the organization to contribute its share and ability to continue the work for limited periods in the absence of assistance from the Ministry.\n         3. Good reputation and credentials.\n         4. Capability to mobilize the community.\n         5. Networking with other institutions for optimum utilization of resources allocated and assets created.\n",
+      "eligibilityDescription": [
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "For the Organization",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Registered under the Societies Registration Act, 1860 (XXI of 1860) or any relevant State/Union Territory Act."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "A public trust registered under the applicable law."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "A charitable company licensed under Section 25 of the Companies Act, 1956."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Indian Red Cross Society or its branches."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Any other public body or institution with legal status."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Voluntary organizations should have been registered for at least three years when applying for a grant under the scheme. However, the Secretary, of the Ministry of Social Justice and Empowerment can waive this requirement in exceptional cases with written reasons."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The number of Scheduled Caste beneficiaries should be at least 60% in the case of voluntary organizations."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Other organizations or training institutions approved by the Secretary, Ministry of Social Justice and Empowerment."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Non-Governmental Organizations (NGOs)/Voluntary Organizations (VOs) must have maintained and operated a bank account in the name of NGOs/VOs for the last three years."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "It should not operate for profit for any individual or body of individuals, except in the case of training institutions of repute."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        },
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "The following criteria would be kept in view while selecting the new VOs/NGOs",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Experience of at least two years in the relevant field."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Aptitude and experience in welfare work pertaining to weaker sections."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The location of the Residential and non-residential School Projects proposed by the organization should be in:"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Educationally Backward Blocks (EBBs); or"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Service Deficient blocks with 40% SC population; or"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Backward Districts identified by the Planning Commission or"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Integrated Action Plan Districts identified by the Govt. of India."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "         1. The Educationally Backward Blocks (EBBs)."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "         2. Financial viability of the organization to contribute its share and ability to continue the work for limited periods in the absence of assistance from the Ministry."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "         3. Good reputation and credentials."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "         4. Capability to mobilize the community."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "         5. Networking with other institutions for optimum utilization of resources allocated and assets created."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "sgiavoowsc"
+}

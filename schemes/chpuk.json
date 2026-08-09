@@ -1,0 +1,178 @@
+{
+  "_id": "6900b7e9b29d98f5f7bc512c",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Child",
+        "Newborn",
+        "Childcare",
+        "Health"
+      ],
+      "schemeName": "Bal Swasthya Karyakram - Uttarakhand",
+      "schemeShortTitle": "CHPUK",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "64f57d10ffb93104c7006c97",
+          "label": "Women and Child"
+        },
+        {
+          "value": "628ce7a2d6d1a3bde46852b1",
+          "label": "Health & Wellness"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Childcare",
+          "label": "Childcare"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "schemeFor": "Individual",
+      "state": {
+        "value": 5,
+        "label": "Uttarakhand"
+      },
+      "nodalDepartmentName": {
+        "value": 50000093,
+        "label": "Medical Health And Family Welfare Department"
+      }
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines (Page No. 130)",
+          "url": "https://uk.gov.in/department92/library_file/file-04-12-2023-06-02-23.pdf"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The “Bal Swasthya Karyakram” is an initiative under the National Health Mission (NHM) implemented by the Department of Medical Health and Family Welfare, Government of Uttarakhand. This initiative aims to ensure the survival, healthy growth, and overall well-being of children aged 0–5 years by providing accessible, comprehensive, and quality healthcare services across the state.\n<br>\n\n",
+      "benefits_md": "Under this Programme, medical services are provided to children aged 0–5 years through Special Newborn Care Units (SNCUs), Newborn Stabilization Units (NBSUs), and Nutritional Rehabilitation Centres (NRCs). Additionally, ASHA workers, Anganwadi workers, and ANMs distribute Vitamin A and IFA syrup free of cost to children aged 0–5 years.\n<br>\n\n",
+      "briefDescription": "This initiative aims to ensure the survival, healthy growth, and overall well-being of children aged 0–5 years by providing accessible, comprehensive and quality healthcare services.",
+      "exclusions_md": "",
+      "detailedDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "The “Bal Swasthya Karyakram” is an initiative under the National Health Mission (NHM) implemented by the Department of Medical Health and Family Welfare, Government of Uttarakhand. This initiative aims to ensure the survival, healthy growth, and overall well-being of children aged 0–5 years by providing accessible, comprehensive, and quality healthcare services across the state."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 2,
+        "value": "in-kind",
+        "label": "In Kind"
+      },
+      "benefits": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "Under this Programme, medical services are provided to children aged 0–5 years through Special Newborn Care Units (SNCUs), Newborn Stabilization Units (NBSUs), and Nutritional Rehabilitation Centres (NRCs). Additionally, ASHA workers, Anganwadi workers, and ANMs distribute Vitamin A and IFA syrup free of cost to children aged 0–5 years."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "process": [
+          {
+            "type": "align_justify",
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "SNCU, NBSU, and NBCC are operational in the district hospitals, sub-district hospitals, primary health centers, and community health centers across the state. Services can be availed by registering at these centers."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          }
+        ],
+        "process_md": "SNCU, NBSU, and NBCC are operational in the district hospitals, sub-district hospitals, primary health centers, and community health centers across the state. Services can be availed by registering at these centers.\n<br>\n\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n   1. The beneficiary must be a child between 0 and 5 years of age from Uttarakhand.\n\n<br>\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "ol_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The beneficiary must be a child between 0 and 5 years of age from Uttarakhand."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "chpuk"
+}

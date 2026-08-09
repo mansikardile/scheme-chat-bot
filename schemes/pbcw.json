@@ -1,0 +1,531 @@
+{
+  "_id": "6616729cff0ffe4f91d36dbc",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Labour",
+        "Pension",
+        "Construction Workers",
+        "Financial Assistance",
+        "Senior Citizens"
+      ],
+      "schemeName": "Pension Benefit for the Construction Workers",
+      "schemeShortTitle": "PBCW",
+      "implementingAgency": "Delhi Building And Other Construction Workers Welfare Board",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce87cd6d1a3bde4685312",
+          "label": "Social welfare & Empowerment"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Pension",
+          "label": "Pension"
+        },
+        {
+          "value": "Financial assistance",
+          "label": "Financial assistance"
+        },
+        {
+          "value": "Citizen empowerment",
+          "label": "Citizen empowerment"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "state": {
+        "value": 7,
+        "label": "Delhi"
+      },
+      "nodalDepartmentName": {
+        "value": 70000029,
+        "label": "Labour Department"
+      },
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://bocw.delhi.gov.in/bocw/welfare-schemes"
+        },
+        {
+          "title": "Latest Guidelines",
+          "url": "https://dbocwwb.delhi.gov.in/welfareschemedboc.html"
+        },
+        {
+          "title": "User Manual (Registration)",
+          "url": "https://drive.google.com/file/d/1nCDEvvl3saMAKnR__iYZNbc_MnuwQ0E1/view"
+        },
+        {
+          "title": "FAQs",
+          "url": "https://dbocwwb.delhi.gov.in/faqdboc.html#faqm2q1"
+        },
+        {
+          "title": "Amendments",
+          "url": "https://bocw.delhi.gov.in/sites/default/files/bocw/circulars-orders/delhi_gazette_notification_of_delhi_building_and_other_construction_workers_welfare_board_on_04-03-2016.pdf"
+        },
+        {
+          "title": "Application Status",
+          "url": "https://dbocwwb.delhi.gov.in/"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The &amp;quot;Pension Benefit for the Construction Workers&amp;quot; by the Delhi Building and Other Construction Workers Welfare Board, Labour Department, Delhi, is a welfare scheme for the registered workers of the board. Through this scheme, the registered workers of the board are provided with a pension benefit of ₹3000/- per month after completion of 60 years. An increase of ₹300/- shall be given for every completed year of membership beyond 5 years.\n&lt;br&gt;\n\n",
+      "benefits_md": "\n- ₹3000/- per month after completion of 60 years. \n- An increase of ₹300/- shall be given for every completed year of membership beyond five years.\n\n",
+      "exclusions_md": "",
+      "briefDescription": "The \"Pension Benefit for the Construction Workers\" by the Delhi Building and Other Construction Workers Welfare Board, Labour Department, Delhi, is a welfare scheme for the registered workers of the board with a pension benefit of ₹ 3000/- per month after completion of 60 years.\n",
+      "detailedDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "The \"Pension Benefit for the Construction Workers\" by the Delhi Building and Other Construction Workers Welfare Board, Labour Department, Delhi, is a welfare scheme for the registered workers of the board. Through this scheme, the registered workers of the board are provided with a pension benefit of ₹3000/- per month after completion of 60 years. An increase of ₹300/- shall be given for every completed year of membership beyond 5 years."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": ""
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "₹3000/- per month after completion of 60 years. "
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "An increase of ₹300/- shall be given for every completed year of membership beyond five years."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": ""
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "exclusions": [
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Online",
+        "process": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Registration",
+                "bold": true,
+                "underline": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 1: ",
+                "bold": true
+              },
+              {
+                "text": "Visit the DBoCWWB "
+              },
+              {
+                "type": "link",
+                "link": "https://dbocwwb.delhi.gov.in/cwapp/MyLoginPage",
+                "children": [
+                  {
+                    "text": "website "
+                  }
+                ]
+              },
+              {
+                "text": "and click “Register Now”."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2:",
+                "bold": true
+              },
+              {
+                "text": " Enter the following mandatory details: Adhaar Card Number, Name as on Aadhar Card, Mobile Number, Date of Birth (as on Aadhar Card), Gender, etc. Create a password and confirm it. Click “Register”. You will be redirected to the registration page."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 3:",
+                "bold": true
+              },
+              {
+                "text": " On the registration page, fill in the mandatory details (Father Name, Mother Name, Photograph, Applicant’s Video, etc) and upload the mandatory documents in the specified filetype and filesize. Click “Save & Next”."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 4:",
+                "bold": true
+              },
+              {
+                "text": " On the next page, enter the mandatory details regarding your work/workplace (Previous/Current Employer Details, Proof of 90 Days Employment, etc) and upload the mandatory documents in the specified filetype and filesize. Click “Save & Next”."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 5:",
+                "bold": true
+              },
+              {
+                "text": " Click on “Add Family Members” to avail the benefits of various schemes."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 6:",
+                "bold": true
+              },
+              {
+                "text": " In the next window, add your Bank Account details."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 7:",
+                "bold": true
+              },
+              {
+                "text": " In the next window, upload your Aadhaar Card, Address Proof, Birth Proof, Employment Proof, Bank Account details etc."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 8:",
+                "bold": true
+              },
+              {
+                "text": " In the next window, the \"Affidavit of the Applicant\" will be displayed. Verify all the details, and click on the checkbox."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 9:",
+                "bold": true
+              },
+              {
+                "text": " Proceed for the online registration fee of ₹25/- through a Debit Card/ Internet Banking/ UPI."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 10:",
+                "bold": true
+              },
+              {
+                "text": " Enter the OTP received on your registered mobile number to apply. Note down the Application Number for future reference. Download the acknowledgement receipt."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Track Your Application",
+                "bold": true,
+                "underline": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Visit the "
+              },
+              {
+                "type": "link",
+                "link": "https://dbocwwb.delhi.gov.in/",
+                "children": [
+                  {
+                    "text": "homepage "
+                  }
+                ]
+              },
+              {
+                "text": "of the website regularly and click on \"Track Your Application\" to check the status of your application."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Application",
+                "bold": true,
+                "underline": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 1:",
+                "bold": true
+              },
+              {
+                "text": " Visit the DBoCWWB "
+              },
+              {
+                "type": "link",
+                "link": "https://dbocwwb.delhi.gov.in/",
+                "children": [
+                  {
+                    "text": "website "
+                  }
+                ]
+              },
+              {
+                "text": "and click “Apply for Scheme”."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2:",
+                "bold": true
+              },
+              {
+                "text": " Log in through Aadhaar Number/ Registration Card/ OTP."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 3:",
+                "bold": true
+              },
+              {
+                "text": " Apply for the “Pension Benefit” scheme."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "text": "Helpline Number (24x1) : 011-41236600",
+                "bold": true
+              }
+            ]
+          },
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "text": "DBOCWWB Department",
+                "bold": true
+              }
+            ]
+          },
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "text": "Number (office hours: 9:30AM - 6:00PM) : 011-23813846",
+                "bold": true
+              }
+            ]
+          }
+        ],
+        "process_md": "**Registration**\n**Step 1:** Visit the DBoCWWB [website ](https://dbocwwb.delhi.gov.in/cwapp/MyLoginPage)and click “Register Now”.\n**Step 2:** Enter the following mandatory details: Adhaar Card Number, Name as on Aadhar Card, Mobile Number, Date of Birth (as on Aadhar Card), Gender, etc. Create a password and confirm it. Click “Register”. You will be redirected to the registration page.\n**Step 3:** On the registration page, fill in the mandatory details (Father Name, Mother Name, Photograph, Applicant’s Video, etc) and upload the mandatory documents in the specified filetype and filesize. Click “Save &amp; Next”.\n**Step 4:** On the next page, enter the mandatory details regarding your work/workplace (Previous/Current Employer Details, Proof of 90 Days Employment, etc) and upload the mandatory documents in the specified filetype and filesize. Click “Save &amp; Next”.\n**Step 5:** Click on “Add Family Members” to avail the benefits of various schemes.\n**Step 6:** In the next window, add your Bank Account details.\n**Step 7:** In the next window, upload your Aadhaar Card, Address Proof, Birth Proof, Employment Proof, Bank Account details etc.\n**Step 8:** In the next window, the &quot;Affidavit of the Applicant&quot; will be displayed. Verify all the details, and click on the checkbox.\n**Step 9:** Proceed for the online registration fee of ₹25/- through a Debit Card/ Internet Banking/ UPI.\n**Step 10:** Enter the OTP received on your registered mobile number to apply. Note down the Application Number for future reference. Download the acknowledgement receipt.\n**Track Your Application**\nVisit the [homepage ](https://dbocwwb.delhi.gov.in/)of the website regularly and click on &quot;Track Your Application&quot; to check the status of your application.\n**Application**\n**Step 1:** Visit the DBoCWWB [website ](https://dbocwwb.delhi.gov.in/)and click “Apply for Scheme”.\n**Step 2:** Log in through Aadhaar Number/ Registration Card/ OTP.\n**Step 3:** Apply for the “Pension Benefit” scheme.\n<br>\n\n> **Helpline Number (24x1) : 011-41236600**\n\n> **DBOCWWB Department**\n\n> **Number (office hours: 9:30AM - 6:00PM) : 011-23813846**\n\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "**For Registration**\n\n- The applicant should be a resident of Delhi.\n- The applicant should be a Building/Construction Worker.\n- The applicant should be between 18 and 60 years.\n- The applicant should have served the Board for at least 90 days in a given year.\n\n**For Application**\n\n- The applicant should be working as a building worker for not less than one year.\n- The applicant should have completed 60 years of age.\n\n<br>\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "For Registration",
+              "bold": true,
+              "underline": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should be a resident of Delhi."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should be a Building/Construction Worker."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should be between 18 and 60 years."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should have served the Board for at least 90 days in a given year."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "For Application",
+              "underline": true,
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should be working as a building worker for not less than one year."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should have completed 60 years of age."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "pbcw"
+}

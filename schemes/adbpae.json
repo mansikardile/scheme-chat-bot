@@ -1,0 +1,468 @@
+{
+  "_id": "67faab977dc6b8a0ad166831",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "MSME",
+        "ECommerce",
+        "Financial Assistance",
+        "Digitization Of Business",
+        "MSME Policy"
+      ],
+      "schemeName": "Assistance for Digitization of Business Processes and Adoption of eCommerce",
+      "schemeShortTitle": "ADBPAE",
+      "implementingAgency": "District Industries And Commerce Centre",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce733d6d1a3bde4685278",
+          "label": "Business & Entrepreneurship"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Sales of goods, services & data protection",
+          "label": "Sales of goods, services & data protection"
+        },
+        {
+          "value": "Technology upgradation",
+          "label": "Technology upgradation"
+        },
+        {
+          "value": "Machine & skill up-Gradation",
+          "label": "Machine & skill up-Gradation"
+        }
+      ],
+      "schemeOpenDate": "2024-12-04",
+      "targetBeneficiaries": [
+        {
+          "value": "business-entity",
+          "label": "Business Entity"
+        }
+      ],
+      "schemeFor": "Infra",
+      "state": {
+        "value": 8,
+        "label": "Rajasthan"
+      },
+      "nodalDepartmentName": {
+        "value": 8000019,
+        "label": "Industry Department"
+      }
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://istart.rajasthan.gov.in/public/Policies/2024/rajasthan-msme-policy-2024.pdf"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The scheme &amp;quot;Assistance for Digitization of Business Processes and Adoption of eCommerce&amp;quot; was introduced under the Rajasthan MSME Policy 2024 by the Department of Industries and Commerce, Government of Rajasthan, aims to promote digital transformation and enhance the eCommerce capabilities of MSMEs in the state. This scheme will remain in force until 31st March 2029.\n***Objective***\nMSMEs are provided financial assistance for adopting software, equipment for digitization, and for registering on eCommerce platforms. \n***Scheme Implementation***\nThis scheme component will be implemented through the concerned DICC under the aegis of Department of Industries &amp;amp; Commerce. Office of the Commissioner, Industries &amp;amp; Commerce will be the nodal agency for the implementation and supervision of the scheme at the state level.\n",
+      "benefits_md": "**Financial Reimbursement for Digitization Equipment:**\n\n  - MSMEs are eligible for a one-time reimbursement of 75% of the cost incurred for purchasing software or equipment used in digitization of business process (such as POS systems, barcode scanners machine, inventory management software, etc.).\n  - Maximum Limit: ₹50,000/- per MSME.\n\n**Financial Reimbursement for eCommerce Platform Fee:**\n\n- Reimbursement of 75% of the total fee (excluding shipping fees) charged by eCommerce platform.\n- Maximum Limit: ₹50,000/- per MSME.\n\n**Note:** Assistance would only be eligible for one eCommerce platform per MSME.\n",
+      "briefDescription": "The scheme offers MSMEs up to 75% reimbursement (max ₹50,000) for software/equipment costs for digitization, plus 75% of e-commerce platform fees (excl. shipping), also up to ₹50,000. Reimbursement is allowed for one e-commerce platform per MSME only.",
+      "exclusions_md": "<br>\n\n",
+      "detailedDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "The scheme \"Assistance for Digitization of Business Processes and Adoption of eCommerce\" was introduced under the Rajasthan MSME Policy 2024 by the Department of Industries and Commerce, Government of Rajasthan, aims to promote digital transformation and enhance the eCommerce capabilities of MSMEs in the state. This scheme will remain in force until 31st March 2029."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Objective",
+              "bold": true,
+              "italic": true,
+              "underline": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "MSMEs are provided financial assistance for adopting software, equipment for digitization, and for registering on eCommerce platforms. "
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Scheme Implementation",
+              "underline": true,
+              "italic": true,
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "This scheme component will be implemented through the concerned DICC under the aegis of Department of Industries & Commerce. Office of the Commissioner, Industries & Commerce will be the nodal agency for the implementation and supervision of the scheme at the state level."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Financial Reimbursement for Digitization Equipment:",
+              "bold": true,
+              "underline": true
+            }
+          ]
+        },
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "ul_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "MSMEs are eligible for a one-time reimbursement of 75% of the cost incurred for purchasing software or equipment used in digitization of business process (such as POS systems, barcode scanners machine, inventory management software, etc.)."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Maximum Limit: ₹50,000/- per MSME."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Financial Reimbursement for eCommerce Platform Fee:",
+              "bold": true,
+              "underline": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Reimbursement of 75% of the total fee (excluding shipping fees) charged by eCommerce platform."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Maximum Limit: ₹50,000/- per MSME."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Note:",
+              "bold": true
+            },
+            {
+              "text": " Assistance would only be eligible for one eCommerce platform per MSME."
+            }
+          ]
+        }
+      ],
+      "exclusions": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "process": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "bold": true,
+                "text": "Application Process:",
+                "italic": true
+              }
+            ]
+          },
+          {
+            "type": "align_justify",
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "bold": true,
+                    "text": "Step 1: "
+                  },
+                  {
+                    "text": "The interested applicant downloads the application form "
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://jankalyanfile.rajasthan.gov.in//Content/UploadFolder/OrderEntry/ICOM/2025/Guidelines/O_030325_26f50adb-f7b4-4eb5-b94d-1e5e45451a85.pdf",
+                    "children": [
+                      {
+                        "text": "(Annexure 6.1)"
+                      }
+                    ]
+                  },
+                  {
+                    "text": " from the official website. "
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 2:",
+                    "bold": true
+                  },
+                  {
+                    "text": " In the application form, fill in all the mandatory fields, and attach copies of all the mandatory documents (self-attest, if required)."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 3:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Submit the duly filled and signed application form along with the documents to the respective General Manager, District Industries & Commerce Centre (DICC)."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Post Application Process:",
+                    "bold": true,
+                    "italic": true
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 1:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Application will be evaluated by the GM, DICC and presented before the District Level Task Force Committee (DLTFC)."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 2:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Upon approval, an official approval letter will be issued by GM, DICC."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 3:",
+                    "bold": true
+                  },
+                  {
+                    "text": " The approved amount will be disbursed to the authorized bank account of the enterprise."
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "process_md": "***Application Process:***\n**Step 1:** The interested applicant downloads the application form [(Annexure 6.1)](https://jankalyanfile.rajasthan.gov.in//Content/UploadFolder/OrderEntry/ICOM/2025/Guidelines/O_030325_26f50adb-f7b4-4eb5-b94d-1e5e45451a85.pdf) from the official website. \n**Step 2:** In the application form, fill in all the mandatory fields, and attach copies of all the mandatory documents (self-attest, if required).\n**Step 3:** Submit the duly filled and signed application form along with the documents to the respective General Manager, District Industries &amp;amp; Commerce Centre (DICC).\n***Post Application Process:***\n**Step 1:** Application will be evaluated by the GM, DICC and presented before the District Level Task Force Committee (DLTFC).\n**Step 2:** Upon approval, an official approval letter will be issued by GM, DICC.\n**Step 3:** The approved amount will be disbursed to the authorized bank account of the enterprise.\n"
+      },
+      {
+        "mode": "Online - via CSC",
+        "process": [
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "text": "Mode of Online Application: e-Mitra",
+                "bold": true
+              }
+            ]
+          },
+          {
+            "type": "ul_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "The applicant can submit the online application by visiting the nearest "
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://emitra.rajasthan.gov.in/emitra/home",
+                    "children": [
+                      {
+                        "text": "e-Mitra"
+                      }
+                    ]
+                  },
+                  {
+                    "text": " center or by using their own e-Mitra account."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ul_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "The application is free of cost."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          }
+        ],
+        "process_md": "> **Mode of Online Application: e-Mitra**\n\n\n- The applicant can submit the online application by visiting the nearest [e-Mitra](https://emitra.rajasthan.gov.in/emitra/home) center or by using their own e-Mitra account.\n\n- The application is free of cost.\n\n<br>\n\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n   1. The enterprise should be a Micro, Small, or Medium Enterprise (MSME) in production.\n   1. The enterprise should be located in Rajasthan.\n   1. The applicant should possess a valid Udyam Registration Certificate at the time of application.\n   1. The applicant should have incurred expenses on digitization (software/equipment) after notification of Rajasthan MSME Policy 2024.\n   1. The applicant should have registered on an eCommerce platform after the notification of Rajasthan MSME Policy 2024.\n   1. MSME enterprise will only be eligible for benefits once for each component.\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "ol_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The enterprise should be a Micro, Small, or Medium Enterprise (MSME) in production."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The enterprise should be located in Rajasthan."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant should possess a valid Udyam Registration Certificate at the time of application."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant should have incurred expenses on digitization (software/equipment) after notification of Rajasthan MSME Policy 2024."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant should have registered on an eCommerce platform after the notification of Rajasthan MSME Policy 2024."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "MSME enterprise will only be eligible for benefits once for each component."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "adbpae"
+}

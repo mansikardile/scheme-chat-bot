@@ -1,0 +1,343 @@
+{
+  "_id": "65abddeaebb318a5b5305044",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Widow",
+        "Pension",
+        "Construction Worker",
+        "Labour"
+      ],
+      "schemeName": "Widow Pension (CBOCWWB)",
+      "schemeShortTitle": "WP(CBOCWWB)",
+      "implementingAgency": "Chandigarh Building And Other Construction Workers Welfare Board",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce87cd6d1a3bde4685312",
+          "label": "Social welfare & Empowerment"
+        },
+        {
+          "value": "64f57d10ffb93104c7006c97",
+          "label": "Women and Child"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Pension",
+          "label": "Pension"
+        },
+        {
+          "value": "Citizen empowerment",
+          "label": "Citizen empowerment"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "state": {
+        "value": 4,
+        "label": "Chandigarh"
+      },
+      "nodalDepartmentName": {
+        "value": 4000019,
+        "label": "Labour Department"
+      },
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Official Website",
+          "url": "http://labour.chd.gov.in/PublicPages/widow-pension.aspx"
+        },
+        {
+          "title": "Application Portal",
+          "url": "https://serviceonline.gov.in/serviceLinkHome.html?serviceToken=H2qU46F5a8&message=Successfully+logged+out&OWASP_CSRFTOKEN=FG8Q-N9Y9-L6GR-9YL1-RX8I-7E5P-RHHN-9DZK"
+        },
+        {
+          "title": "User Manual",
+          "url": "http://labour.chd.gov.in/pdf/LWB.pdf"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The scheme “Widow Pension” was started by the Chandigarh Building and Other Construction Workers Welfare Board (CBOCWWB), Labour Department, Chandigarh. Under this scheme, financial assistance in the form of a monthly pension shall be given to the widows of male registered construction workers of the Board.\n",
+      "benefits_md": "Financial assistance of ₹1000/- per month in the form of pension shall be given to the widows of male registered construction workers of the Board.\n",
+      "briefDescription": "Under this scheme, financial assistance in the form of a monthly pension shall be given to the widows of male registered construction workers of the Board.",
+      "exclusions_md": "",
+      "detailedDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "The scheme “Widow Pension” was started by the Chandigarh Building and Other Construction Workers Welfare Board (CBOCWWB), Labour Department, Chandigarh. Under this scheme, financial assistance in the form of a monthly pension shall be given to the widows of male registered construction workers of the Board."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "Financial assistance of ₹1000/- per month in the form of pension shall be given to the widows of male registered construction workers of the Board."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Online",
+        "process": [
+          {
+            "type": "align_justify",
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 01: Applicants need to visit the official website of Labour Department Chandigarh: "
+                  },
+                  {
+                    "type": "link",
+                    "link": "http://labour.chd.gov.in/",
+                    "children": [
+                      {
+                        "text": "http://labour.chd.gov.in/"
+                      }
+                    ]
+                  },
+                  {
+                    "text": ""
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 02: On the home page, select the scheme ‘WIDOW PENSION’ under the Grant of Welfare Schemes to the workers of Chandigarh Labour Welfare Board."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 03: Read details of the scheme and on the bottom of the page, click on ‘"
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://serviceonline.gov.in/serviceLinkHome.html?serviceToken=H2qU46F5a8&newLink=N&%3Ccsrf:token%20uri=%27serviceLinkHome.html%27/%3E",
+                    "children": [
+                      {
+                        "text": "Click here to Apply/Register"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "’. (The applicant may also read the user manual by clicking on the ‘"
+                  },
+                  {
+                    "type": "link",
+                    "link": "http://labour.chd.gov.in/pdf/LWB.pdf",
+                    "children": [
+                      {
+                        "text": "Click here for User Manual"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "’.)"
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 04: If the applicant not register, click on ‘register yourself’. A ‘ServicePlus’ window/page will open and fill in all the details to register."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 05: Now, to apply for the scheme, click on ‘Apply for Service’ and use ‘ServicePlus’ credentials to Login i.e. ‘User ID’ & ‘Password’."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 06: After successful Login, the applicant will be redirected automatically to the online application page by clicking on the ‘Apply for Service’ tab. "
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 07: In the application form, fill in Applicant's Personal Details, select the scheme (Widow Pension) & Work Place Details. After furnishing all the mandatory details click on ‘Self-Declaration’ and fill in additional details."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 08: Enter the verification code/Captcha and click on the ‘Submit’ button."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 09: Preview all the filled details and click on ‘Attach Annexure’."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 10: Upload all the mandatory documents and click on ‘Save Annexure’."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 11: After verifying all the details, click on the ‘Submit’ button."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 12: Take a printout of the generated ‘Acknowledgement Receipt’ for future reference."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 13: To track the application status, the applicant can visit the official website of the Labour Department and login through their ‘User ID’ & ‘Password’."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 14: Click on ‘"
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://serviceonline.gov.in/serviceLinkHome.html?serviceToken=H2qU46F5a8&newLink=N&%3Ccsrf:token%20uri=%27serviceLinkHome.html%27/%3E",
+                    "children": [
+                      {
+                        "text": "Track Application Status"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "’ and fill in all the details. Now click on ‘Get Data’ to know the status of your application."
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "process_md": "Step 01: Applicants need to visit the official website of Labour Department Chandigarh: [http://labour.chd.gov.in/](http://labour.chd.gov.in/)\nStep 02: On the home page, select the scheme ‘WIDOW PENSION’ under the Grant of Welfare Schemes to the workers of Chandigarh Labour Welfare Board.\nStep 03: Read details of the scheme and on the bottom of the page, click on ‘[Click here to Apply/Register](https://serviceonline.gov.in/serviceLinkHome.html?serviceToken=H2qU46F5a8&amp;newLink=N&amp;%3Ccsrf:token%20uri=%27serviceLinkHome.html%27/%3E)’. (The applicant may also read the user manual by clicking on the ‘[Click here for User Manual](http://labour.chd.gov.in/pdf/LWB.pdf)’.)\nStep 04: If the applicant not register, click on ‘register yourself’. A ‘ServicePlus’ window/page will open and fill in all the details to register.\nStep 05: Now, to apply for the scheme, click on ‘Apply for Service’ and use ‘ServicePlus’ credentials to Login i.e. ‘User ID’ &amp;amp; ‘Password’.\nStep 06: After successful Login, the applicant will be redirected automatically to the online application page by clicking on the ‘Apply for Service’ tab. \nStep 07: In the application form, fill in Applicant&amp;#39;s Personal Details, select the scheme (Widow Pension) &amp;amp; Work Place Details. After furnishing all the mandatory details click on ‘Self-Declaration’ and fill in additional details.\nStep 08: Enter the verification code/Captcha and click on the ‘Submit’ button.\nStep 09: Preview all the filled details and click on ‘Attach Annexure’.\nStep 10: Upload all the mandatory documents and click on ‘Save Annexure’.\nStep 11: After verifying all the details, click on the ‘Submit’ button.\nStep 12: Take a printout of the generated ‘Acknowledgement Receipt’ for future reference.\nStep 13: To track the application status, the applicant can visit the official website of the Labour Department and login through their ‘User ID’ &amp;amp; ‘Password’.\nStep 14: Click on ‘[Track Application Status](https://serviceonline.gov.in/serviceLinkHome.html?serviceToken=H2qU46F5a8&amp;newLink=N&amp;%3Ccsrf:token%20uri=%27serviceLinkHome.html%27/%3E)’ and fill in all the details. Now click on ‘Get Data’ to know the status of your application.\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n   1. The deceased worker should have been working at the establishment, registered under the Punjab Labour Welfare Fund Act, 1965 and his contributions to the labour welfare fund should have been regularly received by the board.\n   1. The financial assistance will be given on the production of the death certificate issued by the competent authority along with self-declaration for not withdrawing pension from any other sources/office/factory.\n   1. The financial assistance will not be given to those beneficiaries who are covered under EPF.\n   1. The widow of a male construction worker would be eligible to avail the benefit of this scheme only if the male construction worker was a member of the Board for at least the last six months.\n   1. The widow should apply for the benefit of this scheme within one year.\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "ol_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The deceased worker should have been working at the establishment, registered under the Punjab Labour Welfare Fund Act, 1965 and his contributions to the labour welfare fund should have been regularly received by the board."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The financial assistance will be given on the production of the death certificate issued by the competent authority along with self-declaration for not withdrawing pension from any other sources/office/factory."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The financial assistance will not be given to those beneficiaries who are covered under EPF."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The widow of a male construction worker would be eligible to avail the benefit of this scheme only if the male construction worker was a member of the Board for at least the last six months."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The widow should apply for the benefit of this scheme within one year."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "wpcbocwwb"
+}

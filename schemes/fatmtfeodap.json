@@ -1,0 +1,178 @@
+{
+  "_id": "660fa607d7abbe47ee1f5a16",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Financial Assistance",
+        "Death",
+        "Disability",
+        "Funeral"
+      ],
+      "schemeName": "Financial Assistance to Meet the Funeral Expenses of Differently Abled Person",
+      "schemeShortTitle": "FATMTFEODAP",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce87cd6d1a3bde4685312",
+          "label": "Social welfare & Empowerment"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Financial assistance",
+          "label": "Financial assistance"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "state": {
+        "value": 33,
+        "label": "Tamil Nadu"
+      },
+      "nodalDepartmentName": {
+        "value": 3333363,
+        "label": "Welfare of Differently Abled Persons Department"
+      },
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Citizen's Charter (2022)",
+          "url": "https://cms.tn.gov.in/sites/default/files/documents/wda_e_cc_2022_23.pdf"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The scheme &quot;Financial Assistance to Meet the Funeral Expenses of Differently Abled Person&quot; was launched by the Department for the Welfare of Differently Abled Persons, Government of Tamil Nadu. In this scheme, financial assistance of ₹2,000/- is provided to the legal heir of the deceased differently abled person, to meet the expenses in connection with the funeral.\n",
+      "benefits_md": "Financial assistance of ₹2,000/- is paid to the legal heir of the deceased.\n",
+      "briefDescription": "The scheme 'Financial Assistance to Meet the Funeral Expenses of Differently Abled Person' was launched by the Department for the Welfare of Differently Abled Persons. In this scheme, financial assistance of ₹2,000/- is provided to meet the expenses in connection with funeral, in the event of the...",
+      "exclusions_md": "",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The scheme \"Financial Assistance to Meet the Funeral Expenses of Differently Abled Person\" was launched by the Department for the Welfare of Differently Abled Persons, Government of Tamil Nadu. In this scheme, financial assistance of ₹2,000/- is provided to the legal heir of the deceased differently abled person, to meet the expenses in connection with the funeral."
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Financial assistance of ₹2,000/- is paid to the legal heir of the deceased."
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "process": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 1: ",
+                "bold": true
+              },
+              {
+                "text": "The interested applicant should visit (during office hours) the District Differently Abled Welfare Officer and request a hard copy of the prescribed format of the application form from the staff exclusively entrusted to issue and collect filled-in applications."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2:",
+                "bold": true
+              },
+              {
+                "text": " In the application form, fill in all the mandatory fields, and attach copies of all the mandatory documents (self-attest, if required)."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 3:",
+                "bold": true
+              },
+              {
+                "text": " Submit the duly filled and signed application form along with the documents to the District Differently Abled Welfare Officer."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 4:",
+                "bold": true
+              },
+              {
+                "text": " Request a receipt or acknowledgement from the District Differently Abled Welfare Officer to whom the application has been submitted. Ensure that the receipt contains essential details such as the date and time of submission, and a unique identification number (if applicable)."
+              }
+            ]
+          }
+        ],
+        "process_md": "**Step 1:** The interested applicant should visit (during office hours) the District Differently Abled Welfare Officer and request a hard copy of the prescribed format of the application form from the staff exclusively entrusted to issue and collect filled-in applications.\n**Step 2:** In the application form, fill in all the mandatory fields, and attach copies of all the mandatory documents (self-attest, if required).\n**Step 3:** Submit the duly filled and signed application form along with the documents to the District Differently Abled Welfare Officer.\n**Step 4:** Request a receipt or acknowledgement from the District Differently Abled Welfare Officer to whom the application has been submitted. Ensure that the receipt contains essential details such as the date and time of submission, and a unique identification number (if applicable).\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n1. The applicant should be the legal heir of the differently abled person.\n1. The differently abled person should be deceased.\n1. The differently abled person should have been a registered member of the Welfare Board for the Differently Abled&quot;.\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should be the legal heir of the differently abled person."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The differently abled person should be deceased."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The differently abled person should have been a registered member of the Welfare Board for the Differently Abled\"."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "fatmtfeodap"
+}

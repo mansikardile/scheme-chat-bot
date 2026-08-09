@@ -1,0 +1,205 @@
+{
+  "_id": "68c2445f85a1cbc4007f05f1",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Educational Tour",
+        "Personality Development",
+        "Student",
+        "School"
+      ],
+      "schemeName": "Educational Travel Promotion Scheme",
+      "schemeShortTitle": "ETPS",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce76cd6d1a3bde4685292",
+          "label": "Education & Learning"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Education and training grants, fellowship, stipend",
+          "label": "Education and training grants, fellowship, stipend"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "schemeFor": "Individual",
+      "state": {
+        "value": 24,
+        "label": "Gujarat"
+      },
+      "nodalDepartmentName": {
+        "value": 2444444,
+        "label": "Education Department"
+      }
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines (Scheme No. 166)",
+          "url": "https://mariyojana.gujarat.gov.in/Schemeatoz.aspx"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The scheme &amp;quot;Educational Travel Promotion Scheme&amp;quot; by the Department of Education, Government of Gujarat, aims to promote the overall personality development of students, enhance their observation skills, and satisfy their curiosity to learn new things by supporting educational tours within the state. It provides financial assistance of ₹500/- per student per year to government secondary and higher secondary schools (including RMSA and Model/Model Day schools) to enable students to study with pleasure.\n<br>\n\n",
+      "benefits_md": "\n  - **Financial Assistance:** ₹500/- per student per year is allocated to the school for organizing educational tours within the state.\n<br>\n\n",
+      "briefDescription": "The \"Educational Travel Promotion Scheme\" by the Department of Education, aims to promote personality development, observation skills, and curiosity among students through funding educational tours.",
+      "exclusions_md": "<br>\n\n",
+      "detailedDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "The scheme \"Educational Travel Promotion Scheme\" by the Department of Education, Government of Gujarat, aims to promote the overall personality development of students, enhance their observation skills, and satisfy their curiosity to learn new things by supporting educational tours within the state. It provides financial assistance of ₹500/- per student per year to government secondary and higher secondary schools (including RMSA and Model/Model Day schools) to enable students to study with pleasure."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "ul_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Financial Assistance:",
+                      "bold": true
+                    },
+                    {
+                      "text": " ₹500/- per student per year is allocated to the school for organizing educational tours within the state."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ],
+      "exclusions": null
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "process": [
+          {
+            "type": "align_justify",
+            "children": [
+              {
+                "type": "ul_list",
+                "children": [
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "text": "The applicant school should submit an application as per the prescribed checklist with resolutions related to the plan and five high-resolution photographs related to the educational tour/project."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          }
+        ],
+        "process_md": "\n  - The applicant school should submit an application as per the prescribed checklist with resolutions related to the plan and five high-resolution photographs related to the educational tour/project.\n\n<br>\n\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n  - The applicant must be a student.\n  - The applicant must be enrolled in a government secondary and higher secondary school (including RMSA, Model/Model Day) of the state.\n\n<br>\n\n<br>\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "ul_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant must be a student."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant must be enrolled in a government secondary and higher secondary school (including RMSA, Model/Model Day) of the state."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "etps"
+}

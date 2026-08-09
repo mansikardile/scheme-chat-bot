@@ -1,0 +1,818 @@
+{
+  "_id": "645dc43b7556e20740a46703",
+  "en": {
+    "basicDetails": {
+      "schemeOpenDate": null,
+      "schemeCloseDate": null,
+      "state": {
+        "value": 27,
+        "label": "Maharashtra"
+      },
+      "nodalMinistryName": null,
+      "nodalDepartmentName": {
+        "value": 27111139,
+        "label": "Social Justice and Special Assistance Department"
+      },
+      "otherMinistryName": null,
+      "otherDepartmentNames": null,
+      "targetBeneficiaries": [
+        {
+          "value": "family",
+          "label": "Family"
+        },
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Financial assistance",
+          "label": "Financial assistance"
+        },
+        {
+          "value": "Citizen empowerment",
+          "label": "Citizen empowerment"
+        }
+      ],
+      "dbtScheme": null,
+      "implementingAgency": "Collector's Office / Tahsildar Sanjay Gandhi Yojana / Talathi Office",
+      "tags": [
+        "Financial Asisstance",
+        "Widow",
+        "Transgender",
+        "Person With Disability",
+        "Orphan",
+        "Below Poverty Line",
+        "Destitute"
+      ],
+      "schemeName": "Sanjay Gandhi Niradhar Grant Scheme",
+      "schemeShortTitle": "SGNGS",
+      "level": {
+        "value": "state",
+        "label": "State"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce87cd6d1a3bde4685312",
+          "label": "Social welfare & Empowerment"
+        }
+      ],
+      "schemeFor": "Family"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://sjsa.maharashtra.gov.in/mr/schemes-page?scheme_nature=37"
+        },
+        {
+          "title": "Guidelines (Marathi)",
+          "url": "https://static.s3waas.gov.in/s3db85e2590b6109813dafa101ceb2faeb/uploads/2018/03/2018030785.pdf"
+        },
+        {
+          "title": "Mumbai Suburban",
+          "url": "https://mumbaisuburban.gov.in/scheme/sanjay-gandhi-niradhar-pension-scheme/#:~:text=To%20provide%20financial%20assistance%20to,outraged%20women%2C%20Transgender%2C%20etc."
+        },
+        {
+          "title": "Application Form",
+          "url": "https://cdn.s3waas.gov.in/s304025959b191f8f9de3f924f0940515f/uploads/2018/04/2018040628-1.pdf"
+        },
+        {
+          "title": "Contact Us",
+          "url": "https://aaplesarkar.mahaonline.gov.in/en/CommonForm/ContactUs"
+        },
+        {
+          "title": "Photo Upload Manual",
+          "url": "https://aaplesarkar.mahaonline.gov.in/pdf/Photoupload.pdf"
+        },
+        {
+          "title": "Seva Kendras",
+          "url": "https://aaplesarkar.mahaonline.gov.in/en/CommonForm/SewaKendraDetails"
+        }
+      ],
+      "schemeImageUrl": "",
+      "briefDescription": "The \"Sanjay Gandhi Niradhar Grant Scheme\" is a scheme by the Dept. of Social Justice & Special Assistance, Govt. of Maharashtra. Financial assistance of ₹600/- per month is given if there is only one beneficiary in the eligible family, and ₹900/- per month if there is one beneficiary in a family.",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The \"Sanjay Gandhi Niradhar Grant Scheme\" is a scheme by the Department of Social Justice & Special Assistance, Govt. of Maharashtra. In this scheme, financial assistance of ₹600/- per month is given if there is only one beneficiary in the eligible family, and ₹900/- per month if there is more than one beneficiary in a family. In order to be eligible for this scheme, the name should be in the list of BPL families or the annual income of the family should be less than or equal to ₹ 21,000/-. Only citizens who are permanent residents of the state of Maharashtra are eligible to apply for this scheme. This scheme is 100% funded by the Govt. of Maharashtra."
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Financial assistance of ₹ 600/- per month, if there is one beneficiary in the eligible family."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Financial assistance of ₹ 900/- per month, if there is more than one beneficiary in the eligible family."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "detailedDescription_md": "The &quot;Sanjay Gandhi Niradhar Grant Scheme&quot; is a scheme by the Department of Social Justice &amp; Special Assistance, Govt. of Maharashtra. In this scheme, financial assistance of ₹600/- per month is given if there is only one beneficiary in the eligible family, and ₹900/- per month if there is more than one beneficiary in a family. In order to be eligible for this scheme, the name should be in the list of BPL families or the annual income of the family should be less than or equal to ₹ 21,000/-. Only citizens who are permanent residents of the state of Maharashtra are eligible to apply for this scheme. This scheme is 100% funded by the Govt. of Maharashtra.\n"
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "url": "https://cdn.s3waas.gov.in/s317e62166fc8586dfa4d1bc0e1742c08b/uploads/2018/03/2018031988.pdf",
+        "process": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 1: ",
+                "bold": true
+              },
+              {
+                "text": "Visit the Collector's Office / Tahsildar Sanjay Gandhi Yojana / Talathi Office, and request a hard copy of the "
+              },
+              {
+                "type": "link",
+                "link": "https://cdn.s3waas.gov.in/s317e62166fc8586dfa4d1bc0e1742c08b/uploads/2018/03/2018031988.pdf",
+                "children": [
+                  {
+                    "text": "format "
+                  }
+                ]
+              },
+              {
+                "text": "of the application form for the scheme from the concerned authority."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2: ",
+                "bold": true
+              },
+              {
+                "text": "In the application form, fill in all the mandatory fields, paste the passport-sized photograph (signed across), and attach all the (self-attested) mandatory documents."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 3: ",
+                "bold": true
+              },
+              {
+                "text": "Submit the duly filled and signed application form along with the documents to the Collector's Office / Tahsildar Sanjay Gandhi Yojana / Talathi Office."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 4: ",
+                "bold": true
+              },
+              {
+                "text": "Acquire the receipt/acknowledgment of the successful submission of the application form."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "mode": "Online",
+        "url": "https://aaplesarkar.mahaonline.gov.in/",
+        "process": [
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "text": ""
+              },
+              {
+                "type": "link",
+                "link": "https://aaplesarkar.mahaonline.gov.in/pdf/UM_AS_Reg.pdf",
+                "children": [
+                  {
+                    "text": "Registration:",
+                    "bold": true
+                  }
+                ]
+              },
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 1: ",
+                "bold": true
+              },
+              {
+                "text": "Visit the "
+              },
+              {
+                "type": "link",
+                "link": "https://aaplesarkar.mahaonline.gov.in/",
+                "children": [
+                  {
+                    "text": "Official Portal"
+                  }
+                ]
+              },
+              {
+                "text": " of Aaple Sarkar (Maha DBT). On the right pane (green), click \"New User? Register Here\". You will be directed to the "
+              },
+              {
+                "type": "link",
+                "link": "https://aaplesarkar.mahaonline.gov.in/en/Registration/Register",
+                "children": [
+                  {
+                    "text": "Registration Page"
+                  }
+                ]
+              },
+              {
+                "text": "."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2: ",
+                "bold": true
+              },
+              {
+                "text": "Verify your Email ID and Mobile Number using OTP and then create a Unique Username and Password. (You will also find the link to the "
+              },
+              {
+                "type": "link",
+                "link": "https://aaplesarkar.mahaonline.gov.in/pdf/UM_AS_Reg.pdf",
+                "children": [
+                  {
+                    "text": "Registration Manual"
+                  }
+                ]
+              },
+              {
+                "text": " on the top right of the page.)"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "In the "
+              },
+              {
+                "text": "\"Applicant Detail\"",
+                "bold": true
+              },
+              {
+                "text": " section, fill in the following mandatory fields: Salutation, Full Name(English), Full Name(Marathi), Father's Salutation, Father's Name (English), Father's Name(Marathi), Date of Birth, Age, Gender, Occupation."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "In the "
+              },
+              {
+                "text": "\"Applicant's Address\"",
+                "bold": true
+              },
+              {
+                "text": " section, fill in the following mandatory fields: Address (English), Address (Marathi), Street (English), Street (Marathi), Section (English), Section (Marathi), Building (English), Building (Marathi), Landmark (English), Landmark (Marathi), District, Taluka, Village, Pincode"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "In the "
+              },
+              {
+                "text": "\"Mobile No. & Username Verification\"",
+                "bold": true
+              },
+              {
+                "text": " section, fill in the following mandatory fields: 10-digit Mobile Number (to be verified via OTP), PAN No, User Name, Email ID (to be verified via OTP), Password, and Confirm Password. "
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "In the "
+              },
+              {
+                "text": "\"",
+                "bold": true
+              },
+              {
+                "type": "link",
+                "link": "https://aaplesarkar.mahaonline.gov.in/pdf/Photoupload.pdf",
+                "children": [
+                  {
+                    "bold": true,
+                    "text": "Upload your Photograph"
+                  }
+                ]
+              },
+              {
+                "bold": true,
+                "text": "\""
+              },
+              {
+                "text": " section, upload your passport-sized photograph following the instructions given below:"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "1. The file size should fall between 5 KB to 20 KB."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "2. The format should be JPEG."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "3. The width should be 160 pixels."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "4. The height should fall between 200 to 212 pixels."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "In the "
+              },
+              {
+                "text": "\"Proof Of Identity\"",
+                "bold": true
+              },
+              {
+                "text": " section, upload ANY ONE of the following documents: PAN Card, Voter ID Card (POI), Passport (POI), Aadhaar Card (POI), Driving License (POI), Government / Semi-Government ID, Proof MNREGA Job Card, RSBY Card."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "The format should be JPEG/ PDF, and the file size should be between 75 KB to 256 KB."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "In the "
+              },
+              {
+                "text": "\"Proof Of Address\"",
+                "bold": true
+              },
+              {
+                "text": " section, upload ANY ONE of the following documents: Ration Card Passport (POA), Aadhaar Card (POA), Driving License (POA), Voter ID Card (POA), Extracts of 7/12 and 8 A, Property Tax Receipt, Property Agreement Copy, Water Bill, Electricity Bill, Telephone Bill, Rent Receipt."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "bold": true,
+                "text": "Step 3: "
+              },
+              {
+                "text": "At the bottom of the Registration Page, read the following declaration carefully:"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "\"I declare that the above-mentioned information submitted by me is true and correct to my knowledge and belief. I hereby agree to be liable for legal consequences for any information found incorrect or false under section 200 of the Indian penal code 1960.\""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Select the \"I accept\" checkbox, and click \"Register\". Your Login Credentials will be shared over your registered Email ID and Mobile Number."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "text": "Application:",
+                "bold": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 1: ",
+                "bold": true
+              },
+              {
+                "text": "Visit the "
+              },
+              {
+                "type": "link",
+                "link": "https://aaplesarkar.mahaonline.gov.in/",
+                "children": [
+                  {
+                    "text": "Official Portal"
+                  }
+                ]
+              },
+              {
+                "text": " of Aaple Sarkar (Maha DBT). On the right pane (green), click \"Already Registered? Login Here\". Provide your Username and Password. Fill in the Captcha Code, Select your District from the dropdown menu, and click \"Login\"."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2: ",
+                "bold": true
+              },
+              {
+                "text": "On the next page, in the left pane, click \"All Schemes\". From the dropdown menu, select the Department Name, and the name of the scheme that you seek to apply for. Click \"Apply\" against the concerned scheme."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 3: ",
+                "bold": true
+              },
+              {
+                "text": "Fill in all the mandatory fields and upload the mandatory documents, and click \"Apply\". A popup message acknowledging the successful submission of the application will be displayed, along with the Application ID:"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "\"Dear [Username], you have successfully applied for [Scheme Name]. Your Application ID is [Application ID here].\"",
+                "italic": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "The Application ID will also be shared over your registered Email ID and Mobile Number. Save this Application ID for future reference and for checking the application status."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 4: ",
+                "bold": true
+              },
+              {
+                "text": "You can also view the status of your applications (Under Scrutiny / Approved / Rejected / Fund Disbursed) using the \"My Applied Scheme History\" in the left pane."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n1. The applicant should be a citizen of India.\n1. The applicant should be a domicile / permanent resident of the state of Maharashtra.\n1. The name of the applicant should be in the list of Below Poverty Line (BPL) families OR the annual income of the family should be less than or equal to ₹ 21,000/-.\n1. The applicant should be one of the following:\n\n           a) Destitute Men and Women below 65 Years of Age.\n           b) Orphan Children.\n           c) All categories of Person with Disability (PwD).\n           d) Men and Women Who Are Unable to Sustain Themselves Due to Diseases Like Tuberculosis, Cancer, Aids, Leprosy.\n           e) Destitute Widows (including widows of farmers who committed suicide).\n           f) Women in the Divorce Process and Divorced but Not Alimony.\n           g) Women Who Have Been Tortured and Released From Prostitution.\n           h) Transgender.\n           i) Devadasi.\n           j) Unmarried Women Above 35 Years of Age.\n           k) The Wives of Prisoners Serving Sentences in Jail.\n           l) Those Suffering From Sickle Cell Disease.\n",
+      "eligibilityDescription": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should be a citizen of India."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should be a domicile / permanent resident of the state of Maharashtra."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The name of the applicant should be in the list of Below Poverty Line (BPL) families OR the annual income of the family should be less than or equal to ₹ 21,000/-."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should be one of the following:"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "           a) Destitute Men and Women below 65 Years of Age."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "           b) Orphan Children."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "           c) All categories of Person with Disability (PwD)."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "           d) Men and Women Who Are Unable to Sustain Themselves Due to Diseases Like Tuberculosis, Cancer, Aids, Leprosy."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "           e) Destitute Widows (including widows of farmers who committed suicide)."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "           f) Women in the Divorce Process and Divorced but Not Alimony."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "           g) Women Who Have Been Tortured and Released From Prostitution."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "           h) Transgender."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "           i) Devadasi."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "           j) Unmarried Women Above 35 Years of Age."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "           k) The Wives of Prisoners Serving Sentences in Jail."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "           l) Those Suffering From Sickle Cell Disease."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "sgngs"
+}

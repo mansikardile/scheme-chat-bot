@@ -1,0 +1,191 @@
+{
+  "_id": "69006ba7b29d98f5f7bad2af",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Mother",
+        "Newborn",
+        "Childcare",
+        "Pregnant Woman",
+        "Institutional Delivery"
+      ],
+      "schemeName": "Promotion of Institutional Delivery",
+      "schemeShortTitle": "PIDUK",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "64f57d10ffb93104c7006c97",
+          "label": "Women and Child"
+        },
+        {
+          "value": "628ce7a2d6d1a3bde46852b1",
+          "label": "Health & Wellness"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Childcare",
+          "label": "Childcare"
+        },
+        {
+          "value": "Pregnancy Care",
+          "label": "Pregnancy Care"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "schemeFor": "Individual",
+      "state": {
+        "value": 5,
+        "label": "Uttarakhand"
+      },
+      "nodalDepartmentName": {
+        "value": 50000093,
+        "label": "Medical Health And Family Welfare Department"
+      }
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines (Page No. 127)",
+          "url": "https://uk.gov.in/department92/library_file/file-04-12-2023-06-02-23.pdf"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The scheme “Promotion of Institutional Delivery” is implemented by the Department of Medical Health and Family Welfare, Government of Uttarakhand. The scheme aims to promote safe and institutional deliveries by providing free accommodation to pregnant women, especially from disaster-prone areas, near district hospitals.\n<br>\n\n",
+      "benefits_md": "In all districts, especially considering road blockages during disasters, arrangements are being made in coordination with the Health Department and the Women and Child Development Department to provide free accommodation for pregnant women from identified areas in the “One Stop Centre” (run by the Women Empowerment Department). These centres, operated as Birth Waiting Rooms near District Hospitals, allow women to stay up to 15 days before their expected delivery date, ensuring that in case of emergencies or disasters, they can be promptly admitted to the nearest hospital for a safe institutional delivery. A “One Stop Centre” has been established in every district.\n<br>\n\n",
+      "briefDescription": "The scheme aims to promote safe and institutional deliveries by providing free accommodation to pregnant women, especially from disaster-prone areas, near district hospitals.",
+      "exclusions_md": "",
+      "detailedDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "The scheme “Promotion of Institutional Delivery” is implemented by the Department of Medical Health and Family Welfare, Government of Uttarakhand. The scheme aims to promote safe and institutional deliveries by providing free accommodation to pregnant women, especially from disaster-prone areas, near district hospitals."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 2,
+        "value": "in-kind",
+        "label": "In Kind"
+      },
+      "benefits": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "In all districts, especially considering road blockages during disasters, arrangements are being made in coordination with the Health Department and the Women and Child Development Department to provide free accommodation for pregnant women from identified areas in the “One Stop Centre” (run by the Women Empowerment Department). These centres, operated as Birth Waiting Rooms near District Hospitals, allow women to stay up to 15 days before their expected delivery date, ensuring that in case of emergencies or disasters, they can be promptly admitted to the nearest hospital for a safe institutional delivery. A “One Stop Centre” has been established in every district."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "process": [
+          {
+            "type": "align_justify",
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "The facility can be availed by contacting the nearest ASHA worker, Anganwadi centre, or ANM."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          }
+        ],
+        "process_md": "The facility can be availed by contacting the nearest ASHA worker, Anganwadi centre, or ANM.\n<br>\n\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n   1. The beneficiary must be a resident of Uttarakhand.\n   1. The beneficiary must be a pregnant woman.\n\n<br>\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "ol_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The beneficiary must be a resident of Uttarakhand."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The beneficiary must be a pregnant woman."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "piduk"
+}

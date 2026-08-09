@@ -1,0 +1,957 @@
+{
+  "_id": "6902fe849ed7aa424236ffb4",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Compensation",
+        "Injury",
+        "Dependent",
+        "Rehabilitation",
+        "Medical"
+      ],
+      "schemeName": "Madhya Pradesh Crime Victim Compensation Scheme",
+      "schemeShortTitle": "MPCVCS",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce81ed6d1a3bde46852ea",
+          "label": "Public Safety,Law & Justice"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Emergency medical assistance",
+          "label": "Emergency medical assistance"
+        }
+      ],
+      "schemeOpenDate": "2015-03-31",
+      "targetBeneficiaries": [
+        {
+          "value": "family",
+          "label": "Family"
+        },
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "schemeFor": "Family",
+      "state": {
+        "value": 23,
+        "label": "Madhya Pradesh"
+      },
+      "nodalDepartmentName": {
+        "value": 2300056,
+        "label": "Home Department "
+      }
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://mphc.gov.in/PDF/web_pdf/JJC/Scheme/Madhya%20Pradesh%20Crime%20Victim%20Compensation%20Scheme,%202015.pdf"
+        },
+        {
+          "title": "Scheme Details",
+          "url": "https://cmhelpline.mp.gov.in/KnowYourEntitleDetail.aspx?status=ByVibhag&pointvalue=2&Schemeid=563"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The &quot;Madhya Pradesh Crime Victim Compensation Scheme&quot; was launched by the Home Department, Government of Madhya Pradesh. It provides financial compensation and rehabilitation to crime victims or their dependents based on loss, injury, and financial status. Compensation covers death, permanent disability, acid attacks, sexual crimes, and serious injuries, with amounts including interim relief, medical assistance, and special provisions for minors and serious trauma cases.\n<br>\n\n",
+      "benefits_md": "> **Compensation to victims for injury/loss:**\n\nS.No.Details of Loss or InjuryMaximum limit of CompensationMaximum limit of Compensation1.A. Loss of life (Death)Death of an earning memberMaximum upto ₹4,00,000Death of a non-earning memberMaximum upto ₹2,00,000B. Loss of FetusMaximum upto ₹50,000 and Free medical treatment in Government Hospitals2.In case of permanent disability being 100%Victim being the earning memberMaximum upto ₹3,00,000 (Free medical treatment in Government Hospital) Victim not being the earning memberMaximum upto ₹1,50,000 (Free medical treatment in Government Hospital) 3.In case of permanent disability being more than 40%Victim being the earning memberMaximum upto ₹2,00,000 (Free medical treatment in Government Hospital) Victim not being the earning memberMaximum upto ₹1,00,000 (Free medical treatment in Government Hospital) 4. A. Loss of fertility (due to other criminal incident except rape)Maximum upto ₹1,50,000 (free medical treatment in Government hospitals)B. Serious injury to vital part of body or surgeryVictim being the earning memberMaximum upto ₹50,000 (Free medical treatment in Government Hospital) Victim not being the earning memberMaximum upto ₹25,000 (Free medical treatment in Government Hospital) 5. A. Gang Rape  Maximum upto ₹3,00,000 and                         Free medical treatment in Government Hospital\nB. Sexual crime with minorsMaximum upto ₹2,00,000 and                         Free medical treatment in Government Hospital6.A. Acid attack leading to disfiguration of more than 40%Maximum upto ₹3,00,000 out of which ₹1,00,000 to be paid within 15 days of intimation date and balance amount Maximum ₹2,00,000 within 2 months and Free medical treatment in Government HospitalB. Acid attack leading to disfiguration of less than 40%Maximum upto ₹1,50,000 out of which ₹50,000 to be paid within 15 days of intimation date and balance amount within 2 months and free medical treatment in Government hospital<br>\n\n**Medical Treatment:** Free treatment in government hospitals for injuries covered under the scheme\n**Interim Relief:** Immediate first-aid or medical support can be provided as certified by police, magistrate, or competent medical officer\n**Mode of Disbursement:** Aadhaar-linked bank account\n**Frequency of Disbursement:** Lump-sum or in two installments\n**Special Cases:** Minor victims’ compensation deposited as fixed deposit, withdrawable only for education or medical needs\n<br>\n\n<br>\n\n",
+      "exclusions_md": "\n1. Cases covered under the Motor Vehicles Act, 1988 where compensation is awarded by Motor Accident Claims Tribunal\n1. Applicants responsible for causing the injury to themselves\n\n<br>\n\n<br>\n\n",
+      "briefDescription": "The scheme aims to provide financial compensation and rehabilitation to victims of crime or their dependents by offering monetary support, medical treatment, and rehabilitation based on their loss, injury, and financial status.",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The \"Madhya Pradesh Crime Victim Compensation Scheme\" was launched by the Home Department, Government of Madhya Pradesh. It provides financial compensation and rehabilitation to crime victims or their dependents based on loss, injury, and financial status. Compensation covers death, permanent disability, acid attacks, sexual crimes, and serious injuries, with amounts including interim relief, medical assistance, and special provisions for minors and serious trauma cases."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "Compensation to victims for injury/loss:",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "children": [
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "S.No."
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Details of Loss or Injury"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Maximum limit of Compensation"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Maximum limit of Compensation"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "1."
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "A. Loss of life (Death)"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Death of an earning member"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Maximum upto ₹4,00,000"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Death of a non-earning member"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Maximum upto ₹2,00,000"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "B. Loss of Fetus"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Maximum upto ₹50,000 and Free medical treatment in Government Hospitals"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "2."
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "In case of permanent disability being 100%"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Victim being the earning member"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Maximum upto ₹3,00,000 (Free medical treatment in Government Hospital) "
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Victim not being the earning member"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Maximum upto ₹1,50,000 (Free medical treatment in Government Hospital) "
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "children": [
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "3."
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "In case of permanent disability being more than 40%"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Victim being the earning member"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Maximum upto ₹2,00,000 (Free medical treatment in Government Hospital) "
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Victim not being the earning member"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Maximum upto ₹1,00,000 (Free medical treatment in Government Hospital) "
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "4. "
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "A. Loss of fertility (due to other criminal incident except rape)"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Maximum upto ₹1,50,000 (free medical treatment in Government hospitals)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ]
+                },
+                {
+                  "type": "table",
+                  "children": [
+                    {
+                      "type": "table_row",
+                      "children": [
+                        {
+                          "type": "table_cell",
+                          "children": [
+                            {
+                              "text": "B. Serious injury to vital part of body or surgery"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Victim being the earning member"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Maximum upto ₹50,000 (Free medical treatment in Government Hospital) "
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Victim not being the earning member"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Maximum upto ₹25,000 (Free medical treatment in Government Hospital) "
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "5. "
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "A. Gang Rape"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "  Maximum upto ₹3,00,000 and                         Free medical treatment in Government Hospital"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "children": [
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "B. Sexual crime with minors"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Maximum upto ₹2,00,000 and                         Free medical treatment in Government Hospital"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "6."
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "A. Acid attack leading to disfiguration of more than 40%"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Maximum upto ₹3,00,000 out of which ₹1,00,000 to be paid within 15 days of intimation date and balance amount Maximum ₹2,00,000 within 2 months and Free medical treatment in Government Hospital"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "B. Acid attack leading to disfiguration of less than 40%"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Maximum upto ₹1,50,000 out of which ₹50,000 to be paid within 15 days of intimation date and balance amount within 2 months and free medical treatment in Government hospital"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Medical Treatment:",
+              "bold": true,
+              "underline": true
+            },
+            {
+              "text": " Free treatment in government hospitals for injuries covered under the scheme"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Interim Relief:",
+              "bold": true,
+              "underline": true
+            },
+            {
+              "text": " Immediate first-aid or medical support can be provided as certified by police, magistrate, or competent medical officer"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Mode of Disbursement:",
+              "bold": true,
+              "underline": true
+            },
+            {
+              "text": " Aadhaar-linked bank account"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Frequency of Disbursement:",
+              "bold": true,
+              "underline": true
+            },
+            {
+              "text": " Lump-sum or in two installments"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Special Cases:",
+              "bold": true,
+              "underline": true
+            },
+            {
+              "text": " Minor victims’ compensation deposited as fixed deposit, withdrawable only for education or medical needs"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ],
+      "exclusions": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Cases covered under the Motor Vehicles Act, 1988 where compensation is awarded by Motor Accident Claims Tribunal"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Applicants responsible for causing the injury to themselves"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "process": [
+          {
+            "type": "ul_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Victim or dependent files an application with District Legal Services Authority (DLSA)."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "DLSA verifies claims, collects necessary documents, and may call for additional evidence."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Compensation is determined based on severity of loss, medical expenses, and rehabilitation needs within 60 days."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Interim relief or medical assistance may be provided immediately."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Approved compensation is disbursed through Aadhaar-linked bank accounts."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Appeals can be filed with the State Legal Services Authority within 90 days; second appeal to Government Home Department within 30 days."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          }
+        ],
+        "process_md": "\n- Victim or dependent files an application with District Legal Services Authority (DLSA).\n- DLSA verifies claims, collects necessary documents, and may call for additional evidence.\n- Compensation is determined based on severity of loss, medical expenses, and rehabilitation needs within 60 days.\n- Interim relief or medical assistance may be provided immediately.\n- Approved compensation is disbursed through Aadhaar-linked bank accounts.\n- Appeals can be filed with the State Legal Services Authority within 90 days; second appeal to Government Home Department within 30 days.\n\n<br>\n\n<br>\n\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n1. The applicant should be a victim of crime or a dependent of a victim who has suffered injury or loss due to criminal acts.\n1. The crime should have occurred within Madhya Pradesh. Victims outside the state but residing in Madhya Pradesh are eligible for interim relief.\n1. The applicant must report the crime without unreasonable delay.\n1. The applicant must cooperate with authorities in investigation and rehabilitation process.\n1. The annual income of the victim from all sources must not exceed ₹5,00,000. If it exceeds, compensation is limited to 50% of the prescribed amount.\n\n<br>\n\n<br>\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should be a victim of crime or a dependent of a victim who has suffered injury or loss due to criminal acts."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The crime should have occurred within Madhya Pradesh. Victims outside the state but residing in Madhya Pradesh are eligible for interim relief."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must report the crime without unreasonable delay."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must cooperate with authorities in investigation and rehabilitation process."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The annual income of the victim from all sources must not exceed ₹5,00,000. If it exceeds, compensation is limited to 50% of the prescribed amount."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "mpcvcs"
+}

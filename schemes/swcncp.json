@@ -1,0 +1,296 @@
+{
+  "_id": "64c74697b594314dec859183",
+  "en": {
+    "basicDetails": {
+      "schemeOpenDate": null,
+      "schemeCloseDate": null,
+      "state": {
+        "value": 30,
+        "label": "Goa"
+      },
+      "nodalMinistryName": null,
+      "nodalDepartmentName": {
+        "value": 30000053,
+        "label": "Women and Child Development Department"
+      },
+      "otherMinistryName": null,
+      "otherDepartmentNames": null,
+      "targetBeneficiaries": [
+        {
+          "value": "ngo",
+          "label": "NGO"
+        },
+        {
+          "value": "registered-societies",
+          "label": "Registered Societies"
+        },
+        {
+          "value": "trust",
+          "label": "Trust"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Shelter",
+          "label": "Shelter"
+        }
+      ],
+      "dbtScheme": null,
+      "implementingAgency": null,
+      "tags": [
+        "Shelter",
+        "Orphan",
+        "Children",
+        "Destitute",
+        "Protection"
+      ],
+      "schemeName": "Scheme For Welfare Of Children In Need Of Care And Protection",
+      "schemeShortTitle": "SWCNCP",
+      "level": {
+        "value": "state",
+        "label": "State"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce87cd6d1a3bde4685312",
+          "label": "Social welfare & Empowerment"
+        }
+      ],
+      "schemeFor": "Infra"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Citizen's Charter",
+          "url": "https://www.goa.gov.in/wp-content/uploads/2022/08/DWCD-Citizen-Charter-1.pdf"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "&quot;Scheme for Welfare of Children in Need of Care and Protection&quot; is a Social Welfare Scheme by the Directorate of Women &amp; Child Development, Govt. of Goa. The objective of this scheme is to assist the Voluntary Organizations that cater to the needs of destitute and orphans up to the age of 18 years. To apply, the Voluntary Organizations should approach the Directorate of Women &amp; Child Development, Panaji, Goa.\n",
+      "benefits_md": "> **Financial Assistance (Grants)**\n\n\n1. ₹ 400/- per child per month, if the children are housed on their own premises.\n1. ₹ 500/- per child per month, if the children are housed in rented premises.\n\n",
+      "exclusions_md": "<br>\n\n",
+      "briefDescription": "\"Scheme for Welfare of Children in Need of Care and Protection\" is a Social Welfare Scheme by the Directorate of Women & Child Development, Govt. of Goa. The objective of this scheme is to assist the Voluntary Organizations that cater to the needs of destitute and orphans up to the age of 18 years.",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "\"Scheme for Welfare of Children in Need of Care and Protection\" is a Social Welfare Scheme by the Directorate of Women & Child Development, Govt. of Goa. The objective of this scheme is to assist the Voluntary Organizations that cater to the needs of destitute and orphans up to the age of 18 years. To apply, the Voluntary Organizations should approach the Directorate of Women & Child Development, Panaji, Goa."
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "Financial Assistance (Grants)",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "₹ 400/- per child per month, if the children are housed on their own premises."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "₹ 500/- per child per month, if the children are housed in rented premises."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "exclusions": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "url": "",
+        "process": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 1: ",
+                "bold": true
+              },
+              {
+                "text": "Visit the Directorate of Women & Child Development, Panaji-Goa, and request a hard copy of the proforma of the application form for the scheme from the Concerned Authority."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2: ",
+                "bold": true
+              },
+              {
+                "text": "In the application form, fill in all the mandatory fields, paste the passport-sized photograph (signed across), and attach copies of all the mandatory documents (self-attest if required)."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 3: ",
+                "bold": true
+              },
+              {
+                "text": "Submit the duly filled and signed application form along with the documents to the Concerned Authority."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 4: ",
+                "bold": true
+              },
+              {
+                "text": "Acquire the receipt/acknowledgement of the successful submission of the application."
+              }
+            ]
+          }
+        ],
+        "process_md": "**Step 1:** Visit the Directorate of Women &amp; Child Development, Panaji-Goa, and request a hard copy of the proforma of the application form for the scheme from the Concerned Authority.\n**Step 2:** In the application form, fill in all the mandatory fields, paste the passport-sized photograph (signed across), and attach copies of all the mandatory documents (self-attest if required).\n**Step 3:** Submit the duly filled and signed application form along with the documents to the Concerned Authority.\n**Step 4:** Acquire the receipt/acknowledgement of the successful submission of the application.\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "> **For the Organization**\n\n\n1. The applicant should be a Voluntary Organization.\n1. The Organization should be Registered with the Government of Goa.\n\n<br>\n\n> **For the Children**\n\nThe Child should qualify for ANY ONE of the following conditions - \n\n1. The Child should not have either parents or near relatives.\n1. The Child should be from a single-parent family, deprived of adequate family care due to death, desertion, prolonged illness, or imprisonment of one of the parents.\n1. The income of the family of the Child is less than ₹ 500/- per month.\n\n<br>\n\n<br>\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "For the Organization",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should be a Voluntary Organization."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The Organization should be Registered with the Government of Goa."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        },
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "For the Children",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The Child should qualify for ANY ONE of the following conditions - "
+            }
+          ]
+        },
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The Child should not have either parents or near relatives."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The Child should be from a single-parent family, deprived of adequate family care due to death, desertion, prolonged illness, or imprisonment of one of the parents."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The income of the family of the Child is less than ₹ 500/- per month."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "swcncp"
+}

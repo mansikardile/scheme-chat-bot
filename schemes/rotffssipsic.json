@@ -1,0 +1,496 @@
+{
+  "_id": "67d85488622d293942a4eec6",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Student",
+        "Scheduled Caste",
+        "Scheduled Tribe",
+        "Other Backward Class",
+        "Education",
+        "SC",
+        "ST",
+        "OBC",
+        "School"
+      ],
+      "schemeName": "Reimbursement of Tution Fee for SC/ST/OBC/Min students in Public Schools in Class I to XII",
+      "schemeShortTitle": "ROTFFSSIPSIC",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce76cd6d1a3bde4685292",
+          "label": "Education & Learning"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Scholarships and student finance",
+          "label": "Scholarships and student finance"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "schemeFor": "Individual",
+      "state": {
+        "value": 7,
+        "label": "Delhi"
+      },
+      "nodalDepartmentName": {
+        "value": 70000026,
+        "label": "Welfare of SC/ST/OBC/Minorities Department"
+      }
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://www.edudel.nic.in/upload/upload_2023_24/2688_92_dt_25082023.pdf"
+        },
+        {
+          "title": "FAQ",
+          "url": "https://edistrict.delhigovt.nic.in/Downloads/Instruction/General_Faq.pdf"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The scheme &quot;Reimbursement of Tuition Fees for SC/ST/OBC Categories Students Studying in Class I to XII&quot; by the Department for the Welfare of SC/ST/OBC/Minorities, Government of NCT of Delhi aims to provide financial assistance by reimbursing tuition and other compulsory fees for eligible students from SC/ST/OBC categories studying in recognized public schools in Delhi. The scheme ensures that students with a family income below ₹3,00,000/- per annum receive reimbursement for tuition, lab, and library fees, subject to academic performance and attendance criteria. Eligible students must be enrolled in classes 1st to 12th in schools recognized by the Department of Education, Govt. of NCT of Delhi, or municipal local bodies of Delhi.\n",
+      "benefits_md": "**Reimbursement Amount:** Maximum reimbursement of ₹48,000/- or actual paid fees (whichever is less) covering tuition, lab, and library fees.\n**Conditions for Disbursement**\n\n- Student must score 50% and above marks in the preceding year.\n- Student must have at least 70% attendance in the preceding year.\n\n**Mode of Disbursement:** Direct transfer to the student’s bank account (joint account with parent/guardian allowed).\n",
+      "briefDescription": "The scheme aims to provide financial support by reimbursing tuition and compulsory fees for SC/ST/OBC students from low-income families (below ₹3,00,000/- per annum) studying in recognized schools in Delhi. Beneficiaries must meet academic and attendance criteria.",
+      "exclusions_md": "<br>\n\n",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The scheme \"Reimbursement of Tuition Fees for SC/ST/OBC Categories Students Studying in Class I to XII\" by the Department for the Welfare of SC/ST/OBC/Minorities, Government of NCT of Delhi aims to provide financial assistance by reimbursing tuition and other compulsory fees for eligible students from SC/ST/OBC categories studying in recognized public schools in Delhi. The scheme ensures that students with a family income below ₹3,00,000/- per annum receive reimbursement for tuition, lab, and library fees, subject to academic performance and attendance criteria. Eligible students must be enrolled in classes 1st to 12th in schools recognized by the Department of Education, Govt. of NCT of Delhi, or municipal local bodies of Delhi."
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 2,
+        "value": "in-kind",
+        "label": "In Kind"
+      },
+      "benefits": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Reimbursement Amount: ",
+              "bold": true,
+              "underline": true
+            },
+            {
+              "text": "Maximum reimbursement of ₹48,000/- or actual paid fees (whichever is less) covering tuition, lab, and library fees."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Conditions for Disbursement",
+              "bold": true,
+              "underline": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Student must score 50% and above marks in the preceding year."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Student must have at least 70% attendance in the preceding year."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Mode of Disbursement:",
+              "bold": true,
+              "underline": true
+            },
+            {
+              "text": " Direct transfer to the student’s bank account (joint account with parent/guardian allowed)."
+            }
+          ]
+        }
+      ],
+      "exclusions": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "process": [
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "text": "Registration",
+                "bold": true,
+                "underline": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 1:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " Visit the "
+              },
+              {
+                "type": "link",
+                "link": "https://edistrict.delhigovt.nic.in/",
+                "children": [
+                  {
+                    "text": "e-District Portal"
+                  }
+                ]
+              },
+              {
+                "text": " of the Govt. of NCT of Delhi."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " On the top right corner of the homepage, click “"
+              },
+              {
+                "type": "link",
+                "link": "https://edistrict.delhigovt.nic.in/Account/Login",
+                "children": [
+                  {
+                    "text": "Login/Register"
+                  }
+                ]
+              },
+              {
+                "text": "”, then click “"
+              },
+              {
+                "type": "link",
+                "link": "https://edistrict.delhigovt.nic.in/in/en/Account/Register.html",
+                "children": [
+                  {
+                    "text": "Register"
+                  }
+                ]
+              },
+              {
+                "text": "\". You will be taken to the \"Citizen Registration Form\". Carefully read the “Guidelines for Online Registration” provided at the bottom of the page."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 3:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " In the Citizen Registration Form, select \"Aadhaar Card\" as the Document Type, and provide the Aadhaar Number. Fill in the captcha code and click “Continue”. "
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 4:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " On the next page, fill in all the mandatory fields. If required, verify your Email ID and Mobile Number via OTP. Enter the Captcha code and click “Continue to Register”. You will receive your Login ID and Password on the Mobile Number/Email Address provided during the registration."
+              }
+            ]
+          },
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "text": "Application",
+                "bold": true,
+                "underline": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 1:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " Visit the "
+              },
+              {
+                "type": "link",
+                "link": "https://edistrict.delhigovt.nic.in/",
+                "children": [
+                  {
+                    "text": "e-District Portal"
+                  }
+                ]
+              },
+              {
+                "text": " of the Govt. of NCT of Delhi."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " On the top right corner of the homepage, click “"
+              },
+              {
+                "type": "link",
+                "link": "https://edistrict.delhigovt.nic.in/Account/Login",
+                "children": [
+                  {
+                    "text": "Login/Register"
+                  }
+                ]
+              },
+              {
+                "text": "”, you will be taken to the “Citizen Login Form”"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 3:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " Provide your Login ID and Password, enter the Captcha code and click “Login”."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 4:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " Go to the home page and click “Apply Service”. Navigate to the scheme that you intend to apply for. Click on the name of the scheme. You will be taken to the scheme's online application form."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 5:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " In the application form, fill in all the mandatory fields and upload all the mandatory documents in the specified format and size. Carefully review all the information provided and the documents uploaded. Make any necessary corrections. Acknowledge and agree to the terms and conditions and/or declaration (if any), then click \"Finish”. "
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 6:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " An OTP will be received on the registered mobile number. Provide the OTP and click “Submit”. An acknowledgement of successful submission shall be sent over Email/SMS/Both."
+              }
+            ]
+          },
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "text": "Track Application Status",
+                "bold": true,
+                "underline": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 1:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " Visit the \""
+              },
+              {
+                "type": "link",
+                "link": "https://edistrict.delhigovt.nic.in/Public/TrackApplication",
+                "children": [
+                  {
+                    "text": "Track Your Application"
+                  }
+                ]
+              },
+              {
+                "text": "\" page."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " Fill in all the mandatory fields. Enter the Captcha Code, and click \"Submit\"."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Your current application status will be displayed."
+              }
+            ]
+          }
+        ],
+        "process_md": "> **Registration**\n\n**Step 1:** Visit the [e-District Portal](https://edistrict.delhigovt.nic.in/) of the Govt. of NCT of Delhi.\n**Step 2:** On the top right corner of the homepage, click “[Login/Register](https://edistrict.delhigovt.nic.in/Account/Login)”, then click “[Register](https://edistrict.delhigovt.nic.in/in/en/Account/Register.html)&quot;. You will be taken to the &quot;Citizen Registration Form&quot;. Carefully read the “Guidelines for Online Registration” provided at the bottom of the page.\n**Step 3:** In the Citizen Registration Form, select &quot;Aadhaar Card&quot; as the Document Type, and provide the Aadhaar Number. Fill in the captcha code and click “Continue”. \n**Step 4:** On the next page, fill in all the mandatory fields. If required, verify your Email ID and Mobile Number via OTP. Enter the Captcha code and click “Continue to Register”. You will receive your Login ID and Password on the Mobile Number/Email Address provided during the registration.\n> **Application**\n\n**Step 1:** Visit the [e-District Portal](https://edistrict.delhigovt.nic.in/) of the Govt. of NCT of Delhi.\n**Step 2:** On the top right corner of the homepage, click “[Login/Register](https://edistrict.delhigovt.nic.in/Account/Login)”, you will be taken to the “Citizen Login Form”\n**Step 3:** Provide your Login ID and Password, enter the Captcha code and click “Login”.\n**Step 4:** Go to the home page and click “Apply Service”. Navigate to the scheme that you intend to apply for. Click on the name of the scheme. You will be taken to the scheme&#39;s online application form.\n**Step 5:** In the application form, fill in all the mandatory fields and upload all the mandatory documents in the specified format and size. Carefully review all the information provided and the documents uploaded. Make any necessary corrections. Acknowledge and agree to the terms and conditions and/or declaration (if any), then click &quot;Finish”. \n**Step 6:** An OTP will be received on the registered mobile number. Provide the OTP and click “Submit”. An acknowledgement of successful submission shall be sent over Email/SMS/Both.\n> **Track Application Status**\n\n**Step 1:** Visit the &quot;[Track Your Application](https://edistrict.delhigovt.nic.in/Public/TrackApplication)&quot; page.\n**Step 2:** Fill in all the mandatory fields. Enter the Captcha Code, and click &quot;Submit&quot;.\nYour current application status will be displayed.\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n1. The applicant should be a Student.\n1. The applicant should be studying in Class 1st to 12th.\n1. The applicant should be enrolled in a school recognized/affiliated with the Dept. of Education, GNCTD or Municipal Local Bodies of Delhi.\n1. The applicant should have scored 50% or above in the previous academic year.\n1. The applicant should have at least 80% attendance in the preceding year.\n1. The applicant should not be repeating the same class.\n1. The annual income of the family of the applicant should not exceed ₹2,00,000/-.\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should be a Student."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should be studying in Class 1st to 12th."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should be enrolled in a school recognized/affiliated with the Dept. of Education, GNCTD or Municipal Local Bodies of Delhi."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should have scored 50% or above in the previous academic year."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should have at least 80% attendance in the preceding year."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should not be repeating the same class."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The annual income of the family of the applicant should not exceed ₹2,00,000/-."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "rotffssipsic"
+}

@@ -1,0 +1,737 @@
+{
+  "_id": "6772e6e09b44dc3a5aaf2dc2",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Children",
+        "Birth",
+        "Death",
+        "Family"
+      ],
+      "schemeName": "Chief Minister Help Scheme",
+      "schemeShortTitle": "CMHS",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce87cd6d1a3bde4685312",
+          "label": "Social welfare & Empowerment"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Financial assistance",
+          "label": "Financial assistance"
+        }
+      ],
+      "schemeOpenDate": "2019-10-02",
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "state": {
+        "value": 23,
+        "label": "Madhya Pradesh"
+      },
+      "nodalDepartmentName": {
+        "value": 2300051,
+        "label": "Tribal Welfare and Scheduled Caste (SC) Department"
+      },
+      "schemeFor": "Family"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Scheme Details",
+          "url": "https://cmhelpline.mp.gov.in/KnowYourEntitleDetail.aspx?status=ByVibhag&pointvalue=2&Schemeid=604"
+        },
+        {
+          "title": "User Manual",
+          "url": "https://www.tribal.mp.gov.in/CMS/Uploaded%20Document/Schemes/UserManaual_Madad.pdf"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The scheme was launched on 02-10-2019, the Chief Minister Help Scheme under the Tribal Welfare and Scheduled Caste (SC) Department, Madhya Pradesh, provides food distribution and material aid to Scheduled Tribe families. Ration assistance is offered on the birth of a child or the death of a family member, with eligibility requiring that no family member is employed in government service.\n",
+      "benefits_md": "**On Birth of a Child:** 50 kg of wheat, rice, and cooking utensils.\n**On the Death of a Family Member:** \n\n- 1 quintal of rice for the following districts: Mandla, Dindori, Balaghat, Shahdol, Anuppur and Umaria.\n- 1 quintal of wheat for the following districts: Jhabua, Alirajpur, Barwani, Ratlam, Hoshangabad, Betul, Sidhi, Seoni, Chhindwara, Dhar, Khargone, Khandwa, Burhanpur, Sheopur.\n\n",
+      "briefDescription": "Launched on 02-10-2019, the Chief Minister Help Scheme under the Tribal Welfare and Scheduled Caste (SC) Department, Madhya Pradesh, provides food distribution and material aid to Scheduled Tribe beneficiaries whose family members are not in government service.",
+      "exclusions_md": "",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The scheme was launched on 02-10-2019, the Chief Minister Help Scheme under the Tribal Welfare and Scheduled Caste (SC) Department, Madhya Pradesh, provides food distribution and material aid to Scheduled Tribe families. Ration assistance is offered on the birth of a child or the death of a family member, with eligibility requiring that no family member is employed in government service."
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 2,
+        "value": "in-kind",
+        "label": "In Kind"
+      },
+      "benefits": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "On Birth of a Child:",
+              "bold": true
+            },
+            {
+              "text": " 50 kg of wheat, rice, and cooking utensils."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "On the Death of a Family Member: ",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "1 quintal of rice for the following districts: Mandla, Dindori, Balaghat, Shahdol, Anuppur and Umaria."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "1 quintal of wheat for the following districts: Jhabua, Alirajpur, Barwani, Ratlam, Hoshangabad, Betul, Sidhi, Seoni, Chhindwara, Dhar, Khargone, Khandwa, Burhanpur, Sheopur."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "process": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 1:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " The interested applicant should visit (during office hours) the Village Panchayat Secretary (Gram Panchayat Sacheev), provide all the required information to the staff. If required, provide copies of the mandatory documents (self-attest, if required)."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " The Village Panchayat Secretary (or the staff designated by the Village Panchayat Secretary) will apply online on behalf of the interested applicant."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "*Ensure that the application is submitted within the prescribed period, if any.",
+                "italic": true
+              }
+            ]
+          }
+        ],
+        "process_md": "**Step 1:** The interested applicant should visit (during office hours) the Village Panchayat Secretary (Gram Panchayat Sacheev), provide all the required information to the staff. If required, provide copies of the mandatory documents (self-attest, if required).\n**Step 2:** The Village Panchayat Secretary (or the staff designated by the Village Panchayat Secretary) will apply online on behalf of the interested applicant.\n_*Ensure that the application is submitted within the prescribed period, if any._\n"
+      },
+      {
+        "mode": "Online",
+        "process": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Once all the required information is received from the interest applicant, the Village Panchayat Secretary (or the staff designated by the Village Panchayat Secretary) is required to perform the following steps:",
+                "italic": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 1:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "bold": true,
+                "text": " Log In to the Samagra Portal"
+              }
+            ]
+          },
+          {
+            "type": "ul_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Open your web browser and go to the State Population Registration System portal here."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Click on the \"Login\" button at the top right corner of the page."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Enter your \"ग्राम पंचायत सचिव\" (Gram Panchayat Secretary) user ID and password, then click on the \"Login\" button."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "bold": true,
+                "text": " Birth Registration"
+              }
+            ]
+          },
+          {
+            "type": "ul_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Click on the \"Birth Registration\" link in the main menu."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Enter the family's Samagra ID in the provided field and press the \"Enter\" key."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Fill in the required information in the form that appears."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Check the box labeled \"मुख्यमंत्री मदद योजना का लाभ लेने हेतु\" (To avail the benefits of the Chief Minister's Assistance Scheme)."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Click on the \"Submit\" button to complete the registration."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "OR"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "bold": true,
+                "text": " Death Registration"
+              }
+            ]
+          },
+          {
+            "type": "ul_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Click on the \"Death Registration\" link in the main menu."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Enter the deceased member's Samagra ID in the provided field and press the \"Enter\" key."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "The details of the deceased member will be displayed on the screen."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Fill in the required information in the form that appears."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Check the box labeled \"मुख्यमंत्री मदद योजना का लाभ लेने हेतु\" (To avail the benefits of the Chief Minister's Assistance Scheme)."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Click on the \"Submit\" button to complete the registration."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 3:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "bold": true,
+                "text": " Correction in Caste Details"
+              }
+            ]
+          },
+          {
+            "type": "ul_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "If the caste is incorrectly recorded, click on the \"Caste Correction\" link in the main menu."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Select the correct caste from the dropdown menu."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Upload the caste certificate by clicking on the \"Choose File\" button and selecting the file from your computer."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Click on the \"Submit\" button to save the changes."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 4:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "bold": true,
+                "text": " Selection for \"मुख्यमंत्री मदद योजना\" Benefits"
+              }
+            ]
+          },
+          {
+            "type": "ul_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "During the birth or death registration process, check the box labeled \"मुख्यमंत्री मदद योजना का लाभ लेने हेतु\" (To avail the benefits of the Chief Minister's Assistance Scheme)."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Follow the displayed options related to the scheme."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 5:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "bold": true,
+                "text": " Issuance of Assistance Certificate"
+              }
+            ]
+          },
+          {
+            "type": "ul_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Click on the \"Generate Assistance Certificate\" button in the main menu."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "The certificate will be generated and displayed on the screen."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Print the certificate by clicking on the \"Print\" button."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "The Gram Panchayat Secretary will sign the printed certificate and hand it over to the concerned family."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "The family member can present this certificate at the \"उचित मूल्य की दुकान\" (Fair Price Shop) to receive grains."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 6:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "bold": true,
+                "text": " Reprint Assistance Certificate"
+              }
+            ]
+          },
+          {
+            "type": "ul_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Click on the \"Reprint Assistance Certificate\" link in the main menu."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Enter the family's Samagra ID in the provided field and press the \"Enter\" key."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "The certificate will be displayed on the screen."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Print the certificate by clicking on the \"Print\" button."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "The vendor at the \"उचित मूल्य की दुकान\" (Fair Price Shop) will click on the \"मदद योजना\" (Assistance Scheme) option on the POS machine."
+              }
+            ]
+          },
+          {
+            "type": "ul_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Enter the family's Samagra ID in the provided field and press the \"Enter\" key."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Select the family member from the displayed list."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Print the receipt by clicking on the \"Print\" button."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Finally, the intended beneficiary will receive the grains based on the printed receipt."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Contact for Assistance",
+                "bold": true,
+                "underline": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "For any issues, contact the departmental helpdesk at "
+              },
+              {
+                "text": "1800-2333-951",
+                "bold": true
+              },
+              {
+                "text": " or email "
+              },
+              {
+                "text": "helpdesk.tribal@mp.gov.in.",
+                "bold": true
+              }
+            ]
+          }
+        ],
+        "process_md": "_Once all the required information is received from the interest applicant, the Village Panchayat Secretary (or the staff designated by the Village Panchayat Secretary) is required to perform the following steps:_\n<br>\n\n**Step 1:** **Log In to the Samagra Portal**\n\n- Open your web browser and go to the State Population Registration System portal here.\n- Click on the &quot;Login&quot; button at the top right corner of the page.\n- Enter your &quot;ग्राम पंचायत सचिव&quot; (Gram Panchayat Secretary) user ID and password, then click on the &quot;Login&quot; button.\n\n<br>\n\n**Step 2:** **Birth Registration**\n\n- Click on the &quot;Birth Registration&quot; link in the main menu.\n- Enter the family&#39;s Samagra ID in the provided field and press the &quot;Enter&quot; key.\n- Fill in the required information in the form that appears.\n- Check the box labeled &quot;मुख्यमंत्री मदद योजना का लाभ लेने हेतु&quot; (To avail the benefits of the Chief Minister&#39;s Assistance Scheme).\n- Click on the &quot;Submit&quot; button to complete the registration.\n\nOR\n**Step 2:** **Death Registration**\n\n- Click on the &quot;Death Registration&quot; link in the main menu.\n- Enter the deceased member&#39;s Samagra ID in the provided field and press the &quot;Enter&quot; key.\n- The details of the deceased member will be displayed on the screen.\n- Fill in the required information in the form that appears.\n- Check the box labeled &quot;मुख्यमंत्री मदद योजना का लाभ लेने हेतु&quot; (To avail the benefits of the Chief Minister&#39;s Assistance Scheme).\n- Click on the &quot;Submit&quot; button to complete the registration.\n\n<br>\n\n**Step 3:** **Correction in Caste Details**\n\n- If the caste is incorrectly recorded, click on the &quot;Caste Correction&quot; link in the main menu.\n- Select the correct caste from the dropdown menu.\n- Upload the caste certificate by clicking on the &quot;Choose File&quot; button and selecting the file from your computer.\n- Click on the &quot;Submit&quot; button to save the changes.\n\n<br>\n\n**Step 4:** **Selection for &quot;मुख्यमंत्री मदद योजना&quot; Benefits**\n\n- During the birth or death registration process, check the box labeled &quot;मुख्यमंत्री मदद योजना का लाभ लेने हेतु&quot; (To avail the benefits of the Chief Minister&#39;s Assistance Scheme).\n- Follow the displayed options related to the scheme.\n\n<br>\n\n**Step 5:** **Issuance of Assistance Certificate**\n\n- Click on the &quot;Generate Assistance Certificate&quot; button in the main menu.\n- The certificate will be generated and displayed on the screen.\n- Print the certificate by clicking on the &quot;Print&quot; button.\n- The Gram Panchayat Secretary will sign the printed certificate and hand it over to the concerned family.\n- The family member can present this certificate at the &quot;उचित मूल्य की दुकान&quot; (Fair Price Shop) to receive grains.\n\n<br>\n\n**Step 6:** **Reprint Assistance Certificate**\n\n- Click on the &quot;Reprint Assistance Certificate&quot; link in the main menu.\n- Enter the family&#39;s Samagra ID in the provided field and press the &quot;Enter&quot; key.\n- The certificate will be displayed on the screen.\n- Print the certificate by clicking on the &quot;Print&quot; button.\n\n<br>\n\nThe vendor at the &quot;उचित मूल्य की दुकान&quot; (Fair Price Shop) will click on the &quot;मदद योजना&quot; (Assistance Scheme) option on the POS machine.\n\n- Enter the family&#39;s Samagra ID in the provided field and press the &quot;Enter&quot; key.\n- Select the family member from the displayed list.\n- Print the receipt by clicking on the &quot;Print&quot; button.\n\nFinally, the intended beneficiary will receive the grains based on the printed receipt.\n<br>\n\n**Contact for Assistance**\nFor any issues, contact the departmental helpdesk at **1800-2333-951** or email **helpdesk.tribal@mp.gov.in.**\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n1. The applicant should be from the Scheduled Tribe category.\n1. There should have either been a birth of a child OR the death of a member of the applicant&#39;s family.\n1. No member from the applicant&#39;s family should be employed in government service (Class 1/2/3) or a higher category post.\n1. In the case of the birth of a child in the applicant&#39;s family, the benefits can only be availed for the first or second child of a couple.\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should be from the Scheduled Tribe category."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "There should have either been a birth of a child OR the death of a member of the applicant's family."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "No member from the applicant's family should be employed in government service (Class 1/2/3) or a higher category post."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "In the case of the birth of a child in the applicant's family, the benefits can only be availed for the first or second child of a couple."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "cmhs"
+}

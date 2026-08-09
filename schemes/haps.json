@@ -1,0 +1,270 @@
+{
+  "_id": "64d4c078e733acc451ddc182",
+  "en": {
+    "basicDetails": {
+      "schemeOpenDate": null,
+      "schemeCloseDate": null,
+      "state": {
+        "value": 34,
+        "label": "Puducherry"
+      },
+      "nodalMinistryName": null,
+      "nodalDepartmentName": {
+        "value": 34000044,
+        "label": "Women and Child Development Department, Puducherry"
+      },
+      "otherMinistryName": null,
+      "otherDepartmentNames": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Financial assistance",
+          "label": "Financial assistance"
+        }
+      ],
+      "dbtScheme": null,
+      "implementingAgency": null,
+      "tags": [
+        "Financial Assistance",
+        "HIV / AIDS",
+        "Pension",
+        "Medical Expenses",
+        "Petty Personal Expenses"
+      ],
+      "schemeName": "Hiv / Aids Pension Scheme",
+      "schemeShortTitle": "Haps",
+      "level": {
+        "value": "state",
+        "label": "State"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce87cd6d1a3bde4685312",
+          "label": "Social welfare & Empowerment"
+        }
+      ],
+      "schemeType": null,
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Source",
+          "url": "https://oaps.py.gov.in/Home/hiv.aspx"
+        }
+      ],
+      "schemeImageUrl": "",
+      "briefDescription": "The Government of Puducherry introduced the HIV / AIDS Pension Scheme to extend a helping hand through monthly financial assistance to HIV/AIDS Affected People so that they could defray some petty personal/ medical expenses without depending on others.",
+      "detailedDescription_md": "The Government of Puducherry introduced the HIV / AIDS Pension Scheme to extend a helping hand through monthly financial assistance to HIV/AIDS Affected People so that they could defray some petty personal/ medical expenses without depending on others.\n",
+      "benefits_md": "\n1. ₹ 1500/- per month with age less than 60 years.\n1. ₹ 2000/- per month with age between 60 years and 79 years.\n1. ₹ 3000/- per month with age 80 years and above.\n\n",
+      "exclusions_md": "",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The Government of Puducherry introduced the HIV / AIDS Pension Scheme to extend a helping hand through monthly financial assistance to HIV/AIDS Affected People so that they could defray some petty personal/ medical expenses without depending on others."
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "₹ 1500/- per month with age less than 60 years."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "₹ 2000/- per month with age between 60 years and 79 years."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "₹ 3000/- per month with age 80 years and above."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "url": "",
+        "process": [
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "text": "Whom to Apply"
+              }
+            ]
+          },
+          {
+            "type": "ul_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Puducherry:",
+                    "underline": true
+                  },
+                  {
+                    "text": " The Deputy Director (Social Defence), Old Age Pension Section, Department of Women and Child Development, Puducherry."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Karaikal:",
+                    "underline": true
+                  },
+                  {
+                    "text": " The Child Development Project Officer, Karaikal."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Mahe/Yanam:",
+                    "underline": true
+                  },
+                  {
+                    "text": " The Welfare Officer, Mahe/ Yanam."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "text": "Processing Time"
+              }
+            ]
+          },
+          {
+            "type": "ul_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "The selection is periodical and depends on the vacancies and on the availability of funds."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "text": "In case of delay whom to contact?"
+              }
+            ]
+          },
+          {
+            "type": "ul_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Puducherry:",
+                    "underline": true
+                  },
+                  {
+                    "text": " The Director, Department of Women and Child Development, Sithankudi, Puducherry."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Karaikal:",
+                    "underline": true
+                  },
+                  {
+                    "text": " The Collector, Karaikal."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Mahe/Yanam:",
+                    "underline": true
+                  },
+                  {
+                    "text": " The Regional Administrator, Mahe/Yanam."
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "process_md": "> Whom to Apply\n\n\n- Puducherry: The Deputy Director (Social Defence), Old Age Pension Section, Department of Women and Child Development, Puducherry.- Karaikal: The Child Development Project Officer, Karaikal.- Mahe/Yanam: The Welfare Officer, Mahe/ Yanam.\n> Processing Time\n\n\n- The selection is periodical and depends on the vacancies and on the availability of funds.\n\n> In case of delay whom to contact?\n\n\n- Puducherry: The Director, Department of Women and Child Development, Sithankudi, Puducherry.- Karaikal: The Collector, Karaikal.- Mahe/Yanam: The Regional Administrator, Mahe/Yanam.\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n1. He/She must be a resident of UT of Puducherry.\n1. He/She should be a registrant in the ART Centre, IGMC&amp;RI, Puducherry / Link ART Centre JIPMER in respect of Puducherry region, ART Centre, Nagapattinam in respect of Karaikal region, ART Centre, Calicut in respect of Mahe region, ART Centre, Kakinada in respect of Yanam region and taking regular treatment and any other ART/Link ART centres to be established in future in the UT of Puducherry.\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "He/She must be a resident of UT of Puducherry."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "He/She should be a registrant in the ART Centre, IGMC&RI, Puducherry / Link ART Centre JIPMER in respect of Puducherry region, ART Centre, Nagapattinam in respect of Karaikal region, ART Centre, Calicut in respect of Mahe region, ART Centre, Kakinada in respect of Yanam region and taking regular treatment and any other ART/Link ART centres to be established in future in the UT of Puducherry."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "haps"
+}

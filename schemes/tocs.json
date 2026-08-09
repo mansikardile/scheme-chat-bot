@@ -1,0 +1,402 @@
+{
+  "_id": "6a44bc1388cbab874ffac905",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "GST",
+        "Composition Levy",
+        "Goods And Services Tax",
+        "Regular Taxpayer",
+        "Stock Intimation"
+      ],
+      "schemeName": "To Opt Composition Scheme",
+      "schemeShortTitle": "TOCS",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce7f6d6d1a3bde46852d0",
+          "label": "Banking,Financial Services and Insurance"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Financial regulation",
+          "label": "Financial regulation"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "schemeFor": "Individual",
+      "state": {
+        "value": 7,
+        "label": "Delhi"
+      },
+      "schemeType": null,
+      "nodalMinistryName": null,
+      "nodalDepartmentName": {
+        "value": 70000010,
+        "label": "Finance Department"
+      },
+      "otherMinistryName": null,
+      "otherDepartmentNames": null
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://tutorial.gst.gov.in/userguide/compositionpoc/optforcomposition.htm"
+        }
+      ],
+      "schemeImageUrl": "",
+      "briefDescription": "The scheme aims to enable eligible GST taxpayers to opt for the Composition Scheme for simplified tax compliance and payment under the Goods and Services Tax (GST) regime.",
+      "detailedDescription_md": "The &quot;To Opt Composition Scheme&quot; is a centrally sponsored scheme implemented by the Finance Department, Government of NCT of Delhi, which aims to enable eligible GST taxpayers to opt for the Composition Scheme through a simplified tax payment and compliance mechanism under the Goods and Services Tax (GST) system. Eligible new and existing taxpayers can apply online through the GST Portal by submitting the prescribed application form. Existing taxpayers must submit the application before the commencement of the relevant financial year. Applicants are also required to file Stock Intimation within 30 days from the date of opting for the Composition Levy. Composition taxpayers are required to file the prescribed quarterly statement and annual return under GST.\n<br>\n\n",
+      "benefits_md": "\n- **Simplified GST Compliance:** Eligible taxpayers can opt to pay tax under the Composition Scheme instead of the regular GST scheme, enabling a simpler tax payment and compliance process.\n<br>\n\n",
+      "exclusions_md": "<br>\n\n",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The \"To Opt Composition Scheme\" is a centrally sponsored scheme implemented by the Finance Department, Government of NCT of Delhi, which aims to enable eligible GST taxpayers to opt for the Composition Scheme through a simplified tax payment and compliance mechanism under the Goods and Services Tax (GST) system. Eligible new and existing taxpayers can apply online through the GST Portal by submitting the prescribed application form. Existing taxpayers must submit the application before the commencement of the relevant financial year. Applicants are also required to file Stock Intimation within 30 days from the date of opting for the Composition Levy. Composition taxpayers are required to file the prescribed quarterly statement and annual return under GST."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Simplified GST Compliance: ",
+                  "bold": true
+                },
+                {
+                  "text": "Eligible taxpayers can opt to pay tax under the Composition Scheme instead of the regular GST scheme, enabling a simpler tax payment and compliance process."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ],
+      "exclusions": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Online",
+        "process": [
+          {
+            "type": "align_justify",
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 1: ",
+                    "bold": true
+                  },
+                  {
+                    "text": "To opt for composition levy, access the URL "
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://www.gst.gov.in/",
+                    "children": [
+                      {
+                        "text": "https://www.gst.gov.in/."
+                      }
+                    ]
+                  },
+                  {
+                    "text": " The GST Home page will be displayed."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 2: ",
+                    "bold": true
+                  },
+                  {
+                    "text": "In case of New Registration, click on \"Register\" and proceed."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 3: ",
+                    "bold": true
+                  },
+                  {
+                    "text": "Log into the GST Portal by entering your login Credentials."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 4: ",
+                    "bold": true
+                  },
+                  {
+                    "text": "Once you have logged in, select ‘Application to Opt for Composition Levy’ from the Registration Menu."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 5: ",
+                    "bold": true
+                  },
+                  {
+                    "text": "You will be directed to a new screen – Application to Opt for Composition Levy. Your GSTIN, Legal Name of Business, Trade Name (if any), and Address of Principal Place of Business will be displayed."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 6: ",
+                    "bold": true
+                  },
+                  {
+                    "text": "Below that, your Nature of business and Jurisdiction will be listed."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 7: ",
+                    "bold": true
+                  },
+                  {
+                    "text": "Below these details, there is a Composition Declaration that you must check to pledge to abide by the conditions and restrictions for Taxpayers who are under the Composition Levy."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 8: ",
+                    "bold": true
+                  },
+                  {
+                    "text": "Before submission, you must also check the box for Verification (below the Composition Declaration) that states that all the information given is true and that nothing has been concealed from the authority."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 9: ",
+                    "bold": true
+                  },
+                  {
+                    "text": "Finally, before submission, select the Authorized Signatory from the drop-down menu and enter the Place."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 10: ",
+                    "bold": true
+                  },
+                  {
+                    "text": "Once you select the Authorized Signatory and enter the Place, the options to submit the form will get activated. Select the desired mode – DSC, E-sign, or EVC – and click the corresponding submission option. For the purpose of this manual, we will submit the application using DSC."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 11: ",
+                    "bold": true
+                  },
+                  {
+                    "text": "You will get a prompt to confirm your action, click on PROCEED to move forward."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 12: ",
+                    "bold": true
+                  },
+                  {
+                    "text": "The system will retrieve the installed digital signatures available on your system using the emSigner and you will get a pop-up to select the desired DSC. Select the desired signature."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 13: ",
+                    "bold": true
+                  },
+                  {
+                    "text": "Once you select the desired digital signature (it will get highlighted in blue), click Sign. If your digital signature is authenticated, you will get a SUCCESS message."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 14: ",
+                    "bold": true
+                  },
+                  {
+                    "text": "The system will perform some validations and if they are successful your ARN for the work item will be generated and sent to you via e-mail and SMS within the next 15 minutes."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          }
+        ],
+        "process_md": "**Step 1:** To opt for composition levy, access the URL [https://www.gst.gov.in/.](https://www.gst.gov.in/) The GST Home page will be displayed.\n**Step 2:** In case of New Registration, click on &amp;quot;Register&amp;quot; and proceed.\n**Step 3:** Log into the GST Portal by entering your login Credentials.\n**Step 4:** Once you have logged in, select ‘Application to Opt for Composition Levy’ from the Registration Menu.\n**Step 5:** You will be directed to a new screen – Application to Opt for Composition Levy. Your GSTIN, Legal Name of Business, Trade Name (if any), and Address of Principal Place of Business will be displayed.\n**Step 6:** Below that, your Nature of business and Jurisdiction will be listed.\n**Step 7:** Below these details, there is a Composition Declaration that you must check to pledge to abide by the conditions and restrictions for Taxpayers who are under the Composition Levy.\n**Step 8:** Before submission, you must also check the box for Verification (below the Composition Declaration) that states that all the information given is true and that nothing has been concealed from the authority.\n**Step 9:** Finally, before submission, select the Authorized Signatory from the drop-down menu and enter the Place.\n**Step 10:** Once you select the Authorized Signatory and enter the Place, the options to submit the form will get activated. Select the desired mode – DSC, E-sign, or EVC – and click the corresponding submission option. For the purpose of this manual, we will submit the application using DSC.\n**Step 11:** You will get a prompt to confirm your action, click on PROCEED to move forward.\n**Step 12:** The system will retrieve the installed digital signatures available on your system using the emSigner and you will get a pop-up to select the desired DSC. Select the desired signature.\n**Step 13:** Once you select the desired digital signature (it will get highlighted in blue), click Sign. If your digital signature is authenticated, you will get a SUCCESS message.\n**Step 14:** The system will perform some validations and if they are successful your ARN for the work item will be generated and sent to you via e-mail and SMS within the next 15 minutes.\n<br>\n\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n  - The applicant must be a regular GST taxpayer.\n  - The applicant must have an aggregate annual domestic PAN-based turnover within the limit specified from time to time under GST.\n\n\n- **New Taxpayers:** Any person who becomes liable to register under GST Act, after the appointed day, needs to file his option to pay composition amount in the Application for New Registration in Form GST REG-01.\n\n- **Existing Taxpayers:** Any taxpayer who is registered as normal tax payer under GST needs to file an application to opt for Composition Levy in Form GST-CMP-02 at GST Portal prior to the commencement of financial year for which the option to pay tax under the aforesaid section is exercised.\n<br>\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "ul_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant must be a regular GST taxpayer."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant must have an aggregate annual domestic PAN-based turnover within the limit specified from time to time under GST."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "New Taxpayers:",
+                  "bold": true
+                },
+                {
+                  "text": " Any person who becomes liable to register under GST Act, after the appointed day, needs to file his option to pay composition amount in the Application for New Registration in Form GST REG-01."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Existing Taxpayers:",
+                  "bold": true
+                },
+                {
+                  "text": " Any taxpayer who is registered as normal tax payer under GST needs to file an application to opt for Composition Levy in Form GST-CMP-02 at GST Portal prior to the commencement of financial year for which the option to pay tax under the aforesaid section is exercised."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "tocs"
+}

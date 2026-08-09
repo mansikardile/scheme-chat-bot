@@ -1,0 +1,576 @@
+{
+  "_id": "67b7044b50fc00c18b8882e5",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Free Passport",
+        "Under Graduate",
+        "Post Graduate",
+        "Reimbursement",
+        "Student"
+      ],
+      "schemeName": "Free Passport Scheme",
+      "schemeShortTitle": "FPS",
+      "implementingAgency": "Department Of Higher Education, Haryana",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce76cd6d1a3bde4685292",
+          "label": "Education & Learning"
+        },
+        {
+          "value": "628ce94cd6d1a3bde468536f",
+          "label": "Travel & Tourism"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "International education",
+          "label": "International education"
+        },
+        {
+          "value": "Travel abroad",
+          "label": "Travel abroad"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "state": {
+        "value": 6,
+        "label": "Haryana"
+      },
+      "nodalDepartmentName": {
+        "value": 666685,
+        "label": "Higher Education Department"
+      },
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Official Website",
+          "url": "https://passport.highereduhry.ac.in/Default.aspx"
+        },
+        {
+          "title": "Application Process",
+          "url": "https://erp.highereduhry.ac.in/HowToApplyPassport.aspx"
+        },
+        {
+          "title": "Passport Fee Reimbursement",
+          "url": "https://erp.highereduhry.ac.in/"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The &amp;quot;Free Passport Scheme&amp;quot; introduced by the Department of Higher Education, Government of Haryana, aims to encourage students to pursue higher education. Under this scheme, students in the final year of undergraduate (UG) and postgraduate (PG) courses in government colleges receive reimbursement for passport application fees. The concerned college will reimburse the passports free to the student who apply through as per scheme guidelines. The application procedure and processing time for getting passport are the same as for a regular passport.\n",
+      "benefits_md": "\n- Reimbursement of passport application fee of ₹1,500/- to eligible students.\n\n**Mode of Disbursement:**\nThe reimbursement is provided through the respective college where the student is enrolled.\n",
+      "exclusions_md": "\n1. Students studying in private colleges are not eligible.\n1. Students who already hold a valid passport are not eligible.\n\n",
+      "briefDescription": "The scheme aims to facilitate higher education and global career opportunities for students by covering the cost of passport issuance. Under this scheme, final-year UG and PG students in government colleges receive reimbursement for passport application fees.",
+      "detailedDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "The \"Free Passport Scheme\" introduced by the Department of Higher Education, Government of Haryana, aims to encourage students to pursue higher education. Under this scheme, students in the final year of undergraduate (UG) and postgraduate (PG) courses in government colleges receive reimbursement for passport application fees. The concerned college will reimburse the passports free to the student who apply through as per scheme guidelines. The application procedure and processing time for getting passport are the same as for a regular passport."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Reimbursement of passport application fee of ₹1,500/- to eligible students."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Mode of Disbursement:",
+              "bold": true,
+              "underline": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The reimbursement is provided through the respective college where the student is enrolled."
+            }
+          ]
+        }
+      ],
+      "exclusions": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Students studying in private colleges are not eligible."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Students who already hold a valid passport are not eligible."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Online",
+        "process": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Application Process:",
+                "bold": true,
+                "underline": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 1:",
+                "bold": true
+              },
+              {
+                "text": " Register on the "
+              },
+              {
+                "type": "link",
+                "link": "https://passportindia.gov.in",
+                "children": [
+                  {
+                    "text": "Passport Seva portal"
+                  }
+                ]
+              },
+              {
+                "text": ". "
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2: ",
+                "bold": true
+              },
+              {
+                "text": "You will get a login ID and password."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 3: ",
+                "bold": true
+              },
+              {
+                "text": "Log in and choose the applicable options (e.g. Fresh)."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 4:",
+                "bold": true
+              },
+              {
+                "text": " Fill in the required fields of the form with care and submit."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 5: ",
+                "bold": true
+              },
+              {
+                "text": "Pay the fees and schedule an appointment on the Passport Seva portal. To do this, click on the ‘Pay and Schedule "
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 6: ",
+                "bold": true
+              },
+              {
+                "text": "Appointment’ link within the ‘View Saved/Submitted Applications’ sections."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 7:",
+                "bold": true
+              },
+              {
+                "text": " Click on the ‘Print Application Receipt’. The receipt contains your Application Reference Number (ARN) or appointment number. It also mentions the time and date of your appointment."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Appointment Process:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " ",
+                "underline": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 1:",
+                "bold": true
+              },
+              {
+                "text": " Go to the Passport Seva Kendra where the appointment has been booked."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2: ",
+                "bold": true
+              },
+              {
+                "text": "Remember to carry the originals of the documents that you provided for your application. To be on the safe side, carry some self-attested copies as well."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 3:",
+                "bold": true
+              },
+              {
+                "text": " Carry a copy of the online payment receipt as well. An SMS receipt will do as well."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 4:",
+                "bold": true
+              },
+              {
+                "text": " Head to the pre-verification counter to collect your token."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 5:",
+                "bold": true
+              },
+              {
+                "text": " When it is your turn (as per the token), go to counter A to submit your documents."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 6:",
+                "bold": true
+              },
+              {
+                "text": " Following this, you will be called to Counter B. Here a verification officer will verify the documents and details you have submitted."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 7:",
+                "bold": true
+              },
+              {
+                "text": " Finally, a granting officer will review your application and decide whether or not to grant your application. Upon approving your application, the granting officer will send a request for police verification of your case."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Once your police verification report comes in and it is clear, the authorities issue your passport. It gets printed, laminated, and finally dispatched to your address. The whole process takes anywhere between 25 and 30 days under the normal mode."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "REIMBURSEMENT OF PASSPORT FEE",
+                "bold": true,
+                "underline": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "The Government of Haryana will bear the cost of the passport fee. After issuance of the Passport, the Student needs to apply for the reimbursement of the fee. The college will reimburse the fee to the student who applied through this portal. "
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 1:",
+                "bold": true
+              },
+              {
+                "text": "  Visit the "
+              },
+              {
+                "type": "link",
+                "link": "https://passport.highereduhry.ac.in/",
+                "children": [
+                  {
+                    "text": "Official Website"
+                  }
+                ]
+              },
+              {
+                "text": " of the Free Passport Scheme."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2:",
+                "bold": true
+              },
+              {
+                "text": "  Click on the \" Apply for Passport Fees Reimbursement.\""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 3: ",
+                "bold": true
+              },
+              {
+                "text": "You will land on the "
+              },
+              {
+                "type": "link",
+                "link": "https://erp.highereduhry.ac.in/passportlogin.aspx",
+                "children": [
+                  {
+                    "text": "Login Page. Login using your login credentials (Credentials are the same as \"ERP Portal\" for Login)."
+                  }
+                ]
+              },
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              },
+              {
+                "type": "link",
+                "link": "https://erp.highereduhry.ac.in/passportlogin.aspx",
+                "children": [
+                  {
+                    "text": "Step 4:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Fill out the Fee Reimbursement Form upload a copy of the passport and click on submit."
+                  }
+                ]
+              },
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "text": "Verification by College",
+                "bold": true
+              }
+            ]
+          },
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "text": "The college will verify the details of the student who applied for fee reimbursement."
+              }
+            ]
+          },
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "text": "Payment Challan Generation by Head Office",
+                "bold": true
+              }
+            ]
+          },
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "text": "After verification, the college will generate the Challan/EPS on the eSalary website."
+              }
+            ]
+          },
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "text": "Fee Reimbursement from the Treasury",
+                "bold": true
+              }
+            ]
+          },
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "text": "After clearance of the bill from the treasury, the amount will be credited to the student."
+              }
+            ]
+          }
+        ],
+        "process_md": "**Application Process:**\n**Step 1:** Register on the [Passport Seva portal](https://passportindia.gov.in). \n**Step 2:** You will get a login ID and password.\n**Step 3:** Log in and choose the applicable options (e.g. Fresh).\n**Step 4:** Fill in the required fields of the form with care and submit.\n**Step 5:** Pay the fees and schedule an appointment on the Passport Seva portal. To do this, click on the ‘Pay and Schedule \n**Step 6:** Appointment’ link within the ‘View Saved/Submitted Applications’ sections.\n**Step 7:** Click on the ‘Print Application Receipt’. The receipt contains your Application Reference Number (ARN) or appointment number. It also mentions the time and date of your appointment.\n**Appointment Process:** \n**Step 1:** Go to the Passport Seva Kendra where the appointment has been booked.\n**Step 2:** Remember to carry the originals of the documents that you provided for your application. To be on the safe side, carry some self-attested copies as well.\n**Step 3:** Carry a copy of the online payment receipt as well. An SMS receipt will do as well.\n**Step 4:** Head to the pre-verification counter to collect your token.\n**Step 5:** When it is your turn (as per the token), go to counter A to submit your documents.\n**Step 6:** Following this, you will be called to Counter B. Here a verification officer will verify the documents and details you have submitted.\n**Step 7:** Finally, a granting officer will review your application and decide whether or not to grant your application. Upon approving your application, the granting officer will send a request for police verification of your case.\nOnce your police verification report comes in and it is clear, the authorities issue your passport. It gets printed, laminated, and finally dispatched to your address. The whole process takes anywhere between 25 and 30 days under the normal mode.\n**REIMBURSEMENT OF PASSPORT FEE**\nThe Government of Haryana will bear the cost of the passport fee. After issuance of the Passport, the Student needs to apply for the reimbursement of the fee. The college will reimburse the fee to the student who applied through this portal. \n**Step 1:**  Visit the [Official Website](https://passport.highereduhry.ac.in/) of the Free Passport Scheme.\n**Step 2:**  Click on the &quot; Apply for Passport Fees Reimbursement.&quot;\n**Step 3:** You will land on the [Login Page. Login using your login credentials (Credentials are the same as &quot;ERP Portal&quot; for Login).](https://erp.highereduhry.ac.in/passportlogin.aspx)\n[**Step 4:** Fill out the Fee Reimbursement Form upload a copy of the passport and click on submit.](https://erp.highereduhry.ac.in/passportlogin.aspx)\n> **Verification by College**\n\n> The college will verify the details of the student who applied for fee reimbursement.\n\n> **Payment Challan Generation by Head Office**\n\n> After verification, the college will generate the Challan/EPS on the eSalary website.\n\n> **Fee Reimbursement from the Treasury**\n\n> After clearance of the bill from the treasury, the amount will be credited to the student.\n\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n1. The applicant should be a permanent resident of Haryana.\n1. The applicant should be a final-year student in a UG or PG course in a government college.\n1. The applicant should not possess an existing passport.\n\n**Note:** The application procedure and processing time for getting passport are the same as for a regular passport.\n",
+      "eligibilityDescription": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should be a permanent resident of Haryana."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should be a final-year student in a UG or PG course in a government college."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should not possess an existing passport."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Note:",
+              "bold": true
+            },
+            {
+              "text": " The application procedure and processing time for getting passport are the same as for a regular passport."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "freepassport"
+}

@@ -1,0 +1,726 @@
+{
+  "_id": "68b6cf07967f77ea11ba36d2",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Pilgrimage",
+        "Financial Assistance",
+        "Tourism",
+        "Travel",
+        "Scheduled Tribe"
+      ],
+      "schemeName": "Sri Ram Janmabhoomi Shabari Smriti Yatra Sahay Scheme",
+      "schemeShortTitle": "SRJSSYSS",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce94cd6d1a3bde468536f",
+          "label": "Travel & Tourism"
+        }
+      ],
+      "schemeSubCategory": null,
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "schemeFor": "Individual",
+      "state": {
+        "value": 24,
+        "label": "Gujarat"
+      },
+      "schemeType": null,
+      "nodalMinistryName": null,
+      "nodalDepartmentName": {
+        "value": 2444452,
+        "label": "Industries and Mines Department"
+      },
+      "otherMinistryName": null,
+      "otherDepartmentNames": null
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://yatradham.gujarat.gov.in/Documents/SubDeals_2024-3-19_724.pdf"
+        },
+        {
+          "title": "Government Order",
+          "url": "https://yatradham.gujarat.gov.in/Documents/SubDeals_2022-10-21_65.pdf"
+        }
+      ],
+      "schemeImageUrl": "",
+      "briefDescription": "The scheme aims to provide financial assistance to scheduled tribes and tribal communities for pilgrimage to Sri Ram Janmabhoomi in Ayodhya in memory of Maa Shabari. The scheme offers ₹5,000/- financial assistance per pilgrim to enable darshan of Lord Sri Ram for eligible tribal beneficiaries.",
+      "detailedDescription_md": "The scheme &quot;Sri Ram Janmabhoomi Shabari Smriti Yatra Sahay Scheme&quot; by the Industry and Mines Department, Government of Gujarat, aims to provide financial assistance to scheduled tribes and tribal communities for pilgrimage to Sri Ram Janmabhoomi in Ayodhya, Uttar Pradesh, in memory of &quot;Maa Shabari&quot; and to enable darshan of Lord Sri Ram. The scheme provides financial assistance of ₹5,000/- per pilgrim and covers railway travel expenses through Indian Railway Catering and Tourism Corporation Limited arrangements. The applicant must be a resident of Gujarat for twelve years or more and belong to the scheduled tribe or tribal community category. The scheme is implemented by the Gujarat Pavitra Yatradham Vikas Board. The applications for this scheme are accepted online through the official website of Gujarat Pavitra Yatradham Vikas Board, Gandhinagar.\n<br>\n\n",
+      "benefits_md": "> ***Financial Assistance***\n\n₹5,000/- per pilgrim as financial assistance towards travel expenses for pilgrimage to Sri Ram Janmabhoomi, Ayodhya.\n> ***Travel Arrangements***\n\n\n- Travel arrangements through the Indian Railway Catering and Tourism Corporation Limited.\n- Railway journey assistance and booking support.\n\n> ***Coverage Details***\n\n\n- First 1,500 scheduled tribe and tribal pilgrims will be eligible for the scheme benefits.\n- Benefits are available once per person per year for the pilgrimage to Sri Ram Janmabhoomi, Ayodhya.\n\n> ***Conditions***\n\n\n- Pilgrims must complete the journey and submit proof of pilgrimage completion.\n- Travel must be undertaken within the approved timeframe after receiving permission.\n- Registration and prior approval from the Gujarat Pavitra Yatradham Vikas Board is mandatory.\n- Submission of travel documents and pilgrimage proof within one month of journey completion is required.\n\n<br>\n\n",
+      "exclusions_md": "\n- The applicant cannot carry any prohibited or illegal items during the pilgrimage journey.\n- The applicant cannot undertake travel without prior registration and approval from the implementing board.\n\n<br>\n\n",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The scheme \"Sri Ram Janmabhoomi Shabari Smriti Yatra Sahay Scheme\" by the Industry and Mines Department, Government of Gujarat, aims to provide financial assistance to scheduled tribes and tribal communities for pilgrimage to Sri Ram Janmabhoomi in Ayodhya, Uttar Pradesh, in memory of \"Maa Shabari\" and to enable darshan of Lord Sri Ram. The scheme provides financial assistance of ₹5,000/- per pilgrim and covers railway travel expenses through Indian Railway Catering and Tourism Corporation Limited arrangements. The applicant must be a resident of Gujarat for twelve years or more and belong to the scheduled tribe or tribal community category. The scheme is implemented by the Gujarat Pavitra Yatradham Vikas Board. The applications for this scheme are accepted online through the official website of Gujarat Pavitra Yatradham Vikas Board, Gandhinagar."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 3,
+        "value": "composite",
+        "label": "Composite"
+      },
+      "benefits": [
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "Financial Assistance",
+              "bold": true,
+              "underline": true,
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "₹5,000/- per pilgrim as financial assistance towards travel expenses for pilgrimage to Sri Ram Janmabhoomi, Ayodhya."
+            }
+          ]
+        },
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "Travel Arrangements",
+              "bold": true,
+              "underline": true,
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Travel arrangements through the Indian Railway Catering and Tourism Corporation Limited."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Railway journey assistance and booking support."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "Coverage Details",
+              "bold": true,
+              "underline": true,
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "First 1,500 scheduled tribe and tribal pilgrims will be eligible for the scheme benefits."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Benefits are available once per person per year for the pilgrimage to Sri Ram Janmabhoomi, Ayodhya."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "Conditions",
+              "bold": true,
+              "underline": true,
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Pilgrims must complete the journey and submit proof of pilgrimage completion."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Travel must be undertaken within the approved timeframe after receiving permission."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Registration and prior approval from the Gujarat Pavitra Yatradham Vikas Board is mandatory."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Submission of travel documents and pilgrimage proof within one month of journey completion is required."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ],
+      "exclusions": [
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant cannot carry any prohibited or illegal items during the pilgrimage journey."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant cannot undertake travel without prior registration and approval from the implementing board."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Online",
+        "process": [
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "text": "Registration Process",
+                "bold": true,
+                "underline": true,
+                "italic": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 1:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " Visit the "
+              },
+              {
+                "type": "link",
+                "link": "https://yatradham.gujarat.gov.in/",
+                "children": [
+                  {
+                    "text": "YatraDham portal"
+                  }
+                ]
+              },
+              {
+                "text": " of the Gujarat Pavitra Yatradham Vikas Board. In the top ribbon, hover on \"Booking\" and click \"Shree Ram Janmabhumi Registration\". You will be taken to the "
+              },
+              {
+                "type": "link",
+                "link": "https://yatradham.gujarat.gov.in/SRJApplicantRegistration",
+                "children": [
+                  {
+                    "text": "online registration page"
+                  }
+                ]
+              },
+              {
+                "text": ". "
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " Complete the registration process by providing all the mandatory details: Name, Mobile Number, and Email. Create a password and confirm. Provide the captcha code and click \"Submit\"."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "text": "Application Process",
+                "bold": true,
+                "underline": true,
+                "italic": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 1:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " Visit the "
+              },
+              {
+                "type": "link",
+                "link": "https://yatradham.gujarat.gov.in/",
+                "children": [
+                  {
+                    "text": "YatraDham portal"
+                  }
+                ]
+              },
+              {
+                "text": " of the Gujarat Pavitra Yatradham Vikas Board. In the top ribbon, hover on \"Booking\" and click \"Shree Ram Janmabhumi Registration\". You will be taken to the "
+              },
+              {
+                "type": "link",
+                "link": "https://yatradham.gujarat.gov.in/SRJApplicantRegistration",
+                "children": [
+                  {
+                    "text": "online registration page"
+                  }
+                ]
+              },
+              {
+                "text": "."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " Click on \"Click Here to Login if Already Registered\". You will be taken to the "
+              },
+              {
+                "type": "link",
+                "link": "https://yatradham.gujarat.gov.in/SRJApplicantLogin",
+                "children": [
+                  {
+                    "text": "Login Page"
+                  }
+                ]
+              },
+              {
+                "text": ". Provide your Username and Password. Click \"Login\"."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 3:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " The online application form for \"Shree Ram JanmBhumi Yatra\" will open. In the form, fill in all the mandatory fields and upload all the mandatory documents in the specified format and size."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 4:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " Acknowledge the declaration by ticking the designated checkbox. Carefully review all the information provided and the documents uploaded. Make any necessary corrections. Click \"Submit\" to submit your application. You'll receive a confirmation message."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "*Apply online before the deadline of 31st March of the respective year. ",
+                "italic": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "*Save and print the acknowledgment receipt or confirmation message containing the application reference number for future tracking and correspondence.",
+                "italic": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "text": "Post-Application Processes",
+                "bold": true,
+                "underline": true,
+                "italic": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 1:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " "
+              },
+              {
+                "text": "Approval and Travel Permission",
+                "italic": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Wait for approval notification from Gujarat Pavitra Yatradham Vikas Board, Gandhinagar office, which will be communicated via post or through the online portal. Once approved, the board will provide detailed travel arrangements and booking confirmations for the pilgrimage journey."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " "
+              },
+              {
+                "text": "Pre-Travel Coordination",
+                "italic": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Contact the Gujarat Pavitra Yatradham Vikas Board office at least 10 days before the intended travel date to coordinate final arrangements and receive travel instructions. Confirm accommodation arrangements and travel schedule as per the approved itinerary provided by the implementing board."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 3:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " "
+              },
+              {
+                "text": "Journey Undertaking and Documentation",
+                "italic": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Undertake the pilgrimage journey as per the approved schedule and maintain all travel documents, including railway tickets, accommodation receipts, and capture required photographs at the temple premises. Follow all prescribed guidelines and temple regulations during the visit to Ayodhya."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 4:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " "
+              },
+              {
+                "text": "Post-Travel Submission",
+                "italic": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Submit all travel proof documents, including railway tickets, accommodation receipts, and temple photographs to Gujarat Pavitra Yatradham Vikas Board office within one month of journey completion. Upload the required documentation through the official website portal for benefit processing and disbursement."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "text": "Grievance Redressal / Help & Support",
+                "bold": true,
+                "underline": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Office Address: Gujarat Pavitra Yatradham Vikas Board, Block 2 & 3, 1st Floor, Dr. Jivraj Mehta Bhavan, Gandhinagar - 382016."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Phone Numbers: +91 79 23250708, 23251862."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Fax Number: +91 79 23256775."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Email: sectourism@gujarat.gov.in"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "For scheme-related queries and grievances, contact the above-mentioned office during working hours."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          }
+        ],
+        "process_md": "> ***Registration Process***\n\n**Step 1:** Visit the [YatraDham portal](https://yatradham.gujarat.gov.in/) of the Gujarat Pavitra Yatradham Vikas Board. In the top ribbon, hover on &quot;Booking&quot; and click &quot;Shree Ram Janmabhumi Registration&quot;. You will be taken to the [online registration page](https://yatradham.gujarat.gov.in/SRJApplicantRegistration). \n**Step 2:** Complete the registration process by providing all the mandatory details: Name, Mobile Number, and Email. Create a password and confirm. Provide the captcha code and click &quot;Submit&quot;.\n<br>\n\n> ***Application Process***\n\n**Step 1:** Visit the [YatraDham portal](https://yatradham.gujarat.gov.in/) of the Gujarat Pavitra Yatradham Vikas Board. In the top ribbon, hover on &quot;Booking&quot; and click &quot;Shree Ram Janmabhumi Registration&quot;. You will be taken to the [online registration page](https://yatradham.gujarat.gov.in/SRJApplicantRegistration).\n**Step 2:** Click on &quot;Click Here to Login if Already Registered&quot;. You will be taken to the [Login Page](https://yatradham.gujarat.gov.in/SRJApplicantLogin). Provide your Username and Password. Click &quot;Login&quot;.\n**Step 3:** The online application form for &quot;Shree Ram JanmBhumi Yatra&quot; will open. In the form, fill in all the mandatory fields and upload all the mandatory documents in the specified format and size.\n**Step 4:** Acknowledge the declaration by ticking the designated checkbox. Carefully review all the information provided and the documents uploaded. Make any necessary corrections. Click &quot;Submit&quot; to submit your application. You&#39;ll receive a confirmation message.\n_*Apply online before the deadline of 31st March of the respective year._ \n_*Save and print the acknowledgment receipt or confirmation message containing the application reference number for future tracking and correspondence._\n<br>\n\n> ***Post-Application Processes***\n\n**Step 1:** _Approval and Travel Permission_\nWait for approval notification from Gujarat Pavitra Yatradham Vikas Board, Gandhinagar office, which will be communicated via post or through the online portal. Once approved, the board will provide detailed travel arrangements and booking confirmations for the pilgrimage journey.\n**Step 2:** _Pre-Travel Coordination_\nContact the Gujarat Pavitra Yatradham Vikas Board office at least 10 days before the intended travel date to coordinate final arrangements and receive travel instructions. Confirm accommodation arrangements and travel schedule as per the approved itinerary provided by the implementing board.\n**Step 3:** _Journey Undertaking and Documentation_\nUndertake the pilgrimage journey as per the approved schedule and maintain all travel documents, including railway tickets, accommodation receipts, and capture required photographs at the temple premises. Follow all prescribed guidelines and temple regulations during the visit to Ayodhya.\n**Step 4:** _Post-Travel Submission_\nSubmit all travel proof documents, including railway tickets, accommodation receipts, and temple photographs to Gujarat Pavitra Yatradham Vikas Board office within one month of journey completion. Upload the required documentation through the official website portal for benefit processing and disbursement.\n<br>\n\n> **Grievance Redressal / Help &amp; Support**\n\nOffice Address: Gujarat Pavitra Yatradham Vikas Board, Block 2 &amp; 3, 1st Floor, Dr. Jivraj Mehta Bhavan, Gandhinagar - 382016.\nPhone Numbers: +91 79 23250708, 23251862.\nFax Number: +91 79 23256775.\nEmail: sectourism@gujarat.gov.in\nFor scheme-related queries and grievances, contact the above-mentioned office during working hours.\n<br>\n\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n- The applicant must be a resident of Gujarat state for twelve years or more from the current age.\n- The applicant must belong to the scheduled tribe or tribal community category.\n- The applicant must be eligible for only one pilgrimage assistance per person per year to Sri Ram Janmabhoomi, Ayodhya.\n- The applicant must be above 12 years of age.\n- The applicant can include up to 8 family members in the group application.\n- The applicant must obtain prior approval from the Gujarat Pavitra Yatradham Vikas Board before undertaking the journey.\n\n***Priority/Preference***\nPriority will be given to the first 1,500 registered applicants from the scheduled tribe and tribal communities.\n<br>\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must be a resident of Gujarat state for twelve years or more from the current age."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must belong to the scheduled tribe or tribal community category."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must be eligible for only one pilgrimage assistance per person per year to Sri Ram Janmabhoomi, Ayodhya."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must be above 12 years of age."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant can include up to 8 family members in the group application."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must obtain prior approval from the Gujarat Pavitra Yatradham Vikas Board before undertaking the journey."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Priority/Preference",
+              "bold": true,
+              "underline": true,
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Priority will be given to the first 1,500 registered applicants from the scheduled tribe and tribal communities."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "srjssyss"
+}

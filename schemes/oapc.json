@@ -1,0 +1,458 @@
+{
+  "_id": "66052ba4c90f6c8098787dd5",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Pension",
+        "Empowerment",
+        "Financial Assistance"
+      ],
+      "schemeName": "Old Age Pension - Chandigarh",
+      "schemeShortTitle": "OAPC",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce87cd6d1a3bde4685312",
+          "label": "Social welfare & Empowerment"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Pension",
+          "label": "Pension"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "state": {
+        "value": 4,
+        "label": "Chandigarh"
+      },
+      "nodalDepartmentName": {
+        "value": 4000028,
+        "label": "Social Welfare, Women & Child Development"
+      },
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://chdsw.gov.in/index.php/scheme/old-age-pension"
+        },
+        {
+          "title": "Login",
+          "url": "http://admser.chd.nic.in/marriage/PortalUser/PortalLogin.aspx"
+        },
+        {
+          "title": "Registration",
+          "url": "http://admser.chd.nic.in/marriage/PortalUser/Register.aspx"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The Old Age Pension Scheme under The Social Welfare, Women &amp; Child Development Department of Chandigarh Government provides essential financial support to elderly citizens who have reached a certain age and may face economic challenges. Through this scheme, eligible senior citizens receive a monthly pension to help them meet their basic needs, including food, shelter, and healthcare expenses. By offering this assistance, the scheme plays a crucial role in ensuring the well-being and dignity of older individuals, particularly those who may lack adequate financial resources. Moreover, the scheme contributes to addressing issues of poverty and social exclusion among the elderly population, fostering a more inclusive and supportive society. \n<br>\n\n<br>\n\n",
+      "benefits_md": "> **Pension Amount-  ₹1000/- per month.**\n\n",
+      "briefDescription": "The Old Age Pension scheme aims to provide financial assistance and support to elderly citizens who have reached a certain age and require regular income for their sustenance. ",
+      "exclusions_md": "",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The Old Age Pension Scheme under The Social Welfare, Women & Child Development Department of Chandigarh Government provides essential financial support to elderly citizens who have reached a certain age and may face economic challenges. Through this scheme, eligible senior citizens receive a monthly pension to help them meet their basic needs, including food, shelter, and healthcare expenses. By offering this assistance, the scheme plays a crucial role in ensuring the well-being and dignity of older individuals, particularly those who may lack adequate financial resources. Moreover, the scheme contributes to addressing issues of poverty and social exclusion among the elderly population, fostering a more inclusive and supportive society. "
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "Pension Amount-  ₹1000/- per month.",
+              "bold": true
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Online",
+        "process": [
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "text": "Registration",
+                "bold": true,
+                "underline": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "bold": true,
+                "text": "Step 1: "
+              },
+              {
+                "text": " Applicant has to visit the \""
+              },
+              {
+                "type": "link",
+                "link": "http://chdservices.gov.in/main.aspx",
+                "children": [
+                  {
+                    "text": "e-District"
+                  }
+                ]
+              },
+              {
+                "text": "\" website"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "bold": true,
+                "text": "Step 2: "
+              },
+              {
+                "text": " Click on the \" "
+              },
+              {
+                "type": "link",
+                "link": "http://admser.chd.nic.in/marriage/PortalUser/PortalLogin.aspx",
+                "children": [
+                  {
+                    "text": "citizen login"
+                  }
+                ]
+              },
+              {
+                "text": "\" on the home page"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "bold": true,
+                "text": "Step 3: "
+              },
+              {
+                "text": "Now you click on  \""
+              },
+              {
+                "type": "link",
+                "link": "http://admser.chd.nic.in/marriage/PortalUser/Register.aspx",
+                "children": [
+                  {
+                    "text": "New User Register here"
+                  }
+                ]
+              },
+              {
+                "text": "\" on the page"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 4: ",
+                "bold": true
+              },
+              {
+                "text": "Fill out the registration form with your"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "            - Full Name "
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "            - Father Name"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "            - Date Of Birth "
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "            - Gender "
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "            - Mobile No"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "            - Email Id"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "            - Country"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "            - State, e.t.c"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step-5: ",
+                "bold": true
+              },
+              {
+                "text": " Review the details to ensure accuracy, and then submit registration."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step-6:",
+                "bold": true
+              },
+              {
+                "text": " After successful registration, you may receive a confirmation message on the website or via email, confirming that your registration was successful."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "bold": true,
+                "text": "Apply",
+                "underline": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "bold": true,
+                "text": "Step 1: "
+              },
+              {
+                "text": " Applicant has to visit the \""
+              },
+              {
+                "type": "link",
+                "link": "http://chdservices.gov.in/main.aspx",
+                "children": [
+                  {
+                    "text": "e-District"
+                  }
+                ]
+              },
+              {
+                "text": "\" website"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "bold": true,
+                "text": "Step 2: "
+              },
+              {
+                "text": " Click on the \" "
+              },
+              {
+                "type": "link",
+                "link": "http://admser.chd.nic.in/marriage/PortalUser/PortalLogin.aspx",
+                "children": [
+                  {
+                    "text": "citizen login"
+                  }
+                ]
+              },
+              {
+                "text": "\" on the home page"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "bold": true,
+                "text": "Step 3: "
+              },
+              {
+                "text": "Now enter your "
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "             - Registered Email ID :"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "             - Password "
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "             - Code is Case Sensitive"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "bold": true,
+                "text": "Step 4: "
+              },
+              {
+                "text": "click sign-in."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": " "
+              }
+            ]
+          }
+        ],
+        "process_md": "> **Registration**\n\n**Step 1:**  Applicant has to visit the &quot;[e-District](http://chdservices.gov.in/main.aspx)&quot; website\n**Step 2:**  Click on the &quot; [citizen login](http://admser.chd.nic.in/marriage/PortalUser/PortalLogin.aspx)&quot; on the home page\n**Step 3:** Now you click on  &quot;[New User Register here](http://admser.chd.nic.in/marriage/PortalUser/Register.aspx)&quot; on the page\n**Step 4:** Fill out the registration form with your\n            - Full Name \n            - Father Name\n            - Date Of Birth \n            - Gender \n            - Mobile No\n            - Email Id\n            - Country\n            - State, e.t.c\n**Step-5:**  Review the details to ensure accuracy, and then submit registration.\n**Step-6:** After successful registration, you may receive a confirmation message on the website or via email, confirming that your registration was successful.\n<br>\n\n> **Apply**\n\n**Step 1:**  Applicant has to visit the &quot;[e-District](http://chdservices.gov.in/main.aspx)&quot; website\n**Step 2:**  Click on the &quot; [citizen login](http://admser.chd.nic.in/marriage/PortalUser/PortalLogin.aspx)&quot; on the home page\n**Step 3:** Now enter your \n             - Registered Email ID :\n             - Password \n             - Code is Case Sensitive\n**Step 4:** click sign-in.\n \n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n1. The applicant&#39;s family&#39;s annual income should not exceed ₹1,50,000/-\n1. The applicant resident should be at UT, Chandigarh for more than 3 years.\n1. The applicant&#39;s age should be 60 years and above.\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant's family's annual income should not exceed ₹1,50,000/-"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant resident should be at UT, Chandigarh for more than 3 years."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant's age should be 60 years and above."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "oapc"
+}

@@ -1,0 +1,286 @@
+{
+  "_id": "67e3f00ccc855fd61479e173",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": true,
+      "tags": [
+        "Disability",
+        "Financial Assistance",
+        "Differently Abled",
+        "Marriage",
+        "BPL",
+        "Scheduled Tribes",
+        "PwD"
+      ],
+      "schemeName": "Marriage Assistance to Person with Disability / BPL",
+      "schemeShortTitle": "MAPDBPL",
+      "implementingAgency": "Directorate Of Social Welfare & Tribal Affairs, Lakshadweep",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce87cd6d1a3bde4685312",
+          "label": "Social welfare & Empowerment"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Financial assistance",
+          "label": "Financial assistance"
+        },
+        {
+          "value": "Marriage",
+          "label": "Marriage"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "state": {
+        "value": 31,
+        "label": "Lakshadweep"
+      },
+      "nodalDepartmentName": {
+        "value": 31000024,
+        "label": "Social Welfare and Tribal Affairs Department, Lakshadweep"
+      },
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Official Website",
+          "url": "https://lakshadweep.gov.in/"
+        },
+        {
+          "title": "Guidelines",
+          "url": "https://cdn.s3waas.gov.in/s358238e9ae2dd305d79c2ebc8c1883422/uploads/2023/07/2023071388.pdf"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The scheme &amp;quot;Marriage Assistance to Persons with Disability/BPL&amp;quot; was introduced by the Social Welfare &amp;amp; Tribal Affairs Department, Union Territory of Lakshadweep, for the benefit of persons with disabilities (differently-abled) belonging to the Below Poverty Line (BPL) category. The scheme aims to support differently-abled brides or bridegrooms from BPL families by providing financial assistance to meet marriage-related expenses and to encourage them to lead a dignified and normal life. Under this scheme, an amount of ₹30,000/- is provided to Scheduled Tribe, differently-abled brides or bridegrooms, and is applicable only for the first marriage.\n",
+      "benefits_md": "\n- The scheme provides a financial assistance of ₹30,000/- to differently-abled individuals belonging to the BPL category for their first marriage.\n\n> **Mode of Disbursement:** The amount will be directly transferred to the beneficiary&#39;s bank account.\n\n> **Frequency of Disbursement:** One-time assistance.\n\n",
+      "briefDescription": "The scheme aims to support differently-abled brides/bridegrooms from BPL families by providing financial assistance to meet marriage-related expenses. Under this scheme, an amount of ₹30,000/- is provided to Scheduled Tribe, differently-abled brides/bridegrooms for their first marriage. ",
+      "exclusions_md": "",
+      "detailedDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "The scheme \"Marriage Assistance to Persons with Disability/BPL\" was introduced by the Social Welfare & Tribal Affairs Department, Union Territory of Lakshadweep, for the benefit of persons with disabilities (differently-abled) belonging to the Below Poverty Line (BPL) category. The scheme aims to support differently-abled brides or bridegrooms from BPL families by providing financial assistance to meet marriage-related expenses and to encourage them to lead a dignified and normal life. Under this scheme, an amount of ₹30,000/- is provided to Scheduled Tribe, differently-abled brides or bridegrooms, and is applicable only for the first marriage."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The scheme provides a financial assistance of ₹30,000/- to differently-abled individuals belonging to the BPL category for their first marriage."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "Mode of Disbursement: ",
+              "bold": true
+            },
+            {
+              "text": "The amount will be directly transferred to the beneficiary's bank account."
+            }
+          ]
+        },
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "Frequency of Disbursement: ",
+              "bold": true
+            },
+            {
+              "text": "One-time assistance."
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "process": [
+          {
+            "type": "align_justify",
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 1: ",
+                    "bold": true
+                  },
+                  {
+                    "text": "Eligible couples may collect the application form from the office of the Director (Social Welfare & Tribal Affairs) of their respective island."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 2: ",
+                    "bold": true
+                  },
+                  {
+                    "text": "Carefully fill out the application form and attach all the required supporting documents."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 3: ",
+                    "bold": true
+                  },
+                  {
+                    "text": "Submit the completed application form along with the documents to the Director (SW&TA) of the respective island, duly forwarded by the DC/SDO of the concerned island and recommended by the Island Level Committee."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Note: The beneficiary can apply for incentive within 30 days from the date of marriage and is applicable up to one year of marriage."
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "process_md": "**Step 1:** Eligible couples may collect the application form from the office of the Director (Social Welfare &amp;amp; Tribal Affairs) of their respective island.\n**Step 2:** Carefully fill out the application form and attach all the required supporting documents.\n**Step 3:** Submit the completed application form along with the documents to the Director (SW&amp;amp;TA) of the respective island, duly forwarded by the DC/SDO of the concerned island and recommended by the Island Level Committee.\nNote: The beneficiary can apply for incentive within 30 days from the date of marriage and is applicable up to one year of marriage.\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n   1. The applicant should be a differently-abled person belonging to the Below Poverty Line (BPL) category.\n   1. The applicant should furnish a disability certificate indicating at least 40% disability and must possess a valid ration card.\n   1. The applicant should belong to the Scheduled Tribe category.\n   1. The family income of the applicant should be below ₹18,000/- per annum, certified by the Deputy Commissioner (DC) or Sub-Divisional Officer (SDO) of the respective island.\n   1. Both spouses should be natives and permanent residents of Lakshadweep/citizens of India.\n   1. The applicant should not have availed benefits under any similar scheme from the State/Central Government or any other agency.\n   1. The eligible beneficiary may marry either a differently-abled person or a non-disabled (normal) person.\n   1. The minimum age requirement is 21 years for the male and 18 years for the female. It should be the first marriage for both individuals.\n   1. The assistance is applicable only for the applicant’s first marriage.\n\nNote: The claim of incentive for marriage allowance will not be claimed as a matter of right.\n",
+      "eligibilityDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "ol_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant should be a differently-abled person belonging to the Below Poverty Line (BPL) category."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant should furnish a disability certificate indicating at least 40% disability and must possess a valid ration card."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant should belong to the Scheduled Tribe category."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The family income of the applicant should be below ₹18,000/- per annum, certified by the Deputy Commissioner (DC) or Sub-Divisional Officer (SDO) of the respective island."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Both spouses should be natives and permanent residents of Lakshadweep/citizens of India."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant should not have availed benefits under any similar scheme from the State/Central Government or any other agency."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The eligible beneficiary may marry either a differently-abled person or a non-disabled (normal) person."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The minimum age requirement is 21 years for the male and 18 years for the female. It should be the first marriage for both individuals."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The assistance is applicable only for the applicant’s first marriage."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "Note: The claim of incentive for marriage allowance will not be claimed as a matter of right."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "mapdbpl"
+}

@@ -1,0 +1,188 @@
+{
+  "_id": "68c7d8cef8ec7e9e8a888a13",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Injury",
+        "Medical Treatment",
+        "Hospitalization",
+        "Disaster"
+      ],
+      "schemeName": "Ex-Gratia Payment for Life-Threatening Injury Requiring Hospital Stay for Treatment",
+      "schemeShortTitle": "EPLTIRHST",
+      "implementingAgency": "Uttarakhand State Disaster Management Authority",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce87cd6d1a3bde4685312",
+          "label": "Social welfare & Empowerment"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Crisis/Disaster/Accident",
+          "label": "Crisis/Disaster/Accident"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "schemeFor": "Individual",
+      "state": {
+        "value": 5,
+        "label": "Uttarakhand"
+      },
+      "nodalDepartmentName": {
+        "value": 50000007,
+        "label": "Department Of Disaster Management"
+      }
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines (Page No. 304)",
+          "url": "https://uk.gov.in/department92/library_file/file-04-12-2023-06-02-23.pdf"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The scheme “Ex-Gratia Payment for Life-Threatening Injury Requiring Hospital Stay for Treatment” is implemented by the Uttarakhand State Disaster Management Authority under the Department of Disaster Management, Government of Uttarakhand. The scheme aims to provide financial assistance to individuals who sustain life-threatening injuries due to disasters and require hospitalization for treatment.\n<br>\n\n",
+      "benefits_md": "Under this scheme, an ex-gratia grant of ₹16,000/- per person is provided in case of a hospital stay for more than one week, and ₹5,400/- per person in case of a hospital stay for less than one week.\n<br>\n\n",
+      "briefDescription": "The scheme aims to provide financial assistance to individuals who sustain life-threatening injuries due to disasters and require hospitalization for treatment.",
+      "exclusions_md": "",
+      "detailedDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "The scheme “Ex-Gratia Payment for Life-Threatening Injury Requiring Hospital Stay for Treatment” is implemented by the Uttarakhand State Disaster Management Authority under the Department of Disaster Management, Government of Uttarakhand. The scheme aims to provide financial assistance to individuals who sustain life-threatening injuries due to disasters and require hospitalization for treatment."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "Under this scheme, an ex-gratia grant of ₹16,000/- per person is provided in case of a hospital stay for more than one week, and ₹5,400/- per person in case of a hospital stay for less than one week."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "process": [
+          {
+            "type": "align_justify",
+            "children": [
+              {
+                "type": "align_justify",
+                "children": [
+                  {
+                    "type": "paragraph",
+                    "children": [
+                      {
+                        "text": "Information about the disaster and the resulting damage is received from various sources. The concerned Patwari verifies the damage and records it in the P-20 form. The Patwari’s report is subsequently verified by the Tehsildar and the Sub-Divisional Magistrate. Approval is then obtained from the District Magistrate. Once the District Magistrate’s approval is received, relief funds are disbursed to the concerned beneficiaries at the Tehsil level."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          }
+        ],
+        "process_md": "Information about the disaster and the resulting damage is received from various sources. The concerned Patwari verifies the damage and records it in the P-20 form. The Patwari’s report is subsequently verified by the Tehsildar and the Sub-Divisional Magistrate. Approval is then obtained from the District Magistrate. Once the District Magistrate’s approval is received, relief funds are disbursed to the concerned beneficiaries at the Tehsil level.\n<br>\n\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n   1. The applicant must be a resident of Uttarakhand.\n   1. The applicant must be a person admitted to a government or non-government hospital due to an injury caused by a disaster, including those engaged in relief or disaster preparedness activities who sustained injuries during such work.\n\n<br>\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "ol_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant must be a resident of Uttarakhand."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant must be a person admitted to a government or non-government hospital due to an injury caused by a disaster, including those engaged in relief or disaster preparedness activities who sustained injuries during such work."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "atltjrhuk"
+}

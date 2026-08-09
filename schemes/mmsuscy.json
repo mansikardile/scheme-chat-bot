@@ -1,0 +1,692 @@
+{
+  "_id": "67c07bc70589a41767653e89",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": true,
+      "tags": [
+        "Scholarship",
+        "Higher Education",
+        "IIT",
+        "IIM",
+        "Student"
+      ],
+      "schemeName": "Mukhya Mantri Sarvajan Uchcha Shiksha Chhatravriti Yojana",
+      "schemeShortTitle": "MMSUSCY",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce76cd6d1a3bde4685292",
+          "label": "Education & Learning"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Scholarships and student finance",
+          "label": "Scholarships and student finance"
+        },
+        {
+          "value": "Education and training grants, fellowship, stipend",
+          "label": "Education and training grants, fellowship, stipend"
+        }
+      ],
+      "schemeOpenDate": "2015-03-02",
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "state": {
+        "value": 8,
+        "label": "Rajasthan"
+      },
+      "nodalDepartmentName": {
+        "value": 8000035,
+        "label": "Social Justice and Empowerment Department"
+      },
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://sje.rajasthan.gov.in/Default.aspx?PageID=198"
+        },
+        {
+          "title": "Application Portal",
+          "url": "https://sso.rajasthan.gov.in/signin"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The scheme &amp;quot;Mukhyamantri Sarvajan Uchcha Shiksha Chhatravriti Yojana&amp;quot; was launched by the Department of Social Justice &amp;amp; Empowerment, Government of Rajasthan. The main objective of this scheme is to provide financial assistance to students of all sections &amp;amp; castes of Rajasthan who are pursuing higher education in nationally recognized institutions. Under this scheme, 50% of the non-refundable institutional fees are reimbursed to eligible students studying in IITs, IIMs, and other premier institutions.\n",
+      "benefits_md": "**Financial Assistance:**\n\n- Students receive 50% reimbursement of their non-refundable institutional fees (such as tuition, library, medical, and examination fees).\n\n**Direct Benefit Transfer (DBT):****** \n\n- The scholarship amount is transferred directly to the student&#39;s bank account.\n\n**Annual Disbursement:**\n\n- The scholarship is disbursed annually throughout the duration of the course.\n\n**Covers Multiple Institutions:** \n\n- Includes IITs, IIMs, NITs, AIIMS, and other national institutions listed in the [scheme guidelines](https://sje.rajasthan.gov.in/Default.aspx?PageID=198).\n",
+      "briefDescription": "This scheme aims to provide financial assistance to students from all sections of Rajasthan who are pursuing higher education at IITs, IIMs, and other national-level institutions. Under this scheme, 50% of the non-refundable fees are reimbursed to eligible students.",
+      "exclusions_md": "",
+      "detailedDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "The scheme \"Mukhyamantri Sarvajan Uchcha Shiksha Chhatravriti Yojana\" was launched by the Department of Social Justice & Empowerment, Government of Rajasthan. The main objective of this scheme is to provide financial assistance to students of all sections & castes of Rajasthan who are pursuing higher education in nationally recognized institutions. Under this scheme, 50% of the non-refundable institutional fees are reimbursed to eligible students studying in IITs, IIMs, and other premier institutions."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Financial Assistance:",
+              "bold": true,
+              "underline": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "align_justify",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Students receive 50% reimbursement of their non-refundable institutional fees (such as tuition, library, medical, and examination fees)."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Direct Benefit Transfer (DBT):",
+              "bold": true,
+              "underline": true
+            },
+            {
+              "bold": true,
+              "text": " "
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The scholarship amount is transferred directly to the student's bank account."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Annual Disbursement:",
+              "bold": true,
+              "underline": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The scholarship is disbursed annually throughout the duration of the course."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Covers Multiple Institutions:",
+              "bold": true,
+              "underline": true
+            },
+            {
+              "text": " "
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Includes IITs, IIMs, NITs, AIIMS, and other national institutions listed in the "
+                },
+                {
+                  "type": "link",
+                  "link": "https://sje.rajasthan.gov.in/Default.aspx?PageID=198",
+                  "children": [
+                    {
+                      "text": "scheme guidelines"
+                    }
+                  ]
+                },
+                {
+                  "text": "."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Online",
+        "process": [
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "text": "Registration",
+                "bold": true,
+                "underline": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step-1:",
+                "bold": true
+              },
+              {
+                "text": " Applicant have to visit the "
+              },
+              {
+                "type": "link",
+                "link": "https://sso.rajasthan.gov.in/signin",
+                "children": [
+                  {
+                    "text": "official portal"
+                  }
+                ]
+              },
+              {
+                "text": ". "
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step-2: ",
+                "bold": true
+              },
+              {
+                "text": "Click on the option “"
+              },
+              {
+                "type": "link",
+                "link": "https://sso.rajasthan.gov.in/register",
+                "children": [
+                  {
+                    "text": "Register"
+                  }
+                ]
+              },
+              {
+                "text": "”."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step-3:",
+                "bold": true
+              },
+              {
+                "text": " Then you will be redirected to the SSO registration page. The registration page will appear with the following options."
+              }
+            ]
+          },
+          {
+            "type": "ul_list",
+            "children": [
+              {
+                "type": "ul_list",
+                "children": [
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "text": "  Citizen"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step-4: ",
+                "bold": true
+              },
+              {
+                "text": "Choose the either one option from  the Jan Aadhaar Or Google to process further."
+              }
+            ]
+          },
+          {
+            "type": "ul_list",
+            "children": [
+              {
+                "type": "ul_list",
+                "children": [
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "text": "Jan Aadhaar : Enter the Jan Aadhaar number, click on the ‘Next’ button,"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "ul_list",
+                    "children": [
+                      {
+                        "type": "ul_list",
+                        "children": [
+                          {
+                            "type": "list_item",
+                            "children": [
+                              {
+                                "text": "Select your name, the name of the head of the family and all the other members and "
+                              }
+                            ]
+                          },
+                          {
+                            "type": "list_item",
+                            "children": [
+                              {
+                                "text": "Click on the ‘Send OTP’ button. Enter the ‘OTP’ and "
+                              }
+                            ]
+                          },
+                          {
+                            "type": "list_item",
+                            "children": [
+                              {
+                                "text": "Click on the ‘Verify OTP’ button to Complete the registration. "
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ul_list",
+            "children": [
+              {
+                "type": "ul_list",
+                "children": [
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "text": "Google : Enter the Gmail ID, click on the ‘Next’ button, "
+                      }
+                    ]
+                  },
+                  {
+                    "type": "ul_list",
+                    "children": [
+                      {
+                        "type": "ul_list",
+                        "children": [
+                          {
+                            "type": "list_item",
+                            "children": [
+                              {
+                                "text": "Enter the password."
+                              }
+                            ]
+                          },
+                          {
+                            "type": "list_item",
+                            "children": [
+                              {
+                                "text": "A new link appear on screen, now click on new SSO link."
+                              }
+                            ]
+                          },
+                          {
+                            "type": "list_item",
+                            "children": [
+                              {
+                                "text": "SSO id will appear on screen, now create the password."
+                              }
+                            ]
+                          },
+                          {
+                            "type": "list_item",
+                            "children": [
+                              {
+                                "text": "Enter Mobile number, click on registration."
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "text": "Apply",
+                "bold": true,
+                "underline": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step-1:",
+                "bold": true
+              },
+              {
+                "text": " Applicant have to visit the "
+              },
+              {
+                "type": "link",
+                "link": "https://sso.rajasthan.gov.in/signin",
+                "children": [
+                  {
+                    "text": "official portal"
+                  }
+                ]
+              },
+              {
+                "text": ". "
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step-2:",
+                "bold": true
+              },
+              {
+                "text": " After login, dashboard will open."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step-3: ",
+                "bold": true
+              },
+              {
+                "text": "Click on “IFMS-RAJSSP\" option."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step-4: ",
+                "bold": true
+              },
+              {
+                "text": "Select \"Continue to RajSSP\". "
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step-5:",
+                "bold": true
+              },
+              {
+                "text": " Now click on \"Apply for Scheme\" on screen. "
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step-6: ",
+                "bold": true
+              },
+              {
+                "text": "In this new page, will get a list of names of all the schemes, and click on the name of \"SCHOLARSHIP (SJE)\""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "bold": true,
+                "text": "Step-7: "
+              },
+              {
+                "text": "Fill out all relevant details. "
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step-8: ",
+                "bold": true
+              },
+              {
+                "text": "Submit."
+              }
+            ]
+          }
+        ],
+        "process_md": "> **Registration**\n\n**Step-1:** Applicant have to visit the [official portal](https://sso.rajasthan.gov.in/signin). \n**Step-2:** Click on the option “[Register](https://sso.rajasthan.gov.in/register)”.\n**Step-3:** Then you will be redirected to the SSO registration page. The registration page will appear with the following options.\n\n\n  -   Citizen\n\n\n**Step-4:** Choose the either one option from  the Jan Aadhaar Or Google to process further.\n\n\n  - Jan Aadhaar : Enter the Jan Aadhaar number, click on the ‘Next’ button,\n\n\n      - Select your name, the name of the head of the family and all the other members and \n      - Click on the ‘Send OTP’ button. Enter the ‘OTP’ and \n      - Click on the ‘Verify OTP’ button to Complete the registration. \n\n\n\n\n\n\n  - Google : Enter the Gmail ID, click on the ‘Next’ button, \n\n\n      - Enter the password.\n      - A new link appear on screen, now click on new SSO link.\n      - SSO id will appear on screen, now create the password.\n      - Enter Mobile number, click on registration.\n\n\n\n\n> **Apply**\n\n**Step-1:** Applicant have to visit the [official portal](https://sso.rajasthan.gov.in/signin). \n**Step-2:** After login, dashboard will open.\n**Step-3:** Click on “IFMS-RAJSSP&quot; option.\n**Step-4:** Select &quot;Continue to RajSSP&quot;. \n**Step-5:** Now click on &quot;Apply for Scheme&quot; on screen. \n**Step-6:** In this new page, will get a list of names of all the schemes, and click on the name of &quot;SCHOLARSHIP (SJE)&quot;\n**Step-7:** Fill out all relevant details. \n**Step-8:** Submit.\n"
+      },
+      {
+        "mode": "Online - via CSC",
+        "process": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 1:",
+                "bold": true
+              },
+              {
+                "text": " The applicant should gather copies of the necessary documents needed to apply for the concerned scheme."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2:",
+                "bold": true
+              },
+              {
+                "text": " The applicant should visit the nearest E-Mitra Center and complete the Biometric Verification Process."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 3:",
+                "bold": true
+              },
+              {
+                "text": " The applicant should ensure that the E-Mitra Center agent completes all mandatory fields in the application form and uploads copies of all required documents."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 4:",
+                "bold": true
+              },
+              {
+                "text": " Request a receipt or acknowledgment from the concerned authority to whom the application has been submitted. Ensure that the receipt contains essential details such as the date and time of submission, and a unique identification number (if applicable)."
+              }
+            ]
+          }
+        ],
+        "process_md": "**Step 1:** The applicant should gather copies of the necessary documents needed to apply for the concerned scheme.\n**Step 2:** The applicant should visit the nearest E-Mitra Center and complete the Biometric Verification Process.\n**Step 3:** The applicant should ensure that the E-Mitra Center agent completes all mandatory fields in the application form and uploads copies of all required documents.\n**Step 4:** Request a receipt or acknowledgment from the concerned authority to whom the application has been submitted. Ensure that the receipt contains essential details such as the date and time of submission, and a unique identification number (if applicable).\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n1. The applicant should be a native of Rajasthan.\n1. The annual income of the parent/guardian of the student/applicant from all sources (including the applicant’s own income, if any) should be less than ₹5,00,000/-.\n1. The applicant should be enrolled in IITs, IIMs, NITs, AIIMS, or other [national institutions listed](https://sje.rajasthan.gov.in/Default.aspx?PageID=198) under the scheme.1. The applicant should not be availing of any other government scholarship for the same course.\n1. The applicant should maintain academic performance as required for renewal of the scholarship.\n1. An employee pursuing full-time studies while on leave without pay for the entire duration of the course will also be eligible for the scholarship.\n1. The student studying outside Rajasthan in the [listed national institutions](https://sje.rajasthan.gov.in/Default.aspx?PageID=198) are eligible. \n",
+      "eligibilityDescription": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should be a native of Rajasthan."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The annual income of the parent/guardian of the student/applicant from all sources (including the applicant’s own income, if any) should be less than ₹5,00,000/-."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should be enrolled in IITs, IIMs, NITs, AIIMS, or other "
+                },
+                {
+                  "type": "link",
+                  "link": "https://sje.rajasthan.gov.in/Default.aspx?PageID=198",
+                  "children": [
+                    {
+                      "text": "national institutions listed"
+                    }
+                  ]
+                },
+                {
+                  "text": " under the scheme."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should not be availing of any other government scholarship for the same course."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should maintain academic performance as required for renewal of the scholarship."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "An employee pursuing full-time studies while on leave without pay for the entire duration of the course will also be eligible for the scholarship."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The student studying outside Rajasthan in the "
+                },
+                {
+                  "type": "link",
+                  "link": "https://sje.rajasthan.gov.in/Default.aspx?PageID=198",
+                  "children": [
+                    {
+                      "text": "listed national institutions"
+                    }
+                  ]
+                },
+                {
+                  "text": " are eligible. "
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "mmsuscy"
+}

@@ -1,0 +1,300 @@
+{
+  "_id": "67aef7f064e707b6d580e308",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Loan",
+        "Employment",
+        "Entrepreneurship",
+        "Scheduled Caste",
+        "Scheduled Tribe",
+        "Minority",
+        "Safai Karmachari",
+        "Transport"
+      ],
+      "schemeName": "Transport Loan Scheme",
+      "schemeShortTitle": "TLS-DELHI",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce924d6d1a3bde4685354",
+          "label": "Transport & Infrastructure"
+        },
+        {
+          "value": "628ce733d6d1a3bde4685278",
+          "label": "Business & Entrepreneurship"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Public transport and private vehicles",
+          "label": "Public transport and private vehicles"
+        },
+        {
+          "value": "Roads and road transport",
+          "label": "Roads and road transport"
+        },
+        {
+          "value": "Micro finance",
+          "label": "Micro finance"
+        },
+        {
+          "value": "Setting up / start-up / entrepreneurship",
+          "label": "Setting up / start-up / entrepreneurship"
+        },
+        {
+          "value": "Loan",
+          "label": "Loan"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "state": {
+        "value": 7,
+        "label": "Delhi"
+      },
+      "schemeType": null,
+      "nodalMinistryName": null,
+      "nodalDepartmentName": {
+        "value": 70000021,
+        "label": "Social Welfare Department"
+      },
+      "otherMinistryName": null,
+      "otherDepartmentNames": null,
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://dsfdc.delhi.gov.in/sites/default/files/transport_loan_schem_details.pdf"
+        },
+        {
+          "title": "Application Form",
+          "url": "https://dsfdc.delhi.gov.in/sites/default/files/tpt_app_prof_1.pdf"
+        }
+      ],
+      "schemeImageUrl": "",
+      "briefDescription": "\"Transport Loan Scheme\" aims to promote self-employment among target groups by providing term loans for Light Motor Vehicles. The scheme benefits Scheduled Castes, Other Backward Classes, Minorities, and Safai Karamcharis with financial assistance up to ₹5,00,000/-.",
+      "detailedDescription_md": "&quot;Transport Loan Scheme&quot; by the Delhi Scheduled Castes, Scheduled Tribes, Other Backward Classes, Minorities &amp; Safai Karamchari Finance and Development Corporation (DSFDC), Government of NCT of Delhi, aims to promote self-employment among beneficiaries of the target groups by providing term loans for the purchase of Light Motor Vehicles (LMVs). The scheme offers financial assistance up to ₹5,00,000/- to eligible applicants. The target groups include Scheduled Castes, Other Backward Classes, Minorities, and Safai Karamcharis.\n",
+      "benefits_md": "The scheme provides **term loans up to ₹5,00,000/-** for the purchase of Light Motor Vehicles (LMVs).\n_*The loan is recovered in 60 monthly installments over a period of five years, with six months as a moratorium period._\n_*Loans are disbursed subject to the completion of pre and post-sanction formalities._\n",
+      "exclusions_md": "",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "\"Transport Loan Scheme\" by the Delhi Scheduled Castes, Scheduled Tribes, Other Backward Classes, Minorities & Safai Karamchari Finance and Development Corporation (DSFDC), Government of NCT of Delhi, aims to promote self-employment among beneficiaries of the target groups by providing term loans for the purchase of Light Motor Vehicles (LMVs). The scheme offers financial assistance up to ₹5,00,000/- to eligible applicants. The target groups include Scheduled Castes, Other Backward Classes, Minorities, and Safai Karamcharis."
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The scheme provides "
+            },
+            {
+              "text": "term loans up to ₹5,00,000/-",
+              "bold": true
+            },
+            {
+              "text": " for the purchase of Light Motor Vehicles (LMVs)."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "*The loan is recovered in 60 monthly installments over a period of five years, with six months as a moratorium period.",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "*Loans are disbursed subject to the completion of pre and post-sanction formalities.",
+              "italic": true
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "process": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 1:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " The interested applicant should visit the DSFDC branch offices (Rajpur Road, Mangolpuri, Nand Nagri) or headquarters at Rohini to collect the loan application form for the scheme. Alternatively, take print of the "
+              },
+              {
+                "type": "link",
+                "link": "https://dsfdc.delhi.gov.in/sites/default/files/tpt_app_prof_1.pdf",
+                "children": [
+                  {
+                    "text": "prescribed format"
+                  }
+                ]
+              },
+              {
+                "text": " of the application form from the official website of DSFDC."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " In the application form, fill in all the mandatory fields, paste the passport-sized photograph, and attach copies of all the mandatory documents (self-attest, if required)."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 3:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " Submit the duly filled and signed application form along with the documents at the nearest DSFDC branch office or headquarters. Pay the processing fee of ₹350/- via demand draft in favor of DSFDC."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 4:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " The DSFDC will review your application and documents. If approved, you will receive a loan sanction letter. After loan sanction, submit additional documents as required, including guarantor details, post-dated cheques (if applicable), and group photographs. Once all formalities are completed, the loan amount will be disbursed to your account."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "*For any further queries, applicants can visit the DSFDC website or contact their nearest DSFDC office.",
+                "italic": true
+              }
+            ]
+          }
+        ],
+        "process_md": "**Step 1:** The interested applicant should visit the DSFDC branch offices (Rajpur Road, Mangolpuri, Nand Nagri) or headquarters at Rohini to collect the loan application form for the scheme. Alternatively, take print of the [prescribed format](https://dsfdc.delhi.gov.in/sites/default/files/tpt_app_prof_1.pdf) of the application form from the official website of DSFDC.\n**Step 2:** In the application form, fill in all the mandatory fields, paste the passport-sized photograph, and attach copies of all the mandatory documents (self-attest, if required).\n**Step 3:** Submit the duly filled and signed application form along with the documents at the nearest DSFDC branch office or headquarters. Pay the processing fee of ₹350/- via demand draft in favor of DSFDC.\n**Step 4:** The DSFDC will review your application and documents. If approved, you will receive a loan sanction letter. After loan sanction, submit additional documents as required, including guarantor details, post-dated cheques (if applicable), and group photographs. Once all formalities are completed, the loan amount will be disbursed to your account.\n_*For any further queries, applicants can visit the DSFDC website or contact their nearest DSFDC office._\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n- The applicant should be from one of the following target groups - Scheduled Castes, Other Backward Classes, Minorities, and Safai Karamcharis.\n- The applicant should be a permanent resident of Delhi.\n- The applicant’s age should be between 18 to 45 years.\n- The annual family income of the applicants (under Scheduled Caste, Other Backward Classes &amp; Minority category) from all sources should not exceed ₹1,20,000/- per annum.\n- For the creamy layer of the Minority category, the maximum income ceiling is ₹6,00,000/- per annum. \n- There is no income limit prescribed under the Safai Karamchari category.\n- Bonafide valid commercial driving licence &amp; badge required (Light Motor Vehicle).\n- The applicant should have not been declared as a defaulter under any scheme of DSFDC, Nationalized Bank, Financial Institution, or Co-operative Bank etc.\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should be from one of the following target groups - Scheduled Castes, Other Backward Classes, Minorities, and Safai Karamcharis."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should be a permanent resident of Delhi."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant’s age should be between 18 to 45 years."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The annual family income of the applicants (under Scheduled Caste, Other Backward Classes & Minority category) from all sources should not exceed ₹1,20,000/- per annum."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "For the creamy layer of the Minority category, the maximum income ceiling is ₹6,00,000/- per annum. "
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "There is no income limit prescribed under the Safai Karamchari category."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Bonafide valid commercial driving licence & badge required (Light Motor Vehicle)."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should have not been declared as a defaulter under any scheme of DSFDC, Nationalized Bank, Financial Institution, or Co-operative Bank etc."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "tls-delhi"
+}

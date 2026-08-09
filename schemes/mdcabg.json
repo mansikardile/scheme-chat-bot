@@ -1,0 +1,462 @@
+{
+  "_id": "680b5ef42446bbe083d1b9f6",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Financial Assistance",
+        "Institutions",
+        "Prizes Awarded",
+        "Academy"
+      ],
+      "schemeName": "Marathi Drama Competition ‘A' & ‘B' Group ",
+      "schemeShortTitle": "MDCABG",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce8aad6d1a3bde4685320",
+          "label": "Sports & Culture"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Sports",
+          "label": "Sports"
+        },
+        {
+          "value": "Culture",
+          "label": "Culture"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "state": {
+        "value": 30,
+        "label": "Goa"
+      },
+      "nodalDepartmentName": {
+        "value": 30000005,
+        "label": "Art, Culture and Museums Department"
+      },
+      "schemeFor": "Infra"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://artandculture.goa.gov.in/sites/default/files/Kala%20Academy%20Goa%20Schemes.pdf"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The scheme &quot;Marathi Drama Competition &#39;A&#39; &amp; &#39;B&#39; Group&quot; is a state-level cultural initiative by the Kala Academy, under the Department of Art and Culture, Government of Goa. The objective of this scheme is to provide a platform and exposure to theatre groups from both urban and rural areas of Goa. Entries are invited through press notes published in local dailies. Under this scheme, financial assistance is provided to participating institutions in the form of to-and-fro transport charges for two vehicles used for transporting artistes and stage materials, as per government-approved rates and Kala Academy norms.\n",
+      "benefits_md": "\n- Free auditorium with necessary infrastructure as per Kala Academy rules.\n- Transport assistance: Hire charges for two vehicles reimbursed for transporting artists and stage material.\n- 80% of gate collection from ticket sales is given to the participating institution.\n\n<br>\n\n**Amount of Prizes**\n**(Group ‘A’ / Group ‘B’)**\n1st Prize: ₹ 1,00,000/- / ₹ 75,000/-\n2nd Prize: ₹ 50,000/- / ₹ 40,000/-\n3rd Prize: ₹ 50,000/- / ₹ 30,000/-\nConsolation: ₹ 25,000/- each (2 prizes, if &gt;10 performances) / ₹ 20,000/-\n<br>\n\n**Direction**\n1st Prize: ₹ 10,000/- / ₹ 7,000/-\n2nd Prize: ₹ 8,000/- / ₹ 6,000/-\n3rd Prize: ₹ 5,000/- / ₹ 4,000/-\n<br>\n\n**Individual – Acting (Male/Female)**\n1st Prize: ₹ 7,000/- / ₹ 5,000/-\n2nd Prize: ₹ 5,000/- / ₹ 3,000/-\n<br>\n\n**Stage Design/Setting:** ₹ 5,000/- / ₹ 4,000/-\n**Lighting:** ₹ 5,000/- / ₹ 4,000/-\n**Costume:** ₹ 5,000/- / ₹ 4,000/-\n**Background Music:** ₹ 5,000/- / ₹ 4,000/-\n**Make-up:** ₹ 5,000/- / ₹ 4,000/-\n<br>\n\n**Script Writing**\n1st Prize: ₹ 10,000/- / ₹ 7,000/-\n2nd Prize: ₹ 7,000/- / ₹ 5,000/-\n<br>\n\n**Translated/Adapted Script:** ₹ 10,000/- / ₹ 7,000/-\n",
+      "briefDescription": "The scheme \"Marathi Drama Competition 'A' & 'B' Group\" is a state-level initiative by the Kala Academy, under the Department of Art and Culture, Government of Goa. It provides a platform to urban and rural theatre groups and offers transport assistance for artistes and stage material as per govt.",
+      "exclusions_md": "",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The scheme \"Marathi Drama Competition 'A' & 'B' Group\" is a state-level cultural initiative by the Kala Academy, under the Department of Art and Culture, Government of Goa. The objective of this scheme is to provide a platform and exposure to theatre groups from both urban and rural areas of Goa. Entries are invited through press notes published in local dailies. Under this scheme, financial assistance is provided to participating institutions in the form of to-and-fro transport charges for two vehicles used for transporting artistes and stage materials, as per government-approved rates and Kala Academy norms."
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Free auditorium with necessary infrastructure as per Kala Academy rules."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Transport assistance: Hire charges for two vehicles reimbursed for transporting artists and stage material."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "80% of gate collection from ticket sales is given to the participating institution."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Amount of Prizes",
+              "bold": true,
+              "underline": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "(Group ‘A’ / Group ‘B’)",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "1st Prize: ₹ 1,00,000/- / ₹ 75,000/-"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "2nd Prize: ₹ 50,000/- / ₹ 40,000/-"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "3rd Prize: ₹ 50,000/- / ₹ 30,000/-"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Consolation: ₹ 25,000/- each (2 prizes, if >10 performances) / ₹ 20,000/-"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Direction",
+              "bold": true,
+              "underline": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "1st Prize: ₹ 10,000/- / ₹ 7,000/-"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "2nd Prize: ₹ 8,000/- / ₹ 6,000/-"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "3rd Prize: ₹ 5,000/- / ₹ 4,000/-"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Individual – Acting (Male/Female)",
+              "bold": true,
+              "underline": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "1st Prize: ₹ 7,000/- / ₹ 5,000/-"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "2nd Prize: ₹ 5,000/- / ₹ 3,000/-"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Stage Design/Setting:",
+              "bold": true,
+              "underline": true
+            },
+            {
+              "text": " ₹ 5,000/- / ₹ 4,000/-"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Lighting:",
+              "bold": true,
+              "underline": true
+            },
+            {
+              "text": " ₹ 5,000/- / ₹ 4,000/-"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Costume:",
+              "bold": true,
+              "underline": true
+            },
+            {
+              "text": " ₹ 5,000/- / ₹ 4,000/-"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Background Music:",
+              "bold": true,
+              "underline": true
+            },
+            {
+              "text": " ₹ 5,000/- / ₹ 4,000/-"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Make-up:",
+              "bold": true,
+              "underline": true
+            },
+            {
+              "text": " ₹ 5,000/- / ₹ 4,000/-"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Script Writing",
+              "bold": true,
+              "underline": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "1st Prize: ₹ 10,000/- / ₹ 7,000/-"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "2nd Prize: ₹ 7,000/- / ₹ 5,000/-"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Translated/Adapted Script:",
+              "bold": true,
+              "underline": true
+            },
+            {
+              "text": " ₹ 10,000/- / ₹ 7,000/-"
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "process": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 1:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " The interested applicant should visit the Kala Academy, Panaji, Goa, and request a hard copy of the prescribed format of the application form from the Member Secretary."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " In the application form, fill in all the mandatory fields, paste the passport-sized photograph (signed across, if required), and attach copies of all the mandatory documents (self-attest, if required)."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 3:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " Submit the duly filled and signed application form along with the documents, within the prescribed period (if any), to the Member Secretary, Kala Academy, Panaji, Goa."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 4:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " Request a receipt or acknowledgement from the concerned authority to whom the application has been submitted. Ensure that the receipt contains essential details such as the date and time of submission, and a unique identification number (if applicable)."
+              }
+            ]
+          }
+        ],
+        "process_md": "**Step 1:** The interested applicant should visit the Kala Academy, Panaji, Goa, and request a hard copy of the prescribed format of the application form from the Member Secretary.\n**Step 2:** In the application form, fill in all the mandatory fields, paste the passport-sized photograph (signed across, if required), and attach copies of all the mandatory documents (self-attest, if required).\n**Step 3:** Submit the duly filled and signed application form along with the documents, within the prescribed period (if any), to the Member Secretary, Kala Academy, Panaji, Goa.\n**Step 4:** Request a receipt or acknowledgement from the concerned authority to whom the application has been submitted. Ensure that the receipt contains essential details such as the date and time of submission, and a unique identification number (if applicable).\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n1. The institution should be registered under the Societies Registration Act, 1860.\n1. The registration of the institution should be valid and renewed from time to time.\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The institution should be registered under the Societies Registration Act, 1860."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The registration of the institution should be valid and renewed from time to time."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "mdcabg"
+}

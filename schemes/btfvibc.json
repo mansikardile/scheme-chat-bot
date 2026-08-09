@@ -1,0 +1,220 @@
+{
+  "_id": "648adea3481f59106a698195",
+  "en": {
+    "basicDetails": {
+      "schemeOpenDate": null,
+      "schemeCloseDate": null,
+      "state": {
+        "value": 7,
+        "label": "Delhi"
+      },
+      "nodalMinistryName": null,
+      "nodalDepartmentName": {
+        "value": 70000021,
+        "label": "Social Welfare Department"
+      },
+      "otherMinistryName": null,
+      "otherDepartmentNames": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Citizen empowerment",
+          "label": "Citizen empowerment"
+        }
+      ],
+      "dbtScheme": null,
+      "implementingAgency": "Delhi Transport Corporation",
+      "tags": [
+        "Visually Impaired",
+        "Bus Concession",
+        "Free Bus Traveling",
+        "DTC Buses",
+        "Blindness"
+      ],
+      "schemeName": "Bus Traveling Facility For Visually Impaired/Bus Concession",
+      "schemeShortTitle": "BTFVIBC",
+      "level": {
+        "value": "state",
+        "label": "State"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce87cd6d1a3bde4685312",
+          "label": "Social welfare & Empowerment"
+        }
+      ],
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guideline",
+          "url": "https://discomm.delhi.gov.in/discomm/schemes-and-facilities-persons-disabilities"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The scheme “Bus Traveling Facility for Visually Impaired/Bus Concession” was started by Delhi Social Welfare Department for persons with disabilities. Under the scheme, Delhi Transport Corporation provides facility of free traveling in DTC Buses to the persons with vision impairment. Facility of concession to the escort is given to those who have not less than 100% blindness. Before applying to the concerned depot, applicant needs to get card from Sub Divisional Magistrate (SDM).\n",
+      "benefits_md": "\n1. Delhi Transport Corporation provides the facility of free traveling in DTC Buses to persons with vision impairment.\n1. The applicant having 100% disability will get a 50% concession for their escort/attendant.\n\n",
+      "briefDescription": "The scheme “Bus Traveling Facility for Visually Impaired/Bus Concession” was started by Delhi Social Welfare Department for persons with disabilities. Under the scheme, Delhi Transport Corporation provides facility of free traveling in DTC Buses to the persons with vision impairment.",
+      "exclusions_md": "",
+      "detailedDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "The scheme “Bus Traveling Facility for Visually Impaired/Bus Concession” was started by Delhi Social Welfare Department for persons with disabilities. Under the scheme, Delhi Transport Corporation provides facility of free traveling in DTC Buses to the persons with vision impairment. Facility of concession to the escort is given to those who have not less than 100% blindness. Before applying to the concerned depot, applicant needs to get card from Sub Divisional Magistrate (SDM)."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 2,
+        "value": "in-kind",
+        "label": "In Kind"
+      },
+      "benefits": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Delhi Transport Corporation provides the facility of free traveling in DTC Buses to persons with vision impairment."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant having 100% disability will get a 50% concession for their escort/attendant."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "url": "",
+        "process": [
+          {
+            "type": "align_justify",
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 01: ",
+                    "bold": true
+                  },
+                  {
+                    "text": "The eligible applicant can obtain the application form from the respective depot by paying only rupees one. "
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 02:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Filled form with all documents can be submitted at the same depot."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 03:",
+                    "bold": true
+                  },
+                  {
+                    "text": " After successful verification, the bus pass will be issued to the applicant."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Note:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Before applying to the concerned depot, the applicant needs to get the card from Sub Divisional Magistrate (SDM)."
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "process_md": "**Step 01:** The eligible applicant can obtain the application form from the respective depot by paying only rupees one. \n**Step 02:** Filled form with all documents can be submitted at the same depot.\n**Step 03:** After successful verification, the bus pass will be issued to the applicant.\n**Note:** Before applying to the concerned depot, the applicant needs to get the card from Sub Divisional Magistrate (SDM).\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n1. The applicant must be a resident of Delhi.\n1. The applicant should have 40% and above disability.\n1. Before applying to the concerned depot, the applicant needs to get the card from Sub Divisional Magistrate (SDM).\n\n**Note:** Facility of concession to the escort is given to those who have not less than 100% blindness.\n",
+      "eligibilityDescription": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must be a resident of Delhi."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should have 40% and above disability."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Before applying to the concerned depot, the applicant needs to get the card from Sub Divisional Magistrate (SDM)."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Note:",
+              "bold": true
+            },
+            {
+              "text": " Facility of concession to the escort is given to those who have not less than 100% blindness."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "btfvibc"
+}

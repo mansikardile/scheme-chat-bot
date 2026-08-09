@@ -1,0 +1,334 @@
+{
+  "_id": "64ada568380f8e1235481e96",
+  "en": {
+    "basicDetails": {
+      "schemeOpenDate": null,
+      "schemeCloseDate": null,
+      "state": {
+        "value": 33,
+        "label": "Tamil Nadu"
+      },
+      "nodalMinistryName": null,
+      "nodalDepartmentName": {
+        "value": 3333363,
+        "label": "Welfare of Differently Abled Persons Department"
+      },
+      "otherMinistryName": null,
+      "otherDepartmentNames": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Financial assistance",
+          "label": "Financial assistance"
+        }
+      ],
+      "dbtScheme": null,
+      "implementingAgency": null,
+      "tags": [
+        "Scholarship",
+        "Daughter",
+        "Son",
+        "Differently Abled Person",
+        "Tamil Nadu"
+      ],
+      "schemeName": "Scholarship To Son And Daughter Of Differently Abled Persons",
+      "schemeShortTitle": "SSDDAP",
+      "level": {
+        "value": "state",
+        "label": "State"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce87cd6d1a3bde4685312",
+          "label": "Social welfare & Empowerment"
+        }
+      ],
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://www.scd.tn.gov.in/pdf/schemes/pdf/SCHOLARSHIP%20TO%20SON%20AND%20DAUGHTER%20OF%20PERSONS%20WITH.pdf"
+        },
+        {
+          "title": "Application Form",
+          "url": "https://cdn.s3waas.gov.in/s313f3cf8c531952d72e5847c4183e6910/uploads/2021/06/2021060112.pdf"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The &quot;Scholarship to Son and Daughter of Differently Abled Persons&quot; scheme in Tamil Nadu is a government initiative that aims to provide financial assistance to the children of differently abled individuals for their education. The Department implements the scheme for the Welfare of Differently Abled Persons, Government of Tamil Nadu.\nThe scheme provides financial assistance in the form of scholarships to eligible students. The exact amount and duration of the scholarship may vary based on the level of education and the government&#39;s guidelines. The Son/Daughter of persons with disabilities will get financial assistance from Rs.1,000 to Rs.6,000 as Scholarships.\n",
+      "benefits_md": "The scheme provides financial assistance in the form of scholarships to eligible students. The exact amount and duration of the scholarship may vary based on the level of education and the government&#39;s guidelines.\nScholarships given to the Son/Daughter of persons with disabilities are as follows: \n\n1. The daughter studying/Passing in 10th Standard will get Rs.1,000.\n1. The Son who has passed in 10th  Standard will get Rs.1,000. \n1. The daughter studying 11th Standard will get Rs.1,000. \n1. The daughter studying/Passed 12th Standard will get Rs.1,500.\n1. The Son who has passed in 12th Standard will get Rs.1,500. \n1. The Son/daughter doing the undergraduate course will get Rs.1,500 son/daughter doing the undergraduate course with the hostel facility will get Rs.1,750. \n1. The Son/daughter doing the postgraduate course will get Rs.2,000 son/daughter doing the postgraduate course with hostel facility will get Rs.3,000.   \n1. The Son/daughter doing a professional degree course will get Rs.2,000 son/daughter doing a professional degree course with a hostel facility will get Rs.4,000. \n1. The Son/daughter doing a professional Postgraduate course will get Rs.4,000 son/daughter doing professional  \n1. The postgraduate course with a hostel facility will get Rs.6,000.  \n1. I.T.I  or Polytechnic will get Rs.1,000 and I.T.I  or Polytechnic with hostel facility will get Rs.1,200.\n\n",
+      "briefDescription": "The \"Scholarship to Son and Daughter of Differently Abled Persons\" scheme in Tamil Nadu is a government initiative that aims to provide financial assistance to the children of differently abled individuals for their education. ",
+      "exclusions_md": "",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The \"Scholarship to Son and Daughter of Differently Abled Persons\" scheme in Tamil Nadu is a government initiative that aims to provide financial assistance to the children of differently abled individuals for their education. The Department implements the scheme for the Welfare of Differently Abled Persons, Government of Tamil Nadu."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The scheme provides financial assistance in the form of scholarships to eligible students. The exact amount and duration of the scholarship may vary based on the level of education and the government's guidelines. The Son/Daughter of persons with disabilities will get financial assistance from Rs.1,000 to Rs.6,000 as Scholarships."
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The scheme provides financial assistance in the form of scholarships to eligible students. The exact amount and duration of the scholarship may vary based on the level of education and the government's guidelines."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Scholarships given to the Son/Daughter of persons with disabilities are as follows: "
+            }
+          ]
+        },
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The daughter studying/Passing in 10th Standard will get Rs.1,000."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The Son who has passed in 10th  Standard will get Rs.1,000. "
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The daughter studying 11th Standard will get Rs.1,000. "
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The daughter studying/Passed 12th Standard will get Rs.1,500."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The Son who has passed in 12th Standard will get Rs.1,500. "
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The Son/daughter doing the undergraduate course will get Rs.1,500 son/daughter doing the undergraduate course with the hostel facility will get Rs.1,750. "
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The Son/daughter doing the postgraduate course will get Rs.2,000 son/daughter doing the postgraduate course with hostel facility will get Rs.3,000.   "
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The Son/daughter doing a professional degree course will get Rs.2,000 son/daughter doing a professional degree course with a hostel facility will get Rs.4,000. "
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The Son/daughter doing a professional Postgraduate course will get Rs.4,000 son/daughter doing professional  "
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The postgraduate course with a hostel facility will get Rs.6,000.  "
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "I.T.I  or Polytechnic will get Rs.1,000 and I.T.I  or Polytechnic with hostel facility will get Rs.1,200."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "url": "",
+        "process": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 1: Visit the official website of the"
+              },
+              {
+                "type": "link",
+                "link": "https://chennai.nic.in/ta/differently-abled-welfare-schemes/",
+                "children": [
+                  {
+                    "text": " Chennai district"
+                  }
+                ]
+              },
+              {
+                "text": "."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2: Click on the Departments. Select Differently Abled Welfare, after selecting click on Differently Abled Welfare Schemes. "
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 3: You will land on the "
+              },
+              {
+                "type": "link",
+                "link": "https://chennai.nic.in/ta/differently-abled-welfare-schemes/",
+                "children": [
+                  {
+                    "text": "List of Scheme page"
+                  }
+                ]
+              },
+              {
+                "text": " of Differently Abled Welfare Schemes."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 4: Scroll down to the section \"L. Tamilnadu differently abled welfare board schemes\". "
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 5: Download the "
+              },
+              {
+                "type": "link",
+                "link": "https://cdn.s3waas.gov.in/s313f3cf8c531952d72e5847c4183e6910/uploads/2021/06/2021060112.pdf",
+                "children": [
+                  {
+                    "text": "application form"
+                  }
+                ]
+              },
+              {
+                "text": " of the \"S.No. 4 Scholarship to son and daughter of differently-abled persons\"."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Note: The application is to be submitted District Differently Abled Welfare Officer."
+              }
+            ]
+          }
+        ],
+        "process_md": "Step 1: Visit the official website of the[ Chennai district](https://chennai.nic.in/ta/differently-abled-welfare-schemes/).\nStep 2: Click on the Departments. Select Differently Abled Welfare, after selecting click on Differently Abled Welfare Schemes. \nStep 3: You will land on the [List of Scheme page](https://chennai.nic.in/ta/differently-abled-welfare-schemes/) of Differently Abled Welfare Schemes.\nStep 4: Scroll down to the section &quot;L. Tamilnadu differently abled welfare board schemes&quot;. \nStep 5: Download the [application form](https://cdn.s3waas.gov.in/s313f3cf8c531952d72e5847c4183e6910/uploads/2021/06/2021060112.pdf) of the &quot;S.No. 4 Scholarship to son and daughter of differently-abled persons&quot;.\n<br>\n\nNote: The application is to be submitted District Differently Abled Welfare Officer.\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n1. Children of any Differently Abled persons holding the identity card issued by the welfare board for the Differently Abled. \n1. This scholarship is applicable for students studying from Standard 11th to the Postgraduate level, which includes ITI/Polytechnic diploma courses and other higher education programs.\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Children of any Differently Abled persons holding the identity card issued by the welfare board for the Differently Abled. "
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "This scholarship is applicable for students studying from Standard 11th to the Postgraduate level, which includes ITI/Polytechnic diploma courses and other higher education programs."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "ssddap"
+}

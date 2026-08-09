@@ -1,0 +1,177 @@
+{
+  "_id": "65965d48a733b1d73275a418",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Women",
+        "Transport",
+        "Zero Ticket",
+        "Bus",
+        "Empowerment"
+      ],
+      "schemeName": "Zero Ticket Bus Travel Scheme for Women",
+      "schemeShortTitle": "ZTBTSFW",
+      "implementingAgency": "Tamil Nadu Corporation For Development Of Women.",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce924d6d1a3bde4685354",
+          "label": "Transport & Infrastructure"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Roads and road transport",
+          "label": "Roads and road transport"
+        }
+      ],
+      "schemeOpenDate": "2021-05-07",
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "state": {
+        "value": 33,
+        "label": "Tamil Nadu"
+      },
+      "nodalDepartmentName": {
+        "value": 3333365,
+        "label": "Department of Social Welfare and Women Empowerment"
+      },
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://spc.tn.gov.in/IPT_studies/ZTBTphase2.pdf"
+        },
+        {
+          "title": "Website",
+          "url": "https://www.tnsocialwelfare.tn.gov.in/en/specilisationswomen-welfare/free-travel-for-women-in-government-buses"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The Zero Ticket Bus Travel Scheme. The government of Tamil Nadu under the Department of Social Welfare and Women Empowerment announced a scheme whereby women travelers can travel without paying any fare in government-run normal-fare buses (for short distances of up to 30 kilometers) in cities and towns in the state. Women are issued zero tickets (a fareless ticket) when they travel in these buses.\n<br>\n\n Among the women passengers who use the Zero-Ticket Travel Scheme (ZTBT), around 52% of them are below the age of 40. The fact that more than 48% of women users are more than 40 years of age indicates the extent to which this scheme benefits older women. There are no major differences in these proportions across districts.\nZTBT Scheme users are those with educational qualifications of less than fifth grade (5 years of school education). They comprise almost 44% of the sample users \n",
+      "benefits_md": "- Free bus travel in Tamil Nadu government buses. \n- No Need to Pay any Fare up to 30 Kilometers.\n",
+      "briefDescription": " The scheme aims to provide to eligible women/ transgender beneficiaries of Tamil Nadu under the Zero Ticket Bus Travel Scheme for Women, Free of Cost Travel in Government of Tamil Nadu Buses. No Need to Pay any Fare up to 30 Kilometers.",
+      "exclusions_md": "",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The Zero Ticket Bus Travel Scheme. The government of Tamil Nadu under the Department of Social Welfare and Women Empowerment announced a scheme whereby women travelers can travel without paying any fare in government-run normal-fare buses (for short distances of up to 30 kilometers) in cities and towns in the state. Women are issued zero tickets (a fareless ticket) when they travel in these buses."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": " Among the women passengers who use the Zero-Ticket Travel Scheme (ZTBT), around 52% of them are below the age of 40. The fact that more than 48% of women users are more than 40 years of age indicates the extent to which this scheme benefits older women. There are no major differences in these proportions across districts."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "ZTBT Scheme users are those with educational qualifications of less than fifth grade (5 years of school education). They comprise almost 44% of the sample users "
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 2,
+        "value": "in-kind",
+        "label": "In Kind"
+      },
+      "benefits": [
+        {
+          "type": "list_item",
+          "children": [
+            {
+              "text": "Free bus travel in Tamil Nadu government buses. "
+            }
+          ]
+        },
+        {
+          "type": "list_item",
+          "children": [
+            {
+              "text": "No Need to Pay any Fare up to 30 Kilometers."
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "process": [
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "text": "No formal application is needed. Women simply board the bus and request a zero-value ticket from the conductor.",
+                "bold": true
+              }
+            ]
+          }
+        ],
+        "process_md": "> **No formal application is needed. Women simply board the bus and request a zero-value ticket from the conductor.**\n\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n- Only women will be eligible.\n- Women should be permanent Residents of Tamil Nadu.\n- There is a travel limit of 30-kilometers.\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Only women will be eligible."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Women should be permanent Residents of Tamil Nadu."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "There is a travel limit of 30-kilometers."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "tnztbtsfw"
+}

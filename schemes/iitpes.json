@@ -1,0 +1,562 @@
+{
+  "_id": "691af5b82541fcc885ac11dc",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Employee",
+        "Training",
+        "Enterprise",
+        "Incentive",
+        "Skill",
+        "Manufacture"
+      ],
+      "schemeName": "Incentives to Industries For Training Prospective Employees Scheme",
+      "schemeShortTitle": "IITPES",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce733d6d1a3bde4685278",
+          "label": "Business & Entrepreneurship"
+        },
+        {
+          "value": "628ce85cd6d1a3bde4685304",
+          "label": "Skills & Employment"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Setting up / start-up / entrepreneurship",
+          "label": "Setting up / start-up / entrepreneurship"
+        },
+        {
+          "value": "Employee management",
+          "label": "Employee management"
+        },
+        {
+          "value": "Training and Skill Up-gradation",
+          "label": "Training and Skill Up-gradation"
+        },
+        {
+          "value": "Entrepreneurship development",
+          "label": "Entrepreneurship development"
+        },
+        {
+          "value": "Voctional education",
+          "label": "Voctional education"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "business-entity",
+          "label": "Business Entity"
+        }
+      ],
+      "schemeFor": "Individual",
+      "state": {
+        "value": 30,
+        "label": "Goa"
+      },
+      "schemeType": null,
+      "nodalMinistryName": null,
+      "nodalDepartmentName": {
+        "value": 30000010,
+        "label": "Commercial Taxes Department"
+      },
+      "otherMinistryName": null,
+      "otherDepartmentNames": null
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Scheme Guidelines",
+          "url": "https://www.goa.gov.in/wp-content/uploads/2019/10/target-schemes.pdf"
+        }
+      ],
+      "schemeImageUrl": "",
+      "briefDescription": "The scheme aims to address the skill gap in Goa by supporting industrial units to provide demand-driven Short Term Training Courses through recognized institutions, thereby creating manpower suitable for the industry. It offers reimbursement for 60% of training costs up to ₹60,000/- per trainee.",
+      "detailedDescription_md": "The scheme “Incentives to Industries For Training Prospective Employees Scheme” was launched by the Directorate of Industries, Trade &amp; Commerce, Government of Goa. The scheme aims to create manpower suitable to the needs of the Industry and to provide specific skill training to Goan youth to improve their employability by optimally utilizing the infrastructure available in Government and private institutions. The scheme provides reimbursement of 60% of training costs for prospective employees subject to a maximum of ₹60,000/- per employee and ₹7,20,000/- per unit per year. The applications for this scheme must be submitted offline.\n<br>\n\n",
+      "benefits_md": "\n- Reimbursement of 60% of training costs for prospective employees.\n- Maximum reimbursement of ₹60,000/- per employee.\n- Maximum reimbursement of ₹7,20,000/- per unit per year.\n- The benefit is for demand-driven Short Term Training Courses.\n\n_*The benefits under this scheme are subject to recommendation by the Task Force Committee (TFC)._\n_*The benefits are subject to budgetary allocation._\n##### ***Conditions***\n\n- _The payment made to the trainees by the employer, such as stipend, wages, or allowances, shall not be considered as cost of training under this scheme._\n- _No Promissory Estoppel shall be applicable if benefits are discontinued in case the budgetary allocation is exceeded._\n- _The applicant shall allow and/or grant free access to any official authorized by the Directorate of Industries, Trade &amp; Commerce for conducting inspection or supervision of the unit or the registers, or for holding discussions with employed employees, to ensure proper utilization of the financial incentives/subsidies granted by the State Government._\n\n<br>\n\n",
+      "exclusions_md": "The benefit does not extend to refresher courses or retraining courses.\n<br>\n\n",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The scheme “Incentives to Industries For Training Prospective Employees Scheme” was launched by the Directorate of Industries, Trade & Commerce, Government of Goa. The scheme aims to create manpower suitable to the needs of the Industry and to provide specific skill training to Goan youth to improve their employability by optimally utilizing the infrastructure available in Government and private institutions. The scheme provides reimbursement of 60% of training costs for prospective employees subject to a maximum of ₹60,000/- per employee and ₹7,20,000/- per unit per year. The applications for this scheme must be submitted offline."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 3,
+        "value": "composite",
+        "label": "Composite"
+      },
+      "benefits": [
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Reimbursement of 60% of training costs for prospective employees."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Maximum reimbursement of ₹60,000/- per employee."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Maximum reimbursement of ₹7,20,000/- per unit per year."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The benefit is for demand-driven Short Term Training Courses."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "*The benefits under this scheme are subject to recommendation by the Task Force Committee (TFC).",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "*The benefits are subject to budgetary allocation.",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "heading_five",
+          "children": [
+            {
+              "text": "Conditions",
+              "bold": true,
+              "underline": true,
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The payment made to the trainees by the employer, such as stipend, wages, or allowances, shall not be considered as cost of training under this scheme.",
+                  "italic": true
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "No Promissory Estoppel shall be applicable if benefits are discontinued in case the budgetary allocation is exceeded.",
+                  "italic": true
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant shall allow and/or grant free access to any official authorized by the Directorate of Industries, Trade & Commerce for conducting inspection or supervision of the unit or the registers, or for holding discussions with employed employees, to ensure proper utilization of the financial incentives/subsidies granted by the State Government.",
+                  "italic": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ],
+      "exclusions": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The benefit does not extend to refresher courses or retraining courses."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "process": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "The applicant unit must first register as a Micro, Small, Medium, or Large manufacturing enterprise under the Goa State Incentives to Encourage Investments Scheme (Umbrella Scheme) to be eligible for incentives under this scheme.",
+                "italic": true,
+                "bold": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "heading_five",
+            "children": [
+              {
+                "text": "Step 1: Prepare and Submit a Training Proposal to the Skill Training Provider",
+                "bold": true,
+                "underline": true,
+                "italic": true
+              }
+            ]
+          },
+          {
+            "type": "ul_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "The employer shall draft and submit a detailed proposal for the training to the Skill Training Provider (STP), specifying the contents (theory and/or practical), duration, number of trainees, details of on-site training (if any), and the required physical infrastructure."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "The approved STP will use this proposal to determine the course fees, which the employer must then pay."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "heading_five",
+            "children": [
+              {
+                "text": "Step 2: Access and Complete the Application Form",
+                "bold": true,
+                "underline": true,
+                "italic": true
+              }
+            ]
+          },
+          {
+            "type": "ul_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "The applicant must obtain and fill out the "
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://www.goa.gov.in/wp-content/uploads/2019/10/target-schemes.pdf",
+                    "children": [
+                      {
+                        "text": "specified application format"
+                      }
+                    ]
+                  },
+                  {
+                    "text": " for the Incentives to Industries for Training Prospective Employees Scheme."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "The form requires specific details, including the unit's registration number under the umbrella scheme, Skill Training Provider details, course name, number of eligible Goan trainees (aged 18 to 42 years), fees paid, and the amount claimed."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "heading_five",
+            "children": [
+              {
+                "text": "Step 3: Submit the Claim Application and Supporting Documents",
+                "bold": true,
+                "underline": true,
+                "italic": true
+              }
+            ]
+          },
+          {
+            "type": "ul_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "The applicant shall submit the completed application form, along with all supporting documents listed in the scheme's checklist, to the Directorate of Industries, Trade & Commerce."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "heading_five",
+            "children": [
+              {
+                "text": "Scrutiny by the Task Force Committee",
+                "bold": true,
+                "underline": true,
+                "italic": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "The application will undergo scrutiny, and the eligible units will be recommended by the Task Force Committee (TFC)."
+              }
+            ]
+          },
+          {
+            "type": "heading_five",
+            "children": [
+              {
+                "text": "Reimbursement of Benefits",
+                "bold": true,
+                "underline": true,
+                "italic": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Upon successful recommendation and subject to budgetary allocation, the approved amount shall be disbursed to the eligible unit."
+              }
+            ]
+          },
+          {
+            "type": "heading_five",
+            "children": [
+              {
+                "text": "Where to Apply",
+                "bold": true,
+                "underline": true,
+                "italic": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Applications should be submitted to the Directorate of Industries, Trade & Commerce (DITC), Udyog Bhavan, Panaji."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          }
+        ],
+        "process_md": "***The applicant unit must first register as a Micro, Small, Medium, or Large manufacturing enterprise under the Goa State Incentives to Encourage Investments Scheme (Umbrella Scheme) to be eligible for incentives under this scheme.***\n<br>\n\n##### ***Step 1: Prepare and Submit a Training Proposal to the Skill Training Provider***\n\n- The employer shall draft and submit a detailed proposal for the training to the Skill Training Provider (STP), specifying the contents (theory and/or practical), duration, number of trainees, details of on-site training (if any), and the required physical infrastructure.\n- The approved STP will use this proposal to determine the course fees, which the employer must then pay.\n\n##### ***Step 2: Access and Complete the Application Form***\n\n- The applicant must obtain and fill out the [specified application format](https://www.goa.gov.in/wp-content/uploads/2019/10/target-schemes.pdf) for the Incentives to Industries for Training Prospective Employees Scheme.- The form requires specific details, including the unit&#39;s registration number under the umbrella scheme, Skill Training Provider details, course name, number of eligible Goan trainees (aged 18 to 42 years), fees paid, and the amount claimed.\n\n##### ***Step 3: Submit the Claim Application and Supporting Documents***\n\n- The applicant shall submit the completed application form, along with all supporting documents listed in the scheme&#39;s checklist, to the Directorate of Industries, Trade &amp; Commerce.\n\n##### ***Scrutiny by the Task Force Committee***\nThe application will undergo scrutiny, and the eligible units will be recommended by the Task Force Committee (TFC).\n##### ***Reimbursement of Benefits***\nUpon successful recommendation and subject to budgetary allocation, the approved amount shall be disbursed to the eligible unit.\n##### ***Where to Apply***\nApplications should be submitted to the Directorate of Industries, Trade &amp; Commerce (DITC), Udyog Bhavan, Panaji.\n<br>\n\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "##### ***For the Enterprise***\n\n- The applicant must be a Micro, Small, Medium, or Large manufacturing enterprise.\n- The applicant must have registered under the Goa State Incentives to Encourage Investments Scheme (Umbrella Scheme).\n- The training must be conducted only through approved Skill Training Providers (STPs).\n- The course must be a demand driven Short Term Training Course.\n- The scheme shall not be applicable to cases which have claimed similar benefit under any other scheme/program of Government of Goa.\n- The prospective employees/trainees must be between the age of 18 to 42 years.\n- The prospective employees/trainees must fulfill the criteria of being a Goan as defined in the scheme.\n\n##### ***For the Trainee***\n\n- The trainee must satisfy one of the following criteria to be considered a Goan:\n- The person must be born in the State of Goa.\n- The person must have a 10 years Residence Certificate issued by the Mamlatdar.\n- The person must have any other document indicating residence in Goa issued by the Government of India or Government of Goa or its organisations, issued prior to 10 years, to the satisfaction of the Task Force Committee (examples include Driving license, Ration card, Electoral Photo Identity Card (EPIC), or Passport).\n\n<br>\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "heading_five",
+          "children": [
+            {
+              "text": "For the Enterprise",
+              "bold": true,
+              "underline": true,
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must be a Micro, Small, Medium, or Large manufacturing enterprise."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must have registered under the Goa State Incentives to Encourage Investments Scheme (Umbrella Scheme)."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The training must be conducted only through approved Skill Training Providers (STPs)."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The course must be a demand driven Short Term Training Course."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The scheme shall not be applicable to cases which have claimed similar benefit under any other scheme/program of Government of Goa."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The prospective employees/trainees must be between the age of 18 to 42 years."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The prospective employees/trainees must fulfill the criteria of being a Goan as defined in the scheme."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "heading_five",
+          "children": [
+            {
+              "text": "For the Trainee",
+              "bold": true,
+              "underline": true,
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The trainee must satisfy one of the following criteria to be considered a Goan:"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The person must be born in the State of Goa."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The person must have a 10 years Residence Certificate issued by the Mamlatdar."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The person must have any other document indicating residence in Goa issued by the Government of India or Government of Goa or its organisations, issued prior to 10 years, to the satisfaction of the Task Force Committee (examples include Driving license, Ration card, Electoral Photo Identity Card (EPIC), or Passport)."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "iitpes"
+}

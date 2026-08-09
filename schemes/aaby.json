@@ -1,0 +1,483 @@
+{
+  "_id": "644b9a556862564dfd910da2",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": true,
+      "tags": [
+        "Bima",
+        "Insurance",
+        "Labour Welfare",
+        "DBT",
+        "Incentive"
+      ],
+      "schemeName": "Aam Aadmi Bima Yojana",
+      "schemeShortTitle": "AABY",
+      "level": {
+        "value": "central",
+        "label": "Central"
+      },
+      "schemeType": {
+        "value": "central-sector-scheme",
+        "label": "Central Sector Scheme"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce87cd6d1a3bde4685312",
+          "label": "Social welfare & Empowerment"
+        }
+      ],
+      "schemeSubCategory": null,
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "nodalMinistryName": {
+        "value": 496,
+        "label": "Ministry Of Labour and Employment"
+      },
+      "nodalDepartmentName": null,
+      "schemeFor": "Family"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines 1",
+          "url": "https://labour.gov.in/schemes/aam-admi-beema-yojana"
+        },
+        {
+          "title": "Guidelines 2",
+          "url": "https://labour.assam.gov.in/scheme-page/aam-aadmi-bima-yojana"
+        },
+        {
+          "title": "Press Release (PIB)",
+          "url": "https://pib.gov.in/newsite/printrelease.aspx?relid=124604"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The Aam Aadmi Bima Yojana (AABY) is a social security scheme launched by the Ministry of Labour &amp; Employment, Government of India, and implemented through LIC. It provides death and disability coverage to members of 48 specific occupational/vocational groups, rural landless households, and unorganized workers. Beneficiaries aged 18–59 years pay subsidized annual premiums of ₹200 for insurance coverage. Additionally, scholarships are granted for children studying in grades 9–12, ensuring holistic family welfare.\n<br>\n\n",
+      "benefits_md": "&gt; **Life Insurance Coverage:**\n\n\n  - Natural death: ₹30,000/-\n  - Death due to accident: ₹75,000/-\n\n&gt; **Disability Benefits:**\n\n\n  - Total permanent disability (loss of two eyes or two limbs) due to accident: ₹75,000/-\n  - Partial permanent disability (loss of one eye or one limb) due to accident: ₹37,500/-\n\n**Scholarship:**\n\n  - Two children of the beneficiary studying between 9th to 12th Standard shall receive ₹100/- per month (for each child half yearly – on 1st July and on 1st January, each year).\n\n&lt;br&gt;\n\n&gt; **Annual Premium Amount:** ₹200/- per member.\n\n\n  - **Subsidy from Social Security Fund (SSF):** 50% of the total premium (₹100/-) is subsidized by the Government of India through the Social Security Fund (SSF).  - **Premium Payment for Rural Landless Households (RLH):** The remaining 50% of the premium (₹100/-) is paid by the respective State Government or Union Territory.  - **Premium Payment for Other Occupational Groups:** The remaining 50% of the premium (₹100/-) is covered by a combination of contributions from the Nodal Agency, the Member, and/or the State Government/Union Territory.\n",
+      "exclusions_md": "<br>\n\n<br>\n\n",
+      "briefDescription": "The Aam Aadmi Bima Yojana (AABY) is a social security scheme for rural landless households implemented by the Ministry of Labour & Employment, Government of India. The scheme provides insurance coverage to the head of the household or an earning member of the family in the age group of 18 to 59.",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The Aam Aadmi Bima Yojana (AABY) is a social security scheme launched by the Ministry of Labour & Employment, Government of India, and implemented through LIC. It provides death and disability coverage to members of 48 specific occupational/vocational groups, rural landless households, and unorganized workers. Beneficiaries aged 18–59 years pay subsidized annual premiums of ₹200 for insurance coverage. Additionally, scholarships are granted for children studying in grades 9–12, ensuring holistic family welfare."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "block_quote",
+              "children": [
+                {
+                  "text": "Life Insurance Coverage:",
+                  "bold": true
+                }
+              ]
+            },
+            {
+              "type": "ul_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Natural death: ₹30,000/-"
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Death due to accident: ₹75,000/-"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "block_quote",
+              "children": [
+                {
+                  "text": "Disability Benefits:",
+                  "bold": true
+                }
+              ]
+            },
+            {
+              "type": "ul_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Total permanent disability (loss of two eyes or two limbs) due to accident: ₹75,000/-"
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Partial permanent disability (loss of one eye or one limb) due to accident: ₹37,500/-"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "Scholarship:",
+                  "bold": true
+                }
+              ]
+            },
+            {
+              "type": "ul_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Two children of the beneficiary studying between 9th to 12th Standard shall receive ₹100/- per month (for each child half yearly – on 1st July and on 1st January, each year)."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": ""
+                }
+              ]
+            },
+            {
+              "type": "block_quote",
+              "children": [
+                {
+                  "text": "Annual Premium Amount:",
+                  "bold": true
+                },
+                {
+                  "text": " ₹200/- per member."
+                }
+              ]
+            },
+            {
+              "type": "ul_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Subsidy from Social Security Fund (SSF): ",
+                      "bold": true
+                    },
+                    {
+                      "text": "50% of the total premium (₹100/-) is subsidized by the Government of India through the Social Security Fund (SSF)."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Premium Payment for Rural Landless Households (RLH):",
+                      "bold": true
+                    },
+                    {
+                      "text": " The remaining 50% of the premium (₹100/-) is paid by the respective State Government or Union Territory."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Premium Payment for Other Occupational Groups:",
+                      "bold": true
+                    },
+                    {
+                      "text": " The remaining 50% of the premium (₹100/-) is covered by a combination of contributions from the Nodal Agency, the Member, and/or the State Government/Union Territory."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "exclusions": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "url": "",
+        "process": [
+          {
+            "type": "align_justify",
+            "children": [
+              {
+                "type": "block_quote",
+                "children": [
+                  {
+                    "text": "Death Claim Procedure:",
+                    "bold": true
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 1:",
+                    "bold": true
+                  },
+                  {
+                    "text": " The nominee of the deceased member submits a claim application to the designated official of the Nodal Agency along with the original death certificate and an attested copy."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 2:",
+                    "bold": true
+                  },
+                  {
+                    "text": " The designated official verifies the submitted claim documents."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 3:",
+                    "bold": true
+                  },
+                  {
+                    "text": " The Nodal Agency prepares a claim packet, including the completed claim form, the death certificate, and a certificate confirming the deceased was the head or earning member of a BPL or marginally above BPL family under eligible occupations."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 4:",
+                    "bold": true
+                  },
+                  {
+                    "text": " The verified claim packet is forwarded to LIC for processing."
+                  }
+                ]
+              },
+              {
+                "type": "block_quote",
+                "children": [
+                  {
+                    "text": "Accident Claim Procedure:",
+                    "bold": true
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 1:",
+                    "bold": true
+                  },
+                  {
+                    "text": " The nominee submits an application along with the Death Registration Certificate and additional documents, including the FIR, Post Mortem Report, Police Inquest Report, and Police Conclusion Report or Final Report."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 2:",
+                    "bold": true
+                  },
+                  {
+                    "text": " The Nodal Agency verifies the documents and forwards the claim to LIC for further processing."
+                  }
+                ]
+              },
+              {
+                "type": "block_quote",
+                "children": [
+                  {
+                    "text": "Scholarship Claim Procedure:",
+                    "bold": true
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 1:",
+                    "bold": true
+                  },
+                  {
+                    "text": " The member whose child is eligible for a scholarship fills out a scholarship application form twice a year and submits it to the Nodal Agency."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 2: ",
+                    "bold": true
+                  },
+                  {
+                    "text": "The Nodal Agency identifies the eligible students and prepares a list of beneficiaries."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 3:",
+                    "bold": true
+                  },
+                  {
+                    "text": " The list, along with details such as the student’s name, school, class, member details, and NEFT information, is sent to LIC’s P&GS unit."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 4: ",
+                    "bold": true
+                  },
+                  {
+                    "text": "LIC disburses the scholarship amount directly to the beneficiary’s bank account through NEFT every half year on 1st July and 1st January."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": ""
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "process_md": "&gt; **Death Claim Procedure:**\n\n**Step 1:** The nominee of the deceased member submits a claim application to the designated official of the Nodal Agency along with the original death certificate and an attested copy.\n**Step 2:** The designated official verifies the submitted claim documents.\n**Step 3:** The Nodal Agency prepares a claim packet, including the completed claim form, the death certificate, and a certificate confirming the deceased was the head or earning member of a BPL or marginally above BPL family under eligible occupations.\n**Step 4:** The verified claim packet is forwarded to LIC for processing.\n&gt; **Accident Claim Procedure:**\n\n**Step 1:** The nominee submits an application along with the Death Registration Certificate and additional documents, including the FIR, Post Mortem Report, Police Inquest Report, and Police Conclusion Report or Final Report.\n**Step 2:** The Nodal Agency verifies the documents and forwards the claim to LIC for further processing.\n&gt; **Scholarship Claim Procedure:**\n\n**Step 1:** The member whose child is eligible for a scholarship fills out a scholarship application form twice a year and submits it to the Nodal Agency.\n**Step 2:** The Nodal Agency identifies the eligible students and prepares a list of beneficiaries.\n**Step 3:** The list, along with details such as the student’s name, school, class, member details, and NEFT information, is sent to LIC’s P&amp;amp;GS unit.\n**Step 4:** LIC disburses the scholarship amount directly to the beneficiary’s bank account through NEFT every half year on 1st July and 1st January.\n&lt;br&gt;\n\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n  - The applicant should be aged between 18 and 59 years.\n  - The applicant should normally be the head of the family or an earning member.\n  - The applicant’s family should be categorized as below the poverty line (BPL) or marginally above the poverty line.\n  - The applicant should belong to an identified occupational or vocational group.\n  - The applicant should be part of a rural landless household.\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "ul_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant should be aged between 18 and 59 years."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant should normally be the head of the family or an earning member."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant’s family should be categorized as below the poverty line (BPL) or marginally above the poverty line."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant should belong to an identified occupational or vocational group."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant should be part of a rural landless household."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "aaby"
+}

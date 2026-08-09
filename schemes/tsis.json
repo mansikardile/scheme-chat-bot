@@ -1,0 +1,158 @@
+{
+  "_id": "67987787f4330f0a719079b9",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Education",
+        "Student",
+        "School",
+        "Laptop"
+      ],
+      "schemeName": "Laptop Supply Scheme",
+      "schemeShortTitle": "TSIS",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce76cd6d1a3bde4685292",
+          "label": "Education & Learning"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Scholarships and student finance",
+          "label": "Scholarships and student finance"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "state": {
+        "value": 23,
+        "label": "Madhya Pradesh"
+      },
+      "nodalDepartmentName": {
+        "value": 2300039,
+        "label": "School Education Department"
+      },
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Scheme Details",
+          "url": "https://khargone.nic.in/en/scheme/laptop-supply-scheme/"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "&quot;Laptop Supply Scheme&quot; by the School Education Department, Government of Madhya Pradesh provides ₹25,000/- for purchasing a laptop to students who score 80% or more in 12th Standard from a Government Higher Secondary School or a Madhya Pradesh Board (MP Board) affiliated school.\n",
+      "benefits_md": "An amount of ₹25,000/- is provided for purchasing a laptop.\n",
+      "exclusions_md": "<br>\n\n",
+      "briefDescription": "\"Laptop Supply Scheme\" by the School Education Department, Government of Madhya Pradesh provides ₹25,000/- for purchasing a laptop to students who score 80% or more in 12th Standard from a Government Higher Secondary School or a Madhya Pradesh Board (MP Board) affiliated school.",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "\"Laptop Supply Scheme\" by the School Education Department, Government of Madhya Pradesh provides ₹25,000/- for purchasing a laptop to students who score 80% or more in 12th Standard from a Government Higher Secondary School or a Madhya Pradesh Board (MP Board) affiliated school."
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "An amount of ₹25,000/- is provided for purchasing a laptop."
+            }
+          ]
+        }
+      ],
+      "exclusions": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "process": [
+          {
+            "type": "align_justify",
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "The entire proceedings are prepared by the class teacher of the school and sent to the district education officer’s office."
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "process_md": "The entire proceedings are prepared by the class teacher of the school and sent to the district education officer’s office.\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n   1. The applicant should be a student.\n   1. The applicant should be a permanent resident of Madhya Pradesh.\n   1. The applicant should have passed the 12th Standard with 80% or above marks.\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "ol_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant should be a student."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant should be a permanent resident of Madhya Pradesh."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant should have passed the 12th Standard with 80% or above marks."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "tsis"
+}

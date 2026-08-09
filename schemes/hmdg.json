@@ -1,0 +1,423 @@
+{
+  "_id": "62999e3272acc0e5ffb4e42c",
+  "en": {
+    "basicDetails": {
+      "schemeOpenDate": null,
+      "schemeCloseDate": null,
+      "state": null,
+      "nodalMinistryName": {
+        "value": 489,
+        "label": "Ministry Of Health & Family Welfare"
+      },
+      "nodalDepartmentName": {
+        "value": 509,
+        "label": "Department of Health and Family Welfare"
+      },
+      "otherMinistryName": null,
+      "otherDepartmentNames": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Disease and conditions",
+          "label": "Disease and conditions"
+        },
+        {
+          "value": "Financial assistance",
+          "label": "Financial assistance"
+        },
+        {
+          "value": "Health promotion",
+          "label": "Health promotion"
+        }
+      ],
+      "dbtScheme": false,
+      "implementingAgency": null,
+      "tags": [
+        "Health",
+        "Disease",
+        "Hospital",
+        "Medical Facility",
+        "Patient"
+      ],
+      "schemeName": "Health Minister’s Discretionary Grant",
+      "schemeShortTitle": "HMDG",
+      "level": {
+        "value": "central",
+        "label": "Central"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce7a2d6d1a3bde46852b1",
+          "label": "Health & Wellness",
+          "subcategories": [
+            "Children’s health and immunization",
+            "Disease and conditions",
+            "Health promotion",
+            "Health care providers and access",
+            "Medicine and health products",
+            "Mental health",
+            "Sports & fitness",
+            "Workplace health and safety",
+            "Medical insurance",
+            "Financial assistance",
+            "Menstrual hygiene",
+            "Pregnancy care",
+            "Emergency medical assistance"
+          ]
+        }
+      ],
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://main.mohfw.gov.in/major-programmes/poor-patients-financial-assistance/health-ministers-discretionary-grant-hmdg"
+        }
+      ],
+      "schemeImageUrl": "",
+      "briefDescription": "A health scheme by Ministry of Health & Family Welfare for financially poor patients to defray a part of the expenditure on Hospitalization/treatment in Government Hospitals,for life threatening diseases covered under Rashtriya Arogya Nidhi (RAN), in cases where free medical facilities aren't there.",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "A health scheme by Ministry of Health & Family Welfare for financially poor patients to defray a part of the expenditure on Hospitalization/treatment in Government Hospitals,for life threatening diseases covered under Rashtriya Arogya Nidhi (RAN), in cases where free medical facilities are not available. Only those having annual family income up to Rs.1.25,000/- and below are eligible for financial assistance from Health Minister’s Discretionary Grant (HMDG). Under this scheme, Financial assistance is provided towards treatment in Government hospitals including super specialty Government hospitals / institutes."
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "value": "Cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Financial assistance towards treatment in Government hospitals including super specialty Government hospitals / institutes.",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Financial Assistance of ₹50,000/- if the estimated cost of treatment is up to ₹1,00,000/- ."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Financial Assistance of ₹75,000/- if the estimated cost of treatment is above ₹1,00,000/- & up to ₹1,50,000/-."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Financial Assistance of ₹1,00,000/- if the estimated cost of treatment is above ₹1,50,000/-."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ],
+      "exclusions": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The following cases are not eligible to avail benefits under HMDG:",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Prolonged treatment involving recurring expenditure is not permissible."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "diseases of common nature where treatment is not expensive."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "T.B. cases"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Cases for treatment in private hospital."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Central as well as State Government employees."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "detailedDescription_md": "A health scheme by Ministry of Health &amp; Family Welfare for financially poor patients to defray a part of the expenditure on Hospitalization/treatment in Government Hospitals,for life threatening diseases covered under Rashtriya Arogya Nidhi (RAN), in cases where free medical facilities are not available. Only those having annual family income up to Rs.1.25,000/- and below are eligible for financial assistance from Health Minister’s Discretionary Grant (HMDG). Under this scheme, Financial assistance is provided towards treatment in Government hospitals including super specialty Government hospitals / institutes.\n"
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "url": "https://main.mohfw.gov.in/sites/default/files/4451946500hmdgappl_1_1_0.pdf",
+        "process": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 1:",
+                "bold": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "The application form can be downloaded from the following link:"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              },
+              {
+                "type": "link",
+                "link": "https://main.mohfw.gov.in/sites/default/files/4451946500hmdgappl_1_1_0.pdf",
+                "children": [
+                  {
+                    "text": "https://main.mohfw.gov.in/sites/default/files/4451946500hmdgappl_1_1_0.pdf"
+                  }
+                ]
+              },
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              },
+              {
+                "type": "link",
+                "link": "https://main.mohfw.gov.in/sites/default/files/4451946500hmdgappl_1_1_0.pdf",
+                "children": [
+                  {
+                    "text": ""
+                  }
+                ]
+              },
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "",
+                "bold": true
+              },
+              {
+                "type": "link",
+                "link": "https://main.mohfw.gov.in/sites/default/files/4451946500hmdgappl_1_1_0.pdf",
+                "children": [
+                  {
+                    "text": "Step 2:",
+                    "bold": true
+                  }
+                ]
+              },
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              },
+              {
+                "type": "link",
+                "link": "https://main.mohfw.gov.in/sites/default/files/4451946500hmdgappl_1_1_0.pdf",
+                "children": [
+                  {
+                    "text": "Take print of the application form and duly fill the mandatory fields."
+                  }
+                ]
+              },
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              },
+              {
+                "type": "link",
+                "link": "https://main.mohfw.gov.in/sites/default/files/4451946500hmdgappl_1_1_0.pdf",
+                "children": [
+                  {
+                    "text": ""
+                  }
+                ]
+              },
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "",
+                "bold": true
+              },
+              {
+                "type": "link",
+                "link": "https://main.mohfw.gov.in/sites/default/files/4451946500hmdgappl_1_1_0.pdf",
+                "children": [
+                  {
+                    "text": "Step 3:",
+                    "bold": true
+                  }
+                ]
+              },
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              },
+              {
+                "type": "link",
+                "link": "https://main.mohfw.gov.in/sites/default/files/4451946500hmdgappl_1_1_0.pdf",
+                "children": [
+                  {
+                    "text": "The duly filled application needs to be submitted to either of the following: Doctor / HOD / Medical Superintendent of the Hospital."
+                  }
+                ]
+              },
+              {
+                "text": ""
+              },
+              {
+                "type": "link",
+                "link": "https://main.mohfw.gov.in/sites/default/files/4451946500hmdgappl_1_1_0.pdf",
+                "children": [
+                  {
+                    "text": ""
+                  }
+                ]
+              },
+              {
+                "text": ""
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n1. The applicant must not be an employee of either Central or State Govt.\n1. The applicant must have been Hospitalized / Undergoing Treatment in a Government Hospital (including super specialty Government hospitals / institutes).\n1. The Total Annual Family Income of the applicant must not exceed ₹1,00,000/- per annum.\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must not be an employee of either Central or State Govt."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must have been Hospitalized / Undergoing Treatment in a Government Hospital (including super specialty Government hospitals / institutes)."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The Total Annual Family Income of the applicant must not exceed ₹1,00,000/- per annum."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "hmdg"
+}

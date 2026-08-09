@@ -1,0 +1,391 @@
+{
+  "_id": "63bfbc794b939a5de6a11bb4",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": null,
+      "tags": [
+        "Tuberculosis",
+        "Health",
+        "Financial Assistance"
+      ],
+      "schemeName": "Nikshay Poshan Yojana",
+      "schemeShortTitle": "NIKSHAY",
+      "level": {
+        "value": "central",
+        "label": "Central"
+      },
+      "schemeType": {
+        "value": "central-sector-scheme",
+        "label": "Central Sector Scheme"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce7a2d6d1a3bde46852b1",
+          "label": "Health & Wellness"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Financial assistance",
+          "label": "Financial assistance"
+        }
+      ],
+      "schemeOpenDate": "2018-04-01",
+      "targetBeneficiaries": [
+        {
+          "label": "All",
+          "value": "All"
+        }
+      ],
+      "schemeFor": "Individual",
+      "nodalMinistryName": {
+        "value": 489,
+        "label": "Ministry Of Health & Family Welfare"
+      },
+      "nodalDepartmentName": {
+        "value": 509,
+        "label": "Department of Health and Family Welfare"
+      }
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "url": "https://tbcindia.mohfw.gov.in/wp-content/uploads/2023/05/23294204DBTManualForNTEP.pdf",
+          "title": "Guidelines"
+        },
+        {
+          "title": "Official Website",
+          "url": "https://www.nikshay.in/"
+        },
+        {
+          "title": "State TB Officer Directory",
+          "url": "https://reports.nikshay.in/Reports/StosDirectory"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The &quot;Nikshay Poshan Yojana&quot;, launched in 2018 by the Ministry of Health and Family Welfare, provides financial assistance of ₹1,000/- per month to each notified tuberculosis (TB) patient for nutritional support. All TB patients notified on or after 1st April 2018 and registered on the NIKSHAY portal are eligible. The scheme aims to improve treatment outcomes by addressing malnutrition and supporting patients throughout their treatment.\n",
+      "benefits_md": "- **Financial Incentive:** An amount of ₹1,000/- per month for each notified TB patient.<br>\n\n",
+      "exclusions_md": "<br>\n\n",
+      "briefDescription": "Ministry of Health and Family Welfare, Government of India has announced the scheme for incentives for nutritional support to TB patients. This scheme will be called “Nikshay Poshan Yojana”. ",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The \"Nikshay Poshan Yojana\", launched in 2018 by the Ministry of Health and Family Welfare, provides financial assistance of ₹1,000/- per month to each notified tuberculosis (TB) patient for nutritional support. All TB patients notified on or after 1st April 2018 and registered on the NIKSHAY portal are eligible. The scheme aims to improve treatment outcomes by addressing malnutrition and supporting patients throughout their treatment."
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "list_item",
+          "children": [
+            {
+              "text": "Financial Incentive:",
+              "bold": true
+            },
+            {
+              "text": " An amount of ₹1,000/- per month for each notified TB patient."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ],
+      "exclusions": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Online",
+        "url": " https://www.nikshay.in",
+        "process": [
+          {
+            "type": "align_justify",
+            "children": [
+              {
+                "type": "block_quote",
+                "children": [
+                  {
+                    "text": "Submission of Bank Account Details:",
+                    "bold": true,
+                    "underline": true
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 1: ",
+                    "bold": true
+                  },
+                  {
+                    "text": "Patient need to submit his/her Aadhaar-linked savings bank account to TB health provider."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 2: ",
+                    "bold": true
+                  },
+                  {
+                    "text": "Supporting documents like a Aadhaar number, passbook, canceled cheque, or bank statement must be collected."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 3: ",
+                    "bold": true
+                  },
+                  {
+                    "text": "If Patient don't have a bank account:"
+                  }
+                ]
+              },
+              {
+                "type": "ol_list",
+                "children": [
+                  {
+                    "type": "align_justify",
+                    "children": [
+                      {
+                        "type": "ul_list",
+                        "children": [
+                          {
+                            "type": "list_item",
+                            "children": [
+                              {
+                                "text": "Open a new account (e.g., via Jan Dhan Yojana/India Post Payments Bank)."
+                              }
+                            ]
+                          },
+                          {
+                            "type": "list_item",
+                            "children": [
+                              {
+                                "text": "Alternatively, Patient may nominate a family member’s account with a written consent (standard format available in the manual)."
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "block_quote",
+                "children": [
+                  {
+                    "text": "Registration in Nikshay:",
+                    "bold": true,
+                    "underline": true
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 1: ",
+                    "bold": true
+                  },
+                  {
+                    "text": "Patient bank details will be entered by the TB health staff into the Nikshay system."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 2: ",
+                    "bold": true
+                  },
+                  {
+                    "text": "Ensure Patient account is unique—no two beneficiaries can use the same bank account."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 3: ",
+                    "bold": true
+                  },
+                  {
+                    "text": "Nikshay will automatically send the bank details to PFMS for validation."
+                  }
+                ]
+              },
+              {
+                "type": "block_quote",
+                "children": [
+                  {
+                    "text": "Bank Account Validation via PFMS:",
+                    "bold": true,
+                    "underline": true
+                  }
+                ]
+              },
+              {
+                "type": "ol_list",
+                "children": [
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "text": "Once validated:"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "align_justify",
+                    "children": [
+                      {
+                        "type": "ul_list",
+                        "children": [
+                          {
+                            "type": "list_item",
+                            "children": [
+                              {
+                                "text": "A PFMS Beneficiary ID is assigned."
+                              }
+                            ]
+                          },
+                          {
+                            "type": "list_item",
+                            "children": [
+                              {
+                                "text": "Patient status in Nikshay changes to “Validated”."
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "text": "If rejected:"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "align_justify",
+                    "children": [
+                      {
+                        "type": "ul_list",
+                        "children": [
+                          {
+                            "type": "list_item",
+                            "children": [
+                              {
+                                "text": "Patient will receive an SMS asking his/her to contact the health staff to correct the bank details."
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "children": [
+                      {
+                        "text": ""
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": ""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          }
+        ],
+        "process_md": "&gt; **Submission of Bank Account Details:**\n\n**Step 1:** Patient need to submit his/her Aadhaar-linked savings bank account to TB health provider.\n**Step 2:** Supporting documents like a Aadhaar number, passbook, canceled cheque, or bank statement must be collected.\n**Step 3:** If Patient don&amp;#39;t have a bank account:\n\n\n    - Open a new account (e.g., via Jan Dhan Yojana/India Post Payments Bank).\n    - Alternatively, Patient may nominate a family member’s account with a written consent (standard format available in the manual).\n\n\n&gt; **Registration in Nikshay:**\n\n**Step 1:** Patient bank details will be entered by the TB health staff into the Nikshay system.\n**Step 2:** Ensure Patient account is unique—no two beneficiaries can use the same bank account.\n**Step 3:** Nikshay will automatically send the bank details to PFMS for validation.\n&gt; **Bank Account Validation via PFMS:**\n\n\n   1. Once validated:\n\n    - A PFMS Beneficiary ID is assigned.\n    - Patient status in Nikshay changes to “Validated”.\n\n   1. If rejected:\n\n    - Patient will receive an SMS asking his/her to contact the health staff to correct the bank details.\n\n\n&lt;br&gt;\n\n<br>\n\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n- All patients with tuberculosis (TB) who are notified to the government on or after April 1, 2018, including those who are already being treated for TB, are eligible for financial incentives.\n- To be eligible for the incentives, patients must be registered or notified on the NIKSHAY portal.\n\n<br>\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "All patients with tuberculosis (TB) who are notified to the government on or after April 1, 2018, including those who are already being treated for TB, are eligible for financial incentives."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "To be eligible for the incentives, patients must be registered or notified on the NIKSHAY portal."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "nikshay"
+}

@@ -1,0 +1,162 @@
+{
+  "_id": "660bc845c90f6c809880d5f9",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Disaster",
+        "Calamity",
+        "Catastrophe",
+        "Relief",
+        "Worker"
+      ],
+      "schemeName": "Interim Relief to the Beneficiaries Affected by Disaster (GBOCWWB)",
+      "schemeShortTitle": "IRBAD-GBOCWWB",
+      "implementingAgency": "Goa Building And Other Construction Workers Welfare Board",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce87cd6d1a3bde4685312",
+          "label": "Social welfare & Empowerment"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Crisis/Disaster/Accident",
+          "label": "Crisis/Disaster/Accident"
+        },
+        {
+          "value": "Financial assistance",
+          "label": "Financial assistance"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "state": {
+        "value": 30,
+        "label": "Goa"
+      },
+      "schemeType": null,
+      "nodalMinistryName": null,
+      "nodalDepartmentName": {
+        "value": 30000027,
+        "label": "Labour and Employment Department"
+      },
+      "otherMinistryName": null,
+      "otherDepartmentNames": null,
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://www.goa.gov.in/wp-content/uploads/2016/05/schemesofbocw-dated-08-09-2015.pdf"
+        },
+        {
+          "title": "Citizen's Charter",
+          "url": "https://www.goa.gov.in/wp-content/uploads/2016/05/Citizen-Charter-Labour-Depatment-DATED-16032016.pdf"
+        },
+        {
+          "title": "Application Form",
+          "url": "https://labour.goa.gov.in/wp-content/uploads/2020/07/Scheme-12-Interim-Relief-To-The-Beneficiaries-Affected-By-Disaster.pdf"
+        },
+        {
+          "title": "Contact Us",
+          "url": "https://www.goa.gov.in/department/commissioner-labour-and-employment/"
+        }
+      ],
+      "schemeImageUrl": "",
+      "briefDescription": "Through \"Interim Relief to the Beneficiaries Affected by Disaster (GBOCWWB)\" , the beneficiaries of the Board who are affected by disasters, catastrophes or natural calamities are extended immediate relief of up to ₹10,00,000/-. This shall include cash payment to beneficiaries of the affected area.",
+      "detailedDescription_md": "&quot;Interim Relief to the Beneficiaries Affected by Disaster (GBOCWWB)&quot; is a Welfare Scheme by the Goa Building and Other Construction Workers Welfare Board of the Department of Labour and Employment, Goa. Through this scheme, the beneficiaries of the Board who are affected by disasters, catastrophes or natural calamities are extended immediate relief of up to ₹10,00,000/-. This shall include cash payment to beneficiaries of the affected area and expenditure towards all the facilities and benefits granted to such beneficiaries.\n",
+      "benefits_md": "An immediate relief of up to ₹10,00,000/-.\n_*The committee shall decide about the modalities regarding disbursement of such relief, quantum and procedure to be followed for such disbursement._\n",
+      "exclusions_md": "",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "\"Interim Relief to the Beneficiaries Affected by Disaster (GBOCWWB)\" is a Welfare Scheme by the Goa Building and Other Construction Workers Welfare Board of the Department of Labour and Employment, Goa. Through this scheme, the beneficiaries of the Board who are affected by disasters, catastrophes or natural calamities are extended immediate relief of up to ₹10,00,000/-. This shall include cash payment to beneficiaries of the affected area and expenditure towards all the facilities and benefits granted to such beneficiaries."
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "An immediate relief of up to ₹10,00,000/-."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "*The committee shall decide about the modalities regarding disbursement of such relief, quantum and procedure to be followed for such disbursement.",
+              "italic": true
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "process": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "The committee shall decide about the modalities regarding disbursement of such relief, quantum and procedure to be followed for such disbursement.",
+                "italic": true
+              }
+            ]
+          }
+        ],
+        "process_md": "_The committee shall decide about the modalities regarding disbursement of such relief, quantum and procedure to be followed for such disbursement._\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n- The applicant should be a beneficiary of a scheme of the Goa Building and Other Construction Workers Welfare Board.\n- The applicant should be affected by disaster/catastrophe/natural calamity.\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should be a beneficiary of a scheme of the Goa Building and Other Construction Workers Welfare Board."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should be affected by disaster/catastrophe/natural calamity."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "irbad-gbocwwb"
+}

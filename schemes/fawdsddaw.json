@@ -1,0 +1,421 @@
+{
+  "_id": "64b6ea99b594314dec7f598a",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": null,
+      "tags": [
+        "Marriage",
+        "Daughter",
+        "Poor Widow",
+        "Financial Assistance"
+      ],
+      "schemeName": "Widow Daughter Marriage Scheme",
+      "schemeShortTitle": "WDMS",
+      "level": {
+        "value": "state",
+        "label": "State"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce87cd6d1a3bde4685312",
+          "label": "Social welfare & Empowerment"
+        },
+        {
+          "value": "64f57d10ffb93104c7006c97",
+          "label": "Women and Child"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Marriage",
+          "label": "Marriage"
+        },
+        {
+          "value": "Financial Assistance",
+          "label": "Financial Assistance"
+        },
+        {
+          "value": "Assistance to Widows",
+          "label": "Assistance to Widows"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "state": {
+        "value": 7,
+        "label": "Delhi"
+      },
+      "nodalDepartmentName": {
+        "value": 1038,
+        "label": "Department of Women and Child Development"
+      },
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://wcd.delhi.gov.in/wcd/delhi-pension-scheme-women-distress-widows-divorced-separated-destitute-abandoned-women#:~:text=2)%20WIDOW%2DDAUGHTER%20MARRIAGE%20SCHEME&text=Quantum%20of%20Assistance%20is%20Rs.%2030%2C000%2F%2D%20only.&text=(i)%20She%20has%20been%20residing,One%20Lakh)."
+        },
+        {
+          "title": "Self Declaration",
+          "url": "https://wcd.delhi.gov.in/sites/default/files/WCD/circulars-orders/selfdecleration-wdmscheme.pdf"
+        },
+        {
+          "title": "FAQ",
+          "url": "https://edistrict.delhigovt.nic.in/eDownload/FaqForm/Faq_2605.pdf"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "Department of WCD, Delhi Government is implementing various Financial Assistance Schemes for the benefit of different sections of the society through Financial Assistance Cell. Department of Women and Child Development is running **Widow’s Daughter Marriage(WDM) Scheme** for the benefit of widows/women in distress. \n**AIMS AND OBJECTIVE**\n\n   1. To provide financial assistance to the poor widows for performing the marriage of their daughters(up to two daughters). \n   1. To provide financial assistance to the guardians including Homes/Institutions or foster parents of an orphan girl for her marriage. \n   1. This is a one-time grant.\n\n",
+      "benefits_md": "\n1. The Quantum of assistance for this scheme is ₹30,000/- only.\n\n",
+      "exclusions_md": "",
+      "briefDescription": "Department of WCD, Delhi Government is implementing various Financial Assistance for the benefit of different sections through Financial Assistance Cell. Department of WCD is running Widow’s Daughter Marriage(WDM) for the benefit of widows/women in distress.",
+      "detailedDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "Department of WCD, Delhi Government is implementing various Financial Assistance Schemes for the benefit of different sections of the society through Financial Assistance Cell. Department of Women and Child Development is running "
+                },
+                {
+                  "text": "Widow’s Daughter Marriage(WDM) Scheme",
+                  "bold": true
+                },
+                {
+                  "text": " for the benefit of widows/women in distress. "
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "AIMS AND OBJECTIVE",
+                  "bold": true
+                }
+              ]
+            },
+            {
+              "type": "ol_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "To provide financial assistance to the poor widows for performing the marriage of their daughters(up to two daughters). "
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "To provide financial assistance to the guardians including Homes/Institutions or foster parents of an orphan girl for her marriage. "
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "This is a one-time grant."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The Quantum of assistance for this scheme is ₹30,000/- only."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "exclusions": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Online",
+        "url": " https://edistrict.delhigovt.nic.in/  ",
+        "process": [
+          {
+            "type": "ol_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Log on to the "
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://edistrict.delhigovt.nic.in/",
+                    "children": [
+                      {
+                        "text": "Official Website "
+                      }
+                    ]
+                  },
+                  {
+                    "text": "",
+                    "bold": true
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://edistrict.delhigovt.nic.in/Account/Login",
+                    "children": [
+                      {
+                        "text": "https://edistrict.delhigovt.nic.in/Account/Login",
+                        "bold": true
+                      }
+                    ]
+                  },
+                  {
+                    "text": ".",
+                    "bold": true
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "A citizen may first register on this website."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "After registration, Click on Registered User Login."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Enter given login ID and Password."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Enter Captcha and Click on Login."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Go to Main Page (Main Page) will open click on apply online."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Drop Box apply for services will open – click."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "List of Departments providing online services shall open."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Select on Department of Women & Child Development."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Two Financial Assistance Schemes will be shown. Choose and Click on Apply."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Check the basic/personal details form and click on Continue."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Form will open fill up all required fields & uploads all required documents as per requirement of scheme selected."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Then click next and upload photograph."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Then click on finish. One OTP will be received on registered mobile number. Enter OTP and Submit."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Acknowledgement of successful submission shall be generated. "
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "process_md": "\n1. Log on to the [Official Website ](https://edistrict.delhigovt.nic.in/)[**https://edistrict.delhigovt.nic.in/Account/Login**](https://edistrict.delhigovt.nic.in/Account/Login)**.**1. A citizen may first register on this website.\n1. After registration, Click on Registered User Login.\n1. Enter given login ID and Password.\n1. Enter Captcha and Click on Login.\n1. Go to Main Page (Main Page) will open click on apply online.\n1. Drop Box apply for services will open – click.\n1. List of Departments providing online services shall open.\n1. Select on Department of Women &amp; Child Development.\n1. Two Financial Assistance Schemes will be shown. Choose and Click on Apply.\n1. Check the basic/personal details form and click on Continue.\n1. Form will open fill up all required fields &amp; uploads all required documents as per requirement of scheme selected.\n1. Then click next and upload photograph.\n1. Then click on finish. One OTP will be received on registered mobile number. Enter OTP and Submit.\n1. Acknowledgement of successful submission shall be generated. \n\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n1. The financial assistance can be granted for performing marriage up to two daughters only. \n1. Residence of a minimum of 5 years in Delhi before the date of application. \n1. The income of the applicant should be less than Rs 1,00,000/-Per year from all sources (including rent, interest/dividends on savings &amp; investments, earnings from the farm, property sale proceeds, etc.) of the applicant. \n1. Applicant should have an Aadhar number. \n1. The Applicant should have a single-operated Aadhaar-linked account with any bank in the National Capital Territory (NCT) of Delhi only. \n1. The applicant should not be in receipt of any assistance from the discretionary fund of the Lt. Governor or the Chief Minister of Delhi for the same purpose. \n1. The girl for whose marriage the Financial Assistance is sought, should be major on the date of marriage i.e., above 18 years of age.\n1. The application must be submitted within a period of sixty days, before or after the date of marriage being solemnized. \n1. The applicant should not be receiving any pension from Central Govt./State Govt./MCD and/or NDMC or any other source for this purpose.\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The financial assistance can be granted for performing marriage up to two daughters only. "
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Residence of a minimum of 5 years in Delhi before the date of application. "
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The income of the applicant should be less than Rs 1,00,000/-Per year from all sources (including rent, interest/dividends on savings & investments, earnings from the farm, property sale proceeds, etc.) of the applicant. "
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Applicant should have an Aadhar number. "
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The Applicant should have a single-operated Aadhaar-linked account with any bank in the National Capital Territory (NCT) of Delhi only. "
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should not be in receipt of any assistance from the discretionary fund of the Lt. Governor or the Chief Minister of Delhi for the same purpose. "
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The girl for whose marriage the Financial Assistance is sought, should be major on the date of marriage i.e., above 18 years of age."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The application must be submitted within a period of sixty days, before or after the date of marriage being solemnized. "
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should not be receiving any pension from Central Govt./State Govt./MCD and/or NDMC or any other source for this purpose."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "fawdsddaw"
+}

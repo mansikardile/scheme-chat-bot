@@ -1,0 +1,186 @@
+{
+  "_id": "68b8280fa6fe5b5d5237f6d9",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Yoga",
+        "Wellness Center",
+        "Naturopathy",
+        "Health Counseling",
+        "Ayurvedic"
+      ],
+      "schemeName": "Yoga Wellness Center",
+      "schemeShortTitle": "YWC",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce7a2d6d1a3bde46852b1",
+          "label": "Health & Wellness"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Health promotion",
+          "label": "Health promotion"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "schemeFor": "Individual",
+      "state": {
+        "value": 5,
+        "label": "Uttarakhand"
+      },
+      "nodalDepartmentName": {
+        "value": 50000061,
+        "label": "Ayush Department"
+      }
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines (Page No. 147)",
+          "url": "https://uk.gov.in/department92/library_file/file-04-12-2023-06-02-23.pdf"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The “Yoga Wellness Center” is implemented by the Ayush Department, Government of Uttarakhand. The scheme aims to promote holistic health and wellness among people of all age groups through yoga, naturopathy, and personalized counseling.\n<br>\n\n",
+      "benefits_md": "Under this scheme, Yoga, naturopathy, and counseling services are provided based on the individual’s health condition. For this, the OPD fee is ₹1.00 per person in rural areas and ₹2.00 per person in urban areas.\n<br>\n\n",
+      "briefDescription": "The scheme aims to promote holistic health and wellness among people of all age groups through yoga, naturopathy, and personalized counseling.",
+      "exclusions_md": "",
+      "detailedDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "The “Yoga Wellness Center” is implemented by the Ayush Department, Government of Uttarakhand. The scheme aims to promote holistic health and wellness among people of all age groups through yoga, naturopathy, and personalized counseling."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 2,
+        "value": "in-kind",
+        "label": "In Kind"
+      },
+      "benefits": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "Under this scheme, Yoga, naturopathy, and counseling services are provided based on the individual’s health condition. For this, the OPD fee is ₹1.00 per person in rural areas and ₹2.00 per person in urban areas."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "process": [
+          {
+            "type": "align_justify",
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "The beneficiaries may visit and register at an identified Government Ayurvedic Centre or Hospital to avail the benefits under the scheme."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          }
+        ],
+        "process_md": "The beneficiaries may visit and register at an identified Government Ayurvedic Centre or Hospital to avail the benefits under the scheme.\n<br>\n\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n1. The beneficiary must be a resident of Uttarakhand.\n1. The beneficiary can belong to any age group.\n1. The beneficiary must be registered at an identified Government Ayurvedic Centre or Hospital.\n\n<br>\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The beneficiary must be a resident of Uttarakhand."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The beneficiary can belong to any age group."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The beneficiary must be registered at an identified Government Ayurvedic Centre or Hospital."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "ywcuk"
+}

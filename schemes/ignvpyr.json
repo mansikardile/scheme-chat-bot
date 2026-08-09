@@ -1,0 +1,493 @@
+{
+  "_id": "65e01abeda55878ebe08a7ee",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Pension",
+        "Old Age",
+        "Financial Assistance",
+        "Empower"
+      ],
+      "schemeName": "Indira Gandhi National Vrdhavastha Pension Yojana",
+      "schemeShortTitle": "IGNVPYR",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce7f6d6d1a3bde46852d0",
+          "label": "Banking,Financial Services and Insurance"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Pension",
+          "label": "Pension"
+        }
+      ],
+      "schemeOpenDate": "2007-11-19",
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "state": {
+        "value": 8,
+        "label": "Rajasthan"
+      },
+      "nodalDepartmentName": {
+        "value": 8000023,
+        "label": "Law and Justice Department"
+      },
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://schemes.rajasthan.gov.in/scheme/detail/108"
+        },
+        {
+          "title": "Scheme Details",
+          "url": "https://ssp.rajasthan.gov.in/HtmlPages/Schemes/DisablityDetail.aspx"
+        },
+        {
+          "title": "Registration",
+          "url": "https://sso.rajasthan.gov.in/register"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "Indira Gandhi National Vridhavastha Pension Yojana, Under the Department of Social Justice and Empowerment  Government of Rajasthan, provides financial support to the citizens whose families live below the poverty line. To empower senior citizens by ensuring their financial independence and dignity in old age, thereby enabling them to lead a dignified life.\n",
+      "benefits_md": "> Pension amount: ₹ 1000 /- per month.\n\n",
+      "briefDescription": "In this scheme, pension is payable to persons below from BPL category families listed as per the norms of the Government of India.",
+      "exclusions_md": "",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Indira Gandhi National Vridhavastha Pension Yojana, Under the Department of Social Justice and Empowerment  Government of Rajasthan, provides financial support to the citizens whose families live below the poverty line. To empower senior citizens by ensuring their financial independence and dignity in old age, thereby enabling them to lead a dignified life."
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "Pension amount: ₹ 1000 /- per month."
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Online",
+        "process": [
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "text": "Registration",
+                "bold": true,
+                "underline": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step-1:",
+                "bold": true
+              },
+              {
+                "text": " Applicant have to visit the "
+              },
+              {
+                "type": "link",
+                "link": "https://sso.rajasthan.gov.in/signin",
+                "children": [
+                  {
+                    "text": "official portal"
+                  }
+                ]
+              },
+              {
+                "text": ". "
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step-2: ",
+                "bold": true
+              },
+              {
+                "text": "Click on the option “"
+              },
+              {
+                "type": "link",
+                "link": "https://sso.rajasthan.gov.in/register",
+                "children": [
+                  {
+                    "text": "Register"
+                  }
+                ]
+              },
+              {
+                "text": "”."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step-3:",
+                "bold": true
+              },
+              {
+                "text": " Then you will be redirected to the SSO registration page. The registration page will appear with the following options."
+              }
+            ]
+          },
+          {
+            "type": "ul_list",
+            "children": [
+              {
+                "type": "ul_list",
+                "children": [
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "text": "  Citizen"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step-4: ",
+                "bold": true
+              },
+              {
+                "text": "Choose the either one option from  the Jan Aadhaar Or Google to process further."
+              }
+            ]
+          },
+          {
+            "type": "ul_list",
+            "children": [
+              {
+                "type": "ul_list",
+                "children": [
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "text": "Jan Aadhaar : Enter the Jan Aadhaar number, click on the ‘Next’ button,"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "ul_list",
+                    "children": [
+                      {
+                        "type": "ul_list",
+                        "children": [
+                          {
+                            "type": "list_item",
+                            "children": [
+                              {
+                                "text": "Select your name, the name of the head of the family and all the other members and "
+                              }
+                            ]
+                          },
+                          {
+                            "type": "list_item",
+                            "children": [
+                              {
+                                "text": "Click on the ‘Send OTP’ button. Enter the ‘OTP’ and "
+                              }
+                            ]
+                          },
+                          {
+                            "type": "list_item",
+                            "children": [
+                              {
+                                "text": "Click on the ‘Verify OTP’ button to Complete the registration. "
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ul_list",
+            "children": [
+              {
+                "type": "ul_list",
+                "children": [
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "text": "Google : Enter the Gmail ID, click on the ‘Next’ button, "
+                      }
+                    ]
+                  },
+                  {
+                    "type": "ul_list",
+                    "children": [
+                      {
+                        "type": "ul_list",
+                        "children": [
+                          {
+                            "type": "list_item",
+                            "children": [
+                              {
+                                "text": "Enter the password."
+                              }
+                            ]
+                          },
+                          {
+                            "type": "list_item",
+                            "children": [
+                              {
+                                "text": "A new link appear on screen, now click on new SSO link."
+                              }
+                            ]
+                          },
+                          {
+                            "type": "list_item",
+                            "children": [
+                              {
+                                "text": "SSO id will appear on screen, now create the password."
+                              }
+                            ]
+                          },
+                          {
+                            "type": "list_item",
+                            "children": [
+                              {
+                                "text": "Enter Mobile number, click on registration."
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": " "
+              }
+            ]
+          },
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "text": "Apply ",
+                "bold": true,
+                "underline": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step-1:",
+                "bold": true
+              },
+              {
+                "text": " Applicant have to visit the "
+              },
+              {
+                "type": "link",
+                "link": "https://sso.rajasthan.gov.in/signin",
+                "children": [
+                  {
+                    "text": "official portal"
+                  }
+                ]
+              },
+              {
+                "text": ". "
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step-2:",
+                "bold": true
+              },
+              {
+                "text": " After login, dashboard will open."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step-3: ",
+                "bold": true
+              },
+              {
+                "text": "Click on “IFMS-RAJSSP\" option."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step-4: ",
+                "bold": true
+              },
+              {
+                "text": "Select \"Continue to RajSSP\". "
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step-5:",
+                "bold": true
+              },
+              {
+                "text": " Now click on \"Apply for Scheme\" on screen. "
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step-6: ",
+                "bold": true
+              },
+              {
+                "text": "In this new page, will get a list of names of all the schemes,and click on the name of \"Yojana\""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "bold": true,
+                "text": "Step-7: "
+              },
+              {
+                "text": "Fill out all relevant details. "
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step-8: ",
+                "bold": true
+              },
+              {
+                "text": "Submit."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "text": "Application form is free for Indira Gandhi National Old Age Pension Scheme.",
+                "bold": true
+              }
+            ]
+          }
+        ],
+        "process_md": "> **Registration**\n\n**Step-1:** Applicant have to visit the [official portal](https://sso.rajasthan.gov.in/signin). \n**Step-2:** Click on the option “[Register](https://sso.rajasthan.gov.in/register)”.\n**Step-3:** Then you will be redirected to the SSO registration page. The registration page will appear with the following options.\n\n\n  -   Citizen\n\n\n**Step-4:** Choose the either one option from  the Jan Aadhaar Or Google to process further.\n\n\n  - Jan Aadhaar : Enter the Jan Aadhaar number, click on the ‘Next’ button,\n\n\n      - Select your name, the name of the head of the family and all the other members and \n      - Click on the ‘Send OTP’ button. Enter the ‘OTP’ and \n      - Click on the ‘Verify OTP’ button to Complete the registration. \n\n\n\n\n\n\n  - Google : Enter the Gmail ID, click on the ‘Next’ button, \n\n\n      - Enter the password.\n      - A new link appear on screen, now click on new SSO link.\n      - SSO id will appear on screen, now create the password.\n      - Enter Mobile number, click on registration.\n\n\n\n\n \n> **Apply** \n\n**Step-1:** Applicant have to visit the [official portal](https://sso.rajasthan.gov.in/signin). \n**Step-2:** After login, dashboard will open.\n**Step-3:** Click on “IFMS-RAJSSP&quot; option.\n**Step-4:** Select &quot;Continue to RajSSP&quot;. \n**Step-5:** Now click on &quot;Apply for Scheme&quot; on screen. \n**Step-6:** In this new page, will get a list of names of all the schemes,and click on the name of &quot;Yojana&quot;\n**Step-7:** Fill out all relevant details. \n**Step-8:** Submit.\n<br>\n\n> **Application form is free for Indira Gandhi National Old Age Pension Scheme.**\n\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n1. The applicant should be a native of Rajasthan.\n1. The age of the applicant (male or female) is 60 years or more.\n1. The applicant should belong to a family living below the poverty line as per the criteria set by the Government of India.\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should be a native of Rajasthan."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The age of the applicant (male or female) is 60 years or more."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should belong to a family living below the poverty line as per the criteria set by the Government of India."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "ignvpyr"
+}

@@ -1,0 +1,401 @@
+{
+  "_id": "64240c0aafeef1fdbd95e83f",
+  "en": {
+    "basicDetails": {
+      "schemeOpenDate": null,
+      "schemeCloseDate": null,
+      "state": {
+        "value": 29,
+        "label": "Karnataka"
+      },
+      "nodalMinistryName": null,
+      "nodalDepartmentName": {
+        "value": 3000027,
+        "label": "Minorities Welfare Department"
+      },
+      "otherMinistryName": null,
+      "otherDepartmentNames": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Financial assistance",
+          "label": "Financial assistance"
+        }
+      ],
+      "dbtScheme": null,
+      "implementingAgency": null,
+      "tags": [
+        "Self Employment",
+        "Minorities",
+        "Empowerment"
+      ],
+      "schemeName": "Self Employment Scheme",
+      "schemeShortTitle": "SES",
+      "level": {
+        "value": "state",
+        "label": "State"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce87cd6d1a3bde4685312",
+          "label": "Social welfare & Empowerment"
+        }
+      ],
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Details",
+          "url": "https://kmdc.karnataka.gov.in/29/self-employment-scheme/en"
+        }
+      ],
+      "schemeImageUrl": "",
+      "briefDescription": "Under this scheme, Subsidies will be provided to the religious minority communities with the help of Nationalized / Scheduled banks to start or improve a small-scale handicraft industry, service sector,  and agro-based activities.",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Detailed ",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Under this scheme, Subsidies will be provided to the religious minority communities with the help of Nationalized / Scheduled banks to start or improve a small-scale handicraft industry, service sector, and agro-based activities. "
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "People belonging to State Religious Minority Communities are covered under this scheme. (State Religious Minority Communities consist of People belonging to Muslim, Christian, Sikh, Buddhist, and Jain Communities). "
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Subsidy will be 33% of the unit cost or a maximum of Rs. 1.00 Lakh."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The beneficiaries will be selected by the below Selection Panel.",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "MLA of the concerned Assembly Constituency – Chairman"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Member of the Legislative Council who is a permanent resident in that Taluk - Vice-Chairman"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Concerned Taluk Tahsildar – Member"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Executive Officer of concerned Taluk Panchayat-Member"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The District Lead Bank Manager – Member"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "District Joint Director, Commerce, and Industry – Member"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Concerned District’s Deputy Director, Women and Child Welfare Department – Member"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Concerned District Manager, Karnataka Minority Development Corporation- Member Secretary."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 2,
+        "value": "in-kind",
+        "label": "In Kind"
+      },
+      "benefits": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Benefits",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Under this scheme, a subsidy of 33% of the unit cost or a maximum of Rs. 1.00 Lakh will be given to  persons belonging to religious minority communities"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "exclusions": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Exclusions",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "No member of the applicant's family should be an employee of the State/Central/ Government Public Sector Units."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Applicants should not have availed of a loan in KMDC earlier."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "detailedDescription_md": "**Detailed** \n\n- Under this scheme, Subsidies will be provided to the religious minority communities with the help of Nationalized / Scheduled banks to start or improve a small-scale handicraft industry, service sector, and agro-based activities. \n- People belonging to State Religious Minority Communities are covered under this scheme. (State Religious Minority Communities consist of People belonging to Muslim, Christian, Sikh, Buddhist, and Jain Communities). \n- Subsidy will be 33% of the unit cost or a maximum of Rs. 1.00 Lakh.\n\n<br>\n\n**The beneficiaries will be selected by the below Selection Panel.**\n\n1. MLA of the concerned Assembly Constituency – Chairman\n1. Member of the Legislative Council who is a permanent resident in that Taluk - Vice-Chairman\n1. Concerned Taluk Tahsildar – Member\n1. Executive Officer of concerned Taluk Panchayat-Member\n1. The District Lead Bank Manager – Member\n1. District Joint Director, Commerce, and Industry – Member\n1. Concerned District’s Deputy Director, Women and Child Welfare Department – Member\n1. Concerned District Manager, Karnataka Minority Development Corporation- Member Secretary.\n\n<br>\n\n"
+    },
+    "applicationProcess": [
+      {
+        "mode": "Online",
+        "url": "https://kmdconline.karnataka.gov.in/Portal/home",
+        "process": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Application Process",
+                "bold": true
+              }
+            ]
+          },
+          {
+            "type": "ol_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "First, go to the "
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://kmdconline.karnataka.gov.in/Portal/home",
+                    "children": [
+                      {
+                        "text": "official website"
+                      }
+                    ]
+                  },
+                  {
+                    "text": ", and fill out the application form."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Print the application form."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Submit this application form along with other relevant documents "
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "After the approval of the Selection Panel, Subsidy will be transferred to your bank account."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "**Eligibility**\n\n1. Applicants must belong to the State Religious Minority Community.\n1. The applicant must be a permanent resident of the State.\n1. The age limit of the applicant is between 18 to 55 years.\n1. Family annual income from all sources should not be more than Rs.81,000/- in a rural areas and Rs. 1,03,000 in urban areas.\n1. No member of the applicant&#39;s family shall be an employee of the State/Central/ Government PSU.\n1. Applicants should not have availed of a loan in KMDC earlier.\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Eligibility",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Applicants must belong to the State Religious Minority Community."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must be a permanent resident of the State."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The age limit of the applicant is between 18 to 55 years."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Family annual income from all sources should not be more than Rs.81,000/- in a rural areas and Rs. 1,03,000 in urban areas."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "No member of the applicant's family shall be an employee of the State/Central/ Government PSU."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Applicants should not have availed of a loan in KMDC earlier."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "ses"
+}

@@ -1,0 +1,185 @@
+{
+  "_id": "68f22ee46e57497683c862ae",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Kitchen Garden",
+        "Horticulture",
+        "Vegetable Seeds",
+        "Farmer"
+      ],
+      "schemeName": "Bari (Kitchen Garden) Scheme",
+      "schemeShortTitle": "BKGS",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce6ead6d1a3bde4685252",
+          "label": "Agriculture,Rural & Environment"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Agricultural Inputs- seeds, fertilizer etc.",
+          "label": "Agricultural Inputs- seeds, fertilizer etc."
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "schemeFor": "Individual",
+      "state": {
+        "value": 23,
+        "label": "Madhya Pradesh"
+      },
+      "nodalDepartmentName": {
+        "value": 2300018,
+        "label": "Horticulture and Food Processing Department"
+      }
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://cmhelpline.mp.gov.in/schemes.aspx?vID=0"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The scheme “Bari (Kitchen Garden) Scheme” launched by the Horticulture and Food Processing Department, Government of Madhya Pradesh, aims to promote kitchen gardening through the free distribution of vegetable seed packets worth ₹75 to poor, small/marginal farmers and agricultural laborers living below the poverty line.\n<br>\n\n",
+      "benefits_md": "Free Vegetable Seed Packets: Each eligible beneficiary receives a packet of vegetable seeds worth ₹75 free of cost.\n<br>\n\n",
+      "briefDescription": "The scheme aims to promote kitchen gardening among poor and small/marginal farmers and agricultural laborers living below the poverty line by providing free vegetable seed packets.",
+      "exclusions_md": "",
+      "detailedDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "The scheme “Bari (Kitchen Garden) Scheme” launched by the Horticulture and Food Processing Department, Government of Madhya Pradesh, aims to promote kitchen gardening through the free distribution of vegetable seed packets worth ₹75 to poor, small/marginal farmers and agricultural laborers living below the poverty line."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Free Vegetable Seed Packets: Each eligible beneficiary receives a packet of vegetable seeds worth ₹75 free of cost."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "process": [
+          {
+            "type": "ul_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "The applicant should contact the District Office of the Horticulture Department."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          }
+        ],
+        "process_md": "\n- The applicant should contact the District Office of the Horticulture Department.\n\n<br>\n\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n  - The applicant must be a small or marginal farmer/agricultural laborer.\n  - The applicant must be a resident of Madhya Pradesh.\n  - The applicant must belong to the Below the Poverty Line (BPL) category.\n\n<br>\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "ul_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant must be a small or marginal farmer/agricultural laborer."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant must be a resident of Madhya Pradesh."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant must belong to the Below the Poverty Line (BPL) category."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "bkgs"
+}

@@ -1,0 +1,512 @@
+{
+  "_id": "67b58dc050fc00c18b864026",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Scheduled Caste",
+        "Technical Institutes",
+        "Tuition Fee Reimbursement",
+        "Transport Facility",
+        "Student",
+        "Technical Courses"
+      ],
+      "schemeName": "Reimbursement of Tuition Fee and Transport Facility to Scheduled Castes Students Studying in Technical Institutions in Haryana",
+      "schemeShortTitle": "RTFTFSCSSTIH",
+      "implementingAgency": "Department Of Technical Education, Haryana",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce76cd6d1a3bde4685292",
+          "label": "Education & Learning"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Universities and higher education",
+          "label": "Universities and higher education"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "state": {
+        "value": 6,
+        "label": "Haryana"
+      },
+      "nodalDepartmentName": {
+        "value": 666704,
+        "label": "Technical Education Department"
+      },
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guideline",
+          "url": "https://harchhatravratti.highereduhry.ac.in/Notices/Reimbursement%20of%20Tuition%20Fee%20and%20Transport%20Facility.pdf"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The scheme &amp;quot;Reimbursement of Tuition Fee and Transport Facility to Scheduled Castes Students Studying in Technical Institutions in Haryana&amp;quot; was launched by the Department of Technical Education, Government of Haryana. It aims to provide financial assistance to Scheduled Castes students pursuing AICTE-approved technical courses, such as Diplomas from Polytechnics, D-Pharmacy, B-Pharmacy, B.Tech., M.E., M.Tech., Ph.D. in Engineering subjects, MBA, and MCA. The scheme is applicable only to students enrolled in regular mode at government, private, or aided technical institutions approved by the Technical Education Department, Haryana. Under this scheme, eligible students receive reimbursement of tuition fees along with transport facility benefits.\n",
+      "benefits_md": "**Tuition Fee Reimbursement:**\n\n  - The reimbursement covers the actual tuition fee of ₹20,000/- for diploma courses and ₹40,000/- for degree courses, whichever is lower.\n\n**Transport Facility Reimbursement:**\n\n  - The reimbursement covers the actual amount of state transport facilities (train pass/bus pass).\n\n",
+      "exclusions_md": "\n1. The applicant should not be a resident of a campus hostel for transport facility reimbursement.\n1. The applicant should not be pursuing a technical course through distance education or part-time mode.\n\n",
+      "briefDescription": "The scheme aims to provide financial assistance to Scheduled Castes students pursuing AICTE-approved technical courses. Under this scheme, eligible students receive tuition fee reimbursement and transport facility benefits.",
+      "detailedDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "The scheme \"Reimbursement of Tuition Fee and Transport Facility to Scheduled Castes Students Studying in Technical Institutions in Haryana\" was launched by the Department of Technical Education, Government of Haryana. It aims to provide financial assistance to Scheduled Castes students pursuing AICTE-approved technical courses, such as Diplomas from Polytechnics, D-Pharmacy, B-Pharmacy, B.Tech., M.E., M.Tech., Ph.D. in Engineering subjects, MBA, and MCA. The scheme is applicable only to students enrolled in regular mode at government, private, or aided technical institutions approved by the Technical Education Department, Haryana. Under this scheme, eligible students receive reimbursement of tuition fees along with transport facility benefits."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 3,
+        "value": "composite",
+        "label": "Composite"
+      },
+      "benefits": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Tuition Fee Reimbursement:",
+              "bold": true,
+              "underline": true
+            }
+          ]
+        },
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "ul_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The reimbursement covers the actual tuition fee of ₹20,000/- for diploma courses and ₹40,000/- for degree courses, whichever is lower."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "Transport Facility Reimbursement:",
+                  "bold": true,
+                  "underline": true
+                }
+              ]
+            },
+            {
+              "type": "ul_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The reimbursement covers the actual amount of state transport facilities (train pass/bus pass)."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "exclusions": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should not be a resident of a campus hostel for transport facility reimbursement."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should not be pursuing a technical course through distance education or part-time mode."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Online",
+        "process": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Registration Process:",
+                "bold": true,
+                "underline": true
+              }
+            ]
+          },
+          {
+            "type": "align_justify",
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 1:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Click the Registration link at the"
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://harchhatravratti.highereduhry.ac.in/",
+                    "children": [
+                      {
+                        "text": " Portal"
+                      }
+                    ]
+                  },
+                  {
+                    "text": ", if you are a new user. Existing users can click on the login button."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 2:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Enter the Parivar Pehchaan Patra (Family Id), and a List of members will be displayed, Select your Name and Click on the \"Generate OTP\" button."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 3:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Enter the OTP received on your registered Mobile Number and Click on the \"Verify OTP\" button."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 4:",
+                    "bold": true
+                  },
+                  {
+                    "text": " After OTP Verification, all the details get auto-filled in the Registration Form, cross-check your information."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 5:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Select Your Department and College, create your Password, and click on the \"Register\" Button."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Application Process:",
+                "bold": true,
+                "underline": true
+              }
+            ]
+          },
+          {
+            "type": "align_justify",
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 1:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Click the login link at the "
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://harchhatravratti.highereduhry.ac.in/UserLogin",
+                    "children": [
+                      {
+                        "text": "Portal"
+                      }
+                    ]
+                  },
+                  {
+                    "text": " and enter your User ID and password to apply for the scholarship."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 2:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Check eligibility for the scholarship and select the scholarship scheme."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 3:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Click on the “Apply” button and provide all necessary details like Course, Roll No., Eligibility, etc."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 4:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Save your application and then submit the application form after careful verification."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Application Tracking:",
+                    "bold": true,
+                    "underline": true
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "The students can check their "
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://harchhatravratti.highereduhry.ac.in/ApplicationStatus",
+                    "children": [
+                      {
+                        "text": "Scholarship Application"
+                      }
+                    ]
+                  },
+                  {
+                    "text": " Status using their details like their Aadhaar Number, Academic Session, and scheme applied for."
+                  }
+                ]
+              },
+              {
+                "type": "block_quote",
+                "children": [
+                  {
+                    "text": "Note: ",
+                    "underline": true,
+                    "bold": true
+                  }
+                ]
+              },
+              {
+                "type": "ol_list",
+                "children": [
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "text": "Applications are invited to the "
+                      },
+                      {
+                        "type": "link",
+                        "link": "https://harchhatravratti.highereduhry.ac.in",
+                        "children": [
+                          {
+                            "text": "Harchhatravratti portal"
+                          }
+                        ]
+                      },
+                      {
+                        "text": ". "
+                      }
+                    ]
+                  },
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "text": "Applications received after the due date will not be entertained."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "text": "Detailed advertisement and scheme notifications are available under the \"Notification\" link on the "
+                      },
+                      {
+                        "type": "link",
+                        "link": "https://www.techeduhry.gov.in/",
+                        "children": [
+                          {
+                            "text": "Department website"
+                          }
+                        ]
+                      },
+                      {
+                        "text": "."
+                      },
+                      {
+                        "type": "link",
+                        "link": "https://harchhatravratti.highereduhry.ac.in/ApplicationStatus",
+                        "children": [
+                          {
+                            "text": ""
+                          }
+                        ]
+                      },
+                      {
+                        "text": ""
+                      },
+                      {
+                        "type": "link",
+                        "link": "https://harchhatravratti.highereduhry.ac.in/ApplicationStatus",
+                        "children": [
+                          {
+                            "text": ""
+                          }
+                        ]
+                      },
+                      {
+                        "text": ""
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "process_md": "**Registration Process:**\n**Step 1:** Click the Registration link at the[ Portal](https://harchhatravratti.highereduhry.ac.in/), if you are a new user. Existing users can click on the login button.\n**Step 2:** Enter the Parivar Pehchaan Patra (Family Id), and a List of members will be displayed, Select your Name and Click on the &amp;quot;Generate OTP&amp;quot; button.\n**Step 3:** Enter the OTP received on your registered Mobile Number and Click on the &amp;quot;Verify OTP&amp;quot; button.\n**Step 4:** After OTP Verification, all the details get auto-filled in the Registration Form, cross-check your information.\n**Step 5:** Select Your Department and College, create your Password, and click on the &amp;quot;Register&amp;quot; Button.\n**Application Process:**\n**Step 1:** Click the login link at the [Portal](https://harchhatravratti.highereduhry.ac.in/UserLogin) and enter your User ID and password to apply for the scholarship.\n**Step 2:** Check eligibility for the scholarship and select the scholarship scheme.\n**Step 3:** Click on the “Apply” button and provide all necessary details like Course, Roll No., Eligibility, etc.\n**Step 4:** Save your application and then submit the application form after careful verification.\n**Application Tracking:**\nThe students can check their [Scholarship Application](https://harchhatravratti.highereduhry.ac.in/ApplicationStatus) Status using their details like their Aadhaar Number, Academic Session, and scheme applied for.\n&gt; **Note:** \n\n\n   1. Applications are invited to the [Harchhatravratti portal](https://harchhatravratti.highereduhry.ac.in).    1. Applications received after the due date will not be entertained.\n   1. Detailed advertisement and scheme notifications are available under the &amp;quot;Notification&amp;quot; link on the [Department website](https://www.techeduhry.gov.in/).\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n   1. The applicant should be a Scheduled Caste student of Haryana.\n   1. The student should be enrolled in an AICTE-approved Diploma, Undergraduate, or Postgraduate technical course, including Diploma from Polytechnics, D-Pharmacy, B-Pharmacy, B.Tech., M.E., M.Tech., Ph.D. in Engineering subjects, MBA, or MCA.\n   1. The applicant should be pursuing an AICTE-approved course in a government, private, or aided technical institution approved by the Technical Education Department, Haryana.\n   1. The applicant should be admitted through centralized counselling.\n   1. The applicant’s annual parental income should be between ₹2.5 lakh and ₹3.5 lakh for tuition fee reimbursement.\n   1. The applicant should not be residing in a campus hostel to be eligible for transport facility reimbursement.\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "ol_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant should be a Scheduled Caste student of Haryana."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The student should be enrolled in an AICTE-approved Diploma, Undergraduate, or Postgraduate technical course, including Diploma from Polytechnics, D-Pharmacy, B-Pharmacy, B.Tech., M.E., M.Tech., Ph.D. in Engineering subjects, MBA, or MCA."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant should be pursuing an AICTE-approved course in a government, private, or aided technical institution approved by the Technical Education Department, Haryana."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant should be admitted through centralized counselling."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant’s annual parental income should be between ₹2.5 lakh and ₹3.5 lakh for tuition fee reimbursement."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant should not be residing in a campus hostel to be eligible for transport facility reimbursement."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "rttsc"
+}

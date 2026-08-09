@@ -1,0 +1,172 @@
+{
+  "_id": "65af8b3aebb318a5b532a4be",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Food",
+        "Ration",
+        "BPL",
+        "Social Welfare"
+      ],
+      "schemeName": "Free Supply of Rice to the Poor People",
+      "schemeShortTitle": "FSRPP",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce87cd6d1a3bde4685312",
+          "label": "Social welfare & Empowerment"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Food Security / Public Distribution System",
+          "label": "Food Security / Public Distribution System"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        },
+        {
+          "value": "family",
+          "label": "Family"
+        }
+      ],
+      "state": {
+        "value": 34,
+        "label": "Puducherry"
+      },
+      "schemeType": null,
+      "nodalMinistryName": null,
+      "nodalDepartmentName": {
+        "value": 34000044,
+        "label": "Women and Child Development Department, Puducherry"
+      },
+      "otherMinistryName": null,
+      "otherDepartmentNames": null,
+      "schemeFor": "Family"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://py.gov.in/sites/default/files/womenrtimanual.pdf"
+        },
+        {
+          "title": "Contact Us",
+          "url": "https://wcd.py.gov.in/contact-us"
+        },
+        {
+          "title": "Office Locations",
+          "url": "https://wcd.py.gov.in/office-locations"
+        },
+        {
+          "title": "Grievance Redressal",
+          "url": "https://wcd.py.gov.in/ta/central-public-grievance-redress-and-monitoring-system"
+        }
+      ],
+      "schemeImageUrl": "",
+      "briefDescription": "In this scheme, 10 kg of free rice is supplied to poor people through fair-price shops during natural calamities and on two important festive occasions every year. The beneficiaries are identified based on the data from the Civil Supplies and Consumer Affairs Department in Puducherry.",
+      "detailedDescription_md": "The scheme “Free Supply of Rice to the Poor People” by the Department of Women &amp; Child Development, Government of Pondicherry, was introduced to provide 10 kg of free rice through fair-price shops during natural calamities and on two important festive occasions every year. The beneficiaries are identified based on the data from the Civil Supplies and Consumer Affairs Department in Puducherry, utilizing the cross-referencing functionality in UDH.\n",
+      "benefits_md": "10 kg of free rice is supplied through fair-price shops during natural calamities and on two important festive occasions every year.\n",
+      "exclusions_md": "Fishermen are not eligible.\n",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The scheme “Free Supply of Rice to the Poor People” by the Department of Women & Child Development, Government of Pondicherry, was introduced to provide 10 kg of free rice through fair-price shops during natural calamities and on two important festive occasions every year. The beneficiaries are identified based on the data from the Civil Supplies and Consumer Affairs Department in Puducherry, utilizing the cross-referencing functionality in UDH."
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 2,
+        "value": "in-kind",
+        "label": "In Kind"
+      },
+      "benefits": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "10 kg of free rice is supplied through fair-price shops during natural calamities and on two important festive occasions every year."
+            }
+          ]
+        }
+      ],
+      "exclusions": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Fishermen are not eligible."
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "process": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "No separate application is required. ",
+                "bold": true
+              },
+              {
+                "text": "As a part of the proactive governance and timely benefits delivery, the beneficiaries are identified based on the data from the Civil Supplies and Consumer Affairs Department in Puducherry, utilizing the cross-referencing functionality in UDH. The supply will be made to the holders of red ration card who have registered with the area Anganwadi."
+              }
+            ]
+          }
+        ],
+        "process_md": "**No separate application is required.** As a part of the proactive governance and timely benefits delivery, the beneficiaries are identified based on the data from the Civil Supplies and Consumer Affairs Department in Puducherry, utilizing the cross-referencing functionality in UDH. The supply will be made to the holders of red ration card who have registered with the area Anganwadi.\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n- The applicant should be a citizen of India.\n- The applicant should be a native of the Union Territory of Pondicherry by birth or continuous residence for not less than 5 years.\n- The applicant should belong to the &#39;Below Poverty Line&#39; category.\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should be a citizen of India."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should be a native of the Union Territory of Pondicherry by birth or continuous residence for not less than 5 years."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should belong to the 'Below Poverty Line' category."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "fsrpp"
+}

@@ -1,0 +1,595 @@
+{
+  "_id": "68b6dbec967f77ea11ba84d9",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Craftsmen",
+        "Training",
+        "Skill",
+        "Employment",
+        "Youth"
+      ],
+      "schemeName": "Craftsmen Training Scheme",
+      "schemeShortTitle": "CTS-MSDE",
+      "level": {
+        "value": "central",
+        "label": "Central"
+      },
+      "schemeType": {
+        "value": "central-sector-scheme",
+        "label": "Central Sector Scheme"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce85cd6d1a3bde4685304",
+          "label": "Skills & Employment"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Training and Skill Up-gradation",
+          "label": "Training and Skill Up-gradation"
+        },
+        {
+          "value": "Entrepreneurship development",
+          "label": "Entrepreneurship development"
+        },
+        {
+          "value": "Voctional education",
+          "label": "Voctional education"
+        },
+        {
+          "value": "Welfare measures",
+          "label": "Welfare measures"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "schemeFor": "Individual",
+      "nodalMinistryName": {
+        "value": 1160,
+        "label": "Ministry Of Skill Development And Entrepreneurship"
+      },
+      "nodalDepartmentName": null
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://dgt.gov.in/en/CTS"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The &quot;Craftsmen Training Scheme&quot; was launched by the Directorate General of Training, Ministry of Skill Development and Entrepreneurship, Government of India. The scheme aims to ensure a steady flow of skilled workers in different trades for the domestic industry, to raise quantitatively and qualitatively the industrial production by systematic training, to reduce unemployment among the educated youth by providing them with employable skills, and to cultivate and nurture a technical and industrial attitude in the minds of the younger generation. The scheme provides systematic vocational training through a network of Industrial Training Institutes and National Skill Training Institutes located all over the country, offering comprehensive skill development programs in various trades and conducting All India Trade Tests for certification.\n<br>\n\n",
+      "benefits_md": "##### ***Vocational Training and Skill Development***\n\n- **Training Duration:** Varies from 6 months to 2 years, depending on the trade.- **Trade Certification:** National Council for Vocational Training certificate upon successful completion.- **Skill Development:** Hands-on practical training in various industrial trades.- **Employment Opportunities:** Enhanced employability in domestic and international markets.\n##### ***Training Infrastructure and Facilities***\n\n- **Training Network:** Access to 15,042 Industrial Training Institutes and 33 National Skill Training Institutes.- **Modern Equipment:** Training on the latest industrial equipment and technology.- **Expert Instruction:** Training by qualified instructors and industry experts.- **Workshop Facilities:** Well-equipped workshops for practical training.\n##### ***Assessment and Certification***\n\n- **All India Trade Tests:** Conducted by the Directorate General of Training under the aegis of the National Council for Vocational Training at the end of training.- **National Recognition:** Certificates recognized across India for employment.- **Industry Standards:** Training aligned with current industry requirements and standards.\n##### ***Conditions***\n\n- Minimum 80% attendance is required to appear in the Final Trade Test.\n- Regular participation in practical training sessions and workshops.\n- Compliance with the institute rules and regulations.\n- Successful completion of periodic assessments and tests.\n\n<br>\n\n",
+      "briefDescription": "The scheme aims to ensure steady flow of skilled workers in different trades for domestic industry and reduce unemployment among educated youth. It provides systematic vocational training through Industrial Training Institutes and National Skill Training Institutes across India.",
+      "exclusions_md": "<br>\n\n",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The \"Craftsmen Training Scheme\" was launched by the Directorate General of Training, Ministry of Skill Development and Entrepreneurship, Government of India. The scheme aims to ensure a steady flow of skilled workers in different trades for the domestic industry, to raise quantitatively and qualitatively the industrial production by systematic training, to reduce unemployment among the educated youth by providing them with employable skills, and to cultivate and nurture a technical and industrial attitude in the minds of the younger generation. The scheme provides systematic vocational training through a network of Industrial Training Institutes and National Skill Training Institutes located all over the country, offering comprehensive skill development programs in various trades and conducting All India Trade Tests for certification."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 2,
+        "value": "in-kind",
+        "label": "In Kind"
+      },
+      "benefits": [
+        {
+          "type": "heading_five",
+          "children": [
+            {
+              "text": "Vocational Training and Skill Development",
+              "bold": true,
+              "underline": true,
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Training Duration:",
+                  "bold": true
+                },
+                {
+                  "text": " Varies from 6 months to 2 years, depending on the trade."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Trade Certification:",
+                  "bold": true
+                },
+                {
+                  "text": " National Council for Vocational Training certificate upon successful completion."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Skill Development:",
+                  "bold": true
+                },
+                {
+                  "text": " Hands-on practical training in various industrial trades."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Employment Opportunities:",
+                  "bold": true
+                },
+                {
+                  "text": " Enhanced employability in domestic and international markets."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "heading_five",
+          "children": [
+            {
+              "text": "Training Infrastructure and Facilities",
+              "bold": true,
+              "underline": true,
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Training Network:",
+                  "bold": true
+                },
+                {
+                  "text": " Access to 15,042 Industrial Training Institutes and 33 National Skill Training Institutes."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Modern Equipment:",
+                  "bold": true
+                },
+                {
+                  "text": " Training on the latest industrial equipment and technology."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Expert Instruction:",
+                  "bold": true
+                },
+                {
+                  "text": " Training by qualified instructors and industry experts."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Workshop Facilities:",
+                  "bold": true
+                },
+                {
+                  "text": " Well-equipped workshops for practical training."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "heading_five",
+          "children": [
+            {
+              "text": "Assessment and Certification",
+              "bold": true,
+              "underline": true,
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "All India Trade Tests:",
+                  "bold": true
+                },
+                {
+                  "text": " Conducted by the Directorate General of Training under the aegis of the National Council for Vocational Training at the end of training."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "National Recognition:",
+                  "bold": true
+                },
+                {
+                  "text": " Certificates recognized across India for employment."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Industry Standards:",
+                  "bold": true
+                },
+                {
+                  "text": " Training aligned with current industry requirements and standards."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "heading_five",
+          "children": [
+            {
+              "text": "Conditions",
+              "bold": true,
+              "underline": true,
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Minimum 80% attendance is required to appear in the Final Trade Test."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Regular participation in practical training sessions and workshops."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Compliance with the institute rules and regulations."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Successful completion of periodic assessments and tests."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ],
+      "exclusions": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "process": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 1:",
+                "bold": true
+              },
+              {
+                "text": " The candidate must visit the Industrial Training Institute and obtain the prescribed application form."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2:",
+                "bold": true
+              },
+              {
+                "text": " The applicant should fill out the application form completely with accurate personal details, educational background, trade preference, and attach all required documents with proper attestation."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 3:",
+                "bold": true
+              },
+              {
+                "text": " The candidate must pay the prescribed application and training fees as applicable and submit the completed application form along with all supporting documents to the authorised staff of the Institute, within the specified deadline."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "*Request a receipt or acknowledgement from the concerned authority to whom the application has been submitted. Ensure that the receipt contains essential details such as the date and time of submission, and a unique identification number (if applicabl",
+                "italic": true
+              },
+              {
+                "text": "e)."
+              }
+            ]
+          },
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "text": "Post-Application Processes",
+                "bold": true,
+                "underline": true,
+                "italic": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 1:",
+                "bold": true
+              },
+              {
+                "text": " "
+              },
+              {
+                "text": "Merit List and Selection Process",
+                "italic": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "The institutes will prepare merit lists based on educational qualifications and other criteria, and selected candidates will be notified about their admission through official communication channels."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2:",
+                "bold": true
+              },
+              {
+                "text": " "
+              },
+              {
+                "text": "Admission Confirmation and Document Verification",
+                "italic": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Selected candidates must report to the institute on the specified date for document verification, admission confirmation, and completion of remaining formalities, including medical examination if required."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 3:",
+                "bold": true
+              },
+              {
+                "text": " "
+              },
+              {
+                "text": "Training Commencement",
+                "italic": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "After successful admission confirmation, candidates will begin their vocational training as per the institute's academic calendar and training schedule for their respective trades."
+              }
+            ]
+          },
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "text": "Application Deadlines",
+                "bold": true,
+                "underline": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Application deadlines vary by institute and are typically announced before the commencement of each academic session (usually April-May for the August session and October-November for the February session)."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          }
+        ],
+        "process_md": "**Step 1:** The candidate must visit the Industrial Training Institute and obtain the prescribed application form.\n**Step 2:** The applicant should fill out the application form completely with accurate personal details, educational background, trade preference, and attach all required documents with proper attestation.\n**Step 3:** The candidate must pay the prescribed application and training fees as applicable and submit the completed application form along with all supporting documents to the authorised staff of the Institute, within the specified deadline.\n_*Request a receipt or acknowledgement from the concerned authority to whom the application has been submitted. Ensure that the receipt contains essential details such as the date and time of submission, and a unique identification number (if applicabl_e).\n> ***Post-Application Processes***\n\n**Step 1:** _Merit List and Selection Process_\nThe institutes will prepare merit lists based on educational qualifications and other criteria, and selected candidates will be notified about their admission through official communication channels.\n**Step 2:** _Admission Confirmation and Document Verification_\nSelected candidates must report to the institute on the specified date for document verification, admission confirmation, and completion of remaining formalities, including medical examination if required.\n**Step 3:** _Training Commencement_\nAfter successful admission confirmation, candidates will begin their vocational training as per the institute&#39;s academic calendar and training schedule for their respective trades.\n> **Application Deadlines**\n\nApplication deadlines vary by institute and are typically announced before the commencement of each academic session (usually April-May for the August session and October-November for the February session).\n<br>\n\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n1. The applicant must be an Indian citizen.\n1. The applicant must meet the age requirements as specified for different trades (generally between 14 to 40 years).\n1. The applicant must have completed the minimum educational qualifications as prescribed for specific trades (ranging from 8th standard to 12th standard).\n1. The applicant must be able to read and write in the local language / Hindi / English.\n1. The applicant must be physically and medically fit to undergo the specific trade training.\n1. The applicant must not have any physical disabilities that would prevent them from performing the trade activities.\n1. The applicant must meet specific requirements for certain trades (such as colour vision for electrical trades).\n1. The applicant must demonstrate basic aptitude for the chosen trade.\n\n<br>\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must be an Indian citizen."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must meet the age requirements as specified for different trades (generally between 14 to 40 years)."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must have completed the minimum educational qualifications as prescribed for specific trades (ranging from 8th standard to 12th standard)."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must be able to read and write in the local language / Hindi / English."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must be physically and medically fit to undergo the specific trade training."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must not have any physical disabilities that would prevent them from performing the trade activities."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must meet specific requirements for certain trades (such as colour vision for electrical trades)."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must demonstrate basic aptitude for the chosen trade."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "cts-msde"
+}

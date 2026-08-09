@@ -1,0 +1,953 @@
+{
+  "_id": "68d178830d582d3816b99985",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Student",
+        "Education",
+        "School",
+        "Hostel",
+        "Grant"
+      ],
+      "schemeName": "Scheme For Residential Education For Students in High Schools in Targeted Areas (SHRESHTA): Mode 2 - NGO Operated Schools ",
+      "schemeShortTitle": "SHRESHTA-M2-NGOOS",
+      "level": {
+        "value": "central",
+        "label": "Central"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce76cd6d1a3bde4685292",
+          "label": "Education & Learning"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Resources for schools",
+          "label": "Resources for schools"
+        },
+        {
+          "value": "Early childhood",
+          "label": "Early childhood"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "schemeFor": "Individual",
+      "state": null,
+      "schemeType": {
+        "value": "central-sector-scheme",
+        "label": "Central Sector Scheme"
+      },
+      "nodalMinistryName": {
+        "value": 712,
+        "label": "Ministry Of Social Justice and Empowerment"
+      },
+      "nodalDepartmentName": {
+        "value": 11112,
+        "label": "Department of Social Justice & Empowerment"
+      },
+      "otherMinistryName": null,
+      "otherDepartmentNames": null
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://socialjustice.gov.in/public/ckeditor/upload/24291692705460.pdf"
+        }
+      ],
+      "schemeImageUrl": "",
+      "briefDescription": "The sub-scheme aims to provide quality education and opportunities to students from SC communities through grant-in-aid institutions run by Non-Governmental Organizations and residential high schools, addressing the gap in service deficient Scheduled Caste dominant areas in the education sector.",
+      "detailedDescription_md": "The umbrella scheme &quot;Scheme for Residential Education for Students in High Schools in Targeted Areas (SHRESHTA)&quot; was launched by the Ministry of Social Justice and Empowerment, Government of India. The scheme has a sub-scheme/component called &quot;SHRESHTA Mode 2: Non-Governmental Organization Operated Schools&quot;. The sub-scheme aims to provide quality education and opportunities to students from Scheduled Caste communities through grant-in-aid institutions run by Non-Governmental Organizations and residential high schools, addressing the gap in service deficient Scheduled Caste dominant areas in the education sector. The scheme provides financial assistance to Non-Governmental Organization operated schools and hostels for school fees and residential charges for Scheduled Caste students, along with infrastructure support and monitoring mechanisms to ensure quality education delivery.\n<br>\n\n",
+      "benefits_md": "##### ***Financial Assistance***\n_(Electronic transfer through e-Anudaan portal and Public Financial Management System)_\n**Primary Level Students**\n\n- Residential: ₹44,000/- per Scheduled Caste student per year.\n- Non-residential: ₹27,000/- per Scheduled Caste student per year.\n- Hostel only: ₹30,000/- per Scheduled Caste student per year.\n\n**Secondary Level Students**\n\n- Residential: ₹55,000/- per Scheduled Caste student per year.\n- Non-residential: ₹35,000/- per Scheduled Caste student per year.\n- Hostel only: ₹30,000/- per Scheduled Caste student per year.\n\n**Non-Recurring Grants (Every 5 Years)**\n\n- Secondary Residential School (100 students): ₹3,85,000/- for fixed items plus ₹900/- per student.\n- Secondary Non-residential School (100 students): ₹3,07,500/- fixed.\n- Secondary Hostel (100 students): ₹2,30,000/- for fixed items plus ₹900/- per student.\n- Primary Residential School (100 students): ₹2,72,500/- for fixed items plus ₹900/- per student.\n- Primary Non-residential School (100 students): ₹1,95,000/- fixed.\n- Hostel for destitute Children (100 students): ₹2,30,000/- for fixed items plus ₹900/- per student.\n\n##### ***Attendance-Based Grant Disbursement***\n\n- 75% or more attendance: Full grant.\n- 50% to less than 75% attendance: 75% of grant.\n- 25% to less than 50% attendance: 50% of grant.\n- Less than 25% attendance: No grant (without valid grounds).\n\n<br>\n\n",
+      "exclusions_md": "",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The umbrella scheme \"Scheme for Residential Education for Students in High Schools in Targeted Areas (SHRESHTA)\" was launched by the Ministry of Social Justice and Empowerment, Government of India. The scheme has a sub-scheme/component called \"SHRESHTA Mode 2: Non-Governmental Organization Operated Schools\". The sub-scheme aims to provide quality education and opportunities to students from Scheduled Caste communities through grant-in-aid institutions run by Non-Governmental Organizations and residential high schools, addressing the gap in service deficient Scheduled Caste dominant areas in the education sector. The scheme provides financial assistance to Non-Governmental Organization operated schools and hostels for school fees and residential charges for Scheduled Caste students, along with infrastructure support and monitoring mechanisms to ensure quality education delivery."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "heading_five",
+          "children": [
+            {
+              "text": "Financial Assistance",
+              "bold": true,
+              "underline": true,
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "(Electronic transfer through e-Anudaan portal and Public Financial Management System)",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "bold": true,
+              "text": "Primary Level Students"
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Residential: ₹44,000/- per Scheduled Caste student per year."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Non-residential: ₹27,000/- per Scheduled Caste student per year."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Hostel only: ₹30,000/- per Scheduled Caste student per year."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Secondary Level Students",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Residential: ₹55,000/- per Scheduled Caste student per year."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Non-residential: ₹35,000/- per Scheduled Caste student per year."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Hostel only: ₹30,000/- per Scheduled Caste student per year."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Non-Recurring Grants (Every 5 Years)",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Secondary Residential School (100 students): ₹3,85,000/- for fixed items plus ₹900/- per student."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Secondary Non-residential School (100 students): ₹3,07,500/- fixed."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Secondary Hostel (100 students): ₹2,30,000/- for fixed items plus ₹900/- per student."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Primary Residential School (100 students): ₹2,72,500/- for fixed items plus ₹900/- per student."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Primary Non-residential School (100 students): ₹1,95,000/- fixed."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Hostel for destitute Children (100 students): ₹2,30,000/- for fixed items plus ₹900/- per student."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "heading_five",
+          "children": [
+            {
+              "text": "Attendance-Based Grant Disbursement",
+              "bold": true,
+              "underline": true,
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "75% or more attendance: Full grant."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "50% to less than 75% attendance: 75% of grant."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "25% to less than 50% attendance: 50% of grant."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Less than 25% attendance: No grant (without valid grounds)."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Online",
+        "process": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 1:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "bold": true,
+                "text": " "
+              },
+              {
+                "bold": true,
+                "text": "Registration and Application Submission",
+                "italic": true
+              }
+            ]
+          },
+          {
+            "type": "ul_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Organizations must register on the NGO Darpan portal and get a project ID from the Department of Social Justice and Empowerment."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Submit your application on the e-Anudaan portal between April 1st and June 30th."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Include all required details for your organization, project, and students (both new and renewals)."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "bold": true,
+                "text": " "
+              },
+              {
+                "bold": true,
+                "text": "Document Preparation and Submission",
+                "italic": true
+              }
+            ]
+          },
+          {
+            "type": "ul_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Gather and submit key documents like project details, budget, and previous year's performance reports."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Upload all necessary forms to the e-Anudaan portal."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "While state government recommendations are ideal, applications may still be considered after a project inspection."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 3:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "bold": true,
+                "text": " "
+              },
+              {
+                "bold": true,
+                "text": "Physical Inspection and Verification",
+                "italic": true
+              }
+            ]
+          },
+          {
+            "type": "ul_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "A team from the Ministry's Programme Management Unit will inspect your organization."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "The inspection, preferably during the first academic quarter, will assess your infrastructure and performance."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Continued grant support depends on demonstrating satisfactory performance and adherence to all scheme guidelines."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 4:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "bold": true,
+                "text": " "
+              },
+              {
+                "bold": true,
+                "text": "Agreement and Bank Account Setup",
+                "italic": true
+              }
+            ]
+          },
+          {
+            "type": "ul_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "You must sign an Agreement Bond to receive assistance."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Set up a joint-operation bank account for electronic fund transfers."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "All bank account details must be verified through the Public Financial Management System before funds can be released."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 5:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "bold": true,
+                "text": " "
+              },
+              {
+                "bold": true,
+                "text": "Grant Release and Ongoing Compliance",
+                "italic": true
+              }
+            ]
+          },
+          {
+            "type": "ul_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Grants are released in three installments after the application is complete and the inspection report is submitted."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Maintain separate accounts for scheme grants and submit utilization certificates to continue receiving funding."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Your organization is required to maintain proper records and provide real-time updates on your website and the e-Anudaan portal."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Application Deadlines:",
+                "bold": true,
+                "underline": true,
+                "italic": true
+              },
+              {
+                "text": " Portal opens on 1st April for renewal students and closes on 30th June for fresh student entries annually."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Application Status Tracking:",
+                "bold": true,
+                "underline": true,
+                "italic": true
+              },
+              {
+                "text": " Status can be tracked through e-Anudaan portal at www.grants-msje.gov.in with real-time data management information system integration."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Grievance Redressal / Help & Support:",
+                "bold": true,
+                "underline": true,
+                "italic": true
+              },
+              {
+                "text": " Applications and queries to be addressed through e-Anudaan portal www.grants-msje.gov.in under Ministry of Social Justice and Empowerment supervision."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          }
+        ],
+        "process_md": "**Step 1:****** ***Registration and Application Submission***\n\n- Organizations must register on the NGO Darpan portal and get a project ID from the Department of Social Justice and Empowerment.\n- Submit your application on the e-Anudaan portal between April 1st and June 30th.\n- Include all required details for your organization, project, and students (both new and renewals).\n\n**Step 2:****** ***Document Preparation and Submission***\n\n- Gather and submit key documents like project details, budget, and previous year&#39;s performance reports.\n- Upload all necessary forms to the e-Anudaan portal.\n- While state government recommendations are ideal, applications may still be considered after a project inspection.\n\n**Step 3:****** ***Physical Inspection and Verification***\n\n- A team from the Ministry&#39;s Programme Management Unit will inspect your organization.\n- The inspection, preferably during the first academic quarter, will assess your infrastructure and performance.\n- Continued grant support depends on demonstrating satisfactory performance and adherence to all scheme guidelines.\n\n**Step 4:****** ***Agreement and Bank Account Setup***\n\n- You must sign an Agreement Bond to receive assistance.\n- Set up a joint-operation bank account for electronic fund transfers.\n- All bank account details must be verified through the Public Financial Management System before funds can be released.\n\n**Step 5:****** ***Grant Release and Ongoing Compliance***\n\n- Grants are released in three installments after the application is complete and the inspection report is submitted.\n- Maintain separate accounts for scheme grants and submit utilization certificates to continue receiving funding.\n- Your organization is required to maintain proper records and provide real-time updates on your website and the e-Anudaan portal.\n\n***Application Deadlines:*** Portal opens on 1st April for renewal students and closes on 30th June for fresh student entries annually.\n***Application Status Tracking:*** Status can be tracked through e-Anudaan portal at www.grants-msje.gov.in with real-time data management information system integration.\n***Grievance Redressal / Help &amp; Support:*** Applications and queries to be addressed through e-Anudaan portal www.grants-msje.gov.in under Ministry of Social Justice and Empowerment supervision.\n<br>\n\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "##### ***Eligibility for the Organization***\n\n- The applicant must be a reputed school chain, Corporate Social Responsibility foundation, or reputed organization running good quality schools.\n- The applicant must be registered and working in quality school education.\n- The applicant must have schools recognized by the State Government and affiliated to State or Central Boards.\n- The applicant must have a properly constituted Managing Committee with powers, duties and responsibilities clearly defined in written Constitution.\n- The applicant must have appropriate administrative structure and duly constituted Managing or Executive Committee.\n- The applicant must be initiated and governed by its own members on democratic principles.\n- The applicant must be a non-profit entity.\n- The applicant should have its own website for pro-active disclosure of information.\n- The applicant must be registered on the Non-Governmental Organization Darpan portal of National Institution for Transforming India Aayog.\n- The applicant must have been receiving Grant-in-aid and showing satisfactory performance.\n- The applicant must maintain higher classes up to at least Class 12th.\n- The applicant organization running primary schools (Classes 1st to 8th) must upgrade to Secondary or Senior Secondary Schools (up to at least Class 10th) before 2027.\n\n##### ***Eligibility for the Student***\n\n- The beneficiary must belong to Scheduled Caste community.\n- The beneficiary must be admitted in schools run by eligible Non-Governmental Organizations under this scheme.\n\n##### ***Infrastructure-related Eligibility Requirements***\n\n- The applicant must have one classroom for each class or section.\n- The applicant must have sufficient benches and desks or chairs and tables for all students.\n- The applicant must provide one decent cot and bed for every child in residential facilities.\n- The applicant must have light and fans for every classroom and residing room.\n- The applicant must have female service staff, wardens and chowkidars for girls&#39; residential schools with adequate security provisions.\n- The applicant must have one toilet and bathroom for every 10 children maintained in clean and hygienic condition.\n- The applicant must have hygienic kitchen and dining room.\n- The applicant should provide nutritious and sufficient food to students thrice a day with maintained records.\n- The applicant must provide clean and safe drinking water facility to students.\n- The applicant should arrange regular doctor visits with maintained records and keep first-aid boxes and emergency medicines.\n- The applicant should provide 4 sets of uniforms including shoes per year to students with maintained distribution records.\n- The applicant should have games and sports facility, physical education, yoga, and playground available for students.\n- The applicant must install Closed Circuit Television cameras with linkage to website for live streaming.\n- The applicant must have Aadhaar based attendance system integrated into central portal.\n\n##### ***School Performance Standards***\n\n- The applicant school must have Class 10th and Class 12th pass percentage not less than average Board result of the State or Central Board.\n- The applicant must have qualified and well-trained teachers as per standards of State or Central Board.\n- The applicant must have teachers in High Schools who are at least graduates in their respective fields with Bachelor of Education qualification.\n- The applicant must maintain minimum 6 teachers in a school and minimum 2 teachers in a hostel.\n- The applicant should pay honorariums to teachers and staff in time as per minimum rates prevailing in the district.\n\n<br>\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "heading_five",
+          "children": [
+            {
+              "text": "Eligibility for the Organization",
+              "bold": true,
+              "underline": true,
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must be a reputed school chain, Corporate Social Responsibility foundation, or reputed organization running good quality schools."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must be registered and working in quality school education."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must have schools recognized by the State Government and affiliated to State or Central Boards."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must have a properly constituted Managing Committee with powers, duties and responsibilities clearly defined in written Constitution."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must have appropriate administrative structure and duly constituted Managing or Executive Committee."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must be initiated and governed by its own members on democratic principles."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must be a non-profit entity."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should have its own website for pro-active disclosure of information."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must be registered on the Non-Governmental Organization Darpan portal of National Institution for Transforming India Aayog."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must have been receiving Grant-in-aid and showing satisfactory performance."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must maintain higher classes up to at least Class 12th."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant organization running primary schools (Classes 1st to 8th) must upgrade to Secondary or Senior Secondary Schools (up to at least Class 10th) before 2027."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "heading_five",
+          "children": [
+            {
+              "text": "Eligibility for the Student",
+              "bold": true,
+              "underline": true,
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The beneficiary must belong to Scheduled Caste community."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The beneficiary must be admitted in schools run by eligible Non-Governmental Organizations under this scheme."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "heading_five",
+          "children": [
+            {
+              "text": "Infrastructure-related Eligibility Requirements",
+              "bold": true,
+              "underline": true,
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must have one classroom for each class or section."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must have sufficient benches and desks or chairs and tables for all students."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must provide one decent cot and bed for every child in residential facilities."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must have light and fans for every classroom and residing room."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must have female service staff, wardens and chowkidars for girls' residential schools with adequate security provisions."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must have one toilet and bathroom for every 10 children maintained in clean and hygienic condition."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must have hygienic kitchen and dining room."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should provide nutritious and sufficient food to students thrice a day with maintained records."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must provide clean and safe drinking water facility to students."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should arrange regular doctor visits with maintained records and keep first-aid boxes and emergency medicines."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should provide 4 sets of uniforms including shoes per year to students with maintained distribution records."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should have games and sports facility, physical education, yoga, and playground available for students."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must install Closed Circuit Television cameras with linkage to website for live streaming."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must have Aadhaar based attendance system integrated into central portal."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "heading_five",
+          "children": [
+            {
+              "text": "School Performance Standards",
+              "bold": true,
+              "underline": true,
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant school must have Class 10th and Class 12th pass percentage not less than average Board result of the State or Central Board."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must have qualified and well-trained teachers as per standards of State or Central Board."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must have teachers in High Schools who are at least graduates in their respective fields with Bachelor of Education qualification."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must maintain minimum 6 teachers in a school and minimum 2 teachers in a hostel."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should pay honorariums to teachers and staff in time as per minimum rates prevailing in the district."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "shreshta-m2-ngoos"
+}

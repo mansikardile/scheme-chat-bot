@@ -1,0 +1,380 @@
+{
+  "_id": "64ccae117d920f6bc9ea6089",
+  "en": {
+    "basicDetails": {
+      "schemeOpenDate": null,
+      "schemeCloseDate": null,
+      "state": {
+        "value": 30,
+        "label": "Goa"
+      },
+      "nodalMinistryName": null,
+      "nodalDepartmentName": {
+        "value": 30000013,
+        "label": "Education Department"
+      },
+      "otherMinistryName": null,
+      "otherDepartmentNames": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Scholarships and student finance",
+          "label": "Scholarships and student finance"
+        },
+        {
+          "value": "Financial assistance",
+          "label": "Financial assistance"
+        }
+      ],
+      "dbtScheme": null,
+      "implementingAgency": null,
+      "tags": [
+        "Scholarship",
+        "Scheduled Tribe",
+        "ST",
+        "Post-Matric",
+        "Reimbursement"
+      ],
+      "schemeName": "Eklavya Prashikshan Yojana - Coaching To Scheduled Tribe Student Studying In Class Xth, XIth & XIIth",
+      "schemeShortTitle": "EPY-CSTS",
+      "level": {
+        "value": "state",
+        "label": "State"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce76cd6d1a3bde4685292",
+          "label": "Education & Learning"
+        },
+        {
+          "value": "628ce87cd6d1a3bde4685312",
+          "label": "Social welfare & Empowerment"
+        }
+      ],
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://www.goa.gov.in/wp-content/uploads/2022/10/Eklavya-Prashikshan-Yojana-6-10-2022.pdf"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "&quot;Eklavya Prashikshan Yojana&quot; is a Scholarship Scheme by the Department of Tribal Welfare, Government of Goa. The objective of the scheme is to impart coaching to Scheduled Tribes students across Goa studying in classes Xth, XIth (Science), and XIIth (Arts, Science and Commerce). The scheme prepares the students for various professional courses such as Engineering, Medicine, Architecture, Paramedical Sciences, Law, Chartered Accountancy, etc. after class XIIth.\n<br>\n\n> **Scope**\n\nThe fees shall be reimbursed to the students enrolled in coaching institutes within the State of Goa recognised by the Directorate of Education or registered under the Goa Coaching Classes Regulation Act, 2001. The coaching fees of the students will be reimbursed for the Classes as given below:\n**Group 1:** Xth: Mathematics, Science &amp; English\n**Group 2:** XIth (Science): Mathematics, Physics, Chemistry, Biology.\n**Group 3:** XIIth (Science): Mathematics, Physics, Chemistry, Biology.\n**Group 4:** XIIth (Commerce): Accountancy, Mathematics.\n**Group 5:** XIIth (Arts): English, Economics.\n",
+      "benefits_md": "The student shall be **reimbursed 75% of the fees paid** (upto a ceiling of ₹ 10,000/- per annum per subject in rural areas and ₹ 12,000/- per annum per subject in urban areas) to the coaching institute upon submission of the fee receipt that is duly certified by the competent authority of the coaching institute.\n<br>\n\n**50% of the Fees:** Reimbursed as a first instalment during the First Term of the Academic year upon submission of the fee receipt.\n**25% of the Fees:** Reimbursed as a second instalment upon the submission of the Attendance Certificate of the First Term.\n<br>\n\n> **Mode of Payment**\n\nThe payment shall be done in the Direct Benefit Transfer mode upon submission of the fee receipt along with the fee structure duly certified by the competent authority of the coaching institute.\n",
+      "exclusions_md": "Students pursuing any course through open school or any such mode of schooling shall not be eligible for the benefit under the scheme.\n",
+      "briefDescription": "The objective of the scheme is to impart coaching to ST students across Goa studying in classes Xth, XIth (Science), and XIIth (Arts, Science and Commerce). The scheme prepares the students for various professional courses such as Engineering, Medicine, Architecture, Paramedical Sciences, Law, etc.",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "\"Eklavya Prashikshan Yojana\" is a Scholarship Scheme by the Department of Tribal Welfare, Government of Goa. The objective of the scheme is to impart coaching to Scheduled Tribes students across Goa studying in classes Xth, XIth (Science), and XIIth (Arts, Science and Commerce). The scheme prepares the students for various professional courses such as Engineering, Medicine, Architecture, Paramedical Sciences, Law, Chartered Accountancy, etc. after class XIIth."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        },
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "Scope",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The fees shall be reimbursed to the students enrolled in coaching institutes within the State of Goa recognised by the Directorate of Education or registered under the Goa Coaching Classes Regulation Act, 2001. The coaching fees of the students will be reimbursed for the Classes as given below:"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Group 1: ",
+              "bold": true
+            },
+            {
+              "text": "Xth: Mathematics, Science & English"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Group 2: ",
+              "bold": true
+            },
+            {
+              "text": "XIth (Science): Mathematics, Physics, Chemistry, Biology."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Group 3: ",
+              "bold": true
+            },
+            {
+              "text": "XIIth (Science): Mathematics, Physics, Chemistry, Biology."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Group 4: ",
+              "bold": true
+            },
+            {
+              "text": "XIIth (Commerce): Accountancy, Mathematics."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Group 5: ",
+              "bold": true
+            },
+            {
+              "text": "XIIth (Arts): English, Economics."
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The student shall be "
+            },
+            {
+              "text": "reimbursed 75% of the fees paid",
+              "bold": true
+            },
+            {
+              "text": " (upto a ceiling of ₹ 10,000/- per annum per subject in rural areas and ₹ 12,000/- per annum per subject in urban areas) to the coaching institute upon submission of the fee receipt that is duly certified by the competent authority of the coaching institute."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "50% of the Fees: ",
+              "bold": true
+            },
+            {
+              "text": "Reimbursed as a first instalment during the First Term of the Academic year upon submission of the fee receipt."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "25% of the Fees: ",
+              "bold": true
+            },
+            {
+              "text": "Reimbursed as a second instalment upon the submission of the Attendance Certificate of the First Term."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        },
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "Mode of Payment",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The payment shall be done in the Direct Benefit Transfer mode upon submission of the fee receipt along with the fee structure duly certified by the competent authority of the coaching institute."
+            }
+          ]
+        }
+      ],
+      "exclusions": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Students pursuing any course through open school or any such mode of schooling shall not be eligible for the benefit under the scheme."
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "url": "https://www.goa.gov.in/wp-content/uploads/2022/10/Eklavya-Prashikshan-Yojana-6-10-2022.pdf",
+        "process": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 1: ",
+                "bold": true
+              },
+              {
+                "text": "Visit the Office of the Director/ Deputy Director, Department of Tribal Welfare, Govt. of Goa, and request a physical copy of the proforma of the application form for the scheme from the Concerned Authority."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "OR"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Take a print of the "
+              },
+              {
+                "type": "link",
+                "link": "https://www.goa.gov.in/wp-content/uploads/2022/10/Eklavya-Prashikshan-Yojana-6-10-2022.pdf",
+                "children": [
+                  {
+                    "text": "format"
+                  }
+                ]
+              },
+              {
+                "text": " of the Application Form."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2: ",
+                "bold": true
+              },
+              {
+                "text": "In the application form, fill in all the mandatory fields, affix the passport-sized photograph (signed across), and attach copies of all the mandatory documents (self-attest if required)."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 3: ",
+                "bold": true
+              },
+              {
+                "text": "Submit the duly filled and signed application form along with the documents to the Concerned Authority."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 4: ",
+                "bold": true
+              },
+              {
+                "text": "Acquire the receipt/acknowledgement of the successful submission of the application from the Department's Office."
+              }
+            ]
+          }
+        ],
+        "process_md": "**Step 1:** Visit the Office of the Director/ Deputy Director, Department of Tribal Welfare, Govt. of Goa, and request a physical copy of the proforma of the application form for the scheme from the Concerned Authority.\nOR\nTake a print of the [format](https://www.goa.gov.in/wp-content/uploads/2022/10/Eklavya-Prashikshan-Yojana-6-10-2022.pdf) of the Application Form.\n**Step 2:** In the application form, fill in all the mandatory fields, affix the passport-sized photograph (signed across), and attach copies of all the mandatory documents (self-attest if required).\n**Step 3:** Submit the duly filled and signed application form along with the documents to the Concerned Authority.\n**Step 4:** Acquire the receipt/acknowledgement of the successful submission of the application from the Department&#39;s Office.\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n1. The student shall belong to Scheduled Tribe (ST) Category.\n1. The Student shall be a regular, full-time student studying in a Government School/ Higher Secondary or in a school that is recognised by the Government of Goa or a Central/State Board of Higher Secondary Education.\n1. The fees shall be reimbursed for a particular class in which the student is studying. In the event of a failure in a particular class and the student has to repeat the class, in such circumstances, the fees shall not be reimbursed for a second year.\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The student shall belong to Scheduled Tribe (ST) Category."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The Student shall be a regular, full-time student studying in a Government School/ Higher Secondary or in a school that is recognised by the Government of Goa or a Central/State Board of Higher Secondary Education."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The fees shall be reimbursed for a particular class in which the student is studying. In the event of a failure in a particular class and the student has to repeat the class, in such circumstances, the fees shall not be reimbursed for a second year."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "epy-csts"
+}

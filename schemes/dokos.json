@@ -1,0 +1,195 @@
+{
+  "_id": "678e4fb1223469f4f1dc05ef",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Kerosene Oil",
+        "Subsidized Rate",
+        "National Food Security Act"
+      ],
+      "schemeName": "Distribution of Kerosene Oil Scheme",
+      "schemeShortTitle": "DOKOS",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce87cd6d1a3bde4685312",
+          "label": "Social welfare & Empowerment"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Food Security / Public Distribution System",
+          "label": "Food Security / Public Distribution System"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "state": {
+        "value": 20,
+        "label": "Jharkhand"
+      },
+      "nodalDepartmentName": {
+        "value": 2000007,
+        "label": "Food, Public Distribution and Consumer affairs Department"
+      },
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://www.jharkhand.gov.in/PDepartment/ViewDoc?id=D009DO003SD00625102023010241639"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The &quot;Distribution of Kerosene Oil Scheme&quot; by the Department of Food, Public Distribution and Consumer Affairs, Government of Jharkhand, aims to support eligible families under the National Food Security Act (NFSA), 2013, Jharkhand State Food Security Scheme, and White Card holders. Through this scheme, beneficiaries receive 1 liter of kerosene oil at subsidized rates with a dealer commission of ₹0.50 per liter supported by the government. \n",
+      "benefits_md": "\n1. Beneficiaries receive 1 liter of kerosene oil at subsidized rates.\n1. Dealer commission of ₹0.50 per liter is covered by the government.\n1. Distribution occurs monthly through designated PDS dealers.\n\n",
+      "briefDescription": "The \"Distribution of Kerosene Oil Scheme\" by the Department of Food, Public Distribution and Consumer Affairs, Government of Jharkhand, supports NFSA beneficiaries and others by providing 1 liter of kerosene oil at subsidized rates.",
+      "exclusions_md": "",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The \"Distribution of Kerosene Oil Scheme\" by the Department of Food, Public Distribution and Consumer Affairs, Government of Jharkhand, aims to support eligible families under the National Food Security Act (NFSA), 2013, Jharkhand State Food Security Scheme, and White Card holders. Through this scheme, beneficiaries receive 1 liter of kerosene oil at subsidized rates with a dealer commission of ₹0.50 per liter supported by the government. "
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 3,
+        "value": "composite",
+        "label": "Composite"
+      },
+      "benefits": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Beneficiaries receive 1 liter of kerosene oil at subsidized rates."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Dealer commission of ₹0.50 per liter is covered by the government."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Distribution occurs monthly through designated PDS dealers."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "process": [
+          {
+            "type": "ol_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Visit the nearest ration shop or designated enrollment center with the required documents."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "If Aadhaar is not available, apply for Aadhaar enrollment at an authorized center."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Submit the Aadhaar number or Aadhaar Enrolment Identification Slip during registration."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Verify the eligibility and documents with the designated officer."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Collect the Kerosene Oil from the distribution center as per the monthly schedule."
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "process_md": "\n1. Visit the nearest ration shop or designated enrollment center with the required documents.\n1. If Aadhaar is not available, apply for Aadhaar enrollment at an authorized center.\n1. Submit the Aadhaar number or Aadhaar Enrolment Identification Slip during registration.\n1. Verify the eligibility and documents with the designated officer.\n1. Collect the Kerosene Oil from the distribution center as per the monthly schedule.\n\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n1. The applicant should be a resident of Jharkhand.\n1. The applicant must be covered under the c (NFSA), 2013, Jharkhand State Food Security Scheme, or possess a White Card.\n1. The applicant must not have access to other subsidized fuel schemes.\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should be a resident of Jharkhand."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must be covered under the c (NFSA), 2013, Jharkhand State Food Security Scheme, or possess a White Card."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must not have access to other subsidized fuel schemes."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "dokos"
+}

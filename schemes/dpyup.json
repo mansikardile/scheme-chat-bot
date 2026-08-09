@@ -1,0 +1,232 @@
+{
+  "_id": "6486eae3481f59106a68e42f",
+  "en": {
+    "basicDetails": {
+      "schemeOpenDate": null,
+      "schemeCloseDate": null,
+      "state": {
+        "value": 9,
+        "label": "Uttar Pradesh"
+      },
+      "nodalMinistryName": null,
+      "nodalDepartmentName": {
+        "value": 90000016,
+        "label": "Empowerment of Persons With Disabilities Department, Uttar Pradesh"
+      },
+      "otherMinistryName": null,
+      "otherDepartmentNames": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Pension",
+          "label": "Pension"
+        }
+      ],
+      "dbtScheme": true,
+      "implementingAgency": null,
+      "tags": [
+        "Financial Assitance",
+        "Disability",
+        "Social Welfare",
+        "Empowerment"
+      ],
+      "schemeName": "Divyang Pension Yojana",
+      "schemeShortTitle": "DPYUP",
+      "level": {
+        "value": "state",
+        "label": "State"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce87cd6d1a3bde4685312",
+          "label": "Social welfare & Empowerment"
+        }
+      ],
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://sspy-up.gov.in/docs/Pension_note.pdf"
+        },
+        {
+          "title": "Online Application",
+          "url": "https://sspy-up.gov.in/oap/public_new/UserRegistrationForm.aspx?Scheme=HandicapPension"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The pension scheme has been started by the state government to provide some financial assistance per month to the disabled person. This will help them a lot in running their livelihood, and the standard of living will be better. The pension amount given to them per month by the government is increased from time to time. \n",
+      "benefits_md": "The Department of Empowerment of Persons with Disabilities provides a grant at the rate of Rs. 1,000/- per month per beneficiary \n",
+      "briefDescription": "The State Government of Uttar Pradesh has launched Divyang Pension Yojana to improve and uplift the standard of living of disabled citizens.",
+      "exclusions_md": "",
+      "detailedDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "The pension scheme has been started by the state government to provide some financial assistance per month to the disabled person. This will help them a lot in running their livelihood, and the standard of living will be better. The pension amount given to them per month by the government is increased from time to time. "
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "The Department of Empowerment of Persons with Disabilities provides a grant at the rate of Rs. 1,000/- per month per beneficiary "
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Online",
+        "url": "https://sspy-up.gov.in/HindiPages/index_h.aspx",
+        "process": [
+          {
+            "type": "ol_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "First of all the applicant has to visit the "
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://sspy-up.gov.in",
+                    "children": [
+                      {
+                        "text": "official Portal."
+                      }
+                    ]
+                  },
+                  {
+                    "text": ""
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Fill out the online application form "
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://sspy-up.gov.in/oap/public_new/UserRegistrationForm.aspx?Scheme=HandicapPension",
+                    "children": [
+                      {
+                        "text": "from here. "
+                      }
+                    ]
+                  },
+                  {
+                    "text": ""
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "In the Application form, the applicant has to fill following details:- Personal Details, Bank Details, Income Details, and a description of a disability."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Upload the required documents (Photograph, Age Certificate and Disability Certificate). "
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "process_md": "\n1. First of all the applicant has to visit the [official Portal.](https://sspy-up.gov.in)1. Fill out the online application form [from here. ](https://sspy-up.gov.in/oap/public_new/UserRegistrationForm.aspx?Scheme=HandicapPension)1. In the Application form, the applicant has to fill following details:- Personal Details, Bank Details, Income Details, and a description of a disability.\n1. Upload the required documents (Photograph, Age Certificate and Disability Certificate). \n\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n   1. The age of the applicant should be 18 years or more.\n   1. Applicant must be a permanent resident of Uttar Pradesh.\n   1. Should have a minimum of 40 percent disability.\n   1. The person getting pension/grant/assistance under the applicant&amp;#39;s old age pension, widow pension, socialist pension or any other similar scheme and the person receiving free maintenance in government institutions/homes should not be eligible.\n   1. The annual income of the applicant or his family is within the definition of the poverty line (currently fixed at Rs. 46,080/- in rural areas and Rs. 56,460/- per family per year in urban areas) will be eligible for the grant.\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "ol_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The age of the applicant should be 18 years or more."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Applicant must be a permanent resident of Uttar Pradesh."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Should have a minimum of 40 percent disability."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The person getting pension/grant/assistance under the applicant's old age pension, widow pension, socialist pension or any other similar scheme and the person receiving free maintenance in government institutions/homes should not be eligible."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The annual income of the applicant or his family is within the definition of the poverty line (currently fixed at Rs. 46,080/- in rural areas and Rs. 56,460/- per family per year in urban areas) will be eligible for the grant."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "dpyup"
+}

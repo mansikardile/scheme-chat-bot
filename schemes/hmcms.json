@@ -1,0 +1,594 @@
+{
+  "_id": "6786b1e9d9a900a6a6d33833",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Merit Scholarship",
+        "Minority",
+        "Financial Assistance",
+        "Day Scholar",
+        "Hostellers",
+        "Professional Courses",
+        "Technical Courses"
+      ],
+      "schemeName": "Haryana Merit Cum Means Scheme For Minority",
+      "schemeShortTitle": "HMCMS",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce76cd6d1a3bde4685292",
+          "label": "Education & Learning"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Scholarships and student finance",
+          "label": "Scholarships and student finance"
+        },
+        {
+          "value": "Education and training grants, fellowship, stipend",
+          "label": "Education and training grants, fellowship, stipend"
+        },
+        {
+          "value": "Universities and higher education",
+          "label": "Universities and higher education"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "schemeFor": "Individual",
+      "state": {
+        "value": 6,
+        "label": "Haryana"
+      },
+      "nodalDepartmentName": {
+        "value": 666702,
+        "label": "Social Justice and Empowerment Department"
+      }
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Official Website",
+          "url": "https://haryana.gov.in/scheme/merit-cum-means/"
+        },
+        {
+          "title": "Guideline",
+          "url": "https://cdnbbsr.s3waas.gov.in/s37b7a53e239400a13bd6be6c91c4f6c4e/uploads/2020/05/2020051435.pdf"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "Launched in 2012, the scheme &quot;Merit Cum Means Based Scholarship&quot; has been implemented by the Ministry of Minority Affairs, Government of India, and aims to provide financial assistance to meritorious students from minority communities to pursue professional and technical courses. Through this scheme, monetary benefits are provided to support education-related expenses for eligible students belonging to minority groups, ensuring their socio-economic empowerment. The scheme is implemented by the State Government of Haryana in collaboration with the Union Ministry of Minority Affairs. The primary objectives of the scheme are to encourage higher education, support meritorious students from economically weaker backgrounds, and promote equitable education opportunities for minority communities.\n<br>\n\n",
+      "benefits_md": "**Financial Assistance:**\n\n- For Hostellers: ₹30,000/- per annum, including ₹10,000/- as maintenance allowance and up to ₹20,000/- as course fees.\n- For Day Scholars: ₹25,000/- per annum, including ₹5,000/- as maintenance allowance and up to ₹20,000/- as course fees.\n- Full course fees are reimbursed for the listed institutions.\n\n**Conditions Associated with Benefits:**\n\n- The annual family income of the applicant must not exceed ₹2,50,000/- from all sources.\n- Scholarships are awarded directly to the student’s bank account.\n\n**Mode of Disbursement:**\n\n- Funds are transferred via Direct Benefit Transfer (DBT) to the student&#39;s bank account.\n\n**Frequency of Disbursement:**\n\n- Disbursed annually upon approval of the application.\n\n**Validity:**\n\n- Applicable only for the duration of the course, subject to yearly renewal based on academic performance.\n\n<br>\n\n",
+      "exclusions_md": "\n- Applicants receiving any other scholarship or stipend for the same course are ineligible.\n- Scholarship benefits are forfeited if the applicant discontinues the course or changes the subject of study without prior approval.\n\n",
+      "briefDescription": "The scheme aims to provide financial assistance to meritorious students from minority communities in Haryana for pursuing professional and technical courses.",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Launched in 2012, the scheme \"Merit Cum Means Based Scholarship\" has been implemented by the Ministry of Minority Affairs, Government of India, and aims to provide financial assistance to meritorious students from minority communities to pursue professional and technical courses. Through this scheme, monetary benefits are provided to support education-related expenses for eligible students belonging to minority groups, ensuring their socio-economic empowerment. The scheme is implemented by the State Government of Haryana in collaboration with the Union Ministry of Minority Affairs. The primary objectives of the scheme are to encourage higher education, support meritorious students from economically weaker backgrounds, and promote equitable education opportunities for minority communities."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Financial Assistance:",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "For Hostellers: ₹30,000/- per annum, including ₹10,000/- as maintenance allowance and up to ₹20,000/- as course fees."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "For Day Scholars: ₹25,000/- per annum, including ₹5,000/- as maintenance allowance and up to ₹20,000/- as course fees."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Full course fees are reimbursed for the listed institutions."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Conditions Associated with Benefits:",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The annual family income of the applicant must not exceed ₹2,50,000/- from all sources."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Scholarships are awarded directly to the student’s bank account."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Mode of Disbursement:",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Funds are transferred via Direct Benefit Transfer (DBT) to the student's bank account."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Frequency of Disbursement:",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Disbursed annually upon approval of the application."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Validity:",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Applicable only for the duration of the course, subject to yearly renewal based on academic performance."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ],
+      "exclusions": [
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Applicants receiving any other scholarship or stipend for the same course are ineligible."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Scholarship benefits are forfeited if the applicant discontinues the course or changes the subject of study without prior approval."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Online",
+        "process": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 1:",
+                "bold": true
+              },
+              {
+                "text": " Keep ready the soft copies of the required documents."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Go to "
+              },
+              {
+                "type": "link",
+                "link": "http://www.scholarships.gov.in/",
+                "children": [
+                  {
+                    "text": "the National Scholarship Portal (NSP)"
+                  }
+                ]
+              },
+              {
+                "text": ". and click “Apply Now”."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Guidelines for "
+              },
+              {
+                "type": "link",
+                "link": "https://scholarships.gov.in/otrapplication/#/registration-page",
+                "children": [
+                  {
+                    "text": "Registration"
+                  }
+                ]
+              },
+              {
+                "text": " will appear. Scroll to the bottom. "
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Read carefully the undertaking. Accept the Terms. Click “Continue”."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": " "
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2:",
+                "bold": true
+              },
+              {
+                "text": " A Registration Form will appear. (The fields marked as * are compulsory.)"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Fill in the details and click “Register”. "
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Your Application ID and password will be displayed."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "The same will also be sent as an SMS to your registered mobile number. "
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 3:",
+                "bold": true
+              },
+              {
+                "text": " Go to "
+              },
+              {
+                "type": "link",
+                "link": "https://scholarships.gov.in/otrapplication/#/login-page",
+                "children": [
+                  {
+                    "text": "Login with OTR"
+                  }
+                ]
+              },
+              {
+                "text": "."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Click on “Login to Apply”. Enter your Application ID and password."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Type the Captcha and click “Login”."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "On the next screen, provide the OTP received on your registered mobile number. You will be directed to the Password Reset screen."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Create a new password and confirm."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Click “Submit”. You will be directed to the “Applicant’s Dashboard”."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": " Step 4: ",
+                "bold": true
+              },
+              {
+                "text": "On the left pane, click “Application Form.\" The fields marked as * are compulsory. Fill in the details and upload the documents."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "You can either click on “Save as Draft” to complete the application later."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Else, click “Final Submit” to submit the application."
+              }
+            ]
+          }
+        ],
+        "process_md": "**Step 1:** Keep ready the soft copies of the required documents.\nGo to [the National Scholarship Portal (NSP)](http://www.scholarships.gov.in/). and click “Apply Now”.\nGuidelines for [Registration](https://scholarships.gov.in/otrapplication/#/registration-page) will appear. Scroll to the bottom. \nRead carefully the undertaking. Accept the Terms. Click “Continue”.\n \n**Step 2:** A Registration Form will appear. (The fields marked as * are compulsory.)\nFill in the details and click “Register”. \nYour Application ID and password will be displayed.\nThe same will also be sent as an SMS to your registered mobile number. \n<br>\n\n**Step 3:** Go to [Login with OTR](https://scholarships.gov.in/otrapplication/#/login-page).\nClick on “Login to Apply”. Enter your Application ID and password.\nType the Captcha and click “Login”.\nOn the next screen, provide the OTP received on your registered mobile number. You will be directed to the Password Reset screen.\nCreate a new password and confirm.\nClick “Submit”. You will be directed to the “Applicant’s Dashboard”.\n<br>\n\n **Step 4:** On the left pane, click “Application Form.&quot; The fields marked as * are compulsory. Fill in the details and upload the documents.\nYou can either click on “Save as Draft” to complete the application later.\nElse, click “Final Submit” to submit the application.\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "**General Eligibility:**\n\n- The applicant should belong to a notified minority community (Muslim, Christian, Sikh, Buddhist, Jain, or Parsi).\n- The applicant must be a resident of Haryana, irrespective of the place of study.\n- The applicant should have secured admission to a professional or technical course in a recognized institution.\n- The applicant should have scored at least 50% marks in the previous qualifying examination.\n\n**Income Criteria:**\n\n- The annual family income should not exceed ₹2,50,000/- from all sources.\n\n**Preference and Reservation:**\n\n- 30% of scholarships are reserved for girl students, transferable to male students if no eligible girl candidates are available.\n\n<br>\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "General Eligibility:",
+              "bold": true,
+              "underline": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should belong to a notified minority community (Muslim, Christian, Sikh, Buddhist, Jain, or Parsi)."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must be a resident of Haryana, irrespective of the place of study."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should have secured admission to a professional or technical course in a recognized institution."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should have scored at least 50% marks in the previous qualifying examination."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Income Criteria:",
+              "bold": true,
+              "underline": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The annual family income should not exceed ₹2,50,000/- from all sources."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Preference and Reservation:",
+              "bold": true,
+              "underline": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "30% of scholarships are reserved for girl students, transferable to male students if no eligible girl candidates are available."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "hmcms"
+}

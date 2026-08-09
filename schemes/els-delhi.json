@@ -1,0 +1,418 @@
+{
+  "_id": "67af0e5ac15709a4dbdee852",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Education",
+        "Loan",
+        "Student",
+        "College",
+        "Scheduled Caste",
+        "Scheduled Tribe",
+        "Minority",
+        "Disability",
+        "OBC"
+      ],
+      "schemeName": "Education Loan Scheme - Delhi",
+      "schemeShortTitle": "ELS-DELHI",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce76cd6d1a3bde4685292",
+          "label": "Education & Learning"
+        },
+        {
+          "value": "628ce87cd6d1a3bde4685312",
+          "label": "Social welfare & Empowerment"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Universities and higher education",
+          "label": "Universities and higher education"
+        },
+        {
+          "value": "International education",
+          "label": "International education"
+        },
+        {
+          "value": "Scholarships and student finance",
+          "label": "Scholarships and student finance"
+        },
+        {
+          "value": "Loan",
+          "label": "Loan"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "schemeFor": "Individual",
+      "state": {
+        "value": 7,
+        "label": "Delhi"
+      },
+      "nodalDepartmentName": {
+        "value": 70000021,
+        "label": "Social Welfare Department"
+      }
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://dsfdc.delhi.gov.in/sites/default/files/education_loan_details.pdf"
+        },
+        {
+          "title": "Application Form",
+          "url": "https://dsfdc.delhi.gov.in/sites/default/files/proforma_affidavit_app_form.pdf"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "&quot;Education Loan Scheme&quot; by the Delhi SC/ST/OBC/Minorities and Handicapped Financial Development Corporation Ltd., Government of Delhi, aims to provide financial assistance to students belonging to Scheduled Castes (SC), Scheduled Tribes (ST), Other Backward Classes (OBC), Minorities, and Persons with Disabilities (PwD) for pursuing professional and technical courses in recognized institutions in India and abroad. The scheme offers need-based loans with a maximum limit of ₹7,50,000/- for studies in India and ₹15,00,000/- for studies abroad. To be eligible the applicant must be a permanent resident of Delhi, with an annual family income below ₹5,00,000/-.\n",
+      "benefits_md": "\n- Need-based finance with a ceiling of ₹7,50,000/- for studies in India.\n- Need-based finance with a ceiling of ₹15,00,000/- for studies abroad.\n\n_*No promoter’s contribution required for loans up to ₹4,00,000/-._\n_*For loans above ₹4,00,000/-, 5% contribution is required for studies in India and 15% for studies abroad._\n_*Loan repayment period is up to 10 years after the commencement of repayment or until the date of employment, whichever is earlier._\n_*The applicant has the option to repay the loan earlier if desired._\n",
+      "briefDescription": "\"Education Loan Scheme\" provides financial assistance to the SC/ST/OBC/PwD students for pursuing professional and technical education in India and abroad, with loan limits of ₹7,50,000/- and ₹15,00,000/- respectively. Delhi residents with an annual family income below ₹5,00,000/- are eligible.",
+      "exclusions_md": "<br>\n\n",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "\"Education Loan Scheme\" by the Delhi SC/ST/OBC/Minorities and Handicapped Financial Development Corporation Ltd., Government of Delhi, aims to provide financial assistance to students belonging to Scheduled Castes (SC), Scheduled Tribes (ST), Other Backward Classes (OBC), Minorities, and Persons with Disabilities (PwD) for pursuing professional and technical courses in recognized institutions in India and abroad. The scheme offers need-based loans with a maximum limit of ₹7,50,000/- for studies in India and ₹15,00,000/- for studies abroad. To be eligible the applicant must be a permanent resident of Delhi, with an annual family income below ₹5,00,000/-."
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Need-based finance with a ceiling of ₹7,50,000/- for studies in India."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Need-based finance with a ceiling of ₹15,00,000/- for studies abroad."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "*No promoter’s contribution required for loans up to ₹4,00,000/-.",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "*For loans above ₹4,00,000/-, 5% contribution is required for studies in India and 15% for studies abroad.",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "*Loan repayment period is up to 10 years after the commencement of repayment or until the date of employment, whichever is earlier.",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "*The applicant has the option to repay the loan earlier if desired.",
+              "italic": true
+            }
+          ]
+        }
+      ],
+      "exclusions": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "process": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 1:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " The application form for the Education Loan Scheme is available free of cost at the following branches:"
+              }
+            ]
+          },
+          {
+            "type": "ul_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "2-Battery Lane, Rajpur Road, Delhi-54."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "A-33-38, B-Block, Lal Building, Opposite Police Station, Mangol Puri, Delhi."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "A-Block, 1st Floor, Bunker Vihar, Deputy Commissioner’s Office (North East), Opposite Gagan Cinema, Nand Nagri, Delhi."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Alternatively, the "
+              },
+              {
+                "type": "link",
+                "link": "https://dsfdc.delhi.gov.in/sites/default/files/proforma_affidavit_app_form.pdf",
+                "children": [
+                  {
+                    "text": "prescribed format"
+                  }
+                ]
+              },
+              {
+                "text": " of the application form can be downloaded from the official website of DSFDC."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " Carefully fill out the application form in black ink using a ball pen. Ensure all required details are accurately provided, including personal information, course details, and financial information. Fill in all the mandatory fields, paste the passport-sized photograph, and attach copies of all the mandatory documents (self-attest, if required)."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 3:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " Submit the duly filled application form along with the required documents to - "
+              },
+              {
+                "text": "The Deputy Manager (Education Loan) in Room No. 208, 2nd Floor, Ambedkar Bhawan, Sector-16, Rohini, Delhi-89.",
+                "bold": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "*Bring the original documents for verification at the time of submission.",
+                "italic": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Application Review",
+                "bold": true,
+                "underline": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Once the application is approved by DSFDC, the applicant will receive a sanction-cum agreement letter. The applicant must sign the agreement and complete any additional formalities, such as executing a guarantee deed or hypothecation deed."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "*For any further information or inquiries, please contact DSFDC at: ",
+                "italic": true
+              },
+              {
+                "italic": true,
+                "text": "Phone No.: 011-27574521 & 27574377.",
+                "bold": true
+              }
+            ]
+          }
+        ],
+        "process_md": "**Step 1:** The application form for the Education Loan Scheme is available free of cost at the following branches:\n\n- 2-Battery Lane, Rajpur Road, Delhi-54.\n- A-33-38, B-Block, Lal Building, Opposite Police Station, Mangol Puri, Delhi.\n- A-Block, 1st Floor, Bunker Vihar, Deputy Commissioner’s Office (North East), Opposite Gagan Cinema, Nand Nagri, Delhi.\n\nAlternatively, the [prescribed format](https://dsfdc.delhi.gov.in/sites/default/files/proforma_affidavit_app_form.pdf) of the application form can be downloaded from the official website of DSFDC.\n**Step 2:** Carefully fill out the application form in black ink using a ball pen. Ensure all required details are accurately provided, including personal information, course details, and financial information. Fill in all the mandatory fields, paste the passport-sized photograph, and attach copies of all the mandatory documents (self-attest, if required).\n**Step 3:** Submit the duly filled application form along with the required documents to - **The Deputy Manager (Education Loan) in Room No. 208, 2nd Floor, Ambedkar Bhawan, Sector-16, Rohini, Delhi-89.**\n_*Bring the original documents for verification at the time of submission._\n**Application Review**\nOnce the application is approved by DSFDC, the applicant will receive a sanction-cum agreement letter. The applicant must sign the agreement and complete any additional formalities, such as executing a guarantee deed or hypothecation deed.\n_*For any further information or inquiries, please contact DSFDC at:_ ***Phone No.: 011-27574521 &amp; 27574377.***\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n- The applicant must be a permanent resident of Delhi.\n- The applicant should be from one of the following target groups - Scheduled Caste, Scheduled Tribe, Other Backward Class, Minority, Persons with Disability.\n- The annual income of parents/guardian should be below ₹5,00,000/-.\n- The applicant must have secured admission in a recognized/Government/Technical Institution in India or abroad.\n- The College/Institute should have been offering the course for the last three years.\n- The College/Institute should be recognized by the Central/State Government or by appropriate authorities such as UGC (University Grants Commission), AICTE (All India Council for Technical Education), etc.\n- The duration of the course should not exceed 5 years.\n\n**Post Sanction Eligibility for the Borrower**\n\n- The borrower must not participate in any unlawful activity that would debar them from pursuing studies and must follow all rules and regulations laid down by the educational institution.\n- The borrower must not enter into any pecuniary obligation or financial liability during the currency of the loan.\n- The borrower must strive to secure suitable employment after completing the course and furnish full particulars of such employment, including income details, to DSFDC.\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must be a permanent resident of Delhi."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should be from one of the following target groups - Scheduled Caste, Scheduled Tribe, Other Backward Class, Minority, Persons with Disability."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The annual income of parents/guardian should be below ₹5,00,000/-."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must have secured admission in a recognized/Government/Technical Institution in India or abroad."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The College/Institute should have been offering the course for the last three years."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The College/Institute should be recognized by the Central/State Government or by appropriate authorities such as UGC (University Grants Commission), AICTE (All India Council for Technical Education), etc."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The duration of the course should not exceed 5 years."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Post Sanction Eligibility for the Borrower",
+              "bold": true,
+              "underline": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The borrower must not participate in any unlawful activity that would debar them from pursuing studies and must follow all rules and regulations laid down by the educational institution."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The borrower must not enter into any pecuniary obligation or financial liability during the currency of the loan."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The borrower must strive to secure suitable employment after completing the course and furnish full particulars of such employment, including income details, to DSFDC."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "els-delhi"
+}

@@ -1,0 +1,645 @@
+{
+  "_id": "69e21562c9e1e72295df6d58",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Millets",
+        "Financial Incentive",
+        "Incremental Sale",
+        "Manufacturer",
+        "Export Market",
+        "Food Products",
+        "PLI"
+      ],
+      "schemeName": "Production Linked Incentive Scheme for Millet Based Products",
+      "schemeShortTitle": "PLISMBP",
+      "level": {
+        "value": "central",
+        "label": "Central"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce733d6d1a3bde4685278",
+          "label": "Business & Entrepreneurship"
+        }
+      ],
+      "schemeSubCategory": null,
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "industries",
+          "label": "Industries"
+        },
+        {
+          "value": "business-entity",
+          "label": "Business Entity"
+        },
+        {
+          "value": "joint-liability-groups",
+          "label": "Joint Liability Groups (JLGS)"
+        }
+      ],
+      "schemeFor": "Infra",
+      "state": null,
+      "schemeType": {
+        "value": "central-sector-scheme",
+        "label": "Central Sector Scheme"
+      },
+      "nodalMinistryName": {
+        "value": 12122,
+        "label": "Ministry of Food Processing Industries"
+      },
+      "nodalDepartmentName": null,
+      "otherMinistryName": null,
+      "otherDepartmentNames": null
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://plimofpi.ifciltd.com/docs/PLI-Millets%20Guidelines.pdf"
+        },
+        {
+          "title": "Official Website",
+          "url": "https://plimofpi.ifciltd.com/guidelines"
+        }
+      ],
+      "schemeImageUrl": "",
+      "briefDescription": "The scheme aims to increase usage of millets and promote value-added millet products. Through this scheme, financial incentives on incremental sales are provided to eligible manufacturers.",
+      "detailedDescription_md": "The scheme “Production Linked Incentive Scheme for Millet-Based Products (PLISMBP)” has been launched by the Ministry of Food Processing Industries, Government of India. The objectives of the scheme are to increase usage of millets in food products and promote their value addition. These objectives are sought to be achieved through incentivising the manufacture of selected millet-based products and their sale in domestic and export markets. The scheme is implemented by the Ministry of Food Processing Industries through a Project Management Agency (PMA) (presently IFCI Limited). The scheme covers a tenure of 5 years from FY 2022-23 to FY 2026-27 with a total outlay of ₹800 crore. The Incentive payable for a particular year will be due for payment in the following year. The Incentive payable for the Financial Year 2026-27 will be due for payment in the year 2027-28. Incentives are linked to incremental sales over a defined base year and are subject to achieving minimum growth rates. Eligible products must contain more than 15% millet content and must be manufactured in India. The selection of applicants is based on evaluation criteria and a ranking system.\n<br>\n\n",
+      "benefits_md": "> **Financial Incentive on Incremental Sales:**\n\n\n1. The applicant is provided an incentive for incremental sales of eligible millet-based food products.\n1. The incentive is calculated as: Incremental Sales × Applicable Rate of Incentive.\n1. Incremental sales refer to sales over and above the base year (FY 2020-21 for initial years).\n\n> **Incentive Rates:**\n\n\n1. The incentive rate is 10% for the initial years and reduces to 8% in later years of the scheme.\n1. The applicable rate depends on the financial year of the claim.\n\n> **Maximum Incentive Limit:**\n\n\n1. The applicant (Large Entity) can receive an incentive of up to ₹100,00,00,000/- during the scheme period.\n1. The applicant (MSME) can receive an incentive of up to ₹40,00,00,000/- during the scheme period.\n\n> **Coverage of Eligible Products:**\n\n\n1. The incentive is applicable only to packaged and branded Ready-to-Cook (RTC) / Ready-to-Eat (RTE) products.\n1. The product should contain more than 15% millet content by weight/volume.\n\n> **Conditions for Availing Benefits:**\n\n\n1. The applicant should achieve a minimum 10% Compound Annual Growth Rate (CAGR) in sales of eligible products.\n1. The applicant will not receive incentive for a year if the minimum growth is not achieved.\n1. The applicant should ensure that the declared millet content is not reduced during the scheme period.\n\n> **Mode of Disbursement:** The incentive is disbursed through Direct Bank Transfer to the applicant’s account via PFMS.\n\n> **Time of Disbursement:** The claim for incentive is processed within 60 days from submission of complete documents.\n\n<br>\n\n",
+      "exclusions_md": "<br>\n\n",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The scheme “Production Linked Incentive Scheme for Millet-Based Products (PLISMBP)” has been launched by the Ministry of Food Processing Industries, Government of India. The objectives of the scheme are to increase usage of millets in food products and promote their value addition. These objectives are sought to be achieved through incentivising the manufacture of selected millet-based products and their sale in domestic and export markets. The scheme is implemented by the Ministry of Food Processing Industries through a Project Management Agency (PMA) (presently IFCI Limited). The scheme covers a tenure of 5 years from FY 2022-23 to FY 2026-27 with a total outlay of ₹800 crore. The Incentive payable for a particular year will be due for payment in the following year. The Incentive payable for the Financial Year 2026-27 will be due for payment in the year 2027-28. Incentives are linked to incremental sales over a defined base year and are subject to achieving minimum growth rates. Eligible products must contain more than 15% millet content and must be manufactured in India. The selection of applicants is based on evaluation criteria and a ranking system."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "Financial Incentive on Incremental Sales:",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant is provided an incentive for incremental sales of eligible millet-based food products."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The incentive is calculated as: Incremental Sales × Applicable Rate of Incentive."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Incremental sales refer to sales over and above the base year (FY 2020-21 for initial years)."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "Incentive Rates:",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The incentive rate is 10% for the initial years and reduces to 8% in later years of the scheme."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicable rate depends on the financial year of the claim."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "Maximum Incentive Limit:",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant (Large Entity) can receive an incentive of up to ₹100,00,00,000/- during the scheme period."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant (MSME) can receive an incentive of up to ₹40,00,00,000/- during the scheme period."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "Coverage of Eligible Products:",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The incentive is applicable only to packaged and branded Ready-to-Cook (RTC) / Ready-to-Eat (RTE) products."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The product should contain more than 15% millet content by weight/volume."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "Conditions for Availing Benefits:",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should achieve a minimum 10% Compound Annual Growth Rate (CAGR) in sales of eligible products."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant will not receive incentive for a year if the minimum growth is not achieved."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should ensure that the declared millet content is not reduced during the scheme period."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "Mode of Disbursement: ",
+              "bold": true
+            },
+            {
+              "text": "The incentive is disbursed through Direct Bank Transfer to the applicant’s account via PFMS."
+            }
+          ]
+        },
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "Time of Disbursement:",
+              "bold": true
+            },
+            {
+              "text": " The claim for incentive is processed within 60 days from submission of complete documents."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ],
+      "exclusions": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Online",
+        "process": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 1: ",
+                "bold": true
+              },
+              {
+                "text": "The applicant should wait for the release of the Expression of Interest (EOI) by the Ministry of Food Processing Industries for millet-based products."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2:",
+                "bold": true
+              },
+              {
+                "text": " The applicant should access the online application portal maintained by the Project Management Agency (PMA) at: "
+              },
+              {
+                "type": "link",
+                "link": "https://plimofpi.ifciltd.com",
+                "children": [
+                  {
+                    "text": "https://plimofpi.ifciltd.com."
+                  }
+                ]
+              },
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 3: ",
+                "bold": true
+              },
+              {
+                "text": "The applicant should fill in the Application Form ("
+              },
+              {
+                "type": "link",
+                "link": "https://plimofpi.ifciltd.com/docs/PLI-Millets%20Guidelines.pdf",
+                "children": [
+                  {
+                    "text": "Annexure-1"
+                  }
+                ]
+              },
+              {
+                "text": ") with all required details, including applicant details, project proposal, and application fee details."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 4: ",
+                "bold": true
+              },
+              {
+                "text": "The applicant should upload all required supporting documents as specified in the application form and guidelines."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 5: ",
+                "bold": true
+              },
+              {
+                "text": "The applicant should provide details of manufacturing sites, including their own and contract manufacturing facilities proposed for eligible products."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 6: ",
+                "bold": true
+              },
+              {
+                "text": "The applicant should submit an undertaking for audit consent of manufacturing sites/offices in the prescribed format."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 7: ",
+                "bold": true
+              },
+              {
+                "text": "The applicant should pay the application fee online before the closure of the application window:"
+              }
+            ]
+          },
+          {
+            "type": "ul_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "₹1,00,000/- for Large Entity applicants"
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "₹10,000/- for MSME applicants"
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Payment should be made through NEFT/RTGS as specified."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 8: ",
+                "bold": true
+              },
+              {
+                "text": "The applicant should submit the application online within the application window. No application will be accepted after the deadline, and no physical submission is allowed."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 9: ",
+                "bold": true
+              },
+              {
+                "text": "Upon successful submission, the applicant will receive a unique Application ID for future reference."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 10: ",
+                "bold": true
+              },
+              {
+                "text": "The Project Management Agency (PMA) will conduct a prima facie examination of the application within 15 working days."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 11: ",
+                "bold": true
+              },
+              {
+                "text": "The PMA will evaluate the application and forward recommendations to the Ministry of Food Processing Industries for approval."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 12: ",
+                "bold": true
+              },
+              {
+                "text": "The Ministry will approve applications within 90 days from the closure of the application window, subject to completeness of documents."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 13: ",
+                "bold": true
+              },
+              {
+                "text": "After approval, the PMA will issue an approval letter to the selected applicant within 5 working days."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 14: ",
+                "bold": true
+              },
+              {
+                "text": "The selected applicant should submit annual claims for incentive disbursement along with the required documents for each financial year."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          }
+        ],
+        "process_md": "**Step 1:** The applicant should wait for the release of the Expression of Interest (EOI) by the Ministry of Food Processing Industries for millet-based products.\n**Step 2:** The applicant should access the online application portal maintained by the Project Management Agency (PMA) at: [https://plimofpi.ifciltd.com.](https://plimofpi.ifciltd.com)\n**Step 3:** The applicant should fill in the Application Form ([Annexure-1](https://plimofpi.ifciltd.com/docs/PLI-Millets%20Guidelines.pdf)) with all required details, including applicant details, project proposal, and application fee details.\n**Step 4:** The applicant should upload all required supporting documents as specified in the application form and guidelines.\n**Step 5:** The applicant should provide details of manufacturing sites, including their own and contract manufacturing facilities proposed for eligible products.\n**Step 6:** The applicant should submit an undertaking for audit consent of manufacturing sites/offices in the prescribed format.\n**Step 7:** The applicant should pay the application fee online before the closure of the application window:\n\n- ₹1,00,000/- for Large Entity applicants\n- ₹10,000/- for MSME applicants\n- Payment should be made through NEFT/RTGS as specified.\n\n**Step 8:** The applicant should submit the application online within the application window. No application will be accepted after the deadline, and no physical submission is allowed.\n**Step 9:** Upon successful submission, the applicant will receive a unique Application ID for future reference.\n**Step 10:** The Project Management Agency (PMA) will conduct a prima facie examination of the application within 15 working days.\n**Step 11:** The PMA will evaluate the application and forward recommendations to the Ministry of Food Processing Industries for approval.\n**Step 12:** The Ministry will approve applications within 90 days from the closure of the application window, subject to completeness of documents.\n**Step 13:** After approval, the PMA will issue an approval letter to the selected applicant within 5 working days.\n**Step 14:** The selected applicant should submit annual claims for incentive disbursement along with the required documents for each financial year.\n<br>\n\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n1. An applicant shall have a total sale of all food products above the minimum sales given in [Appendix B](https://plimofpi.ifciltd.com/docs/PLI-Millets%20Guidelines.pdf) in the Base Year.1. Udyam Registration Certificate is mandatory for MSME Applicants.\n1. Incentive under the scheme shall be provided to the Applicants engaged in manufacturing or intending to manufacture eligible products in India &amp; sales of such products.\n1. Applicant shall be required to achieve a minimum CAGR of 10% on sales of the eligible products from the base year for the grant of the incentive. If the applicant is not able to achieve the prescribed minimum growth in sales for a particular year, no incentive will be payable for that year. However, if the industry faces lower growth due to Force Majeure, the EGoS may review the prescribed minimum growth rate. \n1. The Applicant may include eligible products that it is not manufacturing presently but intends to manufacture during the tenure of the scheme. In such a case, the intended product (s) along with their millet content should be declared at the time of submission of the application itself. Inclusion of new product (s) after the submission of the application is not permissible.\n1. The entire chain of manufacturing process, including primary processing, of eligible food products starting from raw materials to finished product covered in the Application for incentive under the Scheme, is required to take place in India. However, the use of additives, flavours, and edible oil in millet products, this condition would not apply.\n1. The name of Applicant /Promoters should not appear in the Suit/Non-Suit Filed Cases (Wilful Defaulters ₹25 lacs and above, defaulter ₹1 crore and above) List of CIBIL and SEBI Debarred List as on the date of application. The Applicant, in its application, along with an undertaking (Format A, [Annexure 7](https://plimofpi.ifciltd.com/docs/PLI-Millets%20Guidelines.pdf)), should declare that its name does not appear, as a defaulter or a wilful defaulter, nor has it been declared bankrupt nor as a fraud by any bank or financial institution or non-banking financial company.\n<br>\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "An applicant shall have a total sale of all food products above the minimum sales given in "
+                },
+                {
+                  "type": "link",
+                  "link": "https://plimofpi.ifciltd.com/docs/PLI-Millets%20Guidelines.pdf",
+                  "children": [
+                    {
+                      "text": "Appendix B"
+                    }
+                  ]
+                },
+                {
+                  "text": " in the Base Year."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Udyam Registration Certificate is mandatory for MSME Applicants."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Incentive under the scheme shall be provided to the Applicants engaged in manufacturing or intending to manufacture eligible products in India & sales of such products."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Applicant shall be required to achieve a minimum CAGR of 10% on sales of the eligible products from the base year for the grant of the incentive. If the applicant is not able to achieve the prescribed minimum growth in sales for a particular year, no incentive will be payable for that year. However, if the industry faces lower growth due to Force Majeure, the EGoS may review the prescribed minimum growth rate. "
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The Applicant may include eligible products that it is not manufacturing presently but intends to manufacture during the tenure of the scheme. In such a case, the intended product (s) along with their millet content should be declared at the time of submission of the application itself. Inclusion of new product (s) after the submission of the application is not permissible."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The entire chain of manufacturing process, including primary processing, of eligible food products starting from raw materials to finished product covered in the Application for incentive under the Scheme, is required to take place in India. However, the use of additives, flavours, and edible oil in millet products, this condition would not apply."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The name of Applicant /Promoters should not appear in the Suit/Non-Suit Filed Cases (Wilful Defaulters ₹25 lacs and above, defaulter ₹1 crore and above) List of CIBIL and SEBI Debarred List as on the date of application. The Applicant, in its application, along with an undertaking (Format A, "
+                },
+                {
+                  "type": "link",
+                  "link": "https://plimofpi.ifciltd.com/docs/PLI-Millets%20Guidelines.pdf",
+                  "children": [
+                    {
+                      "text": "Annexure 7"
+                    }
+                  ]
+                },
+                {
+                  "text": "), should declare that its name does not appear, as a defaulter or a wilful defaulter, nor has it been declared bankrupt nor as a fraud by any bank or financial institution or non-banking financial company."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "plismbp"
+}

@@ -1,0 +1,293 @@
+{
+  "_id": "659d3b746093f0fa331a0e36",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Social Welfare",
+        "Financial Assistance"
+      ],
+      "schemeName": "Widow Pension - Uttar Pradesh",
+      "schemeShortTitle": "WPUP",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce87cd6d1a3bde4685312",
+          "label": "Social welfare & Empowerment"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Pension",
+          "label": "Pension"
+        }
+      ],
+      "schemeOpenDate": "2017-06-16",
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "state": {
+        "value": 9,
+        "label": "Uttar Pradesh"
+      },
+      "nodalDepartmentName": {
+        "value": 90000051,
+        "label": "Department of Women & Child Development"
+      },
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://sspy-up.gov.in/docs/widow_Guidlines_2021.pdf"
+        },
+        {
+          "title": "Department Website",
+          "url": "https://mahilakalyan.up.nic.in/OurProgram.aspx"
+        },
+        {
+          "title": "Apply Online",
+          "url": "https://sspy-up.gov.in/"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The Uttar Pradesh government, recognizing the unique challenges faced by widows living within the state, has implemented the Widow Pension Scheme. This compassionate initiative, administered by the Women Welfare Department, offers a vital form of financial assistance to these vulnerable women.\n<br>\n\nThe scheme provides a monthly pension, acknowledging the significant impact of losing a spouse on household income and stability. This crucial support empowers widows to navigate the hardships of their situations, rebuild their lives with dignity, and secure a measure of financial security. The Widow Pension Scheme stands as a testament to the government&#39;s commitment to the well-being of its widowed citizens, fostering hope and fostering a path towards a brighter future\n",
+      "benefits_md": "Financial Assistance : ₹1,000/- per month\n",
+      "exclusions_md": "> The applicant should not be receiving pension from any other scheme of the state or central government.\n\n",
+      "briefDescription": "Widow pension in Uttar Pradesh is a social welfare scheme by the Government of Uttar Pradesh to provide financial assistance to widows residing in the state. The scheme is administered by the Women Welfare Department of the state government.",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The Uttar Pradesh government, recognizing the unique challenges faced by widows living within the state, has implemented the Widow Pension Scheme. This compassionate initiative, administered by the Women Welfare Department, offers a vital form of financial assistance to these vulnerable women."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The scheme provides a monthly pension, acknowledging the significant impact of losing a spouse on household income and stability. This crucial support empowers widows to navigate the hardships of their situations, rebuild their lives with dignity, and secure a measure of financial security. The Widow Pension Scheme stands as a testament to the government's commitment to the well-being of its widowed citizens, fostering hope and fostering a path towards a brighter future"
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Financial Assistance : ₹1,000/- per month"
+            }
+          ]
+        }
+      ],
+      "exclusions": [
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "The applicant should not be receiving pension from any other scheme of the state or central government."
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Online",
+        "process": [
+          {
+            "type": "ol_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Applicant must visit the "
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://sspy-up.gov.in/",
+                    "children": [
+                      {
+                        "text": "official website"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Click on \"Apply Online\" ."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Provide the below required details:"
+                  }
+                ]
+              },
+              {
+                "type": "ul_list",
+                "children": [
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "text": "Personal Details."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "text": "Bank detail."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "text": "Income Details."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Upload below document:"
+                  }
+                ]
+              },
+              {
+                "type": "ul_list",
+                "children": [
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "text": "Passport size color photograph."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "text": "Birth/Age certificate."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "text": "Husband Death certificate."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Declaration."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Click on submit."
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "process_md": "\n1. Applicant must visit the [official website](https://sspy-up.gov.in/).1. Click on &quot;Apply Online&quot; .\n1. Provide the below required details:\n\n  - Personal Details.\n  - Bank detail.\n  - Income Details.\n\n1. Upload below document:\n\n  - Passport size color photograph.\n  - Birth/Age certificate.\n  - Husband Death certificate.\n\n1. Declaration.\n1. Click on submit.\n\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n1. The applicant should be a permanent resident of Uttar Pradesh state.\n1. The applicant&#39;s husband has died.\n1. The age of the applicant should not be less than 18 years.\n1. The annual income of the applicant and her family from all sources should not exceed  ₹ 2,00,000/-\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should be a permanent resident of Uttar Pradesh state."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant's husband has died."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The age of the applicant should not be less than 18 years."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The annual income of the applicant and her family from all sources should not exceed  ₹ 2,00,000/-"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "wpup"
+}

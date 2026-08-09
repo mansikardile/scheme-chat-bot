@@ -1,0 +1,154 @@
+{
+  "_id": "679b627fc4ea5da14d02cf6b",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Compensation",
+        "Handloom",
+        "Weaver",
+        "Family"
+      ],
+      "schemeName": "Scheme for Wage Compensation to Handloom Weaver Families",
+      "schemeShortTitle": "SWCHWF",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce87cd6d1a3bde4685312",
+          "label": "Social welfare & Empowerment"
+        },
+        {
+          "value": "628ce733d6d1a3bde4685278",
+          "label": "Business & Entrepreneurship"
+        }
+      ],
+      "schemeSubCategory": null,
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "state": {
+        "value": 28,
+        "label": "Andhra Pradesh"
+      },
+      "nodalDepartmentName": {
+        "value": 1102,
+        "label": "Department of Industries and Commerce"
+      },
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://handlooms.ap.gov.in/documents/Thrift_Fund_G.O.125.pdf"
+        },
+        {
+          "title": "Scheme Brief",
+          "url": "https://handlooms.ap.gov.in/stateschemes.html"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "Launched in 2018, the scheme &quot;Scheme for Wage Compensation to Handloom Weaver Families&quot; by the Department of Handlooms &amp; Textiles, Government of Andhra Pradesh aims to provide wage compensation relief to handloom weaver families to help them overcome financial distress caused by unfavorable climatic conditions during the rainy season. Through this scheme, a relief assistance of ₹4,000 per weaver family is provided as a subsistence allowance to compensate for wage loss during the rainy season. The scheme is implemented by the Director of Handlooms and Textiles, Andhra Pradesh. The objectives of the scheme are to address the intermittent loss of work during the rainy season due to issues such as oozing of water in loom pits, dampness causing stickiness of warps, and damage to looms and raw materials.\n",
+      "benefits_md": "\n- ₹2,000/- per month for two months.\n- Relief Assistance of ₹4,000/- as Subsistence Allowance per Weaver Family in a year.\n- The transfer of relief assistance to the beneficiaries&#39; accounts will be via Direct Benefit Transfer (DBT).\n\n",
+      "briefDescription": "\"Scheme for Wage Compensation to Handloom Weaver Families\" by the Dept. of Handlooms & Textiles, Andhra Pradesh aims to provide wage compensation relief to handloom weaver families. A relief assistance of ₹4,000 per weaver family is provided to compensate for wage loss during the rainy season.",
+      "exclusions_md": "",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Launched in 2018, the scheme \"Scheme for Wage Compensation to Handloom Weaver Families\" by the Department of Handlooms & Textiles, Government of Andhra Pradesh aims to provide wage compensation relief to handloom weaver families to help them overcome financial distress caused by unfavorable climatic conditions during the rainy season. Through this scheme, a relief assistance of ₹4,000 per weaver family is provided as a subsistence allowance to compensate for wage loss during the rainy season. The scheme is implemented by the Director of Handlooms and Textiles, Andhra Pradesh. The objectives of the scheme are to address the intermittent loss of work during the rainy season due to issues such as oozing of water in loom pits, dampness causing stickiness of warps, and damage to looms and raw materials."
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "₹2,000/- per month for two months."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Relief Assistance of ₹4,000/- as Subsistence Allowance per Weaver Family in a year."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The transfer of relief assistance to the beneficiaries' accounts will be via Direct Benefit Transfer (DBT)."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "process": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "The handloom weaver and head of the family must submit an application to the Assistant Director (Handlooms & Textiles) along with photocopies of the required documents (Weaver Photo ID Card, Aadhar Card, Ration Card, first page of the bank account passbook, and mobile number)."
+              }
+            ]
+          }
+        ],
+        "process_md": "The handloom weaver and head of the family must submit an application to the Assistant Director (Handlooms &amp; Textiles) along with photocopies of the required documents (Weaver Photo ID Card, Aadhar Card, Ration Card, first page of the bank account passbook, and mobile number).\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n- The applicant should be a handloom weaver engaged in the handloom profession or in an allied activity such as weaving, warping &amp; sizing.\n- The applicant should be enrolled under the &quot;Praja Sadhikara Survey&quot; of the Government of Andhra Pradesh.\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should be a handloom weaver engaged in the handloom profession or in an allied activity such as weaving, warping & sizing."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should be enrolled under the \"Praja Sadhikara Survey\" of the Government of Andhra Pradesh."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "swchwf"
+}

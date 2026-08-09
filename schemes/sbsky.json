@@ -1,0 +1,624 @@
+{
+  "_id": "65d33347cd96dc5e07591aae",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Girl",
+        "Labor",
+        "Financial Assistance"
+      ],
+      "schemeName": "Shubhshakti Yojana",
+      "schemeShortTitle": "SBSKY",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce85cd6d1a3bde4685304",
+          "label": "Skills & Employment"
+        }
+      ],
+      "schemeSubCategory": null,
+      "schemeOpenDate": "2016-01-01",
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "state": {
+        "value": 8,
+        "label": "Rajasthan"
+      },
+      "nodalDepartmentName": {
+        "value": 8000022,
+        "label": "Labour Department"
+      },
+      "schemeFor": "Family"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://jankalyanfile.rajasthan.gov.in/Content/UploadFolder/Scheme/LAB_/SSY/DOC_221_3508d3ec-1148-4bd3-a9c9-612934bad740.pdf"
+        },
+        {
+          "title": "Registration",
+          "url": "https://sso.rajasthan.gov.in/register"
+        },
+        {
+          "title": "Login",
+          "url": "https://sso.rajasthan.gov.in/signin"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The Shubshakti Yojana has been initiated by the Rajasthan government with the aim of providing financial assistance to regular construction workers, unmarried laborers, and their daughters. The primary objective of this scheme to support and strengthen the daughters of labour families in Rajasthan state. \n<br>\n\n",
+      "benefits_md": "\n- Receives a financial assistance of ₹55,000/-.\n- The amount is directly transferred to the beneficiary&#39;s bank account.\n- The funds can be used for various purposes, including:\n\n   1. Higher education\n   1. Vocational training\n   1. Starting a business\n   1. Skill development training\n   1. Marriage expenses\n\n\n",
+      "briefDescription": "The Shubshakti Yojana has been initiated by the Rajasthan government with the aim of providing financial assistance to regular construction workers, unmarried laborers, and their daughters.",
+      "exclusions_md": "",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The Shubshakti Yojana has been initiated by the Rajasthan government with the aim of providing financial assistance to regular construction workers, unmarried laborers, and their daughters. The primary objective of this scheme to support and strengthen the daughters of labour families in Rajasthan state. "
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Receives a financial assistance of ₹55,000/-."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The amount is directly transferred to the beneficiary's bank account."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The funds can be used for various purposes, including:"
+                }
+              ]
+            },
+            {
+              "type": "ol_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Higher education"
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Vocational training"
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Starting a business"
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Skill development training"
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Marriage expenses"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Online",
+        "process": [
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "text": "Registration",
+                "bold": true,
+                "underline": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step-1:",
+                "bold": true
+              },
+              {
+                "text": " Applicant have to visit the "
+              },
+              {
+                "type": "link",
+                "link": "https://sso.rajasthan.gov.in/signin",
+                "children": [
+                  {
+                    "text": "official portal"
+                  }
+                ]
+              },
+              {
+                "text": ". "
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step-2: ",
+                "bold": true
+              },
+              {
+                "text": "Click on the option “"
+              },
+              {
+                "type": "link",
+                "link": "https://sso.rajasthan.gov.in/register",
+                "children": [
+                  {
+                    "text": "Register"
+                  }
+                ]
+              },
+              {
+                "text": "”."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step-3:",
+                "bold": true
+              },
+              {
+                "text": " Then you will be redirected to the SSO registration page. The registration page will appear with the following options."
+              }
+            ]
+          },
+          {
+            "type": "ul_list",
+            "children": [
+              {
+                "type": "ul_list",
+                "children": [
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "text": "  Citizen"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step-4: ",
+                "bold": true
+              },
+              {
+                "text": "Choose the either one option from  the Jan Aadhaar Or Google to process further."
+              }
+            ]
+          },
+          {
+            "type": "ul_list",
+            "children": [
+              {
+                "type": "ul_list",
+                "children": [
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "text": "Jan Aadhaar : Enter the Jan Aadhaar number, click on the ‘Next’ button,"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "ul_list",
+                    "children": [
+                      {
+                        "type": "ul_list",
+                        "children": [
+                          {
+                            "type": "list_item",
+                            "children": [
+                              {
+                                "text": "Select your name, the name of the head of the family and all the other members and "
+                              }
+                            ]
+                          },
+                          {
+                            "type": "list_item",
+                            "children": [
+                              {
+                                "text": "Click on the ‘Send OTP’ button. Enter the ‘OTP’ and "
+                              }
+                            ]
+                          },
+                          {
+                            "type": "list_item",
+                            "children": [
+                              {
+                                "text": "Click on the ‘Verify OTP’ button to Complete the registration. "
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ul_list",
+            "children": [
+              {
+                "type": "ul_list",
+                "children": [
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "text": "Google : Enter the Gmail ID, click on the ‘Next’ button, "
+                      }
+                    ]
+                  },
+                  {
+                    "type": "ul_list",
+                    "children": [
+                      {
+                        "type": "ul_list",
+                        "children": [
+                          {
+                            "type": "list_item",
+                            "children": [
+                              {
+                                "text": "Enter the password."
+                              }
+                            ]
+                          },
+                          {
+                            "type": "list_item",
+                            "children": [
+                              {
+                                "text": "A new link appear on screen, now click on new SSO link."
+                              }
+                            ]
+                          },
+                          {
+                            "type": "list_item",
+                            "children": [
+                              {
+                                "text": "SSO id will appear on screen, now create the password."
+                              }
+                            ]
+                          },
+                          {
+                            "type": "list_item",
+                            "children": [
+                              {
+                                "text": "Enter Mobile number, click on registration."
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": " "
+              }
+            ]
+          },
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "text": "Apply ",
+                "bold": true,
+                "underline": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step-1:",
+                "bold": true
+              },
+              {
+                "text": " Applicant have to visit the "
+              },
+              {
+                "type": "link",
+                "link": "https://sso.rajasthan.gov.in/signin",
+                "children": [
+                  {
+                    "text": "official portal"
+                  }
+                ]
+              },
+              {
+                "text": ". "
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step-2:",
+                "bold": true
+              },
+              {
+                "text": " After login, dashboard will open."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step-3: ",
+                "bold": true
+              },
+              {
+                "text": "Click on “LDMS” option."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step-4:",
+                "bold": true
+              },
+              {
+                "text": " In LDMS, select \"Welfare Schemes\" from the side menu and select BOCW Welfare Board. "
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step-5:",
+                "bold": true
+              },
+              {
+                "text": " Now click on \"Apply for Scheme\" on screen. "
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step-6: ",
+                "bold": true
+              },
+              {
+                "text": "In this new page, will get a list of names of all the schemes of Rajasthan Shramik Card, out of which click on the name of \"Shubhshakti Yojana\""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "bold": true,
+                "text": "Step-7: "
+              },
+              {
+                "text": "Fill out the all relevant detail. "
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step-8: ",
+                "bold": true
+              },
+              {
+                "text": "Submit."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          }
+        ],
+        "process_md": "> **Registration**\n\n**Step-1:** Applicant have to visit the [official portal](https://sso.rajasthan.gov.in/signin). \n**Step-2:** Click on the option “[Register](https://sso.rajasthan.gov.in/register)”.\n**Step-3:** Then you will be redirected to the SSO registration page. The registration page will appear with the following options.\n\n\n  -   Citizen\n\n\n**Step-4:** Choose the either one option from  the Jan Aadhaar Or Google to process further.\n\n\n  - Jan Aadhaar : Enter the Jan Aadhaar number, click on the ‘Next’ button,\n\n\n      - Select your name, the name of the head of the family and all the other members and \n      - Click on the ‘Send OTP’ button. Enter the ‘OTP’ and \n      - Click on the ‘Verify OTP’ button to Complete the registration. \n\n\n\n\n\n\n  - Google : Enter the Gmail ID, click on the ‘Next’ button, \n\n\n      - Enter the password.\n      - A new link appear on screen, now click on new SSO link.\n      - SSO id will appear on screen, now create the password.\n      - Enter Mobile number, click on registration.\n\n\n\n\n \n> **Apply** \n\n**Step-1:** Applicant have to visit the [official portal](https://sso.rajasthan.gov.in/signin). \n**Step-2:** After login, dashboard will open.\n**Step-3:** Click on “LDMS” option.\n**Step-4:** In LDMS, select &quot;Welfare Schemes&quot; from the side menu and select BOCW Welfare Board. \n**Step-5:** Now click on &quot;Apply for Scheme&quot; on screen. \n**Step-6:** In this new page, will get a list of names of all the schemes of Rajasthan Shramik Card, out of which click on the name of &quot;Shubhshakti Yojana&quot;\n**Step-7:** Fill out the all relevant detail. \n**Step-8:** Submit.\n<br>\n\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n1. One parent (either father or mother or both) must be registered as a beneficiary/construction worker for at least one year in the board.\n1. A maximum of two daughters of the beneficiary or the female beneficiary and her one daughter will be given the incentive amount.\n1. The female beneficiary must be unmarried or the beneficiary&#39;s daughter must be at least 18 years old and unmarried.\n1. The daughter of the beneficiary/female beneficiary must have passed at least the 8th standard.\n1. There should be a savings bank account in the name of the daughter of the beneficiary/female beneficiary.\n1. If the beneficiary has his own house, there should be a toilet in the house.\n1. The beneficiary must have worked as a construction worker for at least 90 days during the year before the application date.\n1. The incentive amount will be payable only after physical verification of the beneficiary being a construction worker, which can be done by various authorities.\n1. The incentive amount can be used by the female beneficiary/daughter for further education, vocational training, starting her own business, or for her own marriage, with proper counseling.\n1. The application for the scheme must be submitted in the prescribed form by the beneficiary after completing one year as a registered beneficiary, and the beneficiary&#39;s identity card must be valid/active at the time of application.\n1. Girls who have already received assistance under the Board&#39;s Marriage Assistance Scheme earlier will not be eligible for assistance under this scheme.\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "One parent (either father or mother or both) must be registered as a beneficiary/construction worker for at least one year in the board."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "A maximum of two daughters of the beneficiary or the female beneficiary and her one daughter will be given the incentive amount."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The female beneficiary must be unmarried or the beneficiary's daughter must be at least 18 years old and unmarried."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The daughter of the beneficiary/female beneficiary must have passed at least the 8th standard."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "There should be a savings bank account in the name of the daughter of the beneficiary/female beneficiary."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "If the beneficiary has his own house, there should be a toilet in the house."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The beneficiary must have worked as a construction worker for at least 90 days during the year before the application date."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The incentive amount will be payable only after physical verification of the beneficiary being a construction worker, which can be done by various authorities."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The incentive amount can be used by the female beneficiary/daughter for further education, vocational training, starting her own business, or for her own marriage, with proper counseling."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The application for the scheme must be submitted in the prescribed form by the beneficiary after completing one year as a registered beneficiary, and the beneficiary's identity card must be valid/active at the time of application."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Girls who have already received assistance under the Board's Marriage Assistance Scheme earlier will not be eligible for assistance under this scheme."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "sbsky"
+}

@@ -1,0 +1,319 @@
+{
+  "_id": "64c36a56481f59106a7a2ab6",
+  "en": {
+    "basicDetails": {
+      "schemeOpenDate": null,
+      "schemeCloseDate": null,
+      "state": {
+        "value": 30,
+        "label": "Goa"
+      },
+      "nodalMinistryName": null,
+      "nodalDepartmentName": {
+        "value": 30000053,
+        "label": "Women and Child Development Department"
+      },
+      "otherMinistryName": null,
+      "otherDepartmentNames": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Financial assistance",
+          "label": "Financial assistance"
+        },
+        {
+          "value": "Pregnancy care",
+          "label": "Pregnancy care"
+        },
+        {
+          "value": "Health care providers and access",
+          "label": "Health care providers and access"
+        }
+      ],
+      "dbtScheme": null,
+      "implementingAgency": "ICDS I.e. Child Development Project Officer, Mukhya Sevikas, And Anganwadi Worker At Taluka/Block Level And Viliage Level Respectively.",
+      "tags": [
+        "Mother",
+        "Pregnant",
+        "Birth",
+        "Girl Child",
+        "Medical Institution",
+        "ICDS"
+      ],
+      "schemeName": "Financial Incentives To Mothers Who Deliver A Girl Child (Mamta)",
+      "schemeShortTitle": "FIMDGC",
+      "level": {
+        "value": "state",
+        "label": "State"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce7a2d6d1a3bde46852b1",
+          "label": "Health & Wellness"
+        },
+        {
+          "value": "64f57d10ffb93104c7006c97",
+          "label": "Women and Child"
+        }
+      ],
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Official Gazette",
+          "url": "https://dwcd.goa.gov.in/wp-content/uploads/2017/07/mamta-notification.pdf"
+        },
+        {
+          "title": "Citizen's Charter",
+          "url": "https://www.goa.gov.in/wp-content/uploads/2022/08/DWCD-Citizen-Charter-1.pdf"
+        },
+        {
+          "title": "Application Form",
+          "url": "https://dwcd.goa.gov.in/wp-content/uploads/2017/07/MAMTA-FORM-2.pdf"
+        },
+        {
+          "title": "List Of Officers At Taluka WCD Block Office",
+          "url": "https://www.goa.gov.in/wp-content/uploads/2022/08/DWCD-Citizen-Charter-1.pdf"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The scheme &quot;Financial Incentives to Mothers who Deliver a Girl Child (Mamta)&quot; is a scheme of Financial Assistance by the Directorate of Women And Child Development, Govt. of Goa. The objective of the Mamta Scheme is aimed at improving the Female Child Sex Ratio in the State. The scheme is open to all mothers who deliver a live Girl Child (max. 02 deliveries) in a registered medical institution.\f\n<br>\n\n> **Implementing Agency**\n\nThe scheme shall be implemented through the ICDS i.e. Child Development Project Officer, Mukhya Sevikas, and Anganwadi Worker at Taluka/Block Level and Viliage Level respectively.\n",
+      "benefits_md": "\n1. ₹ 10,000/- as a one-time financial incentive (at the birth of the child).\n1. Those beneficiaries who had applied for the 1st Installment of ₹ 5,000/- (as on the date of this Amended Scheme published in the Official Gazette) shall be eligible for ₹ 10,000/- as per the amended scheme.\n\n<br>\n\n**NOTE 1:** Those beneficiaries who were paid the 1st Installment of ₹ 5,000/- under the existing scheme shall be eligible for only the balance amount (2nd instalment) of ₹ 5,000/- (to apply within 45 days from the date of the Amended Scheme published in the official Gazette).\n<br>\n\n> **Mode of Disbursal**\n\nThe benefits are directly credited to the declared Bank Account.\n",
+      "exclusions_md": "Those beneficiaries who were paid both 1st and 2nd Installments shall not be eligible for any further incentives/benefits under the amended scheme and the case shall be treated as closed.\n",
+      "briefDescription": "The objective of the Mamta Scheme is aimed at improving the Female Child Sex Ratio in the State. The scheme is open to all mothers who deliver a live Girl Child (max. 02 deliveries) in a registered medical institution. The scheme shall be implemented through the ICDS.",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The scheme \"Financial Incentives to Mothers who Deliver a Girl Child (Mamta)\" is a scheme of Financial Assistance by the Directorate of Women And Child Development, Govt. of Goa. The objective of the Mamta Scheme is aimed at improving the Female Child Sex Ratio in the State. The scheme is open to all mothers who deliver a live Girl Child (max. 02 deliveries) in a registered medical institution.\f"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        },
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "Implementing Agency",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The scheme shall be implemented through the ICDS i.e. Child Development Project Officer, Mukhya Sevikas, and Anganwadi Worker at Taluka/Block Level and Viliage Level respectively."
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "₹ 10,000/- as a one-time financial incentive (at the birth of the child)."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Those beneficiaries who had applied for the 1st Installment of ₹ 5,000/- (as on the date of this Amended Scheme published in the Official Gazette) shall be eligible for ₹ 10,000/- as per the amended scheme."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "NOTE 1: ",
+              "bold": true
+            },
+            {
+              "text": "Those beneficiaries who were paid the 1st Installment of ₹ 5,000/- under the existing scheme shall be eligible for only the balance amount (2nd instalment) of ₹ 5,000/- (to apply within 45 days from the date of the Amended Scheme published in the official Gazette)."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        },
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "Mode of Disbursal",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The benefits are directly credited to the declared Bank Account."
+            }
+          ]
+        }
+      ],
+      "exclusions": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Those beneficiaries who were paid both 1st and 2nd Installments shall not be eligible for any further incentives/benefits under the amended scheme and the case shall be treated as closed."
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "url": "",
+        "process": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "The eligible mother shall apply in the "
+              },
+              {
+                "type": "link",
+                "link": "https://dwcd.goa.gov.in/wp-content/uploads/2017/07/MAMTA-FORM-2.pdf",
+                "children": [
+                  {
+                    "text": "prescribed format"
+                  }
+                ]
+              },
+              {
+                "text": " to the "
+              },
+              {
+                "type": "link",
+                "link": "https://www.goa.gov.in/wp-content/uploads/2022/08/DWCD-Citizen-Charter-1.pdf",
+                "children": [
+                  {
+                    "text": "Child Development Project Officer"
+                  }
+                ]
+              },
+              {
+                "text": " of the ICDS Block Office of the respective Taluka at Anganwadi Centres."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "NOTE: ",
+                "bold": true
+              },
+              {
+                "text": "The application should be made within 45 days of the delivery of the Girl Child."
+              }
+            ]
+          }
+        ],
+        "process_md": "The eligible mother shall apply in the [prescribed format](https://dwcd.goa.gov.in/wp-content/uploads/2017/07/MAMTA-FORM-2.pdf) to the [Child Development Project Officer](https://www.goa.gov.in/wp-content/uploads/2022/08/DWCD-Citizen-Charter-1.pdf) of the ICDS Block Office of the respective Taluka at Anganwadi Centres.\n**NOTE:** The application should be made within 45 days of the delivery of the Girl Child.\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n1. The applicant should be a mother who has delivered a live Girl Child in a registered medical institution.\n1. The applicant should be a resident of Goa for at least three years. OR\n1. The applicant should be married to a resident of Goa.\n1. The application for the scheme should have been made within 45 days of the delivery.\n\n**NOTE:** The scheme is available to all mothers, irrespective of their social/economic status.\n",
+      "eligibilityDescription": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should be a mother who has delivered a live Girl Child in a registered medical institution."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should be a resident of Goa for at least three years. OR"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should be married to a resident of Goa."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The application for the scheme should have been made within 45 days of the delivery."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "NOTE:",
+              "bold": true
+            },
+            {
+              "text": " The scheme is available to all mothers, irrespective of their social/economic status."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "fimdgc"
+}

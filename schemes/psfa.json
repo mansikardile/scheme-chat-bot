@@ -1,0 +1,275 @@
+{
+  "_id": "664770db04a3424275d78c52",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": null,
+      "tags": [
+        "Pension",
+        "Folk Artist",
+        "Financial Assistance",
+        "Person With Disability",
+        "Senior Citizen"
+      ],
+      "schemeName": "Pension Scheme - Folk Artist",
+      "schemeShortTitle": "PSFA",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce87cd6d1a3bde4685312",
+          "label": "Social welfare & Empowerment"
+        },
+        {
+          "value": "628ce8aad6d1a3bde4685320",
+          "label": "Sports & Culture"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Pension",
+          "label": "Pension"
+        },
+        {
+          "value": "Financial assistance",
+          "label": "Financial assistance"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "artists",
+          "label": "Artists"
+        }
+      ],
+      "state": {
+        "value": 33,
+        "label": "Tamil Nadu"
+      },
+      "nodalDepartmentName": {
+        "value": 3333367,
+        "label": "Art and Culture Department"
+      },
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://www.tn.gov.in/rti/proactive/inftour/handbook_folkartistboard.pdf"
+        },
+        {
+          "title": "Regional Department (20-21 Page No.)",
+          "url": "https://www.tn.gov.in/rti/proactive/inftour/handbook_folkartistboard.pdf"
+        },
+        {
+          "title": "Application Form (VIII & VIIIA)",
+          "url": "https://cms.tn.gov.in/sites/default/files/gos/tour-e-3-2008.pdf"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The &quot;Pension Scheme&quot; was launched by the Art and Culture Department, Government of Tamil Nadu. The Tamil Nadu Folk Artist Pension Scheme aims to provide financial support to aged and disabled folk artists who have dedicated significant periods of their lives to the promotion and preservation of folk arts. The applications are accepted offline in the prescribed form available at the Regional Office. \n",
+      "benefits_md": "\n- Pension of ₹300/- per month. \n\n",
+      "briefDescription": "The \"Pension Scheme\" was launched by the Art and Culture Department, Government of Tamil Nadu. The scheme aims to provide a pension to the registered folk artists.",
+      "exclusions_md": "",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The \"Pension Scheme\" was launched by the Art and Culture Department, Government of Tamil Nadu. The Tamil Nadu Folk Artist Pension Scheme aims to provide financial support to aged and disabled folk artists who have dedicated significant periods of their lives to the promotion and preservation of folk arts. The applications are accepted offline in the prescribed form available at the Regional Office. "
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Pension of ₹300/- per month. "
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "process": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "bold": true,
+                "text": "Application Process:"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "bold": true,
+                "text": "Step 1: "
+              },
+              {
+                "text": "The interested applicant should visit (during office hours) the "
+              },
+              {
+                "type": "link",
+                "link": "https://www.tn.gov.in/rti/proactive/inftour/handbook_folkartistboard.pdf",
+                "children": [
+                  {
+                    "text": "regional office"
+                  }
+                ]
+              },
+              {
+                "text": " and request the hard copy of the prescribed format of the application form VIII & VIIIA from the staff exclusively entrusted to issue and collect filled-in applications."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2:",
+                "bold": true
+              },
+              {
+                "text": " In the application form, fill in all the mandatory fields, and attach copies of all the mandatory documents (self-attest, if required)."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 3: ",
+                "bold": true
+              },
+              {
+                "text": "Submit the duly filled and signed application form along with the documents to the Assistant Director/Deputy Director in the regional offices."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 4: ",
+                "bold": true
+              },
+              {
+                "text": "Request a receipt or acknowledgment from the Assistant Director/Deputy Director to whom the application has been submitted. Ensure that the receipt contains essential details such as the date and time of submission, and a unique identification number (if applicable)."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Selection Procedure:",
+                "bold": true
+              }
+            ]
+          },
+          {
+            "type": "ul_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "The Board shall examine every application for pension and may accept or reject the claim."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "The decision of the Board is final."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Before rejecting a claim, the Board will give the applicant a reasonable opportunity to make a representation."
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "process_md": "**Application Process:**\n**Step 1:** The interested applicant should visit (during office hours) the [regional office](https://www.tn.gov.in/rti/proactive/inftour/handbook_folkartistboard.pdf) and request the hard copy of the prescribed format of the application form VIII &amp; VIIIA from the staff exclusively entrusted to issue and collect filled-in applications.\n**Step 2:** In the application form, fill in all the mandatory fields, and attach copies of all the mandatory documents (self-attest, if required).\n**Step 3:** Submit the duly filled and signed application form along with the documents to the Assistant Director/Deputy Director in the regional offices.\n**Step 4:** Request a receipt or acknowledgment from the Assistant Director/Deputy Director to whom the application has been submitted. Ensure that the receipt contains essential details such as the date and time of submission, and a unique identification number (if applicable).\n<br>\n\n**Selection Procedure:**\n\n- The Board shall examine every application for pension and may accept or reject the claim.\n- The decision of the Board is final.\n- Before rejecting a claim, the Board will give the applicant a reasonable opportunity to make a representation.\n\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n1. The applicant should be a registered folk artist.\n1. The applicant&#39;s age should be 60 years or above. \n1. The artist must have worked continuously in their profession for at least five years.\n1. Disabled folk artists (sick and unable to work) who are under 60 but have been registered with the board for five continuous years are eligible for a pension.\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should be a registered folk artist."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant's age should be 60 years or above. "
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The artist must have worked continuously in their profession for at least five years."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Disabled folk artists (sick and unable to work) who are under 60 but have been registered with the board for five continuous years are eligible for a pension."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "psfa"
+}

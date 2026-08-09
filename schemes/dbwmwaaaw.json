@@ -1,0 +1,451 @@
+{
+  "_id": "66b4941e0d7fcba78452e886",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Financial Assistance",
+        "Construction Worker",
+        "Accident",
+        "Disability"
+      ],
+      "schemeName": "Disability Benefit Who Met With an Accident at Worksite",
+      "schemeShortTitle": "DBWMWAAAW",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce87cd6d1a3bde4685312",
+          "label": "Social welfare & Empowerment"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Crisis/Disaster/Accident",
+          "label": "Crisis/Disaster/Accident"
+        },
+        {
+          "value": "Financial assistance",
+          "label": "Financial assistance"
+        }
+      ],
+      "schemeOpenDate": "2022-10-20",
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "state": {
+        "value": 16,
+        "label": "Tripura"
+      },
+      "nodalDepartmentName": {
+        "value": 16000031,
+        "label": "Labour Department "
+      },
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://tbocwwb.tripura.gov.in/news_announcements/2170017.pdf"
+        },
+        {
+          "title": "Official Website",
+          "url": "https://tbocwwb.tripura.gov.in/index.php"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The &quot;Disability Benefit Who Met With an Accident at Worksite&quot; was launched by the Tripura Building and Other Construction Workers Welfare Board, Labour Department Tripura. The scheme aims to provide financial assistance to the registered construction workers who met with an accident at worksite. Under this scheme a registered construction worker who becomes disabled due to an accident at a worksite gets a disability benefit temporary or permanent.\n",
+      "benefits_md": "> **Temporary Disablement:**\n\n\n- **Financial Assistance:** 50% of the minimum wage rate for unskilled construction workers, as notified by the Labour Department, Govt. of Tripura.- **Duration:** Up to a maximum of 3 months, provided the worker is unable to work due to the accident.\n<br>\n\n> **Permanent Disablement:**\n\n\n- **Financial Assistance:** ₹3,000/- per month for workers with a disability exceeding 90%, leading to a complete loss of earning ability.- **Duration:** The benefit is provided until the worker reaches 60 years of age. After 60, the worker becomes eligible for a pension under the TBOCWW Board.\n",
+      "briefDescription": "The \"Disability Benefit Who Met With an Accident at Worksite\" was launched by the Tripura Building & Other Construction Workers Welfare Board, Labour Dept. The scheme aims to provide financial assistance to registered construction worker who suffer from disabilities due to accident at their worksite",
+      "exclusions_md": "",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The \"Disability Benefit Who Met With an Accident at Worksite\" was launched by the Tripura Building and Other Construction Workers Welfare Board, Labour Department Tripura. The scheme aims to provide financial assistance to the registered construction workers who met with an accident at worksite. Under this scheme a registered construction worker who becomes disabled due to an accident at a worksite gets a disability benefit temporary or permanent."
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "Temporary Disablement:",
+              "bold": true,
+              "underline": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Financial Assistance:",
+                  "bold": true
+                },
+                {
+                  "text": " 50% of the minimum wage rate for unskilled construction workers, as notified by the Labour Department, Govt. of Tripura."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Duration:",
+                  "bold": true
+                },
+                {
+                  "text": " Up to a maximum of 3 months, provided the worker is unable to work due to the accident."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        },
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "Permanent Disablement:",
+              "bold": true,
+              "underline": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Financial Assistance:",
+                  "bold": true
+                },
+                {
+                  "text": " ₹3,000/- per month for workers with a disability exceeding 90%, leading to a complete loss of earning ability."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Duration:",
+                  "bold": true
+                },
+                {
+                  "text": " The benefit is provided until the worker reaches 60 years of age. After 60, the worker becomes eligible for a pension under the TBOCWW Board."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Online - via CSC",
+        "process": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 1:",
+                "bold": true
+              },
+              {
+                "text": " The applicant should gather copies of the necessary documents needed to apply for the concerned scheme."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2:",
+                "bold": true
+              },
+              {
+                "text": " The applicant should visit the nearest Common Service Center (CSC) and complete the Biometric Verification Process."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 3:",
+                "bold": true
+              },
+              {
+                "text": " The applicant should ensure that the CSC agent completes all mandatory fields in the application form and uploads copies of all required documents."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 4:",
+                "bold": true
+              },
+              {
+                "text": " Request a receipt or acknowledgment from the concerned authority to whom the application has been submitted. Ensure that the receipt contains essential details such as the date and time of submission, and a unique identification number (if applicable)."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "NOTE: ",
+                "bold": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "bold": true,
+                "text": "For Temporary Disablement:"
+              }
+            ]
+          },
+          {
+            "type": "ul_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "The application must be submitted within two months of the accident, along with medical reports certified by an ESI doctor or a doctor appointed by the board."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "bold": true,
+                "text": "For Permanent Disablement:"
+              }
+            ]
+          },
+          {
+            "type": "ul_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "The application must be submitted within 90 days of the certification of permanent disability, along with a disablement certificate from a competent authority and a recommendation from the Medical Board."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "For permanent disablement, beneficiaries must periodically (every 5 years) submit updated medical documentation to ensure continued eligibility for the benefit."
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "process_md": "**Step 1:** The applicant should gather copies of the necessary documents needed to apply for the concerned scheme.\n**Step 2:** The applicant should visit the nearest Common Service Center (CSC) and complete the Biometric Verification Process.\n**Step 3:** The applicant should ensure that the CSC agent completes all mandatory fields in the application form and uploads copies of all required documents.\n**Step 4:** Request a receipt or acknowledgment from the concerned authority to whom the application has been submitted. Ensure that the receipt contains essential details such as the date and time of submission, and a unique identification number (if applicable).\n<br>\n\n**NOTE:** \n**For Temporary Disablement:**\n\n- The application must be submitted within two months of the accident, along with medical reports certified by an ESI doctor or a doctor appointed by the board.\n\n<br>\n\n**For Permanent Disablement:**\n\n- The application must be submitted within 90 days of the certification of permanent disability, along with a disablement certificate from a competent authority and a recommendation from the Medical Board.\n- For permanent disablement, beneficiaries must periodically (every 5 years) submit updated medical documentation to ensure continued eligibility for the benefit.\n\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "> **General Eligibility:**\n\n\n- The applicant should be a registered construction worker at the time of the accident.\n- The disablement must have occurred due to an accident at the worksite.\n- Such disablement may be either temporary or permanent.\n\n> **Specific Eligibility for Disable Person:**\n\n\n**Temporary Disablement:**\n\n\n- The worker must suffer a temporary loss of earning ability for at least one month due to the accident.\n\n<br>\n\n\n**Permanent Disablement:**\n\n\n- The worker must have a disability exceeding 90%, as certified by a competent authority, leading to a complete loss of earning ability.\n\n<br>\n\n**NOTE:** The injured worker, or someone on their behalf, must notify the Labour Inspector of the area about the accident as soon as possible. This can be done either in writing or orally.\n",
+      "eligibilityDescription": [
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "General Eligibility:",
+              "bold": true,
+              "underline": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should be a registered construction worker at the time of the accident."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The disablement must have occurred due to an accident at the worksite."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Such disablement may be either temporary or permanent."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "Specific Eligibility for Disable Person:",
+              "bold": true,
+              "underline": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "Temporary Disablement:",
+                  "bold": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The worker must suffer a temporary loss of earning ability for at least one month due to the accident."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "Permanent Disablement:",
+                  "bold": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The worker must have a disability exceeding 90%, as certified by a competent authority, leading to a complete loss of earning ability."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "NOTE:",
+              "bold": true
+            },
+            {
+              "text": " The injured worker, or someone on their behalf, must notify the Labour Inspector of the area about the accident as soon as possible. This can be done either in writing or orally."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "dbwmwaaaw"
+}

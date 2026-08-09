@@ -1,0 +1,308 @@
+{
+  "_id": "66c81203bfeff774c39224d8",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Financial Assistance",
+        "Marriage",
+        "Disability",
+        "Spouse",
+        "Incentive"
+      ],
+      "schemeName": "Disabled Marriage Incentive Scheme",
+      "schemeShortTitle": "DWIS",
+      "implementingAgency": "Social Welfare Department, Government Of Chhattisgarh",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce87cd6d1a3bde4685312",
+          "label": "Social welfare & Empowerment"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Marriage",
+          "label": "Marriage"
+        },
+        {
+          "value": "Financial assistance",
+          "label": "Financial assistance"
+        }
+      ],
+      "schemeOpenDate": "2005-04-01",
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "state": {
+        "value": 22,
+        "label": "Chhattisgarh"
+      },
+      "nodalDepartmentName": {
+        "value": 2200033,
+        "label": "Social Welfare Department"
+      },
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://sw.cg.gov.in/sites/default/files/vivahdoc.pdf"
+        },
+        {
+          "title": "Official Website",
+          "url": "https://sw.cg.gov.in/disabled-wedding-incentive-scheme"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "Launched on 1st April 2005 by the Social Welfare Department, Government of Chhattisgarh, the scheme &amp;quot;Disabled Wedding Incentive Scheme&amp;quot; provides financial assistance for marriage to the persons with disabilities who do not fall under the category of income tax payers. The objective of the scheme is to socially rehabilitate the persons with disabilities. In case both husband and wife and differently-abled, the couple is provided with ₹50,000/- (lump sum). In case either husband or wife is differently-abled, the couple is provided with ₹1,00,000/- (lump sum). The application needs to be submitted in the prescribed form to the Joint Director / Deputy Director, Panchayat and Social Welfare of the district.\n",
+      "benefits_md": "\n  - In case both husband and wife and differently-abled, the couple is provided with ₹50,000/- (lump sum). \n  - In case either husband or wife is differently-abled, the couple is provided with ₹1,00,000/- (lump sum).\n  - The amount will be disbursed to the concerned beneficiary directly through **NEFT/RTGS**, whenever possible.\n_*The incentive amount will be jointly payable to the eligible couple._\n_*If the marriage is dissolved without a valid reason within five years of the wedding date, the entire incentive amount will be recovered as land revenue._\n_*Incentive amount will be given only once in a lifetime._\n",
+      "briefDescription": "The objective of the scheme is to provide financial assistance for marriage with a view to social rehabilitation of persons with disabilities who do not fall under the category of income tax payers.",
+      "exclusions_md": "",
+      "detailedDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "Launched on 1st April 2005 by the Social Welfare Department, Government of Chhattisgarh, the scheme \"Disabled Wedding Incentive Scheme\" provides financial assistance for marriage to the persons with disabilities who do not fall under the category of income tax payers. The objective of the scheme is to socially rehabilitate the persons with disabilities. In case both husband and wife and differently-abled, the couple is provided with ₹50,000/- (lump sum). In case either husband or wife is differently-abled, the couple is provided with ₹1,00,000/- (lump sum). The application needs to be submitted in the prescribed form to the Joint Director / Deputy Director, Panchayat and Social Welfare of the district."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "ul_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "In case both husband and wife and differently-abled, the couple is provided with ₹50,000/- (lump sum). "
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "In case either husband or wife is differently-abled, the couple is provided with ₹1,00,000/- (lump sum)."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The amount will be disbursed to the concerned beneficiary directly through "
+                    },
+                    {
+                      "text": "NEFT/RTGS",
+                      "bold": true
+                    },
+                    {
+                      "text": ", whenever possible."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "*The incentive amount will be jointly payable to the eligible couple.",
+                  "italic": true
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "*If the marriage is dissolved without a valid reason within five years of the wedding date, the entire incentive amount will be recovered as land revenue.",
+                  "italic": true
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "*Incentive amount will be given only once in a lifetime.",
+                  "italic": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "process": [
+          {
+            "type": "align_justify",
+            "children": [
+              {
+                "type": "ul_list",
+                "children": [
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "text": "The application should be submitted in the prescribed form with a joint signature/thumb impression to the Joint Director / Deputy Director, Panchayat and Social Welfare of their respective district."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "text": "The grant/assistance is sanctioned by the District Collector on the recommendation of the Joint Director/Deputy Director, Panchayat and Social Welfare."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Deadline:",
+                    "bold": true,
+                    "underline": true
+                  },
+                  {
+                    "text": " The application for incentive amount will only be accepted if submitted within a maximum of 6 months of marriage."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "*The Joint Director/Deputy Director of the Social Welfare District Office has the authority to approve or reject the applications received. However, if any application is rejected, the Joint Director/Deputy Director must provide appropriate reasons for the rejection.",
+                    "italic": true
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "*The applicant will be notified of the decision, whether it is an acceptance or rejection, within a maximum of 30 days from the date of receipt in the office.",
+                    "italic": true
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "process_md": "\n  - The application should be submitted in the prescribed form with a joint signature/thumb impression to the Joint Director / Deputy Director, Panchayat and Social Welfare of their respective district.\n  - The grant/assistance is sanctioned by the District Collector on the recommendation of the Joint Director/Deputy Director, Panchayat and Social Welfare.\n\n**Deadline:** The application for incentive amount will only be accepted if submitted within a maximum of 6 months of marriage.\n_*The Joint Director/Deputy Director of the Social Welfare District Office has the authority to approve or reject the applications received. However, if any application is rejected, the Joint Director/Deputy Director must provide appropriate reasons for the rejection._\n_*The applicant will be notified of the decision, whether it is an acceptance or rejection, within a maximum of 30 days from the date of receipt in the office._\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n   1. At least one partner in the couple should be a native of Chhattisgarh.\n   1. The applicant should have a disability of 40% or above (as per [Section 2 of the Persons with Disabilities Act, 1995](https://thenationaltrust.gov.in/upload/uploadfiles/files/Persons%20with%20Disability%20Act%201995.pdf)).   1. The applicant’s marriage should be conducted as per social customs or legally solemnized by a competent court.\n   1. The applicant should not be an income taxpayer.\n   1. The age of the bride at the time of marriage should be 18 to 45 years.\n   1. The age of the bridegroom at the time of marriage should be 21 to 45 years.\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "align_justify",
+              "children": [
+                {
+                  "type": "ol_list",
+                  "children": [
+                    {
+                      "type": "list_item",
+                      "children": [
+                        {
+                          "text": "At least one partner in the couple should be a native of Chhattisgarh."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "list_item",
+                      "children": [
+                        {
+                          "text": "The applicant should have a disability of 40% or above (as per "
+                        },
+                        {
+                          "type": "link",
+                          "link": "https://thenationaltrust.gov.in/upload/uploadfiles/files/Persons%20with%20Disability%20Act%201995.pdf",
+                          "children": [
+                            {
+                              "text": "Section 2 of the Persons with Disabilities Act, 1995"
+                            }
+                          ]
+                        },
+                        {
+                          "text": ")."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "list_item",
+                      "children": [
+                        {
+                          "text": "The applicant’s marriage should be conducted as per social customs or legally solemnized by a competent court."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "list_item",
+                      "children": [
+                        {
+                          "text": "The applicant should not be an income taxpayer."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "list_item",
+                      "children": [
+                        {
+                          "text": "The age of the bride at the time of marriage should be 18 to 45 years."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "list_item",
+                      "children": [
+                        {
+                          "text": "The age of the bridegroom at the time of marriage should be 21 to 45 years."
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "dwis"
+}

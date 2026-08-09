@@ -1,0 +1,240 @@
+{
+  "_id": "6647425e04a3424275d75872",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Death",
+        "Artist",
+        "Funeral",
+        "Financial Assistance"
+      ],
+      "schemeName": "Natural Death and Funeral Assistance",
+      "schemeShortTitle": "NDAFA",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce87cd6d1a3bde4685312",
+          "label": "Social welfare & Empowerment"
+        },
+        {
+          "value": "628ce8aad6d1a3bde4685320",
+          "label": "Sports & Culture"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Financial assistance",
+          "label": "Financial assistance"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "artists",
+          "label": "Artists"
+        }
+      ],
+      "state": {
+        "value": 33,
+        "label": "Tamil Nadu"
+      },
+      "nodalDepartmentName": {
+        "value": 3333367,
+        "label": "Art and Culture Department"
+      },
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://www.google.co.in/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwiQoMS_to-GAxWFxDgGHVPWDk4QFnoECBMQAQ&url=https%3A%2F%2Fwww.tn.gov.in%2Frti%2Fproactive%2Finftour%2Fhandbook_folkartistboard.pdf&usg=AOvVaw2bUmzcnmuntapnTusvQlnQ&opi=89978449"
+        },
+        {
+          "title": "Regional Department (22-23)",
+          "url": "https://www.google.co.in/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwiQoMS_to-GAxWFxDgGHVPWDk4QFnoECBMQAQ&url=https%3A%2F%2Fwww.tn.gov.in%2Frti%2Fproactive%2Finftour%2Fhandbook_folkartistboard.pdf&usg=AOvVaw2bUmzcnmuntapnTusvQlnQ&opi=89978449"
+        },
+        {
+          "title": "Application Form (VII)",
+          "url": "https://cms.tn.gov.in/sites/default/files/gos/tour-e-3-2008.pdf"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The Art and Culture Department, Government of Tamil Nadu was launched the scheme &quot;Natural Death and Funeral Assistance&quot;. This scheme provides financial assistance for the funeral and natural death of registered folk artistes to support their families during difficult times. The applications are accepted offline in the prescribed form available at the Regional Office. \n",
+      "benefits_md": "**Financial Assistance:**\n\n- For Funeral ₹2,000/- \n- For Natural Death ₹15,000/- \n\n",
+      "briefDescription": "The Art and Culture Department, Government of Tamil Nadu was launched the scheme \"Natural Death and Funeral Assistance\". This scheme provides financial assistance for the funeral and natural death of registered folk artistes to support their families during difficult times.",
+      "exclusions_md": "",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The Art and Culture Department, Government of Tamil Nadu was launched the scheme \"Natural Death and Funeral Assistance\". This scheme provides financial assistance for the funeral and natural death of registered folk artistes to support their families during difficult times. The applications are accepted offline in the prescribed form available at the Regional Office. "
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Financial Assistance:",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "For Funeral ₹2,000/- "
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "For Natural Death ₹15,000/- "
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "process": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "bold": true,
+                "text": "Step 1: "
+              },
+              {
+                "text": "The interested applicant should visit (during office hours) the "
+              },
+              {
+                "type": "link",
+                "link": "https://www.google.co.in/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwiQoMS_to-GAxWFxDgGHVPWDk4QFnoECBMQAQ&url=https%3A%2F%2Fwww.tn.gov.in%2Frti%2Fproactive%2Finftour%2Fhandbook_folkartistboard.pdf&usg=AOvVaw2bUmzcnmuntapnTusvQlnQ&opi=89978449",
+                "children": [
+                  {
+                    "text": "regional office"
+                  }
+                ]
+              },
+              {
+                "text": " and request the hard copy of the prescribed format of the application form (VIII) from the staff exclusively entrusted to issue and collect filled-in applications."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2:",
+                "bold": true
+              },
+              {
+                "text": " In the application form, fill in all the mandatory fields, and attach copies of all the mandatory documents (self-attest, if required)."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 3: ",
+                "bold": true
+              },
+              {
+                "text": "Submit the duly filled and signed application form along with the "
+              },
+              {
+                "type": "link",
+                "link": "https://cms.tn.gov.in/sites/default/files/gos/tour-e-3-2008.pdf",
+                "children": [
+                  {
+                    "text": "Claim Form (VII)"
+                  }
+                ]
+              },
+              {
+                "text": ", and "
+              },
+              {
+                "type": "link",
+                "link": "https://cms.tn.gov.in/sites/default/files/gos/tour-e-3-2008.pdf",
+                "children": [
+                  {
+                    "text": "Accident Information Form (VI)"
+                  }
+                ]
+              },
+              {
+                "text": " to the Assistant Director/Deputy Director in the regional offices."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 4: ",
+                "bold": true
+              },
+              {
+                "text": "Request a receipt or acknowledgment from the Assistant Director/Deputy Director to whom the application has been submitted. Ensure that the receipt contains essential details such as the date and time of submission, and a unique identification number (if applicable)."
+              }
+            ]
+          }
+        ],
+        "process_md": "**Step 1:** The interested applicant should visit (during office hours) the [regional office](https://www.google.co.in/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwiQoMS_to-GAxWFxDgGHVPWDk4QFnoECBMQAQ&url=https%3A%2F%2Fwww.tn.gov.in%2Frti%2Fproactive%2Finftour%2Fhandbook_folkartistboard.pdf&usg=AOvVaw2bUmzcnmuntapnTusvQlnQ&opi=89978449) and request the hard copy of the prescribed format of the application form (VIII) from the staff exclusively entrusted to issue and collect filled-in applications.\n**Step 2:** In the application form, fill in all the mandatory fields, and attach copies of all the mandatory documents (self-attest, if required).\n**Step 3:** Submit the duly filled and signed application form along with the [Claim Form (VII)](https://cms.tn.gov.in/sites/default/files/gos/tour-e-3-2008.pdf), and [Accident Information Form (VI)](https://cms.tn.gov.in/sites/default/files/gos/tour-e-3-2008.pdf) to the Assistant Director/Deputy Director in the regional offices.\n**Step 4:** Request a receipt or acknowledgment from the Assistant Director/Deputy Director to whom the application has been submitted. Ensure that the receipt contains essential details such as the date and time of submission, and a unique identification number (if applicable).\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n1. The applicant should be the Nominee of the registered folk artist.\n1. The registered folk artist should have died a natural death.\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should be the Nominee of the registered folk artist."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The registered folk artist should have died a natural death."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "ndafa"
+}

@@ -1,0 +1,627 @@
+{
+  "_id": "6775488f09be7bb7df9e3732",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Financial Assistance",
+        "Fighters",
+        "Housing",
+        "Education"
+      ],
+      "schemeName": "Shaheed Gram Vikas Yojana",
+      "schemeShortTitle": "SGVY",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce87cd6d1a3bde4685312",
+          "label": "Social welfare & Empowerment"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Shelter",
+          "label": "Shelter"
+        },
+        {
+          "value": "Aids/Appliances",
+          "label": "Aids/Appliances"
+        },
+        {
+          "value": "Financial assistance",
+          "label": "Financial assistance"
+        },
+        {
+          "value": "Citizen empowerment",
+          "label": "Citizen empowerment"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "state": {
+        "value": 20,
+        "label": "Jharkhand"
+      },
+      "nodalDepartmentName": {
+        "value": 2000026,
+        "label": "Department of Scheduled Tribe, Scheduled Caste, Minority and Backward Class Welfare"
+      },
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://www.jharkhand.gov.in/Home/ViewDoc?id=D030DO003SD00316032021114645753"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The &quot;Shaheed Gram Vikas Yojana&quot; was launched by the Department of Scheduled Tribe, Scheduled Caste, Minority &amp; Backward Class Welfare, Government of Jharkhand, &amp; aims to ensure the holistic development of villages associated with tribal freedom fighters who sacrificed their lives for the nation&#39;s independence. This scheme provides financial assistance &amp; infrastructural development to Scheduled Tribes &amp; Scheduled Castes residing in these villages.\n",
+      "benefits_md": "> ***List of villages under Shaheed Gram Yojana:***\n\n**S.No.****District****Block****Village**1KhuntiArkiUlihatu2RanchiChanhoSilagai3SahebganjBarhetBhoganadih4GarhwaBhandariaMadgardi5GumlaSisaiMurgu Sisai6GumlaBisunpurChingari Nava Toli7West SinghbhumRajnagar ThanaGumidpur, Matkom Beda Gaon8KhuntiMurhuAetkedih**NOTE:** As per requirements, villages of other martyrs of the freedom struggle can also be included under the scheme.\n<br>\n\n***Benefits:***\n\n- Housing assistance of ₹2,63,000/- per family for Scheduled Tribes and Scheduled Castes living in Kutcha houses. \n- Construction of roads, drains, Anganwadi centers, and community buildings in selected villages.\n- Establish libraries and provide sports resources in schools.\n- Solar lamps will be distributed to Scheduled Tribe and Scheduled Caste students under the &quot;One Lamp One Child&quot; initiative.\n- Infrastructure improvements, including piped water supply and cultural heritage enhancement.\n- Cooking gas connections for families under the &quot;Pradhan Mantri Ujjwala Yojana&quot;.\n\n",
+      "briefDescription": "The scheme \"Shaheed Gram Vikas Yojana\" by the Welfare Department, Government of Jharkhand, aims to develop villages linked to tribal freedom fighters. It provides housing, infrastructure, and other facilities to eligible Scheduled Tribes and Scheduled Castes.",
+      "exclusions_md": "",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The \"Shaheed Gram Vikas Yojana\" was launched by the Department of Scheduled Tribe, Scheduled Caste, Minority & Backward Class Welfare, Government of Jharkhand, & aims to ensure the holistic development of villages associated with tribal freedom fighters who sacrificed their lives for the nation's independence. This scheme provides financial assistance & infrastructural development to Scheduled Tribes & Scheduled Castes residing in these villages."
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 3,
+        "value": "composite",
+        "label": "Composite"
+      },
+      "benefits": [
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "List of villages under Shaheed Gram Yojana:",
+              "italic": true,
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "children": [
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "S.No.",
+                      "bold": true
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "District",
+                      "bold": true
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Block",
+                      "bold": true
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Village",
+                      "bold": true
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "1"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Khunti"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Arki"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Ulihatu"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "2"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Ranchi"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Chanho"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Silagai"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "3"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Sahebganj"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Barhet"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Bhoganadih"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "4"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Garhwa"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Bhandaria"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Madgardi"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "5"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Gumla"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Sisai"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Murgu Sisai"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "6"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Gumla"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Bisunpur"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Chingari Nava Toli"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "7"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "West Singhbhum"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Rajnagar Thana"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Gumidpur, Matkom Beda Gaon"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "8"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Khunti"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Murhu"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Aetkedih"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "NOTE: ",
+              "bold": true
+            },
+            {
+              "text": "As per requirements, villages of other martyrs of the freedom struggle can also be included under the scheme."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "bold": true,
+              "text": "Benefits:",
+              "underline": true,
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Housing assistance of ₹2,63,000/- per family for Scheduled Tribes and Scheduled Castes living in Kutcha houses. "
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Construction of roads, drains, Anganwadi centers, and community buildings in selected villages."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Establish libraries and provide sports resources in schools."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Solar lamps will be distributed to Scheduled Tribe and Scheduled Caste students under the \"One Lamp One Child\" initiative."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Infrastructure improvements, including piped water supply and cultural heritage enhancement."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Cooking gas connections for families under the \"Pradhan Mantri Ujjwala Yojana\"."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "process": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 1: ",
+                "bold": true
+              },
+              {
+                "text": "The interested applicant should visit (during office hours) the District Welfare Officer or Project Director, ITDA (Integrated Tribal Development Agency) in your district and request a hard copy of the prescribed format of the application form from the staff exclusively entrusted to issue and collect filled-in applications."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2:",
+                "bold": true
+              },
+              {
+                "text": " In the application form, fill in all the mandatory fields, and attach copies of all the mandatory documents (self-attest, if required)."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 3:",
+                "bold": true
+              },
+              {
+                "text": " Submit the duly filled and signed application form along with the documents to the District Welfare Officer or Project Director, ITDA (Integrated Tribal Development Agency) in your district. "
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 4:",
+                "bold": true
+              },
+              {
+                "text": " Request a receipt or acknowledgment from the District Welfare Officer or Project Director, ITDA (Integrated Tribal Development Agency) to whom the application has been submitted. Ensure that the receipt contains essential details such as the date and time of submission, and a unique identification number (if applicable)."
+              }
+            ]
+          }
+        ],
+        "process_md": "**Step 1:** The interested applicant should visit (during office hours) the District Welfare Officer or Project Director, ITDA (Integrated Tribal Development Agency) in your district and request a hard copy of the prescribed format of the application form from the staff exclusively entrusted to issue and collect filled-in applications.\n**Step 2:** In the application form, fill in all the mandatory fields, and attach copies of all the mandatory documents (self-attest, if required).\n**Step 3:** Submit the duly filled and signed application form along with the documents to the District Welfare Officer or Project Director, ITDA (Integrated Tribal Development Agency) in your district. \n**Step 4:** Request a receipt or acknowledgment from the District Welfare Officer or Project Director, ITDA (Integrated Tribal Development Agency) to whom the application has been submitted. Ensure that the receipt contains essential details such as the date and time of submission, and a unique identification number (if applicable).\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n1. The shaheed should belong to a Scheduled Tribe or Scheduled Caste. \n1. The family should be residing in one of the selected Shaheed villages.\n1. The shaheed family should live in a kutcha house and not have availed of benefits from any housing scheme in the last 5 years.\n1. Priority will be given to descendants of freedom fighters from selected villages.\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The shaheed should belong to a Scheduled Tribe or Scheduled Caste. "
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The family should be residing in one of the selected Shaheed villages."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The shaheed family should live in a kutcha house and not have availed of benefits from any housing scheme in the last 5 years."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Priority will be given to descendants of freedom fighters from selected villages."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "sgvy"
+}

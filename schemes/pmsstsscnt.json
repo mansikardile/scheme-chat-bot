@@ -1,0 +1,663 @@
+{
+  "_id": "69eaf424add8ffad6370fc66",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Student",
+        "Tribal",
+        "Scholarship",
+        "Allowance",
+        "Assistance",
+        "School",
+        "Education"
+      ],
+      "schemeName": "Pre-Matric Scholarship For Scheduled Tribe Students Studying In Classes 9th & 10th",
+      "schemeShortTitle": "PMSSTSSCNT",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce76cd6d1a3bde4685292",
+          "label": "Education & Learning"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Scholarships and student finance",
+          "label": "Scholarships and student finance"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "schemeFor": "Individual",
+      "state": {
+        "value": 18,
+        "label": "Assam"
+      },
+      "schemeType": null,
+      "nodalMinistryName": null,
+      "nodalDepartmentName": {
+        "value": 1800057,
+        "label": "Tribal Affairs (Plain) Department"
+      },
+      "otherMinistryName": null,
+      "otherDepartmentNames": null
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Directorate Website",
+          "url": "https://directoratetribalaffairsplain.assam.gov.in/"
+        },
+        {
+          "title": "Contact Us",
+          "url": "https://directoratetribalaffairsplain.assam.gov.in/contact-us"
+        }
+      ],
+      "schemeImageUrl": "",
+      "briefDescription": "The scheme aims to support Scheduled Tribe children in classes 9th and 10th to minimize drop-out rates and aid progression to higher education. The scheme provides a recurring monthly scholarship, an annual book grant, and disability allowances directly to the Scheduled Tribe student beneficiaries.",
+      "detailedDescription_md": "The scheme &quot;Pre-Matric Scholarship For Scheduled Tribe Students Studying In Classes 9th &amp; 10th&quot; is implemented by the &quot;Department of Tribal Affairs (Plain)&quot;, Government of Assam. The scheme aims to support Scheduled Tribe children studying in classes 9th and 10th so that the incidence of drop-out is minimized, and they have a better chance of progressing to the post-matric stage of education. The scheme provides a monthly scholarship of up to ₹525/-, an annual book grant of up to ₹1,000/-, and an additional disability allowance of up to ₹9,600/- annually via Direct Benefit Transfer. The applicant must belong to a Scheduled Tribe, study in class 9th or 10th in a recognized school, and have a total family income not exceeding ₹2,50,000/- per annum.\n<br>\n\n",
+      "benefits_md": "**Scholarship for 10 Months**\n\n- Day Scholars receive a scholarship of ₹225/- monthly (₹2,250/- annually).\n- Hostelers receive ₹525/- monthly (₹5,250/- annually).\n\n**Books and Ad Hoc Grant**\nDay Scholars receive a lump sum grant of ₹750/-, and Hostelers receive a grant of ₹1,000/-.\n**Additional Disability Allowance**\n\n- Divyangjan students, leprosy-cured students, and students having sickle cell anemia or Thalassemia receive an additional grant paid for all twelve months. \n- Hosteler students receive ₹800/- monthly (₹9,600/- annually), and Day Scholars receive ₹600/- monthly (₹7,200/- annually).\n\n**Disbursement Mode**\nBenefits are distributed directly to the student&#39;s bank account through Direct Benefit Transfer (DBT), preferably using the Aadhaar Enabled Payment System.\n**Conditions**\n\n- The award once made will continue, subject to good conduct and regularity in attendance.\n- The scholarship will be renewed for Class X after the student successfully passes Class IX.\n- If a student has to repeat a class, they will not receive the scholarship for the same class twice.\n\n<br>\n\n",
+      "exclusions_md": "\n- The applicant must not state wrong facts or give misrepresented facts in their application, which will make them liable to be debarred from the scheme.\n- Income Assessment Conditions:\n- The applicant must consider the combined income of both parents from all sources in computing total family income, in cases where both the father and mother are working.\n- The applicant must not include the income of any other earning family member or sibling in computing total family income.\n- The applicant must only consider the income of the living parent in cases where only one parent is alive.\n- The applicant must not apply the income criteria if they are an orphan supported by a guardian.\n\n<br>\n\n",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The scheme \"Pre-Matric Scholarship For Scheduled Tribe Students Studying In Classes 9th & 10th\" is implemented by the \"Department of Tribal Affairs (Plain)\", Government of Assam. The scheme aims to support Scheduled Tribe children studying in classes 9th and 10th so that the incidence of drop-out is minimized, and they have a better chance of progressing to the post-matric stage of education. The scheme provides a monthly scholarship of up to ₹525/-, an annual book grant of up to ₹1,000/-, and an additional disability allowance of up to ₹9,600/- annually via Direct Benefit Transfer. The applicant must belong to a Scheduled Tribe, study in class 9th or 10th in a recognized school, and have a total family income not exceeding ₹2,50,000/- per annum."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Scholarship for 10 Months",
+              "bold": true,
+              "underline": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Day Scholars receive a scholarship of ₹225/- monthly (₹2,250/- annually)."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Hostelers receive ₹525/- monthly (₹5,250/- annually)."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Books and Ad Hoc Grant",
+              "bold": true,
+              "underline": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Day Scholars receive a lump sum grant of ₹750/-, and Hostelers receive a grant of ₹1,000/-."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Additional Disability Allowance",
+              "bold": true,
+              "underline": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Divyangjan students, leprosy-cured students, and students having sickle cell anemia or Thalassemia receive an additional grant paid for all twelve months. "
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Hosteler students receive ₹800/- monthly (₹9,600/- annually), and Day Scholars receive ₹600/- monthly (₹7,200/- annually)."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Disbursement Mode",
+              "bold": true,
+              "underline": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Benefits are distributed directly to the student's bank account through Direct Benefit Transfer (DBT), preferably using the Aadhaar Enabled Payment System."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Conditions",
+              "bold": true,
+              "underline": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The award once made will continue, subject to good conduct and regularity in attendance."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The scholarship will be renewed for Class X after the student successfully passes Class IX."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "If a student has to repeat a class, they will not receive the scholarship for the same class twice."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ],
+      "exclusions": [
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must not state wrong facts or give misrepresented facts in their application, which will make them liable to be debarred from the scheme."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Income Assessment Conditions:"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must consider the combined income of both parents from all sources in computing total family income, in cases where both the father and mother are working."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must not include the income of any other earning family member or sibling in computing total family income."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must only consider the income of the living parent in cases where only one parent is alive."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must not apply the income criteria if they are an orphan supported by a guardian."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Online",
+        "process": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Signup to DigiLocker",
+                "bold": true,
+                "underline": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 1:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " Visit the "
+              },
+              {
+                "type": "link",
+                "link": "https://www.digilocker.gov.in/",
+                "children": [
+                  {
+                    "text": "DigiLocker Portal",
+                    "italic": true
+                  }
+                ]
+              },
+              {
+                "text": " or download the DigiLocker Mobile App ("
+              },
+              {
+                "type": "link",
+                "link": "https://play.google.com/store/apps/details?id=com.digilocker.android",
+                "children": [
+                  {
+                    "text": "Android",
+                    "italic": true
+                  }
+                ]
+              },
+              {
+                "text": " / ",
+                "italic": true
+              },
+              {
+                "type": "link",
+                "link": "https://itunes.apple.com/in/app/digilocker/id1320618078",
+                "children": [
+                  {
+                    "text": "iOS",
+                    "italic": true
+                  }
+                ]
+              },
+              {
+                "text": ")."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " Click "
+              },
+              {
+                "text": "\"",
+                "italic": true
+              },
+              {
+                "type": "link",
+                "link": "https://www.digilocker.gov.in/web/signup",
+                "children": [
+                  {
+                    "text": "Login/Register",
+                    "italic": true
+                  }
+                ]
+              },
+              {
+                "text": "\"",
+                "italic": true
+              },
+              {
+                "text": " and provide these details: Full name, Gender, Mobile number, Email ID, and Aadhaar Number. Create a 6-digit PIN."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 3:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " Finally, click \"Submit\". Note the 6-digit PIN for future reference."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "bold": true,
+                "underline": true,
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Signin to myScheme",
+                "bold": true,
+                "underline": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 1:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " At the top right corner of this page, click \"Sign In\". Provide your DigiLocker Mobile Number and the 6-digit PIN."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " Click the \"I consent to terms of use\" checkbox, then click \"Sign In\". You will be directed to the DigiLocker Consent Page."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 3:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " At the bottom of the page, click \"Allow\". You have now successfully signed in to myScheme."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "bold": true,
+                "underline": true,
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "bold": true,
+                "underline": true,
+                "text": "Scheme Application"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "bold": true,
+                "underline": true,
+                "text": "Step 1:"
+              },
+              {
+                "text": " At the top of this page, click \"Apply Now\". The application form of the scheme will open."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "bold": true,
+                "underline": true,
+                "text": "Step 2:"
+              },
+              {
+                "text": " Fill in all the mandatory fields of the application form, and upload all the mandatory documents in the specified format and size."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 3:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "bold": true,
+                "text": " "
+              },
+              {
+                "text": "Carefully review all the information provided and the documents uploaded. Make any necessary corrections."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 4:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " Click \"Submit\". You'll receive the following confirmation message: \"Form Submitted Successfully!\"."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 5:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " For future reference, click \"Print\" to print the form or to download the filled form as a PDF file. Else, click \"Ok\" to get redirected to the myScheme landing page."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          }
+        ],
+        "process_md": "**Signup to DigiLocker**\n**Step 1:** Visit the [_DigiLocker Portal_](https://www.digilocker.gov.in/) or download the DigiLocker Mobile App ([_Android_](https://play.google.com/store/apps/details?id=com.digilocker.android) _/_ [_iOS_](https://itunes.apple.com/in/app/digilocker/id1320618078)).\n**Step 2:** Click _&quot;_[_Login/Register_](https://www.digilocker.gov.in/web/signup)_&quot;_ and provide these details: Full name, Gender, Mobile number, Email ID, and Aadhaar Number. Create a 6-digit PIN.\n**Step 3:** Finally, click &quot;Submit&quot;. Note the 6-digit PIN for future reference.\n<br>\n\n**Signin to myScheme**\n**Step 1:** At the top right corner of this page, click &quot;Sign In&quot;. Provide your DigiLocker Mobile Number and the 6-digit PIN.\n**Step 2:** Click the &quot;I consent to terms of use&quot; checkbox, then click &quot;Sign In&quot;. You will be directed to the DigiLocker Consent Page.\n**Step 3:** At the bottom of the page, click &quot;Allow&quot;. You have now successfully signed in to myScheme.\n<br>\n\n**Scheme Application**\n**Step 1:** At the top of this page, click &quot;Apply Now&quot;. The application form of the scheme will open.\n**Step 2:** Fill in all the mandatory fields of the application form, and upload all the mandatory documents in the specified format and size.\n**Step 3:****** Carefully review all the information provided and the documents uploaded. Make any necessary corrections.\n**Step 4:** Click &quot;Submit&quot;. You&#39;ll receive the following confirmation message: &quot;Form Submitted Successfully!&quot;.\n**Step 5:** For future reference, click &quot;Print&quot; to print the form or to download the filled form as a PDF file. Else, click &quot;Ok&quot; to get redirected to the myScheme landing page.\n<br>\n\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n- The applicant must belong to the Scheduled Tribe, as specified in relation to the State or Union Territory to which they actually belong (Domicile State).\n- The applicant must be studying in Class IX or Class X.\n- The applicant must be studying in a Government School or in a School recognized by the Government or a Central or State Board of Secondary Education.\n- The applicant must have a total family income from all sources that does not exceed ₹2,50,000/- per annum.\n- The applicant must have a valid account in a Scheduled Bank.\n- The applicant must have a bank account linked with their Aadhaar number.\n- The applicant must have a bank account linked with an active mobile number.\n- The applicant must not be getting any other scholarship.\n\n<br>\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must belong to the Scheduled Tribe, as specified in relation to the State or Union Territory to which they actually belong (Domicile State)."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must be studying in Class IX or Class X."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must be studying in a Government School or in a School recognized by the Government or a Central or State Board of Secondary Education."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must have a total family income from all sources that does not exceed ₹2,50,000/- per annum."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must have a valid account in a Scheduled Bank."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must have a bank account linked with their Aadhaar number."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must have a bank account linked with an active mobile number."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must not be getting any other scholarship."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "pmsstsscnt"
+}

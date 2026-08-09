@@ -1,0 +1,210 @@
+{
+  "_id": "67c97b371dc65aa2df406529",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Construction",
+        "Worker",
+        "Pension",
+        "Family",
+        "Labour"
+      ],
+      "schemeName": "Family Pension (DBOCWWB)",
+      "schemeShortTitle": "FPDBOCWWB",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce87cd6d1a3bde4685312",
+          "label": "Social welfare & Empowerment"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Pension",
+          "label": "Pension"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "state": {
+        "value": 7,
+        "label": "Delhi"
+      },
+      "nodalDepartmentName": {
+        "value": 70000029,
+        "label": "Labour Department"
+      },
+      "schemeFor": "Family"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://bocw.delhi.gov.in/bocw/welfare-schemes"
+        },
+        {
+          "title": "Scheme Details",
+          "url": "https://dbocwwb.delhi.gov.in/welfareschemedboc.html"
+        },
+        {
+          "title": "Amendments",
+          "url": "https://bocw.delhi.gov.in/sites/default/files/bocw/circulars-orders/delhi_gazette_notification_of_delhi_building_and_other_construction_workers_welfare_board_on_04-03-2016.pdf"
+        },
+        {
+          "title": "Application Status",
+          "url": "https://dbocwwb.delhi.gov.in/"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The &quot;Family Pension&quot; scheme was launched by the Delhi Building and Other Construction Workers Welfare Board, Labour Department, Delhi. In this scheme, upon the death of the pensioner, the surviving spouse is provided 50% of the pension amount or ₹1,500/-, whichever is higher.\n",
+      "benefits_md": "50% of the pension or ₹1,500/-, whichever is higher.\n",
+      "briefDescription": "The scheme \"Family Pension\" was launched by the Delhi Building and Other Construction Workers Welfare Board. In this scheme, upon the death of the pensioner, the surviving spouse is provided 50% of the pension amount or ₹1500/-, whichever is higher.",
+      "exclusions_md": "",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The \"Family Pension\" scheme was launched by the Delhi Building and Other Construction Workers Welfare Board, Labour Department, Delhi. In this scheme, upon the death of the pensioner, the surviving spouse is provided 50% of the pension amount or ₹1,500/-, whichever is higher."
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "50% of the pension or ₹1,500/-, whichever is higher."
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "process": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 1:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " The interested applicant should take a print of the "
+              },
+              {
+                "type": "link",
+                "link": "https://bocw.delhi.gov.in/sites/default/files/generic_multiple_files/form_no._xlv_family_pension_under_rule_283.pdf",
+                "children": [
+                  {
+                    "text": "prescribed format"
+                  }
+                ]
+              },
+              {
+                "text": " of the application form."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " In the application form, fill in all the mandatory fields, paste the passport-sized photograph (signed across, if required), and attach copies of all the mandatory documents (self-attest, if required)."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 3:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " Submit the duly filled and signed application form along with the documents, within the prescribed period (if any), to the Labour Incharge of the Board."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Helpline Number (24x7): ",
+                "bold": true
+              },
+              {
+                "text": "011-41236600"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "DBOCWWB Department Number (Office Hours: 9:30AM - 6:00PM) : ",
+                "bold": true
+              },
+              {
+                "text": "011-23813846"
+              }
+            ]
+          }
+        ],
+        "process_md": "**Step 1:** The interested applicant should take a print of the [prescribed format](https://bocw.delhi.gov.in/sites/default/files/generic_multiple_files/form_no._xlv_family_pension_under_rule_283.pdf) of the application form.\n**Step 2:** In the application form, fill in all the mandatory fields, paste the passport-sized photograph (signed across, if required), and attach copies of all the mandatory documents (self-attest, if required).\n**Step 3:** Submit the duly filled and signed application form along with the documents, within the prescribed period (if any), to the Labour Incharge of the Board.\n**Helpline Number (24x7):** 011-41236600\n**DBOCWWB Department Number (Office Hours: 9:30AM - 6:00PM) :** 011-23813846\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n- The deceased should have been a pensioner of the Board.\n- The applicant should be a family member or a dependent of the deceased.\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The deceased should have been a pensioner of the Board."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should be a family member or a dependent of the deceased."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "fpdbocwwb"
+}

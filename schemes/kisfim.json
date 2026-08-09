@@ -1,0 +1,629 @@
+{
+  "_id": "6a3288219c803b909e9ecd3f",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Fit India Movement",
+        "Physical Fitness",
+        "Fitness Campaigns",
+        "Sports Development",
+        "Community Participation"
+      ],
+      "schemeName": "Khelo India Scheme: Fit India Movement",
+      "schemeShortTitle": "KISFIM",
+      "level": {
+        "value": "central",
+        "label": "Central"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce8aad6d1a3bde4685320",
+          "label": "Sports & Culture"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Sports",
+          "label": "Sports"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "government-organisation",
+          "label": "Government Organisation"
+        }
+      ],
+      "schemeFor": "Infra",
+      "state": null,
+      "schemeType": {
+        "value": "central-sector-scheme",
+        "label": "Central Sector Scheme"
+      },
+      "nodalMinistryName": {
+        "value": 520,
+        "label": "Ministry Of Youth Affairs & Sports"
+      },
+      "nodalDepartmentName": {
+        "value": 1618,
+        "label": "Department of Sports"
+      },
+      "otherMinistryName": null,
+      "otherDepartmentNames": null
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://kheloindia.gov.in/uploads/Khelo-India-Scheme-Operational-Guidelines.pdf"
+        }
+      ],
+      "schemeImageUrl": "",
+      "briefDescription": "The scheme aims to promote physical fitness among all citizens by encouraging regular physical activity, conducting fitness assessments, certifying schools, and organizing fitness campaigns and events.",
+      "detailedDescription_md": "The &amp;quot;Fit India Movement&amp;quot; is a component of the &amp;quot;Khelo India Scheme&amp;quot; implemented by the Ministry of Youth Affairs and Sports, Government of India, aiming to promote physical fitness and healthy lifestyles among citizens through fitness assessments, school certification, and fitness awareness campaigns. The movement encourages voluntary participation in physical activities for at least 30 minutes daily. It focuses on developing a culture of fitness among school children and the general public. The component is implemented through the Fit India Mission Cell with support from educational institutions, schools, and sports organizations. Financial assistance may be provided to eligible stakeholders for approved activities under the scheme.\n<br>\n\n",
+      "benefits_md": "> **Physical Assessment of School Children**\n\n\n- Support for conducting physical fitness assessments of school-going children.\n- Technical support for fitness parameters and fitness testing.\n- Financial assistance may be provided to participating stakeholders, including schools.\n\n> **Fit India School Certification**\n\n\n- Eligible schools can obtain Fit India School Certification.\n- Third-party evaluation and validation of school fitness infrastructure.\n- Encourages schools to improve fitness-related facilities and resources.\n\n> **Promotion of Fitness Campaigns and Events**\n\n\n- Support for organizing fitness campaigns and events.\n- Activities may include Fit India Quiz, Fit India School Week, Cyclothon, Plog Run, Diversity Run, Freedom Run, District Runs, Games, and similar events.\n- Promotion of fitness awareness among citizens through various initiatives.\n\n> **One-Time Assistance for Certified Schools**\n\n\n- Suitable funds may be released as one-time assistance for development of sports facilities in certified schools.\n\n> **Awards and Recognition**\n\n\n- Recognition and awards may be provided to States, Union Territories, Municipal Bodies, Gram Panchayats, Corporates, Schools, Organizations, and Individuals for achievements in fitness promotion.\n\n> **Prize Money**\n\n\n- Fit India Quiz and related activities may include prize money as per approved provisions.\n\n<br>\n\n",
+      "exclusions_md": "<br>\n\n",
+      "detailedDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "The \"Fit India Movement\" is a component of the \"Khelo India Scheme\" implemented by the Ministry of Youth Affairs and Sports, Government of India, aiming to promote physical fitness and healthy lifestyles among citizens through fitness assessments, school certification, and fitness awareness campaigns. The movement encourages voluntary participation in physical activities for at least 30 minutes daily. It focuses on developing a culture of fitness among school children and the general public. The component is implemented through the Fit India Mission Cell with support from educational institutions, schools, and sports organizations. Financial assistance may be provided to eligible stakeholders for approved activities under the scheme."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 3,
+        "value": "composite",
+        "label": "Composite"
+      },
+      "benefits": [
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "Physical Assessment of School Children",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Support for conducting physical fitness assessments of school-going children."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Technical support for fitness parameters and fitness testing."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Financial assistance may be provided to participating stakeholders, including schools."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "Fit India School Certification",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Eligible schools can obtain Fit India School Certification."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Third-party evaluation and validation of school fitness infrastructure."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Encourages schools to improve fitness-related facilities and resources."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "Promotion of Fitness Campaigns and Events",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Support for organizing fitness campaigns and events."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Activities may include Fit India Quiz, Fit India School Week, Cyclothon, Plog Run, Diversity Run, Freedom Run, District Runs, Games, and similar events."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Promotion of fitness awareness among citizens through various initiatives."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "One-Time Assistance for Certified Schools",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Suitable funds may be released as one-time assistance for development of sports facilities in certified schools."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "Awards and Recognition",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Recognition and awards may be provided to States, Union Territories, Municipal Bodies, Gram Panchayats, Corporates, Schools, Organizations, and Individuals for achievements in fitness promotion."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "Prize Money",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Fit India Quiz and related activities may include prize money as per approved provisions."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ],
+      "exclusions": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "process": [
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "text": "For Fit India School Certification:",
+                "bold": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 1: ",
+                "bold": true
+              },
+              {
+                "text": "The eligible school must satisfy the prescribed certification parameters."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2: ",
+                "bold": true
+              },
+              {
+                "text": "The district-level committee reviews and recommends the school."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 3: ",
+                "bold": true
+              },
+              {
+                "text": "recommended school must submit its claim online through the Fit India portal."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 4: ",
+                "bold": true
+              },
+              {
+                "text": "A third-party agency conducts physical verification and validation."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 5: ",
+                "bold": true
+              },
+              {
+                "text": "Certification is granted after successful evaluation and approval."
+              }
+            ]
+          },
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "text": "For Financial Assistance and Grants",
+                "bold": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 1: ",
+                "bold": true
+              },
+              {
+                "text": "The applicant must prepare a proposal for the proposed activity or event."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2: ",
+                "bold": true
+              },
+              {
+                "text": "The proposal must include implementation timelines and technical details."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 3: ",
+                "bold": true
+              },
+              {
+                "text": "The proposal is appraised by the Project Appraisal Committee (PAC)."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 4: ",
+                "bold": true
+              },
+              {
+                "text": "The proposal is placed before the Departmental Project Approval Committee (DPAC) for approval."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 5: ",
+                "bold": true
+              },
+              {
+                "text": "Funds are sanctioned and released after approval."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          }
+        ],
+        "process_md": "> **For Fit India School Certification:**\n\n**Step 1:** The eligible school must satisfy the prescribed certification parameters.\n**Step 2:** The district-level committee reviews and recommends the school.\n**Step 3:** recommended school must submit its claim online through the Fit India portal.\n**Step 4:** A third-party agency conducts physical verification and validation.\n**Step 5:** Certification is granted after successful evaluation and approval.\n> **For Financial Assistance and Grants**\n\n**Step 1:** The applicant must prepare a proposal for the proposed activity or event.\n**Step 2:** The proposal must include implementation timelines and technical details.\n**Step 3:** The proposal is appraised by the Project Appraisal Committee (PAC).\n**Step 4:** The proposal is placed before the Departmental Project Approval Committee (DPAC) for approval.\n**Step 5:** Funds are sanctioned and released after approval.\n<br>\n\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "> **For Physical Assessment of School Going Children:**\n\n\n- **Eligible Schools:** Central Government schools, State Government schools, Union Territory Government schools, private aided schools, and private unaided schools participating in Fit India Movement activities.\n> **For Fit India School Certification:**\n\n\n- **Eligible Institutions:** Schools meeting the prescribed Fit India School Certification parameters.- **Recommendation Requirement:** Schools must obtain a recommendation from the designated district-level committee.- **Compliance Requirement:** Schools must comply with the infrastructure and fitness-related requirements approved by the Ministry of Youth Affairs and Sports.\n\n- Application Requirement: Schools must submit their certification claims through the Fit India online portal.\n\n> **For Grants for Events and Campaigns:**\n\n\n- **Eligible Schools:** Schools conducting Fit India events or campaigns.- **Eligible Government Organizations:** Central Government organizations and State Government organizations, Public Sector Undertakings (PSUs), and Paramilitary forces organizing Fit India activities.- **Eligible Sports Bodies:** National Sports Federations (NSFs).- **Proposal Requirement:** Organizations must submit complete and technically feasible proposals.- **Implementation Requirement:** Organizations must adhere to the approved implementation timelines.\n<br>\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "For Physical Assessment of School Going Children:",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Eligible Schools:",
+                  "bold": true
+                },
+                {
+                  "text": " Central Government schools, State Government schools, Union Territory Government schools, private aided schools, and private unaided schools participating in Fit India Movement activities."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "For Fit India School Certification:",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Eligible Institutions: ",
+                  "bold": true
+                },
+                {
+                  "text": "Schools meeting the prescribed Fit India School Certification parameters."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Recommendation Requirement:",
+                  "bold": true
+                },
+                {
+                  "text": " Schools must obtain a recommendation from the designated district-level committee."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Compliance Requirement: ",
+                  "bold": true
+                },
+                {
+                  "text": "Schools must comply with the infrastructure and fitness-related requirements approved by the Ministry of Youth Affairs and Sports."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Application Requirement: Schools must submit their certification claims through the Fit India online portal."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "For Grants for Events and Campaigns:",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Eligible Schools: ",
+                  "bold": true
+                },
+                {
+                  "text": "Schools conducting Fit India events or campaigns."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Eligible Government Organizations:",
+                  "bold": true
+                },
+                {
+                  "text": " Central Government organizations and State Government organizations, Public Sector Undertakings (PSUs), and Paramilitary forces organizing Fit India activities."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Eligible Sports Bodies: ",
+                  "bold": true
+                },
+                {
+                  "text": "National Sports Federations (NSFs)."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Proposal Requirement:",
+                  "bold": true
+                },
+                {
+                  "text": " Organizations must submit complete and technically feasible proposals."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Implementation Requirement:",
+                  "bold": true
+                },
+                {
+                  "text": " Organizations must adhere to the approved implementation timelines."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "kisfim"
+}

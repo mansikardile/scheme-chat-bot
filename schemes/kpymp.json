@@ -1,0 +1,434 @@
+{
+  "_id": "65dda7a7938a0b13cc97b4dc",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": true,
+      "tags": [
+        "Sports",
+        "Financial Assistance",
+        "Labour",
+        "Social Welfare"
+      ],
+      "schemeName": "Khiladi Protsahan Yojana",
+      "schemeShortTitle": "KPYMP",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce8aad6d1a3bde4685320",
+          "label": "Sports & Culture"
+        },
+        {
+          "value": "628ce87cd6d1a3bde4685312",
+          "label": "Social welfare & Empowerment"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Financial assistance",
+          "label": "Financial assistance"
+        }
+      ],
+      "schemeOpenDate": "2017-05-01",
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "state": {
+        "value": 23,
+        "label": "Madhya Pradesh"
+      },
+      "nodalDepartmentName": {
+        "value": 2300023,
+        "label": "Labour Department"
+      },
+      "schemeFor": "Family"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines-1",
+          "url": "https://labour.mp.gov.in/Public/Pages/Schemes/KhiladiProtsahanYojna.aspx"
+        },
+        {
+          "title": "Guidelines-2",
+          "url": "https://cmhelpline.mp.gov.in/KnowYourEntitleDetail.aspx?Schemeid=883"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The Khilaadee Protsaahan Yojana, a scheme of the Madhya Pradesh Building Department under the Labor Department, provides financial assistance to registered construction workers or their family members under the MP Building and Other Construction Workers Welfare Board who have excelled in sports.\n",
+      "benefits_md": "\n- On selection at various levels, incentive amount is payable as follows:-\n\nLevels(Category – A) Incentive amount on getting selected in district/divisional/state level sports.(Category – B) Incentive amount given by the Board for being winner in District/Divisional/State level game.At District Level₹10,000/-₹5,000/-At Division Level₹25,000/-₹15,000/-At State Level₹25,000/-₹30,000/-<br>\n\n<br>\n\n<br>\n\n<br>\n\n<br>\n\n<br>\n\n<br>\n\n",
+      "exclusions_md": "<br>\n\n",
+      "briefDescription": "In 2017, the Madhya Pradesh Labour Department initiated the Khilaadee Protsaahan Yojana to provide financial assistance to players.",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The Khilaadee Protsaahan Yojana, a scheme of the Madhya Pradesh Building Department under the Labor Department, provides financial assistance to registered construction workers or their family members under the MP Building and Other Construction Workers Welfare Board who have excelled in sports."
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "On selection at various levels, incentive amount is payable as follows:-"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "children": [
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Levels"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "(Category – A) Incentive amount on getting selected in district/divisional/state level sports."
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "(Category – B) Incentive amount given by the Board for being winner in District/Divisional/State level game."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "At District Level"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "₹10,000/-"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "₹5,000/-"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "At Division Level"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "₹25,000/-"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "₹15,000/-"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "At State Level"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "₹25,000/-"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "₹30,000/-"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ],
+      "exclusions": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "process": [
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "text": "For Category-A awards",
+                "bold": true,
+                "underline": true
+              }
+            ]
+          },
+          {
+            "type": "ul_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Applications must be submitted in the prescribed format, along with a certificate issued by the District Superintendent of Police or the District Sports Officer through a recognized sports organization, to the designated officer as follows:"
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "For urban areas: Commissioner/Chief Municipal Officer, Urban Local Body"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "bold": true,
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "bold": true,
+                "text": "For Category-B awards",
+                "underline": true
+              }
+            ]
+          },
+          {
+            "type": "ul_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "The incentive amount for the winner of the sports competition organized by the division under Category-B will be provided by the organizing Labor Department officer."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "bold": true,
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "bold": true,
+                "text": "Where to apply",
+                "underline": true
+              }
+            ]
+          },
+          {
+            "type": "ul_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Chief Executive Offcer, Janpad Panchayat and Commissioner/Chief Municipal Officer, Urban Local Body"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "bold": true,
+                "text": ""
+              }
+            ]
+          }
+        ],
+        "process_md": "> **For Category-A awards**\n\n\n- Applications must be submitted in the prescribed format, along with a certificate issued by the District Superintendent of Police or the District Sports Officer through a recognized sports organization, to the designated officer as follows:\n- For urban areas: Commissioner/Chief Municipal Officer, Urban Local Body\n\n<br>\n\n> **For Category-B awards**\n\n\n- The incentive amount for the winner of the sports competition organized by the division under Category-B will be provided by the organizing Labor Department officer.\n\n<br>\n\n> **Where to apply**\n\n\n- Chief Executive Offcer, Janpad Panchayat and Commissioner/Chief Municipal Officer, Urban Local Body\n\n<br>\n\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n1. The applicant should be a native of Madhya Pradesh.\n1. Family members registered under MP Building and Other Construction Workers Welfare Board.\n1. The applicant should be a bank account.\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should be a native of Madhya Pradesh."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Family members registered under MP Building and Other Construction Workers Welfare Board."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should be a bank account."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "kpymp"
+}

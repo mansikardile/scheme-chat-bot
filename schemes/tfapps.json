@@ -1,0 +1,317 @@
+{
+  "_id": "65685a197e51bbad7a87e6cb",
+  "en": {
+    "basicDetails": {
+      "schemeOpenDate": null,
+      "schemeCloseDate": null,
+      "nodalMinistryName": null,
+      "nodalDepartmentName": {
+        "value": 30000026,
+        "label": "Information and Publicity Department"
+      },
+      "otherMinistryName": null,
+      "otherDepartmentNames": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Setting up / start-up / entrepreneurship",
+          "label": "Setting up / start-up / entrepreneurship"
+        },
+        {
+          "value": "Education and training grants, fellowship, stipend",
+          "label": "Education and training grants, fellowship, stipend"
+        },
+        {
+          "value": "Intellectual property rights and patents",
+          "label": "Intellectual property rights and patents"
+        }
+      ],
+      "dbtScheme": false,
+      "implementingAgency": "Startup Promotion Cell (SPC)",
+      "tags": [
+        "Technology",
+        "Fellowship",
+        "Patent",
+        "Grant"
+      ],
+      "schemeName": "Technology Fellowship and Patent Promotion Scheme",
+      "schemeShortTitle": "TFAPPS",
+      "level": {
+        "value": "state",
+        "label": "State"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce733d6d1a3bde4685278",
+          "label": "Business & Entrepreneurship"
+        },
+        {
+          "value": "628ce76cd6d1a3bde4685292",
+          "label": "Education & Learning"
+        }
+      ],
+      "state": {
+        "value": 30,
+        "label": "Goa"
+      },
+      "schemeType": null,
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines & Application Form",
+          "url": "https://www.goa.gov.in/wp-content/uploads/2018/05/Schemes.pdf"
+        },
+        {
+          "title": "Contact Us",
+          "url": "https://www.startup.goa.gov.in/ContactUs"
+        }
+      ],
+      "schemeImageUrl": "",
+      "briefDescription": "The objective of the scheme is to identify technology educators in technical educational institutes in Goa who are keen to further their expertise. The selected educators/fellows would be sent to Centres of Excellence within the country and abroad to undertake summer school and short-term training.",
+      "detailedDescription_md": "The scheme “Technology Fellowship and Patent Promotion Scheme” is a scheme by the Department of Information Technology, Electronics and Communications, Government of Goa, for the Startups of Goa. The objective of the scheme is to identify technology educators in technical educational institutes in Goa who are keen to further their expertise. The selected educators/fellows would be sent to Centres of Excellence within the country and abroad to undertake summer school and short term training programs to further their learning in their area of specialization.\n",
+      "benefits_md": "\n- A technology fellowship program will run to identify technology educators in technical educational institutes in Goa who are keen to further their expertise in the following areas: Internet of Things, Artificial Intelligence, Machine Learning, Interaction Design, Big Data Analytics, Robotics, 3-D Printing, Data Science, Drones, Virtual Reality/Augmented Reality/Merged Reality, Others (subject to approval from SPC).\n- The selected educators/fellows would be sent to Centres of Excellence within the country and abroad to undertake **summer school and short-term training programs** to further their learning in their area of specialization.- The Department of IT will set up **Centres of Excellence/Advanced Maker Labs** in the technologies outlined above, in select technical educational institutes. Such selected educators/fellows will function as Master Trainers/Principal Mentors to students and student start-ups that would be incubated in such facilities.- The educators/fellows, upon selection, would receive an **educational grant of ₹10,00,000 per year**, for a period of five years.- The benefit of this scheme can be availed by up to ten educators/fellows per year, with one person in each focus area, who will be selected by the SPC as per its guidelines.\n- In case such educators/fellows generate and get any business and value-driven patents registered in their area of specialization, either through individual research or in collaboration with students, such fellows shall be eligible to receive a **patent-specific grant of up to ₹15,00,000**, subject to certification by the Start-up Promotion Cell (SPC).\n**NOTE:** Under no circumstance shall the benefits under this scheme be considered an entitlement. The SPC shall reserve the sole right to accept or reject applications.\n",
+      "exclusions_md": "",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The scheme “Technology Fellowship and Patent Promotion Scheme” is a scheme by the Department of Information Technology, Electronics and Communications, Government of Goa, for the Startups of Goa. The objective of the scheme is to identify technology educators in technical educational institutes in Goa who are keen to further their expertise. The selected educators/fellows would be sent to Centres of Excellence within the country and abroad to undertake summer school and short term training programs to further their learning in their area of specialization."
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 3,
+        "value": "composite",
+        "label": "Composite"
+      },
+      "benefits": [
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "A technology fellowship program will run to identify technology educators in technical educational institutes in Goa who are keen to further their expertise in the following areas: Internet of Things, Artificial Intelligence, Machine Learning, Interaction Design, Big Data Analytics, Robotics, 3-D Printing, Data Science, Drones, Virtual Reality/Augmented Reality/Merged Reality, Others (subject to approval from SPC)."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The selected educators/fellows would be sent to Centres of Excellence within the country and abroad to undertake "
+                },
+                {
+                  "text": "summer school and short-term training programs",
+                  "bold": true
+                },
+                {
+                  "text": " to further their learning in their area of specialization."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The Department of IT will set up "
+                },
+                {
+                  "text": "Centres of Excellence/Advanced Maker Labs",
+                  "bold": true
+                },
+                {
+                  "text": " in the technologies outlined above, in select technical educational institutes. Such selected educators/fellows will function as Master Trainers/Principal Mentors to students and student start-ups that would be incubated in such facilities."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The educators/fellows, upon selection, would receive an "
+                },
+                {
+                  "text": "educational grant of ₹10,00,000 per year",
+                  "bold": true
+                },
+                {
+                  "text": ", for a period of five years."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The benefit of this scheme can be availed by up to ten educators/fellows per year, with one person in each focus area, who will be selected by the SPC as per its guidelines."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "In case such educators/fellows generate and get any business and value-driven patents registered in their area of specialization, either through individual research or in collaboration with students, such fellows shall be eligible to receive a "
+                },
+                {
+                  "text": "patent-specific grant of up to ₹15,00,000",
+                  "bold": true
+                },
+                {
+                  "text": ", subject to certification by the Start-up Promotion Cell (SPC)."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "NOTE:",
+              "bold": true
+            },
+            {
+              "text": " Under no circumstance shall the benefits under this scheme be considered an entitlement. The SPC shall reserve the sole right to accept or reject applications."
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "process": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 1: ",
+                "bold": true
+              },
+              {
+                "text": "Take a print of the "
+              },
+              {
+                "type": "link",
+                "link": "https://www.goa.gov.in/wp-content/uploads/2018/05/Schemes.pdf",
+                "children": [
+                  {
+                    "text": "proforma"
+                  }
+                ]
+              },
+              {
+                "text": " of the application form. Fill in all the mandatory fields, and attach copies of all the mandatory documents (self-attest if required)."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2: ",
+                "bold": true
+              },
+              {
+                "text": "Submit the duly filled and signed application form along with the documents to SPC via Email at spc-dit.goa@gov.in"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "NOTE: ",
+                "bold": true
+              },
+              {
+                "text": "The applicant can apply for this scheme at any time of the financial year but only within 6 months of incurring the relevant expenditure."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "text": "Evaluation Process",
+                "bold": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 1: ",
+                "bold": true
+              },
+              {
+                "text": "Applications will undergo evaluation by the SPC and a panel of evaluators."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2: ",
+                "bold": true
+              },
+              {
+                "text": "Shortlisted applicants will be invited for an interview and presentation. Applicants should be available for interviews on the communicated date by the SPC."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 3: ",
+                "bold": true
+              },
+              {
+                "text": "Based on the evaluation, the SPC will select one educator in each focus area who will be granted the fellowship."
+              }
+            ]
+          }
+        ],
+        "process_md": "**Step 1:** Take a print of the [proforma](https://www.goa.gov.in/wp-content/uploads/2018/05/Schemes.pdf) of the application form. Fill in all the mandatory fields, and attach copies of all the mandatory documents (self-attest if required).\n**Step 2:** Submit the duly filled and signed application form along with the documents to SPC via Email at spc-dit.goa@gov.in\n**NOTE:** The applicant can apply for this scheme at any time of the financial year but only within 6 months of incurring the relevant expenditure.\n<br>\n\n> **Evaluation Process**\n\n**Step 1:** Applications will undergo evaluation by the SPC and a panel of evaluators.\n**Step 2:** Shortlisted applicants will be invited for an interview and presentation. Applicants should be available for interviews on the communicated date by the SPC.\n**Step 3:** Based on the evaluation, the SPC will select one educator in each focus area who will be granted the fellowship.\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "The applicant should be a technology educator in a technical educational institute in Goa.\n",
+      "eligibilityDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The applicant should be a technology educator in a technical educational institute in Goa."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "tfapps"
+}

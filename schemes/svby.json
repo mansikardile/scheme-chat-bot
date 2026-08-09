@@ -1,0 +1,663 @@
+{
+  "_id": "64350f1bca99235bd0ee01a9",
+  "en": {
+    "basicDetails": {
+      "schemeOpenDate": null,
+      "schemeCloseDate": null,
+      "state": {
+        "value": 24,
+        "label": "Gujarat"
+      },
+      "nodalMinistryName": null,
+      "nodalDepartmentName": {
+        "value": 2444446,
+        "label": "Finance Department"
+      },
+      "otherMinistryName": null,
+      "otherDepartmentNames": null,
+      "targetBeneficiaries": null,
+      "schemeSubCategory": [
+        {
+          "value": "Banking and money",
+          "label": "Banking and money"
+        }
+      ],
+      "dbtScheme": null,
+      "implementingAgency": null,
+      "tags": [
+        "Vajpayee",
+        "Bankable"
+      ],
+      "schemeName": "Shri Vajpayee Bankable Yojana",
+      "schemeShortTitle": "SVBY",
+      "level": {
+        "value": "state",
+        "label": "State"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce7f6d6d1a3bde46852d0",
+          "label": "Banking,Financial Services and Insurance"
+        }
+      ],
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "http://www.cottage.gujarat.gov.in/Home-5E25726C3B65-214079-282472242566-5E2572"
+        }
+      ],
+      "schemeImageUrl": "",
+      "briefDescription": "A scheme for providing financial assistance to the craftsmen of Cottage Industries through Nationalised Banks, Cooperative banks, Public sector Banks or Private Banks.",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Details",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "This scheme aims to supply self-employment to unemployed persons in urban and rural areas. Disabled and blind persons are also eligible to take benefits under this scheme"
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 3,
+        "value": "composite",
+        "label": "Composite"
+      },
+      "benefits": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Benefits",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": " Maximum Limit for Bank Loan "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "    ₹.8.00 lakh for the Industries sector."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "    ₹.8.00 lakh for the Service sector."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "    ₹.8.00 lakh for the Business sector."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Rate of subsidy on the loan amount",
+                  "bold": true
+                },
+                {
+                  "text": ": Subsidy will be available as mentioned below for the Industries, Service & Business sectors."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "children": [
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Area"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "General Category"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Scheduled Castes/ Scheduled Tribes / Ex-serviceman/Women/ blind or handicapped having 40% or more disability"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Rural"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "25%"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "40%"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Urban"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "20%"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "30%"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Maximum Limit of Subsidy",
+                  "bold": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "children": [
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "S No. "
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Sector"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Limit of Subsidy Amount"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "1"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Industries"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Rs. 1,25,000/-"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "2"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Service"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Rs. 1,00,00/-"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "3"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Business"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "General Category:  Urban-  Rs. 60,000/-   Rural Rs. Rs. 75,000/-"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "4"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Business"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Reserve Category:  Urban/ Rural Rs. 80,000/-"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Note: The maximum limit of subsidy per beneficiary in any sector will be ₹.1,25,000/- for a blind or handicapped person"
+            }
+          ]
+        }
+      ],
+      "detailedDescription_md": "**Details**\nThis scheme aims to supply self-employment to unemployed persons in urban and rural areas. Disabled and blind persons are also eligible to take benefits under this scheme\n"
+    },
+    "applicationProcess": [
+      {
+        "mode": "Online",
+        "url": "https://blp.gujarat.gov.in/header_home.php",
+        "process": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Application Process ",
+                "bold": true
+              }
+            ]
+          },
+          {
+            "type": "ol_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Visit the official website https://blp.gujarat.gov.in/header_home.php or "
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://blp.gujarat.gov.in/header_home.php",
+                    "children": [
+                      {
+                        "text": "click here"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Do the registration process with the mobile OTP authentication process."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Provide the details in Citizen Register by entering name, email, password and captcha code, the login process has to be completed by clicking on Register"
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Provide applicant details (Aadhar Number, Address, Enter all details based on other documents)."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Other information related to Project Details & Business Details, Finance Required / Project Cost and Detail Of Experience /Training will also have to be filled and click on Save & Next."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Upload the necessary documents."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "mode": "Offline",
+        "url": "https://cottage.gujarat.gov.in/FileExplorer/VBY.pdf",
+        "process": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Application Process",
+                "bold": true
+              }
+            ]
+          },
+          {
+            "type": "ol_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Applicants need to download the application form. "
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "To download the form "
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://cottage.gujarat.gov.in/FileExplorer/VBY.pdf",
+                    "children": [
+                      {
+                        "text": "click here"
+                      }
+                    ]
+                  },
+                  {
+                    "text": ". "
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Fill out the application form."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Enclose the required documents."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "And contact the nearest District Industries Center."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "To check the nearest District Industries Center "
+                  },
+                  {
+                    "type": "link",
+                    "link": "http://www.cottage.gujarat.gov.in/Home-2140795B5D2D-282472282472-5E257221713D",
+                    "children": [
+                      {
+                        "text": "click here."
+                      }
+                    ]
+                  },
+                  {
+                    "text": ""
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "**Eligibility** \n\n   1. Age: 18 to 65 years.\n   1. Qualification: The applicant should have passed the minimum standard fourth OR, Training/ Experience: Should have undergone training for a minimum of three months from the private establishment or a minimum of one month from Government recognized Institutes, in the area of the proposed business or should have experience of minimum 1 year in the same activity or should be a hereditary craftsperson.\n   1. No Income criteria\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "Eligibility ",
+                  "bold": true
+                }
+              ]
+            },
+            {
+              "type": "ol_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Age: 18 to 65 years."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Qualification: The applicant should have passed the minimum standard fourth OR, Training/ Experience: Should have undergone training for a minimum of three months from the private establishment or a minimum of one month from Government recognized Institutes, in the area of the proposed business or should have experience of minimum 1 year in the same activity or should be a hereditary craftsperson."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "No Income criteria"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "svby"
+}

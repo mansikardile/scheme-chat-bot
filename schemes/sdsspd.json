@@ -1,0 +1,643 @@
+{
+  "_id": "65d459a3ed4030e118e08f19",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Disability",
+        "Scholarship",
+        "PwD",
+        "Student"
+      ],
+      "schemeName": "State Disability Scholarship (Scholarship for Persons with Disabilities)",
+      "schemeShortTitle": "SDS(SPD)",
+      "implementingAgency": "Department Of Social Welfare, Government Of Nagaland",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce76cd6d1a3bde4685292",
+          "label": "Education & Learning"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Scholarships and student finance",
+          "label": "Scholarships and student finance"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "schemeFor": "Individual",
+      "state": {
+        "value": 13,
+        "label": "Nagaland"
+      },
+      "nodalDepartmentName": {
+        "value": 13000022,
+        "label": "Social Welfare Department, Nagaland"
+      }
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://scholarship.nagaland.gov.in/storage/Guidelines//4_Guidelines"
+        },
+        {
+          "title": "Official Website",
+          "url": "https://nlsic.nagaland.gov.in/index.php/2020/02/28/social-welfare/"
+        },
+        {
+          "title": "Common Scholarship Portal",
+          "url": "https://scholarship.nagaland.gov.in/"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The scheme “State Disability Scholarship” was launched by the Department of Social Welfare, Government of Nagaland to provide financial assistance to students from Class I to Class VIII who have a disability of 40% and above.\n",
+      "benefits_md": "\n  - The physically disabled students from Class I to Class VIII are provided with scholarships ranging from ₹200/-. \n\n**Note:** The amount of scholarships may vary as per guidelines of the Government of Nagaland.\n",
+      "briefDescription": "The scheme “State Disability Scholarship” was launched by the Department of Social Welfare, Government of Nagaland to provide financial assistance to students from Class I to Class VIII who have a disability of 40% and above.",
+      "exclusions_md": "<br>\n\n",
+      "detailedDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "The scheme “State Disability Scholarship” was launched by the Department of Social Welfare, Government of Nagaland to provide financial assistance to students from Class I to Class VIII who have a disability of 40% and above."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "ul_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The physically disabled students from Class I to Class VIII are provided with scholarships ranging from ₹200/-. "
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "Note: ",
+                  "bold": true
+                },
+                {
+                  "text": "The amount of scholarships may vary as per guidelines of the Government of Nagaland."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "exclusions": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Online",
+        "process": [
+          {
+            "type": "align_justify",
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "All eligible students shall apply through the Common Scholarship Portal: "
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://scholarship.nagaland.gov.in/",
+                    "children": [
+                      {
+                        "text": "https://scholarship.nagaland.gov.in"
+                      }
+                    ]
+                  },
+                  {
+                    "text": ""
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 01: Registration",
+                    "bold": true,
+                    "underline": true
+                  }
+                ]
+              },
+              {
+                "type": "ul_list",
+                "children": [
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "text": "To register, visit the official Common Scholarship Portal of Nagaland: "
+                      },
+                      {
+                        "type": "link",
+                        "link": "https://scholarship.nagaland.gov.in/",
+                        "children": [
+                          {
+                            "text": "https://scholarship.nagaland.gov.in"
+                          }
+                        ]
+                      },
+                      {
+                        "text": " "
+                      }
+                    ]
+                  },
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "text": "Create an Account:",
+                        "bold": true
+                      },
+                      {
+                        "text": " If the applicant is a new user, click on the \"Register\" option. Provide your MOBILE Number linked with AADHAAR to get an OTP and verify the mobile. Once Mobile is verified, provide essential details such as your name, email address and create a unique password. Click on the \"Register\" button to proceed."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 02: Login",
+                    "bold": true,
+                    "underline": true
+                  }
+                ]
+              },
+              {
+                "type": "ul_list",
+                "children": [
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "text": "Login to Your Account",
+                        "bold": true
+                      },
+                      {
+                        "text": ": Once your mobile number is verified, log in to your scholarship account using the credentials the applicant created during registration."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 03: Fill in the User Profile",
+                    "bold": true,
+                    "underline": true
+                  }
+                ]
+              },
+              {
+                "type": "ul_list",
+                "children": [
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "text": "Personal Details:",
+                        "bold": true
+                      },
+                      {
+                        "text": " Update your personal information, including name, date of birth, gender, category, Bank Account Details, etc."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 04: Apply for Scholarship",
+                    "bold": true,
+                    "underline": true
+                  }
+                ]
+              },
+              {
+                "type": "ul_list",
+                "children": [
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "text": "Select your Scholarship Scheme, Institution, Institution State, Institution, District and proceed. Academic Information: Provide details about your educational background, such as school/college name, course, year of study, etc."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 05: Upload Documents",
+                    "bold": true,
+                    "underline": true
+                  }
+                ]
+              },
+              {
+                "type": "ul_list",
+                "children": [
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "text": "Upload Required Documents:",
+                        "bold": true
+                      },
+                      {
+                        "text": " Depending on the scholarship applicants are applying for, applicants will need to upload supporting documents. Commonly required documents include:"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 06: Verify and Submit",
+                    "bold": true,
+                    "underline": true
+                  }
+                ]
+              },
+              {
+                "type": "ul_list",
+                "children": [
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "text": "Review Your Application: ",
+                        "bold": true
+                      },
+                      {
+                        "text": "Carefully review all the information the applicants have entered and the documents applicant have uploaded. Make sure everything is accurate and complete."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "text": "Submit Application:",
+                        "bold": true
+                      },
+                      {
+                        "text": " Once applicants are satisfied with your application, click on the \"Submit\" button."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 07: Track Your Application",
+                    "bold": true,
+                    "underline": true
+                  }
+                ]
+              },
+              {
+                "type": "ul_list",
+                "children": [
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "text": "Application Tracking: After submitting your application, the applicants can track its status on the portal: "
+                      },
+                      {
+                        "type": "link",
+                        "link": "https://scholarship.nagaland.gov.in/",
+                        "children": [
+                          {
+                            "text": "https://scholarship.nagaland.gov.in/"
+                          }
+                        ]
+                      },
+                      {
+                        "text": ""
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "ul_list",
+                "children": [
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "text": "Log in to your account and check for updates on your application's status regularly."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Note 01:",
+                    "bold": true
+                  },
+                  {
+                    "text": " In case errors are found after submission, please delete the application and Re-Submit."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Note 02:",
+                    "bold": true
+                  },
+                  {
+                    "text": " If the applicants have received a Scholarship in the previous year, kindly select ‘YES’ and provide the previous year's Application ID while filing profile."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Note 03:",
+                    "bold": true
+                  },
+                  {
+                    "text": " In case of any issues kindly email the helpdesk with details of Registered Mobile Number, previous years Application ID (if applicable), Applicant query, and or any Screenshot/Error Message. Kindly allow us 24 hrs (working days) to check and respond to applicant emails."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Note 04:",
+                    "bold": true
+                  },
+                  {
+                    "text": " The Bank Account must be that of the applicant. The application form will be rejected if the Bank Account is not of the applicant. In case of a minor, a joint account should be opened and in all such joint accounts, the applicant’s name should appear first in the passbook."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Note 05:",
+                    "bold": true
+                  },
+                  {
+                    "text": " The Department will not be responsible for non-receipt of scholarship amount due to wrong/inactive bank account details provided by the applicant."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Note 06:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Applicant is warned that if he/she gives false statements/declarations/documents etc. or otherwise obtained a scholarship through fraudulent means, he/she will be blacklisted and debarred from getting a scholarship under this scheme or any other scholarship schemes for the entire period of his/her studies. The scholarship amount if already paid will also be recovered."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Note 07:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Incomplete/wrong entries in the e-form or incomplete enclosure of necessary documents will be subjected to rejection. Correction/rectification after online submission will not be entertained."
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "process_md": "All eligible students shall apply through the Common Scholarship Portal: [https://scholarship.nagaland.gov.in](https://scholarship.nagaland.gov.in/)\n**Step 01: Registration**\n\n  - To register, visit the official Common Scholarship Portal of Nagaland: [https://scholarship.nagaland.gov.in](https://scholarship.nagaland.gov.in/)   - **Create an Account:** If the applicant is a new user, click on the &amp;quot;Register&amp;quot; option. Provide your MOBILE Number linked with AADHAAR to get an OTP and verify the mobile. Once Mobile is verified, provide essential details such as your name, email address and create a unique password. Click on the &amp;quot;Register&amp;quot; button to proceed.\n**Step 02: Login**\n\n  - **Login to Your Account**: Once your mobile number is verified, log in to your scholarship account using the credentials the applicant created during registration.\n**Step 03: Fill in the User Profile**\n\n  - **Personal Details:** Update your personal information, including name, date of birth, gender, category, Bank Account Details, etc.\n**Step 04: Apply for Scholarship**\n\n  - Select your Scholarship Scheme, Institution, Institution State, Institution, District and proceed. Academic Information: Provide details about your educational background, such as school/college name, course, year of study, etc.\n\n**Step 05: Upload Documents**\n\n  - **Upload Required Documents:** Depending on the scholarship applicants are applying for, applicants will need to upload supporting documents. Commonly required documents include:\n**Step 06: Verify and Submit**\n\n  - **Review Your Application:** Carefully review all the information the applicants have entered and the documents applicant have uploaded. Make sure everything is accurate and complete.  - **Submit Application:** Once applicants are satisfied with your application, click on the &amp;quot;Submit&amp;quot; button.\n**Step 07: Track Your Application**\n\n  - Application Tracking: After submitting your application, the applicants can track its status on the portal: [https://scholarship.nagaland.gov.in/](https://scholarship.nagaland.gov.in/)\n\n  - Log in to your account and check for updates on your application&amp;#39;s status regularly.\n\n**Note 01:** In case errors are found after submission, please delete the application and Re-Submit.\n**Note 02:** If the applicants have received a Scholarship in the previous year, kindly select ‘YES’ and provide the previous year&amp;#39;s Application ID while filing profile.\n**Note 03:** In case of any issues kindly email the helpdesk with details of Registered Mobile Number, previous years Application ID (if applicable), Applicant query, and or any Screenshot/Error Message. Kindly allow us 24 hrs (working days) to check and respond to applicant emails.\n**Note 04:** The Bank Account must be that of the applicant. The application form will be rejected if the Bank Account is not of the applicant. In case of a minor, a joint account should be opened and in all such joint accounts, the applicant’s name should appear first in the passbook.\n**Note 05:** The Department will not be responsible for non-receipt of scholarship amount due to wrong/inactive bank account details provided by the applicant.\n**Note 06:** Applicant is warned that if he/she gives false statements/declarations/documents etc. or otherwise obtained a scholarship through fraudulent means, he/she will be blacklisted and debarred from getting a scholarship under this scheme or any other scholarship schemes for the entire period of his/her studies. The scholarship amount if already paid will also be recovered.\n**Note 07:** Incomplete/wrong entries in the e-form or incomplete enclosure of necessary documents will be subjected to rejection. Correction/rectification after online submission will not be entertained.\n"
+      },
+      {
+        "mode": "Online - via CSC",
+        "process": [
+          {
+            "type": "align_justify",
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "If the applicant prefers not to apply online, he/she can visit the nearest Common Service Center (CSC). The staff at CSCs will assist in the application process, ensuring a smooth experience."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 01:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Locate the nearest CSC by contacting the Helpline Number."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 02:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Visit the CSC in person and inform the staff about the service the applicant wants to apply for."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 03:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Provide the necessary documents and information to the CSC staff."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 04: ",
+                    "bold": true
+                  },
+                  {
+                    "text": "The CSC staff will guide the applicant through the application process, help the applicant fill out the forms, and submit the application on behalf of the applicant. "
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "process_md": "If the applicant prefers not to apply online, he/she can visit the nearest Common Service Center (CSC). The staff at CSCs will assist in the application process, ensuring a smooth experience.\n**Step 01:** Locate the nearest CSC by contacting the Helpline Number.\n**Step 02:** Visit the CSC in person and inform the staff about the service the applicant wants to apply for.\n**Step 03:** Provide the necessary documents and information to the CSC staff.\n**Step 04:** The CSC staff will guide the applicant through the application process, help the applicant fill out the forms, and submit the application on behalf of the applicant. \n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "A student should fulfill the following criteria to be eligible for this Scholarship:\n\n   1. Scholarship for Persons with Disability will be applicable for all the inhabitants of Nagaland.\n   1. The applicant should be from an Institution which has a valid AISHE/UDISE Code.\n   1. The annual income of the applicant’s parents/guardians from all sources must not exceed ₹2.50 lakhs.\n   1. Disabled Students should have the benchmark disability (40% and above) to be admissible under this scheme.\n   1. Scholarship for Persons with Disabilities will be applicable from Class I to Class VIII.\n   1. Students who have failed in their last examination (repeaters) are not eligible to apply.\n   1. Applicants must not be a beneficiary of any other scholarship scheme.\n   1. Scholarship will be provided to all types of disabilities as defined in the Rights of Persons with Disabilities Rules 2017.\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "A student should fulfill the following criteria to be eligible for this Scholarship:"
+                }
+              ]
+            },
+            {
+              "type": "ol_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Scholarship for Persons with Disability will be applicable for all the inhabitants of Nagaland."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant should be from an Institution which has a valid AISHE/UDISE Code."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The annual income of the applicant’s parents/guardians from all sources must not exceed ₹2.50 lakhs."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Disabled Students should have the benchmark disability (40% and above) to be admissible under this scheme."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Scholarship for Persons with Disabilities will be applicable from Class I to Class VIII."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Students who have failed in their last examination (repeaters) are not eligible to apply."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Applicants must not be a beneficiary of any other scholarship scheme."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Scholarship will be provided to all types of disabilities as defined in the Rights of Persons with Disabilities Rules 2017."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "sdsspd"
+}

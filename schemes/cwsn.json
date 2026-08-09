@@ -1,0 +1,143 @@
+{
+  "_id": "667d8575ffe2e26487db0a71",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Goa",
+        "Disability",
+        "Medical",
+        "Children",
+        "Education"
+      ],
+      "schemeName": "Children With Special Needs Under Goa Sarva Shiksha Abhivan",
+      "schemeShortTitle": "CWSN",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce76cd6d1a3bde4685292",
+          "label": "Education & Learning"
+        },
+        {
+          "value": "628ce7a2d6d1a3bde46852b1",
+          "label": "Health & Wellness"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Education and training grants, fellowship, stipend",
+          "label": "Education and training grants, fellowship, stipend"
+        },
+        {
+          "value": "Disease and conditions",
+          "label": "Disease and conditions"
+        },
+        {
+          "value": "Aids/Appliances",
+          "label": "Aids/Appliances"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "state": {
+        "value": 30,
+        "label": "Goa"
+      },
+      "nodalDepartmentName": {
+        "value": 30000013,
+        "label": "Education Department"
+      },
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guideline",
+          "url": "https://education.goa.gov.in/sites/default/files/2020-11/schemes-gssa.pdf"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The scheme &quot;Children With Special Needs (CWSN)&quot; by the Directorate of Education, Government of Goa aims to provide comprehensive educational support and resources tailored to the needs of differently-abled children. It is designed to ensure that every child, regardless of their disability type (intellectual, physical, etc.), receives the necessary assistance to facilitate their education and overall development. This includes provisions for medical assessments, the establishment of resource rooms, home-based education, the provision of teaching-learning materials (TLM), and specialized training for educators and volunteers.\n",
+      "benefits_md": "Grant is released for activities for CWSN, medical assessments, resource rooms, home-based education, TLM, training of educators, volunteer educators, assistive aids, and corrective surgeries.\n",
+      "briefDescription": "The \"Children With Special Needs (CWSN)\" scheme aims to provide comprehensive educational support and resources tailored to the needs of children with disabilities. It is designed to ensure that every child, regardless of their disability type (intellectual, physical, etc.), receives the necessary a",
+      "exclusions_md": "",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The scheme \"Children With Special Needs (CWSN)\" by the Directorate of Education, Government of Goa aims to provide comprehensive educational support and resources tailored to the needs of differently-abled children. It is designed to ensure that every child, regardless of their disability type (intellectual, physical, etc.), receives the necessary assistance to facilitate their education and overall development. This includes provisions for medical assessments, the establishment of resource rooms, home-based education, the provision of teaching-learning materials (TLM), and specialized training for educators and volunteers."
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Grant is released for activities for CWSN, medical assessments, resource rooms, home-based education, TLM, training of educators, volunteer educators, assistive aids, and corrective surgeries."
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "process": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "The applicant (parent, heads of school, and others) is required to submit a plain application detailing the specific individual needs of the child with disabilities along with any available medical certificates."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "NOTE:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " The applicants can contact the designated educational authorities or visit official government websites providing details about the CWSN scheme."
+              }
+            ]
+          }
+        ],
+        "process_md": "The applicant (parent, heads of school, and others) is required to submit a plain application detailing the specific individual needs of the child with disabilities along with any available medical certificates.\n**NOTE:** The applicants can contact the designated educational authorities or visit official government websites providing details about the CWSN scheme.\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "The child must either be differently-abled or require special needs.\n",
+      "eligibilityDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The child must either be differently-abled or require special needs."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "cwsn"
+}

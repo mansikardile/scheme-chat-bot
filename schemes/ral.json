@@ -1,0 +1,200 @@
+{
+  "_id": "645b323c76bec230878ae4c4",
+  "en": {
+    "basicDetails": {
+      "schemeOpenDate": null,
+      "schemeCloseDate": null,
+      "state": {
+        "value": 2,
+        "label": "Himachal Pradesh"
+      },
+      "nodalMinistryName": null,
+      "nodalDepartmentName": {
+        "value": 21111158,
+        "label": "Department of Social Justice and Empowerment"
+      },
+      "otherMinistryName": null,
+      "otherDepartmentNames": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "schemeSubCategory": null,
+      "dbtScheme": null,
+      "implementingAgency": null,
+      "tags": [
+        "Rehabilitation Allowance",
+        "Lepers",
+        "Monthly Allowance",
+        "DBT",
+        "Himachal Pradesh"
+      ],
+      "schemeName": "Rehabilitation Allowance To Lepers",
+      "schemeShortTitle": "RAL",
+      "level": {
+        "value": "state",
+        "label": "State"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce7a2d6d1a3bde46852b1",
+          "label": "Health & Wellness"
+        }
+      ],
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Govt Portal",
+          "url": "https://hpshimla.nic.in/dwo-shimla/"
+        },
+        {
+          "title": "Guidelines",
+          "url": "http://himachalpr.gov.in/PressReleaseByYear.aspx?Language=1&ID=12335&Type=2&Date=10/06/2018"
+        }
+      ],
+      "schemeImageUrl": "",
+      "briefDescription": "The Himachal Pradesh Rehabilitation Allowance to Lepers is a social welfare scheme initiated by the Government of Himachal Pradesh in India to provide financial assistance to people affected by leprosy.",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The rehabilitation Allowance to Lepers scheme is a welfare scheme launched by the government of Himachal Pradesh for the benefit of leprosy patients. The scheme provides a monthly allowance of Rs. 750 to people affected by leprosy who are residing in the state of Himachal Pradesh. The scheme aims to provide financial assistance to leprosy patients who are living in various leprosy colonies across the state. The primary objective of the scheme is to improve the living conditions of leprosy patients and to ensure that they receive adequate medical care and attention."
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "1.\tFinancial assistance of Rs. 750 per month is provided to each leprosy patient."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "2.\tFree medical treatment and medicines are provided to the beneficiaries."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "3.\tThe scheme also provides assistance for the education of the children of leprosy patients."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "4.\tCounseling and rehabilitation services are provided to leprosy patients."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ],
+      "detailedDescription_md": "The rehabilitation Allowance to Lepers scheme is a welfare scheme launched by the government of Himachal Pradesh for the benefit of leprosy patients. The scheme provides a monthly allowance of Rs. 750 to people affected by leprosy who are residing in the state of Himachal Pradesh. The scheme aims to provide financial assistance to leprosy patients who are living in various leprosy colonies across the state. The primary objective of the scheme is to improve the living conditions of leprosy patients and to ensure that they receive adequate medical care and attention.\n"
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "url": "",
+        "process": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "1.\tThe application form for the scheme can be obtained from the nearest Leprosy Control Unit or the District Social Welfare Office."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "2.\tThe duly filled application form along with the required documents should be submitted to the concerned authorities."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "3.\tAfter the verification of the documents, the applicant will be enrolled in the scheme and will receive financial assistance."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "1.\tThe applicant should be a leprosy patient living in a leprosy colony.\n2.\tThe applicant should be a permanent resident of Himachal Pradesh.\n3.\tThe applicant should not be a recipient of any other government scheme or pension.\n<br>\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "1.\tThe applicant should be a leprosy patient living in a leprosy colony."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "2.\tThe applicant should be a permanent resident of Himachal Pradesh."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "3.\tThe applicant should not be a recipient of any other government scheme or pension."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "ral"
+}

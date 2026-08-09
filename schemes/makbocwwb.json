@@ -1,0 +1,620 @@
+{
+  "_id": "66d1650f9c9ff8daef6c6d66",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Labour",
+        "Building Worker",
+        "Construction Worker",
+        "Marriage",
+        "Weeding"
+      ],
+      "schemeName": "Marriage Assistance (K.B.O.C.W.W.B)",
+      "schemeShortTitle": "MAKBOCWWB",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "64f57d10ffb93104c7006c97",
+          "label": "Women and Child"
+        },
+        {
+          "value": "628ce87cd6d1a3bde4685312",
+          "label": "Social welfare & Empowerment"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Marriage",
+          "label": "Marriage"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "state": {
+        "value": 29,
+        "label": "Karnataka"
+      },
+      "nodalDepartmentName": {
+        "value": 3000006,
+        "label": "Labour Department"
+      },
+      "schemeFor": "Family"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://kbocwwb.karnataka.gov.in/marriage"
+        },
+        {
+          "title": "Guidelines (For Registration)",
+          "url": "https://karbwwb.karnataka.gov.in/42/schemes/en"
+        },
+        {
+          "title": "User Manual",
+          "url": "https://kbocwwb.karnataka.gov.in/static/media/user_manual_eng.c0bc6338.pdf"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The &amp;quot;Maternity Benefit/Delivery Assistance&amp;#39;&amp;#39; by the BOCW Welfare Board, Department of Labour, Karnataka, is a welfare scheme for the registered workers of the board. Under this Scheme, financial support shall be provided to registered construction workers who have one (1) year of membership with the Board before the marriage, to cover expenses for either their own marriage or their two (2) dependent children&amp;#39;s marriages.\n&lt;br&gt;\n\n",
+      "benefits_md": "\n  - **Financial Assistance:** ₹60,000/- for the worker&amp;#39;s own marriage or their two (2) dependent children&amp;#39;s marriages.\n&gt; **Note:** The family of a registered construction worker can avail this assistance only twice, However, there shall be only one claim in respect of a given marriage irrespective of the number of registered construction workers in the family.\n\n&lt;br&gt;\n\n",
+      "exclusions_md": "<br>\n\n",
+      "briefDescription": "The \"Marriage Assistance'' by the BOCW Welfare Board, Department of Labour, Karnataka, is a welfare scheme that provides financial support to registered construction workers for the marriage expenses of their own or their two (2) dependent children's marriages.\n\n",
+      "detailedDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "The \"Maternity Benefit/Delivery Assistance'' by the BOCW Welfare Board, Department of Labour, Karnataka, is a welfare scheme for the registered workers of the board. Under this Scheme, financial support shall be provided to registered construction workers who have one (1) year of membership with the Board before the marriage, to cover expenses for either their own marriage or their two (2) dependent children's marriages."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": ""
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "ul_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Financial Assistance:",
+                      "bold": true
+                    },
+                    {
+                      "text": " ₹60,000/- for the worker's own marriage or their two (2) dependent children's marriages."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "block_quote",
+              "children": [
+                {
+                  "text": "Note: ",
+                  "bold": true
+                },
+                {
+                  "text": "The family of a registered construction worker can avail this assistance only twice, However, there shall be only one claim in respect of a given marriage irrespective of the number of registered construction workers in the family."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": ""
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "exclusions": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Online",
+        "process": [
+          {
+            "type": "align_justify",
+            "children": [
+              {
+                "type": "block_quote",
+                "children": [
+                  {
+                    "text": "Registration Process as a Building/ Construction Worker:",
+                    "bold": true,
+                    "italic": true,
+                    "underline": true
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 1: ",
+                    "bold": true
+                  },
+                  {
+                    "text": "Visit the official "
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://kbocwwb.karnataka.gov.in/login",
+                    "children": [
+                      {
+                        "text": "Website "
+                      }
+                    ]
+                  },
+                  {
+                    "text": "of Karnataka Building & Other Construction Workers Welfare Board (KBOCWWB) and click on “Register”."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 2: ",
+                    "bold": true
+                  },
+                  {
+                    "text": "Select “Register as New Construction Worker” then enter your mobile number as per the Aadhaar Registered and verify with the received OTP."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 3: ",
+                    "bold": true
+                  },
+                  {
+                    "text": "From the dashboard, click on “Registration”."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 4:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Fill in all the mandatory details and upload the required documents. Click on “Final Submit” to complete the registration process."
+                  }
+                ]
+              },
+              {
+                "type": "block_quote",
+                "children": [
+                  {
+                    "text": "Application Process of the Welfare Scheme:",
+                    "bold": true,
+                    "underline": true
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 1: ",
+                    "bold": true
+                  },
+                  {
+                    "text": "Visit the official "
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://kbocwwb.karnataka.gov.in/login",
+                    "children": [
+                      {
+                        "text": "Website "
+                      }
+                    ]
+                  },
+                  {
+                    "text": "of Karnataka Building & Other Construction Workers Welfare Board (KBOCWWB) and click on “Login”."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 2: ",
+                    "italic": true,
+                    "bold": true
+                  },
+                  {
+                    "text": "Enter your registered mobile number and the received OTP."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 3: ",
+                    "bold": true
+                  },
+                  {
+                    "text": "From the dashboard, click on “Schemes” (After the user Registration is approved, the user can access the schemes page)."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 4: ",
+                    "bold": true
+                  },
+                  {
+                    "text": "Select the concerned scheme. Fill in all the mandatory details and upload the required documents."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 5: ",
+                    "bold": true
+                  },
+                  {
+                    "text": " Review the details and check the declaration box. Now click on “Submit” to complete the application process."
+                  }
+                ]
+              },
+              {
+                "type": "block_quote",
+                "children": [
+                  {
+                    "text": "Renewal Process:",
+                    "bold": true,
+                    "underline": true
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 1: ",
+                    "bold": true
+                  },
+                  {
+                    "text": "Visit the official "
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://kbocwwb.karnataka.gov.in/login",
+                    "children": [
+                      {
+                        "text": "Website "
+                      }
+                    ]
+                  },
+                  {
+                    "text": "of Karnataka Building & Other Construction Workers Welfare Board (KBOCWWB) and click on “Login”."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 2: Enter your registered mobile number and the received OTP."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 3: ",
+                    "bold": true
+                  },
+                  {
+                    "text": "From the dashboard, click on “Renewal”. Fill in mandatory details and upload the required documents."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 4: ",
+                    "bold": true
+                  },
+                  {
+                    "text": "Review the details and click on “Submit” to complete the renewal process."
+                  }
+                ]
+              },
+              {
+                "type": "block_quote",
+                "children": [
+                  {
+                    "text": "Note:",
+                    "bold": true,
+                    "underline": true
+                  }
+                ]
+              },
+              {
+                "type": "ul_list",
+                "children": [
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "text": "Renewal: ",
+                        "bold": true
+                      },
+                      {
+                        "text": "Every construction worker must renew their registration with the Karnataka Building and Other Construction Workers Welfare Board every 3 years. If not renewed within this period, a 1-year grace period is granted. After that, the registration becomes invalid. "
+                      }
+                    ]
+                  },
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "text": "Timeline: ",
+                        "bold": true
+                      },
+                      {
+                        "text": "Application for this benefit should be submitted within 6 months of the marriage."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "block_quote",
+                "children": [
+                  {
+                    "text": "Helpdesk:",
+                    "bold": true,
+                    "underline": true
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Karnataka Building And Other Construction Workers Welfare Board,"
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Address: ",
+                    "bold": true
+                  },
+                  {
+                    "text": "Karmika Bhavan, Dairy Circle, Bannerghatta Road, Bangalore-29."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Office No: ",
+                    "bold": true
+                  },
+                  {
+                    "text": "080-29753078"
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "E-mail: ",
+                    "bold": true
+                  },
+                  {
+                    "text": "labour.commissioner42@gmail.com"
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": ""
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://karbwwb.karnataka.gov.in/7/district-office/en",
+                    "children": [
+                      {
+                        "text": "List of District Office."
+                      }
+                    ]
+                  },
+                  {
+                    "text": ""
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": ""
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://karmikaspandana.karnataka.gov.in/page/Contact+Us/Labour+Inspector/en",
+                    "children": [
+                      {
+                        "text": "List of Taluk Offices."
+                      }
+                    ]
+                  },
+                  {
+                    "text": ""
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "process_md": "&gt; ***Registration Process as a Building/ Construction Worker:***\n\n**Step 1:** Visit the official [Website ](https://kbocwwb.karnataka.gov.in/login)of Karnataka Building &amp;amp; Other Construction Workers Welfare Board (KBOCWWB) and click on “Register”.\n**Step 2:** Select “Register as New Construction Worker” then enter your mobile number as per the Aadhaar Registered and verify with the received OTP.\n**Step 3:** From the dashboard, click on “Registration”.\n**Step 4:** Fill in all the mandatory details and upload the required documents. Click on “Final Submit” to complete the registration process.\n&gt; **Application Process of the Welfare Scheme:**\n\n**Step 1:** Visit the official [Website ](https://kbocwwb.karnataka.gov.in/login)of Karnataka Building &amp;amp; Other Construction Workers Welfare Board (KBOCWWB) and click on “Login”.\n***Step 2:*** Enter your registered mobile number and the received OTP.\n**Step 3:** From the dashboard, click on “Schemes” (After the user Registration is approved, the user can access the schemes page).\n**Step 4:** Select the concerned scheme. Fill in all the mandatory details and upload the required documents.\n**Step 5:**  Review the details and check the declaration box. Now click on “Submit” to complete the application process.\n&gt; **Renewal Process:**\n\n**Step 1:** Visit the official [Website ](https://kbocwwb.karnataka.gov.in/login)of Karnataka Building &amp;amp; Other Construction Workers Welfare Board (KBOCWWB) and click on “Login”.\nStep 2: Enter your registered mobile number and the received OTP.\n**Step 3:** From the dashboard, click on “Renewal”. Fill in mandatory details and upload the required documents.\n**Step 4:** Review the details and click on “Submit” to complete the renewal process.\n&gt; **Note:**\n\n\n  - **Renewal:** Every construction worker must renew their registration with the Karnataka Building and Other Construction Workers Welfare Board every 3 years. If not renewed within this period, a 1-year grace period is granted. After that, the registration becomes invalid.   - **Timeline:** Application for this benefit should be submitted within 6 months of the marriage.\n&gt; **Helpdesk:**\n\nKarnataka Building And Other Construction Workers Welfare Board,\n**Address:** Karmika Bhavan, Dairy Circle, Bannerghatta Road, Bangalore-29.\n**Office No:** 080-29753078\n**E-mail:** labour.commissioner42@gmail.com\n[List of District Office.](https://karbwwb.karnataka.gov.in/7/district-office/en)\n[List of Taluk Offices.](https://karmikaspandana.karnataka.gov.in/page/Contact+Us/Labour+Inspector/en)\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "&gt; ***For Registration as a Building/ Construction Worker:***\n\n\n  - The applicant should be a Building/ Construction Worker (Unorganised Worker).\n  - The applicant should be a minimum of 18 years of age.\n  - The applicant should have engaged in building and construction work for at least 90 days in a given year.\n\n&gt; **For the Application of the Welfare Scheme:**\n\n\n  - The applicant should be a registered construction worker Under the Building and Other Construction Workers Welfare Board of Karnataka or a dependent child of the worker.\n  - The membership with the Board should be at least one (1) year before the marriage.\n  - The family can avail of this assistance only twice.\n  - The son or daughter must be of legal age for marriage.\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "block_quote",
+              "children": [
+                {
+                  "text": "For Registration as a Building/ Construction Worker:",
+                  "bold": true,
+                  "italic": true,
+                  "underline": true
+                }
+              ]
+            },
+            {
+              "type": "ul_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant should be a Building/ Construction Worker (Unorganised Worker)."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant should be a minimum of 18 years of age."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant should have engaged in building and construction work for at least 90 days in a given year."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "block_quote",
+              "children": [
+                {
+                  "text": "For the Application of the Welfare Scheme:",
+                  "bold": true
+                }
+              ]
+            },
+            {
+              "type": "ul_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant should be a registered construction worker Under the Building and Other Construction Workers Welfare Board of Karnataka or a dependent child of the worker."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The membership with the Board should be at least one (1) year before the marriage."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The family can avail of this assistance only twice."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The son or daughter must be of legal age for marriage."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "makbocwwb"
+}

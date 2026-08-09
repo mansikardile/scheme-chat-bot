@@ -1,0 +1,423 @@
+{
+  "_id": "648d6077481f59106a69f136",
+  "en": {
+    "basicDetails": {
+      "schemeOpenDate": "1984-02-06",
+      "schemeCloseDate": null,
+      "state": {
+        "value": 6,
+        "label": "Haryana"
+      },
+      "nodalMinistryName": null,
+      "nodalDepartmentName": {
+        "value": 666702,
+        "label": "Social Justice and Empowerment Department"
+      },
+      "otherMinistryName": null,
+      "otherDepartmentNames": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Financial assistance",
+          "label": "Financial assistance"
+        },
+        {
+          "value": "Citizen empowerment",
+          "label": "Citizen empowerment"
+        }
+      ],
+      "dbtScheme": null,
+      "implementingAgency": "Directorate Of Social Justice & Empowerment, Government Of Haryana",
+      "tags": [
+        "Destitute Children",
+        "Deprived",
+        "Financial Assistance",
+        "Social Welfare"
+      ],
+      "schemeName": "Financial Assistance To Destitute Children Scheme",
+      "schemeShortTitle": "FADCS",
+      "level": {
+        "value": "state",
+        "label": "State"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce87cd6d1a3bde4685312",
+          "label": "Social welfare & Empowerment"
+        }
+      ],
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Official Website",
+          "url": "https://socialjusticehry.gov.in/financial-assistance-to-destitute-children-schemes/"
+        },
+        {
+          "title": "Notification",
+          "url": "https://cdnbbsr.s3waas.gov.in/s392bbd31f8e0e43a7da8a6295b251725f/uploads/2021/07/2021072310.pdf"
+        },
+        {
+          "title": "Application Form",
+          "url": "https://cdnbbsr.s3waas.gov.in/s392bbd31f8e0e43a7da8a6295b251725f/uploads/2021/03/2021032581.pdf"
+        },
+        {
+          "title": "Guideline",
+          "url": "https://kms.saralharyana.nic.in/ViewDoc?Id=+L8mTRfqUaouXxGc2X9eKg%3d%3d"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The scheme “Financial Assistance to Destitute Children Scheme (FADCS)” was launched by the Department of Social Justice and Empowerment, Government of Haryana in the year 1984. This is a state scheme under which parents/guardians of children up to the age of 21 years who are deprived of parental support or care by reason of death, continued absence from the home of father for the last 2 years, or father/mother has been sentenced to imprisonment for a period not less than one year or physical or mental incapacity of a parent, are paid financial assistance subject to the maximum for two children of one family as per eligibility criteria laid down in the scheme.\n          Initially the rate of financial assistance of ₹200/- per month per child w.e.f. 01.03.2009. The rate of pension under this scheme is ₹500/- per month per child from January 2014, ₹700/- w.e.f. 01-11-2016, ₹ 900/- w.e.f. 01-11-2017, ₹1100/- w.e.f. 01-11-2018, ₹1350/- w.e.f. 01.01.2020, ₹1600/- w.e.f. 01.04.2021 and ₹1850/- (one child) w.e.f. 01.04.2023.\n",
+      "benefits_md": "**Rate of Allowance:** ₹1850/- per month per child subject to the maximum for two children of one family.\n",
+      "exclusions_md": "1.\tIn case the guardian or any parent of the child is employed by any Government or by any Local/Statutory Body or any organization substantially financed by any Government or Local/Statutory Body or who is drawing pension or family pension therefrom will not be eligible under the scheme.\n2.\t“Pension” wherever occurring in any Government notification concerning Social Security Benefit means and includes, income received or accrued from accumulated earnings, including schemes:-\n•\tProvident Funds, or\n•\tAnnuities from any source including Commercial Banks, Financial Institutions, or Insurance.\n",
+      "briefDescription": "The scheme “Financial Assistance to Destitute Children Scheme (FADCS)” was launched by the Department of Social Justice and Empowerment, Government of Haryana in the year 1984.",
+      "detailedDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "The scheme “Financial Assistance to Destitute Children Scheme (FADCS)” was launched by the Department of Social Justice and Empowerment, Government of Haryana in the year 1984. This is a state scheme under which parents/guardians of children up to the age of 21 years who are deprived of parental support or care by reason of death, continued absence from the home of father for the last 2 years, or father/mother has been sentenced to imprisonment for a period not less than one year or physical or mental incapacity of a parent, are paid financial assistance subject to the maximum for two children of one family as per eligibility criteria laid down in the scheme."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "          Initially the rate of financial assistance of ₹200/- per month per child w.e.f. 01.03.2009. The rate of pension under this scheme is ₹500/- per month per child from January 2014, ₹700/- w.e.f. 01-11-2016, ₹ 900/- w.e.f. 01-11-2017, ₹1100/- w.e.f. 01-11-2018, ₹1350/- w.e.f. 01.01.2020, ₹1600/- w.e.f. 01.04.2021 and ₹1850/- (one child) w.e.f. 01.04.2023."
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Rate of Allowance:",
+              "bold": true
+            },
+            {
+              "text": " ₹1850/- per month per child subject to the maximum for two children of one family."
+            }
+          ]
+        }
+      ],
+      "exclusions": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "1.\tIn case the guardian or any parent of the child is employed by any Government or by any Local/Statutory Body or any organization substantially financed by any Government or Local/Statutory Body or who is drawing pension or family pension therefrom will not be eligible under the scheme."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "2.\t“Pension” wherever occurring in any Government notification concerning Social Security Benefit means and includes, income received or accrued from accumulated earnings, including schemes:-"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "•\tProvident Funds, or"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "•\tAnnuities from any source including Commercial Banks, Financial Institutions, or Insurance."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "url": "",
+        "process": [
+          {
+            "type": "align_justify",
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 01:",
+                    "bold": true
+                  },
+                  {
+                    "text": " The applicant needs to visit the office of the Social Welfare Department (DSWO) in his/her Block/District and collect the application form. The "
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://cdnbbsr.s3waas.gov.in/s392bbd31f8e0e43a7da8a6295b251725f/uploads/2021/03/2021032581.pdf",
+                    "children": [
+                      {
+                        "text": "application form"
+                      }
+                    ]
+                  },
+                  {
+                    "text": " can also be downloaded from the "
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://socialjusticehry.gov.in/form/application-form-for-financial-assistance-to-destitute-children/",
+                    "children": [
+                      {
+                        "text": "official website"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 02:",
+                    "bold": true
+                  },
+                  {
+                    "text": " The applicant should fill out the application form and attach all the essential documents."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 03:",
+                    "bold": true
+                  },
+                  {
+                    "text": " After filling out the application form, the applicant needs to get attested to the form from the concerned authority mentioned in the application form."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 04:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Then the application form has to be submitted to the office of the Social Welfare Department (DSWO) of your Block/District."
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "process_md": "**Step 01:** The applicant needs to visit the office of the Social Welfare Department (DSWO) in his/her Block/District and collect the application form. The [application form](https://cdnbbsr.s3waas.gov.in/s392bbd31f8e0e43a7da8a6295b251725f/uploads/2021/03/2021032581.pdf) can also be downloaded from the [official website](https://socialjusticehry.gov.in/form/application-form-for-financial-assistance-to-destitute-children/).\n**Step 02:** The applicant should fill out the application form and attach all the essential documents.\n**Step 03:** After filling out the application form, the applicant needs to get attested to the form from the concerned authority mentioned in the application form.\n**Step 04:** Then the application form has to be submitted to the office of the Social Welfare Department (DSWO) of your Block/District.\n"
+      },
+      {
+        "mode": "Online",
+        "url": "https://saralharyana.gov.in",
+        "process": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 01:",
+                "bold": true
+              },
+              {
+                "text": " The applicant should visit the Official Portal -"
+              },
+              {
+                "type": "link",
+                "link": "https://saralharyana.gov.in/",
+                "children": [
+                  {
+                    "text": "Antyodaya-SARAL Portal"
+                  }
+                ]
+              },
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 02:",
+                "bold": true
+              },
+              {
+                "text": " Now if the applicant is already registered on the portal, then he/she can login on the portal using their credentials, and if not registered, then he/she may get registered on the portal by filling in their details."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 03: ",
+                "bold": true
+              },
+              {
+                "text": "Click on “Check Your Eligibility” and enters your details."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 04: ",
+                "bold": true
+              },
+              {
+                "text": "Now, select the department name i.e. Social Justice And Empowerment"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 05:",
+                "bold": true
+              },
+              {
+                "text": " Select the scheme name and click on “Apply for Service/Scheme”"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 06: ",
+                "bold": true
+              },
+              {
+                "text": "Fill out the complete form and submit the application form."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Note:",
+                "bold": true
+              },
+              {
+                "text": " The applicant may also apply through E-disha Center or Atal Seva Kendra."
+              }
+            ]
+          }
+        ],
+        "process_md": "**Step 01:** The applicant should visit the Official Portal -[Antyodaya-SARAL Portal](https://saralharyana.gov.in/)\n**Step 02:** Now if the applicant is already registered on the portal, then he/she can login on the portal using their credentials, and if not registered, then he/she may get registered on the portal by filling in their details.\n**Step 03:** Click on “Check Your Eligibility” and enters your details.\n**Step 04:** Now, select the department name i.e. Social Justice And Empowerment\n**Step 05:** Select the scheme name and click on “Apply for Service/Scheme”\n**Step 06:** Fill out the complete form and submit the application form.\n**Note:** The applicant may also apply through E-disha Center or Atal Seva Kendra.\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "1.\tDomicile of Haryana and residing in Haryana State.\n2.\tA child under twenty-one years of age.\n3.\tIncome of parents/guardians from all sources should not exceed ₹2, 00,000/- per annum.\n4.\tChildren have been deprived of parental support or care for the following reasons:\n•\tReason of Death or;\n•\tContinued absence from home of his father for the last 2 years, or;\n•\tFather/Mother has been sentenced to imprisonment for a period not less than one year, or;\n•\tPhysical/Mental incapacity of the Parent.\n",
+      "eligibilityDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "1.\tDomicile of Haryana and residing in Haryana State."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "2.\tA child under twenty-one years of age."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "3.\tIncome of parents/guardians from all sources should not exceed ₹2, 00,000/- per annum."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "4.\tChildren have been deprived of parental support or care for the following reasons:"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "•\tReason of Death or;"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "•\tContinued absence from home of his father for the last 2 years, or;"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "•\tFather/Mother has been sentenced to imprisonment for a period not less than one year, or;"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "•\tPhysical/Mental incapacity of the Parent."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "fadcs"
+}

@@ -1,0 +1,177 @@
+{
+  "_id": "65af857966a1d73a2182c618",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Clothes",
+        "BPL",
+        "Ration",
+        "Social Welfare",
+        "Anganwadi"
+      ],
+      "schemeName": "Free Supply of Sarees and Dhothies to the Poor People",
+      "schemeShortTitle": "FSSDPP",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce87cd6d1a3bde4685312",
+          "label": "Social welfare & Empowerment"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Financial assistance",
+          "label": "Financial assistance"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "state": {
+        "value": 34,
+        "label": "Puducherry"
+      },
+      "nodalDepartmentName": {
+        "value": 34000044,
+        "label": "Women and Child Development Department, Puducherry"
+      },
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://wcd.py.gov.in/free-supply-clothing-item-people"
+        },
+        {
+          "title": "Contact Us",
+          "url": "https://wcd.py.gov.in/contact-us"
+        },
+        {
+          "title": "Office Locations",
+          "url": "https://wcd.py.gov.in/office-locations"
+        },
+        {
+          "title": "Grievance Redressal",
+          "url": "https://wcd.py.gov.in/ta/central-public-grievance-redress-and-monitoring-system"
+        },
+        {
+          "title": "Track Your Application",
+          "url": "https://edistrict.py.gov.in/User/TrackApplication.aspx"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The scheme “Free Supply of Sarees and Dhothies to the Poor People” by the Department of Women &amp; Child Development, Government of Pondicherry, was introduced to provide two sets of clothing items to poor people (other than SC/Fisherman) once in a year as a measure of Social Security. The beneficiaries are identified based on the data from the Civil Supplies and Consumer Affairs Department in Puducherry, utilizing the cross-referencing functionality in UDH.\n",
+      "benefits_md": "Two Sarees, blouse pieces, lungis, and towels, are provided once in a year.\n<br>\n\n",
+      "exclusions_md": "Fisherman and people from the Scheduled Caste community are not eligible.\n",
+      "briefDescription": "The scheme was introduced to provide two sets of clothing items to poor people (other than SC/Fisherman) once in a year as a measure of Social Security. The beneficiaries are identified based on the data from the Civil Supplies and Consumer Affairs Department in Puducherry.",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The scheme “Free Supply of Sarees and Dhothies to the Poor People” by the Department of Women & Child Development, Government of Pondicherry, was introduced to provide two sets of clothing items to poor people (other than SC/Fisherman) once in a year as a measure of Social Security. The beneficiaries are identified based on the data from the Civil Supplies and Consumer Affairs Department in Puducherry, utilizing the cross-referencing functionality in UDH."
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 2,
+        "value": "in-kind",
+        "label": "In Kind"
+      },
+      "benefits": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Two Sarees, blouse pieces, lungis, and towels, are provided once in a year."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ],
+      "exclusions": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Fisherman and people from the Scheduled Caste community are not eligible."
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "process": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "No separate application is required. ",
+                "bold": true
+              },
+              {
+                "text": "As a part of the proactive governance and timely benefits delivery, the beneficiaries are identified based on the data from the Civil Supplies and Consumer Affairs Department in Puducherry, utilizing the cross-referencing functionality in UDH. The supply will be made to the holders of red ration cards who have registered with the area Anganwadi."
+              }
+            ]
+          }
+        ],
+        "process_md": "**No separate application is required.** As a part of the proactive governance and timely benefits delivery, the beneficiaries are identified based on the data from the Civil Supplies and Consumer Affairs Department in Puducherry, utilizing the cross-referencing functionality in UDH. The supply will be made to the holders of red ration cards who have registered with the area Anganwadi.\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n- The applicant should be a citizen of India.\n- The applicant should be a native of the Union Territory of Pondicherry by birth or continuous residence for not less than 5 years.\n- The applicant should belong to &#39;Below Poverty Line&#39; category.\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should be a citizen of India."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should be a native of the Union Territory of Pondicherry by birth or continuous residence for not less than 5 years."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should belong to 'Below Poverty Line' category."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "fssdpp"
+}

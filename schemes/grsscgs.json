@@ -1,0 +1,362 @@
+{
+  "_id": "655dc68d36f1561c3bd25b88",
+  "en": {
+    "basicDetails": {
+      "schemeOpenDate": null,
+      "schemeCloseDate": null,
+      "nodalMinistryName": null,
+      "nodalDepartmentName": {
+        "value": 34000002,
+        "label": "Adi Dravidar Welfare Department, Puducherry"
+      },
+      "otherMinistryName": null,
+      "otherDepartmentNames": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Scholarships and student finance",
+          "label": "Scholarships and student finance"
+        }
+      ],
+      "dbtScheme": false,
+      "implementingAgency": "Adi Dravidar Welfare Department, Union Territory Of Puducherry",
+      "tags": [
+        "Retention",
+        "Scholarship",
+        "Scheduled Caste",
+        "Girl",
+        "Student"
+      ],
+      "schemeName": "Grant Of Retention Scholarship to Scheduled Caste Girl Students",
+      "schemeShortTitle": "GRSSCGS",
+      "level": {
+        "value": "state",
+        "label": "State"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce76cd6d1a3bde4685292",
+          "label": "Education & Learning"
+        },
+        {
+          "value": "64f57d10ffb93104c7006c97",
+          "label": "Women and Child"
+        }
+      ],
+      "state": {
+        "value": 34,
+        "label": "Puducherry"
+      },
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://scholarships.gov.in/public/schemeGuidelines/Puducherry/Pudu_3019_G.pdf"
+        },
+        {
+          "title": "Official Website",
+          "url": "https://www.py.gov.in/grant-retention-scholarship-sc-girl-students"
+        },
+        {
+          "title": "Scheme Details",
+          "url": "https://www.py.gov.in/sites/default/files/adwgrant-retention-scholarship-s.c.girl-students.pdf"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The scheme “Grant of Retention Scholarship to Scheduled Caste Girl Students” was implemented by the Adi Dravidar Welfare Department, Government of Puducherry. Under the scheme, the scholarship is provided to the girl students who belong to the Scheduled Caste Community and studying in I Standard to V Standard in both Government and Government recognized private educational institutions in the Union Territory of Puducherry.\n&gt; **Objective:**\n\nThe objective of the scheme is to provide financial assistance to Scheduled Caste Girls Students to pursue their studies in Primary Education. Because of this assistance, the parents of those students may not lose any income that they would otherwise get by sending their girls to work.\n",
+      "benefits_md": "The scholarship shall be granted for 10 months in an academic year at the following rates: \n\n   1. Under this scheme, ₹1,000/- per year to girl students studying from I to V Standard i.e. (₹100/- per month per girl student for 10 months in an academic year).\n\n**Note 01:** The benefit of this scheme will be available only to bonafide students so long as they continue their studies satisfactorily in the recognized institutions of the Union Territory of Puducherry.\n**Note 02:** A student shall be deemed to be continuing her studies satisfactorily if she secures promotion to the next higher class annually.\n",
+      "exclusions_md": "<br>\n\n",
+      "briefDescription": "The objective of the scheme is to provide financial assistance to Scheduled Caste Girls Students to pursue their studies in Primary Education. Because of this assistance, the parents of those students may not lose any income that they would otherwise get by sending their girls to work.",
+      "detailedDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "The scheme “Grant of Retention Scholarship to Scheduled Caste Girl Students” was implemented by the Adi Dravidar Welfare Department, Government of Puducherry. Under the scheme, the scholarship is provided to the girl students who belong to the Scheduled Caste Community and studying in I Standard to V Standard in both Government and Government recognized private educational institutions in the Union Territory of Puducherry."
+                }
+              ]
+            },
+            {
+              "type": "block_quote",
+              "children": [
+                {
+                  "text": "Objective:",
+                  "bold": true
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "The objective of the scheme is to provide financial assistance to Scheduled Caste Girls Students to pursue their studies in Primary Education. Because of this assistance, the parents of those students may not lose any income that they would otherwise get by sending their girls to work."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "The scholarship shall be granted for 10 months in an academic year at the following rates: "
+                }
+              ]
+            },
+            {
+              "type": "ol_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Under this scheme, ₹1,000/- per year to girl students studying from I to V Standard i.e. (₹100/- per month per girl student for 10 months in an academic year)."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "Note 01:",
+                  "bold": true
+                },
+                {
+                  "text": " The benefit of this scheme will be available only to bonafide students so long as they continue their studies satisfactorily in the recognized institutions of the Union Territory of Puducherry."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "Note 02:",
+                  "bold": true
+                },
+                {
+                  "text": " A student shall be deemed to be continuing her studies satisfactorily if she secures promotion to the next higher class annually."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "exclusions": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Online",
+        "process": [
+          {
+            "type": "align_justify",
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 01:",
+                    "bold": true
+                  },
+                  {
+                    "text": " The students applying for the scholarship for the first time need to \"Register\" using the icon “New Registration” at the NSP Portal URL - "
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://scholarships.gov.in/",
+                    "children": [
+                      {
+                        "text": "https://scholarships.gov.in/"
+                      }
+                    ]
+                  },
+                  {
+                    "text": ", by providing accurate and correct information as per their documents."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 02",
+                    "bold": true
+                  },
+                  {
+                    "text": ": After successfully get registration done, students will get their “Student Registration ID”."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 03:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Through “Student Registration ID” students will be able to login into the account using the icon “Fresh Application” at NSP Portal."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 04: ",
+                    "bold": true
+                  },
+                  {
+                    "text": "After successful login to the portal, the welcome page appeared. On clicking the “Application Form” icon, students will be directed to the application screen."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 05:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Now, the students may fill out the complete application form and on clicking the “Final Submit” button, the application is finally submitted."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 06:",
+                    "bold": true
+                  },
+                  {
+                    "text": " On successful submission of the application, a system-generated registration number is sent to the students which can be used for future reference."
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "process_md": "**Step 01:** The students applying for the scholarship for the first time need to &amp;quot;Register&amp;quot; using the icon “New Registration” at the NSP Portal URL - [https://scholarships.gov.in/](https://scholarships.gov.in/), by providing accurate and correct information as per their documents.\n**Step 02**: After successfully get registration done, students will get their “Student Registration ID”.\n**Step 03:** Through “Student Registration ID” students will be able to login into the account using the icon “Fresh Application” at NSP Portal.\n**Step 04:** After successful login to the portal, the welcome page appeared. On clicking the “Application Form” icon, students will be directed to the application screen.\n**Step 05:** Now, the students may fill out the complete application form and on clicking the “Final Submit” button, the application is finally submitted.\n**Step 06:** On successful submission of the application, a system-generated registration number is sent to the students which can be used for future reference.\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n   1. All the Scheduled Caste Girls Students of the Union Territory of Puducherry are eligible for the scholarship.\n   1. The concession envisaged under the scheme will be granted to Scheduled Caste Girls Students who are native of the Union Territory of Puducherry or are residing in the Union Territory of Puducherry for a continuous period of not less than five years.\n   1. The concession will be granted to the Scheduled Caste Girls Students studying from I Standard to V Standard either in Government or private recognized educational institutions.\n   1. Annual income of the parent guardian shall not exceed ₹24000/-.\n\n&gt; **Other conditions for the scholarship:**\n\n\n   1. Students who are granted the scholarships will be allowed to retain them till they complete that primary education.\n   1. The scholarship will be cancelled for any misconduct on the part of the scholar.\n   1. If a candidate is found to have obtained a scholarship by false statement, her scholarship will be cancelled and the amount of scholarship paid will be recovered at the discretion of the Sanctioning Authority.\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "ol_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "All the Scheduled Caste Girls Students of the Union Territory of Puducherry are eligible for the scholarship."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The concession envisaged under the scheme will be granted to Scheduled Caste Girls Students who are native of the Union Territory of Puducherry or are residing in the Union Territory of Puducherry for a continuous period of not less than five years."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The concession will be granted to the Scheduled Caste Girls Students studying from I Standard to V Standard either in Government or private recognized educational institutions."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Annual income of the parent guardian shall not exceed ₹24000/-."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "block_quote",
+              "children": [
+                {
+                  "text": "Other conditions for the scholarship:",
+                  "bold": true
+                }
+              ]
+            },
+            {
+              "type": "ol_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Students who are granted the scholarships will be allowed to retain them till they complete that primary education."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The scholarship will be cancelled for any misconduct on the part of the scholar."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "If a candidate is found to have obtained a scholarship by false statement, her scholarship will be cancelled and the amount of scholarship paid will be recovered at the discretion of the Sanctioning Authority."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "grsscgs"
+}

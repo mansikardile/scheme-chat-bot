@@ -1,0 +1,271 @@
+{
+  "_id": "677cbb420f4e7642bac0f9b1",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Hostel",
+        "Housing",
+        "Scheduled Caste",
+        "Student"
+      ],
+      "schemeName": "Running of Scheduled Caste Hostel",
+      "schemeShortTitle": "ROSCH",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce7d2d6d1a3bde46852c2",
+          "label": "Housing & Shelter"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Hostel service",
+          "label": "Hostel service"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "state": {
+        "value": 23,
+        "label": "Madhya Pradesh"
+      },
+      "nodalDepartmentName": {
+        "value": 2300051,
+        "label": "Tribal Welfare and Scheduled Caste (SC) Department"
+      },
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://cmhelpline.mp.gov.in/KnowYourEntitleDetail.aspx?status=ByVibhag&pointvalue=2&Schemeid=611"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The &quot;Running of Scheduled Caste Hostels&quot; scheme by the Tribal Welfare and Scheduled Caste (SC) Department, Government of Madhya Pradesh, aims to provide housing and a conducive study environment for Scheduled Caste students. Separate junior, senior, and college hostels are operated for boys and girls, offering free accommodation and food facilities to support their education.\n",
+      "benefits_md": "\n- Scholarship, Free Food and Accommodation, Sports Equipment, Toiletry Kit, and Library Facilities.\n- 90% of the scholarship amount is paid in the joint account of the hostel superintendent and mess secretary (student) for running the mess.\n- 10% is paid in the student&#39;s account.\n\n",
+      "briefDescription": "The \"Running of Scheduled Caste Hostels\" scheme by the Tribal Welfare and Scheduled Caste (SC) Department, Government of Madhya Pradesh, aims to provide housing and a conducive study environment for Scheduled Caste students. Separate junior, senior, and college hostels are operated for boys & girls.",
+      "exclusions_md": "",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The \"Running of Scheduled Caste Hostels\" scheme by the Tribal Welfare and Scheduled Caste (SC) Department, Government of Madhya Pradesh, aims to provide housing and a conducive study environment for Scheduled Caste students. Separate junior, senior, and college hostels are operated for boys and girls, offering free accommodation and food facilities to support their education."
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 3,
+        "value": "composite",
+        "label": "Composite"
+      },
+      "benefits": [
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Scholarship, Free Food and Accommodation, Sports Equipment, Toiletry Kit, and Library Facilities."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "90% of the scholarship amount is paid in the joint account of the hostel superintendent and mess secretary (student) for running the mess."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "10% is paid in the student's account."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "process": [
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "text": "Application",
+                "bold": true,
+                "underline": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 1:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " Obtain the application form from the Divisional District Office or the Designated Hostel."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " Fill in all the mandatory fields and attach copies of all the mandatory documents (self-attest, if required)."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 3:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " Submit the completed application to the concerned hostel within the stipulated deadline fixed by the District President. Ensure the application is forwarded by the Head of the Institution before submission."
+              }
+            ]
+          },
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "text": "Verification and Approval",
+                "bold": true,
+                "underline": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 1:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " The concerned Divisional District Officer will verify the application and supporting documents."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 12:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " Upon approval, admission will be granted based on hostel capacity and compliance with prerequisites."
+              }
+            ]
+          },
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "text": "Timeline",
+                "bold": true,
+                "underline": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Applications must be submitted within one month after the date fixed for admission in schools."
+              }
+            ]
+          }
+        ],
+        "process_md": "> **Application**\n\n**Step 1:** Obtain the application form from the Divisional District Office or the Designated Hostel.\n**Step 2:** Fill in all the mandatory fields and attach copies of all the mandatory documents (self-attest, if required).\n**Step 3:** Submit the completed application to the concerned hostel within the stipulated deadline fixed by the District President. Ensure the application is forwarded by the Head of the Institution before submission.\n> **Verification and Approval**\n\n**Step 1:** The concerned Divisional District Officer will verify the application and supporting documents.\n**Step 12:** Upon approval, admission will be granted based on hostel capacity and compliance with prerequisites.\n> **Timeline**\n\nApplications must be submitted within one month after the date fixed for admission in schools.\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n1. The applicant should be a Student.\n1. The applicant should be from a Scheduled Caste.\n1. The applicant should be a native of Madhya Pradesh.\n1. The applicant should be enrolled in a recognized institution.\n\n_*The applicant should note that there is no income limit for admission to senior hostels._\n",
+      "eligibilityDescription": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should be a Student."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should be from a Scheduled Caste."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should be a native of Madhya Pradesh."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should be enrolled in a recognized institution."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "*The applicant should note that there is no income limit for admission to senior hostels.",
+              "italic": true
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "rosch"
+}

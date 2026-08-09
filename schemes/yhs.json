@@ -1,0 +1,261 @@
+{
+  "_id": "652f86ac4c46bfe12b21d76a",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": null,
+      "tags": [
+        "Shelter",
+        "Youth Hostel",
+        "Residence"
+      ],
+      "schemeName": "Youth Hostel Scheme",
+      "schemeShortTitle": "YHS",
+      "level": {
+        "value": "central",
+        "label": "Central"
+      },
+      "schemeType": {
+        "value": "centrally-sponsored-scheme",
+        "label": "Centrally Sponsored Scheme"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce7d2d6d1a3bde46852c2",
+          "label": "Housing & Shelter"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Hostel service",
+          "label": "Hostel service"
+        }
+      ],
+      "schemeOpenDate": "2010-04-21",
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "schemeFor": "Individual",
+      "nodalMinistryName": {
+        "value": 520,
+        "label": "Ministry Of Youth Affairs & Sports"
+      },
+      "nodalDepartmentName": {
+        "value": 1619,
+        "label": "Department of Youth Affairs"
+      }
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://yas.nic.in/sites/default/files/Youth%20Hostel%20Scheme_0.pdf"
+        },
+        {
+          "title": "Office Order",
+          "url": "https://yas.nic.in/sites/default/files/File845.PDF"
+        },
+        {
+          "title": "List Of Youth Hostel",
+          "url": "https://yas.gov.in/sites/default/files/YH%20details.pdf"
+        },
+        {
+          "title": "CPC Order Dated 09.10.2015",
+          "url": "https://yas.gov.in/sites/default/files/CPC%20Order.pdf"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The Youth Hostel Scheme is managed by the Department of Youth Affairs &amp; Sports under the Ministry of Youth Affairs &amp; Sports, Government of India. The Central Government provides financial assistance to the State Governments for the construction and maintenance of youth hostels. The State Governments are responsible for the day-to-day management of youth hostels.\n",
+      "benefits_md": "\n1. **Affordable accommodation:** Youth hostels offer a much cheaper alternative to hotels and guesthouses.1. **Social atmosphere:** Youth hostels are a great place to meet new people from all over the world.1. **Cultural experience:** Youth hostels are often located in places of cultural interest, giving you the opportunity to learn about the local culture and traditions.1. **Flexible options:** Youth hostels offer a variety of accommodation options, including dormitories, private rooms, and family rooms. You can also choose to book meals at the hostel or cook your own food.\n",
+      "exclusions_md": "<br>\n\n",
+      "briefDescription": "The Youth Hostel Scheme is a joint venture of the Central and State Governments of India. It was launched in the early 1960s to promote youth travel within the country by providing low-cost budget accommodation and facilities to students and youth groups traveling on excursions or study tours.",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The Youth Hostel Scheme is managed by the Department of Youth Affairs & Sports under the Ministry of Youth Affairs & Sports, Government of India. The Central Government provides financial assistance to the State Governments for the construction and maintenance of youth hostels. The State Governments are responsible for the day-to-day management of youth hostels."
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 2,
+        "value": "in-kind",
+        "label": "In Kind"
+      },
+      "benefits": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Affordable accommodation:",
+                  "bold": true
+                },
+                {
+                  "text": " Youth hostels offer a much cheaper alternative to hotels and guesthouses."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Social atmosphere:",
+                  "bold": true
+                },
+                {
+                  "text": " Youth hostels are a great place to meet new people from all over the world."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Cultural experience: ",
+                  "bold": true
+                },
+                {
+                  "text": "Youth hostels are often located in places of cultural interest, giving you the opportunity to learn about the local culture and traditions."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Flexible options: ",
+                  "bold": true
+                },
+                {
+                  "text": "Youth hostels offer a variety of accommodation options, including dormitories, private rooms, and family rooms. You can also choose to book meals at the hostel or cook your own food."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "exclusions": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Online",
+        "process": [
+          {
+            "type": "ol_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Applicant must visit the "
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://dbtyas-youth.gov.in/",
+                    "children": [
+                      {
+                        "text": "official website"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Click on \""
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://dbtyas-youth.gov.in/userlogin.php",
+                    "children": [
+                      {
+                        "text": "Apply Now"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "\" under the Youth Hostel scheme."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Select the user type and scheme name."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Now fill out the require details."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Upload the recent photograph. "
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Give the consent for the Aadhaar to use as biometric and KYC . "
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "process_md": "\n1. Applicant must visit the [official website](https://dbtyas-youth.gov.in/).1. Click on &quot;[Apply Now](https://dbtyas-youth.gov.in/userlogin.php)&quot; under the Youth Hostel scheme.1. Select the user type and scheme name.\n1. Now fill out the require details.\n1. Upload the recent photograph. \n1. Give the consent for the Aadhaar to use as biometric and KYC . \n\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n1. There is no age restriction but if applicant is below 18 then he/she  must be accompanied by a parent or guardian when staying in a youth hostel.\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "There is no age restriction but if applicant is below 18 then he/she  must be accompanied by a parent or guardian when staying in a youth hostel."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "yhs"
+}

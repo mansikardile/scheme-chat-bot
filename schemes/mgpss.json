@@ -1,0 +1,325 @@
+{
+  "_id": "6860fe396d07fe5ea1b6662b",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Yarn",
+        "Subsidy",
+        "Silk",
+        "Jute",
+        "Freight",
+        "Handloom"
+      ],
+      "schemeName": "Mill Gate Price Subsidy Scheme",
+      "schemeShortTitle": "MGPSS",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce733d6d1a3bde4685278",
+          "label": "Business & Entrepreneurship"
+        },
+        {
+          "value": "628ce87cd6d1a3bde4685312",
+          "label": "Social welfare & Empowerment"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Setting up / start-up / entrepreneurship",
+          "label": "Setting up / start-up / entrepreneurship"
+        },
+        {
+          "value": "Credit Linked Subsidy",
+          "label": "Credit Linked Subsidy"
+        },
+        {
+          "value": "Financial assistance",
+          "label": "Financial assistance"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "joint-liability-groups",
+          "label": "Joint Liability Groups (JLGS)"
+        },
+        {
+          "value": "self-help-groups",
+          "label": "Self Help Groups (SHGS)"
+        },
+        {
+          "value": "ngo",
+          "label": "NGO"
+        }
+      ],
+      "state": {
+        "value": 24,
+        "label": "Gujarat"
+      },
+      "schemeType": null,
+      "nodalMinistryName": null,
+      "nodalDepartmentName": {
+        "value": 2444452,
+        "label": "Industries and Mines Department"
+      },
+      "otherMinistryName": null,
+      "otherDepartmentNames": null,
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines [Commissioner Of Cottage & Rural Industries]",
+          "url": "https://cottage.gujarat.gov.in/Home-214079242566-282472214079-282472214079-282472214079"
+        },
+        {
+          "title": "Incentives For Cottage And Rural Industries",
+          "url": "https://ifp.gujarat.gov.in/DIGIGOV/StaticAttachment?AttachmentFileName=/pdf/IncentiveDetails/11_Incentives_for_Cottage_and_Rural_Industries.pdf"
+        },
+        {
+          "title": "List Of District Industries Centres",
+          "url": "https://www.cottage.gujarat.gov.in/Home-2140795B5D2D-282472282472-2824725B5D2D"
+        },
+        {
+          "title": "Time Limit For Benefit Sanction, And Details Of The Implementing Officer",
+          "url": "https://cottage.gujarat.gov.in/FileExplorer/Citizen-Charter-Eng.pdf"
+        }
+      ],
+      "schemeImageUrl": "",
+      "briefDescription": "The scheme provides 15% subsidy on yarn purchases from NHDC depots to handloom weavers, cooperatives, and NGOs, along with freight reimbursement (1–8.5%). Intended beneficiaries include weavers below the poverty line.",
+      "detailedDescription_md": "Launched in 2007, the &quot;Mill Gate Price Subsidy Scheme&quot;, implemented by the Commissioner of Cottage and Rural Industries, Industries &amp; Mines Department, Government of Gujarat, aims to provide quality yarn at subsidized rates to handloom weavers, ensuring affordability and improved product quality. The scheme offers freight reimbursement (1–8.5% based on yarn type and region) and a 15% subsidy on yarn purchases from NHDC-recognized depots. Eligible beneficiaries include handloom cooperatives, NGOs, and development centers. The scheme is implemented through District Industries Centers (DICs) and aims to sustain employment for economically weak weavers, especially from Scheduled Castes.\n",
+      "benefits_md": "**Yarn Purchase Subsidy**\n15% subsidy on yarn bought from NHDC-recognized depots.\n<br>\n\n**Freight Reimbursement**\n\n- Non-Silk/Jute Yarn: Plain Area: 1.00%, Hills/Remote: 1.75%, North-East: 3.00%\n- Silk Yarn: Plain Area: 1.00%, Hills/Remote: 1.25%, North-East: 1.50%\n- Jute/Jute Blended Yarn: Plain Area: 7.00%, Hills/Remote: 8.00%, North-East: 8.50%\n\n_*Additional 2.5% depot operating charges._\n<br>\n\n**Disbursement Mode**\n15% subsidy credited via RTGS/e-payment.\nFreight reimbursement is processed separately.\n",
+      "exclusions_md": "",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Launched in 2007, the \"Mill Gate Price Subsidy Scheme\", implemented by the Commissioner of Cottage and Rural Industries, Industries & Mines Department, Government of Gujarat, aims to provide quality yarn at subsidized rates to handloom weavers, ensuring affordability and improved product quality. The scheme offers freight reimbursement (1–8.5% based on yarn type and region) and a 15% subsidy on yarn purchases from NHDC-recognized depots. Eligible beneficiaries include handloom cooperatives, NGOs, and development centers. The scheme is implemented through District Industries Centers (DICs) and aims to sustain employment for economically weak weavers, especially from Scheduled Castes."
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Yarn Purchase Subsidy",
+              "bold": true,
+              "underline": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "15% subsidy on yarn bought from NHDC-recognized depots."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Freight Reimbursement",
+              "bold": true,
+              "underline": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Non-Silk/Jute Yarn: Plain Area: 1.00%, Hills/Remote: 1.75%, North-East: 3.00%"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Silk Yarn: Plain Area: 1.00%, Hills/Remote: 1.25%, North-East: 1.50%"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Jute/Jute Blended Yarn: Plain Area: 7.00%, Hills/Remote: 8.00%, North-East: 8.50%"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "*Additional 2.5% depot operating charges.",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Disbursement Mode",
+              "bold": true,
+              "underline": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "15% subsidy credited via RTGS/e-payment."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Freight reimbursement is processed separately."
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "process": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 1:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " The interested applicant should first purchase the yarn from NHDC-recognized depots (e.g., 12 depots in Surendranagar, 1 in Ahmedabad)."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " Visit the District Industries Centre (DIC) of his district, and request the hard copy of the prescribed format of the application form from the designated staff."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 3:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " In the application form, fill in all the mandatory fields, and attach copies of all the mandatory documents (self-attest, if required)."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 3:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " Submit the duly filled and signed application form along with the documents, within the prescribed period (if any), to the designated staff at the DIC."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 4:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " Request a receipt or acknowledgement from the concerned staff to whom the application has been submitted."
+              }
+            ]
+          }
+        ],
+        "process_md": "**Step 1:** The interested applicant should first purchase the yarn from NHDC-recognized depots (e.g., 12 depots in Surendranagar, 1 in Ahmedabad).\n**Step 2:** Visit the District Industries Centre (DIC) of his district, and request the hard copy of the prescribed format of the application form from the designated staff.\n**Step 3:** In the application form, fill in all the mandatory fields, and attach copies of all the mandatory documents (self-attest, if required).\n**Step 3:** Submit the duly filled and signed application form along with the documents, within the prescribed period (if any), to the designated staff at the DIC.\n**Step 4:** Request a receipt or acknowledgement from the concerned staff to whom the application has been submitted.\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n- The applicant must be a handloom cooperative society, NGO, or development center.\n- The applicant must purchase yarn from NHDC-recognized depots (e.g., Gujarat State Handloom &amp; Handicrafts Development Corporation).\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must be a handloom cooperative society, NGO, or development center."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must purchase yarn from NHDC-recognized depots (e.g., Gujarat State Handloom & Handicrafts Development Corporation)."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "mgpss"
+}

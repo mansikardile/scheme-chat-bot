@@ -1,0 +1,373 @@
+{
+  "_id": "65c35396ed4030e118cefd7b",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Disability",
+        "Food",
+        "Shelter",
+        "Medical",
+        "Clothes"
+      ],
+      "schemeName": "Aravanaippu Illam",
+      "schemeShortTitle": "AILLAM",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce87cd6d1a3bde4685312",
+          "label": "Social welfare & Empowerment"
+        },
+        {
+          "value": "628ce7a2d6d1a3bde46852b1",
+          "label": "Health & Wellness"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Shelter",
+          "label": "Shelter"
+        },
+        {
+          "value": "Citizen empowerment",
+          "label": "Citizen empowerment"
+        },
+        {
+          "value": "Food Security / Public Distribution System",
+          "label": "Food Security / Public Distribution System"
+        },
+        {
+          "value": "Free Meal",
+          "label": "Free Meal"
+        },
+        {
+          "value": "Health promotion",
+          "label": "Health promotion"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "label": "All",
+          "value": "All"
+        }
+      ],
+      "state": {
+        "value": 34,
+        "label": "Puducherry"
+      },
+      "nodalDepartmentName": {
+        "value": 34000038,
+        "label": "Social Welfare Department, Puducherry"
+      },
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://socwelfare.py.gov.in/aravanaippu-illam-puducherry"
+        },
+        {
+          "title": "Citizen's Charter",
+          "url": "https://socwelfare.py.gov.in/sites/default/files/citizen-charter.pdf"
+        },
+        {
+          "title": "Contact Us",
+          "url": "https://socwelfare.py.gov.in/contact-us"
+        },
+        {
+          "title": "Sub Offices",
+          "url": "https://socwelfare.py.gov.in/sub--office-social-welfare-department"
+        },
+        {
+          "title": "Grievance Redressal",
+          "url": "https://pgportal.gov.in/"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The scheme “Aravanaippu Illam&quot; was launched by the Department of Social Welfare, Government of Puducherry. The objective of this scheme is to take care of persons who are lacking basic needs &amp; proper care in society, and to maintain them in a safe living condition.\n",
+      "benefits_md": "\n- Free Shelter and Food.\n- Free Supply of 4 Sets of Dresses and Other Daily Living Needs. \n- Free Medical Treatment (Referred to Nearby PHC). \n- Training in Korai &amp; Coir Mat Weaving. \n- Labour Charges of ₹ 20/- Per Mat for the Work of Mat Weaving as and When Carried Out. \n- ₹ 5/- Per Day as Daily Pocket Money.\n- Recreation Like Radio, TV, Library, Besides Local Trips to Places of Interest and Temples. \n- Annual Tour to Places of Interest. \n- Annual Day, Conducted Every Year in Order to Exhibit Their Talents and for Prize Distribution.\n\n**NOTE:** Contact the authorities below in case of delay in disbursal of benefits:\nPuducherry: The Director, Directorate of Social Welfare, Saradhambal Nagar, Ellaipillaichavadhy, Puducherry. \nKaraikal: The Collector, Karaikal.\nMahe/Yanam: The Regional Administrator, Mahe/Yanam.\n",
+      "briefDescription": "The scheme “Aravanaippu Illam\" was launched by the Department of Social Welfare, Government of Puducherry. The objective of this scheme is to take care of persons who are lacking basic needs & proper care in society, and to maintain them in a safe living condition.",
+      "exclusions_md": "",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The scheme “Aravanaippu Illam\" was launched by the Department of Social Welfare, Government of Puducherry. The objective of this scheme is to take care of persons who are lacking basic needs & proper care in society, and to maintain them in a safe living condition."
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 2,
+        "value": "in-kind",
+        "label": "In Kind"
+      },
+      "benefits": [
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Free Shelter and Food."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Free Supply of 4 Sets of Dresses and Other Daily Living Needs. "
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Free Medical Treatment (Referred to Nearby PHC). "
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Training in Korai & Coir Mat Weaving. "
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Labour Charges of ₹ 20/- Per Mat for the Work of Mat Weaving as and When Carried Out. "
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "₹ 5/- Per Day as Daily Pocket Money."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Recreation Like Radio, TV, Library, Besides Local Trips to Places of Interest and Temples. "
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Annual Tour to Places of Interest. "
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Annual Day, Conducted Every Year in Order to Exhibit Their Talents and for Prize Distribution."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "NOTE:",
+              "bold": true
+            },
+            {
+              "text": " Contact the authorities below in case of delay in disbursal of benefits:"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Puducherry: The Director, Directorate of Social Welfare, Saradhambal Nagar, Ellaipillaichavadhy, Puducherry. "
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Karaikal: The Collector, Karaikal."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Mahe/Yanam: The Regional Administrator, Mahe/Yanam."
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "process": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 1: ",
+                "bold": true
+              },
+              {
+                "text": "The interested applicant should visit (during office hours) the "
+              },
+              {
+                "type": "link",
+                "link": "https://socwelfare.py.gov.in/sub--office-social-welfare-department",
+                "children": [
+                  {
+                    "text": "Office/ Sub-Office"
+                  }
+                ]
+              },
+              {
+                "text": " of the Department of Social Welfare, and request the hard copy of the prescribed format of the application form from the staff exclusively entrusted to issue and collect filled-in applications."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2:",
+                "bold": true
+              },
+              {
+                "text": " In the application form, fill in all the mandatory fields, paste the passport-sized photograph (signed across, if required), and attach copies of all the mandatory documents (self-attest, if required)."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 3: ",
+                "bold": true
+              },
+              {
+                "text": "Submit the duly filled and signed application form along with the documents to the authority given below - "
+              }
+            ]
+          },
+          {
+            "type": "ul_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Puducherry: ",
+                    "bold": true
+                  },
+                  {
+                    "text": "The Deputy Director, Differently Abled Section, Directorate of Social Welfare. "
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Karaikal: ",
+                    "bold": true
+                  },
+                  {
+                    "text": "The Assistant Director, Social Welfare Department (Sub Office)."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Mahe / Yanam: ",
+                    "bold": true
+                  },
+                  {
+                    "text": "The Welfare Officer (i\\c), Social Welfare Department (Sub Office). "
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 4: ",
+                "bold": true
+              },
+              {
+                "text": "Request a receipt or acknowledgement from the concerned authority to whom the application has been submitted. Ensure that the receipt contains essential details such as the date and time of submission, and a unique identification number (if applicable)."
+              }
+            ]
+          }
+        ],
+        "process_md": "**Step 1:** The interested applicant should visit (during office hours) the [Office/ Sub-Office](https://socwelfare.py.gov.in/sub--office-social-welfare-department) of the Department of Social Welfare, and request the hard copy of the prescribed format of the application form from the staff exclusively entrusted to issue and collect filled-in applications.\n**Step 2:** In the application form, fill in all the mandatory fields, paste the passport-sized photograph (signed across, if required), and attach copies of all the mandatory documents (self-attest, if required).\n**Step 3:** Submit the duly filled and signed application form along with the documents to the authority given below - \n\n- **Puducherry:** The Deputy Director, Differently Abled Section, Directorate of Social Welfare. - **Karaikal:** The Assistant Director, Social Welfare Department (Sub Office).- **Mahe / Yanam:** The Welfare Officer (i\\c), Social Welfare Department (Sub Office). \n**Step 4:** Request a receipt or acknowledgement from the concerned authority to whom the application has been submitted. Ensure that the receipt contains essential details such as the date and time of submission, and a unique identification number (if applicable).\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n1. The applicant should be lacking basic needs and proper care in society.\n1. The applicant should be 20 years or above in age.\n1. The applicant should not be suffering from communicable disease.\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should be lacking basic needs and proper care in society."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should be 20 years or above in age."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should not be suffering from communicable disease."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "aillam"
+}

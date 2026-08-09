@@ -1,0 +1,427 @@
+{
+  "_id": "6911c4122b09b4c5732a2812",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Artisan",
+        "Subsidy",
+        "Cottage",
+        "Industry",
+        "Handicraft",
+        "Employment"
+      ],
+      "schemeName": "Goa (Subsidy to Clay Idol Makers) Scheme",
+      "schemeShortTitle": "GSCIMS",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce87cd6d1a3bde4685312",
+          "label": "Social welfare & Empowerment"
+        },
+        {
+          "value": "628ce733d6d1a3bde4685278",
+          "label": "Business & Entrepreneurship"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Citizen empowerment",
+          "label": "Citizen empowerment"
+        },
+        {
+          "value": "Financial assistance",
+          "label": "Financial assistance"
+        },
+        {
+          "value": "Setting up / start-up / entrepreneurship",
+          "label": "Setting up / start-up / entrepreneurship"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "schemeFor": "Individual",
+      "state": {
+        "value": 30,
+        "label": "Goa"
+      },
+      "nodalDepartmentName": {
+        "value": 30000010,
+        "label": "Commercial Taxes Department"
+      }
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://goaprintingpress.gov.in/downloads/0809/0809-17-SI-OG.pdf"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The scheme “Goa (Subsidy to Clay Idol Makers) Scheme” was launched by the Department of Industries, Government of Goa. The scheme aims to revive the traditional Goan cottage industry of clay idol making and motivate local artisans by providing financial support through subsidies. It addresses the decline of this art form due to competition from cheaper alternatives such as Plaster of Paris and polyfibre. The scheme provides a subsidy of ₹100/- per idol and grants up to ₹15,000/- per artisan annually. The applicant must be a traditional clay idol maker registered with the Goa Handicrafts, Rural and Small Scale Industries Development Corporation Limited (GHRSSIDC) and must produce idols within Goa. The scheme is implemented through GHRSSIDC, and applications are accepted offline.\n<br>\n\n",
+      "benefits_md": "\n- Subsidy of ₹100/- per clay idol made by registered artisans, with minimum idol size of 1 foot.\n- Maximum subsidy limit: ₹15,000/- per artisan per year.\n- Applicable only for idols actually produced and sold within the State of Goa.\n\n**Disbursement:** Cheque in favour of the artisan after fund receipt from Government.\n**Availment:** Beneficiaries must maintain sale records and provide proof of production and sale as prescribed.\n<br>\n\n",
+      "exclusions_md": "\n- Unsold idols are not eligible for subsidy.\n- Idols used for decorative items are not eligible for subsidy.\n\n<br>\n\n",
+      "briefDescription": "The scheme aims to encourage Goan artisans to continue traditional clay idol making by providing a subsidy of ₹100/- per idol, supporting registered local craftsmen in preserving cultural heritage and ensuring livelihood sustainability.",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The scheme “Goa (Subsidy to Clay Idol Makers) Scheme” was launched by the Department of Industries, Government of Goa. The scheme aims to revive the traditional Goan cottage industry of clay idol making and motivate local artisans by providing financial support through subsidies. It addresses the decline of this art form due to competition from cheaper alternatives such as Plaster of Paris and polyfibre. The scheme provides a subsidy of ₹100/- per idol and grants up to ₹15,000/- per artisan annually. The applicant must be a traditional clay idol maker registered with the Goa Handicrafts, Rural and Small Scale Industries Development Corporation Limited (GHRSSIDC) and must produce idols within Goa. The scheme is implemented through GHRSSIDC, and applications are accepted offline."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Subsidy of ₹100/- per clay idol made by registered artisans, with minimum idol size of 1 foot."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Maximum subsidy limit: ₹15,000/- per artisan per year."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Applicable only for idols actually produced and sold within the State of Goa."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Disbursement:",
+              "bold": true,
+              "underline": true
+            },
+            {
+              "text": " Cheque in favour of the artisan after fund receipt from Government."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Availment:",
+              "bold": true,
+              "underline": true
+            },
+            {
+              "text": " Beneficiaries must maintain sale records and provide proof of production and sale as prescribed."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ],
+      "exclusions": [
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Unsold idols are not eligible for subsidy."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Idols used for decorative items are not eligible for subsidy."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "process": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 1:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " The interested applicant should take a printout of the "
+              },
+              {
+                "type": "link",
+                "link": "https://goaprintingpress.gov.in/downloads/0809/0809-17-SI-OG.pdf",
+                "children": [
+                  {
+                    "text": "prescribed format"
+                  }
+                ]
+              },
+              {
+                "text": " of the application form. Alternatively, the applicant may obtain the prescribed format from "
+              },
+              {
+                "text": "GHRSSIDC, Craft Complex, Neugi Nagar, Panaji, North Goa, Goa - 403 001, ",
+                "bold": true,
+                "italic": true
+              },
+              {
+                "text": "upon payment of ₹1/- per form."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " In the application form, fill in all the mandatory fields, and attach copies of all the mandatory documents (self-attest, if required)."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 3:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " Submit the duly filled and signed application form along with the documents, within the prescribed period (if any), to the "
+              },
+              {
+                "text": "Managing Director, GHRSSIDC Ltd., Panaji-Goa.",
+                "bold": true,
+                "italic": true
+              }
+            ]
+          },
+          {
+            "type": "heading_five",
+            "children": [
+              {
+                "text": "Post-Application Processes",
+                "bold": true,
+                "underline": true,
+                "italic": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 1",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "bold": true,
+                "text": ": "
+              },
+              {
+                "text": "GHRSSIDC officials will physically inspect the applicant’s workshop to verify production capacity and conduct a physical count of clay idols in the artisan’s presence."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "bold": true,
+                "text": " "
+              },
+              {
+                "text": "An Appraisal Committee consisting of the Chairman, Managing Director, a nominated Director, and a Government representative will review applications for approval on a first come, first served basis."
+              }
+            ]
+          },
+          {
+            "type": "heading_five",
+            "children": [
+              {
+                "text": "Benefit Disbursement",
+                "bold": true,
+                "underline": true,
+                "italic": true
+              }
+            ]
+          },
+          {
+            "type": "ul_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Upon approval, subsidy payment is issued via cheque in favour of the registered artisan after receiving funds from the Government."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Beneficiaries must maintain sales records and submit the utilisation certificate for subsequent releases."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          }
+        ],
+        "process_md": "**Step 1:** The interested applicant should take a printout of the [prescribed format](https://goaprintingpress.gov.in/downloads/0809/0809-17-SI-OG.pdf) of the application form. Alternatively, the applicant may obtain the prescribed format from ***GHRSSIDC, Craft Complex, Neugi Nagar, Panaji, North Goa, Goa - 403 001,*** upon payment of ₹1/- per form.\n**Step 2:** In the application form, fill in all the mandatory fields, and attach copies of all the mandatory documents (self-attest, if required).\n**Step 3:** Submit the duly filled and signed application form along with the documents, within the prescribed period (if any), to the ***Managing Director, GHRSSIDC Ltd., Panaji-Goa.***\n##### ***Post-Application Processes***\n**Step 1****:** GHRSSIDC officials will physically inspect the applicant’s workshop to verify production capacity and conduct a physical count of clay idols in the artisan’s presence.\n**Step 2:****** An Appraisal Committee consisting of the Chairman, Managing Director, a nominated Director, and a Government representative will review applications for approval on a first come, first served basis.\n##### ***Benefit Disbursement***\n\n- Upon approval, subsidy payment is issued via cheque in favour of the registered artisan after receiving funds from the Government.\n- Beneficiaries must maintain sales records and submit the utilisation certificate for subsequent releases.\n\n<br>\n\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n- The applicant must be a traditional clay idol maker or artisan from the State of Goa.\n- The applicant must be registered with GHRSSIDC as a clay idol manufacturer.\n- The applicant must personally manufacture idols within Goa; imported or traded idols are not eligible.\n- The applicant must have a workshop or production unit within Goa for manufacturing idols such as Ganesh, Durga, Saraswati, or Mother Mary.\n- The subsidy is applicable only for idols used for religious purposes (e.g., Ganesh Chaturthi, Christmas) and not for decorative items.\n- The applicant must maintain records of idols produced and sold, including size, price, buyer details, and sale date.\n- The applicant must comply with physical inspection by GHRSSIDC officials.\n\n<br>\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must be a traditional clay idol maker or artisan from the State of Goa."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must be registered with GHRSSIDC as a clay idol manufacturer."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must personally manufacture idols within Goa; imported or traded idols are not eligible."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must have a workshop or production unit within Goa for manufacturing idols such as Ganesh, Durga, Saraswati, or Mother Mary."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The subsidy is applicable only for idols used for religious purposes (e.g., Ganesh Chaturthi, Christmas) and not for decorative items."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must maintain records of idols produced and sold, including size, price, buyer details, and sale date."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must comply with physical inspection by GHRSSIDC officials."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "gscims"
+}

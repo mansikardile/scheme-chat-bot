@@ -1,0 +1,240 @@
+{
+  "_id": "645b4bb267a7ca7da847dce8",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": true,
+      "tags": [
+        "Social Security",
+        "Financial Assistance",
+        "DBT",
+        "Retirement Pension"
+      ],
+      "schemeName": "Old-Age Pension Scheme",
+      "schemeShortTitle": "OPS",
+      "level": {
+        "value": "state",
+        "label": "State"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce87cd6d1a3bde4685312",
+          "label": "Social welfare & Empowerment"
+        }
+      ],
+      "schemeSubCategory": null,
+      "schemeOpenDate": "1971-11-01",
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "state": {
+        "value": 2,
+        "label": "Himachal Pradesh"
+      },
+      "nodalDepartmentName": {
+        "value": 21111158,
+        "label": "Department of Social Justice and Empowerment"
+      },
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "http://esomsa.hp.gov.in/?q=hi/%E0%A4%B8%E0%A4%BE%E0%A4%AE%E0%A4%BE%E0%A4%9C%E0%A4%BF%E0%A4%95-%E0%A4%B8%E0%A5%81%E0%A4%B0%E0%A4%95%E0%A5%8D%E0%A4%B7%E0%A4%BE-%E0%A4%AA%E0%A5%88%E0%A4%82%E0%A4%B6%E0%A4%A8"
+        },
+        {
+          "title": "Offline Application Form",
+          "url": "http://esomsa.hp.gov.in/sites/default/files/scan0001-44250128_0.pdf"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The Government of Himachal Pradesh, Department of Social Justice &amp; Empowerment has launched Old Age Pension Scheme with the aim to provide social security to destitute elderly people of the state. In this scheme, a financial assistance of ₹ 850/- per month to pensioners aged between 60 years to 69 years and ₹ 1500/- per month to pensioners aged 70 years and above is provided.\n",
+      "benefits_md": "\n1. ₹ 850/- per month to pensioners aged between 60 years to 69 years.\n1. ₹ 1500/- per month to pensioners aged 70 years and above.\n\n",
+      "exclusions_md": "<br>\n\n",
+      "briefDescription": "The Himachal Pradesh government offers an Old Age pension scheme to support elderly citizens who have no means of livelihood. The scheme offers financial assistance to eligible citizens based on their age and income level. ",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The Government of Himachal Pradesh, Department of Social Justice & Empowerment has launched Old Age Pension Scheme with the aim to provide social security to destitute elderly people of the state. In this scheme, a financial assistance of ₹ 850/- per month to pensioners aged between 60 years to 69 years and ₹ 1500/- per month to pensioners aged 70 years and above is provided."
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "₹ 850/- per month to pensioners aged between 60 years to 69 years."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "₹ 1500/- per month to pensioners aged 70 years and above."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "exclusions": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "url": "",
+        "process": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 1:",
+                "bold": true
+              },
+              {
+                "text": " Download the "
+              },
+              {
+                "type": "link",
+                "link": "http://esomsa.hp.gov.in/sites/default/files/scan0001-44250128_0.pdf",
+                "children": [
+                  {
+                    "text": "Social Security Pension Application Form"
+                  }
+                ]
+              },
+              {
+                "text": "."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2:",
+                "bold": true
+              },
+              {
+                "text": " Fill in all the mandatory fields, paste the recent passport-sized photograph (signed across), and attach copies of all the mandatory documents (self-attested)."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 3:",
+                "bold": true
+              },
+              {
+                "text": " Submit the duly filled and signed application form along with the documents to the concerned authority at:"
+              }
+            ]
+          },
+          {
+            "type": "ul_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Office of Panchayat "
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ul_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Tehsil Welfare Officer "
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ul_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "District Welfare Officer."
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "process_md": "**Step 1:** Download the [Social Security Pension Application Form](http://esomsa.hp.gov.in/sites/default/files/scan0001-44250128_0.pdf).\n**Step 2:** Fill in all the mandatory fields, paste the recent passport-sized photograph (signed across), and attach copies of all the mandatory documents (self-attested).\n**Step 3:** Submit the duly filled and signed application form along with the documents to the concerned authority at:\n\n- Office of Panchayat \n\n\n- Tehsil Welfare Officer \n\n\n- District Welfare Officer.\n\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n1. The applicants must be a resident of Himachal Pradesh state.\n1. Such elderly persons whose age is 60 years or more and who do not have proper means of care/upbringing and who have minor children and whose family annual income from all sources does not exceed ₹ 35,000/- Or;\n1. Such elderly persons whose annual family income from all sources does not exceed ₹ 35000/- are eligible for the scheme.\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicants must be a resident of Himachal Pradesh state."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Such elderly persons whose age is 60 years or more and who do not have proper means of care/upbringing and who have minor children and whose family annual income from all sources does not exceed ₹ 35,000/- Or;"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Such elderly persons whose annual family income from all sources does not exceed ₹ 35000/- are eligible for the scheme."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "ops"
+}

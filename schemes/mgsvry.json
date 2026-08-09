@@ -1,0 +1,696 @@
+{
+  "_id": "690338df9ed7aa4242385d7c",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Vendor",
+        "Worker",
+        "Loan",
+        "Entrepreneurship",
+        "Rural",
+        "Training"
+      ],
+      "schemeName": "Mukhyamantri Gramin Street Vendor Rin Yojana",
+      "schemeShortTitle": "MGSVRY",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce733d6d1a3bde4685278",
+          "label": "Business & Entrepreneurship"
+        },
+        {
+          "value": "628ce7f6d6d1a3bde46852d0",
+          "label": "Banking,Financial Services and Insurance"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Setting up / start-up / entrepreneurship",
+          "label": "Setting up / start-up / entrepreneurship"
+        },
+        {
+          "value": "Machine & skill up-Gradation",
+          "label": "Machine & skill up-Gradation"
+        },
+        {
+          "value": "Loan",
+          "label": "Loan"
+        },
+        {
+          "value": "Micro finance",
+          "label": "Micro finance"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "schemeFor": "Individual",
+      "state": {
+        "value": 23,
+        "label": "Madhya Pradesh"
+      },
+      "schemeType": null,
+      "nodalMinistryName": null,
+      "nodalDepartmentName": {
+        "value": 2300029,
+        "label": "Panchayat and Rural Development Department"
+      },
+      "otherMinistryName": null,
+      "otherDepartmentNames": null
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://kamgarsetu.mp.gov.in/"
+        },
+        {
+          "title": "User Manual - Application Process",
+          "url": "https://kamgarsetu.mp.gov.in/Content/User-Manual-Registration.pdf"
+        }
+      ],
+      "schemeImageUrl": "",
+      "briefDescription": "The scheme aims to provide working capital or low-cost equipment as a loan through banks to support businesses. It benefits poor-class migrant workers and small traders (Street Vendors) in rural areas of Madhya Pradesh, also offering necessary Entrepreneurship Development Programme (EDP) training.",
+      "detailedDescription_md": "The scheme “Mukhyamantri Gramin Street Vendor Rin Yojana&quot; was launched by the Department of Panchayat and Rural Development, Government of Madhya Pradesh. The scheme aims to make low-cost equipment or working capital available as a loan through banks to poor-class migrant workers/small traders in the rural sector of the state. The scheme provides loan access only for existing businesses in the rural area and for the establishment of new enterprises by migrant workers, who must also undergo Entrepreneurship Development Programme (EDP) training through Rural Self Employment Training Institutes (RSETI) for new business establishment. The applications for this scheme are accepted online via the Street Vendor Portal.\n<br>\n\n",
+      "benefits_md": "\n- Provision of low-cost equipment.\n- Provision of working capital (Karyasheela Punji).\n- Provision of loan (Rin) through banks.\n- Provision of Entrepreneurship Development Programme (EDP) training through Rural Self Employment Training Institutes (RSETI).\n\n##### ***Conditions***\n\n- The loan is made available from banks following the training.\n- The benefit is only for existing businesses (old enterprises) in the rural area.\n- The benefit is for establishing new businesses for migrant workers.\n- Rural migrant workers establishing a new business must undergo Entrepreneurship Development Programme (EDP) training through Rural Self Employment Training Institutes (RSETI).\n\n<br>\n\n",
+      "exclusions_md": "",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The scheme “Mukhyamantri Gramin Street Vendor Rin Yojana\" was launched by the Department of Panchayat and Rural Development, Government of Madhya Pradesh. The scheme aims to make low-cost equipment or working capital available as a loan through banks to poor-class migrant workers/small traders in the rural sector of the state. The scheme provides loan access only for existing businesses in the rural area and for the establishment of new enterprises by migrant workers, who must also undergo Entrepreneurship Development Programme (EDP) training through Rural Self Employment Training Institutes (RSETI) for new business establishment. The applications for this scheme are accepted online via the Street Vendor Portal."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 3,
+        "value": "composite",
+        "label": "Composite"
+      },
+      "benefits": [
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Provision of low-cost equipment."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Provision of working capital (Karyasheela Punji)."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Provision of loan (Rin) through banks."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Provision of Entrepreneurship Development Programme (EDP) training through Rural Self Employment Training Institutes (RSETI)."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "heading_five",
+          "children": [
+            {
+              "text": "Conditions",
+              "bold": true,
+              "underline": true,
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The loan is made available from banks following the training."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The benefit is only for existing businesses (old enterprises) in the rural area."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The benefit is for establishing new businesses for migrant workers."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Rural migrant workers establishing a new business must undergo Entrepreneurship Development Programme (EDP) training through Rural Self Employment Training Institutes (RSETI)."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Online",
+        "process": [
+          {
+            "type": "heading_five",
+            "children": [
+              {
+                "text": "Step 1:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "bold": true,
+                "text": " "
+              },
+              {
+                "bold": true,
+                "text": "Accessing the Official Portal",
+                "italic": true
+              }
+            ]
+          },
+          {
+            "type": "ul_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "The applicant must navigate to the "
+                  },
+                  {
+                    "type": "link",
+                    "link": "http://kamgarsetu.mp.gov.in/",
+                    "children": [
+                      {
+                        "text": "\"Gramin Kamgar Setu\" portal"
+                      }
+                    ]
+                  },
+                  {
+                    "text": ". Click on the option labeled \"पंजीयन करे\". Enter your mobile number and the provided Captcha code, and then click \"OTP प्राप्त करें\" to receive the OTP. "
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Enter the OTP, select the district (जिला), development block (विकास खंड), and choose \"पथ विक्रता\" (Path Vikreta) under employment (रोजगार). Click \"Submit\"."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "heading_five",
+            "children": [
+              {
+                "text": "Step 2:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "bold": true,
+                "text": " "
+              },
+              {
+                "bold": true,
+                "text": "Aadhaar Verification (e-Know Your Customer/e-KYC)",
+                "italic": true
+              }
+            ]
+          },
+          {
+            "type": "ul_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Enter Aadhaar Number and Captcha code on the subsequent screen and click the checkbox to verify e-KYC status."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Once the e-KYC is successfully verified, the complete details associated with the applicant's Aadhaar will appear on the screen. "
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "The applicant is required to confirm the accuracy of these details before proceeding by clicking the Next button."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "heading_five",
+            "children": [
+              {
+                "text": "Step 3:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "bold": true,
+                "text": " "
+              },
+              {
+                "bold": true,
+                "text": "Entering Samagra Details and Identifying Family Members",
+                "italic": true
+              }
+            ]
+          },
+          {
+            "type": "ul_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "On the next screen, enter your Samagra ID and click “गेट मेंबर्स” (Get Members), which will display all the associated family information. "
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "From the family details received via Samagra, the applicant must select those members who assist in the applicant's business."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "heading_five",
+            "children": [
+              {
+                "text": "Step 4:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "bold": true,
+                "text": " "
+              },
+              {
+                "bold": true,
+                "text": "Providing Business Information and Final Submission",
+                "italic": true
+              }
+            ]
+          },
+          {
+            "type": "ul_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "The applicant must provide additional details about their desired business by selecting their option from the dropdown menu. "
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "After reviewing all the filled information, the applicant must tick all the \"declaration points\" (घोषणा के बिन्दुओ). Click \"Submit\" for final confirmation."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "heading_five",
+            "children": [
+              {
+                "text": "Step 5:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "bold": true,
+                "text": " "
+              },
+              {
+                "bold": true,
+                "text": "Receiving Acknowledgement",
+                "italic": true
+              }
+            ]
+          },
+          {
+            "type": "ul_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Upon submitting the application, the applicant will receive an acknowledgement receipt (पावती) that should be printed or screenshotted and kept safe. Additionally, an SMS notification containing the application number (आवेंदन क्रमांक) will be received on the mobile phone."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "heading_five",
+            "children": [
+              {
+                "text": "Post-Application Processes",
+                "bold": true,
+                "italic": true,
+                "underline": true
+              }
+            ]
+          },
+          {
+            "type": "heading_five",
+            "children": [
+              {
+                "text": "Step 1:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "bold": true,
+                "text": " "
+              },
+              {
+                "bold": true,
+                "text": "Application Verification by the Rural Development Department",
+                "italic": true
+              }
+            ]
+          },
+          {
+            "type": "ul_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "The application submitted by the applicant will undergo verification by the concerned Gramin Vikas Vibhag (Rural Development Department)."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "If any inconsistency (विसंगति) is found during the verification process, the applicant will be provided one opportunity to make necessary corrections. "
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "The notification regarding this opportunity will be delivered via SMS."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "heading_five",
+            "children": [
+              {
+                "text": "Step 2:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "bold": true,
+                "text": " "
+              },
+              {
+                "bold": true,
+                "text": "Making Corrections on the Portal",
+                "italic": true
+              }
+            ]
+          },
+          {
+            "type": "ul_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "If a correction is needed, the applicant must use the \"अपडेट करे\" (Update Kare) option on the portal. "
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "The applicant needs to enter their mobile number, verify with an OTP, and then make the required modifications."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "heading_five",
+            "children": [
+              {
+                "text": "Step 3:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "bold": true,
+                "text": " "
+              },
+              {
+                "bold": true,
+                "text": "Issuance of Identification and Certificate",
+                "italic": true
+              }
+            ]
+          },
+          {
+            "type": "ul_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "If the submitted information is confirmed to be correct, the applicant will be issued an Identification Card (परिचय पत्र) and a Certificate (प्रमाण पत्र). "
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Notification regarding the issuance of both documents will be sent via SMS."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "heading_five",
+            "children": [
+              {
+                "text": "Step 4:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "bold": true,
+                "text": " "
+              },
+              {
+                "bold": true,
+                "text": "Document Download",
+                "italic": true
+              }
+            ]
+          },
+          {
+            "type": "ul_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "The SMS notification regarding the issuance of the Identification Card and Certificate will also include a link. "
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "The Street Vendor can use this link to download both documents themselves."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          }
+        ],
+        "process_md": "##### **Step 1:****** ***Accessing the Official Portal***\n\n- The applicant must navigate to the [&quot;Gramin Kamgar Setu&quot; portal](http://kamgarsetu.mp.gov.in/). Click on the option labeled &quot;पंजीयन करे&quot;. Enter your mobile number and the provided Captcha code, and then click &quot;OTP प्राप्त करें&quot; to receive the OTP. - Enter the OTP, select the district (जिला), development block (विकास खंड), and choose &quot;पथ विक्रता&quot; (Path Vikreta) under employment (रोजगार). Click &quot;Submit&quot;.\n\n##### **Step 2:****** ***Aadhaar Verification (e-Know Your Customer/e-KYC)***\n\n- Enter Aadhaar Number and Captcha code on the subsequent screen and click the checkbox to verify e-KYC status.\n- Once the e-KYC is successfully verified, the complete details associated with the applicant&#39;s Aadhaar will appear on the screen. \n- The applicant is required to confirm the accuracy of these details before proceeding by clicking the Next button.\n\n##### **Step 3:****** ***Entering Samagra Details and Identifying Family Members***\n\n- On the next screen, enter your Samagra ID and click “गेट मेंबर्स” (Get Members), which will display all the associated family information. \n- From the family details received via Samagra, the applicant must select those members who assist in the applicant&#39;s business.\n\n##### **Step 4:****** ***Providing Business Information and Final Submission***\n\n- The applicant must provide additional details about their desired business by selecting their option from the dropdown menu. \n- After reviewing all the filled information, the applicant must tick all the &quot;declaration points&quot; (घोषणा के बिन्दुओ). Click &quot;Submit&quot; for final confirmation.\n\n##### **Step 5:****** ***Receiving Acknowledgement***\n\n- Upon submitting the application, the applicant will receive an acknowledgement receipt (पावती) that should be printed or screenshotted and kept safe. Additionally, an SMS notification containing the application number (आवेंदन क्रमांक) will be received on the mobile phone.\n\n<br>\n\n##### ***Post-Application Processes***\n##### **Step 1:****** ***Application Verification by the Rural Development Department***\n\n- The application submitted by the applicant will undergo verification by the concerned Gramin Vikas Vibhag (Rural Development Department).\n- If any inconsistency (विसंगति) is found during the verification process, the applicant will be provided one opportunity to make necessary corrections. \n- The notification regarding this opportunity will be delivered via SMS.\n\n##### **Step 2:****** ***Making Corrections on the Portal***\n\n- If a correction is needed, the applicant must use the &quot;अपडेट करे&quot; (Update Kare) option on the portal. \n- The applicant needs to enter their mobile number, verify with an OTP, and then make the required modifications.\n\n##### **Step 3:****** ***Issuance of Identification and Certificate***\n\n- If the submitted information is confirmed to be correct, the applicant will be issued an Identification Card (परिचय पत्र) and a Certificate (प्रमाण पत्र). \n- Notification regarding the issuance of both documents will be sent via SMS.\n\n##### **Step 4:****** ***Document Download***\n\n- The SMS notification regarding the issuance of the Identification Card and Certificate will also include a link. \n- The Street Vendor can use this link to download both documents themselves.\n\n<br>\n\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n- The applicant must reside in Madhya Pradesh.\n- The applicant must reside in a rural area.\n- The applicant must be between 18 and 55 years of age.\n- The applicant must belong to the poor class.\n- The applicant must be a migrant worker or a small trader (Street Vendor).\n- The applicant must be applying for a loan for an existing enterprise located in a rural area.\n- The applicant must be a migrant worker establishing a new enterprise.\n\n<br>\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must reside in Madhya Pradesh."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must reside in a rural area."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must be between 18 and 55 years of age."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must belong to the poor class."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must be a migrant worker or a small trader (Street Vendor)."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must be applying for a loan for an existing enterprise located in a rural area."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must be a migrant worker establishing a new enterprise."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "mgsvry"
+}

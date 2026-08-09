@@ -1,0 +1,556 @@
+{
+  "_id": "68d29b2fea68bc7181baac25",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Family",
+        "Sterilization",
+        "Compensation",
+        "Death",
+        "Indemnity",
+        "Healthcare",
+        "Medical",
+        "Insurance"
+      ],
+      "schemeName": "Family Planning Indemnity Scheme",
+      "schemeShortTitle": "FPIS",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce7a2d6d1a3bde46852b1",
+          "label": "Health & Wellness"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Health care providers and access",
+          "label": "Health care providers and access"
+        },
+        {
+          "value": "Emergency medical assistance",
+          "label": "Emergency medical assistance"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "family",
+          "label": "Family"
+        },
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "schemeFor": "Family",
+      "state": {
+        "value": 30,
+        "label": "Goa"
+      },
+      "schemeType": null,
+      "nodalMinistryName": null,
+      "nodalDepartmentName": {
+        "value": 30000021,
+        "label": "Health Services Department"
+      },
+      "otherMinistryName": null,
+      "otherDepartmentNames": null
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://dhs.goa.gov.in/cms-gov-be/public/uploads/cms_admin_files/1738151005_CITIZEN-CHARTER-2021.pdf"
+        }
+      ],
+      "schemeImageUrl": "",
+      "briefDescription": "The scheme provides compensation ranging from ₹60,000/- for sterilization failure to ₹4,00,000/- for death following sterilization, along with coverage for treatment costs up to ₹50,000/- for complications arising within 60 days post-operation.",
+      "detailedDescription_md": "The scheme &quot;Family Planning Indemnity Scheme&quot; was launched by the Directorate of Health Services, Government of Goa. The scheme aims to provide compensation for death, failure, or complications following sterilization operations, addressing the financial burden and risks associated with family planning procedures. The scheme provides compensation ranging from ₹60,000/- for sterilization failure to ₹4,00,000/- for death following sterilization, along with coverage for treatment costs up to ₹50,000/- for complications arising within 60 days post-operation.\n<br>\n\n",
+      "benefits_md": "**Section A:** Death following sterilization (inclusive of death during sterilization operation) in hospital or within 7 days from discharge - ₹4,00,000/-.\n**Section B:** Death following sterilization within 8-30 days from discharge - ₹1,00,000/-.\n**Section C:** Failure of sterilization - ₹60,000/-.\n**Section D:** Cost of treatment in hospital and up to 60 days arising out of complications following sterilization operation - Actual cost not exceeding ₹50,000/-.\n> ***Conditions***\n\n_*The claimant must accept the compensation amount as full settlement with no further claim rights._\n_*The claimant must warrant the truth of all particulars provided, with forfeiture of compensation for false statements._\n_*The claimant must agree that the compensation covers all aspects of the claim with no additional benefits._\n<br>\n\n",
+      "exclusions_md": "",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The scheme \"Family Planning Indemnity Scheme\" was launched by the Directorate of Health Services, Government of Goa. The scheme aims to provide compensation for death, failure, or complications following sterilization operations, addressing the financial burden and risks associated with family planning procedures. The scheme provides compensation ranging from ₹60,000/- for sterilization failure to ₹4,00,000/- for death following sterilization, along with coverage for treatment costs up to ₹50,000/- for complications arising within 60 days post-operation."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Section A:",
+              "bold": true,
+              "underline": true
+            },
+            {
+              "text": " Death following sterilization (inclusive of death during sterilization operation) in hospital or within 7 days from discharge - ₹4,00,000/-."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Section B:",
+              "bold": true,
+              "underline": true
+            },
+            {
+              "text": " Death following sterilization within 8-30 days from discharge - ₹1,00,000/-."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Section C:",
+              "bold": true,
+              "underline": true
+            },
+            {
+              "text": " Failure of sterilization - ₹60,000/-."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Section D:",
+              "bold": true,
+              "underline": true
+            },
+            {
+              "text": " Cost of treatment in hospital and up to 60 days arising out of complications following sterilization operation - Actual cost not exceeding ₹50,000/-."
+            }
+          ]
+        },
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "Conditions",
+              "bold": true,
+              "underline": true,
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "*The claimant must accept the compensation amount as full settlement with no further claim rights.",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "*The claimant must warrant the truth of all particulars provided, with forfeiture of compensation for false statements.",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "*The claimant must agree that the compensation covers all aspects of the claim with no additional benefits.",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "process": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 1:",
+                "underline": true,
+                "bold": true
+              },
+              {
+                "text": " "
+              },
+              {
+                "text": "Initial Reporting and Documentation",
+                "bold": true,
+                "underline": true,
+                "italic": true
+              }
+            ]
+          },
+          {
+            "type": "ul_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Visit the health facility where sterilization was conducted and report the case of death, failure, or complication to the Medical Superintendent or Health Officer."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Begin collecting all required documents including original sterilization certificates, case papers, identity documents, and bank details from relevant sources."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " "
+              },
+              {
+                "text": "Form Completion and Medical Certification",
+                "bold": true,
+                "underline": true,
+                "italic": true
+              }
+            ]
+          },
+          {
+            "type": "ul_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Complete Part A of the "
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://www.goa.gov.in/wp-content/uploads/2022/05/Family-Planning-Indemnity-Scheme.pdf",
+                    "children": [
+                      {
+                        "text": "Claim Form cum Medical Certificate"
+                      }
+                    ]
+                  },
+                  {
+                    "text": " with accurate personal details, sterilization operation information, and nature of claim."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Submit all medical records and completed Part A to the Chief Medical Officer or equivalent designated officer at district level for medical certification."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 3:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " "
+              },
+              {
+                "text": "Application Submission",
+                "bold": true,
+                "underline": true,
+                "italic": true
+              }
+            ]
+          },
+          {
+            "type": "ul_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Collect the medically certified claim form (Part A and Part B completed) from the certifying officer."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Submit the complete application with all required original documents and photocopies to the "
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://dhs.goa.gov.in/pages/pios-and-apios",
+                    "children": [
+                      {
+                        "text": "respective health facility"
+                      }
+                    ]
+                  },
+                  {
+                    "text": " where sterilization was performed."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 4:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " "
+              },
+              {
+                "text": "Follow-up and Verification",
+                "bold": true,
+                "underline": true,
+                "italic": true
+              }
+            ]
+          },
+          {
+            "type": "ul_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Maintain regular contact with the health facility to track progress as the case moves through District Indemnity Scheme Committee review."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Provide any additional information or documentation if requested during the committee verification process."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 5:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " "
+              },
+              {
+                "text": "Payment Processing",
+                "bold": true,
+                "underline": true,
+                "italic": true
+              }
+            ]
+          },
+          {
+            "type": "ul_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "The District Committee forwards the verified case to the state office (State Health Society) for final approval and processing."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Upon state approval, compensation amount is disbursed directly to the beneficiary's bank account as specified in the claim form."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          }
+        ],
+        "process_md": "**Step 1:** ***Initial Reporting and Documentation***\n\n- Visit the health facility where sterilization was conducted and report the case of death, failure, or complication to the Medical Superintendent or Health Officer.\n- Begin collecting all required documents including original sterilization certificates, case papers, identity documents, and bank details from relevant sources.\n\n**Step 2:** ***Form Completion and Medical Certification***\n\n- Complete Part A of the [Claim Form cum Medical Certificate](https://www.goa.gov.in/wp-content/uploads/2022/05/Family-Planning-Indemnity-Scheme.pdf) with accurate personal details, sterilization operation information, and nature of claim.- Submit all medical records and completed Part A to the Chief Medical Officer or equivalent designated officer at district level for medical certification.\n\n**Step 3:** ***Application Submission***\n\n- Collect the medically certified claim form (Part A and Part B completed) from the certifying officer.\n- Submit the complete application with all required original documents and photocopies to the [respective health facility](https://dhs.goa.gov.in/pages/pios-and-apios) where sterilization was performed.\n**Step 4:** ***Follow-up and Verification***\n\n- Maintain regular contact with the health facility to track progress as the case moves through District Indemnity Scheme Committee review.\n- Provide any additional information or documentation if requested during the committee verification process.\n\n**Step 5:** ***Payment Processing***\n\n- The District Committee forwards the verified case to the state office (State Health Society) for final approval and processing.\n- Upon state approval, compensation amount is disbursed directly to the beneficiary&#39;s bank account as specified in the claim form.\n\n<br>\n\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "##### ***For Beneficiary (Person who underwent Sterilization)***\n\n- The applicant must be a person who has undergone sterilization operation under family planning program.\n- The applicant must have undergone sterilization operation at an authorized health facility.\n- The applicant must be able to provide documentary evidence of the sterilization procedure.\n\n##### ***For Claimant (Family Member or Legal Representative)***\n\n- The applicant must be a legal claimant or family member of the person who underwent sterilization (in case of death or incapacitation).\n- The applicant should have legal authority to represent the beneficiary in case of death or inability to claim.\n\n> ***Conditions***\n\n_*The applicant must report complications, failure, or death within the specified timeframes as per scheme guidelines._\n_*The applicant must submit the claim through proper medical channels with certification from authorized medical officers._\n<br>\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "heading_five",
+          "children": [
+            {
+              "text": "For Beneficiary (Person who underwent Sterilization)",
+              "bold": true,
+              "underline": true,
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must be a person who has undergone sterilization operation under family planning program."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must have undergone sterilization operation at an authorized health facility."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must be able to provide documentary evidence of the sterilization procedure."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "heading_five",
+          "children": [
+            {
+              "text": "For Claimant (Family Member or Legal Representative)",
+              "bold": true,
+              "underline": true,
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must be a legal claimant or family member of the person who underwent sterilization (in case of death or incapacitation)."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should have legal authority to represent the beneficiary in case of death or inability to claim."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "Conditions",
+              "bold": true,
+              "underline": true,
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "*The applicant must report complications, failure, or death within the specified timeframes as per scheme guidelines.",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "*The applicant must submit the claim through proper medical channels with certification from authorized medical officers.",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "fpis"
+}

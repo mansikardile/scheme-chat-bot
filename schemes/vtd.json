@@ -1,0 +1,199 @@
+{
+  "_id": "66f53e27e7ac90a290103648",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Financial Assistance",
+        "Vocational Training",
+        "Construction Worker",
+        "Dependents"
+      ],
+      "schemeName": "Vocational Training to the Dependents",
+      "schemeShortTitle": "VTD",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce85cd6d1a3bde4685304",
+          "label": "Skills & Employment"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Voctional education",
+          "label": "Voctional education"
+        },
+        {
+          "value": "Training and Skill Up-gradation",
+          "label": "Training and Skill Up-gradation"
+        }
+      ],
+      "schemeOpenDate": "2016-03-24",
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "state": {
+        "value": 28,
+        "label": "Andhra Pradesh"
+      },
+      "nodalDepartmentName": {
+        "value": 1637,
+        "label": "Labour Department"
+      },
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://apbocwwb.ap.nic.in/APBOCWW3/2016LETF_MS14.PDF"
+        },
+        {
+          "title": "Official Website",
+          "url": "https://apbocwwb.ap.nic.in/apbocwwbhome.jsp"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The &quot;Vocational Training to the Dependents&quot; was launched by the A.P. Building &amp; Other Construction Workers Welfare Board provides a residential skill training program for 15,000 dependents of registered construction workers and covers the training cost, boarding, and lodging, with no financial burden on the government. The program focuses on enhancing the employability of dependents through training in various trades. The training is conducted by APMES Society under the Employment &amp; Training Department and includes placement-linked support. \n",
+      "benefits_md": "\n- Cost of training to each trainee ₹15,000/-.\n- Free boarding and lodging for trainees.\n- Placement-linked training, ensuring better job prospects.\n\n",
+      "briefDescription": "The \"Vocational Training to the Dependents\" provides a residential skill training program for 15,000 dependents of registered construction workers. The program focuses on enhancing the employability of dependents through training in various trades. ",
+      "exclusions_md": "",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The \"Vocational Training to the Dependents\" was launched by the A.P. Building & Other Construction Workers Welfare Board provides a residential skill training program for 15,000 dependents of registered construction workers and covers the training cost, boarding, and lodging, with no financial burden on the government. The program focuses on enhancing the employability of dependents through training in various trades. The training is conducted by APMES Society under the Employment & Training Department and includes placement-linked support. "
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 3,
+        "value": "composite",
+        "label": "Composite"
+      },
+      "benefits": [
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Cost of training to each trainee ₹15,000/-."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Free boarding and lodging for trainees."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Placement-linked training, ensuring better job prospects."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "process": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "bold": true,
+                "text": "Step-1: "
+              },
+              {
+                "text": "The interested applicant should visit (during office hours) the A.P. Building & Other Construction Workers Welfare Board and request a hard copy of the prescribed format of the application form from the staff exclusively entrusted to issue and collect filled-in applications."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step-2:",
+                "bold": true
+              },
+              {
+                "text": " In the application form, fill in all the mandatory fields, and attach copies of all the mandatory documents (self-attest, if required)."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step-3:",
+                "bold": true
+              },
+              {
+                "text": " Submit the duly filled and signed application form along with the documents to the Assistant Labour Officer/Assistant Commissioner of Labour."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step-4:",
+                "bold": true
+              },
+              {
+                "text": " Request a receipt or acknowledgement from the Assistant Labour Officer/Assistant Commissioner of Labour to whom the application has been submitted. Ensure that the receipt contains essential details such as the date and time of submission, and a unique identification number (if applicable)."
+              }
+            ]
+          }
+        ],
+        "process_md": "**Step-1:** The interested applicant should visit (during office hours) the A.P. Building &amp; Other Construction Workers Welfare Board and request a hard copy of the prescribed format of the application form from the staff exclusively entrusted to issue and collect filled-in applications.\n**Step-2:** In the application form, fill in all the mandatory fields, and attach copies of all the mandatory documents (self-attest, if required).\n**Step-3:** Submit the duly filled and signed application form along with the documents to the Assistant Labour Officer/Assistant Commissioner of Labour.\n**Step-4:** Request a receipt or acknowledgement from the Assistant Labour Officer/Assistant Commissioner of Labour to whom the application has been submitted. Ensure that the receipt contains essential details such as the date and time of submission, and a unique identification number (if applicable).\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n1. The applicant should be a dependent (spouse or adolescent child) of a registered construction worker.\n1. The worker should be registered with the A.P. Building &amp; Other Construction Workers Welfare Board.\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should be a dependent (spouse or adolescent child) of a registered construction worker."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The worker should be registered with the A.P. Building & Other Construction Workers Welfare Board."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "vtd"
+}

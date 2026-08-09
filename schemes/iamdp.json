@@ -1,0 +1,333 @@
+{
+  "_id": "642861e033c9353b99266823",
+  "en": {
+    "basicDetails": {
+      "schemeOpenDate": null,
+      "schemeCloseDate": null,
+      "state": {
+        "value": 14,
+        "label": "Manipur"
+      },
+      "nodalMinistryName": null,
+      "nodalDepartmentName": {
+        "value": 1444455,
+        "label": "Family Welfare Department"
+      },
+      "otherMinistryName": null,
+      "otherDepartmentNames": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Marriage",
+          "label": "Marriage"
+        },
+        {
+          "value": "Financial assistance",
+          "label": "Financial assistance"
+        }
+      ],
+      "dbtScheme": null,
+      "implementingAgency": "District Social Welfare Offices",
+      "tags": [
+        "Marriage",
+        "Person With Disability",
+        "PwD"
+      ],
+      "schemeName": "Incentive Award For Marriage With Disabled Person",
+      "schemeShortTitle": "IAMDP",
+      "level": {
+        "value": "state",
+        "label": "State"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce87cd6d1a3bde4685312",
+          "label": "Social welfare & Empowerment"
+        }
+      ],
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://socialwelfare.mn.gov.in/media/filer_public/95/a0/95a06957-f9f8-4488-9ca2-72199ebe2a9a/merriage_incentive.pdf"
+        },
+        {
+          "title": "Application Form",
+          "url": "https://socialwelfare.mn.gov.in/media/filer_public/95/a0/95a06957-f9f8-4488-9ca2-72199ebe2a9a/merriage_incentive.pdf"
+        }
+      ],
+      "schemeImageUrl": "",
+      "briefDescription": "\"Incentive Award for Marriage with Disabled Person\" is a Grant by the Social Welfare Department, Govt. of Manipur. In this scheme, incentive is granted to a person who marries a Person with Disability. This is a State Sponsored Scheme. Only the citizens who are domicile of Manipur can apply.",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "\"Incentive Award for Marriage with Disabled Person\" is a Grant by the Social Welfare Department, Govt. of Manipur. In this scheme, incentive is granted to a person who marries a Person with Disability. This is a State Sponsored Scheme and only the citizens who are domicile of the State of Manipur can apply to this scheme. The marriage should take place in Manipur and both the husband and wife should be living together at the time of applying this scheme. Also, the marriage should be registered with the Registrar of Marriage. The application should be submitted through the respective District Social Welfare Officer."
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "₹ 15,000/- in the case of a girl marries a young man with a disability."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "₹ 20,000/- in the case of a young man mairres a girl with a disability."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "₹ 35,000/- in the case a girl with a disability marries a young man with a disability."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "detailedDescription_md": "&quot;Incentive Award for Marriage with Disabled Person&quot; is a Grant by the Social Welfare Department, Govt. of Manipur. In this scheme, incentive is granted to a person who marries a Person with Disability. This is a State Sponsored Scheme and only the citizens who are domicile of the State of Manipur can apply to this scheme. The marriage should take place in Manipur and both the husband and wife should be living together at the time of applying this scheme. Also, the marriage should be registered with the Registrar of Marriage. The application should be submitted through the respective District Social Welfare Officer.\n"
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "url": "https://socialwelfare.mn.gov.in/media/filer_public/95/a0/95a06957-f9f8-4488-9ca2-72199ebe2a9a/merriage_incentive.pdf",
+        "process": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 1: ",
+                "bold": true
+              },
+              {
+                "text": "The application form can be downloaded from the Department’s website www.socialwelfare.nic.in or collected from the District Social Welfare Offices, Office of CDPOs. The application forms are also available during MeeyamgiNumit at Chief Minister’s Darbar Hall."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2: ",
+                "bold": true
+              },
+              {
+                "text": "Fill in the mandatory fields of the Application Form, attach the supporting (self-attested) documents and the passport sized photograph."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 3: ",
+                "bold": true
+              },
+              {
+                "text": "Submit the form in the Office of the District Social Welfare Officer concerned."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 4: ",
+                "bold": true
+              },
+              {
+                "text": "The name of the selected beneficiaries will be made available in the Department's website or displayed on the notice board of the Directorate, Social Welfare/ District Social Welfare Offices."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n1. The applicant should be a domicile of the state of Manipur.\n1. The applicant should be of legal marriage age.\n1. The applicant should be marrying a Person with a Disability of legal marriage age. The age of the girl in the couple should not be less than 18 years and not more than 45 years at the time of marriage.\n1. The percentage of disability should be 40% and above.\n1. The applicant should not be an income taxpayer.\n1. The marriage should take place in Manipur and both the husband and wife should be living together at the time of applying this scheme.\n1. The marriage should be registered with the Registrar of Marriage and it shall fulfill the following conditions, namely: -\n\na)   neither party has a spouse living at the time of marriage;\nb)   at the time of marriage, neither party - \n                i.   is incapable of giving valid consent to it in consequence of unsoundness of mind; or\n                ii.  though capable of giving valid consent, has been suffering from a mental disorder of such a kind or to such an extent as to be unfit for marriage and the procreation of children; or\n                iii. has been subject to recurrent attacks of insanity or epilepsy;\nc)   The bridegroom has completed the age of 21 (twenty-one) years and the bride the age of 18 (eighteen) years at the time of marriage.\nd)   The parties are not within the degrees of prohibited relationship unless the custom or\nusage governing each of them permits marriage between the two;\ne)   Neither of the party is an idiot or lunatic.\n<br>\n\n**NOTE:** In the event of divorce or dissolution of the marriage taking place within the period 3 (three) years to 5 (five) years calculated from the date of receipt of the first installment of the incentive (i.e. 10% of the incentive), the spouse (either husband or wife) without disability, shall be liable to refund 50% of the total amount as an arrear of land revenue within one year of the occurrence failing which the principal amount with annual the interest of 6.5% will be charged to him/her.\n",
+      "eligibilityDescription": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should be a domicile of the state of Manipur."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should be of legal marriage age."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should be marrying a Person with a Disability of legal marriage age. The age of the girl in the couple should not be less than 18 years and not more than 45 years at the time of marriage."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The percentage of disability should be 40% and above."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should not be an income taxpayer."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The marriage should take place in Manipur and both the husband and wife should be living together at the time of applying this scheme."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The marriage should be registered with the Registrar of Marriage and it shall fulfill the following conditions, namely: -"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "a)   neither party has a spouse living at the time of marriage;"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "b)   at the time of marriage, neither party - "
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "                i.   is incapable of giving valid consent to it in consequence of unsoundness of mind; or"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "                ii.  though capable of giving valid consent, has been suffering from a mental disorder of such a kind or to such an extent as to be unfit for marriage and the procreation of children; or"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "                iii. has been subject to recurrent attacks of insanity or epilepsy;"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "c)   The bridegroom has completed the age of 21 (twenty-one) years and the bride the age of 18 (eighteen) years at the time of marriage."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "d)   The parties are not within the degrees of prohibited relationship unless the custom or"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "usage governing each of them permits marriage between the two;"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "e)   Neither of the party is an idiot or lunatic."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "NOTE:",
+              "bold": true
+            },
+            {
+              "text": " In the event of divorce or dissolution of the marriage taking place within the period 3 (three) years to 5 (five) years calculated from the date of receipt of the first installment of the incentive (i.e. 10% of the incentive), the spouse (either husband or wife) without disability, shall be liable to refund 50% of the total amount as an arrear of land revenue within one year of the occurrence failing which the principal amount with annual the interest of 6.5% will be charged to him/her."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "iamdp"
+}

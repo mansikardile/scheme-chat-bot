@@ -1,0 +1,339 @@
+{
+  "_id": "67b1f32350fc00c18b822490",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Woman",
+        "Employment",
+        "Training",
+        "Financial Assistance"
+      ],
+      "schemeName": "Grant-in-Aid Scheme to Provide Financial Assistance to the Mahila Mandals",
+      "schemeShortTitle": "GIASPFAMM",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce85cd6d1a3bde4685304",
+          "label": "Skills & Employment"
+        },
+        {
+          "value": "64f57d10ffb93104c7006c97",
+          "label": "Women and Child"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Career information",
+          "label": "Career information"
+        },
+        {
+          "value": "Employment services and jobs",
+          "label": "Employment services and jobs"
+        },
+        {
+          "value": "Training and Skill Up-gradation",
+          "label": "Training and Skill Up-gradation"
+        },
+        {
+          "value": "Voctional education",
+          "label": "Voctional education"
+        },
+        {
+          "value": "Financial Assistance",
+          "label": "Financial Assistance"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        },
+        {
+          "value": "joint-liability-groups",
+          "label": "Joint Liability Groups (JLGS)"
+        },
+        {
+          "value": "self-help-groups",
+          "label": "Self Help Groups (SHGS)"
+        }
+      ],
+      "state": {
+        "value": 30,
+        "label": "Goa"
+      },
+      "nodalDepartmentName": {
+        "value": 30000010,
+        "label": "Commercial Taxes Department"
+      },
+      "schemeFor": "Infra"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines (Page No. 26)",
+          "url": "https://ditc.goa.gov.in/sites/default/files/Preferential-Purchase-Incentives-for-Micro-and-Small-Enterprises.pdf"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "Launched in 2009, the scheme &quot;Grant-in-Aid Scheme to Provide Financial Assistance to the Mahila Mandals&quot; by the Directorate of Women &amp; Child Development, Government of Goa, aims to provide financial assistance to Mahila Mandals for training and orientation programs to generate self-employment opportunities for women. The scheme encourages socio-educational activities and strengthens the functioning of Mahila Mandals. Eligible Mahila Mandals must be registered and operational for at least two years within the state of Goa. The scheme is implemented by the Child Development Project Officer (CDPO) of the respective block, who ensures effective implementation and monitoring of the program.\n",
+      "benefits_md": "**Financial Assistance**\n\n- An annual grant of ₹5,000/- is provided to registered Mahila Mandals for successful functioning in Goa.\n- A financial assistance of ₹2,000/- is sanctioned per course for the purchase of raw materials to conduct self-employment activities.\n- Resource persons may be provided by the Directorate for each course of activity through CDPOs.\n\n**Conditions**\n\n- Financial assistance is sanctioned on a first-come, first-served basis, subject to government decision.\n- Each Mahila Mandal can opt for only one training program at a time.\n- Training duration should not be less than 4 hours per day for a course lasting 5 to 15 days.\n- Regular attendance of participants must be maintained.\n\n",
+      "briefDescription": "\"Grant-in-Aid Scheme to Provide Financial Assistance to the Mahila Mandals\" aims to provide financial assistance to Mahila Mandals for training and self-employment activities. The scheme benefits registered Mahila Mandals in Goa, encouraging women's socio-economic development.",
+      "exclusions_md": "",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Launched in 2009, the scheme \"Grant-in-Aid Scheme to Provide Financial Assistance to the Mahila Mandals\" by the Directorate of Women & Child Development, Government of Goa, aims to provide financial assistance to Mahila Mandals for training and orientation programs to generate self-employment opportunities for women. The scheme encourages socio-educational activities and strengthens the functioning of Mahila Mandals. Eligible Mahila Mandals must be registered and operational for at least two years within the state of Goa. The scheme is implemented by the Child Development Project Officer (CDPO) of the respective block, who ensures effective implementation and monitoring of the program."
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Financial Assistance",
+              "bold": true,
+              "underline": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "An annual grant of ₹5,000/- is provided to registered Mahila Mandals for successful functioning in Goa."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "A financial assistance of ₹2,000/- is sanctioned per course for the purchase of raw materials to conduct self-employment activities."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Resource persons may be provided by the Directorate for each course of activity through CDPOs."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Conditions",
+              "bold": true,
+              "underline": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Financial assistance is sanctioned on a first-come, first-served basis, subject to government decision."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Each Mahila Mandal can opt for only one training program at a time."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Training duration should not be less than 4 hours per day for a course lasting 5 to 15 days."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Regular attendance of participants must be maintained."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "process": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "The application should be submitted through the Child Development Project Officer (CDPO) of the concerned block. The Mukhya Sevika at the village level of the respective block will assist the Mahila Mandal in the submission process."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Post-Application Processes",
+                "bold": true,
+                "underline": true
+              }
+            ]
+          },
+          {
+            "type": "ul_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Review and Sanction:",
+                    "bold": true
+                  },
+                  {
+                    "text": " The CDPO will review the application and forward it to the Directorate of Women & Child Development. Financial assistance will be sanctioned on a first-come, first-served basis, subject to government approval."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Conduction of Training Program:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Once the financial assistance is sanctioned, the Mahila Mandal can conduct the training program. The date, time, and place of the training program must be fixed and informed to the Directorate of Women & Child Development before commencement."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Submission of Utilization Certificate:",
+                    "bold": true
+                  },
+                  {
+                    "text": " After the completion of the training program, the Mahila Mandal must submit the utilization certificate within one week. The CDPO will counter-sign the utilization certificate and forward it to the Director."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Monitoring and Reporting",
+                "bold": true,
+                "underline": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "The CDPO will submit monthly progress reports to the Directorate. A review of the scheme's implementation will be conducted in the monthly meeting at the Directorate."
+              }
+            ]
+          }
+        ],
+        "process_md": "The application should be submitted through the Child Development Project Officer (CDPO) of the concerned block. The Mukhya Sevika at the village level of the respective block will assist the Mahila Mandal in the submission process.\n**Post-Application Processes**\n\n- **Review and Sanction:** The CDPO will review the application and forward it to the Directorate of Women &amp; Child Development. Financial assistance will be sanctioned on a first-come, first-served basis, subject to government approval.- **Conduction of Training Program:** Once the financial assistance is sanctioned, the Mahila Mandal can conduct the training program. The date, time, and place of the training program must be fixed and informed to the Directorate of Women &amp; Child Development before commencement.- **Submission of Utilization Certificate:** After the completion of the training program, the Mahila Mandal must submit the utilization certificate within one week. The CDPO will counter-sign the utilization certificate and forward it to the Director.\n**Monitoring and Reporting**\nThe CDPO will submit monthly progress reports to the Directorate. A review of the scheme&#39;s implementation will be conducted in the monthly meeting at the Directorate.\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n- The Mahila Mandal must have valid registration with the competent authority.\n- The Mahila Mandal must have been operating successfully within the state of Goa for the last 2 years.\n- Each group must submit a project report specifying the activities/training and a list of prospective beneficiaries with educational details.\n- There must be a minimum of 20 members for training/orientation.\n\n_*The government may relax any provision of the scheme at its discretion._\n_*No additional liability for house rent, electricity bills, or water bills will be borne by the government under the scheme._\n",
+      "eligibilityDescription": [
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The Mahila Mandal must have valid registration with the competent authority."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The Mahila Mandal must have been operating successfully within the state of Goa for the last 2 years."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Each group must submit a project report specifying the activities/training and a list of prospective beneficiaries with educational details."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "There must be a minimum of 20 members for training/orientation."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "*The government may relax any provision of the scheme at its discretion.",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "*No additional liability for house rent, electricity bills, or water bills will be borne by the government under the scheme.",
+              "italic": true
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "giaspfamm"
+}

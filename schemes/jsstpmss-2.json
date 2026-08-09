@@ -1,0 +1,678 @@
+{
+  "_id": "676e73ecae68fb2cde6029e5",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": true,
+      "tags": [
+        "Financial Assistance",
+        "Student",
+        "Scholarship",
+        "Scheduled Tribe",
+        "Pre-Matric"
+      ],
+      "schemeName": "Jharkhand State Scheduled Tribe Pre-Matric Scholarship Scheme",
+      "schemeShortTitle": "JSSTPMSS-2",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce76cd6d1a3bde4685292",
+          "label": "Education & Learning"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Scholarships and student finance",
+          "label": "Scholarships and student finance"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "state": {
+        "value": 20,
+        "label": "Jharkhand"
+      },
+      "nodalDepartmentName": {
+        "value": 2000026,
+        "label": "Department of Scheduled Tribe, Scheduled Caste, Minority and Backward Class Welfare"
+      },
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://ekalyan.cgg.gov.in/downloads/Pre_Matric_Scholarship_sankalp_2022.pdf"
+        },
+        {
+          "title": "Official Website",
+          "url": "https://ekalyan.cgg.gov.in/"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The &quot;Jharkhand State Scheduled Tribe Pre-Matric Scholarship Scheme&quot; was launched by the Department of Scheduled Tribe, Scheduled Caste, Minority and Backward Class Welfare, Government of Jharkhand. The scheme aims to promote education and reduce dropout rates among Scheduled Tribe students. It provides financial assistance to students from Class 1st to 10th who are studying in government schools in Jharkhand and covers tuition fees, hostel expenses, and other educational costs.\n",
+      "benefits_md": "> **Financial assistance to cover educational expenses:**\n\n**S.NO****Class****Rate for Hostel (For 10 months)****Rate for Daylight (For 10 months)**11st to 5th₹1,500/-₹1,500/-26th to 8th₹2000/-₹2,500/-39th to 10th₹4,500/-₹4,500/-<br>\n\n**NOTE:** \n\n- Direct transfer of scholarships to beneficiaries’ bank accounts via PFMS.\n- Residential students receive higher scholarship amounts compared to non-residential students.\n- Class 9th and 10th scholarships are funded jointly by the state (40%) and central (60%) governments.\n",
+      "briefDescription": "The \"Jharkhand State Scheduled Tribe Pre-Matric Scholarship Scheme\" aims to promote education and reduce dropout rates among Scheduled Tribe students. It provides financial assistance to students from Class 1st to 10th who are studying in government schools in Jharkhand.",
+      "exclusions_md": "",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The \"Jharkhand State Scheduled Tribe Pre-Matric Scholarship Scheme\" was launched by the Department of Scheduled Tribe, Scheduled Caste, Minority and Backward Class Welfare, Government of Jharkhand. The scheme aims to promote education and reduce dropout rates among Scheduled Tribe students. It provides financial assistance to students from Class 1"
+            },
+            {
+              "text": "st",
+              "superscript": true
+            },
+            {
+              "text": " to 10"
+            },
+            {
+              "text": "th",
+              "superscript": true
+            },
+            {
+              "text": " who are studying in government schools in Jharkhand and covers tuition fees, hostel expenses, and other educational costs."
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "Financial assistance to cover educational expenses:",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "children": [
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "S.NO",
+                      "bold": true
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Class",
+                      "bold": true
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Rate for Hostel (For 10 months)",
+                      "bold": true
+                    }
+                  ]
+                },
+                {
+                  "type": "table",
+                  "children": [
+                    {
+                      "type": "table_row",
+                      "children": [
+                        {
+                          "type": "table_cell",
+                          "children": [
+                            {
+                              "text": "Rate for Daylight (For 10 months)",
+                              "bold": true
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "1"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "1"
+                    },
+                    {
+                      "text": "st",
+                      "superscript": true
+                    },
+                    {
+                      "text": " to 5"
+                    },
+                    {
+                      "text": "th",
+                      "superscript": true
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "₹1,500/-"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "₹1,500/-"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "2"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "6"
+                    },
+                    {
+                      "text": "th",
+                      "superscript": true
+                    },
+                    {
+                      "text": " to 8"
+                    },
+                    {
+                      "text": "th",
+                      "superscript": true
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "₹2000/-"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "₹2,500/-"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "3"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "9"
+                    },
+                    {
+                      "text": "th",
+                      "superscript": true
+                    },
+                    {
+                      "text": " to 10"
+                    },
+                    {
+                      "text": "th",
+                      "superscript": true
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "₹4,500/-"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "₹4,500/-"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "bold": true,
+              "text": "NOTE: "
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Direct transfer of scholarships to beneficiaries’ bank accounts via PFMS."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Residential students receive higher scholarship amounts compared to non-residential students."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Class 9"
+                },
+                {
+                  "text": "th",
+                  "superscript": true
+                },
+                {
+                  "text": " and 10"
+                },
+                {
+                  "text": "th",
+                  "superscript": true
+                },
+                {
+                  "text": " scholarships are funded jointly by the state (40%) and central (60%) governments."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Online",
+        "process": [
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "bold": true,
+                "italic": true,
+                "text": "Application Process for Student:",
+                "underline": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Document Preparation:",
+                "bold": true,
+                "underline": true
+              }
+            ]
+          },
+          {
+            "type": "ul_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Ensure all required documents are ready, including Aadhaar, caste certificate, income certificate (if applicable), and Aadhaar-linked bank account details."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Submission to School:",
+                "bold": true,
+                "underline": true
+              }
+            ]
+          },
+          {
+            "type": "ul_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Submit the required documents and information to the school principal for entry into the e-Kalyan portal."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Aadhaar Authentication:",
+                "bold": true,
+                "underline": true
+              }
+            ]
+          },
+          {
+            "type": "ul_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Ensure Aadhaar authentication is completed to generate a unique ID for the application."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "bold": true,
+                "italic": true,
+                "text": "Application Process for Schools (Principal/INO Role):",
+                "underline": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Login Setup:",
+                "bold": true,
+                "underline": true
+              }
+            ]
+          },
+          {
+            "type": "list_item",
+            "children": [
+              {
+                "text": "Principals or headmasters (Institute Nodal Officers) register schools using their UDISE code on the "
+              },
+              {
+                "type": "link",
+                "link": "https://ekalyan.cgg.gov.in/Login.do",
+                "children": [
+                  {
+                    "text": "e-Kalyan portal"
+                  }
+                ]
+              },
+              {
+                "text": "."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Student Registration:",
+                "bold": true,
+                "underline": true
+              }
+            ]
+          },
+          {
+            "type": "list_item",
+            "children": [
+              {
+                "text": "The school head enters eligible students’ details (name, DOB, Aadhaar)."
+              }
+            ]
+          },
+          {
+            "type": "list_item",
+            "children": [
+              {
+                "text": "New students must be registered immediately upon enrollment."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Aadhaar Authentication:",
+                "bold": true
+              }
+            ]
+          },
+          {
+            "type": "list_item",
+            "children": [
+              {
+                "text": "A unique ID is generated post-verification and is valid for subsequent years."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Approval Workflow:",
+                "bold": true,
+                "underline": true
+              }
+            ]
+          },
+          {
+            "type": "list_item",
+            "children": [
+              {
+                "text": "Applications are verified by District Nodal Officers (DNOs) and forwarded to the District Level Approval Committee."
+              }
+            ]
+          },
+          {
+            "type": "list_item",
+            "children": [
+              {
+                "text": "Approved applications are sent to the State Nodal Officer (SNO) for integration and payment processing."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Scholarship Disbursement:",
+                "bold": true,
+                "underline": true
+              }
+            ]
+          },
+          {
+            "type": "list_item",
+            "children": [
+              {
+                "text": "Payments are made through the Aadhaar Payment Bridge System (APBS) or PFMS/NACH for non-linked accounts."
+              }
+            ]
+          }
+        ],
+        "process_md": "> ***Application Process for Student:***\n\n**Document Preparation:**\n\n- Ensure all required documents are ready, including Aadhaar, caste certificate, income certificate (if applicable), and Aadhaar-linked bank account details.\n\n**Submission to School:**\n\n- Submit the required documents and information to the school principal for entry into the e-Kalyan portal.\n\n**Aadhaar Authentication:**\n\n- Ensure Aadhaar authentication is completed to generate a unique ID for the application.\n\n<br>\n\n> ***Application Process for Schools (Principal/INO Role):***\n\n**Login Setup:**\n- Principals or headmasters (Institute Nodal Officers) register schools using their UDISE code on the [e-Kalyan portal](https://ekalyan.cgg.gov.in/Login.do).**Student Registration:**\n- The school head enters eligible students’ details (name, DOB, Aadhaar).\n- New students must be registered immediately upon enrollment.\n**Aadhaar Authentication:**\n- A unique ID is generated post-verification and is valid for subsequent years.\n**Approval Workflow:**\n- Applications are verified by District Nodal Officers (DNOs) and forwarded to the District Level Approval Committee.\n- Approved applications are sent to the State Nodal Officer (SNO) for integration and payment processing.\n**Scholarship Disbursement:**\n- Payments are made through the Aadhaar Payment Bridge System (APBS) or PFMS/NACH for non-linked accounts.\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n1. The applicant/parents/guardians should be a native of Jharkhand.\n1. The applicant should be a student.\n1. The applicant must belong to the Scheduled Tribe category.\n1. The applicant must be enrolled in a state government-recognized school.\n1. There is no income limit for students from Class 1st to 8th.1. The applicant&#39;s annual family income should not exceed ₹2,50,000/- for Class 9th and 10th.\n",
+      "eligibilityDescription": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant/parents/guardians should be a native of Jharkhand."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should be a student."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must belong to the Scheduled Tribe category."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must be enrolled in a state government-recognized school."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "There is no income limit for students from Class 1"
+                },
+                {
+                  "text": "st",
+                  "superscript": true
+                },
+                {
+                  "text": " to 8"
+                },
+                {
+                  "text": "th",
+                  "superscript": true
+                },
+                {
+                  "text": "."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant's annual family income should not exceed ₹2,50,000/- for Class 9"
+                },
+                {
+                  "text": "th",
+                  "superscript": true
+                },
+                {
+                  "text": " and 10"
+                },
+                {
+                  "text": "th",
+                  "superscript": true
+                },
+                {
+                  "text": "."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "jsstpmss-2"
+}

@@ -1,0 +1,565 @@
+{
+  "_id": "6423ea0b595ee70716d0d8be",
+  "en": {
+    "basicDetails": {
+      "schemeOpenDate": "2006-01-01",
+      "schemeCloseDate": null,
+      "state": {
+        "value": 29,
+        "label": "Karnataka"
+      },
+      "nodalMinistryName": null,
+      "nodalDepartmentName": {
+        "value": 3000025,
+        "label": "Woman and Child Development Department"
+      },
+      "otherMinistryName": null,
+      "otherDepartmentNames": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Financial assistance",
+          "label": "Financial assistance"
+        }
+      ],
+      "dbtScheme": null,
+      "implementingAgency": null,
+      "tags": [
+        "Below Poverty Line",
+        "Female Children",
+        "Financial Aid",
+        "Bhagyalaxmi Yojana"
+      ],
+      "schemeName": "Bhagyalaxmi Scheme",
+      "schemeShortTitle": "BYS",
+      "level": {
+        "value": "state",
+        "label": "State"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce87cd6d1a3bde4685312",
+          "label": "Social welfare & Empowerment"
+        },
+        {
+          "value": "64f57d10ffb93104c7006c97",
+          "label": "Women and Child"
+        }
+      ],
+      "schemeFor": "Family"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "url": "https://kmea.karnataka.gov.in/storage/pdf-files/Reports%20and%20other%20docs/ToR%20Bhagyalakshmi.pdf",
+          "title": "Guideline"
+        },
+        {
+          "title": "Official Site",
+          "url": "http://blakshmi.kar.nic.in:8080/First.jsp"
+        }
+      ],
+      "schemeImageUrl": "",
+      "briefDescription": "The prime goal of this scheme aims to promote the birth of girl children in below poverty line(BPL) families and to raise the status of the girl child in the family in particular and society in general. Financial assistance is provided to the girl child through her mother/father or natural guardian.",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Detail",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The Karnataka state government will give female children financial aid under the Karnataka Bhagya Lakshmi Scheme. The payment of this support is to be made through the mother, father, or legal guardian provided that all requirements are met. "
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "bold": true,
+              "text": "The objective of this scheme"
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "To promote the birth of girl children among families identified as below the poverty line."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "To increase the status of girl child thereby raising the status of the society."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "To Promote the birth of girl child in economically weaker families and to raise their status within the family and society."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "To provide Financial assistance to the girl child through her mother/father/natural guardian subject to the fulfilment of certain conditions"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 3,
+        "value": "composite",
+        "label": "Composite"
+      },
+      "benefits": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Benefits",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Beneficiary: Mother/Father/Natural guardian"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The child gets health insurance coverage up to a maximum of Rs. 25,000 a year."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The annual scholarship of Rs. 300 to Rs. 1,000 up to the tenth standard is given to the girl"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "To Promote the birth of girl children in economically weaker families and to raise their status within the family and society."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "To provide Financial assistance to the girl child through her mother/father/natural guardian subject to the fulfilment of certain conditions"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Apart from these benefits, the parents have got Rs. 1 lakh in case of an accident and Rs. 42,500 for the natural death of the beneficiary. At the end of 18 years, the beneficiary would be paid Rs.34, 751."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Certain interim payments such as annual scholarships and insurance benefits have made available to the beneficiary on continued fulfilment of the eligibility criteria"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "bold": true,
+                  "text": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "bold": true,
+              "text": "The annual scholarship amount for Bhagya Laxmi Scheme is given in the table below:"
+            }
+          ]
+        },
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "A scholarship of Rs.300 per annum for girls in classes 1st to 3rd"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "A scholarship of Rs.500 per annum for girls in classes 4th"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "A scholarship of Rs.600 per annum for girls in classes 5th"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "A scholarship of Rs.700 per annum for girls in classes 6th and 7th"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "A scholarship of Rs.800 per annum for girls in classes 8th"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "A scholarship of Rs.1,000 per annum for girls in classes 9th and 10th"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "detailedDescription_md": "**Detail**\nThe Karnataka state government will give female children financial aid under the Karnataka Bhagya Lakshmi Scheme. The payment of this support is to be made through the mother, father, or legal guardian provided that all requirements are met. \n<br>\n\n**The objective of this scheme**\n\n- To promote the birth of girl children among families identified as below the poverty line.\n- To increase the status of girl child thereby raising the status of the society.\n- To Promote the birth of girl child in economically weaker families and to raise their status within the family and society.\n- To provide Financial assistance to the girl child through her mother/father/natural guardian subject to the fulfilment of certain conditions\n\n<br>\n\n<br>\n\n<br>\n\n<br>\n\n"
+    },
+    "applicationProcess": [
+      {
+        "mode": "Online",
+        "url": "http://blakshmi.kar.nic.in:8080/First.jsp",
+        "process": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Application Process",
+                "bold": true
+              }
+            ]
+          },
+          {
+            "type": "ol_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "First of all, go to the "
+                  },
+                  {
+                    "type": "link",
+                    "link": "http://blakshmi.kar.nic.in:8080/First.jsp",
+                    "children": [
+                      {
+                        "text": "official website"
+                      }
+                    ]
+                  },
+                  {
+                    "text": " of Bhagya Laxmi Yojana Karnataka."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "The homepage of the website will open on the screen."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Now click on the Bhagya Laxmi Yojana Application "
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://pmmodiyojana.in/wp-content/uploads/2023/02/Bhagya-Form.pdf",
+                    "children": [
+                      {
+                        "text": "form link."
+                      }
+                    ]
+                  },
+                  {
+                    "text": ""
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "The PDF of the application form will open on the screen."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Now, fill in the form with all the required details."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Finally submit the form to the concerned authority."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "mode": "Offline",
+        "url": "",
+        "process": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "To apply offline, the candidates may contact either of these:",
+                "bold": true
+              }
+            ]
+          },
+          {
+            "type": "ol_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Aanganwadi Center"
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Grampanchayat Office"
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "NGOs"
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Authorized Banks"
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Municipal Corporations"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "**Eligibility**\n\n1. A girl’s birth must be registered within a year after her birth date.\n1. Girls shouldn’t engage in child labour.\n1. Benefits from the Bhagyalakshmi scheme are available to BPL families with up to 2 female children.\n1. Girls should have been immunized correctly in the health department’s program.\n1. Girl children must be born after 31 March 2006 in a BPL family.\n1. A girl must have completed the eighth grade to be eligible for the maturity amount\n1. She cannot have been married off before turning 18 years old.\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Eligibility",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "A girl’s birth must be registered within a year after her birth date."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Girls shouldn’t engage in child labour."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Benefits from the Bhagyalakshmi scheme are available to BPL families with up to 2 female children."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Girls should have been immunized correctly in the health department’s program."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Girl children must be born after 31 March 2006 in a BPL family."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "A girl must have completed the eighth grade to be eligible for the maturity amount"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "She cannot have been married off before turning 18 years old."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "bys"
+}

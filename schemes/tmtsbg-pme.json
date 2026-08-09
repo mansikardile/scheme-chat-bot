@@ -1,0 +1,348 @@
+{
+  "_id": "660e4619ff0ffe4f91cb0fd2",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Student",
+        "Book Grant",
+        "Post-matric Courses",
+        "Education",
+        "Financial Assistance"
+      ],
+      "schemeName": "The Meghalaya Tribal Students’ Book Grant (Post-Matric Education)",
+      "schemeShortTitle": "TMTSBG-PME",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce76cd6d1a3bde4685292",
+          "label": "Education & Learning"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Scholarships and student finance",
+          "label": "Scholarships and student finance"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "family",
+          "label": "Family"
+        }
+      ],
+      "schemeFor": "Individual",
+      "state": {
+        "value": 17,
+        "label": "Meghalaya"
+      },
+      "nodalDepartmentName": {
+        "value": 1777781,
+        "label": "Education Department"
+      }
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines And Application Form",
+          "url": "https://meghalaya.gov.in/sites/default/files/documents/handbook_of_Scholarship_Schemes_0.pdf"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "&quot;The Meghalaya Tribal Students’ Book Grant (Post-Matric Education)&quot; scheme was launched by the Directorate of Higher and Technical Education, Meghalaya. Through this scheme, financial assistance is provided to the meritorious tribal students for the purchase of books for their studies. The student should be enrolled in a recognized institution in India.\n",
+      "benefits_md": "The amount of grant per student per academic course will be as follows:\n\n- Class 11th - 12th (Arts &amp; Commerce): ₹500/- \n- Class 11th - 12th (Science): ₹700/- \n- Degree Arts (Pass): ₹600/- \n- Degree Arts (Honours): ₹750/- \n- Degree Science (Pass): ₹900/- \n- Degree Science (Honours): ₹1000/- \n- Post-Graduate Course (Arts &amp; Commerce): ₹900/- \n- Post Graduate Course (Science): ₹1200/- \n- Research studies for (Ph.D. M.Phil, or M.Lit.): ₹1500/- \n\n**NOTE:** A student receiving a book grant from the Government for a particular course of study, if changes the course of study will not be granted further grants. \n> **Disbursement**\n\nThe grant to the selected candidates shall be paid through their parents/guardians or through the Instructions in which the candidates pursue their studies.\n",
+      "briefDescription": "\"The Meghalaya Tribal Students’ Book Grant (Post-Matric Education)\" scheme was launched by the Directorate of Higher and Technical Education, Meghalaya. Through this scheme, financial assistance is provided to the meritorious tribal students for the purchase of books for their studies.",
+      "exclusions_md": "<br>\n\n",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "\"The Meghalaya Tribal Students’ Book Grant (Post-Matric Education)\" scheme was launched by the Directorate of Higher and Technical Education, Meghalaya. Through this scheme, financial assistance is provided to the meritorious tribal students for the purchase of books for their studies. The student should be enrolled in a recognized institution in India."
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The amount of grant per student per academic course will be as follows:"
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Class 11th - 12th (Arts & Commerce): ₹500/- "
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Class 11th - 12th (Science): ₹700/- "
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Degree Arts (Pass): ₹600/- "
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Degree Arts (Honours): ₹750/- "
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Degree Science (Pass): ₹900/- "
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Degree Science (Honours): ₹1000/- "
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Post-Graduate Course (Arts & Commerce): ₹900/- "
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Post Graduate Course (Science): ₹1200/- "
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Research studies for (Ph.D. M.Phil, or M.Lit.): ₹1500/- "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "NOTE: ",
+              "bold": true
+            },
+            {
+              "text": "A student receiving a book grant from the Government for a particular course of study, if changes the course of study will not be granted further grants. "
+            }
+          ]
+        },
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "bold": true,
+              "text": "Disbursement"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The grant to the selected candidates shall be paid through their parents/guardians or through the Instructions in which the candidates pursue their studies."
+            }
+          ]
+        }
+      ],
+      "exclusions": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "process": [
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "text": "Advertisements of scholarship schemes are given to the Press and Government Website [meghalaya.gov.in] after the publication of Boards and University results.",
+                "italic": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 1:",
+                "bold": true
+              },
+              {
+                "text": " The interested applicant should take print of the prescribed format "
+              },
+              {
+                "type": "link",
+                "link": "https://meghalaya.gov.in/sites/default/files/documents/handbook_of_Scholarship_Schemes_0.pdf",
+                "children": [
+                  {
+                    "text": "(ANNEXURE ‘A’)"
+                  }
+                ]
+              },
+              {
+                "text": " of the application form."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2:",
+                "bold": true
+              },
+              {
+                "text": " In the application form, fill in all the mandatory fields and attach copies of all the mandatory documents (self-attest, if required)."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 3:",
+                "bold": true
+              },
+              {
+                "text": " Submit the duly filled and signed application form along with the documents to the Director of Public Instruction, Meghalaya through the Head of the Institution where the candidate is pursuing his studies."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 4:",
+                "bold": true
+              },
+              {
+                "text": " Request a receipt or acknowledgment from the concerned authority to whom the application has been submitted. Ensure that the receipt contains essential details such as the date and time of submission, and a unique identification number (if applicable)."
+              }
+            ]
+          }
+        ],
+        "process_md": "> _Advertisements of scholarship schemes are given to the Press and Government Website [meghalaya.gov.in] after the publication of Boards and University results._\n\n**Step 1:** The interested applicant should take print of the prescribed format [(ANNEXURE ‘A’)](https://meghalaya.gov.in/sites/default/files/documents/handbook_of_Scholarship_Schemes_0.pdf) of the application form.\n**Step 2:** In the application form, fill in all the mandatory fields and attach copies of all the mandatory documents (self-attest, if required).\n**Step 3:** Submit the duly filled and signed application form along with the documents to the Director of Public Instruction, Meghalaya through the Head of the Institution where the candidate is pursuing his studies.\n**Step 4:** Request a receipt or acknowledgment from the concerned authority to whom the application has been submitted. Ensure that the receipt contains essential details such as the date and time of submission, and a unique identification number (if applicable).\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n1. The applicant should be a permanent resident of Meghalaya.\n1. The applicant should be a student.\n1. The applicant should belong to the Khasi-Jaintia or Garo Community or as decided by the state government from time to time.\n1. The applicant should have secured at least 60% marks in aggregate in the preceding examination conducted by the Board/University.\n1. The courses of study should be a regular course other than technical or vocational course.\n1. The course should be pursued by a recognized institution in India.\n1. The applicant should not be employed in any capacity under the Government.\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should be a permanent resident of Meghalaya."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should be a student."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should belong to the Khasi-Jaintia or Garo Community or as decided by the state government from time to time."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should have secured at least 60% marks in aggregate in the preceding examination conducted by the Board/University."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The courses of study should be a regular course other than technical or vocational course."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The course should be pursued by a recognized institution in India."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should not be employed in any capacity under the Government."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "tmtsbg-pme"
+}

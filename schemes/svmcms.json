@@ -1,0 +1,1216 @@
+{
+  "_id": "658423ad6093f0fa3305d5cb",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": true,
+      "tags": [
+        "Student",
+        "Financial Assistance",
+        "Education"
+      ],
+      "schemeName": "Swami Vivekananda Merit-cum-Means Scholarship",
+      "schemeShortTitle": "SVMCMS",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce76cd6d1a3bde4685292",
+          "label": "Education & Learning"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Scholarships and student finance",
+          "label": "Scholarships and student finance"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "schemeFor": "Individual",
+      "state": {
+        "value": 19,
+        "label": "West Bengal"
+      },
+      "nodalDepartmentName": {
+        "value": 19999918,
+        "label": "Higher Education Department"
+      }
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://svmcm.wb.gov.in/readwrite/SVMCM_GUIDELINES.pdf"
+        },
+        {
+          "title": "User Manual",
+          "url": "https://svmcm.wb.gov.in/readwrite/SVMCM_MANUAL.pdf"
+        },
+        {
+          "title": "FAQ",
+          "url": "https://svmcm.wb.gov.in/page/faq.php"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "Swami Vivekananda Scholarship has been operated in the state of West Bengal by the Higher Education department, for students  who are not able to afford their fees. \nThe scheme benefits students studying at under Graduate level in Science/Arts/Commerce, Engineering, Medical and Technical / Professional courses, Post Graduate level students pursuing Science/Arts/Commerce &amp; Technical/Management. These scholarships will be sanctioned to deserving students on merit-cum-means criteria.\n<br>\n\n",
+      "benefits_md": "**Scholarship Details are follow :**\nCourseScholarship Rate Per Month (Rs.)UG(Art)₹ 1000/-UG(Commerce)₹ 1000/-UG (Science)₹ 1500/-UG (Other Professional Courses, Ugc Approved)₹ 1500/-PG (Arts)₹ 2000/-PG (Commerce)₹ 2000/-PG (Science)₹ 2500/-PG (Other Professional Courses, Ugc Approved)₹ 2500/-Non NET M.Phil./Non NET Ph.D.₹ 5000/- / ₹ 8000/- respectivelyHS₹ 1000/-D.El.Ed₹ 1000/-UG (Engg.), PG (Engg.) And Other Professional Courses (AICTE Approved)₹ 5000/-Polytechnic (Diploma Courses)₹ 1500/-UG (Medical-Degree) And Diploma Courses₹ 5000/- and  ₹ 1500/- respectively<br>\n\n",
+      "exclusions_md": "<br>\n\n",
+      "briefDescription": "\"Swami Vivekananda Merit-cum-Means Scholarship\" started by the Higher Education Department of West Bengal State for the financial assistance to the student.",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Swami Vivekananda Scholarship has been operated in the state of West Bengal by the Higher Education department, for students  who are not able to afford their fees. "
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The scheme benefits students studying at under Graduate level in Science/Arts/Commerce, Engineering, Medical and Technical / Professional courses, Post Graduate level students pursuing Science/Arts/Commerce & Technical/Management. These scholarships will be sanctioned to deserving students on merit-cum-means criteria."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Scholarship Details are follow :",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "children": [
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Course"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Scholarship Rate Per Month (Rs.)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table",
+                  "children": [
+                    {
+                      "type": "table_row",
+                      "children": [
+                        {
+                          "type": "table_cell",
+                          "children": [
+                            {
+                              "text": "UG(Art)"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "₹ 1000/-"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table",
+                  "children": [
+                    {
+                      "type": "table_row",
+                      "children": [
+                        {
+                          "type": "table_cell",
+                          "children": [
+                            {
+                              "text": "UG(Commerce)"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "₹ 1000/-"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table",
+                  "children": [
+                    {
+                      "type": "table_row",
+                      "children": [
+                        {
+                          "type": "table_cell",
+                          "children": [
+                            {
+                              "text": "UG (Science)"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "₹ 1500/-"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table",
+                  "children": [
+                    {
+                      "type": "table_row",
+                      "children": [
+                        {
+                          "type": "table_cell",
+                          "children": [
+                            {
+                              "text": "UG (Other Professional Courses, Ugc Approved)"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "₹ 1500/-"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table",
+                  "children": [
+                    {
+                      "type": "table_row",
+                      "children": [
+                        {
+                          "type": "table_cell",
+                          "children": [
+                            {
+                              "text": "PG (Arts)"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "₹ 2000/-"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table",
+                  "children": [
+                    {
+                      "type": "table_row",
+                      "children": [
+                        {
+                          "type": "table_cell",
+                          "children": [
+                            {
+                              "text": "PG (Commerce)"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "₹ 2000/-"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table",
+                  "children": [
+                    {
+                      "type": "table_row",
+                      "children": [
+                        {
+                          "type": "table_cell",
+                          "children": [
+                            {
+                              "text": "PG (Science)"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "₹ 2500/-"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table",
+                  "children": [
+                    {
+                      "type": "table_row",
+                      "children": [
+                        {
+                          "type": "table_cell",
+                          "children": [
+                            {
+                              "text": "PG (Other Professional Courses, Ugc Approved)"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "₹ 2500/-"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table",
+                  "children": [
+                    {
+                      "type": "table_row",
+                      "children": [
+                        {
+                          "type": "table_cell",
+                          "children": [
+                            {
+                              "text": "Non NET M.Phil./Non NET Ph.D."
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "₹ 5000/- / ₹ 8000/- respectively"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table",
+                  "children": [
+                    {
+                      "type": "table_row",
+                      "children": [
+                        {
+                          "type": "table_cell",
+                          "children": [
+                            {
+                              "text": "HS"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "₹ 1000/-"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table",
+                  "children": [
+                    {
+                      "type": "table_row",
+                      "children": [
+                        {
+                          "type": "table_cell",
+                          "children": [
+                            {
+                              "text": "D.El.Ed"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "₹ 1000/-"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table",
+                  "children": [
+                    {
+                      "type": "table_row",
+                      "children": [
+                        {
+                          "type": "table_cell",
+                          "children": [
+                            {
+                              "text": "UG (Engg.), PG (Engg.) And Other Professional Courses (AICTE Approved)"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "₹ 5000/-"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table",
+                  "children": [
+                    {
+                      "type": "table_row",
+                      "children": [
+                        {
+                          "type": "table_cell",
+                          "children": [
+                            {
+                              "text": "Polytechnic (Diploma Courses)"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "₹ 1500/-"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table",
+                  "children": [
+                    {
+                      "type": "table_row",
+                      "children": [
+                        {
+                          "type": "table_cell",
+                          "children": [
+                            {
+                              "text": "UG (Medical-Degree) And Diploma Courses"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "₹ 5000/- and  ₹ 1500/- respectively"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ],
+      "exclusions": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Online",
+        "process": [
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "text": "Registration Process:",
+                "bold": true,
+                "underline": true
+              }
+            ]
+          },
+          {
+            "type": "ol_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Applicant have to visit the official website "
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://svmcm.wbhed.gov.in/",
+                    "children": [
+                      {
+                        "text": "https://svmcm.wbhed.gov.in/"
+                      }
+                    ]
+                  },
+                  {
+                    "text": " and click on "
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://svmcm.wbhed.gov.in/page/application_procedure.php",
+                    "children": [
+                      {
+                        "text": "\"How To Apply\""
+                      }
+                    ]
+                  },
+                  {
+                    "text": "."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Read all the instruction carefully and "
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://svmcm.wbhed.gov.in/readwrite/SVMCM_MANUAL.pdf",
+                    "children": [
+                      {
+                        "text": "Manual"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "\"Check/select\" the declaration and click on proceed on "
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://svmcm.wbhed.gov.in/page/register.php",
+                    "children": [
+                      {
+                        "text": "registration"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Select the appropriate category of Directorate and click on \"Apply for Fresh Application\"."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Fillout the required details"
+                  }
+                ]
+              },
+              {
+                "type": "ul_list",
+                "children": [
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "text": "Details of Last Eligible Qualifying Board/Council/University Examination for Scholarship."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "text": "Present Course of Study."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "text": "Basic Details."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "text": "Password."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Click on register."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Complete the authenication via mobile OTP."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Login Credential be sent to your registered mobile no and an email containing the Applicant ID and a copy of Registration Slip will also be sent to your registered Email ID."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "text": "Apply Process",
+                "bold": true,
+                "underline": true
+              }
+            ]
+          },
+          {
+            "type": "ol_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Applicant have to visit the official website "
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://svmcm.wbhed.gov.in/",
+                    "children": [
+                      {
+                        "text": "https://svmcm.wbhed.gov.in/"
+                      }
+                    ]
+                  },
+                  {
+                    "text": " and click on \"Applicant Login\". "
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Enter the Applicant Id, Password (Which was set during registration process) and Security Code in the appeared pop-up. Then click on the Login"
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://svmcm.wbhed.gov.in/page/application_procedure.php",
+                    "children": [
+                      {
+                        "text": ""
+                      }
+                    ]
+                  },
+                  {
+                    "text": " button."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Complete the profile details, Personal Details and bank details."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Upload the required documents."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "After successful uploading of the documents, a success message will be displayed. Applicants may download the Application details by clicking on the Download Application Details button. Click on Submit."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "bold": true,
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "text": "Track the application",
+                "bold": true,
+                "underline": true
+              }
+            ]
+          },
+          {
+            "type": "ol_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Applicant have to visit the official website "
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://svmcm.wbhed.gov.in/",
+                    "children": [
+                      {
+                        "text": "https://svmcm.wbhed.gov.in/"
+                      }
+                    ]
+                  },
+                  {
+                    "text": " and click on \"Applicant Login\". "
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Click on View Profile option in Dashboard or click on View Application option under Application Details tab in Menu area. "
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Click on Track Profile button, given on the dashboard."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          }
+        ],
+        "process_md": "> **Registration Process:**\n\n\n1. Applicant have to visit the official website [https://svmcm.wbhed.gov.in/](https://svmcm.wbhed.gov.in/) and click on [&quot;How To Apply&quot;](https://svmcm.wbhed.gov.in/page/application_procedure.php).1. Read all the instruction carefully and [Manual](https://svmcm.wbhed.gov.in/readwrite/SVMCM_MANUAL.pdf).1. &quot;Check/select&quot; the declaration and click on proceed on [registration](https://svmcm.wbhed.gov.in/page/register.php).1. Select the appropriate category of Directorate and click on &quot;Apply for Fresh Application&quot;.\n1. Fillout the required details\n\n  - Details of Last Eligible Qualifying Board/Council/University Examination for Scholarship.\n  - Present Course of Study.\n  - Basic Details.\n  - Password.\n\n1. Click on register.\n1. Complete the authenication via mobile OTP.\n1. Login Credential be sent to your registered mobile no and an email containing the Applicant ID and a copy of Registration Slip will also be sent to your registered Email ID.\n\n<br>\n\n<br>\n\n> **Apply Process**\n\n\n1. Applicant have to visit the official website [https://svmcm.wbhed.gov.in/](https://svmcm.wbhed.gov.in/) and click on &quot;Applicant Login&quot;. 1. Enter the Applicant Id, Password (Which was set during registration process) and Security Code in the appeared pop-up. Then click on the Login button.1. Complete the profile details, Personal Details and bank details.\n1. Upload the required documents.\n1. After successful uploading of the documents, a success message will be displayed. Applicants may download the Application details by clicking on the Download Application Details button. Click on Submit.\n\n<br>\n\n> **Track the application**\n\n\n1. Applicant have to visit the official website [https://svmcm.wbhed.gov.in/](https://svmcm.wbhed.gov.in/) and click on &quot;Applicant Login&quot;. 1. Click on View Profile option in Dashboard or click on View Application option under Application Details tab in Menu area. \n1. Click on Track Profile button, given on the dashboard.\n\n<br>\n\n<br>\n\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n1. Student must be a domicile of West Bengal.\n1. Applicant family annual income must not more than ₹ 2,50,000/-.\n1. Courses:\n\n  - **High School (HS):**\n\n\n\n\n         1. Minimum 60% marks in the Madhyamik Pariksha exam.\n         1. Only students from the West Bengal Board of Secondary Education are eligible.\n\n\n\n\n  - **Diploma Courses:**\n\n\n\n\n         1. Minimum 60% marks in the qualifying exam (excluding optional subjects).\n         1. Courses must be approved by AICTE/PCI/CoA and affiliated to WBSCT&amp;VE&amp;SD.\n         1. Eligible students include those enrolled in the first year after passing the Madhyamik Pariksha or its equivalent, and those enrolled in the second year through lateral entry (after passing HS or equivalent).\n\n\n\n\n  - **Undergraduate (UG):**\n\n\n\n\n         1. Minimum 60% marks in aggregate in the HS exam conducted by WBCHSE/Madrasha Siksha Parishad.\n         1. Separate merit lists are prepared for Arts, Commerce, and Science streams.\n\n\n\n\n  - **Postgraduate (PG):**\n\n\n\n\n         1. Minimum 53% marks in the Honours subject at the graduation level.\n         1. Marks in the Honours subject are the sole criterion for scholarship award.\n         1. Kanyashree scholarship recipients (married/unmarried) pursuing PG in Science, Arts, and Commerce with a minimum 45% in their undergraduate degree are eligible. They don&#39;t need to submit income proof.\n\n\n\n\n  - **Research Level:**\n\n\n\n\n         1. Full-time M.Phil. or Ph.D. research scholars registered after April 1, 2017, are eligible (up to a maximum of 2 years for M.Phil. and 4 years for Ph.D.).\n         1. Financial assistance stops for NET-LS scholars upon their appointment as teachers\n\n\n\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Student must be a domicile of West Bengal."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Applicant family annual income must not more than ₹ 2,50,000/-."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Courses:"
+                }
+              ]
+            },
+            {
+              "type": "ul_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "High School (HS):",
+                      "bold": true
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "ol_list",
+              "children": [
+                {
+                  "type": "ol_list",
+                  "children": [
+                    {
+                      "type": "ol_list",
+                      "children": [
+                        {
+                          "type": "list_item",
+                          "children": [
+                            {
+                              "text": "Minimum 60% marks in the Madhyamik Pariksha exam."
+                            }
+                          ]
+                        },
+                        {
+                          "type": "list_item",
+                          "children": [
+                            {
+                              "text": "Only students from the West Bengal Board of Secondary Education are eligible."
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "ul_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Diploma Courses:",
+                      "bold": true
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "ol_list",
+              "children": [
+                {
+                  "type": "ol_list",
+                  "children": [
+                    {
+                      "type": "ol_list",
+                      "children": [
+                        {
+                          "type": "list_item",
+                          "children": [
+                            {
+                              "text": "Minimum 60% marks in the qualifying exam (excluding optional subjects)."
+                            }
+                          ]
+                        },
+                        {
+                          "type": "list_item",
+                          "children": [
+                            {
+                              "text": "Courses must be approved by AICTE/PCI/CoA and affiliated to WBSCT&VE&SD."
+                            }
+                          ]
+                        },
+                        {
+                          "type": "list_item",
+                          "children": [
+                            {
+                              "text": "Eligible students include those enrolled in the first year after passing the Madhyamik Pariksha or its equivalent, and those enrolled in the second year through lateral entry (after passing HS or equivalent)."
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "ul_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Undergraduate (UG):",
+                      "bold": true
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "ol_list",
+              "children": [
+                {
+                  "type": "ol_list",
+                  "children": [
+                    {
+                      "type": "ol_list",
+                      "children": [
+                        {
+                          "type": "list_item",
+                          "children": [
+                            {
+                              "text": "Minimum 60% marks in aggregate in the HS exam conducted by WBCHSE/Madrasha Siksha Parishad."
+                            }
+                          ]
+                        },
+                        {
+                          "type": "list_item",
+                          "children": [
+                            {
+                              "text": "Separate merit lists are prepared for Arts, Commerce, and Science streams."
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "ul_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Postgraduate (PG):",
+                      "bold": true
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "ol_list",
+              "children": [
+                {
+                  "type": "ol_list",
+                  "children": [
+                    {
+                      "type": "ol_list",
+                      "children": [
+                        {
+                          "type": "list_item",
+                          "children": [
+                            {
+                              "text": "Minimum 53% marks in the Honours subject at the graduation level."
+                            }
+                          ]
+                        },
+                        {
+                          "type": "list_item",
+                          "children": [
+                            {
+                              "text": "Marks in the Honours subject are the sole criterion for scholarship award."
+                            }
+                          ]
+                        },
+                        {
+                          "type": "list_item",
+                          "children": [
+                            {
+                              "text": "Kanyashree scholarship recipients (married/unmarried) pursuing PG in Science, Arts, and Commerce with a minimum 45% in their undergraduate degree are eligible. They don't need to submit income proof."
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "ul_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Research Level:",
+                      "bold": true
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "ol_list",
+              "children": [
+                {
+                  "type": "ol_list",
+                  "children": [
+                    {
+                      "type": "ol_list",
+                      "children": [
+                        {
+                          "type": "list_item",
+                          "children": [
+                            {
+                              "text": "Full-time M.Phil. or Ph.D. research scholars registered after April 1, 2017, are eligible (up to a maximum of 2 years for M.Phil. and 4 years for Ph.D.)."
+                            }
+                          ]
+                        },
+                        {
+                          "type": "list_item",
+                          "children": [
+                            {
+                              "text": "Financial assistance stops for NET-LS scholars upon their appointment as teachers"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "svmcms"
+}

@@ -1,0 +1,251 @@
+{
+  "_id": "64b8edd1b594314dec800a34",
+  "en": {
+    "basicDetails": {
+      "schemeOpenDate": "2021-10-28",
+      "schemeCloseDate": "2023-05-31",
+      "state": {
+        "value": 23,
+        "label": "Madhya Pradesh"
+      },
+      "nodalMinistryName": null,
+      "nodalDepartmentName": {
+        "value": 2300038,
+        "label": "Revenue Department"
+      },
+      "otherMinistryName": null,
+      "otherDepartmentNames": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Housing",
+          "label": "Housing"
+        }
+      ],
+      "dbtScheme": null,
+      "implementingAgency": null,
+      "tags": [
+        "Housing",
+        "Shelter",
+        "Land",
+        "Plots"
+      ],
+      "schemeName": "Mukhyamantri Aawasiye Bhu-Adhikaar Yojana",
+      "schemeShortTitle": "MABAY",
+      "level": {
+        "value": "state",
+        "label": "State"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce7d2d6d1a3bde46852c2",
+          "label": "Housing & Shelter"
+        }
+      ],
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://revenue.mp.gov.in/upload/files/094344313693.pdf"
+        },
+        {
+          "title": "Details",
+          "url": "https://saara.mp.gov.in/saaraweb/BhuSwamiAdhikar/ruralplot.html"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "Each family is entitled to live a dignified life with access to essential necessities. Those who are eligible for the housing schemes initiated by either the Central or State government can truly reap the benefits once they obtain a housing plot. Once the residential plot is secured, assistance can be availed for housing loans through government schemes and banks. In light of this, the state government is launching the &amp;quot;Mukhyamantri Awasiya Bhu-Adhikar Yojana,&amp;quot; aimed at granting eligible families residential plots on the &amp;#39;populated areas&amp;#39; within each gram panchayat region in rural areas.\n",
+      "benefits_md": "\n- Plot will be provided to all those families who do not have their own house.\n\n",
+      "briefDescription": "Revenue Department of Madhya Pradesh State started this scheme to provide residential plots. ",
+      "exclusions_md": "",
+      "detailedDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "Each family is entitled to live a dignified life with access to essential necessities. Those who are eligible for the housing schemes initiated by either the Central or State government can truly reap the benefits once they obtain a housing plot. Once the residential plot is secured, assistance can be availed for housing loans through government schemes and banks. In light of this, the state government is launching the \"Mukhyamantri Awasiya Bhu-Adhikar Yojana,\" aimed at granting eligible families residential plots on the 'populated areas' within each gram panchayat region in rural areas."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 2,
+        "value": "in-kind",
+        "label": "In Kind"
+      },
+      "benefits": [
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Plot will be provided to all those families who do not have their own house."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Online",
+        "url": "https://saara.mp.gov.in/",
+        "process": [
+          {
+            "type": "ol_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Applicants have to visit "
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://saara.mp.gov.in/",
+                    "children": [
+                      {
+                        "text": "official website."
+                      }
+                    ]
+                  },
+                  {
+                    "text": ""
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Click on \"Apply\" under the scheme name."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "On the "
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://saara.mp.gov.in/saaraweb/BhuSwamiAdhikar/ruralplot.html",
+                    "children": [
+                      {
+                        "text": "new page"
+                      }
+                    ]
+                  },
+                  {
+                    "text": ", click on the \"Avedan\". "
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Select the \"New Application\" option."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Now fill out the application form and provide the required details."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Submit"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "process_md": "\n1. Applicants have to visit [official website.](https://saara.mp.gov.in/)1. Click on &quot;Apply&quot; under the scheme name.\n1. On the [new page](https://saara.mp.gov.in/saaraweb/BhuSwamiAdhikar/ruralplot.html), click on the &quot;Avedan&quot;. 1. Select the &quot;New Application&quot; option.\n1. Now fill out the application form and provide the required details.\n1. Submit\n\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n1. The applicant family does not have a residence to live independently.\n1. The applicant family has less than 5 acres of land.\n1. The applicant family holds the eligibility slip for obtaining ration from the Public Distribution System (PDS) shop.\n1. No member of the applicant family is income tax payer.\n1. No member of the applicant family is in government service.\n1. The name of the applicant is registered in the voter list till January 01, 2021 in the village where he wants residential plot.\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant family does not have a residence to live independently."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant family has less than 5 acres of land."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant family holds the eligibility slip for obtaining ration from the Public Distribution System (PDS) shop."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "No member of the applicant family is income tax payer."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "No member of the applicant family is in government service."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The name of the applicant is registered in the voter list till January 01, 2021 in the village where he wants residential plot."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "mabay"
+}

@@ -1,0 +1,241 @@
+{
+  "_id": "64d36eafcc26959b8364a943",
+  "en": {
+    "basicDetails": {
+      "schemeOpenDate": null,
+      "schemeCloseDate": null,
+      "state": {
+        "value": 34,
+        "label": "Puducherry"
+      },
+      "nodalMinistryName": null,
+      "nodalDepartmentName": {
+        "value": 34000044,
+        "label": "Women and Child Development Department, Puducherry"
+      },
+      "otherMinistryName": null,
+      "otherDepartmentNames": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Financial assistance",
+          "label": "Financial assistance"
+        }
+      ],
+      "dbtScheme": null,
+      "implementingAgency": null,
+      "tags": [
+        "T.b.",
+        "Cancer",
+        "Old Age Pensioners",
+        "Destitude Pensioners",
+        "Puducherry"
+      ],
+      "schemeName": "Grant Of Financial Assistance For The Funeral Expenses Of Old Age/ Destitute Pensioner",
+      "schemeShortTitle": "Gfaffeoadp",
+      "level": {
+        "value": "state",
+        "label": "State"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce87cd6d1a3bde4685312",
+          "label": "Social welfare & Empowerment"
+        }
+      ],
+      "schemeType": null,
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Source",
+          "url": "https://oaps.py.gov.in/Home/MedicalAllowace.aspx"
+        }
+      ],
+      "schemeImageUrl": "",
+      "briefDescription": "The Government of Puducherry introduced the Grant Of Financial Assistance For The Funeral Expenses Of Old Age/Destitute Pensioner Scheme to extend a helping hand by way of monthly financial assistance to Old Age/Destitute Pensioners.",
+      "detailedDescription_md": "The Government of Puducherry introduced the Grant Of Financial Assistance For The Funeral Expenses Of Old Age/Destitute Pensioner Scheme to extend a helping hand by way of monthly financial assistance of ₹.500/- to Old Age/Destitute Pensioners who are suffering from T.B./Cancer to meet out the medical expenses.\n",
+      "benefits_md": "\n1. ₹ Rs.500/- pm in addition to the old age pension amount.\n\n",
+      "exclusions_md": "",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The Government of Puducherry introduced the Grant Of Financial Assistance For The Funeral Expenses Of Old Age/Destitute Pensioner Scheme to extend a helping hand by way of monthly financial assistance of ₹.500/- to Old Age/Destitute Pensioners who are suffering from T.B./Cancer to meet out the medical expenses."
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "₹ Rs.500/- pm in addition to the old age pension amount."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "url": "",
+        "process": [
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "text": "Whom to Apply"
+              }
+            ]
+          },
+          {
+            "type": "ul_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Puducherry:",
+                    "underline": true
+                  },
+                  {
+                    "text": " The Deputy Director (Social Defence), Old Age Pension Section, Department of Women and Child Development, Puducherry."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Karaikal:",
+                    "underline": true
+                  },
+                  {
+                    "text": " The Child Development Project Officer, Karaikal."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Mahe/Yanam:",
+                    "underline": true
+                  },
+                  {
+                    "text": " The Welfare Officer, Mahe/ Yanam."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "text": "Processing Time"
+              }
+            ]
+          },
+          {
+            "type": "ul_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Depending upon arising of vacancy in the Old Age Pension beneficiaries due to death and other reasons."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "text": "In case of delay whom to contact?"
+              }
+            ]
+          },
+          {
+            "type": "ul_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Puducherry:",
+                    "underline": true
+                  },
+                  {
+                    "text": " The Director, Department of Women and Child Development, Sithankudi, Puducherry."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Karaikal:",
+                    "underline": true
+                  },
+                  {
+                    "text": " The Collector, Karaikal."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Mahe/Yanam:",
+                    "underline": true
+                  },
+                  {
+                    "text": " The Regional Administrator, Mahe/Yanam."
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "process_md": "> Whom to Apply\n\n\n- Puducherry: The Deputy Director (Social Defence), Old Age Pension Section, Department of Women and Child Development, Puducherry.- Karaikal: The Child Development Project Officer, Karaikal.- Mahe/Yanam: The Welfare Officer, Mahe/ Yanam.\n> Processing Time\n\n\n- Depending upon arising of vacancy in the Old Age Pension beneficiaries due to death and other reasons.\n\n> In case of delay whom to contact?\n\n\n- Puducherry: The Director, Department of Women and Child Development, Sithankudi, Puducherry.- Karaikal: The Collector, Karaikal.- Mahe/Yanam: The Regional Administrator, Mahe/Yanam.\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "Old Age and Destitute pensioners suffering from T.B./Cancer.\n",
+      "eligibilityDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Old Age and Destitute pensioners suffering from T.B./Cancer."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "gfaffeoadp"
+}

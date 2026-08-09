@@ -1,0 +1,495 @@
+{
+  "_id": "65968ddfa733b1d73275fe7c",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Primary School",
+        "Student",
+        "Breakfast",
+        "Food",
+        "Children"
+      ],
+      "schemeName": "Chief Minister Breakfast Scheme",
+      "schemeShortTitle": "TNCMBS",
+      "implementingAgency": "Tamil Nadu Corporation For Development Of Women.",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce87cd6d1a3bde4685312",
+          "label": "Social welfare & Empowerment"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Food Security / Public Distribution System",
+          "label": "Food Security / Public Distribution System"
+        }
+      ],
+      "schemeOpenDate": "2022-05-05",
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "state": {
+        "value": 33,
+        "label": "Tamil Nadu"
+      },
+      "nodalDepartmentName": {
+        "value": 3333365,
+        "label": "Department of Social Welfare and Women Empowerment"
+      },
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://www.tnsocialwelfare.tn.gov.in/en/specilisationsnutritious-meal-programme/chief-ministers-breakfast-scheme"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "&lt;br&gt;\n\nThe Tamil Nadu Chief Minister Breakfast Scheme by the Department of Social Welfare and Women Empowerment  of the Tamil Nadu Government for School Students. Breakfast will be provided to primary school children from 1st to 5th standard studying in Government schools on all school working days. In the first phase, Corporations, Municipalities, and Panchayats were selected based on the high prevalence of Anemia as per NHFS-5 data, economically backward blocks as per SBGF, habitations of the Tribal population, and inaccessibility of the areas, which will be covered under this scheme. At present 1,14,095 primary school children studying in 1545 Government schools will be covered under the scheme a total cost of ₹33.56 crores which will be extended to remaining schools in a phased manner.\n",
+      "benefits_md": "**The following benefits will be provided to Students of Primary Schools under Tamil Nadu Chief Minister Breakfast Scheme:-**\n\n- Free Breakfast will be provided to all Primary School Students.\n- Breakfast has 13 Types of Food Items which will be distributed among Students.\n\n\n- Free Breakfast will be distributed daily from Monday to Friday on School Working Days.\n\n<br>\n\n**Days****Menu Type****Breakfast Food Items**MondayUppama TypeRava Uppama with Vegetable Sambhar.Vermicelli Uppama with Vegetable Sambhar.Rice Uppama with Vegetable Sambhar.Wheat Rava Uppama with Vegetable Sambhar.TuesdayKhichadi TypeRava Vegetable Kitchadi.Vermicelli Vegetable Kitchadi.Sorghum Vegetable Kitchadi.Wheat Rava Vegetable Kitchadi.WednesdayPongal TypeRava Pongal with Vegetable Sambhar.Pongal with Vegetable Sambhar.ThursdayUppama TypeVermicelli Uppama with Vegetable Sambhar.Rice Uppama with Vegetable Sambhar.Rava Uppama with Vegetable Sambhar.Wheat Rava Uppama with Vegetable Sambhar.FridaySweet TypeSweet Pongal.Rava Kesari.Vermicelli Kesari.<br>\n\n",
+      "briefDescription": "The objective of the Tamil Nadu Chief Minister Breakfast Scheme is that Breakfast will be provided to primary school children from 1st to 5th standard studying in Government schools on all school working days.",
+      "exclusions_md": "",
+      "detailedDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": ""
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "The Tamil Nadu Chief Minister Breakfast Scheme by the Department of Social Welfare and Women Empowerment  of the Tamil Nadu Government for School Students. Breakfast will be provided to primary school children from 1st to 5th standard studying in Government schools on all school working days. In the first phase, Corporations, Municipalities, and Panchayats were selected based on the high prevalence of Anemia as per NHFS-5 data, economically backward blocks as per SBGF, habitations of the Tribal population, and inaccessibility of the areas, which will be covered under this scheme. At present 1,14,095 primary school children studying in 1545 Government schools will be covered under the scheme a total cost of ₹33.56 crores which will be extended to remaining schools in a phased manner."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 2,
+        "value": "in-kind",
+        "label": "In Kind"
+      },
+      "benefits": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The following benefits will be provided to Students of Primary Schools under Tamil Nadu Chief Minister Breakfast Scheme:-",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Free Breakfast will be provided to all Primary School Students."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Breakfast has 13 Types of Food Items which will be distributed among Students."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Free Breakfast will be distributed daily from Monday to Friday on School Working Days."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "children": [
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Days",
+                      "bold": true
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Menu Type",
+                      "bold": true
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Breakfast Food Items",
+                      "bold": true
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Monday"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Uppama Type"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Rava Uppama with Vegetable Sambhar."
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Vermicelli Uppama with Vegetable Sambhar."
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Rice Uppama with Vegetable Sambhar."
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Wheat Rava Uppama with Vegetable Sambhar."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Tuesday"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Khichadi Type"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Rava Vegetable Kitchadi."
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Vermicelli Vegetable Kitchadi."
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Sorghum Vegetable Kitchadi."
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Wheat Rava Vegetable Kitchadi."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Wednesday"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Pongal Type"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Rava Pongal with Vegetable Sambhar."
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Pongal with Vegetable Sambhar."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Thursday"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Uppama Type"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Vermicelli Uppama with Vegetable Sambhar."
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Rice Uppama with Vegetable Sambhar."
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Rava Uppama with Vegetable Sambhar."
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Wheat Rava Uppama with Vegetable Sambhar."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Friday"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Sweet Type"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Sweet Pongal."
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Rava Kesari."
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Vermicelli Kesari."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "process": [
+          {
+            "type": "ul_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "There is no need to apply anywhere for the Tamil Nadu Government's Chief Minister Breakfast Scheme."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Student will get the breakfast (scheme benefits) at their school. "
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "process_md": "\n- There is no need to apply anywhere for the Tamil Nadu Government&#39;s Chief Minister Breakfast Scheme.\n- Student will get the breakfast (scheme benefits) at their school. \n\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n- Benefit will be provided only to Students.\n- Students should be Studying in the Government of Tamil Nadu Schools.\n- Students of Class 1st to Class 5th will only be eligible.\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Benefit will be provided only to Students."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Students should be Studying in the Government of Tamil Nadu Schools."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Students of Class 1st to Class 5th will only be eligible."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "tncmbs"
+}

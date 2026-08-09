@@ -1,0 +1,302 @@
+{
+  "_id": "64e4f140d74267d9a4fd4549",
+  "en": {
+    "basicDetails": {
+      "schemeOpenDate": null,
+      "schemeCloseDate": null,
+      "nodalMinistryName": null,
+      "nodalDepartmentName": {
+        "value": 30000044,
+        "label": "Social Welfare Department"
+      },
+      "otherMinistryName": null,
+      "otherDepartmentNames": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Loan",
+          "label": "Loan"
+        },
+        {
+          "value": "Financial assistance",
+          "label": "Financial assistance"
+        }
+      ],
+      "dbtScheme": false,
+      "implementingAgency": null,
+      "tags": [
+        "Loan",
+        "Scheduled Tribe",
+        "Financial Assistance",
+        "Employment"
+      ],
+      "schemeName": "Self Employment Scheme - Goa",
+      "schemeShortTitle": "Ses-goa",
+      "level": {
+        "value": "state",
+        "label": "State"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce7f6d6d1a3bde46852d0",
+          "label": "Banking,Financial Services and Insurance"
+        },
+        {
+          "value": "628ce87cd6d1a3bde4685312",
+          "label": "Social welfare & Empowerment"
+        }
+      ],
+      "state": {
+        "value": 30,
+        "label": "Goa"
+      },
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://stcorporation.goa.gov.in/wp-content/uploads/2020/03/Self-Employment-Scheme.pdf"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "&quot;Self Employment Scheme&quot; is a Loan Scheme by the Goa State Scheduled Tribes Finance and Development Corporation Limited, Department of Tribal Welfare, Government of Goa. Under this scheme, the financial support will be advanced up to a maximum ₹ 10,00,000 to any individual person belonging to Scheduled Tribes Community to undertake any self-employment activities that will be approved by the Corporation from time to time. The Loan /Financial assistance will also be made available to the extent of ₹ 15,00,000 to the Association / Societies / Partnership / Self-help groups (SHG) / Companies formed exclusively by the member of the Schedule Tribes Community.\n",
+      "benefits_md": "\n1. Financial Support up to a maximum of ₹ 10,00,000 to individuals.\n1. Loan/ Financial Assistance up to a maximum of ₹ 10,00,000 to the Association / Societies / Partnership / Self-help groups (SHG) / Companies.\n1. The beneficiary is required to contribute a 10% margin money towards the cost of the project. (The BOD may relax this condition considering the merit in each case, but this relaxation shall not be applicable to the Association / Societies / Partnership / SHG / Company etc).\n\n<br>\n\n> **Insurance**\n\n\n1. The life of the beneficiary and the business activity shall be insured from fire, theft, cyclone and other natural calamities with the agency identified by the Corporation and the said policy shall be endorsed in the name of the Corporation. \n1. In the event of any calamity, the compensation received from the Insurance Company shall be adjusted against the loan outstanding in the Corporation.\n\n",
+      "briefDescription": "\"Self Employment Scheme\" provides financial support up to a maximum of ₹ 10,00,000 to any individual person belonging to Scheduled Tribes Community to undertake any self-employment activities.",
+      "exclusions_md": "",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "\"Self Employment Scheme\" is a Loan Scheme by the Goa State Scheduled Tribes Finance and Development Corporation Limited, Department of Tribal Welfare, Government of Goa. Under this scheme, the financial support will be advanced up to a maximum ₹ 10,00,000 to any individual person belonging to Scheduled Tribes Community to undertake any self-employment activities that will be approved by the Corporation from time to time. The Loan /Financial assistance will also be made available to the extent of ₹ 15,00,000 to the Association / Societies / Partnership / Self-help groups (SHG) / Companies formed exclusively by the member of the Schedule Tribes Community."
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Financial Support up to a maximum of ₹ 10,00,000 to individuals."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Loan/ Financial Assistance up to a maximum of ₹ 10,00,000 to the Association / Societies / Partnership / Self-help groups (SHG) / Companies."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The beneficiary is required to contribute a 10% margin money towards the cost of the project. (The BOD may relax this condition considering the merit in each case, but this relaxation shall not be applicable to the Association / Societies / Partnership / SHG / Company etc)."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        },
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "Insurance",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The life of the beneficiary and the business activity shall be insured from fire, theft, cyclone and other natural calamities with the agency identified by the Corporation and the said policy shall be endorsed in the name of the Corporation. "
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "In the event of any calamity, the compensation received from the Insurance Company shall be adjusted against the loan outstanding in the Corporation."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "process": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 1: ",
+                "bold": true
+              },
+              {
+                "text": "The interested applicant should visit the Department of Tribal Welfare, Govt. of Goa, Shram Shakti Bhavan, 5th Floor, Patto, Panaji-Goa, - 403 001."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2: ",
+                "bold": true
+              },
+              {
+                "text": "Take a print of the proforma of the application form, or request a hard copy from the concerned authority."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 3: ",
+                "bold": true
+              },
+              {
+                "text": "In the application form, fill in all the mandatory fields, paste the passport-sized photograph (signed across), and attach copies of all the mandatory documents (self-attest if required)."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 4: ",
+                "bold": true
+              },
+              {
+                "text": "Submit the duly filled and signed application form along with the documents to the concerned authority."
+              }
+            ]
+          }
+        ],
+        "process_md": "**Step 1:** The interested applicant should visit the Department of Tribal Welfare, Govt. of Goa, Shram Shakti Bhavan, 5th Floor, Patto, Panaji-Goa, - 403 001.\n**Step 2:** Take a print of the proforma of the application form, or request a hard copy from the concerned authority.\n**Step 3:** In the application form, fill in all the mandatory fields, paste the passport-sized photograph (signed across), and attach copies of all the mandatory documents (self-attest if required).\n**Step 4:** Submit the duly filled and signed application form along with the documents to the concerned authority.\n"
+      }
+    ],
+    "schemeDefinitions": [
+      {
+        "name": "Family",
+        "definition": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Husband, Wife and unmarried Children. Further Father, the Mother and an unmarried brother and sister below the age of 18 years fully dependent and staying with the applicant shall also form a family."
+              }
+            ]
+          }
+        ],
+        "definitions_md": "Husband, Wife and unmarried Children. Further Father, the Mother and an unmarried brother and sister below the age of 18 years fully dependent and staying with the applicant shall also form a family.\n",
+        "source": "https://stcorporation.goa.gov.in/wp-content/uploads/2020/03/Self-Employment-Scheme.pdf"
+      }
+    ],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n1. The applicant should be an Individual / Association / Societies / Partnership / Self-help Group (SHG) / Company.\n1. The applicant should be from a Scheduled Tribe (ST) Community.\n1. The family income of the applicant/beneficiary should not be more than ₹ 1,00,000 per annum.\n1. The age of the applicant should not be more than 55 years. \n1. Financial support should only be given to undertake any self-employment activities.\n1. The applicant will have to provide two guarantors / Surety who is having a sound financial status. One Guarantor should necessarily be a Government Servant.\n\n**NOTE:** The eligibility criteria can be relaxed in deserving cases by the decision of the BOD.\n",
+      "eligibilityDescription": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should be an Individual / Association / Societies / Partnership / Self-help Group (SHG) / Company."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant should be from a Scheduled Tribe (ST) Community."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The family income of the applicant/beneficiary should not be more than ₹ 1,00,000 per annum."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The age of the applicant should not be more than 55 years. "
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Financial support should only be given to undertake any self-employment activities."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant will have to provide two guarantors / Surety who is having a sound financial status. One Guarantor should necessarily be a Government Servant."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "NOTE: ",
+              "bold": true
+            },
+            {
+              "text": "The eligibility criteria can be relaxed in deserving cases by the decision of the BOD."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "ses-goa"
+}

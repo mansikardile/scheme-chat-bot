@@ -1,0 +1,237 @@
+{
+  "_id": "64260ebcaf196d20ee5e0c3a",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": null,
+      "tags": [
+        "Sishu Saathi",
+        "Social Welfare",
+        "Financial Assistance",
+        "Child Health"
+      ],
+      "schemeName": "Sishu Saathi",
+      "schemeShortTitle": "WBSISHUSATHI",
+      "implementingAgency": "Department Of Women And Child Development And Social Welfare, Govt. Of WB",
+      "level": {
+        "value": "state",
+        "label": "State"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce7a2d6d1a3bde46852b1",
+          "label": "Health & Wellness"
+        },
+        {
+          "value": "628ce87cd6d1a3bde4685312",
+          "label": "Social welfare & Empowerment"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Children’s health and immunization",
+          "label": "Children’s health and immunization"
+        },
+        {
+          "value": "Disease and conditions",
+          "label": "Disease and conditions"
+        },
+        {
+          "value": "Health care providers and access",
+          "label": "Health care providers and access"
+        }
+      ],
+      "schemeOpenDate": "2013-08-21",
+      "targetBeneficiaries": [
+        {
+          "label": "All",
+          "value": "All"
+        }
+      ],
+      "state": {
+        "value": 19,
+        "label": "West Bengal"
+      },
+      "nodalDepartmentName": {
+        "value": 19999917,
+        "label": "Health and Family Welfare Department"
+      },
+      "schemeFor": "Family"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://wb.gov.in/government-schemes-details-sishusaathi.aspx"
+        },
+        {
+          "title": "Amendments",
+          "url": "https://www.wbhealth.gov.in/uploaded_files/tender/2955_1.pdf"
+        }
+      ],
+      "schemeImageUrl": "https://wb.gov.in/images/scheme/Sishu-Saathi.jpg",
+      "detailedDescription_md": "&lt;br&gt;\n\nThe &amp;#39;Sishu Saathi&amp;#39; scheme is a healthcare initiative launched by the Health and Family Welfare Department, Government of West Bengal, that aims to provide free treatment to children needing heart surgeries. Partnering with both government and private hospitals, the scheme ensures that children up to the age of 12, diagnosed with heart conditions, receive free surgery and related care.\n",
+      "benefits_md": "\n  - **Health Screening in Schools:** Free health check-ups in government schools to detect heart ailments at an early stage among children.  - **Free Cardiac Surgeries:** Completely free cardiac surgeries for children up to 12 years of age who are diagnosed with heart ailments, ensuring no financial burden on families.\n",
+      "briefDescription": "“Sishu Saathi”, a scheme of the Health and Family Welfare Department, Government of West Bengal as part of the Rastriya Bal Swasthya Karyakram (RBSK) under National Health Mission is meant to treat Indian children of 0-18 years age group with zero out of pocket expenditure.",
+      "exclusions_md": "<br>\n\n",
+      "detailedDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": ""
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "The 'Sishu Saathi' scheme is a healthcare initiative launched by the Health and Family Welfare Department, Government of West Bengal, that aims to provide free treatment to children needing heart surgeries. Partnering with both government and private hospitals, the scheme ensures that children up to the age of 12, diagnosed with heart conditions, receive free surgery and related care."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "ul_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Health Screening in Schools:",
+                      "bold": true
+                    },
+                    {
+                      "text": " Free health check-ups in government schools to detect heart ailments at an early stage among children."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Free Cardiac Surgeries:",
+                      "bold": true
+                    },
+                    {
+                      "text": " Completely free cardiac surgeries for children up to 12 years of age who are diagnosed with heart ailments, ensuring no financial burden on families."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "exclusions": null
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "url": "https://wb.gov.in/government-schemes-details-sishusaathi.aspx",
+        "process": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 1:",
+                "bold": true
+              },
+              {
+                "text": " Children diagnosed through Rashtriya Bal Swasthya Karyakram or other health check-ups are referred for further treatment."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2:",
+                "bold": true
+              },
+              {
+                "text": " Parents or guardians can contact government hospitals or partner private hospitals for free surgery under the scheme."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 3:",
+                "bold": true
+              },
+              {
+                "text": " Hospitals handle the registration and approval process for eligible children."
+              }
+            ]
+          }
+        ],
+        "process_md": "**Step 1:** Children diagnosed through Rashtriya Bal Swasthya Karyakram or other health check-ups are referred for further treatment.\n**Step 2:** Parents or guardians can contact government hospitals or partner private hospitals for free surgery under the scheme.\n**Step 3:** Hospitals handle the registration and approval process for eligible children.\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n  - All children from 0 to 18 years are eligible.\n  - Applicable to children residing in both rural and urban areas of West Bengal.\n  - There is no income criterion; the scheme is open to all children regardless of their family&amp;#39;s financial capacity.\n  - The child must be diagnosed with a cardiac ailment requiring surgical intervention.\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "ul_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "All children from 0 to 18 years are eligible."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Applicable to children residing in both rural and urban areas of West Bengal."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "There is no income criterion; the scheme is open to all children regardless of their family's financial capacity."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The child must be diagnosed with a cardiac ailment requiring surgical intervention."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "wbsishusathi"
+}

@@ -1,0 +1,469 @@
+{
+  "_id": "67cae39e4f0bd5e698d33387",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Interest Subsidy",
+        "Subvention",
+        "Micro Enterprises",
+        "Small Enterprises",
+        "Loan"
+      ],
+      "schemeName": "Interest Subvention Scheme",
+      "schemeShortTitle": "ISS",
+      "implementingAgency": "Karnataka State Financial Corporation",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce733d6d1a3bde4685278",
+          "label": "Business & Entrepreneurship"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Setting up / start-up / entrepreneurship",
+          "label": "Setting up / start-up / entrepreneurship"
+        },
+        {
+          "value": "Loan",
+          "label": "Loan"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        },
+        {
+          "value": "industries",
+          "label": "Industries"
+        },
+        {
+          "value": "business-entity",
+          "label": "Business Entity"
+        }
+      ],
+      "state": {
+        "value": 29,
+        "label": "Karnataka"
+      },
+      "schemeType": null,
+      "nodalMinistryName": null,
+      "nodalDepartmentName": {
+        "value": 2999997,
+        "label": "Finance Department"
+      },
+      "otherMinistryName": null,
+      "otherDepartmentNames": null,
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Website",
+          "url": "https://ksfc.karnataka.gov.in/english"
+        },
+        {
+          "title": "Guidelines - 1",
+          "url": "https://ksfc.karnataka.gov.in/storage/pdf-files/SCHEMES/ENG%20SUBVEN%20%20BROU.pdf"
+        },
+        {
+          "title": "Guidelines -1",
+          "url": "https://ksfc.karnataka.gov.in/storage/pdf-files/SCHEMES/5-5-ISub-E.pdf"
+        }
+      ],
+      "schemeImageUrl": "",
+      "briefDescription": "The scheme aims to provide institutional credit for capital investments at reasonable interest rates and is implemented through the Karnataka State Financial Corporation (KSFC) in the state.",
+      "detailedDescription_md": "The “Interest Subvention Scheme” has been introduced by the Government of Karnataka for new and existing profit-making micro and small manufacturing enterprises, as well as manufacturing-allied activity enterprises. The scheme aims to provide institutional credit for capital investments at reasonable interest rates and is implemented through the Karnataka State Financial Corporation (KSFC) in the state.\n",
+      "benefits_md": "**Amount of Loan:**\n\n  - The minimum loan size is ₹5.00 lakhs.\n  - The maximum loan size is ₹500.00 lakhs for Micro and Small Manufacturing Enterprises.\n  - ₹200.00 lakhs for manufacturing and allied services enterprises towards building, gross block of plant and machinery directly involved in production. The loan/s over and above these limits will carry contract rate of interest.\n\n**Rate of Interest:**\n\n  - KSFC shall sanction loans with prevailing contract rate of interest and the promoters shall pay the interest accordingly. To avail the interest subvention under the scheme, the beneficiary / borrower shall be regular in repayment of installments of all the loans availed by the Enterprises from KSFC. The effective interest rate to be paid by beneficiary /borrower is the difference of contract rate and interest subvention of 5.5% p.a. reimbursed by Government of Karnataka.\n\n**Interest Subsidy [Subvention] Period:**\n\n  - The unit is eligible for interest subsidy [subvention] for a period of 5 years from the date of first disbursement of the loan, even though if the repayment period extends beyond 5 years.\n\n",
+      "exclusions_md": "**Enterprises / Activities not covered under the Scheme:**\n\n   1. Enterprises promoted by SC/ST and Women Entrepreneurs which have availed interest subsidy in any other scheme/s of State Government / Government of India.\n   1. Refinancing / takeover of loans from other Bank/s, NBFCs / NSIC/ private financiers and Financial Institutions or for conversion of earlier loans/s available from KSFC.\n   1. All infrastructure projects, Kalyana Mantapas, Hotels, Lodges, Restaurants, Guest Houses, Hospitals, Nursing Homes Housing and Commercial buildings / Commercial Real Estate (CRE) etc.,\n   1. Business / Trading Activities.\n   1. Malls, Cinema Houses etc.,\n   1. Transports Vehicles, Construction equipment etc.,\n   1. Industrial activities / enterprises not eligible for incentives and concessions as per annexure-2 of Karnataka Industrial Policy 2020-25 or the subsequent Industrial Policy in force.\n   1. Any other activity other than manufacturing which is not specifically mentioned herein.\n   1. Gross block means the total original purchase / invoice value of all existing machinery used in production activity including self-acquired, Bank / KSFC financed etc., plus the proposed machinery within overall limit of ₹500.00 lakhs as per definition of Small-Scale Enterprise in MSMED Act, 2006.\n\n",
+      "detailedDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "The “Interest Subvention Scheme” has been introduced by the Government of Karnataka for new and existing profit-making micro and small manufacturing enterprises, as well as manufacturing-allied activity enterprises. The scheme aims to provide institutional credit for capital investments at reasonable interest rates and is implemented through the Karnataka State Financial Corporation (KSFC) in the state."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "Amount of Loan:",
+                  "underline": true,
+                  "bold": true
+                }
+              ]
+            },
+            {
+              "type": "ul_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The minimum loan size is ₹5.00 lakhs."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The maximum loan size is ₹500.00 lakhs for Micro and Small Manufacturing Enterprises."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "₹200.00 lakhs for manufacturing and allied services enterprises towards building, gross block of plant and machinery directly involved in production. The loan/s over and above these limits will carry contract rate of interest."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "Rate of Interest:",
+                  "bold": true,
+                  "underline": true
+                }
+              ]
+            },
+            {
+              "type": "ul_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "KSFC shall sanction loans with prevailing contract rate of interest and the promoters shall pay the interest accordingly. To avail the interest subvention under the scheme, the beneficiary / borrower shall be regular in repayment of installments of all the loans availed by the Enterprises from KSFC. The effective interest rate to be paid by beneficiary /borrower is the difference of contract rate and interest subvention of 5.5% p.a. reimbursed by Government of Karnataka."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "Interest Subsidy [Subvention] Period:",
+                  "bold": true,
+                  "underline": true
+                }
+              ]
+            },
+            {
+              "type": "ul_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The unit is eligible for interest subsidy [subvention] for a period of 5 years from the date of first disbursement of the loan, even though if the repayment period extends beyond 5 years."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "exclusions": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "Enterprises / Activities not covered under the Scheme:",
+                  "underline": true,
+                  "bold": true
+                }
+              ]
+            },
+            {
+              "type": "ol_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Enterprises promoted by SC/ST and Women Entrepreneurs which have availed interest subsidy in any other scheme/s of State Government / Government of India."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Refinancing / takeover of loans from other Bank/s, NBFCs / NSIC/ private financiers and Financial Institutions or for conversion of earlier loans/s available from KSFC."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "All infrastructure projects, Kalyana Mantapas, Hotels, Lodges, Restaurants, Guest Houses, Hospitals, Nursing Homes Housing and Commercial buildings / Commercial Real Estate (CRE) etc.,"
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Business / Trading Activities."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Malls, Cinema Houses etc.,"
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Transports Vehicles, Construction equipment etc.,"
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Industrial activities / enterprises not eligible for incentives and concessions as per annexure-2 of Karnataka Industrial Policy 2020-25 or the subsequent Industrial Policy in force."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Any other activity other than manufacturing which is not specifically mentioned herein."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Gross block means the total original purchase / invoice value of all existing machinery used in production activity including self-acquired, Bank / KSFC financed etc., plus the proposed machinery within overall limit of ₹500.00 lakhs as per definition of Small-Scale Enterprise in MSMED Act, 2006."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "process": [
+          {
+            "type": "align_justify",
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 1:",
+                    "bold": true
+                  },
+                  {
+                    "text": " The interested applicant should visit (during office hours) the Branch Office "
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://ksfc.karnataka.gov.in/storage/pdf-files/SCHEMES/ENG%20SUBVEN%20%20BROU.pdf",
+                    "children": [
+                      {
+                        "text": "Untitled-1"
+                      }
+                    ]
+                  },
+                  {
+                    "text": " and request a hard copy of the prescribed format of the application form from the staff exclusively entrusted to issue and collect filled-in applications."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 2:",
+                    "bold": true
+                  },
+                  {
+                    "text": " In the application form, fill in all the mandatory fields, and attach copies of all the mandatory documents (self-attest, if required)."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 3:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Submit the duly filled and signed application form along with the documents to the Branch Office."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 4:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Request a receipt or acknowledgment from the concerned authority to whom the application has been submitted. Ensure that the receipt contains essential details such as the date and time of submission, and a unique identification number (if applicable)."
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "process_md": "**Step 1:** The interested applicant should visit (during office hours) the Branch Office [Untitled-1](https://ksfc.karnataka.gov.in/storage/pdf-files/SCHEMES/ENG%20SUBVEN%20%20BROU.pdf) and request a hard copy of the prescribed format of the application form from the staff exclusively entrusted to issue and collect filled-in applications.\n**Step 2:** In the application form, fill in all the mandatory fields, and attach copies of all the mandatory documents (self-attest, if required).\n**Step 3:** Submit the duly filled and signed application form along with the documents to the Branch Office.\n**Step 4:** Request a receipt or acknowledgment from the concerned authority to whom the application has been submitted. Ensure that the receipt contains essential details such as the date and time of submission, and a unique identification number (if applicable).\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n   1. Enterprises promoted by all categories of borrowers, proprietary concerns, partnership firms, companies &amp;amp; other legal entities.\n   1. The scheme is extended for all new investments in building, plant and machinery directly involved in production by new enterprises and existing enterprises by way of expansion, diversification, modernization and technology up-gradation etc., considering the gross block of plant and machineries.\n   1. Purchase of land from KIADB / KSSIDC or any other govt. agencies is not available under this scheme.\n   1. The unit which has already availed the interest subsidy under any other scheme of Government of Karnataka / Government of India are also not eligible for interest subsidy under this scheme.\n   1. The enterprise will be eligible for 5.5% p.a. interest subvention for a maximum period of five years from the date of first disbursement of respective loans even if the repayment period exceeds beyond five years.\n\n**Activities covered under this scheme:** \n\n  - Agro &amp;amp; Food Processing, Textile, Ready-made Garments, Engineering, Automobiles, Electrical &amp;amp; Electronics, Paper &amp;amp; Paper Products, Printing &amp;amp; Publishing, Telecommunications, Software &amp;amp; IT related and Wood based activities.\n\n**Terms and Conditions:**\n\n  - The terms and conditions of loan sanction such as promoters contribution, DER, Security requirement, viability of the project etc., shall be ensured as per the prevailing lending policy of the Corporation.\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "ol_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Enterprises promoted by all categories of borrowers, proprietary concerns, partnership firms, companies & other legal entities."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The scheme is extended for all new investments in building, plant and machinery directly involved in production by new enterprises and existing enterprises by way of expansion, diversification, modernization and technology up-gradation etc., considering the gross block of plant and machineries."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Purchase of land from KIADB / KSSIDC or any other govt. agencies is not available under this scheme."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The unit which has already availed the interest subsidy under any other scheme of Government of Karnataka / Government of India are also not eligible for interest subsidy under this scheme."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The enterprise will be eligible for 5.5% p.a. interest subvention for a maximum period of five years from the date of first disbursement of respective loans even if the repayment period exceeds beyond five years."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "Activities covered under this scheme: ",
+                  "bold": true,
+                  "underline": true
+                }
+              ]
+            },
+            {
+              "type": "ul_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Agro & Food Processing, Textile, Ready-made Garments, Engineering, Automobiles, Electrical & Electronics, Paper & Paper Products, Printing & Publishing, Telecommunications, Software & IT related and Wood based activities."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "Terms and Conditions:",
+                  "underline": true,
+                  "bold": true
+                }
+              ]
+            },
+            {
+              "type": "ul_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The terms and conditions of loan sanction such as promoters contribution, DER, Security requirement, viability of the project etc., shall be ensured as per the prevailing lending policy of the Corporation."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "iss"
+}

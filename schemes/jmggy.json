@@ -1,0 +1,384 @@
+{
+  "_id": "6776b03109be7bb7df9fd5d1",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Financial Assistance",
+        "Bus Operators",
+        "Rural",
+        "Tax"
+      ],
+      "schemeName": "Jharkhand Mukhyamantri Gram Gadi Yojana",
+      "schemeShortTitle": "JMGGY",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce94cd6d1a3bde468536f",
+          "label": "Travel & Tourism"
+        },
+        {
+          "value": "628ce733d6d1a3bde4685278",
+          "label": "Business & Entrepreneurship"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Setting up / start-up / entrepreneurship",
+          "label": "Setting up / start-up / entrepreneurship"
+        },
+        {
+          "value": "Taxes",
+          "label": "Taxes"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "state": {
+        "value": 20,
+        "label": "Jharkhand"
+      },
+      "nodalDepartmentName": {
+        "value": 2000020,
+        "label": "Transport Department"
+      },
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://www.jhtransport.gov.in/pdf/Implementation%20of%20Jharkhand%20Chief%20Minister%20Gram%20Gaadi%20Yojana%202022.pdf"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The scheme &quot;Jharkhand Mukhyamantri Gram Gadi Yojana&quot; by the Transport Department, Government of Jharkhand, aims to improve rural connectivity by incentivizing private bus operators and enhancing transportation facilities for rural residents. Under this scheme, rural routes connect remote villages to block headquarters, district headquarters, schools, colleges, medical institutions, main roads, and commercial centers.\n",
+      "benefits_md": "\n- **Financial Assistance:** Operators receive financial support per kilometer based on bus seating capacity\n  - 33 to 42 seats: ₹18 per km.\n  - 25 to 32 seats: ₹14.50 per km.\n  - 13 to 24 seats: ₹10.50 per km.\n  - 7 to 12 seats: ₹7.50 per km.\n\n- **Tax and Fee Waivers:** Exemption from road tax, permit fee (₹1), application fee (₹1), registration fee (₹1), and fitness inspection fee (₹1).- **Priority Access:** Rural buses are given priority at government bus stands and are exempted from all stand fees, tolls, and municipal entry fees.- **Route Permits:** Operators can obtain permits for routes up to 125 km, connecting villages to block/district headquarters and essential services.- **Subsidies:** Operators can avail subsidies for operational costs such as fuel (diesel).- **Renewal Options:** Permits are renewable after five years based on satisfactory performance or till the scheme&#39;s validity.\n",
+      "exclusions_md": "<br>\n\n",
+      "briefDescription": "The scheme \"Jharkhand Mukhyamantri Gram Gadi Yojana\" by the Transport Department, Government of Jharkhand, aims to enhance rural connectivity and provide affordable transportation facilities to rural residents. It supports private bus operators to operate on rural routes with financial assistance...",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The scheme \"Jharkhand Mukhyamantri Gram Gadi Yojana\" by the Transport Department, Government of Jharkhand, aims to improve rural connectivity by incentivizing private bus operators and enhancing transportation facilities for rural residents. Under this scheme, rural routes connect remote villages to block headquarters, district headquarters, schools, colleges, medical institutions, main roads, and commercial centers."
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 3,
+        "value": "composite",
+        "label": "Composite"
+      },
+      "benefits": [
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Financial Assistance:",
+                  "bold": true
+                },
+                {
+                  "text": " Operators receive financial support per kilometer based on bus seating capacity"
+                }
+              ]
+            },
+            {
+              "type": "ul_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "33 to 42 seats: ₹18 per km."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "25 to 32 seats: ₹14.50 per km."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "13 to 24 seats: ₹10.50 per km."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "7 to 12 seats: ₹7.50 per km."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Tax and Fee Waivers:",
+                  "bold": true
+                },
+                {
+                  "text": " Exemption from road tax, permit fee (₹1), application fee (₹1), registration fee (₹1), and fitness inspection fee (₹1)."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Priority Access:",
+                  "bold": true
+                },
+                {
+                  "text": " Rural buses are given priority at government bus stands and are exempted from all stand fees, tolls, and municipal entry fees."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Route Permits:",
+                  "bold": true
+                },
+                {
+                  "text": " Operators can obtain permits for routes up to 125 km, connecting villages to block/district headquarters and essential services."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Subsidies:",
+                  "bold": true
+                },
+                {
+                  "text": " Operators can avail subsidies for operational costs such as fuel (diesel)."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Renewal Options: ",
+                  "bold": true
+                },
+                {
+                  "text": "Permits are renewable after five years based on satisfactory performance or till the scheme's validity."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "exclusions": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "process": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 1: ",
+                "bold": true
+              },
+              {
+                "text": "Obtain the application form from the Regional Transport Office (RTO) or "
+              },
+              {
+                "type": "link",
+                "link": "https://jhtransport.gov.in/pdf/SOP_GGY.pdf",
+                "children": [
+                  {
+                    "text": "download"
+                  }
+                ]
+              },
+              {
+                "text": " it from the official transport department website."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2:",
+                "bold": true
+              },
+              {
+                "text": " Fill out the application form with all necessary details, including personal, vehicle, and route information."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 3:",
+                "bold": true
+              },
+              {
+                "text": " Attach all required documents as mentioned above."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 4:",
+                "bold": true
+              },
+              {
+                "text": " Submit the completed application form along with a nominal fee of ₹1 at the respective (Regional Transport Office) RTO."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "NOTE:",
+                "bold": true
+              }
+            ]
+          },
+          {
+            "type": "ul_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "The application is reviewed by the Regional Transport Authority (RTA). Upon approval, permits are issued for the specified route."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Start bus operations as per the approved schedule and maintain compliance with scheme conditions."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Apply for permit renewal after five years, if applicable."
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "process_md": "**Step 1:** Obtain the application form from the Regional Transport Office (RTO) or [download](https://jhtransport.gov.in/pdf/SOP_GGY.pdf) it from the official transport department website.\n**Step 2:** Fill out the application form with all necessary details, including personal, vehicle, and route information.\n**Step 3:** Attach all required documents as mentioned above.\n**Step 4:** Submit the completed application form along with a nominal fee of ₹1 at the respective (Regional Transport Office) RTO.\n<br>\n\n**NOTE:**\n\n- The application is reviewed by the Regional Transport Authority (RTA). Upon approval, permits are issued for the specified route.\n- Start bus operations as per the approved schedule and maintain compliance with scheme conditions.\n- Apply for permit renewal after five years, if applicable.\n\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n1. The applicant must be a private bus operator registered in Jharkhand.\n1. The applicant must operate new light/medium commercial four-wheeled vehicles with seating capacities ranging from 7 to 42 (excluding the driver).\n1. The applicant must ensure the vehicles comply with the Motor Vehicles Act, 1988, and have either a Hard Top or Soft Top body.\n1. Preference will be given to vehicles connecting rural routes to block/district headquarters, schools, colleges, hospitals, and main roads.\n1. The applicant must agree to operate vehicles on approved routes and adhere to the fare structure prescribed by the government.\n1. Operators who have previously violated permit conditions may be excluded from the scheme.\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must be a private bus operator registered in Jharkhand."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must operate new light/medium commercial four-wheeled vehicles with seating capacities ranging from 7 to 42 (excluding the driver)."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must ensure the vehicles comply with the Motor Vehicles Act, 1988, and have either a Hard Top or Soft Top body."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Preference will be given to vehicles connecting rural routes to block/district headquarters, schools, colleges, hospitals, and main roads."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must agree to operate vehicles on approved routes and adhere to the fare structure prescribed by the government."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Operators who have previously violated permit conditions may be excluded from the scheme."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "jmggy"
+}

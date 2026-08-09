@@ -1,0 +1,340 @@
+{
+  "_id": "66cb2588bfeff774c3954294",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Family",
+        "Financial Assistance",
+        "Death Of Breadwinner",
+        "BPL"
+      ],
+      "schemeName": "National Family Assistance Scheme- Chhattisgarh",
+      "schemeShortTitle": "NFASCHH",
+      "implementingAgency": "Social Welfare Department, Government Of Chhattisgarh",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce87cd6d1a3bde4685312",
+          "label": "Social welfare & Empowerment"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Financial assistance",
+          "label": "Financial assistance"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "family",
+          "label": "Family"
+        }
+      ],
+      "state": {
+        "value": 22,
+        "label": "Chhattisgarh"
+      },
+      "schemeType": null,
+      "nodalMinistryName": null,
+      "nodalDepartmentName": {
+        "value": 2200033,
+        "label": "Social Welfare Department"
+      },
+      "otherMinistryName": null,
+      "otherDepartmentNames": null,
+      "schemeFor": "Family"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://sw.cg.gov.in/sites/default/files/nfbs_1.pdf"
+        },
+        {
+          "title": "Official Website",
+          "url": "https://sw.cg.gov.in/en/national-family-assistance-scheme"
+        }
+      ],
+      "schemeImageUrl": "",
+      "briefDescription": "Under this scheme, financial assistance of ₹20,000/- is provided to the bereaved household in the case of the natural, unnatural, or accidental death of the primary breadwinner of a family living Below the Poverty Line (BPL). ",
+      "detailedDescription_md": "The scheme &amp;quot;National Family Assistance Scheme&amp;quot; is implemented by the Social Welfare Department, Government of Chhattisgarh. Under this scheme, financial assistance is provided to the bereaved household in the case of the natural, unnatural, or accidental death of the primary breadwinner of a family living Below the Poverty Line (BPL). This scheme is centrally sponsored.\n",
+      "benefits_md": "\n  - Under this scheme, the eligible family will receive a lump sum amount of ₹20,000/-.\n\n",
+      "exclusions_md": "",
+      "detailedDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "The scheme \"National Family Assistance Scheme\" is implemented by the Social Welfare Department, Government of Chhattisgarh. Under this scheme, financial assistance is provided to the bereaved household in the case of the natural, unnatural, or accidental death of the primary breadwinner of a family living Below the Poverty Line (BPL). This scheme is centrally sponsored."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "ul_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Under this scheme, the eligible family will receive a lump sum amount of ₹20,000/-."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "process": [
+          {
+            "type": "align_justify",
+            "children": [
+              {
+                "type": "block_quote",
+                "children": [
+                  {
+                    "text": "In Rural Areas:",
+                    "bold": true,
+                    "underline": true
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 1:",
+                    "bold": true
+                  },
+                  {
+                    "text": " The applicant, who fulfills the eligibility criteria, may visit the office of the Gram Panchayat and collect the "
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://sw.cg.gov.in/sites/default/files/nfbs_1.pdf",
+                    "children": [
+                      {
+                        "text": "application form"
+                      }
+                    ]
+                  },
+                  {
+                    "text": ", which is available free of cost."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 2:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Fill out the application form and submit it to the Gram Panchayat. You will receive an acknowledgment receipt from the Gram Panchayat."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 3:",
+                    "bold": true
+                  },
+                  {
+                    "text": " The Gram Panchayat will review and recommend the application and then forward it to the District Panchayat within 07 days."
+                  }
+                ]
+              },
+              {
+                "type": "block_quote",
+                "children": [
+                  {
+                    "text": "In Urban Areas:",
+                    "bold": true,
+                    "underline": true
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 1:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Eligible applicants should visit the office of the concerned Municipal Corporation, Municipality, Nagar Panchayat, or Panchayat Raj institution to collect the application form, which is available free of cost."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step 2:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Fill out the "
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://sw.cg.gov.in/sites/default/files/nfbs_1.pdf",
+                    "children": [
+                      {
+                        "text": "application form"
+                      }
+                    ]
+                  },
+                  {
+                    "text": " and submit it to the respective office (Municipality/Municipal Corporation/Nagar Panchayat). You will receive an acknowledgment receipt from the office."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Note 1:",
+                    "bold": true
+                  },
+                  {
+                    "text": " The concerned urban body/District Panchayat has the authority to approve or reject the applications."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Note 2:",
+                    "bold": true
+                  },
+                  {
+                    "text": " If a printed application form is not available, you may submit your application on plain paper."
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "process_md": "&gt; **In Rural Areas:**\n\n**Step 1:** The applicant, who fulfills the eligibility criteria, may visit the office of the Gram Panchayat and collect the [application form](https://sw.cg.gov.in/sites/default/files/nfbs_1.pdf), which is available free of cost.\n**Step 2:** Fill out the application form and submit it to the Gram Panchayat. You will receive an acknowledgment receipt from the Gram Panchayat.\n**Step 3:** The Gram Panchayat will review and recommend the application and then forward it to the District Panchayat within 07 days.\n&gt; **In Urban Areas:**\n\n**Step 1:** Eligible applicants should visit the office of the concerned Municipal Corporation, Municipality, Nagar Panchayat, or Panchayat Raj institution to collect the application form, which is available free of cost.\n**Step 2:** Fill out the [application form](https://sw.cg.gov.in/sites/default/files/nfbs_1.pdf) and submit it to the respective office (Municipality/Municipal Corporation/Nagar Panchayat). You will receive an acknowledgment receipt from the office.\n**Note 1:** The concerned urban body/District Panchayat has the authority to approve or reject the applications.\n**Note 2:** If a printed application form is not available, you may submit your application on plain paper.\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n   1. The applicant should be a native of Chhattisgarh.\n   1. The applicant should be a family member of the deceased person.\n   1. The deceased person should have been the primary breadwinner on whom the family primarily depended for income.\n   1. The family should have lost the primary breadwinner due to natural, unnatural, or accidental death.\n   1. The family of the deceased primary breadwinner should be living Below Poverty Line (BPL).\n   1. At the time of death, the deceased primary breadwinner should have been between 18 and 59 years old.\n\n**Note 1:** The term &amp;quot;family&amp;quot; includes the husband, wife, minor children, unmarried daughters, and dependent parents.\n**Note 2:** If there is more than one earning member in the family, assistance will be provided only upon the death of the member whose income contributes the most to the family.\n",
+      "eligibilityDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "ol_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant should be a native of Chhattisgarh."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant should be a family member of the deceased person."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The deceased person should have been the primary breadwinner on whom the family primarily depended for income."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The family should have lost the primary breadwinner due to natural, unnatural, or accidental death."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The family of the deceased primary breadwinner should be living Below Poverty Line (BPL)."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "At the time of death, the deceased primary breadwinner should have been between 18 and 59 years old."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "Note 1:",
+                  "bold": true
+                },
+                {
+                  "text": " The term \"family\" includes the husband, wife, minor children, unmarried daughters, and dependent parents."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "Note 2:",
+                  "bold": true
+                },
+                {
+                  "text": " If there is more than one earning member in the family, assistance will be provided only upon the death of the member whose income contributes the most to the family."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "nfaschh"
+}

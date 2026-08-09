@@ -1,0 +1,329 @@
+{
+  "_id": "6915b85f2866fee4e7e68c10",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Employee",
+        "Death",
+        "Financial Assistance",
+        "Insurance",
+        "Temple",
+        "Welfare"
+      ],
+      "schemeName": "Financial Assistance to the Family of Temple Employees",
+      "schemeShortTitle": "FAFTE",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce8aad6d1a3bde4685320",
+          "label": "Sports & Culture"
+        },
+        {
+          "value": "628ce87cd6d1a3bde4685312",
+          "label": "Social welfare & Empowerment"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Culture",
+          "label": "Culture"
+        },
+        {
+          "value": "Crisis/Disaster/Accident",
+          "label": "Crisis/Disaster/Accident"
+        },
+        {
+          "value": "Financial assistance",
+          "label": "Financial assistance"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "schemeFor": "Individual",
+      "state": {
+        "value": 34,
+        "label": "Puducherry"
+      },
+      "nodalDepartmentName": {
+        "value": 34000019,
+        "label": "Hindu Religious Institutions and Wakf Department, Puducherry"
+      }
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Citizen's Charter & Application Form",
+          "url": "https://hri.py.gov.in/resources/docs/Citizen_Charter.pdf"
+        },
+        {
+          "title": "Decision Making Process",
+          "url": "https://hri.py.gov.in/resources/docs/rti/7.pdf"
+        },
+        {
+          "title": "List Of Public Information Officers",
+          "url": "https://hri.py.gov.in/resources/docs/rti/6.pdf"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The scheme &quot;Financial Assistance to the Family of Temple Employees&quot; was launched by the Hindu Religious Institutions and Wakf Department, Union Territory of Puducherry. The scheme aims to grant financial assistance to the family of the temple employee who expires while in service. The scheme provides an amount of ₹5,000/- under the Group Insurance Scheme and an amount of ₹20,000/- under the Chief Minister’s Welfare Fund. The applications for this scheme are accepted offline.\n<br>\n\n",
+      "benefits_md": "**Financial Benefit:** An amount of ₹5,000/- is granted under the Group Insurance Scheme.\n**Financial Benefit:** An amount of ₹20,000/- is granted under the Chief Minister’s Welfare Fund.\n**Intended Use of Benefit:** The amounts are granted to the family of the temple employee who expire while in service.\n<br>\n\n",
+      "exclusions_md": "<br>\n\n",
+      "briefDescription": "The scheme aims to grant financial assistance to the family of the temple employee who expires while in service. The scheme provides an amount of ₹5,000/- under the Group Insurance Scheme and an amount of ₹20,000/- under the Chief Minister’s Welfare Fund. The applications are accepted offline.",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The scheme \"Financial Assistance to the Family of Temple Employees\" was launched by the Hindu Religious Institutions and Wakf Department, Union Territory of Puducherry. The scheme aims to grant financial assistance to the family of the temple employee who expires while in service. The scheme provides an amount of ₹5,000/- under the Group Insurance Scheme and an amount of ₹20,000/- under the Chief Minister’s Welfare Fund. The applications for this scheme are accepted offline."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Financial Benefit:",
+              "bold": true,
+              "underline": true
+            },
+            {
+              "text": " An amount of ₹5,000/- is granted under the Group Insurance Scheme."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Financial Benefit:",
+              "bold": true,
+              "underline": true
+            },
+            {
+              "text": " An amount of ₹20,000/- is granted under the Chief Minister’s Welfare Fund."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Intended Use of Benefit:",
+              "bold": true,
+              "underline": true
+            },
+            {
+              "text": " The amounts are granted to the family of the temple employee who expire while in service."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ],
+      "exclusions": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "process": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 1:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " The interested applicant should take a printout of the prescribed format of the following application forms. "
+              }
+            ]
+          },
+          {
+            "type": "ul_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Group Insurance Scheme "
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://hri.py.gov.in/resources/docs/Citizen_Charter.pdf",
+                    "children": [
+                      {
+                        "text": "(Annexure V)",
+                        "bold": true
+                      }
+                    ]
+                  },
+                  {
+                    "text": "."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Financial assistance from the Chief Minister’s Welfare Fund "
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://hri.py.gov.in/resources/docs/Citizen_Charter.pdf",
+                    "children": [
+                      {
+                        "text": "(Annexure VI)",
+                        "bold": true
+                      }
+                    ]
+                  },
+                  {
+                    "text": "."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Alternatively, the interested applicant may request the hard copy of the prescribed format of the application forms from the concerned authority at the temple."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " In the application forms, fill in all the mandatory fields, and attach copies of all the mandatory documents."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "*The forms require the signature of the temple employee (implying the application process is initiated prior to death), along with the signatures and addresses of two witnesses.",
+                "italic": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "*The application must be endorsed by the Special Officer/Executive Officer or the President/Board of Trustees of the temple.",
+                "italic": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 3:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " The completed and endorsed application forms, including the declaration stating the particulars are true and that the family is eligible for the Chief Minister’s Welfare Fund, must be submitted to The Commissioner, Hindu Religious Institutions, Puducherry."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          }
+        ],
+        "mode": "Offline",
+        "process_md": "**Step 1:** The interested applicant should take a printout of the prescribed format of the following application forms. \n\n- Group Insurance Scheme [**(Annexure V)**](https://hri.py.gov.in/resources/docs/Citizen_Charter.pdf).- Financial assistance from the Chief Minister’s Welfare Fund [**(Annexure VI)**](https://hri.py.gov.in/resources/docs/Citizen_Charter.pdf).\nAlternatively, the interested applicant may request the hard copy of the prescribed format of the application forms from the concerned authority at the temple.\n**Step 2:** In the application forms, fill in all the mandatory fields, and attach copies of all the mandatory documents.\n_*The forms require the signature of the temple employee (implying the application process is initiated prior to death), along with the signatures and addresses of two witnesses._\n_*The application must be endorsed by the Special Officer/Executive Officer or the President/Board of Trustees of the temple._\n**Step 3:** The completed and endorsed application forms, including the declaration stating the particulars are true and that the family is eligible for the Chief Minister’s Welfare Fund, must be submitted to The Commissioner, Hindu Religious Institutions, Puducherry.\n<br>\n\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n- The applicant must be a family member of the deceased employee of the temple.\n- The temple employee must have died while in service.\n\n<br>\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The applicant must be a family member of the deceased employee of the temple."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The temple employee must have died while in service."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "fafte"
+}

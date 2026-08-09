@@ -1,0 +1,396 @@
+{
+  "_id": "64fee4ce4c841e89debe2581",
+  "en": {
+    "basicDetails": {
+      "schemeOpenDate": null,
+      "schemeCloseDate": null,
+      "nodalMinistryName": null,
+      "nodalDepartmentName": {
+        "value": 30000005,
+        "label": "Art, Culture and Museums Department"
+      },
+      "otherMinistryName": null,
+      "otherDepartmentNames": null,
+      "targetBeneficiaries": [
+        {
+          "value": "institution",
+          "label": "University / Institution"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Culture",
+          "label": "Culture"
+        }
+      ],
+      "dbtScheme": false,
+      "implementingAgency": null,
+      "tags": [
+        "Grant",
+        "Reimbursement",
+        "Culture",
+        "Talent",
+        "Artist"
+      ],
+      "schemeName": "Scheme to Provide Grant in Aid to Cultural Organization (Maintenance/ Regular Grants)",
+      "schemeShortTitle": "SPGIACOMRG",
+      "level": {
+        "value": "state",
+        "label": "State"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce8aad6d1a3bde4685320",
+          "label": "Sports & Culture"
+        }
+      ],
+      "state": {
+        "value": 30,
+        "label": "Goa"
+      },
+      "schemeType": null,
+      "schemeFor": "Infra"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Application Form & Documents Required",
+          "url": "https://artandculture.goa.gov.in/sites/default/files/Application%20form%20SPECIAL%20FINANCIAL%20ASStt.%20(GRANTS)%20FOR%20ORGANIZING%20CULTURAL%20EVENTS.pdf"
+        },
+        {
+          "title": "Guidelines",
+          "url": "https://www.artandculture.goa.gov.in/en/schemes-programmesgrants/special-financial-grant-for-organizing-cultural-events-programmes"
+        },
+        {
+          "title": "Citizen's Charter",
+          "url": "https://www.goa.gov.in/wp-content/uploads/2022/06/Chitizen-Charter-2022-2023-art-and-culture.pdf"
+        }
+      ],
+      "schemeImageUrl": "",
+      "briefDescription": "\"Scheme to Provide Grant in Aid to Cultural Organization (Maintenance/ Regular Grants)\" by the Directorate of Art and Culture, Govt. of Goa, aims to provide financial support to voluntary Cultural Organizations in order to promote cultural activities and to create and develop cultural talent in Goa.",
+      "detailedDescription_md": "&quot;Scheme to Provide Grant in Aid to Cultural Organization (Maintenance/ Regular Grants)&quot; by the Directorate of Art and Culture, Government of Goa, aims to provide financial support to voluntary Cultural Organizations in order to promote cultural activities and to create and develop cultural talent in the State of Goa. \n<br>\n\n> **Objectives**\n\n\n1. To create and develop cultural talent. \n1. To provide financial support to cultural organizations. \n1. To create and develop a cultural environment in the State of Goa. \n1. To purchase musical equipment.\n\n",
+      "benefits_md": "**Grant-In-Aid in the form of reimbursement to the extent of 80% of the expenditure** incurred by the institution for the last financial year, subject to the maximum ceiling given below - \n<br>\n\n\n- ₹ 10,000/- for Group ‘H’, \n- ₹ 20,000/- for Group ‘G’\n- ₹ 35,000/- for Group ‘F’\n- ₹ 50,000/- for Group ‘E’\n- ₹ 75,000/- for Group ‘D’\n- ₹ 1,00,000 for Group ‘C’\n- ₹ 2,00,000 for Group ‘B’\n- ₹ 3,00,000 for Group ‘A’\n\n<br>\n\n**NOTE 1:** The institution shall bourne all the expenditure and conduct its activities from its own funds for the first year. \n**NOTE 2:** The applicant shall get the financial grant to the extent decided by the Department of Art &amp; Culture based on the nature and scope of the cultural activities conducted by the institution.\n<br>\n\n",
+      "exclusions_md": "",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "\"Scheme to Provide Grant in Aid to Cultural Organization (Maintenance/ Regular Grants)\" by the Directorate of Art and Culture, Government of Goa, aims to provide financial support to voluntary Cultural Organizations in order to promote cultural activities and to create and develop cultural talent in the State of Goa. "
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        },
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "Objectives",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "To create and develop cultural talent. "
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "To provide financial support to cultural organizations. "
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "To create and develop a cultural environment in the State of Goa. "
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "To purchase musical equipment."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Grant-In-Aid in the form of reimbursement to the extent of 80% of the expenditure",
+              "bold": true
+            },
+            {
+              "text": " incurred by the institution for the last financial year, subject to the maximum ceiling given below - "
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "₹ 10,000/- for Group ‘H’, "
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "₹ 20,000/- for Group ‘G’"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "₹ 35,000/- for Group ‘F’"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "₹ 50,000/- for Group ‘E’"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "₹ 75,000/- for Group ‘D’"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "₹ 1,00,000 for Group ‘C’"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "₹ 2,00,000 for Group ‘B’"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "₹ 3,00,000 for Group ‘A’"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "NOTE 1: ",
+              "bold": true
+            },
+            {
+              "text": "The institution shall bourne all the expenditure and conduct its activities from its own funds for the first year. "
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "NOTE 2: ",
+              "bold": true
+            },
+            {
+              "text": "The applicant shall get the financial grant to the extent decided by the Department of Art & Culture based on the nature and scope of the cultural activities conducted by the institution."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "process": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 1: ",
+                "bold": true
+              },
+              {
+                "text": "The interested applicant should visit the Directorate Of Art & Culture, Government of Goa, 5th Floor, Shram Shakti Bhavan, Panaji, Patto, Panaji, Goa - 403001"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2: ",
+                "bold": true
+              },
+              {
+                "text": "Take a print of the "
+              },
+              {
+                "type": "link",
+                "link": "https://artandculture.goa.gov.in/sites/default/files/Application%20form%20SPECIAL%20FINANCIAL%20ASStt.%20(GRANTS)%20FOR%20ORGANIZING%20CULTURAL%20EVENTS.pdf",
+                "children": [
+                  {
+                    "text": "proforma"
+                  }
+                ]
+              },
+              {
+                "text": " "
+              },
+              {
+                "type": "link",
+                "link": "https://artandculture.goa.gov.in/sites/default/files/Application%20form%20SPECIAL%20FINANCIAL%20ASStt.%20(GRANTS)%20FOR%20ORGANIZING%20CULTURAL%20EVENTS.pdf",
+                "children": [
+                  {
+                    "text": ""
+                  }
+                ]
+              },
+              {
+                "text": "of the application form, or request a hard copy from the concerned authority."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 3: ",
+                "bold": true
+              },
+              {
+                "text": "In the application form, fill in all the mandatory fields, paste the passport-sized photograph (signed across), and attach copies of all the mandatory documents (self-attest if required)."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 4: ",
+                "bold": true
+              },
+              {
+                "text": "Submit the duly filled and signed application form along with the documents to the Director or to the ACO-II, Directorate of Art & Culture, Phone: 0832-2404623, Email: aco3-dac.goa@nic.in"
+              }
+            ]
+          }
+        ],
+        "process_md": "**Step 1:** The interested applicant should visit the Directorate Of Art &amp; Culture, Government of Goa, 5th Floor, Shram Shakti Bhavan, Panaji, Patto, Panaji, Goa - 403001\n**Step 2:** Take a print of the [proforma](https://artandculture.goa.gov.in/sites/default/files/Application%20form%20SPECIAL%20FINANCIAL%20ASStt.%20(GRANTS)%20FOR%20ORGANIZING%20CULTURAL%20EVENTS.pdf) of the application form, or request a hard copy from the concerned authority.\n**Step 3:** In the application form, fill in all the mandatory fields, paste the passport-sized photograph (signed across), and attach copies of all the mandatory documents (self-attest if required).\n**Step 4:** Submit the duly filled and signed application form along with the documents to the Director or to the ACO-II, Directorate of Art &amp; Culture, Phone: 0832-2404623, Email: aco3-dac.goa@nic.in\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "Any Goan institution registered under the Society’s Registration Act, 1860 or under the Indian Trust Act.\n<br>\n\n> **Reservation / Preference / Priority**\n\nPreference will be given to the institutions involved in Cultural Education i.e. imparting training in music, dance, drama, fine art etc.\n",
+      "eligibilityDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Any Goan institution registered under the Society’s Registration Act, 1860 or under the Indian Trust Act."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        },
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "Reservation / Preference / Priority",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Preference will be given to the institutions involved in Cultural Education i.e. imparting training in music, dance, drama, fine art etc."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "spgiacomrg"
+}

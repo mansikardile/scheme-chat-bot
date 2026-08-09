@@ -1,0 +1,502 @@
+{
+  "_id": "650037948b9d77aaeb895e55",
+  "en": {
+    "basicDetails": {
+      "schemeOpenDate": "2017-01-01",
+      "schemeCloseDate": null,
+      "nodalMinistryName": null,
+      "nodalDepartmentName": {
+        "value": 2200018,
+        "label": "Labour Department"
+      },
+      "otherMinistryName": null,
+      "otherDepartmentNames": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Scholarships and student finance",
+          "label": "Scholarships and student finance"
+        }
+      ],
+      "dbtScheme": false,
+      "implementingAgency": null,
+      "tags": [
+        "Financial Assistance",
+        "Student Finance",
+        "Scholarship",
+        "Education"
+      ],
+      "schemeName": "Naunihal Scholarship Yojana",
+      "schemeShortTitle": "NSYCH",
+      "level": {
+        "value": "state",
+        "label": "State"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce76cd6d1a3bde4685292",
+          "label": "Education & Learning"
+        }
+      ],
+      "state": {
+        "value": 22,
+        "label": "Chhattisgarh"
+      },
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://cglabour.nic.in/BOCW/BOCADHISUCHNA/193788_10_05_2019.pdf"
+        },
+        {
+          "title": "Website",
+          "url": "https://cglabour.nic.in/BOCW/ApplicationSchemes.aspx"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "Chhattisgarh Naunihal Scholarship Scheme has been started by the Government of Chhattisgarh and operated by the Labor Department of Chhattisgarh. This scheme is basically for the children of poor workers of the state who leave their studies due to money. To avail the benefits of the scheme, it is mandatory for the candidate to have a bank account. The amount of scholarship given by the government will be deposited in his bank account.\n",
+      "benefits_md": " The &quot;Scholarship&quot; amount mentioned against each class and course will be payable in lump sum annually.\n<br>\n\nCategoriesBoy StudentsGirl StudentsClass 1st to 5th ₹ 1,000/-₹ 1,500/-Class 6th to 8th₹ 1,500/-₹ 2,000/-Class 9th to 12th₹ 2,000/-₹ 3,000/-Graduation (B.A./ B.Sc / B.Com / ITI Diploma etc₹ 3,000/-₹ 4,000/-Post Graduation M.A./ M.Sc / M.Com / Post Graduate Diploma etc.₹ 5,000/-₹ 6,000/-Studying in a Graduation Level professional Course₹ 6,000/-₹ 8,000/-Studying for Professional examination at postgraduate level (PhD research work)₹ 8,000/-₹ 10,000/-<br>\n\n",
+      "briefDescription": "Chhattisgarh Naunihal Scholarship Scheme has been started by the Government of Chhattisgarh in 2017. ",
+      "exclusions_md": "",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Chhattisgarh Naunihal Scholarship Scheme has been started by the Government of Chhattisgarh and operated by the Labor Department of Chhattisgarh. This scheme is basically for the children of poor workers of the state who leave their studies due to money. To avail the benefits of the scheme, it is mandatory for the candidate to have a bank account. The amount of scholarship given by the government will be deposited in his bank account."
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": " The \"Scholarship\" amount mentioned against each class and course will be payable in lump sum annually."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "children": [
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Categories"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Boy Students"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Girl Students"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Class 1st to 5th "
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "₹ 1,000/-"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "₹ 1,500/-"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Class 6th to 8th"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "₹ 1,500/-"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "₹ 2,000/-"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Class 9th to 12th"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "₹ 2,000/-"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "₹ 3,000/-"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Graduation (B.A./ B.Sc / B.Com / ITI Diploma etc"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "₹ 3,000/-"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "₹ 4,000/-"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Post Graduation M.A./ M.Sc / M.Com / Post Graduate Diploma etc."
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "₹ 5,000/-"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "₹ 6,000/-"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Studying in a Graduation Level professional Course"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "₹ 6,000/-"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "₹ 8,000/-"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "table_row",
+              "children": [
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "Studying for Professional examination at postgraduate level (PhD research work)"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "₹ 8,000/-"
+                    }
+                  ]
+                },
+                {
+                  "type": "table_cell",
+                  "children": [
+                    {
+                      "text": "₹ 10,000/-"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "process": [
+          {
+            "type": "ol_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "The registered construction worker can submit the online application through labor office of the concerned area."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Online application will be submitted from the date of commencement of the academic session till 31st December. "
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Necessary documents to be attached with the application while applying online under the scheme: -"
+                  }
+                ]
+              },
+              {
+                "type": "ol_list",
+                "children": [
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "text": "Original scanned copy of the beneficiary's surviving labor registration identity card. "
+                      }
+                    ]
+                  },
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "text": "Original scanned copy of Aadhaar card of sons/daughters of beneficiary workers."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "text": "Original scanned copy of the certificate issued by the Principal in the prescribed format. (In the notified form in which the issued certificate bears the simple number and date and is confirmation of admission in the current year of study.)"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "text": "Original scanned copy of the mark sheet of previous class passed. "
+                      }
+                    ]
+                  },
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "text": "Original scanned copy of bank passbook."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Note : ",
+                "bold": true
+              },
+              {
+                "text": "Along with the online application, it will be mandatory to scan only the original documents and upload them online."
+              }
+            ]
+          }
+        ],
+        "process_md": "\n1. The registered construction worker can submit the online application through labor office of the concerned area.\n1. Online application will be submitted from the date of commencement of the academic session till 31st December. \n1. Necessary documents to be attached with the application while applying online under the scheme: -\n\n   1. Original scanned copy of the beneficiary&#39;s surviving labor registration identity card. \n   1. Original scanned copy of Aadhaar card of sons/daughters of beneficiary workers.\n   1. Original scanned copy of the certificate issued by the Principal in the prescribed format. (In the notified form in which the issued certificate bears the simple number and date and is confirmation of admission in the current year of study.)\n   1. Original scanned copy of the mark sheet of previous class passed. \n   1. Original scanned copy of bank passbook.\n\n\n**Note :** Along with the online application, it will be mandatory to scan only the original documents and upload them online.\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n1. Applicant should be resident of Chhattisgarh. \n1. Only two children from a same will get the benefits.\n1. There is no requirement for a specific grade to obtain the scholarship\n1. There will be no requirement of marks to avail the benefits of the scheme.\n1. After admission in college/polytechnic or other course for engineering or medical education, the students receiving scholarship amount under this scheme will be required to study for minimum 1 year in that course. In case of first year dropout, the scholarship amount will have to be returned.\n1. The beneficiary should have worked as a construction worker for at least 90 days in the period of one year before the date of application.\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "ol_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Applicant should be resident of Chhattisgarh. "
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Only two children from a same will get the benefits."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "There is no requirement for a specific grade to obtain the scholarship"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "There will be no requirement of marks to avail the benefits of the scheme."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "After admission in college/polytechnic or other course for engineering or medical education, the students receiving scholarship amount under this scheme will be required to study for minimum 1 year in that course. In case of first year dropout, the scholarship amount will have to be returned."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The beneficiary should have worked as a construction worker for at least 90 days in the period of one year before the date of application."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "nsych"
+}

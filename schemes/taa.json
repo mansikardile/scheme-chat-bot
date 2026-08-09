@@ -1,0 +1,586 @@
+{
+  "_id": "67fe0191e2f1560de65eb966",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": null,
+      "tags": [
+        "Reimbursement",
+        "Technology Acquisition",
+        "MSME",
+        "Micro Enterprise",
+        "Small Enterprise",
+        "Software"
+      ],
+      "schemeName": "Technology Acquisition Assistance",
+      "schemeShortTitle": "TAA",
+      "implementingAgency": "District Industries & Commerce Centre",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce733d6d1a3bde4685278",
+          "label": "Business & Entrepreneurship"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Sales of goods, services & data protection",
+          "label": "Sales of goods, services & data protection"
+        },
+        {
+          "value": "Machine & skill up-Gradation",
+          "label": "Machine & skill up-Gradation"
+        },
+        {
+          "value": "Micro finance",
+          "label": "Micro finance"
+        }
+      ],
+      "schemeOpenDate": "2024-04-12",
+      "targetBeneficiaries": [
+        {
+          "value": "business-entity",
+          "label": "Business Entity"
+        }
+      ],
+      "schemeFor": "Infra",
+      "state": {
+        "value": 8,
+        "label": "Rajasthan"
+      },
+      "nodalDepartmentName": {
+        "value": 8000019,
+        "label": "Industry Department"
+      }
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://istart.rajasthan.gov.in/public/Policies/2024/rajasthan-msme-policy-2024.pdf"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The &amp;quot;Technology Acquisition Assistance&amp;quot; scheme has been introduced under the Rajasthan MSME Policy 2024 by the Department of Industries and Commerce, Government of Rajasthan. The scheme aims to support micro and small enterprises (MSEs) in the state in acquiring advanced technology or software related to their production/manufacturing processes. This assistance encourages efficiency, modernization, and competitiveness through measurable performance improvements. The scheme will remain in force until 31st March 2029.\n***Scheme Implementation***\nThis scheme component will be implemented through the concerned District Industries &amp; Commerce Centre (DICC) under the aegis of the Department of Industries &amp; Commerce.\nThe Office of the Commissioner, Industries &amp; Commerce will be the nodal agency for implementation and supervision at the state level.\n",
+      "benefits_md": "**One-time Reimbursement Assistance:**\n\n- Up to 50% of the cost incurred for technology/software acquisition.\n- Maximum assistance limit: ₹5,00,000/- per unit.\n\n**MSEs may acquire technology/software from premier national institutes like:**\n\n- Indian Institute of Science (IISc)\n- Indian Institutes of Technology (IITs)\n- National Institutes of Technology (NITs)\n- National Institutes of Design (NIDs)\n- Council of Scientific and Industrial Research (CSIR), OR\n- Other institutions set up by Government of India/Government of Rajasthan.\n\n",
+      "briefDescription": "The scheme aims to support Micro and Small enterprises in state to acquire advanced technology/ software related to their production/ manufacturing processes through assistance towards cost incurred for technology/ software acquisition.",
+      "exclusions_md": "<br>\n\n",
+      "detailedDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "The \"Technology Acquisition Assistance\" scheme has been introduced under the Rajasthan MSME Policy 2024 by the Department of Industries and Commerce, Government of Rajasthan. The scheme aims to support micro and small enterprises (MSEs) in the state in acquiring advanced technology or software related to their production/manufacturing processes. This assistance encourages efficiency, modernization, and competitiveness through measurable performance improvements. The scheme will remain in force until 31st March 2029."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Scheme Implementation",
+              "bold": true,
+              "italic": true,
+              "underline": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "This scheme component will be implemented through the concerned District Industries & Commerce Centre (DICC) under the aegis of the Department of Industries & Commerce."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The Office of the Commissioner, Industries & Commerce will be the nodal agency for implementation and supervision at the state level."
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "One-time Reimbursement Assistance:",
+              "bold": true,
+              "underline": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Up to 50% of the cost incurred for technology/software acquisition."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Maximum assistance limit: ₹5,00,000/- per unit."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "MSEs may acquire technology/software from premier national institutes like:",
+              "bold": true,
+              "underline": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Indian Institute of Science (IISc)"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Indian Institutes of Technology (IITs)"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "National Institutes of Technology (NITs)"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "National Institutes of Design (NIDs)"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Council of Scientific and Industrial Research (CSIR), OR"
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Other institutions set up by Government of India/Government of Rajasthan."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "exclusions": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "process": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "bold": true,
+                "text": "Application process for the reimbursement of the cost of acquisition of technology/software",
+                "italic": true,
+                "underline": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "bold": true,
+                "text": "Step 1: "
+              },
+              {
+                "text": "The interested applicant downloads the application form (Annexure 3.1) from the official website. "
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 2:",
+                "bold": true
+              },
+              {
+                "text": " In the application form, fill in all the mandatory fields, and attach copies of all the mandatory documents (self-attest, if required)."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Step 3:",
+                "bold": true
+              },
+              {
+                "text": " Submit the duly filled and signed application form along with the documents to the respective General Manager, District Industries & Commerce Centre (DICC)."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Resubmit the Application:",
+                "italic": true,
+                "bold": true,
+                "underline": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "bold": true,
+                "text": "Step 1: "
+              },
+              {
+                "text": "The applicant enterprise would be required to submit the application after the acquisition and deployment of the technology from the Technology Institution."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "bold": true,
+                "text": "Step 2: "
+              },
+              {
+                "text": "The State Government would reserve the right to approve/partially approve or reject any of the application."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Post Application Process",
+                "bold": true,
+                "italic": true,
+                "underline": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "bold": true,
+                "text": "Step 1: "
+              },
+              {
+                "text": "Evaluation of the application by GM, DICC, including the Chartered Engineer's certificate."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "bold": true,
+                "text": "Step 2: "
+              },
+              {
+                "text": "Approval & sanction by the District Level Task Force Committee (DLTFC)."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "bold": true,
+                "text": "Step 3: "
+              },
+              {
+                "text": "Upon approval, an approval letter will be issued."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "bold": true,
+                "text": "Step 4: "
+              },
+              {
+                "text": "Disbursement of funds to the applicant’s registered bank account."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          }
+        ],
+        "process_md": "***Application process for the reimbursement of the cost of acquisition of technology/software***\n**Step 1:** The interested applicant downloads the application form (Annexure 3.1) from the official website. \n**Step 2:** In the application form, fill in all the mandatory fields, and attach copies of all the mandatory documents (self-attest, if required).\n**Step 3:** Submit the duly filled and signed application form along with the documents to the respective General Manager, District Industries &amp; Commerce Centre (DICC).\n***Resubmit the Application:***\n**Step 1:** The applicant enterprise would be required to submit the application after the acquisition and deployment of the technology from the Technology Institution.\n**Step 2:** The State Government would reserve the right to approve/partially approve or reject any of the application.\n***Post Application Process***\n**Step 1:** Evaluation of the application by GM, DICC, including the Chartered Engineer&#39;s certificate.\n**Step 2:** Approval &amp; sanction by the District Level Task Force Committee (DLTFC).\n**Step 3:** Upon approval, an approval letter will be issued.\n**Step 4:** Disbursement of funds to the applicant’s registered bank account.\n<br>\n\n"
+      },
+      {
+        "mode": "Online - via CSC",
+        "process": [
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "text": "Mode of Online Application: e-Mitra",
+                "bold": true
+              }
+            ]
+          },
+          {
+            "type": "ul_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "The applicant can submit the online application by visiting the nearest "
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://emitra.rajasthan.gov.in/emitra/home",
+                    "children": [
+                      {
+                        "text": "e-Mitra"
+                      }
+                    ]
+                  },
+                  {
+                    "text": " center or by using their own e-Mitra account."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ul_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "The application is free of cost."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          }
+        ],
+        "process_md": "> **Mode of Online Application: e-Mitra**\n\n\n- The applicant can submit the online application by visiting the nearest [e-Mitra](https://emitra.rajasthan.gov.in/emitra/home) center or by using their own e-Mitra account.\n\n- The application is free of cost.\n\n<br>\n\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "**All Micro and Small Enterprises existing anywhere in Rajasthan will be required to comply with the following conditions to avail benefits under the scheme:**\n\n   1. The enterprise will be required to have Udyam Registration Certificate (URC) as per MSME Development Act 2006.\n   1. The acquisition of technology can be in any form, including purchase of drawing and design/ plant/ machinery/ software etc.\n   1. Acquired technology should be related to the production/ manufacturing process of the enterprise.\n   1. The applicant should clearly demonstrate improvement in performance due to technology acquisition. Mere purchase of machinery and technology will not be considered as technology acquisition.\n   1. The enterprise should be in commercial production at the time of disbursement and the assistance shall not be released to the closed unit.\n   1. Acquisition of multiple machines of similar nature will not be entertained under the scheme. Only one machine will be eligible for the assistance under the scheme in such cases.\n   1. The improvement in performance due to technology acquisition can be demonstrated as follows:\n\n\n  - An increase of at least 10% in Production Rate (Number of units produced/Total time taken); or\n  - A decrease of at least 5% in Cycle Time (Net Production Time/ Number of Units Produced); or\n  - A decrease of at least 2.5% in Rejection Rate (Number of units rejected/ Total number of units produced); or\n  - A decrease of at least 10% in waste generation (Quantity of waste generated/ Quantity of relevant raw material used)\n\n**Note 1:** Improvement in performance to be certified by Chartered Engineer.\n**Note 2:** The average values of the above-mentioned indicators calculated three (3) months prior to technology acquisition will be compared with the average values calculated three (3) months post the deployment &amp;amp; commissioning of technology to demonstrate the performance improvement.\n",
+      "eligibilityDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "All Micro and Small Enterprises existing anywhere in Rajasthan will be required to comply with the following conditions to avail benefits under the scheme:",
+                  "bold": true
+                }
+              ]
+            },
+            {
+              "type": "ol_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The enterprise will be required to have Udyam Registration Certificate (URC) as per MSME Development Act 2006."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The acquisition of technology can be in any form, including purchase of drawing and design/ plant/ machinery/ software etc."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Acquired technology should be related to the production/ manufacturing process of the enterprise."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant should clearly demonstrate improvement in performance due to technology acquisition. Mere purchase of machinery and technology will not be considered as technology acquisition."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The enterprise should be in commercial production at the time of disbursement and the assistance shall not be released to the closed unit."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Acquisition of multiple machines of similar nature will not be entertained under the scheme. Only one machine will be eligible for the assistance under the scheme in such cases."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The improvement in performance due to technology acquisition can be demonstrated as follows:"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "ul_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "An increase of at least 10% in Production Rate (Number of units produced/Total time taken); or"
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "A decrease of at least 5% in Cycle Time (Net Production Time/ Number of Units Produced); or"
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "A decrease of at least 2.5% in Rejection Rate (Number of units rejected/ Total number of units produced); or"
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "A decrease of at least 10% in waste generation (Quantity of waste generated/ Quantity of relevant raw material used)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "Note 1:",
+                  "bold": true
+                },
+                {
+                  "text": " Improvement in performance to be certified by Chartered Engineer."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "Note 2: ",
+                  "bold": true
+                },
+                {
+                  "text": "The average values of the above-mentioned indicators calculated three (3) months prior to technology acquisition will be compared with the average values calculated three (3) months post the deployment & commissioning of technology to demonstrate the performance improvement."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "taa"
+}

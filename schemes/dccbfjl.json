@@ -1,0 +1,199 @@
+{
+  "_id": "6719e24080ec82b742b8ac8a",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Jewel Loan",
+        "Banking"
+      ],
+      "schemeName": "District Central Cooperative Banks and through its Branches: For Jewel Loan",
+      "schemeShortTitle": "DCCBFJL",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce7f6d6d1a3bde46852d0",
+          "label": "Banking,Financial Services and Insurance"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Loan",
+          "label": "Loan"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "state": {
+        "value": 33,
+        "label": "Tamil Nadu"
+      },
+      "nodalDepartmentName": {
+        "value": 3333335,
+        "label": "Co-operation, Food and Consumer Protection Department"
+      },
+      "schemeFor": "Individual"
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Guidelines",
+          "url": "https://www.tn.gov.in/scheme/data_view/3569"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The &amp;quot;District Central Cooperative Banks and through its Branches: For Jewel Loan&amp;quot; scheme launched by the Co-operation, Food and Consumer Protection Department, Tamil Nadu, allows citizens to obtain loans by pledging their gold and jewelry. The maximum loan amount is ₹1,00,000/- with an interest rate of 12%, subject to changes as per bank policies.\n",
+      "benefits_md": "\n- **Access to Loan:** Up to ₹1,00,000/-.- **Interest Rate:** 12% (subject to change).\n",
+      "briefDescription": "The scheme allows eligible individuals to obtain loans by pledging their gold and jewelry. The maximum loan amount is ₹1,00,000/- with an interest rate of 12%, subject to changes as per bank policies.\n",
+      "exclusions_md": "",
+      "detailedDescription": [
+        {
+          "type": "align_justify",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "The \"District Central Cooperative Banks and through its Branches: For Jewel Loan\" scheme launched by the Co-operation, Food and Consumer Protection Department, Tamil Nadu, allows citizens to obtain loans by pledging their gold and jewelry. The maximum loan amount is ₹1,00,000/- with an interest rate of 12%, subject to changes as per bank policies."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 1,
+        "value": "cash",
+        "label": "Cash"
+      },
+      "benefits": [
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Access to Loan:",
+                  "bold": true
+                },
+                {
+                  "text": " Up to ₹1,00,000/-."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Interest Rate:",
+                  "bold": true
+                },
+                {
+                  "text": " 12% (subject to change)."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Offline",
+        "process": [
+          {
+            "type": "align_justify",
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step-1: ",
+                    "bold": true
+                  },
+                  {
+                    "text": "The interested applicant should collect the application form from the District Central Cooperative Banks or its branches."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step-2:",
+                    "bold": true
+                  },
+                  {
+                    "text": " In the application form, fill in all the mandatory fields, paste the passport-sized photograph (signed across, if required), and attach copies of all the mandatory documents (self-attest, if required)."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step-3:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Submit the duly filled and signed application form along with the documents to the concerned authority.."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Step-4:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Request a receipt or acknowledgment from the concerned authority to whom the application has been submitted. Ensure that the receipt contains essential details such as the date and time of submission, a unique identification number (if applicable)."
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "process_md": "**Step-1:** The interested applicant should collect the application form from the District Central Cooperative Banks or its branches.\n**Step-2:** In the application form, fill in all the mandatory fields, paste the passport-sized photograph (signed across, if required), and attach copies of all the mandatory documents (self-attest, if required).\n**Step-3:** Submit the duly filled and signed application form along with the documents to the concerned authority..\n**Step-4:** Request a receipt or acknowledgment from the concerned authority to whom the application has been submitted. Ensure that the receipt contains essential details such as the date and time of submission, a unique identification number (if applicable).\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n- The beneficiary should be a resident of Tamil Nadu.\n- Loans should be applicable only for Jewel.\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The beneficiary should be a resident of Tamil Nadu."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "Loans should be applicable only for Jewel."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "dccbfjl"
+}

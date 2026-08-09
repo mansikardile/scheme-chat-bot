@@ -1,0 +1,651 @@
+{
+  "_id": "68b81910a6fe5b5d5237a2d7",
+  "en": {
+    "basicDetails": {
+      "dbtScheme": false,
+      "tags": [
+        "Skill",
+        "Training",
+        "Employment",
+        "Youth",
+        "Apprenticeship",
+        "Certification"
+      ],
+      "schemeName": "Project Sankalp",
+      "schemeShortTitle": "PS-G",
+      "level": {
+        "value": "state",
+        "label": "State/ UT"
+      },
+      "schemeCategory": [
+        {
+          "value": "628ce85cd6d1a3bde4685304",
+          "label": "Skills & Employment"
+        }
+      ],
+      "schemeSubCategory": [
+        {
+          "value": "Academic qualification Up-Gradation",
+          "label": "Academic qualification Up-Gradation"
+        },
+        {
+          "value": "Training and Skill Up-gradation",
+          "label": "Training and Skill Up-gradation"
+        },
+        {
+          "value": "Apprenticeship",
+          "label": "Apprenticeship"
+        },
+        {
+          "value": "Voctional education",
+          "label": "Voctional education"
+        },
+        {
+          "value": "Placement assistance",
+          "label": "Placement assistance"
+        }
+      ],
+      "schemeOpenDate": null,
+      "targetBeneficiaries": [
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "schemeFor": "Individual",
+      "state": {
+        "value": 24,
+        "label": "Gujarat"
+      },
+      "nodalDepartmentName": {
+        "value": 2444454,
+        "label": "Labour and Employment Department"
+      }
+    },
+    "schemeContent": {
+      "references": [
+        {
+          "title": "Project Background",
+          "url": "https://skills.gujarat.gov.in/writereaddata/Portal/Images/pdf/Project-Sankalp-Guideline-English.pdf"
+        },
+        {
+          "title": "Aims & Objectives",
+          "url": "https://skills.gujarat.gov.in/project-sankalp.htm"
+        },
+        {
+          "title": "Guidelines",
+          "url": "https://skills.gujarat.gov.in/writereaddata/Portal/News/15_1_Project-Sankalp-Guidelines-March-2022.pdf"
+        },
+        {
+          "title": "Online Application",
+          "url": "https://skills.gujarat.gov.in/gsdmdev/ProjectSankalpTrainingProvider/Registration?SchemeIDsakshamorsankalp=38"
+        },
+        {
+          "title": "List Of List Of GCVT Aligned Job Roles",
+          "url": "https://skills.gujarat.gov.in/writereaddata/Portal/Images/pdf/GCVT_JobRole_List.pdf"
+        },
+        {
+          "title": "User Manual For Candidate Registration",
+          "url": "https://skills.gujarat.gov.in/writereaddata/Portal/Images/pdf/GSDM-User-Manual-Candidate-Registration-Version-1-0-18062021.pdf"
+        }
+      ],
+      "schemeImageUrl": "",
+      "detailedDescription_md": "The scheme &quot;Project Sankalp&quot; was launched on 15th July 2020 by the Gujarat Skill Development Mission (GSDM), Labour and Employment Department, Government of Gujarat. The scheme aims to revolutionize vocational skilling, making India the global skill capital with globally competitive skills and competencies. The scheme provides an industry-led vocational skilling program, enabling the industry to fulfill its demand for skilled manpower and providing youth with sustainable employment opportunities. The scheme is implemented by the Gujarat Skill Development Mission. The applications for this scheme are accepted online through the GSDM portal.\n<br>\n\n",
+      "benefits_md": "> **Training Cost Reimbursement** \n\nThe Industry Partner will receive reimbursement for training costs per candidate per hour:\n\n- NSQF Category 1 Job Roles: ₹49.\n- NSQF Category 2 Job Roles: ₹42.\n- NSQF Category 3 Job Roles: ₹35.10.\n- GCVT Job Roles and Company-Specific Job Roles: ₹36.75 (which is 75% of the Category 1 NSQF job role training cost).\n\n_*The training cost for NSQF Job Roles is subject to amendments as per MSDE notification, and the cost for GCVT and Company-specific job roles will also change accordingly._\n> ***Assessment Cost Reimbursement***\n\nGSDM will reimburse the assessment cost directly to the respective Sector Skill Council (SSC), Gujarat Council of Vocational Training (GCVT), or Kaushalya Skill University (KSU) for both fresher trainees and existing employees.\n_*Any re-assessment cost for candidates who were absent or failed the first assessment, or for existing workers/employees, must be borne by the Industry Partner._\n> ***No Training Fee for Youth/Beneficiaries***\n\nNo fee of any kind will be charged from the youth or beneficiaries for the training.\n<br>\n\n",
+      "briefDescription": "The scheme aims to provide industry-led vocational skilling to enhance youth employability and meet industry demand for skilled manpower. It offers sector-specific training, apprenticeship, and employment opportunities, benefiting youth with better job prospects.",
+      "exclusions_md": "",
+      "detailedDescription": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The scheme \"Project Sankalp\" was launched on 15th July 2020 by the Gujarat Skill Development Mission (GSDM), Labour and Employment Department, Government of Gujarat. The scheme aims to revolutionize vocational skilling, making India the global skill capital with globally competitive skills and competencies. The scheme provides an industry-led vocational skilling program, enabling the industry to fulfill its demand for skilled manpower and providing youth with sustainable employment opportunities. The scheme is implemented by the Gujarat Skill Development Mission. The applications for this scheme are accepted online through the GSDM portal."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ],
+      "benefitTypes": {
+        "id": 3,
+        "value": "composite",
+        "label": "Composite"
+      },
+      "benefits": [
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "Training Cost Reimbursement ",
+              "bold": true,
+              "underline": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The Industry Partner will receive reimbursement for training costs per candidate per hour:"
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "NSQF Category 1 Job Roles: ₹49."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "NSQF Category 2 Job Roles: ₹42."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "NSQF Category 3 Job Roles: ₹35.10."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "GCVT Job Roles and Company-Specific Job Roles: ₹36.75 (which is 75% of the Category 1 NSQF job role training cost)."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "*The training cost for NSQF Job Roles is subject to amendments as per MSDE notification, and the cost for GCVT and Company-specific job roles will also change accordingly.",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "Assessment Cost Reimbursement",
+              "bold": true,
+              "italic": true,
+              "underline": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "GSDM will reimburse the assessment cost directly to the respective Sector Skill Council (SSC), Gujarat Council of Vocational Training (GCVT), or Kaushalya Skill University (KSU) for both fresher trainees and existing employees."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "*Any re-assessment cost for candidates who were absent or failed the first assessment, or for existing workers/employees, must be borne by the Industry Partner.",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "No Training Fee for Youth/Beneficiaries",
+              "bold": true,
+              "italic": true,
+              "underline": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "No fee of any kind will be charged from the youth or beneficiaries for the training."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    },
+    "applicationProcess": [
+      {
+        "mode": "Online",
+        "process": [
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "text": "Step 1:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " "
+              },
+              {
+                "text": "Access the GSDM Portal & Initiate Registration",
+                "italic": true,
+                "bold": true
+              }
+            ]
+          },
+          {
+            "type": "ul_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "To begin, the applicant should visit the "
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://skills.gujarat.gov.in/project-sankalp.htm",
+                    "children": [
+                      {
+                        "text": "Skills Gujarat portal"
+                      }
+                    ]
+                  },
+                  {
+                    "text": ". On the displayed login screen, the applicant must locate and click on the \""
+                  },
+                  {
+                    "type": "link",
+                    "link": "https://skills.gujarat.gov.in/gsdmdev/Registration/Index",
+                    "children": [
+                      {
+                        "text": "Register"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "\". This action will prompt the system to initiate the candidate registration process, allowing new users to create an account."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "text": "Step 2:",
+                "underline": true,
+                "bold": true
+              },
+              {
+                "text": " ",
+                "bold": true
+              },
+              {
+                "text": "Complete Basic Registration Details",
+                "italic": true,
+                "bold": true
+              }
+            ]
+          },
+          {
+            "type": "ul_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "The applicant will be required to provide all the mandatory details in the registration form. "
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "The system will generate One Time Passwords (OTPs), which will be sent to both the registered email ID and the mobile number provided by the applicant. "
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "A verification screen will appear, where the applicant must accurately enter the \"Email OTP\" and \"Mobile OTP\" received."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "text": "Step 3:",
+                "underline": true,
+                "bold": true
+              },
+              {
+                "text": " ",
+                "bold": true
+              },
+              {
+                "text": "Confirm Verification and Receive Login Credentials",
+                "italic": true,
+                "bold": true
+              }
+            ]
+          },
+          {
+            "type": "ul_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "After entering both OTPs, the applicant should click the \"Verify & Save\" button. If the OTPs are successfully verified, a confirmation message will appear, indicating successful basic registration. "
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Subsequently, the \"User Name\" and \"Password\" for the account will be generated and shared with the applicant via their registered email ID and mobile number."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "text": "Step 4:",
+                "underline": true,
+                "bold": true
+              },
+              {
+                "text": " ",
+                "bold": true
+              },
+              {
+                "text": "Initial Login and Password Creation",
+                "italic": true,
+                "bold": true
+              }
+            ]
+          },
+          {
+            "type": "ul_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Using the newly received \"Username\" and \"Password,\" along with the Captcha displayed on the login screen, the applicant should log in to their account. "
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "For security purposes, the system will then prompt the applicant to create a new password by entering a \"New Password\" and re-entering it in the \"Enter Confirm Password\" field, followed by another Captcha. "
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "The applicant must click \"Submit\" to finalize the new password."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "text": "Step 5:",
+                "underline": true,
+                "bold": true
+              },
+              {
+                "text": " ",
+                "bold": true
+              },
+              {
+                "text": "Complete Full Registration",
+                "italic": true,
+                "bold": true
+              }
+            ]
+          },
+          {
+            "type": "ul_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Once logged in with the new password, the applicant will proceed to the Full Registration section. "
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Here, they must provide all the mandatory details and upload the mandatory documents in the specified format and size. "
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "The applicant must carefully read and then click \"I Agree to the Terms and Conditions\" to confirm the correctness of all the information updated during the registration process. "
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Finally, they should click \"Save and Continue\" to submit their complete registration details."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "text": "Step 6:",
+                "underline": true,
+                "bold": true
+              },
+              {
+                "text": " ",
+                "bold": true
+              },
+              {
+                "text": "Access Candidate Dashboard and Utilize Resources",
+                "italic": true,
+                "bold": true
+              }
+            ]
+          },
+          {
+            "type": "ul_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Upon successful full registration, the applicant will be directed to their Candidate Dashboard. "
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "From this dashboard, they can access various features, including the \"TC Locator / KVK Locator\" to search for the Nearest Krishi Vigyan Kendra (KVK) or Training Center. "
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Additionally, they can click on \"Interest Assessment Test,\" which redirects them to http://gujarati.careerguide.com/my-profile, to start and view their psychometric test report."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "*No fee of any kind should be charged from the youth or beneficiary for the Project Sankalp training.",
+                "italic": true
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          }
+        ],
+        "process_md": "> **Step 1:** ***Access the GSDM Portal &amp; Initiate Registration***\n\n\n- To begin, the applicant should visit the [Skills Gujarat portal](https://skills.gujarat.gov.in/project-sankalp.htm). On the displayed login screen, the applicant must locate and click on the &quot;[Register](https://skills.gujarat.gov.in/gsdmdev/Registration/Index)&quot;. This action will prompt the system to initiate the candidate registration process, allowing new users to create an account.\n> **Step 2:****** ***Complete Basic Registration Details***\n\n\n- The applicant will be required to provide all the mandatory details in the registration form. \n- The system will generate One Time Passwords (OTPs), which will be sent to both the registered email ID and the mobile number provided by the applicant. \n- A verification screen will appear, where the applicant must accurately enter the &quot;Email OTP&quot; and &quot;Mobile OTP&quot; received.\n\n> **Step 3:****** ***Confirm Verification and Receive Login Credentials***\n\n\n- After entering both OTPs, the applicant should click the &quot;Verify &amp; Save&quot; button. If the OTPs are successfully verified, a confirmation message will appear, indicating successful basic registration. \n- Subsequently, the &quot;User Name&quot; and &quot;Password&quot; for the account will be generated and shared with the applicant via their registered email ID and mobile number.\n\n> **Step 4:****** ***Initial Login and Password Creation***\n\n\n- Using the newly received &quot;Username&quot; and &quot;Password,&quot; along with the Captcha displayed on the login screen, the applicant should log in to their account. \n- For security purposes, the system will then prompt the applicant to create a new password by entering a &quot;New Password&quot; and re-entering it in the &quot;Enter Confirm Password&quot; field, followed by another Captcha. \n- The applicant must click &quot;Submit&quot; to finalize the new password.\n\n> **Step 5:****** ***Complete Full Registration***\n\n\n- Once logged in with the new password, the applicant will proceed to the Full Registration section. \n- Here, they must provide all the mandatory details and upload the mandatory documents in the specified format and size. \n- The applicant must carefully read and then click &quot;I Agree to the Terms and Conditions&quot; to confirm the correctness of all the information updated during the registration process. \n- Finally, they should click &quot;Save and Continue&quot; to submit their complete registration details.\n\n> **Step 6:****** ***Access Candidate Dashboard and Utilize Resources***\n\n\n- Upon successful full registration, the applicant will be directed to their Candidate Dashboard. \n- From this dashboard, they can access various features, including the &quot;TC Locator / KVK Locator&quot; to search for the Nearest Krishi Vigyan Kendra (KVK) or Training Center. \n- Additionally, they can click on &quot;Interest Assessment Test,&quot; which redirects them to http://gujarati.careerguide.com/my-profile, to start and view their psychometric test report.\n\n_*No fee of any kind should be charged from the youth or beneficiary for the Project Sankalp training._\n<br>\n\n"
+      }
+    ],
+    "schemeDefinitions": [],
+    "eligibilityCriteria": {
+      "eligibilityDescription_md": "\n- The Fresher Trainees must have a domicile of Gujarat.\n\n\n- The age of Fresher Trainees must be between 18 and 35 years.\n- The Existing Employees could be from Pan-India.\n- The age of Existing Employees must be between 18 and 55 years.\n\n> **Relaxations &amp; Preferences**\n\n\n- The scheme focuses on the inclusion of Special Groups such as Women, Persons with Disability (PwD), Below Poverty Line (BPL), Scheduled Caste (SC), and Scheduled Tribe (ST).\n- A relaxation of ten years may be given to Women, PwD, BPL, SC, and ST candidates for fresher trainees.\n\n<br>\n\n",
+      "eligibilityDescription": [
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The Fresher Trainees must have a domicile of Gujarat."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The age of Fresher Trainees must be between 18 and 35 years."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The Existing Employees could be from Pan-India."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The age of Existing Employees must be between 18 and 55 years."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "block_quote",
+          "children": [
+            {
+              "text": "Relaxations & Preferences",
+              "bold": true,
+              "underline": true
+            }
+          ]
+        },
+        {
+          "type": "ul_list",
+          "children": [
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "The scheme focuses on the inclusion of Special Groups such as Women, Persons with Disability (PwD), Below Poverty Line (BPL), Scheduled Caste (SC), and Scheduled Tribe (ST)."
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "children": [
+                {
+                  "text": "A relaxation of ten years may be given to Women, PwD, BPL, SC, and ST candidates for fresher trainees."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "slug": "ps-g"
+}
