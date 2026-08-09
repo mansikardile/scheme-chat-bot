@@ -1,6 +1,9 @@
 from pathlib import Path
+import time
 import json
 import requests
+from requests.adapters import HTTPAdapter
+from urllib3.util.retry import Retry
 
 X_API_KEY = "tYTy5eEhlu9rFjyxuCr7ra7ACp4dv1RH8gWuHTDc"
 BASE_URL = "https://api.myscheme.gov.in"
@@ -15,6 +18,16 @@ HEADERS = {
 
 session = requests.Session()
 session.headers.update(HEADERS)
+
+retry_strategy = Retry(
+    total=3, 
+    backoff_factor=1, 
+    status_forcelist=[429, 500, 502, 503, 504],
+    allowed_methods=["GET"]
+)
+adapter = HTTPAdapter(max_retries=retry_strategy)
+session.mount("https://", adapter)
+session.mount("http://", adapter)
 
 def get_total_schemes():
     r = session.get(f"{BASE_URL}/search/v6/schemes/facets", params={"lang": "en"})
@@ -57,7 +70,11 @@ def save_all_schemes():
     print(f"Total Schemes available: {total}")
 
     while start_index < total:
-        schemes = search_schemes(start_index)
+        try:
+            schemes = search_schemes(start_index)
+        except requests.RequestException as e:
+            print(f"Failed to fetch scheme list at index {start_index}: {e}")
+            break
 
         if not schemes:
             print("No more schemes returned.")
@@ -65,17 +82,23 @@ def save_all_schemes():
 
         for scheme in schemes:
             slug = scheme["fields"]["slug"]
-            details = fetch_scheme_details(slug)
             filepath = schemes_dir / f"{slug}.json"
 
             if filepath.exists():
                 skipped += 1
                 continue
-            
-            filepath.write_text(json.dumps(details, ensure_ascii=False, indent=2))
-            saved += 1
-            print(f"Saved {slug}")
-            
+
+            try:
+                details = fetch_scheme_details(slug)
+                filepath.write_text(
+                    json.dumps(details, ensure_ascii=False, indent=2))
+                saved += 1
+                print(f"Saved {slug}")
+                
+                time.sleep(0.25) 
+            except requests.RequestException as e:
+                print(f"Failed to download {slug} after retries: {e}")
+                
         start_index += len(schemes)
 
 
