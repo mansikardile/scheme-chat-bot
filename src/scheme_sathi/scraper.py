@@ -90,6 +90,10 @@ def save_all_schemes():
 
             try:
                 details = fetch_scheme_details(slug)
+                if not details:
+                    print(f"Skipping {slug}: null reponse")
+                    skipped += 1
+                    continue
                 filepath.write_text(
                     json.dumps(details, ensure_ascii=False, indent=2))
                 saved += 1
