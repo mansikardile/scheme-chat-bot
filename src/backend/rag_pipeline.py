@@ -85,6 +85,7 @@ class RAGPipeline:
 
         # 1. Translate / Enrich search query to English for high precision vector retrieval
         english_search_query = self._build_english_search_query(session_history, user_message, language)
+        print(f"\n[RAG Pipeline] Enriched English Search Query: '{english_search_query}'")
 
         # 2. Embed English search query
         try:
@@ -95,6 +96,8 @@ class RAGPipeline:
 
         # 3. Vector search in ChromaDB (retrieve top 15 schemes)
         results = vector_store.search(query_embedding, top_k=15)
+        retrieved_slugs = [r['slug'] for r in results]
+        print(f"[RAG Pipeline] ChromaDB Top 15 retrieved scheme slugs: {retrieved_slugs}")
 
         # 4. Build rich scheme context for Gemini
         context_parts = []
@@ -102,6 +105,7 @@ class RAGPipeline:
             ctx = scheme_loader.get_scheme_context(res['slug'])
             context_parts.append(f'--- Scheme {i} ---\n{ctx}')
         scheme_context = '\n\n'.join(context_parts)
+        print(f"[RAG Pipeline] Injected Context Length: {len(scheme_context)} characters\n")
 
         # 5. Generate response using Gemini in user's requested language
         reply_text = await gemini_service.generate_response(
