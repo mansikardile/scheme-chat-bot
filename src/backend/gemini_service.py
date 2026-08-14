@@ -80,10 +80,10 @@ class GeminiService:
         lang_name = LANGUAGE_NAMES.get(language, 'English')
         system = SYSTEM_PROMPT.format(language_name=lang_name)
 
-        contents = []
+        history = []
         for msg in conversation_history:
             role = 'user' if msg['role'] == 'user' else 'model'
-            contents.append(
+            history.append(
                 types.Content(role=role, parts=[types.Part.from_text(text=msg['content'])])
             )
 
@@ -92,22 +92,20 @@ class GeminiService:
             f"[SCHEME DATA]\n{scheme_context}\n[END SCHEME DATA]\n\n"
             f"Remember: Respond in {lang_name}. Do NOT write raw URLs. Ask 1 follow-up question if profile incomplete."
         )
-        contents.append(
-            types.Content(role='user', parts=[types.Part.from_text(text=augmented)])
-        )
 
         models_to_try = [self.model_name] + self.fallback_models
         for m_name in models_to_try:
             try:
-                response = self.client.models.generate_content(
+                chat = self.client.chats.create(
                     model=m_name,
-                    contents=contents,
+                    history=history,
                     config=types.GenerateContentConfig(
                         system_instruction=system,
                         temperature=0.6,
                         max_output_tokens=1024,
                     ),
                 )
+                response = chat.send_message(augmented)
                 text = response.text
                 # Extra safety: strip any raw URL links Gemini might have generated
                 import re
