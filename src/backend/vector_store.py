@@ -36,6 +36,24 @@ class VectorStore:
                 metadatas=metadatas[i:end],
             )
 
+    def update_schemes(self, ids, embeddings, documents, metadatas):
+        """Update scheme embeddings in batches."""
+        batch_size = 100
+        for i in range(0, len(ids), batch_size):
+            end = min(i + batch_size, len(ids))
+            self.collection.update(
+                ids=ids[i:end],
+                embeddings=embeddings[i:end],
+                documents=documents[i:end],
+                metadatas=metadatas[i:end],
+            )
+
+    def delete_schemes(self, ids):
+        """Delete schemes by ID."""
+        if not ids:
+            return
+        self.collection.delete(ids=ids)
+
     def search(self, query_embedding, top_k=15):
         """Search for the top-k most similar schemes."""
         results = self.collection.query(
