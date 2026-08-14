@@ -18,8 +18,8 @@ dependencies = [
 
 [project.scripts]
 scheme-sathi-server = "backend.main:main"
-scheme-sathi-scraper = "scheme_sathi.scraper:save_all_schemes"
-scheme-sathi-build-db = "backend.build_vectordb:main"
+scraper = "scheme_sathi.scraper:save_all_schemes"
+build-vectordb = "backend.build_vectordb:main"
 
 [build-system]
 requires = ["uv_build>=0.12.1,<0.13.0"]
