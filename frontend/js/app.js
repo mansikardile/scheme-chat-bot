@@ -204,3 +204,132 @@ function speakSingle(btn, text) {
         if (!synth.speaking) { btn.classList.remove('speaking'); clearInterval(poll); }
     }, 200);
 }
+
+// ═══ Chat Session ═════════════════════════════════════════
+async function createSession() {
+    try {
+        const r = await fetch(`${API_BASE}/api/chat/new`, {
+            method: 'POST', headers: { 'Content-Type': 'application/json' }
+        });
+        if (r.ok) sessionId = (await r.json()).session_id;
+    } catch(e) {
+        console.error('Session error:', e);
+        sessionId = 'local-' + Date.now();
+    }
+}
+
+async function startNewChat() {
+    if (synth) synth.cancel();
+    await createSession();
+
+    $('messagesContainer').innerHTML = '';
+    $('messagesContainer').classList.add('hidden');
+    $('languageScreen').classList.remove('hidden');
+    $('messageInput').value = '';
+    $('messageInput').style.height = 'auto';
+    $('sendBtn').disabled = true;
+    isWaiting = false;
+    $('typingIndicator').classList.add('hidden');
+    document.querySelectorAll('.lang-chip').forEach(c => c.classList.remove('selected'));
+}
+
+function handleSubmit(e) {
+    if (e) e.preventDefault();
+    sendMessage();
+}
+
+async function sendMessage(text = null) {
+    if (isWaiting) return;
+    const msg = text || $('messageInput').value.trim();
+    if (!msg) return;
+    if (!sessionId) await createSession();
+
+    $('languageScreen').classList.add('hidden');
+    $('messagesContainer').classList.remove('hidden');
+
+    renderUserMessage(msg);
+    $('messageInput').value = '';
+    $('messageInput').style.height = 'auto';
+    $('sendBtn').disabled = true;
+    isWaiting = true;
+    showTyping();
+
+    try {
+        const r = await fetch(`${API_BASE}/api/chat`, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ session_id: sessionId, message: msg, language: selectedLanguage })
+        });
+        if (!r.ok) throw new Error('Request failed');
+        const data = await r.json();
+        hideTyping();
+        renderAIMessage(data.reply, data.schemes || []);
+        if (autoSpeak) speakText(data.reply);
+    } catch(e) {
+        hideTyping();
+        renderAIMessage('Sorry, something went wrong. Please try again.', []);
+    } finally {
+        isWaiting = false;
+    }
+}
+
+// ═══ Message Rendering ════════════════════════════════════
+function renderUserMessage(text) {
+    const div = document.createElement('div');
+    div.className = 'message user-message';
+    div.innerHTML = `<div class="message-content">${escapeHtml(text)}</div>`;
+    $('messagesContainer').appendChild(div);
+    scrollBottom();
+}
+
+function renderAIMessage(text, schemes) {
+    const wrapper = document.createElement('div');
+    wrapper.className = 'message ai-message';
+
+    const header = document.createElement('div');
+    header.className = 'ai-header';
+    header.innerHTML = `
+        <div class="ai-avatar-sm">S</div>
+        <span class="ai-name">SchemeSathi</span>
+    `;
+    const speakBtn = document.createElement('button');
+    speakBtn.className = 'speak-btn';
+    speakBtn.title = 'Listen';
+    speakBtn.innerHTML = '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/></svg>';
+    speakBtn.onclick = () => speakSingle(speakBtn, text);
+    header.appendChild(speakBtn);
+    wrapper.appendChild(header);
+
+    const content = document.createElement('div');
+    content.className = 'message-content';
+    content.innerHTML = renderMd(text);
+    wrapper.appendChild(content);
+
+    if (schemes?.length > 0) {
+        const grid = document.createElement('div');
+        grid.className = 'scheme-cards-grid';
+        schemes.forEach(s => grid.appendChild(buildCard(s)));
+        wrapper.appendChild(grid);
+    }
+
+    $('messagesContainer').appendChild(wrapper);
+    scrollBottom();
+}
+
+function buildCard(scheme) {
+    const card = document.createElement('div');
+    card.className = 'scheme-card';
+    const lvl = (scheme.level || 'central').toLowerCase();
+    card.innerHTML = `
+        <span class="level-badge ${lvl}">${scheme.level || 'Central'}</span>
+        <h4>${escapeHtml(scheme.name)}</h4>
+        ${scheme.brief ? `<p>${escapeHtml(scheme.brief)}</p>` : ''}
+        ${scheme.tags?.length ? `<div class="tags">${scheme.tags.slice(0, 3).map(t => `<span class="tag">${escapeHtml(t)}</span>`).join('')}</div>` : ''}
+    `;
+    const btn = document.createElement('button');
+    btn.className = 'btn-details';
+    btn.textContent = 'View Details →';
+    btn.onclick = () => openDetail(scheme.slug);
+    card.appendChild(btn);
+    return card;
+}
