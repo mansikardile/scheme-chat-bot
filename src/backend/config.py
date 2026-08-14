@@ -14,6 +14,11 @@ EMBEDDING_API_URL = os.getenv('EMBEDDING_API_URL', 'https://ai.11022006.xyz/api/
 EMBEDDING_API_KEY = os.getenv('EMBEDDING_API_KEY', '')
 EMBEDDING_MODEL = os.getenv('EMBEDDING_MODEL', 'bge-m3')
 
+# Ollama Configuration
+OLLAMA_HOST = os.getenv('OLLAMA_HOST', 'http://localhost:11434')
+OLLAMA_LLM_MODEL = os.getenv('OLLAMA_LLM_MODEL', 'llama3')
+OLLAMA_EMBEDDING_MODEL = os.getenv('OLLAMA_EMBEDDING_MODEL', 'bge-m3:latest')
+
 # Paths
 CHROMA_DB_PATH = str(ROOT_DIR / 'chroma_db')
 SCHEMES_DIR = str(ROOT_DIR / 'schemes')  # produced by scraper/scrape_all.py, one JSON per slug

@@ -1,44 +1,37 @@
 """
 Embedding service for SchemeSathi.
-Wraps the bge-m3 embedding API for both async and sync usage.
+Wraps the local Ollama embedding API for both async and sync usage.
 """
 
-import httpx
-from backend.config import EMBEDDING_API_URL, EMBEDDING_API_KEY, EMBEDDING_MODEL
+from ollama import Client, AsyncClient
+from backend.config import OLLAMA_HOST, OLLAMA_EMBEDDING_MODEL
 
 
 class EmbeddingService:
-    """Client for the bge-m3 embedding API."""
+    """Client for the Ollama embedding API."""
 
     def __init__(self):
-        self.url = EMBEDDING_API_URL
-        self.headers = {
-            'Content-Type': 'application/json',
-            'Authorization': f'Bearer {EMBEDDING_API_KEY}',
-        }
-        self.model = EMBEDDING_MODEL
+        self.host = OLLAMA_HOST
+        self.model = OLLAMA_EMBEDDING_MODEL
+        self.client = Client(host=self.host)
+        self.async_client = AsyncClient(host=self.host)
 
     async def embed_text(self, text: str) -> list[float]:
         """Embed a single text asynchronously (for query-time use)."""
-        async with httpx.AsyncClient(timeout=60) as client:
-            resp = await client.post(
-                self.url,
-                headers=self.headers,
-                json={'model': self.model, 'prompt': text},
-            )
-            resp.raise_for_status()
-            return resp.json().get('embedding', [])
+        resp = await self.async_client.embeddings(
+            model=self.model,
+            prompt=text
+        )
+        return resp.get('embedding', [])
 
     def embed_text_sync(self, text: str) -> list[float]:
         """Embed a single text synchronously (for build_vectordb script)."""
-        with httpx.Client(timeout=60) as client:
-            resp = client.post(
-                self.url,
-                headers=self.headers,
-                json={'model': self.model, 'prompt': text},
-            )
-            resp.raise_for_status()
-            return resp.json().get('embedding', [])
+        resp = self.client.embeddings(
+            model=self.model,
+            prompt=text
+        )
+        return resp.get('embedding', [])
 
 
 embedding_service = EmbeddingService()
+
