@@ -104,3 +104,103 @@ function selectLanguage(chip) {
         $('messageInput').focus();
     }, 250);
 }
+
+// ═══ Speech Recognition ═══════════════════════════════════
+function initSpeechRecognition() {
+    const SR = window.SpeechRecognition || window.webkitSpeechRecognition;
+    if (!SR) {
+        $('micBtn').style.display = 'none';
+        return;
+    }
+
+    recognition = new SR();
+    recognition.continuous = false;
+    recognition.interimResults = false;
+    recognition.lang = 'en-IN';
+
+    recognition.onresult = e => {
+        const text = e.results[0][0].transcript;
+        $('messageInput').value = text;
+        $('sendBtn').disabled = false;
+        sendMessage(text);
+    };
+    recognition.onerror = () => stopRecording();
+    recognition.onend = () => stopRecording();
+}
+
+function toggleRecording() {
+    isRecording ? stopRecording() : startRecording();
+}
+
+function startRecording() {
+    if (!recognition) {
+        alert('Voice input requires Chrome or Edge browser.');
+        return;
+    }
+    recognition.lang = SPEECH_LANG_MAP[selectedLanguage] || 'en-IN';
+    try { recognition.start(); } catch(e) {}
+    isRecording = true;
+    $('micBtn').classList.add('recording');
+    $('recordingPulse').classList.remove('hidden');
+}
+
+function stopRecording() {
+    if (recognition && isRecording) try { recognition.stop(); } catch(e) {}
+    isRecording = false;
+    $('micBtn').classList.remove('recording');
+    $('recordingPulse').classList.add('hidden');
+}
+
+// ═══ Theme Management ══════════════════════════════════════
+function toggleTheme() {
+    currentTheme = currentTheme === 'dark' ? 'light' : 'dark';
+    applyTheme(currentTheme);
+    localStorage.setItem('schemesathi_theme', currentTheme);
+}
+
+function applyTheme(theme) {
+    if (theme === 'light') {
+        document.documentElement.setAttribute('data-theme', 'light');
+        $('themeMoonIcon')?.classList.add('hidden');
+        $('themeSunIcon')?.classList.remove('hidden');
+    } else {
+        document.documentElement.removeAttribute('data-theme');
+        $('themeSunIcon')?.classList.add('hidden');
+        $('themeMoonIcon')?.classList.remove('hidden');
+    }
+}
+
+// ═══ Text-to-Speech ═══════════════════════════════════════
+function toggleAutoSpeak() {
+    autoSpeak = !autoSpeak;
+    $('audioOnIcon').classList.toggle('hidden', !autoSpeak);
+    $('audioOffIcon').classList.toggle('hidden', autoSpeak);
+    $('audioToggleBtn').classList.toggle('active', autoSpeak);
+}
+
+function speakText(text) {
+    if (!synth) return;
+    synth.cancel();
+    const clean = text
+        .replace(/\*\*(.*?)\*\*/g, '$1').replace(/\*(.*?)\*/g, '$1')
+        .replace(/\[([^\]]+)\]\([^)]+\)/g, '$1')
+        .replace(/#{1,6}\s/g, '').replace(/https?:\/\/[^\s]+/g, '')
+        .replace(/[-*•]\s/g, '').trim();
+
+    const utt = new SpeechSynthesisUtterance(clean);
+    utt.lang = SPEECH_LANG_MAP[selectedLanguage] || 'en-IN';
+    utt.rate = 0.9;
+    synth.speak(utt);
+}
+
+function speakSingle(btn, text) {
+    if (btn.classList.contains('speaking')) {
+        synth.cancel(); btn.classList.remove('speaking'); return;
+    }
+    document.querySelectorAll('.speak-btn').forEach(b => b.classList.remove('speaking'));
+    btn.classList.add('speaking');
+    speakText(text);
+    const poll = setInterval(() => {
+        if (!synth.speaking) { btn.classList.remove('speaking'); clearInterval(poll); }
+    }, 200);
+}
