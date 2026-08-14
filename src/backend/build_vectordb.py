@@ -2,23 +2,16 @@
 One-time script to build the ChromaDB vector database.
 Embeds all ~4,720 schemes using the bge-m3 embedding API
 and stores them in a persistent ChromaDB collection.
-
-Usage:
-    cd d:\vit\ty-sem1\edi\scraper\backend
-    python build_vectordb.py
 """
 
 import os
 import sys
 import time
 
-# Ensure imports work when running from backend/ directory
-sys.path.insert(0, os.path.dirname(__file__))
-
-from scheme_loader import scheme_loader
-from vector_store import vector_store
-from embedding_service import embedding_service
-from config import CHROMA_DB_PATH
+from backend.scheme_loader import scheme_loader
+from backend.vector_store import vector_store
+from backend.embedding_service import embedding_service
+from backend.config import CHROMA_DB_PATH
 
 
 def main():

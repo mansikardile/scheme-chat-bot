@@ -4,7 +4,7 @@ Wraps the bge-m3 embedding API for both async and sync usage.
 """
 
 import httpx
-from config import EMBEDDING_API_URL, EMBEDDING_API_KEY, EMBEDDING_MODEL
+from backend.config import EMBEDDING_API_URL, EMBEDDING_API_KEY, EMBEDDING_MODEL
 
 
 class EmbeddingService:

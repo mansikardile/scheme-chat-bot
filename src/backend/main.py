@@ -6,13 +6,13 @@ from fastapi.middleware.cors import CORSMiddleware
 from fastapi.staticfiles import StaticFiles
 from fastapi.responses import FileResponse
 
-from config import FRONTEND_DIR
-from models import ChatRequest, ChatResponse, SchemeCard
-from scheme_loader import scheme_loader
-from vector_store import vector_store
-from gemini_service import gemini_service
-from chat_manager import chat_manager, ChatSession
-from rag_pipeline import rag_pipeline
+from backend.config import FRONTEND_DIR
+from backend.models import ChatRequest, ChatResponse, SchemeCard
+from backend.scheme_loader import scheme_loader
+from backend.vector_store import vector_store
+from backend.gemini_service import gemini_service
+from backend.chat_manager import chat_manager, ChatSession
+from backend.rag_pipeline import rag_pipeline
 
 app = FastAPI(title='SchemeSathi API')
 
@@ -107,3 +107,12 @@ async def serve_frontend():
     if os.path.exists(index_path):
         return FileResponse(index_path)
     return {'message': 'Frontend not found.'}
+
+
+def main():
+    import uvicorn
+    uvicorn.run("scheme_sathi.main:app", host="0.0.0.0", port=8000, reload=True)
+
+
+if __name__ == '__main__':
+    main()

@@ -4,7 +4,7 @@ Provides persistent storage and cosine similarity search over scheme embeddings.
 """
 
 import chromadb
-from config import CHROMA_DB_PATH
+from backend.config import CHROMA_DB_PATH
 
 
 class VectorStore:

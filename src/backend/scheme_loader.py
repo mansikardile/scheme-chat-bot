@@ -18,7 +18,7 @@ does ', '.join(states) works the same regardless of scheme type.
 import json
 from pathlib import Path
 
-from config import SCHEMES_DIR
+from backend.config import SCHEMES_DIR
 
 
 class SchemeLoader:

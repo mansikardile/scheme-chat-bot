@@ -1,9 +1,9 @@
 """RAG pipeline for SchemeSathi."""
 
-from embedding_service import embedding_service
-from vector_store import vector_store
-from scheme_loader import scheme_loader
-from gemini_service import gemini_service
+from backend.embedding_service import embedding_service
+from backend.vector_store import vector_store
+from backend.scheme_loader import scheme_loader
+from backend.gemini_service import gemini_service
 import re
 
 
@@ -42,7 +42,7 @@ MULTILINGUAL_KEYWORD_MAP = {
     # Needs & Services
     'छात्रवृत्ति': 'scholarship stipend financial assistance education fee',
     'स्कॉलरशिप': 'scholarship stipend financial assistance',
-    'उदविगाई': 'scholarship stipend',
+    'उदవిगाई': 'scholarship stipend',
     'लोन': 'loan credit subsidy interest subvention bank financial',
     'ऋण': 'loan credit subsidy interest subvention bank',
     'कर्ज': 'loan credit subsidy interest subvention',
