@@ -22,4 +22,4 @@ OLLAMA_EMBEDDING_MODEL = os.getenv('OLLAMA_EMBEDDING_MODEL', 'bge-m3:latest')
 # Paths
 CHROMA_DB_PATH = str(ROOT_DIR / 'chroma_db')
 SCHEMES_DIR = str(ROOT_DIR / 'schemes')  # produced by scraper/scrape_all.py, one JSON per slug
-FRONTEND_DIR = str(ROOT_DIR / 'frontend')
+FRONTEND_DIR = str(ROOT_DIR / 'src' / 'frontend')
