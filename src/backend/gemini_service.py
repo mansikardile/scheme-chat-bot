@@ -1,7 +1,8 @@
 """Gemini AI service for SchemeSathi."""
 
-from google import genai
-from google.genai import types
+import re
+from langchain_google_genai import ChatGoogleGenerativeAI
+from langchain_core.messages import SystemMessage, HumanMessage, AIMessage
 from backend.config import GEMINI_API_KEY
 import os
 
@@ -48,21 +49,37 @@ You MUST respond in {language_name} language.
 
 
 class GeminiService:
-    """Service for Gemini API interactions."""
+    """Service for Gemini API interactions via LangChain."""
 
     def __init__(self):
-        self.client = None
+        self._chain = None
         self.model_name = 'gemini-flash-latest'
         self.fallback_models = ['gemini-flash-lite-latest', 'gemini-2.0-flash']
 
     def init(self):
-        """Initialize the Gemini client."""
+        """Initialize the LangChain Gemini chain with fallbacks."""
         api_key = GEMINI_API_KEY or os.getenv('GEMINI_API_KEY', '')
         if not api_key:
             print('WARNING: GEMINI_API_KEY not set!')
             return
-        self.client = genai.Client(api_key=api_key)
-        print('Gemini service initialized.')
+
+        primary = ChatGoogleGenerativeAI(
+            model=self.model_name,
+            google_api_key=api_key,
+            temperature=0.6,
+            max_output_tokens=1024,
+        )
+        fallbacks = [
+            ChatGoogleGenerativeAI(
+                model=m,
+                google_api_key=api_key,
+                temperature=0.6,
+                max_output_tokens=1024,
+            )
+            for m in self.fallback_models
+        ]
+        self._chain = primary.with_fallbacks(fallbacks)
+        print('Gemini service (LangChain) initialized.')
 
     async def generate_response(
         self,
@@ -72,55 +89,46 @@ class GeminiService:
         language: str = 'en',
     ) -> str:
         """Generate a conversational response grounded in scheme data."""
-        if not self.client:
+        if not self._chain:
             self.init()
-            if not self.client:
+            if not self._chain:
                 return 'Error: Gemini API key not configured. Please add GEMINI_API_KEY to your .env file.'
 
         lang_name = LANGUAGE_NAMES.get(language, 'English')
-        system = SYSTEM_PROMPT.format(language_name=lang_name)
+        system_text = SYSTEM_PROMPT.format(language_name=lang_name)
 
-        history = []
+        # Build LangChain message list: [SystemMessage] + history + augmented user turn
+        messages: list = [SystemMessage(content=system_text)]
+
         for msg in conversation_history:
-            role = 'user' if msg['role'] == 'user' else 'model'
-            history.append(
-                types.Content(role=role, parts=[types.Part.from_text(text=msg['content'])])
-            )
+            if msg['role'] == 'user':
+                messages.append(HumanMessage(content=msg['content']))
+            else:
+                messages.append(AIMessage(content=msg['content']))
 
-        augmented = (
+        augmented_user = (
             f"{user_message}\n\n"
             f"[SCHEME DATA]\n{scheme_context}\n[END SCHEME DATA]\n\n"
-            f"Remember: Respond in {lang_name}. Do NOT write raw URLs. Ask 1 follow-up question if profile incomplete."
+            f"Remember: Respond in {lang_name}. Do NOT write raw URLs. "
+            f"Ask 1 follow-up question if profile incomplete."
         )
+        messages.append(HumanMessage(content=augmented_user))
 
-        models_to_try = [self.model_name] + self.fallback_models
-        for m_name in models_to_try:
-            try:
-                chat = self.client.chats.create(
-                    model=m_name,
-                    history=history,
-                    config=types.GenerateContentConfig(
-                        system_instruction=system,
-                        temperature=0.6,
-                        max_output_tokens=1024,
-                    ),
-                )
-                response = chat.send_message(augmented)
-                text = response.text
-                # Extra safety: strip any raw URL links Gemini might have generated
-                import re
-                text = re.sub(r'https?://[^\s)]+', '', text)
-                text = re.sub(r'\[Link\]\(\)', '', text)
-                return text.strip()
-            except Exception as e:
-                print(f"Gemini API error with model {m_name}: {e}")
-                continue
+        try:
+            response = await self._chain.ainvoke(messages)
+            text = response.content
+        except Exception as e:
+            print(f"Gemini API error (all models exhausted): {e}")
+            error_msgs = {
+                'hi': 'क्षमा करें, फ्री कोटा/रेट लिमिट भर गया है। कृपया कुछ सेकंड बाद फिर से प्रयास करें।',
+                'en': "I'm sorry, rate limit exceeded for free tier. Please wait a few seconds and try again.",
+            }
+            return error_msgs.get(language, error_msgs['en'])
 
-        error_msgs = {
-            'hi': 'क्षमा करें, फ्री कोटा/रेट लिमिट भर गया है। कृपया कुछ सेकंड बाद फिर से प्रयास करें।',
-            'en': "I'm sorry, rate limit exceeded for free tier. Please wait a few seconds and try again.",
-        }
-        return error_msgs.get(language, error_msgs['en'])
+        # Extra safety: strip any raw URL links the model might have generated
+        text = re.sub(r'https?://[^\s)]+', '', text)
+        text = re.sub(r'\[Link\]\(\)', '', text)
+        return text.strip()
 
 
 gemini_service = GeminiService()
