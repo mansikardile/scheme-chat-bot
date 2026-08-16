@@ -1,22 +1,22 @@
-﻿"""
+"""
 RAG pipeline for SchemeSathi.
 
 Orchestration layer that wires together:
-  1. Custom multilingual query-expansion (domain logic â€” kept as-is)
+  1. Custom multilingual query-expansion (domain logic — kept as-is)
   2. LangChain-backed OllamaEmbeddings (via embedding_service)
   3. LangChain-backed Chroma vector store (via vector_store)
-  4. LangChain-backed ChatGoogleGenerativeAI (via gemini_service)
-  5. Custom intent-gated card-selection (domain logic â€” kept as-is)
+  4. Provider-agnostic LLM service (via llm_service)
+  5. Custom intent-gated card-selection (domain logic — kept as-is)
 
 The custom pre/post-processing steps make a pure LCEL pipe chain awkward,
 so the pipeline is implemented as a Python class that invokes LangChain
-components in sequence â€” a deliberately pragmatic choice.
+components in sequence — a deliberately pragmatic choice.
 """
 
 from backend.embedding_service import embedding_service
 from backend.vector_store import vector_store
 from backend.scheme_loader import scheme_loader
-from backend.gemini_service import gemini_service
+from backend.llm_service import generate_response
 import re
 
 
@@ -25,7 +25,7 @@ MULTILINGUAL_KEYWORD_MAP = {
     # Categories & Caste
     'à¤“à¤¬à¥€à¤¸à¥€': 'OBC category Other Backward Class',
     'obc': 'OBC category Other Backward Class',
-    'à¤à¤¸à¤¸à¥€': 'SC Scheduled Caste',
+    'à¤ à¤¸à¤¸à¥€': 'SC Scheduled Caste',
     'sc': 'SC Scheduled Caste',
     'à¤à¤¸à¤Ÿà¥€': 'ST Scheduled Tribe',
     'st': 'ST Scheduled Tribe',
@@ -120,9 +120,9 @@ class RAGPipeline:
         scheme_context = '\n\n'.join(context_parts)
         print(f"[RAG Pipeline] Injected Context Length: {len(scheme_context)} characters\n")
 
-        # 5. Generate response using LangChain ChatGoogleGenerativeAI in user's requested language
-        reply_text = await gemini_service.generate_response(
-            session_history, user_message, scheme_context, language=language
+        # 5. Generate response using provider-agnostic llm_service in user's requested language
+        reply_text = await generate_response(
+            'gemini-flash', session_history, user_message, scheme_context, language=language
         )
 
         # 6. Intent-gated Card Selection logic (domain logic â€” kept as custom post-processing)
