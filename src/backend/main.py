@@ -10,7 +10,6 @@ from backend.config import FRONTEND_DIR
 from backend.models import ChatRequest, ChatResponse, SchemeCard
 from backend.scheme_loader import scheme_loader
 from backend.vector_store import vector_store
-from backend.gemini_service import gemini_service
 from backend.chat_manager import chat_manager, ChatSession
 from backend.rag_pipeline import rag_pipeline
 
@@ -30,8 +29,8 @@ async def startup_event():
     print('\n--- SchemeSathi Starting Up ---')
     scheme_loader.load_data()
     vector_store.init()
-    gemini_service.init()
     print('--- Startup Complete ---\n')
+
 
 
 @app.post('/api/chat/new')

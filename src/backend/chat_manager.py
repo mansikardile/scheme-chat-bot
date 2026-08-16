@@ -1,25 +1,33 @@
 import uuid
 from datetime import datetime
+from langchain_core.chat_history import InMemoryChatMessageHistory
+from langchain_core.messages import HumanMessage, AIMessage
 
 
 class ChatSession:
     def __init__(self, session_id: str):
         self.session_id = session_id
-        self.messages: list[dict] = []
         self.language: str = 'en'
         self.created_at = datetime.now()
         self.last_active = datetime.now()
+        # LangChain in-memory message store for this session
+        self._history = InMemoryChatMessageHistory()
 
     def add_message(self, role: str, content: str):
-        self.messages.append({
-            'role': role,
-            'content': content,
-            'timestamp': datetime.now().isoformat(),
-        })
+        """Append a message and update the last_active timestamp."""
+        if role == 'user':
+            self._history.add_message(HumanMessage(content=content))
+        else:
+            self._history.add_message(AIMessage(content=content))
         self.last_active = datetime.now()
 
     def get_history(self) -> list[dict]:
-        return self.messages
+        """Return history as [{'role': ..., 'content': ...}] — same shape as before."""
+        result = []
+        for msg in self._history.messages:
+            role = 'user' if isinstance(msg, HumanMessage) else 'model'
+            result.append({'role': role, 'content': msg.content})
+        return result
 
 
 class ChatManager:
