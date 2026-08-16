@@ -46,6 +46,33 @@ You MUST respond in {language_name} language.
 """
 
 
+def _extract_text_content(content) -> str:
+    """Extract clean string text from LangChain message content (str, list, or dict)."""
+    if isinstance(content, str):
+        return content
+    if isinstance(content, list):
+        parts = []
+        for item in content:
+            if isinstance(item, str):
+                parts.append(item)
+            elif isinstance(item, dict):
+                if item.get('type') == 'text' and 'text' in item:
+                    parts.append(str(item['text']))
+                elif 'text' in item:
+                    parts.append(str(item['text']))
+                else:
+                    parts.append(str(item))
+            else:
+                parts.append(str(item))
+        return "".join(parts)
+    if isinstance(content, dict):
+        if content.get('type') == 'text' and 'text' in content:
+            return str(content['text'])
+        if 'text' in content:
+            return str(content['text'])
+    return str(content)
+
+
 async def generate_response(
     model_id: str,
     conversation_history: list[dict],
@@ -83,9 +110,7 @@ async def generate_response(
 
     try:
         response = await model.ainvoke(messages)
-        text = response.content
-        if isinstance(text, list):
-            text = "".join([str(item) for item in text])
+        text = _extract_text_content(response.content)
     except Exception as e:
         print(f"LLM execution error with model '{model_id}': {e}")
         error_msgs = {
@@ -93,6 +118,7 @@ async def generate_response(
             'en': "I'm sorry, rate limit exceeded for free tier. Please wait a few seconds and try again.",
         }
         return error_msgs.get(language, error_msgs['en'])
+
 
     # Extra safety: strip any raw URL links the model might have generated
     text = re.sub(r'https?://[^\s)]+', '', text)
