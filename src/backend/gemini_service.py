@@ -117,6 +117,8 @@ class GeminiService:
         try:
             response = await self._chain.ainvoke(messages)
             text = response.content
+            if isinstance(text, list):
+                text = "".join([str(item) for item in text])
         except Exception as e:
             print(f"Gemini API error (all models exhausted): {e}")
             error_msgs = {
