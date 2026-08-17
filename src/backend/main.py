@@ -13,7 +13,7 @@ from backend.scheme_loader import scheme_loader
 from backend.vector_store import vector_store
 from backend.chat_manager import chat_manager, ChatSession
 from backend.rag_pipeline import rag_pipeline
-from backend.model_registry import get_available_models_info
+from backend.model_registry import get_available_models_info, get_local_ollama_models
 
 app = FastAPI(title='SchemeSathi API')
 
@@ -36,8 +36,14 @@ async def startup_event():
 
 @app.get('/api/models')
 async def get_models():
-    """Return available models and their local vs server resolution status."""
+    """Return available default models."""
     return get_available_models_info()
+
+
+@app.get('/api/models/local-ollama')
+async def get_local_ollama_status():
+    """Check local Ollama daemon status and return list of locally downloaded models."""
+    return get_local_ollama_models()
 
 
 @app.post('/api/chat/new')
@@ -59,11 +65,15 @@ async def chat_endpoint(request: ChatRequest):
     history = session.get_history().copy()
     session.add_message('user', request.message)
 
-    # Run RAG pipeline with language, selected model, and optional user API key
+    # Run RAG pipeline with language, selected model, user API key, and custom model_config
     reply_text, cards = await rag_pipeline.process_query(
-        history, request.message, language=request.language, model_id=request.model, api_key=request.api_key
+        history,
+        request.message,
+        language=request.language,
+        model_id=request.model,
+        api_key=request.api_key,
+        model_config=request.custom_model,
     )
-
 
     session.add_message('model', reply_text)
 
@@ -92,7 +102,12 @@ async def chat_stream_endpoint(request: ChatRequest):
         full_text = ""
         try:
             async for event in rag_pipeline.process_query_stream(
-                history, request.message, language=request.language, model_id=request.model, api_key=request.api_key
+                history,
+                request.message,
+                language=request.language,
+                model_id=request.model,
+                api_key=request.api_key,
+                model_config=request.custom_model,
             ):
                 if event["type"] == "text":
                     full_text += event["content"]

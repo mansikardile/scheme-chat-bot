@@ -7,10 +7,6 @@ Orchestration layer that wires together:
   3. LangChain-backed Chroma vector store (via vector_store)
   4. Provider-agnostic LLM service (via llm_service)
   5. Custom intent-gated card-selection (domain logic — kept as-is)
-
-The custom pre/post-processing steps make a pure LCEL pipe chain awkward,
-so the pipeline is implemented as a Python class that invokes LangChain
-components in sequence — a deliberately pragmatic choice.
 """
 
 from backend.embedding_service import embedding_service
@@ -23,68 +19,68 @@ import re
 # Regional to English Keyword Mapping for high precision vector retrieval
 MULTILINGUAL_KEYWORD_MAP = {
     # Categories & Caste
-    'à¤“à¤¬à¥€à¤¸à¥€': 'OBC category Other Backward Class',
+    'ओबीसी': 'OBC category Other Backward Class',
     'obc': 'OBC category Other Backward Class',
-    'à¤ à¤¸à¤¸à¥€': 'SC Scheduled Caste',
+    'एससी': 'SC Scheduled Caste',
     'sc': 'SC Scheduled Caste',
-    'à¤à¤¸à¤Ÿà¥€': 'ST Scheduled Tribe',
+    'एसटी': 'ST Scheduled Tribe',
     'st': 'ST Scheduled Tribe',
-    'à¤œà¤¨à¤°à¤²': 'General Category',
-    'à¤®à¤¾à¤‡à¤¨à¥‰à¤°à¤¿à¤Ÿà¥€': 'Minority Muslim Christian Sikh Jain Buddhist',
+    'जनरल': 'General Category',
+    'माइनॉरिटी': 'Minority Muslim Christian Sikh Jain Buddhist',
     
     # Occupations & Roles
-    'à¤›à¤¾à¤¤à¥à¤°': 'student education scholarship college university school',
-    'à¤›à¤¾à¤¤à¥à¤°à¤¾': 'female student girl scholarship',
-    'à¤µà¤¿à¤¦à¥à¤¯à¤¾à¤°à¥à¤¥à¥€': 'student education scholarship',
-    'à®®à®¾à®£à®µà®°à¯': 'student education scholarship',
-    'à°µà°¿à°¦à±à°¯à°¾à°°à±à°¥à°¿': 'student education scholarship',
-    'à¤•à¤¿à¤¸à¤¾à¤¨': 'farmer agriculture crop cultivation land loan PM-KISAN',
-    'à¤¶à¥‡à¤¤à¤•à¤°à¥€': 'farmer agriculture crop cultivation',
-    'à®µà®¿à®µà®šà®¾à®¯à®¿': 'farmer agriculture crop',
-    'à°°à±ˆà°¤à±': 'farmer agriculture crop',
-    'à¤®à¤¹à¤¿à¤²à¤¾': 'women female entrepreneur widow mother girl child',
-    'à¤®à¤¹à¤¿à¤²à¤¾à¤à¤‚': 'women female entrepreneur',
-    'à®ªà¯†à®£à¯à®•à®³à¯': 'women female entrepreneur',
-    'à°¸à±à°¤à±à°°à±€à°²à±': 'women female entrepreneur',
-    'à¤µà¥à¤¯à¤¾à¤ªà¤¾à¤°à¥€': 'business entrepreneur MSME shopkeeper loan vendor',
-    'à¤‰à¤¦à¥à¤¯à¤®à¥€': 'entrepreneur business MSME startup loan',
-    'à¤¬à¥‡à¤°à¥‹à¤œà¤—à¤¾à¤°': 'unemployed youth employment skill training job',
-    'à¤®à¤œà¤¦à¥‚à¤°': 'worker laborer unorganized sector pension',
-    'à¤¶à¥à¤°à¤®à¤¿à¤•': 'worker laborer unorganized sector pension',
+    'छात्र': 'student education scholarship college university school',
+    'छात्रा': 'female student girl scholarship',
+    'विद्यार्थी': 'student education scholarship',
+    'மாணவர்': 'student education scholarship',
+    'విద్యార్థి': 'student education scholarship',
+    'किसान': 'farmer agriculture crop cultivation land loan PM-KISAN',
+    'शेतकरी': 'farmer agriculture crop cultivation',
+    'விவசாயி': 'farmer agriculture crop',
+    'రైతు': 'farmer agriculture crop',
+    'महिला': 'women female entrepreneur widow mother girl child',
+    'महिलाएं': 'women female entrepreneur',
+    'பெண்கள்': 'women female entrepreneur',
+    'స్త్రీలు': 'women female entrepreneur',
+    'व्यापारी': 'business entrepreneur MSME shopkeeper loan vendor',
+    'उद्यमी': 'entrepreneur business MSME startup loan',
+    'बेरोजगार': 'unemployed youth employment skill training job',
+    'मजदूर': 'worker laborer unorganized sector pension',
+    'श्रमिक': 'worker laborer unorganized sector pension',
 
     # Needs & Services
-    'à¤›à¤¾à¤¤à¥à¤°à¤µà¥ƒà¤¤à¥à¤¤à¤¿': 'scholarship stipend financial assistance education fee',
-    'à¤¸à¥à¤•à¥‰à¤²à¤°à¤¶à¤¿à¤ª': 'scholarship stipend financial assistance',
-    'à¤‰à¤¦à°µà°¿à°—à°¾à¤ˆ': 'scholarship stipend',
-    'à¤²à¥‹à¤¨': 'loan credit subsidy interest subvention bank financial',
-    'à¤‹à¤£': 'loan credit subsidy interest subvention bank',
-    'à¤•à¤°à¥à¤œ': 'loan credit subsidy interest subvention',
-    'à®•à®Ÿàµ¯': 'loan credit subsidy',
-    'à°°à±à°£à°‚': 'loan credit subsidy',
-    'à¤ªà¥‡à¤‚à¤¶à¤¨': 'pension senior citizen elderly old age monthly allowance',
-    'à¤“à¤²à¥à¤¡ à¤à¤œ': 'old age senior citizen pension',
-    'à¤†à¤µà¤¾à¤¸': 'housing house construction Pradhan Mantri Awas Yojana PMAY shelter',
-    'à¤˜à¤°': 'housing house construction PMAY',
-    'à¤¸à¥à¤µà¤¾à¤¸à¥à¤¥à¥à¤¯': 'health healthcare hospital medical insurance Ayushman Bharat',
-    'à¤‡à¤²à¤¾à¤œ': 'health healthcare medical insurance treatment',
-    'à¤¬à¥€à¤®à¤¾': 'insurance life accidental health policy cover',
+    'छात्रवृत्ति': 'scholarship stipend financial assistance education fee',
+    'स्कॉलरशिप': 'scholarship stipend financial assistance',
+    'உதவித்தொகை': 'scholarship stipend',
+    'लोन': 'loan credit subsidy interest subvention bank financial',
+    'ऋण': 'loan credit subsidy interest subvention bank',
+    'कर्ज': 'loan credit subsidy interest subvention',
+    'கடன்': 'loan credit subsidy',
+    'రుణం': 'loan credit subsidy',
+    'पेंशन': 'pension senior citizen elderly old age monthly allowance',
+    'ओल्ड एज': 'old age senior citizen pension',
+    'आवास': 'housing house construction Pradhan Mantri Awas Yojana PMAY shelter',
+    'घर': 'housing house construction PMAY',
+    'स्वास्थ्य': 'health healthcare hospital medical insurance Ayushman Bharat',
+    'इलाज': 'health healthcare medical insurance treatment',
+    'बीमा': 'insurance life accidental health policy cover',
 
     # Common States
-    'à¤…à¤¸à¤®': 'Assam',
-    'à¤®à¤¹à¤¾à¤°à¤¾à¤·à¥à¤Ÿà¥à¤°': 'Maharashtra',
-    'à¤‰à¤¤à¥à¤¤à¤° à¤ªà¥à¤°à¤¦à¥‡à¤¶': 'Uttar Pradesh UP',
-    'à¤¬à¤¿à¤¹à¤¾à¤°': 'Bihar',
-    'à¤°à¤¾à¤œà¤¸à¥à¤¥à¤¾à¤¨': 'Rajasthan',
-    'à¤®à¤§à¥à¤¯ à¤ªà¥à¤°à¤¦à¥‡à¤¶': 'Madhya Pradesh MP',
-    'à¤—à¥à¤œà¤°à¤¾à¤¤': 'Gujarat',
-    'à¤ªà¤‚à¤œà¤¾à¤¬': 'Punjab',
-    'à¤¹à¤°à¤¿à¤¯à¤¾à¤£à¤¾': 'Haryana',
-    'à¤¤à¤®à¤¿à¤²à¤¨à¤¾à¤¡à¥': 'Tamil Nadu',
-    'à¤•à¤°à¥à¤¨à¤¾à¤Ÿà¤•': 'Karnataka',
-    'à¤¤à¥‡à¤²à¤‚à¤—à¤¾à¤¨à¤¾': 'Telangana',
-    'à¤†à¤‚à¤§à¥à¤° à¤ªà¥à¤°à¤¦à¥‡à¤¶': 'Andhra Pradesh',
-    'à¤ªà¤¶à¥à¤šà¤¿à¤® à¤¬à¤‚à¤—à¤¾à¤²': 'West Bengal',
-    'à¤“à¤¡à¤¿à¤¶à¤¾': 'Odisha',
+    'असम': 'Assam',
+    'महाराष्ट्र': 'Maharashtra',
+    'उत्तर प्रदेश': 'Uttar Pradesh UP',
+    'बिहार': 'Bihar',
+    'राजस्थान': 'Rajasthan',
+    'मध्य प्रदेश': 'Madhya Pradesh MP',
+    'गुजरात': 'Gujarat',
+    'पंजाब': 'Punjab',
+    'हरियाणा': 'Haryana',
+    'तमिलनाडु': 'Tamil Nadu',
+    'कर्नाटक': 'Karnataka',
+    'तेलंगाना': 'Telangana',
+    'आंध्र प्रदेश': 'Andhra Pradesh',
+    'पश्चिम बंगाल': 'West Bengal',
+    'ओडिशा': 'Odisha',
 }
 
 
@@ -92,7 +88,13 @@ class RAGPipeline:
     """Orchestrates query translation, vector search, LLM response, and UI card rendering."""
 
     async def process_query(
-        self, session_history: list[dict], user_message: str, language: str = 'en', model_id: str = 'gemini-flash', api_key: str | None = None
+        self,
+        session_history: list[dict],
+        user_message: str,
+        language: str = 'en',
+        model_id: str = 'gemini-flash',
+        api_key: str | None = None,
+        model_config: dict | None = None,
     ) -> tuple[str, list[dict]]:
         """Full RAG pipeline with multilingual query translation and intent-gated card display."""
 
@@ -112,7 +114,7 @@ class RAGPipeline:
         retrieved_slugs = [r['slug'] for r in results]
         print(f"[RAG Pipeline] ChromaDB Top 15 retrieved scheme slugs: {retrieved_slugs}")
 
-        # 4. Build rich scheme context for Gemini
+        # 4. Build rich scheme context for LLM
         context_parts = []
         for i, res in enumerate(results, 1):
             ctx = scheme_loader.get_scheme_context(res['slug'])
@@ -120,20 +122,24 @@ class RAGPipeline:
         scheme_context = '\n\n'.join(context_parts)
         print(f"[RAG Pipeline] Injected Context Length: {len(scheme_context)} characters\n")
 
-        # 5. Generate response using provider-agnostic llm_service with selected model_id and optional user api_key
+        # 5. Generate response using provider-agnostic llm_service with selected model_id, optional user api_key, and model_config
         reply_text = await generate_response(
-            model_id, session_history, user_message, scheme_context, language=language, api_key=api_key
+            model_id, session_history, user_message, scheme_context, language=language, api_key=api_key, model_config=model_config
         )
 
-
-
-        # 6. Intent-gated Card Selection logic (domain logic â€” kept as custom post-processing)
+        # 6. Intent-gated Card Selection logic (domain logic — kept as custom post-processing)
         scheme_cards = self._select_cards_if_needed(reply_text, user_message, results)
 
         return reply_text, scheme_cards
 
     async def process_query_stream(
-        self, session_history: list[dict], user_message: str, language: str = 'en', model_id: str = 'gemini-flash', api_key: str | None = None
+        self,
+        session_history: list[dict],
+        user_message: str,
+        language: str = 'en',
+        model_id: str = 'gemini-flash',
+        api_key: str | None = None,
+        model_config: dict | None = None,
     ):
         """Full RAG pipeline streaming LLM response and sending intent-gated cards at the end."""
         # 1. Translate / Enrich search query to English for high precision vector retrieval
@@ -164,10 +170,8 @@ class RAGPipeline:
         # 5. Stream response using provider-agnostic llm_service
         full_reply_text = ""
         async for chunk in generate_response_stream(
-            model_id, session_history, user_message, scheme_context, language=language, api_key=api_key
+            model_id, session_history, user_message, scheme_context, language=language, api_key=api_key, model_config=model_config
         ):
-            # Extra safety: strip any raw URL links the model might have generated
-            # For streaming, we yield chunks. Extra safety will also clean full text later or be done per chunk.
             clean_chunk = re.sub(r'https?://[^\s)]+', '', chunk)
             clean_chunk = re.sub(r'\[Link\]\(\)', '', clean_chunk)
             if clean_chunk:
@@ -224,14 +228,14 @@ class RAGPipeline:
             kw in user_message.lower() for kw in [
                 'list', 'show list', 'give me list', 'show schemes', 'all schemes',
                 'yojana list', 'yojna list', 'recommend schemes', 'which scheme',
-                'à¤²à¤¿à¤¸à¥à¤Ÿ', 'à¤¸à¥‚à¤šà¥€', 'à¤¦à¤¿à¤–à¤¾à¤à¤‚', 'à¤¦à¥€à¤œà¤¿à¤', 'à¤¯à¥‹à¤œà¤¨à¤¾ à¤¦à¤¿à¤–à¤¾à¤“', 'à¤¯à¥‹à¤œà¤¨à¤¾ à¤•à¥€ à¤¸à¥‚à¤šà¥€'
+                'लिस्ट', 'सूची', 'दिखाएं', 'दीजिए', 'योजना दिखाओ', 'योजना की सूची'
             ]
         )
 
         ai_recommends_scheme = any(
             kw in reply_text.lower() for kw in [
                 'suitable scheme', 'best scheme', 'recommended scheme',
-                'à¤‰à¤ªà¤¯à¥à¤•à¥à¤¤ à¤¯à¥‹à¤œà¤¨à¤¾', 'à¤ªà¥à¤°à¤®à¥à¤– à¤¸à¤°à¤•à¤¾à¤°à¥€ à¤¯à¥‹à¤œà¤¨à¤¾', 'à¤¨à¥€à¤šà¥‡ à¤¦à¥€ à¤—à¤ˆ à¤¯à¥‹à¤œà¤¨à¤¾', 'à¤¨à¤¿à¤®à¥à¤¨à¤²à¤¿à¤–à¤¿à¤¤ à¤¯à¥‹à¤œà¤¨à¤¾'
+                'उपयुक्त योजना', 'प्रमुख सरकारी योजना', 'नीचे दी गई योजना', 'निम्नलिखित योजना'
             ]
         )
 

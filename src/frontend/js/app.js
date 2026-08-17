@@ -1,6 +1,7 @@
 // ═══════════════════════════════════════════════════════════════
 //  SchemeSathi — Frontend Application
-//  Premium Edition with Multilingual Support, Voice I/O, Theme Toggle
+//  Premium Edition with Multilingual Support, Voice I/O, Theme Toggle,
+//  and Dynamic Local/Remote LLM Model Management
 // ═══════════════════════════════════════════════════════════════
 
 const API_BASE = '';
@@ -15,12 +16,32 @@ let synth = window.speechSynthesis;
 let isRecording = false;
 let currentTheme = localStorage.getItem('schemesathi_theme') || 'dark';
 
-// Selected model persisted in session storage (falling back to localStorage)
-let selectedModel = sessionStorage.getItem('schemesathi_selected_model') ||
-                    localStorage.getItem('schemesathi_selected_model') || 'gemini-flash';
-let userApiKey = sessionStorage.getItem('schemesathi_api_key') ||
-                 localStorage.getItem('schemesathi_api_key') || '';
-let availableModels = [];
+// Default built-in model is Gemini Flash
+const DEFAULT_MODELS = [
+    {
+        id: 'gemini-flash',
+        name: 'Google Gemini Flash',
+        provider: 'gemini',
+        is_default: true,
+        model_name: 'gemini-flash-latest',
+        description: 'Default Google Cloud AI model'
+    }
+];
+
+// Custom models loaded from localStorage
+let customModels = [];
+try {
+    const savedCustom = localStorage.getItem('schemesathi_custom_models');
+    if (savedCustom) customModels = JSON.parse(savedCustom);
+} catch (e) {
+    customModels = [];
+}
+
+let selectedModel = localStorage.getItem('schemesathi_selected_model') ||
+                    sessionStorage.getItem('schemesathi_selected_model') || 'gemini-flash';
+let userApiKey = localStorage.getItem('schemesathi_api_key') ||
+                 sessionStorage.getItem('schemesathi_api_key') || '';
+let localOllamaModels = [];
 
 
 // ── Language mappings ──
@@ -39,7 +60,7 @@ const GREETINGS = {
     bn: "নমস্কার! আমি SchemeSathi, আপনার AI সহায়ক। বলুন — আপনার কী ধরনের সাহায্য দরকার?",
     gu: "નમસ્તે! હું SchemeSathi, તમારો AI સહાયક. કહો — તમારે કયા પ્રકારની મદદ જોઈએ છે?",
     kn: "ನಮಸ್ಕಾರ! ನಾನು SchemeSathi, ನಿಮ್ಮ AI ಸಹಾಯಕ. ಹೇಳಿ — ನಿಮಗೆ ಯಾವ ರೀತಿಯ ಸಹಾಯ ಬೇಕು?",
-    ml: "നമസ്കാരം! ഞാൻ SchemeSathi, നിങ്ങളുടെ AI സഹായി. പറയൂ — നിങ്ങൾക്ക് എന്ത് തരത്തിലുള്ള സഹாயം വേണം?",
+    ml: "നമസ്കാരം! ഞാൻ SchemeSathi, നിങ്ങളുടെ AI സഹായി. പറയൂ — നിങ്ങൾക്ക് എന്ത് തരത്തിലുള്ള സഹായം വേണം?",
     pa: "ਸਤ ਸ੍ਰੀ ਅਾਲ! ਮੈਂ SchemeSathi ਹਾਂ, ਤੁਹਾਡਾ AI ਸਹਾਇਕ। ਦੱਸੋ — ਤੁਹਾਨੂੰ ਕਿਸ ਤਰ੍ਹਾਂ ਦੀ ਮਦਦ ਚਾਹੀਦੀ ਹੈ?",
     or: "ନମସ୍କାର! ମୁଁ SchemeSathi, ଆପଣଙ୍କ AI ସହାଯ଼କ। କୁହନ୍ତୁ — ଆପଣଙ୍କୁ କେଉଁ ପ୍ରକାର ସାହାଯ଼୍ଯ ଦରକାର?",
     ur: "السلام علیکم! میں SchemeSathi ہوں, آپ کا AI معاون। بتائیں — آپ کو کس قسم کی مدد چاہیے؟"
@@ -84,6 +105,8 @@ async function init() {
     // Settings Modal
     $('settingsBackdrop')?.addEventListener('click', closeSettingsModal);
     $('closeSettingsBtn')?.addEventListener('click', closeSettingsModal);
+    $('btnCancelSettings')?.addEventListener('click', closeSettingsModal);
+    $('btnSaveSettings')?.addEventListener('click', handleSaveSettings);
 
     // Keyboard shortcut: Escape closes modals
     document.addEventListener('keydown', e => {
@@ -93,25 +116,22 @@ async function init() {
         }
     });
 
-    // Model Change Listeners
+    // Header & Settings Model Change Listeners
     $('headerModelSelect')?.addEventListener('change', e => onModelChange(e.target.value));
     $('settingsModelSelect')?.addEventListener('change', e => onModelChange(e.target.value));
 
-    // Sync saved model selection to selects immediately
-    onModelChange(selectedModel);
+    // Custom Models & Add Model Form Wiring
+    $('btnToggleAddModel')?.addEventListener('click', toggleAddModelForm);
+    $('btnCancelAddModel')?.addEventListener('click', toggleAddModelForm);
+    $('newModelIsLocal')?.addEventListener('change', onNewModelIsLocalChange);
+    $('btnRefreshOllama')?.addEventListener('click', scanLocalOllamaModels);
+    $('localDownloadedSelect')?.addEventListener('change', onLocalDownloadedModelSelect);
+    $('btnSubmitAddModel')?.addEventListener('click', handleAddModelSubmit);
 
-    // Init speech
-    initSpeechRecognition();
-
-    // Init API key input in Settings modal
+    // Eye buttons for API key inputs
     const apiKeyInput = $('settingsApiKeyInput');
     if (apiKeyInput) {
         apiKeyInput.value = userApiKey;
-        apiKeyInput.addEventListener('input', e => {
-            userApiKey = e.target.value.trim();
-            sessionStorage.setItem('schemesathi_api_key', userApiKey);
-            localStorage.setItem('schemesathi_api_key', userApiKey);
-        });
     }
     $('toggleApiKeyBtn')?.addEventListener('click', () => {
         if (apiKeyInput) {
@@ -119,14 +139,26 @@ async function init() {
         }
     });
 
-    // Load dynamic models info from backend
-    loadModels();
+    const newModelKeyInput = $('newModelApiKey');
+    $('toggleNewModelKeyBtn')?.addEventListener('click', () => {
+        if (newModelKeyInput) {
+            newModelKeyInput.type = newModelKeyInput.type === 'password' ? 'text' : 'password';
+        }
+    });
+
+    // Populate initial model lists
+    populateModelSelects();
+    renderConfiguredModelsList();
+
+    // Init speech
+    initSpeechRecognition();
+
+    // Scan local Ollama in background
+    scanLocalOllamaModels();
 
     // Create session
     await createSession();
 }
-
-
 
 // ═══ Language Selection ════════════════════════════════════
 function selectLanguage(chip) {
@@ -144,27 +176,74 @@ function selectLanguage(chip) {
         const greeting = GREETINGS[selectedLanguage] || GREETINGS.en;
         renderAIMessage(greeting, []);
         if (autoSpeak) speakText(greeting);
-
-        $('messageInput').focus();
-    }, 250);
+    }, 200);
 }
 
-// ═══ Speech Recognition ═══════════════════════════════════
+// ═══ Session Management ════════════════════════════════════
+async function createSession() {
+    try {
+        const r = await fetch(`${API_BASE}/api/chat/new`, { method: 'POST' });
+        const data = await r.json();
+        sessionId = data.session_id;
+    } catch {
+        sessionId = 'session_' + Date.now();
+    }
+}
+
+async function startNewChat() {
+    if (synth.speaking) synth.cancel();
+    await createSession();
+    $('messagesContainer').innerHTML = '';
+    $('messagesContainer').classList.add('hidden');
+    $('languageScreen').classList.remove('hidden');
+    $('messageInput').value = '';
+    $('messageInput').style.height = 'auto';
+    $('sendBtn').disabled = true;
+    $('typingIndicator').classList.add('hidden');
+    document.querySelectorAll('.lang-chip').forEach(c => c.classList.remove('selected'));
+}
+
+// ═══ Theme Management ══════════════════════════════════════
+function applyTheme(theme) {
+    currentTheme = theme;
+    document.documentElement.setAttribute('data-theme', theme);
+    localStorage.setItem('schemesathi_theme', theme);
+
+    const moon = $('themeMoonIcon');
+    const sun = $('themeSunIcon');
+    if (theme === 'light') {
+        moon?.classList.add('hidden');
+        sun?.classList.remove('hidden');
+    } else {
+        sun?.classList.add('hidden');
+        moon?.classList.remove('hidden');
+    }
+}
+
+function toggleTheme() {
+    applyTheme(currentTheme === 'dark' ? 'light' : 'dark');
+}
+
+// ═══ Speech & Voice ════════════════════════════════════════
 function initSpeechRecognition() {
-    const SR = window.SpeechRecognition || window.webkitSpeechRecognition;
-    if (!SR) {
-        $('micBtn').style.display = 'none';
+    const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+    if (!SpeechRecognition) {
+        if ($('micBtn')) $('micBtn').style.display = 'none';
         return;
     }
-
-    recognition = new SR();
+    recognition = new SpeechRecognition();
     recognition.continuous = false;
     recognition.interimResults = false;
-    recognition.lang = 'en-IN';
+    recognition.lang = SPEECH_LANG_MAP[selectedLanguage] || 'en-IN';
 
+    recognition.onstart = () => {
+        isRecording = true;
+        $('micBtn')?.classList.add('recording');
+    };
     recognition.onresult = e => {
         const text = e.results[0][0].transcript;
         $('messageInput').value = text;
+        autoResize($('messageInput'));
         $('sendBtn').disabled = false;
         sendMessage(text);
     };
@@ -173,110 +252,60 @@ function initSpeechRecognition() {
 }
 
 function toggleRecording() {
-    isRecording ? stopRecording() : startRecording();
-}
-
-function startRecording() {
-    if (!recognition) {
-        alert('Voice input requires Chrome or Edge browser.');
-        return;
+    if (!recognition) return;
+    if (isRecording) {
+        recognition.stop();
+    } else {
+        try {
+            recognition.lang = SPEECH_LANG_MAP[selectedLanguage] || 'en-IN';
+            recognition.start();
+        } catch (e) {
+            console.error('Speech recognition error:', e);
+        }
     }
-    recognition.lang = SPEECH_LANG_MAP[selectedLanguage] || 'en-IN';
-    try { recognition.start(); } catch(e) {}
-    isRecording = true;
-    $('micBtn').classList.add('recording');
-    $('recordingPulse').classList.remove('hidden');
 }
 
 function stopRecording() {
-    if (recognition && isRecording) try { recognition.stop(); } catch(e) {}
     isRecording = false;
-    $('micBtn').classList.remove('recording');
-    $('recordingPulse').classList.add('hidden');
+    $('micBtn')?.classList.remove('recording');
 }
 
-// ═══ Theme Management ══════════════════════════════════════
-function toggleTheme() {
-    currentTheme = currentTheme === 'dark' ? 'light' : 'dark';
-    applyTheme(currentTheme);
-    localStorage.setItem('schemesathi_theme', currentTheme);
-}
-
-function applyTheme(theme) {
-    if (theme === 'light') {
-        document.documentElement.setAttribute('data-theme', 'light');
-        $('themeMoonIcon')?.classList.add('hidden');
-        $('themeSunIcon')?.classList.remove('hidden');
-    } else {
-        document.documentElement.removeAttribute('data-theme');
-        $('themeSunIcon')?.classList.add('hidden');
-        $('themeMoonIcon')?.classList.remove('hidden');
-    }
-}
-
-// ═══ Text-to-Speech ═══════════════════════════════════════
 function toggleAutoSpeak() {
     autoSpeak = !autoSpeak;
-    $('audioOnIcon').classList.toggle('hidden', !autoSpeak);
-    $('audioOffIcon').classList.toggle('hidden', autoSpeak);
-    $('audioToggleBtn').classList.toggle('active', autoSpeak);
+    $('audioOffIcon')?.classList.toggle('hidden', autoSpeak);
+    $('audioOnIcon')?.classList.toggle('hidden', !autoSpeak);
+    $('audioToggleBtn')?.classList.toggle('active', autoSpeak);
+    if (!autoSpeak && synth.speaking) synth.cancel();
 }
 
 function speakText(text) {
     if (!synth) return;
     synth.cancel();
-    const clean = text
-        .replace(/\*\*(.*?)\*\*/g, '$1').replace(/\*(.*?)\*/g, '$1')
-        .replace(/\[([^\]]+)\]\([^)]+\)/g, '$1')
-        .replace(/#{1,6}\s/g, '').replace(/https?:\/\/[^\s]+/g, '')
-        .replace(/[-*•]\s/g, '').trim();
-
-    const utt = new SpeechSynthesisUtterance(clean);
-    utt.lang = SPEECH_LANG_MAP[selectedLanguage] || 'en-IN';
-    utt.rate = 0.9;
-    synth.speak(utt);
+    const clean = text.replace(/<[^>]*>/g, '').replace(/[*_#`[\]()]/g, '');
+    const utter = new SpeechSynthesisUtterance(clean);
+    utter.lang = SPEECH_LANG_MAP[selectedLanguage] || 'en-IN';
+    utter.rate = 0.95;
+    synth.speak(utter);
 }
 
 function speakSingle(btn, text) {
-    if (btn.classList.contains('speaking')) {
-        synth.cancel(); btn.classList.remove('speaking'); return;
+    if (!synth) return;
+    if (synth.speaking) {
+        synth.cancel();
+        btn.classList.remove('speaking');
+        return;
     }
-    document.querySelectorAll('.speak-btn').forEach(b => b.classList.remove('speaking'));
+    const clean = text.replace(/<[^>]*>/g, '').replace(/[*_#`[\]()]/g, '');
+    const utter = new SpeechSynthesisUtterance(clean);
+    utter.lang = SPEECH_LANG_MAP[selectedLanguage] || 'en-IN';
+    utter.rate = 0.95;
     btn.classList.add('speaking');
-    speakText(text);
-    const poll = setInterval(() => {
-        if (!synth.speaking) { btn.classList.remove('speaking'); clearInterval(poll); }
-    }, 200);
+    utter.onend = () => btn.classList.remove('speaking');
+    utter.onerror = () => btn.classList.remove('speaking');
+    synth.speak(utter);
 }
 
-// ═══ Chat Session ═════════════════════════════════════════
-async function createSession() {
-    try {
-        const r = await fetch(`${API_BASE}/api/chat/new`, {
-            method: 'POST', headers: { 'Content-Type': 'application/json' }
-        });
-        if (r.ok) sessionId = (await r.json()).session_id;
-    } catch(e) {
-        console.error('Session error:', e);
-        sessionId = 'local-' + Date.now();
-    }
-}
-
-async function startNewChat() {
-    if (synth) synth.cancel();
-    await createSession();
-
-    $('messagesContainer').innerHTML = '';
-    $('messagesContainer').classList.add('hidden');
-    $('languageScreen').classList.remove('hidden');
-    $('messageInput').value = '';
-    $('messageInput').style.height = 'auto';
-    $('sendBtn').disabled = true;
-    isWaiting = false;
-    $('typingIndicator').classList.add('hidden');
-    document.querySelectorAll('.lang-chip').forEach(c => c.classList.remove('selected'));
-}
-
+// ═══ Chat Submission & Streaming ═══════════════════════════
 function handleSubmit(e) {
     if (e) e.preventDefault();
     sendMessage();
@@ -288,9 +317,9 @@ async function sendMessage(text = null) {
     if (!msg) return;
     if (!sessionId) await createSession();
 
-    // Read active model directly from header select or settings select or state
-    const currentModel = $('headerModelSelect')?.value || $('settingsModelSelect')?.value || selectedModel;
-    selectedModel = currentModel;
+    // Get selected model config object
+    const allModels = getAllModels();
+    const activeModelObj = allModels.find(m => m.id === selectedModel) || DEFAULT_MODELS[0];
 
     $('languageScreen').classList.add('hidden');
     $('messagesContainer').classList.remove('hidden');
@@ -303,16 +332,19 @@ async function sendMessage(text = null) {
     showTyping();
 
     try {
+        const payload = {
+            session_id: sessionId,
+            message: msg,
+            language: selectedLanguage,
+            model: activeModelObj.id,
+            api_key: activeModelObj.is_default ? (userApiKey || null) : (activeModelObj.api_key || userApiKey || null),
+            model_config: activeModelObj.is_default ? null : activeModelObj
+        };
+
         const r = await fetch(`${API_BASE}/api/chat/stream`, {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({
-                session_id: sessionId,
-                message: msg,
-                language: selectedLanguage,
-                model: currentModel,
-                api_key: userApiKey || null
-            })
+            body: JSON.stringify(payload)
         });
 
         if (!r.ok) throw new Error('Request failed');
@@ -372,50 +404,41 @@ async function sendMessage(text = null) {
         }
     } catch(e) {
         hideTyping();
-        renderAIMessage('Sorry, something went wrong. Please try again.', []);
+        renderAIMessage('Sorry, something went wrong with the model. Please check your model settings.', []);
     } finally {
         isWaiting = false;
         $('sendBtn').disabled = false;
     }
 }
 
-// ═══ Model Selection & Settings ═══════════════════════════
-async function loadModels() {
-    try {
-        const res = await fetch(`${API_BASE}/api/models`);
-        if (res.ok) {
-            availableModels = await res.json();
-            populateModelSelects();
-        }
-    } catch (e) {
-        console.error('Failed to fetch models list:', e);
-    }
+// ═══ Model Management & Settings ═══════════════════════════
+function getAllModels() {
+    return [...DEFAULT_MODELS, ...customModels];
 }
 
 function populateModelSelects() {
+    const allModels = getAllModels();
     const headerSelect = $('headerModelSelect');
     const settingsSelect = $('settingsModelSelect');
     if (!headerSelect && !settingsSelect) return;
 
-    const exists = availableModels.some(m => m.id === selectedModel);
-    if (!exists && availableModels.length > 0) {
-        selectedModel = availableModels[0].id;
+    const exists = allModels.some(m => m.id === selectedModel);
+    if (!exists && allModels.length > 0) {
+        selectedModel = allModels[0].id;
     }
 
-    const optionsHtml = availableModels.map(m => {
-        let badgeText = m.location === 'local' ? '🟢 Local' : (m.location === 'server' ? '🌐 Server' : '☁️ Cloud');
-        return `<option value="${m.id}">${m.name} (${badgeText})</option>`;
+    const optionsHtml = allModels.map(m => {
+        let badge = m.is_default ? '☁️ Default' : (m.is_local ? '🟢 Local Ollama' : '🌐 Remote');
+        return `<option value="${m.id}">${escapeHtml(m.name)} (${badge})</option>`;
     }).join('');
 
     if (headerSelect) {
         headerSelect.innerHTML = optionsHtml;
         headerSelect.value = selectedModel;
-        headerSelect.onchange = (e) => onModelChange(e.target.value);
     }
     if (settingsSelect) {
         settingsSelect.innerHTML = optionsHtml;
         settingsSelect.value = selectedModel;
-        settingsSelect.onchange = (e) => onModelChange(e.target.value);
     }
 
     updateModelUI();
@@ -423,8 +446,8 @@ function populateModelSelects() {
 
 function onModelChange(newModelId) {
     selectedModel = newModelId;
-    sessionStorage.setItem('schemesathi_selected_model', selectedModel);
     localStorage.setItem('schemesathi_selected_model', selectedModel);
+    sessionStorage.setItem('schemesathi_selected_model', selectedModel);
 
     if ($('headerModelSelect')) $('headerModelSelect').value = selectedModel;
     if ($('settingsModelSelect')) $('settingsModelSelect').value = selectedModel;
@@ -433,40 +456,236 @@ function onModelChange(newModelId) {
 }
 
 function updateModelUI() {
-    const model = availableModels.find(m => m.id === selectedModel);
-    if (!model) return;
-
+    const allModels = getAllModels();
+    const model = allModels.find(m => m.id === selectedModel) || DEFAULT_MODELS[0];
     const headerBadge = $('headerModelBadge');
     if (headerBadge) {
-        headerBadge.className = `header-model-badge badge-${model.location}`;
-        headerBadge.textContent = model.location === 'local' ? 'Local' : (model.location === 'server' ? 'Server' : 'Cloud');
+        const isLocal = model.is_local;
+        const isDefault = model.is_default;
+        headerBadge.className = `header-model-badge ${isDefault ? 'badge-cloud' : (isLocal ? 'badge-local' : 'badge-server')}`;
+        headerBadge.textContent = isDefault ? 'Cloud' : (isLocal ? 'Local' : 'Remote');
     }
+}
 
-    const statusPill = $('modelStatusPill');
-    const statusTitle = $('modelStatusTitle');
-    const statusDesc = $('modelStatusDesc');
+function renderConfiguredModelsList() {
+    const listContainer = $('configuredModelsList');
+    if (!listContainer) return;
 
-    if (statusPill && statusTitle && statusDesc) {
-        statusPill.className = `badge-${model.location}`;
-        statusPill.textContent = model.location_label;
-        statusTitle.textContent = model.name;
+    const allModels = getAllModels();
+    let html = '';
 
-        if (model.location === 'local') {
-            statusDesc.textContent = `🟢 Running locally on your machine via Ollama (${model.description || model.name}).`;
-        } else if (model.location === 'server') {
-            statusDesc.textContent = `🌐 Running via our server ai.11022006.xyz (${model.description || model.name}).`;
+    allModels.forEach(m => {
+        const isDefault = m.is_default;
+        const badgeClass = isDefault ? 'badge-cloud' : (m.is_local ? 'badge-local' : 'badge-server');
+        const badgeLabel = isDefault ? 'Cloud (Default)' : (m.is_local ? 'Local Ollama' : 'Remote Endpoint');
+
+        html += `
+            <div class="model-list-card">
+                <div class="model-card-info">
+                    <span class="model-card-title">${escapeHtml(m.name)}</span>
+                    <span class="header-model-badge ${badgeClass}">${badgeLabel}</span>
+                    <span class="model-card-tag">${escapeHtml(m.model_name || m.id)}</span>
+                </div>
+                <div class="model-card-actions">
+                    ${isDefault ? '<span style="font-size:0.75rem; color:var(--text-muted); padding:4px 8px;">🔒 Built-in</span>' : `
+                        <button type="button" class="btn-delete-model" onclick="deleteCustomModel('${m.id}')" title="Delete Model">
+                            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="3 6 5 6 21 6"></polyline>
+                                <path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path>
+                            </svg>
+                        </button>
+                    `}
+                </div>
+            </div>
+        `;
+    });
+
+    listContainer.innerHTML = html;
+}
+
+// ── Add Model Form Handlers ──
+function toggleAddModelForm() {
+    const form = $('addModelFormContainer');
+    if (!form) return;
+    const isHidden = form.classList.contains('hidden');
+    form.classList.toggle('hidden', !isHidden);
+    if (isHidden) {
+        scanLocalOllamaModels();
+    }
+}
+
+function onNewModelIsLocalChange(e) {
+    const isLocal = e.target.checked;
+    $('localOllamaOptions')?.classList.toggle('hidden', !isLocal);
+    $('remoteModelOptions')?.classList.toggle('hidden', isLocal);
+}
+
+async function scanLocalOllamaModels() {
+    const refreshBtn = $('btnRefreshOllama');
+    const select = $('localDownloadedSelect');
+    if (refreshBtn) refreshBtn.classList.add('spinning');
+    if (select) select.innerHTML = '<option value="">Scanning local Ollama...</option>';
+
+    try {
+        const res = await fetch(`${API_BASE}/api/models/local-ollama`);
+        if (res.ok) {
+            const data = await res.json();
+            if (data.running && data.models?.length > 0) {
+                localOllamaModels = data.models;
+                select.innerHTML = '<option value="">-- Select Downloaded Model (' + data.models.length + ' found) --</option>' +
+                    data.models.map(m => `<option value="${escapeHtml(m.name)}">${escapeHtml(m.name)} ${m.size ? '(' + m.size + ')' : ''}</option>`).join('');
+            } else if (data.running) {
+                select.innerHTML = '<option value="">Ollama is running (No downloaded models found)</option>';
+            } else {
+                select.innerHTML = '<option value="">Ollama daemon offline (enter tag below)</option>';
+            }
         } else {
-            statusDesc.textContent = `☁️ Running via Google Gemini Cloud API.`;
+            select.innerHTML = '<option value="">Could not check Ollama</option>';
+        }
+    } catch {
+        if (select) select.innerHTML = '<option value="">Ollama offline or unreachable</option>';
+    } finally {
+        if (refreshBtn) refreshBtn.classList.remove('spinning');
+    }
+}
+
+function onLocalDownloadedModelSelect(e) {
+    const val = e.target.value;
+    if (val && $('newModelLocalTag')) {
+        $('newModelLocalTag').value = val;
+        if (!$('newModelName').value.trim()) {
+            // Auto generate friendly display name from tag e.g. gemma3:4b -> Gemma3 (4b)
+            const clean = val.replace(':', ' (').replace(/$/, val.includes(':') ? ')' : '');
+            $('newModelName').value = clean.charAt(0).toUpperCase() + clean.slice(1);
         }
     }
 }
 
+function handleAddModelSubmit() {
+    const name = $('newModelName')?.value.trim();
+    const isLocal = $('newModelIsLocal')?.checked ?? true;
+
+    if (!name) {
+        showToast('Please enter a Display Name for the model.');
+        $('newModelName')?.focus();
+        return;
+    }
+
+    let modelTag = '';
+    let endpoint = '';
+    let apiKey = '';
+
+    if (isLocal) {
+        modelTag = $('newModelLocalTag')?.value.trim() || $('localDownloadedSelect')?.value;
+        if (!modelTag) {
+            showToast('Please specify a local model tag (e.g. gemma3:4b).');
+            $('newModelLocalTag')?.focus();
+            return;
+        }
+    } else {
+        modelTag = $('newModelRemoteTag')?.value.trim();
+        endpoint = $('newModelEndpoint')?.value.trim();
+        apiKey = $('newModelApiKey')?.value.trim() || '';
+
+        if (!modelTag) {
+            showToast('Please specify the Model Tag / Identifier.');
+            $('newModelRemoteTag')?.focus();
+            return;
+        }
+        if (!endpoint) {
+            showToast('Please enter the Endpoint URL / Link.');
+            $('newModelEndpoint')?.focus();
+            return;
+        }
+    }
+
+    const newModel = {
+        id: (isLocal ? 'ollama-' : 'remote-') + Date.now(),
+        name: name,
+        provider: 'ollama',
+        is_local: isLocal,
+        model_name: modelTag,
+        base_url: isLocal ? null : endpoint,
+        api_key: isLocal ? null : apiKey,
+        description: isLocal ? 'Local Ollama Model' : `Remote (${endpoint})`
+    };
+
+    customModels.push(newModel);
+    localStorage.setItem('schemesathi_custom_models', JSON.stringify(customModels));
+
+    // Auto-select the newly created model
+    selectedModel = newModel.id;
+    localStorage.setItem('schemesathi_selected_model', selectedModel);
+
+    // Reset form fields
+    if ($('newModelName')) $('newModelName').value = '';
+    if ($('newModelLocalTag')) $('newModelLocalTag').value = '';
+    if ($('newModelRemoteTag')) $('newModelRemoteTag').value = '';
+    if ($('newModelEndpoint')) $('newModelEndpoint').value = '';
+    if ($('newModelApiKey')) $('newModelApiKey').value = '';
+
+    $('addModelFormContainer')?.classList.add('hidden');
+
+    populateModelSelects();
+    renderConfiguredModelsList();
+    showToast(`Model "${name}" added successfully!`);
+}
+
+window.deleteCustomModel = function(id) {
+    const model = customModels.find(m => m.id === id);
+    customModels = customModels.filter(m => m.id !== id);
+    localStorage.setItem('schemesathi_custom_models', JSON.stringify(customModels));
+
+    if (selectedModel === id) {
+        selectedModel = 'gemini-flash';
+        localStorage.setItem('schemesathi_selected_model', selectedModel);
+    }
+
+    populateModelSelects();
+    renderConfiguredModelsList();
+    showToast(`Model ${model?.name ? `"${model.name}"` : ''} deleted.`);
+};
+
+// ── Save & Apply Settings ──
+function handleSaveSettings() {
+    const activeModelId = $('settingsModelSelect')?.value || selectedModel;
+    selectedModel = activeModelId;
+    localStorage.setItem('schemesathi_selected_model', selectedModel);
+    sessionStorage.setItem('schemesathi_selected_model', selectedModel);
+
+    const apiKey = $('settingsApiKeyInput')?.value.trim() || '';
+    userApiKey = apiKey;
+    localStorage.setItem('schemesathi_api_key', userApiKey);
+    sessionStorage.setItem('schemesathi_api_key', userApiKey);
+
+    populateModelSelects();
+    closeSettingsModal();
+    showToast('Settings saved & applied!');
+}
+
+function showToast(msg, duration = 3000) {
+    const toast = $('toast');
+    if (!toast) return;
+    toast.textContent = msg;
+    toast.classList.remove('hidden');
+    clearTimeout(toast._timer);
+    toast._timer = setTimeout(() => {
+        toast.classList.add('hidden');
+    }, duration);
+}
+
 function openSettingsModal() {
+    if ($('settingsApiKeyInput')) {
+        $('settingsApiKeyInput').value = userApiKey;
+    }
+    populateModelSelects();
+    renderConfiguredModelsList();
     $('settingsModal')?.classList.remove('hidden');
 }
 
 function closeSettingsModal() {
     $('settingsModal')?.classList.add('hidden');
+    $('addModelFormContainer')?.classList.add('hidden');
 }
 
 
@@ -478,7 +697,6 @@ function renderUserMessage(text) {
     $('messagesContainer').appendChild(div);
     scrollBottom();
 }
-
 
 function createStreamingAIMessage() {
     const wrapper = document.createElement('div');
@@ -511,7 +729,6 @@ function createStreamingAIMessage() {
         wrapper: wrapper
     };
 }
-
 
 function renderAIMessage(text, schemes) {
     const wrapper = document.createElement('div');
