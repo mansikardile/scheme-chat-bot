@@ -15,6 +15,14 @@ let synth = window.speechSynthesis;
 let isRecording = false;
 let currentTheme = localStorage.getItem('schemesathi_theme') || 'dark';
 
+// Selected model persisted in session storage (falling back to localStorage)
+let selectedModel = sessionStorage.getItem('schemesathi_selected_model') ||
+                    localStorage.getItem('schemesathi_selected_model') || 'gemini-flash';
+let userApiKey = sessionStorage.getItem('schemesathi_api_key') ||
+                 localStorage.getItem('schemesathi_api_key') || '';
+let availableModels = [];
+
+
 // ── Language mappings ──
 const SPEECH_LANG_MAP = {
     en: 'en-IN', hi: 'hi-IN', ta: 'ta-IN', te: 'te-IN',
@@ -34,7 +42,7 @@ const GREETINGS = {
     ml: "നമസ്കാരം! ഞാൻ SchemeSathi, നിങ്ങളുടെ AI സഹായി. പറയൂ — നിങ്ങൾക്ക് എന്ത് തരത്തിലുള്ള സഹாயം വേണം?",
     pa: "ਸਤ ਸ੍ਰੀ ਅਾਲ! ਮੈਂ SchemeSathi ਹਾਂ, ਤੁਹਾਡਾ AI ਸਹਾਇਕ। ਦੱਸੋ — ਤੁਹਾਨੂੰ ਕਿਸ ਤਰ੍ਹਾਂ ਦੀ ਮਦਦ ਚਾਹੀਦੀ ਹੈ?",
     or: "ନମସ୍କାର! ମୁଁ SchemeSathi, ଆପଣଙ୍କ AI ସହାଯ଼କ। କୁହନ୍ତୁ — ଆପଣଙ୍କୁ କେଉଁ ପ୍ରକାର ସାହାଯ଼୍ଯ ଦରକାର?",
-    ur: "السلام علیکم! میں SchemeSathi ہوں، آپ کا AI معاون۔ بتائیں — آپ کو کس قسم کی مدد چاہیے؟"
+    ur: "السلام علیکم! میں SchemeSathi ہوں, آپ کا AI معاون। بتائیں — آپ کو کس قسم کی مدد چاہیے؟"
 };
 
 // ── Helpers ──
@@ -62,27 +70,63 @@ async function init() {
     $('newChatBtn').addEventListener('click', startNewChat);
     $('audioToggleBtn').addEventListener('click', toggleAutoSpeak);
     $('micBtn').addEventListener('click', toggleRecording);
+    $('settingsBtn')?.addEventListener('click', openSettingsModal);
 
     // Language chips
     document.querySelectorAll('.lang-chip').forEach(chip => {
         chip.addEventListener('click', () => selectLanguage(chip));
     });
 
-    // Modal
-    document.querySelector('.modal-backdrop')?.addEventListener('click', closeModal);
+    // Scheme Modal
+    document.querySelector('#schemeModal .modal-backdrop')?.addEventListener('click', closeModal);
     $('closeModalBtn')?.addEventListener('click', closeModal);
 
-    // Keyboard shortcut: Escape closes modal
+    // Settings Modal
+    $('settingsBackdrop')?.addEventListener('click', closeSettingsModal);
+    $('closeSettingsBtn')?.addEventListener('click', closeSettingsModal);
+
+    // Keyboard shortcut: Escape closes modals
     document.addEventListener('keydown', e => {
-        if (e.key === 'Escape') closeModal();
+        if (e.key === 'Escape') {
+            closeModal();
+            closeSettingsModal();
+        }
     });
+
+    // Model Change Listeners
+    $('headerModelSelect')?.addEventListener('change', e => onModelChange(e.target.value));
+    $('settingsModelSelect')?.addEventListener('change', e => onModelChange(e.target.value));
+
+    // Sync saved model selection to selects immediately
+    onModelChange(selectedModel);
 
     // Init speech
     initSpeechRecognition();
 
+    // Init API key input in Settings modal
+    const apiKeyInput = $('settingsApiKeyInput');
+    if (apiKeyInput) {
+        apiKeyInput.value = userApiKey;
+        apiKeyInput.addEventListener('input', e => {
+            userApiKey = e.target.value.trim();
+            sessionStorage.setItem('schemesathi_api_key', userApiKey);
+            localStorage.setItem('schemesathi_api_key', userApiKey);
+        });
+    }
+    $('toggleApiKeyBtn')?.addEventListener('click', () => {
+        if (apiKeyInput) {
+            apiKeyInput.type = apiKeyInput.type === 'password' ? 'text' : 'password';
+        }
+    });
+
+    // Load dynamic models info from backend
+    loadModels();
+
     // Create session
     await createSession();
 }
+
+
 
 // ═══ Language Selection ════════════════════════════════════
 function selectLanguage(chip) {
@@ -244,6 +288,10 @@ async function sendMessage(text = null) {
     if (!msg) return;
     if (!sessionId) await createSession();
 
+    // Read active model directly from header select or settings select or state
+    const currentModel = $('headerModelSelect')?.value || $('settingsModelSelect')?.value || selectedModel;
+    selectedModel = currentModel;
+
     $('languageScreen').classList.add('hidden');
     $('messagesContainer').classList.remove('hidden');
 
@@ -258,8 +306,15 @@ async function sendMessage(text = null) {
         const r = await fetch(`${API_BASE}/api/chat`, {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({ session_id: sessionId, message: msg, language: selectedLanguage })
+            body: JSON.stringify({
+                session_id: sessionId,
+                message: msg,
+                language: selectedLanguage,
+                model: currentModel,
+                api_key: userApiKey || null
+            })
         });
+
         if (!r.ok) throw new Error('Request failed');
         const data = await r.json();
         hideTyping();
@@ -272,6 +327,97 @@ async function sendMessage(text = null) {
         isWaiting = false;
     }
 }
+
+// ═══ Model Selection & Settings ═══════════════════════════
+async function loadModels() {
+    try {
+        const res = await fetch(`${API_BASE}/api/models`);
+        if (res.ok) {
+            availableModels = await res.json();
+            populateModelSelects();
+        }
+    } catch (e) {
+        console.error('Failed to fetch models list:', e);
+    }
+}
+
+function populateModelSelects() {
+    const headerSelect = $('headerModelSelect');
+    const settingsSelect = $('settingsModelSelect');
+    if (!headerSelect && !settingsSelect) return;
+
+    const exists = availableModels.some(m => m.id === selectedModel);
+    if (!exists && availableModels.length > 0) {
+        selectedModel = availableModels[0].id;
+    }
+
+    const optionsHtml = availableModels.map(m => {
+        let badgeText = m.location === 'local' ? '🟢 Local' : (m.location === 'server' ? '🌐 Server' : '☁️ Cloud');
+        return `<option value="${m.id}">${m.name} (${badgeText})</option>`;
+    }).join('');
+
+    if (headerSelect) {
+        headerSelect.innerHTML = optionsHtml;
+        headerSelect.value = selectedModel;
+        headerSelect.onchange = (e) => onModelChange(e.target.value);
+    }
+    if (settingsSelect) {
+        settingsSelect.innerHTML = optionsHtml;
+        settingsSelect.value = selectedModel;
+        settingsSelect.onchange = (e) => onModelChange(e.target.value);
+    }
+
+    updateModelUI();
+}
+
+function onModelChange(newModelId) {
+    selectedModel = newModelId;
+    sessionStorage.setItem('schemesathi_selected_model', selectedModel);
+    localStorage.setItem('schemesathi_selected_model', selectedModel);
+
+    if ($('headerModelSelect')) $('headerModelSelect').value = selectedModel;
+    if ($('settingsModelSelect')) $('settingsModelSelect').value = selectedModel;
+
+    updateModelUI();
+}
+
+function updateModelUI() {
+    const model = availableModels.find(m => m.id === selectedModel);
+    if (!model) return;
+
+    const headerBadge = $('headerModelBadge');
+    if (headerBadge) {
+        headerBadge.className = `header-model-badge badge-${model.location}`;
+        headerBadge.textContent = model.location === 'local' ? 'Local' : (model.location === 'server' ? 'Server' : 'Cloud');
+    }
+
+    const statusPill = $('modelStatusPill');
+    const statusTitle = $('modelStatusTitle');
+    const statusDesc = $('modelStatusDesc');
+
+    if (statusPill && statusTitle && statusDesc) {
+        statusPill.className = `badge-${model.location}`;
+        statusPill.textContent = model.location_label;
+        statusTitle.textContent = model.name;
+
+        if (model.location === 'local') {
+            statusDesc.textContent = `🟢 Running locally on your machine via Ollama (${model.description || model.name}).`;
+        } else if (model.location === 'server') {
+            statusDesc.textContent = `🌐 Running via our server ai.11022006.xyz (${model.description || model.name}).`;
+        } else {
+            statusDesc.textContent = `☁️ Running via Google Gemini Cloud API.`;
+        }
+    }
+}
+
+function openSettingsModal() {
+    $('settingsModal')?.classList.remove('hidden');
+}
+
+function closeSettingsModal() {
+    $('settingsModal')?.classList.add('hidden');
+}
+
 
 // ═══ Message Rendering ════════════════════════════════════
 function renderUserMessage(text) {
