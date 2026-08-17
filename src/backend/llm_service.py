@@ -82,11 +82,13 @@ async def generate_response(
     api_key: str | None = None,
 ) -> str:
     """Generate a conversational response grounded in scheme data using a model from model_registry."""
+    print(f"\n[LLM Service] Processing chat request using model_id: '{model_id}'")
     try:
         model = get_model(model_id, api_key=api_key)
     except Exception as e:
         print(f"Error instantiating model '{model_id}': {e}")
         return 'Error: LLM model not configured properly.'
+
 
     lang_name = LANGUAGE_NAMES.get(language, 'English')
     system_text = SYSTEM_PROMPT.format(language_name=lang_name)

@@ -4,6 +4,10 @@ class ChatRequest(BaseModel):
     session_id: str
     message: str
     language: str = 'en'  # Language code: en, hi, ta, te, bn, mr, gu, kn, ml, pa, etc.
+    model: str = 'gemini-flash'  # Selected AI model ID
+    api_key: str | None = None  # Optional user-provided API key
+
+
 
 class SchemeCard(BaseModel):
     slug: str

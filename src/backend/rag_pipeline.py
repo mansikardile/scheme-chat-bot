@@ -92,7 +92,7 @@ class RAGPipeline:
     """Orchestrates query translation, vector search, LLM response, and UI card rendering."""
 
     async def process_query(
-        self, session_history: list[dict], user_message: str, language: str = 'en'
+        self, session_history: list[dict], user_message: str, language: str = 'en', model_id: str = 'gemini-flash', api_key: str | None = None
     ) -> tuple[str, list[dict]]:
         """Full RAG pipeline with multilingual query translation and intent-gated card display."""
 
@@ -120,10 +120,12 @@ class RAGPipeline:
         scheme_context = '\n\n'.join(context_parts)
         print(f"[RAG Pipeline] Injected Context Length: {len(scheme_context)} characters\n")
 
-        # 5. Generate response using provider-agnostic llm_service in user's requested language
+        # 5. Generate response using provider-agnostic llm_service with selected model_id and optional user api_key
         reply_text = await generate_response(
-            'gemini-flash', session_history, user_message, scheme_context, language=language
+            model_id, session_history, user_message, scheme_context, language=language, api_key=api_key
         )
+
+
 
         # 6. Intent-gated Card Selection logic (domain logic â€” kept as custom post-processing)
         scheme_cards = self._select_cards_if_needed(reply_text, user_message, results)

@@ -12,6 +12,7 @@ from backend.scheme_loader import scheme_loader
 from backend.vector_store import vector_store
 from backend.chat_manager import chat_manager, ChatSession
 from backend.rag_pipeline import rag_pipeline
+from backend.model_registry import get_available_models_info
 
 app = FastAPI(title='SchemeSathi API')
 
@@ -31,6 +32,11 @@ async def startup_event():
     vector_store.init()
     print('--- Startup Complete ---\n')
 
+
+@app.get('/api/models')
+async def get_models():
+    """Return available models and their local vs server resolution status."""
+    return get_available_models_info()
 
 
 @app.post('/api/chat/new')
@@ -52,10 +58,11 @@ async def chat_endpoint(request: ChatRequest):
     history = session.get_history().copy()
     session.add_message('user', request.message)
 
-    # Run RAG pipeline with language
+    # Run RAG pipeline with language, selected model, and optional user API key
     reply_text, cards = await rag_pipeline.process_query(
-        history, request.message, language=request.language
+        history, request.message, language=request.language, model_id=request.model, api_key=request.api_key
     )
+
 
     session.add_message('model', reply_text)
 
@@ -65,6 +72,7 @@ async def chat_endpoint(request: ChatRequest):
         reply=reply_text,
         schemes=scheme_cards,
     )
+
 
 
 @app.get('/api/schemes/{slug}')
