@@ -635,3 +635,123 @@ a:hover { opacity: 0.8; }
 @keyframes fadeIn {
   from { opacity: 0; } to { opacity: 1; }
 }
+
+/* ═══════════════════════════════════════════════════════════════
+   Header Model Selector & Settings Modal
+   ═══════════════════════════════════════════════════════════════ */
+.header-model-container {
+  display: flex; align-items: center; gap: 0.5rem;
+}
+
+.model-selector-wrapper {
+  display: flex; align-items: center; gap: 0.4rem;
+  background: var(--bg-surface); border: 1px solid var(--border);
+  border-radius: var(--r-full); padding: 0.3rem 0.75rem;
+  transition: all var(--duration) var(--ease);
+}
+.model-selector-wrapper:hover {
+  border-color: var(--border-hover); background: var(--bg-hover);
+}
+.model-selector-wrapper svg {
+  color: var(--accent); flex-shrink: 0;
+}
+
+.header-model-select {
+  background: transparent; border: none; outline: none;
+  color: var(--text-primary); font-size: 0.82rem; font-weight: 500;
+  cursor: pointer; padding-right: 0.25rem; font-family: inherit;
+}
+.header-model-select option {
+  background: var(--bg-secondary); color: var(--text-primary);
+}
+
+.header-model-badge {
+  font-size: 0.68rem; font-weight: 600; padding: 2px 6px;
+  border-radius: var(--r-full); text-transform: uppercase; letter-spacing: 0.3px;
+}
+
+/* Badges */
+.badge-local {
+  background: var(--green-soft); color: var(--green); border: 1px solid rgba(16,185,129,0.3);
+}
+.badge-server {
+  background: var(--blue-soft); color: var(--blue); border: 1px solid rgba(59,130,246,0.3);
+}
+.badge-cloud {
+  background: var(--accent-soft); color: var(--accent); border: 1px solid rgba(245,158,11,0.3);
+}
+
+/* Settings Modal */
+#settingsModal {
+  position: fixed; inset: 0; z-index: 100;
+  display: flex; align-items: center; justify-content: center; padding: 1rem;
+}
+#settingsModal.hidden { display: none !important; }
+
+.settings-modal-content {
+  background: var(--bg-primary); border: 1px solid var(--border);
+  border-radius: var(--r-xl); width: 100%; max-width: 520px;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.5); overflow: hidden;
+  animation: fadeIn 0.2s ease-out; position: relative; z-index: 101;
+}
+
+.settings-modal-header {
+  display: flex; justify-content: space-between; align-items: center;
+  padding: 1.25rem 1.5rem; border-bottom: 1px solid var(--border);
+}
+.settings-modal-header h3 { font-size: 1.1rem; color: var(--text-primary); }
+
+.settings-body {
+  padding: 1.5rem; display: flex; flex-direction: column; gap: 1.25rem;
+}
+
+.setting-group label {
+  display: block; font-weight: 600; font-size: 0.9rem; margin-bottom: 0.25rem; color: var(--text-primary);
+}
+.setting-desc {
+  font-size: 0.8rem; color: var(--text-muted); margin-bottom: 0.6rem; line-height: 1.4;
+}
+
+.settings-select {
+  width: 100%; background: var(--bg-secondary); border: 1px solid var(--border);
+  color: var(--text-primary); border-radius: var(--r-md); padding: 0.65rem 0.85rem;
+  font-size: 0.9rem; font-family: inherit; outline: none; transition: border-color 0.2s;
+}
+.settings-select:focus { border-color: var(--accent); }
+.settings-select option { background: var(--bg-primary); }
+
+.api-key-input-wrapper {
+  display: flex; align-items: center; position: relative; width: 100%;
+}
+.settings-input {
+  width: 100%; background: var(--bg-secondary); border: 1px solid var(--border);
+  color: var(--text-primary); border-radius: var(--r-md); padding: 0.65rem 2.4rem 0.65rem 0.85rem;
+  font-size: 0.85rem; font-family: inherit; outline: none; transition: border-color 0.2s;
+}
+.settings-input:focus { border-color: var(--accent); }
+.btn-toggle-eye {
+  position: absolute; right: 8px; background: transparent; border: none;
+  color: var(--text-muted); cursor: pointer; font-size: 1rem; padding: 4px;
+}
+.btn-toggle-eye:hover { opacity: 0.8; }
+
+
+.status-detail-card {
+  background: var(--bg-surface); border: 1px solid var(--border);
+  border-radius: var(--r-md); padding: 1rem; margin-top: 0.4rem;
+}
+.status-header {
+  display: flex; align-items: center; gap: 0.6rem; margin-bottom: 0.4rem;
+}
+.status-note {
+  font-size: 0.82rem; color: var(--text-secondary); line-height: 1.4;
+}
+
+.setting-info-box {
+  background: var(--accent-soft); border: 1px solid rgba(245,158,11,0.2);
+  border-radius: var(--r-md); padding: 0.9rem; font-size: 0.82rem; color: var(--text-secondary);
+  line-height: 1.5;
+}
+.setting-info-box strong { color: var(--accent); display: block; margin-bottom: 0.25rem; }
+.setting-info-box code { background: rgba(0,0,0,0.2); padding: 2px 5px; border-radius: 4px; color: var(--text-primary); }
+
