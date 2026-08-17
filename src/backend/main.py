@@ -1,10 +1,11 @@
 """FastAPI application for SchemeSathi."""
 
 import os
+import json
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.staticfiles import StaticFiles
-from fastapi.responses import FileResponse
+from fastapi.responses import FileResponse, StreamingResponse
 
 from backend.config import FRONTEND_DIR
 from backend.models import ChatRequest, ChatResponse, SchemeCard
@@ -66,12 +67,45 @@ async def chat_endpoint(request: ChatRequest):
 
     session.add_message('model', reply_text)
 
-    scheme_cards = [SchemeCard(**c) for c in cards]
+    session_cards = [SchemeCard(**c) for c in cards]
     return ChatResponse(
         session_id=request.session_id,
         reply=reply_text,
-        schemes=scheme_cards,
+        schemes=session_cards,
     )
+
+
+@app.post('/api/chat/stream')
+async def chat_stream_endpoint(request: ChatRequest):
+    session = chat_manager.get_session(request.session_id)
+    if not session:
+        chat_manager.sessions[request.session_id] = ChatSession(request.session_id)
+        session = chat_manager.get_session(request.session_id)
+
+    # Store language preference
+    session.language = request.language
+
+    history = session.get_history().copy()
+    session.add_message('user', request.message)
+
+    async def event_generator():
+        full_text = ""
+        try:
+            async for event in rag_pipeline.process_query_stream(
+                history, request.message, language=request.language, model_id=request.model, api_key=request.api_key
+            ):
+                if event["type"] == "text":
+                    full_text += event["content"]
+                yield f"data: {json.dumps(event)}\n\n"
+
+            # Save LLM response to history at the end of successful streaming
+            if full_text:
+                session.add_message('model', full_text)
+        except Exception as e:
+            print(f"Error in chat_stream_endpoint: {e}")
+            yield f"data: {json.dumps({'type': 'error', 'content': 'Internal server error occurred.'})}\n\n"
+
+    return StreamingResponse(event_generator(), media_type="text/event-stream")
 
 
 

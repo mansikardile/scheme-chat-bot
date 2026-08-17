@@ -16,7 +16,7 @@ components in sequence — a deliberately pragmatic choice.
 from backend.embedding_service import embedding_service
 from backend.vector_store import vector_store
 from backend.scheme_loader import scheme_loader
-from backend.llm_service import generate_response
+from backend.llm_service import generate_response, generate_response_stream
 import re
 
 
@@ -131,6 +131,52 @@ class RAGPipeline:
         scheme_cards = self._select_cards_if_needed(reply_text, user_message, results)
 
         return reply_text, scheme_cards
+
+    async def process_query_stream(
+        self, session_history: list[dict], user_message: str, language: str = 'en', model_id: str = 'gemini-flash', api_key: str | None = None
+    ):
+        """Full RAG pipeline streaming LLM response and sending intent-gated cards at the end."""
+        # 1. Translate / Enrich search query to English for high precision vector retrieval
+        english_search_query = self._build_english_search_query(session_history, user_message, language)
+        print(f"\n[RAG Pipeline] Enriched English Search Query (Stream): '{english_search_query}'")
+
+        # 2. Embed English search query (LangChain OllamaEmbeddings, async via thread)
+        try:
+            query_embedding = await embedding_service.embed_text(english_search_query)
+        except Exception as e:
+            print(f'Embedding error: {e}')
+            yield {"type": "error", "content": "Sorry, I could not process your request right now."}
+            return
+
+        # 3. Vector search in ChromaDB via LangChain-backed store (retrieve top 15 schemes)
+        results = vector_store.search(query_embedding, top_k=15)
+        retrieved_slugs = [r['slug'] for r in results]
+        print(f"[RAG Pipeline] ChromaDB Top 15 retrieved scheme slugs (Stream): {retrieved_slugs}")
+
+        # 4. Build rich scheme context for LLM
+        context_parts = []
+        for i, res in enumerate(results, 1):
+            ctx = scheme_loader.get_scheme_context(res['slug'])
+            context_parts.append(f'--- Scheme {i} ---\n{ctx}')
+        scheme_context = '\n\n'.join(context_parts)
+        print(f"[RAG Pipeline] Injected Context Length (Stream): {len(scheme_context)} characters\n")
+
+        # 5. Stream response using provider-agnostic llm_service
+        full_reply_text = ""
+        async for chunk in generate_response_stream(
+            model_id, session_history, user_message, scheme_context, language=language, api_key=api_key
+        ):
+            # Extra safety: strip any raw URL links the model might have generated
+            # For streaming, we yield chunks. Extra safety will also clean full text later or be done per chunk.
+            clean_chunk = re.sub(r'https?://[^\s)]+', '', chunk)
+            clean_chunk = re.sub(r'\[Link\]\(\)', '', clean_chunk)
+            if clean_chunk:
+                full_reply_text += clean_chunk
+                yield {"type": "text", "content": clean_chunk}
+
+        # 6. Intent-gated Card Selection logic based on the full generated response
+        scheme_cards = self._select_cards_if_needed(full_reply_text, user_message, results)
+        yield {"type": "cards", "content": scheme_cards}
 
     def _build_english_search_query(self, history: list[dict], current_message: str, language: str) -> str:
         """Translates regional terms into English concepts for ChromaDB search."""

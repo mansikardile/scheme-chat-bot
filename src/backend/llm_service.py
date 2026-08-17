@@ -126,3 +126,55 @@ async def generate_response(
     text = re.sub(r'https?://[^\s)]+', '', text)
     text = re.sub(r'\[Link\]\(\)', '', text)
     return text.strip()
+
+
+async def generate_response_stream(
+    model_id: str,
+    conversation_history: list[dict],
+    user_message: str,
+    scheme_context: str,
+    language: str = 'en',
+    api_key: str | None = None,
+):
+    """Generate a conversational response stream grounded in scheme data using a model from model_registry."""
+    print(f"\n[LLM Service] Processing streaming chat request using model_id: '{model_id}'")
+    try:
+        model = get_model(model_id, api_key=api_key)
+    except Exception as e:
+        print(f"Error instantiating model '{model_id}': {e}")
+        yield 'Error: LLM model not configured properly.'
+        return
+
+    lang_name = LANGUAGE_NAMES.get(language, 'English')
+    system_text = SYSTEM_PROMPT.format(language_name=lang_name)
+
+    # Build LangChain message list: [SystemMessage] + history + augmented user turn
+    messages: list = [SystemMessage(content=system_text)]
+
+    for msg in conversation_history:
+        if msg['role'] == 'user':
+            messages.append(HumanMessage(content=msg['content']))
+        else:
+            messages.append(AIMessage(content=msg['content']))
+
+    augmented_user = (
+        f"{user_message}\n\n"
+        f"[SCHEME DATA]\n{scheme_context}\n[END SCHEME DATA]\n\n"
+        f"Remember: Respond in {lang_name}. Do NOT write raw URLs. "
+        f"Ask 1 follow-up question if profile incomplete."
+    )
+    messages.append(HumanMessage(content=augmented_user))
+
+    try:
+        async for chunk in model.astream(messages):
+            text = _extract_text_content(chunk.content)
+            if text:
+                yield text
+    except Exception as e:
+        print(f"LLM execution error with model '{model_id}': {e}")
+        error_msgs = {
+            'hi': 'क्षमा करें, फ्री कोटा/रेट लिमिट भर गया है। कृपया कुछ सेकंड बाद फिर से प्रयास करें।',
+            'en': "I'm sorry, rate limit exceeded for free tier. Please wait a few seconds and try again.",
+        }
+        yield error_msgs.get(language, error_msgs['en'])
+

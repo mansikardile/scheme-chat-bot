@@ -303,7 +303,7 @@ async function sendMessage(text = null) {
     showTyping();
 
     try {
-        const r = await fetch(`${API_BASE}/api/chat`, {
+        const r = await fetch(`${API_BASE}/api/chat/stream`, {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({
@@ -316,15 +316,66 @@ async function sendMessage(text = null) {
         });
 
         if (!r.ok) throw new Error('Request failed');
-        const data = await r.json();
+
         hideTyping();
-        renderAIMessage(data.reply, data.schemes || []);
-        if (autoSpeak) speakText(data.reply);
+        const reader = r.body.getReader();
+        const decoder = new TextDecoder('utf-8');
+        let buffer = '';
+        let messageObj = null;
+        let fullText = '';
+
+        while (true) {
+            const { value, done } = await reader.read();
+            if (done) break;
+
+            buffer += decoder.decode(value, { stream: true });
+            const lines = buffer.split('\n');
+            buffer = lines.pop(); // keep partial line in buffer
+
+            for (const line of lines) {
+                const cleaned = line.trim();
+                if (!cleaned.startsWith('data: ')) continue;
+                try {
+                    const data = JSON.parse(cleaned.substring(6));
+                    if (data.type === 'text') {
+                        if (!messageObj) {
+                            messageObj = createStreamingAIMessage();
+                        }
+                        fullText += data.content;
+                        messageObj.contentDiv.innerHTML = renderMd(fullText);
+                        scrollBottom();
+                    } else if (data.type === 'cards') {
+                        if (!messageObj) {
+                            messageObj = createStreamingAIMessage();
+                        }
+                        if (data.content && data.content.length > 0) {
+                            const grid = document.createElement('div');
+                            grid.className = 'scheme-cards-grid';
+                            data.content.forEach(s => grid.appendChild(buildCard(s)));
+                            messageObj.wrapper.appendChild(grid);
+                            scrollBottom();
+                        }
+                    } else if (data.type === 'error') {
+                        throw new Error(data.content);
+                    }
+                } catch (e) {
+                    console.error('Failed to parse SSE line:', e);
+                }
+            }
+        }
+
+        // Finalize speech & speaker button
+        if (messageObj && fullText) {
+            messageObj.speakBtn.style.display = 'inline-flex';
+            messageObj.speakBtn.onclick = () => speakSingle(messageObj.speakBtn, fullText);
+            if (autoSpeak) speakText(fullText);
+        }
     } catch(e) {
         hideTyping();
         renderAIMessage('Sorry, something went wrong. Please try again.', []);
     } finally {
         isWaiting = false;
+        $('sendBtn').disabled = false;
     }
 }
 
@@ -427,6 +478,40 @@ function renderUserMessage(text) {
     $('messagesContainer').appendChild(div);
     scrollBottom();
 }
+
+
+function createStreamingAIMessage() {
+    const wrapper = document.createElement('div');
+    wrapper.className = 'message ai-message';
+
+    const header = document.createElement('div');
+    header.className = 'ai-header';
+    header.innerHTML = `
+        <div class="ai-avatar-sm">S</div>
+        <span class="ai-name">SchemeSathi</span>
+    `;
+    const speakBtn = document.createElement('button');
+    speakBtn.className = 'speak-btn';
+    speakBtn.title = 'Listen';
+    speakBtn.innerHTML = '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/></svg>';
+    speakBtn.style.display = 'none';
+    header.appendChild(speakBtn);
+    wrapper.appendChild(header);
+
+    const content = document.createElement('div');
+    content.className = 'message-content';
+    wrapper.appendChild(content);
+
+    $('messagesContainer').appendChild(wrapper);
+    scrollBottom();
+
+    return {
+        contentDiv: content,
+        speakBtn: speakBtn,
+        wrapper: wrapper
+    };
+}
+
 
 function renderAIMessage(text, schemes) {
     const wrapper = document.createElement('div');
