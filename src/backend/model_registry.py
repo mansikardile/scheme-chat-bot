@@ -62,20 +62,28 @@ def _create_gemini_model(model_name: str = "gemini-flash-latest", api_key: str |
     if not key:
         raise ValueError("GEMINI_API_KEY not configured. Please enter a Gemini API Key in Settings or set GEMINI_API_KEY.")
 
+    # Disable automatic function calling (AFC) via .bind() — we don't use tools,
+    # and the google-genai SDK warns that AFC is unsupported on the raw
+    # AsyncModels.generate_content path used by langchain-google-genai.
+    # NOTE: model_kwargs is NOT forwarded to GenerateContentConfig by langchain-
+    # google-genai; .bind() is the correct way to attach per-invoke kwargs that
+    # flow through _prepare_request → remaining_kwargs → GenerateContentConfig.
+    _no_afc = {"automatic_function_calling": {"disable": True}}
+
     primary = ChatGoogleGenerativeAI(
         model=model_name or "gemini-flash-latest",
         google_api_key=key,
         temperature=0.6,
         max_output_tokens=1024,
-    )
-    fallback_models = ["gemini-flash-lite-latest", "gemini-2.0-flash"]
+    ).bind(**_no_afc)
+    fallback_models = ['gemini-flash-lite-latest', 'gemini-2.0-flash']
     fallbacks = [
         ChatGoogleGenerativeAI(
             model=m,
             google_api_key=key,
             temperature=0.6,
             max_output_tokens=1024,
-        )
+        ).bind(**_no_afc)
         for m in fallback_models if m != model_name
     ]
     if fallbacks:
