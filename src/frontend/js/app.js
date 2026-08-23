@@ -103,10 +103,10 @@ async function init() {
     $('closeModalBtn')?.addEventListener('click', closeModal);
 
     // Settings Modal
-    $('settingsBackdrop')?.addEventListener('click', closeSettingsModal);
     $('closeSettingsBtn')?.addEventListener('click', closeSettingsModal);
     $('btnCancelSettings')?.addEventListener('click', closeSettingsModal);
     $('btnSaveSettings')?.addEventListener('click', handleSaveSettings);
+    $('btnShowAddModel')?.addEventListener('click', showAddModelPanel);
 
     // Keyboard shortcut: Escape closes modals
     document.addEventListener('keydown', e => {
@@ -116,39 +116,11 @@ async function init() {
         }
     });
 
-    // Header & Settings Model Change Listeners
+    // Header Model Change Listener
     $('headerModelSelect')?.addEventListener('change', e => onModelChange(e.target.value));
-    $('settingsModelSelect')?.addEventListener('change', e => onModelChange(e.target.value));
 
-    // Custom Models & Add Model Form Wiring
-    $('btnToggleAddModel')?.addEventListener('click', toggleAddModelForm);
-    $('btnCancelAddModel')?.addEventListener('click', toggleAddModelForm);
-    $('newModelIsLocal')?.addEventListener('change', onNewModelIsLocalChange);
-    $('btnRefreshOllama')?.addEventListener('click', scanLocalOllamaModels);
-    $('localDownloadedSelect')?.addEventListener('change', onLocalDownloadedModelSelect);
-    $('btnSubmitAddModel')?.addEventListener('click', handleAddModelSubmit);
-
-    // Eye buttons for API key inputs
-    const apiKeyInput = $('settingsApiKeyInput');
-    if (apiKeyInput) {
-        apiKeyInput.value = userApiKey;
-    }
-    $('toggleApiKeyBtn')?.addEventListener('click', () => {
-        if (apiKeyInput) {
-            apiKeyInput.type = apiKeyInput.type === 'password' ? 'text' : 'password';
-        }
-    });
-
-    const newModelKeyInput = $('newModelApiKey');
-    $('toggleNewModelKeyBtn')?.addEventListener('click', () => {
-        if (newModelKeyInput) {
-            newModelKeyInput.type = newModelKeyInput.type === 'password' ? 'text' : 'password';
-        }
-    });
-
-    // Populate initial model lists
+    // Populate header model select
     populateModelSelects();
-    renderConfiguredModelsList();
 
     // Init speech
     initSpeechRecognition();
@@ -416,11 +388,13 @@ function getAllModels() {
     return [...DEFAULT_MODELS, ...customModels];
 }
 
+// Track which tab is active in settings (model id, or 'add')
+let activeSettingsTab = null;
+
 function populateModelSelects() {
     const allModels = getAllModels();
     const headerSelect = $('headerModelSelect');
-    const settingsSelect = $('settingsModelSelect');
-    if (!headerSelect && !settingsSelect) return;
+    if (!headerSelect) return;
 
     const exists = allModels.some(m => m.id === selectedModel);
     if (!exists && allModels.length > 0) {
@@ -436,10 +410,6 @@ function populateModelSelects() {
         headerSelect.innerHTML = optionsHtml;
         headerSelect.value = selectedModel;
     }
-    if (settingsSelect) {
-        settingsSelect.innerHTML = optionsHtml;
-        settingsSelect.value = selectedModel;
-    }
 
     updateModelUI();
 }
@@ -450,7 +420,6 @@ function onModelChange(newModelId) {
     sessionStorage.setItem('schemesathi_selected_model', selectedModel);
 
     if ($('headerModelSelect')) $('headerModelSelect').value = selectedModel;
-    if ($('settingsModelSelect')) $('settingsModelSelect').value = selectedModel;
 
     updateModelUI();
 }
@@ -467,53 +436,281 @@ function updateModelUI() {
     }
 }
 
-function renderConfiguredModelsList() {
-    const listContainer = $('configuredModelsList');
-    if (!listContainer) return;
+// ── Sidebar rendering ──
+function renderModelSidebar() {
+    const list = $('modelTabList');
+    if (!list) return;
 
     const allModels = getAllModels();
-    let html = '';
-
-    allModels.forEach(m => {
+    list.innerHTML = allModels.map(m => {
         const isDefault = m.is_default;
         const badgeClass = isDefault ? 'badge-cloud' : (m.is_local ? 'badge-local' : 'badge-server');
-        const badgeLabel = isDefault ? 'Cloud (Default)' : (m.is_local ? 'Local Ollama' : 'Remote Endpoint');
+        const badgeLabel = isDefault ? 'Cloud' : (m.is_local ? 'Local' : 'Remote');
+        const isActive = activeSettingsTab === m.id ? 'active' : '';
+        return `
+            <div class="model-tab-item ${isActive}" data-model-id="${m.id}" onclick="selectModelTab('${m.id}')">
+                <span class="model-tab-name">${escapeHtml(m.name)}</span>
+                <span class="model-tab-badge header-model-badge ${badgeClass}">${badgeLabel}</span>
+            </div>
+        `;
+    }).join('');
+}
 
-        html += `
-            <div class="model-list-card">
-                <div class="model-card-info">
-                    <span class="model-card-title">${escapeHtml(m.name)}</span>
-                    <span class="header-model-badge ${badgeClass}">${badgeLabel}</span>
-                    <span class="model-card-tag">${escapeHtml(m.model_name || m.id)}</span>
+window.selectModelTab = function(id) {
+    activeSettingsTab = id;
+    renderModelSidebar();
+    renderModelDetailPanel(id);
+};
+
+function renderModelDetailPanel(id) {
+    const panel = $('settingsMainPanel');
+    if (!panel) return;
+
+    const allModels = getAllModels();
+    const m = allModels.find(m => m.id === id);
+    if (!m) return;
+
+    const isDefault = m.is_default;
+    const badgeClass = isDefault ? 'badge-cloud' : (m.is_local ? 'badge-local' : 'badge-server');
+    const badgeLabel = isDefault ? 'Cloud (Default)' : (m.is_local ? 'Local Ollama' : 'Remote Endpoint');
+
+    let html = `
+        <div class="model-detail-panel">
+            <div class="model-detail-header">
+                <div>
+                    <h2 class="model-detail-name">${escapeHtml(m.name)}</h2>
+                    <div class="model-detail-meta">
+                        <span class="header-model-badge ${badgeClass}">${badgeLabel}</span>
+                        <span class="model-detail-tag">${escapeHtml(m.model_name || m.id)}</span>
+                    </div>
                 </div>
-                <div class="model-card-actions">
-                    ${isDefault ? '<span style="font-size:0.75rem; color:var(--text-muted); padding:4px 8px;">🔒 Built-in</span>' : `
-                        <button type="button" class="btn-delete-model" onclick="deleteCustomModel('${m.id}')" title="Delete Model">
-                            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="3 6 5 6 21 6"></polyline>
-                                <path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path>
-                            </svg>
-                        </button>
-                    `}
+                ${!isDefault ? `
+                <button type="button" class="btn-delete-model-detail" onclick="deleteCustomModel('${m.id}')">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <polyline points="3 6 5 6 21 6"></polyline>
+                        <path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path>
+                    </svg>
+                    Delete Model
+                </button>` : ''}
+            </div>
+    `;
+
+    // Gemini default model: show API key section
+    if (isDefault && m.provider === 'gemini') {
+        const savedKey = userApiKey || '';
+        html += `
+            <div class="setting-section">
+                <label for="settingsApiKeyInput" class="section-label">Gemini API Key <span class="label-optional">(Optional)</span></label>
+                <p class="setting-desc">SchemeSathi uses Google Gemini Flash by default. Enter your own API key if you hit rate limits.</p>
+                <div class="api-key-input-wrapper">
+                    <input type="password" id="settingsApiKeyInput" class="settings-input" placeholder="Leave empty to use server default key" value="${escapeHtml(savedKey)}">
+                    <button type="button" id="toggleApiKeyBtn" class="btn-toggle-eye" title="Show / Hide Key" aria-label="Toggle API key visibility">
+                        <svg id="eyeIconShow" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                            <circle cx="12" cy="12" r="3"></circle>
+                        </svg>
+                        <svg id="eyeIconHide" class="hidden" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M17.94 17.94A10.07 10.07 0 0 1 12 20c-7 0-11-8-11-8a18.45 18.45 0 0 1 5.06-5.94"></path>
+                            <path d="M9.9 4.24A9.12 9.12 0 0 1 12 4c7 0 11 8 11 8a18.5 18.5 0 0 1-2.16 3.19"></path>
+                            <line x1="1" y1="1" x2="23" y2="23"></line>
+                        </svg>
+                    </button>
                 </div>
             </div>
         `;
-    });
+    } else if (!isDefault) {
+        // Custom model — show info rows
+        if (m.is_local) {
+            html += `
+                <div class="detail-info-row">
+                    <span class="detail-info-label">Type</span>
+                    <span class="detail-info-value">Local Ollama — runs at <code>localhost:11434</code></span>
+                </div>
+                <div class="detail-info-row">
+                    <span class="detail-info-label">Model Tag</span>
+                    <span class="detail-info-value" style="font-family:monospace">${escapeHtml(m.model_name || '')}</span>
+                </div>
+            `;
+        } else {
+            html += `
+                <div class="detail-info-row">
+                    <span class="detail-info-label">Type</span>
+                    <span class="detail-info-value">Remote Endpoint</span>
+                </div>
+                <div class="detail-info-row">
+                    <span class="detail-info-label">Model Tag</span>
+                    <span class="detail-info-value" style="font-family:monospace">${escapeHtml(m.model_name || '')}</span>
+                </div>
+                <div class="detail-info-row">
+                    <span class="detail-info-label">Endpoint URL</span>
+                    <span class="detail-info-value">${escapeHtml(m.base_url || '—')}</span>
+                </div>
+                ${m.api_key ? `
+                <div class="setting-section">
+                    <label class="detail-info-label">API Key</label>
+                    <div class="api-key-input-wrapper">
+                        <input type="password" id="remoteModelKeyDisplay" class="settings-input" value="${escapeHtml(m.api_key)}" readonly>
+                        <button type="button" class="btn-toggle-eye" title="Show / Hide Key" aria-label="Toggle key" onclick="toggleRemoteKey(this)">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                                <circle cx="12" cy="12" r="3"></circle>
+                            </svg>
+                        </button>
+                    </div>
+                </div>` : ''}
+            `;
+        }
 
-    listContainer.innerHTML = html;
-}
+        html += `
+            <div class="built-in-notice" style="margin-top:0.5rem">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <line x1="12" y1="8" x2="12" y2="12"></line>
+                    <line x1="12" y1="16" x2="12.01" y2="16"></line>
+                </svg>
+                Select this model in the header dropdown to use it for chat.
+            </div>
+        `;
+    }
 
-// ── Add Model Form Handlers ──
-function toggleAddModelForm() {
-    const form = $('addModelFormContainer');
-    if (!form) return;
-    const isHidden = form.classList.contains('hidden');
-    form.classList.toggle('hidden', !isHidden);
-    if (isHidden) {
-        scanLocalOllamaModels();
+    // Built-in lock notice
+    if (isDefault) {
+        html += `
+            <div class="built-in-notice">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect>
+                    <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
+                </svg>
+                This is a built-in model and cannot be deleted.
+            </div>
+        `;
+    }
+
+    html += `</div>`;
+    panel.innerHTML = html;
+
+    // Wire up Gemini API key eye toggle (rendered dynamically)
+    const toggleBtn = $('toggleApiKeyBtn');
+    const apiInput = $('settingsApiKeyInput');
+    if (toggleBtn && apiInput) {
+        toggleBtn.addEventListener('click', () => {
+            const isHidden = apiInput.type === 'password';
+            apiInput.type = isHidden ? 'text' : 'password';
+            $('eyeIconShow')?.classList.toggle('hidden', isHidden);
+            $('eyeIconHide')?.classList.toggle('hidden', !isHidden);
+        });
     }
 }
 
+window.toggleRemoteKey = function(btn) {
+    const inp = $('remoteModelKeyDisplay');
+    if (inp) inp.type = inp.type === 'password' ? 'text' : 'password';
+};
+
+// ── Show Add Model form in right panel ──
+function showAddModelPanel() {
+    activeSettingsTab = 'add';
+    renderModelSidebar();
+
+    const panel = $('settingsMainPanel');
+    if (!panel) return;
+
+    panel.innerHTML = `
+        <div class="add-model-form-panel">
+            <h2 class="add-model-form-title">Add New Model</h2>
+
+            <div class="form-grid">
+                <div class="form-group">
+                    <label for="newModelName">Model Display Name *</label>
+                    <input type="text" id="newModelName" class="settings-input" placeholder="e.g. My Local Gemma, DeepSeek R1">
+                </div>
+
+                <div class="form-group">
+                    <label class="checkbox-container" for="newModelIsLocal">
+                        <input type="checkbox" id="newModelIsLocal" checked>
+                        <span class="checkbox-box"></span>
+                        <span class="checkbox-label-text">
+                            <strong>Local Model (uses Ollama)</strong>
+                            <small>Runs directly on your machine at localhost:11434</small>
+                        </span>
+                    </label>
+                </div>
+
+                <!-- Local Ollama options -->
+                <div id="localOllamaOptions" class="form-group local-options-box">
+                    <div class="local-select-header">
+                        <label for="localDownloadedSelect">Select Downloaded Model</label>
+                        <button type="button" id="btnRefreshOllama" class="btn-refresh-ollama" title="Scan local Ollama models">
+                            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21.5 2v6h-6M21.34 15.57a10 10 0 1 1-.57-8.38l5.67-5.67"/></svg>
+                            <span>Scan Models</span>
+                        </button>
+                    </div>
+                    <select id="localDownloadedSelect" class="settings-select">
+                        <option value="">Scanning local models...</option>
+                    </select>
+                    <div class="manual-tag-wrap">
+                        <label for="newModelLocalTag">Or enter Model Tag manually *</label>
+                        <input type="text" id="newModelLocalTag" class="settings-input" placeholder="e.g. gemma3:4b, llama3:8b">
+                    </div>
+                </div>
+
+                <!-- Remote options -->
+                <div id="remoteModelOptions" class="form-group remote-options-box hidden">
+                    <div class="form-group">
+                        <label for="newModelRemoteTag">Model Tag / Identifier *</label>
+                        <input type="text" id="newModelRemoteTag" class="settings-input" placeholder="e.g. gemma3:4b, llama3:8b">
+                    </div>
+                    <div class="form-group">
+                        <label for="newModelEndpoint">Endpoint URL *</label>
+                        <input type="url" id="newModelEndpoint" class="settings-input" placeholder="e.g. https://ai.example.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="newModelApiKey">API Key (Optional)</label>
+                        <div class="api-key-input-wrapper">
+                            <input type="password" id="newModelApiKey" class="settings-input" placeholder="Authorization bearer token or key">
+                            <button type="button" id="toggleNewModelKeyBtn" class="btn-toggle-eye" title="Show/Hide">
+                                <svg id="newKeyIconShow" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                                    <circle cx="12" cy="12" r="3"></circle>
+                                </svg>
+                                <svg id="newKeyIconHide" class="hidden" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M17.94 17.94A10.07 10.07 0 0 1 12 20c-7 0-11-8-11-8a18.45 18.45 0 0 1 5.06-5.94"></path>
+                                    <path d="M9.9 4.24A9.12 9.12 0 0 1 12 4c7 0 11 8 11 8a18.5 18.5 0 0 1-2.16 3.19"></path>
+                                    <line x1="1" y1="1" x2="23" y2="23"></line>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-actions-row">
+                    <button type="button" id="btnSubmitAddModel" class="btn-save-model">Save Model</button>
+                </div>
+            </div>
+        </div>
+    `;
+
+    // Wire events for dynamically rendered form
+    $('newModelIsLocal')?.addEventListener('change', onNewModelIsLocalChange);
+    $('btnRefreshOllama')?.addEventListener('click', scanLocalOllamaModels);
+    $('localDownloadedSelect')?.addEventListener('change', onLocalDownloadedModelSelect);
+    $('btnSubmitAddModel')?.addEventListener('click', handleAddModelSubmit);
+
+    const newKeyInput = $('newModelApiKey');
+    $('toggleNewModelKeyBtn')?.addEventListener('click', () => {
+        if (newKeyInput) {
+            const isHidden = newKeyInput.type === 'password';
+            newKeyInput.type = isHidden ? 'text' : 'password';
+            $('newKeyIconShow')?.classList.toggle('hidden', isHidden);
+            $('newKeyIconHide')?.classList.toggle('hidden', !isHidden);
+        }
+    });
+
+    // Scan Ollama in background
+    scanLocalOllamaModels();
+}
+
+// ── Add Model Form Handlers ──
 function onNewModelIsLocalChange(e) {
     const isLocal = e.target.checked;
     $('localOllamaOptions')?.classList.toggle('hidden', !isLocal);
@@ -532,15 +729,15 @@ async function scanLocalOllamaModels() {
             const data = await res.json();
             if (data.running && data.models?.length > 0) {
                 localOllamaModels = data.models;
-                select.innerHTML = '<option value="">-- Select Downloaded Model (' + data.models.length + ' found) --</option>' +
+                if (select) select.innerHTML = '<option value="">-- Select Downloaded Model (' + data.models.length + ' found) --</option>' +
                     data.models.map(m => `<option value="${escapeHtml(m.name)}">${escapeHtml(m.name)} ${m.size ? '(' + m.size + ')' : ''}</option>`).join('');
             } else if (data.running) {
-                select.innerHTML = '<option value="">Ollama is running (No downloaded models found)</option>';
+                if (select) select.innerHTML = '<option value="">Ollama is running (No downloaded models found)</option>';
             } else {
-                select.innerHTML = '<option value="">Ollama daemon offline (enter tag below)</option>';
+                if (select) select.innerHTML = '<option value="">Ollama daemon offline (enter tag below)</option>';
             }
         } else {
-            select.innerHTML = '<option value="">Could not check Ollama</option>';
+            if (select) select.innerHTML = '<option value="">Could not check Ollama</option>';
         }
     } catch {
         if (select) select.innerHTML = '<option value="">Ollama offline or unreachable</option>';
@@ -554,7 +751,6 @@ function onLocalDownloadedModelSelect(e) {
     if (val && $('newModelLocalTag')) {
         $('newModelLocalTag').value = val;
         if (!$('newModelName').value.trim()) {
-            // Auto generate friendly display name from tag e.g. gemma3:4b -> Gemma3 (4b)
             const clean = val.replace(':', ' (').replace(/$/, val.includes(':') ? ')' : '');
             $('newModelName').value = clean.charAt(0).toUpperCase() + clean.slice(1);
         }
@@ -613,21 +809,15 @@ function handleAddModelSubmit() {
     customModels.push(newModel);
     localStorage.setItem('schemesathi_custom_models', JSON.stringify(customModels));
 
-    // Auto-select the newly created model
     selectedModel = newModel.id;
     localStorage.setItem('schemesathi_selected_model', selectedModel);
 
-    // Reset form fields
-    if ($('newModelName')) $('newModelName').value = '';
-    if ($('newModelLocalTag')) $('newModelLocalTag').value = '';
-    if ($('newModelRemoteTag')) $('newModelRemoteTag').value = '';
-    if ($('newModelEndpoint')) $('newModelEndpoint').value = '';
-    if ($('newModelApiKey')) $('newModelApiKey').value = '';
-
-    $('addModelFormContainer')?.classList.add('hidden');
+    // Select the new model's tab in the sidebar
+    activeSettingsTab = newModel.id;
+    renderModelSidebar();
+    renderModelDetailPanel(newModel.id);
 
     populateModelSelects();
-    renderConfiguredModelsList();
     showToast(`Model "${name}" added successfully!`);
 }
 
@@ -641,22 +831,31 @@ window.deleteCustomModel = function(id) {
         localStorage.setItem('schemesathi_selected_model', selectedModel);
     }
 
+    // Switch sidebar to first available model after deletion
+    activeSettingsTab = getAllModels()[0]?.id || null;
+    renderModelSidebar();
+    if (activeSettingsTab) renderModelDetailPanel(activeSettingsTab);
+
     populateModelSelects();
-    renderConfiguredModelsList();
     showToast(`Model ${model?.name ? `"${model.name}"` : ''} deleted.`);
 };
 
 // ── Save & Apply Settings ──
 function handleSaveSettings() {
-    const activeModelId = $('settingsModelSelect')?.value || selectedModel;
-    selectedModel = activeModelId;
+    // Read API key if the Gemini model detail panel is currently showing it
+    const apiKeyInput = $('settingsApiKeyInput');
+    if (apiKeyInput) {
+        userApiKey = apiKeyInput.value.trim();
+        localStorage.setItem('schemesathi_api_key', userApiKey);
+        sessionStorage.setItem('schemesathi_api_key', userApiKey);
+    }
+
+    // If a model tab is selected, use it as the active model
+    if (activeSettingsTab && activeSettingsTab !== 'add') {
+        selectedModel = activeSettingsTab;
+    }
     localStorage.setItem('schemesathi_selected_model', selectedModel);
     sessionStorage.setItem('schemesathi_selected_model', selectedModel);
-
-    const apiKey = $('settingsApiKeyInput')?.value.trim() || '';
-    userApiKey = apiKey;
-    localStorage.setItem('schemesathi_api_key', userApiKey);
-    sessionStorage.setItem('schemesathi_api_key', userApiKey);
 
     populateModelSelects();
     closeSettingsModal();
@@ -675,18 +874,17 @@ function showToast(msg, duration = 3000) {
 }
 
 function openSettingsModal() {
-    if ($('settingsApiKeyInput')) {
-        $('settingsApiKeyInput').value = userApiKey;
-    }
-    populateModelSelects();
-    renderConfiguredModelsList();
+    // Default to the currently active model's tab
+    activeSettingsTab = selectedModel || getAllModels()[0]?.id || null;
+    renderModelSidebar();
+    if (activeSettingsTab) renderModelDetailPanel(activeSettingsTab);
     $('settingsModal')?.classList.remove('hidden');
 }
 
 function closeSettingsModal() {
     $('settingsModal')?.classList.add('hidden');
-    $('addModelFormContainer')?.classList.add('hidden');
 }
+
 
 
 // ═══ Message Rendering ════════════════════════════════════

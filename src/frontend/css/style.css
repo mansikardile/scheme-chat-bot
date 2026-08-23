@@ -681,32 +681,34 @@ a:hover { opacity: 0.8; }
   background: var(--accent-soft); color: var(--accent); border: 1px solid rgba(245,158,11,0.3);
 }
 
-/* Settings Modal */
+/* ─── Settings Modal — Full-Screen ─── */
 #settingsModal {
   position: fixed; inset: 0; z-index: 100;
-  display: flex; align-items: center; justify-content: center; padding: 1rem;
+  display: flex;
 }
 #settingsModal.hidden { display: none !important; }
 
 .settings-modal-content {
-  background: var(--bg-primary); border: 1px solid var(--border);
-  border-radius: var(--r-xl); width: 100%; max-width: 580px; max-height: 88vh;
-  box-shadow: 0 24px 48px rgba(0,0,0,0.55); overflow: hidden;
+  background: var(--bg-primary);
+  width: 100%; height: 100%;
   display: flex; flex-direction: column;
-  animation: modalScaleIn 0.22s var(--ease); position: relative; z-index: 101;
+  animation: settingsFadeIn 0.2s var(--ease);
+  overflow: hidden;
 }
 
-@keyframes modalScaleIn {
-  from { opacity: 0; transform: scale(0.96) translateY(8px); }
-  to { opacity: 1; transform: scale(1) translateY(0); }
+@keyframes settingsFadeIn {
+  from { opacity: 0; transform: translateY(6px); }
+  to { opacity: 1; transform: translateY(0); }
 }
 
+/* ── Header ── */
 .settings-modal-header {
   display: flex; justify-content: space-between; align-items: center;
-  padding: 1.25rem 1.5rem; border-bottom: 1px solid var(--border);
-  background: var(--bg-surface); flex-shrink: 0;
+  padding: 1rem 1.5rem;
+  border-bottom: 1px solid var(--border);
+  background: var(--bg-surface);
+  flex-shrink: 0; z-index: 2;
 }
-
 .settings-title-wrap {
   display: flex; align-items: center; gap: 0.75rem;
 }
@@ -717,31 +719,166 @@ a:hover { opacity: 0.8; }
 .settings-sub {
   font-size: 0.78rem; color: var(--text-muted); margin: 2px 0 0 0;
 }
+.settings-close-btn {
+  background: var(--bg-elevated); border: 1px solid var(--border);
+  color: var(--text-secondary); width: 34px; height: 34px;
+  border-radius: var(--r-sm); display: flex; align-items: center;
+  justify-content: center; cursor: pointer;
+  transition: all var(--duration) var(--ease); flex-shrink: 0;
+}
+.settings-close-btn:hover { background: var(--bg-hover); color: var(--text-primary); }
 
-.settings-body {
-  padding: 1.5rem; display: flex; flex-direction: column; gap: 1.35rem;
-  overflow-y: auto; overflow-x: hidden; flex: 1;
+/* ── Two-panel layout ── */
+.settings-layout {
+  display: flex; flex: 1; overflow: hidden;
 }
 
+/* ── LEFT sidebar ── */
+.settings-sidebar {
+  width: 240px; flex-shrink: 0;
+  background: var(--bg-secondary);
+  border-right: 1px solid var(--border);
+  display: flex; flex-direction: column;
+  overflow: hidden;
+}
+.settings-sidebar-label {
+  padding: 1rem 1rem 0.5rem;
+  font-size: 0.72rem; font-weight: 700; letter-spacing: 0.06em;
+  text-transform: uppercase; color: var(--text-muted);
+  flex-shrink: 0;
+}
+.model-tab-list {
+  flex: 1; overflow-y: auto; padding: 0 0.5rem 0.5rem;
+  display: flex; flex-direction: column; gap: 2px;
+}
+.model-tab-item {
+  display: flex; align-items: center; gap: 0.6rem;
+  padding: 0.65rem 0.75rem;
+  border-radius: var(--r-md);
+  cursor: pointer; border: 1px solid transparent;
+  transition: all 0.15s var(--ease);
+  position: relative;
+}
+.model-tab-item:hover {
+  background: var(--bg-elevated); border-color: var(--border);
+}
+.model-tab-item.active {
+  background: var(--accent-soft);
+  border-color: rgba(245,158,11,0.25);
+}
+.model-tab-item.active::before {
+  content: '';
+  position: absolute; left: 0; top: 20%; bottom: 20%;
+  width: 3px; border-radius: 2px;
+  background: var(--accent);
+}
+.model-tab-name {
+  font-size: 0.84rem; font-weight: 500; color: var(--text-primary);
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis; flex: 1;
+}
+.model-tab-item.active .model-tab-name { color: var(--accent); font-weight: 600; }
+.model-tab-badge {
+  font-size: 0.62rem; font-weight: 700; padding: 1px 5px;
+  border-radius: var(--r-full); text-transform: uppercase;
+  letter-spacing: 0.3px; flex-shrink: 0;
+}
+
+.settings-sidebar-footer {
+  padding: 0.75rem;
+  border-top: 1px solid var(--border);
+  flex-shrink: 0;
+}
+.btn-add-model-sidebar {
+  display: flex; align-items: center; gap: 0.5rem; width: 100%;
+  background: var(--bg-surface); border: 1px dashed var(--border-hover);
+  color: var(--accent); padding: 0.55rem 0.85rem;
+  border-radius: var(--r-md); font-size: 0.82rem; font-weight: 600;
+  cursor: pointer; transition: all 0.2s var(--ease); font-family: inherit;
+}
+.btn-add-model-sidebar:hover {
+  background: var(--accent-soft); border-color: var(--accent);
+}
+
+/* ── RIGHT main panel ── */
+.settings-main {
+  flex: 1; overflow-y: auto; overflow-x: hidden;
+  padding: 2rem;
+  display: flex; flex-direction: column;
+}
+#settingsMainPanel {
+  max-width: 560px; width: 100%; margin: 0 auto;
+  flex: 1;
+}
+
+/* Model detail panel (right panel when a model tab is selected) */
+.model-detail-panel {
+  display: flex; flex-direction: column; gap: 1.5rem;
+  animation: fadeIn 0.18s var(--ease);
+}
+.model-detail-header {
+  display: flex; align-items: flex-start; justify-content: space-between; gap: 1rem;
+  padding-bottom: 1.25rem;
+  border-bottom: 1px solid var(--border);
+}
+.model-detail-name {
+  font-size: 1.3rem; font-weight: 700; color: var(--text-primary); margin: 0;
+}
+.model-detail-meta {
+  display: flex; align-items: center; gap: 0.5rem; margin-top: 0.35rem;
+  flex-wrap: wrap;
+}
+.model-detail-tag {
+  font-size: 0.78rem; color: var(--text-muted); font-family: monospace;
+  background: var(--bg-elevated); padding: 2px 8px; border-radius: 4px;
+}
+
+/* Info rows inside detail panel */
+.detail-info-row {
+  display: flex; flex-direction: column; gap: 0.35rem;
+}
+.detail-info-label {
+  font-size: 0.78rem; font-weight: 600; color: var(--text-muted);
+  text-transform: uppercase; letter-spacing: 0.04em;
+}
+.detail-info-value {
+  font-size: 0.9rem; color: var(--text-primary);
+  word-break: break-all;
+}
+
+/* Built-in lock notice */
+.built-in-notice {
+  display: flex; align-items: center; gap: 0.6rem;
+  background: var(--bg-surface); border: 1px solid var(--border);
+  border-radius: var(--r-md); padding: 0.85rem 1rem;
+  font-size: 0.84rem; color: var(--text-muted);
+}
+.built-in-notice svg { flex-shrink: 0; color: var(--text-muted); }
+
+/* Delete model button in detail panel */
+.btn-delete-model-detail {
+  display: inline-flex; align-items: center; gap: 0.45rem;
+  background: transparent; border: 1px solid rgba(239,68,68,0.3);
+  color: var(--red); padding: 0.5rem 1rem; border-radius: var(--r-full);
+  font-size: 0.82rem; font-weight: 600; cursor: pointer;
+  transition: all 0.15s var(--ease); font-family: inherit;
+}
+.btn-delete-model-detail:hover {
+  background: rgba(239,68,68,0.1); border-color: var(--red);
+}
+
+/* ── Settings inputs (used in both API key & add-model form) ── */
 .setting-section {
-  display: flex; flex-direction: column; gap: 0.4rem;
+  display: flex; flex-direction: column; gap: 0.5rem;
 }
-
 .section-label {
   font-weight: 600; font-size: 0.88rem; color: var(--text-primary);
 }
 .label-optional {
   font-size: 0.75rem; font-weight: 400; color: var(--text-muted); margin-left: 4px;
 }
-
 .setting-desc {
-  font-size: 0.8rem; color: var(--text-muted); margin: 0 0 0.4rem 0; line-height: 1.45;
+  font-size: 0.8rem; color: var(--text-muted); margin: 0; line-height: 1.5;
 }
-
-.model-select-row {
-  width: 100%;
-}
-
 .settings-select {
   width: 100%; background: var(--bg-secondary); border: 1px solid var(--border);
   color: var(--text-primary); border-radius: var(--r-md); padding: 0.65rem 0.85rem;
@@ -756,109 +893,55 @@ a:hover { opacity: 0.8; }
 }
 .settings-input {
   width: 100%; background: var(--bg-secondary); border: 1px solid var(--border);
-  color: var(--text-primary); border-radius: var(--r-md); padding: 0.65rem 2.4rem 0.65rem 0.85rem;
-  font-size: 0.85rem; font-family: inherit; outline: none; transition: all 0.2s var(--ease);
+  color: var(--text-primary); border-radius: var(--r-md);
+  padding: 0.65rem 2.6rem 0.65rem 0.85rem;
+  font-size: 0.85rem; font-family: inherit; outline: none;
+  transition: all 0.2s var(--ease);
 }
 .settings-input:focus { border-color: var(--accent); box-shadow: 0 0 0 2px var(--accent-soft); }
+
+/* SVG eye toggle button */
 .btn-toggle-eye {
   position: absolute; right: 8px; background: transparent; border: none;
-  color: var(--text-muted); cursor: pointer; font-size: 1rem; padding: 4px; border-radius: 4px;
+  color: var(--text-muted); cursor: pointer; padding: 5px; border-radius: 5px;
+  display: flex; align-items: center; justify-content: center;
+  transition: color 0.15s var(--ease), background 0.15s var(--ease);
 }
-.btn-toggle-eye:hover { color: var(--text-primary); }
+.btn-toggle-eye:hover {
+  color: var(--text-primary); background: var(--bg-elevated);
+}
+.btn-toggle-eye svg { display: block; }
 
-/* Model Management & Custom Models */
-.section-header-flex {
-  display: flex; justify-content: space-between; align-items: flex-start; gap: 0.75rem;
+/* ── Add Model form (shown in right panel) ── */
+.add-model-form-panel {
+  display: flex; flex-direction: column; gap: 1.5rem;
+  animation: fadeIn 0.18s var(--ease);
 }
-
-.btn-add-model {
-  display: inline-flex; align-items: center; gap: 0.35rem;
-  background: var(--bg-surface); border: 1px solid var(--border);
-  color: var(--accent); padding: 0.4rem 0.8rem; border-radius: var(--r-full);
-  font-size: 0.8rem; font-weight: 600; cursor: pointer; transition: all 0.2s var(--ease);
-  white-space: nowrap; flex-shrink: 0;
+.add-model-form-title {
+  font-size: 1.3rem; font-weight: 700; color: var(--text-primary);
+  padding-bottom: 1.25rem; border-bottom: 1px solid var(--border);
+  margin: 0;
 }
-.btn-add-model:hover {
-  background: var(--accent-soft); border-color: var(--accent); transform: translateY(-1px);
-}
-
-.configured-models-list {
-  display: flex; flex-direction: column; gap: 0.5rem; margin-top: 0.25rem;
-}
-
-.model-list-card {
-  display: flex; align-items: center; justify-content: space-between;
-  background: var(--bg-surface); border: 1px solid var(--border);
-  border-radius: var(--r-md); padding: 0.7rem 0.9rem;
-  transition: all 0.15s var(--ease);
-}
-.model-list-card:hover {
-  border-color: var(--border-hover); background: var(--bg-elevated);
-}
-
-.model-card-info {
-  display: flex; align-items: center; gap: 0.6rem; flex-wrap: wrap;
-}
-.model-card-title {
-  font-size: 0.86rem; font-weight: 600; color: var(--text-primary);
-}
-.model-card-tag {
-  font-size: 0.72rem; color: var(--text-muted); font-family: monospace;
-}
-
-.model-card-actions {
-  display: flex; align-items: center; gap: 0.5rem;
-}
-.btn-delete-model {
-  background: transparent; border: none; color: var(--text-muted);
-  cursor: pointer; padding: 4px 6px; border-radius: 4px; font-size: 0.8rem;
-  transition: color 0.15s, background 0.15s;
-}
-.btn-delete-model:hover {
-  color: var(--red); background: rgba(239,68,68,0.12);
-}
-
-/* Add Model Card Form */
-.add-model-form-container {
-  margin-top: 0.5rem; animation: fadeIn 0.2s var(--ease);
-}
-.add-model-card {
-  background: var(--bg-secondary); border: 1px solid var(--border-hover);
-  border-radius: var(--r-lg); padding: 1.1rem; display: flex; flex-direction: column; gap: 0.9rem;
-}
-.add-model-header {
-  display: flex; justify-content: space-between; align-items: center;
-}
-.add-model-header h4 {
-  font-size: 0.92rem; font-weight: 600; color: var(--text-primary); margin: 0;
-}
-.btn-close-form {
-  background: transparent; border: none; color: var(--text-muted);
-  cursor: pointer; font-size: 0.9rem; padding: 2px 6px; border-radius: 4px;
-}
-.btn-close-form:hover { color: var(--text-primary); }
 
 .form-grid {
-  display: flex; flex-direction: column; gap: 0.75rem;
+  display: flex; flex-direction: column; gap: 1rem;
 }
 .form-group {
   display: flex; flex-direction: column; gap: 0.35rem;
 }
 .form-group label {
-  font-size: 0.8rem; font-weight: 600; color: var(--text-secondary);
+  font-size: 0.82rem; font-weight: 600; color: var(--text-secondary);
 }
 
 /* Custom Checkbox */
 .checkbox-container {
   display: flex; align-items: flex-start; gap: 0.65rem; cursor: pointer;
   background: var(--bg-surface); border: 1px solid var(--border);
-  padding: 0.65rem 0.85rem; border-radius: var(--r-md);
+  padding: 0.75rem 0.9rem; border-radius: var(--r-md);
   transition: border-color 0.2s;
 }
 .checkbox-container:hover { border-color: var(--accent); }
-.checkbox-container input[type="checkbox"] {
-  display: none;
-}
+.checkbox-container input[type="checkbox"] { display: none; }
 .checkbox-box {
   width: 18px; height: 18px; border-radius: 4px; border: 1.5px solid var(--text-muted);
   display: flex; align-items: center; justify-content: center; flex-shrink: 0; margin-top: 2px;
@@ -870,15 +953,9 @@ a:hover { opacity: 0.8; }
 .checkbox-container input[type="checkbox"]:checked + .checkbox-box::after {
   content: "✓"; color: #000; font-size: 12px; font-weight: bold;
 }
-.checkbox-label-text {
-  display: flex; flex-direction: column; gap: 2px;
-}
-.checkbox-label-text strong {
-  font-size: 0.85rem; color: var(--text-primary);
-}
-.checkbox-label-text small {
-  font-size: 0.74rem; color: var(--text-muted);
-}
+.checkbox-label-text { display: flex; flex-direction: column; gap: 2px; }
+.checkbox-label-text strong { font-size: 0.85rem; color: var(--text-primary); }
+.checkbox-label-text small { font-size: 0.74rem; color: var(--text-muted); }
 
 /* Local & Remote option boxes */
 .local-options-box, .remote-options-box {
@@ -914,12 +991,13 @@ a:hover { opacity: 0.8; }
 }
 
 .form-actions-row {
-  display: flex; justify-content: flex-end; gap: 0.5rem; margin-top: 0.4rem;
+  display: flex; justify-content: flex-start; gap: 0.5rem; margin-top: 0.5rem;
 }
 .btn-save-model {
   background: var(--accent); color: var(--text-inverse); border: none;
-  font-weight: 600; font-size: 0.82rem; padding: 0.5rem 1.1rem;
+  font-weight: 600; font-size: 0.84rem; padding: 0.6rem 1.4rem;
   border-radius: var(--r-full); cursor: pointer; transition: all 0.2s var(--ease);
+  font-family: inherit;
 }
 .btn-save-model:hover {
   background: var(--accent-hover); transform: translateY(-1px);

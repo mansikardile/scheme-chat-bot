@@ -177,10 +177,11 @@
         </div>
     </div>
 
-    <!-- ═══ Settings Modal ═══ -->
+    <!-- ═══ Settings Modal (Full-Screen) ═══ -->
     <div id="settingsModal" class="hidden">
-        <div class="modal-backdrop" id="settingsBackdrop"></div>
         <div class="settings-modal-content">
+
+            <!-- Header -->
             <div class="settings-modal-header">
                 <div class="settings-title-wrap">
                     <span class="settings-icon">⚙️</span>
@@ -189,131 +190,54 @@
                         <p class="settings-sub">Configure default Gemini or custom local/remote models</p>
                     </div>
                 </div>
-                <button id="closeSettingsBtn" class="close-btn" title="Close" aria-label="Close">
+                <button id="closeSettingsBtn" class="settings-close-btn" title="Close" aria-label="Close">
                     <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
                         <line x1="18" y1="6" x2="6" y2="18"></line>
                         <line x1="6" y1="6" x2="18" y2="18"></line>
                     </svg>
                 </button>
             </div>
-            
-            <div class="settings-body">
-                <!-- 1. Active Model Selection -->
-                <div class="setting-section">
-                    <label for="settingsModelSelect" class="section-label">Select Model</label>
-                    <div class="model-select-row">
-                        <select id="settingsModelSelect" class="settings-select">
-                            <!-- Dynamically populated -->
-                        </select>
-                    </div>
-                </div>
 
-                <!-- 2. Gemini API Key Override -->
-                <div class="setting-section">
-                    <label for="settingsApiKeyInput" class="section-label">Gemini API Key <span class="label-optional">(Optional)</span></label>
-                    <p class="setting-desc">SchemeSathi uses Google Gemini Flash by default. Enter your own API key if you hit rate limits.</p>
-                    <div class="api-key-input-wrapper">
-                        <input type="password" id="settingsApiKeyInput" class="settings-input" placeholder="AIzaSy... (Leave empty to use server default key)">
-                        <button type="button" id="toggleApiKeyBtn" class="btn-toggle-eye" title="Show/Hide Key">👁️</button>
-                    </div>
-                </div>
+            <!-- Two-panel layout -->
+            <div class="settings-layout">
 
-                <!-- 3. Configured Models List & Add Model -->
-                <div class="setting-section">
-                    <div class="section-header-flex">
-                        <div>
-                            <span class="section-label">Custom Models</span>
-                            <p class="setting-desc">Add local Ollama models or remote server endpoints.</p>
-                        </div>
-                        <button type="button" id="btnToggleAddModel" class="btn-add-model">
-                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>
+                <!-- LEFT: Model sidebar -->
+                <aside class="settings-sidebar">
+                    <div class="settings-sidebar-label">Models</div>
+                    <div id="modelTabList" class="model-tab-list">
+                        <!-- Populated by JS -->
+                    </div>
+                    <div class="settings-sidebar-footer">
+                        <button type="button" id="btnShowAddModel" class="btn-add-model-sidebar">
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                <line x1="12" y1="5" x2="12" y2="19"></line>
+                                <line x1="5" y1="12" x2="19" y2="12"></line>
+                            </svg>
                             <span>Add Model</span>
                         </button>
                     </div>
+                </aside>
 
-                    <!-- Configured Models List -->
-                    <div id="configuredModelsList" class="configured-models-list">
-                        <!-- Populated by JS -->
+                <!-- RIGHT: Detail / form panel -->
+                <main class="settings-main">
+                    <div id="settingsMainPanel">
+                        <!-- Populated by JS: model detail or add-model form -->
                     </div>
+                </main>
 
-                    <!-- Add Model Form (Collapsible) -->
-                    <div id="addModelFormContainer" class="add-model-form-container hidden">
-                        <div class="add-model-card">
-                            <div class="add-model-header">
-                                <h4>Add New Model</h4>
-                                <button type="button" id="btnCancelAddModel" class="btn-close-form" title="Cancel">✕</button>
-                            </div>
-                            <div class="form-grid">
-                                <div class="form-group full-width">
-                                    <label for="newModelName">Model Name *</label>
-                                    <input type="text" id="newModelName" class="settings-input" placeholder="e.g. My Local Gemma, DeepSeek R1">
-                                </div>
-
-                                <div class="form-group full-width">
-                                    <label class="checkbox-container" for="newModelIsLocal">
-                                        <input type="checkbox" id="newModelIsLocal" checked>
-                                        <span class="checkbox-box"></span>
-                                        <span class="checkbox-label-text">
-                                            <strong>Local Model (uses Ollama)</strong>
-                                            <small>Runs directly on your machine at localhost:11434</small>
-                                        </span>
-                                    </label>
-                                </div>
-
-                                <!-- Local Ollama options -->
-                                <div id="localOllamaOptions" class="form-group full-width local-options-box">
-                                    <div class="local-select-header">
-                                        <label for="localDownloadedSelect">Select Downloaded Model</label>
-                                        <button type="button" id="btnRefreshOllama" class="btn-refresh-ollama" title="Scan local Ollama models">
-                                            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21.5 2v6h-6M21.34 15.57a10 10 0 1 1-.57-8.38l5.67-5.67"/></svg>
-                                            <span>Scan Models</span>
-                                        </button>
-                                    </div>
-                                    <select id="localDownloadedSelect" class="settings-select">
-                                        <option value="">Scanning local models...</option>
-                                    </select>
-                                    <div class="manual-tag-wrap">
-                                        <label for="newModelLocalTag">Model Tag / Name *</label>
-                                        <input type="text" id="newModelLocalTag" class="settings-input" placeholder="e.g. gemma3:4b, llama3:8b">
-                                    </div>
-                                </div>
-
-                                <!-- Remote / Custom Endpoint options (Shown when Local is UNCHECKED) -->
-                                <div id="remoteModelOptions" class="form-group full-width remote-options-box hidden">
-                                    <div class="form-group">
-                                        <label for="newModelRemoteTag">Model Tag / Identifier *</label>
-                                        <input type="text" id="newModelRemoteTag" class="settings-input" placeholder="e.g. gemma3:4b, llama3:8b">
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="newModelEndpoint">Endpoint URL / Link *</label>
-                                        <input type="url" id="newModelEndpoint" class="settings-input" placeholder="e.g. https://ai.11022006.xyz">
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="newModelApiKey">API Key (Optional)</label>
-                                        <div class="api-key-input-wrapper">
-                                            <input type="password" id="newModelApiKey" class="settings-input" placeholder="Authorization bearer token or key">
-                                            <button type="button" id="toggleNewModelKeyBtn" class="btn-toggle-eye" title="Show/Hide">👁️</button>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="form-actions-row">
-                                    <button type="button" id="btnSubmitAddModel" class="btn-save-model">Save Model</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
             </div>
 
-            <!-- Modal Footer with Save button -->
+            <!-- Footer -->
             <div class="settings-modal-footer">
                 <button type="button" id="btnCancelSettings" class="btn-secondary">Cancel</button>
                 <button type="button" id="btnSaveSettings" class="btn-primary-save">
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                        <polyline points="20 6 9 17 4 12"></polyline>
+                    </svg>
                     <span>Save & Apply</span>
                 </button>
             </div>
+
         </div>
     </div>
 
