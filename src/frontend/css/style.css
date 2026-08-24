@@ -812,12 +812,12 @@ a:hover { opacity: 0.8; }
 
 /* Model detail panel (right panel when a model tab is selected) */
 .model-detail-panel {
-  display: flex; flex-direction: column; gap: 1.5rem;
+  display: flex; flex-direction: column; gap: 1rem;
   animation: fadeIn 0.18s var(--ease);
 }
 .model-detail-header {
   display: flex; align-items: flex-start; justify-content: space-between; gap: 1rem;
-  padding-bottom: 1.25rem;
+  padding-bottom: 1rem;
   border-bottom: 1px solid var(--border);
 }
 .model-detail-name {

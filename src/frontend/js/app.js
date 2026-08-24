@@ -470,6 +470,9 @@ function renderModelSidebar() {
 
 
 window.selectModelTab = function(id) {
+    if (activeSettingsTab && activeSettingsTab !== 'gemini-flash' && activeSettingsTab !== 'add' && activeSettingsTab !== 'embedding') {
+        saveCurrentCustomModelEdits();
+    }
     activeSettingsTab = id;
     renderModelSidebar();
     if (id === 'embedding') {
@@ -481,6 +484,62 @@ window.selectModelTab = function(id) {
     }
 };
 
+function saveCurrentCustomModelEdits() {
+    if (!activeSettingsTab || activeSettingsTab === 'gemini-flash' || activeSettingsTab === 'add' || activeSettingsTab === 'embedding') {
+        return true;
+    }
+
+    const m = customModels.find(item => item.id === activeSettingsTab);
+    if (!m) return true;
+
+    const nameInp = $('editModelName');
+    if (!nameInp) return true;
+
+    const name = nameInp.value.trim();
+    if (!name) return false;
+
+    const isLocal = $('editModelIsLocal')?.checked ?? true;
+    let modelTag = '';
+    let endpoint = '';
+    let apiKey = '';
+
+    if (isLocal) {
+        modelTag = $('editModelLocalTag')?.value.trim() || $('editLocalDownloadedSelect')?.value;
+        if (!modelTag) return false;
+    } else {
+        modelTag = $('editModelRemoteTag')?.value.trim();
+        endpoint = $('editModelEndpoint')?.value.trim();
+        apiKey = $('editModelApiKey')?.value.trim() || '';
+        if (!modelTag || !endpoint) return false;
+    }
+
+    m.name = name;
+    m.is_local = isLocal;
+    m.model_name = modelTag;
+    m.base_url = isLocal ? null : endpoint;
+    m.api_key = isLocal ? null : apiKey;
+    m.description = isLocal ? 'Local Ollama Model' : `Remote (${endpoint})`;
+
+    localStorage.setItem('schemesathi_custom_models', JSON.stringify(customModels));
+
+    // Update DOM indicators
+    const headerName = $('editHeaderModelName');
+    if (headerName) headerName.textContent = name;
+
+    const headerTag = $('editHeaderModelTag');
+    if (headerTag) headerTag.textContent = modelTag;
+
+    const sidebarTab = document.querySelector(`.model-tab-item[data-model-id="${m.id}"] .model-tab-name`);
+    if (sidebarTab) sidebarTab.textContent = name;
+
+    const sidebarBadge = document.querySelector(`.model-tab-item[data-model-id="${m.id}"] .model-tab-badge`);
+    if (sidebarBadge) {
+        sidebarBadge.className = `model-tab-badge header-model-badge ${isLocal ? 'badge-local' : 'badge-server'}`;
+        sidebarBadge.textContent = isLocal ? 'Local' : 'Remote';
+    }
+
+    return true;
+}
 
 function renderModelDetailPanel(id) {
     const panel = $('settingsMainPanel');
@@ -498,10 +557,10 @@ function renderModelDetailPanel(id) {
         <div class="model-detail-panel">
             <div class="model-detail-header">
                 <div>
-                    <h2 class="model-detail-name">${escapeHtml(m.name)}</h2>
+                    <h2 class="model-detail-name" id="editHeaderModelName">${escapeHtml(m.name)}</h2>
                     <div class="model-detail-meta">
-                        <span class="header-model-badge ${badgeClass}">${badgeLabel}</span>
-                        <span class="model-detail-tag">${escapeHtml(m.model_name || m.id)}</span>
+                        <span class="header-model-badge ${badgeClass}" id="editHeaderModelBadge">${badgeLabel}</span>
+                        <span class="model-detail-tag" id="editHeaderModelTag">${escapeHtml(m.model_name || m.id)}</span>
                     </div>
                 </div>
                 ${!isDefault ? `
@@ -539,56 +598,71 @@ function renderModelDetailPanel(id) {
             </div>
         `;
     } else if (!isDefault) {
-        // Custom model — show info rows
-        if (m.is_local) {
-            html += `
-                <div class="detail-info-row">
-                    <span class="detail-info-label">Type</span>
-                    <span class="detail-info-value">Local Ollama — runs at <code>localhost:11434</code></span>
+        // Custom model — editable form fields directly visible
+        html += `
+            <div class="form-grid">
+                <div class="form-group">
+                    <label for="editModelName">Model Display Name *</label>
+                    <input type="text" id="editModelName" class="settings-input" value="${escapeHtml(m.name)}" placeholder="e.g. My Local Gemma, DeepSeek R1">
                 </div>
-                <div class="detail-info-row">
-                    <span class="detail-info-label">Model Tag</span>
-                    <span class="detail-info-value" style="font-family:monospace">${escapeHtml(m.model_name || '')}</span>
+
+                <div class="form-group">
+                    <label class="checkbox-container" for="editModelIsLocal">
+                        <input type="checkbox" id="editModelIsLocal" ${m.is_local ? 'checked' : ''}>
+                        <span class="checkbox-box"></span>
+                        <span class="checkbox-label-text">
+                            <strong>Local Model (uses Ollama)</strong>
+                            <small>Runs directly on your machine at localhost:11434</small>
+                        </span>
+                    </label>
                 </div>
-            `;
-        } else {
-            html += `
-                <div class="detail-info-row">
-                    <span class="detail-info-label">Type</span>
-                    <span class="detail-info-value">Remote Endpoint</span>
-                </div>
-                <div class="detail-info-row">
-                    <span class="detail-info-label">Model Tag</span>
-                    <span class="detail-info-value" style="font-family:monospace">${escapeHtml(m.model_name || '')}</span>
-                </div>
-                <div class="detail-info-row">
-                    <span class="detail-info-label">Endpoint URL</span>
-                    <span class="detail-info-value">${escapeHtml(m.base_url || '—')}</span>
-                </div>
-                ${m.api_key ? `
-                <div class="setting-section">
-                    <label class="detail-info-label">API Key</label>
-                    <div class="api-key-input-wrapper">
-                        <input type="password" id="remoteModelKeyDisplay" class="settings-input" value="${escapeHtml(m.api_key)}" readonly>
-                        <button type="button" class="btn-toggle-eye" title="Show / Hide Key" aria-label="Toggle key" onclick="toggleRemoteKey(this)">
-                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
-                                <circle cx="12" cy="12" r="3"></circle>
-                            </svg>
+
+                <!-- Local Ollama options -->
+                <div id="editLocalOllamaOptions" class="form-group local-options-box ${m.is_local ? '' : 'hidden'}">
+                    <div class="local-select-header">
+                        <label for="editLocalDownloadedSelect">Select Downloaded Model</label>
+                        <button type="button" id="btnRefreshEditOllama" class="btn-refresh-ollama" title="Scan local Ollama models">
+                            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21.5 2v6h-6M21.34 15.57a10 10 0 1 1-.57-8.38l5.67-5.67"/></svg>
+                            <span>Scan Models</span>
                         </button>
                     </div>
-                </div>` : ''}
-            `;
-        }
+                    <select id="editLocalDownloadedSelect" class="settings-select">
+                        <option value="">Scanning local models...</option>
+                    </select>
+                    <div class="manual-tag-wrap">
+                        <label for="editModelLocalTag">Or enter Model Tag manually *</label>
+                        <input type="text" id="editModelLocalTag" class="settings-input" value="${escapeHtml(m.is_local ? m.model_name || '' : '')}" placeholder="e.g. gemma3:4b, llama3:8b">
+                    </div>
+                </div>
 
-        html += `
-            <div class="built-in-notice" style="margin-top:0.5rem">
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                    <circle cx="12" cy="12" r="10"></circle>
-                    <line x1="12" y1="8" x2="12" y2="12"></line>
-                    <line x1="12" y1="16" x2="12.01" y2="16"></line>
-                </svg>
-                Select this model in the header dropdown to use it for chat.
+                <!-- Remote options -->
+                <div id="editRemoteModelOptions" class="form-group remote-options-box ${!m.is_local ? '' : 'hidden'}">
+                    <div class="form-group">
+                        <label for="editModelRemoteTag">Model Tag / Identifier *</label>
+                        <input type="text" id="editModelRemoteTag" class="settings-input" value="${escapeHtml(!m.is_local ? m.model_name || '' : '')}" placeholder="e.g. gemma3:4b, llama3:8b">
+                    </div>
+                    <div class="form-group">
+                        <label for="editModelEndpoint">Endpoint URL *</label>
+                        <input type="url" id="editModelEndpoint" class="settings-input" value="${escapeHtml(m.base_url || '')}" placeholder="e.g. https://ai.example.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="editModelApiKey">API Key (Optional)</label>
+                        <div class="api-key-input-wrapper">
+                            <input type="password" id="editModelApiKey" class="settings-input" value="${escapeHtml(m.api_key || '')}" placeholder="Authorization bearer token or key">
+                            <button type="button" id="toggleEditModelKeyBtn" class="btn-toggle-eye" title="Show/Hide">
+                                <svg id="editKeyIconShow" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                                    <circle cx="12" cy="12" r="3"></circle>
+                                </svg>
+                                <svg id="editKeyIconHide" class="hidden" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M17.94 17.94A10.07 10.07 0 0 1 12 20c-7 0-11-8-11-8a18.45 18.45 0 0 1 5.06-5.94"></path>
+                                    <path d="M9.9 4.24A9.12 9.12 0 0 1 12 4c7 0 11 8 11 8a18.5 18.5 0 0 1-2.16 3.19"></path>
+                                    <line x1="1" y1="1" x2="23" y2="23"></line>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
             </div>
         `;
     }
@@ -609,7 +683,7 @@ function renderModelDetailPanel(id) {
     html += `</div>`;
     panel.innerHTML = html;
 
-    // Wire up Gemini API key eye toggle (rendered dynamically)
+    // Wire up Gemini API key eye toggle
     const toggleBtn = $('toggleApiKeyBtn');
     const apiInput = $('settingsApiKeyInput');
     if (toggleBtn && apiInput) {
@@ -619,6 +693,58 @@ function renderModelDetailPanel(id) {
             $('eyeIconShow')?.classList.toggle('hidden', isHidden);
             $('eyeIconHide')?.classList.toggle('hidden', !isHidden);
         });
+    }
+
+    // Wire up Custom Model Edit fields
+    if (!isDefault) {
+        $('editModelIsLocal')?.addEventListener('change', (e) => {
+            const isLocal = e.target.checked;
+            $('editLocalOllamaOptions')?.classList.toggle('hidden', !isLocal);
+            $('editRemoteModelOptions')?.classList.toggle('hidden', isLocal);
+            const badge = $('editHeaderModelBadge');
+            if (badge) {
+                badge.className = `header-model-badge ${isLocal ? 'badge-local' : 'badge-server'}`;
+                badge.textContent = isLocal ? 'Local Ollama' : 'Remote Endpoint';
+            }
+            saveCurrentCustomModelEdits();
+        });
+
+        $('btnRefreshEditOllama')?.addEventListener('click', scanLocalOllamaModels);
+
+        $('editLocalDownloadedSelect')?.addEventListener('change', (e) => {
+            const val = e.target.value;
+            if (val && $('editModelLocalTag')) {
+                $('editModelLocalTag').value = val;
+                saveCurrentCustomModelEdits();
+            }
+        });
+
+        const editKeyInput = $('editModelApiKey');
+        $('toggleEditModelKeyBtn')?.addEventListener('click', () => {
+            if (editKeyInput) {
+                const isHidden = editKeyInput.type === 'password';
+                editKeyInput.type = isHidden ? 'text' : 'password';
+                $('editKeyIconShow')?.classList.toggle('hidden', isHidden);
+                $('editKeyIconHide')?.classList.toggle('hidden', !isHidden);
+            }
+        });
+
+        ['editModelName', 'editModelLocalTag', 'editModelRemoteTag', 'editModelEndpoint', 'editModelApiKey'].forEach(inputId => {
+            $(inputId)?.addEventListener('input', saveCurrentCustomModelEdits);
+            $(inputId)?.addEventListener('change', saveCurrentCustomModelEdits);
+        });
+
+        if (m.is_local) {
+            if (localOllamaModels.length > 0) {
+                const select = $('editLocalDownloadedSelect');
+                if (select) {
+                    select.innerHTML = '<option value="">-- Select Downloaded Model (' + localOllamaModels.length + ' found) --</option>' +
+                        localOllamaModels.map(lm => `<option value="${escapeHtml(lm.name)}" ${lm.name === m.model_name ? 'selected' : ''}>${escapeHtml(lm.name)} ${lm.size ? '(' + lm.size + ')' : ''}</option>`).join('');
+                }
+            } else {
+                scanLocalOllamaModels();
+            }
+        }
     }
 }
 
@@ -1047,10 +1173,18 @@ function handleSaveSettings() {
         sessionStorage.setItem('schemesathi_api_key', userApiKey);
     }
 
-    // If a model tab is selected, use it as the active model
-    if (activeSettingsTab && activeSettingsTab !== 'add' && activeSettingsTab !== 'embedding') {
+    // Save custom model edits if viewing a custom model tab
+    if (activeSettingsTab && activeSettingsTab !== 'gemini-flash' && activeSettingsTab !== 'add' && activeSettingsTab !== 'embedding') {
+        const ok = saveCurrentCustomModelEdits();
+        if (!ok) {
+            showToast('Please fill in all required model fields (Name and Model Tag / Endpoint).');
+            return;
+        }
+        selectedModel = activeSettingsTab;
+    } else if (activeSettingsTab && activeSettingsTab !== 'add' && activeSettingsTab !== 'embedding') {
         selectedModel = activeSettingsTab;
     }
+
     localStorage.setItem('schemesathi_selected_model', selectedModel);
     sessionStorage.setItem('schemesathi_selected_model', selectedModel);
 
