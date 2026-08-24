@@ -442,7 +442,9 @@ function renderModelSidebar() {
     if (!list) return;
 
     const allModels = getAllModels();
-    list.innerHTML = allModels.map(m => {
+    let html = `<div class="settings-sidebar-label">LLM Models</div>`;
+
+    html += allModels.map(m => {
         const isDefault = m.is_default;
         const badgeClass = isDefault ? 'badge-cloud' : (m.is_local ? 'badge-local' : 'badge-server');
         const badgeLabel = isDefault ? 'Cloud' : (m.is_local ? 'Local' : 'Remote');
@@ -454,13 +456,31 @@ function renderModelSidebar() {
             </div>
         `;
     }).join('');
+
+    const isEmbActive = activeSettingsTab === 'embedding' ? 'active' : '';
+    html += `
+        <div class="settings-sidebar-label" style="margin-top:1rem;">Embedding Model</div>
+        <div class="model-tab-item ${isEmbActive}" data-model-id="embedding" onclick="selectModelTab('embedding')">
+            <span class="model-tab-name">Embedding Model</span>
+        </div>
+    `;
+
+    list.innerHTML = html;
 }
+
 
 window.selectModelTab = function(id) {
     activeSettingsTab = id;
     renderModelSidebar();
-    renderModelDetailPanel(id);
+    if (id === 'embedding') {
+        renderEmbeddingDetailPanel();
+    } else if (id === 'add') {
+        showAddModelPanel();
+    } else {
+        renderModelDetailPanel(id);
+    }
 };
+
 
 function renderModelDetailPanel(id) {
     const panel = $('settingsMainPanel');
@@ -840,8 +860,185 @@ window.deleteCustomModel = function(id) {
     showToast(`Model ${model?.name ? `"${model.name}"` : ''} deleted.`);
 };
 
+// ── Embedding Model Management ──
+async function renderEmbeddingDetailPanel() {
+    const panel = $('settingsMainPanel');
+    if (!panel) return;
+
+    panel.innerHTML = '<div class="loading-spinner" style="margin:4rem auto;"><div class="dot"></div><div class="dot"></div><div class="dot"></div></div>';
+
+    let embeddingInfo = null;
+    try {
+        const res = await fetch(`${API_BASE}/api/embedding/info`);
+        if (res.ok) {
+            embeddingInfo = await res.json();
+        }
+    } catch (e) {
+        console.error('Failed to fetch embedding info:', e);
+    }
+
+    const dbInfo = embeddingInfo?.db_info || { embedding_model: 'bge-m3:latest' };
+    const currentCfg = embeddingInfo?.current_config || { model: 'bge-m3:latest', is_local: true, base_url: '' };
+    const localModels = embeddingInfo?.local_ollama?.models || [];
+
+    const dbModelTag = dbInfo.embedding_model || 'bge-m3:latest';
+    const activeModelTag = currentCfg.model || dbModelTag;
+    const isLocal = currentCfg.is_local ?? true;
+
+    let html = `
+        <div class="model-detail-panel">
+            <div class="model-detail-header">
+                <div>
+                    <h2 class="model-detail-name">Embedding Model Settings</h2>
+                    <div class="model-detail-meta" style="margin-top:0.4rem;">
+                        <span class="model-detail-tag" style="font-size:0.8rem; padding:3px 10px;">Vector DB trained with: <strong style="color:var(--accent); font-family:monospace;">${escapeHtml(dbModelTag)}</strong></span>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <!-- Host Location Selection -->
+            <div class="setting-section">
+                <label class="section-label">Embedding Host Location</label>
+                <p class="setting-desc">Select whether to run the embedding model on your local Ollama daemon or a remote endpoint.</p>
+                <div class="radio-option-group">
+                    <label class="radio-option-wrap">
+                        <input type="radio" name="embHostChoice" value="local" ${isLocal ? 'checked' : ''} onchange="onEmbHostChange(true)">
+                        <div class="radio-option-text">
+                            <strong>Local Ollama Host</strong>
+                            <small>Runs directly on your machine at <code>http://localhost:11434</code></small>
+                        </div>
+                    </label>
+                    <label class="radio-option-wrap">
+                        <input type="radio" name="embHostChoice" value="remote" ${!isLocal ? 'checked' : ''} onchange="onEmbHostChange(false)">
+                        <div class="radio-option-text">
+                            <strong>Remote Server Endpoint</strong>
+                            <small>Use a remote server or API endpoint for embeddings</small>
+                        </div>
+                    </label>
+                </div>
+            </div>
+
+            <!-- Remote Endpoint Options -->
+            <div id="embRemoteSection" class="setting-section ${isLocal ? 'hidden' : ''}">
+                <div class="form-group" style="margin-bottom:0.75rem;">
+                    <label for="embEndpointUrl" class="section-label">Endpoint URL *</label>
+                    <input type="url" id="embEndpointUrl" class="settings-input" value="${escapeHtml(currentCfg.base_url || '')}" placeholder="e.g. https://ai.11022006.xyz">
+                </div>
+                <div class="form-group">
+                    <label for="embApiKey" class="section-label">API Key / Token (Optional)</label>
+                    <input type="password" id="embApiKey" class="settings-input" value="${escapeHtml(currentCfg.api_key || '')}" placeholder="Authorization bearer key">
+                </div>
+            </div>
+
+            <!-- Embedding Model Selection -->
+            <div class="setting-section">
+                <label for="embModelTagInput" class="section-label">Embedding Model Tag</label>
+                <p class="setting-desc">The model identifier used to calculate scheme query embeddings.</p>
+
+                <div id="embLocalModelWrapper" class="${isLocal && localModels.length > 0 ? '' : 'hidden'}">
+                    <select id="embLocalModelSelect" class="settings-select" onchange="onEmbModelSelectChange(this.value)">
+                        <option value="">-- Select Downloaded Local Model (${localModels.length} found) --</option>
+                        ${localModels.map(m => {
+                            const isSelected = m.name.toLowerCase() === activeModelTag.toLowerCase() || 
+                                               m.name.toLowerCase().startsWith(activeModelTag.toLowerCase().split(':')[0]);
+                            return `<option value="${escapeHtml(m.name)}" ${isSelected ? 'selected' : ''}>${escapeHtml(m.name)} ${m.size ? '(' + m.size + ')' : ''}</option>`;
+                        }).join('')}
+                    </select>
+                </div>
+
+                <div id="embTextInputWrapper" class="api-key-input-wrapper ${isLocal && localModels.length > 0 ? 'hidden' : ''}">
+                    <input type="text" id="embModelTagInput" class="settings-input" value="${escapeHtml(activeModelTag)}" placeholder="e.g. bge-m3:latest">
+                </div>
+            </div>
+        </div>
+    `;
+
+    panel.innerHTML = html;
+}
+
+window.onEmbHostChange = function(isLocal) {
+    const remoteSec = $('embRemoteSection');
+    const localSec = $('embLocalModelWrapper');
+    const textSec = $('embTextInputWrapper');
+    const localSelect = $('embLocalModelSelect');
+    const hasLocalModels = localSelect && localSelect.options.length > 1;
+
+    if (remoteSec) remoteSec.classList.toggle('hidden', isLocal);
+    
+    if (isLocal && hasLocalModels) {
+        if (localSec) localSec.classList.remove('hidden');
+        if (textSec) textSec.classList.add('hidden');
+    } else {
+        if (localSec) localSec.classList.add('hidden');
+        if (textSec) textSec.classList.remove('hidden');
+    }
+};
+
+window.onEmbModelSelectChange = function(val) {
+    if (val && $('embModelTagInput')) {
+        $('embModelTagInput').value = val;
+    }
+};
+
+async function handleSaveEmbeddingSubmit() {
+    const isLocal = document.querySelector('input[name="embHostChoice"]:checked')?.value === 'local';
+    const localSelect = $('embLocalModelSelect');
+    const localSec = $('embLocalModelWrapper');
+    
+    let modelTag = '';
+    if (isLocal && localSelect && localSec && !localSec.classList.contains('hidden')) {
+        modelTag = localSelect.value || $('embModelTagInput')?.value?.trim() || 'bge-m3:latest';
+    } else {
+        modelTag = $('embModelTagInput')?.value?.trim() || 'bge-m3:latest';
+    }
+    
+    const endpoint = $('embEndpointUrl')?.value?.trim() || '';
+    const apiKey = $('embApiKey')?.value?.trim() || '';
+
+    if (!isLocal && !endpoint) {
+        showToast('Please enter the Remote Endpoint URL.');
+        $('embEndpointUrl')?.focus();
+        return;
+    }
+
+    try {
+        const payload = {
+            model: modelTag,
+            is_local: isLocal,
+            base_url: isLocal ? null : endpoint,
+            api_key: isLocal ? null : apiKey
+        };
+
+        const res = await fetch(`${API_BASE}/api/embedding/config`, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify(payload)
+        });
+
+        if (res.ok) {
+            showToast(`Embedding settings saved (${modelTag})!`);
+            renderEmbeddingDetailPanel();
+        } else {
+            showToast('Failed to save embedding configuration.');
+        }
+    } catch (e) {
+        console.error('Save embedding error:', e);
+        showToast('Error saving embedding configuration.');
+    }
+}
+
+
+
 // ── Save & Apply Settings ──
 function handleSaveSettings() {
+    if (activeSettingsTab === 'embedding') {
+        handleSaveEmbeddingSubmit();
+        closeSettingsModal();
+        return;
+    }
+
     // Read API key if the Gemini model detail panel is currently showing it
     const apiKeyInput = $('settingsApiKeyInput');
     if (apiKeyInput) {
@@ -851,7 +1048,7 @@ function handleSaveSettings() {
     }
 
     // If a model tab is selected, use it as the active model
-    if (activeSettingsTab && activeSettingsTab !== 'add') {
+    if (activeSettingsTab && activeSettingsTab !== 'add' && activeSettingsTab !== 'embedding') {
         selectedModel = activeSettingsTab;
     }
     localStorage.setItem('schemesathi_selected_model', selectedModel);
@@ -861,6 +1058,7 @@ function handleSaveSettings() {
     closeSettingsModal();
     showToast('Settings saved & applied!');
 }
+
 
 function showToast(msg, duration = 3000) {
     const toast = $('toast');

@@ -13,6 +13,7 @@ from backend.scheme_loader import scheme_loader
 from backend.vector_store import vector_store
 from backend.chat_manager import chat_manager, ChatSession
 from backend.rag_pipeline import rag_pipeline
+from backend.embedding_service import embedding_service
 from backend.model_registry import get_available_models_info, get_local_ollama_models
 
 app = FastAPI(title='SchemeSathi API')
@@ -44,6 +45,50 @@ async def get_models():
 async def get_local_ollama_status():
     """Check local Ollama daemon status and return list of locally downloaded models."""
     return get_local_ollama_models()
+
+
+@app.get('/api/embedding/info')
+async def get_embedding_info():
+    """Return ChromaDB trained embedding metadata, current runtime embedding config, and local models."""
+    db_info = vector_store.get_db_embedding_info()
+    current_cfg = embedding_service.get_config()
+    local_info = get_local_ollama_models()
+    return {
+        "db_info": db_info,
+        "current_config": current_cfg,
+        "local_ollama": local_info,
+    }
+
+
+@app.post('/api/embedding/config')
+async def update_embedding_config(config: dict):
+    """Update active embedding configuration at runtime."""
+    model = config.get("model")
+    base_url = config.get("base_url")
+    api_key = config.get("api_key")
+    is_local = config.get("is_local")
+
+    embedding_service.update_config(
+        model=model,
+        base_url=base_url,
+        api_key=api_key,
+        is_local=is_local,
+    )
+
+    db_info = vector_store.get_db_embedding_info()
+    current_cfg = embedding_service.get_config()
+
+    db_model = (db_info.get("embedding_model") or "").lower().split(":")[0]
+    curr_model = (current_cfg.get("model") or "").lower().split(":")[0]
+    matches = (db_model == curr_model) if (db_model and curr_model) else True
+
+    return {
+        "status": "ok",
+        "current_config": current_cfg,
+        "db_info": db_info,
+        "matches_db": matches,
+    }
+
 
 
 @app.post('/api/chat/new')
