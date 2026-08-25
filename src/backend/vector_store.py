@@ -103,6 +103,33 @@ class VectorStore:
                 })
         return schemes
 
+    def get_db_embedding_info(self) -> dict:
+        """Return the embedding model info stored in ChromaDB metadata."""
+        if not self.collection:
+            return {"embedding_model": "bge-m3:latest", "provider": "ollama"}
+        meta = self.collection.metadata or {}
+        return {
+            "embedding_model": meta.get("embedding_model", "bge-m3:latest"),
+            "provider": meta.get("embedding_provider", "ollama"),
+            "base_url": meta.get("embedding_base_url", ""),
+            "is_local": meta.get("embedding_is_local", True),
+            "vector_count": self.collection.count() if self.collection else 0,
+        }
+
+    def update_db_embedding_info(self, model_name: str, provider: str = "ollama", base_url: str = "", is_local: bool = True):
+        """Update ChromaDB collection metadata with the embedding model used."""
+        if not self.collection:
+            return
+        meta = dict(self.collection.metadata or {})
+        meta.update({
+            "hnsw:space": "cosine",
+            "embedding_model": model_name,
+            "embedding_provider": provider,
+            "embedding_base_url": base_url,
+            "embedding_is_local": is_local,
+        })
+        self.collection.modify(metadata=meta)
+
     def clear(self):
         """Delete and recreate the collection (used for full rebuild)."""
         if self._chroma_client:
@@ -120,3 +147,4 @@ class VectorStore:
 
 
 vector_store = VectorStore()
+

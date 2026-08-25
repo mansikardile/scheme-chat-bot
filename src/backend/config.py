@@ -16,10 +16,23 @@ EMBEDDING_MODEL = os.getenv('EMBEDDING_MODEL', 'bge-m3')
 
 # Ollama Configuration
 OLLAMA_HOST = os.getenv('OLLAMA_HOST', 'http://localhost:11434')
+SERVER_OLLAMA_HOST = os.getenv('SERVER_OLLAMA_HOST', 'https://ai.11022006.xyz')
 OLLAMA_LLM_MODEL = os.getenv('OLLAMA_LLM_MODEL', 'llama3')
 OLLAMA_EMBEDDING_MODEL = os.getenv('OLLAMA_EMBEDDING_MODEL', 'bge-m3:latest')
 
+# Default built-in models
+CONFIGURED_MODELS = [
+    {
+        "id": "gemini-flash",
+        "name": "Google Gemini Flash",
+        "provider": "gemini",
+        "model_name": "gemini-flash-latest",
+        "is_local": False,
+        "description": "Default Google Cloud AI model"
+    },
+]
+
 # Paths
 CHROMA_DB_PATH = str(ROOT_DIR / 'chroma_db')
-SCHEMES_DIR = str(ROOT_DIR / 'schemes')  # produced by scraper/scrape_all.py, one JSON per slug
+SCHEMES_DIR = str(ROOT_DIR / 'schemes')
 FRONTEND_DIR = str(ROOT_DIR / 'src' / 'frontend')

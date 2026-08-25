@@ -12,16 +12,51 @@ class EmbeddingService:
     """LangChain OllamaEmbeddings wrapper with sync and async interfaces."""
 
     def __init__(self):
-        # Build optional auth headers for the remote Ollama host
+        self.model = OLLAMA_EMBEDDING_MODEL
+        self.base_url = OLLAMA_HOST
+        self.api_key = EMBEDDING_API_KEY
+        self.is_local = True
+        self._init_embeddings()
+
+    def _init_embeddings(self):
         client_kwargs: dict = {}
-        if EMBEDDING_API_KEY:
-            client_kwargs["headers"] = {"Authorization": f"Bearer {EMBEDDING_API_KEY}"}
+        if self.api_key:
+            client_kwargs["headers"] = {"Authorization": f"Bearer {self.api_key}"}
 
         self._lc_embeddings = OllamaEmbeddings(
-            model=OLLAMA_EMBEDDING_MODEL,
-            base_url=OLLAMA_HOST,
-            client_kwargs=client_kwargs,
+            model=self.model,
+            base_url=self.base_url,
+            client_kwargs=client_kwargs if client_kwargs else None,
         )
+
+    def get_config(self) -> dict:
+        """Get current embedding service configuration."""
+        return {
+            "model": self.model,
+            "base_url": self.base_url,
+            "api_key": self.api_key,
+            "is_local": self.is_local,
+        }
+
+    def update_config(
+        self,
+        model: str | None = None,
+        base_url: str | None = None,
+        api_key: str | None = None,
+        is_local: bool | None = None,
+    ):
+        """Update active embedding configuration at runtime."""
+        if model is not None:
+            self.model = model
+        if is_local is not None:
+            self.is_local = is_local
+        if base_url is not None:
+            self.base_url = base_url
+        if api_key is not None:
+            self.api_key = api_key
+
+        self._init_embeddings()
+        print(f"[EmbeddingService] Config updated -> model: '{self.model}', base_url: '{self.base_url}', is_local: {self.is_local}")
 
     async def embed_text(self, text: str) -> list[float]:
         """Embed a single text asynchronously (for query-time use in rag_pipeline)."""
@@ -34,3 +69,4 @@ class EmbeddingService:
 
 
 embedding_service = EmbeddingService()
+

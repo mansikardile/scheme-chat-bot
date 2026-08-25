@@ -177,14 +177,25 @@ def main():
         if up_ids:
             vector_store.update_schemes(up_ids, up_embeddings, up_documents, up_metadatas)
 
+    # Save collection embedding metadata
+    emb_cfg = embedding_service.get_config()
+    vector_store.update_db_embedding_info(
+        model_name=emb_cfg.get("model", "bge-m3:latest"),
+        provider="ollama",
+        base_url=emb_cfg.get("base_url", ""),
+        is_local=emb_cfg.get("is_local", True),
+    )
+
     # Summary
     final_count = vector_store.collection.count()
     print(f"\n{'=' * 55}")
     print(f"  DONE!")
     print(f"  Vectors stored: {final_count}")
+    print(f"  Embedding model: {emb_cfg.get('model')}")
     print(f"  Failed embeddings: {failed}")
     print(f"  Database: {CHROMA_DB_PATH}")
     print(f"{'=' * 55}")
+
 
 
 if __name__ == '__main__':

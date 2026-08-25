@@ -1,10 +1,11 @@
 """FastAPI application for SchemeSathi."""
 
 import os
+import json
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.staticfiles import StaticFiles
-from fastapi.responses import FileResponse
+from fastapi.responses import FileResponse, StreamingResponse
 
 from backend.config import FRONTEND_DIR
 from backend.models import ChatRequest, ChatResponse, SchemeCard
@@ -12,6 +13,8 @@ from backend.scheme_loader import scheme_loader
 from backend.vector_store import vector_store
 from backend.chat_manager import chat_manager, ChatSession
 from backend.rag_pipeline import rag_pipeline
+from backend.embedding_service import embedding_service
+from backend.model_registry import get_available_models_info, get_local_ollama_models
 
 app = FastAPI(title='SchemeSathi API')
 
@@ -30,6 +33,61 @@ async def startup_event():
     scheme_loader.load_data()
     vector_store.init()
     print('--- Startup Complete ---\n')
+
+
+@app.get('/api/models')
+async def get_models():
+    """Return available default models."""
+    return get_available_models_info()
+
+
+@app.get('/api/models/local-ollama')
+async def get_local_ollama_status():
+    """Check local Ollama daemon status and return list of locally downloaded models."""
+    return get_local_ollama_models()
+
+
+@app.get('/api/embedding/info')
+async def get_embedding_info():
+    """Return ChromaDB trained embedding metadata, current runtime embedding config, and local models."""
+    db_info = vector_store.get_db_embedding_info()
+    current_cfg = embedding_service.get_config()
+    local_info = get_local_ollama_models()
+    return {
+        "db_info": db_info,
+        "current_config": current_cfg,
+        "local_ollama": local_info,
+    }
+
+
+@app.post('/api/embedding/config')
+async def update_embedding_config(config: dict):
+    """Update active embedding configuration at runtime."""
+    model = config.get("model")
+    base_url = config.get("base_url")
+    api_key = config.get("api_key")
+    is_local = config.get("is_local")
+
+    embedding_service.update_config(
+        model=model,
+        base_url=base_url,
+        api_key=api_key,
+        is_local=is_local,
+    )
+
+    db_info = vector_store.get_db_embedding_info()
+    current_cfg = embedding_service.get_config()
+
+    db_model = (db_info.get("embedding_model") or "").lower().split(":")[0]
+    curr_model = (current_cfg.get("model") or "").lower().split(":")[0]
+    matches = (db_model == curr_model) if (db_model and curr_model) else True
+
+    return {
+        "status": "ok",
+        "current_config": current_cfg,
+        "db_info": db_info,
+        "matches_db": matches,
+    }
 
 
 
@@ -52,19 +110,63 @@ async def chat_endpoint(request: ChatRequest):
     history = session.get_history().copy()
     session.add_message('user', request.message)
 
-    # Run RAG pipeline with language
+    # Run RAG pipeline with language, selected model, user API key, and custom model_config
     reply_text, cards = await rag_pipeline.process_query(
-        history, request.message, language=request.language
+        history,
+        request.message,
+        language=request.language,
+        model_id=request.model,
+        api_key=request.api_key,
+        model_config=request.custom_model,
     )
 
     session.add_message('model', reply_text)
 
-    scheme_cards = [SchemeCard(**c) for c in cards]
+    session_cards = [SchemeCard(**c) for c in cards]
     return ChatResponse(
         session_id=request.session_id,
         reply=reply_text,
-        schemes=scheme_cards,
+        schemes=session_cards,
     )
+
+
+@app.post('/api/chat/stream')
+async def chat_stream_endpoint(request: ChatRequest):
+    session = chat_manager.get_session(request.session_id)
+    if not session:
+        chat_manager.sessions[request.session_id] = ChatSession(request.session_id)
+        session = chat_manager.get_session(request.session_id)
+
+    # Store language preference
+    session.language = request.language
+
+    history = session.get_history().copy()
+    session.add_message('user', request.message)
+
+    async def event_generator():
+        full_text = ""
+        try:
+            async for event in rag_pipeline.process_query_stream(
+                history,
+                request.message,
+                language=request.language,
+                model_id=request.model,
+                api_key=request.api_key,
+                model_config=request.custom_model,
+            ):
+                if event["type"] == "text":
+                    full_text += event["content"]
+                yield f"data: {json.dumps(event)}\n\n"
+
+            # Save LLM response to history at the end of successful streaming
+            if full_text:
+                session.add_message('model', full_text)
+        except Exception as e:
+            print(f"Error in chat_stream_endpoint: {e}")
+            yield f"data: {json.dumps({'type': 'error', 'content': 'Internal server error occurred.'})}\n\n"
+
+    return StreamingResponse(event_generator(), media_type="text/event-stream")
+
 
 
 @app.get('/api/schemes/{slug}')
