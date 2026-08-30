@@ -1,6 +1,7 @@
 """Provider-agnostic LLM service for SchemeSathi."""
 
 import re
+import json
 from langchain_core.messages import SystemMessage, HumanMessage, AIMessage
 from backend.model_registry import get_model
 
@@ -44,6 +45,60 @@ You MUST respond in {language_name} language.
 4. **STRICT ACCURACY**:
    - Recommend ONLY schemes present in the provided [SCHEME DATA] context.
 """
+
+
+# ---------------------------------------------------------------------------
+# Filter extraction — used as a fast pre-pass to build structured SQL queries
+# ---------------------------------------------------------------------------
+
+FILTER_EXTRACTION_PROMPT = """Extract search filters from a user query about Indian government welfare schemes.
+Return ONLY a JSON object. Use null for anything not mentioned or unclear.
+
+Fields:
+- "state": Indian state name (string, e.g. "Maharashtra", "Bihar"), or null
+- "category": beneficiary group — one of "SC", "OBC", "ST", "General", "Women", "Farmer",
+  "Student", "Minority", "Disabled", "Senior Citizen", "BPL", "Youth", "Entrepreneur", or null
+- "keywords": 2-4 space-separated English keywords capturing the core need (e.g. "education scholarship children"), or null
+- "level": "Central" or "State" or null
+
+Recent conversation (user messages only): {context}
+Current user message: {user_message}
+
+JSON only, no explanation, no markdown fences:"""
+
+
+async def extract_filters(
+    model_id: str,
+    user_message: str,
+    conversation_history: list[dict],
+    api_key: str | None = None,
+    model_config: dict | None = None,
+) -> dict:
+    """Use the LLM to extract structured search filters from the user's message + history.
+
+    Returns a dict with optional keys: state, category, keywords, level.
+    Returns an empty dict on any failure so the caller can gracefully fall back.
+    """
+    recent_user_msgs = [m['content'] for m in conversation_history[-4:] if m['role'] == 'user']
+    context = " | ".join(recent_user_msgs) if recent_user_msgs else "None"
+
+    prompt = FILTER_EXTRACTION_PROMPT.format(context=context, user_message=user_message)
+
+    try:
+        model = get_model(model_id, api_key=api_key, model_config=model_config)
+        response = await model.ainvoke([HumanMessage(content=prompt)])
+        text = _extract_text_content(response.content).strip()
+        # Models sometimes wrap output in ```json ... ``` fences — strip them
+        json_match = re.search(r'\{.*?\}', text, re.DOTALL)
+        if json_match:
+            filters = json.loads(json_match.group())
+            # Normalise: drop keys with null / empty values
+            filters = {k: v for k, v in filters.items() if v}
+            print(f"[Filter Extraction] Extracted: {filters}")
+            return filters
+    except Exception as e:
+        print(f"[Filter Extraction] Failed ({e}), pipeline will use keyword fallback")
+    return {}
 
 
 def _extract_text_content(content) -> str:

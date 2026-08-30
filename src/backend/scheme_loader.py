@@ -215,6 +215,121 @@ class SchemeLoader:
                 break
         return results
 
+    def search_with_filters(self, filters: dict, limit: int = 8) -> list[dict]:
+        """Search schemes using LLM-extracted structured filters via DuckDB SQL.
+
+        Builds a targeted WHERE clause from filters (state, category, level) and
+        optionally layers BM25 keyword scoring on top. Falls back to search_schemes()
+        if DuckDB is unavailable or the query fails.
+
+        Args:
+            filters: Dict with optional keys: state, category, keywords, level.
+            limit: Maximum number of results to return.
+
+        Returns:
+            List of scheme summary dicts (same shape as slug_to_index values).
+        """
+        db_path = Path(SCHEMES_DB_PATH)
+        keywords = (filters.get('keywords') or '').strip()
+        state = (filters.get('state') or '').strip()
+        category = (filters.get('category') or '').strip()
+        level = (filters.get('level') or '').strip()
+
+        if db_path.exists():
+            try:
+                import duckdb
+                conn = duckdb.connect(str(db_path), read_only=True)
+
+                params = []
+                conditions = []
+                use_fts = False
+
+                # Try BM25 full-text search for keywords (SELECT clause param goes first)
+                if keywords:
+                    try:
+                        conn.execute("LOAD fts;")
+                        words = [w for w in keywords.split() if w.isalnum()]
+                        if words:
+                            clean_q = " ".join(words)
+                            params.append(clean_q)  # positional param for BM25
+                            select_clause = "SELECT slug, fts_main_schemes.match_bm25(slug, ?) AS score FROM schemes"
+                            conditions.append("score IS NOT NULL")
+                            use_fts = True
+                        else:
+                            select_clause = "SELECT slug FROM schemes"
+                    except Exception:
+                        select_clause = "SELECT slug FROM schemes"
+                else:
+                    select_clause = "SELECT slug FROM schemes"
+
+                # Structured filter conditions (params appended after BM25 param)
+                if level:
+                    conditions.append("level = ?")
+                    params.append(level)
+
+                if state:
+                    conditions.append("(states ILIKE ? OR level = 'Central')")
+                    params.append(f"%{state}%")
+
+                if category:
+                    cp = f"%{category}%"
+                    conditions.append(
+                        "(categories ILIKE ? OR tags ILIKE ? OR scheme_for ILIKE ? OR search_text ILIKE ?)"
+                    )
+                    params.extend([cp, cp, cp, cp])
+
+                # ILIKE keyword fallback when BM25 is unavailable
+                if not use_fts and keywords:
+                    conditions.append("search_text ILIKE ?")
+                    params.append(f"%{keywords}%")
+
+                sql = select_clause
+                if conditions:
+                    sql += " WHERE " + " AND ".join(conditions)
+                sql += " ORDER BY score DESC" if use_fts else " ORDER BY scheme_name ASC"
+                sql += f" LIMIT {int(limit)}"
+
+                rows = conn.execute(sql, params).fetchall()
+                conn.close()
+
+                results = []
+                for r in rows:
+                    slug = r[0]
+                    summary = self.slug_to_index.get(slug)
+                    if summary:
+                        results.append(summary)
+                print(f"[SchemeLoader] search_with_filters → {len(results)} results "
+                      f"(state={state or '-'}, category={category or '-'}, "
+                      f"keywords={keywords or '-'}, level={level or '-'})")
+                return results
+            except Exception as e:
+                print(f"[SchemeLoader] search_with_filters DuckDB error ({e}), falling back to search_schemes()")
+
+        # Graceful fallback to basic keyword search
+        return self.search_schemes(
+            query=keywords or None,
+            state=state or None,
+            category=category or None,
+            limit=limit,
+        )
+
+    def get_scheme_summary_context(self, slug: str) -> str:
+        """Return a compact scheme context for LLM injection.
+
+        Produces ~300-500 characters per scheme (vs 2000-5000 for get_scheme_context),
+        which is sufficient for the LLM to recommend schemes and ask follow-up questions
+        without token budget explosion. Full detail is only needed when the user
+        explicitly asks about a specific scheme.
+        """
+        scheme = self.slug_to_index.get(slug, {})
+        if not scheme:
+            return ""
+        # _build_embedding_text already produces a compact, informative representation:
+        # Scheme name, short title, level, states, categories, ministry, tags, for, brief (~300 chars)
+        text = self._build_embedding_text(scheme)
+        text += f"\nLink: https://www.myscheme.gov.in/schemes/{slug}"
+        return text
+
     def get_all_for_embedding(self):
         """Return list of (slug, text, raw_scheme) tuples for vector DB building."""
         results = []

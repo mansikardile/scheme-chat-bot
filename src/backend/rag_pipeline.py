@@ -12,7 +12,7 @@ Orchestration layer that wires together:
 from backend.embedding_service import embedding_service
 from backend.vector_store import vector_store
 from backend.scheme_loader import scheme_loader
-from backend.llm_service import generate_response, generate_response_stream
+from backend.llm_service import generate_response, generate_response_stream, extract_filters
 import re
 
 
@@ -96,47 +96,66 @@ class RAGPipeline:
         api_key: str | None = None,
         model_config: dict | None = None,
     ) -> tuple[str, list[dict]]:
-        """Full RAG pipeline with multilingual query translation and intent-gated card display."""
+        """Full RAG pipeline: filter extraction → SQL retrieval → compact context → LLM response."""
 
-        # 1. Translate / Enrich search query to English for high precision vector retrieval
-        english_search_query = self._build_english_search_query(session_history, user_message, language)
-        print(f"\n[RAG Pipeline] Enriched English Search Query: '{english_search_query}'")
-
-        # 2. Embed search query or use DuckDB search fallback
-        results = []
+        # 1. Extract structured filters from user message + history via a fast LLM call
+        filters = {}
         try:
-            if embedding_service._lc_embeddings is not None:
-                query_embedding = await embedding_service.embed_text(english_search_query)
-                results = vector_store.search(query_embedding, top_k=15)
+            filters = await extract_filters(
+                model_id, user_message, session_history,
+                api_key=api_key, model_config=model_config
+            )
         except Exception as e:
-            print(f'Embedding/Vector error ({e}), using DuckDB fast search fallback...')
+            print(f"[RAG Pipeline] Filter extraction failed ({e}), proceeding without filters")
 
-        # Fallback to DuckDB BM25 search if vector search returned no results
+        # 2. Targeted DuckDB SQL search using extracted filters
+        results = []
+        has_filters = any(filters.get(k) for k in ('state', 'category', 'keywords', 'level'))
+
+        if has_filters:
+            matched = scheme_loader.search_with_filters(filters, limit=8)
+            results = [{'slug': s['slug']} for s in matched]
+
+        # 3. Fallback chain: vector search → DuckDB BM25 keyword search
         if not results:
-            print("[RAG Pipeline] Using DuckDB BM25 fast search for scheme retrieval...")
-            db_results = scheme_loader.search_schemes(query=user_message, limit=15)
+            english_search_query = self._build_english_search_query(session_history, user_message, language)
+            print(f"[RAG Pipeline] No filter results — trying vector search: '{english_search_query}'")
+            try:
+                if embedding_service._lc_embeddings is not None:
+                    query_embedding = await embedding_service.embed_text(english_search_query)
+                    results = vector_store.search(query_embedding, top_k=8)
+            except Exception as e:
+                print(f"[RAG Pipeline] Vector search failed ({e}), falling back to BM25")
+
+        if not results:
+            print("[RAG Pipeline] Using DuckDB BM25 keyword fallback")
+            db_results = scheme_loader.search_schemes(query=user_message, limit=8)
             results = [{'slug': s['slug']} for s in db_results]
 
         retrieved_slugs = [r['slug'] for r in results]
-        print(f"[RAG Pipeline] Retrieved scheme slugs: {retrieved_slugs}")
+        print(f"[RAG Pipeline] Retrieved {len(results)} scheme(s): {retrieved_slugs}")
 
-        # 4. Build rich scheme context for LLM
+        # 4. Build COMPACT scheme context — summary only, not full detail
+        #    ~300-500 chars per scheme vs 2000-5000 chars for get_scheme_context()
         context_parts = []
         for i, res in enumerate(results, 1):
-            ctx = scheme_loader.get_scheme_context(res['slug'])
+            ctx = scheme_loader.get_scheme_summary_context(res['slug'])
             context_parts.append(f'--- Scheme {i} ---\n{ctx}')
         scheme_context = '\n\n'.join(context_parts)
-        print(f"[RAG Pipeline] Injected Context Length: {len(scheme_context)} characters\n")
+        print(f"[RAG Pipeline] Injected Context Length: {len(scheme_context)} characters "
+              f"(~{len(scheme_context) // 4} tokens)\n")
 
-        # 5. Generate response using provider-agnostic llm_service with selected model_id, optional user api_key, and model_config
+        # 5. Generate response using provider-agnostic llm_service
         reply_text = await generate_response(
-            model_id, session_history, user_message, scheme_context, language=language, api_key=api_key, model_config=model_config
+            model_id, session_history, user_message, scheme_context,
+            language=language, api_key=api_key, model_config=model_config
         )
 
         # 6. Intent-gated Card Selection logic (domain logic — kept as custom post-processing)
         scheme_cards = self._select_cards_if_needed(reply_text, user_message, results)
 
         return reply_text, scheme_cards
+
 
     async def process_query_stream(
         self,
@@ -147,41 +166,59 @@ class RAGPipeline:
         api_key: str | None = None,
         model_config: dict | None = None,
     ):
-        """Full RAG pipeline streaming LLM response and sending intent-gated cards at the end."""
-        # 1. Translate / Enrich search query to English for high precision vector retrieval
-        english_search_query = self._build_english_search_query(session_history, user_message, language)
-        print(f"\n[RAG Pipeline] Enriched English Search Query (Stream): '{english_search_query}'")
+        """Full RAG pipeline streaming LLM response: filter extraction → SQL retrieval → compact context."""
 
-        # 2. Embed search query or use DuckDB search fallback
-        results = []
+        # 1. Extract structured filters from user message + history via a fast LLM call
+        filters = {}
         try:
-            if embedding_service._lc_embeddings is not None:
-                query_embedding = await embedding_service.embed_text(english_search_query)
-                results = vector_store.search(query_embedding, top_k=15)
+            filters = await extract_filters(
+                model_id, user_message, session_history,
+                api_key=api_key, model_config=model_config
+            )
         except Exception as e:
-            print(f'Embedding/Vector error ({e}), using DuckDB fast search fallback...')
+            print(f"[RAG Pipeline] Filter extraction failed ({e}), proceeding without filters")
 
-        # Fallback to DuckDB BM25 search if vector search returned no results
+        # 2. Targeted DuckDB SQL search using extracted filters
+        results = []
+        has_filters = any(filters.get(k) for k in ('state', 'category', 'keywords', 'level'))
+
+        if has_filters:
+            matched = scheme_loader.search_with_filters(filters, limit=8)
+            results = [{'slug': s['slug']} for s in matched]
+
+        # 3. Fallback chain: vector search → DuckDB BM25 keyword search
         if not results:
-            print("[RAG Pipeline] Using DuckDB BM25 fast search for scheme retrieval...")
-            db_results = scheme_loader.search_schemes(query=user_message, limit=15)
+            english_search_query = self._build_english_search_query(session_history, user_message, language)
+            print(f"[RAG Pipeline] No filter results — trying vector search (Stream): '{english_search_query}'")
+            try:
+                if embedding_service._lc_embeddings is not None:
+                    query_embedding = await embedding_service.embed_text(english_search_query)
+                    results = vector_store.search(query_embedding, top_k=8)
+            except Exception as e:
+                print(f"[RAG Pipeline] Vector search failed ({e}), falling back to BM25")
+
+        if not results:
+            print("[RAG Pipeline] Using DuckDB BM25 keyword fallback (Stream)")
+            db_results = scheme_loader.search_schemes(query=user_message, limit=8)
             results = [{'slug': s['slug']} for s in db_results]
 
         retrieved_slugs = [r['slug'] for r in results]
-        print(f"[RAG Pipeline] Retrieved scheme slugs (Stream): {retrieved_slugs}")
+        print(f"[RAG Pipeline] Retrieved {len(results)} scheme(s) (Stream): {retrieved_slugs}")
 
-        # 4. Build rich scheme context for LLM
+        # 4. Build COMPACT scheme context — summary only, not full detail
         context_parts = []
         for i, res in enumerate(results, 1):
-            ctx = scheme_loader.get_scheme_context(res['slug'])
+            ctx = scheme_loader.get_scheme_summary_context(res['slug'])
             context_parts.append(f'--- Scheme {i} ---\n{ctx}')
         scheme_context = '\n\n'.join(context_parts)
-        print(f"[RAG Pipeline] Injected Context Length (Stream): {len(scheme_context)} characters\n")
+        print(f"[RAG Pipeline] Injected Context Length (Stream): {len(scheme_context)} characters "
+              f"(~{len(scheme_context) // 4} tokens)\n")
 
         # 5. Stream response using provider-agnostic llm_service
         full_reply_text = ""
         async for chunk in generate_response_stream(
-            model_id, session_history, user_message, scheme_context, language=language, api_key=api_key, model_config=model_config
+            model_id, session_history, user_message, scheme_context,
+            language=language, api_key=api_key, model_config=model_config
         ):
             clean_chunk = re.sub(r'https?://[^\s)]+', '', chunk)
             clean_chunk = re.sub(r'\[Link\]\(\)', '', clean_chunk)
@@ -192,6 +229,7 @@ class RAGPipeline:
         # 6. Intent-gated Card Selection logic based on the full generated response
         scheme_cards = self._select_cards_if_needed(full_reply_text, user_message, results)
         yield {"type": "cards", "content": scheme_cards}
+
 
     def _build_english_search_query(self, history: list[dict], current_message: str, language: str) -> str:
         """Translates regional terms into English concepts for ChromaDB search."""
