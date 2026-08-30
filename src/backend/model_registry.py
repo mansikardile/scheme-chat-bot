@@ -77,13 +77,20 @@ def _create_gemini_model(model_name: str = "gemini-3.5-flash-lite", api_key: str
     _no_afc = {"automatic_function_calling": {"disable": True}}
     target_model = model_name if (model_name and model_name != "gemini-flash-latest") else "gemini-3.5-flash-lite"
 
+    print(f"[Model Registry] Instantiating Gemini model '{target_model}'")
+
     primary = ChatGoogleGenerativeAI(
         model=target_model,
         google_api_key=key,
         temperature=0.6,
         max_output_tokens=4096,
     ).bind(**_no_afc)
-    fallback_models = ['gemini-3.6-flash', 'gemini-3.5-flash-lite', 'gemini-2.5-flash', 'gemini-1.5-flash']
+
+    if "lite" in target_model.lower() or "8b" in target_model.lower():
+        fallback_models = ['gemini-3.5-flash-lite', 'gemini-2.0-flash-lite', 'gemini-1.5-flash-8b', 'gemini-3.6-flash', 'gemini-2.5-flash']
+    else:
+        fallback_models = ['gemini-3.6-flash', 'gemini-3.5-flash-lite', 'gemini-2.5-flash', 'gemini-1.5-flash']
+
     fallbacks = [
         ChatGoogleGenerativeAI(
             model=m,

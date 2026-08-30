@@ -59,9 +59,8 @@ Fields:
 - "category": beneficiary group — one of "SC", "OBC", "ST", "General", "Women", "Farmer",
   "Student", "Minority", "Disabled", "Senior Citizen", "BPL", "Youth", "Entrepreneur", or null
 - "keywords": 2-4 space-separated English keywords capturing the core need (e.g. "education scholarship children"), or null
-- "level": "Central" or "State" or null
 
-Recent conversation (user messages only): {context}
+Recent conversation: {context}
 Current user message: {user_message}
 
 JSON only, no explanation, no markdown fences:"""
@@ -76,11 +75,23 @@ async def extract_filters(
 ) -> dict:
     """Use the LLM to extract structured search filters from the user's message + history.
 
-    Returns a dict with optional keys: state, category, keywords, level.
+    Returns a dict with optional keys: state, category, keywords.
+    (level is intentionally excluded — the state SQL condition already handles
+    Central+State scheme discovery correctly via OR level='Central'.)
     Returns an empty dict on any failure so the caller can gracefully fall back.
     """
-    recent_user_msgs = [m['content'] for m in conversation_history[-4:] if m['role'] == 'user']
-    context = " | ".join(recent_user_msgs) if recent_user_msgs else "None"
+    # Build context from recent user messages AND the last AI response (truncated).
+    # The AI response often contains scheme names that the user refers to with
+    # vague pronouns ("these schemes", "it", "this") in the next turn.
+    context_parts = []
+    for m in conversation_history[-6:]:
+        if m['role'] == 'user':
+            context_parts.append(f"User: {m['content']}")
+        elif m['role'] == 'assistant':
+            # Truncate AI responses to avoid blowing up the prompt
+            snippet = m['content'][:300].replace('\n', ' ')
+            context_parts.append(f"Assistant: {snippet}")
+    context = " | ".join(context_parts) if context_parts else "None"
 
     prompt = FILTER_EXTRACTION_PROMPT.format(context=context, user_message=user_message)
 
@@ -148,8 +159,17 @@ async def classify_detail_query(
     if not retrieved_scheme_names:
         return default
 
-    recent_user_msgs = [m['content'] for m in conversation_history[-4:] if m['role'] == 'user']
-    context = " | ".join(recent_user_msgs) if recent_user_msgs else "None"
+    # Include both user messages and the last AI response (truncated) so that
+    # vague references like "these schemes" or "can IT be used for X" can be
+    # resolved against what the assistant just recommended.
+    context_parts = []
+    for m in conversation_history[-6:]:
+        if m['role'] == 'user':
+            context_parts.append(f"User: {m['content']}")
+        elif m['role'] == 'assistant':
+            snippet = m['content'][:300].replace('\n', ' ')
+            context_parts.append(f"Assistant: {snippet}")
+    context = " | ".join(context_parts) if context_parts else "None"
 
     numbered_list = "\n".join(f"{i+1}. {name}" for i, name in enumerate(retrieved_scheme_names))
     prompt = DETAIL_CLASSIFICATION_PROMPT.format(

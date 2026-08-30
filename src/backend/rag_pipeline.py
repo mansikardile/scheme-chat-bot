@@ -325,30 +325,58 @@ class RAGPipeline:
         if not results:
             return []
 
-        # 1. Check if AI mentions scheme names / titles explicitly in text response
+        reply_lower = reply_text.lower()
+        user_lower = user_message.lower()
+
+        # 1. Check if AI mentions scheme names / titles in text response.
+        #    Uses bidirectional matching:
+        #    (a) Full DB name is a substring of the reply (exact)
+        #    (b) Slug appears in reply
+        #    (c) 2+ significant words (>5 chars) from the scheme name appear in the reply
+        #        — catches abbreviated names like "Weaver MUDRA Scheme" vs full DB name
         mentioned_slugs = []
         for res in results:
             slug = res['slug']
             idx = scheme_loader.slug_to_index.get(slug, {})
             name = idx.get('schemeName', '')
-            if slug in reply_text or (name and len(name) > 6 and name.lower() in reply_text.lower()):
+            if not name:
+                continue
+
+            # (a) exact slug or full name match
+            if slug in reply_text or name.lower() in reply_lower:
                 mentioned_slugs.append(slug)
+                continue
+
+            # (b) keyword overlap: count significant words from scheme name in reply
+            if len(name) > 6:
+                sig_words = [w for w in name.split() if len(w) > 5 and w.isalpha()]
+                if sig_words:
+                    matches = sum(1 for w in sig_words if w.lower() in reply_lower)
+                    # Require at least 3 distinctive word matches to avoid false positives
+                    # (2 was too loose — common words like "education"+"scholarship" caused
+                    # premature cards before the LLM had even asked for the user's state)
+                    if matches >= 3:
+                        mentioned_slugs.append(slug)
 
         if mentioned_slugs:
             return self._build_scheme_cards_for_slugs(mentioned_slugs[:4])
 
-        # 2. Check if user explicitly asked for a list or scheme recommendations
+        # 2. Check if user explicitly asked for schemes / a list
         user_explicitly_requested_list = any(
-            kw in user_message.lower() for kw in [
+            kw in user_lower for kw in [
                 'list', 'show list', 'give me list', 'show schemes', 'all schemes',
+                'what schemes', 'which schemes', 'schemes for me', 'schemes do you',
                 'yojana list', 'yojna list', 'recommend schemes', 'which scheme',
+                'schemes available', 'available schemes', 'tell me schemes',
                 'लिस्ट', 'सूची', 'दिखाएं', 'दीजिए', 'योजना दिखाओ', 'योजना की सूची'
             ]
         )
 
         ai_recommends_scheme = any(
-            kw in reply_text.lower() for kw in [
+            kw in reply_lower for kw in [
                 'suitable scheme', 'best scheme', 'recommended scheme',
+                'schemes available', 'following scheme', 'several scheme',
+                'wonderful scheme', 'great scheme', 'support program',
                 'उपयुक्त योजना', 'प्रमुख सरकारी योजना', 'नीचे दी गई योजना', 'निम्नलिखित योजना'
             ]
         )
@@ -359,6 +387,7 @@ class RAGPipeline:
 
         # 3. Otherwise (during intake Q&A like "I am a student" or "OBC"), DO NOT display card boxes yet
         return []
+
 
     def _build_scheme_cards_for_slugs(self, slugs: list[str]) -> list[str]:
         cards = []

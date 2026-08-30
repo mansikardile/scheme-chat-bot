@@ -263,7 +263,11 @@ class SchemeLoader:
                     select_clause = "SELECT slug FROM schemes"
 
                 # Structured filter conditions (params appended after BM25 param)
-                if level:
+                # NOTE: only apply level as a hard filter when there is NO state filter.
+                # When state IS present, the state condition already includes Central schemes
+                # via "OR level = 'Central'", so adding "AND level = 'State'" would
+                # incorrectly exclude all Central government weaver/farmer/etc. schemes.
+                if level and not state:
                     conditions.append("level = ?")
                     params.append(level)
 
@@ -298,6 +302,14 @@ class SchemeLoader:
                     summary = self.slug_to_index.get(slug)
                     if summary:
                         results.append(summary)
+
+                # Post-filter: remove Central schemes whose names mention a specific
+                # state/region that does NOT match the user's requested state.
+                # This catches schemes like "...for Jammu & Kashmir and Ladakh" leaking
+                # into Maharashtra results because they are stored as level=Central, states=[].
+                if state and results:
+                    results = self._filter_geo_restricted(results, state)
+
                 print(f"[SchemeLoader] search_with_filters → {len(results)} results "
                       f"(state={state or '-'}, category={category or '-'}, "
                       f"keywords={keywords or '-'}, level={level or '-'})")
@@ -312,6 +324,46 @@ class SchemeLoader:
             category=category or None,
             limit=limit,
         )
+
+    # Known Indian state/UT name fragments used for geo-restriction detection.
+    # Ordered longest-first to avoid partial matches (e.g. "Goa" inside "Meghalaya" won't match).
+    _GEO_NAMES = [
+        'andhra pradesh', 'arunachal pradesh', 'himachal pradesh', 'madhya pradesh',
+        'uttar pradesh', 'west bengal', 'tamil nadu', 'jammu', 'kashmir', 'ladakh',
+        'andaman', 'nicobar', 'lakshadweep', 'puducherry', 'chandigarh',
+        'chhattisgarh', 'jharkhand', 'uttarakhand', 'meghalaya', 'mizoram',
+        'nagaland', 'manipur', 'tripura', 'sikkim', 'telangana', 'karnataka',
+        'maharashtra', 'rajasthan', 'gujarat', 'haryana', 'punjab', 'kerala',
+        'assam', 'bihar', 'odisha', 'goa', 'delhi',
+    ]
+
+    def _filter_geo_restricted(self, results: list[dict], user_state: str) -> list[dict]:
+        """Remove Central schemes whose names mention a specific state other than user_state.
+
+        Targets schemes stored as level=Central, states=[] that are actually
+        region-specific (e.g. J&K scholarships appearing in Maharashtra results).
+        Schemes with explicit state lists in the DB are already handled by SQL.
+        """
+        user_state_lower = user_state.lower()
+        filtered = []
+        for scheme in results:
+            # Only apply to schemes with no explicit state list (empty states field)
+            if scheme.get('beneficiaryState'):
+                filtered.append(scheme)
+                continue
+
+            name_lower = scheme.get('schemeName', '').lower()
+            # Check if any geo name appears in the scheme name
+            found_other_state = False
+            for geo in self._GEO_NAMES:
+                if geo in name_lower and geo not in user_state_lower and user_state_lower not in geo:
+                    print(f"[SchemeLoader] Geo-filtering '{scheme.get('slug')}': "
+                          f"name mentions '{geo}' but user state is '{user_state}'")
+                    found_other_state = True
+                    break
+            if not found_other_state:
+                filtered.append(scheme)
+        return filtered
 
     def get_scheme_summary_context(self, slug: str) -> str:
         """Return a compact scheme context for LLM injection.
