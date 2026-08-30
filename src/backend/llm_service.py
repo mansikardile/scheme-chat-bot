@@ -180,7 +180,7 @@ async def classify_detail_query(
 
 
 def _extract_text_content(content) -> str:
-    """Extract clean string text from LangChain message content (str, list, or dict)."""
+    """Extract clean string text from LangChain message content (str, list, or dict), ignoring thinking/reasoning blocks."""
     if isinstance(content, str):
         return content
     if isinstance(content, list):
@@ -189,21 +189,24 @@ def _extract_text_content(content) -> str:
             if isinstance(item, str):
                 parts.append(item)
             elif isinstance(item, dict):
-                if item.get('type') == 'text' and 'text' in item:
+                item_type = item.get('type', '')
+                if item_type in ('thinking', 'reasoning', 'thought') or 'thinking' in item or 'thought' in item:
+                    continue
+                if item_type == 'text' and 'text' in item:
                     parts.append(str(item['text']))
                 elif 'text' in item:
                     parts.append(str(item['text']))
-                else:
-                    parts.append(str(item))
-            else:
-                parts.append(str(item))
         return "".join(parts)
     if isinstance(content, dict):
-        if content.get('type') == 'text' and 'text' in content:
+        item_type = content.get('type', '')
+        if item_type in ('thinking', 'reasoning', 'thought') or 'thinking' in content or 'thought' in content:
+            return ""
+        if item_type == 'text' and 'text' in content:
             return str(content['text'])
         if 'text' in content:
             return str(content['text'])
-    return str(content)
+        return ""
+    return ""
 
 
 async def generate_response(

@@ -81,7 +81,7 @@ def _create_gemini_model(model_name: str = "gemini-3.5-flash-lite", api_key: str
         model=target_model,
         google_api_key=key,
         temperature=0.6,
-        max_output_tokens=1024,
+        max_output_tokens=4096,
     ).bind(**_no_afc)
     fallback_models = ['gemini-3.6-flash', 'gemini-3.5-flash-lite', 'gemini-2.5-flash', 'gemini-1.5-flash']
     fallbacks = [
@@ -89,7 +89,7 @@ def _create_gemini_model(model_name: str = "gemini-3.5-flash-lite", api_key: str
             model=m,
             google_api_key=key,
             temperature=0.6,
-            max_output_tokens=1024,
+            max_output_tokens=4096,
         ).bind(**_no_afc)
         for m in fallback_models if m != target_model
     ]
