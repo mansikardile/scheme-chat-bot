@@ -31,6 +31,13 @@ To build or update the database:
 uv run build-index
 ```
 
+### DuckDB Database
+
+To build or update the database:
+```sh
+uv run build-db
+```
+
 ### Environment Variables
 
 All variables below can be set in a `.env` file for defaults, or configured later from the web UI.
