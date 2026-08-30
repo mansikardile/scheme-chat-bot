@@ -201,21 +201,33 @@ async def health_check():
     }
 
 
+class UTF8StaticFiles(StaticFiles):
+    async def get_response(self, path: str, scope):
+        response = await super().get_response(path, scope)
+        if path.endswith('.js'):
+            response.headers['content-type'] = 'application/javascript; charset=utf-8'
+        elif path.endswith('.css'):
+            response.headers['content-type'] = 'text/css; charset=utf-8'
+        elif path.endswith('.html'):
+            response.headers['content-type'] = 'text/html; charset=utf-8'
+        return response
+
+
 # Serve frontend
 css_dir = os.path.join(FRONTEND_DIR, 'css')
 js_dir = os.path.join(FRONTEND_DIR, 'js')
 
 if os.path.exists(css_dir):
-    app.mount('/css', StaticFiles(directory=css_dir), name='css')
+    app.mount('/css', UTF8StaticFiles(directory=css_dir), name='css')
 if os.path.exists(js_dir):
-    app.mount('/js', StaticFiles(directory=js_dir), name='js')
+    app.mount('/js', UTF8StaticFiles(directory=js_dir), name='js')
 
 
 @app.get('/')
 async def serve_frontend():
     index_path = os.path.join(FRONTEND_DIR, 'index.html')
     if os.path.exists(index_path):
-        return FileResponse(index_path)
+        return FileResponse(index_path, media_type='text/html; charset=utf-8')
     return {'message': 'Frontend not found.'}
 
 
