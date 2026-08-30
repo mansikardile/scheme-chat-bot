@@ -102,17 +102,23 @@ class RAGPipeline:
         english_search_query = self._build_english_search_query(session_history, user_message, language)
         print(f"\n[RAG Pipeline] Enriched English Search Query: '{english_search_query}'")
 
-        # 2. Embed English search query (LangChain OllamaEmbeddings, async via thread)
+        # 2. Embed search query or use DuckDB search fallback
+        results = []
         try:
-            query_embedding = await embedding_service.embed_text(english_search_query)
+            if embedding_service._lc_embeddings is not None:
+                query_embedding = await embedding_service.embed_text(english_search_query)
+                results = vector_store.search(query_embedding, top_k=15)
         except Exception as e:
-            print(f'Embedding error: {e}')
-            return 'Sorry, I could not process your request right now.', []
+            print(f'Embedding/Vector error ({e}), using DuckDB fast search fallback...')
 
-        # 3. Vector search in ChromaDB via LangChain-backed store (retrieve top 15 schemes)
-        results = vector_store.search(query_embedding, top_k=15)
+        # Fallback to DuckDB BM25 search if vector search returned no results
+        if not results:
+            print("[RAG Pipeline] Using DuckDB BM25 fast search for scheme retrieval...")
+            db_results = scheme_loader.search_schemes(query=user_message, limit=15)
+            results = [{'slug': s['slug']} for s in db_results]
+
         retrieved_slugs = [r['slug'] for r in results]
-        print(f"[RAG Pipeline] ChromaDB Top 15 retrieved scheme slugs: {retrieved_slugs}")
+        print(f"[RAG Pipeline] Retrieved scheme slugs: {retrieved_slugs}")
 
         # 4. Build rich scheme context for LLM
         context_parts = []
@@ -146,18 +152,23 @@ class RAGPipeline:
         english_search_query = self._build_english_search_query(session_history, user_message, language)
         print(f"\n[RAG Pipeline] Enriched English Search Query (Stream): '{english_search_query}'")
 
-        # 2. Embed English search query (LangChain OllamaEmbeddings, async via thread)
+        # 2. Embed search query or use DuckDB search fallback
+        results = []
         try:
-            query_embedding = await embedding_service.embed_text(english_search_query)
+            if embedding_service._lc_embeddings is not None:
+                query_embedding = await embedding_service.embed_text(english_search_query)
+                results = vector_store.search(query_embedding, top_k=15)
         except Exception as e:
-            print(f'Embedding error: {e}')
-            yield {"type": "error", "content": "Sorry, I could not process your request right now."}
-            return
+            print(f'Embedding/Vector error ({e}), using DuckDB fast search fallback...')
 
-        # 3. Vector search in ChromaDB via LangChain-backed store (retrieve top 15 schemes)
-        results = vector_store.search(query_embedding, top_k=15)
+        # Fallback to DuckDB BM25 search if vector search returned no results
+        if not results:
+            print("[RAG Pipeline] Using DuckDB BM25 fast search for scheme retrieval...")
+            db_results = scheme_loader.search_schemes(query=user_message, limit=15)
+            results = [{'slug': s['slug']} for s in db_results]
+
         retrieved_slugs = [r['slug'] for r in results]
-        print(f"[RAG Pipeline] ChromaDB Top 15 retrieved scheme slugs (Stream): {retrieved_slugs}")
+        print(f"[RAG Pipeline] Retrieved scheme slugs (Stream): {retrieved_slugs}")
 
         # 4. Build rich scheme context for LLM
         context_parts = []

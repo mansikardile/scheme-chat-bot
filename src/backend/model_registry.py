@@ -4,8 +4,17 @@ import os
 import httpx
 from typing import Any
 from langchain_core.language_models.chat_models import BaseChatModel
-from langchain_google_genai import ChatGoogleGenerativeAI
-from langchain_ollama import ChatOllama
+
+try:
+    from langchain_google_genai import ChatGoogleGenerativeAI
+except ImportError:
+    ChatGoogleGenerativeAI = None
+
+try:
+    from langchain_ollama import ChatOllama
+except ImportError:
+    ChatOllama = None
+
 from backend.config import GEMINI_API_KEY, OLLAMA_HOST, SERVER_OLLAMA_HOST, EMBEDDING_API_KEY, CONFIGURED_MODELS
 
 LOCAL_OLLAMA_HOST = "http://localhost:11434"
@@ -56,27 +65,25 @@ def is_model_downloaded_locally(model_name: str) -> bool:
     return target in installed_names or base_target in installed_bases
 
 
-def _create_gemini_model(model_name: str = "gemini-flash-latest", api_key: str | None = None) -> BaseChatModel:
+def _create_gemini_model(model_name: str = "gemini-2.5-flash", api_key: str | None = None) -> BaseChatModel:
     """Factory function to build a Gemini ChatGoogleGenerativeAI instance with fallbacks."""
+    if ChatGoogleGenerativeAI is None:
+        raise ValueError("langchain_google_genai package is not installed. Run 'pip install langchain-google-genai' or enter custom model API settings.")
+
     key = api_key or GEMINI_API_KEY or os.getenv("GEMINI_API_KEY", "")
     if not key:
         raise ValueError("GEMINI_API_KEY not configured. Please enter a Gemini API Key in Settings or set GEMINI_API_KEY.")
 
-    # Disable automatic function calling (AFC) via .bind() — we don't use tools,
-    # and the google-genai SDK warns that AFC is unsupported on the raw
-    # AsyncModels.generate_content path used by langchain-google-genai.
-    # NOTE: model_kwargs is NOT forwarded to GenerateContentConfig by langchain-
-    # google-genai; .bind() is the correct way to attach per-invoke kwargs that
-    # flow through _prepare_request → remaining_kwargs → GenerateContentConfig.
     _no_afc = {"automatic_function_calling": {"disable": True}}
+    target_model = model_name if (model_name and model_name != "gemini-flash-latest") else "gemini-2.5-flash"
 
     primary = ChatGoogleGenerativeAI(
-        model=model_name or "gemini-flash-latest",
+        model=target_model,
         google_api_key=key,
         temperature=0.6,
         max_output_tokens=1024,
     ).bind(**_no_afc)
-    fallback_models = ['gemini-flash-lite-latest', 'gemini-2.0-flash']
+    fallback_models = ['gemini-2.0-flash', 'gemini-1.5-flash']
     fallbacks = [
         ChatGoogleGenerativeAI(
             model=m,
@@ -84,7 +91,7 @@ def _create_gemini_model(model_name: str = "gemini-flash-latest", api_key: str |
             temperature=0.6,
             max_output_tokens=1024,
         ).bind(**_no_afc)
-        for m in fallback_models if m != model_name
+        for m in fallback_models if m != target_model
     ]
     if fallbacks:
         return primary.with_fallbacks(fallbacks)
@@ -98,6 +105,8 @@ def _create_ollama_model(
     is_local: bool = True
 ) -> BaseChatModel:
     """Factory function to build a ChatOllama instance (local or remote custom server)."""
+    if ChatOllama is None:
+        raise ValueError("langchain_ollama package is not installed. Run 'pip install langchain-ollama' or select another model provider.")
     if is_local:
         target_host = LOCAL_OLLAMA_HOST
     elif base_url:

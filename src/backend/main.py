@@ -163,7 +163,7 @@ async def chat_stream_endpoint(request: ChatRequest):
                 session.add_message('model', full_text)
         except Exception as e:
             print(f"Error in chat_stream_endpoint: {e}")
-            yield f"data: {json.dumps({'type': 'error', 'content': 'Internal server error occurred.'})}\n\n"
+            yield f"data: {json.dumps({'type': 'error', 'content': f'Error: {str(e)}'})}\n\n"
 
     return StreamingResponse(event_generator(), media_type="text/event-stream")
 

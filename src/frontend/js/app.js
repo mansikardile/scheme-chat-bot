@@ -1332,10 +1332,10 @@ async function openDetail(slug) {
             <!-- Overview Section -->
             <div class="detail-section">
                 <h3>📋 Overview</h3>
-                <p>${escapeHtml(s.brief || 'No summary available.')}</p>
+                <p>${renderMd(s.brief || 'No summary available.')}</p>
                 <div style="margin-top:0.75rem; display:flex; flex-wrap:wrap; gap:0.5rem;">
-                    ${s.states?.length ? `<span class="tag"><strong>States:</strong> ${escapeHtml(s.states.join(', '))}</span>` : ''}
-                    ${s.categories?.length ? `<span class="tag"><strong>Categories:</strong> ${escapeHtml(s.categories.join(', '))}</span>` : ''}
+                    ${s.states?.length ? `<span class="tag"><strong>States:</strong> ${decodeEntities(s.states.join(', '))}</span>` : ''}
+                    ${s.categories?.length ? `<span class="tag"><strong>Categories:</strong> ${decodeEntities(s.categories.join(', '))}</span>` : ''}
                 </div>
             </div>
         `;
@@ -1375,10 +1375,14 @@ async function openDetail(slug) {
             html += `<div class="detail-section"><h3>✅ Step-by-Step Application Process</h3>`;
             s.application_process.forEach(p => {
                 if (!p) return;
-                html += `<div style="margin-bottom:1rem; padding:0.5rem; border-left:3px solid var(--accent); background:var(--bg-elevated); border-radius:4px;">`;
-                html += `<h4>Mode: ${escapeHtml(p.mode || 'Process')}</h4>`;
-                if (p.url) html += `<a href="${p.url}" target="_blank" class="tag" style="display:inline-block; margin:0.4rem 0;">Apply Portal Link ↗</a>`;
-                if (p.process_md) html += `<div>${renderMd(p.process_md)}</div>`;
+                const modeName = decodeEntities(p.mode || 'Offline / Online');
+                const isOnline = modeName.toLowerCase().includes('online');
+                const modeClass = isOnline ? 'mode-online' : 'mode-offline';
+                
+                html += `<div class="process-card">`;
+                html += `<div class="process-header"><span class="mode-badge ${modeClass}">${isOnline ? '🌐 Online' : '🏛️ ' + modeName}</span></div>`;
+                if (p.url) html += `<a href="${p.url}" target="_blank" class="tag mode-portal-link">Official Application Portal ↗</a>`;
+                if (p.process_md) html += `<div class="process-body">${renderMd(p.process_md)}</div>`;
                 html += `</div>`;
             });
             html += `</div>`;
@@ -1389,8 +1393,8 @@ async function openDetail(slug) {
             html += `
                 <div class="detail-section">
                     <h3>📄 Documents Required</h3>
-                    <ul>
-                        ${s.documents.map(d => `<li>${escapeHtml(typeof d === 'string' ? d : d.document_name || d.name || JSON.stringify(d))}</li>`).join('')}
+                    <ul class="md-list">
+                        ${s.documents.map(d => `<li>${renderMd(typeof d === 'string' ? d : d.document_name || d.name || JSON.stringify(d))}</li>`).join('')}
                     </ul>
                 </div>
             `;
@@ -1402,9 +1406,9 @@ async function openDetail(slug) {
                 <div class="detail-section">
                     <h3>❓ Frequently Asked Questions (FAQs)</h3>
                     ${s.faqs.map(faq => `
-                        <div style="margin-bottom:0.75rem;">
-                            <strong>Q: ${escapeHtml(faq.question || faq.q || '')}</strong>
-                            <p style="margin-top:0.25rem;">${escapeHtml(faq.answer || faq.a || '')}</p>
+                        <div class="faq-item">
+                            <strong>Q: ${decodeEntities(faq.question || faq.q || '')}</strong>
+                            <div style="margin-top:0.35rem;">${renderMd(faq.answer || faq.a || '')}</div>
                         </div>
                     `).join('')}
                 </div>
@@ -1417,8 +1421,8 @@ async function openDetail(slug) {
                 <div class="detail-section">
                     <h3>💡 Definitions & Terms</h3>
                     ${s.definitions.map(d => `
-                        <div style="margin-bottom:0.5rem;">
-                            <strong>${escapeHtml(d.name || '')}</strong>
+                        <div style="margin-bottom:0.75rem;">
+                            <strong>${decodeEntities(d.name || '')}</strong>
                             <div>${renderMd(d.definition || '')}</div>
                         </div>
                     `).join('')}
@@ -1453,26 +1457,80 @@ function autoResize(el) {
     el.style.height = Math.min(el.scrollHeight, 120) + 'px';
 }
 
+function decodeEntities(text) {
+    if (!text) return '';
+    return String(text)
+        .replace(/&#39;/g, "'")
+        .replace(/&apos;/g, "'")
+        .replace(/&quot;/g, '"')
+        .replace(/&#34;/g, '"')
+        .replace(/&amp;/g, '&')
+        .replace(/&lt;/g, '<')
+        .replace(/&gt;/g, '>')
+        .replace(/&nbsp;/g, ' ');
+}
+
 function escapeHtml(text) {
     if (!text) return '';
-    return String(text).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;')
+    const d = decodeEntities(text);
+    return String(d).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;')
                        .replace(/"/g,'&quot;').replace(/'/g,'&#039;');
 }
 
 function renderMd(text) {
     if (!text) return '';
-    let h = escapeHtml(text);
-    // Strip any raw URLs if present so chat text remains clean
+    let decoded = decodeEntities(text);
+    let h = String(decoded).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+    
+    // Strip raw URLs
     h = h.replace(/https?:\/\/[^\s<)]+/g, '');
-    h = h.replace(/^### (.*$)/gim, '<h4>$1</h4>');
-    h = h.replace(/^## (.*$)/gim, '<h3>$1</h3>');
-    h = h.replace(/^# (.*$)/gim, '<h2>$1</h2>');
+    
+    // Formatting headers & inline bold
+    h = h.replace(/^### (.*$)/gim, '<h4 class="md-h4">$1</h4>');
+    h = h.replace(/^## (.*$)/gim, '<h3 class="md-h3">$1</h3>');
+    h = h.replace(/^# (.*$)/gim, '<h2 class="md-h2">$1</h2>');
     h = h.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
     h = h.replace(/\*(.*?)\*/g, '<em>$1</em>');
     h = h.replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<strong>$1</strong>');
-    h = h.replace(/^\s*\d+\.\s(.*)$/gim, '<li>$1</li>');
-    h = h.replace(/^\s*[-*]\s(.*)$/gim, '<li>$1</li>');
-    h = h.replace(/\n\n/g, '</p><p>');
-    h = h.replace(/\n/g, '<br>');
-    return `<p>${h}</p>`.replace(/<p><\/p>/g, '');
+
+    // Parse list items vs paragraphs cleanly
+    let lines = h.split('\n');
+    let inList = false;
+    let listType = 'ul';
+    let out = [];
+
+    for (let line of lines) {
+        let trimmed = line.trim();
+        if (!trimmed) {
+            if (inList) {
+                inList = false;
+                out.push(`</${listType}>`);
+            }
+            continue;
+        }
+
+        let isBullet = /^[-\*]\s+(.*)/.test(trimmed);
+        let isNum = /^\d+\.\s+(.*)/.test(trimmed);
+
+        if (isBullet || isNum) {
+            if (!inList) {
+                inList = true;
+                listType = isNum ? 'ol' : 'ul';
+                out.push(`<${listType} class="md-list">`);
+            }
+            let content = trimmed.replace(/^[-\*]\s+/, '').replace(/^\d+\.\s+/, '');
+            out.push(`  <li>${content}</li>`);
+        } else {
+            if (inList) {
+                inList = false;
+                out.push(`</${listType}>`);
+            }
+            out.push(`<p class="md-p">${trimmed}</p>`);
+        }
+    }
+    if (inList) {
+        out.push(`</${listType}>`);
+    }
+
+    return out.join('');
 }

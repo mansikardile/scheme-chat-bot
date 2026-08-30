@@ -4,7 +4,11 @@ Wraps LangChain's OllamaEmbeddings for both async and sync usage.
 """
 
 import asyncio
-from langchain_ollama import OllamaEmbeddings
+try:
+    from langchain_ollama import OllamaEmbeddings
+except ImportError:
+    OllamaEmbeddings = None
+
 from backend.config import OLLAMA_HOST, OLLAMA_EMBEDDING_MODEL, EMBEDDING_API_KEY
 
 
@@ -19,15 +23,23 @@ class EmbeddingService:
         self._init_embeddings()
 
     def _init_embeddings(self):
+        if OllamaEmbeddings is None:
+            self._lc_embeddings = None
+            return
+
         client_kwargs: dict = {}
         if self.api_key:
             client_kwargs["headers"] = {"Authorization": f"Bearer {self.api_key}"}
 
-        self._lc_embeddings = OllamaEmbeddings(
-            model=self.model,
-            base_url=self.base_url,
-            client_kwargs=client_kwargs if client_kwargs else None,
-        )
+        try:
+            self._lc_embeddings = OllamaEmbeddings(
+                model=self.model,
+                base_url=self.base_url,
+                client_kwargs=client_kwargs if client_kwargs else None,
+            )
+        except Exception as e:
+            print(f"Notice: OllamaEmbeddings init deferred ({e}).")
+            self._lc_embeddings = None
 
     def get_config(self) -> dict:
         """Get current embedding service configuration."""

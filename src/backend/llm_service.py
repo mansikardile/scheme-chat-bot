@@ -88,7 +88,10 @@ async def generate_response(
         model = get_model(model_id, api_key=api_key, model_config=model_config)
     except Exception as e:
         print(f"Error instantiating model '{model_id}': {e}")
-        return f'Error: Model configuration failed ({str(e)}).'
+        err = str(e)
+        if "GEMINI_API_KEY" in err:
+            return "🔑 **Gemini API Key Required**: Please click the **⚙️ Settings** icon in the top right corner of the page to enter your Gemini API Key, or add `GEMINI_API_KEY` to your `.env` file."
+        return f'⚠️ Model configuration error: {err}'
 
     lang_name = LANGUAGE_NAMES.get(language, 'English')
     system_text = SYSTEM_PROMPT.format(language_name=lang_name)
@@ -142,7 +145,11 @@ async def generate_response_stream(
         model = get_model(model_id, api_key=api_key, model_config=model_config)
     except Exception as e:
         print(f"Error instantiating model '{model_id}': {e}")
-        yield f'Error: Model configuration failed ({str(e)}).'
+        err = str(e)
+        if "GEMINI_API_KEY" in err:
+            yield "🔑 **Gemini API Key Required**: Please click the **⚙️ Settings** icon in the top right corner to enter your Gemini API Key, or add `GEMINI_API_KEY` to your `.env` file."
+        else:
+            yield f'⚠️ Model configuration error: {err}'
         return
 
     lang_name = LANGUAGE_NAMES.get(language, 'English')
