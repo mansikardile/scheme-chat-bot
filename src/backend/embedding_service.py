@@ -3,6 +3,7 @@ Embedding service for SchemeSathi.
 Wraps LangChain's OllamaEmbeddings for both async and sync usage.
 """
 
+import os
 import asyncio
 try:
     from langchain_ollama import OllamaEmbeddings
@@ -19,7 +20,14 @@ class EmbeddingService:
         self.model = OLLAMA_EMBEDDING_MODEL
         self.base_url = OLLAMA_HOST
         self.api_key = EMBEDDING_API_KEY
-        self.is_local = True
+        
+        is_local_env = os.getenv("EMBEDDING_IS_LOCAL")
+        if is_local_env is not None:
+            self.is_local = is_local_env.lower() in ("true", "1", "yes")
+        else:
+            url_lower = (self.base_url or "").lower()
+            self.is_local = any(h in url_lower for h in ("localhost", "127.0.0.1", "0.0.0.0"))
+            
         self._init_embeddings()
 
     def _init_embeddings(self):
