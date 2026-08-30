@@ -35,4 +35,5 @@ CONFIGURED_MODELS = [
 # Paths
 CHROMA_DB_PATH = str(ROOT_DIR / 'chroma_db')
 SCHEMES_DIR = str(ROOT_DIR / 'schemes')
+SCHEMES_DB_PATH = str(ROOT_DIR / 'schemes.duckdb')
 FRONTEND_DIR = str(ROOT_DIR / 'src' / 'frontend')

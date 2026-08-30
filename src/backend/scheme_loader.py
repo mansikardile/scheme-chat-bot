@@ -1,28 +1,21 @@
 """
 Scheme data loader for SchemeSathi.
 
-Loads scheme data straight from the scraper's output: one JSON file per
-scheme, saved as schemes/<slug>.json (see scraper/scrape_all.py ->
-save_all_schemes()). Each file is the raw myScheme "detail" API response,
-so this loader builds its own lightweight summary index from those files
-instead of relying on a separate all_schemes_index.json / schemes_data.json
-pair (those came from an earlier prototype scraper and are no longer
-produced by the current one).
+Loads scheme data straight from DuckDB (schemes.duckdb) if available, or falls
+back to loading individual per-scheme JSON files saved as schemes/<slug>.json.
 
-State-level schemes carry a single `state` field in basicDetails (e.g.
-{'value': 24, 'label': 'Gujarat'}); central schemes have none. This loader
-normalizes that into `beneficiaryState` as a list, so downstream code that
-does ', '.join(states) works the same regardless of scheme type.
+Provides fast database query filtering, BM25 full-text search, and formatted
+context for vector embedding and RAG augmentation.
 """
 
 import json
 from pathlib import Path
 
-from backend.config import SCHEMES_DIR
+from backend.config import SCHEMES_DIR, SCHEMES_DB_PATH
 
 
 class SchemeLoader:
-    """Loads, indexes, and provides access to scheme data."""
+    """Loads, indexes, and provides access to scheme data via DuckDB or JSON fallback."""
 
     def __init__(self):
         self.all_schemes = []       # Flattened summary entries (search/embedding)
@@ -30,7 +23,50 @@ class SchemeLoader:
         self.detailed_schemes = {}  # slug -> raw scraped detail JSON
 
     def load_data(self):
-        """Load every scheme JSON file from SCHEMES_DIR."""
+        """Load scheme data from schemes.duckdb if available, else load JSON files."""
+        db_path = Path(SCHEMES_DB_PATH)
+
+        if db_path.exists():
+            try:
+                import duckdb
+                conn = duckdb.connect(str(db_path), read_only=True)
+                rows = conn.execute("""
+                    SELECT slug, scheme_name, short_title, level, states, categories, tags, ministry, scheme_for, brief, raw_json
+                    FROM schemes
+                """).fetchall()
+                conn.close()
+
+                self.all_schemes = []
+                self.slug_to_index = {}
+                self.detailed_schemes = {}
+
+                for slug, name, short_title, level, states_str, categories_str, tags_str, ministry, scheme_for, brief, raw_json_str in rows:
+                    states = json.loads(states_str) if states_str else []
+                    categories = json.loads(categories_str) if categories_str else []
+                    tags = json.loads(tags_str) if tags_str else []
+                    raw = json.loads(raw_json_str) if raw_json_str else {}
+
+                    summary = {
+                        'slug': slug,
+                        'schemeName': name or '',
+                        'schemeShortTitle': short_title or '',
+                        'level': level or '',
+                        'beneficiaryState': states,
+                        'schemeCategory': categories,
+                        'nodalMinistryName': ministry or '',
+                        'tags': tags,
+                        'schemeFor': scheme_for or '',
+                        'briefDescription': brief or '',
+                    }
+                    self.all_schemes.append(summary)
+                    self.slug_to_index[slug] = summary
+                    self.detailed_schemes[slug] = raw
+
+                print(f"Loaded {len(rows)} schemes instantly from DuckDB ({db_path.name}).")
+                return
+            except Exception as e:
+                print(f"Notice: Failed loading from DuckDB ({e}). Falling back to JSON files...")
+
         schemes_dir = Path(SCHEMES_DIR)
         if not schemes_dir.exists():
             print(f"Error: schemes directory not found at {schemes_dir}")
@@ -57,7 +93,7 @@ class SchemeLoader:
             self.detailed_schemes[slug] = raw
             loaded += 1
 
-        print(f"Loaded {loaded} schemes from {schemes_dir} ({skipped} skipped).")
+        print(f"Loaded {loaded} schemes from JSON files in {schemes_dir} ({skipped} skipped).")
 
     @staticmethod
     def _label(value):
@@ -67,20 +103,13 @@ class SchemeLoader:
         return value or ''
 
     def _flatten(self, raw, slug):
-        """Build a flat summary dict (old all_schemes_index.json shape) from
-        a raw per-slug scraper file."""
+        """Build a flat summary dict from a raw per-slug scraper file."""
         basic = raw.get('en', {}).get('basicDetails', {})
         content = raw.get('en', {}).get('schemeContent', {})
 
-        # State-level schemes carry a single 'state' field; central schemes
-        # have none. Normalize to a list either way so downstream code
-        # (which does ', '.join(states)) doesn't care which kind it is.
         state_label = self._label(basic.get('state'))
         beneficiary_state = [state_label] if state_label else []
 
-        # State schemes use nodalDepartmentName; central schemes use
-        # nodalMinistryName. Fall back between the two so 'ministry' isn't
-        # blank just because a scheme is state-level.
         ministry = self._label(basic.get('nodalMinistryName')) or self._label(basic.get('nodalDepartmentName'))
 
         return {
@@ -95,6 +124,96 @@ class SchemeLoader:
             'schemeFor': basic.get('schemeFor', ''),
             'briefDescription': content.get('briefDescription', ''),
         }
+
+    def search_schemes(self, query=None, state=None, category=None, limit=20):
+        """Execute fast search using DuckDB FTS / ILIKE if database exists,
+        else perform in-memory search."""
+        db_path = Path(SCHEMES_DB_PATH)
+        if db_path.exists():
+            try:
+                import duckdb
+                conn = duckdb.connect(str(db_path), read_only=True)
+
+                conditions = []
+                params = []
+
+                use_fts = False
+                if query and query.strip():
+                    try:
+                        conn.execute("LOAD fts;")
+                        use_fts = True
+                    except Exception:
+                        use_fts = False
+
+                sql = "SELECT slug"
+
+                if use_fts and query.strip():
+                    words = [w for w in query.strip().split() if w.isalnum()]
+                    clean_q = " ".join(words)
+                    if clean_q:
+                        sql += ", fts_main_schemes.match_bm25(slug, ?) AS score FROM schemes"
+                        params.append(clean_q)
+                        conditions.append("score IS NOT NULL")
+                    else:
+                        sql += " FROM schemes"
+                else:
+                    sql += " FROM schemes"
+                    if query and query.strip():
+                        conditions.append("(scheme_name ILIKE ? OR short_title ILIKE ? OR brief ILIKE ? OR search_text ILIKE ?)")
+                        q_param = f"%{query.strip()}%"
+                        params.extend([q_param, q_param, q_param, q_param])
+
+                if state:
+                    conditions.append("(states ILIKE ? OR level = 'Central')")
+                    params.append(f"%{state}%")
+
+                if category:
+                    conditions.append("categories ILIKE ?")
+                    params.append(f"%{category}%")
+
+                if conditions:
+                    sql += " WHERE " + " AND ".join(conditions)
+
+                if use_fts and query and query.strip() and 'score' in sql:
+                    sql += " ORDER BY score DESC"
+                else:
+                    sql += " ORDER BY scheme_name ASC"
+
+                sql += f" LIMIT {int(limit)}"
+
+                rows = conn.execute(sql, params).fetchall()
+                conn.close()
+
+                results = []
+                for r in rows:
+                    slug = r[0]
+                    summary = self.slug_to_index.get(slug)
+                    if summary:
+                        results.append(summary)
+                return results
+            except Exception as e:
+                print(f"DuckDB search warning ({e}), falling back to memory...")
+
+        # In-memory fallback
+        results = []
+        q_lower = query.lower() if query else None
+        for s in self.all_schemes:
+            if state and s.get('level') != 'Central':
+                states = s.get('beneficiaryState', [])
+                if states and not any(state.lower() in st.lower() for st in states):
+                    continue
+            if category:
+                cats = s.get('schemeCategory', [])
+                if not any(category.lower() in c.lower() for c in cats):
+                    continue
+            if q_lower:
+                text = f"{s.get('schemeName')} {s.get('schemeShortTitle')} {s.get('briefDescription')} {' '.join(s.get('tags', []))}".lower()
+                if q_lower not in text:
+                    continue
+            results.append(s)
+            if len(results) >= limit:
+                break
+        return results
 
     def get_all_for_embedding(self):
         """Return list of (slug, text, raw_scheme) tuples for vector DB building."""

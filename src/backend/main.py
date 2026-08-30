@@ -169,6 +169,15 @@ async def chat_stream_endpoint(request: ChatRequest):
 
 
 
+@app.get('/api/schemes/search')
+async def search_schemes(q: str = None, state: str = None, category: str = None, limit: int = 20):
+    results = scheme_loader.search_schemes(query=q, state=state, category=category, limit=limit)
+    return {
+        'count': len(results),
+        'results': results
+    }
+
+
 @app.get('/api/schemes/{slug}')
 async def get_scheme_detail(slug: str):
     detail = scheme_loader.get_scheme_detail(slug)

@@ -4,6 +4,8 @@
 
 # Vector database (generated, large)
 chroma_db/
+*.duckdb
+*.duckdb.wal
 
 # Python
 __pycache__/
