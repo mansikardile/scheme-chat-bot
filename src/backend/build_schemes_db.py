@@ -7,6 +7,8 @@ stores the raw JSON payload alongside indexed fields, and constructs a Full-Text
 
 import json
 import time
+import hashlib
+import argparse
 from pathlib import Path
 import duckdb
 
@@ -68,8 +70,18 @@ def _flatten(raw, slug):
     }
 
 
-def build_db(schemes_dir=None, db_path=None):
-    """Scan schemes_dir, build DuckDB database table and FTS index."""
+def build_db(schemes_dir=None, db_path=None, force=False):
+    """
+    Scan schemes_dir and incrementally update the DuckDB database.
+
+    - New JSON files are inserted.
+    - Modified JSON files (detected via SHA-256 hash) are upserted.
+    - Slugs whose source file was removed are deleted.
+    - Unchanged files are skipped entirely.
+    - The FTS index is rebuilt only when at least one record changed.
+
+    Pass force=True (or --force CLI flag) to delete the existing DB and do a full rebuild.
+    """
     start_time = time.time()
     schemes_dir = Path(schemes_dir or SCHEMES_DIR)
     db_path = Path(db_path or SCHEMES_DB_PATH)
@@ -78,18 +90,19 @@ def build_db(schemes_dir=None, db_path=None):
         print(f"Error: schemes directory not found at {schemes_dir}")
         return False
 
-    # Remove existing DB file to rebuild cleanly
-    if db_path.exists():
+    # --force: delete existing DB so we start completely fresh
+    if force and db_path.exists():
         try:
             db_path.unlink()
+            print("--force: removed existing DB for full rebuild.")
         except Exception as e:
             print(f"Warning: could not remove existing DB file: {e}")
 
     conn = duckdb.connect(str(db_path))
 
-    # Create schemes table
+    # Ensure tables exist (no-op if already present)
     conn.execute("""
-        CREATE TABLE schemes (
+        CREATE TABLE IF NOT EXISTS schemes (
             slug VARCHAR PRIMARY KEY,
             scheme_name VARCHAR,
             short_title VARCHAR,
@@ -104,66 +117,126 @@ def build_db(schemes_dir=None, db_path=None):
             raw_json VARCHAR
         )
     """)
+    conn.execute("""
+        CREATE TABLE IF NOT EXISTS _build_meta (
+            slug VARCHAR PRIMARY KEY,
+            hash VARCHAR NOT NULL
+        )
+    """)
 
-    json_files = sorted(list(schemes_dir.glob("*.json")))
-    print(f"Found {len(json_files)} scheme JSON files in {schemes_dir}. Ingesting into DuckDB...")
+    # Load hashes already stored in the DB (empty dict on first run)
+    db_slugs = {
+        row[0]: row[1]
+        for row in conn.execute("SELECT slug, hash FROM _build_meta").fetchall()
+    }
 
-    records = []
-    skipped = 0
-    for filepath in json_files:
+    json_files = {f.stem: f for f in schemes_dir.glob("*.json")}
+    processed_slugs = set()
+
+    scheme_rows = []   # tuples for INSERT OR REPLACE INTO schemes
+    meta_rows = []     # (slug, hash) for INSERT OR REPLACE INTO _build_meta
+    inserted = updated = skipped = parse_errors = 0
+
+    for slug, filepath in sorted(json_files.items()):
+        # Compute hash with a single binary read
         try:
-            with open(filepath, 'r', encoding='utf-8') as f:
-                raw = json.load(f)
-            slug = raw.get('slug') or filepath.stem
-            record = _flatten(raw, slug)
-            if not record['scheme_name']:
-                skipped += 1
-                continue
-            records.append((
-                record['slug'],
-                record['scheme_name'],
-                record['short_title'],
-                record['level'],
-                record['states'],
-                record['categories'],
-                record['tags'],
-                record['ministry'],
-                record['scheme_for'],
-                record['brief'],
-                record['search_text'],
-                record['raw_json']
-            ))
+            raw_bytes = filepath.read_bytes()
+            file_hash = hashlib.sha256(raw_bytes).hexdigest()
         except Exception as e:
-            skipped += 1
-            print(f"Skipping {filepath.name}: {e}")
+            print(f"Skipping {filepath.name} (read error): {e}")
+            parse_errors += 1
+            continue
 
-    # Bulk insert records
-    conn.executemany("""
-        INSERT INTO schemes VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-    """, records)
+        processed_slugs.add(slug)
+
+        # Skip if content hasn't changed
+        if db_slugs.get(slug) == file_hash:
+            skipped += 1
+            continue
+
+        try:
+            raw = json.loads(raw_bytes.decode('utf-8'))
+        except Exception as e:
+            print(f"Skipping {filepath.name} (JSON parse error): {e}")
+            parse_errors += 1
+            continue
+
+        record = _flatten(raw, slug)
+        if not record['scheme_name']:
+            parse_errors += 1
+            continue
+
+        scheme_rows.append(tuple(record.values()))
+        meta_rows.append((slug, file_hash))
+
+        if slug in db_slugs:
+            updated += 1
+        else:
+            inserted += 1
+
+    # Delete slugs whose source JSON file was removed
+    stale = set(db_slugs) - processed_slugs
+    deleted = len(stale)
+    if stale:
+        placeholders = ','.join('?' * len(stale))
+        stale_list = list(stale)
+        conn.execute(f"DELETE FROM schemes WHERE slug IN ({placeholders})", stale_list)
+        conn.execute(f"DELETE FROM _build_meta WHERE slug IN ({placeholders})", stale_list)
+
+    # Bulk upsert changed/new records
+    if scheme_rows:
+        conn.executemany(
+            "INSERT OR REPLACE INTO schemes VALUES (?,?,?,?,?,?,?,?,?,?,?,?)",
+            scheme_rows
+        )
+        conn.executemany(
+            "INSERT OR REPLACE INTO _build_meta (slug, hash) VALUES (?,?)",
+            meta_rows
+        )
+
+    total_changed = inserted + updated + deleted
+
+    # Rebuild FTS index only when something actually changed
+    if total_changed > 0:
+        print("Rebuilding Full-Text Search (FTS) index...")
+        try:
+            # Drop existing index (best-effort; may not exist)
+            try:
+                conn.execute("PRAGMA drop_fts_index('schemes')")
+            except Exception:
+                pass
+            conn.execute("INSTALL fts")
+            conn.execute("LOAD fts")
+            conn.execute(
+                "PRAGMA create_fts_index('schemes', 'slug', "
+                "'scheme_name', 'short_title', 'brief', 'search_text');"
+            )
+            print("FTS index rebuilt successfully.")
+        except Exception as e:
+            print(f"Warning: FTS index creation failed (search will fall back to ILIKE): {e}")
+    else:
+        print("No changes detected — skipping FTS rebuild.")
 
     count = conn.execute("SELECT COUNT(*) FROM schemes").fetchone()[0]
-
-    # Initialize FTS Index
-    print("Building Full-Text Search (FTS) index...")
-    try:
-        conn.execute("INSTALL fts;")
-        conn.execute("LOAD fts;")
-        conn.execute("PRAGMA create_fts_index('schemes', 'slug', 'scheme_name', 'short_title', 'brief', 'search_text');")
-        print("FTS index built successfully.")
-    except Exception as e:
-        print(f"Warning: FTS index creation failed (search will fall back to ILIKE): {e}")
-
     conn.close()
 
     elapsed = time.time() - start_time
-    print(f"DuckDB database created successfully at {db_path} in {elapsed:.2f}s!")
-    print(f"Total schemes indexed: {count} ({skipped} skipped).")
+    print(
+        f"Done in {elapsed:.2f}s | Total: {count} schemes | "
+        f"Inserted: {inserted} | Updated: {updated} | Deleted: {deleted} | "
+        f"Skipped (unchanged): {skipped} | Errors: {parse_errors}"
+    )
     return True
 
 
 def main():
-    build_db()
+    parser = argparse.ArgumentParser(description="Build/update the schemes DuckDB database.")
+    parser.add_argument(
+        "--force", action="store_true",
+        help="Delete existing DB and perform a full rebuild from scratch."
+    )
+    args = parser.parse_args()
+    build_db(force=args.force)
 
 
 if __name__ == '__main__':
