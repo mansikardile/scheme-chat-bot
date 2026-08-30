@@ -65,7 +65,7 @@ def is_model_downloaded_locally(model_name: str) -> bool:
     return target in installed_names or base_target in installed_bases
 
 
-def _create_gemini_model(model_name: str = "gemini-3.6-flash", api_key: str | None = None) -> BaseChatModel:
+def _create_gemini_model(model_name: str = "gemini-3.5-flash-lite", api_key: str | None = None) -> BaseChatModel:
     """Factory function to build a Gemini ChatGoogleGenerativeAI instance with fallbacks."""
     if ChatGoogleGenerativeAI is None:
         raise ValueError("langchain_google_genai package is not installed. Run 'pip install langchain-google-genai' or enter custom model API settings.")
@@ -75,7 +75,7 @@ def _create_gemini_model(model_name: str = "gemini-3.6-flash", api_key: str | No
         raise ValueError("GEMINI_API_KEY not configured. Please enter a Gemini API Key in Settings or set GEMINI_API_KEY.")
 
     _no_afc = {"automatic_function_calling": {"disable": True}}
-    target_model = model_name if (model_name and model_name != "gemini-flash-latest") else "gemini-3.6-flash"
+    target_model = model_name if (model_name and model_name != "gemini-flash-latest") else "gemini-3.5-flash-lite"
 
     primary = ChatGoogleGenerativeAI(
         model=target_model,
@@ -83,7 +83,7 @@ def _create_gemini_model(model_name: str = "gemini-3.6-flash", api_key: str | No
         temperature=0.6,
         max_output_tokens=1024,
     ).bind(**_no_afc)
-    fallback_models = ['gemini-2.0-flash', 'gemini-1.5-flash']
+    fallback_models = ['gemini-3.6-flash', 'gemini-3.5-flash-lite', 'gemini-2.5-flash', 'gemini-1.5-flash']
     fallbacks = [
         ChatGoogleGenerativeAI(
             model=m,

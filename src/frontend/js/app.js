@@ -16,15 +16,29 @@ let synth = window.speechSynthesis;
 let isRecording = false;
 let currentTheme = localStorage.getItem('schemesathi_theme') || 'dark';
 
-// Default built-in model is Gemini Flash
+// Built-in Gemini model variants list
+const GEMINI_MODEL_VARIANTS = [
+    { id: 'gemini-3.6-flash', label: 'Gemini 3.6 Flash (Default)' },
+    { id: 'gemini-3.7-flash', label: 'Gemini 3.7 Flash' },
+    { id: 'gemini-3.5-flash-lite', label: 'Gemini 3.5 Flash Lite (High Free-Tier Limit)' },
+    { id: 'gemini-3.5-flash', label: 'Gemini 3.5 Flash' },
+    { id: 'gemini-3.1-flash-lite', label: 'Gemini 3.1 Flash Lite' },
+    { id: 'gemini-3.1-pro', label: 'Gemini 3.1 Pro' },
+    { id: 'gemini-2.5-flash-lite', label: 'Gemini 2.5 Flash Lite' },
+    { id: 'gemini-2.5-flash', label: 'Gemini 2.5 Flash' },
+    { id: 'gemini-2.5-pro', label: 'Gemini 2.5 Pro' },
+    { id: 'custom', label: 'Custom Model Tag...' }
+];
+
+// Default built-in model is Gemini
 const DEFAULT_MODELS = [
     {
         id: 'gemini-flash',
-        name: 'Google Gemini Flash',
+        name: 'Google Gemini',
         provider: 'gemini',
         is_default: true,
-        model_name: 'gemini-flash-latest',
-        description: 'Default Google Cloud AI model'
+        model_name: localStorage.getItem('schemesathi_gemini_model_name') || 'gemini-3.6-flash',
+        description: 'Google Cloud AI model'
     }
 ];
 
@@ -310,7 +324,7 @@ async function sendMessage(text = null) {
             language: selectedLanguage,
             model: activeModelObj.id,
             api_key: activeModelObj.is_default ? (userApiKey || null) : (activeModelObj.api_key || userApiKey || null),
-            model_config: activeModelObj.is_default ? null : activeModelObj
+            model_config: activeModelObj
         };
 
         const r = await fetch(`${API_BASE}/api/chat/stream`, {
@@ -574,13 +588,34 @@ function renderModelDetailPanel(id) {
             </div>
     `;
 
-    // Gemini default model: show API key section
+    // Gemini default model: show variant selection & API key section
     if (isDefault && m.provider === 'gemini') {
         const savedKey = userApiKey || '';
+        const currentModelName = m.model_name || 'gemini-3.6-flash';
+        const isPreset = GEMINI_MODEL_VARIANTS.some(v => v.id === currentModelName && v.id !== 'custom');
+        const selectedVariantVal = isPreset ? currentModelName : 'custom';
+
+        const variantOptionsHtml = GEMINI_MODEL_VARIANTS.map(v => 
+            `<option value="${v.id}" ${v.id === selectedVariantVal ? 'selected' : ''}>${escapeHtml(v.label)}</option>`
+        ).join('');
+
         html += `
             <div class="setting-section">
+                <label for="settingsGeminiVariantSelect" class="section-label">Gemini Model Variant</label>
+                <p class="setting-desc">Select which Google Gemini model version to use for answering queries.</p>
+                <select id="settingsGeminiVariantSelect" class="settings-select" style="margin-bottom: 0.75rem;">
+                    ${variantOptionsHtml}
+                </select>
+
+                <div id="settingsGeminiCustomWrapper" class="manual-tag-wrap ${selectedVariantVal === 'custom' ? '' : 'hidden'}">
+                    <label for="settingsGeminiCustomInput">Custom Gemini Model Tag *</label>
+                    <input type="text" id="settingsGeminiCustomInput" class="settings-input" placeholder="e.g. gemini-3.6-flash, gemini-experimental" value="${escapeHtml(currentModelName)}">
+                </div>
+            </div>
+
+            <div class="setting-section">
                 <label for="settingsApiKeyInput" class="section-label">Gemini API Key <span class="label-optional">(Optional)</span></label>
-                <p class="setting-desc">SchemeSathi uses Google Gemini Flash by default. Enter your own API key if you hit rate limits.</p>
+                <p class="setting-desc">Enter your own Gemini API key if you hit rate limits.</p>
                 <div class="api-key-input-wrapper">
                     <input type="password" id="settingsApiKeyInput" class="settings-input" placeholder="Leave empty to use server default key" value="${escapeHtml(savedKey)}">
                     <button type="button" id="toggleApiKeyBtn" class="btn-toggle-eye" title="Show / Hide Key" aria-label="Toggle API key visibility">
@@ -692,6 +727,34 @@ function renderModelDetailPanel(id) {
             apiInput.type = isHidden ? 'text' : 'password';
             $('eyeIconShow')?.classList.toggle('hidden', isHidden);
             $('eyeIconHide')?.classList.toggle('hidden', !isHidden);
+        });
+    }
+
+    // Wire up Gemini Model Variant selection
+    const geminiSelect = $('settingsGeminiVariantSelect');
+    const geminiCustomInput = $('settingsGeminiCustomInput');
+    const geminiCustomWrapper = $('settingsGeminiCustomWrapper');
+
+    if (geminiSelect) {
+        geminiSelect.addEventListener('change', (e) => {
+            const val = e.target.value;
+            const isCustom = val === 'custom';
+            if (geminiCustomWrapper) geminiCustomWrapper.classList.toggle('hidden', !isCustom);
+            let finalModelName = isCustom ? (geminiCustomInput?.value.trim() || 'gemini-3.6-flash') : val;
+            DEFAULT_MODELS[0].model_name = finalModelName;
+            localStorage.setItem('schemesathi_gemini_model_name', finalModelName);
+            const tagSpan = $('editHeaderModelTag');
+            if (tagSpan) tagSpan.textContent = finalModelName;
+        });
+    }
+
+    if (geminiCustomInput) {
+        geminiCustomInput.addEventListener('input', (e) => {
+            const val = e.target.value.trim() || 'gemini-3.6-flash';
+            DEFAULT_MODELS[0].model_name = val;
+            localStorage.setItem('schemesathi_gemini_model_name', val);
+            const tagSpan = $('editHeaderModelTag');
+            if (tagSpan) tagSpan.textContent = val;
         });
     }
 
@@ -1165,12 +1228,22 @@ function handleSaveSettings() {
         return;
     }
 
-    // Read API key if the Gemini model detail panel is currently showing it
-    const apiKeyInput = $('settingsApiKeyInput');
-    if (apiKeyInput) {
-        userApiKey = apiKeyInput.value.trim();
-        localStorage.setItem('schemesathi_api_key', userApiKey);
-        sessionStorage.setItem('schemesathi_api_key', userApiKey);
+    // Read API key and model variant if the Gemini model detail panel is currently active
+    if (activeSettingsTab === 'gemini-flash') {
+        const apiKeyInput = $('settingsApiKeyInput');
+        if (apiKeyInput) {
+            userApiKey = apiKeyInput.value.trim();
+            localStorage.setItem('schemesathi_api_key', userApiKey);
+            sessionStorage.setItem('schemesathi_api_key', userApiKey);
+        }
+        const geminiSelect = $('settingsGeminiVariantSelect');
+        const geminiCustomInput = $('settingsGeminiCustomInput');
+        if (geminiSelect) {
+            const val = geminiSelect.value;
+            const finalModelName = val === 'custom' ? (geminiCustomInput?.value.trim() || 'gemini-3.6-flash') : val;
+            DEFAULT_MODELS[0].model_name = finalModelName;
+            localStorage.setItem('schemesathi_gemini_model_name', finalModelName);
+        }
     }
 
     // Save custom model edits if viewing a custom model tab
