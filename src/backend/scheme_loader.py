@@ -330,6 +330,58 @@ class SchemeLoader:
         text += f"\nLink: https://www.myscheme.gov.in/schemes/{slug}"
         return text
 
+    def find_scheme_slug_by_name(self, name: str) -> str | None:
+        """Resolve a (possibly partial/fuzzy) scheme name to its slug.
+
+        Uses DuckDB ILIKE search on the scheme_name column for the best match.
+        Falls back to in-memory substring search if DuckDB is unavailable.
+
+        Args:
+            name: Scheme name string as returned by classify_detail_query().
+                  May be partial (e.g. "Research Grant") rather than the full name.
+
+        Returns:
+            The matching slug string, or None if no match found.
+        """
+        if not name or not name.strip():
+            return None
+
+        db_path = Path(SCHEMES_DB_PATH)
+        if db_path.exists():
+            try:
+                import duckdb
+                conn = duckdb.connect(str(db_path), read_only=True)
+                # Try progressively shorter word prefixes until we get a match
+                words = name.strip().split()
+                for n_words in range(len(words), 0, -1):
+                    partial = " ".join(words[:n_words])
+                    rows = conn.execute(
+                        "SELECT slug FROM schemes WHERE scheme_name ILIKE ? "
+                        "ORDER BY LENGTH(scheme_name) ASC LIMIT 1",
+                        [f"%{partial}%"]
+                    ).fetchall()
+                    if rows:
+                        conn.close()
+                        slug = rows[0][0]
+                        print(f"[SchemeLoader] Resolved name '{name}' → slug '{slug}'")
+                        return slug
+                conn.close()
+            except Exception as e:
+                print(f"[SchemeLoader] find_scheme_slug_by_name error ({e}), trying in-memory")
+
+        # In-memory fallback: substring match on schemeName
+        name_lower = name.strip().lower()
+        best_slug = None
+        best_len = float('inf')
+        for slug, scheme in self.slug_to_index.items():
+            scheme_name = scheme.get('schemeName', '').lower()
+            if name_lower in scheme_name and len(scheme_name) < best_len:
+                best_slug = slug
+                best_len = len(scheme_name)
+        if best_slug:
+            print(f"[SchemeLoader] Resolved name '{name}' → slug '{best_slug}' (in-memory)")
+        return best_slug
+
     def get_all_for_embedding(self):
         """Return list of (slug, text, raw_scheme) tuples for vector DB building."""
         results = []

@@ -12,7 +12,7 @@ Orchestration layer that wires together:
 from backend.embedding_service import embedding_service
 from backend.vector_store import vector_store
 from backend.scheme_loader import scheme_loader
-from backend.llm_service import generate_response, generate_response_stream, extract_filters
+from backend.llm_service import generate_response, generate_response_stream, extract_filters, classify_detail_query
 import re
 
 
@@ -135,15 +135,12 @@ class RAGPipeline:
         retrieved_slugs = [r['slug'] for r in results]
         print(f"[RAG Pipeline] Retrieved {len(results)} scheme(s): {retrieved_slugs}")
 
-        # 4. Build COMPACT scheme context — summary only, not full detail
-        #    ~300-500 chars per scheme vs 2000-5000 chars for get_scheme_context()
-        context_parts = []
-        for i, res in enumerate(results, 1):
-            ctx = scheme_loader.get_scheme_summary_context(res['slug'])
-            context_parts.append(f'--- Scheme {i} ---\n{ctx}')
-        scheme_context = '\n\n'.join(context_parts)
-        print(f"[RAG Pipeline] Injected Context Length: {len(scheme_context)} characters "
-              f"(~{len(scheme_context) // 4} tokens)\n")
+        # 4. Classify: is the user asking a specific factual question about one scheme?
+        #    Pass the actual retrieved scheme names so implicit references ("it", "this scheme")
+        #    can be resolved reliably from the list.
+        scheme_context = await self._build_context(
+            results, user_message, session_history, model_id, api_key, model_config
+        )
 
         # 5. Generate response using provider-agnostic llm_service
         reply_text = await generate_response(
@@ -205,14 +202,10 @@ class RAGPipeline:
         retrieved_slugs = [r['slug'] for r in results]
         print(f"[RAG Pipeline] Retrieved {len(results)} scheme(s) (Stream): {retrieved_slugs}")
 
-        # 4. Build COMPACT scheme context — summary only, not full detail
-        context_parts = []
-        for i, res in enumerate(results, 1):
-            ctx = scheme_loader.get_scheme_summary_context(res['slug'])
-            context_parts.append(f'--- Scheme {i} ---\n{ctx}')
-        scheme_context = '\n\n'.join(context_parts)
-        print(f"[RAG Pipeline] Injected Context Length (Stream): {len(scheme_context)} characters "
-              f"(~{len(scheme_context) // 4} tokens)\n")
+        # 4. Classify: detail request or broad query? Build context accordingly.
+        scheme_context = await self._build_context(
+            results, user_message, session_history, model_id, api_key, model_config
+        )
 
         # 5. Stream response using provider-agnostic llm_service
         full_reply_text = ""
@@ -230,6 +223,78 @@ class RAGPipeline:
         scheme_cards = self._select_cards_if_needed(full_reply_text, user_message, results)
         yield {"type": "cards", "content": scheme_cards}
 
+
+    async def _build_context(
+        self,
+        results: list[dict],
+        user_message: str,
+        session_history: list[dict],
+        model_id: str,
+        api_key: str | None,
+        model_config: dict | None,
+    ) -> str:
+        """Build the scheme context string to inject into the LLM prompt.
+
+        Runs classify_detail_query() with the retrieved scheme names, then routes to one
+        of two context strategies:
+
+        - Detail path: user is asking a factual question about a specific named scheme.
+          Injects get_scheme_context() (full) for that scheme + compact summaries for
+          up to 3 others.  Total: ~3-6 KB.
+
+        - Broad path (default): user is discovering / listing schemes.
+          Injects get_scheme_summary_context() (compact) for all results.
+          Total: ~2-4 KB.
+
+        Both are far smaller than the old 15-full-context approach (~45 KB).
+        """
+        # Collect names from results for the classifier (must exist in slug_to_index)
+        retrieved_names = []
+        for r in results:
+            name = scheme_loader.slug_to_index.get(r['slug'], {}).get('schemeName', '')
+            if name:
+                retrieved_names.append(name)
+
+        # Classify
+        classification = await classify_detail_query(
+            model_id, user_message, session_history, retrieved_names,
+            api_key=api_key, model_config=model_config
+        )
+
+        context_parts = []
+
+        if classification.get('detail_request') and classification.get('scheme_name'):
+            target_name = classification['scheme_name']
+            target_slug = scheme_loader.find_scheme_slug_by_name(target_name)
+
+            if target_slug:
+                # Full detail for the target scheme
+                full_ctx = scheme_loader.get_scheme_context(target_slug)
+                context_parts.append(f'--- Scheme 1 (Full Detail) ---\n{full_ctx}')
+                print(f"[RAG Pipeline] Detail path: full context for '{target_slug}'")
+
+                # Compact summaries for the remaining results (up to 3)
+                others = [r for r in results if r['slug'] != target_slug][:3]
+                for i, res in enumerate(others, 2):
+                    ctx = scheme_loader.get_scheme_summary_context(res['slug'])
+                    context_parts.append(f'--- Scheme {i} (Summary) ---\n{ctx}')
+            else:
+                # Slug not found — fall through to broad path
+                print(f"[RAG Pipeline] Detail path: could not resolve slug for '{target_name}', "
+                      "falling back to summaries")
+                for i, res in enumerate(results, 1):
+                    ctx = scheme_loader.get_scheme_summary_context(res['slug'])
+                    context_parts.append(f'--- Scheme {i} ---\n{ctx}')
+        else:
+            # Broad path — compact summaries for all results
+            for i, res in enumerate(results, 1):
+                ctx = scheme_loader.get_scheme_summary_context(res['slug'])
+                context_parts.append(f'--- Scheme {i} ---\n{ctx}')
+
+        scheme_context = '\n\n'.join(context_parts)
+        print(f"[RAG Pipeline] Injected Context Length: {len(scheme_context)} characters "
+              f"(~{len(scheme_context) // 4} tokens)\n")
+        return scheme_context
 
     def _build_english_search_query(self, history: list[dict], current_message: str, language: str) -> str:
         """Translates regional terms into English concepts for ChromaDB search."""

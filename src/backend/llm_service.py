@@ -101,6 +101,84 @@ async def extract_filters(
     return {}
 
 
+# ---------------------------------------------------------------------------
+# Detail query classification — runs AFTER retrieval, with scheme names in hand
+# ---------------------------------------------------------------------------
+
+DETAIL_CLASSIFICATION_PROMPT = """You are deciding whether a user is asking a specific factual question about one particular government scheme.
+
+Schemes available in this conversation:
+{scheme_list}
+
+Recent conversation (user messages only): {context}
+Current user message: {user_message}
+
+Is the user asking a specific factual/detail question (eligibility details, what it covers, whether it allows X, benefits, how to apply, limits, exclusions) about ONE of the schemes listed above?
+
+- Detail question examples: "can it be used for travel?", "what are the income limits?", "is furniture allowed?", "how do I apply for the Research Grant?"
+- NOT a detail question: "list schemes for SC", "show me scholarships in UP", "what schemes exist for farmers?"
+
+Return ONLY JSON, no explanation:
+{{"detail_request": true or false, "scheme_name": "<exact name from the list above, or null>"}}"""
+
+
+async def classify_detail_query(
+    model_id: str,
+    user_message: str,
+    conversation_history: list[dict],
+    retrieved_scheme_names: list[str],
+    api_key: str | None = None,
+    model_config: dict | None = None,
+) -> dict:
+    """Classify whether the user is asking a factual detail question about a specific scheme.
+
+    Called AFTER retrieval so we can pass the actual scheme names from the results,
+    making implicit reference resolution (e.g. "can IT be used for travel?") reliable.
+
+    Args:
+        retrieved_scheme_names: List of scheme names from the retrieval results.
+
+    Returns:
+        Dict with keys:
+            - detail_request (bool): True if a specific factual question about one scheme.
+            - scheme_name (str | None): Exact name from retrieved_scheme_names, or None.
+        Returns {"detail_request": False, "scheme_name": None} on any failure.
+    """
+    default = {"detail_request": False, "scheme_name": None}
+    if not retrieved_scheme_names:
+        return default
+
+    recent_user_msgs = [m['content'] for m in conversation_history[-4:] if m['role'] == 'user']
+    context = " | ".join(recent_user_msgs) if recent_user_msgs else "None"
+
+    numbered_list = "\n".join(f"{i+1}. {name}" for i, name in enumerate(retrieved_scheme_names))
+    prompt = DETAIL_CLASSIFICATION_PROMPT.format(
+        scheme_list=numbered_list,
+        context=context,
+        user_message=user_message,
+    )
+
+    try:
+        model = get_model(model_id, api_key=api_key, model_config=model_config)
+        response = await model.ainvoke([HumanMessage(content=prompt)])
+        text = _extract_text_content(response.content).strip()
+        json_match = re.search(r'\{.*?\}', text, re.DOTALL)
+        if json_match:
+            result = json.loads(json_match.group())
+            # Validate: scheme_name must be from our list (prevent hallucinated names)
+            scheme_name = result.get("scheme_name")
+            if scheme_name and scheme_name not in retrieved_scheme_names:
+                # Try a case-insensitive match as fallback
+                lower_map = {n.lower(): n for n in retrieved_scheme_names}
+                scheme_name = lower_map.get(scheme_name.lower())
+            detail = bool(result.get("detail_request")) and scheme_name is not None
+            print(f"[Detail Classifier] detail_request={detail}, scheme_name={scheme_name!r}")
+            return {"detail_request": detail, "scheme_name": scheme_name}
+    except Exception as e:
+        print(f"[Detail Classifier] Failed ({e}), defaulting to summary context")
+    return default
+
+
 def _extract_text_content(content) -> str:
     """Extract clean string text from LangChain message content (str, list, or dict)."""
     if isinstance(content, str):
