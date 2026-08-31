@@ -3,8 +3,13 @@ Embedding service for SchemeSathi.
 Wraps LangChain's OllamaEmbeddings for both async and sync usage.
 """
 
+import os
 import asyncio
-from langchain_ollama import OllamaEmbeddings
+try:
+    from langchain_ollama import OllamaEmbeddings
+except ImportError:
+    OllamaEmbeddings = None
+
 from backend.config import OLLAMA_HOST, OLLAMA_EMBEDDING_MODEL, EMBEDDING_API_KEY
 
 
@@ -15,19 +20,34 @@ class EmbeddingService:
         self.model = OLLAMA_EMBEDDING_MODEL
         self.base_url = OLLAMA_HOST
         self.api_key = EMBEDDING_API_KEY
-        self.is_local = True
+        
+        is_local_env = os.getenv("EMBEDDING_IS_LOCAL")
+        if is_local_env is not None:
+            self.is_local = is_local_env.lower() in ("true", "1", "yes")
+        else:
+            url_lower = (self.base_url or "").lower()
+            self.is_local = any(h in url_lower for h in ("localhost", "127.0.0.1", "0.0.0.0"))
+            
         self._init_embeddings()
 
     def _init_embeddings(self):
+        if OllamaEmbeddings is None:
+            self._lc_embeddings = None
+            return
+
         client_kwargs: dict = {}
         if self.api_key:
             client_kwargs["headers"] = {"Authorization": f"Bearer {self.api_key}"}
 
-        self._lc_embeddings = OllamaEmbeddings(
-            model=self.model,
-            base_url=self.base_url,
-            client_kwargs=client_kwargs if client_kwargs else None,
-        )
+        try:
+            self._lc_embeddings = OllamaEmbeddings(
+                model=self.model,
+                base_url=self.base_url,
+                client_kwargs=client_kwargs if client_kwargs else None,
+            )
+        except Exception as e:
+            print(f"Notice: OllamaEmbeddings init deferred ({e}).")
+            self._lc_embeddings = None
 
     def get_config(self) -> dict:
         """Get current embedding service configuration."""

@@ -24,15 +24,16 @@ OLLAMA_EMBEDDING_MODEL = os.getenv('OLLAMA_EMBEDDING_MODEL', 'bge-m3:latest')
 CONFIGURED_MODELS = [
     {
         "id": "gemini-flash",
-        "name": "Google Gemini Flash",
+        "name": "Google Gemini",
         "provider": "gemini",
-        "model_name": "gemini-flash-latest",
+        "model_name": "gemini-3.5-flash-lite",
         "is_local": False,
-        "description": "Default Google Cloud AI model"
+        "description": "Google Cloud AI model"
     },
 ]
 
 # Paths
 CHROMA_DB_PATH = str(ROOT_DIR / 'chroma_db')
 SCHEMES_DIR = str(ROOT_DIR / 'schemes')
+SCHEMES_DB_PATH = str(ROOT_DIR / 'schemes.duckdb')
 FRONTEND_DIR = str(ROOT_DIR / 'src' / 'frontend')

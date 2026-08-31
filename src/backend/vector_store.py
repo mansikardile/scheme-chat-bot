@@ -6,7 +6,11 @@ accessible for the incremental-update operations in build_vectordb.py
 """
 
 import chromadb
-from langchain_chroma import Chroma
+try:
+    from langchain_chroma import Chroma
+except ImportError:
+    Chroma = None
+
 from backend.config import CHROMA_DB_PATH
 from backend.embedding_service import embedding_service
 
@@ -17,7 +21,7 @@ class VectorStore:
     def __init__(self):
         self._chroma_client = None
         # LangChain Chroma wrapper — used for future retriever/chain integration
-        self._lc_store: Chroma | None = None
+        self._lc_store = None
         # Raw collection — used for batched add/update/delete/count/get operations
         self.collection = None
 
@@ -31,12 +35,16 @@ class VectorStore:
             metadata={'hnsw:space': 'cosine'},
         )
 
-        # Wire up LangChain's Chroma wrapper sharing the same underlying client
-        self._lc_store = Chroma(
-            client=self._chroma_client,
-            collection_name='schemes',
-            embedding_function=embedding_service._lc_embeddings,
-        )
+        # Wire up LangChain's Chroma wrapper sharing the same underlying client if available
+        if Chroma is not None:
+            try:
+                self._lc_store = Chroma(
+                    client=self._chroma_client,
+                    collection_name='schemes',
+                    embedding_function=embedding_service._lc_embeddings,
+                )
+            except Exception as e:
+                print(f"Notice: LangChain Chroma wrapper disabled ({e}).")
 
         count = self.collection.count()
         print(f"ChromaDB (LangChain) initialized at {CHROMA_DB_PATH} — {count} vectors loaded.")

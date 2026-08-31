@@ -16,15 +16,30 @@ let synth = window.speechSynthesis;
 let isRecording = false;
 let currentTheme = localStorage.getItem('schemesathi_theme') || 'dark';
 
-// Default built-in model is Gemini Flash
+// Built-in Gemini model variants list
+const GEMINI_MODEL_VARIANTS = [
+    { id: 'gemini-3.5-flash-lite', label: 'Gemini 3.5 Flash Lite (High Free-Tier Limit)' },
+    { id: 'gemini-2.0-flash-lite', label: 'Gemini 2.0 Flash Lite' },
+    { id: 'gemini-1.5-flash-8b', label: 'Gemini 1.5 Flash 8B' },
+    { id: 'gemini-3.6-flash', label: 'Gemini 3.6 Flash (Default)' },
+    { id: 'gemini-3.7-flash', label: 'Gemini 3.7 Flash' },
+    { id: 'gemini-3.5-flash', label: 'Gemini 3.5 Flash' },
+    { id: 'gemini-3.1-flash-lite', label: 'Gemini 3.1 Flash Lite' },
+    { id: 'gemini-3.1-pro', label: 'Gemini 3.1 Pro' },
+    { id: 'gemini-2.5-flash', label: 'Gemini 2.5 Flash' },
+    { id: 'gemini-2.5-pro', label: 'Gemini 2.5 Pro' },
+    { id: 'custom', label: 'Custom Model Tag...' }
+];
+
+// Default built-in model is Gemini
 const DEFAULT_MODELS = [
     {
         id: 'gemini-flash',
-        name: 'Google Gemini Flash',
+        name: 'Google Gemini',
         provider: 'gemini',
         is_default: true,
-        model_name: 'gemini-flash-latest',
-        description: 'Default Google Cloud AI model'
+        model_name: localStorage.getItem('schemesathi_gemini_model_name') || 'gemini-3.6-flash',
+        description: 'Google Cloud AI model'
     }
 ];
 
@@ -310,7 +325,7 @@ async function sendMessage(text = null) {
             language: selectedLanguage,
             model: activeModelObj.id,
             api_key: activeModelObj.is_default ? (userApiKey || null) : (activeModelObj.api_key || userApiKey || null),
-            model_config: activeModelObj.is_default ? null : activeModelObj
+            model_config: activeModelObj
         };
 
         const r = await fetch(`${API_BASE}/api/chat/stream`, {
@@ -574,13 +589,34 @@ function renderModelDetailPanel(id) {
             </div>
     `;
 
-    // Gemini default model: show API key section
+    // Gemini default model: show variant selection & API key section
     if (isDefault && m.provider === 'gemini') {
         const savedKey = userApiKey || '';
+        const currentModelName = m.model_name || 'gemini-3.6-flash';
+        const isPreset = GEMINI_MODEL_VARIANTS.some(v => v.id === currentModelName && v.id !== 'custom');
+        const selectedVariantVal = isPreset ? currentModelName : 'custom';
+
+        const variantOptionsHtml = GEMINI_MODEL_VARIANTS.map(v => 
+            `<option value="${v.id}" ${v.id === selectedVariantVal ? 'selected' : ''}>${escapeHtml(v.label)}</option>`
+        ).join('');
+
         html += `
             <div class="setting-section">
+                <label for="settingsGeminiVariantSelect" class="section-label">Gemini Model Variant</label>
+                <p class="setting-desc">Select which Google Gemini model version to use for answering queries.</p>
+                <select id="settingsGeminiVariantSelect" class="settings-select" style="margin-bottom: 0.75rem;">
+                    ${variantOptionsHtml}
+                </select>
+
+                <div id="settingsGeminiCustomWrapper" class="manual-tag-wrap ${selectedVariantVal === 'custom' ? '' : 'hidden'}">
+                    <label for="settingsGeminiCustomInput">Custom Gemini Model Tag *</label>
+                    <input type="text" id="settingsGeminiCustomInput" class="settings-input" placeholder="e.g. gemini-3.6-flash, gemini-experimental" value="${escapeHtml(currentModelName)}">
+                </div>
+            </div>
+
+            <div class="setting-section">
                 <label for="settingsApiKeyInput" class="section-label">Gemini API Key <span class="label-optional">(Optional)</span></label>
-                <p class="setting-desc">SchemeSathi uses Google Gemini Flash by default. Enter your own API key if you hit rate limits.</p>
+                <p class="setting-desc">Enter your own Gemini API key if you hit rate limits.</p>
                 <div class="api-key-input-wrapper">
                     <input type="password" id="settingsApiKeyInput" class="settings-input" placeholder="Leave empty to use server default key" value="${escapeHtml(savedKey)}">
                     <button type="button" id="toggleApiKeyBtn" class="btn-toggle-eye" title="Show / Hide Key" aria-label="Toggle API key visibility">
@@ -692,6 +728,34 @@ function renderModelDetailPanel(id) {
             apiInput.type = isHidden ? 'text' : 'password';
             $('eyeIconShow')?.classList.toggle('hidden', isHidden);
             $('eyeIconHide')?.classList.toggle('hidden', !isHidden);
+        });
+    }
+
+    // Wire up Gemini Model Variant selection
+    const geminiSelect = $('settingsGeminiVariantSelect');
+    const geminiCustomInput = $('settingsGeminiCustomInput');
+    const geminiCustomWrapper = $('settingsGeminiCustomWrapper');
+
+    if (geminiSelect) {
+        geminiSelect.addEventListener('change', (e) => {
+            const val = e.target.value;
+            const isCustom = val === 'custom';
+            if (geminiCustomWrapper) geminiCustomWrapper.classList.toggle('hidden', !isCustom);
+            let finalModelName = isCustom ? (geminiCustomInput?.value.trim() || 'gemini-3.6-flash') : val;
+            DEFAULT_MODELS[0].model_name = finalModelName;
+            localStorage.setItem('schemesathi_gemini_model_name', finalModelName);
+            const tagSpan = $('editHeaderModelTag');
+            if (tagSpan) tagSpan.textContent = finalModelName;
+        });
+    }
+
+    if (geminiCustomInput) {
+        geminiCustomInput.addEventListener('input', (e) => {
+            const val = e.target.value.trim() || 'gemini-3.6-flash';
+            DEFAULT_MODELS[0].model_name = val;
+            localStorage.setItem('schemesathi_gemini_model_name', val);
+            const tagSpan = $('editHeaderModelTag');
+            if (tagSpan) tagSpan.textContent = val;
         });
     }
 
@@ -1165,12 +1229,22 @@ function handleSaveSettings() {
         return;
     }
 
-    // Read API key if the Gemini model detail panel is currently showing it
-    const apiKeyInput = $('settingsApiKeyInput');
-    if (apiKeyInput) {
-        userApiKey = apiKeyInput.value.trim();
-        localStorage.setItem('schemesathi_api_key', userApiKey);
-        sessionStorage.setItem('schemesathi_api_key', userApiKey);
+    // Read API key and model variant if the Gemini model detail panel is currently active
+    if (activeSettingsTab === 'gemini-flash') {
+        const apiKeyInput = $('settingsApiKeyInput');
+        if (apiKeyInput) {
+            userApiKey = apiKeyInput.value.trim();
+            localStorage.setItem('schemesathi_api_key', userApiKey);
+            sessionStorage.setItem('schemesathi_api_key', userApiKey);
+        }
+        const geminiSelect = $('settingsGeminiVariantSelect');
+        const geminiCustomInput = $('settingsGeminiCustomInput');
+        if (geminiSelect) {
+            const val = geminiSelect.value;
+            const finalModelName = val === 'custom' ? (geminiCustomInput?.value.trim() || 'gemini-3.6-flash') : val;
+            DEFAULT_MODELS[0].model_name = finalModelName;
+            localStorage.setItem('schemesathi_gemini_model_name', finalModelName);
+        }
     }
 
     // Save custom model edits if viewing a custom model tab
@@ -1332,10 +1406,10 @@ async function openDetail(slug) {
             <!-- Overview Section -->
             <div class="detail-section">
                 <h3>📋 Overview</h3>
-                <p>${escapeHtml(s.brief || 'No summary available.')}</p>
+                <p>${renderMd(s.brief || 'No summary available.')}</p>
                 <div style="margin-top:0.75rem; display:flex; flex-wrap:wrap; gap:0.5rem;">
-                    ${s.states?.length ? `<span class="tag"><strong>States:</strong> ${escapeHtml(s.states.join(', '))}</span>` : ''}
-                    ${s.categories?.length ? `<span class="tag"><strong>Categories:</strong> ${escapeHtml(s.categories.join(', '))}</span>` : ''}
+                    ${s.states?.length ? `<span class="tag"><strong>States:</strong> ${decodeEntities(s.states.join(', '))}</span>` : ''}
+                    ${s.categories?.length ? `<span class="tag"><strong>Categories:</strong> ${decodeEntities(s.categories.join(', '))}</span>` : ''}
                 </div>
             </div>
         `;
@@ -1375,10 +1449,14 @@ async function openDetail(slug) {
             html += `<div class="detail-section"><h3>✅ Step-by-Step Application Process</h3>`;
             s.application_process.forEach(p => {
                 if (!p) return;
-                html += `<div style="margin-bottom:1rem; padding:0.5rem; border-left:3px solid var(--accent); background:var(--bg-elevated); border-radius:4px;">`;
-                html += `<h4>Mode: ${escapeHtml(p.mode || 'Process')}</h4>`;
-                if (p.url) html += `<a href="${p.url}" target="_blank" class="tag" style="display:inline-block; margin:0.4rem 0;">Apply Portal Link ↗</a>`;
-                if (p.process_md) html += `<div>${renderMd(p.process_md)}</div>`;
+                const modeName = decodeEntities(p.mode || 'Offline / Online');
+                const isOnline = modeName.toLowerCase().includes('online');
+                const modeClass = isOnline ? 'mode-online' : 'mode-offline';
+                
+                html += `<div class="process-card">`;
+                html += `<div class="process-header"><span class="mode-badge ${modeClass}">${isOnline ? '🌐 Online' : '🏛️ ' + modeName}</span></div>`;
+                if (p.url) html += `<a href="${p.url}" target="_blank" class="tag mode-portal-link">Official Application Portal ↗</a>`;
+                if (p.process_md) html += `<div class="process-body">${renderMd(p.process_md)}</div>`;
                 html += `</div>`;
             });
             html += `</div>`;
@@ -1389,8 +1467,8 @@ async function openDetail(slug) {
             html += `
                 <div class="detail-section">
                     <h3>📄 Documents Required</h3>
-                    <ul>
-                        ${s.documents.map(d => `<li>${escapeHtml(typeof d === 'string' ? d : d.document_name || d.name || JSON.stringify(d))}</li>`).join('')}
+                    <ul class="md-list">
+                        ${s.documents.map(d => `<li>${renderMd(typeof d === 'string' ? d : d.document_name || d.name || JSON.stringify(d))}</li>`).join('')}
                     </ul>
                 </div>
             `;
@@ -1402,9 +1480,9 @@ async function openDetail(slug) {
                 <div class="detail-section">
                     <h3>❓ Frequently Asked Questions (FAQs)</h3>
                     ${s.faqs.map(faq => `
-                        <div style="margin-bottom:0.75rem;">
-                            <strong>Q: ${escapeHtml(faq.question || faq.q || '')}</strong>
-                            <p style="margin-top:0.25rem;">${escapeHtml(faq.answer || faq.a || '')}</p>
+                        <div class="faq-item">
+                            <strong>Q: ${decodeEntities(faq.question || faq.q || '')}</strong>
+                            <div style="margin-top:0.35rem;">${renderMd(faq.answer || faq.a || '')}</div>
                         </div>
                     `).join('')}
                 </div>
@@ -1417,8 +1495,8 @@ async function openDetail(slug) {
                 <div class="detail-section">
                     <h3>💡 Definitions & Terms</h3>
                     ${s.definitions.map(d => `
-                        <div style="margin-bottom:0.5rem;">
-                            <strong>${escapeHtml(d.name || '')}</strong>
+                        <div style="margin-bottom:0.75rem;">
+                            <strong>${decodeEntities(d.name || '')}</strong>
                             <div>${renderMd(d.definition || '')}</div>
                         </div>
                     `).join('')}
@@ -1453,26 +1531,80 @@ function autoResize(el) {
     el.style.height = Math.min(el.scrollHeight, 120) + 'px';
 }
 
+function decodeEntities(text) {
+    if (!text) return '';
+    return String(text)
+        .replace(/&#39;/g, "'")
+        .replace(/&apos;/g, "'")
+        .replace(/&quot;/g, '"')
+        .replace(/&#34;/g, '"')
+        .replace(/&amp;/g, '&')
+        .replace(/&lt;/g, '<')
+        .replace(/&gt;/g, '>')
+        .replace(/&nbsp;/g, ' ');
+}
+
 function escapeHtml(text) {
     if (!text) return '';
-    return String(text).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;')
+    const d = decodeEntities(text);
+    return String(d).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;')
                        .replace(/"/g,'&quot;').replace(/'/g,'&#039;');
 }
 
 function renderMd(text) {
     if (!text) return '';
-    let h = escapeHtml(text);
-    // Strip any raw URLs if present so chat text remains clean
+    let decoded = decodeEntities(text);
+    let h = String(decoded).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+    
+    // Strip raw URLs
     h = h.replace(/https?:\/\/[^\s<)]+/g, '');
-    h = h.replace(/^### (.*$)/gim, '<h4>$1</h4>');
-    h = h.replace(/^## (.*$)/gim, '<h3>$1</h3>');
-    h = h.replace(/^# (.*$)/gim, '<h2>$1</h2>');
+    
+    // Formatting headers & inline bold
+    h = h.replace(/^### (.*$)/gim, '<h4 class="md-h4">$1</h4>');
+    h = h.replace(/^## (.*$)/gim, '<h3 class="md-h3">$1</h3>');
+    h = h.replace(/^# (.*$)/gim, '<h2 class="md-h2">$1</h2>');
     h = h.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
     h = h.replace(/\*(.*?)\*/g, '<em>$1</em>');
     h = h.replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<strong>$1</strong>');
-    h = h.replace(/^\s*\d+\.\s(.*)$/gim, '<li>$1</li>');
-    h = h.replace(/^\s*[-*]\s(.*)$/gim, '<li>$1</li>');
-    h = h.replace(/\n\n/g, '</p><p>');
-    h = h.replace(/\n/g, '<br>');
-    return `<p>${h}</p>`.replace(/<p><\/p>/g, '');
+
+    // Parse list items vs paragraphs cleanly
+    let lines = h.split('\n');
+    let inList = false;
+    let listType = 'ul';
+    let out = [];
+
+    for (let line of lines) {
+        let trimmed = line.trim();
+        if (!trimmed) {
+            if (inList) {
+                inList = false;
+                out.push(`</${listType}>`);
+            }
+            continue;
+        }
+
+        let isBullet = /^[-\*]\s+(.*)/.test(trimmed);
+        let isNum = /^\d+\.\s+(.*)/.test(trimmed);
+
+        if (isBullet || isNum) {
+            if (!inList) {
+                inList = true;
+                listType = isNum ? 'ol' : 'ul';
+                out.push(`<${listType} class="md-list">`);
+            }
+            let content = trimmed.replace(/^[-\*]\s+/, '').replace(/^\d+\.\s+/, '');
+            out.push(`  <li>${content}</li>`);
+        } else {
+            if (inList) {
+                inList = false;
+                out.push(`</${listType}>`);
+            }
+            out.push(`<p class="md-p">${trimmed}</p>`);
+        }
+    }
+    if (inList) {
+        out.push(`</${listType}>`);
+    }
+
+    return out.join('');
 }

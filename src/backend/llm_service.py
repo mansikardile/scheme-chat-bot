@@ -1,6 +1,7 @@
 """Provider-agnostic LLM service for SchemeSathi."""
 
 import re
+import json
 from langchain_core.messages import SystemMessage, HumanMessage, AIMessage
 from backend.model_registry import get_model
 
@@ -46,8 +47,160 @@ You MUST respond in {language_name} language.
 """
 
 
+# ---------------------------------------------------------------------------
+# Filter extraction — used as a fast pre-pass to build structured SQL queries
+# ---------------------------------------------------------------------------
+
+FILTER_EXTRACTION_PROMPT = """Extract search filters from a user query about Indian government welfare schemes.
+Return ONLY a JSON object. Use null for anything not mentioned or unclear.
+
+Fields:
+- "state": Indian state name (string, e.g. "Maharashtra", "Bihar"), or null
+- "category": beneficiary group — one of "SC", "OBC", "ST", "General", "Women", "Farmer",
+  "Student", "Minority", "Disabled", "Senior Citizen", "BPL", "Youth", "Entrepreneur", or null
+- "keywords": 2-4 space-separated English keywords capturing the core need (e.g. "education scholarship children"), or null
+
+Recent conversation: {context}
+Current user message: {user_message}
+
+JSON only, no explanation, no markdown fences:"""
+
+
+async def extract_filters(
+    model_id: str,
+    user_message: str,
+    conversation_history: list[dict],
+    api_key: str | None = None,
+    model_config: dict | None = None,
+) -> dict:
+    """Use the LLM to extract structured search filters from the user's message + history.
+
+    Returns a dict with optional keys: state, category, keywords.
+    (level is intentionally excluded — the state SQL condition already handles
+    Central+State scheme discovery correctly via OR level='Central'.)
+    Returns an empty dict on any failure so the caller can gracefully fall back.
+    """
+    # Build context from recent user messages AND the last AI response (truncated).
+    # The AI response often contains scheme names that the user refers to with
+    # vague pronouns ("these schemes", "it", "this") in the next turn.
+    context_parts = []
+    for m in conversation_history[-6:]:
+        if m['role'] == 'user':
+            context_parts.append(f"User: {m['content']}")
+        elif m['role'] == 'assistant':
+            # Truncate AI responses to avoid blowing up the prompt
+            snippet = m['content'][:300].replace('\n', ' ')
+            context_parts.append(f"Assistant: {snippet}")
+    context = " | ".join(context_parts) if context_parts else "None"
+
+    prompt = FILTER_EXTRACTION_PROMPT.format(context=context, user_message=user_message)
+
+    try:
+        model = get_model(model_id, api_key=api_key, model_config=model_config)
+        response = await model.ainvoke([HumanMessage(content=prompt)])
+        text = _extract_text_content(response.content).strip()
+        # Models sometimes wrap output in ```json ... ``` fences — strip them
+        json_match = re.search(r'\{.*?\}', text, re.DOTALL)
+        if json_match:
+            filters = json.loads(json_match.group())
+            # Normalise: drop keys with null / empty values
+            filters = {k: v for k, v in filters.items() if v}
+            print(f"[Filter Extraction] Extracted: {filters}")
+            return filters
+    except Exception as e:
+        print(f"[Filter Extraction] Failed ({e}), pipeline will use keyword fallback")
+    return {}
+
+
+# ---------------------------------------------------------------------------
+# Detail query classification — runs AFTER retrieval, with scheme names in hand
+# ---------------------------------------------------------------------------
+
+DETAIL_CLASSIFICATION_PROMPT = """You are deciding whether a user is asking a specific factual question about one particular government scheme.
+
+Schemes available in this conversation:
+{scheme_list}
+
+Recent conversation (user messages only): {context}
+Current user message: {user_message}
+
+Is the user asking a specific factual/detail question (eligibility details, what it covers, whether it allows X, benefits, how to apply, limits, exclusions) about ONE of the schemes listed above?
+
+- Detail question examples: "can it be used for travel?", "what are the income limits?", "is furniture allowed?", "how do I apply for the Research Grant?"
+- NOT a detail question: "list schemes for SC", "show me scholarships in UP", "what schemes exist for farmers?"
+
+Return ONLY JSON, no explanation:
+{{"detail_request": true or false, "scheme_name": "<exact name from the list above, or null>"}}"""
+
+
+async def classify_detail_query(
+    model_id: str,
+    user_message: str,
+    conversation_history: list[dict],
+    retrieved_scheme_names: list[str],
+    api_key: str | None = None,
+    model_config: dict | None = None,
+) -> dict:
+    """Classify whether the user is asking a factual detail question about a specific scheme.
+
+    Called AFTER retrieval so we can pass the actual scheme names from the results,
+    making implicit reference resolution (e.g. "can IT be used for travel?") reliable.
+
+    Args:
+        retrieved_scheme_names: List of scheme names from the retrieval results.
+
+    Returns:
+        Dict with keys:
+            - detail_request (bool): True if a specific factual question about one scheme.
+            - scheme_name (str | None): Exact name from retrieved_scheme_names, or None.
+        Returns {"detail_request": False, "scheme_name": None} on any failure.
+    """
+    default = {"detail_request": False, "scheme_name": None}
+    if not retrieved_scheme_names:
+        return default
+
+    # Include both user messages and the last AI response (truncated) so that
+    # vague references like "these schemes" or "can IT be used for X" can be
+    # resolved against what the assistant just recommended.
+    context_parts = []
+    for m in conversation_history[-6:]:
+        if m['role'] == 'user':
+            context_parts.append(f"User: {m['content']}")
+        elif m['role'] == 'assistant':
+            snippet = m['content'][:300].replace('\n', ' ')
+            context_parts.append(f"Assistant: {snippet}")
+    context = " | ".join(context_parts) if context_parts else "None"
+
+    numbered_list = "\n".join(f"{i+1}. {name}" for i, name in enumerate(retrieved_scheme_names))
+    prompt = DETAIL_CLASSIFICATION_PROMPT.format(
+        scheme_list=numbered_list,
+        context=context,
+        user_message=user_message,
+    )
+
+    try:
+        model = get_model(model_id, api_key=api_key, model_config=model_config)
+        response = await model.ainvoke([HumanMessage(content=prompt)])
+        text = _extract_text_content(response.content).strip()
+        json_match = re.search(r'\{.*?\}', text, re.DOTALL)
+        if json_match:
+            result = json.loads(json_match.group())
+            # Validate: scheme_name must be from our list (prevent hallucinated names)
+            scheme_name = result.get("scheme_name")
+            if scheme_name and scheme_name not in retrieved_scheme_names:
+                # Try a case-insensitive match as fallback
+                lower_map = {n.lower(): n for n in retrieved_scheme_names}
+                scheme_name = lower_map.get(scheme_name.lower())
+            detail = bool(result.get("detail_request")) and scheme_name is not None
+            print(f"[Detail Classifier] detail_request={detail}, scheme_name={scheme_name!r}")
+            return {"detail_request": detail, "scheme_name": scheme_name}
+    except Exception as e:
+        print(f"[Detail Classifier] Failed ({e}), defaulting to summary context")
+    return default
+
+
 def _extract_text_content(content) -> str:
-    """Extract clean string text from LangChain message content (str, list, or dict)."""
+    """Extract clean string text from LangChain message content (str, list, or dict), ignoring thinking/reasoning blocks."""
     if isinstance(content, str):
         return content
     if isinstance(content, list):
@@ -56,21 +209,24 @@ def _extract_text_content(content) -> str:
             if isinstance(item, str):
                 parts.append(item)
             elif isinstance(item, dict):
-                if item.get('type') == 'text' and 'text' in item:
+                item_type = item.get('type', '')
+                if item_type in ('thinking', 'reasoning', 'thought') or 'thinking' in item or 'thought' in item:
+                    continue
+                if item_type == 'text' and 'text' in item:
                     parts.append(str(item['text']))
                 elif 'text' in item:
                     parts.append(str(item['text']))
-                else:
-                    parts.append(str(item))
-            else:
-                parts.append(str(item))
         return "".join(parts)
     if isinstance(content, dict):
-        if content.get('type') == 'text' and 'text' in content:
+        item_type = content.get('type', '')
+        if item_type in ('thinking', 'reasoning', 'thought') or 'thinking' in content or 'thought' in content:
+            return ""
+        if item_type == 'text' and 'text' in content:
             return str(content['text'])
         if 'text' in content:
             return str(content['text'])
-    return str(content)
+        return ""
+    return ""
 
 
 async def generate_response(
@@ -88,7 +244,10 @@ async def generate_response(
         model = get_model(model_id, api_key=api_key, model_config=model_config)
     except Exception as e:
         print(f"Error instantiating model '{model_id}': {e}")
-        return f'Error: Model configuration failed ({str(e)}).'
+        err = str(e)
+        if "GEMINI_API_KEY" in err:
+            return "🔑 **Gemini API Key Required**: Please click the **⚙️ Settings** icon in the top right corner of the page to enter your Gemini API Key, or add `GEMINI_API_KEY` to your `.env` file."
+        return f'⚠️ Model configuration error: {err}'
 
     lang_name = LANGUAGE_NAMES.get(language, 'English')
     system_text = SYSTEM_PROMPT.format(language_name=lang_name)
@@ -142,7 +301,11 @@ async def generate_response_stream(
         model = get_model(model_id, api_key=api_key, model_config=model_config)
     except Exception as e:
         print(f"Error instantiating model '{model_id}': {e}")
-        yield f'Error: Model configuration failed ({str(e)}).'
+        err = str(e)
+        if "GEMINI_API_KEY" in err:
+            yield "🔑 **Gemini API Key Required**: Please click the **⚙️ Settings** icon in the top right corner to enter your Gemini API Key, or add `GEMINI_API_KEY` to your `.env` file."
+        else:
+            yield f'⚠️ Model configuration error: {err}'
         return
 
     lang_name = LANGUAGE_NAMES.get(language, 'English')

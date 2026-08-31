@@ -12,7 +12,7 @@ Orchestration layer that wires together:
 from backend.embedding_service import embedding_service
 from backend.vector_store import vector_store
 from backend.scheme_loader import scheme_loader
-from backend.llm_service import generate_response, generate_response_stream
+from backend.llm_service import generate_response, generate_response_stream, extract_filters, classify_detail_query
 import re
 
 
@@ -96,41 +96,63 @@ class RAGPipeline:
         api_key: str | None = None,
         model_config: dict | None = None,
     ) -> tuple[str, list[dict]]:
-        """Full RAG pipeline with multilingual query translation and intent-gated card display."""
+        """Full RAG pipeline: filter extraction → SQL retrieval → compact context → LLM response."""
 
-        # 1. Translate / Enrich search query to English for high precision vector retrieval
-        english_search_query = self._build_english_search_query(session_history, user_message, language)
-        print(f"\n[RAG Pipeline] Enriched English Search Query: '{english_search_query}'")
-
-        # 2. Embed English search query (LangChain OllamaEmbeddings, async via thread)
+        # 1. Extract structured filters from user message + history via a fast LLM call
+        filters = {}
         try:
-            query_embedding = await embedding_service.embed_text(english_search_query)
+            filters = await extract_filters(
+                model_id, user_message, session_history,
+                api_key=api_key, model_config=model_config
+            )
         except Exception as e:
-            print(f'Embedding error: {e}')
-            return 'Sorry, I could not process your request right now.', []
+            print(f"[RAG Pipeline] Filter extraction failed ({e}), proceeding without filters")
 
-        # 3. Vector search in ChromaDB via LangChain-backed store (retrieve top 15 schemes)
-        results = vector_store.search(query_embedding, top_k=15)
+        # 2. Targeted DuckDB SQL search using extracted filters
+        results = []
+        has_filters = any(filters.get(k) for k in ('state', 'category', 'keywords', 'level'))
+
+        if has_filters:
+            matched = scheme_loader.search_with_filters(filters, limit=8)
+            results = [{'slug': s['slug']} for s in matched]
+
+        # 3. Fallback chain: vector search → DuckDB BM25 keyword search
+        if not results:
+            english_search_query = self._build_english_search_query(session_history, user_message, language)
+            print(f"[RAG Pipeline] No filter results — trying vector search: '{english_search_query}'")
+            try:
+                if embedding_service._lc_embeddings is not None:
+                    query_embedding = await embedding_service.embed_text(english_search_query)
+                    results = vector_store.search(query_embedding, top_k=8)
+            except Exception as e:
+                print(f"[RAG Pipeline] Vector search failed ({e}), falling back to BM25")
+
+        if not results:
+            print("[RAG Pipeline] Using DuckDB BM25 keyword fallback")
+            db_results = scheme_loader.search_schemes(query=user_message, limit=8)
+            results = [{'slug': s['slug']} for s in db_results]
+
         retrieved_slugs = [r['slug'] for r in results]
-        print(f"[RAG Pipeline] ChromaDB Top 15 retrieved scheme slugs: {retrieved_slugs}")
+        print(f"[RAG Pipeline] Retrieved {len(results)} scheme(s): {retrieved_slugs}")
 
-        # 4. Build rich scheme context for LLM
-        context_parts = []
-        for i, res in enumerate(results, 1):
-            ctx = scheme_loader.get_scheme_context(res['slug'])
-            context_parts.append(f'--- Scheme {i} ---\n{ctx}')
-        scheme_context = '\n\n'.join(context_parts)
-        print(f"[RAG Pipeline] Injected Context Length: {len(scheme_context)} characters\n")
+        # 4. Classify: is the user asking a specific factual question about one scheme?
+        #    Pass the actual retrieved scheme names so implicit references ("it", "this scheme")
+        #    can be resolved reliably from the list.
+        scheme_context = await self._build_context(
+            results, user_message, session_history, model_id, api_key, model_config
+        )
 
-        # 5. Generate response using provider-agnostic llm_service with selected model_id, optional user api_key, and model_config
+        # 5. Generate response using provider-agnostic llm_service
         reply_text = await generate_response(
-            model_id, session_history, user_message, scheme_context, language=language, api_key=api_key, model_config=model_config
+            model_id, session_history, user_message, scheme_context,
+            language=language, api_key=api_key, model_config=model_config
         )
 
         # 6. Intent-gated Card Selection logic (domain logic — kept as custom post-processing)
         scheme_cards = self._select_cards_if_needed(reply_text, user_message, results)
 
         return reply_text, scheme_cards
+
 
     async def process_query_stream(
         self,
@@ -141,36 +163,55 @@ class RAGPipeline:
         api_key: str | None = None,
         model_config: dict | None = None,
     ):
-        """Full RAG pipeline streaming LLM response and sending intent-gated cards at the end."""
-        # 1. Translate / Enrich search query to English for high precision vector retrieval
-        english_search_query = self._build_english_search_query(session_history, user_message, language)
-        print(f"\n[RAG Pipeline] Enriched English Search Query (Stream): '{english_search_query}'")
+        """Full RAG pipeline streaming LLM response: filter extraction → SQL retrieval → compact context."""
 
-        # 2. Embed English search query (LangChain OllamaEmbeddings, async via thread)
+        # 1. Extract structured filters from user message + history via a fast LLM call
+        filters = {}
         try:
-            query_embedding = await embedding_service.embed_text(english_search_query)
+            filters = await extract_filters(
+                model_id, user_message, session_history,
+                api_key=api_key, model_config=model_config
+            )
         except Exception as e:
-            print(f'Embedding error: {e}')
-            yield {"type": "error", "content": "Sorry, I could not process your request right now."}
-            return
+            print(f"[RAG Pipeline] Filter extraction failed ({e}), proceeding without filters")
 
-        # 3. Vector search in ChromaDB via LangChain-backed store (retrieve top 15 schemes)
-        results = vector_store.search(query_embedding, top_k=15)
+        # 2. Targeted DuckDB SQL search using extracted filters
+        results = []
+        has_filters = any(filters.get(k) for k in ('state', 'category', 'keywords', 'level'))
+
+        if has_filters:
+            matched = scheme_loader.search_with_filters(filters, limit=8)
+            results = [{'slug': s['slug']} for s in matched]
+
+        # 3. Fallback chain: vector search → DuckDB BM25 keyword search
+        if not results:
+            english_search_query = self._build_english_search_query(session_history, user_message, language)
+            print(f"[RAG Pipeline] No filter results — trying vector search (Stream): '{english_search_query}'")
+            try:
+                if embedding_service._lc_embeddings is not None:
+                    query_embedding = await embedding_service.embed_text(english_search_query)
+                    results = vector_store.search(query_embedding, top_k=8)
+            except Exception as e:
+                print(f"[RAG Pipeline] Vector search failed ({e}), falling back to BM25")
+
+        if not results:
+            print("[RAG Pipeline] Using DuckDB BM25 keyword fallback (Stream)")
+            db_results = scheme_loader.search_schemes(query=user_message, limit=8)
+            results = [{'slug': s['slug']} for s in db_results]
+
         retrieved_slugs = [r['slug'] for r in results]
-        print(f"[RAG Pipeline] ChromaDB Top 15 retrieved scheme slugs (Stream): {retrieved_slugs}")
+        print(f"[RAG Pipeline] Retrieved {len(results)} scheme(s) (Stream): {retrieved_slugs}")
 
-        # 4. Build rich scheme context for LLM
-        context_parts = []
-        for i, res in enumerate(results, 1):
-            ctx = scheme_loader.get_scheme_context(res['slug'])
-            context_parts.append(f'--- Scheme {i} ---\n{ctx}')
-        scheme_context = '\n\n'.join(context_parts)
-        print(f"[RAG Pipeline] Injected Context Length (Stream): {len(scheme_context)} characters\n")
+        # 4. Classify: detail request or broad query? Build context accordingly.
+        scheme_context = await self._build_context(
+            results, user_message, session_history, model_id, api_key, model_config
+        )
 
         # 5. Stream response using provider-agnostic llm_service
         full_reply_text = ""
         async for chunk in generate_response_stream(
-            model_id, session_history, user_message, scheme_context, language=language, api_key=api_key, model_config=model_config
+            model_id, session_history, user_message, scheme_context,
+            language=language, api_key=api_key, model_config=model_config
         ):
             clean_chunk = re.sub(r'https?://[^\s)]+', '', chunk)
             clean_chunk = re.sub(r'\[Link\]\(\)', '', clean_chunk)
@@ -181,6 +222,79 @@ class RAGPipeline:
         # 6. Intent-gated Card Selection logic based on the full generated response
         scheme_cards = self._select_cards_if_needed(full_reply_text, user_message, results)
         yield {"type": "cards", "content": scheme_cards}
+
+
+    async def _build_context(
+        self,
+        results: list[dict],
+        user_message: str,
+        session_history: list[dict],
+        model_id: str,
+        api_key: str | None,
+        model_config: dict | None,
+    ) -> str:
+        """Build the scheme context string to inject into the LLM prompt.
+
+        Runs classify_detail_query() with the retrieved scheme names, then routes to one
+        of two context strategies:
+
+        - Detail path: user is asking a factual question about a specific named scheme.
+          Injects get_scheme_context() (full) for that scheme + compact summaries for
+          up to 3 others.  Total: ~3-6 KB.
+
+        - Broad path (default): user is discovering / listing schemes.
+          Injects get_scheme_summary_context() (compact) for all results.
+          Total: ~2-4 KB.
+
+        Both are far smaller than the old 15-full-context approach (~45 KB).
+        """
+        # Collect names from results for the classifier (must exist in slug_to_index)
+        retrieved_names = []
+        for r in results:
+            name = scheme_loader.slug_to_index.get(r['slug'], {}).get('schemeName', '')
+            if name:
+                retrieved_names.append(name)
+
+        # Classify
+        classification = await classify_detail_query(
+            model_id, user_message, session_history, retrieved_names,
+            api_key=api_key, model_config=model_config
+        )
+
+        context_parts = []
+
+        if classification.get('detail_request') and classification.get('scheme_name'):
+            target_name = classification['scheme_name']
+            target_slug = scheme_loader.find_scheme_slug_by_name(target_name)
+
+            if target_slug:
+                # Full detail for the target scheme
+                full_ctx = scheme_loader.get_scheme_context(target_slug)
+                context_parts.append(f'--- Scheme 1 (Full Detail) ---\n{full_ctx}')
+                print(f"[RAG Pipeline] Detail path: full context for '{target_slug}'")
+
+                # Compact summaries for the remaining results (up to 3)
+                others = [r for r in results if r['slug'] != target_slug][:3]
+                for i, res in enumerate(others, 2):
+                    ctx = scheme_loader.get_scheme_summary_context(res['slug'])
+                    context_parts.append(f'--- Scheme {i} (Summary) ---\n{ctx}')
+            else:
+                # Slug not found — fall through to broad path
+                print(f"[RAG Pipeline] Detail path: could not resolve slug for '{target_name}', "
+                      "falling back to summaries")
+                for i, res in enumerate(results, 1):
+                    ctx = scheme_loader.get_scheme_summary_context(res['slug'])
+                    context_parts.append(f'--- Scheme {i} ---\n{ctx}')
+        else:
+            # Broad path — compact summaries for all results
+            for i, res in enumerate(results, 1):
+                ctx = scheme_loader.get_scheme_summary_context(res['slug'])
+                context_parts.append(f'--- Scheme {i} ---\n{ctx}')
+
+        scheme_context = '\n\n'.join(context_parts)
+        print(f"[RAG Pipeline] Injected Context Length: {len(scheme_context)} characters "
+              f"(~{len(scheme_context) // 4} tokens)\n")
+        return scheme_context
 
     def _build_english_search_query(self, history: list[dict], current_message: str, language: str) -> str:
         """Translates regional terms into English concepts for ChromaDB search."""
@@ -211,30 +325,58 @@ class RAGPipeline:
         if not results:
             return []
 
-        # 1. Check if AI mentions scheme names / titles explicitly in text response
+        reply_lower = reply_text.lower()
+        user_lower = user_message.lower()
+
+        # 1. Check if AI mentions scheme names / titles in text response.
+        #    Uses bidirectional matching:
+        #    (a) Full DB name is a substring of the reply (exact)
+        #    (b) Slug appears in reply
+        #    (c) 2+ significant words (>5 chars) from the scheme name appear in the reply
+        #        — catches abbreviated names like "Weaver MUDRA Scheme" vs full DB name
         mentioned_slugs = []
         for res in results:
             slug = res['slug']
             idx = scheme_loader.slug_to_index.get(slug, {})
             name = idx.get('schemeName', '')
-            if slug in reply_text or (name and len(name) > 6 and name.lower() in reply_text.lower()):
+            if not name:
+                continue
+
+            # (a) exact slug or full name match
+            if slug in reply_text or name.lower() in reply_lower:
                 mentioned_slugs.append(slug)
+                continue
+
+            # (b) keyword overlap: count significant words from scheme name in reply
+            if len(name) > 6:
+                sig_words = [w for w in name.split() if len(w) > 5 and w.isalpha()]
+                if sig_words:
+                    matches = sum(1 for w in sig_words if w.lower() in reply_lower)
+                    # Require at least 3 distinctive word matches to avoid false positives
+                    # (2 was too loose — common words like "education"+"scholarship" caused
+                    # premature cards before the LLM had even asked for the user's state)
+                    if matches >= 3:
+                        mentioned_slugs.append(slug)
 
         if mentioned_slugs:
             return self._build_scheme_cards_for_slugs(mentioned_slugs[:4])
 
-        # 2. Check if user explicitly asked for a list or scheme recommendations
+        # 2. Check if user explicitly asked for schemes / a list
         user_explicitly_requested_list = any(
-            kw in user_message.lower() for kw in [
+            kw in user_lower for kw in [
                 'list', 'show list', 'give me list', 'show schemes', 'all schemes',
+                'what schemes', 'which schemes', 'schemes for me', 'schemes do you',
                 'yojana list', 'yojna list', 'recommend schemes', 'which scheme',
+                'schemes available', 'available schemes', 'tell me schemes',
                 'लिस्ट', 'सूची', 'दिखाएं', 'दीजिए', 'योजना दिखाओ', 'योजना की सूची'
             ]
         )
 
         ai_recommends_scheme = any(
-            kw in reply_text.lower() for kw in [
+            kw in reply_lower for kw in [
                 'suitable scheme', 'best scheme', 'recommended scheme',
+                'schemes available', 'following scheme', 'several scheme',
+                'wonderful scheme', 'great scheme', 'support program',
                 'उपयुक्त योजना', 'प्रमुख सरकारी योजना', 'नीचे दी गई योजना', 'निम्नलिखित योजना'
             ]
         )
@@ -245,6 +387,7 @@ class RAGPipeline:
 
         # 3. Otherwise (during intake Q&A like "I am a student" or "OBC"), DO NOT display card boxes yet
         return []
+
 
     def _build_scheme_cards_for_slugs(self, slugs: list[str]) -> list[str]:
         cards = []
