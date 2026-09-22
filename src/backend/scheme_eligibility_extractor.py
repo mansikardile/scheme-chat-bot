@@ -129,8 +129,8 @@ def _fast_extract_rules(eligibility_text: str, states: list[str], categories: li
         'disabled': 'Disabled', 'divyang': 'Disabled', 'pwd': 'Disabled',
     }
     found_cats = set()
-    # Check if category restriction is explicit
-    if re.search(r'belong to (?:sc|st|obc|vjnt|sbc|ews|minority)|category\s*:\s*(?:sc|st|obc|vjnt|sbc|ews)|only for (?:sc|st|obc|vjnt|sbc|ews|minority)|caste', text_lower):
+    # Check if category restriction is explicit in name or eligibility text
+    if re.search(r'belong to (?:sc|st|obc|vjnt|sbc|ews|minority)|category\s*:\s*(?:sc|st|obc|vjnt|sbc|ews)|only for (?:sc|st|obc|vjnt|sbc|ews|minority)|caste|scheduled tribe|scheduled caste|other backward|vimukta|nomadic tribe|special backward|ews candidate|st \(p\)|st\(p\)|st plains|st hills|\bst students?\b|\bsc students?\b|\bobc students?\b', text_lower):
         for pattern, cat in cat_map.items():
             if re.search(pattern, text_lower):
                 found_cats.add(cat)
@@ -175,14 +175,44 @@ def _fast_extract_rules(eligibility_text: str, states: list[str], categories: li
             raw_text="Must be Senior Citizen (Age >= 60)",
         ))
 
-    # --- NGOs / Institutional Grants (Not for individual citizens) ---
-    if re.search(r'\b(?:grant[- ]in[- ]aid to|grants? to ngos?|grants? are provided to the ngos|financial assistance to institutions|grant-in-aid to voluntary organizations?|for ngos|financial assistance to organizations?|run by a non-governmental)\b', text_lower):
+    # --- Tea Tribes & Adivasi Communities ---
+    if re.search(r'\b(?:tea tribes?|tea garden workers?|adivasi community)\b', text_lower):
         rules.append(EligibilityRule(
             field='special_condition',
             operator='IN',
-            value=['registered_ngo', 'ngo_institution'],
+            value=['tea_tribes', 'adivasi', 'tea_garden_worker'],
             mandatory=True,
-            raw_text="Only for registered NGOs and institutions",
+            raw_text="Must belong to Tea Tribes or Adivasi community",
+        ))
+
+    # --- Artists & Cultural Practitioners ---
+    if re.search(r'\b(?:artist welfare|cultural affairs|film producers?|filmmakers?|writers? welfare|authors?|journalists? welfare|performing artists?|distinguished artists?|artist welfare fund)\b', text_lower):
+        rules.append(EligibilityRule(
+            field='special_condition',
+            operator='IN',
+            value=['artist', 'cultural_artist', 'journalist', 'filmmaker'],
+            mandatory=True,
+            raw_text="Must be a practicing artist / cultural practitioner",
+        ))
+
+    # --- Institutional Grants & College/University Management (NOT for individual citizens/students) ---
+    if re.search(r'\b(?:grant[- ]in[- ]aid to|grants? to ngos?|grants? are provided to the ngos|financial assistance (?:from aicte )?to the institutions?|financial support to institutions?|grants? to institutions?|institutions for organizing|subscriptions of e-resources|developing students?\'? clubs|grant for organizing conference|short term training programme|for ngos|financial assistance to organizations?|run by a non-governmental|non-governmental organization|societies act|e-shodh sindhu|aicte-spices|spices scheme)\b', text_lower):
+        rules.append(EligibilityRule(
+            field='special_condition',
+            operator='IN',
+            value=['registered_ngo', 'ngo_institution', 'educational_institution', 'college_management'],
+            mandatory=True,
+            raw_text="Grant is only for registered institutions/organizations (not individual students)",
+        ))
+
+    # --- Teachers, Faculty, Superannuated Professors & Researchers ---
+    if re.search(r'\b(?:for teachers|training programs? for teachers|train faculty members|for faculty members|superannuated (?:professionals?|professors?)|chair professor fellowship|distinguished chair professor)\b', text_lower):
+        rules.append(EligibilityRule(
+            field='occupation',
+            operator='IN',
+            value=['teacher', 'faculty', 'professor', 'superannuated_professor'],
+            mandatory=True,
+            raw_text="Must be a teacher, faculty member, or retired professor",
         ))
 
     # --- Pre-Matric / School vs Higher Education ---

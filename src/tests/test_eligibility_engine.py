@@ -382,8 +382,72 @@ class TestEligibilityEngineEdgeCases:
             make_rule('annual_family_income', '<=', 250000),
         ]
         result = evaluate_scheme(user, rules)
-        assert result.status == EligibilityStatus.INELIGIBLE
         assert 'age' in result.failed_criteria or 'annual_family_income' in result.failed_criteria
+
+    def test_st_coaching_scheme_rejects_ews(self):
+        """Financial Assistance to ST Students for Coaching must reject EWS student."""
+        user = {
+            'state': 'Assam',
+            'gender': 'Female',
+            'category': 'EWS',
+            'education_level': 'undergraduate',
+        }
+        rules = [
+            make_rule('state', 'IN', ['Assam']),
+            make_rule('category', 'IN', ['ST']),
+        ]
+        result = evaluate_scheme(user, rules)
+        assert result.status == EligibilityStatus.INELIGIBLE
+        assert 'category' in result.failed_criteria
+
+    def test_tea_tribes_scheme_rejects_regular_student(self):
+        """Coaching For Higher Studies (Tea Tribes and Adivasi) must reject non-tea-tribe student."""
+        user = {
+            'state': 'Assam',
+            'gender': 'Female',
+            'category': 'EWS',
+            'education_level': 'undergraduate',
+            'special_condition': None,
+        }
+        rules = [
+            make_rule('state', 'IN', ['Assam']),
+            make_rule('special_condition', 'IN', ['tea_tribes', 'adivasi', 'tea_garden_worker']),
+        ]
+        result = evaluate_scheme(user, rules)
+        assert result.status == EligibilityStatus.INELIGIBLE
+        assert 'special_condition' in result.failed_criteria
+
+    def test_institutional_grant_rejects_individual_student(self):
+        """AICTE SPICES / conference grant for institutions must reject individual students."""
+        user = {
+            'state': 'Assam',
+            'gender': 'Female',
+            'category': 'EWS',
+            'education_level': 'undergraduate',
+            'occupation': 'student',
+        }
+        rules = [
+            make_rule('special_condition', 'IN', ['educational_institution', 'college_management', 'registered_ngo']),
+        ]
+        result = evaluate_scheme(user, rules)
+        assert result.status == EligibilityStatus.INELIGIBLE
+        assert 'special_condition' in result.failed_criteria
+
+    def test_faculty_fellowship_rejects_student(self):
+        """AICTE Distinguished Chair Professor Fellowship must reject student."""
+        user = {
+            'state': 'Assam',
+            'gender': 'Female',
+            'category': 'EWS',
+            'education_level': 'undergraduate',
+            'occupation': 'student',
+        }
+        rules = [
+            make_rule('occupation', 'IN', ['teacher', 'faculty', 'professor', 'superannuated_professor']),
+        ]
+        result = evaluate_scheme(user, rules)
+        assert result.status == EligibilityStatus.INELIGIBLE
+        assert 'occupation' in result.failed_criteria
 
 
 if __name__ == '__main__':

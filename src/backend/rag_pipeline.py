@@ -472,6 +472,8 @@ class RAGPipeline:
                     eligibility_text = elig_data.get('eligibilityDescription_md', '')
                 else:
                     eligibility_text = str(elig_data)
+                if not eligibility_text:
+                    eligibility_text = candidate.get('briefDescription', '')
 
             rules = await extract_scheme_rules(
                 slug=slug,
