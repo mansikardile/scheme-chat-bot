@@ -155,8 +155,46 @@ def _fast_extract_rules(eligibility_text: str, states: list[str], categories: li
                 raw_text=f"Category: {found_cats}",
             ))
 
-    # --- Education Level ---
-    if re.search(r'\b1st to 7th\b|\b1st to 10th\b|\b5th to 7th\b|\b5th to 8th\b|\bprimary\b|\bupper primary\b', text_lower):
+    # --- Disability Target Beneficiaries ---
+    if re.search(r'\b(?:disabled|disability|divyang|pwd|handicapped?|specially[- ]abled|swds?|special schools?)\b', text_lower) and not re.search(r'\bnon[- ]disabled\b', text_lower):
+        rules.append(EligibilityRule(
+            field='disability_status',
+            operator='IN',
+            value=['disabled'],
+            mandatory=True,
+            raw_text="Must have disability (PwD/Divyang)",
+        ))
+
+    # --- Senior Citizens / Old Age Target Beneficiaries ---
+    if re.search(r'\b(?:old age|senior citizens?|elderly|geriatric|destitute old|old men|old women|vridha|vridhashram|vriddha)\b', text_lower):
+        rules.append(EligibilityRule(
+            field='age',
+            operator='>=',
+            value=60,
+            mandatory=True,
+            raw_text="Must be Senior Citizen (Age >= 60)",
+        ))
+
+    # --- NGOs / Institutional Grants (Not for individual citizens) ---
+    if re.search(r'\b(?:grant[- ]in[- ]aid to|grants? to ngos?|grants? are provided to the ngos|financial assistance to institutions|grant-in-aid to voluntary organizations?|for ngos|financial assistance to organizations?|run by a non-governmental)\b', text_lower):
+        rules.append(EligibilityRule(
+            field='special_condition',
+            operator='IN',
+            value=['registered_ngo', 'ngo_institution'],
+            mandatory=True,
+            raw_text="Only for registered NGOs and institutions",
+        ))
+
+    # --- Pre-Matric / School vs Higher Education ---
+    if re.search(r'\b(?:pre[- ]?matr?ic|pre[- ]?metric|1st to 10th|primary school|upper primary|class 1 to 10|standard 1 to 10|school children|swds in school|special children below the age of 18)\b', text_lower):
+        rules.append(EligibilityRule(
+            field='education_level',
+            operator='IN',
+            value=['primary', 'upper_primary', 'secondary'],
+            mandatory=True,
+            raw_text="School / Pre-Matric level only",
+        ))
+    elif re.search(r'\b1st to 7th\b|\b1st to 10th\b|\b5th to 7th\b|\b5th to 8th\b|\bprimary\b|\bupper primary\b', text_lower):
         rules.append(EligibilityRule(
             field='education_level',
             operator='IN',
@@ -266,16 +304,6 @@ def _fast_extract_rules(eligibility_text: str, states: list[str], categories: li
             raw_text="Must be an active farmer",
         ))
 
-    # Disability / Divyang mandatory schemes
-    if re.search(r'only for disabled|exclusively for (?:pwd|divyang|disabled)|for disabled candidates|special scheme for divyang', text_lower):
-        rules.append(EligibilityRule(
-            field='disability_status',
-            operator='IN',
-            value=['disabled'],
-            mandatory=True,
-            raw_text="Must have disability (Divyang/PwD)",
-        ))
-
     # Sainik School
     if re.search(r'sainik school', text_lower):
         rules.append(EligibilityRule(
@@ -305,26 +333,25 @@ def _fast_extract_rules(eligibility_text: str, states: list[str], categories: li
     if income_lakh:
         try:
             val = int(float(income_lakh.group(1)) * 100_000)
-            rules.append(EligibilityRule(
-                field='annual_family_income',
-                operator='<=',
-                value=val,
-                mandatory=True,
-                raw_text=f"Income <= {val}",
-            ))
+            if 20000 <= val <= 50_000_000:
+                rules.append(EligibilityRule(
+                    field='annual_family_income',
+                    operator='<=',
+                    value=val,
+                    mandatory=True,
+                    raw_text=f"Income <= {val}",
+                ))
         except ValueError:
             pass
     else:
         income_match = re.search(
-            r'(?:income|earning)[^₹\d]*[₹rs\.]*\s*([\d,]+)\s*(?:/-|per annum|pa|annually)?',
+            r'(?:income|earning)[^₹\d]*[₹rs\.]*\s*([\d,]{4,8})\s*(?:/-|per annum|pa|annually)?',
             text_lower
         )
         if income_match:
             try:
                 income_val = int(income_match.group(1).replace(',', ''))
-                if income_val <= 100:
-                    income_val *= 100_000
-                if income_val >= 10000:
+                if 20000 <= income_val <= 50_000_000:
                     rules.append(EligibilityRule(
                         field='annual_family_income',
                         operator='<=',
@@ -336,15 +363,34 @@ def _fast_extract_rules(eligibility_text: str, states: list[str], categories: li
                 pass
 
     # --- Age ---
-    age_match = re.search(r'age[d\s]*(?:between|from)?\s*(\d{1,2})\s*(?:to|and|-)\s*(\d{1,2})', text_lower)
-    if age_match:
+    age_between = re.search(r'age\s*(?:group|limit|bracket)?\s*(?:of|between|from|in|is)?\s*(\d{1,2})\s*(?:to|and|-)\s*(\d{1,2})', text_lower)
+    if age_between:
         rules.append(EligibilityRule(
             field='age',
             operator='BETWEEN',
-            value=[int(age_match.group(1)), int(age_match.group(2))],
+            value=[int(age_between.group(1)), int(age_between.group(2))],
             mandatory=True,
-            raw_text=f"Age {age_match.group(1)}-{age_match.group(2)}",
+            raw_text=f"Age {age_between.group(1)}-{age_between.group(2)}",
         ))
+    else:
+        age_above = re.search(r'(?:above|greater than|minimum age|at least)\s*(?:the\s*age\s*of)?\s*(\d{1,2})\s*(?:years|yrs)?', text_lower)
+        if age_above:
+            rules.append(EligibilityRule(
+                field='age',
+                operator='>=',
+                value=int(age_above.group(1)),
+                mandatory=True,
+                raw_text=f"Age >= {age_above.group(1)}",
+            ))
+        age_below = re.search(r'(?:below|under|less than|maximum age|up to)\s*(?:the\s*age\s*of)?\s*(\d{1,2})\s*(?:years|yrs)?', text_lower)
+        if age_below:
+            rules.append(EligibilityRule(
+                field='age',
+                operator='<=',
+                value=int(age_below.group(1)),
+                mandatory=True,
+                raw_text=f"Age <= {age_below.group(1)}",
+            ))
 
     return rules if rules else None
 

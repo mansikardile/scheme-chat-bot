@@ -180,6 +180,7 @@ CURATED_PRIVATE_SCHEMES = [
 3. Annual family income up to ₹6,00,000.""",
         'application_url': 'https://www.reliancefoundation.org',
         'rules': [
+            EligibilityRule(field='special_condition', operator='IN', value=['handloom_weaver', 'traditional_artisan', 'weaver', 'artisan', 'shg_member', 'farmer'], mandatory=True, raw_text='Rural artisan, handloom weaver or farmer'),
             EligibilityRule(field='annual_family_income', operator='<=', value=600000, mandatory=True, raw_text='Income <= ₹6 LPA'),
         ]
     },

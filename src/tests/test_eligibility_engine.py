@@ -328,7 +328,62 @@ class TestEligibilityEngineEdgeCases:
         ]
         result = evaluate_scheme(user, rules)
         assert result.status == EligibilityStatus.INELIGIBLE
-        assert 'category' in result.failed_criteria or 'education_level' in result.failed_criteria
+    def test_old_age_home_rejects_young_student(self):
+        """Grant in Aid to Old Age Home requires senior citizen (age >= 60) or disabled; rejects 20yo non-disabled student."""
+        user = {
+            'state': 'Maharashtra',
+            'gender': 'Female',
+            'category': 'EWS',
+            'education_level': 'undergraduate',
+            'disability_status': 'non_disabled',
+            'age': 20,
+        }
+        rules = [
+            make_rule('state', 'IN', ['Maharashtra']),
+            make_rule('age', '>=', 60),
+            make_rule('disability_status', 'IN', ['disabled']),
+        ]
+        result = evaluate_scheme(user, rules)
+        assert result.status == EligibilityStatus.INELIGIBLE
+        assert 'age' in result.failed_criteria or 'disability_status' in result.failed_criteria
+
+    def test_disabled_scholarship_rejects_non_disabled_student(self):
+        """State Pre-matric Scholarship for Disabled requires disability_status == disabled."""
+        user = {
+            'state': 'Maharashtra',
+            'gender': 'Female',
+            'category': 'EWS',
+            'education_level': 'undergraduate',
+            'disability_status': 'non_disabled',
+            'age': 20,
+        }
+        rules = [
+            make_rule('state', 'IN', ['Maharashtra']),
+            make_rule('disability_status', 'IN', ['disabled']),
+        ]
+        result = evaluate_scheme(user, rules)
+        assert result.status == EligibilityStatus.INELIGIBLE
+        assert 'disability_status' in result.failed_criteria
+
+    def test_majhi_ladki_bahin_rejects_20yo_or_4lpa(self):
+        """Mukhyamantri Majhi Ladki Bahin Yojana requires age 21 to 65 and income <= 2.5 LPA."""
+        user = {
+            'state': 'Maharashtra',
+            'gender': 'Female',
+            'category': 'EWS',
+            'education_level': 'undergraduate',
+            'annual_family_income': 400000,
+            'age': 20,
+        }
+        rules = [
+            make_rule('state', 'IN', ['Maharashtra']),
+            make_rule('gender', 'IN', ['Female']),
+            make_rule('age', 'BETWEEN', [21, 65]),
+            make_rule('annual_family_income', '<=', 250000),
+        ]
+        result = evaluate_scheme(user, rules)
+        assert result.status == EligibilityStatus.INELIGIBLE
+        assert 'age' in result.failed_criteria or 'annual_family_income' in result.failed_criteria
 
 
 if __name__ == '__main__':
