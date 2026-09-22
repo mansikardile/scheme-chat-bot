@@ -195,8 +195,28 @@ def _fast_extract_rules(eligibility_text: str, states: list[str], categories: li
             raw_text="Must be a practicing artist / cultural practitioner",
         ))
 
+    # --- Animal Husbandry, Dairy, Cattle, Livestock & Pashupalan ---
+    if re.search(r'\b(?:milk producer|animal rearer|animal husbandry|gau samvardhan|cow rearing|cattle rearer|purchase.*cows?|dairy development|nand baba milk mission|livestock|pashupalan|dairy farming|poultry farming|goat rearing|sheep rearing|fishery|fish farmer|fodder cutting machine|shed construction for animals)\b', text_lower):
+        rules.append(EligibilityRule(
+            field='special_condition',
+            operator='IN',
+            value=['milk_producer', 'animal_rearer', 'dairy_farmer', 'cattle_rearer', 'animal_husbandry', 'livestock_farmer', 'farmer'],
+            mandatory=True,
+            raw_text="Must be a milk producer, cattle rearer, or dairy farmer",
+        ))
+
+    # --- Factory, Commercial Establishment & Construction Workers (Shramik / BOCW) ---
+    if re.search(r'\b(?:worker employed in a registered factory|commercial establishment, or shop|shops and commercial establishments act|factories act|shramik puraskar|shramik pustak|daughters of construction workers|children of construction workers|registered construction workers?|unorganized workers?|bocww?|upbocw|labour welfare fund|e-shram card)\b', text_lower):
+        rules.append(EligibilityRule(
+            field='special_condition',
+            operator='IN',
+            value=['factory_worker', 'shop_worker', 'commercial_worker', 'construction_worker', 'registered_labourer', 'factory_worker_dependent', 'construction_worker_dependent'],
+            mandatory=True,
+            raw_text="Must be registered worker/labourer or dependent of factory/construction worker",
+        ))
+
     # --- Institutional Grants & College/University Management (NOT for individual citizens/students) ---
-    if re.search(r'\b(?:grant[- ]in[- ]aid to|grants? to ngos?|grants? are provided to the ngos|financial assistance (?:from aicte )?to the institutions?|financial support to institutions?|grants? to institutions?|institutions for organizing|subscriptions of e-resources|developing students?\'? clubs|grant for organizing conference|short term training programme|for ngos|financial assistance to organizations?|run by a non-governmental|non-governmental organization|societies act|e-shodh sindhu|aicte-spices|spices scheme)\b', text_lower):
+    if re.search(r'\b(?:grant[- ]in[- ]aid to|grants? to ngos?|grants? are provided to the ngos|financial assistance (?:from aicte )?to the institutions?|financial support to institutions?|grants? to institutions?|institutions for organizing|subscriptions of e-resources|developing students?\'? clubs|grant for organizing conference|short term training programme|for ngos|financial assistance to organizations?|run by a non-governmental|non-governmental organization|societies act|e-shodh sindhu|aicte-spices|spices scheme|idea lab scheme|aicte-idea|setting up idea labs|aicte approved institutions? imparted|nba accreditation)\b', text_lower):
         rules.append(EligibilityRule(
             field='special_condition',
             operator='IN',
@@ -205,14 +225,14 @@ def _fast_extract_rules(eligibility_text: str, states: list[str], categories: li
             raw_text="Grant is only for registered institutions/organizations (not individual students)",
         ))
 
-    # --- Teachers, Faculty, Superannuated Professors & Researchers ---
-    if re.search(r'\b(?:for teachers|training programs? for teachers|train faculty members|for faculty members|superannuated (?:professionals?|professors?)|chair professor fellowship|distinguished chair professor)\b', text_lower):
+    # --- Teachers, Faculty, Superannuated / Visiting Professors, Librarians & Researchers ---
+    if re.search(r'\b(?:for teachers|training programs? for teachers|train faculty members|for faculty members|superannuated (?:professionals?|professors?)|chair professor fellowship|distinguished chair professor|distinguished visiting professor|industry experts?.*visiting professor|for librarians|training to librarians|librarians? to prepare|technical teachers|inductee teachers|teaching faculties|faculty development|refresher programme|induction/refresher|professional development scheme|meritorious faculty|regular faculty|full time regular faculty)\b', text_lower):
         rules.append(EligibilityRule(
             field='occupation',
             operator='IN',
-            value=['teacher', 'faculty', 'professor', 'superannuated_professor'],
+            value=['teacher', 'faculty', 'professor', 'superannuated_professor', 'visiting_professor', 'librarian', 'technical_teacher'],
             mandatory=True,
-            raw_text="Must be a teacher, faculty member, or retired professor",
+            raw_text="Must be a teacher, faculty member, visiting professor, or librarian",
         ))
 
     # --- Pre-Matric / School vs Higher Education ---

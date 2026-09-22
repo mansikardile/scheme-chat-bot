@@ -433,21 +433,39 @@ class TestEligibilityEngineEdgeCases:
         assert result.status == EligibilityStatus.INELIGIBLE
         assert 'special_condition' in result.failed_criteria
 
-    def test_faculty_fellowship_rejects_student(self):
-        """AICTE Distinguished Chair Professor Fellowship must reject student."""
+    def test_dairy_cow_scheme_rejects_student(self):
+        """Mukhyamantri Svadeshi Gau Samvardhan Yojana must reject regular students without dairy farming."""
         user = {
-            'state': 'Assam',
+            'state': 'Uttar Pradesh',
             'gender': 'Female',
             'category': 'EWS',
             'education_level': 'undergraduate',
-            'occupation': 'student',
+            'special_condition': None,
         }
         rules = [
-            make_rule('occupation', 'IN', ['teacher', 'faculty', 'professor', 'superannuated_professor']),
+            make_rule('state', 'IN', ['Uttar Pradesh']),
+            make_rule('special_condition', 'IN', ['milk_producer', 'animal_rearer', 'dairy_farmer', 'cattle_rearer', 'animal_husbandry']),
         ]
         result = evaluate_scheme(user, rules)
         assert result.status == EligibilityStatus.INELIGIBLE
-        assert 'occupation' in result.failed_criteria
+        assert 'special_condition' in result.failed_criteria
+
+    def test_factory_shramik_scheme_rejects_regular_student(self):
+        """Ganesh Shankar Vidyarthi Shramik Puraskar must reject students whose parents aren't factory/BOCW workers."""
+        user = {
+            'state': 'Uttar Pradesh',
+            'gender': 'Female',
+            'category': 'EWS',
+            'education_level': 'undergraduate',
+            'special_condition': None,
+        }
+        rules = [
+            make_rule('state', 'IN', ['Uttar Pradesh']),
+            make_rule('special_condition', 'IN', ['factory_worker', 'shop_worker', 'commercial_worker', 'construction_worker', 'registered_labourer']),
+        ]
+        result = evaluate_scheme(user, rules)
+        assert result.status == EligibilityStatus.INELIGIBLE
+        assert 'special_condition' in result.failed_criteria
 
 
 if __name__ == '__main__':
