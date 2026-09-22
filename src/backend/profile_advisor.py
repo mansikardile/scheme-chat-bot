@@ -173,6 +173,7 @@ def build_profile_summary_text(user_profile: dict) -> tuple[str, list[str]]:
         'residential_status': 'Residential status', 'institution_type': 'Institution type',
         'district': 'District', 'marital_status': 'Marital status',
         'employment_status': 'Employment status', 'occupation': 'Occupation',
+        'farmer_status': 'Farmer status', 'land_holding': 'Agricultural land holding',
     }
 
     collected = []
@@ -186,6 +187,13 @@ def build_profile_summary_text(user_profile: dict) -> tuple[str, list[str]]:
                     display = f"₹{val/100_000:.1f}L/year"
                 else:
                     display = str(val)
+            elif field == 'land_holding':
+                if isinstance(val, (int, float)):
+                    display = f"{val} acre(s)" if val > 0 else "Landless / 0 acres"
+                else:
+                    display = str(val)
+            elif field == 'farmer_status':
+                display = "Registered Farmer" if val == 'registered_farmer' else str(val).replace('_', ' ').title()
             elif field == 'disability_status':
                 display = "No (Non-disabled)" if val == 'non-disabled' else ("Yes (Divyang / PwD)" if val == 'disabled' else str(val))
             elif field == 'minority_status':

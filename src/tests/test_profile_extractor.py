@@ -98,14 +98,28 @@ def test_typos_and_standalone_age():
     assert extract_profile_fields_fast("autonimous", history_inst) == {'institution_type': 'autonomous'}
 
     # Income safeguard
-    session = ChatSession("test_session")
+    session = ChatSession('test-sess')
     session.update_profile({'annual_family_income': 400000})
+    session.update_profile({'annual_family_income': 0})
     assert session.get_profile()['annual_family_income'] == 400000
 
     # Overwrite attempt with 0
     session.update_profile({'annual_family_income': 0, 'age': 20})
     assert session.get_profile()['annual_family_income'] == 400000
     assert session.get_profile()['age'] == 20
+
+
+def test_land_holding_extraction():
+    history_land = [{'role': 'model', 'content': 'How much agricultural land do you own (in acres or hectares)?'}]
+
+    assert extract_profile_fields_fast("i own .5 acre land", history_land).get('land_holding') == 0.5
+    assert extract_profile_fields_fast("i have poin 5 acre land", history_land).get('land_holding') == 0.5
+    assert extract_profile_fields_fast("i have a acre land broo", history_land).get('land_holding') == 1.0
+    assert extract_profile_fields_fast("half acre", history_land).get('land_holding') == 0.5
+    assert extract_profile_fields_fast("2.5 acres", history_land).get('land_holding') == 2.5
+    assert extract_profile_fields_fast("landless", history_land).get('land_holding') == 0.0
+    assert extract_profile_fields_fast("no land", history_land).get('land_holding') == 0.0
+
 
 
 

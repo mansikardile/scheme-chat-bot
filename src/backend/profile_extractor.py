@@ -261,6 +261,49 @@ def _extract_age(text_lower: str) -> int | None:
         if 5 <= val <= 100:
             return val
 
+def _extract_land_holding(text_lower: str) -> float | str | None:
+    """
+    Extract agricultural land holding size in acres.
+    Handles '0.5 acre', '.5 acre', 'poin 5 acre', 'point 5 acre', 'a acre', 'half acre', '2 acres', 'landless', etc.
+    """
+    # "no land", "landless", "zero land", "0 acre"
+    if re.search(r'\b(?:no land|landless|zero land|dont own|do not own|no agricultural land|without land)\b', text_lower):
+        return 0.0
+
+    # "point 5", "poin 5", "pt 5", "point5"
+    m = re.search(r'(?:point|poin|pt)\s*(\d+)', text_lower)
+    if m:
+        try:
+            return float(f"0.{m.group(1)}")
+        except ValueError:
+            pass
+
+    # "half acre", "1/2 acre", "half an acre"
+    if re.search(r'\b(?:half|1/2)\s*(?:an?\s*)?(?:acres?|hectares?|ha|ac)?\b', text_lower):
+        return 0.5
+
+    # "a acre", "an acre", "one acre", "1 acre"
+    if re.search(r'\b(?:a|an|one)\s+(?:acres?|hectares?|ha|ac|bigha|guntha)\b', text_lower):
+        return 1.0
+
+    # Explicit number + unit: ".5 acre", "0.5 acre", "2.5 acres", "5 acres", "2 hectare", "10 bigha", "20 guntha"
+    m = re.search(r'(?:^|[^\w.])(\.?\d+(?:\.\d+)?)\s*(?:acres?|hectares?|ha|ac|bighas?|gunthas?)\b', text_lower)
+    if m:
+        try:
+            val = float(m.group(1))
+            return val
+        except ValueError:
+            pass
+
+    # "i own .5", "i have 2.5", "own 2", "have 5"
+    m = re.search(r'(?:own|have|got|is)\s+(\.?\d+(?:\.\d+)?)\s*(?:land)?\b', text_lower)
+    if m:
+        try:
+            val = float(m.group(1))
+            return val
+        except ValueError:
+            pass
+
     return None
 
 
@@ -311,6 +354,10 @@ def extract_profile_fields_fast(message: str, conversation_history: list[dict] |
     age = _extract_age(text_lower)
     if age is not None:
         fields['age'] = age
+
+    land = _extract_land_holding(text_lower)
+    if land is not None:
+        fields['land_holding'] = land
 
     # Occupation & Special Conditions
     if re.search(r'\b(?:weaver|handloom|bunkar|vankar|powerloom|textile worker|textile artisan)\b', text_lower):
@@ -402,6 +449,18 @@ def extract_profile_fields_fast(message: str, conversation_history: list[dict] |
                 if 5 <= val <= 100:
                     fields['age'] = val
 
+        elif 'land' in last_question or 'acre' in last_question or 'hectare' in last_question:
+            land_val = _extract_land_holding(text_lower)
+            if land_val is not None:
+                fields['land_holding'] = land_val
+            else:
+                num_m = re.search(r'([\d.]+)', text_lower)
+                if num_m:
+                    try:
+                        fields['land_holding'] = float(num_m.group(1))
+                    except ValueError:
+                        pass
+
         elif 'disability' in last_question or 'divyang' in last_question or 'pwd' in last_question:
             if is_no or 'no' in text_lower.split():
                 fields['disability_status'] = 'non-disabled'
@@ -484,10 +543,14 @@ Available fields:
 - marital_status: "single", "married", "widow", "widower"
 - institution_type: "government_aided", "private_unaided", "autonomous"
 - occupation: e.g. "farmer", "teacher", "entrepreneur", "weaver", "artisan"
+- farmer_status: "registered_farmer", "farmer", "non-farmer"
+- land_holding: float/integer number in acres (e.g. 0.5, 1.0, 2.5) or "landless"
 - district: district name string
 
 Special normalizations:
 - If bot asked "How old are you?" and user says "20" -> age: 20
+- If bot asked "How much agricultural land" and user says ".5 acre" / "poin 5 acre" / "half acre" -> land_holding: 0.5
+- If bot asked "How much agricultural land" and user says "a acre" / "1 acre" -> land_holding: 1.0
 - If bot asked "Do you have any disability" and user says "no" -> disability_status: "non-disabled"
 - If bot asked "Do you belong to minority" and user says "no" -> minority_status: "non-minority"
 - "DSY" / "Direct Second Year" -> study_stage: "direct_second_year" AND education_level: "undergraduate"
