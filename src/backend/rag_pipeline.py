@@ -57,11 +57,12 @@ def _build_detail_context(slug: str) -> str:
 # Candidate retrieval from DuckDB
 # ---------------------------------------------------------------------------
 
-def _retrieve_candidates(user_profile: dict, limit: int = 35) -> list[dict]:
+def _retrieve_candidates(user_profile: dict, user_message: str = '', limit: int = 40) -> list[dict]:
     """
-    Retrieve candidate schemes from DuckDB using the user profile.
-    This is a BROAD retrieval — we get candidates based on state and domain
-    (education, agriculture, employment, etc.) and then filter deterministically.
+    Retrieve candidate schemes from DuckDB using the user profile and query.
+    This is a BROAD retrieval across all citizen domains (education, agriculture,
+    weavers, artisans, business, employment, housing, health, women, disability, etc.)
+    which are then strictly filtered by the deterministic eligibility engine.
     """
     from backend.config import SCHEMES_DB_PATH
     import duckdb
@@ -71,6 +72,9 @@ def _retrieve_candidates(user_profile: dict, limit: int = 35) -> list[dict]:
     edu = user_profile.get('education_level') or ''
     stage = user_profile.get('study_stage') or ''
     occupation = user_profile.get('occupation') or ''
+    spec_cond = user_profile.get('special_condition') or ''
+    gender = user_profile.get('gender') or ''
+    msg_lower = (user_message or '').lower()
 
     try:
         conn = duckdb.connect(SCHEMES_DB_PATH, read_only=True)
@@ -85,7 +89,24 @@ def _retrieve_candidates(user_profile: dict, limit: int = 35) -> list[dict]:
 
         # 2. Broad domain conditions
         domain_conditions = []
-        if edu or course or stage:
+
+        # Weavers & Artisans
+        if occupation in ('weaver', 'artisan') or spec_cond in ('handloom_weaver', 'traditional_artisan') or any(w in msg_lower for w in ['weaver', 'bunkar', 'vankar', 'handloom', 'powerloom', 'artisan', 'craftsman', 'karigar', 'vishwakarma']):
+            domain_conditions.extend([
+                "search_text ILIKE '%weaver%'",
+                "search_text ILIKE '%handloom%'",
+                "search_text ILIKE '%powerloom%'",
+                "search_text ILIKE '%artisan%'",
+                "search_text ILIKE '%craftsman%'",
+                "search_text ILIKE '%textile%'",
+                "search_text ILIKE '%vishwakarma%'",
+                "categories ILIKE '%Handicrafts%'",
+                "categories ILIKE '%Textiles%'",
+                "categories ILIKE '%Skills%'",
+            ])
+
+        # Education & Students
+        if edu or course or stage or occupation == 'student' or any(w in msg_lower for w in ['student', 'scholarship', 'study', 'college', 'engineering']):
             domain_conditions.extend([
                 "categories ILIKE '%Education%'",
                 "search_text ILIKE '%scholarship%'",
@@ -98,18 +119,82 @@ def _retrieve_candidates(user_profile: dict, limit: int = 35) -> list[dict]:
                 domain_conditions.append("search_text ILIKE ?")
                 params.append(f"%{course}%")
 
-        if user_profile.get('farmer_status') or occupation == 'farmer':
+        # Farmers & Agriculture
+        if user_profile.get('farmer_status') or occupation == 'farmer' or any(w in msg_lower for w in ['farmer', 'kisan', 'krishi', 'crop', 'dairy']):
             domain_conditions.extend([
                 "categories ILIKE '%Agriculture%'",
                 "search_text ILIKE '%farmer%'",
                 "search_text ILIKE '%kisan%'",
+                "search_text ILIKE '%krishi%'",
+                "search_text ILIKE '%crop%'",
             ])
 
-        if user_profile.get('housing_status'):
+        # Business / MSME / Street Vendors
+        if occupation in ('business_owner', 'street_vendor') or user_profile.get('employment_status') == 'self_employed' or any(w in msg_lower for w in ['business', 'msme', 'loan', 'vendor', 'shop', 'svanidhi', 'mudra', 'startup']):
+            domain_conditions.extend([
+                "categories ILIKE '%Business%'",
+                "categories ILIKE '%Banking%'",
+                "search_text ILIKE '%msme%'",
+                "search_text ILIKE '%business%'",
+                "search_text ILIKE '%vendor%'",
+                "search_text ILIKE '%svanidhi%'",
+                "search_text ILIKE '%mudra%'",
+                "search_text ILIKE '%enterprise%'",
+                "search_text ILIKE '%loan%'",
+            ])
+
+        # Construction & Unorganized Workers
+        if occupation == 'construction_worker' or spec_cond in ('construction_worker', 'landless_labourer') or any(w in msg_lower for w in ['worker', 'labour', 'construction', 'mazdoor', 'eshram']):
+            domain_conditions.extend([
+                "search_text ILIKE '%construction%'",
+                "search_text ILIKE '%labour%'",
+                "search_text ILIKE '%worker%'",
+                "search_text ILIKE '%bocw%'",
+                "search_text ILIKE '%unorganized%'",
+                "search_text ILIKE '%eshram%'",
+            ])
+
+        # Housing
+        if user_profile.get('housing_status') or any(w in msg_lower for w in ['housing', 'house', 'awas', 'home']):
             domain_conditions.extend([
                 "categories ILIKE '%Housing%'",
                 "search_text ILIKE '%awas%'",
                 "search_text ILIKE '%housing%'",
+            ])
+
+        # Health
+        if any(w in msg_lower for w in ['health', 'hospital', 'treatment', 'ayushman', 'medical', 'insurance']):
+            domain_conditions.extend([
+                "categories ILIKE '%Health%'",
+                "search_text ILIKE '%ayushman%'",
+                "search_text ILIKE '%health%'",
+                "search_text ILIKE '%medical%'",
+            ])
+
+        # Women specific
+        if gender == 'Female' or any(w in msg_lower for w in ['women', 'girl', 'mahila', 'widow', 'female', 'kanya']):
+            domain_conditions.extend([
+                "categories ILIKE '%Women%'",
+                "search_text ILIKE '%women%'",
+                "search_text ILIKE '%mahila%'",
+                "search_text ILIKE '%kanya%'",
+            ])
+
+        # Senior Citizens
+        if (user_profile.get('age') and int(user_profile.get('age', 0)) >= 60) or any(w in msg_lower for w in ['senior', 'pension', 'elderly', 'old age']):
+            domain_conditions.extend([
+                "search_text ILIKE '%senior%'",
+                "search_text ILIKE '%pension%'",
+                "search_text ILIKE '%elderly%'",
+                "search_text ILIKE '%old age%'",
+            ])
+
+        # Disability
+        if user_profile.get('disability_status') == 'disabled' or any(w in msg_lower for w in ['disabled', 'divyang', 'pwd', 'handicap']):
+            domain_conditions.extend([
+                "search_text ILIKE '%disabled%'",
+                "search_text ILIKE '%divyang%'",
+                "search_text ILIKE '%pwd%'",
             ])
 
         if domain_conditions:
@@ -347,7 +432,7 @@ class RAGPipeline:
             )
 
         # 1. Broad candidate retrieval: Government (DuckDB) + Private/CSR (Curated + AI Search)
-        gov_task = asyncio.to_thread(_retrieve_candidates, profile, limit=25)
+        gov_task = asyncio.to_thread(_retrieve_candidates, profile, user_message, 40)
         pvt_task = search_private_schemes_ai(profile, model_id=model_id, api_key=api_key, model_config=model_config)
 
         gov_candidates, pvt_candidates = await asyncio.gather(gov_task, pvt_task)

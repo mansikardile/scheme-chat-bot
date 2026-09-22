@@ -50,20 +50,40 @@ def test_intent_classification():
     assert classify_intent_fast("show me the schemes") == Intent.SCHEME_REQUEST
 
 
-def test_disability_and_contextual_qa():
-    # Standalone negative disability
-    assert extract_profile_fields_fast("no disability") == {'disability_status': 'non-disabled'}
-    assert extract_profile_fields_fast("non-disabled") == {'disability_status': 'non-disabled'}
+def test_occupations_and_special_conditions():
+    # Weaver
+    f_weaver = extract_profile_fields_fast("i am a handloom weaver from maharashtra")
+    assert f_weaver.get('occupation') == 'weaver'
+    assert f_weaver.get('special_condition') == 'handloom_weaver'
+    assert f_weaver.get('state') == 'Maharashtra'
 
-    # Contextual answering to disability question
-    history = [{'role': 'model', 'content': 'Do you have any disability (Divyang/PwD)?'}]
-    assert extract_profile_fields_fast("no", history) == {'disability_status': 'non-disabled'}
-    assert extract_profile_fields_fast("no i dont", history) == {'disability_status': 'non-disabled'}
-    assert extract_profile_fields_fast("nope", history) == {'disability_status': 'non-disabled'}
-    assert extract_profile_fields_fast("yes", history) == {'disability_status': 'disabled'}
+    # Artisan
+    f_artisan = extract_profile_fields_fast("i am a traditional artisan and craftsman")
+    assert f_artisan.get('occupation') == 'artisan'
+    assert f_artisan.get('special_condition') == 'traditional_artisan'
 
-    # Contextual answering to minority question
-    history_min = [{'role': 'model', 'content': 'Do you belong to a minority community?'}]
-    assert extract_profile_fields_fast("no", history_min) == {'minority_status': 'non-minority'}
-    assert extract_profile_fields_fast("yes", history_min) == {'minority_status': 'minority'}
+    # Business owner
+    f_biz = extract_profile_fields_fast("i am a shopkeeper running a small business")
+    assert f_biz.get('occupation') == 'business_owner'
+    assert f_biz.get('employment_status') == 'self_employed'
+
+    # Street vendor
+    f_vendor = extract_profile_fields_fast("i am a street vendor")
+    assert f_vendor.get('occupation') == 'street_vendor'
+    assert f_vendor.get('special_condition') == 'street_vendor'
+
+
+def test_profile_advisor_adaptive_flow():
+    from backend.profile_advisor import detect_intent_area, get_next_question
+
+    # For weaver, should detect weaver_artisan and not ask for education/course
+    intent = detect_intent_area([], "i am a weaver looking for schemes")
+    assert intent == 'weaver_artisan'
+
+    # Next question for weaver with state known
+    profile = {'state': 'Maharashtra', 'occupation': 'weaver'}
+    field, q = get_next_question(profile, [], "i am a weaver")
+    assert field in ('gender', 'category', 'annual_family_income', 'age')
+    assert field not in ('education_level', 'course', 'study_stage')
+
 

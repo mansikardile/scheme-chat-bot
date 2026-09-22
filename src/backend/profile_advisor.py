@@ -42,6 +42,9 @@ FIELD_QUESTIONS: dict[str, str] = {
 # ---------------------------------------------------------------------------
 
 INTENT_REQUIRED_FIELDS: dict[str, list[str]] = {
+    'weaver_artisan': [
+        'state', 'gender', 'category', 'annual_family_income', 'age',
+    ],
     'student_scholarship': [
         'state', 'gender', 'category', 'education_level', 'course',
         'study_stage', 'annual_family_income', 'disability_status', 'minority_status',
@@ -50,6 +53,12 @@ INTENT_REQUIRED_FIELDS: dict[str, list[str]] = {
     'farmer': [
         'state', 'farmer_status', 'land_holding', 'annual_family_income',
         'category', 'age',
+    ],
+    'business': [
+        'state', 'category', 'gender', 'annual_family_income', 'employment_status', 'age',
+    ],
+    'labour_worker': [
+        'state', 'gender', 'category', 'annual_family_income', 'age',
     ],
     'women_welfare': [
         'state', 'category', 'age', 'marital_status', 'annual_family_income',
@@ -65,9 +74,6 @@ INTENT_REQUIRED_FIELDS: dict[str, list[str]] = {
     'health': [
         'state', 'annual_family_income', 'category', 'age',
     ],
-    'business': [
-        'state', 'category', 'age', 'annual_family_income', 'employment_status',
-    ],
     'disability': [
         'state', 'disability_status', 'category', 'annual_family_income', 'age',
     ],
@@ -75,26 +81,39 @@ INTENT_REQUIRED_FIELDS: dict[str, list[str]] = {
         'state', 'age', 'annual_family_income', 'category',
     ],
     'general': [
-        'state', 'gender', 'category', 'education_level', 'annual_family_income', 'age',
+        'state', 'gender', 'category', 'annual_family_income', 'age',
     ],
 }
 
-# Keywords that indicate intent area
+# Keywords that indicate intent area (ordered by priority/specificity)
 _INTENT_KEYWORDS: list[tuple[str, str]] = [
+    ('weaver', 'weaver_artisan'), ('bunkar', 'weaver_artisan'), ('vankar', 'weaver_artisan'),
+    ('handloom', 'weaver_artisan'), ('powerloom', 'weaver_artisan'), ('textile', 'weaver_artisan'),
+    ('artisan', 'weaver_artisan'), ('craftsman', 'weaver_artisan'), ('karigar', 'weaver_artisan'),
+    ('potter', 'weaver_artisan'), ('blacksmith', 'weaver_artisan'), ('carpenter', 'weaver_artisan'),
+    ('sculptor', 'weaver_artisan'), ('cobbler', 'weaver_artisan'), ('tailor', 'weaver_artisan'),
+    ('vishwakarma', 'weaver_artisan'),
+    ('farmer', 'farmer'), ('kisan', 'farmer'), ('agri', 'farmer'), ('crop', 'farmer'),
+    ('dairy', 'farmer'), ('poultry', 'farmer'), ('fisher', 'farmer'), ('matsya', 'farmer'),
     ('student', 'student_scholarship'), ('scholarship', 'student_scholarship'),
     ('education', 'student_scholarship'), ('study', 'student_scholarship'),
     ('college', 'student_scholarship'), ('engineer', 'student_scholarship'),
     ('medical', 'student_scholarship'), ('university', 'student_scholarship'),
-    ('farmer', 'farmer'), ('kisan', 'farmer'), ('agri', 'farmer'), ('crop', 'farmer'),
+    ('business', 'business'), ('entrepreneur', 'business'), ('startup', 'business'),
+    ('shopkeeper', 'business'), ('trader', 'business'), ('merchant', 'business'),
+    ('vendor', 'business'), ('street vendor', 'business'), ('hawker', 'business'),
+    ('thelawala', 'business'), ('svanidhi', 'business'), ('mudra', 'business'),
+    ('loan', 'business'), ('msme', 'business'),
+    ('construction worker', 'labour_worker'), ('labour', 'labour_worker'), ('labor', 'labour_worker'),
+    ('mazdoor', 'labour_worker'), ('daily wage', 'labour_worker'), ('mason', 'labour_worker'),
+    ('eshram', 'labour_worker'), ('bocw', 'labour_worker'),
     ('women', 'women_welfare'), ('girl', 'women_welfare'), ('widow', 'women_welfare'),
     ('mahila', 'women_welfare'), ('female', 'women_welfare'),
     ('housing', 'housing'), ('house', 'housing'), ('awas', 'housing'), ('home', 'housing'),
     ('job', 'employment'), ('employ', 'employment'), ('work', 'employment'),
     ('unemployment', 'employment'), ('skill', 'employment'),
-    ('health', 'health'), ('medical', 'health'), ('hospital', 'health'),
+    ('health', 'health'), ('hospital', 'health'),
     ('insurance', 'health'), ('ayushman', 'health'),
-    ('business', 'business'), ('entrepreneur', 'business'), ('startup', 'business'),
-    ('loan', 'business'), ('msme', 'business'),
     ('disabled', 'disability'), ('divyang', 'disability'), ('pwd', 'disability'),
     ('handicap', 'disability'),
     ('senior', 'senior_citizen'), ('elderly', 'senior_citizen'),

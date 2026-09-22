@@ -293,6 +293,37 @@ def extract_profile_fields_fast(message: str, conversation_history: list[dict] |
     if age is not None:
         fields['age'] = age
 
+    # Occupation & Special Conditions
+    if re.search(r'\b(?:weaver|handloom|bunkar|vankar|powerloom|textile worker|textile artisan)\b', text_lower):
+        fields['occupation'] = 'weaver'
+        fields['special_condition'] = 'handloom_weaver'
+    elif re.search(r'\b(?:artisan|craftsman|karigar|potter|blacksmith|carpenter|sculptor|cobbler|tailor|vishwakarma)\b', text_lower):
+        fields['occupation'] = 'artisan'
+        fields['special_condition'] = 'traditional_artisan'
+    elif re.search(r'\b(?:farmer|kisan|cultivator|agriculturist|krishi)\b', text_lower):
+        fields['occupation'] = 'farmer'
+        fields['farmer_status'] = 'farmer'
+    elif re.search(r'\b(?:street vendor|vendor|hawker|thelawala|rehri)\b', text_lower):
+        fields['occupation'] = 'street_vendor'
+        fields['special_condition'] = 'street_vendor'
+        fields['employment_status'] = 'self_employed'
+    elif re.search(r'\b(?:construction worker|mason|labourer|laborer|daily wage worker|mazdoor)\b', text_lower):
+        fields['occupation'] = 'construction_worker'
+        fields['special_condition'] = 'construction_worker'
+    elif re.search(r'\b(?:businessman|business owner|shopkeeper|trader|merchant|entrepreneur|startup founder)\b', text_lower):
+        fields['occupation'] = 'business_owner'
+        fields['employment_status'] = 'self_employed'
+    elif re.search(r'\b(?:fisherman|fishery|fish farmer|matsyajivi)\b', text_lower):
+        fields['occupation'] = 'fisherman'
+
+    # Employment status
+    if re.search(r'\b(?:unemployed|jobless|looking for job|job seeker|not employed|not employeed|un-employed|no job)\b', text_lower):
+        fields['employment_status'] = 'unemployed'
+    elif re.search(r'\b(?:self employed|self-employed|freelancer|own business)\b', text_lower):
+        fields['employment_status'] = 'self_employed'
+    elif re.search(r'\b(?:employed|in job|working|salaried|job holder)\b', text_lower) and not re.search(r'\b(?:unemployed|not employed|not employeed|looking for job)\b', text_lower):
+        fields['employment_status'] = 'employed'
+
     # Disability (Explicit patterns)
     if re.search(r'\b(?:no disability|non[- ]?disabled|not disabled|no pwd|no divyang|not handicapped|no handicap|without disability)\b', text_lower):
         fields['disability_status'] = 'non-disabled'
