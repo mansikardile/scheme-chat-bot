@@ -1,7 +1,50 @@
+"""Chat session and manager for SchemeSathi."""
+
 import uuid
 from datetime import datetime
 from langchain_core.chat_history import InMemoryChatMessageHistory
 from langchain_core.messages import HumanMessage, AIMessage
+
+
+# Full profile schema — all fields start as None
+_EMPTY_PROFILE = {
+    # Location
+    'state': None,
+    'district': None,
+    # Demographics
+    'age': None,
+    'gender': None,
+    # Caste / category
+    'category': None,
+    'subcategory': None,
+    # Income
+    'annual_family_income': None,
+    # Education
+    'education_level': None,   # pre-primary/primary/secondary/higher_secondary/undergraduate/postgraduate/doctoral
+    'course': None,            # engineering/medical/arts/science/commerce/law/management etc.
+    'stream': None,
+    'study_stage': None,       # first_year/second_year/third_year/fourth_year/direct_second_year
+    'year_of_study': None,
+    'college_type': None,      # government/private/aided
+    'institution_type': None,
+    # Residency
+    'residential_status': None,
+    # Special conditions
+    'disability_status': None,
+    'minority_status': None,
+    # Employment
+    'employment_status': None,
+    # Personal
+    'marital_status': None,
+    'occupation': None,
+    # Farmer-specific
+    'farmer_status': None,
+    'land_holding': None,
+    # Housing
+    'housing_status': None,
+    # Misc
+    'specific_special_conditions': [],
+}
 
 
 class ChatSession:
@@ -10,8 +53,54 @@ class ChatSession:
         self.language: str = 'en'
         self.created_at = datetime.now()
         self.last_active = datetime.now()
+
         # LangChain in-memory message store for this session
         self._history = InMemoryChatMessageHistory()
+
+        # Accumulated user profile — updated after every user turn.
+        # Most-recent mention always wins.
+        self.user_profile: dict = dict(_EMPTY_PROFILE)
+
+        # Conversation state
+        self.conversation_mode: str = 'profile_collection'  # 'profile_collection' | 'scheme_search'
+        self.scheme_search_requested: bool = False
+
+        # Per-session eligibility rules cache: slug -> list[EligibilityRule]
+        # Avoids re-calling LLM for the same scheme in the same session
+        self.eligibility_cache: dict = {}
+
+        # Last set of retrieved+eligible scheme slugs (for detail follow-ups)
+        self.last_eligible_slugs: list[str] = []
+
+    def update_profile(self, new_fields: dict):
+        """
+        Merge new_fields into the persistent profile.
+        Non-null values from new_fields overwrite existing ones.
+        """
+        for key, value in new_fields.items():
+            if key == 'specific_special_conditions':
+                if isinstance(value, list):
+                    existing = self.user_profile.get('specific_special_conditions') or []
+                    merged = list(set(existing + value))
+                    self.user_profile['specific_special_conditions'] = merged
+            elif value is not None and value != '' and value != []:
+                self.user_profile[key] = value
+
+    def get_profile(self) -> dict:
+        """Return a copy of the current accumulated user profile."""
+        return dict(self.user_profile)
+
+    def has_minimum_profile(self) -> bool:
+        """
+        Check if we have at least the state and one other field,
+        sufficient to start a scheme search.
+        """
+        p = self.user_profile
+        has_state = bool(p.get('state'))
+        other_fields = ['category', 'gender', 'education_level', 'course',
+                        'annual_family_income', 'age', 'occupation']
+        has_other = any(bool(p.get(f)) for f in other_fields)
+        return has_state and has_other
 
     def add_message(self, role: str, content: str):
         """Append a message and update the last_active timestamp."""

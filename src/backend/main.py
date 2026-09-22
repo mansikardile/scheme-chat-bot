@@ -1,5 +1,13 @@
 """FastAPI application for SchemeSathi."""
 
+import sys
+if hasattr(sys.stdout, 'reconfigure'):
+    try:
+        sys.stdout.reconfigure(encoding='utf-8', errors='replace')
+        sys.stderr.reconfigure(encoding='utf-8', errors='replace')
+    except Exception:
+        pass
+
 import os
 import json
 from fastapi import FastAPI, HTTPException
@@ -15,6 +23,7 @@ from backend.chat_manager import chat_manager, ChatSession
 from backend.rag_pipeline import rag_pipeline
 from backend.embedding_service import embedding_service
 from backend.model_registry import get_available_models_info, get_local_ollama_models
+from backend.private_scheme_search import get_private_scheme_detail, PRIVATE_SCHEMES_CACHE
 
 app = FastAPI(title='SchemeSathi API')
 
@@ -110,23 +119,32 @@ async def chat_endpoint(request: ChatRequest):
     history = session.get_history().copy()
     session.add_message('user', request.message)
 
-    # Run RAG pipeline with language, selected model, user API key, and custom model_config
-    reply_text, cards = await rag_pipeline.process_query(
+    reply_text, cards, updated_profile = await rag_pipeline.process_query(
         history,
         request.message,
         language=request.language,
         model_id=request.model,
         api_key=request.api_key,
         model_config=request.custom_model,
+        user_profile=session.get_profile(),
+        session=session,
     )
 
+    # Persist updated profile back into session
+    session.update_profile(updated_profile)
     session.add_message('model', reply_text)
 
-    session_cards = [SchemeCard(**c) for c in cards]
+    session_cards = []
+    for c in cards:
+        try:
+            session_cards.append(SchemeCard(**{k: v for k, v in c.items() if k in SchemeCard.model_fields}))
+        except Exception:
+            pass
     return ChatResponse(
         session_id=request.session_id,
         reply=reply_text,
         schemes=session_cards,
+        profile_summary=session.get_profile(),
     )
 
 
@@ -142,6 +160,8 @@ async def chat_stream_endpoint(request: ChatRequest):
 
     history = session.get_history().copy()
     session.add_message('user', request.message)
+    # Snapshot the profile BEFORE this turn so the pipeline sees accumulated values
+    current_profile = session.get_profile()
 
     async def event_generator():
         full_text = ""
@@ -153,9 +173,16 @@ async def chat_stream_endpoint(request: ChatRequest):
                 model_id=request.model,
                 api_key=request.api_key,
                 model_config=request.custom_model,
+                user_profile=current_profile,
+                session=session,
             ):
                 if event["type"] == "text":
                     full_text += event["content"]
+                elif event["type"] == "profile":
+                    # Persist updated profile back into session; also forward to client
+                    session.update_profile(event["content"])
+                    yield f"data: {json.dumps({'type': 'profile', 'content': session.get_profile()})}\n\n"
+                    continue
                 yield f"data: {json.dumps(event)}\n\n"
 
             # Save LLM response to history at the end of successful streaming
@@ -180,6 +207,33 @@ async def search_schemes(q: str = None, state: str = None, category: str = None,
 
 @app.get('/api/schemes/{slug}')
 async def get_scheme_detail(slug: str):
+    if slug.startswith('pvt-') or slug in PRIVATE_SCHEMES_CACHE:
+        raw = get_private_scheme_detail(slug)
+        if raw:
+            en = raw.get('en', {})
+            basic = en.get('basicDetails', {})
+            content = en.get('schemeContent', {})
+            elig = en.get('eligibilityCriteria', {})
+            summary = PRIVATE_SCHEMES_CACHE.get(slug, {})
+            return {
+                'slug': slug,
+                'name': basic.get('schemeName', ''),
+                'short_title': basic.get('schemeShortTitle', ''),
+                'level': 'Private / Trust',
+                'states': summary.get('beneficiaryState', []),
+                'categories': summary.get('schemeCategory', ['Private & CSR Scholarships']),
+                'ministry': basic.get('nodalMinistryName', {}).get('label', 'Private Trust / Foundation'),
+                'tags': summary.get('tags', []),
+                'scheme_for': summary.get('schemeFor', 'Students'),
+                'brief': content.get('briefDescription', ''),
+                'detailed_description': content.get('briefDescription', ''),
+                'eligibility': elig.get('eligibilityDescription_md', ''),
+                'benefits': content.get('benefits', ''),
+                'application_process': [{'mode': 'Online (Foundation Portal)', 'url': summary.get('applicationUrl', ''), 'process_md': content.get('applicationProcess', '')}],
+                'documents_required': content.get('documentsRequired', ''),
+                'url': summary.get('applicationUrl', ''),
+            }
+
     detail = scheme_loader.get_scheme_detail(slug)
     if not detail or not detail.get('name'):
         raise HTTPException(status_code=404, detail='Scheme not found')

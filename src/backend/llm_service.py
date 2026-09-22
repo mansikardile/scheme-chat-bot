@@ -44,6 +44,15 @@ You MUST respond in {language_name} language.
 
 4. **STRICT ACCURACY**:
    - Recommend ONLY schemes present in the provided [SCHEME DATA] context.
+
+5. **CONVERSATION MEMORY — CRITICAL**:
+   - Read the ENTIRE conversation history before responding.
+   - The MOST RECENTLY stated information ALWAYS takes precedence. For example:
+     - If the user said "I am from Assam" and later said "I am from Maharashtra", treat them as being from **Maharashtra**.
+     - If the user said "I am a student" and later said "I am a girl student", they are BOTH a student AND female — accumulate the profile.
+     - If the user changes their category (e.g., first said EWS, then said DSY), the latest one is the active category.
+   - NEVER contradict or ignore something the user just told you.
+   - NEVER assume or hallucinate profile details not explicitly stated in the conversation.
 """
 
 
@@ -229,6 +238,28 @@ def _extract_text_content(content) -> str:
     return ""
 
 
+def _build_profile_summary(user_profile: dict | None) -> str:
+    """Build a concise human-readable profile summary from the accumulated session profile.
+
+    Returns an empty string when no profile fields have been set yet.
+    """
+    if not user_profile:
+        return ""
+    labels = {
+        'state': 'State',
+        'category': 'Category/Caste',
+        'gender': 'Gender',
+        'level': 'Scheme Level',
+        'keywords': 'Additional context',
+    }
+    lines = []
+    for key, label in labels.items():
+        val = user_profile.get(key)
+        if val:
+            lines.append(f"- {label}: {val}")
+    return "\n".join(lines)
+
+
 async def generate_response(
     model_id: str,
     conversation_history: list[dict],
@@ -237,6 +268,7 @@ async def generate_response(
     language: str = 'en',
     api_key: str | None = None,
     model_config: dict | None = None,
+    user_profile: dict | None = None,
 ) -> str:
     """Generate a conversational response grounded in scheme data using a model from model_registry."""
     print(f"\n[LLM Service] Processing chat request using model_id: '{model_id}'")
@@ -246,8 +278,8 @@ async def generate_response(
         print(f"Error instantiating model '{model_id}': {e}")
         err = str(e)
         if "GEMINI_API_KEY" in err:
-            return "🔑 **Gemini API Key Required**: Please click the **⚙️ Settings** icon in the top right corner of the page to enter your Gemini API Key, or add `GEMINI_API_KEY` to your `.env` file."
-        return f'⚠️ Model configuration error: {err}'
+            return "Required: Please add GEMINI_API_KEY to your .env file or enter it via Settings."
+        return f'Model configuration error: {err}'
 
     lang_name = LANGUAGE_NAMES.get(language, 'English')
     system_text = SYSTEM_PROMPT.format(language_name=lang_name)
@@ -261,9 +293,16 @@ async def generate_response(
         else:
             messages.append(AIMessage(content=msg['content']))
 
+    # Inject structured profile summary so the LLM always has authoritative accumulated facts
+    profile_summary = _build_profile_summary(user_profile)
+    profile_block = (
+        f"[USER PROFILE - ACCUMULATED ACROSS CONVERSATION]\n{profile_summary}\n[END USER PROFILE]\n\n"
+        if profile_summary else ""
+    )
     augmented_user = (
         f"{user_message}\n\n"
-        f"[SCHEME DATA]\n{scheme_context}\n[END SCHEME DATA]\n\n"
+        + profile_block
+        + f"[SCHEME DATA]\n{scheme_context}\n[END SCHEME DATA]\n\n"
         f"Remember: Respond in {lang_name}. Do NOT write raw URLs. "
         f"Ask 1 follow-up question if profile incomplete."
     )
@@ -294,6 +333,7 @@ async def generate_response_stream(
     language: str = 'en',
     api_key: str | None = None,
     model_config: dict | None = None,
+    user_profile: dict | None = None,
 ):
     """Generate a conversational response stream grounded in scheme data using a model from model_registry."""
     print(f"\n[LLM Service] Processing streaming chat request using model_id: '{model_id}'")
@@ -320,9 +360,16 @@ async def generate_response_stream(
         else:
             messages.append(AIMessage(content=msg['content']))
 
+    # Inject structured profile summary so the LLM always has authoritative accumulated facts
+    profile_summary = _build_profile_summary(user_profile)
+    profile_block = (
+        f"[USER PROFILE - ACCUMULATED ACROSS CONVERSATION]\n{profile_summary}\n[END USER PROFILE]\n\n"
+        if profile_summary else ""
+    )
     augmented_user = (
         f"{user_message}\n\n"
-        f"[SCHEME DATA]\n{scheme_context}\n[END SCHEME DATA]\n\n"
+        + profile_block
+        + f"[SCHEME DATA]\n{scheme_context}\n[END SCHEME DATA]\n\n"
         f"Remember: Respond in {lang_name}. Do NOT write raw URLs. "
         f"Ask 1 follow-up question if profile incomplete."
     )

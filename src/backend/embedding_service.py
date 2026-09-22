@@ -80,8 +80,13 @@ class EmbeddingService:
 
     async def embed_text(self, text: str) -> list[float]:
         """Embed a single text asynchronously (for query-time use in rag_pipeline)."""
-        # OllamaEmbeddings is synchronous; run it in a thread to keep the event loop free.
-        return await asyncio.to_thread(self._lc_embeddings.embed_query, text)
+        if self._lc_embeddings is None:
+            raise RuntimeError("Embedding model not initialized")
+        # Run in thread with strict 1.5s timeout so unavailable Ollama never stalls search
+        return await asyncio.wait_for(
+            asyncio.to_thread(self._lc_embeddings.embed_query, text),
+            timeout=1.5
+        )
 
     def embed_text_sync(self, text: str) -> list[float]:
         """Embed a single text synchronously (for build_vectordb script)."""

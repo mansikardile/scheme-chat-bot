@@ -1,91 +1,560 @@
 """
-RAG pipeline for SchemeSathi.
+RAG Pipeline for SchemeSathi — Strict Eligibility-First Architecture.
 
-Orchestration layer that wires together:
-  1. Custom multilingual query-expansion (domain logic — kept as-is)
-  2. LangChain-backed OllamaEmbeddings (via embedding_service)
-  3. LangChain-backed Chroma vector store (via vector_store)
-  4. Provider-agnostic LLM service (via llm_service)
-  5. Custom intent-gated card-selection (domain logic — kept as-is)
+Pipeline modes:
+  1. PROFILE_INFO    → Extract fields, update profile, ask next question. No cards.
+  2. SCHEME_REQUEST  → Retrieve candidates, extract eligibility rules, run deterministic
+                       eligibility engine, return ONLY verified ELIGIBLE schemes.
+  3. DETAIL_REQUEST  → Existing behaviour: fetch full scheme detail and explain.
+  4. GREETING / OTHER → Friendly response, no cards.
 """
 
-from backend.embedding_service import embedding_service
-from backend.vector_store import vector_store
-from backend.scheme_loader import scheme_loader
-from backend.llm_service import generate_response, generate_response_stream, extract_filters, classify_detail_query
 import re
+import asyncio
+
+from backend.scheme_loader import scheme_loader
+from backend.llm_service import generate_response, generate_response_stream
+from backend.intent_classifier import classify_intent_fast, classify_intent_llm, Intent
+from backend.profile_extractor import extract_profile_fields_fast, extract_profile_fields_llm
+from backend.profile_advisor import get_next_question, format_profile_for_response
+from backend.eligibility_engine import (
+    evaluate_scheme_batch, EligibilityStatus, EligibilityRule,
+)
+from backend.scheme_eligibility_extractor import extract_scheme_rules
+from backend.private_scheme_search import (
+    search_private_schemes_ai,
+    get_private_scheme_detail,
+    get_private_scheme_context,
+    PRIVATE_SCHEMES_CACHE,
+)
 
 
-# Regional to English Keyword Mapping for high precision vector retrieval
-MULTILINGUAL_KEYWORD_MAP = {
-    # Categories & Caste
-    'ओबीसी': 'OBC category Other Backward Class',
-    'obc': 'OBC category Other Backward Class',
-    'एससी': 'SC Scheduled Caste',
-    'sc': 'SC Scheduled Caste',
-    'एसटी': 'ST Scheduled Tribe',
-    'st': 'ST Scheduled Tribe',
-    'जनरल': 'General Category',
-    'माइनॉरिटी': 'Minority Muslim Christian Sikh Jain Buddhist',
-    
-    # Occupations & Roles
-    'छात्र': 'student education scholarship college university school',
-    'छात्रा': 'female student girl scholarship',
-    'विद्यार्थी': 'student education scholarship',
-    'மாணவர்': 'student education scholarship',
-    'విద్యార్థి': 'student education scholarship',
-    'किसान': 'farmer agriculture crop cultivation land loan PM-KISAN',
-    'शेतकरी': 'farmer agriculture crop cultivation',
-    'விவசாயி': 'farmer agriculture crop',
-    'రైతు': 'farmer agriculture crop',
-    'महिला': 'women female entrepreneur widow mother girl child',
-    'महिलाएं': 'women female entrepreneur',
-    'பெண்கள்': 'women female entrepreneur',
-    'స్త్రీలు': 'women female entrepreneur',
-    'व्यापारी': 'business entrepreneur MSME shopkeeper loan vendor',
-    'उद्यमी': 'entrepreneur business MSME startup loan',
-    'बेरोजगार': 'unemployed youth employment skill training job',
-    'मजदूर': 'worker laborer unorganized sector pension',
-    'श्रमिक': 'worker laborer unorganized sector pension',
+# ---------------------------------------------------------------------------
+# Helper: build scheme context string for LLM
+# ---------------------------------------------------------------------------
 
-    # Needs & Services
-    'छात्रवृत्ति': 'scholarship stipend financial assistance education fee',
-    'स्कॉलरशिप': 'scholarship stipend financial assistance',
-    'உதவித்தொகை': 'scholarship stipend',
-    'लोन': 'loan credit subsidy interest subvention bank financial',
-    'ऋण': 'loan credit subsidy interest subvention bank',
-    'कर्ज': 'loan credit subsidy interest subvention',
-    'கடன்': 'loan credit subsidy',
-    'రుణం': 'loan credit subsidy',
-    'पेंशन': 'pension senior citizen elderly old age monthly allowance',
-    'ओल्ड एज': 'old age senior citizen pension',
-    'आवास': 'housing house construction Pradhan Mantri Awas Yojana PMAY shelter',
-    'घर': 'housing house construction PMAY',
-    'स्वास्थ्य': 'health healthcare hospital medical insurance Ayushman Bharat',
-    'इलाज': 'health healthcare medical insurance treatment',
-    'बीमा': 'insurance life accidental health policy cover',
+def _build_scheme_context(slugs: list[str], user_message: str, session_history: list[dict]) -> str:
+    parts = []
+    for slug in slugs[:8]:  # Cap at 8 to avoid token overflow
+        if slug.startswith('pvt-') or slug in PRIVATE_SCHEMES_CACHE:
+            ctx = get_private_scheme_context(slug)
+        else:
+            ctx = scheme_loader.get_scheme_context(slug)
+        if ctx:
+            parts.append(ctx)
+    return '\n\n---\n\n'.join(parts) if parts else "No specific scheme data available."
 
-    # Common States
-    'असम': 'Assam',
-    'महाराष्ट्र': 'Maharashtra',
-    'उत्तर प्रदेश': 'Uttar Pradesh UP',
-    'बिहार': 'Bihar',
-    'राजस्थान': 'Rajasthan',
-    'मध्य प्रदेश': 'Madhya Pradesh MP',
-    'गुजरात': 'Gujarat',
-    'पंजाब': 'Punjab',
-    'हरियाणा': 'Haryana',
-    'तमिलनाडु': 'Tamil Nadu',
-    'कर्नाटक': 'Karnataka',
-    'तेलंगाना': 'Telangana',
-    'आंध्र प्रदेश': 'Andhra Pradesh',
-    'पश्चिम बंगाल': 'West Bengal',
-    'ओडिशा': 'Odisha',
-}
 
+def _build_detail_context(slug: str) -> str:
+    if slug.startswith('pvt-') or slug in PRIVATE_SCHEMES_CACHE:
+        pvt_ctx = get_private_scheme_context(slug)
+        if pvt_ctx:
+            return pvt_ctx
+    return scheme_loader.get_scheme_context(slug) or "Scheme details not found."
+
+
+# ---------------------------------------------------------------------------
+# Candidate retrieval from DuckDB
+# ---------------------------------------------------------------------------
+
+def _retrieve_candidates(user_profile: dict, limit: int = 35) -> list[dict]:
+    """
+    Retrieve candidate schemes from DuckDB using the user profile.
+    This is a BROAD retrieval — we get candidates based on state and domain
+    (education, agriculture, employment, etc.) and then filter deterministically.
+    """
+    from backend.config import SCHEMES_DB_PATH
+    import duckdb
+
+    state = user_profile.get('state') or ''
+    course = user_profile.get('course') or ''
+    edu = user_profile.get('education_level') or ''
+    stage = user_profile.get('study_stage') or ''
+    occupation = user_profile.get('occupation') or ''
+
+    try:
+        conn = duckdb.connect(SCHEMES_DB_PATH, read_only=True)
+
+        conditions = []
+        params = []
+
+        # 1. State filter: User's state OR Central
+        if state:
+            conditions.append("(states ILIKE ? OR level = 'Central')")
+            params.append(f"%{state}%")
+
+        # 2. Broad domain conditions
+        domain_conditions = []
+        if edu or course or stage:
+            domain_conditions.extend([
+                "categories ILIKE '%Education%'",
+                "search_text ILIKE '%scholarship%'",
+                "search_text ILIKE '%student%'",
+                "search_text ILIKE '%education%'",
+                "search_text ILIKE '%fellowship%'",
+                "tags ILIKE '%scholarship%'",
+            ])
+            if course:
+                domain_conditions.append("search_text ILIKE ?")
+                params.append(f"%{course}%")
+
+        if user_profile.get('farmer_status') or occupation == 'farmer':
+            domain_conditions.extend([
+                "categories ILIKE '%Agriculture%'",
+                "search_text ILIKE '%farmer%'",
+                "search_text ILIKE '%kisan%'",
+            ])
+
+        if user_profile.get('housing_status'):
+            domain_conditions.extend([
+                "categories ILIKE '%Housing%'",
+                "search_text ILIKE '%awas%'",
+                "search_text ILIKE '%housing%'",
+            ])
+
+        if domain_conditions:
+            conditions.append("(" + " OR ".join(domain_conditions) + ")")
+
+        sql = "SELECT slug FROM schemes"
+        if conditions:
+            sql += " WHERE " + " AND ".join(conditions)
+
+        if state:
+            sql += f" ORDER BY CASE WHEN states ILIKE '%{state}%' THEN 0 ELSE 1 END, scheme_name ASC"
+        else:
+            sql += " ORDER BY scheme_name ASC"
+
+        sql += f" LIMIT {limit}"
+
+        rows = conn.execute(sql, params).fetchall()
+        conn.close()
+
+        candidates = []
+        for r in rows:
+            slug = r[0]
+            summary = scheme_loader.slug_to_index.get(slug)
+            if summary:
+                candidates.append(summary)
+
+        if state and candidates:
+            candidates = scheme_loader._filter_geo_restricted(candidates, state)
+
+        print(f"[RAGPipeline] Retrieved {len(candidates)} candidates for eligibility checking")
+        return candidates
+    except Exception as e:
+        print(f"[RAGPipeline] DuckDB candidate retrieval error ({e}), falling back to scheme_loader.search_schemes")
+        return scheme_loader.search_schemes(limit=limit)
+
+
+# ---------------------------------------------------------------------------
+# No-match response
+# ---------------------------------------------------------------------------
+
+def _no_match_response(user_profile: dict, checked_count: int, language: str = 'en') -> str:
+    fields_checked = []
+    if user_profile.get('state'):
+        fields_checked.append(f"State: {user_profile['state']}")
+    if user_profile.get('category'):
+        fields_checked.append(f"Category: {user_profile['category']}")
+    if user_profile.get('gender'):
+        fields_checked.append(f"Gender: {user_profile['gender']}")
+    if user_profile.get('education_level'):
+        fields_checked.append(f"Education: {user_profile['education_level']}")
+    if user_profile.get('annual_family_income') is not None:
+        income = user_profile['annual_family_income']
+        if isinstance(income, (list, tuple)):
+            fields_checked.append(f"Income: ₹{income[0]//100_000}L–₹{income[1]//100_000}L")
+        else:
+            fields_checked.append(f"Income: ₹{income//100_000}L")
+
+    criteria_text = '\n'.join(f"• {f}" for f in fields_checked) if fields_checked else "• General criteria"
+    return (
+        f"I checked {checked_count} schemes against your profile but couldn't find a "
+        f"verified scheme that satisfies all your eligibility criteria.\n\n"
+        f"Criteria I used:\n{criteria_text}\n\n"
+        f"**What you can do:**\n"
+        f"• Double-check your details (category, income, education level)\n"
+        f"• Ask me to search with relaxed criteria\n"
+        f"• Try mentioning a specific scheme name if you have one in mind"
+    )
+
+
+# ---------------------------------------------------------------------------
+# Format eligible scheme results
+# ---------------------------------------------------------------------------
+
+def _format_eligible_results(
+    eligible: list[tuple[str, str, object]],
+    user_profile: dict,
+) -> str:
+    """Build the conversational reply when eligible schemes are found."""
+    gov_list = [(s, n, r) for s, n, r in eligible if not (s.startswith('pvt-') or s in PRIVATE_SCHEMES_CACHE)]
+    pvt_list = [(s, n, r) for s, n, r in eligible if (s.startswith('pvt-') or s in PRIVATE_SCHEMES_CACHE)]
+
+    summary_parts = []
+    if gov_list:
+        summary_parts.append(f"**{len(gov_list)} Government scheme(s)**")
+    if pvt_list:
+        summary_parts.append(f"**{len(pvt_list)} Private & CSR Trust scholarship(s)**")
+
+    breakdown = " and ".join(summary_parts) if summary_parts else f"**{len(eligible)} verified scheme(s)**"
+    lines = [f"I found {breakdown} matching your complete profile:\n"]
+
+    if gov_list:
+        lines.append("### 🏛️ Government Schemes")
+        for i, (slug, name, result) in enumerate(gov_list, 1):
+            lines.append(f"**{i}. {name}**")
+            if result.match_reasons:
+                for reason in result.match_reasons[:4]:
+                    lines.append(f"   {reason}")
+            lines.append("")
+
+    if pvt_list:
+        lines.append("### 🏢 Private & CSR Trust Scholarships")
+        for i, (slug, name, result) in enumerate(pvt_list, 1):
+            lines.append(f"**{i}. {name}**")
+            if result.match_reasons:
+                for reason in result.match_reasons[:4]:
+                    lines.append(f"   {reason}")
+            lines.append("")
+
+    lines.append("Tap any scheme card below to view full details, benefits, and direct application portals.")
+    return '\n'.join(lines)
+
+
+
+# ---------------------------------------------------------------------------
+# Main RAG Pipeline class
+# ---------------------------------------------------------------------------
 
 class RAGPipeline:
-    """Orchestrates query translation, vector search, LLM response, and UI card rendering."""
+    """Strict eligibility-first RAG pipeline for SchemeSathi."""
+
+    # ------------------------------------------------------------------
+    # PROFILE COLLECTION mode
+    # ------------------------------------------------------------------
+
+    async def handle_profile_info(
+        self,
+        user_message: str,
+        session_history: list[dict],
+        session,
+        language: str = 'en',
+        model_id: str = 'gemini-flash',
+        api_key: str | None = None,
+        model_config: dict | None = None,
+    ) -> tuple[str, list[dict], dict]:
+        """
+        Handle a profile-info message:
+        1. Extract new fields
+        2. Merge into session profile
+        3. Determine next missing field
+        4. Return acknowledgment + question (no cards)
+        """
+        # Extract new fields from this message
+        new_fields = extract_profile_fields_fast(user_message)
+        if not new_fields and session_history:
+            try:
+                new_fields = await extract_profile_fields_llm(
+                    user_message, session_history, model_id, api_key=api_key, model_config=model_config
+                )
+            except Exception as e:
+                print(f"[RAGPipeline] LLM profile extraction error: {e}")
+                new_fields = {}
+
+        # Handle contradictions
+        contradiction = self._detect_contradiction(new_fields, session.get_profile())
+        if contradiction:
+            reply = contradiction
+            return reply, [], session.get_profile()
+
+        session.update_profile(new_fields)
+        profile = session.get_profile()
+
+        # Determine next missing field
+        next_field, next_question = get_next_question(
+            profile, session_history, user_message
+        )
+
+        reply = format_profile_for_response(profile, next_field)
+        return reply, [], profile  # No scheme cards in profile collection mode
+
+    def _detect_contradiction(self, new_fields: dict, existing_profile: dict) -> str | None:
+        """
+        Detect contradictions between new fields and existing profile.
+        Returns a clarification question if contradiction detected, else None.
+        """
+        CATEGORY_GROUPS = {
+            'SC': {'SC'},
+            'ST': {'ST'},
+            'OBC': {'OBC', 'VJNT', 'SBC', 'NT'},
+            'EWS': {'EWS'},
+            'General': {'General'},
+            'Minority': {'Minority'},
+        }
+
+        existing_cat = existing_profile.get('category')
+        new_cat = new_fields.get('category')
+
+        if existing_cat and new_cat and existing_cat != new_cat:
+            # Check if they're in the same group
+            existing_group = next((g for g, members in CATEGORY_GROUPS.items() if existing_cat in members), existing_cat)
+            new_group = next((g for g, members in CATEGORY_GROUPS.items() if new_cat in members), new_cat)
+            if existing_group != new_group:
+                return (
+                    f"You previously mentioned **{existing_cat}** category, "
+                    f"but now you've mentioned **{new_cat}**. "
+                    f"Which one should I use for your eligibility check?"
+                )
+        return None
+
+    # ------------------------------------------------------------------
+    # SCHEME SEARCH mode
+    # ------------------------------------------------------------------
+
+    async def handle_scheme_request(
+        self,
+        user_message: str,
+        session_history: list[dict],
+        session,
+        language: str = 'en',
+        model_id: str = 'gemini-flash',
+        api_key: str | None = None,
+        model_config: dict | None = None,
+    ) -> tuple[str, list[dict], dict]:
+        """
+        Full eligibility pipeline:
+        1. Retrieve broad candidates
+        2. Extract eligibility rules per scheme (LLM, cached)
+        3. Run deterministic eligibility engine
+        4. Return ALL eligible schemes
+        """
+        # Extract any profile fields embedded in the request message (e.g. "I'm a student from Assam, show schemes")
+        new_fields = extract_profile_fields_fast(user_message)
+        if new_fields:
+            session.update_profile(new_fields)
+
+        profile = session.get_profile()
+        session.scheme_search_requested = True
+        session.conversation_mode = 'scheme_search'
+
+        if not session.has_minimum_profile():
+            return (
+                "I don't have enough information about you yet to search schemes reliably. "
+                "Please tell me at least your **state** and one more detail "
+                "(category, education level, or income) so I can check eligibility properly.",
+                [], profile
+            )
+
+        # 1. Broad candidate retrieval: Government (DuckDB) + Private/CSR (Curated + AI Search)
+        gov_task = asyncio.to_thread(_retrieve_candidates, profile, limit=25)
+        pvt_task = search_private_schemes_ai(profile, model_id=model_id, api_key=api_key, model_config=model_config)
+
+        gov_candidates, pvt_candidates = await asyncio.gather(gov_task, pvt_task)
+        # Place private and government candidates together
+        candidates = list(pvt_candidates) + list(gov_candidates)
+        if not candidates:
+            return _no_match_response(profile, 0), [], profile
+
+        # 2. Extract eligibility rules for each candidate in parallel
+        async def _fetch_candidate_rules(candidate):
+            slug = candidate.get('slug', '')
+            name = candidate.get('schemeName', slug)
+            states = candidate.get('beneficiaryState', [])
+            categories = candidate.get('schemeCategory', [])
+
+            # Check if candidate already has pre-attached rules
+            if candidate.get('rules'):
+                session.eligibility_cache[slug] = candidate['rules']
+                return slug, name, candidate['rules']
+
+            # Check session cache
+            if slug in session.eligibility_cache:
+                return slug, name, session.eligibility_cache[slug]
+
+            # Get eligibility text
+            if slug.startswith('pvt-') or slug in PRIVATE_SCHEMES_CACHE:
+                detailed_raw = get_private_scheme_detail(slug) or {}
+                elig_data = detailed_raw.get('en', {}).get('eligibilityCriteria', {})
+                eligibility_text = elig_data.get('eligibilityDescription_md', '') if isinstance(elig_data, dict) else str(elig_data)
+                if not eligibility_text:
+                    eligibility_text = candidate.get('briefDescription', '')
+            else:
+                detailed = scheme_loader.detailed_schemes.get(slug, {})
+                en_data = detailed.get('en', {})
+                elig_data = en_data.get('eligibilityCriteria', {})
+                if isinstance(elig_data, dict):
+                    eligibility_text = elig_data.get('eligibilityDescription_md', '')
+                else:
+                    eligibility_text = str(elig_data)
+
+            rules = await extract_scheme_rules(
+                slug=slug,
+                scheme_name=name,
+                eligibility_text=eligibility_text or '',
+                states=states,
+                categories=categories,
+                model_id=model_id,
+                api_key=api_key,
+                model_config=model_config,
+            )
+            session.eligibility_cache[slug] = rules
+            return slug, name, rules
+
+        scheme_rules_list = await asyncio.gather(*[_fetch_candidate_rules(c) for c in candidates])
+
+        # 3. Deterministic evaluation
+        evaluation_results = evaluate_scheme_batch(profile, scheme_rules_list)
+
+        # 4. Separate results
+        eligible = [
+            (slug, name, result)
+            for slug, name, result in evaluation_results
+            if result.status == EligibilityStatus.ELIGIBLE
+        ]
+        insufficient = [
+            (slug, name, result)
+            for slug, name, result in evaluation_results
+            if result.status == EligibilityStatus.INSUFFICIENT_INFORMATION
+        ]
+
+        session.last_eligible_slugs = [slug for slug, _, _ in eligible]
+
+        print(f"[RAGPipeline] Eligibility results: "
+              f"{len(eligible)} ELIGIBLE, "
+              f"{len([r for _, _, r in evaluation_results if r.status == EligibilityStatus.INELIGIBLE])} INELIGIBLE, "
+              f"{len(insufficient)} INSUFFICIENT")
+
+        # Build response
+        if eligible:
+            reply = _format_eligible_results(eligible, profile)
+            scheme_cards = [
+                self._build_card(slug, name, result)
+                for slug, name, result in eligible
+            ]
+            return reply, scheme_cards, profile
+        elif insufficient:
+            # Find the most common missing field across INSUFFICIENT results
+            missing_counts: dict[str, int] = {}
+            for _, _, result in insufficient:
+                for f in result.missing_fields:
+                    missing_counts[f] = missing_counts.get(f, 0) + 1
+            top_missing = max(missing_counts, key=missing_counts.get) if missing_counts else None
+
+            if top_missing:
+                from backend.profile_advisor import FIELD_QUESTIONS
+                question = FIELD_QUESTIONS.get(top_missing, f"What is your {top_missing.replace('_', ' ')}?")
+                reply = (
+                    f"I found {len(insufficient)} potentially matching scheme(s), but I need one more detail "
+                    f"to confirm your eligibility:\n\n{question}"
+                )
+            else:
+                reply = _no_match_response(profile, len(candidates))
+            return reply, [], profile
+        else:
+            return _no_match_response(profile, len(candidates)), [], profile
+
+    def _build_card(self, slug: str, name: str, result) -> dict:
+        """Build a scheme card dict with match reasons."""
+        if slug.startswith('pvt-') or slug in PRIVATE_SCHEMES_CACHE:
+            summary = PRIVATE_SCHEMES_CACHE.get(slug, {})
+            return {
+                'slug': slug,
+                'name': name,
+                'brief': summary.get('briefDescription', ''),
+                'level': summary.get('level', 'Private / Trust'),
+                'states': summary.get('beneficiaryState', []),
+                'categories': summary.get('schemeCategory', ['Private & CSR Scholarships']),
+                'tags': summary.get('tags', []),
+                'has_details': True,
+                'match_reasons': result.match_reasons,
+                'eligibility_status': result.status.value,
+                'application_url': summary.get('applicationUrl') or ('https://www.google.com/search?q=' + name.replace(' ', '+')),
+                'is_private': True,
+            }
+
+        summary = scheme_loader.slug_to_index.get(slug, {})
+        return {
+            'slug': slug,
+            'name': name,
+            'brief': summary.get('briefDescription', ''),
+            'level': summary.get('level', ''),
+            'states': summary.get('beneficiaryState', []),
+            'categories': summary.get('schemeCategory', []),
+            'tags': summary.get('tags', []),
+            'has_details': bool(scheme_loader.detailed_schemes.get(slug)),
+            'match_reasons': result.match_reasons,
+            'eligibility_status': result.status.value,
+            'application_url': f"https://www.myscheme.gov.in/schemes/{slug}",
+            'is_private': False,
+        }
+
+    # ------------------------------------------------------------------
+    # DETAIL REQUEST mode
+    # ------------------------------------------------------------------
+
+    async def handle_detail_request(
+        self,
+        user_message: str,
+        session_history: list[dict],
+        session,
+        language: str = 'en',
+        model_id: str = 'gemini-flash',
+        api_key: str | None = None,
+        model_config: dict | None = None,
+    ) -> tuple[str, list[dict], dict]:
+        """Handle requests for specific scheme details."""
+        profile = session.get_profile()
+
+        # Try to find the scheme the user is asking about
+        slug = None
+        # Check if asking about one of the last eligible schemes
+        if session.last_eligible_slugs:
+            for s in session.last_eligible_slugs:
+                if s.startswith('pvt-') or s in PRIVATE_SCHEMES_CACHE:
+                    s_name = PRIVATE_SCHEMES_CACHE.get(s, {}).get('schemeName', '')
+                else:
+                    s_name = scheme_loader.slug_to_index.get(s, {}).get('schemeName', '')
+                if s_name and (s_name.lower()[:12] in user_message.lower() or any(w in user_message.lower() for w in s_name.lower().split() if len(w) > 4)):
+                    slug = s
+                    break
+            if not slug and len(session.last_eligible_slugs) == 1:
+                slug = session.last_eligible_slugs[0]
+
+        # Try to match scheme name in private cache
+        if not slug:
+            for s, s_data in PRIVATE_SCHEMES_CACHE.items():
+                if not s.endswith('__raw'):
+                    s_name = s_data.get('schemeName', '')
+                    if s_name and any(w in user_message.lower() for w in s_name.lower().split() if len(w) > 4):
+                        slug = s
+                        break
+
+        if not slug:
+            # Find by text matching in DuckDB
+            found = scheme_loader.search_schemes(query=user_message, limit=1)
+            slug = found[0].get('slug') if found else None
+
+        if slug:
+            scheme_context = _build_detail_context(slug)
+            reply = await generate_response(
+                model_id, session_history, user_message, scheme_context,
+                language=language, api_key=api_key, model_config=model_config,
+                user_profile=profile,
+            )
+            return reply, [], profile
+        else:
+            reply = await generate_response(
+                model_id, session_history, user_message,
+                "No specific scheme context available.",
+                language=language, api_key=api_key, model_config=model_config,
+                user_profile=profile,
+            )
+            return reply, [], profile
+
+    # ------------------------------------------------------------------
+    # Unified entry points
+    # ------------------------------------------------------------------
 
     async def process_query(
         self,
@@ -95,64 +564,62 @@ class RAGPipeline:
         model_id: str = 'gemini-flash',
         api_key: str | None = None,
         model_config: dict | None = None,
-    ) -> tuple[str, list[dict]]:
-        """Full RAG pipeline: filter extraction → SQL retrieval → compact context → LLM response."""
+        user_profile: dict | None = None,
+        session=None,
+    ) -> tuple[str, list[dict], dict]:
+        """
+        Full RAG pipeline (non-streaming).
 
-        # 1. Extract structured filters from user message + history via a fast LLM call
-        filters = {}
-        try:
-            filters = await extract_filters(
-                model_id, user_message, session_history,
-                api_key=api_key, model_config=model_config
+        Returns:
+            (reply_text, scheme_cards, updated_profile)
+        """
+        profile = user_profile or {}
+
+        # Classify intent
+        intent = await classify_intent_llm(
+            user_message, session_history, model_id, api_key, model_config
+        )
+        print(f"[RAGPipeline] Intent: {intent.value}")
+
+        if intent == Intent.SCHEME_REQUEST:
+            if session:
+                reply, cards, updated_profile = await self.handle_scheme_request(
+                    user_message, session_history, session, language, model_id, api_key, model_config
+                )
+            else:
+                reply = "Please start a new chat session to search for schemes."
+                cards, updated_profile = [], profile
+        elif intent == Intent.DETAIL_REQUEST:
+            if session:
+                reply, cards, updated_profile = await self.handle_detail_request(
+                    user_message, session_history, session, language, model_id, api_key, model_config
+                )
+            else:
+                reply, cards, updated_profile = await self._generic_response(
+                    user_message, session_history, profile, language, model_id, api_key, model_config
+                )
+        elif intent == Intent.GREETING:
+            reply = (
+                "Hello! 👋 I'm SchemeSathi — I help you find government schemes and scholarships "
+                "you're actually eligible for.\n\n"
+                "To get started, tell me a bit about yourself:\n"
+                "• Which state are you from?\n"
+                "• Are you a student, farmer, entrepreneur, or something else?\n"
+                "• Any specific type of scheme you're looking for?"
             )
-        except Exception as e:
-            print(f"[RAG Pipeline] Filter extraction failed ({e}), proceeding without filters")
+            cards, updated_profile = [], profile
+        else:
+            # PROFILE_INFO, CLARIFICATION, OTHER
+            if session:
+                reply, cards, updated_profile = await self.handle_profile_info(
+                    user_message, session_history, session, language, model_id, api_key, model_config
+                )
+            else:
+                reply, cards, updated_profile = await self._generic_response(
+                    user_message, session_history, profile, language, model_id, api_key, model_config
+                )
 
-        # 2. Targeted DuckDB SQL search using extracted filters
-        results = []
-        has_filters = any(filters.get(k) for k in ('state', 'category', 'keywords', 'level'))
-
-        if has_filters:
-            matched = scheme_loader.search_with_filters(filters, limit=8)
-            results = [{'slug': s['slug']} for s in matched]
-
-        # 3. Fallback chain: vector search → DuckDB BM25 keyword search
-        if not results:
-            english_search_query = self._build_english_search_query(session_history, user_message, language)
-            print(f"[RAG Pipeline] No filter results — trying vector search: '{english_search_query}'")
-            try:
-                if embedding_service._lc_embeddings is not None:
-                    query_embedding = await embedding_service.embed_text(english_search_query)
-                    results = vector_store.search(query_embedding, top_k=8)
-            except Exception as e:
-                print(f"[RAG Pipeline] Vector search failed ({e}), falling back to BM25")
-
-        if not results:
-            print("[RAG Pipeline] Using DuckDB BM25 keyword fallback")
-            db_results = scheme_loader.search_schemes(query=user_message, limit=8)
-            results = [{'slug': s['slug']} for s in db_results]
-
-        retrieved_slugs = [r['slug'] for r in results]
-        print(f"[RAG Pipeline] Retrieved {len(results)} scheme(s): {retrieved_slugs}")
-
-        # 4. Classify: is the user asking a specific factual question about one scheme?
-        #    Pass the actual retrieved scheme names so implicit references ("it", "this scheme")
-        #    can be resolved reliably from the list.
-        scheme_context = await self._build_context(
-            results, user_message, session_history, model_id, api_key, model_config
-        )
-
-        # 5. Generate response using provider-agnostic llm_service
-        reply_text = await generate_response(
-            model_id, session_history, user_message, scheme_context,
-            language=language, api_key=api_key, model_config=model_config
-        )
-
-        # 6. Intent-gated Card Selection logic (domain logic — kept as custom post-processing)
-        scheme_cards = self._select_cards_if_needed(reply_text, user_message, results)
-
-        return reply_text, scheme_cards
-
+        return reply, cards, updated_profile
 
     async def process_query_stream(
         self,
@@ -162,255 +629,111 @@ class RAGPipeline:
         model_id: str = 'gemini-flash',
         api_key: str | None = None,
         model_config: dict | None = None,
+        user_profile: dict | None = None,
+        session=None,
     ):
-        """Full RAG pipeline streaming LLM response: filter extraction → SQL retrieval → compact context."""
-
-        # 1. Extract structured filters from user message + history via a fast LLM call
-        filters = {}
-        try:
-            filters = await extract_filters(
-                model_id, user_message, session_history,
-                api_key=api_key, model_config=model_config
-            )
-        except Exception as e:
-            print(f"[RAG Pipeline] Filter extraction failed ({e}), proceeding without filters")
-
-        # 2. Targeted DuckDB SQL search using extracted filters
-        results = []
-        has_filters = any(filters.get(k) for k in ('state', 'category', 'keywords', 'level'))
-
-        if has_filters:
-            matched = scheme_loader.search_with_filters(filters, limit=8)
-            results = [{'slug': s['slug']} for s in matched]
-
-        # 3. Fallback chain: vector search → DuckDB BM25 keyword search
-        if not results:
-            english_search_query = self._build_english_search_query(session_history, user_message, language)
-            print(f"[RAG Pipeline] No filter results — trying vector search (Stream): '{english_search_query}'")
-            try:
-                if embedding_service._lc_embeddings is not None:
-                    query_embedding = await embedding_service.embed_text(english_search_query)
-                    results = vector_store.search(query_embedding, top_k=8)
-            except Exception as e:
-                print(f"[RAG Pipeline] Vector search failed ({e}), falling back to BM25")
-
-        if not results:
-            print("[RAG Pipeline] Using DuckDB BM25 keyword fallback (Stream)")
-            db_results = scheme_loader.search_schemes(query=user_message, limit=8)
-            results = [{'slug': s['slug']} for s in db_results]
-
-        retrieved_slugs = [r['slug'] for r in results]
-        print(f"[RAG Pipeline] Retrieved {len(results)} scheme(s) (Stream): {retrieved_slugs}")
-
-        # 4. Classify: detail request or broad query? Build context accordingly.
-        scheme_context = await self._build_context(
-            results, user_message, session_history, model_id, api_key, model_config
-        )
-
-        # 5. Stream response using provider-agnostic llm_service
-        full_reply_text = ""
-        async for chunk in generate_response_stream(
-            model_id, session_history, user_message, scheme_context,
-            language=language, api_key=api_key, model_config=model_config
-        ):
-            clean_chunk = re.sub(r'https?://[^\s)]+', '', chunk)
-            clean_chunk = re.sub(r'\[Link\]\(\)', '', clean_chunk)
-            if clean_chunk:
-                full_reply_text += clean_chunk
-                yield {"type": "text", "content": clean_chunk}
-
-        # 6. Intent-gated Card Selection logic based on the full generated response
-        scheme_cards = self._select_cards_if_needed(full_reply_text, user_message, results)
-        yield {"type": "cards", "content": scheme_cards}
-
-
-    async def _build_context(
-        self,
-        results: list[dict],
-        user_message: str,
-        session_history: list[dict],
-        model_id: str,
-        api_key: str | None,
-        model_config: dict | None,
-    ) -> str:
-        """Build the scheme context string to inject into the LLM prompt.
-
-        Runs classify_detail_query() with the retrieved scheme names, then routes to one
-        of two context strategies:
-
-        - Detail path: user is asking a factual question about a specific named scheme.
-          Injects get_scheme_context() (full) for that scheme + compact summaries for
-          up to 3 others.  Total: ~3-6 KB.
-
-        - Broad path (default): user is discovering / listing schemes.
-          Injects get_scheme_summary_context() (compact) for all results.
-          Total: ~2-4 KB.
-
-        Both are far smaller than the old 15-full-context approach (~45 KB).
         """
-        # Collect names from results for the classifier (must exist in slug_to_index)
-        retrieved_names = []
-        for r in results:
-            name = scheme_loader.slug_to_index.get(r['slug'], {}).get('schemeName', '')
-            if name:
-                retrieved_names.append(name)
+        Streaming RAG pipeline.
 
-        # Classify
-        classification = await classify_detail_query(
-            model_id, user_message, session_history, retrieved_names,
-            api_key=api_key, model_config=model_config
-        )
+        Yields dicts:
+          {"type": "text",    "content": "<chunk>"}
+          {"type": "cards",   "content": [<card_dict>, ...]}
+          {"type": "profile", "content": <profile_dict>}
+        """
+        # Classify intent synchronously for speed
+        intent = classify_intent_fast(user_message, session_history)
+        print(f"[RAGPipeline] Stream intent (fast): {intent.value}")
 
-        context_parts = []
+        # For ambiguous cases, refine with LLM (non-blocking prefetch)
+        if intent in (Intent.OTHER, Intent.CLARIFICATION):
+            intent = await classify_intent_llm(
+                user_message, session_history, model_id, api_key, model_config
+            )
+            print(f"[RAGPipeline] Stream intent (LLM): {intent.value}")
 
-        if classification.get('detail_request') and classification.get('scheme_name'):
-            target_name = classification['scheme_name']
-            target_slug = scheme_loader.find_scheme_slug_by_name(target_name)
+        profile = (session.get_profile() if session else {}) or user_profile or {}
 
-            if target_slug:
-                # Full detail for the target scheme
-                full_ctx = scheme_loader.get_scheme_context(target_slug)
-                context_parts.append(f'--- Scheme 1 (Full Detail) ---\n{full_ctx}')
-                print(f"[RAG Pipeline] Detail path: full context for '{target_slug}'")
-
-                # Compact summaries for the remaining results (up to 3)
-                others = [r for r in results if r['slug'] != target_slug][:3]
-                for i, res in enumerate(others, 2):
-                    ctx = scheme_loader.get_scheme_summary_context(res['slug'])
-                    context_parts.append(f'--- Scheme {i} (Summary) ---\n{ctx}')
+        if intent == Intent.SCHEME_REQUEST:
+            if session:
+                # Run full eligibility pipeline (non-streaming computation)
+                reply, cards, updated_profile = await self.handle_scheme_request(
+                    user_message, session_history, session, language, model_id, api_key, model_config
+                )
+                # Stream the text character-by-character for smooth UX
+                chunk_size = 50
+                for i in range(0, len(reply), chunk_size):
+                    yield {"type": "text", "content": reply[i:i+chunk_size]}
+                    await asyncio.sleep(0)
+                yield {"type": "cards", "content": cards}
+                yield {"type": "profile", "content": updated_profile}
             else:
-                # Slug not found — fall through to broad path
-                print(f"[RAG Pipeline] Detail path: could not resolve slug for '{target_name}', "
-                      "falling back to summaries")
-                for i, res in enumerate(results, 1):
-                    ctx = scheme_loader.get_scheme_summary_context(res['slug'])
-                    context_parts.append(f'--- Scheme {i} ---\n{ctx}')
+                yield {"type": "text", "content": "Please start a new chat session."}
+                yield {"type": "cards", "content": []}
+                yield {"type": "profile", "content": profile}
+
+        elif intent == Intent.DETAIL_REQUEST:
+            if session:
+                reply, cards, updated_profile = await self.handle_detail_request(
+                    user_message, session_history, session, language, model_id, api_key, model_config
+                )
+                for chunk in [reply[i:i+50] for i in range(0, len(reply), 50)]:
+                    yield {"type": "text", "content": chunk}
+                    await asyncio.sleep(0)
+                yield {"type": "cards", "content": cards}
+                yield {"type": "profile", "content": updated_profile}
+            else:
+                async for chunk in generate_response_stream(
+                    model_id, session_history, user_message, "No context.",
+                    language=language, api_key=api_key, model_config=model_config,
+                    user_profile=profile,
+                ):
+                    yield {"type": "text", "content": chunk}
+                yield {"type": "cards", "content": []}
+                yield {"type": "profile", "content": profile}
+
+        elif intent == Intent.GREETING:
+            greeting = (
+                "Hello! 👋 I'm SchemeSathi — I help you find government schemes and scholarships "
+                "you're actually eligible for.\n\n"
+                "To get started, tell me a bit about yourself:\n"
+                "• Which state are you from?\n"
+                "• Are you a student, farmer, entrepreneur, or something else?\n"
+                "• Any specific type of scheme you're looking for?"
+            )
+            yield {"type": "text", "content": greeting}
+            yield {"type": "cards", "content": []}
+            yield {"type": "profile", "content": profile}
+
         else:
-            # Broad path — compact summaries for all results
-            for i, res in enumerate(results, 1):
-                ctx = scheme_loader.get_scheme_summary_context(res['slug'])
-                context_parts.append(f'--- Scheme {i} ---\n{ctx}')
+            # PROFILE_INFO / CLARIFICATION / OTHER → collect profile, no cards
+            if session:
+                reply, cards, updated_profile = await self.handle_profile_info(
+                    user_message, session_history, session, language, model_id, api_key, model_config
+                )
+            else:
+                reply = await generate_response(
+                    model_id, session_history, user_message, "",
+                    language=language, api_key=api_key, model_config=model_config,
+                    user_profile=profile,
+                )
+                cards, updated_profile = [], profile
 
-        scheme_context = '\n\n'.join(context_parts)
-        print(f"[RAG Pipeline] Injected Context Length: {len(scheme_context)} characters "
-              f"(~{len(scheme_context) // 4} tokens)\n")
-        return scheme_context
+            chunk_size = 50
+            for i in range(0, len(reply), chunk_size):
+                yield {"type": "text", "content": reply[i:i+chunk_size]}
+                await asyncio.sleep(0)
+            yield {"type": "cards", "content": []}  # NO cards in profile collection
+            yield {"type": "profile", "content": updated_profile}
 
-    def _build_english_search_query(self, history: list[dict], current_message: str, language: str) -> str:
-        """Translates regional terms into English concepts for ChromaDB search."""
-        context_parts = []
-        recent = history[-4:] if len(history) > 4 else history
-        for msg in recent:
-            if msg['role'] == 'user':
-                context_parts.append(msg['content'])
-        context_parts.append(current_message)
-        raw_query = ' '.join(context_parts)
-
-        mapped_concepts = []
-        raw_lower = raw_query.lower()
-        for term, en_concept in MULTILINGUAL_KEYWORD_MAP.items():
-            if term in raw_lower or term in raw_query:
-                mapped_concepts.append(en_concept)
-
-        english_search_text = raw_query
-        if mapped_concepts:
-            english_search_text += " " + " ".join(mapped_concepts)
-
-        return english_search_text
-
-    def _select_cards_if_needed(
-        self, reply_text: str, user_message: str, results: list[dict]
-    ) -> list[dict]:
-        """Return UI Card Boxes ONLY when a relevant scheme is recommended or explicitly requested."""
-        if not results:
-            return []
-
-        reply_lower = reply_text.lower()
-        user_lower = user_message.lower()
-
-        # 1. Check if AI mentions scheme names / titles in text response.
-        #    Uses bidirectional matching:
-        #    (a) Full DB name is a substring of the reply (exact)
-        #    (b) Slug appears in reply
-        #    (c) 2+ significant words (>5 chars) from the scheme name appear in the reply
-        #        — catches abbreviated names like "Weaver MUDRA Scheme" vs full DB name
-        mentioned_slugs = []
-        for res in results:
-            slug = res['slug']
-            idx = scheme_loader.slug_to_index.get(slug, {})
-            name = idx.get('schemeName', '')
-            if not name:
-                continue
-
-            # (a) exact slug or full name match
-            if slug in reply_text or name.lower() in reply_lower:
-                mentioned_slugs.append(slug)
-                continue
-
-            # (b) keyword overlap: count significant words from scheme name in reply
-            if len(name) > 6:
-                sig_words = [w for w in name.split() if len(w) > 5 and w.isalpha()]
-                if sig_words:
-                    matches = sum(1 for w in sig_words if w.lower() in reply_lower)
-                    # Require at least 3 distinctive word matches to avoid false positives
-                    # (2 was too loose — common words like "education"+"scholarship" caused
-                    # premature cards before the LLM had even asked for the user's state)
-                    if matches >= 3:
-                        mentioned_slugs.append(slug)
-
-        if mentioned_slugs:
-            return self._build_scheme_cards_for_slugs(mentioned_slugs[:4])
-
-        # 2. Check if user explicitly asked for schemes / a list
-        user_explicitly_requested_list = any(
-            kw in user_lower for kw in [
-                'list', 'show list', 'give me list', 'show schemes', 'all schemes',
-                'what schemes', 'which schemes', 'schemes for me', 'schemes do you',
-                'yojana list', 'yojna list', 'recommend schemes', 'which scheme',
-                'schemes available', 'available schemes', 'tell me schemes',
-                'लिस्ट', 'सूची', 'दिखाएं', 'दीजिए', 'योजना दिखाओ', 'योजना की सूची'
-            ]
+    async def _generic_response(
+        self, user_message, session_history, profile, language, model_id, api_key, model_config
+    ) -> tuple[str, list, dict]:
+        reply = await generate_response(
+            model_id, session_history, user_message, "",
+            language=language, api_key=api_key, model_config=model_config,
+            user_profile=profile,
         )
-
-        ai_recommends_scheme = any(
-            kw in reply_lower for kw in [
-                'suitable scheme', 'best scheme', 'recommended scheme',
-                'schemes available', 'following scheme', 'several scheme',
-                'wonderful scheme', 'great scheme', 'support program',
-                'उपयुक्त योजना', 'प्रमुख सरकारी योजना', 'नीचे दी गई योजना', 'निम्नलिखित योजना'
-            ]
-        )
-
-        if user_explicitly_requested_list or ai_recommends_scheme:
-            top_slugs = [r['slug'] for r in results[:4]]
-            return self._build_scheme_cards_for_slugs(top_slugs)
-
-        # 3. Otherwise (during intake Q&A like "I am a student" or "OBC"), DO NOT display card boxes yet
-        return []
-
-
-    def _build_scheme_cards_for_slugs(self, slugs: list[str]) -> list[str]:
-        cards = []
-        seen = set()
-        for slug in slugs:
-            if slug in seen:
-                continue
-            seen.add(slug)
-            idx = scheme_loader.slug_to_index.get(slug, {})
-            if not idx:
-                continue
-            brief = idx.get('briefDescription', '')
-            cards.append({
-                'slug': slug,
-                'name': idx.get('schemeName', 'Unknown'),
-                'brief': brief[:200] + ('...' if len(brief) > 200 else ''),
-                'level': idx.get('level', ''),
-                'states': idx.get('beneficiaryState', []),
-                'categories': idx.get('schemeCategory', []),
-                'tags': idx.get('tags', []),
-                'has_details': True,
-            })
-        return cards
+        return reply, [], profile
 
 
 rag_pipeline = RAGPipeline()

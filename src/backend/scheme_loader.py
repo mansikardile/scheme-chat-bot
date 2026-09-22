@@ -230,10 +230,15 @@ class SchemeLoader:
             List of scheme summary dicts (same shape as slug_to_index values).
         """
         db_path = Path(SCHEMES_DB_PATH)
-        keywords = (filters.get('keywords') or '').strip()
-        state = (filters.get('state') or '').strip()
-        category = (filters.get('category') or '').strip()
-        level = (filters.get('level') or '').strip()
+        def _to_str(val):
+            if isinstance(val, list):
+                return " ".join(str(v) for v in val).strip()
+            return str(val or "").strip()
+
+        keywords = _to_str(filters.get("keywords"))
+        state = _to_str(filters.get("state"))
+        category = _to_str(filters.get("category"))
+        level = _to_str(filters.get("level"))
 
         if db_path.exists():
             try:
@@ -310,7 +315,7 @@ class SchemeLoader:
                 if state and results:
                     results = self._filter_geo_restricted(results, state)
 
-                print(f"[SchemeLoader] search_with_filters → {len(results)} results "
+                print(f"[SchemeLoader] search_with_filters -> {len(results)} results "
                       f"(state={state or '-'}, category={category or '-'}, "
                       f"keywords={keywords or '-'}, level={level or '-'})")
                 return results
@@ -415,7 +420,7 @@ class SchemeLoader:
                     if rows:
                         conn.close()
                         slug = rows[0][0]
-                        print(f"[SchemeLoader] Resolved name '{name}' → slug '{slug}'")
+                        print(f"[SchemeLoader] Resolved name '{name}' -> slug '{slug}'")
                         return slug
                 conn.close()
             except Exception as e:
@@ -431,7 +436,7 @@ class SchemeLoader:
                 best_slug = slug
                 best_len = len(scheme_name)
         if best_slug:
-            print(f"[SchemeLoader] Resolved name '{name}' → slug '{best_slug}' (in-memory)")
+            print(f"[SchemeLoader] Resolved name '{name}' -> slug '{best_slug}' (in-memory)")
         return best_slug
 
     def get_all_for_embedding(self):
