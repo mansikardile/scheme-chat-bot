@@ -276,11 +276,16 @@ def _format_eligible_results(
     gov_list = [(s, n, r) for s, n, r in eligible if not (s.startswith('pvt-') or s in PRIVATE_SCHEMES_CACHE)]
     pvt_list = [(s, n, r) for s, n, r in eligible if (s.startswith('pvt-') or s in PRIVATE_SCHEMES_CACHE)]
 
+    user_occ = (user_profile.get('occupation') or '').lower()
+    user_farmer = bool(user_profile.get('farmer_status') or user_occ == 'farmer')
+    pvt_label = "Private & CSR Trust initiative(s)" if user_farmer else "Private & CSR Trust scholarship(s)"
+    pvt_header = "### 🏢 Private & CSR Trust Initiatives" if user_farmer else "### 🏢 Private & CSR Trust Scholarships"
+
     summary_parts = []
     if gov_list:
         summary_parts.append(f"**{len(gov_list)} Government scheme(s)**")
     if pvt_list:
-        summary_parts.append(f"**{len(pvt_list)} Private & CSR Trust scholarship(s)**")
+        summary_parts.append(f"**{len(pvt_list)} {pvt_label}**")
 
     breakdown = " and ".join(summary_parts) if summary_parts else f"**{len(eligible)} verified scheme(s)**"
     lines = [f"I found {breakdown} matching your complete profile:\n"]
@@ -295,7 +300,7 @@ def _format_eligible_results(
             lines.append("")
 
     if pvt_list:
-        lines.append("### 🏢 Private & CSR Trust Scholarships")
+        lines.append(pvt_header)
         for i, (slug, name, result) in enumerate(pvt_list, 1):
             lines.append(f"**{i}. {name}**")
             if result.match_reasons:

@@ -119,6 +119,7 @@ CURATED_PRIVATE_SCHEMES = [
 4. Minimum 60% to 65% aggregate in qualifying exam.""",
         'application_url': 'https://www.sitaramjindalfoundation.org/scholarships.php',
         'rules': [
+            EligibilityRule(field='education_level', operator='IN', value=['higher_secondary', 'diploma', 'undergraduate', 'postgraduate'], mandatory=True, raw_text='Must be an enrolled student (11th/12th/Diploma/UG/PG)'),
             EligibilityRule(field='annual_family_income', operator='<=', value=400000, mandatory=True, raw_text='Income <= ₹4 LPA'),
         ]
     },
@@ -184,17 +185,58 @@ CURATED_PRIVATE_SCHEMES = [
             EligibilityRule(field='annual_family_income', operator='<=', value=600000, mandatory=True, raw_text='Income <= ₹6 LPA'),
         ]
     },
+    {
+        'slug': 'pvt-mahindra-krishi-samriddhi-csr',
+        'scheme_name': 'Mahindra Krishi Samriddhi CSR Farmer Support Initiative',
+        'short_title': 'Mahindra Krishi Samriddhi',
+        'foundation_name': 'Mahindra & Mahindra CSR Foundation',
+        'states': [],  # All India
+        'categories': ['General', 'EWS', 'OBC', 'SC', 'ST', 'VJNT', 'SBC', 'Minority'],
+        'gender': ['Female', 'Male'],
+        'max_income': 600000,
+        'brief_description': 'Provides small and marginal farmers with subsidized modern agricultural implements, soil health enhancement kits, drip irrigation assistance, and digital farming guidance.',
+        'eligibility_md': """1. Small and marginal farmers with landholdings up to 2.5 hectares (approx. 5 acres) or tenant cultivators.
+2. Both male and female farmers eligible, with priority for women farmers.
+3. Annual family income up to ₹6,00,000.""",
+        'application_url': 'https://www.mahindra.com/sustainability/csr',
+        'rules': [
+            EligibilityRule(field='farmer_status', operator='IN', value=['farmer', 'registered_farmer'], mandatory=True, raw_text='Must be an active farmer'),
+            EligibilityRule(field='annual_family_income', operator='<=', value=600000, mandatory=True, raw_text='Income <= ₹6 LPA'),
+        ]
+    },
+    {
+        'slug': 'pvt-itc-mission-sunehra-kal-agriculture',
+        'scheme_name': 'ITC Mission Sunehra Kal Sustainable Agriculture & Farmer Empowerment',
+        'short_title': 'ITC Choupal CSR',
+        'foundation_name': 'ITC Limited CSR (e-Choupal Initiative)',
+        'states': [],  # All India
+        'categories': ['General', 'EWS', 'OBC', 'SC', 'ST', 'VJNT', 'SBC', 'Minority'],
+        'gender': ['Female', 'Male'],
+        'max_income': 600000,
+        'brief_description': 'Assists smallholder farmers with climate-smart agriculture practices, certified high-yield seed assistance, water-saving technologies, and direct market linkage.',
+        'eligibility_md': """1. Small and marginal farmers or agricultural laborers.
+2. Engaged in crop cultivation, horticulture, or agro-forestry.
+3. Annual family income up to ₹6,00,000.""",
+        'application_url': 'https://www.itcportal.com/sustainability/mission-sunehra-kal.aspx',
+        'rules': [
+            EligibilityRule(field='farmer_status', operator='IN', value=['farmer', 'registered_farmer'], mandatory=True, raw_text='Must be an active farmer'),
+            EligibilityRule(field='annual_family_income', operator='<=', value=600000, mandatory=True, raw_text='Income <= ₹6 LPA'),
+        ]
+    },
 ]
 
 
-PRIVATE_SEARCH_PROMPT = """You are an expert scholarship advisor for Indian students and citizens.
+PRIVATE_SEARCH_PROMPT = """You are an expert scheme & grant advisor for Indian citizens, farmers, artisans, and students.
 
-Find verified, legitimate PRIVATE scholarships, NGO/Trust grants, and Corporate CSR initiatives in India (e.g., Lila Poonawalla Foundation, Tata Trusts, Reliance Foundation, Kotak Kanya Scholarship, HDFC Badhte Kadam / Parivartan, Santoor Women's Scholarship, Sitaram Jindal Foundation, L'Oréal India, Aditya Birla Scholarship, etc.) that match this candidate's profile.
+Find verified, legitimate PRIVATE grants, NGO/Trust support, and Corporate CSR initiatives in India (e.g., Mahindra Krishi Samriddhi, ITC Mission Sunehra Kal, Tata Trusts Livelihoods, Reliance Foundation Rural Transformation, Lila Poonawalla Foundation, Kotak Kanya, HDFC Parivartan, Sitaram Jindal Foundation, etc.) that match this candidate's specific profile and domain.
 
 Candidate Profile:
 - State: {state}
 - Gender: {gender}
 - Caste Category: {category}
+- Occupation: {occupation}
+- Farmer Status: {farmer_status}
+- Land Holding: {land_holding}
 - Education Level: {education_level}
 - Course/Stream: {course}
 - Study Stage: {study_stage}
@@ -204,23 +246,26 @@ Candidate Profile:
 - Minority: {minority}
 
 Instructions:
-1. Identify 3 to 6 prominent, verified REAL private/trust/CSR schemes matching this domain.
-2. Write precise, factual eligibility criteria for each scheme in markdown under `eligibility_md`.
-3. Include the official organization / foundation website URL where applicants can apply.
+1. If candidate is a Farmer, find agricultural and rural livelihood CSR initiatives (NOT student scholarships).
+2. If candidate is a Student, find scholarships and education grants.
+3. If candidate is an Artisan/Weaver, find craft/handloom livelihood programs.
+4. Identify 3 to 6 prominent, verified REAL private/trust/CSR schemes matching this exact domain.
+5. Write precise, factual eligibility criteria for each scheme in markdown under `eligibility_md`.
+6. Include the official organization / foundation website URL where applicants can apply.
 
 Return ONLY a valid JSON array of objects with this exact structure:
 [
   {{
     "slug": "unique-kebab-slug",
-    "scheme_name": "Full Official Name of Scholarship or Grant",
+    "scheme_name": "Full Official Name of Grant, Initiative or Scholarship",
     "short_title": "Short Name / Acronym",
     "foundation_name": "Trust / Corporate / NGO Name",
     "states": ["State1", "State2"],
     "categories": ["Category1", "Category2"],
     "gender": ["Female"],
-    "education_level": "undergraduate",
-    "max_income": 400000,
-    "brief_description": "2-3 sentences explaining the grant amount and target candidates.",
+    "education_level": "none",
+    "max_income": 600000,
+    "brief_description": "2-3 sentences explaining the grant amount/support and target candidates.",
     "eligibility_md": "Numbered list of mandatory eligibility conditions.",
     "application_url": "https://official-portal-url.org"
   }}
@@ -330,6 +375,12 @@ async def search_private_schemes_ai(
     # 1. Match from Curated Verified Private Schemes (Instant, zero latency)
     user_state = (user_profile.get('state') or '').lower()
     user_gender = (user_profile.get('gender') or '').lower()
+    user_occ = (user_profile.get('occupation') or '').lower()
+    user_farmer = bool(user_profile.get('farmer_status') or user_occ == 'farmer')
+    user_edu = user_profile.get('education_level')
+    user_course = user_profile.get('course')
+    is_student = (user_occ == 'student' or bool(user_edu) or bool(user_course))
+
     user_income = user_profile.get('annual_family_income')
     if isinstance(user_income, (list, tuple)):
         user_income = max(user_income)
@@ -347,6 +398,15 @@ async def search_private_schemes_ai(
         item_max_inc = item.get('max_income')
         if item_max_inc and user_income and user_income > item_max_inc:
             continue
+
+        # Domain check: If user is explicitly a farmer and not a student, do not match student scholarships
+        if user_farmer and not is_student:
+            if item.get('education_level') and 'scholarship' in item.get('slug', ''):
+                continue
+        # If user is explicitly a student and not a farmer, do not match exclusive farmer/artisan schemes
+        if is_student and not user_farmer:
+            if item.get('slug') in ('pvt-mahindra-krishi-samriddhi-csr', 'pvt-itc-mission-sunehra-kal-agriculture'):
+                continue
 
         slug = item['slug']
         summary = PRIVATE_SCHEMES_CACHE.get(slug)
@@ -380,9 +440,12 @@ async def search_private_schemes_ai(
         state=user_profile.get('state') or 'All India',
         gender=user_profile.get('gender') or 'Any',
         category=user_profile.get('category') or 'General / All',
-        education_level=user_profile.get('education_level') or 'Undergraduate',
-        course=user_profile.get('course') or 'General',
-        study_stage=user_profile.get('study_stage') or 'Any year / Direct Second Year',
+        occupation=user_profile.get('occupation') or ('Farmer' if user_farmer else ('Student' if is_student else 'Citizen')),
+        farmer_status='Farmer' if user_farmer else 'No',
+        land_holding=f"{user_profile.get('land_holding')} acres" if user_profile.get('land_holding') else 'Not specified',
+        education_level=user_profile.get('education_level') or ('N/A' if user_farmer and not is_student else 'Undergraduate'),
+        course=user_profile.get('course') or ('Agriculture / Farming' if user_farmer and not is_student else 'General'),
+        study_stage=user_profile.get('study_stage') or 'N/A',
         age=user_profile.get('age') or 'Not specified',
         income=income_str,
         disability=user_profile.get('disability_status') or 'None',

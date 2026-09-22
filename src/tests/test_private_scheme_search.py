@@ -89,3 +89,30 @@ def test_private_scheme_eligibility_rules():
     }
     res_assam = evaluate_scheme(assam_profile, rules)
     assert res_assam.status == EligibilityStatus.INELIGIBLE
+
+
+@pytest.mark.anyio
+async def test_farmer_private_csr_search():
+    """Farmer profile must match agricultural CSR initiatives and not student scholarships."""
+    farmer_profile = {
+        'state': 'Uttarakhand',
+        'gender': 'Female',
+        'category': 'General',
+        'occupation': 'farmer',
+        'farmer_status': 'farmer',
+        'land_holding': 0.5,
+        'annual_family_income': 400000,
+        'age': 20,
+    }
+
+    results = await search_private_schemes_ai(farmer_profile)
+    slugs = [r['slug'] for r in results]
+
+    # Must contain farmer / rural CSR schemes
+    assert any('rural' in s or 'krishi' in s or 'sunehra' in s or 'artisan' in s for s in slugs)
+    # Must NOT contain student-only scholarships
+    assert 'pvt-sitaram-jindal-foundation-scholarship' not in slugs
+    assert 'pvt-lila-poonawalla-undergraduate-scholarship' not in slugs
+    assert 'pvt-kotak-kanya-scholarship' not in slugs
+    assert 'pvt-reliance-foundation-undergraduate-scholarship' not in slugs
+
