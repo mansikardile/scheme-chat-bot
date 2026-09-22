@@ -1531,7 +1531,10 @@ async function openDetail(slug) {
 
         // Apply Button
         if (s.url) {
-            html += `<a href="${s.url}" target="_blank" class="apply-btn">View Official Page on myScheme.gov.in →</a>`;
+            const isMyScheme = s.url.includes('myscheme.gov.in');
+            const isPrivate = s.is_private || s.source_type === 'private' || (s.tags && s.tags.includes('private')) || !isMyScheme;
+            const buttonLabel = isPrivate ? 'Apply on Official Portal ↗' : 'View Official Page on myScheme.gov.in →';
+            html += `<a href="${s.url}" target="_blank" class="apply-btn">${buttonLabel}</a>`;
         }
 
         $('schemeDetailContent').innerHTML = html;
