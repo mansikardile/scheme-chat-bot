@@ -575,10 +575,16 @@ class RAGPipeline:
         """
         profile = user_profile or {}
 
-        # Classify intent
-        intent = await classify_intent_llm(
-            user_message, session_history, model_id, api_key, model_config
-        )
+        # Fast synchronous intent classification
+        intent = classify_intent_fast(user_message, session_history)
+        fast_profile = extract_profile_fields_fast(user_message, session_history)
+        if fast_profile and intent not in (Intent.SCHEME_REQUEST, Intent.DETAIL_REQUEST):
+            intent = Intent.PROFILE_INFO
+
+        if intent == Intent.OTHER:
+            intent = await classify_intent_llm(
+                user_message, session_history, model_id, api_key, model_config
+            )
         print(f"[RAGPipeline] Intent: {intent.value}")
 
         if intent == Intent.SCHEME_REQUEST:
@@ -642,10 +648,14 @@ class RAGPipeline:
         """
         # Classify intent synchronously for speed
         intent = classify_intent_fast(user_message, session_history)
+        fast_profile = extract_profile_fields_fast(user_message, session_history)
+        if fast_profile and intent not in (Intent.SCHEME_REQUEST, Intent.DETAIL_REQUEST):
+            intent = Intent.PROFILE_INFO
+
         print(f"[RAGPipeline] Stream intent (fast): {intent.value}")
 
-        # For ambiguous cases, refine with LLM (non-blocking prefetch)
-        if intent in (Intent.OTHER, Intent.CLARIFICATION):
+        # For ambiguous OTHER cases only, refine with LLM
+        if intent == Intent.OTHER:
             intent = await classify_intent_llm(
                 user_message, session_history, model_id, api_key, model_config
             )
