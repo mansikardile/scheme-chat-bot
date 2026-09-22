@@ -156,13 +156,23 @@ def _fast_extract_rules(eligibility_text: str, states: list[str], categories: li
             ))
 
     # --- Disability Target Beneficiaries ---
-    if re.search(r'\b(?:disabled|disability|divyang|pwd|handicapped?|specially[- ]abled|swds?|special schools?)\b', text_lower) and not re.search(r'\bnon[- ]disabled\b', text_lower):
+    if re.search(r'\b(?:disabled|disability|divyang|pwd|handicapped?|specially[- ]abled|differently[- ]abled|differently abled|visually[- ]challenged|visually challenged|hearing[- ]impair(?:ed|ments?)|hearing impair(?:ed|ments?)|speech[- ]impair(?:ed|ments?)|speech impair(?:ed|ments?)|orthopedic(?:ally)?[- ]?(?:challenged|impaired|challenges)?|locomotor disability|swds?|special schools?)\b', text_lower) and not re.search(r'\bnon[- ]disabled\b', text_lower):
         rules.append(EligibilityRule(
             field='disability_status',
             operator='IN',
             value=['disabled'],
             mandatory=True,
             raw_text="Must have disability (PwD/Divyang)",
+        ))
+
+    # --- Widows & Destitute Women Pension ---
+    if re.search(r'\b(?:widow|widows|destitute widow|widow pension|widowed|deserted women|destitute women|divorced women)\b', text_lower) and not re.search(r'\b(?:student|child of widow|children of widow|son of widow|daughter of widow|widow remarriage)\b', text_lower):
+        rules.append(EligibilityRule(
+            field='marital_status',
+            operator='IN',
+            value=['widow', 'widowed'],
+            mandatory=True,
+            raw_text="Must be a widow / destitute woman",
         ))
 
     # --- Senior Citizens / Old Age Target Beneficiaries ---

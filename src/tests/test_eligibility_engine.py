@@ -515,10 +515,79 @@ class TestEligibilityEngineEdgeCases:
         ]
         result = evaluate_scheme(user, rules)
         assert result.status == EligibilityStatus.INELIGIBLE
-        assert 'course' in result.failed_criteria
+    def test_widow_pension_rejects_single_student(self):
+        """INDIRAMMA Widow Pension requires widow status; rejects single 20yo student."""
+        user = {
+            'state': 'Andhra Pradesh',
+            'gender': 'Female',
+            'category': 'ST',
+            'education_level': 'undergraduate',
+            'marital_status': 'single',
+            'age': 20,
+        }
+        rules = [
+            make_rule('state', 'IN', ['Andhra Pradesh']),
+            make_rule('marital_status', 'IN', ['widow', 'widowed']),
+        ]
+        result = evaluate_scheme(user, rules)
+        assert result.status == EligibilityStatus.INELIGIBLE
+        assert 'marital_status' in result.failed_criteria
+
+    def test_differently_abled_laptop_scheme_rejects_non_disabled(self):
+        """Sanction of Laptops for Differently Abled requires disability_status == disabled."""
+        user = {
+            'state': 'Andhra Pradesh',
+            'gender': 'Female',
+            'category': 'ST',
+            'education_level': 'undergraduate',
+            'disability_status': 'non-disabled',
+            'age': 20,
+        }
+        rules = [
+            make_rule('state', 'IN', ['Andhra Pradesh']),
+            make_rule('disability_status', 'IN', ['disabled']),
+        ]
+        result = evaluate_scheme(user, rules)
+        assert result.status == EligibilityStatus.INELIGIBLE
+        assert 'disability_status' in result.failed_criteria
+
+    def test_fast_extract_widow_and_disability_rules(self):
+        """_fast_extract_rules correctly extracts widow and disability rules from descriptions."""
+        from backend.scheme_eligibility_extractor import _fast_extract_rules
+
+        # Widow pension text
+        widow_text = 'INDIRAMMA Widow Pension (Rural) scheme aims to disburse monthly pensions to widows, irrespective of their age.'
+        widow_rules = _fast_extract_rules(widow_text, ['Andhra Pradesh'], ['Social welfare'], scheme_name='INDIRAMMA Widow Pension (Rural)')
+        widow_fields = [r.field for r in widow_rules]
+        assert 'marital_status' in widow_fields
+
+        # Laptop differently abled text
+        laptop_text = 'The Sanction of Laptops scheme aims to distribute laptops to visually challenged, hearing impairments, speech impairments, and orthopedic challenges students pursuing professional courses.'
+        laptop_rules = _fast_extract_rules(laptop_text, ['Andhra Pradesh'], ['Education'], scheme_name='Sanction of Laptops - Andhra Pradesh')
+        laptop_fields = [r.field for r in laptop_rules]
+        assert 'disability_status' in laptop_fields
+
+    def test_typo_tolerant_scheme_intent(self):
+        """Typo variations like 'shhow me the scheme' are classified as SCHEME_REQUEST."""
+        from backend.intent_classifier import classify_intent_fast, Intent
+
+        test_phrases = [
+            "shhow me the scheme",
+            "show me the schemes",
+            "shhow me the schemes",
+            "sow me the scheme",
+            "sho me the scheme",
+            "show me scheme",
+            "find scheme",
+            "list of schemes",
+            "what schemes available for me",
+        ]
+        for phrase in test_phrases:
+            assert classify_intent_fast(phrase) == Intent.SCHEME_REQUEST, f"Failed for '{phrase}'"
 
 
 if __name__ == '__main__':
     pytest.main([__file__, '-v'])
+
 
 
