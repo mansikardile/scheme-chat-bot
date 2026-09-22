@@ -376,9 +376,22 @@ def extract_profile_fields_fast(message: str, conversation_history: list[dict] |
     elif re.search(r'\b(?:construction worker|mason|labourer|laborer|daily wage worker|mazdoor)\b', text_lower):
         fields['occupation'] = 'construction_worker'
         fields['special_condition'] = 'construction_worker'
-    elif re.search(r'\b(?:businessman|business owner|shopkeeper|trader|merchant|entrepreneur|startup founder)\b', text_lower):
+    elif re.search(r'\b(?:business\s*(?:owner|man|woman|person)?|in business|run(?:ning)?\s*(?:a\s+)?business|own business|have a business|doing business|shopkeeper|trader|merchant|entrepreneur|startup founder|small business)\b', text_lower):
         fields['occupation'] = 'business_owner'
         fields['employment_status'] = 'self_employed'
+    elif re.search(r'\b(?:teacher|school teacher|professor|assistant professor|associate professor|faculty|lecturer|educator|instructor)\b', text_lower):
+        fields['occupation'] = 'teacher'
+        fields['employment_status'] = 'employed'
+    elif re.search(r'\b(?:doctor|physician|nurse|nursing staff|healthcare worker|asha worker|anganwadi worker|anganwadi)\b', text_lower):
+        fields['occupation'] = 'healthcare_worker'
+        fields['employment_status'] = 'employed'
+    elif re.search(r'\b(?:lawyer|advocate|legal practitioner|attorney)\b', text_lower):
+        fields['occupation'] = 'lawyer'
+        fields['employment_status'] = 'self_employed'
+    elif re.search(r'\b(?:factory worker|mill worker|industrial worker|garment worker)\b', text_lower):
+        fields['occupation'] = 'factory_worker'
+        fields['special_condition'] = 'factory_worker'
+        fields['employment_status'] = 'employed'
     elif re.search(r'\b(?:fisherman|fishery|fish farmer|matsyajivi)\b', text_lower):
         fields['occupation'] = 'fisherman'
 

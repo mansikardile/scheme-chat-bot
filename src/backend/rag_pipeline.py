@@ -154,6 +154,18 @@ def _retrieve_candidates(user_profile: dict, user_message: str = '', limit: int 
                 "search_text ILIKE '%eshram%'",
             ])
 
+        # Teachers, Faculty & Researchers
+        if occupation == 'teacher' or any(w in msg_lower for w in ['teacher', 'faculty', 'professor', 'lecturer', 'educator']):
+            domain_conditions.extend([
+                "search_text ILIKE '%teacher%'",
+                "search_text ILIKE '%faculty%'",
+                "search_text ILIKE '%professor%'",
+                "search_text ILIKE '%training%'",
+                "search_text ILIKE '%research%'",
+                "categories ILIKE '%Education%'",
+                "categories ILIKE '%Skills%'",
+            ])
+
         # Housing
         if user_profile.get('housing_status') or any(w in msg_lower for w in ['housing', 'house', 'awas', 'home']):
             domain_conditions.extend([

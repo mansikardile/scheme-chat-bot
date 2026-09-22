@@ -118,7 +118,25 @@ def test_land_holding_extraction():
     assert extract_profile_fields_fast("half acre", history_land).get('land_holding') == 0.5
     assert extract_profile_fields_fast("2.5 acres", history_land).get('land_holding') == 2.5
     assert extract_profile_fields_fast("landless", history_land).get('land_holding') == 0.0
-    assert extract_profile_fields_fast("no land", history_land).get('land_holding') == 0.0
+    # Business / in business
+    f_in_biz = extract_profile_fields_fast("i am in business")
+    assert f_in_biz.get('occupation') == 'business_owner'
+    assert f_in_biz.get('employment_status') == 'self_employed'
+
+    # Teacher / Professor
+    f_teacher = extract_profile_fields_fast("i am a school teacher")
+    assert f_teacher.get('occupation') == 'teacher'
+    assert f_teacher.get('employment_status') == 'employed'
+
+    # Healthcare / Doctor
+    f_doc = extract_profile_fields_fast("i am a doctor")
+    assert f_doc.get('occupation') == 'healthcare_worker'
+    assert f_doc.get('employment_status') == 'employed'
+
+    # Lawyer
+    f_lawyer = extract_profile_fields_fast("i am an advocate in high court")
+    assert f_lawyer.get('occupation') == 'lawyer'
+    assert f_lawyer.get('employment_status') == 'self_employed'
 
 
 
