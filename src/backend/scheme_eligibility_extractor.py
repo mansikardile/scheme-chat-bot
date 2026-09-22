@@ -235,8 +235,75 @@ def _fast_extract_rules(eligibility_text: str, states: list[str], categories: li
             raw_text="Must be a teacher, faculty member, visiting professor, or librarian",
         ))
 
+    # --- Pregnant Women, Lactating Mothers & Maternity Benefits ---
+    if re.search(r'\b(?:pregnant\s*(?:&|and)?\s*lactating|pregnant women|lactating women|lactating mothers?|new mothers?|maternity benefit|mamata scheme|first two live births|antenatal care|infant mortality rate)\b', text_lower):
+        rules.append(EligibilityRule(
+            field='special_condition',
+            operator='IN',
+            value=['pregnant_woman', 'lactating_mother', 'new_mother'],
+            mandatory=True,
+            raw_text="Must be pregnant woman or lactating mother",
+        ))
+        rules.append(EligibilityRule(
+            field='marital_status',
+            operator='IN',
+            value=['married'],
+            mandatory=True,
+            raw_text="Must be married for maternity benefits",
+        ))
+
+    # --- Infants, Toddlers & Malnourished Children (Age 0-6) ---
+    if re.search(r'\b(?:0\s*(?:to|-)\s*3\s*years?|3\s*(?:to|-|and)\s*6\s*years?|6\s*months?\s*(?:to|-|and)\s*[35]\s*years?|preschool children|child from 0-3|severely acute malnourished|moderately acute malnourished|severely underweight|\bsam\b|\bmam\b|\bsuw\b|aama kuni pilaa|pada pushti|take home ration for children|early stimulation and responsive parenting)\b', text_lower):
+        rules.append(EligibilityRule(
+            field='special_condition',
+            operator='IN',
+            value=['preschool_child', 'malnourished_child', 'infant_child', 'parent_of_infant'],
+            mandatory=True,
+            raw_text="Must be infant/toddler or malnourished child (Age <= 6)",
+        ))
+
+    # --- Orphans, COVID-19 Victims & Destitute / Vulnerable Families ---
+    if re.search(r'\b(?:without biological(?:/|\s*or\s*)adoptive parents|lost both parents|lost a single bread-earning parent|child care institution|green passage scheme|covid orphan|hiv/aids-affected family|households without shelter|destitute / living on alms|manual scavengers|particularly vulnerable tribal groups|bonded labour)\b', text_lower):
+        rules.append(EligibilityRule(
+            field='special_condition',
+            operator='IN',
+            value=['orphan', 'covid_orphan', 'lost_parents', 'destitute', 'hiv_affected', 'manual_scavenger', 'pvtg', 'homeless', 'bonded_labourer'],
+            mandatory=True,
+            raw_text="Must be orphan, destitute, or member of specially vulnerable category",
+        ))
+
+    # --- Leprosy Cured / Leprosy Patients ---
+    if re.search(r'\b(?:cured leprosy persons?|leprosy persons?|leprosy affected)\b', text_lower):
+        rules.append(EligibilityRule(
+            field='special_condition',
+            operator='IN',
+            value=['cured_leprosy_person', 'leprosy_patient'],
+            mandatory=True,
+            raw_text="Must be a cured leprosy person / patient",
+        ))
+
+    # --- Specific Language & Humanities Honours Courses (Odia / Sanskrit / Hindi Honours) ---
+    if re.search(r'\b(?:arts with odia as honours|honours in odia|higher studies in odia language|odia as honours subject|promotion of the odia language|fakir mohan bhasabruti|honours in sanskrit|honours in hindi)\b', text_lower):
+        rules.append(EligibilityRule(
+            field='course',
+            operator='IN',
+            value=['odia', 'odia_honours', 'odia_language', 'odia_literature'],
+            mandatory=True,
+            raw_text="Must be pursuing Honours in Odia Language / Literature",
+        ))
+
+    # --- Health Insurance & Food Security Card Schemes ---
+    if re.search(r'\b(?:bsky smart health card|smart health card|biju swasthya kalyan|national food security act \(nfsa\)|state food security scheme \(sfss\)|ayushman card holder)\b', text_lower):
+        rules.append(EligibilityRule(
+            field='special_condition',
+            operator='IN',
+            value=['bsky_card_holder', 'nfsa_card_holder', 'sfss_card_holder', 'ration_card_holder', 'bpl_card_holder'],
+            mandatory=True,
+            raw_text="Must hold BSKY Smart Health Card / Ration Card",
+        ))
+
     # --- Pre-Matric / School vs Higher Education ---
-    if re.search(r'\b(?:pre[- ]?matr?ic|pre[- ]?metric|1st to 10th|primary school|upper primary|class 1 to 10|standard 1 to 10|school children|swds in school|special children below the age of 18)\b', text_lower):
+    if re.search(r'\b(?:pre[- ]?matr?ic|pre[- ]?metric|1st to 10th|primary school|upper primary|class 1 to 10|standard 1 to 10|school children|swds in school|special children below the age of 18|classes 6th to 12th|school girls from classes 6th to 12th|khushi scheme)\b', text_lower):
         rules.append(EligibilityRule(
             field='education_level',
             operator='IN',
@@ -413,15 +480,29 @@ def _fast_extract_rules(eligibility_text: str, states: list[str], categories: li
                 pass
 
     # --- Age ---
-    age_between = re.search(r'age\s*(?:group|limit|bracket)?\s*(?:of|between|from|in|is)?\s*(\d{1,2})\s*(?:to|and|-)\s*(\d{1,2})', text_lower)
+    age_between = (
+        re.search(r'aged?\s*(?:group|limit|bracket)?\s*(?:of|between|from|in|is)?\s*(\d{1,2})\s*(?:to|and|-|–)\s*(\d{1,2})', text_lower)
+        or re.search(r'\b(\d{1,2})\s*(?:to|-|–)\s*(\d{1,2})\s*years?(?:\s*age|\s*old|\s*group)?\b', text_lower)
+    )
     if age_between:
-        rules.append(EligibilityRule(
-            field='age',
-            operator='BETWEEN',
-            value=[int(age_between.group(1)), int(age_between.group(2))],
-            mandatory=True,
-            raw_text=f"Age {age_between.group(1)}-{age_between.group(2)}",
-        ))
+        min_a, max_a = int(age_between.group(1)), int(age_between.group(2))
+        if min_a <= max_a and max_a <= 120:
+            if min_a == 0:
+                rules.append(EligibilityRule(
+                    field='age',
+                    operator='<=',
+                    value=max_a,
+                    mandatory=True,
+                    raw_text=f"Age <= {max_a} years",
+                ))
+            else:
+                rules.append(EligibilityRule(
+                    field='age',
+                    operator='BETWEEN',
+                    value=[min_a, max_a],
+                    mandatory=True,
+                    raw_text=f"Age {min_a}-{max_a}",
+                ))
     else:
         age_above = re.search(r'(?:above|greater than|minimum age|at least)\s*(?:the\s*age\s*of)?\s*(\d{1,2})\s*(?:years|yrs)?', text_lower)
         if age_above:

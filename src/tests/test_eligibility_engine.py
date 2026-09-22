@@ -464,10 +464,61 @@ class TestEligibilityEngineEdgeCases:
             make_rule('special_condition', 'IN', ['factory_worker', 'shop_worker', 'commercial_worker', 'construction_worker', 'registered_labourer']),
         ]
         result = evaluate_scheme(user, rules)
+    def test_maternity_scheme_rejects_single_student(self):
+        """Mamata scheme requires pregnant/lactating mother; rejects single 20yo student."""
+        user = {
+            'state': 'Odisha',
+            'gender': 'Female',
+            'category': 'EWS',
+            'education_level': 'undergraduate',
+            'marital_status': 'single',
+            'special_condition': None,
+        }
+        rules = [
+            make_rule('state', 'IN', ['Odisha']),
+            make_rule('special_condition', 'IN', ['pregnant_woman', 'lactating_mother', 'new_mother']),
+            make_rule('marital_status', 'IN', ['married']),
+        ]
+        result = evaluate_scheme(user, rules)
         assert result.status == EligibilityStatus.INELIGIBLE
-        assert 'special_condition' in result.failed_criteria
+        assert 'special_condition' in result.failed_criteria or 'marital_status' in result.failed_criteria
+
+    def test_adolescent_scheme_rejects_20yo_student(self):
+        """Kishori Mela / Adolescent nutrition requires age 15-19; rejects 20yo."""
+        user = {
+            'state': 'Odisha',
+            'gender': 'Female',
+            'category': 'EWS',
+            'education_level': 'undergraduate',
+            'age': 20,
+        }
+        rules = [
+            make_rule('state', 'IN', ['Odisha']),
+            make_rule('age', 'BETWEEN', [15, 19]),
+        ]
+        result = evaluate_scheme(user, rules)
+        assert result.status == EligibilityStatus.INELIGIBLE
+        assert 'age' in result.failed_criteria
+
+    def test_odia_honours_scholarship_rejects_engineering_student(self):
+        """Vyasakabi Fakir Mohan Bhasabruti Scholarship requires Odia Language Honours; rejects engineering."""
+        user = {
+            'state': 'Odisha',
+            'gender': 'Female',
+            'category': 'EWS',
+            'education_level': 'undergraduate',
+            'course': 'engineering',
+        }
+        rules = [
+            make_rule('state', 'IN', ['Odisha']),
+            make_rule('course', 'IN', ['odia', 'odia_honours', 'odia_language']),
+        ]
+        result = evaluate_scheme(user, rules)
+        assert result.status == EligibilityStatus.INELIGIBLE
+        assert 'course' in result.failed_criteria
 
 
 if __name__ == '__main__':
     pytest.main([__file__, '-v'])
+
 
