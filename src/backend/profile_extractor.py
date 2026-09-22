@@ -337,34 +337,38 @@ def extract_profile_fields_fast(message: str, conversation_history: list[dict] |
                 last_bot_msg = (m.get('content') or '').lower()
                 break
 
+        # Extract only the actual question asked at the bottom of the bot's message
+        lines = [l.strip() for l in last_bot_msg.strip().splitlines() if l.strip()]
+        last_question = lines[-1] if lines else ""
+
         is_no = bool(re.match(r'^(?:no|nope|nah|none|nil|na|no i don\'?t|no i do not|not at all|no never|nothing|no disability|not really)$', text_lower))
         is_yes = bool(re.match(r'^(?:yes|yeah|yep|yup|i have|i do|true|sure|yes i have|yes i do)$', text_lower))
 
-        if 'disability' in last_bot_msg or 'divyang' in last_bot_msg or 'pwd' in last_bot_msg:
+        if 'disability' in last_question or 'divyang' in last_question or 'pwd' in last_question:
             if is_no or 'no' in text_lower.split():
                 fields['disability_status'] = 'non-disabled'
             elif is_yes or 'yes' in text_lower.split():
                 fields['disability_status'] = 'disabled'
 
-        elif 'minority' in last_bot_msg:
+        elif 'minority' in last_question:
             if is_no or 'no' in text_lower.split() or 'hindu' in text_lower:
                 fields['minority_status'] = 'non-minority'
             elif is_yes or 'yes' in text_lower.split():
                 fields['minority_status'] = 'minority'
 
-        elif 'domicile' in last_bot_msg or 'permanent resident' in last_bot_msg:
+        elif 'domicile' in last_question or 'permanent resident' in last_question:
             if is_yes or 'yes' in text_lower.split():
                 fields['residential_status'] = 'permanent_resident'
             elif is_no or 'no' in text_lower.split():
                 fields['residential_status'] = 'non-resident'
 
-        elif 'marital' in last_bot_msg:
+        elif 'marital' in last_question:
             if is_no or 'single' in text_lower or 'unmarried' in text_lower:
                 fields['marital_status'] = 'single'
             elif is_yes or 'married' in text_lower:
                 fields['marital_status'] = 'married'
 
-        elif 'institution' in last_bot_msg or 'college' in last_bot_msg:
+        elif 'institution' in last_question or 'college' in last_question:
             if 'private' in text_lower or 'unaided' in text_lower:
                 fields['institution_type'] = 'private_unaided'
             elif 'govt' in text_lower or 'government' in text_lower or 'aided' in text_lower:
@@ -372,7 +376,7 @@ def extract_profile_fields_fast(message: str, conversation_history: list[dict] |
             elif 'autonomous' in text_lower:
                 fields['institution_type'] = 'autonomous'
 
-        elif 'farmer' in last_bot_msg:
+        elif 'farmer' in last_question:
             if is_no or 'not a farmer' in text_lower:
                 fields['farmer_status'] = 'non-farmer'
             elif is_yes or 'farmer' in text_lower:
