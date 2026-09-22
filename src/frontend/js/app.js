@@ -1370,19 +1370,44 @@ function renderAIMessage(text, schemes) {
 
 function buildCard(scheme) {
     const card = document.createElement('div');
-    card.className = 'scheme-card';
-    const lvl = (scheme.level || 'central').toLowerCase();
+    const isPvt = scheme.is_private || (scheme.level && scheme.level.toLowerCase().includes('private'));
+    card.className = `scheme-card ${isPvt ? 'private-card' : ''}`;
+    const lvl = isPvt ? 'private' : (scheme.level || 'central').toLowerCase();
+    const lvlLabel = isPvt ? '🏢 Private / Trust' : (scheme.level || 'Central');
+
+    let matchHtml = '';
+    if (scheme.match_reasons && scheme.match_reasons.length > 0) {
+        matchHtml = `<div class="match-reasons">${scheme.match_reasons.slice(0, 3).map(r => `<div class="reason-item">✓ ${escapeHtml(r.replace(/^✓\s*/, ''))}</div>`).join('')}</div>`;
+    }
+
     card.innerHTML = `
-        <span class="level-badge ${lvl}">${scheme.level || 'Central'}</span>
+        <span class="level-badge ${lvl}">${escapeHtml(lvlLabel)}</span>
         <h4>${escapeHtml(scheme.name)}</h4>
         ${scheme.brief ? `<p>${escapeHtml(scheme.brief)}</p>` : ''}
+        ${matchHtml}
         ${scheme.tags?.length ? `<div class="tags">${scheme.tags.slice(0, 3).map(t => `<span class="tag">${escapeHtml(t)}</span>`).join('')}</div>` : ''}
     `;
+
+    const actions = document.createElement('div');
+    actions.className = 'card-actions';
+
     const btn = document.createElement('button');
     btn.className = 'btn-details';
     btn.textContent = 'View Details →';
     btn.onclick = () => openDetail(scheme.slug);
-    card.appendChild(btn);
+    actions.appendChild(btn);
+
+    if (scheme.application_url) {
+        const applyLink = document.createElement('a');
+        applyLink.className = 'btn-apply-link';
+        applyLink.href = scheme.application_url;
+        applyLink.target = '_blank';
+        applyLink.rel = 'noopener noreferrer';
+        applyLink.textContent = isPvt ? 'Foundation Portal ↗' : 'Apply Online ↗';
+        actions.appendChild(applyLink);
+    }
+
+    card.appendChild(actions);
     return card;
 }
 

@@ -399,6 +399,27 @@ a:hover { opacity: 0.8; }
 }
 .level-badge.central { background: var(--blue-soft); color: var(--blue); }
 .level-badge.state { background: var(--green-soft); color: var(--green); }
+.level-badge.private { background: rgba(168, 85, 247, 0.15); color: #c084fc; border: 1px solid rgba(168, 85, 247, 0.3); }
+
+.scheme-card.private-card {
+  border-color: rgba(168, 85, 247, 0.25);
+  background: linear-gradient(180deg, rgba(168, 85, 247, 0.03) 0%, var(--bg-primary) 100%);
+}
+.scheme-card.private-card:hover {
+  border-color: #c084fc;
+  box-shadow: 0 8px 30px rgba(168, 85, 247, 0.2);
+}
+
+.match-reasons {
+  display: flex; flex-direction: column; gap: 0.2rem;
+  margin-bottom: 0.75rem; background: rgba(16, 185, 129, 0.08);
+  padding: 0.4rem 0.6rem; border-radius: var(--r-sm);
+  border-left: 3px solid var(--green);
+}
+.reason-item {
+  font-size: 0.72rem; color: #34d399; font-weight: 500;
+  line-height: 1.3;
+}
 
 .tags { display: flex; flex-wrap: wrap; gap: 0.3rem; margin-bottom: 0.75rem; }
 .tag {
@@ -406,9 +427,13 @@ a:hover { opacity: 0.8; }
   padding: 0.15rem 0.4rem; border-radius: 4px; font-weight: 500;
 }
 
+.card-actions {
+  display: flex; gap: 0.5rem; width: 100%; margin-top: auto;
+}
+
 .btn-details {
   background: var(--accent-soft); color: var(--accent);
-  border: 1px solid rgba(245,158,11,0.2); width: 100%;
+  border: 1px solid rgba(245,158,11,0.2); flex: 1;
   padding: 0.5rem; border-radius: var(--r-sm);
   font-size: 0.8rem; font-weight: 600; cursor: pointer;
   transition: all var(--duration) var(--ease); text-align: center;
@@ -416,6 +441,19 @@ a:hover { opacity: 0.8; }
 }
 .btn-details:hover {
   background: var(--accent); color: var(--text-inverse);
+  border-color: var(--accent);
+}
+
+.btn-apply-link {
+  display: inline-flex; align-items: center; justify-content: center;
+  background: var(--bg-elevated); color: var(--text-secondary);
+  border: 1px solid var(--border); flex: 1;
+  padding: 0.5rem; border-radius: var(--r-sm);
+  font-size: 0.78rem; font-weight: 600; text-decoration: none;
+  transition: all var(--duration) var(--ease); text-align: center;
+}
+.btn-apply-link:hover {
+  background: var(--bg-card); color: var(--text-primary);
   border-color: var(--accent);
 }
 
