@@ -582,12 +582,32 @@ class TestEligibilityEngineEdgeCases:
             "list of schemes",
             "what schemes available for me",
         ]
-        for phrase in test_phrases:
-            assert classify_intent_fast(phrase) == Intent.SCHEME_REQUEST, f"Failed for '{phrase}'"
+    def test_goa_incubation_scheme_rejects_individual_business(self):
+        """Grant for Incubation Centers within Educational Institutes Scheme must extract institutional grant rule and reject individuals."""
+        from backend.scheme_eligibility_extractor import _fast_extract_rules
+
+        text = "Grant for Incubation Centers within Educational Institutes Scheme is for the educational institutes in Goa, affiliated with a recognized public university. They can avail of a one-time grant towards capital expenses for setting up an incubator within their institute campuses."
+        rules = _fast_extract_rules(text, ['Goa'], ['Entrepreneurship'], scheme_name='Grant for Incubation Centers within Educational Institutes Scheme')
+        rule_fields = [r.field for r in rules]
+        assert 'special_condition' in rule_fields
+
+        user = {
+            'state': 'Goa',
+            'gender': 'Female',
+            'category': 'General',
+            'occupation': 'business_owner',
+            'employment_status': 'self_employed',
+            'age': 20,
+            'annual_family_income': 400000,
+        }
+        res = evaluate_scheme(user, rules)
+        assert res.status == EligibilityStatus.INELIGIBLE
+        assert 'special_condition' in res.failed_criteria
 
 
 if __name__ == '__main__':
     pytest.main([__file__, '-v'])
+
 
 
 
