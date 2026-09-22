@@ -45,7 +45,7 @@ _STATE_TITLE.update({
 _CATEGORY_MAP = {
     r'\bsc\b': 'SC', r'\bscheduled caste\b': 'SC', r'\bdalit\b': 'SC',
     r'\bst\b': 'ST', r'\bscheduled tribe\b': 'ST', r'\badivasi\b': 'ST', r'\btribal\b': 'ST',
-    r'\bobc\b': 'OBC', r'\bother backward\b': 'OBC', r'\bbackward class\b': 'OBC',
+    r'\bobc\b': 'OBC', r'\bobsc\b': 'OBC', r'\bovc\b': 'OBC', r'\bother backward\b': 'OBC', r'\bbackward class\b': 'OBC',
     r'\bews\b': 'EWS', r'\beconomically weaker section\b': 'EWS', r'\beconomically weak\b': 'EWS',
     r'\bgeneral category\b': 'General', r'\bopen category\b': 'General',
     r'\bvjnt\b': 'VJNT', r'\bsbc\b': 'SBC', r'\bnt\b': 'NT',
@@ -62,8 +62,9 @@ _GENDER_MAP = {
 }
 
 _EDUCATION_MAP = {
-    r'\bdirect second year\b': 'undergraduate', r'\bdsy\b': 'undergraduate',
-    r'\blateral entry\b': 'undergraduate',
+    r'\bdire+ct\s+seco?nd\s+year\b': 'undergraduate', r'\bdirect\s+2nd\s+year\b': 'undergraduate',
+    r'\bdsy\b': 'undergraduate', r'\bdirect\s+second\b': 'undergraduate',
+    r'\blateral\s+entry\b': 'undergraduate',
     r'\bphd\b': 'doctoral', r'\bph\.d\b': 'doctoral', r'\bdoctorate\b': 'doctoral',
     r'\bmtech\b': 'postgraduate', r'\bm\.tech\b': 'postgraduate',
     r'\bmba\b': 'postgraduate', r'\bmsc\b': 'postgraduate', r'\bma\b': 'postgraduate',
@@ -87,9 +88,11 @@ _EDUCATION_MAP = {
 }
 
 _STUDY_STAGE_MAP = {
-    r'\bdirect second year\b': 'direct_second_year',
+    r'\bdire+ct\s+seco?nd\s+year\b': 'direct_second_year',
+    r'\bdirect\s+2nd\s+year\b': 'direct_second_year',
     r'\bdsy\b': 'direct_second_year',
-    r'\blateral entry\b': 'direct_second_year',
+    r'\bdirect\s+second\b': 'direct_second_year',
+    r'\blateral\s+entry\b': 'direct_second_year',
     r'\bfirst year\b': 'first_year', r'\b1st year\b': 'first_year',
     r'\bsecond year\b': 'second_year', r'\b2nd year\b': 'second_year',
     r'\bthird year\b': 'third_year', r'\b3rd year\b': 'third_year',
@@ -98,7 +101,8 @@ _STUDY_STAGE_MAP = {
 }
 
 _COURSE_MAP = {
-    r'\bengineering\b': 'engineering', r'\bcomputer science\b': 'engineering',
+    r'\bengineering\b|\bengg\b|\bengneering\b|\bengineer\b': 'engineering',
+    r'\bcomputer science\b': 'engineering',
     r'\bcs\b': 'engineering', r'\bit\b': 'engineering',
     r'\bmechanical\b': 'engineering', r'\belectrical\b': 'engineering',
     r'\bcivil\b': 'engineering', r'\belectronics\b': 'engineering',
@@ -238,12 +242,25 @@ def _extract_income(text: str) -> object:
 
 
 def _extract_age(text_lower: str) -> int | None:
-    m = re.search(r'(?:i am|age is|aged?|age:?)\s+(\d{1,2})', text_lower)
+    # Standalone number: "20", " 20 ", "20."
+    m = re.match(r'^\s*(\d{1,2})\s*$', text_lower)
     if m:
-        return int(m.group(1))
-    m = re.search(r'(\d{1,2})\s*(?:years?|yrs?)(?:\s*old)?', text_lower)
+        val = int(m.group(1))
+        if 5 <= val <= 100:
+            return val
+
+    m = re.search(r'(?:i am|age is|aged?|age:?|im|i\'m)\s+(\d{1,2})', text_lower)
     if m:
-        return int(m.group(1))
+        val = int(m.group(1))
+        if 5 <= val <= 100:
+            return val
+
+    m = re.search(r'(\d{1,2})\s*(?:years?|yrs?|yr|yo)(?:\s*old)?', text_lower)
+    if m:
+        val = int(m.group(1))
+        if 5 <= val <= 100:
+            return val
+
     return None
 
 
@@ -280,6 +297,8 @@ def extract_profile_fields_fast(message: str, conversation_history: list[dict] |
     stage = _extract_study_stage(text_lower)
     if stage:
         fields['study_stage'] = stage
+        if stage == 'direct_second_year' and not fields.get('education_level'):
+            fields['education_level'] = 'undergraduate'
 
     course = _extract_course(text_lower)
     if course:
@@ -349,7 +368,7 @@ def extract_profile_fields_fast(message: str, conversation_history: list[dict] |
         fields['institution_type'] = 'private_unaided'
     elif re.search(r'\b(?:government aided|govt aided|aided college|aided institution|government college|govt college)\b', text_lower):
         fields['institution_type'] = 'government_aided'
-    elif re.search(r'\b(?:autonomous)\b', text_lower):
+    elif re.search(r'\b(?:autonomous|autonimous|autonomus)\b', text_lower):
         fields['institution_type'] = 'autonomous'
 
     # Domicile / residential
@@ -375,7 +394,15 @@ def extract_profile_fields_fast(message: str, conversation_history: list[dict] |
         is_no = bool(re.match(r'^(?:no|nope|nah|none|nil|na|no i don\'?t|no i do not|not at all|no never|nothing|no disability|not really)$', text_lower))
         is_yes = bool(re.match(r'^(?:yes|yeah|yep|yup|i have|i do|true|sure|yes i have|yes i do)$', text_lower))
 
-        if 'disability' in last_question or 'divyang' in last_question or 'pwd' in last_question:
+        # Age contextual answering
+        if 'how old' in last_question or 'age' in last_question or 'years old' in last_question:
+            num_match = re.search(r'\b(\d{1,2})\b', text_lower)
+            if num_match:
+                val = int(num_match.group(1))
+                if 5 <= val <= 100:
+                    fields['age'] = val
+
+        elif 'disability' in last_question or 'divyang' in last_question or 'pwd' in last_question:
             if is_no or 'no' in text_lower.split():
                 fields['disability_status'] = 'non-disabled'
             elif is_yes or 'yes' in text_lower.split():
@@ -399,13 +426,20 @@ def extract_profile_fields_fast(message: str, conversation_history: list[dict] |
             elif is_yes or 'married' in text_lower:
                 fields['marital_status'] = 'married'
 
-        elif 'institution' in last_question or 'college' in last_question:
+        elif 'institution' in last_question or 'college' in last_question or 'aided' in last_question or 'autonomous' in text_lower:
             if 'private' in text_lower or 'unaided' in text_lower:
                 fields['institution_type'] = 'private_unaided'
             elif 'govt' in text_lower or 'government' in text_lower or 'aided' in text_lower:
                 fields['institution_type'] = 'government_aided'
-            elif 'autonomous' in text_lower:
+            elif 'auton' in text_lower:
                 fields['institution_type'] = 'autonomous'
+
+        elif 'education' in last_question or 'course' in last_question or 'study' in last_question:
+            if re.search(r'\bdire+ct\s+seco?nd\s+year\b|\bdsy\b|\bdirect\s+2nd\b|\bdirect\s+second\b', text_lower):
+                fields['study_stage'] = 'direct_second_year'
+                fields['education_level'] = 'undergraduate'
+            if re.search(r'\bengineering\b|\bengg\b|\bengneering\b|\bengineer\b', text_lower):
+                fields['course'] = 'engineering'
 
         elif 'farmer' in last_question:
             if is_no or 'not a farmer' in text_lower:
@@ -441,7 +475,7 @@ Available fields:
 - study_stage: "first_year", "second_year", "third_year", "fourth_year", "direct_second_year"
 - course: e.g. "engineering", "medical", "arts", "science", "commerce", "law", "management"
 - stream: e.g. "science", "arts", "commerce"
-- annual_family_income: number in rupees, or [min, max] range
+- annual_family_income: number in rupees (positive number only)
 - age: integer years
 - disability_status: "disabled" or "non-disabled"
 - minority_status: "minority" or "non-minority"
@@ -449,11 +483,12 @@ Available fields:
 - employment_status: "employed", "unemployed", "self-employed", "student"
 - marital_status: "single", "married", "widow", "widower"
 - institution_type: "government_aided", "private_unaided", "autonomous"
-- occupation: e.g. "farmer", "teacher", "entrepreneur"
+- occupation: e.g. "farmer", "teacher", "entrepreneur", "weaver", "artisan"
 - district: district name string
 
 Special normalizations:
-- If bot asked "Do you have any disability" and user says "no" / "no i dont" -> disability_status: "non-disabled"
+- If bot asked "How old are you?" and user says "20" -> age: 20
+- If bot asked "Do you have any disability" and user says "no" -> disability_status: "non-disabled"
 - If bot asked "Do you belong to minority" and user says "no" -> minority_status: "non-minority"
 - "DSY" / "Direct Second Year" -> study_stage: "direct_second_year" AND education_level: "undergraduate"
 - "girl student" -> gender: "Female"
@@ -491,11 +526,12 @@ JSON only, no markdown:"""
         json_match = re.search(r'\{.*?\}', str(content), re.DOTALL)
         if json_match:
             fields = json.loads(json_match.group())
-            fields = {k: v for k, v in fields.items() if v is not None and v != ''}
+            fields = {k: v for k, v in fields.items() if v is not None and v != '' and v != 0 and v != '0'}
+            if 'annual_family_income' in fields and (fields['annual_family_income'] == 0 or fields['annual_family_income'] == '0'):
+                del fields['annual_family_income']
             print(f"[ProfileExtractor] LLM extracted: {fields}")
             return fields
     except Exception as e:
-        print(f"[ProfileExtractor] LLM extraction failed: {e}, using fast fallback")
+        print(f"[ProfileExtractor] LLM extraction failed: {e}")
 
     return extract_profile_fields_fast(message, conversation_history)
-

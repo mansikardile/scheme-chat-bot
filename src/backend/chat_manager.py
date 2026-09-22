@@ -84,6 +84,9 @@ class ChatSession:
                     merged = list(set(existing + value))
                     self.user_profile['specific_special_conditions'] = merged
             elif value is not None and value != '' and value != []:
+                # Safety guard: never overwrite a previously recorded income (>0) with 0 or empty
+                if key == 'annual_family_income' and (value == 0 or value == '0') and (self.user_profile.get('annual_family_income') or 0) > 0:
+                    continue
                 self.user_profile[key] = value
 
     def get_profile(self) -> dict:
