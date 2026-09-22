@@ -1,3 +1,7 @@
+import sys
+import os
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..'))
+
 import pytest
 from backend.profile_extractor import extract_profile_fields_fast, _extract_income
 from backend.intent_classifier import classify_intent_fast, Intent
@@ -44,3 +48,22 @@ def test_intent_classification():
     assert classify_intent_fast("income 4 lpa") in (Intent.PROFILE_INFO, Intent.CLARIFICATION)
     assert classify_intent_fast("give me schemes") == Intent.SCHEME_REQUEST
     assert classify_intent_fast("show me the schemes") == Intent.SCHEME_REQUEST
+
+
+def test_disability_and_contextual_qa():
+    # Standalone negative disability
+    assert extract_profile_fields_fast("no disability") == {'disability_status': 'non-disabled'}
+    assert extract_profile_fields_fast("non-disabled") == {'disability_status': 'non-disabled'}
+
+    # Contextual answering to disability question
+    history = [{'role': 'model', 'content': 'Do you have any disability (Divyang/PwD)?'}]
+    assert extract_profile_fields_fast("no", history) == {'disability_status': 'non-disabled'}
+    assert extract_profile_fields_fast("no i dont", history) == {'disability_status': 'non-disabled'}
+    assert extract_profile_fields_fast("nope", history) == {'disability_status': 'non-disabled'}
+    assert extract_profile_fields_fast("yes", history) == {'disability_status': 'disabled'}
+
+    # Contextual answering to minority question
+    history_min = [{'role': 'model', 'content': 'Do you belong to a minority community?'}]
+    assert extract_profile_fields_fast("no", history_min) == {'minority_status': 'non-minority'}
+    assert extract_profile_fields_fast("yes", history_min) == {'minority_status': 'minority'}
+

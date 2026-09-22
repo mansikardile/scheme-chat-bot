@@ -43,15 +43,15 @@ _STATE_TITLE.update({
 })
 
 _CATEGORY_MAP = {
-    r'\bsc\b': 'SC', 'scheduled caste': 'SC', 'dalit': 'SC',
-    r'\bst\b': 'ST', 'scheduled tribe': 'ST', 'adivasi': 'ST', 'tribal': 'ST',
-    r'\bobc\b': 'OBC', 'other backward': 'OBC', 'backward class': 'OBC',
-    r'\bews\b': 'EWS', 'economically weaker section': 'EWS', 'economically weak': 'EWS',
-    'general category': 'General', 'open category': 'General',
+    r'\bsc\b': 'SC', r'\bscheduled caste\b': 'SC', r'\bdalit\b': 'SC',
+    r'\bst\b': 'ST', r'\bscheduled tribe\b': 'ST', r'\badivasi\b': 'ST', r'\btribal\b': 'ST',
+    r'\bobc\b': 'OBC', r'\bother backward\b': 'OBC', r'\bbackward class\b': 'OBC',
+    r'\bews\b': 'EWS', r'\beconomically weaker section\b': 'EWS', r'\beconomically weak\b': 'EWS',
+    r'\bgeneral category\b': 'General', r'\bopen category\b': 'General',
     r'\bvjnt\b': 'VJNT', r'\bsbc\b': 'SBC', r'\bnt\b': 'NT',
-    'minority': 'Minority', 'muslim': 'Minority', 'christian': 'Minority',
-    'sikh': 'Minority', 'jain': 'Minority', 'buddhist': 'Minority',
-    'disabled': 'Disabled', 'divyang': 'Disabled', r'\bpwd\b': 'Disabled',
+    r'(?<!non-)(?<!not )\bminority\b': 'Minority', r'\bmuslim\b': 'Minority', r'\bchristian\b': 'Minority',
+    r'\bsikh\b': 'Minority', r'\bjain\b': 'Minority', r'\bbuddhist\b': 'Minority',
+    r'(?<!non-)(?<!not )\bdisabled\b': 'Disabled', r'(?<!non-)(?<!not )\bdivyang\b': 'Disabled', r'(?<!non-)(?<!not )\bpwd\b': 'Disabled',
 }
 
 _GENDER_MAP = {
@@ -62,54 +62,54 @@ _GENDER_MAP = {
 }
 
 _EDUCATION_MAP = {
-    'direct second year': 'undergraduate', r'\bdsy\b': 'undergraduate',
-    'lateral entry': 'undergraduate',
-    r'\bphd\b': 'doctoral', 'ph.d': 'doctoral', 'doctorate': 'doctoral',
-    r'\bmtech\b': 'postgraduate', 'm.tech': 'postgraduate',
+    r'\bdirect second year\b': 'undergraduate', r'\bdsy\b': 'undergraduate',
+    r'\blateral entry\b': 'undergraduate',
+    r'\bphd\b': 'doctoral', r'\bph\.d\b': 'doctoral', r'\bdoctorate\b': 'doctoral',
+    r'\bmtech\b': 'postgraduate', r'\bm\.tech\b': 'postgraduate',
     r'\bmba\b': 'postgraduate', r'\bmsc\b': 'postgraduate', r'\bma\b': 'postgraduate',
-    r'\bbtech\b': 'undergraduate', 'b.tech': 'undergraduate',
+    r'\bbtech\b': 'undergraduate', r'\bb\.tech\b': 'undergraduate',
     r'\bmbbs\b': 'undergraduate', r'\bllb\b': 'undergraduate',
-    r'\bbe\b': 'undergraduate', 'b.e': 'undergraduate',
-    r'\bbsc\b': 'undergraduate', 'b.sc': 'undergraduate',
-    r'\bbcom\b': 'undergraduate', 'b.com': 'undergraduate',
-    r'\bba\b': 'undergraduate', 'b.a': 'undergraduate',
-    'undergraduate': 'undergraduate', 'graduation': 'undergraduate', 'degree': 'undergraduate',
-    r'\bpg\b': 'postgraduate', 'post graduate': 'postgraduate', 'masters': 'postgraduate',
-    r'\bdiploma\b': 'diploma', 'polytechnic': 'diploma', r'\biti\b': 'diploma',
-    'class 12': 'higher_secondary', '12th': 'higher_secondary', r'\bhsc\b': 'higher_secondary',
-    'class 11': 'higher_secondary', '11th': 'higher_secondary', 'intermediate': 'higher_secondary',
-    'class 10': 'secondary', '10th': 'secondary', r'\bssc\b': 'secondary', 'matric': 'secondary',
-    'class 9': 'secondary', '9th': 'secondary',
-    'class 8': 'upper_primary', '8th': 'upper_primary',
-    'class 7': 'upper_primary', '7th': 'upper_primary',
-    'class 6': 'upper_primary', '6th': 'upper_primary',
-    'class 5': 'primary', '5th': 'primary',
+    r'\bbe\b': 'undergraduate', r'\bb\.e\b': 'undergraduate',
+    r'\bbsc\b': 'undergraduate', r'\bb\.sc\b': 'undergraduate',
+    r'\bbcom\b': 'undergraduate', r'\bb\.com\b': 'undergraduate',
+    r'\bba\b': 'undergraduate', r'\bb\.a\b': 'undergraduate',
+    r'\bundergraduate\b': 'undergraduate', r'\bgraduation\b': 'undergraduate', r'\bdegree\b': 'undergraduate',
+    r'\bpg\b': 'postgraduate', r'\bpost graduate\b': 'postgraduate', r'\bmasters\b': 'postgraduate',
+    r'\bdiploma\b': 'diploma', r'\bpolytechnic\b': 'diploma', r'\biti\b': 'diploma',
+    r'\bclass 12\b': 'higher_secondary', r'\b12th\b': 'higher_secondary', r'\bhsc\b': 'higher_secondary',
+    r'\bclass 11\b': 'higher_secondary', r'\b11th\b': 'higher_secondary', r'\bintermediate\b': 'higher_secondary',
+    r'\bclass 10\b': 'secondary', r'\b10th\b': 'secondary', r'\bssc\b': 'secondary', r'\bmatric\b': 'secondary',
+    r'\bclass 9\b': 'secondary', r'\b9th\b': 'secondary',
+    r'\bclass 8\b': 'upper_primary', r'\b8th\b': 'upper_primary',
+    r'\bclass 7\b': 'upper_primary', r'\b7th\b': 'upper_primary',
+    r'\bclass 6\b': 'upper_primary', r'\b6th\b': 'upper_primary',
+    r'\bclass 5\b': 'primary', r'\b5th\b': 'primary',
 }
 
 _STUDY_STAGE_MAP = {
-    'direct second year': 'direct_second_year',
+    r'\bdirect second year\b': 'direct_second_year',
     r'\bdsy\b': 'direct_second_year',
-    'lateral entry': 'direct_second_year',
-    'first year': 'first_year', '1st year': 'first_year',
-    'second year': 'second_year', '2nd year': 'second_year',
-    'third year': 'third_year', '3rd year': 'third_year',
-    'fourth year': 'fourth_year', '4th year': 'fourth_year',
-    'final year': 'fourth_year',
+    r'\blateral entry\b': 'direct_second_year',
+    r'\bfirst year\b': 'first_year', r'\b1st year\b': 'first_year',
+    r'\bsecond year\b': 'second_year', r'\b2nd year\b': 'second_year',
+    r'\bthird year\b': 'third_year', r'\b3rd year\b': 'third_year',
+    r'\bfourth year\b': 'fourth_year', r'\b4th year\b': 'fourth_year',
+    r'\bfinal year\b': 'fourth_year',
 }
 
 _COURSE_MAP = {
-    'engineering': 'engineering', 'computer science': 'engineering',
+    r'\bengineering\b': 'engineering', r'\bcomputer science\b': 'engineering',
     r'\bcs\b': 'engineering', r'\bit\b': 'engineering',
-    'mechanical': 'engineering', 'electrical': 'engineering',
-    'civil': 'engineering', 'electronics': 'engineering',
-    'medical': 'medical', 'mbbs': 'medical', 'nursing': 'medical',
-    'pharmacy': 'medical', r'\bpharm\b': 'medical',
-    'arts': 'arts', r'\bba\b': 'arts',
-    'science': 'science', r'\bbsc\b': 'science',
-    'commerce': 'commerce', r'\bbcom\b': 'commerce',
-    'law': 'law', r'\bllb\b': 'law',
-    'management': 'management', r'\bmba\b': 'management',
-    'architecture': 'architecture',
+    r'\bmechanical\b': 'engineering', r'\belectrical\b': 'engineering',
+    r'\bcivil\b': 'engineering', r'\belectronics\b': 'engineering',
+    r'\bmedical\b': 'medical', r'\bmbbs\b': 'medical', r'\bnursing\b': 'medical',
+    r'\bpharmacy\b': 'medical', r'\bpharm\b': 'medical',
+    r'\barts\b': 'arts',
+    r'\bscience\b': 'science',
+    r'\bcommerce\b': 'commerce',
+    r'\blaw\b': 'law',
+    r'\bmanagement\b': 'management',
+    r'\barchitecture\b': 'architecture',
 }
 
 
@@ -124,6 +124,9 @@ def _extract_state(text_lower: str) -> str | None:
 
 
 def _extract_category(text_lower: str) -> str | None:
+    # Skip if negative disability/minority phrase
+    if re.search(r'\b(?:non[- ]?disabled|not disabled|no disability|non[- ]?minority|not minority|no minority)\b', text_lower):
+        return None
     for pattern, cat in _CATEGORY_MAP.items():
         if re.search(pattern, text_lower):
             return cat
@@ -142,6 +145,7 @@ def _extract_education_level(text_lower: str) -> str | None:
         if re.search(pattern, text_lower):
             return level
     return None
+
 
 
 def _extract_study_stage(text_lower: str) -> str | None:
@@ -247,16 +251,14 @@ def _extract_age(text_lower: str) -> int | None:
 # Public API
 # ---------------------------------------------------------------------------
 
-def extract_profile_fields_fast(message: str) -> dict:
+def extract_profile_fields_fast(message: str, conversation_history: list[dict] | None = None) -> dict:
     """
-    Fast regex-based profile field extraction from a user message.
+    Fast regex-based profile field extraction from a user message,
+    including context-aware answering when the bot asks a specific question.
 
     Returns a dict with ONLY the fields that were explicitly found.
-    Missing fields are not included (caller merges with existing profile).
-
-    This runs synchronously with no LLM calls.
     """
-    text_lower = message.lower()
+    text_lower = message.lower().strip()
     fields: dict = {}
 
     state = _extract_state(text_lower)
@@ -291,15 +293,90 @@ def extract_profile_fields_fast(message: str) -> dict:
     if age is not None:
         fields['age'] = age
 
-    # Disability
-    if re.search(r'\bdisabled\b|\bdivyang\b|\bpwd\b|\bhandicap\b', text_lower):
+    # Disability (Explicit patterns)
+    if re.search(r'\b(?:no disability|non[- ]?disabled|not disabled|no pwd|no divyang|not handicapped|no handicap|without disability)\b', text_lower):
+        fields['disability_status'] = 'non-disabled'
+    elif re.search(r'\b(?:disabled|divyang|pwd|handicap|physically handicapped)\b', text_lower) and not re.search(r'\b(?:no|not|non)\b', text_lower):
         fields['disability_status'] = 'disabled'
+
+    # Minority (Explicit patterns)
+    if re.search(r'\b(?:non[- ]?minority|not minority|no minority|majority|hindu)\b', text_lower):
+        fields['minority_status'] = 'non-minority'
+    elif re.search(r'\b(?:minority|muslim|christian|sikh|jain|buddhist|parsi)\b', text_lower) and not re.search(r'\b(?:no|not|non)\b', text_lower):
+        fields['minority_status'] = 'minority'
+
+    # Marital status (Explicit patterns)
+    if re.search(r'\b(?:single|unmarried|bachelor|spinster|never married)\b', text_lower):
+        fields['marital_status'] = 'single'
+    elif re.search(r'\b(?:married)\b', text_lower) and not re.search(r'\b(?:unmarried|never married)\b', text_lower):
+        fields['marital_status'] = 'married'
+    elif re.search(r'\b(?:widow|widower)\b', text_lower):
+        fields['marital_status'] = 'widow'
+
+    # Institution type (Explicit patterns)
+    if re.search(r'\b(?:private unaided|unaided|private college|private university|self financed)\b', text_lower):
+        fields['institution_type'] = 'private_unaided'
+    elif re.search(r'\b(?:government aided|govt aided|aided college|aided institution|government college|govt college)\b', text_lower):
+        fields['institution_type'] = 'government_aided'
+    elif re.search(r'\b(?:autonomous)\b', text_lower):
+        fields['institution_type'] = 'autonomous'
 
     # Domicile / residential
     if re.search(r'\bdomi[cs]ile\b|\bresident\b|\bliving in\b|\bfrom\b', text_lower):
-        # State was already captured; flag residential status
         if state:
             fields['residential_status'] = f'resident_{state.lower().replace(" ", "_")}'
+        else:
+            fields['residential_status'] = 'permanent_resident'
+
+    # Contextual Answer Resolution (when answering the bot's most recent question)
+    if conversation_history:
+        # Find the last model message
+        last_bot_msg = ""
+        for m in reversed(conversation_history):
+            if m.get('role') in ('model', 'assistant'):
+                last_bot_msg = (m.get('content') or '').lower()
+                break
+
+        is_no = bool(re.match(r'^(?:no|nope|nah|none|nil|na|no i don\'?t|no i do not|not at all|no never|nothing|no disability|not really)$', text_lower))
+        is_yes = bool(re.match(r'^(?:yes|yeah|yep|yup|i have|i do|true|sure|yes i have|yes i do)$', text_lower))
+
+        if 'disability' in last_bot_msg or 'divyang' in last_bot_msg or 'pwd' in last_bot_msg:
+            if is_no or 'no' in text_lower.split():
+                fields['disability_status'] = 'non-disabled'
+            elif is_yes or 'yes' in text_lower.split():
+                fields['disability_status'] = 'disabled'
+
+        elif 'minority' in last_bot_msg:
+            if is_no or 'no' in text_lower.split() or 'hindu' in text_lower:
+                fields['minority_status'] = 'non-minority'
+            elif is_yes or 'yes' in text_lower.split():
+                fields['minority_status'] = 'minority'
+
+        elif 'domicile' in last_bot_msg or 'permanent resident' in last_bot_msg:
+            if is_yes or 'yes' in text_lower.split():
+                fields['residential_status'] = 'permanent_resident'
+            elif is_no or 'no' in text_lower.split():
+                fields['residential_status'] = 'non-resident'
+
+        elif 'marital' in last_bot_msg:
+            if is_no or 'single' in text_lower or 'unmarried' in text_lower:
+                fields['marital_status'] = 'single'
+            elif is_yes or 'married' in text_lower:
+                fields['marital_status'] = 'married'
+
+        elif 'institution' in last_bot_msg or 'college' in last_bot_msg:
+            if 'private' in text_lower or 'unaided' in text_lower:
+                fields['institution_type'] = 'private_unaided'
+            elif 'govt' in text_lower or 'government' in text_lower or 'aided' in text_lower:
+                fields['institution_type'] = 'government_aided'
+            elif 'autonomous' in text_lower:
+                fields['institution_type'] = 'autonomous'
+
+        elif 'farmer' in last_bot_msg:
+            if is_no or 'not a farmer' in text_lower:
+                fields['farmer_status'] = 'non-farmer'
+            elif is_yes or 'farmer' in text_lower:
+                fields['farmer_status'] = 'registered_farmer'
 
     print(f"[ProfileExtractor] Extracted from message: {fields}")
     return fields
@@ -318,7 +395,7 @@ async def extract_profile_fields_llm(
     """
     PROMPT = """You are extracting user eligibility profile information from a conversational message.
 
-Extract ONLY fields that are explicitly stated. Do NOT infer or guess missing fields.
+Extract ONLY fields that are explicitly stated or directly answered in context.
 Return a JSON object with only the detected fields.
 
 Available fields:
@@ -333,16 +410,19 @@ Available fields:
 - age: integer years
 - disability_status: "disabled" or "non-disabled"
 - minority_status: "minority" or "non-minority"
-- residential_status: e.g. "resident_maharashtra"
+- residential_status: e.g. "permanent_resident" or "resident_maharashtra"
 - employment_status: "employed", "unemployed", "self-employed", "student"
 - marital_status: "single", "married", "widow", "widower"
+- institution_type: "government_aided", "private_unaided", "autonomous"
 - occupation: e.g. "farmer", "teacher", "entrepreneur"
 - district: district name string
 
 Special normalizations:
-- "DSY" / "Direct Second Year" → study_stage: "direct_second_year" AND education_level: "undergraduate"
-- "girl student" → gender: "Female" AND education_level detected from context
-- "EWS" → category: "EWS"
+- If bot asked "Do you have any disability" and user says "no" / "no i dont" -> disability_status: "non-disabled"
+- If bot asked "Do you belong to minority" and user says "no" -> minority_status: "non-minority"
+- "DSY" / "Direct Second Year" -> study_stage: "direct_second_year" AND education_level: "undergraduate"
+- "girl student" -> gender: "Female"
+- "EWS" -> category: "EWS"
 
 Conversation context (last 4 messages):
 {context}
@@ -382,4 +462,5 @@ JSON only, no markdown:"""
     except Exception as e:
         print(f"[ProfileExtractor] LLM extraction failed: {e}, using fast fallback")
 
-    return extract_profile_fields_fast(message)
+    return extract_profile_fields_fast(message, conversation_history)
+

@@ -167,7 +167,15 @@ def build_profile_summary_text(user_profile: dict) -> tuple[str, list[str]]:
                     display = f"₹{val/100_000:.1f}L/year"
                 else:
                     display = str(val)
+            elif field == 'disability_status':
+                display = "No (Non-disabled)" if val == 'non-disabled' else ("Yes (Divyang / PwD)" if val == 'disabled' else str(val))
+            elif field == 'minority_status':
+                display = "No (Non-minority)" if val == 'non-minority' else ("Yes (Minority community)" if val == 'minority' else str(val))
+            elif field == 'residential_status':
+                display = "Permanent Resident / Domiciled" if str(val).startswith('resident') or val == 'permanent_resident' else str(val)
             elif field == 'study_stage':
+                display = str(val).replace('_', ' ').title()
+            elif field == 'institution_type':
                 display = str(val).replace('_', ' ').title()
             else:
                 display = str(val)

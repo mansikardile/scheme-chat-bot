@@ -251,8 +251,8 @@ class RAGPipeline:
         3. Determine next missing field
         4. Return acknowledgment + question (no cards)
         """
-        # Extract new fields from this message
-        new_fields = extract_profile_fields_fast(user_message)
+        # Extract new fields from this message (fast regex + contextual QA)
+        new_fields = extract_profile_fields_fast(user_message, session_history)
         if not new_fields and session_history:
             try:
                 new_fields = await extract_profile_fields_llm(
@@ -330,7 +330,7 @@ class RAGPipeline:
         4. Return ALL eligible schemes
         """
         # Extract any profile fields embedded in the request message (e.g. "I'm a student from Assam, show schemes")
-        new_fields = extract_profile_fields_fast(user_message)
+        new_fields = extract_profile_fields_fast(user_message, session_history)
         if new_fields:
             session.update_profile(new_fields)
 
