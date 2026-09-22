@@ -20,8 +20,13 @@ class SchemeCard(BaseModel):
     categories: list[str] = []
     tags: list[str] = []
     has_details: bool = False
+    match_reasons: list[str] = []       # "✓ Maharashtra resident", "✓ EWS category" etc.
+    eligibility_status: str = "ELIGIBLE"
+    application_url: str | None = None
+    is_private: bool = False
 
 class ChatResponse(BaseModel):
     session_id: str
     reply: str
     schemes: list[SchemeCard] = []
+    profile_summary: dict[str, Any] = {}  # Current accumulated user profile
