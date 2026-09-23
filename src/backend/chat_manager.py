@@ -89,6 +89,37 @@ class ChatSession:
                     continue
                 self.user_profile[key] = value
 
+    def clear_profile_fields(self, field_names: list[str]):
+        """
+        Explicitly set the given fields back to None.
+        Used when the LLM detects the user corrected a previous answer
+        (e.g. "I am not a farmer" after previously saying they were).
+        """
+        for field in field_names:
+            if field in self.user_profile:
+                self.user_profile[field] = None
+                print(f"[ChatSession] Cleared profile field: {field}")
+
+    def get_profile_for_llm(self) -> str:
+        """Return the current profile as a readable multi-line string for LLM prompts."""
+        field_labels = {
+            'state': 'State', 'gender': 'Gender', 'category': 'Category/Caste',
+            'age': 'Age', 'annual_family_income': 'Annual Family Income (₹)',
+            'education_level': 'Education Level', 'course': 'Course/Field',
+            'study_stage': 'Study Stage', 'occupation': 'Occupation',
+            'farmer_status': 'Farmer Status', 'land_holding': 'Land Holding (acres)',
+            'marital_status': 'Marital Status', 'disability_status': 'Disability Status',
+            'minority_status': 'Minority Status', 'residential_status': 'Residential Status',
+            'employment_status': 'Employment Status', 'institution_type': 'Institution Type',
+            'housing_status': 'Housing Status', 'district': 'District',
+        }
+        lines = []
+        for field, label in field_labels.items():
+            val = self.user_profile.get(field)
+            if val is not None:
+                lines.append(f"- {label}: {val}")
+        return '\n'.join(lines) if lines else '(No profile information yet)'
+
     def get_profile(self) -> dict:
         """Return a copy of the current accumulated user profile."""
         return dict(self.user_profile)

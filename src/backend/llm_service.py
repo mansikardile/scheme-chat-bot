@@ -57,6 +57,361 @@ You MUST respond in {language_name} language.
 
 
 # ---------------------------------------------------------------------------
+# Combined Intent + Profile Extraction — single LLM call for all profile turns
+# ---------------------------------------------------------------------------
+
+PROFILE_AND_INTENT_PROMPT = """You are the brain of SchemeSathi, an AI assistant that helps Indian citizens find government welfare schemes.
+
+Your task: Analyse the user's latest message in context of the full conversation and return a JSON object with:
+1. The intent of the message
+2. Any new profile fields the user is sharing
+3. Any fields that need to be CLEARED because the user corrected themselves
+
+## INTENT OPTIONS
+- "PROFILE_INFO"    → User is sharing personal info (state, age, gender, income, occupation, etc.)
+- "SCHEME_REQUEST"  → User explicitly asks to SEE/FIND/LIST schemes they qualify for
+- "DETAIL_REQUEST"  → User asks for details about a specific scheme
+- "GREETING"        → Simple hello/hi/namaste
+- "OTHER"           → Unclear or unrelated
+
+## PROFILE FIELDS you can extract:
+- state: Indian state name (title-case string), e.g. "Goa", "Maharashtra"
+- gender: "Male", "Female", or "Transgender"
+- category: "SC", "ST", "OBC", "EWS", "General", "Minority", "Disabled", "VJNT", "SBC", "NT"
+- education_level: "primary", "secondary", "higher_secondary", "diploma", "undergraduate", "postgraduate", "doctoral"
+- study_stage: "first_year", "second_year", "third_year", "fourth_year", "direct_second_year"
+- course: e.g. "law", "engineering", "medical", "arts", "science", "commerce", "management"
+- annual_family_income: integer in rupees (e.g. 400000 for 4 lakh / 4 LPA)
+- age: integer years
+- disability_status: "disabled" or "non-disabled"
+- minority_status: "minority" or "non-minority"
+- residential_status: "permanent_resident" or "resident_<state>"
+- employment_status: "employed", "unemployed", "self_employed", "student"
+- marital_status: "single", "married", "widow", "widower"
+- occupation: e.g. "student", "farmer", "teacher", "lawyer", "doctor", "business_owner", "weaver", "artisan"
+- farmer_status: "registered_farmer", "farmer", "non_farmer"
+- land_holding: float in acres, or 0 for landless
+- institution_type: "government_aided", "private_unaided", "autonomous"
+- district: district name string
+- housing_status: "own_house", "rented", "no_house"
+
+## CLEAR FIELDS
+If the user CORRECTS a previous answer or says they are NOT something, list those field names in "clear_fields".
+
+Examples of corrections that require clears:
+- "sorry I am a law student" (was previously said to be a farmer) → clear_fields: ["occupation", "farmer_status", "land_holding"]
+- "not a farmer" → clear_fields: ["occupation", "farmer_status", "land_holding"]
+- "I am not disabled" → fields: {{disability_status: "non-disabled"}}  (no clear needed, just update)
+- "actually I'm from Maharashtra not Goa" → fields: {{state: "Maharashtra"}}, clear_fields: [] (state just overwrites)
+
+## INCOME PARSING (critical)
+- "4 LPA" / "4 lakh" / "4L" → 400000
+- "4.5 lakh" → 450000
+- "8 lakhs per year" → 800000
+- "1 crore" → 10000000
+
+## IMPORTANT RULES
+- Extract ONLY what is explicitly stated in the current message or clearly answering the bot's last question
+- NEVER infer or assume fields not mentioned
+- If user says "no" to a yes/no question the bot asked, set the appropriate negative value
+- If user says "yes" to a yes/no question, set the appropriate positive value
+- The latest statement ALWAYS wins (e.g. if they previously said farmer and now say law student, clear farmer fields)
+- For occupation = "student" also set employment_status = "student"
+
+## AUTO-INFERENCE RULES (CRITICAL — always apply these):
+- If user mentions "law student", "law college", "llb", "legal studies" → ALWAYS set course="law" AND education_level="undergraduate"
+- If user mentions "engineering student", "btech", "b.tech", "be student" → set course="engineering" AND education_level="undergraduate"
+- If user mentions "medical student", "mbbs student" → set course="medical" AND education_level="undergraduate"
+- If user says "1st year", "first year", "2nd year" etc. at college → set study_stage accordingly AND education_level="undergraduate"
+- If user says "direct second year" or "DSY" → set study_stage="direct_second_year" AND education_level="undergraduate"
+- If occupation/course clearly indicates a degree student, ALWAYS include education_level="undergraduate" in fields
+
+
+Conversation history (most recent last):
+{history}
+
+User's LATEST message: "{message}"
+
+Return ONLY this JSON, no explanation, no markdown fences:
+{{
+  "intent": "<one of the intent options above>",
+  "fields": {{<field_name>: <value>, ...}},
+  "clear_fields": ["<field1>", "<field2>", ...]
+}}"""
+
+
+async def extract_profile_and_intent(
+    user_message: str,
+    conversation_history: list[dict],
+    model_id: str,
+    api_key: str | None = None,
+    model_config: dict | None = None,
+) -> dict:
+    """Single LLM call that simultaneously classifies intent AND extracts/clears profile fields.
+
+    Returns dict with keys:
+      - intent: str (e.g. "PROFILE_INFO", "SCHEME_REQUEST")
+      - fields: dict of new/updated profile fields
+      - clear_fields: list of field names to set to None (user corrections)
+    Falls back to empty fields + "OTHER" intent on error.
+    """
+    # Build compact history string (last 8 turns to keep context manageable)
+    history_lines = []
+    for m in conversation_history[-8:]:
+        role = "User" if m.get('role') == 'user' else "Bot"
+        content = (m.get('content') or '')[:300].replace('\n', ' ')
+        history_lines.append(f"{role}: {content}")
+    history_str = "\n".join(history_lines) if history_lines else "None"
+
+    prompt = PROFILE_AND_INTENT_PROMPT.format(
+        history=history_str,
+        message=user_message,
+    )
+
+    try:
+        model = get_model(model_id, api_key=api_key, model_config=model_config)
+        response = await model.ainvoke([HumanMessage(content=prompt)])
+        text = _extract_text_content(response.content).strip()
+
+        # Strip markdown fences if model wrapped the JSON
+        json_match = re.search(r'\{.*\}', text, re.DOTALL)
+        if json_match:
+            parsed = json.loads(json_match.group())
+            intent = parsed.get('intent', 'OTHER')
+            fields = parsed.get('fields') or {}
+            clear_fields = parsed.get('clear_fields') or []
+
+            # Sanitise: remove null/empty/zero income fields
+            fields = {k: v for k, v in fields.items()
+                      if v is not None and v != '' and v != [] }
+            if 'annual_family_income' in fields and fields['annual_family_income'] in (0, '0', ''):
+                del fields['annual_family_income']
+
+            print(f"[LLM IntentExtract] intent={intent}, fields={fields}, clear={clear_fields}")
+            return {'intent': intent, 'fields': fields, 'clear_fields': clear_fields}
+    except Exception as e:
+        print(f"[LLM IntentExtract] Failed: {e}")
+
+    return {'intent': 'OTHER', 'fields': {}, 'clear_fields': []}
+
+
+# ---------------------------------------------------------------------------
+# Profile Conversation Generation — natural LLM response during intake
+# ---------------------------------------------------------------------------
+
+PROFILE_CONVERSATION_PROMPT = """You are SchemeSathi — a warm, patient, and helpful AI assistant helping Indian citizens find government welfare schemes.
+
+## YOUR TASK
+The user just shared some information. Generate ONE short, natural, conversational response that:
+1. Briefly acknowledges what they said (warmly, 1 sentence max)
+2. Asks the SINGLE MOST IMPORTANT missing question listed below — just that one, no more
+
+## RULES
+- Respond in {language_name}
+- Keep it SHORT: 2–3 sentences max
+- Sound warm and human, NOT robotic
+- Do NOT list bullet points of what you know — just acknowledge naturally in prose
+- Do NOT ask multiple questions — just ONE
+- If the user corrected themselves (e.g. said "not a farmer"), acknowledge the correction gently
+- If user said something contradictory in the past, do NOT bring it up — just work with current profile
+- Do NOT make up any schemes or information
+- If profile is complete (next_question is null), tell them they can say "show me schemes" when ready
+
+## CURRENT USER PROFILE (accumulated so far):
+{profile_summary}
+
+## NEXT QUESTION TO ASK (ask exactly this, but phrase it naturally):
+{next_question}
+
+## RECENT CONVERSATION (last 6 turns):
+{history}
+
+## USER'S LATEST MESSAGE:
+"{user_message}"
+
+Now write your response:"""
+
+
+async def generate_profile_conversation(
+    user_message: str,
+    user_profile: dict,
+    next_question: str | None,
+    conversation_history: list[dict],
+    language: str = 'en',
+    model_id: str = 'gemini-flash',
+    api_key: str | None = None,
+    model_config: dict | None = None,
+) -> str:
+    """Generate a natural conversational reply during profile collection.
+
+    This replaces the hardcoded 'Got it! Here's what I have so far:' template.
+    The LLM will acknowledge what the user said and ask the next question naturally.
+    """
+    from backend.profile_advisor import build_profile_summary_text
+
+    # Build readable profile summary for LLM
+    collected_text, _ = build_profile_summary_text(user_profile)
+    if not collected_text:
+        profile_summary = "(No profile information collected yet)"
+    else:
+        profile_summary = collected_text
+
+    # Build recent history
+    history_lines = []
+    for m in conversation_history[-6:]:
+        role = "User" if m.get('role') == 'user' else "Bot"
+        content = (m.get('content') or '')[:200].replace('\n', ' ')
+        history_lines.append(f"{role}: {content}")
+    history_str = "\n".join(history_lines) if history_lines else "None"
+
+    next_q = next_question or "null — profile is sufficiently complete. Tell them to say 'show me schemes'."
+    lang_name = LANGUAGE_NAMES.get(language, 'English')
+
+    prompt = PROFILE_CONVERSATION_PROMPT.format(
+        language_name=lang_name,
+        profile_summary=profile_summary,
+        next_question=next_q,
+        history=history_str,
+        user_message=user_message,
+    )
+
+    try:
+        model = get_model(model_id, api_key=api_key, model_config=model_config)
+        response = await model.ainvoke([HumanMessage(content=prompt)])
+        text = _extract_text_content(response.content).strip()
+        # Strip URLs just in case
+        text = re.sub(r'https?://[^\s)]+', '', text)
+        return text
+    except Exception as e:
+        print(f"[ProfileConversation] LLM failed: {e}")
+        # Graceful fallback
+        if next_question:
+            return f"Got it! {next_question}"
+        return "I have enough information to search for schemes. Just say **\"Show me the schemes\"** when you're ready!"
+
+
+# ---------------------------------------------------------------------------
+# LLM Final Eligibility Verification — double-checks scheme vs user profile
+# ---------------------------------------------------------------------------
+
+LLM_ELIGIBILITY_VERIFY_PROMPT = """You are a strict eligibility checker for Indian government welfare schemes.
+
+Your job: Verify if this specific user is actually eligible for the scheme. Be VERY strict — reject any scheme that clearly isn't meant for this type of person.
+
+## USER PROFILE:
+{profile}
+
+## SCHEME NAME: {scheme_name}
+
+## SCHEME ELIGIBILITY CRITERIA:
+{eligibility_text}
+
+## MANDATORY CHECKS (check ALL of these):
+
+### 1. BENEFICIARY TYPE CHECK (most important)
+Look at the scheme name and description — what type of person is it ACTUALLY for?
+- Pension for elderly/senior citizens (60+) → INELIGIBLE if user is young (under 50)
+- HIV/AIDS support schemes → INELIGIBLE if user has not mentioned HIV/AIDS
+- Widow/destitute women pension → INELIGIBLE if user is single/young student
+- Nursing training → INELIGIBLE if user is not a nursing student
+- Sports scholarship → INELIGIBLE if user is not an athlete/sportsperson
+- Construction worker/BOCW → INELIGIBLE if user is a student, not a construction worker
+- Farmer schemes → INELIGIBLE if user's occupation is not farmer
+
+### 2. AGE CHECK
+If the scheme has an age requirement (min/max) and user's age clearly doesn't fit → INELIGIBLE
+
+### 3. INCOME CHECK
+If the scheme has an income limit and user's income clearly exceeds it → INELIGIBLE
+
+### 4. STATE CHECK
+If the scheme is for a specific state and user is from a different state → INELIGIBLE
+
+### 5. RELEVANCE CHECK
+Is this scheme actually relevant to what the user is? If it's completely irrelevant to this person's situation, mark as INELIGIBLE.
+
+## DECISION RULES:
+- ELIGIBLE: User clearly matches this scheme's target beneficiary group AND all verifiable conditions pass
+- INELIGIBLE: Scheme is clearly NOT meant for this person OR a verifiable condition fails
+- INSUFFICIENT: Scheme seems relevant but key eligibility info is missing from the profile
+
+Return ONLY this JSON, no explanation, no markdown:
+{{
+  "status": "ELIGIBLE" | "INELIGIBLE" | "INSUFFICIENT",
+  "confidence": <0.0 to 1.0>,
+  "reason": "<one sentence: why eligible or why rejected>",
+  "failed_conditions": ["<specific condition that fails, if any>"]
+}}"""
+
+
+async def llm_verify_eligibility(
+    user_profile: dict,
+    scheme_name: str,
+    eligibility_text: str,
+    model_id: str,
+    api_key: str | None = None,
+    model_config: dict | None = None,
+) -> dict:
+    """LLM final pass to verify a user's eligibility for a specific scheme.
+
+    This is called AFTER the deterministic engine marks a scheme as ELIGIBLE,
+    to catch false positives from incomplete regex rules.
+
+    Returns:
+        dict with keys: status ('ELIGIBLE'/'INELIGIBLE'/'INSUFFICIENT'),
+                        confidence (float), reason (str), failed_conditions (list)
+    """
+    if not eligibility_text or len(eligibility_text.strip()) < 10:
+        # No eligibility text to verify against — trust deterministic engine
+        return {'status': 'ELIGIBLE', 'confidence': 0.7, 'reason': 'No detailed eligibility text available', 'failed_conditions': []}
+
+    # Build human-readable profile string
+    profile_lines = []
+    field_labels = {
+        'state': 'State', 'gender': 'Gender', 'category': 'Category/Caste',
+        'age': 'Age', 'annual_family_income': 'Annual Family Income (₹)',
+        'education_level': 'Education Level', 'course': 'Course/Field',
+        'study_stage': 'Study Stage', 'occupation': 'Occupation',
+        'farmer_status': 'Farmer Status', 'land_holding': 'Land Holding (acres)',
+        'marital_status': 'Marital Status', 'disability_status': 'Disability Status',
+        'minority_status': 'Minority Status', 'residential_status': 'Residential Status',
+        'employment_status': 'Employment Status', 'institution_type': 'Institution Type',
+        'housing_status': 'Housing Status', 'district': 'District',
+    }
+    for field, label in field_labels.items():
+        val = user_profile.get(field)
+        if val is not None:
+            profile_lines.append(f"- {label}: {val}")
+    profile_str = "\n".join(profile_lines) if profile_lines else "No profile information available"
+
+    prompt = LLM_ELIGIBILITY_VERIFY_PROMPT.format(
+        profile=profile_str,
+        scheme_name=scheme_name,
+        eligibility_text=eligibility_text[:2000],  # Cap to avoid token overflow
+    )
+
+    try:
+        model = get_model(model_id, api_key=api_key, model_config=model_config)
+        response = await model.ainvoke([HumanMessage(content=prompt)])
+        text = _extract_text_content(response.content).strip()
+
+        json_match = re.search(r'\{.*\}', text, re.DOTALL)
+        if json_match:
+            result = json.loads(json_match.group())
+            status = result.get('status', 'ELIGIBLE')
+            confidence = float(result.get('confidence', 0.7))
+            reason = result.get('reason', '')
+            failed = result.get('failed_conditions', [])
+            print(f"[LLMVerify] {scheme_name}: {status} (conf={confidence:.2f}) — {reason}")
+            return {'status': status, 'confidence': confidence, 'reason': reason, 'failed_conditions': failed}
+    except Exception as e:
+        print(f"[LLMVerify] Failed for {scheme_name}: {e}")
+
+    # On failure, trust deterministic engine
+    return {'status': 'ELIGIBLE', 'confidence': 0.6, 'reason': 'LLM verification unavailable', 'failed_conditions': []}
+
+
+# ---------------------------------------------------------------------------
 # Filter extraction — used as a fast pre-pass to build structured SQL queries
 # ---------------------------------------------------------------------------
 

@@ -134,6 +134,34 @@ def detect_intent_area(conversation_history: list[dict], current_message: str) -
     return 'general'
 
 
+# Courses that imply undergraduate education level
+_UNDERGRADUATE_COURSES = {
+    'law', 'engineering', 'medical', 'mbbs', 'btech', 'be', 'bsc', 'bcom', 'ba',
+    'llb', 'bba', 'architecture', 'design', 'nursing', 'pharmacy', 'ayurveda', 'dental'
+}
+
+
+def _infer_education_level(user_profile: dict) -> str | None:
+    """Infer education_level from course if not explicitly set."""
+    course = (user_profile.get('course') or '').lower()
+    study_stage = user_profile.get('study_stage') or ''
+    education_level = user_profile.get('education_level')
+
+    if education_level:
+        return education_level  # Already set
+
+    # If any undergraduate-level course is set, infer undergraduate
+    for ug_course in _UNDERGRADUATE_COURSES:
+        if ug_course in course:
+            return 'undergraduate'
+
+    # If study_stage like first_year/second_year is set (college context), infer undergraduate
+    if study_stage in ('first_year', 'second_year', 'third_year', 'fourth_year', 'direct_second_year'):
+        return 'undergraduate'
+
+    return None
+
+
 def get_next_question(
     user_profile: dict,
     conversation_history: list[dict],
@@ -145,10 +173,25 @@ def get_next_question(
     Returns:
         (field_name, question_text) — or (None, None) if profile is sufficiently complete.
     """
+    # Auto-inject inferred education_level if we can derive it from course/study_stage
+    inferred_edu = _infer_education_level(user_profile)
+    if inferred_edu and not user_profile.get('education_level'):
+        user_profile = dict(user_profile)  # Don't mutate the original
+        user_profile['education_level'] = inferred_edu
+
     intent_area = detect_intent_area(conversation_history, current_message)
     required_fields = INTENT_REQUIRED_FIELDS.get(intent_area, INTENT_REQUIRED_FIELDS['general'])
 
+    # Determine the effective occupation
+    occupation = (user_profile.get('occupation') or '').lower()
+    farmer_status = user_profile.get('farmer_status')
+    is_farmer = (occupation == 'farmer' or farmer_status == 'farmer' or farmer_status == 'registered_farmer')
+
     for field in required_fields:
+        # Skip farmer-specific fields if user is not a farmer
+        if field in ('farmer_status', 'land_holding') and not is_farmer:
+            continue
+
         val = user_profile.get(field)
         if val is None:
             question = FIELD_QUESTIONS.get(field, f"Could you tell me your {field.replace('_', ' ')}?")

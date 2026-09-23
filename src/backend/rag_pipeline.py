@@ -13,7 +13,10 @@ import re
 import asyncio
 
 from backend.scheme_loader import scheme_loader
-from backend.llm_service import generate_response, generate_response_stream
+from backend.llm_service import (
+    generate_response, generate_response_stream,
+    extract_profile_and_intent, generate_profile_conversation, llm_verify_eligibility,
+)
 from backend.intent_classifier import classify_intent_fast, classify_intent_llm, Intent
 from backend.profile_extractor import extract_profile_fields_fast, extract_profile_fields_llm
 from backend.profile_advisor import get_next_question, format_profile_for_response
@@ -27,6 +30,7 @@ from backend.private_scheme_search import (
     get_private_scheme_context,
     PRIVATE_SCHEMES_CACHE,
 )
+from backend.web_scheme_search import search_schemes_web, build_web_scheme_card
 
 
 # ---------------------------------------------------------------------------
@@ -347,38 +351,60 @@ class RAGPipeline:
         model_config: dict | None = None,
     ) -> tuple[str, list[dict], dict]:
         """
-        Handle a profile-info message:
-        1. Extract new fields
-        2. Merge into session profile
-        3. Determine next missing field
-        4. Return acknowledgment + question (no cards)
+        Handle a profile-info message — fully LLM-powered.
+
+        1. Single LLM call extracts intent + new fields + fields to clear (handles
+           corrections, negations, conversational context — no regex)
+        2. Clears corrected fields, merges new ones into session profile
+        3. Determines the next missing field via profile_advisor logic
+        4. LLM generates a warm, natural conversational reply asking that one question
         """
-        # Extract new fields from this message (fast regex + contextual QA)
-        new_fields = extract_profile_fields_fast(user_message, session_history)
-        if not new_fields and session_history:
-            try:
-                new_fields = await extract_profile_fields_llm(
-                    user_message, session_history, model_id, api_key=api_key, model_config=model_config
-                )
-            except Exception as e:
-                print(f"[RAGPipeline] LLM profile extraction error: {e}")
-                new_fields = {}
+        # Step 1: LLM extracts intent + profile fields + corrections in one call
+        llm_result = await extract_profile_and_intent(
+            user_message=user_message,
+            conversation_history=session_history,
+            model_id=model_id,
+            api_key=api_key,
+            model_config=model_config,
+        )
 
-        # Handle contradictions
-        contradiction = self._detect_contradiction(new_fields, session.get_profile())
-        if contradiction:
-            reply = contradiction
-            return reply, [], session.get_profile()
+        new_fields = llm_result.get('fields') or {}
+        clear_fields = llm_result.get('clear_fields') or []
+        llm_intent = llm_result.get('intent', 'PROFILE_INFO')
 
-        session.update_profile(new_fields)
+        # If LLM classified this as SCHEME_REQUEST, hand off to scheme handler
+        if llm_intent == 'SCHEME_REQUEST':
+            return await self.handle_scheme_request(
+                user_message, session_history, session, language, model_id, api_key, model_config
+            )
+
+        # Step 2a: Clear corrected fields first
+        if clear_fields:
+            session.clear_profile_fields(clear_fields)
+
+        # Step 2b: Merge new fields into profile
+        if new_fields:
+            session.update_profile(new_fields)
+
         profile = session.get_profile()
 
-        # Determine next missing field
+        # Step 3: Determine next missing field using advisor logic
         next_field, next_question = get_next_question(
             profile, session_history, user_message
         )
 
-        reply = format_profile_for_response(profile, next_field)
+        # Step 4: LLM generates natural conversational reply
+        reply = await generate_profile_conversation(
+            user_message=user_message,
+            user_profile=profile,
+            next_question=next_question,
+            conversation_history=session_history,
+            language=language,
+            model_id=model_id,
+            api_key=api_key,
+            model_config=model_config,
+        )
+
         return reply, [], profile  # No scheme cards in profile collection mode
 
     def _detect_contradiction(self, new_fields: dict, existing_profile: dict) -> str | None:
@@ -425,14 +451,27 @@ class RAGPipeline:
         model_config: dict | None = None,
     ) -> tuple[str, list[dict], dict]:
         """
-        Full eligibility pipeline:
-        1. Retrieve broad candidates
-        2. Extract eligibility rules per scheme (LLM, cached)
-        3. Run deterministic eligibility engine
-        4. Return ALL eligible schemes
+        Full eligibility pipeline with LLM final verification:
+        1. LLM extracts any profile fields embedded in the request
+        2. Retrieve broad candidates from DB
+        3. LLM extracts eligibility rules per scheme (cached)
+        4. Deterministic eligibility engine filters candidates
+        5. LLM final verification cross-checks each ELIGIBLE scheme vs full profile
+        6. Return only 100%-verified eligible schemes
         """
-        # Extract any profile fields embedded in the request message (e.g. "I'm a student from Assam, show schemes")
-        new_fields = extract_profile_fields_fast(user_message, session_history)
+        # Extract any profile fields embedded in the request (LLM-powered)
+        llm_result = await extract_profile_and_intent(
+            user_message=user_message,
+            conversation_history=session_history,
+            model_id=model_id,
+            api_key=api_key,
+            model_config=model_config,
+        )
+        new_fields = llm_result.get('fields') or {}
+        clear_fields = llm_result.get('clear_fields') or []
+
+        if clear_fields:
+            session.clear_profile_fields(clear_fields)
         if new_fields:
             session.update_profile(new_fields)
 
@@ -448,31 +487,32 @@ class RAGPipeline:
                 [], profile
             )
 
-        # 1. Broad candidate retrieval: Government (DuckDB) + Private/CSR (Curated + AI Search)
+        # 1. Broad candidate retrieval: Government (DuckDB) + Private/CSR + Web Search (parallel)
         gov_task = asyncio.to_thread(_retrieve_candidates, profile, user_message, 40)
         pvt_task = search_private_schemes_ai(profile, model_id=model_id, api_key=api_key, model_config=model_config)
+        web_task = search_schemes_web(profile, model_id=model_id, api_key=api_key, model_config=model_config)
 
-        gov_candidates, pvt_candidates = await asyncio.gather(gov_task, pvt_task)
-        # Place private and government candidates together
-        candidates = list(pvt_candidates) + list(gov_candidates)
-        if not candidates:
+        gov_candidates, pvt_candidates, web_candidates = await asyncio.gather(gov_task, pvt_task, web_task)
+
+        # Web candidates are already LLM-verified — separate them out before deterministic pipeline
+        # They will be added directly to eligible results after the deterministic pipeline runs
+        db_candidates = list(pvt_candidates) + list(gov_candidates)
+        if not db_candidates and not web_candidates:
             return _no_match_response(profile, 0), [], profile
 
-        # 2. Extract eligibility rules for each candidate in parallel
+        # 2. Extract eligibility rules for each candidate in parallel (LLM, cached)
         async def _fetch_candidate_rules(candidate):
             slug = candidate.get('slug', '')
             name = candidate.get('schemeName', slug)
             states = candidate.get('beneficiaryState', [])
             categories = candidate.get('schemeCategory', [])
 
-            # Check if candidate already has pre-attached rules
             if candidate.get('rules'):
                 session.eligibility_cache[slug] = candidate['rules']
-                return slug, name, candidate['rules']
+                return slug, name, candidate['rules'], ''
 
-            # Check session cache
             if slug in session.eligibility_cache:
-                return slug, name, session.eligibility_cache[slug]
+                return slug, name, session.eligibility_cache[slug], ''
 
             # Get eligibility text
             if slug.startswith('pvt-') or slug in PRIVATE_SCHEMES_CACHE:
@@ -503,15 +543,24 @@ class RAGPipeline:
                 model_config=model_config,
             )
             session.eligibility_cache[slug] = rules
-            return slug, name, rules
+            # Return eligibility_text so we can use it for LLM verification
+            return slug, name, rules, eligibility_text or ''
 
-        scheme_rules_list = await asyncio.gather(*[_fetch_candidate_rules(c) for c in candidates])
+        # Only process db_candidates through deterministic + LLM pipeline
+        if db_candidates:
+            scheme_rules_list = await asyncio.gather(*[_fetch_candidate_rules(c) for c in db_candidates])
+        else:
+            scheme_rules_list = []
 
         # 3. Deterministic evaluation
-        evaluation_results = evaluate_scheme_batch(profile, scheme_rules_list)
+        # scheme_rules_list now has tuples of (slug, name, rules, eligibility_text)
+        evaluation_results = evaluate_scheme_batch(
+            profile,
+            [(slug, name, rules) for slug, name, rules, _ in scheme_rules_list]
+        )
 
-        # 4. Separate results
-        eligible = [
+        # 4. Separate deterministic results
+        eligible_det = [
             (slug, name, result)
             for slug, name, result in evaluation_results
             if result.status == EligibilityStatus.ELIGIBLE
@@ -522,23 +571,86 @@ class RAGPipeline:
             if result.status == EligibilityStatus.INSUFFICIENT_INFORMATION
         ]
 
-        session.last_eligible_slugs = [slug for slug, _, _ in eligible]
-
-        print(f"[RAGPipeline] Eligibility results: "
-              f"{len(eligible)} ELIGIBLE, "
+        print(f"[RAGPipeline] Deterministic: "
+              f"{len(eligible_det)} ELIGIBLE, "
               f"{len([r for _, _, r in evaluation_results if r.status == EligibilityStatus.INELIGIBLE])} INELIGIBLE, "
               f"{len(insufficient)} INSUFFICIENT")
+
+        # 5. LLM final verification — cross-check each deterministically-eligible scheme
+        # Build a lookup for eligibility text
+        elig_text_map = {slug: elig_text for slug, _, _, elig_text in scheme_rules_list}
+
+        async def _llm_verify_scheme(slug, name, det_result):
+            elig_text = elig_text_map.get(slug, '')
+            llm_check = await llm_verify_eligibility(
+                user_profile=profile,
+                scheme_name=name,
+                eligibility_text=elig_text,
+                model_id=model_id,
+                api_key=api_key,
+                model_config=model_config,
+            )
+            return slug, name, det_result, llm_check
+
+        if eligible_det:
+            verified_results = await asyncio.gather(
+                *[_llm_verify_scheme(slug, name, result) for slug, name, result in eligible_det]
+            )
+        else:
+            verified_results = []
+
+        # 6. Keep only schemes that pass LLM verification (confidence >= 0.75, strict)
+        eligible = []
+        llm_rejected = []
+        for slug, name, det_result, llm_check in verified_results:
+            status = llm_check.get('status', 'ELIGIBLE')
+            confidence = llm_check.get('confidence', 0.7)
+            if status == 'ELIGIBLE' and confidence >= 0.75:
+                eligible.append((slug, name, det_result))
+            elif status == 'INELIGIBLE':
+                print(f"[LLMVerify] Removed '{name}' — {llm_check.get('reason', '')}")
+                llm_rejected.append((slug, name, det_result))
+            else:
+                # INSUFFICIENT or low confidence — only keep if confidence is reasonably high
+                if confidence >= 0.60:
+                    eligible.append((slug, name, det_result))
+                else:
+                    print(f"[LLMVerify] Excluded '{name}' (low confidence {confidence:.2f}) — {llm_check.get('reason', '')}")
+                    llm_rejected.append((slug, name, det_result))
+
+
+        # 7. Add web-search results (pre-verified by LLM) to the eligible set
+        web_scheme_cards = []
+        if web_candidates:
+            from backend.eligibility_engine import EligibilityResult, EligibilityStatus as ES
+            for wc in web_candidates:
+                slug = wc.get('slug', '')
+                name = wc.get('schemeName', '')
+                # Create a synthetic ELIGIBLE result for web schemes
+                web_result = EligibilityResult(
+                    status=ES.ELIGIBLE,
+                    match_reasons=[f"✓ {wc.get('llm_reason', 'Matches your profile (web)')}"],
+                )
+                eligible.append((slug, name, web_result))
+                session.last_eligible_slugs.append(slug)
+                web_scheme_cards.append(build_web_scheme_card(wc))
+
+        session.last_eligible_slugs = [slug for slug, _, _ in eligible]
+
+        print(f"[RAGPipeline] After LLM verification: {len(eligible)} confirmed ELIGIBLE "
+              f"({len(llm_rejected)} removed by LLM, {len(web_candidates)} from web)")
 
         # Build response
         if eligible:
             reply = _format_eligible_results(eligible, profile)
-            scheme_cards = [
+            db_scheme_cards = [
                 self._build_card(slug, name, result)
                 for slug, name, result in eligible
+                if not any(wc['slug'] == slug for wc in web_candidates)
             ]
-            return reply, scheme_cards, profile
+            all_cards = db_scheme_cards + web_scheme_cards
+            return reply, all_cards, profile
         elif insufficient:
-            # Find the most common missing field across INSUFFICIENT results
             missing_counts: dict[str, int] = {}
             for _, _, result in insufficient:
                 for f in result.missing_fields:
@@ -553,10 +665,10 @@ class RAGPipeline:
                     f"to confirm your eligibility:\n\n{question}"
                 )
             else:
-                reply = _no_match_response(profile, len(candidates))
+                reply = _no_match_response(profile, len(db_candidates))
             return reply, [], profile
         else:
-            return _no_match_response(profile, len(candidates)), [], profile
+            return _no_match_response(profile, len(db_candidates)), [], profile
 
     def _build_card(self, slug: str, name: str, result) -> dict:
         """Build a scheme card dict with match reasons."""
@@ -672,62 +784,52 @@ class RAGPipeline:
         session=None,
     ) -> tuple[str, list[dict], dict]:
         """
-        Full RAG pipeline (non-streaming).
+        Full RAG pipeline (non-streaming) — LLM-first intent classification.
 
         Returns:
             (reply_text, scheme_cards, updated_profile)
         """
-        profile = user_profile or {}
+        profile = (session.get_profile() if session else {}) or user_profile or {}
 
-        # Fast synchronous intent classification
-        intent = classify_intent_fast(user_message, session_history)
-        fast_profile = extract_profile_fields_fast(user_message, session_history)
-        if fast_profile and intent not in (Intent.SCHEME_REQUEST, Intent.DETAIL_REQUEST):
-            intent = Intent.PROFILE_INFO
-
-        if intent == Intent.OTHER:
-            intent = await classify_intent_llm(
-                user_message, session_history, model_id, api_key, model_config
-            )
-        print(f"[RAGPipeline] Intent: {intent.value}")
-
-        if intent == Intent.SCHEME_REQUEST:
-            if session:
-                reply, cards, updated_profile = await self.handle_scheme_request(
-                    user_message, session_history, session, language, model_id, api_key, model_config
-                )
-            else:
-                reply = "Please start a new chat session to search for schemes."
-                cards, updated_profile = [], profile
-        elif intent == Intent.DETAIL_REQUEST:
-            if session:
-                reply, cards, updated_profile = await self.handle_detail_request(
-                    user_message, session_history, session, language, model_id, api_key, model_config
-                )
-            else:
-                reply, cards, updated_profile = await self._generic_response(
-                    user_message, session_history, profile, language, model_id, api_key, model_config
-                )
-        elif intent == Intent.GREETING:
+        # Fast check for greetings (no LLM needed)
+        msg_lower = user_message.lower().strip()
+        import re as _re
+        if _re.match(r'^(?:hi|hello|hey|namaste|namaskar|hii+|heyyy*)[!.\s]*$', msg_lower):
             reply = (
                 "Hello! 👋 I'm SchemeSathi — I help you find government schemes and scholarships "
                 "you're actually eligible for.\n\n"
-                "To get started, tell me a bit about yourself:\n"
-                "• Which state are you from?\n"
-                "• Are you a student, farmer, entrepreneur, or something else?\n"
-                "• Any specific type of scheme you're looking for?"
+                "To get started, tell me a bit about yourself — which state are you from, "
+                "and what kind of help are you looking for? (education, farming, business, health...)"
             )
-            cards, updated_profile = [], profile
-        else:
-            # PROFILE_INFO, CLARIFICATION, OTHER
+            return reply, [], profile
+
+        # Fast check for explicit scheme requests
+        intent_fast = classify_intent_fast(user_message, session_history)
+        if intent_fast == Intent.SCHEME_REQUEST:
             if session:
-                reply, cards, updated_profile = await self.handle_profile_info(
+                return await self.handle_scheme_request(
                     user_message, session_history, session, language, model_id, api_key, model_config
                 )
-            else:
-                reply, cards, updated_profile = await self._generic_response(
-                    user_message, session_history, profile, language, model_id, api_key, model_config
+            return "Please start a new chat session to search for schemes.", [], profile
+
+        if intent_fast == Intent.DETAIL_REQUEST:
+            if session:
+                return await self.handle_detail_request(
+                    user_message, session_history, session, language, model_id, api_key, model_config
                 )
+            return await self._generic_response(
+                user_message, session_history, profile, language, model_id, api_key, model_config
+            )
+
+        # For all other messages (PROFILE_INFO, CLARIFICATION, OTHER) — use LLM-first handler
+        if session:
+            reply, cards, updated_profile = await self.handle_profile_info(
+                user_message, session_history, session, language, model_id, api_key, model_config
+            )
+        else:
+            reply, cards, updated_profile = await self._generic_response(
+                user_message, session_history, profile, language, model_id, api_key, model_config
+            )
 
         return reply, cards, updated_profile
 
@@ -743,37 +845,38 @@ class RAGPipeline:
         session=None,
     ):
         """
-        Streaming RAG pipeline.
+        Streaming RAG pipeline — LLM-first intent classification.
 
         Yields dicts:
           {"type": "text",    "content": "<chunk>"}
           {"type": "cards",   "content": [<card_dict>, ...]}
           {"type": "profile", "content": <profile_dict>}
         """
-        # Classify intent synchronously for speed
-        intent = classify_intent_fast(user_message, session_history)
-        fast_profile = extract_profile_fields_fast(user_message, session_history)
-        if fast_profile and intent not in (Intent.SCHEME_REQUEST, Intent.DETAIL_REQUEST):
-            intent = Intent.PROFILE_INFO
-
-        print(f"[RAGPipeline] Stream intent (fast): {intent.value}")
-
-        # For ambiguous OTHER cases only, refine with LLM
-        if intent == Intent.OTHER:
-            intent = await classify_intent_llm(
-                user_message, session_history, model_id, api_key, model_config
-            )
-            print(f"[RAGPipeline] Stream intent (LLM): {intent.value}")
-
         profile = (session.get_profile() if session else {}) or user_profile or {}
 
-        if intent == Intent.SCHEME_REQUEST:
+        # Fast check for greetings
+        msg_lower = user_message.lower().strip()
+        import re as _re
+        if _re.match(r'^(?:hi|hello|hey|namaste|namaskar|hii+|heyyy*)[!.\s]*$', msg_lower):
+            greeting = (
+                "Hello! 👋 I'm SchemeSathi — I help you find government schemes and scholarships "
+                "you're actually eligible for.\n\n"
+                "To get started, tell me a bit about yourself — which state are you from, "
+                "and what kind of help are you looking for? (education, farming, business, health...)"
+            )
+            yield {"type": "text", "content": greeting}
+            yield {"type": "cards", "content": []}
+            yield {"type": "profile", "content": profile}
+            return
+
+        # Fast check for explicit scheme requests
+        intent_fast = classify_intent_fast(user_message, session_history)
+
+        if intent_fast == Intent.SCHEME_REQUEST:
             if session:
-                # Run full eligibility pipeline (non-streaming computation)
                 reply, cards, updated_profile = await self.handle_scheme_request(
                     user_message, session_history, session, language, model_id, api_key, model_config
                 )
-                # Stream the text character-by-character for smooth UX
                 chunk_size = 50
                 for i in range(0, len(reply), chunk_size):
                     yield {"type": "text", "content": reply[i:i+chunk_size]}
@@ -784,8 +887,9 @@ class RAGPipeline:
                 yield {"type": "text", "content": "Please start a new chat session."}
                 yield {"type": "cards", "content": []}
                 yield {"type": "profile", "content": profile}
+            return
 
-        elif intent == Intent.DETAIL_REQUEST:
+        if intent_fast == Intent.DETAIL_REQUEST:
             if session:
                 reply, cards, updated_profile = await self.handle_detail_request(
                     user_message, session_history, session, language, model_id, api_key, model_config
@@ -804,40 +908,27 @@ class RAGPipeline:
                     yield {"type": "text", "content": chunk}
                 yield {"type": "cards", "content": []}
                 yield {"type": "profile", "content": profile}
+            return
 
-        elif intent == Intent.GREETING:
-            greeting = (
-                "Hello! 👋 I'm SchemeSathi — I help you find government schemes and scholarships "
-                "you're actually eligible for.\n\n"
-                "To get started, tell me a bit about yourself:\n"
-                "• Which state are you from?\n"
-                "• Are you a student, farmer, entrepreneur, or something else?\n"
-                "• Any specific type of scheme you're looking for?"
+        # All other messages → LLM-first profile handler
+        if session:
+            reply, cards, updated_profile = await self.handle_profile_info(
+                user_message, session_history, session, language, model_id, api_key, model_config
             )
-            yield {"type": "text", "content": greeting}
-            yield {"type": "cards", "content": []}
-            yield {"type": "profile", "content": profile}
-
         else:
-            # PROFILE_INFO / CLARIFICATION / OTHER → collect profile, no cards
-            if session:
-                reply, cards, updated_profile = await self.handle_profile_info(
-                    user_message, session_history, session, language, model_id, api_key, model_config
-                )
-            else:
-                reply = await generate_response(
-                    model_id, session_history, user_message, "",
-                    language=language, api_key=api_key, model_config=model_config,
-                    user_profile=profile,
-                )
-                cards, updated_profile = [], profile
+            reply = await generate_response(
+                model_id, session_history, user_message, "",
+                language=language, api_key=api_key, model_config=model_config,
+                user_profile=profile,
+            )
+            cards, updated_profile = [], profile
 
-            chunk_size = 50
-            for i in range(0, len(reply), chunk_size):
-                yield {"type": "text", "content": reply[i:i+chunk_size]}
-                await asyncio.sleep(0)
-            yield {"type": "cards", "content": []}  # NO cards in profile collection
-            yield {"type": "profile", "content": updated_profile}
+        chunk_size = 50
+        for i in range(0, len(reply), chunk_size):
+            yield {"type": "text", "content": reply[i:i+chunk_size]}
+            await asyncio.sleep(0)
+        yield {"type": "cards", "content": []}  # NO cards in profile collection
+        yield {"type": "profile", "content": updated_profile}
 
     async def _generic_response(
         self, user_message, session_history, profile, language, model_id, api_key, model_config
